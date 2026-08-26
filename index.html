@@ -1,21 +1,112 @@
-<!DO
-CTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- build 2026-08-26T-final -->
 <title>DashRite HOT Leads — All Markets</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-*{box-sizing:border-box}
-body{margin:0;background:#0d1526;color:#e9e9ed;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;padding:32px 24px 60px}
-h1{margin:0;font-size:26px;font-weight:700;background:linear-gradient(100deg,#e0304a,#ff5a6e 45%,#e0304a);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.meta{font-size:13px;color:#9397ab;margin:6px 0 28px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;max-width:1180px}
-.card{display:block;padding:16px 18px;border:1px solid #2c3049;border-radius:8px;background:#161c2e;text-decoration:none;color:#e9e9ed;transition:border-color .16s ease,background .16s ease}
-.card:hover{border-color:#e0304a;background:#1a2136}
-.st{font-size:17px;font-weight:600}
-.ln{font-size:12px;color:#9397ab;margin-top:4px}
-.foot{margin-top:36px;font-size:12px;color:#5a5f77}
-</style></head><body>
-<h1>DashRite HOT Leads — All Markets</h1>
-<div class="meta">Seventeen markets · 3,437 companies · tier-ranked, owner-led, pre-qualified</div>
-<div class="grid"><a class="card" href="arizona.html"><div class="st">Arizona</div><div class="ln">200 companies · 122 Tier A · verification pending</div></a><a class="card" href="california.html"><div class="st">California</div><div class="ln">200 companies · 144 Tier A · verification pending</div></a><a class="card" href="colorado.html"><div class="st">Colorado</div><div class="ln">200 companies · 136 Tier A · verification pending</div></a><a class="card" href="chicago.html"><div class="st">Chicago</div><div class="ln">238 companies · 110 Tier A · 111 verified</div></a><a class="card" href="florida.html"><div class="st">Florida</div><div class="ln">200 companies · 120 Tier A · 69 verified</div></a><a class="card" href="georgia.html"><div class="st">Georgia</div><div class="ln">200 companies · 128 Tier A · verification pending</div></a><a class="card" href="las-vegas.html"><div class="st">Las Vegas</div><div class="ln">200 companies · 155 Tier A · verification pending</div></a><a class="card" href="michigan.html"><div class="st">Michigan</div><div class="ln">200 companies · 145 Tier A · verification pending</div></a><a class="card" href="minnesota.html"><div class="st">Minnesota</div><div class="ln">200 companies · 153 Tier A · verification pending</div></a><a class="card" href="missouri.html"><div class="st">Missouri</div><div class="ln">200 companies · 151 Tier A · verification pending</div></a><a class="card" href="new-york.html"><div class="st">New York</div><div class="ln">200 companies · 141 Tier A · verification pending</div></a><a class="card" href="north-carolina.html"><div class="st">North Carolina</div><div class="ln">200 companies · 149 Tier A · verification pending</div></a><a class="card" href="ohio.html"><div class="st">Ohio</div><div class="ln">200 companies · 148 Tier A · verification pending</div></a><a class="card" href="oregon.html"><div class="st">Oregon</div><div class="ln">200 companies · 126 Tier A · verification pending</div></a><a class="card" href="pennsylvania.html"><div class="st">Pennsylvania</div><div class="ln">200 companies · 153 Tier A · verification pending</div></a><a class="card" href="texas.html"><div class="st">Texas</div><div class="ln">200 companies · 118 Tier A · 49 verified</div></a><a class="card" href="washington.html"><div class="st">Washington</div><div class="ln">200 companies · 133 Tier A · verification pending</div></a></div>
-<div class="foot">DashRite Advisory LLC · Built RITE!</div>
-</body></html>
+  :root { --bg:#0f1220; --card:#161a2c; --line:#252b45; --tx:#e9e9ed; --mut:#9397ab; --red:#e0304a; --grn:#4ec37a; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--tx);font-family:Inter,system-ui,sans-serif;padding:34px 26px 44px}
+  .wrap{max-width:1180px;margin:0 auto}
+  h1{font-size:30px;font-weight:700;margin:0 0 6px;background:linear-gradient(92deg,#e0304a,#ff5a6e 46%,#e0304a);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:13px;color:var(--mut);margin-bottom:14px}
+  .tot{font-size:13px;color:var(--tx);opacity:.92;margin-bottom:8px}
+  .tot b{color:#ff8a9a}
+  .note{font-size:12px;color:var(--mut);margin-bottom:22px;max-width:760px;line-height:1.6}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+  .mk{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:15px 17px;transition:border-color .15s,transform .15s}
+  .mk:hover{border-color:var(--red);transform:translateY(-2px)}
+  .mk.isdone{border-color:#2c4a38}
+  .mk.isdone:hover{border-color:var(--grn)}
+  .hd{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
+  .nm{font-size:16px;font-weight:600}
+  .bg{font-size:9px;letter-spacing:.09em;font-weight:700;padding:2px 7px;border-radius:3px;white-space:nowrap}
+  .bg.done{background:rgba(78,195,122,.16);color:var(--grn)}
+  .bg.open{background:rgba(147,151,171,.14);color:var(--mut)}
+  .mt{font-size:12px;color:var(--mut);line-height:1.55}
+  .vv{color:var(--grn);font-weight:600}
+  .pp{color:var(--mut)}
+  .roll{display:inline-block;margin:26px 0 0;font-size:13px;color:#ff8a9a;text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:9px 15px}
+  .roll:hover{border-color:var(--red)}
+  .ft{margin-top:30px;padding-top:16px;border-top:1px solid var(--line);font-size:11px;color:var(--mut)}
+</style></head>
+<body><div class="wrap">
+  <h1>DashRite HOT Leads — All Markets</h1>
+  <div class="sub">Seventeen markets · 3,438 companies · tier-ranked, owner-led, pre-qualified</div>
+  <div class="tot"><b>11 markets closed · 955 verified decision-maker relationships</b> · six markets queued</div>
+  <div class="note">A closed market means every workable Tier A row carries a named principal, a phone number and a written reason it survived — or a written reason it was disqualified. Queued markets hold the raw list only; no verification has been run and none is claimed.</div>
+  <div class="grid">
+  <a class="mk isdone" href="arizona.html">
+    <div class="hd"><span class="nm">Arizona</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">200 companies · 62 <span class="vv">verified</span></div>
+  </a>
+  <a class="mk isdone" href="california.html">
+    <div class="hd"><span class="nm">California</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">200 companies · 99 <span class="vv">verified</span></div>
+  </a>
+  <a class="mk isdone" href="chicago.html">
+    <div class="hd"><span class="nm">Chicago</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">238 companies · 112 <span class="vv">verified</span></div>
+  </a>
+  <a class="mk isdone" href="colorado.html">
+    <div class="hd"><span class="nm">Colorado</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">200 companies · 74 <span class="vv">verified</span></div>
+  </a>
+  <a class="mk isdone" href="florida.html">
+    <div class="hd"><span class="nm">Florida</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">200 companies · 68 <span class="vv">verified</span></div>
+  </a>
+  <a class="mk isdone" href="georgia.html">
+    <div class="hd"><span class="nm">Georgia</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">200 companies · 96 <span class="vv">verified</span></div>
+  </a>
+  <a class="mk" href="las-vegas.html">
+    <div class="hd"><span class="nm">Las Vegas</span><span class="bg open">QUEUED</span></div>
+    <div class="mt">200 companies · 155 Tier A · <span class="pp">verification pending</span></div>
+  </a>
+  <a class="mk isdone" href="michigan.html">
+    <div class="hd"><span class="nm">Michigan</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">200 companies · 113 <span class="vv">verified</span></div>
+  </a>
+  <a class="mk" href="minnesota.html">
+    <div class="hd"><span class="nm">Minnesota</span><span class="bg open">QUEUED</span></div>
+    <div class="mt">200 companies · 153 Tier A · <span class="pp">verification pending</span></div>
+  </a>
+  <a class="mk" href="missouri.html">
+    <div class="hd"><span class="nm">Missouri</span><span class="bg open">QUEUED</span></div>
+    <div class="mt">200 companies · 151 Tier A · <span class="pp">verification pending</span></div>
+  </a>
+  <a class="mk" href="new-york.html">
+    <div class="hd"><span class="nm">New York</span><span class="bg open">QUEUED</span></div>
+    <div class="mt">200 companies · 141 Tier A · <span class="pp">verification pending</span></div>
+  </a>
+  <a class="mk isdone" href="north-carolina.html">
+    <div class="hd"><span class="nm">North Carolina</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">200 companies · 92 <span class="vv">verified</span></div>
+  </a>
+  <a class="mk isdone" href="ohio.html">
+    <div class="hd"><span class="nm">Ohio</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">200 companies · 98 <span class="vv">verified</span></div>
+  </a>
+  <a class="mk" href="oregon.html">
+    <div class="hd"><span class="nm">Oregon</span><span class="bg open">QUEUED</span></div>
+    <div class="mt">200 companies · 126 Tier A · <span class="pp">verification pending</span></div>
+  </a>
+  <a class="mk" href="pennsylvania.html">
+    <div class="hd"><span class="nm">Pennsylvania</span><span class="bg open">QUEUED</span></div>
+    <div class="mt">200 companies · 153 Tier A · <span class="pp">verification pending</span></div>
+  </a>
+  <a class="mk isdone" href="texas.html">
+    <div class="hd"><span class="nm">Texas</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">200 companies · 47 <span class="vv">verified</span></div>
+  </a>
+  <a class="mk isdone" href="washington.html">
+    <div class="hd"><span class="nm">Washington</span><span class="bg done">CLOSED</span></div>
+    <div class="mt">200 companies · 94 <span class="vv">verified</span></div>
+  </a>
+  </div>
+  <a class="roll" href="master-rollup.html">Programme rollup — method, defect classes, call lists &rarr;</a>
+  <div class="ft">DashRite Advisory LLC · Built RITE! · updated 26 August 2026</div>
+</div></body></html>
