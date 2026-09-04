@@ -68,6 +68,7 @@ tr.hide{display:none}
 .dupe{color:var(--amb);font-size:10px}
 .foot{color:var(--mut);font-size:11px;margin-top:18px;line-height:1.6}
 .hidecol{display:none}
+@media print{body{background:#fff;color:#000}.tabs,.bar,.stats,.foot,#v-list,#v-board,#v-report,.drawer,.drawer-bg,#printbtn{display:none!important}#v-today{display:block!important}#v-today table{border:1px solid #ccc}#v-today th{background:#eee;color:#000}#v-today td,#v-today th{border-color:#ccc}h1{color:#000!important;-webkit-text-fill-color:#000}td.ph a{color:#000}}
 </style></head><body><div class="wrap">
 <h1>DashRite — Pipeline Cockpit</h1>
 <div class="sub">408 verified Tier A/B leads across 27 markets · your working state saves to this browser · phones dial on tap · updated 4 September 2026</div>
@@ -76,6 +77,12 @@ tr.hide{display:none}
 <button class="tab on" data-v="list">Call list</button>
 <button class="tab" data-v="today">Today's plan</button>
 <button class="tab" data-v="board">Pipeline board</button>
+<button class="tab" data-v="report">Report</button>
+<span style="flex:1"></span>
+<button class="tab" id="exj" title="Download a full backup">↓ Backup</button>
+<button class="tab" id="exc" title="Export to Excel/CSV">↓ CSV</button>
+<button class="tab" id="imp" title="Restore from a backup file">↑ Restore</button>
+<input type="file" id="impf" accept="application/json" style="display:none">
 </div>
 
 <div id="v-list">
@@ -91,10 +98,13 @@ tr.hide{display:none}
 
 <div id="v-today" class="hidecol">
 <div class="sub" id="todaysub"></div>
+<button class="tab" id="printbtn" style="margin-bottom:12px">⎙ Print today's call sheet</button>
 <table><thead><tr><th>#</th><th>Tier</th><th>State</th><th>Company</th><th>Phone</th><th>Why</th><th>Stage</th></tr></thead><tbody id="tbtoday"></tbody></table>
 </div>
 
 <div id="v-board" class="hidecol"><div class="kan" id="kan"></div></div>
+
+<div id="v-report" class="hidecol"><div id="rep"></div></div>
 
 <div class="foot" id="foot"></div>
 </div>
@@ -194,7 +204,37 @@ function openDrawer(id){
   document.getElementById('draftemail').onclick=function(){var t=document.getElementById('tmpl');t.style.left='0';t.select();try{document.execCommand('copy');}catch(e){}t.style.left='-9999px';var b=document.getElementById('draftemail');b.textContent='Copied ✓';setTimeout(function(){b.textContent='Draft opener';},1500);r.log.unshift({t:new Date().toLocaleString(),n:'Drafted email opener (copied)'});save();};
 }
 function closeDrawer(){document.getElementById('dbg').classList.remove('open');document.getElementById('drw').classList.remove('open');}
-function refresh(){renderStats();if(curV==='list')applyFilters(),document.getElementById('tb').innerHTML=LEADS.map(rowHtml).join(''),applyFilters();if(curV==='today')renderToday();if(curV==='board')renderBoard();}
+function refresh(){renderStats();if(curV==='list')applyFilters(),document.getElementById('tb').innerHTML=LEADS.map(rowHtml).join(''),applyFilters();if(curV==='today')renderToday();if(curV==='board')renderBoard();if(curV==='report')renderReport();}
+
+function renderReport(){
+  var by={},funnel={New:0,Attempted:0,Reached:0,Meeting:0,Proposal:0,Won:0,Lost:0},touches=0,wk=0,wknum=0;
+  var weekAgo=new Date(Date.now()-6048e5).toISOString().slice(0,10);
+  LEADS.forEach(function(l){var r=store[l.id];if(!r)return;funnel[r.stage]=(funnel[r.stage]||0)+1;
+    (r.log||[]).forEach(function(x){touches++;});
+    var st=l.state;by[st]=by[st]||{n:0,won:0,lost:0,active:0};by[st].n++;if(r.stage==='Won')by[st].won++;else if(r.stage==='Lost')by[st].lost++;else if(r.stage!=='New')by[st].active++;});
+  var worked=LEADS.filter(function(l){var r=store[l.id];return r&&r.stage!=='New';}).length;
+  var closed=funnel.Won+funnel.Lost;var winRate=closed?Math.round(funnel.Won/closed*100):0;
+  var contactRate=worked?Math.round((funnel.Reached+funnel.Meeting+funnel.Proposal+funnel.Won)/worked*100):0;
+  var fh='<h3 style="font-size:13px;color:var(--mut);text-transform:uppercase;letter-spacing:.05em;margin:0 0 10px">Conversion funnel</h3><div style="display:flex;flex-direction:column;gap:6px;max-width:560px">';
+  var order=['New','Attempted','Reached','Meeting','Proposal','Won'];var max=Math.max(1,funnel.New);
+  order.forEach(function(s){var v=funnel[s]||0;var pct=Math.round(v/max*100);fh+='<div style="display:flex;align-items:center;gap:10px"><div style="width:78px;font-size:12px;color:var(--mut)">'+s+'</div><div style="flex:1;background:var(--card2);border-radius:6px;overflow:hidden;height:22px"><div style="height:100%;width:'+Math.max(pct,2)+'%;background:linear-gradient(90deg,#9184d9,#6a5cc0)"></div></div><div style="width:38px;text-align:right;font-variant-numeric:tabular-nums">'+v+'</div></div>';});
+  fh+='</div>';
+  var kpis='<div class="stats" style="margin:18px 0"><div class="stat"><b>'+worked+'</b><span>leads worked</span></div><div class="stat"><b>'+touches+'</b><span>touches logged</span></div><div class="stat"><b>'+contactRate+'%</b><span>contact rate</span></div><div class="stat wn"><b>'+winRate+'%</b><span>win rate (of closed)</span></div></div>';
+  var rows=Object.keys(by).sort(function(a,b){return by[b].won-by[a].won||by[b].active-by[a].active;}).filter(function(s){return by[s].active||by[s].won||by[s].lost;});
+  var st='<h3 style="font-size:13px;color:var(--mut);text-transform:uppercase;letter-spacing:.05em;margin:22px 0 10px">Activity by state</h3>';
+  if(rows.length){st+='<table style="max-width:560px"><thead><tr><th>State</th><th>In motion</th><th>Won</th><th>Lost</th></tr></thead><tbody>'+rows.map(function(s){return '<tr><td>'+s+'</td><td>'+by[s].active+'</td><td style="color:var(--grn)">'+by[s].won+'</td><td style="color:var(--mut)">'+by[s].lost+'</td></tr>';}).join('')+'</tbody></table>';}
+  else{st+='<div class="na">No activity yet — work a few leads and this fills in.</div>';}
+  document.getElementById('rep').innerHTML=kpis+fh+st;
+}
+
+function exportJSON(){var blob=new Blob([JSON.stringify({app:'dashrite-pipeline',v:1,saved:new Date().toISOString(),data:store},null,1)],{type:'application/json'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='dashrite-pipeline-backup-'+today()+'.json';a.click();}
+function exportCSV(){var rows=[['State','Tier','Company','Discipline','City','Decision maker','Phone','Stage','Next action','Deal value','Last note']];
+  LEADS.forEach(function(l){var r=store[l.id]||{stage:'New'};var last=(r.log&&r.log[0])?r.log[0].n:'';rows.push([l.state,l.tier,l.company,l.disc,l.city,l.dm||'',l.phone||'',r.stage||'New',r.next||'',r.value||'',last]);});
+  var csv=rows.map(function(r){return r.map(function(c){return '"'+String(c).replace(/"/g,'""')+'"';}).join(',');}).join('\n');
+  var blob=new Blob([csv],{type:'text/csv'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='dashrite-pipeline-'+today()+'.csv';a.click();}
+function importJSON(file){var rd=new FileReader();rd.onload=function(){try{var j=JSON.parse(rd.result);var d=j.data||j;if(typeof d!=='object')throw 0;if(!confirm('Restore this backup? It replaces your current pipeline in this browser.'))return;store=d;save();refresh();alert('Pipeline restored.');}catch(e){alert('That file could not be read as a DashRite backup.');}};rd.readAsText(file);}
+function printPlan(){window.print();}
+
 document.getElementById('dbg').onclick=closeDrawer;document.getElementById('dclose').onclick=closeDrawer;
 document.getElementById('tb').onclick=function(e){var tr=e.target.closest('tr');if(tr&&!e.target.closest('a'))openDrawer(tr.dataset.id);};
 document.getElementById('tbtoday').onclick=function(e){var tr=e.target.closest('tr');if(tr&&!e.target.closest('a'))openDrawer(tr.dataset.id);};
@@ -206,8 +246,14 @@ document.querySelectorAll('.tab').forEach(function(b){b.onclick=function(){docum
   document.getElementById('v-list').classList.toggle('hidecol',curV!=='list');
   document.getElementById('v-today').classList.toggle('hidecol',curV!=='today');
   document.getElementById('v-board').classList.toggle('hidecol',curV!=='board');
+  document.getElementById('v-report').classList.toggle('hidecol',curV!=='report');
   refresh();};});
 document.getElementById('foot').innerHTML='Stages: New → Attempted → Reached → Meeting → Proposal → Won / Lost. Your pipeline saves to this browser only (localStorage) — same browser, same device keeps your progress; it is not shared or synced. Export/backup on request. Verified = confirmed family/founder ownership + in-band ($10M–$150M), live-checked in each state expansion file.';
+document.getElementById('exj').onclick=exportJSON;
+document.getElementById('exc').onclick=exportCSV;
+document.getElementById('imp').onclick=function(){document.getElementById('impf').click();};
+document.getElementById('impf').onchange=function(e){if(e.target.files[0])importJSON(e.target.files[0]);};
+document.getElementById('printbtn').onclick=printPlan;
 renderStats();renderList();
 </script>
 </body></html>
