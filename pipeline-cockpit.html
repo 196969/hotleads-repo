@@ -121,6 +121,14 @@ function save(){localStorage.setItem(KEY,JSON.stringify(store));}
 function rec(id){if(!store[id])store[id]={stage:'New',next:'',value:0,log:[]};if(store[id].value===undefined)store[id].value=0;return store[id];}
 var WT={New:0,Attempted:.05,Reached:.15,Meeting:.30,Proposal:.60,Won:1,Lost:0};
 function money(n){return '$'+Math.round(n).toLocaleString();}
+var CADENCE={New:0,Attempted:3,Reached:5,Meeting:7,Proposal:5,Won:0,Lost:0};
+function addDays(n){var d=new Date();d.setDate(d.getDate()+n);return d.toISOString().slice(0,10);}
+function setStage(id,ns,how){var r=rec(id);if(r.stage===ns)return;r.stage=ns;if(!r.log)r.log=[];r.log.unshift({t:new Date().toLocaleString(),n:'→ stage: '+ns+(how?' ('+how+')':'')});
+  var days=CADENCE[ns];if(days>0&&(!r.next||r.next<today())){r.next=addDays(days);r.log.unshift({t:new Date().toLocaleString(),n:'⏱ follow-up auto-set '+r.next+' (+'+days+'d)'});}
+  if(ns==='Won'||ns==='Lost')r.next='';
+  save();maybeNudge();}
+var changeCount=+(localStorage.getItem('dashrite_changes')||0);
+function maybeNudge(){changeCount++;localStorage.setItem('dashrite_changes',changeCount);if(changeCount%12===0){if(confirm('You\u2019ve made '+changeCount+' pipeline updates. Download a backup now? (Keeps your work safe if this browser is ever cleared.)'))exportJSON();}}
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function tel(p){var d=(p||'').replace(/[^0-9]/g,'');return d.length>=10?'tel:'+d:'';}
 function today(){return new Date().toISOString().slice(0,10);}
@@ -179,7 +187,7 @@ function renderBoard(){
   document.querySelectorAll('#kan .kcol').forEach(function(col){
     col.addEventListener('dragover',function(e){e.preventDefault();col.style.outline='2px solid var(--acc)';});
     col.addEventListener('dragleave',function(){col.style.outline='';});
-    col.addEventListener('drop',function(e){e.preventDefault();col.style.outline='';var id=e.dataTransfer.getData('id');if(!id)return;var r=rec(id);var ns=col.dataset.stage;if(r.stage!==ns){r.stage=ns;if(!r.log)r.log=[];r.log.unshift({t:new Date().toLocaleString(),n:'→ stage: '+ns+' (dragged)'});save();renderStats();renderBoard();}});
+    col.addEventListener('drop',function(e){e.preventDefault();col.style.outline='';var id=e.dataTransfer.getData('id');if(!id)return;setStage(id,col.dataset.stage,'dragged');renderStats();renderBoard();});
   });
 }
 function openDrawer(id){
@@ -191,16 +199,17 @@ function openDrawer(id){
   c+='<div class="fld"><label>Stage</label><div class="stagerow" id="stages">'+STAGES.map(function(s){return '<span class="pill st-'+s+(r.stage===s?' sel':'')+'" data-s="'+s+'">'+s+'</span>';}).join('')+'</div></div>';
   c+='<div class="fld"><label>Next action date</label><input type="date" id="f_next" value="'+(r.next||'')+'"></div>';
   c+='<div class="fld"><label>Deal value (est. annual $)</label><input type="number" id="f_val" value="'+(r.value||'')+'" placeholder="0" min="0" step="500"></div>';
-  c+='<div class="fld"><label>Log a touch</label><textarea id="f_note" placeholder="left VM · gatekeeper · emailed opener…"></textarea><div class="btnrow" style="margin-top:8px"><button class="btn" id="addnote">Add to log</button><button class="btn" id="draftemail">Draft opener</button></div></div>';
+  c+='<div class="fld"><label>Log a touch</label><textarea id="f_note" placeholder="left VM · gatekeeper · emailed opener…"></textarea><div class="btnrow" style="margin-top:8px"><button class="btn" id="addnote">Add to log</button><button class="btn" id="logreply">Log reply → Reached</button><button class="btn" id="draftemail">Draft opener</button></div></div>';
   c+='<div class="fld"><label>Activity log</label><div class="log" id="loglist">'+(r.log.length?r.log.map(function(x){return '<div class="logitem"><div class="t">'+x.t+'</div>'+esc(x.n)+'</div>';}).join(''):'<div class="na">No activity yet.</div>')+'</div></div>';
   c+='<textarea id="tmpl" style="position:absolute;left:-9999px">'+tmplOpener+'</textarea>';
   c+='</div>';
   document.getElementById('dcontent').innerHTML=c;
   document.getElementById('dbg').classList.add('open');document.getElementById('drw').classList.add('open');
-  document.querySelectorAll('#stages .pill').forEach(function(p){p.onclick=function(){r.stage=p.dataset.s;if(!r.log)r.log=[];r.log.unshift({t:new Date().toLocaleString(),n:'→ stage: '+r.stage});save();openDrawer(id);refresh();};});
+  document.querySelectorAll('#stages .pill').forEach(function(p){p.onclick=function(){setStage(id,p.dataset.s);openDrawer(id);refresh();};});
   document.getElementById('f_next').onchange=function(e){r.next=e.target.value;save();refresh();};
   document.getElementById('f_val').onchange=function(e){r.value=+e.target.value||0;save();refresh();};
   document.getElementById('addnote').onclick=function(){var v=document.getElementById('f_note').value.trim();if(!v)return;r.log.unshift({t:new Date().toLocaleString(),n:v});save();openDrawer(id);refresh();};
+  document.getElementById('logreply').onclick=function(){var v=document.getElementById('f_note').value.trim();if(v)r.log.unshift({t:new Date().toLocaleString(),n:'Reply: '+v});setStage(id,'Reached','inbound reply');openDrawer(id);refresh();};
   document.getElementById('draftemail').onclick=function(){var t=document.getElementById('tmpl');t.style.left='0';t.select();try{document.execCommand('copy');}catch(e){}t.style.left='-9999px';var b=document.getElementById('draftemail');b.textContent='Copied ✓';setTimeout(function(){b.textContent='Draft opener';},1500);r.log.unshift({t:new Date().toLocaleString(),n:'Drafted email opener (copied)'});save();};
 }
 function closeDrawer(){document.getElementById('dbg').classList.remove('open');document.getElementById('drw').classList.remove('open');}
