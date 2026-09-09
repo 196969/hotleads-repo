@@ -39,6 +39,56 @@ td.seq{width:230px}
 .seq .due{font-variant-numeric:tabular-nums}
 .seq .due.over{color:var(--red);font-weight:700}
 .seq .due.today{color:#e0a45c;font-weight:700}
+/* --- Intelligence layer --- */
+#intel{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:14px;overflow:hidden}
+#intel .ihead{display:flex;align-items:center;gap:10px;padding:12px 16px;cursor:pointer;user-select:none}
+#intel .ihead h2{font-size:14px;margin:0;font-weight:800;letter-spacing:-.01em}
+#intel .ihead .cx{margin-left:auto;color:var(--acc);font-size:12px;font-weight:700}
+#intel .ihead .caret{color:var(--mut);transition:transform .15s;font-size:12px}
+#intel.closed .caret{transform:rotate(-90deg)}
+#intel.closed .ibody{display:none}
+#intel .ibody{padding:0 16px 16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(232px,1fr));gap:12px}
+.icard{background:#101a30;border:1px solid var(--line);border-radius:10px;padding:12px;min-width:0}
+.icard h3{margin:0 0 8px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);font-weight:700}
+.icard.brief{grid-column:1/-1}
+.brief .hero{font-size:24px;font-weight:800;color:var(--acc);letter-spacing:-.02em}
+.brief p{margin:6px 0 0;font-size:13px;line-height:1.55;color:var(--tx)}
+.brief .muted{color:var(--mut)}
+.ibtn{background:transparent;border:1px solid var(--line);color:var(--mut);border-radius:7px;padding:6px 10px;font-size:12px;cursor:pointer;margin:8px 6px 0 0}
+.ibtn:hover{border-color:var(--acc);color:var(--tx)}
+.ibtn.on{border-color:var(--acc);color:var(--tx);background:rgba(145,132,217,.14)}
+.cad{display:flex;gap:8px}
+.cadb{flex:1;min-width:60px;text-align:center;border-radius:8px;padding:8px 4px;border:1px solid var(--line);cursor:pointer;background:transparent}
+.cadb b{display:block;font-size:20px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.1}
+.cadb span{font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut)}
+.cadb.red b{color:var(--red)}.cadb.amber b{color:#e0a45c}.cadb.grey b{color:var(--mut)}
+.cadb.on{border-color:var(--acc);background:rgba(145,132,217,.1)}
+.terr{max-height:196px;overflow:auto;display:flex;flex-direction:column;gap:2px;margin:-2px -4px 0 0;padding-right:4px}
+.trow{display:flex;align-items:center;gap:8px;font-size:12px;padding:4px 0;border-bottom:1px solid rgba(38,49,76,.55);cursor:pointer}
+.trow:hover .tn{color:var(--acc)}
+.trow .tn{flex:1;color:var(--tx);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.trow .tbar{height:5px;border-radius:3px;background:#26314c;width:64px;overflow:hidden;flex:none}
+.trow .tbar i{display:block;height:100%;background:linear-gradient(90deg,#2fbf71,#5fe0a0)}
+.trow .tm{color:var(--mut);font-variant-numeric:tabular-nums;font-size:11px;flex:none;min-width:74px;text-align:right}
+.kv{display:flex;justify-content:space-between;font-size:12px;padding:4px 0;border-bottom:1px solid rgba(38,49,76,.55)}
+.kv:last-child{border-bottom:0}
+.kv b{font-variant-numeric:tabular-nums}
+.kv b.big{color:var(--acc);font-size:15px}
+.lz{font-size:12px;color:var(--mut);line-height:1.5}
+.lz .ln{display:flex;justify-content:space-between;gap:8px;color:var(--tx);padding:3px 0;border-bottom:1px solid rgba(38,49,76,.55)}
+.lz .ln b{color:var(--mut);font-variant-numeric:tabular-nums;flex:none}
+.est{font-size:10px;color:var(--mut);font-style:italic;margin-top:8px}
+/* per-row intel (inside existing seq cell) */
+.seq .intel{margin-top:6px;border-top:1px dashed rgba(38,49,76,.9);padding-top:5px}
+.seq .wp{display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.seq .wpbar{height:5px;flex:1;border-radius:3px;background:#26314c;overflow:hidden}
+.seq .wpbar i{display:block;height:100%;background:linear-gradient(90deg,#e0304a,#e0a45c 55%,#2fbf71)}
+.seq .wpn{font-size:10px;color:var(--mut);font-variant-numeric:tabular-nums;min-width:30px;text-align:right}
+.seq .nba{font-size:11px;color:var(--tx);line-height:1.45}
+.seq .nba .tag{color:var(--acc);font-weight:700}
+.seq .nba .tm{color:var(--mut)}
+.seq .lostr{width:100%;margin-top:5px;background:#0d1526;border:1px solid var(--line);color:var(--tx);border-radius:5px;padding:3px 6px;font-size:11px}
+
 </style></head><body><div class="wrap">
 <h1>DashRite — Master Call Sheet</h1>
 <div class="sub">Every verified Tier A/B expansion lead across all 27 markets, in one sortable sheet · phones dial on tap · check off as you work · updated 4 September 2026</div>
@@ -58,6 +108,11 @@ td.seq{width:230px}
 <button id="sortsc">Sort by score</button>
 <button id="plan">Today's plan</button>
 </div>
+<section id="intel">
+<div class="ihead"><span class="caret">&#9662;</span><h2>Intelligence</h2><span class="cx" id="intelcx"></span></div>
+<div class="ibody" id="ibody"></div>
+</section>
+
 <table><thead><tr><th>#</th><th>Tier</th><th>Score</th><th>State</th><th>Company</th><th>City</th><th>Decision maker</th><th>Phone</th><th>Sequence / next step</th><th>✓</th></tr></thead>
 <tbody id="tb">
 <tr data-state="Arizona" data-tier="A"><td class="num">1</td><td><span class="tier tA">A</span></td><td>Arizona</td><td><strong>La Canasta Mexican Food Products</strong><div class="sub">Food &amp; Beverage Processing</div></td><td>Phoenix</td><td>Federico family (2nd/3rd gen)</td><td class="ph"><a href="tel:6022333376">602-233-3376</a></td><td class="chk"><input type="checkbox" aria-label="worked"></td></tr>
@@ -557,4 +612,240 @@ tb.onclick=function(e){if(e.target.dataset.act!=='adv')return;
   save();renderSeq(r,r.querySelector('.seq'),st);renderScore(r,r.querySelector('.score'),st);apply();
 };
 </script>
+<script>
+/* ===== DashRite Intelligence layer — extends the existing engine, no duplication ===== */
+(function(){
+  var intel=document.getElementById('intel'), ibody=document.getElementById('ibody'), cx=document.getElementById('intelcx');
+  if(!intel||!ibody) return;
+  var LEARN={tier:{},vert:{}}, curIntel=null, intelPred=null, reordered=false, TOP10=[];
+  var CH={1:'email',2:'LinkedIn',3:'call',4:'email',5:'call',6:'email'};
+  var DBASE={New:.05,Attempted:.09,Reached:.20,Meeting:.45,Proposal:.70,Won:1,Lost:0};
+  var COLD=14;
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c];});}
+  function stOf(r){return mem[r.dataset.id]||{};}
+  function dayDiff(a,b){return Math.round((new Date(b)-new Date(a))/864e5);}
+  function overdueDays(st){if(!st.next)return 0;var d=dayDiff(st.next,today());return d>0?d:0;}
+  function isClosed(st){return st.dispo==='Won'||st.dispo==='Lost'||st.done||(st.stage||0)>=7;}
+  function isWorked(st){return (st.stage||0)>0||(st.dispo&&st.dispo!=='New')||!!st.done;}
+  function cadenceOf(r,st){
+    if(isClosed(st))return 'closed';
+    if(!st.next)return isWorked(st)?'sched':'fresh';
+    var od=overdueDays(st);
+    if(od>COLD)return 'cold';
+    if(od>0)return 'over';
+    if(st.next===today())return 'today';
+    return 'sched';
+  }
+  /* --- 2. win probability, from score + dispo stage + touch count --- */
+  function winProb(r,st){
+    var d=st.dispo||'New';
+    if(d==='Won')return 1; if(d==='Lost')return 0;
+    var p=(DBASE[d]!=null?DBASE[d]:.05);
+    var sc=Number(r.dataset.score)||0;
+    p+=(sc-50)/500;
+    p+=Math.min((st.stage||0),6)*0.015;
+    if(p<.01)p=.01; if(p>.98)p=.98;
+    return p;
+  }
+  function meetProb(r,st){
+    var d=st.dispo||'New';
+    if(d==='Meeting'||d==='Proposal'||d==='Won')return 1;
+    if(d==='Lost')return 0;
+    var p=winProb(r,st)*2; if(p>.9)p=.9; return p;
+  }
+  /* --- 8. pattern learning: tier + vertical conversion, re-weights priority --- */
+  function learn(){
+    var out={tier:{},vert:{}};
+    [].forEach.call(tb.rows,function(r){
+      var st=stOf(r); if(st.dispo!=='Won'&&st.dispo!=='Lost')return;
+      var won=st.dispo==='Won', t=r.dataset.tier, v=r.dataset.vert||'-';
+      var ot=out.tier[t]||(out.tier[t]={w:0,l:0}); ot[won?'w':'l']++;
+      var ov=out.vert[v]||(out.vert[v]={w:0,l:0}); ov[won?'w':'l']++;
+    });
+    return out;
+  }
+  function rate(o){var n=o.w+o.l;return n?o.w/n:null;}
+  function learnWeight(r){
+    var w=1,hits=0,acc=0;
+    var t=LEARN.tier[r.dataset.tier], rt=t?rate(t):null; if(rt!=null){acc+=0.5+rt;hits++;}
+    var v=LEARN.vert[r.dataset.vert], rv=v?rate(v):null; if(rv!=null){acc+=0.5+rv;hits++;}
+    if(hits)w=acc/hits;
+    if(w<.7)w=.7; if(w>1.4)w=1.4;
+    return w;
+  }
+  /* --- 1. priority engine: tier+score+recency+stage+days-since-touch, re-weighted --- */
+  function priorityOf(r,st){
+    if(isClosed(st))return -1;
+    var base=Number(r.dataset.score)||0;
+    var od=overdueDays(st);
+    var cad=od>0?Math.min(30,od*4):(st.next===today()?18:(!st.next?10:0));
+    var stg=(st.stage||0)>=3?8:((st.stage||0)>0?4:0);
+    return Math.round((base+cad+stg)*learnWeight(r));
+  }
+  /* --- 3+10. next-best-action + message intelligence (tone/resource) --- */
+  function nba(r,st){
+    var d=st.dispo||'New';
+    if(d==='Won')return{act:'Won &mdash; send kickoff / welcome',tone:'',res:'',timing:''};
+    if(d==='Lost')return{act:'Lost &mdash; hold; revisit ~90 days',tone:'',res:'',timing:''};
+    var s=st.stage||0;
+    if(s>=7)return{act:'Sequence complete &mdash; mark outcome',tone:'',res:'',timing:''};
+    var nx=s+1;
+    if(nx>6)return{act:'Close out &mdash; mark outcome',tone:'',res:'',timing:''};
+    var label=STEPS[nx], ch=CH[nx];
+    var tone=nx===1?'first-touch':(nx===4?'follow-up':(nx===6?'break-up':''));
+    var res=(nx===1||nx===4)?(r.dataset.state+' poster'):'';
+    var od=overdueDays(st), timing;
+    if(!st.next)timing='ready';
+    else if(od>0)timing='overdue '+od+'d';
+    else if(st.next===today())timing='due today';
+    else timing='by '+st.next;
+    return{act:label+' ('+ch+')',tone:tone,res:res,timing:timing};
+  }
+  /* per-row signal block appended into the existing seq cell */
+  function intelRow(r,st){
+    var wp=Math.round(winProb(r,st)*100), a=nba(r,st);
+    var h='<div class="intel">';
+    h+='<div class="wp"><span class="wpbar"><i style="width:'+wp+'%"></i></span><span class="wpn">'+wp+'%</span></div>';
+    h+='<div class="nba">&#9654; <span class="tag">'+a.act+'</span>';
+    if(a.timing)h+=' <span class="tm">&middot; '+a.timing+'</span>';
+    if(a.tone)h+=' &middot; tone: '+a.tone;
+    if(a.res)h+=' &middot; attach: '+esc(a.res);
+    h+='</div>';
+    if(st.dispo==='Lost')h+='<input class="lostr" data-id="'+r.dataset.id+'" placeholder="Lost reason (one line)\u2026" value="'+esc(st.lost||'')+'">';
+    h+='</div>';
+    return h;
+  }
+  /* ---- wrap existing renderSeq so per-row signals ride along on every re-render ---- */
+  var _renderSeq=renderSeq;
+  renderSeq=function(r,cell,st){ _renderSeq(r,cell,st); cell.insertAdjacentHTML('beforeend',intelRow(r,st)); };
+  /* ---- wrap existing apply so intel view-filters compose with the existing filters ---- */
+  var _apply=apply;
+  apply=function(){ _apply(); if(intelPred){[].forEach.call(tb.rows,function(r){ if(!r.classList.contains('hide')&&!intelPred(r,stOf(r)))r.classList.add('hide'); }); } };
+  /* ---- wrap existing save so the panel refreshes after any state change ---- */
+  var _save=save;
+  save=function(){ _save(); try{renderIntel();}catch(e){} };
+
+  function orderByPri(){var rows=[].slice.call(tb.rows).sort(function(a,b){return Number(b.dataset.pri)-Number(a.dataset.pri)||(a.dataset.id-b.dataset.id);});rows.forEach(function(r){tb.appendChild(r);});}
+  function restoreOrder(){var rows=[].slice.call(tb.rows).sort(function(a,b){return a.dataset.id-b.dataset.id;});rows.forEach(function(r){tb.appendChild(r);});}
+  function computePri(){LEARN=learn();[].forEach.call(tb.rows,function(r){r.dataset.pri=priorityOf(r,stOf(r));});}
+  function today10(){computePri();var open=[].slice.call(tb.rows).filter(function(r){return Number(r.dataset.pri)>=0;});open.sort(function(a,b){return Number(b.dataset.pri)-Number(a.dataset.pri)||(a.dataset.id-b.dataset.id);});TOP10=open.slice(0,10).map(function(r){return r.dataset.id;});}
+
+  function setIntel(mode){
+    if(mode==='clear'){curIntel=null;}
+    else curIntel=(curIntel===mode)?null:mode;
+    if(reordered&&curIntel!=='top10'){restoreOrder();reordered=false;}
+    if(!curIntel){intelPred=null;syncBtns();apply();return;}
+    if(curIntel==='top10'){today10();orderByPri();reordered=true;intelPred=function(r){return TOP10.indexOf(r.dataset.id)>-1;};}
+    else{var m=curIntel;intelPred=function(r){return cadenceOf(r,stOf(r))===m;};}
+    syncBtns();apply();
+  }
+  function syncBtns(){
+    [].forEach.call(ibody.querySelectorAll('[data-im]'),function(b){
+      var m=b.getAttribute('data-im');
+      b.classList.toggle('on', !!curIntel && curIntel===m);
+    });
+  }
+
+  /* --- 4/5/6/7/9. panel body --- */
+  function renderIntel(){
+    LEARN=learn();
+    var O=0,Dt=0,Dov=0,Dcold=0,worked=0,openW=0,ewin=0,emeet=0,meetBooked=0,won=0,lost=0;
+    var terr={}, lossMap={};
+    [].forEach.call(tb.rows,function(r){
+      var st=stOf(r), d=st.dispo||'New', s=r.dataset.state;
+      var T=terr[s]||(terr[s]={t:0,w:0,reach:0,meet:0,won:0}); T.t++;
+      var wk=isWorked(st); if(wk){T.w++;worked++;}
+      if(d==='Reached'||d==='Meeting'||d==='Proposal'||d==='Won')T.reach++;
+      if(d==='Meeting'||d==='Proposal'||d==='Won')T.meet++;
+      if(d==='Won'){T.won++;won++;}
+      if(d==='Lost'){lost++;var k=(st.lost||'').trim().toLowerCase();if(k)lossMap[k]=(lossMap[k]||0)+1;}
+      if(!isClosed(st)){
+        O++;
+        var cad=cadenceOf(r,st);
+        if(cad==='today')Dt++; else if(cad==='over')Dov++; else if(cad==='cold')Dcold++;
+        if(wk){ewin+=winProb(r,st); if(d==='Meeting'||d==='Proposal')meetBooked++; else emeet+=meetProb(r,st);}
+      }
+    });
+    var toWork=Dt+Dov;
+    /* daily brief */
+    var hero, sub;
+    if(toWork>0){hero=toWork+(toWork===1?' lead':' leads')+' to work today';sub='<span class="muted">'+Dov+' overdue &middot; '+Dt+' due today'+(Dcold?' &middot; '+Dcold+' gone cold':'')+'. Hit <b>Today\u2019s 10</b> for the ranked shortlist.</span>';}
+    else if(openW>0){hero='All follow-ups scheduled ahead';sub='<span class="muted">Nothing overdue. '+openW+' worked leads in motion'+(Dcold?', but '+Dcold+' have gone cold \u2014 worth a save.':'.')+' Work fresh Tier A next.</span>';}
+    else{hero='Start your first touches';sub='<span class="muted">'+O+' open leads, none worked yet. Hit <b>Today\u2019s 10</b> to get a ranked call list.</span>';}
+    var topLoss=Object.keys(lossMap).sort(function(a,b){return lossMap[b]-lossMap[a];})[0];
+    var brief='<div class="icard brief"><h3>Daily brief</h3><div class="hero">'+hero+'</div><p>'+sub+'</p>';
+    brief+='<p class="muted">Pipeline view: ~<b style="color:var(--tx)">'+(won+ewin).toFixed(1)+'</b> wins &amp; ~<b style="color:var(--tx)">'+(meetBooked+emeet).toFixed(1)+'</b> meetings expected from the worked set.'+(topLoss?' Most-cited loss: \u201c'+esc(topLoss)+'\u201d.':'')+'</p>';
+    brief+='<div><button class="ibtn" data-im="top10">Today\u2019s 10</button><button class="ibtn" data-im="clear">Clear view</button></div></div>';
+    /* cadence */
+    var cadc='<div class="icard"><h3>Cadence</h3><div class="cad">'+
+      '<div class="cadb red" data-im="over"><b>'+Dov+'</b><span>Overdue</span></div>'+
+      '<div class="cadb amber" data-im="today"><b>'+Dt+'</b><span>Due today</span></div>'+
+      '<div class="cadb grey" data-im="cold"><b>'+Dcold+'</b><span>Cold</span></div></div>'+
+      '<div class="est">Tap a bucket to filter the sheet.</div></div>';
+    /* territory */
+    var tk=Object.keys(terr).sort(function(a,b){return terr[b].w-terr[a].w||terr[b].t-terr[a].t;});
+    var trows='';
+    tk.forEach(function(s){var T=terr[s];var pct=T.t?Math.round(T.w/T.t*100):0;
+      trows+='<div class="trow" data-st="'+esc(s)+'"><span class="tn">'+esc(s)+'</span>'+
+        '<span class="tbar"><i style="width:'+pct+'%"></i></span>'+
+        '<span class="tm">'+T.w+'/'+T.t+(T.meet?' &middot; '+T.meet+'mtg':'')+(T.won?' &middot; '+T.won+'W':'')+'</span></div>';});
+    var terrCard='<div class="icard"><h3>Territory &mdash; worked / total</h3><div class="terr">'+trows+'</div></div>';
+    /* forecast */
+    var thin=(worked<20||(won+lost)<5);
+    var fc='<div class="icard"><h3>Pipeline forecast</h3>'+
+      '<div class="kv"><span>Worked leads</span><b>'+worked+'</b></div>'+
+      '<div class="kv"><span>Open in motion</span><b>'+openW+'</b></div>'+
+      '<div class="kv"><span>Expected meetings</span><b class="big">'+(meetBooked+emeet).toFixed(1)+'</b></div>'+
+      '<div class="kv"><span>Expected wins</span><b class="big">'+(won+ewin).toFixed(1)+'</b></div>'+
+      (thin?'<div class="est">Estimate &mdash; thin data early; sharpens as you log outcomes.</div>':'<div class="est">Expected values from live win-probabilities.</div>')+'</div>';
+    /* win/loss memory */
+    var lk=Object.keys(lossMap).sort(function(a,b){return lossMap[b]-lossMap[a];}).slice(0,5);
+    var lossCard='<div class="icard"><h3>Win / loss memory</h3>';
+    if(!lost)lossCard+='<div class="lz">No losses logged yet. Mark a lead <b>Lost</b> and note the one-line reason \u2014 patterns surface here to sharpen messaging.</div>';
+    else{lossCard+='<div class="lz">';lk.forEach(function(k){lossCard+='<div class="ln"><span>'+esc(k)+'</span><b>'+lossMap[k]+'</b></div>';});lossCard+='</div><div class="est">'+won+' won &middot; '+lost+' lost logged.</div>';}
+    lossCard+='</div>';
+    /* pattern learning */
+    var tA=LEARN.tier.A,tB=LEARN.tier.B;
+    var vk=Object.keys(LEARN.vert).filter(function(v){var o=LEARN.vert[v];return (o.w+o.l)>=2;}).sort(function(a,b){return (rate(LEARN.vert[b])||0)-(rate(LEARN.vert[a])||0);});
+    var learnCard='<div class="icard"><h3>Pattern learning</h3>';
+    if(!(won+lost))learnCard+='<div class="lz">Neutral weighting. As you log wins &amp; losses, the priority engine re-weights toward the tiers and verticals that actually convert.</div>';
+    else{
+      learnCard+='<div class="lz">';
+      if(tA)learnCard+='<div class="ln"><span>Tier A conversion</span><b>'+Math.round((rate(tA)||0)*100)+'%</b></div>';
+      if(tB)learnCard+='<div class="ln"><span>Tier B conversion</span><b>'+Math.round((rate(tB)||0)*100)+'%</b></div>';
+      if(vk.length)learnCard+='<div class="ln"><span>'+esc(vk[0])+'</span><b>'+Math.round((rate(LEARN.vert[vk[0]])||0)*100)+'%</b></div>';
+      learnCard+='</div><div class="est">Priority engine now re-weighted by these rates (0.7&ndash;1.4&times;).</div>';
+    }
+    learnCard+='</div>';
+    ibody.innerHTML=brief+cadc+terrCard+fc+lossCard+learnCard;
+    syncBtns();
+    cx.textContent = toWork>0 ? (toWork+' to work today') : (openW>0?'all scheduled':'ready to start');
+  }
+
+  /* header collapse (persist in same store under a reserved key) */
+  var ui=mem.__ui||{}; if(ui.intel===0)intel.classList.add('closed');
+  intel.querySelector('.ihead').onclick=function(){intel.classList.toggle('closed');(mem.__ui||(mem.__ui={})).intel=intel.classList.contains('closed')?0:1;save();};
+  /* panel delegation: view buttons, cadence buckets, territory drilldown */
+  ibody.addEventListener('click',function(e){
+    var b=e.target.closest('[data-im]'); if(b){setIntel(b.getAttribute('data-im'));return;}
+    var tr=e.target.closest('.trow'); if(tr){stf.value=tr.getAttribute('data-st');apply();}
+  });
+  /* loss-reason capture (new inputs; addEventListener coexists with existing tb.onchange/onclick) */
+  tb.addEventListener('input',function(e){
+    if(!e.target.classList||!e.target.classList.contains('lostr'))return;
+    var id=e.target.getAttribute('data-id'), st=mem[id]||(mem[id]={});
+    st.lost=e.target.value; save();
+  });
+
+  /* initial pass: append per-row signals + capture vertical, then paint the panel */
+  [].forEach.call(tb.rows,function(r){
+    var comp=r.querySelector('td strong');
+    var sub=comp?comp.parentNode.querySelector('.sub'):null;
+    r.dataset.vert=sub?sub.textContent.trim():'-';
+    renderSeq(r,r.querySelector('.seq'),stOf(r));
+  });
+  renderIntel();
+})();
+</script>
+
 </body></html>
