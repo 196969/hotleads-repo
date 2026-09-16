@@ -171,7 +171,7 @@ function checks(){return res(false,false,q('#drS').checked,q('#drSv').checked,fa
 function full(){var nr=checks();ta.value=build(first,co,curTone,nr);lastRes=nr;dirty=false;}
 function onCheck(){var nr=checks();if(!dirty){full();}else{ta.value=lastRes?ta.value.split(lastRes).join(nr):(nr?ta.value+nr:ta.value);lastRes=nr;}}
 q('#drSub').value=TONES.first.s;full();
-['drS','drSv','drQ'].forEach(function(i){q('#'+i).onchange=onCheck;});
+['drS','drSv','drQ','drHa'].forEach(function(i){q('#'+i).onchange=onCheck;});
 Array.prototype.forEach.call(ov.querySelectorAll('.tone'),function(b){b.onclick=function(){curTone=b.getAttribute('data-t');Array.prototype.forEach.call(ov.querySelectorAll('.tone'),function(x){x.classList.remove('p');});b.classList.add('p');q('#drSub').value=TONES[curTone].s;full();};});
 q('#drX').onclick=function(){ov.remove();};
 q('#drC').onclick=function(){var btn=this;function fb(){var ok=false;try{ta.focus();ta.select();ok=document.execCommand('copy');ta.blur();}catch(e){}btn.textContent=ok?'Copied \u2713':'Select + Ctrl+C';setTimeout(function(){btn.textContent='Copy text';},2200);}try{if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).then(function(){btn.textContent='Copied \u2713';setTimeout(function(){btn.textContent='Copy text';},2200);},fb);}else{fb();}}catch(e){fb();}};
