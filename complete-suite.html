@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="omelette-owns-print" content="1">
+<title>DashRite Advisory LLC — The Complete Suite</title>
+<style>
+  :root{ --ink:#1a1c2b; --muted:#5a5f77; --line:#d8dbe8; --red1:#e0304a; --red2:#ff6a4d; --green:#3ddc84; --paper:#ffffff; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{background:#33374a}
+  body{font-family:"Inter","Helvetica Neue",Arial,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+  .sheet{ width:8.5in;min-height:11in;margin:28px auto;background:var(--paper);position:relative;padding:0.9in 0.95in 0.8in;box-shadow:0 8px 40px rgba(0,0,0,.35);display:flex;flex-direction:column; }
+  .sheet::before{ content:"";position:absolute;inset:0.42in;border:1px solid var(--line);pointer-events:none; }
+  .sheet::after{ content:"";position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--red1),var(--red2) 55%,var(--green)); }
+  .inner{position:relative;z-index:1;display:flex;flex-direction:column;flex:1}
+  header{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+  .brand img{height:60px;width:auto;display:block}
+  .contact{text-align:right;font-size:10.5px;line-height:1.7;color:var(--muted)}
+  .contact strong{color:var(--ink);font-weight:600}
+  .contact a{color:var(--red1);text-decoration:none}
+  h1.title{font-size:34px;line-height:1.1;margin:34px 0 8px;color:var(--ink);letter-spacing:-.01em}
+  .sub{font-size:14px;color:var(--red1);font-weight:600;margin-bottom:22px}
+  .lead{font-size:12.5px;line-height:1.85;color:#2b2e40;margin-bottom:14px;text-wrap:pretty}
+  .kick{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:24px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+  h2.sec{font-size:22px;margin:30px 0 6px;color:var(--ink)}
+  h2.sec .n{color:var(--red1)}
+  .stat{display:flex;gap:26px;margin:16px 0 6px;flex-wrap:wrap}
+  .stat div{min-width:96px}
+  .stat b{display:block;font-size:26px;color:var(--ink);line-height:1}
+  .stat span{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .off{margin:0 0 16px;padding:13px 16px;border:1px solid var(--line);border-left:3px solid;border-image:linear-gradient(180deg,var(--red1),var(--green)) 1;background:#faf7f8}
+  .off h3{font-size:14px;color:var(--ink);margin-bottom:3px}
+  .off .d{font-size:11.5px;line-height:1.7;color:#2b2e40;margin-bottom:6px}
+  .off .r{font-size:11px;line-height:1.6;color:#33374a}
+  .off .r b{color:var(--red1);font-weight:700}
+  ul.pl{margin:6px 0 14px;padding-left:0;list-style:none}
+  ul.pl li{font-size:12px;line-height:1.7;color:#2b2e40;padding-left:18px;position:relative;margin-bottom:5px}
+  ul.pl li::before{content:"•";position:absolute;left:2px;color:var(--red1);font-weight:700}
+  .rite{margin:18px 0;padding:14px 18px;border-left:3px solid;border-image:linear-gradient(180deg,var(--red1),var(--green)) 1;background:#faf7f8;font-size:12px;line-height:1.75;color:#2b2e40}
+  .rite b{color:var(--ink)}
+  footer{margin-top:auto;padding-top:16px;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:16px}
+  footer .mono img{height:32px;width:32px;opacity:.9}
+  footer .tag{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  footer .rite-abbr{font-size:9.5px;letter-spacing:.1em;color:var(--muted)}
+  footer .rite-abbr b{color:var(--red1)}
+  .toolbar{position:fixed;top:14px;right:14px;z-index:50;display:flex;gap:8px}
+  .toolbar button{font-family:inherit;font-size:12px;font-weight:600;padding:9px 16px;border-radius:8px;border:0;cursor:pointer;color:#fff;background:linear-gradient(90deg,var(--red1),var(--red2));box-shadow:0 3px 12px rgba(0,0,0,.3)}
+  @media print{
+    html,body{background:#fff}
+    .toolbar{display:none}
+    .sheet{margin:0;box-shadow:none;width:auto;min-height:auto;page-break-after:always}
+    .sheet:last-child{page-break-after:auto}
+    @page{size:letter;margin:0}
+  }
+</style>
+</head>
+<body>
+<div class="toolbar"><button onclick="window.print()">Save PDF / Print</button></div>
+
+<!-- PAGE 1 — COVER -->
+<section class="sheet"><div class="inner">
+  <header>
+    <div class="brand"><img src="assets/dashrite-lockup.png" alt="DashRite Advisory LLC"></div>
+    <div class="contact"><strong>DashRite Advisory LLC</strong><br>1314 E Las Olas Blvd, Suite 2608<br>Fort Lauderdale, FL 33301<br>786-972-1252<br><a href="mailto:dashriteadvisory@gmail.com">dashriteadvisory@gmail.com</a></div>
+  </header>
+  <h1 class="title">The Complete Suite</h1>
+  <div class="sub">Every offering, in one place — advisory, programs, and the operating system we build in your image.</div>
+  <p class="lead">DashRite Advisory turns scattered spreadsheets and half-trusted numbers into one connected operating system. We measure before we manage: real findings in writing, a fixed scope, a verified deliverable — built in the tools you already own, and yours when we leave.</p>
+  <p class="lead">This is the all-in-one map of what we do — the practice areas, the Command Center libraries, and the standalone Project Build — with what improves for your business when each is done.</p>
+  <div class="stat">
+    <div><b>103</b><span>Services</span></div>
+    <div><b>10</b><span>Industries</span></div>
+    <div><b>80+</b><span>Live workbooks</span></div>
+    <div><b>1</b><span>Standard: RITE</span></div>
+  </div>
+  <div class="rite"><b>Built RITE.</b> R-espect — you own the outcome, files and logins handed over in full. I-ntegrity — real findings and an honest risk register, verified to zero errors. T-eamwork — one shared data spine everyone reads from. E-xcellence — stakeholder-ready work without the designer's bill.</div>
+  <footer><div class="mono"><img src="assets/dr-monogram.png" alt=""></div><div class="tag">The Dash Starts Now</div><div class="rite-abbr"><b>R</b>espect · <b>I</b>ntegrity · <b>T</b>eamwork · <b>E</b>xcellence</div></footer>
+</div></section>
+
+<!-- PAGE 2 — ADVISORY PRACTICE AREAS -->
+<section class="sheet"><div class="inner">
+  <div class="kick">01 · Advisory &amp; Project Work — what improves when done</div>
+  <h2 class="sec">Practice areas across ten industries</h2>
+  <p class="lead">Every engagement starts in one of these areas and is scoped in writing before work begins. Most run $1,500–$4,000 per project; standing work is available as a monthly retainer.</p>
+  <div class="off"><h3>Brand, Marketing &amp; Design</h3><div class="d">One voice, one system, cost per outcome finally known.</div><div class="r"><b>Improves:</b> awareness, reach, conversion and attribution become a number you can manage, not a guess.</div></div>
+  <div class="off"><h3>Financial &amp; Cost Intelligence</h3><div class="d">The discipline that catches six-figure cost-basis errors, carried across every number the business runs on.</div><div class="r"><b>Improves:</b> landed cost, margin ranking and the P&amp;L that finally closes on time.</div></div>
+  <div class="off"><h3>Sales, Pipeline &amp; Business Development</h3><div class="d">Winning your next client, deal and territory on purpose.</div><div class="r"><b>Improves:</b> pipeline rebuilt on real probabilities; commission tied to margin; coverage you can forecast against.</div></div>
+  <div class="off"><h3>Operations, Forecasting &amp; Inventory</h3><div class="d">Demand projected and orders sized by evidence, sharpened monthly against actuals.</div><div class="r"><b>Improves:</b> no stockouts, no cash buried in over-orders; the right stock at a defensible cost.</div></div>
+  <div class="off"><h3>Leadership &amp; Capability Training</h3><div class="d">The executive bench trained on the same systems, language and rhythm — included in every build, never an upsell.</div><div class="r"><b>Improves:</b> the seats that carry the numbers can read and run them, unprompted, within two weeks.</div></div>
+  <div class="off"><h3>Fraud Control &amp; Executive / Career Transition</h3><div class="d">Lock the domain, tenant and payment channel; or a defensible executive record that survives a reference call.</div><div class="r"><b>Improves:</b> customers reach you and not an impostor; a transition managed like every other operating number.</div></div>
+  <footer><div class="mono"><img src="assets/dr-monogram.png" alt=""></div><div class="tag">The Dash Starts Now</div><div class="rite-abbr"><b>R</b>espect · <b>I</b>ntegrity · <b>T</b>eamwork · <b>E</b>xcellence</div></footer>
+</div></section>
+
+<!-- PAGE 3 — COMMAND CENTER -->
+<section class="sheet"><div class="inner">
+  <div class="kick">02 · The Command Center — the operating system</div>
+  <h2 class="sec">Live workbooks on one data spine</h2>
+  <p class="lead">Enter data once; every tracker, report, dashboard and chart updates from it. Every workbook: Config → inputs → Calc → Dashboard, formula-driven KPIs, dropdowns, RAG color-coding, a live Smart Summary — verified to zero errors.</p>
+  <div class="off"><h3>C-Suite Scorecards (9)</h3><div class="d">CEO · CFO · COO · CRO · CSO · CPA/Controller · EVP Recruiting · EVP Customer Service · EVP Product &amp; Ordering.</div><div class="r"><b>Improves:</b> each seat reads its few true numbers in seconds — 50 small corrections a year, not one annual reckoning.</div></div>
+  <div class="off"><h3>Financial Command (8)</h3><div class="d">13-Week Cash Flow · 3-Statement Model · Budget vs Actual · Scenario · Break-Even · AR/DSO · AP/DPO · Unit Economics.</div><div class="r"><b>Improves:</b> the cash wall seen three months early; every variance explained in dollars.</div></div>
+  <div class="off"><h3>Executive Dashboards (4)</h3><div class="d">CEO Flash · OKR Tracker · Balanced Scorecard · Board Pack.</div><div class="r"><b>Improves:</b> position at a glance; today's wins never bought at tomorrow's cost.</div></div>
+  <div class="off"><h3>Sales &amp; Growth (4) · People &amp; Ops (4) · Strategy &amp; Decision (4)</h3><div class="d">Weighted forecast, commission, win/loss, revenue waterfall · loaded cost, utilization, comp bands, renewals · NPV/IRR case, decision matrix, SWOT &amp; risk, pricing optimizer.</div><div class="r"><b>Improves:</b> the highest-leverage move made obvious, and defensible, in every function.</div></div>
+  <div class="off"><h3>Project Command Suite (flagship) + 41 PM templates</h3><div class="d">7 KPIs, 4 live charts, 3 roll-ups, a working Project filter and RAG flags on one screen, plus the full delivery library.</div><div class="r"><b>Improves:</b> weekly reporting from hours to a glance; every project faster, cleaner and comparable to the last.</div></div>
+  <footer><div class="mono"><img src="assets/dr-monogram.png" alt=""></div><div class="tag">The Dash Starts Now</div><div class="rite-abbr"><b>R</b>espect · <b>I</b>ntegrity · <b>T</b>eamwork · <b>E</b>xcellence</div></footer>
+</div></section>
+
+<!-- PAGE 4 — THE PROJECT BUILD + PRICING -->
+<section class="sheet"><div class="inner">
+  <div class="kick">03 · The Project Build — a standalone engagement</div>
+  <h2 class="sec">Your operating system, built in your image</h2>
+  <p class="lead">For clients who want the files built for them: a designed suite, in your vocabulary, handed over in full. Not forty loose files that don't talk to each other — one connected system, built to be used, not admired.</p>
+  <ul class="pl">
+    <li>Receive one library or the full Command Center, each on the DashRite build standard.</li>
+    <li>The five client-facing parts: verified workbooks, documented workflows, a strategy brief, a how-to guide per template, and an executive overview — one clean download with a README.</li>
+    <li>Six stages: Intake &amp; Scope · Architecture (the data spine) · Build · Verify (zero errors, tie-outs proven) · Package &amp; Deliver · Adoption &amp; Handoff.</li>
+    <li>Full handover: every file and login. DashRite drafts, you verify, you own it.</li>
+  </ul>
+  <div class="kick">04 · How we price</div>
+  <p class="lead">Scoped and quoted in writing before work begins — no open-ended hours, no surprises.</p>
+  <ul class="pl">
+    <li><b style="color:var(--red1)">Advisory &amp; project work</b> — $1,500–$4,000 per project, by scope. 25% deposit on acceptance; balance Net-10.</li>
+    <li><b style="color:var(--red1)">The Project Build</b> — a single category at the lower end of the band, the full Command Center at the upper end.</li>
+    <li><b style="color:var(--red1)">Standing work</b> — retainers $1,500–$4,000 per month for reporting cadence and refreshes.</li>
+    <li>10% off when two or more projects are assigned together, or paid in full upfront — one discount, never stacked.</li>
+  </ul>
+  <div class="rite"><b>Why DashRite wins.</b> One connected system, not loose files. Verified, not just delivered. Yours, in your vocabulary, in tools you already own. Measured against the 10x standard — the scoreboard that makes the few high-leverage moves obvious.</div>
+  <p class="lead" style="font-weight:600;color:var(--ink)">Every engagement opens with a free evaluation — real findings, then you decide. Say the word: dashriteadvisory@gmail.com</p>
+  <footer><div class="mono"><img src="assets/dr-monogram.png" alt=""></div><div class="tag">The Dash Starts Now</div><div class="rite-abbr"><b>R</b>espect · <b>I</b>ntegrity · <b>T</b>eamwork · <b>E</b>xcellence</div></footer>
+</div></section>
+
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#161826"/><rect x="30" y="46" width="30" height="5" fill="#e0304a"/><text x="50" y="38" fill="#fff" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle">DRA</text><text x="50" y="66" fill="#9aa0b5" font-family="Arial" font-size="8" text-anchor="middle">SUITE</text></svg></template>
+</body>
+</html>
