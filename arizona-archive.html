@@ -32,7 +32,7 @@ tr.hide{display:none}
 <div class="meta">Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 52 companies: 48 screened out (Downgraded) + 4 not found (Unverified, moved from the working list 19 Oct 2026, existence unconfirmed). Not worked. All Tier C. Updated 30 August 2026</div>
 <div class="bar">
 <input id="q" placeholder="Search company, city, reason…">
-<select id="d"><option value="">All reasons</option><option>public</option><option>PE</option><option>acquired</option><option>foreign</option><option>out-of-band</option><option>nonprofit</option><option>not found</option></select>
+<select id="d"><option value="">All reasons</option><option>public</option><option>PE</option><option>acquired</option><option>foreign</option><option>nonprofit</option><option>not found</option></select>
 <span class="count" id="c"></span>
 </div>
 </header>
@@ -97,7 +97,7 @@ var rows=[].slice.call(document.querySelectorAll('#tb tr'));
 function f(){var Q=q.value.toLowerCase(),DD=dd.value.toLowerCase(),n=0;
 rows.forEach(function(r){var txt=r.textContent.toLowerCase();
 var okQ=!Q||txt.indexOf(Q)>-1;
-var okD=!DD||txt.indexOf(DD)>-1;
+var okD=!DD||new RegExp('\\b'+DD.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(((r.querySelector('.sub')||{}).textContent||''));
 var show=okQ&&okD;r.classList.toggle('hide',!show);if(show)n++;});
 c.textContent=rows.filter(function(r){return !!r.querySelector('.v')&&!r.classList.contains('hide');}).length+' of '+rows.filter(function(r){return !!r.querySelector('.v');}).length+' shown';}
 [q,dd].forEach(function(el){el.addEventListener('input',f);el.addEventListener('change',f);});f();

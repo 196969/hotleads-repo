@@ -93,7 +93,7 @@ var rows=[].slice.call(document.querySelectorAll('#tb tr'));
 function f(){var Q=q.value.toLowerCase(),DD=dd.value.toLowerCase(),n=0;
 rows.forEach(function(r){var txt=r.textContent.toLowerCase();
 var okQ=!Q||txt.indexOf(Q)>-1;
-var okD=!DD||txt.indexOf(DD)>-1;
+var okD=!DD||new RegExp('\\b'+DD.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(((r.querySelector('.sub')||{}).textContent||''));
 var show=okQ&&okD;r.classList.toggle('hide',!show);if(show)n++;});
 c.textContent=rows.filter(function(r){return !!r.querySelector('.v')&&!r.classList.contains('hide');}).length+' of '+rows.filter(function(r){return !!r.querySelector('.v');}).length+' shown';}
 [q,dd].forEach(function(el){el.addEventListener('input',f);el.addEventListener('change',f);});f();
