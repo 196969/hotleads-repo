@@ -34,8 +34,8 @@ tr.hide{display:none}
 <div class="meta">Archive — Tier C. Family/owner-led mid-market, weighted Manufacturing + Food. 48 Tier C — public, PE, foreign-parent, co-op, ESOP, out-of-state, or out-of-band. Screened out of the working list. All 48 still Research pending — not fully screened out. Updated 31 August 2026</div>
 <div class="bar">
 <input id="q" placeholder="Search company, city, name…">
-<select id="t"><option value="">All tiers</option><option>A</option><option>B</option><option>C</option></select>
-<select id="s"><option value="">All status</option><option>Verified</option><option>Research pending</option></select>
+<select id="t"><option value="">All tiers</option><option>C</option></select>
+<select id="s"><option value="">All status</option><option>Research pending</option></select>
 <span class="count" id="c"></span>
 </div>
 </header>
@@ -47,10 +47,10 @@ var rows=[].slice.call(document.querySelectorAll('#tb tr'));
 function f(){var Q=q.value.toLowerCase(),T=t.value,S=s.value,n=0;
 rows.forEach(function(r){var txt=r.textContent.toLowerCase();
 var okQ=!Q||txt.indexOf(Q)>-1;
-var okT=!T||r.querySelector('.tier').textContent===T;
-var okS=!S||r.querySelector('.v').textContent===S;
+var okT=!T||(r.querySelector('.tier')||{}).textContent===T;
+var okS=!S||(r.querySelector('.v')||{}).textContent===S;
 var show=okQ&&okT&&okS;r.classList.toggle('hide',!show);if(show)n++;});
-c.textContent=n+' of '+rows.length+' shown';}
+c.textContent=rows.filter(function(r){return !!r.querySelector('.v')&&!r.classList.contains('hide');}).length+' of '+rows.filter(function(r){return !!r.querySelector('.v');}).length+' shown';}
 q.addEventListener('input',f);t.addEventListener('change',f);s.addEventListener('change',f);f();
 </script>
 </body></html>

@@ -32,7 +32,7 @@ tr.hide{display:none}
 <div class="meta">Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 48 companies. Not worked. Updated 30 August 2026</div>
 <div class="bar">
 <input id="q" placeholder="Search company, city, reason…">
-<select id="d"><option value="">All reasons</option><option>public</option><option>PE</option><option>acquired</option><option>foreign</option><option>out-of-band</option><option>nonprofit/utility</option></select>
+<select id="d"><option value="">All reasons</option><option>public</option><option>PE</option><option>acquired</option><option>foreign</option><option>out-of-band</option></select>
 <span class="count" id="c"></span>
 </div>
 </header>
@@ -95,6 +95,6 @@ rows.forEach(function(r){var txt=r.textContent.toLowerCase();
 var okQ=!Q||txt.indexOf(Q)>-1;
 var okD=!DD||txt.indexOf(DD)>-1;
 var show=okQ&&okD;r.classList.toggle('hide',!show);if(show)n++;});
-c.textContent=n+' of '+rows.length+' shown';}
+c.textContent=rows.filter(function(r){return !!r.querySelector('.v')&&!r.classList.contains('hide');}).length+' of '+rows.filter(function(r){return !!r.querySelector('.v');}).length+' shown';}
 [q,dd].forEach(function(el){el.addEventListener('input',f);el.addEventListener('change',f);});f();
 </script></body></html>
