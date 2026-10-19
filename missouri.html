@@ -35,7 +35,7 @@ tr.hide{display:none}
 <div class="bar">
 <input id="q" placeholder="Search company, city, name…">
 <select id="t"><option value="">All tiers</option><option>A</option><option>B</option><option>C</option></select>
-<select id="s"><option value="">All status</option><option>Verified</option><option>Research pending</option><option>Downgraded</option></select>
+<select id="s"><option value="">All status</option><option>Verified</option><option>Downgraded</option></select>
 <select id="d"><option value="">All disciplines</option><option>Distribution</option><option>Manufacturing</option><option>Construction</option><option>Multi-Site Retail</option><option>Professional Services</option></select>
 <span class="count" id="c"></span>
 </div>
@@ -58,11 +58,11 @@ var rows=[].slice.call(document.querySelectorAll('#tb tr'));
 function f(){var Q=q.value.toLowerCase(),T=t.value,S=s.value,DD=dd.value,n=0;
 rows.forEach(function(r){var txt=r.textContent.toLowerCase();
 var okQ=!Q||txt.indexOf(Q)>-1;
-var okT=!T||r.querySelector('.tier').textContent===T;
-var okS=!S||r.querySelector('.v').textContent===S;
-var okD=!DD||r.querySelector('.sub').textContent.indexOf(DD)>-1;
+var okT=!T||(r.querySelector('.tier')||{}).textContent===T;
+var okS=!S||(r.querySelector('.v')||{}).textContent===S;
+var okD=!DD||((r.querySelector('.sub')||{}).textContent||'').indexOf(DD)>-1;
 var show=okQ&&okT&&okS&&okD;r.classList.toggle('hide',!show);if(show)n++;});
-c.textContent=n+' of '+rows.length+' shown';}
+c.textContent=rows.filter(function(r){return !!r.querySelector('.v')&&!r.classList.contains('hide');}).length+' of '+rows.filter(function(r){return !!r.querySelector('.v');}).length+' shown';}
 [q,t,s,dd].forEach(function(el){el.addEventListener('input',f);el.addEventListener('change',f);});f();
 </script>
 <script id="dr-email">(function(){

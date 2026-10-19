@@ -35,7 +35,7 @@ tr.hide{display:none}
 <div class="bar">
 <input id="q" placeholder="Search company, city, name…">
 <select id="t"><option value="">All tiers</option><option>A</option><option>B</option><option>C</option></select>
-<select id="s"><option value="">All status</option><option>Verified</option><option>Research pending</option></select>
+<select id="s"><option value="">All status</option><option>Verified</option><option>Downgraded</option></select>
 <span class="count" id="c"></span>
 </div>
 </header><div style="margin:16px 24px;background:#131a2c;border:1px solid #2c3049;border-radius:10px;padding:18px 22px;font-size:13px;line-height:1.6;color:#c3c6d4;max-width:1000px"><div style="color:#e0304a;font-weight:700;font-size:13px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:8px">Illinois (Downstate) 200 — Verification Pass Summary (2026-08-31)</div><p style="margin:0 0 8px"><strong style="color:#e9e9ed">Final tally:</strong> 174 Verified / 25 Downgraded. Non-Chicago-metro focus (Rockford, Peoria, Quad Cities, Springfield, Champaign, Bloomington, Decatur, Quincy + downstate). Publics/co-ops/foreign-parent plants (Deere, Caterpillar, ADM, State Farm, Cat/Komatsu, GROWMARK, Tate/Primient, North American Lighting) carried in illinois-archive.html; working leads are owner/family/ESOP-led manufacturers, food processors, contractors, dealers and distributors.</p><p style="margin:0"><strong style="color:#e9e9ed">Carry-forward caution:</strong> desk-screen level — verify at dial. BAND-RISK Tier B family firms (Bergstrom, Maui Jim, Dot Foods, Wahl, Raynor, Ideal, Libman, Gilster-Mary Lee, Cassens) are owner/family-controlled but over the $150M ceiling — the door is a division/plant.</p></div>
@@ -47,10 +47,10 @@ var rows=[].slice.call(document.querySelectorAll('#tb tr'));
 function f(){var Q=q.value.toLowerCase(),T=t.value,S=s.value,n=0;
 rows.forEach(function(r){var txt=r.textContent.toLowerCase();
 var okQ=!Q||txt.indexOf(Q)>-1;
-var okT=!T||r.querySelector('.tier').textContent===T;
-var okS=!S||r.querySelector('.v').textContent===S;
+var okT=!T||(r.querySelector('.tier')||{}).textContent===T;
+var okS=!S||(r.querySelector('.v')||{}).textContent===S;
 var show=okQ&&okT&&okS;r.classList.toggle('hide',!show);if(show)n++;});
-c.textContent=n+' of '+rows.length+' shown';}
+c.textContent=rows.filter(function(r){return !!r.querySelector('.v')&&!r.classList.contains('hide');}).length+' of '+rows.filter(function(r){return !!r.querySelector('.v');}).length+' shown';}
 q.addEventListener('input',f);t.addEventListener('change',f);s.addEventListener('change',f);f();
 </script>
 
