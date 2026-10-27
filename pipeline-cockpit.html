@@ -192,7 +192,7 @@ function renderBoard(){
 }
 function openDrawer(id){
   var l=LEADS.find(function(x){return x.id===id;});if(!l)return;var r=rec(id);
-  var tmplOpener="Subject: A number worth a look — "+l.company+"\n\nHi"+(l.dm&&l.dm!=='—'?' '+l.dm.split(' ')[0]:'')+",\n\nI run DashRite Advisory — we find the six-figure errors hiding in mid-market operations (landed cost, forecasting, the close) and build the systems that end them, in the tools you already own.\n\nWorth a short call? First look is free — real findings, a real number, then you decide.\n\nWith thanks,\nTimothy Edick, CEO\nDashRite Advisory LLC · dashriteadvisory@gmail.com";
+  var tmplOpener="Subject: A number worth a look — "+l.company+"\n\nHi"+(l.dm&&l.dm!=='—'?' '+l.dm.split(' ')[0]:'')+",\n\nI run DashRite Advisory — we find the six-figure errors hiding in mid-market operations (landed cost, forecasting, the close) and build the systems that end them, in the tools you already own.\n\nWorth a short call? First look is free — real findings, a real number, then you decide.\n\nWith thanks,\nTimothy Edick, CEO\nDashRite Advisory LLC · TEdick@dashriteadvisory.com";
   var c='<div class="dh"><h2>'+esc(l.company)+'</h2><div class="d"><span class="tier t'+l.tier+'">'+l.tier+'</span> '+esc(l.state)+' · '+esc(l.city)+' · '+esc(l.disc)+'</div></div><div class="db">';
   c+='<div class="fld"><label>Decision maker</label><input id="f_dm" value="'+esc(l.dm||'')+'" readonly></div>';
   c+='<div class="fld"><label>Phone</label><div style="font-size:15px">'+phCell(l.phone)+'</div></div>';
