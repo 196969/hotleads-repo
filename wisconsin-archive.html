@@ -32,7 +32,7 @@ tr.hide{display:none}
 <div class="meta">Archive — Tier C (screened out: out-of-state, PE/public, acquired, foreign, co-op, or out-of-band). 48 companies. Not worked. Updated 31 August 2026</div>
 <div class="bar">
 <input id="q" placeholder="Search company, city, reason…">
-<select id="d"><option value="">All reasons</option><option>public</option><option>PE</option><option>acquired</option><option>foreign</option><option>out-of-band</option></select>
+<select id="d"><option value="">All reasons</option><option>public</option><option>PE</option><option>acquired</option><option>foreign</option><option>co-op</option><option>out-of-band</option></select>
 <span class="count" id="c"></span>
 </div>
 </header>
@@ -92,8 +92,8 @@ var q=document.getElementById('q'),dd=document.getElementById('d'),c=document.ge
 var rows=[].slice.call(document.querySelectorAll('#tb tr'));
 function f(){var Q=q.value.toLowerCase(),DD=dd.value.toLowerCase(),n=0;
 rows.forEach(function(r){var txt=r.textContent.toLowerCase();
-var okQ=!Q||txt.indexOf(Q)>-1;var okD=!DD||new RegExp('\\b'+DD.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i').test(((r.querySelector('.sub')||{}).textContent||''));
+var okQ=!Q||txt.indexOf(Q)>-1;var okD=!DD||txt.indexOf(DD)>-1;
 var show=okQ&&okD;r.classList.toggle('hide',!show);if(show)n++;});
-c.textContent=rows.filter(function(r){return !!r.querySelector('.v')&&!r.classList.contains('hide');}).length+' of '+rows.filter(function(r){return !!r.querySelector('.v');}).length+' shown';}
+c.textContent=n+' of '+rows.length+' shown';}
 [q,dd].forEach(function(el){el.addEventListener('input',f);el.addEventListener('change',f);});f();
 </script></body></html>
