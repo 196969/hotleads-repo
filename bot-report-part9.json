@@ -1,0 +1,32 @@
+{
+ "market": "florida",
+ "date": "2026-10-29",
+ "run": "partial \u2014 stopped by the Part 6 ceiling (read 201 refused); the day\u2019s log already held Part 7\u2019s 135 reads",
+ "rows_in_pipeline": 47,
+ "rows_reached": 21,
+ "classes_this_run": [
+  "trade_press",
+  "job_board"
+ ],
+ "reads_this_run": 65,
+ "reads_today_total": 200,
+ "ceiling": 200,
+ "ceiling_is_assumed": true,
+ "measured_cost": {
+  "reads_per_row_per_class": 1.55,
+  "note": "measured on this run: a search plus up to two class-domain pages; the ceiling figure itself stays assumed"
+ },
+ "candidates": 0,
+ "classes_read": {
+  "trade_press: search refused": 9,
+  "job_board: search refused": 10,
+  "trade_press: read 2026-10-29": 12,
+  "job_board: read 2026-10-29": 10
+ },
+ "page_refusals": {
+  "page refused (403)": 20
+ },
+ "finding": "every class-domain page fetched refused the script reader (403); searches were refused by the provider on 19 of 42 attempts; refusals are logged, never counted as absence; these classes need the browser as second reader on a day with ceiling left",
+ "rows_moved_to_no_signal_found": 0,
+ "rows_confirmed": 0
+}

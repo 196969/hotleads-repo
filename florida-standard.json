@@ -1,5 +1,97 @@
 {
  "practice_standard": {
+  "_doc": "Declared source classes for the practice pipeline (Item 320 Part 9, 29 Oct 2026). Read by practice.py before any read and by the standard generation; one definition.",
+  "two_windows": {
+   "Window test": "measures our reading: the most recent date of ours on the row must fall inside the window (Item 320 Part 1 ruling)",
+   "practice window": "measures the signal’s currency: the signal’s publication date must fall inside the window (Item 320 Part 8 ruling); the read date on the line dates our check"
+  },
+  "source_classes": {
+   "broker": {
+    "what": "business brokers and M&A listings",
+    "criteria": [
+     "Acquisitions"
+    ],
+    "domains": [
+     "bizbuysell.com",
+     "businessbroker.net",
+     "sunbeltnetwork.com",
+     "tworld.com",
+     "bizquest.com",
+     "dealstream.com"
+    ]
+   },
+   "trade_press": {
+    "what": "trade press and business press",
+    "criteria": [
+     "Acquisitions",
+     "Fractionals",
+     "Private Equity"
+    ],
+    "domains": [
+     "floridatrend.com",
+     "bizjournals.com",
+     "prnewswire.com",
+     "businesswire.com",
+     "globenewswire.com",
+     "sfbwmag.com",
+     "orlandosentinel.com",
+     "tampabay.com",
+     "jaxdailyrecord.com",
+     "miamiherald.com",
+     "sun-sentinel.com"
+    ]
+   },
+   "sunbiz": {
+    "what": "Florida Division of Corporations — reads only, never writes; stays at 0 reads absent a Chair ruling revisiting the Part 6 ceiling and the 0-Sunbiz posture",
+    "criteria": [
+     "Acquisitions"
+    ],
+    "domains": [
+     "search.sunbiz.org"
+    ],
+    "reads_permitted": 0
+   },
+   "sponsor": {
+    "what": "sponsor portfolio pages",
+    "criteria": [
+     "Private Equity"
+    ],
+    "domains": [
+     "trivestpartners.com",
+     "suncappart.com",
+     "hig.com",
+     "comvest.com",
+     "boynecapital.com",
+     "pfgpe.com",
+     "bostonventures.com",
+     "lcollective.com",
+     "edgewaterfunds.com",
+     "ironwoodcap.com",
+     "palmbeachcapital.com",
+     "veronisshuler.com"
+    ]
+   },
+   "job_board": {
+    "what": "job boards, for the Fractionals criterion",
+    "criteria": [
+     "Fractionals"
+    ],
+    "domains": [
+     "indeed.com",
+     "ziprecruiter.com",
+     "glassdoor.com",
+     "simplyhired.com",
+     "careerbuilder.com"
+    ]
+   }
+  },
+  "company_site": "not a source for any criterion",
+  "no_signal_found_rule": "derived only when every declared source class permitted for the criterion was read for the row and nothing returned; the classes read are logged on the row",
+  "read_cost": {
+   "ceiling": 200,
+   "ceiling_is_assumed": true,
+   "measured": "Part 7 measured a median 0.47 s per read on 135 reads; cost in reads per row per class is measured in this part and stated in bot-report-part9.json"
+  },
   "ruled": "2026-10-29",
   "criteria": {
    "Acquisitions": {
@@ -57,19 +149,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     }
    }
   },
@@ -102,19 +206,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     }
    }
   },
@@ -294,19 +410,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     }
    }
   },
@@ -341,19 +469,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     }
    }
   },
@@ -388,19 +528,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     }
    }
   },
@@ -433,19 +585,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     }
    }
   },
@@ -523,19 +687,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 2 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 2 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 2 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     }
    }
   },
@@ -901,19 +1077,31 @@
      "state": "no signal found",
      "source": "the company's own site",
      "date": "2026-10-29",
-     "why": "read from the company's own site; nothing fits"
+     "why": "read from the company's own site; nothing fits",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "no signal found",
      "source": "the company's own site",
      "date": "2026-10-29",
-     "why": "read from the company's own site; nothing fits"
+     "why": "read from the company's own site; nothing fits",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "no signal found",
      "source": "the company's own site",
      "date": "2026-10-29",
-     "why": "read from the company's own site; nothing fits"
+     "why": "read from the company's own site; nothing fits",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     }
    }
   },
@@ -946,19 +1134,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     }
    }
   },
@@ -1036,19 +1236,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     }
    }
   },
@@ -1371,19 +1583,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 0 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 0 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 0 class hit(s)"
+     }
     }
    }
   },
@@ -1551,19 +1775,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     }
    }
   },
@@ -1596,19 +1832,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "search refused"
+     }
     }
    }
   },
@@ -1641,19 +1889,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     }
    }
   },
@@ -1686,19 +1946,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 0 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 0 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 0 class hit(s)"
+     }
     }
    }
   },
@@ -1731,19 +2003,31 @@
      "state": "no signal found",
      "source": "the company's own site",
      "date": "2026-10-29",
-     "why": "read from the company's own site; nothing fits"
+     "why": "read from the company's own site; nothing fits",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     },
     "Fractionals": {
      "state": "no signal found",
      "source": "the company's own site",
      "date": "2026-10-29",
-     "why": "read from the company's own site; nothing fits"
+     "why": "read from the company's own site; nothing fits",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     },
     "Private Equity": {
      "state": "no signal found",
      "source": "the company's own site",
      "date": "2026-10-29",
-     "why": "read from the company's own site; nothing fits"
+     "why": "read from the company's own site; nothing fits",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     }
    }
   },
@@ -1924,19 +2208,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "search refused"
+     }
     }
    }
   },
@@ -1969,19 +2265,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 2 class hit(s)",
+      "job_board": "search refused"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 2 class hit(s)",
+      "job_board": "search refused"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 2 class hit(s)",
+      "job_board": "search refused"
+     }
     }
    }
   },
@@ -2018,19 +2326,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "search refused",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     }
    }
   },
@@ -2247,19 +2567,31 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)",
+      "job_board": "read 2026-10-29: 2 class hit(s)"
+     }
     }
    }
   },
@@ -2525,19 +2857,28 @@
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)"
+     }
     },
     "Fractionals": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)"
+     }
     },
     "Private Equity": {
      "state": "not read",
      "source": null,
      "date": null,
-     "why": "nobody has read this criterion for the row"
+     "why": "nobody has read this criterion for the row",
+     "classes_read": {
+      "trade_press": "read 2026-10-29: 0 class hit(s)"
+     }
     }
    }
   },

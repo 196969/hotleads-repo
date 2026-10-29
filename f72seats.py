@@ -66,9 +66,25 @@ def check_part8(repo):
     out['Boies']=('Pass' if ok and not own else 'Hold','the validator passes with no typed practice flag; no Acquisitions signal from the company\'s own site',f'validator {"PASSED" if ok else "REFUSED"}; company-site Acquisitions signals {len(own)}')
     return out
 
+
+def check_part9(repo):
+    """Part 9 seats: Buffett reads that every candidate's source is a declared third-party class and carries a publication date; Lemonis reads that every candidate's sentence names a people, process or product change (the criterion keywords), not a mood; Boies reads that the row says exactly what the source says (the applier proof) and the validator passes."""
+    out={}; qp=os.path.join(repo,'florida-practice-queue.json'); pf=os.path.join(repo,'bot-proofs-part9.json'); cp=os.path.join(repo,'practice-classes.json')
+    if not (os.path.exists(qp) and os.path.exists(cp) and os.path.exists(pf)): return {n:('Blind','florida-practice-queue.json; practice-classes.json; bot-proofs-part9.json','a file is absent') for n in ('Buffett','Lemonis','Boies')}
+    Q=json.load(open(qp)); C=json.load(open(cp))['source_classes']; P=json.load(open(pf)); cands=[v for k,v in Q.items() if k[0]!='_']
+    tp=all(v.get('source_class') in C and v['source_class']!='sunbiz' and re.fullmatch(r'\d{4}-\d\d-\d\d',v.get('published') or '') for v in cands)
+    out['Buffett']=('Pass' if tp and P.get('undated_article_refused') and P.get('company_site_url_refused_by_class') else 'Hold','every candidate from a declared third-party class with a publication date; undated and company-site sources refused in proof',f'{len(cands)} candidate(s) in the queue{" (a vacuous pass: nothing to read yet)" if not cands else ""}; undated refused {P.get("undated_article_refused")}; company-site refused {P.get("company_site_url_refused_by_class")}')
+    try:
+        import ast; tree=ast.parse(open(os.path.join(repo,'practice.py'),encoding='utf-8').read()); kw=next(ast.literal_eval(n.value) for n in tree.body if isinstance(n,ast.Assign) and getattr(n.targets[0],'id','')=='KW'); lem=all(re.search(kw[v['criterion']],v['sentence'],re.I) for v in cands)
+    except Exception as e: lem=None
+    out['Lemonis']=('Pass' if lem is not None and lem else ('Blind' if lem is None else 'Hold'),'every candidate sentence matches a people/process/product keyword set (practice.py KW), not a mood',f'{len(cands)} candidate(s){" (a vacuous pass: nothing to read yet)" if not cands else ""}; keyword set loaded {lem is not None}')
+    rr=subprocess.run(['python3','validate.py','florida.html'],capture_output=True,text=True,cwd=repo); ok=rr.returncode==0 and 'PASSED' in rr.stdout
+    out['Boies']=('Pass' if ok and P.get('row_says_what_source_says') and P.get('nameless_confirmation_refused_by_apply') else 'Hold','the applier writes exactly the source sentence (proof); nameless confirmation refused; validator passes on the live file',f'validator {"PASSED" if ok else "REFUSED"}; source sentence carried verbatim {P.get("row_says_what_source_says")}; nameless refused {P.get("nameless_confirmation_refused_by_apply")}')
+    return out
+
 def run(repo,label,part):
     R=json.load(open(os.path.join(repo,'founders-roster.json'))) if os.path.exists(os.path.join(repo,'founders-roster.json')) else json.load(open('founders-roster.json')); seats=R['seats']
-    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else (check_part7(repo) if part==7 else (check_part8(repo) if part==8 else {})))
+    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else (check_part7(repo) if part==7 else (check_part8(repo) if part==8 else (check_part9(repo) if part==9 else {}))))
     bound={s['name'].split()[-1]:s.get('fields_by_part',{}).get(str(part)) for s in seats}
     rows=[]; 
     for s in seats:
@@ -81,7 +97,7 @@ def run(repo,label,part):
     print(f'== {label}: Pass {len(P)} · Hold {len(H)} · Blind {len(B)} · weight passing {sum(r[1] for r in P)} of {sum(r[1] for r in rows if r[2]!="Chair")}')
     for r in rows:
         if r[2]!='Blind' or r[0].split()[-1] in named: print(f'   {r[0]:22} w{r[1]:<5} {r[2]:5} | {r[3]} | {r[4]}')
-    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen'),7:('Schneier','Goldratt','Chen'),8:('Buffett','Branson','Boies')}
+    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen'),7:('Schneier','Goldratt','Chen'),8:('Buffett','Branson','Boies'),9:('Buffett','Lemonis','Boies')}
     stop=[r for r in rows if part in SEATS and r[0].split()[-1] in SEATS[part] and r[2]=='Blind']
     if part in SEATS:
         if stop and 'brief' in label.lower(): print(f'   Part {part} brief: Blind by construction on',[r[0] for r in stop],'— not a stop (roster standing rule); the stop binds on the delivery')

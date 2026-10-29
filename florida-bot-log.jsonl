@@ -609,3 +609,200 @@
 {"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:24:05.927956+00:00"}
 {"kind": "write", "row": "153", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:24:05.928092+00:00"}
 {"kind": "write", "row": "153", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:24:05.928126+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:06.499968+00:00"}
+{"kind": "read", "row": "1", "url": "https://html.duckduckgo.com/html/?q=Invicta%20Watch%20Group%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "refused", "elapsed": 12.03, "ts": "2026-10-29T22:39:18.527235+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:18.529009+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:18.529557+00:00"}
+{"kind": "read", "row": "1", "url": "https://html.duckduckgo.com/html/?q=Invicta%20Watch%20Group%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.68, "ts": "2026-10-29T22:39:19.206949+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:19.208180+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:20.709075+00:00"}
+{"kind": "read", "row": "2", "url": "https://html.duckduckgo.com/html/?q=Badia%20Spices%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.7, "ts": "2026-10-29T22:39:21.407835+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:21.409411+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:21.411110+00:00"}
+{"kind": "read", "row": "2", "url": "https://html.duckduckgo.com/html/?q=Badia%20Spices%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.64, "ts": "2026-10-29T22:39:22.051592+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:22.052996+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:22.053572+00:00"}
+{"kind": "read", "row": "2", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.35, "ts": "2026-10-29T22:39:22.405157+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:22.406389+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:22.406873+00:00"}
+{"kind": "read", "row": "2", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.08, "ts": "2026-10-29T22:39:22.492031+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:22.493679+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:23.994999+00:00"}
+{"kind": "read", "row": "6", "url": "https://html.duckduckgo.com/html/?q=Eagle%20Brands%20Sales%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.71, "ts": "2026-10-29T22:39:24.703493+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:24.705135+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:24.705845+00:00"}
+{"kind": "read", "row": "6", "url": "https://html.duckduckgo.com/html/?q=Eagle%20Brands%20Sales%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.1, "ts": "2026-10-29T22:39:24.811740+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:24.813308+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:26.315892+00:00"}
+{"kind": "read", "row": "7", "url": "https://html.duckduckgo.com/html/?q=Martinez%20Distributors%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.69, "ts": "2026-10-29T22:39:27.003490+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:27.004721+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:27.005238+00:00"}
+{"kind": "read", "row": "7", "url": "https://html.duckduckgo.com/html/?q=Martinez%20Distributors%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.68, "ts": "2026-10-29T22:39:27.688434+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:27.689607+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:27.690241+00:00"}
+{"kind": "read", "row": "7", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.11, "ts": "2026-10-29T22:39:27.803177+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:27.804674+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:27.805185+00:00"}
+{"kind": "read", "row": "7", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.07, "ts": "2026-10-29T22:39:27.881210+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:27.882530+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:29.384955+00:00"}
+{"kind": "read", "row": "8", "url": "https://html.duckduckgo.com/html/?q=PJ%20Distributors%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.62, "ts": "2026-10-29T22:39:30.011888+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:30.013143+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:30.014814+00:00"}
+{"kind": "read", "row": "8", "url": "https://html.duckduckgo.com/html/?q=PJ%20Distributors%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.79, "ts": "2026-10-29T22:39:30.804365+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:30.805622+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:32.306722+00:00"}
+{"kind": "read", "row": "9", "url": "https://html.duckduckgo.com/html/?q=Riverdale%20Farms%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.69, "ts": "2026-10-29T22:39:32.999100+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:33.000497+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:33.002257+00:00"}
+{"kind": "read", "row": "9", "url": "https://html.duckduckgo.com/html/?q=Riverdale%20Farms%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.67, "ts": "2026-10-29T22:39:33.674614+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:33.676436+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:35.177749+00:00"}
+{"kind": "read", "row": "11", "url": "https://html.duckduckgo.com/html/?q=Turbana%20Corp%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.64, "ts": "2026-10-29T22:39:35.819816+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:35.821105+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:35.821797+00:00"}
+{"kind": "read", "row": "11", "url": "https://www.bizjournals.com/southflorida/news/2026/09/11/skyrise-engineering-acquisition-certerra.html", "outcome": "refused", "elapsed": 0.16, "ts": "2026-10-29T22:39:35.982826+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:35.984085+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:35.984552+00:00"}
+{"kind": "read", "row": "11", "url": "https://www.bizjournals.com/southflorida/news/2026/09/11/skyrise-engineering-acquisition-certerra.html", "outcome": "refused", "elapsed": 0.02, "ts": "2026-10-29T22:39:36.004089+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:36.005316+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:36.006755+00:00"}
+{"kind": "read", "row": "11", "url": "https://html.duckduckgo.com/html/?q=Turbana%20Corp%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.79, "ts": "2026-10-29T22:39:36.800400+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:36.801698+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:36.802500+00:00"}
+{"kind": "read", "row": "11", "url": "https://www.indeed.com/q-Director-of-Operations-l-Florida-jobs.html", "outcome": "refused", "elapsed": 0.2, "ts": "2026-10-29T22:39:37.002677+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:37.003965+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:37.004435+00:00"}
+{"kind": "read", "row": "11", "url": "https://www.indeed.com/q-Director-of-Operations-l-Florida-jobs.html", "outcome": "refused", "elapsed": 0.08, "ts": "2026-10-29T22:39:37.087637+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:37.088870+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:38.590601+00:00"}
+{"kind": "read", "row": "19", "url": "https://html.duckduckgo.com/html/?q=Refricenter%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.7, "ts": "2026-10-29T22:39:39.296683+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:39.298080+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:39.299586+00:00"}
+{"kind": "read", "row": "19", "url": "https://html.duckduckgo.com/html/?q=Refricenter%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.63, "ts": "2026-10-29T22:39:39.930037+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:39.931283+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:39.932029+00:00"}
+{"kind": "read", "row": "19", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.1, "ts": "2026-10-29T22:39:40.029551+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:40.030870+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:40.031277+00:00"}
+{"kind": "read", "row": "19", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.03, "ts": "2026-10-29T22:39:40.063534+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:40.064914+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:41.566674+00:00"}
+{"kind": "read", "row": "20", "url": "https://html.duckduckgo.com/html/?q=TruckMax%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.69, "ts": "2026-10-29T22:39:42.255141+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:42.256583+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:42.257111+00:00"}
+{"kind": "read", "row": "20", "url": "https://html.duckduckgo.com/html/?q=TruckMax%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.64, "ts": "2026-10-29T22:39:42.894765+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:42.896140+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:44.397367+00:00"}
+{"kind": "read", "row": "22", "url": "https://html.duckduckgo.com/html/?q=Presidente%20Supermarkets%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.71, "ts": "2026-10-29T22:39:45.109510+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:45.110957+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:45.112695+00:00"}
+{"kind": "read", "row": "22", "url": "https://html.duckduckgo.com/html/?q=Presidente%20Supermarkets%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.82, "ts": "2026-10-29T22:39:45.932597+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:45.934279+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:45.935220+00:00"}
+{"kind": "read", "row": "22", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.06, "ts": "2026-10-29T22:39:45.999486+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:46.000909+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:46.001444+00:00"}
+{"kind": "read", "row": "22", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.08, "ts": "2026-10-29T22:39:46.086681+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:46.087945+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:47.590203+00:00"}
+{"kind": "read", "row": "29", "url": "https://html.duckduckgo.com/html/?q=Sintavia%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.69, "ts": "2026-10-29T22:39:48.281485+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:48.282971+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:48.283448+00:00"}
+{"kind": "read", "row": "29", "url": "https://html.duckduckgo.com/html/?q=Sintavia%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.6, "ts": "2026-10-29T22:39:48.881041+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:48.882475+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:50.384374+00:00"}
+{"kind": "read", "row": "33", "url": "https://html.duckduckgo.com/html/?q=Eco%20Window%20Systems%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.73, "ts": "2026-10-29T22:39:51.122213+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:51.123820+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:51.125820+00:00"}
+{"kind": "read", "row": "33", "url": "https://html.duckduckgo.com/html/?q=Eco%20Window%20Systems%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.67, "ts": "2026-10-29T22:39:51.797918+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:51.799309+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:53.300608+00:00"}
+{"kind": "read", "row": "34", "url": "https://html.duckduckgo.com/html/?q=Cigarette%20Racing%20Team%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.83, "ts": "2026-10-29T22:39:54.129864+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:39:54.131718+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:39:54.134245+00:00"}
+{"kind": "read", "row": "34", "url": "https://html.duckduckgo.com/html/?q=Cigarette%20Racing%20Team%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "refused", "elapsed": 12.02, "ts": "2026-10-29T22:40:06.158841+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:06.160837+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:07.661737+00:00"}
+{"kind": "read", "row": "35", "url": "https://html.duckduckgo.com/html/?q=WTDC%20Logistics%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.66, "ts": "2026-10-29T22:40:08.325269+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:08.326651+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:08.328275+00:00"}
+{"kind": "read", "row": "35", "url": "https://html.duckduckgo.com/html/?q=WTDC%20Logistics%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.63, "ts": "2026-10-29T22:40:08.964801+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:08.966213+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:08.966891+00:00"}
+{"kind": "read", "row": "35", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.13, "ts": "2026-10-29T22:40:09.097443+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:09.099379+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:09.100104+00:00"}
+{"kind": "read", "row": "35", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.08, "ts": "2026-10-29T22:40:09.188713+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:09.190690+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:10.692924+00:00"}
+{"kind": "read", "row": "36", "url": "https://html.duckduckgo.com/html/?q=SkyPostal%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "refused", "elapsed": 12.01, "ts": "2026-10-29T22:40:22.709804+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:22.711762+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:22.712437+00:00"}
+{"kind": "read", "row": "36", "url": "https://html.duckduckgo.com/html/?q=SkyPostal%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.66, "ts": "2026-10-29T22:40:23.374566+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:23.375794+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:24.877958+00:00"}
+{"kind": "read", "row": "37", "url": "https://html.duckduckgo.com/html/?q=Fulfillment%20Hub%20USA%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.68, "ts": "2026-10-29T22:40:25.560409+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:25.561638+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:25.562174+00:00"}
+{"kind": "read", "row": "37", "url": "https://html.duckduckgo.com/html/?q=Fulfillment%20Hub%20USA%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "refused", "elapsed": 12.02, "ts": "2026-10-29T22:40:37.581896+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:37.583426+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:39.084435+00:00"}
+{"kind": "read", "row": "41", "url": "https://html.duckduckgo.com/html/?q=Vigo%20Importing%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.67, "ts": "2026-10-29T22:40:39.757045+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:39.758268+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:39.758838+00:00"}
+{"kind": "read", "row": "41", "url": "https://html.duckduckgo.com/html/?q=Vigo%20Importing%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.63, "ts": "2026-10-29T22:40:40.389931+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:40.391154+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:41.892178+00:00"}
+{"kind": "read", "row": "42", "url": "https://html.duckduckgo.com/html/?q=Pepin%20Distributing%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.65, "ts": "2026-10-29T22:40:42.544027+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:42.545227+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:42.545950+00:00"}
+{"kind": "read", "row": "42", "url": "https://www.bizjournals.com/baltimore/news/2021/07/14/redwood-capital-buying-tampa-beverage-distributor.html", "outcome": "refused", "elapsed": 0.24, "ts": "2026-10-29T22:40:42.786222+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:42.787483+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:42.787896+00:00"}
+{"kind": "read", "row": "42", "url": "https://www.bizjournals.com/baltimore/news/2021/07/14/redwood-capital-buying-tampa-beverage-distributor.html", "outcome": "refused", "elapsed": 0.01, "ts": "2026-10-29T22:40:42.803520+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:42.804669+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:42.806044+00:00"}
+{"kind": "read", "row": "42", "url": "https://html.duckduckgo.com/html/?q=Pepin%20Distributing%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.64, "ts": "2026-10-29T22:40:43.449769+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:43.451111+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:44.952099+00:00"}
+{"kind": "read", "row": "43", "url": "https://html.duckduckgo.com/html/?q=Great%20Bay%20Distributors%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.71, "ts": "2026-10-29T22:40:45.663560+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:45.664873+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:45.665332+00:00"}
+{"kind": "read", "row": "43", "url": "https://html.duckduckgo.com/html/?q=Great%20Bay%20Distributors%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.68, "ts": "2026-10-29T22:40:46.351336+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:46.353213+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:46.354147+00:00"}
+{"kind": "read", "row": "43", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.11, "ts": "2026-10-29T22:40:46.473258+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:46.475000+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:46.475572+00:00"}
+{"kind": "read", "row": "43", "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida", "outcome": "refused", "elapsed": 0.07, "ts": "2026-10-29T22:40:46.546015+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:46.547267+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:48.050065+00:00"}
+{"kind": "read", "row": "48", "url": "https://html.duckduckgo.com/html/?q=Rooms%20To%20Go%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.65, "ts": "2026-10-29T22:40:48.703299+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:48.704655+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:48.706660+00:00"}
+{"kind": "read", "row": "48", "url": "https://html.duckduckgo.com/html/?q=Rooms%20To%20Go%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.71, "ts": "2026-10-29T22:40:49.420665+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:49.421941+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:49.422615+00:00"}
+{"kind": "read", "row": "48", "url": "https://www.glassdoor.com/Job/florida-director-of-rooms-jobs-SRCH_IL.0,7_IS3318_KO8,25.htm", "outcome": "refused", "elapsed": 0.24, "ts": "2026-10-29T22:40:49.667123+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:49.668439+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:49.668928+00:00"}
+{"kind": "read", "row": "48", "url": "https://www.glassdoor.com/Job/florida-director-of-rooms-jobs-SRCH_IL.0,7_IS3318_KO8,25.htm", "outcome": "refused", "elapsed": 0.09, "ts": "2026-10-29T22:40:49.756383+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:49.757885+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:51.260330+00:00"}
+{"kind": "read", "row": "54", "url": "https://html.duckduckgo.com/html/?q=Bealls%20Inc.%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.63, "ts": "2026-10-29T22:40:51.891105+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:51.892285+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:51.894397+00:00"}
+{"kind": "read", "row": "54", "url": "https://html.duckduckgo.com/html/?q=Bealls%20Inc.%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.63, "ts": "2026-10-29T22:40:52.527524+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:52.529207+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:54.030162+00:00"}
+{"kind": "read", "row": "55", "url": "https://html.duckduckgo.com/html/?q=Tervis%20Florida%20trade%20acquired%20OR%20acquisition%20OR%20CFO%20OR%20%22private%20equity%22", "outcome": "read", "elapsed": 0.67, "ts": "2026-10-29T22:40:54.704369+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:54.705620+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:54.706801+00:00"}
+{"kind": "read", "row": "55", "url": "https://html.duckduckgo.com/html/?q=Tervis%20Florida%20job%20CFO%20OR%20controller%20OR%20%22director%20of%20operations%22", "outcome": "read", "elapsed": 0.66, "ts": "2026-10-29T22:40:55.368609+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:55.369974+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:55.371013+00:00"}
+{"kind": "read", "row": "55", "url": "https://www.indeed.com/q-Director-of-Operations-l-Florida-jobs.html", "outcome": "refused", "elapsed": 0.17, "ts": "2026-10-29T22:40:55.541550+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T22:40:55.542856+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T22:40:55.543291+00:00"}
+{"kind": "ceiling", "row": "55", "reads_today": 200, "ceiling": 200, "outcome": "refused", "ts": "2026-10-29T22:40:55.547990+00:00"}

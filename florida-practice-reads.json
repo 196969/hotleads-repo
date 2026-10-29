@@ -1,0 +1,237 @@
+{
+ "1": {
+  "classes_read": {
+   "trade_press": "search refused",
+   "job_board": "search refused"
+  },
+  "refusals": []
+ },
+ "2": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 0 class hit(s)",
+   "job_board": "read 2026-10-29: 2 class hit(s)"
+  },
+  "refusals": [
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   }
+  ]
+ },
+ "6": {
+  "classes_read": {
+   "trade_press": "search refused",
+   "job_board": "search refused"
+  },
+  "refusals": []
+ },
+ "7": {
+  "classes_read": {
+   "trade_press": "search refused",
+   "job_board": "read 2026-10-29: 2 class hit(s)"
+  },
+  "refusals": [
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   }
+  ]
+ },
+ "8": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 0 class hit(s)",
+   "job_board": "search refused"
+  },
+  "refusals": []
+ },
+ "9": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 0 class hit(s)",
+   "job_board": "search refused"
+  },
+  "refusals": []
+ },
+ "11": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 2 class hit(s)",
+   "job_board": "read 2026-10-29: 2 class hit(s)"
+  },
+  "refusals": [
+   {
+    "url": "https://www.bizjournals.com/southflorida/news/2026/09/11/skyrise-engineering-acquisition-certerra.html",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.bizjournals.com/southflorida/news/2026/09/11/skyrise-engineering-acquisition-certerra.html",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.indeed.com/q-Director-of-Operations-l-Florida-jobs.html",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.indeed.com/q-Director-of-Operations-l-Florida-jobs.html",
+    "why": "page refused (403)"
+   }
+  ]
+ },
+ "19": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 0 class hit(s)",
+   "job_board": "read 2026-10-29: 2 class hit(s)"
+  },
+  "refusals": [
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   }
+  ]
+ },
+ "20": {
+  "classes_read": {
+   "trade_press": "search refused",
+   "job_board": "search refused"
+  },
+  "refusals": []
+ },
+ "22": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 0 class hit(s)",
+   "job_board": "read 2026-10-29: 2 class hit(s)"
+  },
+  "refusals": [
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   }
+  ]
+ },
+ "29": {
+  "classes_read": {
+   "trade_press": "search refused",
+   "job_board": "read 2026-10-29: 0 class hit(s)"
+  },
+  "refusals": []
+ },
+ "33": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 0 class hit(s)",
+   "job_board": "search refused"
+  },
+  "refusals": []
+ },
+ "34": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 0 class hit(s)",
+   "job_board": "search refused"
+  },
+  "refusals": []
+ },
+ "35": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 0 class hit(s)",
+   "job_board": "read 2026-10-29: 2 class hit(s)"
+  },
+  "refusals": [
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   }
+  ]
+ },
+ "36": {
+  "classes_read": {
+   "trade_press": "search refused",
+   "job_board": "read 2026-10-29: 0 class hit(s)"
+  },
+  "refusals": []
+ },
+ "37": {
+  "classes_read": {
+   "trade_press": "search refused",
+   "job_board": "search refused"
+  },
+  "refusals": []
+ },
+ "41": {
+  "classes_read": {
+   "trade_press": "search refused",
+   "job_board": "search refused"
+  },
+  "refusals": []
+ },
+ "42": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 2 class hit(s)",
+   "job_board": "search refused"
+  },
+  "refusals": [
+   {
+    "url": "https://www.bizjournals.com/baltimore/news/2021/07/14/redwood-capital-buying-tampa-beverage-distributor.html",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.bizjournals.com/baltimore/news/2021/07/14/redwood-capital-buying-tampa-beverage-distributor.html",
+    "why": "page refused (403)"
+   }
+  ]
+ },
+ "43": {
+  "classes_read": {
+   "trade_press": "search refused",
+   "job_board": "read 2026-10-29: 2 class hit(s)"
+  },
+  "refusals": [
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
+    "why": "page refused (403)"
+   }
+  ]
+ },
+ "48": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 0 class hit(s)",
+   "job_board": "read 2026-10-29: 2 class hit(s)"
+  },
+  "refusals": [
+   {
+    "url": "https://www.glassdoor.com/Job/florida-director-of-rooms-jobs-SRCH_IL.0,7_IS3318_KO8,25.htm",
+    "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.glassdoor.com/Job/florida-director-of-rooms-jobs-SRCH_IL.0,7_IS3318_KO8,25.htm",
+    "why": "page refused (403)"
+   }
+  ]
+ },
+ "54": {
+  "classes_read": {
+   "trade_press": "read 2026-10-29: 0 class hit(s)"
+  },
+  "refusals": []
+ }
+}

@@ -16,7 +16,8 @@
    "domain": "legal",
    "origin": "Dash Founders lens roster",
    "fields_by_part": {
-    "4": "legal exposure on contact data"
+    "4": "legal exposure on contact data",
+    "9": "the row says exactly what the source says and no more"
    }
   },
   {
@@ -546,7 +547,7 @@
    "fields_by_part": {
     "4": "evidence standard",
     "5": "Private Equity",
-    "9": "Private Equity"
+    "9": "the source is third-party and dated, or it is not a source"
    }
   },
   {
@@ -608,6 +609,16 @@
     "5": "Private Equity",
     "9": "Private Equity"
    }
+  },
+  {
+   "seat": "P9",
+   "name": "Marcus Lemonis",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Part 9 brief, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "9": "people, process or product — a signal names a change, not a mood"
+   }
   }
  ],
  "standing_rules": [
@@ -624,6 +635,23 @@
    "reading": "Hold, then Pass",
    "class": "instrument-label fault",
    "note": "a check too narrow to recognise an honest unconfirmed state (no proposal — not found / refused) read Hold; the fix widened the check, not the queue. The instrument, not the data, was wrong."
+  },
+  {
+   "date": "2026-10-29",
+   "part": 8,
+   "rulings": [
+    "the cut-off line of the Part 8 brief reads \"and the console reading it\"",
+    "the practice window applies to the signal’s publication date; the Window test applies to our read date — two instruments",
+    "Detwiler’s C4 assignment overruled; the dated read-no-signal record stands; 0 signals across 47 is the correct starting number"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "part": 9,
+   "seat": "Marcus Lemonis",
+   "reading": "Blind, then Pass",
+   "class": "instrument-label fault",
+   "note": "the seat reader imported practice.py, which opens practice-classes.json relative to the working directory; the keyword set never loaded and the seat read Blind. The reader now parses the keyword set from the file text. The instrument, not the data, was wrong."
   }
  ]
 }
