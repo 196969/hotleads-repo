@@ -260,7 +260,7 @@
    "company": "Turbana Corp",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -269,19 +269,15 @@
     "Tier": true,
     "Window": true
    },
-   "workable": false,
-   "class": "Sourced, with gaps",
-   "band": 3,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
-   "why": [
-    "missing trading check"
-   ],
+   "why": [],
    "source_state": "sourced",
-   "gaps": [
-    "trading check"
-   ],
-   "trading_kind": null
+   "gaps": [],
+   "trading_kind": "site"
   },
   "12": {
    "company": "Fresh Del Monte Produce",
@@ -1999,7 +1995,7 @@
    "company": "El Dorado Furniture",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": false,
@@ -2009,18 +2005,14 @@
     "Window": true
    },
    "workable": false,
-   "class": "Sourced, with gaps",
-   "band": 3,
+   "class": "Live",
+   "band": 2,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "missing trading check"
-   ],
+   "why": [],
    "source_state": "sourced",
-   "gaps": [
-    "trading check"
-   ],
-   "trading_kind": null
+   "gaps": [],
+   "trading_kind": "site"
   },
   "83": {
    "company": "Duty Free Americas",
