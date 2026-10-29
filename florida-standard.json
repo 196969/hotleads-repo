@@ -986,7 +986,7 @@
   "40": {
    "company": "Florida Crystals",
    "tests": {
-    "Company": false,
+    "Company": true,
     "Trading": false,
     "Decision maker": true,
     "Title": true,
@@ -994,7 +994,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": "Blind"
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -1004,7 +1004,7 @@
    "why": [
     "website names a different company"
    ],
-   "source_state": "unsourced",
+   "source_state": "sourced",
    "gaps": [
     "trading check"
    ],
@@ -3552,7 +3552,7 @@
   "146": {
    "company": "Studer Family of Companies",
    "tests": {
-    "Company": false,
+    "Company": true,
     "Trading": false,
     "Decision maker": false,
     "Title": false,
@@ -3560,17 +3560,18 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": "Blind"
+    "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
    "why": [
-    "no dated Src: line"
+    "missing trading check",
+    "missing dated decision maker"
    ],
-   "source_state": "unsourced",
+   "source_state": "sourced",
    "gaps": [
     "trading check",
     "dated decision maker"

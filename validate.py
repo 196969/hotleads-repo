@@ -1,0 +1,43 @@
+"""validate.py — 6.1 (2026-10-29). The source validator, run in the gate before any market file is delivered, and before any hand edit is committed.
+A Src: line is valid only if its own date sits on the line itself. A line runs from "Src:" to the first full stop followed by a space (or a semicolon-free end of note);
+a URL's dots never end it. A date anywhere else in the note dates something else. Exit status 1 if any line fails, listing each by file, row and text.
+Usage: python3 validate.py florida.html [more market files ...]"""
+import re,sys,html,datetime
+MONTHS={m:i+1 for i,m in enumerate(['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'])}
+COLMAP={'chicago.html':{'Notes':'Flags'}}
+def has_date(s):
+    return bool(re.search(r'\b20\d\d-\d\d-\d\d\b|\b\d{1,2}/\d{1,2}/20\d\d\b|\b\d{1,2}/20\d\d\b|\b\d{1,2} [A-Z][a-z]{2}[a-z]*\.? 20\d\d\b|\b[A-Z][a-z]{2}[a-z]*\.? 20\d\d\b',s))
+ABBR={'incl','approx','est','inc','co','corp','ltd','st','ave','jr','sr','no','vs','etc','e.g','i.e','dept','mr','mrs','ms','dr','u.s','fl'}
+def line_end(rest):
+    """A line ends at a full stop closing a sentence: the word before it is more than one letter and not an abbreviation,
+    and the next character is a capital, an opening quote or bracket, or the end of the note. A URL's dots never end it."""
+    for m in re.finditer(r'\.(?=\s|$)',rest):
+        w=re.search(r'([A-Za-z.]+)$',rest[:m.start()]); word=(w.group(1) if w else '').lower().strip('.')
+        nxt=rest[m.end():].lstrip()[:1]
+        if len(word)<=1 or word in ABBR: continue
+        if nxt=='' or nxt.isupper() or nxt in '\u201c"(\u2018': return m.start()
+    return len(rest)
+def lines(note):
+    for m in re.finditer(r'Src:',note):
+        rest=note[m.end():]; yield 'Src:'+rest[:line_end(rest)]
+def check(path):
+    t=open(path,encoding='utf-8').read(); tb=re.search(r'<table[^>]*>(.*?)</table>',t,re.S).group(1)
+    hd=[re.sub(r'\s+',' ',re.sub('<[^>]+>','',h)).strip() for h in re.findall(r'<th[^>]*>(.*?)</th>',tb,re.S)]; ix={h:i for i,h in enumerate(hd)}
+    for std,hdr in COLMAP.get(path.split('/')[-1],{}).items():
+        if hdr in ix and std not in ix: ix[std]=ix[hdr]
+    bad=[]; n=0
+    for row in re.findall(r'<tr[^>]*>(.*?)</tr>',tb,re.S):
+        c=re.findall(r'<td[^>]*>(.*?)</td>',row,re.S)
+        if not c or 'Notes' not in ix or ix['Notes']>=len(c): continue
+        note=html.unescape(re.sub(r'<[^>]+>',' ',c[ix['Notes']])); key=re.sub('<[^>]+>','',c[0]).strip()
+        for l in lines(note):
+            n+=1
+            if not has_date(l): bad.append((key,l.strip()[:120]))
+    return n,bad
+if __name__=='__main__':
+    fails=0
+    for f in sys.argv[1:]:
+        n,bad=check(f); fails+=len(bad)
+        print(f'{f}: {n} Src: lines read, {len(bad)} without a date on the line itself')
+        for k,l in bad: print(f'   row #{k}: {l}')
+    print('VALIDATOR PASSED' if not fails else f'VALIDATOR REFUSED — {fails} undated Src: line(s); the date must sit on the line itself'); sys.exit(1 if fails else 0)
