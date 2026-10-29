@@ -1,0 +1,9 @@
+{
+ "date": "2026-10-29",
+ "fixtures": "Part 10 local files only",
+ "dated_control_accepted": true,
+ "undated_refused": true,
+ "edited_candidate_refused_by_applier": true,
+ "reads_logged": false,
+ "result": "PROBE PASSED"
+}

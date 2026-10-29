@@ -103,6 +103,26 @@
   "sunbiz": "0 reads, through Part 10",
   "reader": "browser, attended at a human cadence, undisguised (its own user agent string names it); a 403 is the site’s answer and is honoured as a refusal",
   "ceiling": "one number per day, 200, shared across script and browser readers, never reset; the run stops at the ceiling and the report states where",
-  "arithmetic": "at Part 9’s measured 1.55 reads per row per class, four classes across 47 rows is about 291 reads: more than one day’s ceiling, so a full pass is two clean days or a declared partial; 1.55 was measured on 21 rows and is re-measured after this run"
+  "arithmetic": "at Part 9’s measured 1.55 reads per row per class, four classes across 47 rows is about 291 reads: more than one day’s ceiling, so a full pass is two clean days or a declared partial; 1.55 was measured on 21 rows and is re-measured after this run",
+  "class_count_reconciled": {
+   "ruled": "Part 10 ruling 3, applied 29 Oct 2026",
+   "permitted_classes": [
+    "trade_press",
+    "job_board",
+    "broker",
+    "sponsor"
+   ],
+   "excluded": [
+    "sunbiz (0 reads)"
+   ],
+   "note": "Part 10’s report counted three permitted classes; that was a miscount by the build. Sunbiz was never among the four. Job boards serve the Fractionals criterion only but are read on every row, so they count.",
+   "arithmetic": "4 classes × 47 rows × 1.55 (provisional, measured on 21 rows) ≈ 291 reads ≈ 6.2 reads per row"
+  },
+  "day_one": {
+   "declared": "before read 1",
+   "covers": "rows 1–32 in declared order (ascending row number), all four permitted classes per row, row-major",
+   "expected_reads": "≈ 198 at the provisional rate",
+   "day_two_begins": "at the first row not completed on day one; the report states the row and class where the ceiling fired against this declaration"
+  }
  }
 }
