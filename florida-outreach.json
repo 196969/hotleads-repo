@@ -1,0 +1,6 @@
+{
+ "market": "florida",
+ "schema": "outreach v1 \u2014 keyed by the row key (# cell); touches[{n,date,address,by}], dispositions[{code,date,user,note,next}], terminal{state,reason,date}, next, by",
+ "created": "2026-10-29",
+ "rows": {}
+}

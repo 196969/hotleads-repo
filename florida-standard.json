@@ -1,0 +1,3368 @@
+{
+ "market": "florida",
+ "standard": "Phase 3 workable-row standard",
+ "measured": "2026-10-29",
+ "note": "Re-run audit.py after any upload of florida.html; the console reads this file as Phase 3’s table.",
+ "rows": {
+  "1": {
+   "company": "Invicta Watch Group",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": true,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 2,
+   "bandTier": "A",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "2": {
+   "company": "Badia Spices",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "3": {
+   "company": "Quirch Foods",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "4": {
+   "company": "Cheney Brothers",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "5": {
+   "company": "Gold Coast Beverage",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "6": {
+   "company": "Eagle Brands Sales",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "7": {
+   "company": "Martinez Distributors",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": false,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "8": {
+   "company": "PJ Distributors",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "company"
+   ]
+  },
+  "9": {
+   "company": "Riverdale Farms",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "company"
+   ]
+  },
+  "10": {
+   "company": "Sunshine Bouquet",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "company"
+   ]
+  },
+  "11": {
+   "company": "Turbana Corp",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Live",
+   "band": 1,
+   "bandTier": "A",
+   "ground": "Food & Beverage Processing",
+   "why": []
+  },
+  "12": {
+   "company": "Fresh Del Monte Produce",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "13": {
+   "company": "Chiquita Brands (US HQ)",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "14": {
+   "company": "Bacardi USA",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "15": {
+   "company": "Southern Glazer's Wine &amp; Spirits",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "16": {
+   "company": "National Beverage (LaCroix)",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "17": {
+   "company": "Celsius Holdings",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Live",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage distribution/retail",
+   "why": []
+  },
+  "18": {
+   "company": "Watsco",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": false,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "19": {
+   "company": "Refricenter",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "trading"
+   ]
+  },
+  "20": {
+   "company": "TruckMax",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Other: commercial truck/parts",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "21": {
+   "company": "Sedano's Supermarkets",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "22": {
+   "company": "Presidente Supermarkets",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "23": {
+   "company": "City Furniture",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "24": {
+   "company": "BrandsMart USA",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Retail & Multi-site",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "25": {
+   "company": "Perry Ellis International",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": false,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "26": {
+   "company": "JM Family Enterprises",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "B",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "27": {
+   "company": "World Kinect",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Other: fuel/energy dist",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "28": {
+   "company": "HEICO",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": false,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "B",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "29": {
+   "company": "Sintavia",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Not real",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "no source, no website, no phone establishes the company"
+   ]
+  },
+  "30": {
+   "company": "VSE Aviation",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Retail & Multi-site",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "31": {
+   "company": "Cordis",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "32": {
+   "company": "Noven Pharmaceuticals",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "33": {
+   "company": "Eco Window Systems",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Other: building products",
+   "why": [
+    "company"
+   ]
+  },
+  "34": {
+   "company": "Cigarette Racing Team",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "company"
+   ]
+  },
+  "35": {
+   "company": "WTDC Logistics",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": true,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "company"
+   ]
+  },
+  "36": {
+   "company": "SkyPostal",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": true,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Other: cross-border parcel",
+   "why": [
+    "company"
+   ]
+  },
+  "37": {
+   "company": "Fulfillment Hub USA",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": true,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "company"
+   ]
+  },
+  "38": {
+   "company": "TBC Corporation",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "39": {
+   "company": "Oxbow Carbon",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Other: commodities",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "40": {
+   "company": "Florida Crystals",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "41": {
+   "company": "Vigo Importing",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "role or family as decision maker"
+   ]
+  },
+  "42": {
+   "company": "Pepin Distributing",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "43": {
+   "company": "Great Bay Distributors",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "role or family as decision maker"
+   ]
+  },
+  "44": {
+   "company": "J.J. Taylor Distributing FL",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "45": {
+   "company": "Coca-Cola Beverages Florida",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "46": {
+   "company": "Trademark Metals Recycling",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "dm"
+   ]
+  },
+  "47": {
+   "company": "Masonite International",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "48": {
+   "company": "Rooms To Go",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "49": {
+   "company": "Jabil",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "50": {
+   "company": "TD Synnex",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "51": {
+   "company": "Helios Technologies (Sun Hydraulics)",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "52": {
+   "company": "Boar's Head Provisions",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "53": {
+   "company": "Tropicana Brands",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "54": {
+   "company": "Bealls Inc.",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Retail & Multi-site",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "55": {
+   "company": "Tervis",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 2,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "56": {
+   "company": "PGT Innovations",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "57": {
+   "company": "Teakdecking Systems",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": true,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Other: marine components",
+   "why": [
+    "company"
+   ]
+  },
+  "58": {
+   "company": "Saddle Creek Logistics",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Other: 3pl/warehousing",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "59": {
+   "company": "Barney's Pumps",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "company"
+   ]
+  },
+  "60": {
+   "company": "Florida's Natural Growers",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "61": {
+   "company": "W.S. Badcock (furniture)",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "62": {
+   "company": "Correct Craft (Nautique)",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "63": {
+   "company": "Regal Boats",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "64": {
+   "company": "Florida Paints",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": true,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "company"
+   ]
+  },
+  "65": {
+   "company": "ABC Fine Wine &amp; Spirits",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Live",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage distribution/retail",
+   "why": []
+  },
+  "66": {
+   "company": "Tupperware Brands",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "67": {
+   "company": "Duda Farm Fresh Foods",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "68": {
+   "company": "E-ONE (fire apparatus)",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "69": {
+   "company": "ClosetMaid",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "70": {
+   "company": "Cone Distributors",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "company"
+   ]
+  },
+  "71": {
+   "company": "Exactech",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "72": {
+   "company": "Monterey Boats",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "role or family as decision maker"
+   ]
+  },
+  "73": {
+   "company": "Beaver Street Fisheries",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "74": {
+   "company": "Ring Power (CAT)",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Other: equipment dist",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "75": {
+   "company": "Rulon International",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "company"
+   ]
+  },
+  "76": {
+   "company": "Safariland",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "77": {
+   "company": "Southeastern Grocers",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "78": {
+   "company": "Fanatics (Jax ops)",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "79": {
+   "company": "Reid Transportation Group",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": false,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "company"
+   ]
+  },
+  "80": {
+   "company": "Boston Whaler",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "81": {
+   "company": "Everglades Boats",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "trading"
+   ]
+  },
+  "82": {
+   "company": "El Dorado Furniture",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 2,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "83": {
+   "company": "Duty Free Americas",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Retail & Multi-site",
+   "why": [
+    "role or family as decision maker"
+   ]
+  },
+  "84": {
+   "company": "Sunshine Gasoline Distributors",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "85": {
+   "company": "Goya Foods of Florida",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "dm"
+   ]
+  },
+  "86": {
+   "company": "Miami Beef Company",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "company"
+   ]
+  },
+  "87": {
+   "company": "Antillean Marine",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Other: caribbean shipping",
+   "why": [
+    "company"
+   ]
+  },
+  "88": {
+   "company": "Amerijet International",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "89": {
+   "company": "Brown Jordan",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "90": {
+   "company": "Ocean Bio-Chem (Star brite)",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "91": {
+   "company": "Sheltair Aviation",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Other: fbo / aviation real estate",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "92": {
+   "company": "Kellstrom Aerospace",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "93": {
+   "company": "Ed Morse Automotive Group",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Live",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Retail & Multi-site",
+   "why": []
+  },
+  "94": {
+   "company": "Rick Case Automotive Group",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Retail & Multi-site",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "95": {
+   "company": "Braman Motorcars",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Retail & Multi-site",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "96": {
+   "company": "Modernizing Medicine (ModMed)",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Services & Other",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "97": {
+   "company": "Brown Distributing",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "role or family as decision maker"
+   ]
+  },
+  "98": {
+   "company": "US Sugar",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "99": {
+   "company": "Lipman Family Farms",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "company"
+   ]
+  },
+  "100": {
+   "company": "Arthrex",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": true,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "company"
+   ]
+  },
+  "101": {
+   "company": "Suncoast Beverage Sales",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "102": {
+   "company": "Shaw Development",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "103": {
+   "company": "Alico Inc.",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Other: citrus / agriculture",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "104": {
+   "company": "Detwiler’s Farm Market",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "company"
+   ]
+  },
+  "105": {
+   "company": "Intertape Polymer Group",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "106": {
+   "company": "Apyx Medical",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Live",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": []
+  },
+  "107": {
+   "company": "Plasma-Therm",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "108": {
+   "company": "Superior Group of Companies",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "109": {
+   "company": "FrankCrum",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Services & Other",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "110": {
+   "company": "Amscot Financial",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Other: consumer finance",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "111": {
+   "company": "BlueGrace Logistics",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Other: 3pl",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "112": {
+   "company": "Morgan Auto Group",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Retail & Multi-site",
+   "why": [
+    "company"
+   ]
+  },
+  "113": {
+   "company": "Lazydays RV",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Retail & Multi-site",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "114": {
+   "company": "Checkers &amp; Rally’s",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Other: qsr franchisor",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "115": {
+   "company": "Wish Farms",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Other: berry grower/dist",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "116": {
+   "company": "Florida Beer Company",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Other: brewing",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "117": {
+   "company": "Wayne Densch Inc.",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "118": {
+   "company": "S.R. Perrott",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "company"
+   ]
+  },
+  "119": {
+   "company": "Massey Services",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": true,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Services & Other",
+   "why": [
+    "company"
+   ]
+  },
+  "120": {
+   "company": "Mears Transportation",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Services & Other",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "121": {
+   "company": "Rosen Hotels &amp; Resorts",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Other: hospitality",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "122": {
+   "company": "Westgate Resorts",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Other: hospitality",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "123": {
+   "company": "Cavalier Distributing Florida",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "124": {
+   "company": "Sonny’s BBQ",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "125": {
+   "company": "4R Restaurant Group (4 Rivers)",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "126": {
+   "company": "Piper Aircraft",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "127": {
+   "company": "IMG Citrus",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Other: citrus grower/packer",
+   "why": [
+    "company"
+   ]
+  },
+  "128": {
+   "company": "Natalie’s Orchid Island Juice",
+   "tests": {
+    "Company": false,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": true,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "B",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "company",
+    "trading"
+   ]
+  },
+  "129": {
+   "company": "Pursuit Boats",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "130": {
+   "company": "Twin Vee PowerCats",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "131": {
+   "company": "Satcom Direct",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Other: aviation connectivity",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "132": {
+   "company": "Vac-Con",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "133": {
+   "company": "Sally Dark Rides",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "company"
+   ]
+  },
+  "134": {
+   "company": "Bubba Foods",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "135": {
+   "company": "American Coolair",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "A",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "company"
+   ]
+  },
+  "136": {
+   "company": "Miller Electric Company",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Construction & Contracting",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "137": {
+   "company": "W.W. Gay Mechanical",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Construction & Contracting",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "138": {
+   "company": "Gate Petroleum",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Retail & Multi-site",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "139": {
+   "company": "Swisher",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "140": {
+   "company": "Mac Papers + Packaging",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "141": {
+   "company": "Patriot Transportation",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "142": {
+   "company": "ICI Homes",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Construction & Contracting",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "143": {
+   "company": "Trailer Bridge",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "144": {
+   "company": "TOTE Maritime",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "trading",
+    "dm"
+   ]
+  },
+  "145": {
+   "company": "Innisfree Hotels",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Other: hospitality",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "146": {
+   "company": "Studer Family of Companies",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Other: mixed holdings",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "147": {
+   "company": "Milam’s Markets",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "company"
+   ]
+  },
+  "148": {
+   "company": "Doris Italian Market",
+   "tests": {
+    "Company": false,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "company"
+   ]
+  },
+  "149": {
+   "company": "Fresco y Más",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Suspect",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage distribution/retail",
+   "why": [
+    "website names a different company"
+   ]
+  },
+  "150": {
+   "company": "Magaya",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "151": {
+   "company": "IBC Airways",
+   "tests": {
+    "Company": true,
+    "Trading": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": true,
+    "Tier": false,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 3,
+   "bandTier": "B",
+   "ground": "Distribution & Wholesale",
+   "why": [
+    "trading"
+   ]
+  },
+  "152": {
+   "company": "Cutrale Citrus Juices USA",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": false,
+    "Window": false
+   },
+   "workable": false,
+   "class": "Stale",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Other: citrus processing",
+   "why": [
+    "sourced once, outside the window"
+   ]
+  },
+  "153": {
+   "company": "Kelly Tractor Co.",
+   "tests": {},
+   "workable": false,
+   "class": "Live",
+   "band": 4,
+   "bandTier": "A",
+   "ground": "Other: equipment dealing (caterpillar",
+   "why": []
+  }
+ }
+}
