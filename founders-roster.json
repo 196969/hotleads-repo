@@ -615,5 +615,15 @@
    "ruled": "2026-10-29",
    "rule": "Blind by construction: a seat cannot read what does not yet exist. On a brief for a new artefact, a Blind reading on the seats bound to that part is not a stop; the stop binds on the delivery reading."
   }
+ ],
+ "record": [
+  {
+   "date": "2026-10-29",
+   "part": 7,
+   "seat": "Hui Chen",
+   "reading": "Hold, then Pass",
+   "class": "instrument-label fault",
+   "note": "a check too narrow to recognise an honest unconfirmed state (no proposal — not found / refused) read Hold; the fix widened the check, not the queue. The instrument, not the data, was wrong."
+  }
  ]
 }

@@ -51,9 +51,24 @@ def check_part7(repo):
     out['Chen']=('Pass' if (unconf and sunbiz==0 and sends==0) else 'Hold','the queue (every entry unconfirmed, fenced fields only); the log (no Sunbiz read); bot.py (no send path)',f'{len(Q)} entries, all unconfirmed and fenced {unconf}; Sunbiz reads in the log {sunbiz}; send references {sends}')
     return out
 
+
+def check_part8(repo):
+    """Part 8 seats: Buffett reads the evidence standard (every signal state carries a source and a date, and no state is typed); Branson reads practice fit (the states derived and counted for the 47, with the criteria written); Boies reads that nothing is asserted beyond the source (the validator passes with no typed flag; Acquisitions never from the company's own site)."""
+    out={}; sp=os.path.join(repo,'florida-standard.json')
+    if not os.path.exists(sp): return {n:('Blind','florida-standard.json (practice_standard, per-row practice states)','file absent') for n in ('Buffett','Branson','Boies')}
+    S=json.load(open(sp)); PS=S.get('practice_standard'); R=S['rows']; A=[v for v in R.values() if v.get('bandTier')=='A']
+    if not PS or not all(v.get('practice') for v in A): return {n:('Blind','florida-standard.json: practice_standard section and per-row states','section or per-row states absent') for n in ('Buffett','Branson','Boies')}
+    sig=[(k,c,p) for k,v in R.items() for c,p in v['practice'].items() if p['state']=='signal']; dated=all(p['source'] and p['date'] for _,_,p in sig); states=all(p['state'] in PS['states'] for v in R.values() for p in v['practice'].values())
+    out['Buffett']=('Pass' if dated and states else 'Hold','every signal state carries a source and a publication date; every state is one of the three',f'{len(sig)} signal states, all with source and date {dated}; states within the standard {states}')
+    import collections; cnt={c:dict(collections.Counter(v['practice'][c]['state'] for v in A)) for c in PS['criteria']}
+    out['Branson']=('Pass' if len(PS['criteria'])==3 and all(sum(cnt[c].values())==len(A) for c in cnt) else 'Hold','the three criteria written with their source rules; states derived and counted across the 47',json.dumps(cnt))
+    rr=subprocess.run(['python3','validate.py','florida.html'],capture_output=True,text=True,cwd=repo); ok=rr.returncode==0 and 'PASSED' in rr.stdout; own=[k for k,v in R.items() if v['practice']['Acquisitions']['state']=='signal' and 'company' in (v['practice']['Acquisitions'].get('why') or '')]
+    out['Boies']=('Pass' if ok and not own else 'Hold','the validator passes with no typed practice flag; no Acquisitions signal from the company\'s own site',f'validator {"PASSED" if ok else "REFUSED"}; company-site Acquisitions signals {len(own)}')
+    return out
+
 def run(repo,label,part):
     R=json.load(open(os.path.join(repo,'founders-roster.json'))) if os.path.exists(os.path.join(repo,'founders-roster.json')) else json.load(open('founders-roster.json')); seats=R['seats']
-    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else (check_part7(repo) if part==7 else {}))
+    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else (check_part7(repo) if part==7 else (check_part8(repo) if part==8 else {})))
     bound={s['name'].split()[-1]:s.get('fields_by_part',{}).get(str(part)) for s in seats}
     rows=[]; 
     for s in seats:
@@ -66,7 +81,7 @@ def run(repo,label,part):
     print(f'== {label}: Pass {len(P)} · Hold {len(H)} · Blind {len(B)} · weight passing {sum(r[1] for r in P)} of {sum(r[1] for r in rows if r[2]!="Chair")}')
     for r in rows:
         if r[2]!='Blind' or r[0].split()[-1] in named: print(f'   {r[0]:22} w{r[1]:<5} {r[2]:5} | {r[3]} | {r[4]}')
-    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen'),7:('Schneier','Goldratt','Chen')}
+    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen'),7:('Schneier','Goldratt','Chen'),8:('Buffett','Branson','Boies')}
     stop=[r for r in rows if part in SEATS and r[0].split()[-1] in SEATS[part] and r[2]=='Blind']
     if part in SEATS:
         if stop and 'brief' in label.lower(): print(f'   Part {part} brief: Blind by construction on',[r[0] for r in stop],'— not a stop (roster standing rule); the stop binds on the delivery')

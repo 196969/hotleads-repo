@@ -1,4 +1,28 @@
 {
+ "practice_standard": {
+  "ruled": "2026-10-29",
+  "criteria": {
+   "Acquisitions": {
+    "what": "sale posture, succession or ownership transition",
+    "source_rule": "third parties only (brokers, trade press, registries); never the company's own site"
+   },
+   "Fractionals": {
+    "what": "a published finance or operations vacancy, an interim-leadership announcement, or a first-finance-hire posting",
+    "source_rule": "a published posting or announcement, with its source and date"
+   },
+   "Private Equity": {
+    "what": "a Florida sponsor's published portfolio, platform or add-on announcement",
+    "source_rule": "the sponsor's or the press's publication, with its source and date"
+   }
+  },
+  "states": [
+   "signal",
+   "no signal found",
+   "not read"
+  ],
+  "rule": "derived from dated signal lines and read-no-signal lines on the row; never typed; the bot's Part 7 sentences enter as not read until a human reads them; a signal dated outside the window reads no signal found",
+  "window_days": 365
+ },
  "market": "florida",
  "standard": "Phase 3 workable-row standard",
  "measured": "2026-10-29 (classifier pass: trading check dated on its own line; source_state from the Src line; Band 2 second entry; no sourced row labelled unsourced)",
@@ -27,7 +51,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "2": {
    "company": "Badia Spices",
@@ -52,7 +96,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "3": {
    "company": "Quirch Foods",
@@ -81,7 +145,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "4": {
    "company": "Cheney Brothers",
@@ -110,7 +194,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "5": {
    "company": "Gold Coast Beverage",
@@ -139,7 +243,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "6": {
    "company": "Eagle Brands Sales",
@@ -164,7 +288,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "7": {
    "company": "Martinez Distributors",
@@ -191,7 +335,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a sourced address"
+   "move": "needs a sourced address",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "8": {
    "company": "PJ Distributors",
@@ -218,7 +382,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated company source; needs a website that names the company"
+   "move": "blocked by more than one: needs a dated company source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "9": {
    "company": "Riverdale Farms",
@@ -243,7 +427,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "10": {
    "company": "Sunshine Bouquet",
@@ -268,7 +472,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "11": {
    "company": "Turbana Corp",
@@ -293,7 +517,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "12": {
    "company": "Fresh Del Monte Produce",
@@ -322,7 +566,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "13": {
    "company": "Chiquita Brands (US HQ)",
@@ -347,7 +611,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "14": {
    "company": "Bacardi USA",
@@ -374,7 +658,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company; needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "15": {
    "company": "Southern Glazer's Wine &amp; Spirits",
@@ -403,7 +707,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "16": {
    "company": "National Beverage (LaCroix)",
@@ -432,7 +756,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "17": {
    "company": "Celsius Holdings",
@@ -457,7 +801,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "18": {
    "company": "Watsco",
@@ -486,7 +850,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a sourced address"
+   "move": "blocked by more than one: needs a dated trading check; needs a sourced address",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "19": {
    "company": "Refricenter",
@@ -511,7 +895,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "no signal found",
+     "source": "the company's own site",
+     "date": "2026-10-29",
+     "why": "read from the company's own site; nothing fits"
+    },
+    "Fractionals": {
+     "state": "no signal found",
+     "source": "the company's own site",
+     "date": "2026-10-29",
+     "why": "read from the company's own site; nothing fits"
+    },
+    "Private Equity": {
+     "state": "no signal found",
+     "source": "the company's own site",
+     "date": "2026-10-29",
+     "why": "read from the company's own site; nothing fits"
+    }
+   }
   },
   "20": {
    "company": "TruckMax",
@@ -536,7 +940,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "21": {
    "company": "Sedano's Supermarkets",
@@ -561,7 +985,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "22": {
    "company": "Presidente Supermarkets",
@@ -586,7 +1030,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "23": {
    "company": "City Furniture",
@@ -611,7 +1075,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "24": {
    "company": "BrandsMart USA",
@@ -636,7 +1120,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "25": {
    "company": "Perry Ellis International",
@@ -665,7 +1169,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a sourced address"
+   "move": "blocked by more than one: needs a dated trading check; needs a sourced address",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "26": {
    "company": "JM Family Enterprises",
@@ -694,7 +1218,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "27": {
    "company": "World Kinect",
@@ -723,7 +1267,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "28": {
    "company": "HEICO",
@@ -752,7 +1316,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated company source; needs a dated trading check; needs a sourced address; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated company source; needs a dated trading check; needs a sourced address; needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "29": {
    "company": "Sintavia",
@@ -781,7 +1365,27 @@
    ],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "30": {
    "company": "VSE Aviation",
@@ -806,7 +1410,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "31": {
    "company": "Cordis",
@@ -831,7 +1455,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "32": {
    "company": "Noven Pharmaceuticals",
@@ -856,7 +1500,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "33": {
    "company": "Eco Window Systems",
@@ -881,7 +1545,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "34": {
    "company": "Cigarette Racing Team",
@@ -906,7 +1590,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "35": {
    "company": "WTDC Logistics",
@@ -931,7 +1635,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "36": {
    "company": "SkyPostal",
@@ -956,7 +1680,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "37": {
    "company": "Fulfillment Hub USA",
@@ -981,7 +1725,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "no signal found",
+     "source": "the company's own site",
+     "date": "2026-10-29",
+     "why": "read from the company's own site; nothing fits"
+    },
+    "Fractionals": {
+     "state": "no signal found",
+     "source": "the company's own site",
+     "date": "2026-10-29",
+     "why": "read from the company's own site; nothing fits"
+    },
+    "Private Equity": {
+     "state": "no signal found",
+     "source": "the company's own site",
+     "date": "2026-10-29",
+     "why": "read from the company's own site; nothing fits"
+    }
+   }
   },
   "38": {
    "company": "TBC Corporation",
@@ -1010,7 +1774,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "39": {
    "company": "Oxbow Carbon",
@@ -1035,7 +1819,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "40": {
    "company": "Florida Crystals",
@@ -1064,7 +1868,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a website that names the company"
+   "move": "blocked by more than one: needs a dated trading check; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "41": {
    "company": "Vigo Importing",
@@ -1094,7 +1918,27 @@
    ],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "42": {
    "company": "Pepin Distributing",
@@ -1119,7 +1963,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "43": {
    "company": "Great Bay Distributors",
@@ -1148,7 +2012,27 @@
    ],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a named decision maker"
+   "move": "needs a named decision maker",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "44": {
    "company": "J.J. Taylor Distributing FL",
@@ -1173,7 +2057,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "45": {
    "company": "Coca-Cola Beverages Florida",
@@ -1198,7 +2102,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "46": {
    "company": "Trademark Metals Recycling",
@@ -1227,7 +2151,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "47": {
    "company": "Masonite International",
@@ -1252,7 +2196,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "48": {
    "company": "Rooms To Go",
@@ -1277,7 +2241,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "49": {
    "company": "Jabil",
@@ -1302,7 +2286,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "50": {
    "company": "TD Synnex",
@@ -1327,7 +2331,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "51": {
    "company": "Helios Technologies (Sun Hydraulics)",
@@ -1356,7 +2380,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "52": {
    "company": "Boar's Head Provisions",
@@ -1381,7 +2425,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "53": {
    "company": "Tropicana Brands",
@@ -1410,7 +2474,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "54": {
    "company": "Bealls Inc.",
@@ -1435,7 +2519,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "55": {
    "company": "Tervis",
@@ -1460,7 +2564,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "56": {
    "company": "PGT Innovations",
@@ -1489,7 +2613,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a dated trading check; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "57": {
    "company": "Teakdecking Systems",
@@ -1514,7 +2658,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "58": {
    "company": "Saddle Creek Logistics",
@@ -1539,7 +2703,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "59": {
    "company": "Barney's Pumps",
@@ -1564,7 +2748,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "60": {
    "company": "Florida's Natural Growers",
@@ -1589,7 +2793,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "62": {
    "company": "Correct Craft (Nautique)",
@@ -1614,7 +2838,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "63": {
    "company": "Regal Boats",
@@ -1643,7 +2887,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "64": {
    "company": "Florida Paints",
@@ -1668,7 +2932,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "65": {
    "company": "ABC Fine Wine &amp; Spirits",
@@ -1693,7 +2977,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "67": {
    "company": "Duda Farm Fresh Foods",
@@ -1718,7 +3022,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "68": {
    "company": "E-ONE (fire apparatus)",
@@ -1747,7 +3071,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "69": {
    "company": "ClosetMaid",
@@ -1776,7 +3120,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "70": {
    "company": "Cone Distributors",
@@ -1803,7 +3167,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "71": {
    "company": "Exactech",
@@ -1828,7 +3212,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "72": {
    "company": "Monterey Boats",
@@ -1857,7 +3261,27 @@
    ],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a named decision maker"
+   "move": "needs a named decision maker",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "73": {
    "company": "Beaver Street Fisheries",
@@ -1886,7 +3310,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated company source; needs a dated trading check; needs a website that names the company"
+   "move": "blocked by more than one: needs a dated company source; needs a dated trading check; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "74": {
    "company": "Ring Power (CAT)",
@@ -1911,7 +3355,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "75": {
    "company": "Rulon International",
@@ -1936,7 +3400,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "76": {
    "company": "Safariland",
@@ -1961,7 +3445,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "77": {
    "company": "Southeastern Grocers",
@@ -1986,7 +3490,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "78": {
    "company": "Fanatics (Jax ops)",
@@ -2015,7 +3539,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "79": {
    "company": "Reid Transportation Group",
@@ -2040,7 +3584,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "80": {
    "company": "Boston Whaler",
@@ -2069,7 +3633,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "81": {
    "company": "Everglades Boats",
@@ -2098,7 +3682,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "82": {
    "company": "El Dorado Furniture",
@@ -2123,7 +3727,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "83": {
    "company": "Duty Free Americas",
@@ -2152,7 +3776,27 @@
    ],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a named decision maker"
+   "move": "needs a named decision maker",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "84": {
    "company": "Sunshine Gasoline Distributors",
@@ -2177,7 +3821,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 3 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "85": {
    "company": "Goya Foods of Florida",
@@ -2206,7 +3870,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "86": {
    "company": "Miami Beef Company",
@@ -2231,7 +3915,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "87": {
    "company": "Antillean Marine",
@@ -2256,7 +3960,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "88": {
    "company": "Amerijet International",
@@ -2281,7 +4005,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "89": {
    "company": "Brown Jordan",
@@ -2306,7 +4050,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "90": {
    "company": "Ocean Bio-Chem (Star brite)",
@@ -2335,7 +4099,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "91": {
    "company": "Sheltair Aviation",
@@ -2364,7 +4148,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated company source; needs a dated trading check"
+   "move": "blocked by more than one: needs a dated company source; needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "92": {
    "company": "Kellstrom Aerospace",
@@ -2394,7 +4198,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "93": {
    "company": "Ed Morse Automotive Group",
@@ -2419,7 +4243,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "94": {
    "company": "Rick Case Automotive Group",
@@ -2444,7 +4288,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "95": {
    "company": "Braman Motorcars",
@@ -2469,7 +4333,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "96": {
    "company": "Modernizing Medicine (ModMed)",
@@ -2494,7 +4378,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "97": {
    "company": "Brown Distributing",
@@ -2523,7 +4427,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a named decision maker"
+   "move": "needs a named decision maker",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "98": {
    "company": "US Sugar",
@@ -2548,7 +4472,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "99": {
    "company": "Lipman Family Farms",
@@ -2573,7 +4517,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "no signal found",
+     "source": "the company's own site",
+     "date": "2026-10-29",
+     "why": "read from the company's own site; nothing fits"
+    },
+    "Fractionals": {
+     "state": "no signal found",
+     "source": "the company's own site",
+     "date": "2026-10-29",
+     "why": "read from the company's own site; nothing fits"
+    },
+    "Private Equity": {
+     "state": "no signal found",
+     "source": "the company's own site",
+     "date": "2026-10-29",
+     "why": "read from the company's own site; nothing fits"
+    }
+   }
   },
   "100": {
    "company": "Arthrex",
@@ -2598,7 +4562,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "101": {
    "company": "Suncoast Beverage Sales",
@@ -2628,7 +4612,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "102": {
    "company": "Shaw Development",
@@ -2653,7 +4657,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "103": {
    "company": "Alico Inc.",
@@ -2678,7 +4702,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "104": {
    "company": "Detwiler’s Farm Market",
@@ -2703,7 +4747,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "no signal found",
+     "source": null,
+     "date": "2026-10-29",
+     "why": "read, nothing fits the criterion"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "105": {
    "company": "Intertape Polymer Group",
@@ -2730,7 +4794,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "106": {
    "company": "Apyx Medical",
@@ -2755,7 +4839,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "107": {
    "company": "Plasma-Therm",
@@ -2780,7 +4884,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "108": {
    "company": "Superior Group of Companies",
@@ -2805,7 +4929,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "109": {
    "company": "FrankCrum",
@@ -2832,7 +4976,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a re-dated read (a date of ours inside the window)"
+   "move": "needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "110": {
    "company": "Amscot Financial",
@@ -2857,7 +5021,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "111": {
    "company": "BlueGrace Logistics",
@@ -2886,7 +5070,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a phone source"
+   "move": "blocked by more than one: needs a dated trading check; needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "112": {
    "company": "Morgan Auto Group",
@@ -2913,7 +5117,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated company source; needs a phone source"
+   "move": "blocked by more than one: needs a dated company source; needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "114": {
    "company": "Checkers &amp; Rally’s",
@@ -2938,7 +5162,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "115": {
    "company": "Wish Farms",
@@ -2963,7 +5207,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "116": {
    "company": "Florida Beer Company",
@@ -2992,7 +5256,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "117": {
    "company": "Wayne Densch Inc.",
@@ -3022,7 +5306,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company; needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "118": {
    "company": "S.R. Perrott",
@@ -3047,7 +5351,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 2 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "119": {
    "company": "Massey Services",
@@ -3072,7 +5396,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "120": {
    "company": "Mears Transportation",
@@ -3097,7 +5441,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "121": {
    "company": "Rosen Hotels &amp; Resorts",
@@ -3122,7 +5486,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "122": {
    "company": "Westgate Resorts",
@@ -3147,7 +5531,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "123": {
    "company": "Cavalier Distributing Florida",
@@ -3172,7 +5576,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "124": {
    "company": "Sonny’s BBQ",
@@ -3197,7 +5621,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "125": {
    "company": "4R Restaurant Group (4 Rivers)",
@@ -3224,7 +5668,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "126": {
    "company": "Piper Aircraft",
@@ -3249,7 +5713,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "127": {
    "company": "IMG Citrus",
@@ -3274,7 +5758,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "128": {
    "company": "Natalie’s Orchid Island Juice",
@@ -3303,7 +5807,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "needs a dated trading check",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "129": {
    "company": "Pursuit Boats",
@@ -3332,7 +5856,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "130": {
    "company": "Twin Vee PowerCats",
@@ -3357,7 +5901,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "131": {
    "company": "Satcom Direct",
@@ -3387,7 +5951,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "132": {
    "company": "Vac-Con",
@@ -3412,7 +5996,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "133": {
    "company": "Sally Dark Rides",
@@ -3437,7 +6041,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "134": {
    "company": "Bubba Foods",
@@ -3464,7 +6088,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "135": {
    "company": "American Coolair",
@@ -3489,7 +6133,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "136": {
    "company": "Miller Electric Company",
@@ -3516,7 +6180,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "137": {
    "company": "W.W. Gay Mechanical",
@@ -3543,7 +6227,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a website that names the company"
+   "move": "needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "138": {
    "company": "Gate Petroleum",
@@ -3568,7 +6272,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "139": {
    "company": "Swisher",
@@ -3593,7 +6317,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "140": {
    "company": "Mac Papers + Packaging",
@@ -3622,7 +6366,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "141": {
    "company": "Patriot Transportation",
@@ -3651,7 +6415,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "142": {
    "company": "ICI Homes",
@@ -3676,7 +6460,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "143": {
    "company": "Trailer Bridge",
@@ -3701,7 +6505,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "144": {
    "company": "TOTE Maritime",
@@ -3731,7 +6555,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "145": {
    "company": "Innisfree Hotels",
@@ -3756,7 +6600,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "146": {
    "company": "Studer Family of Companies",
@@ -3787,7 +6651,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "147": {
    "company": "Milam’s Markets",
@@ -3812,7 +6696,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 4 sentence(s) in Part 7; unread by a human"
+    }
+   }
   },
   "148": {
    "company": "Doris Italian Market",
@@ -3837,7 +6741,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "149": {
    "company": "Fresco y Más",
@@ -3866,7 +6790,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "150": {
    "company": "Magaya",
@@ -3891,7 +6835,27 @@
    "gaps": [],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "needs a phone source"
+   "move": "needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "151": {
    "company": "IBC Airways",
@@ -3920,7 +6884,27 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a phone source"
+   "move": "blocked by more than one: needs a dated trading check; needs a phone source",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "152": {
    "company": "Cutrale Citrus Juices USA",
@@ -3949,7 +6933,27 @@
    ],
    "trading_kind": "other dated check",
    "undated_src": [],
-   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "nobody has read this criterion for the row"
+    }
+   }
   },
   "153": {
    "company": "Kelly Tractor Co.",
@@ -3974,7 +6978,27 @@
    "gaps": [],
    "trading_kind": "site",
    "undated_src": [],
-   "move": "passes every test"
+   "move": "passes every test",
+   "practice": {
+    "Acquisitions": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Fractionals": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    },
+    "Private Equity": {
+     "state": "not read",
+     "source": null,
+     "date": null,
+     "why": "the bot gathered 1 sentence(s) in Part 7; unread by a human"
+    }
+   }
   }
  }
 }

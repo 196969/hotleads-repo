@@ -102,6 +102,34 @@ def staleness(rows):
         else: R['stale']='Outside on a verification date'; out['Outside on a verification date']+=1
         m=re.search(r'Trading checked \((site|registry)\)',R.get('note','')); R['trading_kind']=m.group(1) if m else ('registry' if re.search(r'\b(sunbiz|registry)\b[^.]{0,40}\b20\d\d',R.get('note',''),re.I) else ('other dated check' if R.get('f_trading')=='Checked' else None))
     return out
+
+# Item 320 Part 8 (29 Oct 2026): the practice standard. Three criteria, each a derived signal state — signal / no signal found / not read — never typed.
+PRACTICE={'Acquisitions':{'what':'sale posture, succession or ownership transition','source_rule':'third parties only (brokers, trade press, registries); never the company\'s own site'},
+          'Fractionals':{'what':'a published finance or operations vacancy, an interim-leadership announcement, or a first-finance-hire posting','source_rule':'a published posting or announcement, with its source and date'},
+          'Private Equity':{'what':'a Florida sponsor\'s published portfolio, platform or add-on announcement','source_rule':'the sponsor\'s or the press\'s publication, with its source and date'}}
+SIGNAL=re.compile(r'(Acquisitions|Fractionals|Private Equity|PE) signal: (?P<src>[^\u00b7]+?) \u00b7 published (?P<pub>\d{4}-\d\d-\d\d) \u00b7 read (?P<date>\d{4}-\d\d-\d\d) \u2014 (?P<what>[^.]*)\.')   # the window applies to the publication date; the read date dates our check
+NOSIG=re.compile(r'Practice read (?P<date>\d{4}-\d\d-\d\d): no (?P<crit>Acquisitions|Fractionals|Private Equity|PE|practice) signal')
+def practice_states(note,practice_cell,site_host,bot_signals=0):
+    out={}
+    lo=TODAY-datetime.timedelta(days=WINDOW_DAYS)
+    for crit in PRACTICE:
+        st={'state':'not read','source':None,'date':None,'why':'nobody has read this criterion for the row'}
+        for m in SIGNAL.finditer(note):
+            c=m.group(1).replace('PE','Private Equity')
+            if c!=crit: continue
+            src=m.group('src').strip(); d=datetime.date.fromisoformat(m.group('pub')); own=site_host and site_host in src.lower()
+            if crit=='Acquisitions' and own: st={'state':'no signal found','source':src,'date':m.group('date'),'why':'company-site evidence refused for Acquisitions; third parties only'}; continue
+            if d>=lo: st={'state':'signal','source':src,'date':m.group('pub'),'read':m.group('date'),'why':m.group('what').strip()}
+            else: st={'state':'no signal found','source':src,'date':m.group('pub'),'read':m.group('date'),'why':f'the only signal was published {m.group("pub")}, outside the current window'}
+        for m in NOSIG.finditer(note):
+            c=m.group('crit').replace('PE','Private Equity')
+            if (c==crit or c=='practice') and st['state']=='not read': st={'state':'no signal found','source':None,'date':m.group('date'),'why':'read, nothing fits the criterion'}
+        if st['state']=='not read' and re.match(r'none \u2014 rejected (\d{4}-\d\d-\d\d)',practice_cell or ''):
+            st={'state':'no signal found','source':'the company\'s own site','date':re.match(r'none \u2014 rejected (\d{4}-\d\d-\d\d)',practice_cell).group(1),'why':'read from the company\'s own site; nothing fits'}
+        if st['state']=='not read' and bot_signals: st['why']=f'the bot gathered {bot_signals} sentence(s) in Part 7; unread by a human'
+        out[crit]=st
+    return out
+
 # Item 320 Part 3 (C7, 29 Oct 2026): per-row "what would move this", derived from the row's own test results — never typed.
 REPAIR={'Trading':'needs a dated trading check','Window':'needs a re-dated read (a date of ours inside the window)','Phone':'needs a phone source','Decision maker':'needs a named decision maker','Title':'needs a dated title','Address':'needs a sourced address','Company':'needs a dated company source','Website':'needs a website that names the company','Tier':'needs a tier reason'}
 def what_would_move(tests):

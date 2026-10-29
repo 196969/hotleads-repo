@@ -23,19 +23,30 @@ def line_end(rest):
 def lines(note):
     for m in re.finditer(r'Src:',note):
         rest=note[m.end():]; yield 'Src:'+rest[:line_end(rest)]
+PRACTICE_FLAG=re.compile(r'data-practice="(Acquisitions|Fractionals|Private Equity)"')
+SIGNAL_LINE=re.compile(r'(Acquisitions|Fractionals|Private Equity|PE) signal: [^\u00b7]+? \u00b7 published \d{4}-\d\d-\d\d \u00b7 read \d{4}-\d\d-\d\d \u2014 ')
+def practice_flags(rows):
+    """Item 320 Part 8: a practice flag on a row is valid only if the row's note carries a dated signal line for that criterion. A flag with no such line was typed, and is refused."""
+    bad=[]
+    for key,cells in rows:
+        for m in PRACTICE_FLAG.finditer(cells):
+            crit=m.group(1); lines=[x for x in SIGNAL_LINE.finditer(html.unescape(cells)) if x.group(1).replace('PE','Private Equity')==crit]
+            if not lines: bad.append((key,crit))
+    return bad
 def check(path):
     t=open(path,encoding='utf-8').read(); tb=re.search(r'<table[^>]*>(.*?)</table>',t,re.S).group(1)
     hd=[re.sub(r'\s+',' ',re.sub('<[^>]+>','',h)).strip() for h in re.findall(r'<th[^>]*>(.*?)</th>',tb,re.S)]; ix={h:i for i,h in enumerate(hd)}
     for std,hdr in COLMAP.get(path.split('/')[-1],{}).items():
         if hdr in ix and std not in ix: ix[std]=ix[hdr]
-    bad=[]; n=0
+    bad=[]; n=0; flagrows=[]
     for row in re.findall(r'<tr[^>]*>(.*?)</tr>',tb,re.S):
         c=re.findall(r'<td[^>]*>(.*?)</td>',row,re.S)
         if not c or 'Notes' not in ix or ix['Notes']>=len(c): continue
-        note=html.unescape(re.sub(r'<[^>]+>',' ',c[ix['Notes']])); key=re.sub('<[^>]+>','',c[0]).strip()
+        note=html.unescape(re.sub(r'<[^>]+>',' ',c[ix['Notes']])); key=re.sub('<[^>]+>','',c[0]).strip(); flagrows.append((key,row))
         for l in lines(note):
             n+=1
             if not has_date(l): bad.append((key,l.strip()[:120]))
+    for key,crit in practice_flags(flagrows): bad.append((key,f'typed practice flag: {crit} with no dated signal line'))
     return n,bad
 if __name__=='__main__':
     fails=0
