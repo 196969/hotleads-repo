@@ -1,0 +1,23 @@
+{
+ "_doc": "Item 314 (2026-10-29). One suppression list for the whole HOT Leads programme, at the repository root, read once and globally by every console, eligibility gate and worklist before any address is shown as actionable. An unsubscribe that binds one market is not an unsubscribe. A suppressed row stays visible with its address withheld and the reason shown.",
+ "schema": {
+  "address": "the email address suppressed, lower-case (may be empty for a domain-only entry)",
+  "domain": "the domain of the address, lower-case",
+  "reason": "one of: unsubscribe · bounce-hard · do-not-contact · complaint",
+  "scope": "address — that one address (unsubscribe, bounce-hard); domain — every address and every row on the domain (complaint, do-not-contact only)",
+  "date": "YYYY-MM-DD the entry was made",
+  "market": "the market file it came from, e.g. florida"
+ },
+ "rules": {
+  "domainScopeAllowedFor": [
+   "complaint",
+   "do-not-contact"
+  ],
+  "addressScopeOnly": [
+   "unsubscribe",
+   "bounce-hard"
+  ],
+  "unreadable": "if this file cannot be read, every address is withheld (fail closed)"
+ },
+ "entries": []
+}
