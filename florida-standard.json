@@ -1,7 +1,7 @@
 {
  "market": "florida",
  "standard": "Phase 3 workable-row standard",
- "measured": "2026-10-29 (Item 313 — corrected source test)",
+ "measured": "2026-10-29 (Florida Pipeline Build, Stage B)",
  "note": "Re-run audit.py after any upload of florida.html; the console reads this file as Phase 3’s table.",
  "rows": {
   "1": {
@@ -189,11 +189,11 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
-   "workable": false,
+   "workable": true,
    "class": "Live",
    "band": 1,
    "bandTier": "A",
@@ -469,7 +469,7 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
@@ -623,7 +623,7 @@
     "Title": false,
     "Phone": false,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": false
    },
@@ -711,11 +711,11 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
-   "workable": false,
+   "workable": true,
    "class": "Live",
    "band": 4,
    "bandTier": "A",
@@ -731,7 +731,7 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": false
    },
@@ -753,11 +753,11 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
-   "workable": false,
+   "workable": true,
    "class": "Live",
    "band": 1,
    "bandTier": "A",
@@ -773,11 +773,11 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
-   "workable": false,
+   "workable": true,
    "class": "Live",
    "band": 4,
    "bandTier": "A",
@@ -793,7 +793,7 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": false
    },
@@ -891,6 +891,7 @@
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
    "why": [
+    "website names a different company",
     "role or family as decision maker"
    ]
   },
@@ -903,7 +904,7 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
@@ -925,7 +926,7 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
@@ -1035,7 +1036,7 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
@@ -1233,11 +1234,11 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
-   "workable": false,
+   "workable": true,
    "class": "Live",
    "band": 4,
    "bandTier": "A",
@@ -1275,11 +1276,11 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
-   "workable": false,
+   "workable": true,
    "class": "Live",
    "band": 1,
    "bandTier": "A",
@@ -1304,28 +1305,6 @@
    "band": 4,
    "bandTier": "C",
    "ground": "Food & Beverage Processing",
-   "why": [
-    "sourced once, outside the window"
-   ]
-  },
-  "61": {
-   "company": "W.S. Badcock (furniture)",
-   "tests": {
-    "Company": true,
-    "Trading": true,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
-    "Address": true,
-    "Website": false,
-    "Tier": true,
-    "Window": false
-   },
-   "workable": false,
-   "class": "Stale",
-   "band": 4,
-   "bandTier": "C",
-   "ground": "Distribution & Wholesale",
    "why": [
     "sourced once, outside the window"
    ]
@@ -1361,7 +1340,7 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
@@ -1383,7 +1362,7 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": false
    },
@@ -1415,28 +1394,6 @@
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
    "why": []
-  },
-  "66": {
-   "company": "Tupperware Brands",
-   "tests": {
-    "Company": true,
-    "Trading": true,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
-    "Address": true,
-    "Website": false,
-    "Tier": true,
-    "Window": false
-   },
-   "workable": false,
-   "class": "Stale",
-   "band": 4,
-   "bandTier": "C",
-   "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
   },
   "67": {
    "company": "Duda Farm Fresh Foods",
@@ -1518,11 +1475,13 @@
     "Window": true
    },
    "workable": false,
-   "class": "Live",
+   "class": "Suspect",
    "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
-   "why": []
+   "why": [
+    "website names a different company"
+   ]
   },
   "71": {
    "company": "Exactech",
@@ -1555,7 +1514,7 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": true
    },
@@ -1621,7 +1580,7 @@
     "Title": true,
     "Phone": true,
     "Address": true,
-    "Website": false,
+    "Website": true,
     "Tier": true,
     "Window": false
    },
@@ -2434,28 +2393,6 @@
    "ground": "Other",
    "why": [
     "company"
-   ]
-  },
-  "113": {
-   "company": "Lazydays RV",
-   "tests": {
-    "Company": true,
-    "Trading": true,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
-    "Address": true,
-    "Website": true,
-    "Tier": true,
-    "Window": false
-   },
-   "workable": false,
-   "class": "Stale",
-   "band": 4,
-   "bandTier": "C",
-   "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
    ]
   },
   "114": {
