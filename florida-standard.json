@@ -95,15 +95,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Food & Beverage distribution/retail",
    "why": [
-    "sourced once, outside the window"
+    "missing trading check"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -123,15 +123,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": "Blind"
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Food & Beverage distribution/retail",
    "why": [
-    "sourced once, outside the window"
+    "missing trading check"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -301,7 +301,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Stale",
@@ -587,16 +587,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -613,16 +611,14 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -781,16 +777,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -807,16 +801,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -833,16 +825,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -979,15 +969,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
    "why": [
-    "sourced once, outside the window"
+    "missing dated decision maker"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -1007,16 +997,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -1168,16 +1156,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -1222,16 +1208,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -1276,16 +1260,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -1302,16 +1284,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -1460,7 +1440,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": "Blind"
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -1560,16 +1540,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Food & Beverage Processing",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -1710,15 +1688,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "sourced once, outside the window"
+    "missing dated decision maker"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -1738,15 +1716,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "sourced once, outside the window"
+    "missing dated decision maker"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -1792,16 +1770,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -1947,16 +1923,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Food & Beverage distribution/retail",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -2238,16 +2212,14 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -2264,16 +2236,14 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -2290,15 +2260,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "sourced once, outside the window"
+    "missing dated decision maker"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -2346,7 +2316,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Stale",
@@ -2447,16 +2417,14 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -2602,16 +2570,14 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -2676,7 +2642,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -2750,16 +2716,14 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -2880,16 +2844,14 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -2930,15 +2892,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
    "why": [
-    "sourced once, outside the window"
+    "missing dated decision maker"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -2958,16 +2920,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": true
+    "Window": "Blind"
    },
    "workable": false,
-   "class": "Sourced, with gaps",
+   "class": "Stale",
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
    "why": [
-    "missing trading check",
-    "missing dated decision maker"
+    "sourced once, outside the window"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -3060,16 +3021,14 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -3184,16 +3143,14 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -3262,15 +3219,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "sourced once, outside the window"
+    "missing dated decision maker"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -3290,16 +3247,14 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -3316,7 +3271,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Stale",
@@ -3345,16 +3300,14 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
@@ -3445,7 +3398,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -3471,7 +3424,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -3545,15 +3498,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "sourced once, outside the window"
+    "missing dated decision maker"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -3573,15 +3526,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
    "why": [
-    "sourced once, outside the window"
+    "missing dated decision maker"
    ],
    "source_state": "sourced",
    "gaps": [
@@ -3780,7 +3733,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",

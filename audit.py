@@ -48,7 +48,8 @@ def audit(path):
         R['undated_src']=[x.strip()[:120] for x,d in zip(own,R['src_dated']) if not d]
         R['f_company']='Absent' if not company else ('Sourced' if any(R['src_dated']) else 'Named-unsourced')
         # Classifier pass (2026-10-29): a trading check counts only if its date sits on the check line itself; a line ends at a full stop followed by a space, a semicolon or a bar, so a URL's dots do not end it
-        _tl=[m.group(0) for m in re.finditer(r"\b(verified|checked|confirmed|active|sunbiz|registry)\b(?:(?!\.\s|;|\|).){0,140}",note,re.I)]
+        # Item 320 Part 1.5: one definition of where a line ends (validate.line_end)
+        _tl=[note[m.start():m.end()+validate.line_end(note[m.end():])] for m in re.finditer(r"\b(verified|checked|confirmed|active|sunbiz|registry)\b",note,re.I)]
         R['trading_lines']=[x[:140] for x in _tl if dates(x)]
         R['f_trading']='Checked' if R['trading_lines'] else 'Unchecked'
         R['f_dm']='Absent' if not dm or dm in ('—','-') else ('Role/family' if not person(dm) else ('Sourced' if dated else 'Named-unsourced'))
@@ -80,7 +81,8 @@ def audit(path):
 def vdates(n):
     """Item: corrected Window test (2026-10-29). Only verification dates count: a date on a Src: line, or after verified / read / checked / confirmed / live-checked. A date of an event in the company's history is not a verification date."""
     out=[]
-    for seg in re.findall(r'(?:Src:|[Vv]erified|\b[Rr]ead\b|[Cc]hecked|[Cc]onfirmed|Live-checked)[^.;\]]{0,90}',n):
+    # Item 320 Parts 1.4-1.5: our dates only (after read, verified, checked, confirmed, Live-checked) — a publication date dates the source, not our check; the segment ends where validate.line_end says a line ends
+    for seg in [n[m.start():m.end()+validate.line_end(n[m.end():])] for m in re.finditer(r'(?:\b[Vv]erified\b|\b[Rr]ead\b|\b[Cc]hecked\b|\b[Cc]onfirmed\b|Live-checked)',n)]:
         for y,m,d in re.findall(r'\b(20[0-9]{2})-(\d{2})-(\d{2})\b',seg): out.append(datetime.date(int(y),int(m),int(d)))
         for m,d,y in re.findall(r'\b(\d{1,2})/(\d{1,2})/(20[0-9]{2})\b',seg):
             if 1<=int(m)<=12: out.append(datetime.date(int(y),int(m),min(int(d),28)))

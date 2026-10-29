@@ -12,9 +12,12 @@ def line_end(rest):
     """A line ends at a full stop closing a sentence: the word before it is more than one letter and not an abbreviation,
     and the next character is a capital, an opening quote or bracket, or the end of the note. A URL's dots never end it."""
     for m in re.finditer(r'\.(?=\s|$)',rest):
-        w=re.search(r'([A-Za-z.]+)$',rest[:m.start()]); word=(w.group(1) if w else '').lower().strip('.')
+        before=rest[:m.start()]; prev=before[-1:] 
         nxt=rest[m.end():].lstrip()[:1]
-        if len(word)<=1 or word in ABBR: continue
+        # Item 320 Part 1.1 (Chair's ruling): a digit or a bracket before the full stop ends the sentence; only a single letter or a listed abbreviation continues it
+        if not (prev.isdigit() or prev in ')]'):
+            w=re.search(r'([A-Za-z.]+)$',before); word=(w.group(1) if w else '').lower().strip('.')
+            if (len(word)==1 and word.isalpha()) or word in ABBR: continue
         if nxt=='' or nxt.isupper() or nxt in '\u201c"(\u2018': return m.start()
     return len(rest)
 def lines(note):
