@@ -1,7 +1,7 @@
 {
  "market": "florida",
  "standard": "Phase 3 workable-row standard",
- "measured": "2026-10-29 (corrected Window test: verification dates only; no verification date reads Blind)",
+ "measured": "2026-10-29 (classifier pass: trading check dated on its own line; source_state from the Src line; Band 2 second entry; no sourced row labelled unsourced)",
  "note": "Re-run audit.py after any upload of florida.html; the console reads this file as Phase 3’s table.",
  "rows": {
   "1": {
@@ -25,6 +25,10 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
    "trading_kind": null
   },
   "2": {
@@ -46,6 +50,8 @@
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "site"
   },
   "3": {
@@ -68,6 +74,10 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "sourced once, outside the window"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -92,6 +102,10 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
    "trading_kind": null
   },
   "5": {
@@ -115,6 +129,10 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
    "trading_kind": null
   },
   "6": {
@@ -136,13 +154,15 @@
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "site"
   },
   "7": {
    "company": "Martinez Distributors",
    "tests": {
     "Company": true,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -159,7 +179,11 @@
    "why": [
     "website names a different company"
    ],
-   "trading_kind": "other dated check"
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
+   "trading_kind": null
   },
   "8": {
    "company": "PJ Distributors",
@@ -180,8 +204,10 @@
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
    "why": [
-    "company"
+    "no dated Src: line"
    ],
+   "source_state": "blind",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "9": {
@@ -203,6 +229,8 @@
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "10": {
@@ -224,13 +252,15 @@
    "bandTier": "B",
    "ground": "Distribution & Wholesale",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "11": {
    "company": "Turbana Corp",
    "tests": {
     "Company": true,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -239,13 +269,19 @@
     "Tier": true,
     "Window": true
    },
-   "workable": true,
-   "class": "Live",
-   "band": 1,
+   "workable": false,
+   "class": "Sourced, with gaps",
+   "band": 3,
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
-   "why": [],
-   "trading_kind": "other dated check"
+   "why": [
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
+   "trading_kind": null
   },
   "12": {
    "company": "Fresh Del Monte Produce",
@@ -268,6 +304,10 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
    "trading_kind": null
   },
   "13": {
@@ -289,6 +329,8 @@
    "bandTier": "C",
    "ground": "Food & Beverage Processing",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "14": {
@@ -312,6 +354,8 @@
    "why": [
     "website names a different company"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "15": {
@@ -328,12 +372,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -351,12 +399,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 3,
    "bandTier": "B",
    "ground": "Food & Beverage Processing",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -379,6 +431,8 @@
    "bandTier": "C",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "18": {
@@ -395,12 +449,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 3,
    "bandTier": "B",
    "ground": "Distribution & Wholesale",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -423,6 +481,8 @@
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "site"
   },
   "20": {
@@ -444,6 +504,8 @@
    "bandTier": "A",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "registry"
   },
   "21": {
@@ -465,6 +527,8 @@
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "22": {
@@ -481,12 +545,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -511,6 +579,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "24": {
@@ -534,6 +604,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "25": {
@@ -557,6 +629,10 @@
    "why": [
     "website names a different company"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
    "trading_kind": null
   },
   "26": {
@@ -573,12 +649,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 3,
    "bandTier": "B",
    "ground": "Distribution & Wholesale",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -596,12 +676,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -609,7 +693,7 @@
    "company": "HEICO",
    "tests": {
     "Company": false,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -624,9 +708,13 @@
    "bandTier": "B",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "company"
+    "no dated Src: line"
    ],
-   "trading_kind": "other dated check"
+   "source_state": "unsourced",
+   "gaps": [
+    "trading check"
+   ],
+   "trading_kind": null
   },
   "29": {
    "company": "Sintavia",
@@ -642,13 +730,18 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 3,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "trading",
-    "dm"
+    "missing trading check",
+    "missing dated decision maker"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
    ],
    "trading_kind": null
   },
@@ -673,6 +766,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "31": {
@@ -696,6 +791,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "32": {
@@ -719,6 +816,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "33": {
@@ -740,6 +839,8 @@
    "bandTier": "A",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "34": {
@@ -761,6 +862,8 @@
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "35": {
@@ -782,6 +885,8 @@
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "36": {
@@ -803,6 +908,8 @@
    "bandTier": "A",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "37": {
@@ -824,6 +931,8 @@
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "38": {
@@ -846,6 +955,10 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "sourced once, outside the window"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
    ],
    "trading_kind": "other dated check"
   },
@@ -870,13 +983,15 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "40": {
    "company": "Florida Crystals",
    "tests": {
     "Company": false,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -893,7 +1008,11 @@
    "why": [
     "website names a different company"
    ],
-   "trading_kind": "other dated check"
+   "source_state": "unsourced",
+   "gaps": [
+    "trading check"
+   ],
+   "trading_kind": null
   },
   "41": {
    "company": "Vigo Importing",
@@ -917,6 +1036,11 @@
     "website names a different company",
     "role or family as decision maker"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
+   ],
    "trading_kind": null
   },
   "42": {
@@ -938,6 +1062,8 @@
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "site"
   },
   "43": {
@@ -961,6 +1087,11 @@
    "why": [
     "role or family as decision maker"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
+   ],
    "trading_kind": null
   },
   "44": {
@@ -982,6 +1113,8 @@
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "45": {
@@ -1005,6 +1138,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "46": {
@@ -1021,12 +1156,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "dm"
+    "missing dated decision maker"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
    ],
    "trading_kind": "other dated check"
   },
@@ -1051,6 +1190,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "48": {
@@ -1067,12 +1208,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 3,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -1097,6 +1242,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "50": {
@@ -1120,6 +1267,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "51": {
@@ -1136,12 +1285,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 3,
    "bandTier": "B",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -1164,6 +1317,8 @@
    "bandTier": "B",
    "ground": "Food & Beverage Processing",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "53": {
@@ -1180,12 +1335,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Food & Beverage Processing",
    "why": [
-    "dm"
+    "missing dated decision maker"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
    ],
    "trading_kind": "other dated check"
   },
@@ -1208,6 +1367,8 @@
    "bandTier": "A",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "site"
   },
   "55": {
@@ -1231,13 +1392,17 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
    "trading_kind": null
   },
   "56": {
    "company": "PGT Innovations",
    "tests": {
     "Company": true,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": true,
     "Title": true,
     "Phone": false,
@@ -1254,7 +1419,11 @@
    "why": [
     "website names a different company"
    ],
-   "trading_kind": "other dated check"
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
+   "trading_kind": null
   },
   "57": {
    "company": "Teakdecking Systems",
@@ -1275,6 +1444,8 @@
    "bandTier": "A",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "58": {
@@ -1296,6 +1467,8 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "59": {
@@ -1317,6 +1490,8 @@
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "60": {
@@ -1340,6 +1515,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "62": {
@@ -1361,6 +1538,8 @@
    "bandTier": "B",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "63": {
@@ -1377,12 +1556,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 3,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -1405,6 +1588,8 @@
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "65": {
@@ -1426,6 +1611,8 @@
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "67": {
@@ -1447,6 +1634,8 @@
    "bandTier": "B",
    "ground": "Food & Beverage Processing",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "68": {
@@ -1469,6 +1658,10 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
    ],
    "trading_kind": "other dated check"
   },
@@ -1493,6 +1686,10 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
+   ],
    "trading_kind": "other dated check"
   },
   "70": {
@@ -1516,6 +1713,8 @@
    "why": [
     "website names a different company"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "71": {
@@ -1539,6 +1738,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "72": {
@@ -1562,13 +1763,18 @@
    "why": [
     "role or family as decision maker"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
+   ],
    "trading_kind": null
   },
   "73": {
    "company": "Beaver Street Fisheries",
    "tests": {
     "Company": false,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -1583,9 +1789,13 @@
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
    "why": [
-    "company"
+    "no dated Src: line"
    ],
-   "trading_kind": "other dated check"
+   "source_state": "blind",
+   "gaps": [
+    "trading check"
+   ],
+   "trading_kind": null
   },
   "74": {
    "company": "Ring Power (CAT)",
@@ -1606,6 +1816,8 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "75": {
@@ -1627,6 +1839,8 @@
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "76": {
@@ -1648,6 +1862,8 @@
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "77": {
@@ -1671,6 +1887,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "78": {
@@ -1687,12 +1905,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
    "why": [
-    "dm"
+    "missing dated decision maker"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
    ],
    "trading_kind": "other dated check"
   },
@@ -1715,6 +1937,8 @@
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "80": {
@@ -1738,6 +1962,10 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
    "trading_kind": null
   },
   "81": {
@@ -1754,12 +1982,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -1767,7 +1999,7 @@
    "company": "El Dorado Furniture",
    "tests": {
     "Company": true,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": true,
     "Title": true,
     "Phone": false,
@@ -1777,12 +2009,18 @@
     "Window": true
    },
    "workable": false,
-   "class": "Live",
-   "band": 4,
+   "class": "Sourced, with gaps",
+   "band": 3,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": [],
-   "trading_kind": "other dated check"
+   "why": [
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
+   "trading_kind": null
   },
   "83": {
    "company": "Duty Free Americas",
@@ -1805,6 +2043,11 @@
    "why": [
     "role or family as decision maker"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
+   ],
    "trading_kind": null
   },
   "84": {
@@ -1821,12 +2064,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 3,
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -1844,12 +2091,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Food & Beverage Processing",
    "why": [
-    "dm"
+    "missing dated decision maker"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
    ],
    "trading_kind": "other dated check"
   },
@@ -1868,10 +2119,12 @@
    },
    "workable": false,
    "class": "Live",
-   "band": 4,
+   "band": 2,
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "87": {
@@ -1893,6 +2146,8 @@
    "bandTier": "C",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "88": {
@@ -1916,6 +2171,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "89": {
@@ -1939,6 +2196,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "90": {
@@ -1962,13 +2221,17 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
+   ],
    "trading_kind": "other dated check"
   },
   "91": {
    "company": "Sheltair Aviation",
    "tests": {
     "Company": false,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -1983,9 +2246,13 @@
    "bandTier": "A",
    "ground": "Other",
    "why": [
-    "company"
+    "no dated Src: line"
    ],
-   "trading_kind": "other dated check"
+   "source_state": "unsourced",
+   "gaps": [
+    "trading check"
+   ],
+   "trading_kind": null
   },
   "92": {
    "company": "Kellstrom Aerospace",
@@ -2008,6 +2275,11 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
+   ],
    "trading_kind": null
   },
   "93": {
@@ -2029,6 +2301,8 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "94": {
@@ -2050,6 +2324,8 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "95": {
@@ -2071,6 +2347,8 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "96": {
@@ -2094,6 +2372,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "97": {
@@ -2117,6 +2397,10 @@
    "why": [
     "role or family as decision maker"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
+   ],
    "trading_kind": "other dated check"
   },
   "98": {
@@ -2138,6 +2422,8 @@
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "99": {
@@ -2159,6 +2445,8 @@
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "100": {
@@ -2180,6 +2468,8 @@
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "101": {
@@ -2202,6 +2492,11 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "sourced once, outside the window"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
    ],
    "trading_kind": null
   },
@@ -2226,6 +2521,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "103": {
@@ -2247,6 +2544,8 @@
    "bandTier": "C",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "104": {
@@ -2268,6 +2567,8 @@
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "105": {
@@ -2291,6 +2592,8 @@
    "why": [
     "website names a different company"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "106": {
@@ -2312,6 +2615,8 @@
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "107": {
@@ -2333,6 +2638,8 @@
    "bandTier": "B",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "108": {
@@ -2356,6 +2663,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "109": {
@@ -2379,6 +2688,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "110": {
@@ -2400,13 +2711,15 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "111": {
    "company": "BlueGrace Logistics",
    "tests": {
     "Company": true,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": true,
     "Title": true,
     "Phone": false,
@@ -2416,12 +2729,18 @@
     "Window": true
    },
    "workable": false,
-   "class": "Live",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [],
-   "trading_kind": "other dated check"
+   "why": [
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
+   ],
+   "trading_kind": null
   },
   "112": {
    "company": "Morgan Auto Group",
@@ -2442,8 +2761,10 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [
-    "company"
+    "no dated Src: line"
    ],
+   "source_state": "unsourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "114": {
@@ -2467,6 +2788,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "115": {
@@ -2488,6 +2811,8 @@
    "bandTier": "A",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "site"
   },
   "116": {
@@ -2511,13 +2836,17 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
+   ],
    "trading_kind": "other dated check"
   },
   "117": {
    "company": "Wayne Densch Inc.",
    "tests": {
     "Company": true,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": false,
     "Title": false,
     "Phone": false,
@@ -2527,14 +2856,20 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
    "why": [
-    "dm"
+    "missing trading check",
+    "missing dated decision maker"
    ],
-   "trading_kind": "other dated check"
+   "source_state": "sourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
+   ],
+   "trading_kind": null
   },
   "118": {
    "company": "S.R. Perrott",
@@ -2555,6 +2890,8 @@
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "119": {
@@ -2576,6 +2913,8 @@
    "bandTier": "C",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "120": {
@@ -2597,6 +2936,8 @@
    "bandTier": "C",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "121": {
@@ -2620,6 +2961,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "122": {
@@ -2641,6 +2984,8 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "123": {
@@ -2662,6 +3007,8 @@
    "bandTier": "C",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "124": {
@@ -2683,6 +3030,8 @@
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "125": {
@@ -2706,6 +3055,8 @@
    "why": [
     "website names a different company"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "126": {
@@ -2729,6 +3080,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "127": {
@@ -2750,6 +3103,8 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "128": {
@@ -2766,12 +3121,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 3,
    "bandTier": "B",
    "ground": "Food & Beverage Processing",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -2796,6 +3155,10 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
+   ],
    "trading_kind": "other dated check"
   },
   "130": {
@@ -2819,6 +3182,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "131": {
@@ -2841,6 +3206,11 @@
    "ground": "Other",
    "why": [
     "sourced once, outside the window"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
    ],
    "trading_kind": null
   },
@@ -2865,6 +3235,8 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "133": {
@@ -2886,6 +3258,8 @@
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "134": {
@@ -2909,6 +3283,8 @@
    "why": [
     "website names a different company"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "135": {
@@ -2930,6 +3306,8 @@
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "136": {
@@ -2953,6 +3331,8 @@
    "why": [
     "website names a different company"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "137": {
@@ -2976,6 +3356,8 @@
    "why": [
     "website names a different company"
    ],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "138": {
@@ -2997,6 +3379,8 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "139": {
@@ -3018,6 +3402,8 @@
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "140": {
@@ -3040,6 +3426,10 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
    ],
    "trading_kind": "other dated check"
   },
@@ -3064,6 +3454,10 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
+   ],
    "trading_kind": "other dated check"
   },
   "142": {
@@ -3085,6 +3479,8 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "143": {
@@ -3106,6 +3502,8 @@
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "144": {
@@ -3129,6 +3527,11 @@
    "why": [
     "sourced once, outside the window"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
+   ],
    "trading_kind": null
   },
   "145": {
@@ -3150,13 +3553,15 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "146": {
    "company": "Studer Family of Companies",
    "tests": {
     "Company": false,
-    "Trading": true,
+    "Trading": false,
     "Decision maker": false,
     "Title": false,
     "Phone": false,
@@ -3171,10 +3576,14 @@
    "bandTier": "B",
    "ground": "Other",
    "why": [
-    "company",
-    "dm"
+    "no dated Src: line"
    ],
-   "trading_kind": "other dated check"
+   "source_state": "unsourced",
+   "gaps": [
+    "trading check",
+    "dated decision maker"
+   ],
+   "trading_kind": null
   },
   "147": {
    "company": "Milam’s Markets",
@@ -3195,6 +3604,8 @@
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "148": {
@@ -3216,6 +3627,8 @@
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "149": {
@@ -3239,6 +3652,10 @@
    "why": [
     "website names a different company"
    ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
+   ],
    "trading_kind": "other dated check"
   },
   "150": {
@@ -3260,6 +3677,8 @@
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "other dated check"
   },
   "151": {
@@ -3276,12 +3695,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 3,
    "bandTier": "B",
    "ground": "Distribution & Wholesale",
    "why": [
-    "trading"
+    "missing trading check"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "trading check"
    ],
    "trading_kind": null
   },
@@ -3299,12 +3722,16 @@
     "Window": true
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Sourced, with gaps",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
    "why": [
-    "dm"
+    "missing dated decision maker"
+   ],
+   "source_state": "sourced",
+   "gaps": [
+    "dated decision maker"
    ],
    "trading_kind": "other dated check"
   },
@@ -3327,6 +3754,8 @@
    "bandTier": "A",
    "ground": "Other",
    "why": [],
+   "source_state": "sourced",
+   "gaps": [],
    "trading_kind": "registry"
   }
  }
