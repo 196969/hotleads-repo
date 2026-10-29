@@ -1,0 +1,611 @@
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:21:54.426406+00:00"}
+{"kind": "read", "row": "1", "url": "https://invictawatch.com", "outcome": "not_found", "elapsed": 1.1, "ts": "2026-10-29T21:21:55.522890+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:21:55.523123+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:21:55.523257+00:00"}
+{"kind": "read", "row": "1", "url": "https://invictawatch.com/contact", "outcome": "read", "elapsed": 0.58, "ts": "2026-10-29T21:21:56.100225+00:00"}
+{"kind": "write", "row": "1", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:21:56.100417+00:00"}
+{"kind": "write", "row": "1", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:21:56.100452+00:00"}
+{"kind": "write", "row": "1", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:21:56.100473+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:21:56.100726+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:21:56.100915+00:00"}
+{"kind": "read", "row": "1", "url": "https://invictawatch.com/about", "outcome": "not_found", "elapsed": 1.01, "ts": "2026-10-29T21:21:57.107896+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:21:57.108794+00:00"}
+{"kind": "write", "row": "1", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:21:57.108927+00:00"}
+{"kind": "write", "row": "1", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:21:57.108984+00:00"}
+{"kind": "write", "row": "1", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:21:57.109013+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:21:57.109496+00:00"}
+{"kind": "read", "row": "2", "url": "https://badiaspices.com", "outcome": "not_found", "elapsed": 1.27, "ts": "2026-10-29T21:21:58.379426+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:21:58.380087+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:21:58.380237+00:00"}
+{"kind": "read", "row": "2", "url": "https://badiaspices.com/contact", "outcome": "read", "elapsed": 1.53, "ts": "2026-10-29T21:21:59.907428+00:00"}
+{"kind": "write", "row": "2", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:21:59.907566+00:00"}
+{"kind": "write", "row": "2", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:21:59.907603+00:00"}
+{"kind": "write", "row": "2", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:21:59.907625+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:21:59.908119+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:21:59.908263+00:00"}
+{"kind": "read", "row": "2", "url": "https://badiaspices.com/about", "outcome": "refused", "elapsed": 2.77, "ts": "2026-10-29T21:22:02.682364+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:02.683110+00:00"}
+{"kind": "write", "row": "2", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:02.683224+00:00"}
+{"kind": "write", "row": "2", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:02.683262+00:00"}
+{"kind": "write", "row": "2", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:02.683282+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:02.683659+00:00"}
+{"kind": "read", "row": "6", "url": "https://eaglebrands.com", "outcome": "refused", "elapsed": 0.46, "ts": "2026-10-29T21:22:03.146765+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:03.147355+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:03.147571+00:00"}
+{"kind": "read", "row": "6", "url": "https://eaglebrands.com/contact", "outcome": "refused", "elapsed": 0.25, "ts": "2026-10-29T21:22:03.398084+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:03.398780+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:03.398982+00:00"}
+{"kind": "read", "row": "6", "url": "https://eaglebrands.com/about", "outcome": "refused", "elapsed": 0.24, "ts": "2026-10-29T21:22:03.638487+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:03.639138+00:00"}
+{"kind": "write", "row": "6", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:03.639248+00:00"}
+{"kind": "write", "row": "6", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:03.639277+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:03.639700+00:00"}
+{"kind": "read", "row": "7", "url": "https://mdist.us", "outcome": "not_found", "elapsed": 0.65, "ts": "2026-10-29T21:22:04.292933+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:04.293569+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:04.293700+00:00"}
+{"kind": "read", "row": "7", "url": "https://mdist.us/contact", "outcome": "not_found", "elapsed": 0.37, "ts": "2026-10-29T21:22:04.663086+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:04.663723+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:04.663872+00:00"}
+{"kind": "read", "row": "7", "url": "https://mdist.us/about", "outcome": "not_found", "elapsed": 0.32, "ts": "2026-10-29T21:22:04.987676+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:04.988374+00:00"}
+{"kind": "write", "row": "7", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:04.988506+00:00"}
+{"kind": "write", "row": "7", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:04.988573+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:04.989009+00:00"}
+{"kind": "read", "row": "9", "url": "https://riverdalefarms.com", "outcome": "read", "elapsed": 0.31, "ts": "2026-10-29T21:22:05.294480+00:00"}
+{"kind": "write", "row": "9", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:05.294638+00:00"}
+{"kind": "write", "row": "9", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:05.294676+00:00"}
+{"kind": "write", "row": "9", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:05.294696+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:05.295221+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:05.295376+00:00"}
+{"kind": "read", "row": "9", "url": "https://riverdalefarms.com/contact", "outcome": "read", "elapsed": 0.26, "ts": "2026-10-29T21:22:05.556738+00:00"}
+{"kind": "write", "row": "9", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:05.556902+00:00"}
+{"kind": "write", "row": "9", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:05.556945+00:00"}
+{"kind": "write", "row": "9", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:05.556975+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:05.557737+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:05.557900+00:00"}
+{"kind": "read", "row": "9", "url": "https://riverdalefarms.com/about", "outcome": "read", "elapsed": 0.26, "ts": "2026-10-29T21:22:05.822614+00:00"}
+{"kind": "write", "row": "9", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:05.822789+00:00"}
+{"kind": "write", "row": "9", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:05.822828+00:00"}
+{"kind": "write", "row": "9", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:05.822856+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:05.823589+00:00"}
+{"kind": "write", "row": "9", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:05.823709+00:00"}
+{"kind": "write", "row": "9", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:05.823757+00:00"}
+{"kind": "write", "row": "9", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:05.823778+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:05.824257+00:00"}
+{"kind": "read", "row": "11", "url": "https://turbana.com", "outcome": "not_found", "elapsed": 0.59, "ts": "2026-10-29T21:22:06.412784+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:06.413445+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:06.413684+00:00"}
+{"kind": "read", "row": "11", "url": "https://turbana.com/contact", "outcome": "refused", "elapsed": 0.51, "ts": "2026-10-29T21:22:06.927306+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:06.928113+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:06.928314+00:00"}
+{"kind": "read", "row": "11", "url": "https://turbana.com/about", "outcome": "refused", "elapsed": 0.27, "ts": "2026-10-29T21:22:07.203159+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:07.203713+00:00"}
+{"kind": "write", "row": "11", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:07.203827+00:00"}
+{"kind": "write", "row": "11", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:07.203856+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:07.204263+00:00"}
+{"kind": "read", "row": "19", "url": "https://refricenter.net", "outcome": "read", "elapsed": 0.38, "ts": "2026-10-29T21:22:07.588963+00:00"}
+{"kind": "write", "row": "19", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:07.589087+00:00"}
+{"kind": "write", "row": "19", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:07.589116+00:00"}
+{"kind": "write", "row": "19", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:07.589135+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:07.589727+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:07.589896+00:00"}
+{"kind": "read", "row": "19", "url": "https://refricenter.net/contact", "outcome": "refused", "elapsed": 0.1, "ts": "2026-10-29T21:22:07.687698+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:07.688271+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:07.688437+00:00"}
+{"kind": "read", "row": "19", "url": "https://refricenter.net/about", "outcome": "refused", "elapsed": 0.1, "ts": "2026-10-29T21:22:07.788299+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:07.791385+00:00"}
+{"kind": "write", "row": "19", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:07.791473+00:00"}
+{"kind": "write", "row": "19", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:07.791583+00:00"}
+{"kind": "write", "row": "19", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:07.791615+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:07.792147+00:00"}
+{"kind": "read", "row": "20", "url": "https://truckmax.com", "outcome": "not_found", "elapsed": 1.76, "ts": "2026-10-29T21:22:09.548873+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:09.549857+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:09.550156+00:00"}
+{"kind": "read", "row": "20", "url": "https://truckmax.com/contact", "outcome": "not_found", "elapsed": 2.08, "ts": "2026-10-29T21:22:11.630227+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:11.630999+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:11.631197+00:00"}
+{"kind": "read", "row": "20", "url": "https://truckmax.com/about", "outcome": "not_found", "elapsed": 2.03, "ts": "2026-10-29T21:22:13.662569+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:13.663341+00:00"}
+{"kind": "write", "row": "20", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:13.663467+00:00"}
+{"kind": "write", "row": "20", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:13.663546+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:13.664149+00:00"}
+{"kind": "read", "row": "22", "url": "https://presidentesupermarkets.com", "outcome": "not_found", "elapsed": 1.08, "ts": "2026-10-29T21:22:14.747355+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:14.748185+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:14.748379+00:00"}
+{"kind": "read", "row": "22", "url": "https://presidentesupermarkets.com/contact", "outcome": "not_found", "elapsed": 1.04, "ts": "2026-10-29T21:22:15.790336+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:15.791102+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:15.791300+00:00"}
+{"kind": "read", "row": "22", "url": "https://presidentesupermarkets.com/about", "outcome": "not_found", "elapsed": 0.95, "ts": "2026-10-29T21:22:16.736903+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:16.737735+00:00"}
+{"kind": "write", "row": "22", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:16.737863+00:00"}
+{"kind": "write", "row": "22", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:16.737895+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:16.738505+00:00"}
+{"kind": "read", "row": "29", "url": "https://sintavia.com", "outcome": "not_found", "elapsed": 0.24, "ts": "2026-10-29T21:22:16.975948+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:16.976997+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:16.977279+00:00"}
+{"kind": "read", "row": "29", "url": "https://sintavia.com/contact", "outcome": "read", "elapsed": 0.26, "ts": "2026-10-29T21:22:17.235903+00:00"}
+{"kind": "write", "row": "29", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:17.236054+00:00"}
+{"kind": "write", "row": "29", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:17.236082+00:00"}
+{"kind": "write", "row": "29", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:17.236102+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:17.236688+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:17.236882+00:00"}
+{"kind": "read", "row": "29", "url": "https://sintavia.com/about", "outcome": "not_found", "elapsed": 0.31, "ts": "2026-10-29T21:22:17.549163+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:17.549886+00:00"}
+{"kind": "write", "row": "29", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:17.550059+00:00"}
+{"kind": "write", "row": "29", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:17.550101+00:00"}
+{"kind": "write", "row": "29", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:17.550122+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:17.550630+00:00"}
+{"kind": "read", "row": "33", "url": "https://ecowindowsystems.com", "outcome": "not_found", "elapsed": 0.42, "ts": "2026-10-29T21:22:17.967613+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:17.968447+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:17.968669+00:00"}
+{"kind": "read", "row": "33", "url": "https://ecowindowsystems.com/contact", "outcome": "refused", "elapsed": 0.99, "ts": "2026-10-29T21:22:18.956417+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:18.957541+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:18.957787+00:00"}
+{"kind": "read", "row": "33", "url": "https://ecowindowsystems.com/about", "outcome": "not_found", "elapsed": 0.51, "ts": "2026-10-29T21:22:19.463849+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:19.464805+00:00"}
+{"kind": "write", "row": "33", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:19.464961+00:00"}
+{"kind": "write", "row": "33", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:19.465000+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:19.465714+00:00"}
+{"kind": "read", "row": "34", "url": "https://cigaretteracing.com", "outcome": "read", "elapsed": 0.31, "ts": "2026-10-29T21:22:19.778104+00:00"}
+{"kind": "write", "row": "34", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:19.778281+00:00"}
+{"kind": "write", "row": "34", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:19.778312+00:00"}
+{"kind": "write", "row": "34", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:19.778334+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:19.778990+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:19.779215+00:00"}
+{"kind": "read", "row": "34", "url": "https://cigaretteracing.com/contact", "outcome": "read", "elapsed": 0.34, "ts": "2026-10-29T21:22:20.119637+00:00"}
+{"kind": "write", "row": "34", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:20.119793+00:00"}
+{"kind": "write", "row": "34", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:20.119838+00:00"}
+{"kind": "write", "row": "34", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:20.119860+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:20.120664+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:20.120870+00:00"}
+{"kind": "read", "row": "34", "url": "https://cigaretteracing.com/about", "outcome": "refused", "elapsed": 0.15, "ts": "2026-10-29T21:22:20.269818+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:20.270839+00:00"}
+{"kind": "write", "row": "34", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:20.270979+00:00"}
+{"kind": "write", "row": "34", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:20.271020+00:00"}
+{"kind": "write", "row": "34", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:20.271039+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:20.271603+00:00"}
+{"kind": "read", "row": "35", "url": "https://wtdc.com", "outcome": "read", "elapsed": 0.32, "ts": "2026-10-29T21:22:20.594161+00:00"}
+{"kind": "write", "row": "35", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:20.594343+00:00"}
+{"kind": "write", "row": "35", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:20.594376+00:00"}
+{"kind": "write", "row": "35", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:20.594397+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:20.595217+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:20.595437+00:00"}
+{"kind": "read", "row": "35", "url": "https://wtdc.com/contact", "outcome": "read", "elapsed": 5.9, "ts": "2026-10-29T21:22:26.497711+00:00"}
+{"kind": "write", "row": "35", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:26.497892+00:00"}
+{"kind": "write", "row": "35", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:26.497965+00:00"}
+{"kind": "write", "row": "35", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:26.497991+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:26.498778+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:26.499011+00:00"}
+{"kind": "read", "row": "35", "url": "https://wtdc.com/about", "outcome": "read", "elapsed": 2.83, "ts": "2026-10-29T21:22:29.327100+00:00"}
+{"kind": "write", "row": "35", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:29.327227+00:00"}
+{"kind": "write", "row": "35", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:29.327255+00:00"}
+{"kind": "write", "row": "35", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:29.327276+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:29.327908+00:00"}
+{"kind": "write", "row": "35", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:29.328015+00:00"}
+{"kind": "write", "row": "35", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:29.328058+00:00"}
+{"kind": "write", "row": "35", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:29.328077+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:29.328747+00:00"}
+{"kind": "read", "row": "36", "url": "https://skypostal.com", "outcome": "not_found", "elapsed": 0.82, "ts": "2026-10-29T21:22:30.151511+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:30.154065+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:30.154320+00:00"}
+{"kind": "read", "row": "36", "url": "https://skypostal.com/contact", "outcome": "refused", "elapsed": 0.52, "ts": "2026-10-29T21:22:30.677369+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:30.678170+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:30.678379+00:00"}
+{"kind": "read", "row": "36", "url": "https://skypostal.com/about", "outcome": "refused", "elapsed": 0.52, "ts": "2026-10-29T21:22:31.199831+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:31.200641+00:00"}
+{"kind": "write", "row": "36", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:31.200771+00:00"}
+{"kind": "write", "row": "36", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:31.200805+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:31.201377+00:00"}
+{"kind": "read", "row": "37", "url": "https://fulfillmenthubusa.com", "outcome": "read", "elapsed": 0.43, "ts": "2026-10-29T21:22:31.631485+00:00"}
+{"kind": "write", "row": "37", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:31.631663+00:00"}
+{"kind": "write", "row": "37", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:31.631694+00:00"}
+{"kind": "write", "row": "37", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:31.631716+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:31.632494+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:31.632708+00:00"}
+{"kind": "read", "row": "37", "url": "https://fulfillmenthubusa.com/contact", "outcome": "read", "elapsed": 0.37, "ts": "2026-10-29T21:22:32.004459+00:00"}
+{"kind": "write", "row": "37", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:32.004645+00:00"}
+{"kind": "write", "row": "37", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:32.004675+00:00"}
+{"kind": "write", "row": "37", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:32.004696+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:32.005672+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:32.005878+00:00"}
+{"kind": "read", "row": "37", "url": "https://fulfillmenthubusa.com/about", "outcome": "refused", "elapsed": 0.26, "ts": "2026-10-29T21:22:32.263952+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:32.264852+00:00"}
+{"kind": "write", "row": "37", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:32.265003+00:00"}
+{"kind": "write", "row": "37", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:32.265090+00:00"}
+{"kind": "write", "row": "37", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:32.265125+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:32.265871+00:00"}
+{"kind": "read", "row": "41", "url": "https://vigo-alessi.com", "outcome": "not_found", "elapsed": 0.51, "ts": "2026-10-29T21:22:32.774814+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:32.775832+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:32.776095+00:00"}
+{"kind": "read", "row": "41", "url": "https://vigo-alessi.com/contact", "outcome": "not_found", "elapsed": 0.34, "ts": "2026-10-29T21:22:33.113875+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:33.114676+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:33.114913+00:00"}
+{"kind": "read", "row": "41", "url": "https://vigo-alessi.com/about", "outcome": "not_found", "elapsed": 0.32, "ts": "2026-10-29T21:22:33.438448+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:33.439483+00:00"}
+{"kind": "write", "row": "41", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:33.439601+00:00"}
+{"kind": "write", "row": "41", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:33.439637+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:33.440412+00:00"}
+{"kind": "read", "row": "42", "url": "https://pepindistributing.com", "outcome": "not_found", "elapsed": 0.72, "ts": "2026-10-29T21:22:34.159889+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:34.160689+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:34.160895+00:00"}
+{"kind": "read", "row": "42", "url": "https://pepindistributing.com/contact", "outcome": "not_found", "elapsed": 1.09, "ts": "2026-10-29T21:22:35.249591+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:35.250334+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:35.250594+00:00"}
+{"kind": "read", "row": "42", "url": "https://pepindistributing.com/about", "outcome": "refused", "elapsed": 1.4, "ts": "2026-10-29T21:22:36.647109+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:36.647965+00:00"}
+{"kind": "write", "row": "42", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:36.648129+00:00"}
+{"kind": "write", "row": "42", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:36.648171+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:36.648929+00:00"}
+{"kind": "read", "row": "43", "url": "https://greatbaybud.com", "outcome": "not_found", "elapsed": 0.26, "ts": "2026-10-29T21:22:36.912229+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:36.913083+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:36.913283+00:00"}
+{"kind": "read", "row": "43", "url": "https://greatbaybud.com/contact", "outcome": "not_found", "elapsed": 0.17, "ts": "2026-10-29T21:22:37.084235+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:37.085003+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:37.085215+00:00"}
+{"kind": "read", "row": "43", "url": "https://greatbaybud.com/about", "outcome": "not_found", "elapsed": 0.24, "ts": "2026-10-29T21:22:37.324440+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:37.325166+00:00"}
+{"kind": "write", "row": "43", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:37.325287+00:00"}
+{"kind": "write", "row": "43", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:37.325318+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:37.325994+00:00"}
+{"kind": "read", "row": "48", "url": "https://roomstogo.com", "outcome": "not_found", "elapsed": 2.17, "ts": "2026-10-29T21:22:39.501247+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:39.502103+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:39.502335+00:00"}
+{"kind": "read", "row": "48", "url": "https://roomstogo.com/contact", "outcome": "read", "elapsed": 0.76, "ts": "2026-10-29T21:22:40.258243+00:00"}
+{"kind": "write", "row": "48", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:40.258383+00:00"}
+{"kind": "write", "row": "48", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:40.258457+00:00"}
+{"kind": "write", "row": "48", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:40.258486+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:40.259142+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:40.259344+00:00"}
+{"kind": "read", "row": "48", "url": "https://roomstogo.com/about", "outcome": "refused", "elapsed": 1.11, "ts": "2026-10-29T21:22:41.371486+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:41.372279+00:00"}
+{"kind": "write", "row": "48", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:41.372388+00:00"}
+{"kind": "write", "row": "48", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:41.372467+00:00"}
+{"kind": "write", "row": "48", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:41.372491+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:41.373199+00:00"}
+{"kind": "read", "row": "54", "url": "https://beallsinc.com", "outcome": "read", "elapsed": 0.54, "ts": "2026-10-29T21:22:41.914442+00:00"}
+{"kind": "write", "row": "54", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:41.914616+00:00"}
+{"kind": "write", "row": "54", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:41.914659+00:00"}
+{"kind": "write", "row": "54", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:41.914689+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:41.915580+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:41.915888+00:00"}
+{"kind": "read", "row": "54", "url": "https://beallsinc.com/contact", "outcome": "refused", "elapsed": 0.43, "ts": "2026-10-29T21:22:42.346250+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:42.347136+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:42.347457+00:00"}
+{"kind": "read", "row": "54", "url": "https://beallsinc.com/about", "outcome": "refused", "elapsed": 0.48, "ts": "2026-10-29T21:22:42.831322+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:42.832208+00:00"}
+{"kind": "write", "row": "54", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:42.832320+00:00"}
+{"kind": "write", "row": "54", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:42.832359+00:00"}
+{"kind": "write", "row": "54", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:42.832378+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:42.833047+00:00"}
+{"kind": "read", "row": "55", "url": "https://tervis.com", "outcome": "not_found", "elapsed": 1.36, "ts": "2026-10-29T21:22:44.189996+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:44.193542+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:44.193807+00:00"}
+{"kind": "read", "row": "55", "url": "https://tervis.com/contact", "outcome": "refused", "elapsed": 0.71, "ts": "2026-10-29T21:22:44.904621+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:44.905875+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:44.906278+00:00"}
+{"kind": "read", "row": "55", "url": "https://tervis.com/about", "outcome": "refused", "elapsed": 0.57, "ts": "2026-10-29T21:22:45.476679+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:45.477523+00:00"}
+{"kind": "write", "row": "55", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:45.477652+00:00"}
+{"kind": "write", "row": "55", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:45.477684+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:45.478473+00:00"}
+{"kind": "read", "row": "57", "url": "https://teakdecking.com", "outcome": "not_found", "elapsed": 0.5, "ts": "2026-10-29T21:22:45.974656+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:45.975643+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:45.975882+00:00"}
+{"kind": "read", "row": "57", "url": "https://teakdecking.com/contact", "outcome": "not_found", "elapsed": 0.39, "ts": "2026-10-29T21:22:46.370202+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:46.371629+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:46.371948+00:00"}
+{"kind": "read", "row": "57", "url": "https://teakdecking.com/about", "outcome": "not_found", "elapsed": 0.32, "ts": "2026-10-29T21:22:46.691213+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:46.692102+00:00"}
+{"kind": "write", "row": "57", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:46.692237+00:00"}
+{"kind": "write", "row": "57", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:46.692269+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:46.693069+00:00"}
+{"kind": "read", "row": "59", "url": "https://barneyspumps.com", "outcome": "not_found", "elapsed": 0.67, "ts": "2026-10-29T21:22:47.364090+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:47.365037+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:47.365315+00:00"}
+{"kind": "read", "row": "59", "url": "https://barneyspumps.com/contact", "outcome": "read", "elapsed": 1.85, "ts": "2026-10-29T21:22:49.213330+00:00"}
+{"kind": "write", "row": "59", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:49.213474+00:00"}
+{"kind": "write", "row": "59", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:49.213505+00:00"}
+{"kind": "write", "row": "59", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:49.213525+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:49.214273+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:49.214535+00:00"}
+{"kind": "read", "row": "59", "url": "https://barneyspumps.com/about", "outcome": "read", "elapsed": 0.4, "ts": "2026-10-29T21:22:49.619946+00:00"}
+{"kind": "write", "row": "59", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:49.620131+00:00"}
+{"kind": "write", "row": "59", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:49.620178+00:00"}
+{"kind": "write", "row": "59", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:49.620213+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:49.620969+00:00"}
+{"kind": "write", "row": "59", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:49.621078+00:00"}
+{"kind": "write", "row": "59", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:49.621132+00:00"}
+{"kind": "write", "row": "59", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:49.621153+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:49.621866+00:00"}
+{"kind": "read", "row": "63", "url": "https://regalboats.com", "outcome": "refused", "elapsed": 0.15, "ts": "2026-10-29T21:22:49.776059+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:49.776834+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:49.777069+00:00"}
+{"kind": "read", "row": "63", "url": "https://regalboats.com/contact", "outcome": "refused", "elapsed": 0.16, "ts": "2026-10-29T21:22:49.934801+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:49.935573+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:49.935783+00:00"}
+{"kind": "read", "row": "63", "url": "https://regalboats.com/about", "outcome": "refused", "elapsed": 0.09, "ts": "2026-10-29T21:22:50.024647+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:50.025327+00:00"}
+{"kind": "write", "row": "63", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:50.025480+00:00"}
+{"kind": "write", "row": "63", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:50.025516+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:50.026221+00:00"}
+{"kind": "read", "row": "64", "url": "https://floridapaints.com", "outcome": "not_found", "elapsed": 0.45, "ts": "2026-10-29T21:22:50.476024+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:50.477019+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:50.477321+00:00"}
+{"kind": "read", "row": "64", "url": "https://floridapaints.com/contact", "outcome": "not_found", "elapsed": 2.02, "ts": "2026-10-29T21:22:52.493829+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:52.494868+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:52.495129+00:00"}
+{"kind": "read", "row": "64", "url": "https://floridapaints.com/about", "outcome": "not_found", "elapsed": 1.8, "ts": "2026-10-29T21:22:54.296211+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:54.297184+00:00"}
+{"kind": "write", "row": "64", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:54.297333+00:00"}
+{"kind": "write", "row": "64", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:54.297402+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:54.298180+00:00"}
+{"kind": "read", "row": "70", "url": "https://teamcone.net", "outcome": "not_found", "elapsed": 0.93, "ts": "2026-10-29T21:22:55.232315+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:55.233757+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:55.234087+00:00"}
+{"kind": "read", "row": "70", "url": "https://teamcone.net/contact", "outcome": "not_found", "elapsed": 1.31, "ts": "2026-10-29T21:22:56.542726+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:56.543771+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:56.544048+00:00"}
+{"kind": "read", "row": "70", "url": "https://teamcone.net/about", "outcome": "not_found", "elapsed": 1.2, "ts": "2026-10-29T21:22:57.746724+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:57.747657+00:00"}
+{"kind": "write", "row": "70", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:57.747785+00:00"}
+{"kind": "write", "row": "70", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:57.747817+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:57.748550+00:00"}
+{"kind": "read", "row": "72", "url": "https://montereyboats.com", "outcome": "not_found", "elapsed": 0.8, "ts": "2026-10-29T21:22:58.548192+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:58.549174+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:58.549471+00:00"}
+{"kind": "read", "row": "72", "url": "https://montereyboats.com/contact", "outcome": "read", "elapsed": 0.43, "ts": "2026-10-29T21:22:58.981437+00:00"}
+{"kind": "write", "row": "72", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:58.981572+00:00"}
+{"kind": "write", "row": "72", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:58.981603+00:00"}
+{"kind": "write", "row": "72", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:58.981623+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:58.982657+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:58.982985+00:00"}
+{"kind": "read", "row": "72", "url": "https://montereyboats.com/about", "outcome": "not_found", "elapsed": 0.39, "ts": "2026-10-29T21:22:59.374985+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:59.375815+00:00"}
+{"kind": "write", "row": "72", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:59.375897+00:00"}
+{"kind": "write", "row": "72", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:59.375984+00:00"}
+{"kind": "write", "row": "72", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:59.376010+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:59.377478+00:00"}
+{"kind": "read", "row": "75", "url": "https://rulonco.com", "outcome": "read", "elapsed": 0.4, "ts": "2026-10-29T21:22:59.778909+00:00"}
+{"kind": "write", "row": "75", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:22:59.779049+00:00"}
+{"kind": "write", "row": "75", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:22:59.779080+00:00"}
+{"kind": "write", "row": "75", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:22:59.779101+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:22:59.779857+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:22:59.780093+00:00"}
+{"kind": "read", "row": "75", "url": "https://rulonco.com/contact", "outcome": "read", "elapsed": 0.41, "ts": "2026-10-29T21:23:00.192566+00:00"}
+{"kind": "write", "row": "75", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:00.192745+00:00"}
+{"kind": "write", "row": "75", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:00.192784+00:00"}
+{"kind": "write", "row": "75", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:00.192812+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:00.193809+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:00.194253+00:00"}
+{"kind": "read", "row": "75", "url": "https://rulonco.com/about", "outcome": "read", "elapsed": 0.94, "ts": "2026-10-29T21:23:01.138312+00:00"}
+{"kind": "write", "row": "75", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:01.138512+00:00"}
+{"kind": "write", "row": "75", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:01.138544+00:00"}
+{"kind": "write", "row": "75", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:01.138565+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:01.139369+00:00"}
+{"kind": "write", "row": "75", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:01.139490+00:00"}
+{"kind": "write", "row": "75", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:01.139533+00:00"}
+{"kind": "write", "row": "75", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:01.139552+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:01.140293+00:00"}
+{"kind": "read", "row": "79", "url": "https://reidtransportationgroup.com", "outcome": "read", "elapsed": 0.42, "ts": "2026-10-29T21:23:01.565957+00:00"}
+{"kind": "write", "row": "79", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:01.566141+00:00"}
+{"kind": "write", "row": "79", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:01.566172+00:00"}
+{"kind": "write", "row": "79", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:01.566192+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:01.567018+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:01.567278+00:00"}
+{"kind": "read", "row": "79", "url": "https://reidtransportationgroup.com/contact", "outcome": "read", "elapsed": 0.39, "ts": "2026-10-29T21:23:01.956814+00:00"}
+{"kind": "write", "row": "79", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:01.956956+00:00"}
+{"kind": "write", "row": "79", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:01.956988+00:00"}
+{"kind": "write", "row": "79", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:01.957009+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:01.957744+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:01.958046+00:00"}
+{"kind": "read", "row": "79", "url": "https://reidtransportationgroup.com/about", "outcome": "read", "elapsed": 0.37, "ts": "2026-10-29T21:23:02.329680+00:00"}
+{"kind": "write", "row": "79", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:02.329884+00:00"}
+{"kind": "write", "row": "79", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:02.329959+00:00"}
+{"kind": "write", "row": "79", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:02.329997+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:02.330836+00:00"}
+{"kind": "write", "row": "79", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:02.330968+00:00"}
+{"kind": "write", "row": "79", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:02.331036+00:00"}
+{"kind": "write", "row": "79", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:02.331058+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:02.331921+00:00"}
+{"kind": "read", "row": "82", "url": "https://eldoradofurniture.com", "outcome": "not_found", "elapsed": 1.24, "ts": "2026-10-29T21:23:03.569878+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:03.570910+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:03.571188+00:00"}
+{"kind": "read", "row": "82", "url": "https://eldoradofurniture.com/contact", "outcome": "not_found", "elapsed": 1.6, "ts": "2026-10-29T21:23:05.172009+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:05.172940+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:05.173222+00:00"}
+{"kind": "read", "row": "82", "url": "https://eldoradofurniture.com/about", "outcome": "not_found", "elapsed": 1.2, "ts": "2026-10-29T21:23:06.378103+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:06.379508+00:00"}
+{"kind": "write", "row": "82", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:06.379730+00:00"}
+{"kind": "write", "row": "82", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:06.379775+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:06.380929+00:00"}
+{"kind": "read", "row": "83", "url": "https://dutyfreeamericas.com", "outcome": "refused", "elapsed": 0.3, "ts": "2026-10-29T21:23:06.683123+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:06.684258+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:06.684686+00:00"}
+{"kind": "read", "row": "83", "url": "https://dutyfreeamericas.com/contact", "outcome": "refused", "elapsed": 0.1, "ts": "2026-10-29T21:23:06.789392+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:06.790569+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:06.790953+00:00"}
+{"kind": "read", "row": "83", "url": "https://dutyfreeamericas.com/about", "outcome": "refused", "elapsed": 0.11, "ts": "2026-10-29T21:23:06.905580+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:06.906517+00:00"}
+{"kind": "write", "row": "83", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:06.906641+00:00"}
+{"kind": "write", "row": "83", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:06.906674+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:06.907491+00:00"}
+{"kind": "read", "row": "84", "url": "https://sunshinegasoline.com", "outcome": "not_found", "elapsed": 0.46, "ts": "2026-10-29T21:23:07.368039+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:07.368972+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:07.369262+00:00"}
+{"kind": "read", "row": "84", "url": "https://sunshinegasoline.com/contact", "outcome": "not_found", "elapsed": 0.61, "ts": "2026-10-29T21:23:07.977360+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:07.978521+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:07.978860+00:00"}
+{"kind": "read", "row": "84", "url": "https://sunshinegasoline.com/about", "outcome": "not_found", "elapsed": 0.47, "ts": "2026-10-29T21:23:08.450708+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:08.451475+00:00"}
+{"kind": "write", "row": "84", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:08.451627+00:00"}
+{"kind": "write", "row": "84", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:08.451657+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:08.452411+00:00"}
+{"kind": "read", "row": "86", "url": "https://miamibeef.com", "outcome": "read", "elapsed": 1.11, "ts": "2026-10-29T21:23:09.565776+00:00"}
+{"kind": "write", "row": "86", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:09.565938+00:00"}
+{"kind": "write", "row": "86", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:09.565976+00:00"}
+{"kind": "write", "row": "86", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:09.565998+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:09.566855+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:09.567195+00:00"}
+{"kind": "read", "row": "86", "url": "https://miamibeef.com/contact", "outcome": "read", "elapsed": 1.32, "ts": "2026-10-29T21:23:10.887717+00:00"}
+{"kind": "write", "row": "86", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:10.887850+00:00"}
+{"kind": "write", "row": "86", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:10.887880+00:00"}
+{"kind": "write", "row": "86", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:10.887900+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:10.888676+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:10.888923+00:00"}
+{"kind": "read", "row": "86", "url": "https://miamibeef.com/about", "outcome": "read", "elapsed": 1.44, "ts": "2026-10-29T21:23:12.325462+00:00"}
+{"kind": "write", "row": "86", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:12.325625+00:00"}
+{"kind": "write", "row": "86", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:12.325668+00:00"}
+{"kind": "write", "row": "86", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:12.325699+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:12.326740+00:00"}
+{"kind": "write", "row": "86", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:12.326905+00:00"}
+{"kind": "write", "row": "86", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:12.326969+00:00"}
+{"kind": "write", "row": "86", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:12.327002+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:12.328077+00:00"}
+{"kind": "read", "row": "91", "url": "https://sheltairaviation.com", "outcome": "not_found", "elapsed": 0.29, "ts": "2026-10-29T21:23:12.619606+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:12.620735+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:12.621213+00:00"}
+{"kind": "read", "row": "91", "url": "https://sheltairaviation.com/contact", "outcome": "not_found", "elapsed": 0.06, "ts": "2026-10-29T21:23:12.683150+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:12.684539+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:12.684945+00:00"}
+{"kind": "read", "row": "91", "url": "https://sheltairaviation.com/about", "outcome": "not_found", "elapsed": 0.09, "ts": "2026-10-29T21:23:12.776670+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:12.777528+00:00"}
+{"kind": "write", "row": "91", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:12.777660+00:00"}
+{"kind": "write", "row": "91", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:12.777693+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:12.778526+00:00"}
+{"kind": "read", "row": "97", "url": "https://browndistributing.com", "outcome": "not_found", "elapsed": 0.36, "ts": "2026-10-29T21:23:13.136436+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:13.137264+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:13.137537+00:00"}
+{"kind": "read", "row": "97", "url": "https://browndistributing.com/contact", "outcome": "not_found", "elapsed": 0.39, "ts": "2026-10-29T21:23:13.527411+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:13.528269+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:13.528628+00:00"}
+{"kind": "read", "row": "97", "url": "https://browndistributing.com/about", "outcome": "not_found", "elapsed": 0.31, "ts": "2026-10-29T21:23:13.837785+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:13.838819+00:00"}
+{"kind": "write", "row": "97", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:13.838955+00:00"}
+{"kind": "write", "row": "97", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:13.838989+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:13.839913+00:00"}
+{"kind": "read", "row": "99", "url": "https://lipmanfamilyfarms.com", "outcome": "not_found", "elapsed": 0.8, "ts": "2026-10-29T21:23:14.636640+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:14.637732+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:14.638101+00:00"}
+{"kind": "read", "row": "99", "url": "https://lipmanfamilyfarms.com/contact", "outcome": "not_found", "elapsed": 0.75, "ts": "2026-10-29T21:23:15.390118+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:15.391151+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:15.391479+00:00"}
+{"kind": "read", "row": "99", "url": "https://lipmanfamilyfarms.com/about", "outcome": "refused", "elapsed": 0.4, "ts": "2026-10-29T21:23:15.792264+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:15.793512+00:00"}
+{"kind": "write", "row": "99", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:15.793682+00:00"}
+{"kind": "write", "row": "99", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:15.793724+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:15.794925+00:00"}
+{"kind": "read", "row": "100", "url": "https://arthrex.com", "outcome": "not_found", "elapsed": 0.69, "ts": "2026-10-29T21:23:16.488784+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:16.490332+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:16.490802+00:00"}
+{"kind": "read", "row": "100", "url": "https://arthrex.com/contact", "outcome": "refused", "elapsed": 0.32, "ts": "2026-10-29T21:23:16.809360+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:16.810579+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:16.810921+00:00"}
+{"kind": "read", "row": "100", "url": "https://arthrex.com/about", "outcome": "refused", "elapsed": 0.33, "ts": "2026-10-29T21:23:17.140643+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:17.141527+00:00"}
+{"kind": "write", "row": "100", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:17.141641+00:00"}
+{"kind": "write", "row": "100", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:17.141673+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:17.142629+00:00"}
+{"kind": "read", "row": "104", "url": "https://detwilers.com", "outcome": "refused", "elapsed": 0.32, "ts": "2026-10-29T21:23:17.468168+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:17.469123+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:17.469429+00:00"}
+{"kind": "read", "row": "104", "url": "https://detwilers.com/contact", "outcome": "refused", "elapsed": 0.43, "ts": "2026-10-29T21:23:17.895850+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:17.896820+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:17.897120+00:00"}
+{"kind": "read", "row": "104", "url": "https://detwilers.com/about", "outcome": "refused", "elapsed": 0.31, "ts": "2026-10-29T21:23:18.213172+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:18.214159+00:00"}
+{"kind": "write", "row": "104", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:18.214311+00:00"}
+{"kind": "write", "row": "104", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:18.214350+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:18.215137+00:00"}
+{"kind": "read", "row": "115", "url": "https://wishfarms.com", "outcome": "read", "elapsed": 0.41, "ts": "2026-10-29T21:23:18.627520+00:00"}
+{"kind": "write", "row": "115", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:18.627643+00:00"}
+{"kind": "write", "row": "115", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:18.627674+00:00"}
+{"kind": "write", "row": "115", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:18.627696+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:18.628621+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:18.628882+00:00"}
+{"kind": "read", "row": "115", "url": "https://wishfarms.com/contact", "outcome": "read", "elapsed": 0.26, "ts": "2026-10-29T21:23:18.886050+00:00"}
+{"kind": "write", "row": "115", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:18.886252+00:00"}
+{"kind": "write", "row": "115", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:18.886324+00:00"}
+{"kind": "write", "row": "115", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:18.886354+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:18.887229+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:18.887592+00:00"}
+{"kind": "read", "row": "115", "url": "https://wishfarms.com/about", "outcome": "read", "elapsed": 0.22, "ts": "2026-10-29T21:23:19.110298+00:00"}
+{"kind": "write", "row": "115", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:19.110437+00:00"}
+{"kind": "write", "row": "115", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:19.110468+00:00"}
+{"kind": "write", "row": "115", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:19.110489+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:19.111408+00:00"}
+{"kind": "write", "row": "115", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:19.111531+00:00"}
+{"kind": "write", "row": "115", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:19.111581+00:00"}
+{"kind": "write", "row": "115", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:19.111601+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:19.112452+00:00"}
+{"kind": "read", "row": "118", "url": "https://srperrott.com", "outcome": "not_found", "elapsed": 0.84, "ts": "2026-10-29T21:23:19.954653+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:19.956019+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:19.956558+00:00"}
+{"kind": "read", "row": "118", "url": "https://srperrott.com/contact", "outcome": "read", "elapsed": 0.44, "ts": "2026-10-29T21:23:20.399048+00:00"}
+{"kind": "write", "row": "118", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:20.399167+00:00"}
+{"kind": "write", "row": "118", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:20.399199+00:00"}
+{"kind": "write", "row": "118", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:20.399220+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:20.400028+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:20.400354+00:00"}
+{"kind": "read", "row": "118", "url": "https://srperrott.com/about", "outcome": "read", "elapsed": 0.39, "ts": "2026-10-29T21:23:20.792995+00:00"}
+{"kind": "write", "row": "118", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:20.793120+00:00"}
+{"kind": "write", "row": "118", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:20.793150+00:00"}
+{"kind": "write", "row": "118", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:20.793171+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:20.794015+00:00"}
+{"kind": "write", "row": "118", "field": "addr_found", "outcome": "written", "ts": "2026-10-29T21:23:20.794125+00:00"}
+{"kind": "write", "row": "118", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:20.794168+00:00"}
+{"kind": "write", "row": "118", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:20.794188+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:20.795141+00:00"}
+{"kind": "read", "row": "133", "url": "https://sallydarkrides.com", "outcome": "not_found", "elapsed": 0.94, "ts": "2026-10-29T21:23:21.738866+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:21.739870+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:21.740145+00:00"}
+{"kind": "read", "row": "133", "url": "https://sallydarkrides.com/contact", "outcome": "not_found", "elapsed": 0.37, "ts": "2026-10-29T21:23:22.109211+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:22.110261+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:22.110577+00:00"}
+{"kind": "read", "row": "133", "url": "https://sallydarkrides.com/about", "outcome": "refused", "elapsed": 0.79, "ts": "2026-10-29T21:23:22.905477+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:22.906509+00:00"}
+{"kind": "write", "row": "133", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:22.906646+00:00"}
+{"kind": "write", "row": "133", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:22.906679+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:22.907557+00:00"}
+{"kind": "read", "row": "135", "url": "https://coolair.com", "outcome": "not_found", "elapsed": 0.98, "ts": "2026-10-29T21:23:23.892580+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:23.894225+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:23.894790+00:00"}
+{"kind": "read", "row": "135", "url": "https://coolair.com/contact", "outcome": "refused", "elapsed": 0.47, "ts": "2026-10-29T21:23:24.366528+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:24.367635+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:24.367920+00:00"}
+{"kind": "read", "row": "135", "url": "https://coolair.com/about", "outcome": "refused", "elapsed": 0.36, "ts": "2026-10-29T21:23:24.734658+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:24.735730+00:00"}
+{"kind": "write", "row": "135", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:24.735862+00:00"}
+{"kind": "write", "row": "135", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:24.735895+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:24.736787+00:00"}
+{"kind": "read", "row": "147", "url": "https://milamsmarkets.com", "outcome": "not_found", "elapsed": 0.53, "ts": "2026-10-29T21:23:25.268731+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:25.269741+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:25.270076+00:00"}
+{"kind": "read", "row": "147", "url": "https://milamsmarkets.com/contact", "outcome": "not_found", "elapsed": 0.65, "ts": "2026-10-29T21:23:25.921604+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:25.922638+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:25.922930+00:00"}
+{"kind": "read", "row": "147", "url": "https://milamsmarkets.com/about", "outcome": "not_found", "elapsed": 0.48, "ts": "2026-10-29T21:23:26.408971+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:26.410017+00:00"}
+{"kind": "write", "row": "147", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:23:26.410228+00:00"}
+{"kind": "write", "row": "147", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:23:26.410306+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:26.411612+00:00"}
+{"kind": "read", "row": "148", "url": "https://dorisitalianmarket.com", "outcome": "refused", "elapsed": 12.69, "ts": "2026-10-29T21:23:39.107296+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:39.108508+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:39.108841+00:00"}
+{"kind": "read", "row": "148", "url": "https://dorisitalianmarket.com/contact", "outcome": "refused", "elapsed": 12.23, "ts": "2026-10-29T21:23:51.337071+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:23:51.338281+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:23:51.338579+00:00"}
+{"kind": "read", "row": "148", "url": "https://dorisitalianmarket.com/about", "outcome": "refused", "elapsed": 12.02, "ts": "2026-10-29T21:24:03.356792+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:24:03.357887+00:00"}
+{"kind": "write", "row": "148", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:24:03.358069+00:00"}
+{"kind": "write", "row": "148", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:24:03.358100+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:24:03.359068+00:00"}
+{"kind": "read", "row": "153", "url": "https://kellytractor.com", "outcome": "not_found", "elapsed": 1.49, "ts": "2026-10-29T21:24:04.852342+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:24:04.853467+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:24:04.853840+00:00"}
+{"kind": "read", "row": "153", "url": "https://kellytractor.com/contact", "outcome": "refused", "elapsed": 0.52, "ts": "2026-10-29T21:24:05.370579+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:24:05.371677+00:00"}
+{"kind": "run", "market": "florida", "rows": 1, "ceiling": 200, "ceiling_is_assumed": true, "outcome": "start", "ts": "2026-10-29T21:24:05.372000+00:00"}
+{"kind": "read", "row": "153", "url": "https://kellytractor.com/about", "outcome": "refused", "elapsed": 0.55, "ts": "2026-10-29T21:24:05.926928+00:00"}
+{"kind": "run", "market": "florida", "outcome": "complete", "reads": 1, "ts": "2026-10-29T21:24:05.927956+00:00"}
+{"kind": "write", "row": "153", "field": "bot_note", "outcome": "written", "ts": "2026-10-29T21:24:05.928092+00:00"}
+{"kind": "write", "row": "153", "field": "bot_status", "outcome": "written", "ts": "2026-10-29T21:24:05.928126+00:00"}

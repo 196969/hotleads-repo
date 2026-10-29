@@ -1,0 +1,8 @@
+{
+ "no_address_returns_not_found_never_guess": true,
+ "refusal_returns_refused_never_absent": true,
+ "write_to_address_refused": true,
+ "kill_switch_halts_with_log_intact": true,
+ "character_classes": "address: published on the page / not published; read: HTTP 200 / 403 refusal; fence: field inside the set / outside; kill: file present mid-run / absent",
+ "proved_on": "2026-10-29"
+}

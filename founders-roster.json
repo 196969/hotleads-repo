@@ -609,5 +609,11 @@
     "9": "Private Equity"
    }
   }
+ ],
+ "standing_rules": [
+  {
+   "ruled": "2026-10-29",
+   "rule": "Blind by construction: a seat cannot read what does not yet exist. On a brief for a new artefact, a Blind reading on the seats bound to that part is not a stop; the stop binds on the delivery reading."
+  }
  ]
 }

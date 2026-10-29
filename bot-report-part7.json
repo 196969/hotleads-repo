@@ -1,0 +1,19 @@
+{
+ "market": "florida",
+ "date": "2026-10-29",
+ "rows_in_pipeline": 47,
+ "rows_read": 17,
+ "rows_refused": 5,
+ "rows_not_found": 23,
+ "rows_proposed": 17,
+ "rows_confirmed": 0,
+ "reads_total": 135,
+ "ceiling": 200,
+ "ceiling_is_assumed": true,
+ "skipped_no_link": [
+  "8",
+  "73"
+ ],
+ "yield": 0.362,
+ "yield_note": "proposed over pipeline rows; confirmed is 0 until a named human confirms each entry in the console (Part 7.5)"
+}

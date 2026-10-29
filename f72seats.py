@@ -38,9 +38,22 @@ def check_part6(repo):
     out['Chen']=('Pass' if (append_only and sends==0 and P.get('log_intact_after_halt')) else 'Hold','bot.py: append-only audit log read back after a halt; no send path',f'append-only {append_only}; send references {sends}; log read back after halt {P.get("log_intact_after_halt")}')
     return out
 
+
+def check_part7(repo):
+    """Part 7 seats: Schneier reads the four planted failure proofs of this pass; Goldratt reads yield (rows read, proposed, confirmed, ratio) and reads against the ceiling; Chen reads the queue (every entry unconfirmed, fenced fields only), the log (no Sunbiz read), and the send surface."""
+    out={}; pf=os.path.join(repo,'bot-proofs-part7.json'); q=os.path.join(repo,'florida-bot-queue.json'); lg=os.path.join(repo,'florida-bot-log.jsonl'); b=os.path.join(repo,'bot.py'); rp=os.path.join(repo,'bot-report-part7.json')
+    P=json.load(open(pf)) if os.path.exists(pf) else None
+    out['Schneier']=('Blind','bot-proofs-part7.json: four planted failures','absent') if not P else (('Pass' if all(P.get(k) for k in ('no_address_returns_not_found_never_guess','refusal_returns_refused_never_absent','write_to_address_refused','kill_switch_halts_with_log_intact')) else 'Hold'),'bot-proofs-part7.json: four planted failures',', '.join(k for k in ('no_address_returns_not_found_never_guess','refusal_returns_refused_never_absent','write_to_address_refused','kill_switch_halts_with_log_intact') if P.get(k)))
+    Rp=json.load(open(rp)) if os.path.exists(rp) else None
+    out['Goldratt']=('Blind','bot-report-part7.json: yield and reads against the ceiling','absent') if not Rp else (('Pass' if all(k in Rp for k in ('rows_read','rows_proposed','rows_confirmed','yield')) and Rp.get('reads_total',0)<=Rp.get('ceiling',200) and Rp.get('ceiling_is_assumed') else 'Hold'),'bot-report-part7.json: rows read, proposed, confirmed, ratio; reads within the ceiling (assumed)',f"read {Rp.get('rows_read')}, proposed {Rp.get('rows_proposed')}, confirmed {Rp.get('rows_confirmed')}, yield {Rp.get('yield')}, reads {Rp.get('reads_total')} of {Rp.get('ceiling')} (assumed {Rp.get('ceiling_is_assumed')})")
+    if not (os.path.exists(q) and os.path.exists(lg) and os.path.exists(b)): out['Chen']=('Blind','florida-bot-queue.json; florida-bot-log.jsonl; bot.py','a file is absent'); return out
+    Q=json.load(open(q)); fence={'addr_found','bot_note','bot_status','source_url','proposed_on'}; unconf=all((v.get('bot_status','').startswith('proposed') or v.get('bot_status','').startswith('no proposal')) and set(v)<=fence for v in Q.values()); L=[json.loads(l) for l in open(lg,encoding='utf-8') if l.strip()]; sunbiz=sum(1 for e in L if 'sunbiz' in str(e.get('url','')).lower()); sends=len(re.findall(r'smtp|mailto:|sendmail|send_message',open(b,encoding='utf-8').read(),re.I))
+    out['Chen']=('Pass' if (unconf and sunbiz==0 and sends==0) else 'Hold','the queue (every entry unconfirmed, fenced fields only); the log (no Sunbiz read); bot.py (no send path)',f'{len(Q)} entries, all unconfirmed and fenced {unconf}; Sunbiz reads in the log {sunbiz}; send references {sends}')
+    return out
+
 def run(repo,label,part):
     R=json.load(open(os.path.join(repo,'founders-roster.json'))) if os.path.exists(os.path.join(repo,'founders-roster.json')) else json.load(open('founders-roster.json')); seats=R['seats']
-    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else {})
+    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else (check_part7(repo) if part==7 else {}))
     bound={s['name'].split()[-1]:s.get('fields_by_part',{}).get(str(part)) for s in seats}
     rows=[]; 
     for s in seats:
@@ -53,8 +66,10 @@ def run(repo,label,part):
     print(f'== {label}: Pass {len(P)} · Hold {len(H)} · Blind {len(B)} · weight passing {sum(r[1] for r in P)} of {sum(r[1] for r in rows if r[2]!="Chair")}')
     for r in rows:
         if r[2]!='Blind' or r[0].split()[-1] in named: print(f'   {r[0]:22} w{r[1]:<5} {r[2]:5} | {r[3]} | {r[4]}')
-    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen')}
+    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen'),7:('Schneier','Goldratt','Chen')}
     stop=[r for r in rows if part in SEATS and r[0].split()[-1] in SEATS[part] and r[2]=='Blind']
-    if part in SEATS: print(f'   PART {part} STOP:' if stop else f'   Part {part} seats: none Blind —',[ (r[0],r[3],r[4]) for r in stop] if stop else 'may proceed')
+    if part in SEATS:
+        if stop and 'brief' in label.lower(): print(f'   Part {part} brief: Blind by construction on',[r[0] for r in stop],'— not a stop (roster standing rule); the stop binds on the delivery')
+        else: print(f'   PART {part} STOP:' if stop else f'   Part {part} seats: none Blind —',[ (r[0],r[3],r[4]) for r in stop] if stop else 'may proceed')
     return rows
 if __name__=='__main__': run(sys.argv[1],sys.argv[2],int(sys.argv[3]))
