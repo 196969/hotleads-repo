@@ -1,7 +1,7 @@
 {
  "market": "florida",
  "standard": "Phase 3 workable-row standard",
- "measured": "2026-10-29",
+ "measured": "2026-10-29 (Item 307 Step 2)",
  "note": "Re-run audit.py after any upload of florida.html; the console reads this file as Phase 3’s table.",
  "rows": {
   "1": {
@@ -11,7 +11,7 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
     "Tier": true,
@@ -31,13 +31,13 @@
    "tests": {
     "Company": false,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -56,10 +56,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -78,10 +78,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -100,10 +100,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -125,7 +125,7 @@
     "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -145,10 +145,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": false,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -167,10 +167,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -189,10 +189,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -211,16 +211,16 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Unsourced",
-   "band": 4,
-   "bandTier": "C",
+   "band": 3,
+   "bandTier": "B",
    "ground": "Distribution & Wholesale",
    "why": [
     "company"
@@ -229,17 +229,17 @@
   "11": {
    "company": "Turbana Corp",
    "tests": {
-    "Company": false,
-    "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
-   "workable": false,
+   "workable": true,
    "class": "Live",
    "band": 1,
    "bandTier": "A",
@@ -253,10 +253,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -278,7 +278,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -300,7 +300,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -319,10 +319,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -342,10 +342,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -367,7 +367,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -384,10 +384,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": false,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -402,15 +402,15 @@
   "19": {
    "company": "Refricenter",
    "tests": {
-    "Company": false,
+    "Company": true,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -428,17 +428,17 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "A",
-   "ground": "Other: commercial truck/parts",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -453,7 +453,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -470,13 +470,13 @@
    "tests": {
     "Company": false,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -498,7 +498,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -517,17 +517,17 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Retail & Multi-site",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -539,10 +539,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": false,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -561,10 +561,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -584,17 +584,17 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Other: fuel/energy dist",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -606,10 +606,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": false,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -632,7 +632,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -654,14 +654,14 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Retail & Multi-site",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -676,7 +676,7 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -698,7 +698,7 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -717,17 +717,17 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
    "class": "Unsourced",
    "band": 4,
    "bandTier": "A",
-   "ground": "Other: building products",
+   "ground": "Other",
    "why": [
     "company"
    ]
@@ -742,7 +742,7 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -761,7 +761,7 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
     "Tier": true,
@@ -783,7 +783,7 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
     "Tier": true,
@@ -793,7 +793,7 @@
    "class": "Unsourced",
    "band": 4,
    "bandTier": "A",
-   "ground": "Other: cross-border parcel",
+   "ground": "Other",
    "why": [
     "company"
    ]
@@ -805,7 +805,7 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
     "Tier": true,
@@ -830,7 +830,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -852,14 +852,14 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Other: commodities",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -871,10 +871,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -892,12 +892,12 @@
     "Company": false,
     "Trading": false,
     "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -913,13 +913,13 @@
    "tests": {
     "Company": false,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -937,12 +937,12 @@
     "Company": false,
     "Trading": false,
     "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -960,10 +960,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -985,7 +985,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1007,7 +1007,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -1029,7 +1029,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1046,13 +1046,13 @@
    "tests": {
     "Company": false,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -1074,7 +1074,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1096,7 +1096,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1115,10 +1115,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1140,7 +1140,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1162,7 +1162,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1179,19 +1179,19 @@
    "tests": {
     "Company": false,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
    "band": 4,
    "bandTier": "A",
-   "ground": "Retail & Multi-site",
+   "ground": "Other",
    "why": [
     "company",
     "trading"
@@ -1204,10 +1204,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1223,13 +1223,13 @@
    "company": "PGT Innovations",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1248,7 +1248,7 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
     "Tier": true,
@@ -1257,8 +1257,8 @@
    "workable": false,
    "class": "Unsourced",
    "band": 4,
-   "bandTier": "C",
-   "ground": "Other: marine components",
+   "bandTier": "A",
+   "ground": "Other",
    "why": [
     "company"
    ]
@@ -1273,14 +1273,14 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Other: 3pl/warehousing",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -1292,10 +1292,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -1317,7 +1317,7 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1339,7 +1339,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1361,7 +1361,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1378,13 +1378,13 @@
    "tests": {
     "Company": false,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -1403,7 +1403,7 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
     "Tier": true,
@@ -1428,7 +1428,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -1448,7 +1448,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1470,7 +1470,7 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1492,7 +1492,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1514,7 +1514,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1533,10 +1533,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -1558,7 +1558,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1576,12 +1576,12 @@
     "Company": false,
     "Trading": false,
     "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -1597,13 +1597,13 @@
    "tests": {
     "Company": false,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -1625,14 +1625,14 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Other: equipment dist",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -1644,10 +1644,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1669,7 +1669,7 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1691,7 +1691,7 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1713,7 +1713,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1735,7 +1735,7 @@
     "Phone": true,
     "Address": false,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -1754,10 +1754,10 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1772,15 +1772,15 @@
   "81": {
    "company": "Everglades Boats",
    "tests": {
-    "Company": false,
+    "Company": true,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -1801,7 +1801,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1819,18 +1819,18 @@
     "Company": false,
     "Trading": false,
     "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
    "band": 4,
    "bandTier": "A",
-   "ground": "Retail & Multi-site",
+   "ground": "Other",
    "why": [
     "role or family as decision maker"
    ]
@@ -1840,13 +1840,13 @@
    "tests": {
     "Company": false,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -1868,7 +1868,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -1890,7 +1890,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1912,14 +1912,14 @@
     "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Unsourced",
    "band": 4,
    "bandTier": "C",
-   "ground": "Other: caribbean shipping",
+   "ground": "Other",
    "why": [
     "company"
    ]
@@ -1934,7 +1934,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1956,7 +1956,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1978,7 +1978,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -1995,19 +1995,19 @@
    "tests": {
     "Company": false,
     "Trading": false,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
-    "Window": false
+    "Tier": true,
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
    "band": 4,
    "bandTier": "A",
-   "ground": "Other: fbo / aviation real estate",
+   "ground": "Other",
    "why": [
     "company",
     "trading"
@@ -2023,7 +2023,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2045,14 +2045,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
    "class": "Live",
    "band": 4,
    "bandTier": "B",
-   "ground": "Retail & Multi-site",
+   "ground": "Other",
    "why": []
   },
   "94": {
@@ -2065,14 +2065,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Retail & Multi-site",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2087,14 +2087,14 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Retail & Multi-site",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2109,14 +2109,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Services & Other",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2125,19 +2125,19 @@
    "company": "Brown Distributing",
    "tests": {
     "Company": false,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": false,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
    "class": "Suspect",
    "band": 4,
-   "bandTier": "C",
+   "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "role or family as decision maker"
@@ -2153,7 +2153,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2175,7 +2175,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -2194,7 +2194,7 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
     "Tier": true,
@@ -2219,7 +2219,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2241,7 +2241,7 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2263,14 +2263,14 @@
     "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Other: citrus / agriculture",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2285,7 +2285,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -2307,7 +2307,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2329,10 +2329,10 @@
     "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
-   "workable": false,
+   "workable": true,
    "class": "Live",
    "band": 4,
    "bandTier": "C",
@@ -2349,7 +2349,7 @@
     "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2371,7 +2371,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2393,14 +2393,14 @@
     "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Services & Other",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2415,14 +2415,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Other: consumer finance",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2437,14 +2437,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Other: 3pl",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2459,14 +2459,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Unsourced",
    "band": 4,
    "bandTier": "B",
-   "ground": "Retail & Multi-site",
+   "ground": "Other",
    "why": [
     "company"
    ]
@@ -2481,14 +2481,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Retail & Multi-site",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2503,14 +2503,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Other: qsr franchisor",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2522,17 +2522,17 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
    "class": "Unsourced",
    "band": 4,
    "bandTier": "A",
-   "ground": "Other: berry grower/dist",
+   "ground": "Other",
    "why": [
     "company",
     "trading"
@@ -2548,14 +2548,14 @@
     "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Other: brewing",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2570,7 +2570,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2589,10 +2589,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -2621,7 +2621,7 @@
    "class": "Unsourced",
    "band": 4,
    "bandTier": "C",
-   "ground": "Services & Other",
+   "ground": "Other",
    "why": [
     "company"
    ]
@@ -2633,17 +2633,17 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Services & Other",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2658,14 +2658,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Other: hospitality",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2680,14 +2680,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Other: hospitality",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2702,7 +2702,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2724,7 +2724,7 @@
     "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2746,7 +2746,7 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2768,7 +2768,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2790,14 +2790,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
    "class": "Unsourced",
    "band": 4,
-   "bandTier": "C",
-   "ground": "Other: citrus grower/packer",
+   "bandTier": "B",
+   "ground": "Other",
    "why": [
     "company"
    ]
@@ -2809,7 +2809,7 @@
     "Trading": false,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
     "Tier": true,
@@ -2835,7 +2835,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2857,7 +2857,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2879,14 +2879,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Other: aviation connectivity",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -2901,7 +2901,7 @@
     "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2920,10 +2920,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -2944,8 +2944,8 @@
     "Title": true,
     "Phone": false,
     "Address": true,
-    "Website": true,
-    "Tier": false,
+    "Website": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -2964,10 +2964,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -2989,14 +2989,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Suspect",
    "band": 4,
    "bandTier": "C",
-   "ground": "Construction & Contracting",
+   "ground": "Other",
    "why": [
     "website names a different company"
    ]
@@ -3011,14 +3011,14 @@
     "Phone": true,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Suspect",
    "band": 4,
    "bandTier": "B",
-   "ground": "Construction & Contracting",
+   "ground": "Other",
    "why": [
     "website names a different company"
    ]
@@ -3033,14 +3033,14 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Retail & Multi-site",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -3055,7 +3055,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -3077,7 +3077,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -3099,7 +3099,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -3121,14 +3121,14 @@
     "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Construction & Contracting",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -3143,7 +3143,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -3165,7 +3165,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -3188,14 +3188,14 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Other: hospitality",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -3210,14 +3210,14 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "B",
-   "ground": "Other: mixed holdings",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
@@ -3232,7 +3232,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -3251,10 +3251,10 @@
     "Trading": true,
     "Decision maker": true,
     "Title": true,
-    "Phone": false,
+    "Phone": true,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -3276,7 +3276,7 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -3298,7 +3298,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
@@ -3320,7 +3320,7 @@
     "Phone": false,
     "Address": true,
     "Website": true,
-    "Tier": false,
+    "Tier": true,
     "Window": true
    },
    "workable": false,
@@ -3342,26 +3342,36 @@
     "Phone": false,
     "Address": true,
     "Website": false,
-    "Tier": false,
+    "Tier": true,
     "Window": false
    },
    "workable": false,
    "class": "Stale",
    "band": 4,
    "bandTier": "C",
-   "ground": "Other: citrus processing",
+   "ground": "Other",
    "why": [
     "sourced once, outside the window"
    ]
   },
   "153": {
    "company": "Kelly Tractor Co.",
-   "tests": {},
-   "workable": false,
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": true,
+    "Window": true
+   },
+   "workable": true,
    "class": "Live",
    "band": 4,
    "bandTier": "A",
-   "ground": "Other: equipment dealing (caterpillar",
+   "ground": "Other",
    "why": []
   }
  }

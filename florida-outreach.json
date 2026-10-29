@@ -2,5 +2,83 @@
  "market": "florida",
  "schema": "outreach v1 \u2014 keyed by the row key (# cell); touches[{n,date,address,by}], dispositions[{code,date,user,note,next}], terminal{state,reason,date}, next, by",
  "created": "2026-10-29",
- "rows": {}
+ "rows": {
+  "7": {
+   "touches": [],
+   "dispositions": [],
+   "terminal": null,
+   "next": "2026-10-29",
+   "by": "human",
+   "updated": "2026-10-29T00:00:00Z",
+   "callSheet": {
+    "reason": "unsourced address \u2014 call the published number to confirm or replace it; address kept and flagged",
+    "ruled": "2026-10-29",
+    "item": "307 Step 1.2"
+   }
+  },
+  "18": {
+   "touches": [],
+   "dispositions": [],
+   "terminal": null,
+   "next": "2026-10-29",
+   "by": "human",
+   "updated": "2026-10-29T00:00:00Z",
+   "callSheet": {
+    "reason": "unsourced address \u2014 call the published number to confirm or replace it; address kept and flagged",
+    "ruled": "2026-10-29",
+    "item": "307 Step 1.2"
+   }
+  },
+  "25": {
+   "touches": [],
+   "dispositions": [],
+   "terminal": null,
+   "next": "2026-10-29",
+   "by": "human",
+   "updated": "2026-10-29T00:00:00Z",
+   "callSheet": {
+    "reason": "unsourced address \u2014 call the published number to confirm or replace it; address kept and flagged",
+    "ruled": "2026-10-29",
+    "item": "307 Step 1.2"
+   }
+  },
+  "28": {
+   "touches": [],
+   "dispositions": [],
+   "terminal": null,
+   "next": "2026-10-29",
+   "by": "human",
+   "updated": "2026-10-29T00:00:00Z",
+   "callSheet": {
+    "reason": "unsourced address \u2014 call the published number to confirm or replace it; address kept and flagged",
+    "ruled": "2026-10-29",
+    "item": "307 Step 1.2"
+   }
+  }
+ },
+ "step2": {
+  "date": "2026-10-29",
+  "item": "307",
+  "retiered": {
+   "10": "B",
+   "81": "C",
+   "87": "C",
+   "119": "C",
+   "127": "B",
+   "134": "C"
+  },
+  "confirmedA": [
+   "57",
+   "97"
+  ],
+  "dropped": [
+   "archive #3 Chewy"
+  ],
+  "callSheet": [
+   "7",
+   "18",
+   "25",
+   "28"
+  ]
+ }
 }
