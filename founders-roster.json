@@ -662,6 +662,12 @@
     "Sunbiz stays at 0 through Part 10; one new instrument at a time",
     "a browser reader may be scheduled: one ceiling per day shared across readers, never reset; a 403 honoured; attended, human cadence, undisguised; the arithmetic stated up front"
    ]
+  },
+  {
+   "date": "2026-10-29",
+   "part": 11,
+   "class": "instrument fault, witnessed before it fired",
+   "note": "the ceiling counted reads by the current UTC date, so a run crossing midnight UTC would have been granted a second 200 — a reset by the clock. Fixed: the ceiling’s day is the run’s UTC start date. Proof kept both ways: unfixed granting, fixed refusing."
   }
  ]
 }

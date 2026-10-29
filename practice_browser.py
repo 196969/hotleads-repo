@@ -11,7 +11,9 @@ async def main(market,attended,cadence):
     from playwright.async_api import async_playwright
     rows=sorted(practice.pipeline(market),key=lambda r:int(r['key'])); qp=market+'-practice-queue.json'; Q=json.load(open(qp)) if os.path.exists(qp) else {}; rp=market+'-practice-reads.json'; RR=json.load(open(rp)) if os.path.exists(rp) else {}
     rep={'market':market,'date':TODAY,'reader':'browser (attended by '+attended+')','class_order':ORDER,'rows_in_pipeline':len(rows),'rows_reached':0,'reads_this_run':0,'reads_today_before_run':bot.reads_today(),'candidates':{},'classes_read':{},'refusals':{},'stopped':None}
-    bot.log({'kind':'run','market':market,'reader':'browser','attended_by':attended,'outcome':'start','reads_today_before':bot.reads_today()})
+    bot.RUN_START=datetime.datetime.now(datetime.timezone.utc).date().isoformat()   # the ceiling's day is this run's UTC start date, across midnight (Part 11 ruling)
+    rep['run_start_utc']=bot.RUN_START
+    bot.log({'kind':'run','market':market,'reader':'browser','attended_by':attended,'outcome':'start','reads_today_before':bot.reads_today(),'run_start_utc':bot.RUN_START})
     async with async_playwright() as p:
         b=await p.chromium.launch(args=['--no-sandbox','--disable-gpu']); ctx=await b.new_context(user_agent=UA); st={}
         async def read(url):
@@ -54,6 +56,7 @@ async def main(market,attended,cadence):
         except bot.Refused as e: rep['stopped']='ceiling: '+str(e)
         except bot.Halted as e: rep['stopped']='kill switch: '+str(e)
         await b.close()
+    rep['run_end_utc']=datetime.datetime.now(datetime.timezone.utc).date().isoformat(); rep['straddled_midnight_utc']=rep['run_end_utc']!=rep['run_start_utc']
     rep['reads_today_after_run']=bot.reads_today(); bot.log({'kind':'run','market':market,'reader':'browser','outcome':rep['stopped'],'reads':rep['reads_this_run']})
     json.dump(rep,open('bot-report-part10.json','w'),indent=1); print(json.dumps(rep))
 if __name__=='__main__':

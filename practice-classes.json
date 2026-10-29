@@ -124,5 +124,10 @@
    "expected_reads": "≈ 198 at the provisional rate",
    "day_two_begins": "at the first row not completed on day one; the report states the row and class where the ceiling fired against this declaration"
   }
+ },
+ "ceiling_day": {
+  "ruled": "2026-10-29 (Item 320 Part 11)",
+  "rule": "A “day” for the ceiling is the run’s UTC start date; every read from that start counts against one 200, across midnight UTC. The gate’s “0 reads for today” is read against that start date. Reads are stamped in UTC. One instrument, named precisely — beside the two-windows ruling, which was two.",
+  "witnessed": "bot-proofs-part11-clock.json: the unfixed reader granted read 201 on the new UTC date; the fixed reader refuses it"
  }
 }

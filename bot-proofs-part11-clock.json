@@ -1,0 +1,16 @@
+{
+ "synthetic_log": "150 reads stamped 2026-10-29T23:50Z, 50 reads stamped 2026-10-30T00:01Z \u2014 one run of 200 across midnight; read 201 attempted on 2026-10-30",
+ "unfixed": {
+  "reads_counted_on_the_new_date": 50,
+  "read_201": "granted"
+ },
+ "fixed": {
+  "run_start_utc": "2026-10-29",
+  "reads_counted_since_start": 200,
+  "read_201": "refused"
+ },
+ "fault_witnessed": true,
+ "fix_holds": true,
+ "proved_on": "2026-10-29",
+ "result": "CLOCK PROOF PASSED"
+}
