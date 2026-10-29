@@ -1,0 +1,648 @@
+{
+ "_doc": "Founders 72 roster for the HOT Leads programme (Item 320 ruling, 29 Oct 2026): every seat, its weight and the field it reads per part. A seat with no field for a part reads Blind by rule. Read by f72seats.py; never remembered.",
+ "governing_weight": 10.0,
+ "seats": [
+  {
+   "seat": "chair",
+   "name": "Timothy A. Edick",
+   "weight": 15.0,
+   "domain": "chair",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "L1",
+   "name": "David Boies",
+   "weight": 10.0,
+   "domain": "legal",
+   "origin": "Dash Founders lens roster",
+   "fields_by_part": {
+    "4": "legal exposure on contact data"
+   }
+  },
+  {
+   "seat": "L2",
+   "name": "Martin Lipton",
+   "weight": 10.0,
+   "domain": "legal",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "A1",
+   "name": "Sir David Tweedie",
+   "weight": 10.0,
+   "domain": "accounting",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "A2",
+   "name": "Lynn Turner",
+   "weight": 10.0,
+   "domain": "accounting",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "capital",
+   "name": "Capital",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "mindset",
+   "name": "Mindset",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "velocity",
+   "name": "Velocity",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "platform",
+   "name": "Platform",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "truth",
+   "name": "Truth",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "distribution",
+   "name": "Distribution",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "frontier",
+   "name": "Frontier",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "ppp",
+   "name": "People, process, product",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "sell",
+   "name": "Sell and protect",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "sales",
+   "name": "Sales cures all",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "cashsb",
+   "name": "Cash scoreboard",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "learn",
+   "name": "Learn-it-all",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "swlev",
+   "name": "Software leverage",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "userplat",
+   "name": "User-first platform",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "companion",
+   "name": "Contained companion",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "trust",
+   "name": "Trust by design",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "frontline",
+   "name": "Front line first",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "dayone",
+   "name": "Day 1 customer",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "clientfirst",
+   "name": "Client interest first",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "reuse",
+   "name": "Reusable frameworks",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "collected",
+   "name": "Grow on collected cash",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "straight",
+   "name": "Think straight, talk straight",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "experience",
+   "name": "The experience is the product",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "fewer",
+   "name": "Fewer, done perfectly",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "network",
+   "name": "Density is the moat",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "unit",
+   "name": "The standard unit",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "toosmooth",
+   "name": "Too smooth to be real",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "entry",
+   "name": "Follow the entry",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "identity",
+   "name": "Working identity",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "market",
+   "name": "The market decides",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "waste",
+   "name": "Expose the waste",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "output",
+   "name": "Output per person",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "recognition",
+   "name": "Recognition scales",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "calls",
+   "name": "Count the calls",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "onetrue",
+   "name": "One true thing",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "minimal",
+   "name": "As little as possible",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "direct",
+   "name": "Sell direct, customer funds growth",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "longroad",
+   "name": "Hard roadmap, kept for years",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "branson",
+   "name": "Serve the badly served, bet small",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "blakely",
+   "name": "Rejection is data",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "saintjohn",
+   "name": "The audience is the hero",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "vaynerchuk",
+   "name": "Attention is the only asset",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "murphy",
+   "name": "Entered once, read everywhere",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "jain",
+   "name": "Price the risk, say no",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "rose",
+   "name": "A shipment is a document first",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "edick",
+   "name": "Execution before preparation",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "hesch",
+   "name": "Tax position, elections, and what survives examination",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "carlzon",
+   "name": "The moment of truth — the encounter that earns the next one",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "bock",
+   "name": "Hiring on evidence, paying for contribution, proving the process",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "tufte",
+   "name": "Whether a figure is shown honestly or merely shown",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "ballard",
+   "name": "The last planner — whether a schedule was committed to or only published",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "deming",
+   "name": "Variation is the enemy, and the process owns the defect",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "kerzner",
+   "name": "Scope, baseline and earned value — maturity over heroics",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "kroc",
+   "name": "The unit must run identically without the founder in it",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "skou",
+   "name": "Landed cost is the only cost — ocean, air, duty, and the law that moves them",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "tabassi",
+   "name": "AI governance to a published standard, in every state",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "drucker",
+   "name": "Peter Drucker",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "maister",
+   "name": "David Maister",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "baker",
+   "name": "Ron Baker",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "reichheld",
+   "name": "Fred Reichheld",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "warrillow",
+   "name": "John Warrillow",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "goldratt",
+   "name": "Eliyahu Goldratt",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "voss",
+   "name": "Chris Voss",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "schneier",
+   "name": "Bruce Schneier",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "bogle",
+   "name": "John C. Bogle",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "tsmurphy",
+   "name": "Thomas S. Murphy",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "chen",
+   "name": "Hui Chen",
+   "weight": 10.0,
+   "domain": "advisory, reading in its ground",
+   "origin": "Dash Founders lens roster",
+   "fields_by_part": {
+    "4": "data provenance",
+    "6": "compliance surface",
+    "7": "compliance surface"
+   }
+  },
+  {
+   "seat": "B1",
+   "name": "Warren Buffett",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "4": "evidence standard",
+    "5": "Private Equity",
+    "9": "Private Equity"
+   }
+  },
+  {
+   "seat": "P1",
+   "name": "Richard Branson",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "3": "Acquisitions",
+    "5": "Acquisitions",
+    "9": "Acquisitions"
+   }
+  },
+  {
+   "seat": "P2",
+   "name": "Mark Cuban",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "3": "Acquisitions",
+    "5": "Acquisitions",
+    "9": "Acquisitions"
+   }
+  },
+  {
+   "seat": "P3",
+   "name": "Robert Herjavec",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "3": "Acquisitions",
+    "5": "Acquisitions",
+    "9": "Acquisitions"
+   }
+  },
+  {
+   "seat": "P4",
+   "name": "Ajit Jain",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "3": "Private Equity",
+    "5": "Private Equity",
+    "9": "Private Equity"
+   }
+  },
+  {
+   "seat": "P5",
+   "name": "John Bogle",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "3": "Private Equity",
+    "5": "Private Equity",
+    "9": "Private Equity"
+   }
+  },
+  {
+   "seat": "P6",
+   "name": "David Maister",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "3": "Fractionals",
+    "5": "Fractionals",
+    "9": "Fractionals"
+   }
+  },
+  {
+   "seat": "P7",
+   "name": "Peter Drucker",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "3": "Fractionals",
+    "5": "Fractionals",
+    "9": "Fractionals"
+   }
+  },
+  {
+   "seat": "P8",
+   "name": "Ron Baker",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "3": "Fractionals",
+    "5": "Fractionals",
+    "9": "Fractionals"
+   }
+  },
+  {
+   "seat": "G1",
+   "name": "Bruce Schneier",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "6": "containment and failure modes",
+    "7": "containment and failure modes"
+   }
+  },
+  {
+   "seat": "G2",
+   "name": "Eliyahu Goldratt",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "6": "throughput against the constraint",
+    "7": "throughput against the constraint"
+   }
+  }
+ ]
+}

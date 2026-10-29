@@ -8,30 +8,26 @@
    "company": "Invicta Watch Group",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": "Blind"
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
-   "band": 2,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
-   "gaps": [
-    "trading check"
-   ],
-   "trading_kind": null,
+   "gaps": [],
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
+   "move": "passes every test"
   },
   "2": {
    "company": "Badia Spices",
@@ -174,7 +170,7 @@
    "company": "Martinez Distributors",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -192,12 +188,10 @@
     "website names a different company"
    ],
    "source_state": "sourced",
-   "gaps": [
-    "trading check"
-   ],
-   "trading_kind": null,
+   "gaps": [],
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a sourced address"
+   "move": "needs a sourced address"
   },
   "8": {
    "company": "PJ Distributors",
@@ -247,7 +241,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -540,7 +534,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "registry",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -573,7 +567,7 @@
    "company": "Presidente Supermarkets",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -582,21 +576,17 @@
     "Tier": true,
     "Window": true
    },
-   "workable": false,
-   "class": "Sourced, with gaps",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
-   "why": [
-    "missing trading check"
-   ],
+   "why": [],
    "source_state": "sourced",
-   "gaps": [
-    "trading check"
-   ],
-   "trading_kind": null,
+   "gaps": [],
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "passes every test"
   },
   "23": {
    "company": "City Furniture",
@@ -768,7 +758,7 @@
    "company": "Sintavia",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": false,
     "Title": false,
     "Phone": false,
@@ -783,17 +773,15 @@
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "missing trading check",
     "missing dated decision maker"
    ],
    "source_state": "sourced",
    "gaps": [
-    "trading check",
     "dated decision maker"
    ],
-   "trading_kind": null,
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source"
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source"
   },
   "30": {
    "company": "VSE Aviation",
@@ -891,7 +879,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -916,7 +904,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -941,7 +929,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -966,7 +954,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -991,7 +979,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -1082,7 +1070,7 @@
    "company": "Vigo Importing",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": false,
     "Title": true,
     "Phone": true,
@@ -1102,12 +1090,11 @@
    ],
    "source_state": "sourced",
    "gaps": [
-    "trading check",
     "dated decision maker"
    ],
-   "trading_kind": null,
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a website that names the company"
+   "move": "blocked by more than one: needs a named decision maker; needs a website that names the company"
   },
   "42": {
    "company": "Pepin Distributing",
@@ -1138,7 +1125,7 @@
    "company": "Great Bay Distributors",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": false,
     "Title": true,
     "Phone": true,
@@ -1157,12 +1144,11 @@
    ],
    "source_state": "sourced",
    "gaps": [
-    "trading check",
     "dated decision maker"
    ],
-   "trading_kind": null,
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker"
+   "move": "needs a named decision maker"
   },
   "44": {
    "company": "J.J. Taylor Distributing FL",
@@ -1272,7 +1258,7 @@
    "company": "Rooms To Go",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -1281,21 +1267,17 @@
     "Tier": true,
     "Window": true
    },
-   "workable": false,
-   "class": "Sourced, with gaps",
-   "band": 3,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "missing trading check"
-   ],
+   "why": [],
    "source_state": "sourced",
-   "gaps": [
-    "trading check"
-   ],
-   "trading_kind": null,
+   "gaps": [],
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "passes every test"
   },
   "49": {
    "company": "Jabil",
@@ -1459,30 +1441,26 @@
    "company": "Tervis",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": "Blind"
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
-   "band": 2,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ],
+   "why": [],
    "source_state": "sourced",
-   "gaps": [
-    "trading check"
-   ],
-   "trading_kind": null,
+   "gaps": [],
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
+   "move": "passes every test"
   },
   "56": {
    "company": "PGT Innovations",
@@ -1534,7 +1512,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -1584,7 +1562,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -1688,7 +1666,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -1823,7 +1801,7 @@
    ],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "needs a website that names the company"
   },
@@ -1856,7 +1834,7 @@
    "company": "Monterey Boats",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": false,
     "Title": true,
     "Phone": true,
@@ -1875,12 +1853,11 @@
    ],
    "source_state": "sourced",
    "gaps": [
-    "trading check",
     "dated decision maker"
    ],
-   "trading_kind": null,
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker"
+   "move": "needs a named decision maker"
   },
   "73": {
    "company": "Beaver Street Fisheries",
@@ -1893,7 +1870,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": "Blind"
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -1909,7 +1886,7 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated company source; needs a dated trading check; needs a website that names the company; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated company source; needs a dated trading check; needs a website that names the company"
   },
   "74": {
    "company": "Ring Power (CAT)",
@@ -1957,7 +1934,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -2061,7 +2038,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -2152,7 +2129,7 @@
    "company": "Duty Free Americas",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": false,
     "Title": true,
     "Phone": true,
@@ -2171,18 +2148,17 @@
    ],
    "source_state": "sourced",
    "gaps": [
-    "trading check",
     "dated decision maker"
    ],
-   "trading_kind": null,
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker"
+   "move": "needs a named decision maker"
   },
   "84": {
    "company": "Sunshine Gasoline Distributors",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -2191,21 +2167,17 @@
     "Tier": true,
     "Window": true
    },
-   "workable": false,
-   "class": "Sourced, with gaps",
-   "band": 3,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
-   "why": [
-    "missing trading check"
-   ],
+   "why": [],
    "source_state": "sourced",
-   "gaps": [
-    "trading check"
-   ],
-   "trading_kind": null,
+   "gaps": [],
+   "trading_kind": "site",
    "undated_src": [],
-   "move": "needs a dated trading check"
+   "move": "passes every test"
   },
   "85": {
    "company": "Goya Foods of Florida",
@@ -2257,7 +2229,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "needs a phone source"
   },
@@ -2376,7 +2348,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": "Blind"
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -2392,7 +2364,7 @@
    ],
    "trading_kind": null,
    "undated_src": [],
-   "move": "blocked by more than one: needs a dated company source; needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
+   "move": "blocked by more than one: needs a dated company source; needs a dated trading check"
   },
   "92": {
    "company": "Kellstrom Aerospace",
@@ -2599,7 +2571,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "needs a phone source"
   },
@@ -2624,7 +2596,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -3073,7 +3045,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -3463,7 +3435,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -3515,7 +3487,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   },
@@ -3838,7 +3810,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "other dated check",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "needs a phone source"
   },
@@ -4000,7 +3972,7 @@
    "why": [],
    "source_state": "sourced",
    "gaps": [],
-   "trading_kind": "registry",
+   "trading_kind": "site",
    "undated_src": [],
    "move": "passes every test"
   }

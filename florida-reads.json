@@ -135,6 +135,20 @@
      "outcome": "refused",
      "kind": "challenge",
      "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "403",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "challenge",
+     "note": ""
     }
    ],
    "rerun": true,
@@ -186,6 +200,20 @@
      "outcome": "not_found",
      "kind": null,
      "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "net:TimeoutError",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "200",
+     "note": ""
     }
    ],
    "rerun": false,
@@ -200,6 +228,833 @@
      "reader": "script",
      "outcome": "refused",
      "kind": "403",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "1": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "2": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "6": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "7": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "9": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "11": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "19": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "20": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "22": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "29": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "33": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "34": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "35": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "36": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "37": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "41": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "42": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "43": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "48": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "54": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "55": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "57": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "59": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "64": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "70": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "72": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "75": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "79": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "82": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "83": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "403",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "84": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "86": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "91": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "202",
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "97": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "403",
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "99": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "100": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "104": {
+   "state": "refused",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "503",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "503",
+     "note": ""
+    }
+   ],
+   "rerun": true,
+   "kind": "503",
+   "last": "2026-10-29"
+  },
+  "115": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "118": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "133": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "135": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "147": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "153": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "read",
+     "kind": null,
      "note": ""
     },
     {
