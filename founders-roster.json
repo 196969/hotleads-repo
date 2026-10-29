@@ -1,5 +1,5 @@
 {
- "_doc": "Founders 72 roster for the HOT Leads programme (Item 320 ruling, 29 Oct 2026): every seat, its weight and the field it reads per part. A seat with no field for a part reads Blind by rule. Read by f72seats.py; never remembered.",
+ "_doc": "Founders 72 roster for the HOT Leads programme (Item 320 ruling, 29 Oct 2026): every seat, its weight and the field it reads per part. A seat with no field for a part reads Blind by rule. Read by f72seats.py; never remembered. Corrected 29 Oct 2026: five brief-named seats already existed in the lens roster (Drucker, Maister, Baker, Goldratt, Schneier) and had been added twice; merged, one seat each.",
  "governing_weight": 10.0,
  "seats": [
   {
@@ -437,21 +437,36 @@
    "name": "Peter Drucker",
    "weight": 10.0,
    "domain": "advisory",
-   "origin": "Dash Founders lens roster"
+   "origin": "Dash Founders lens roster; fields per part added by Item 320 Section 2 (29 Oct 2026)",
+   "fields_by_part": {
+    "3": "Fractionals",
+    "5": "Fractionals",
+    "9": "Fractionals"
+   }
   },
   {
    "seat": "maister",
    "name": "David Maister",
    "weight": 10.0,
    "domain": "advisory",
-   "origin": "Dash Founders lens roster"
+   "origin": "Dash Founders lens roster; fields per part added by Item 320 Section 2 (29 Oct 2026)",
+   "fields_by_part": {
+    "3": "Fractionals",
+    "5": "Fractionals",
+    "9": "Fractionals"
+   }
   },
   {
    "seat": "baker",
    "name": "Ron Baker",
    "weight": 10.0,
    "domain": "advisory",
-   "origin": "Dash Founders lens roster"
+   "origin": "Dash Founders lens roster; fields per part added by Item 320 Section 2 (29 Oct 2026)",
+   "fields_by_part": {
+    "3": "Fractionals",
+    "5": "Fractionals",
+    "9": "Fractionals"
+   }
   },
   {
    "seat": "reichheld",
@@ -472,7 +487,11 @@
    "name": "Eliyahu Goldratt",
    "weight": 10.0,
    "domain": "advisory",
-   "origin": "Dash Founders lens roster"
+   "origin": "Dash Founders lens roster; fields per part added by Item 320 Section 2 (29 Oct 2026)",
+   "fields_by_part": {
+    "6": "throughput against the constraint",
+    "7": "throughput against the constraint"
+   }
   },
   {
    "seat": "voss",
@@ -486,7 +505,11 @@
    "name": "Bruce Schneier",
    "weight": 10.0,
    "domain": "advisory",
-   "origin": "Dash Founders lens roster"
+   "origin": "Dash Founders lens roster; fields per part added by Item 320 Section 2 (29 Oct 2026)",
+   "fields_by_part": {
+    "6": "containment and failure modes",
+    "7": "containment and failure modes"
+   }
   },
   {
    "seat": "bogle",
@@ -584,64 +607,6 @@
     "3": "Private Equity",
     "5": "Private Equity",
     "9": "Private Equity"
-   }
-  },
-  {
-   "seat": "P6",
-   "name": "David Maister",
-   "weight": 10.0,
-   "domain": "brief-named",
-   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
-   "fields_by_part": {
-    "3": "Fractionals",
-    "5": "Fractionals",
-    "9": "Fractionals"
-   }
-  },
-  {
-   "seat": "P7",
-   "name": "Peter Drucker",
-   "weight": 10.0,
-   "domain": "brief-named",
-   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
-   "fields_by_part": {
-    "3": "Fractionals",
-    "5": "Fractionals",
-    "9": "Fractionals"
-   }
-  },
-  {
-   "seat": "P8",
-   "name": "Ron Baker",
-   "weight": 10.0,
-   "domain": "brief-named",
-   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
-   "fields_by_part": {
-    "3": "Fractionals",
-    "5": "Fractionals",
-    "9": "Fractionals"
-   }
-  },
-  {
-   "seat": "G1",
-   "name": "Bruce Schneier",
-   "weight": 10.0,
-   "domain": "brief-named",
-   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
-   "fields_by_part": {
-    "6": "containment and failure modes",
-    "7": "containment and failure modes"
-   }
-  },
-  {
-   "seat": "G2",
-   "name": "Eliyahu Goldratt",
-   "weight": 10.0,
-   "domain": "brief-named",
-   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
-   "fields_by_part": {
-    "6": "throughput against the constraint",
-    "7": "throughput against the constraint"
    }
   }
  ]

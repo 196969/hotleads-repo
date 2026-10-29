@@ -23,9 +23,24 @@ def check_part4(repo):
         t=open(c,encoding='utf-8').read(); reads_sup="fetch('suppression.json'" in t; canspam=all(k in t for k in ('STOP','postal','unsubscribe')) ; sends=len(re.findall(r'mailto:|sendMail|smtp',t,re.I))
         out['Boies']=('Pass' if (reads_sup and canspam) else 'Hold','suppression.json read by the console; CAN-SPAM elements; send path',f'reads suppression {reads_sup}; CAN-SPAM elements {canspam}; mailto/send references {sends} (the composer only)')
     return out
+
+def check_part6(repo):
+    """Part 6 seats: Schneier reads containment (kill switch and write fence proved in this pass); Goldratt reads throughput against the constraint (the rate ceiling enforced in code and reported as assumed); Chen reads the compliance surface (an append-only audit log, and no send path in the bot)."""
+    out={}; b=os.path.join(repo,'bot.py'); pf=os.path.join(repo,'bot-proofs.json'); cfg=os.path.join(repo,'bot-config.json')
+    if not os.path.exists(b): 
+        for n,f in (('Schneier','bot.py: kill switch and write fence'),('Goldratt','bot-config.json: rate ceiling'),('Chen','bot.py: audit log and send surface')): out[n]=('Blind',f,'bot.py absent')
+        return out
+    P=json.load(open(pf)) if os.path.exists(pf) else {}
+    out['Schneier']=('Pass' if P.get('kill_switch_halted_mid_run') and P.get('fence_refused_address') else ('Hold' if P else 'Blind'),'bot.py: kill switch halting a run mid-way; write fence refusing a write to address','proved this pass' if P else 'bot-proofs.json absent — not proved in this pass')
+    C=json.load(open(cfg)) if os.path.exists(cfg) else None
+    out['Goldratt']=('Pass' if C and C.get('daily_read_ceiling')==200 and C.get('ceiling_is_assumed') is True and P.get('read_201_refused') else ('Blind' if not C else 'Hold'),'bot-config.json: daily read ceiling 200, reported as assumed; read 201 refused',f'ceiling {C.get("daily_read_ceiling") if C else None}, assumed {C.get("ceiling_is_assumed") if C else None}, read 201 refused {P.get("read_201_refused")}')
+    t=open(b,encoding='utf-8').read(); sends=len(re.findall(r'smtp|mailto:|sendmail|send_message',t,re.I)); append_only=("open(LOG,'a'" in t) and ('os.remove' not in t) and ('truncate' not in t)
+    out['Chen']=('Pass' if (append_only and sends==0 and P.get('log_intact_after_halt')) else 'Hold','bot.py: append-only audit log read back after a halt; no send path',f'append-only {append_only}; send references {sends}; log read back after halt {P.get("log_intact_after_halt")}')
+    return out
+
 def run(repo,label,part):
     R=json.load(open(os.path.join(repo,'founders-roster.json'))) if os.path.exists(os.path.join(repo,'founders-roster.json')) else json.load(open('founders-roster.json')); seats=R['seats']
-    named=check_part4(repo) if part==4 else {}
+    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else {})
     bound={s['name'].split()[-1]:s.get('fields_by_part',{}).get(str(part)) for s in seats}
     rows=[]; 
     for s in seats:
@@ -38,7 +53,8 @@ def run(repo,label,part):
     print(f'== {label}: Pass {len(P)} · Hold {len(H)} · Blind {len(B)} · weight passing {sum(r[1] for r in P)} of {sum(r[1] for r in rows if r[2]!="Chair")}')
     for r in rows:
         if r[2]!='Blind' or r[0].split()[-1] in named: print(f'   {r[0]:22} w{r[1]:<5} {r[2]:5} | {r[3]} | {r[4]}')
-    stop=[r for r in rows if part==4 and r[0].split()[-1] in ('Buffett','Chen','Boies') and r[2]=='Blind']
-    if part==4: print('   PART 4 STOP:' if stop else '   Part 4 seats: none Blind —',[ (r[0],r[3],r[4]) for r in stop] if stop else 'may proceed')
+    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen')}
+    stop=[r for r in rows if part in SEATS and r[0].split()[-1] in SEATS[part] and r[2]=='Blind']
+    if part in SEATS: print(f'   PART {part} STOP:' if stop else f'   Part {part} seats: none Blind —',[ (r[0],r[3],r[4]) for r in stop] if stop else 'may proceed')
     return rows
 if __name__=='__main__': run(sys.argv[1],sys.argv[2],int(sys.argv[3]))

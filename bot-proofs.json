@@ -1,0 +1,106 @@
+{
+ "kill_switch_halted_mid_run": true,
+ "halt_message": "kill switch present \u2014 halted before row 5",
+ "log_entries_to_halt": [
+  [
+   "run",
+   null,
+   "start"
+  ],
+  [
+   "read",
+   "1",
+   "read"
+  ],
+  [
+   "write",
+   "1",
+   "written"
+  ],
+  [
+   "write",
+   "1",
+   "written"
+  ],
+  [
+   "write",
+   "1",
+   "written"
+  ],
+  [
+   "read",
+   "2",
+   "read"
+  ],
+  [
+   "write",
+   "2",
+   "written"
+  ],
+  [
+   "write",
+   "2",
+   "written"
+  ],
+  [
+   "write",
+   "2",
+   "written"
+  ],
+  [
+   "read",
+   "3",
+   "read"
+  ],
+  [
+   "write",
+   "3",
+   "written"
+  ],
+  [
+   "write",
+   "3",
+   "written"
+  ],
+  [
+   "write",
+   "3",
+   "written"
+  ],
+  [
+   "read",
+   "4",
+   "read"
+  ],
+  [
+   "write",
+   "4",
+   "written"
+  ],
+  [
+   "write",
+   "4",
+   "written"
+  ],
+  [
+   "write",
+   "4",
+   "written"
+  ],
+  [
+   "halt",
+   "5",
+   null
+  ]
+ ],
+ "reads_before_halt": 4,
+ "log_intact_after_halt": true,
+ "read_201_refused": true,
+ "ceiling_message": "read refused: 200 reads today, ceiling 200 (assumed)",
+ "fence_refused_address": true,
+ "fence_message": "write to 'address' refused: the bot writes only ['addr_found', 'bot_note', 'bot_status']",
+ "fence_allows_addr_found": true,
+ "blast_radius_stated": true,
+ "proved_on": "2026-10-29",
+ "character_classes": "kill switch: file present / absent; ceiling: reads 200 / 201; fence: field in the set / outside it; log: append only, read back after a halt"
+}
