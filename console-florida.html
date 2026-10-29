@@ -65,7 +65,7 @@ function migrateLegacy(){try{var L=JSON.parse(localStorage.getItem(LEGACY)||'nul
 function rec0(k){OUT.rows[k]=OUT.rows[k]||{touches:[],dispositions:[],terminal:null,next:'',by:'',updated:''};return OUT.rows[k];}
 function save(flash){OUT.exported=OUT.exported||'';localStorage.setItem(KEY,JSON.stringify(OUT));if(flash!==false){document.getElementById('saved').textContent='saved '+new Date().toLocaleTimeString()}}
 function std(r){return STD[r.key]||{tests:{},workable:false,class:'',band:4,bandTier:r.tier,ground:r.ground}}
-function strict(r){var s=std(r);return !!s.workable&&!!r.src&&/@/.test(r.email)}
+function strict(r){var s=std(r);return !!s.workable&&!!r.src&&/@/.test(r.email)&&s.bandTier!=='C'}
 function addrElig(r){return !!r.src&&/@/.test(r.email)&&!!r.dm&&std(r).bandTier!=='C'}
 function blockers(r){var b=[];var s=std(r);if(!r.src)b.push(/@/.test(r.email)?'Address source empty (address on file, unsourced)':'Address source empty (no address held)');if(!r.dm)b.push('no named person');if(s.bandTier==='C')b.push('Tier C for banding');var t=s.tests||{};Object.keys(t).forEach(function(k){if(!t[k])b.push('standard: '+k)});return b;}
 function touchNo(k){var o=OUT.rows[k];return o?o.touches.length:0}
