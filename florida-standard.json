@@ -1,7 +1,7 @@
 {
  "market": "florida",
  "standard": "Phase 3 workable-row standard",
- "measured": "2026-10-29 (Item 311)",
+ "measured": "2026-10-29 (Item 313 — corrected source test)",
  "note": "Re-run audit.py after any upload of florida.html; the console reads this file as Phase 3’s table.",
  "rows": {
   "1": {
@@ -853,7 +853,7 @@
   "40": {
    "company": "Florida Crystals",
    "tests": {
-    "Company": true,
+    "Company": false,
     "Trading": true,
     "Decision maker": true,
     "Title": true,
@@ -3158,8 +3158,8 @@
   "146": {
    "company": "Studer Family of Companies",
    "tests": {
-    "Company": true,
-    "Trading": false,
+    "Company": false,
+    "Trading": true,
     "Decision maker": false,
     "Title": false,
     "Phone": false,
@@ -3169,12 +3169,13 @@
     "Window": false
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Unsourced",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
    "why": [
-    "sourced once, outside the window"
+    "company",
+    "dm"
    ]
   },
   "147": {
