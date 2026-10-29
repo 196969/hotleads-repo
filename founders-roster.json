@@ -652,6 +652,16 @@
    "reading": "Blind, then Pass",
    "class": "instrument-label fault",
    "note": "the seat reader imported practice.py, which opens practice-classes.json relative to the working directory; the keyword set never loaded and the seat read Blind. The reader now parses the keyword set from the file text. The instrument, not the data, was wrong."
+  },
+  {
+   "date": "2026-10-29",
+   "part": 9,
+   "rulings": [
+    "Lemonis seated at the governing weight",
+    "the Part 9 zero stands: 0 candidates, 47 rows not read, every 403 and refused search a refusal, never an absence",
+    "Sunbiz stays at 0 through Part 10; one new instrument at a time",
+    "a browser reader may be scheduled: one ceiling per day shared across readers, never reset; a 403 honoured; attended, human cadence, undisguised; the arithmetic stated up front"
+   ]
   }
  ]
 }

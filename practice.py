@@ -52,7 +52,7 @@ def candidate(row,crit,cls,url,body):
     if not re.search(r'\bFlorida\b|\bFL\b|'+re.escape(row['city'] or 'Florida'),text): return None,'refused on jurisdiction: the page names neither Florida nor the row\u2019s city (a same-name company elsewhere)'
     sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',text) if tok[0].lower() in s.lower() and re.search(KW[crit],s,re.I)]
     if not sents: return None,f'no {crit} sentence naming the company on the page'
-    return {'criterion':crit,'sentence':sents[0][:400],'url':url,'published':d,'source_class':cls,'read':TODAY,'status':'proposed \u2014 unconfirmed'},None
+    return {'criterion':crit,'sentence':sents[0][:400],'sentence_as_read':sents[0][:400],'url':url,'published':d,'source_class':cls,'read':TODAY,'status':'proposed \u2014 unconfirmed'},None
 def search(q,domains,state):
     u='https://html.duckduckgo.com/html/?q='+urllib.parse.quote(q)
     def reader(url):

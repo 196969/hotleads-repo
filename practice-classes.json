@@ -90,5 +90,19 @@
   "ceiling": 200,
   "ceiling_is_assumed": true,
   "measured": "Part 7 measured a median 0.47 s per read on 135 reads; cost in reads per row per class is measured in this part and stated in bot-report-part9.json"
+ },
+ "run_order": {
+  "ruled": "2026-10-29 (Part 10)",
+  "class_order": [
+   "trade_press",
+   "job_board",
+   "broker",
+   "sponsor"
+  ],
+  "row_order": "the 47 Tier A rows in roster order (ascending row number)",
+  "sunbiz": "0 reads, through Part 10",
+  "reader": "browser, attended at a human cadence, undisguised (its own user agent string names it); a 403 is the site’s answer and is honoured as a refusal",
+  "ceiling": "one number per day, 200, shared across script and browser readers, never reset; the run stops at the ceiling and the report states where",
+  "arithmetic": "at Part 9’s measured 1.55 reads per row per class, four classes across 47 rows is about 291 reads: more than one day’s ceiling, so a full pass is two clean days or a declared partial; 1.55 was measured on 21 rows and is re-measured after this run"
  }
 }

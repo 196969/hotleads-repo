@@ -14,6 +14,7 @@ def apply_practice(m):
         if e.get('status')!='confirmed': continue
         if not (e.get('confirmed_by') and e.get('confirmed_on')): refused.append((k,'confirmed without confirmed_by or confirmed_on')); continue
         if not (e.get('published') and e.get('url') and e.get('source_class') and e.get('sentence')): refused.append((k,'candidate lacks a publication date, URL, class or sentence')); continue
+        if e.get('sentence_as_read') is not None and e['sentence']!=e['sentence_as_read']: refused.append((k,'the row text differs from the source’s sentence as read; the row says what the source says and no more')); continue
         key=k.split(':')[0]; tb=re.search(r'<table[^>]*>(.*?)</table>',t,re.S); rows=[x for x in re.findall(r'<tr[^>]*>.*?</tr>',tb.group(1),re.S) if re.search(r'<td[^>]*>\s*'+re.escape(key)+r'\s*</td>',x)]
         if len(rows)!=1: refused.append((k,'row not found exactly once')); continue
         row=rows[0]; c=list(re.finditer(r'(<td[^>]*>)(.*?)(</td>)',row,re.S)); page=re.sub(r'^https?://(www\.)?','',e['url']).rstrip('/'); crit={'Private Equity':'PE'}.get(e['criterion'],e['criterion'])

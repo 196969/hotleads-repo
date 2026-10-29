@@ -67,6 +67,15 @@ def check_part8(repo):
     return out
 
 
+def check_part10(repo):
+    """Part 10: the same three seats as Part 9, read against this part's proofs and the queue."""
+    out=check_part9(repo); pf=os.path.join(repo,'bot-proofs-part10.json')
+    if not os.path.exists(pf): return {n:('Blind','bot-proofs-part10.json','absent') for n in out}
+    P=json.load(open(pf))
+    for n,(rd,field,why) in list(out.items()):
+        extra={'Buffett':('browser_undated_refused','an undated browser read refused'),'Lemonis':('control_dated_article_is_candidate','the dated control read as a candidate (criterion sentence)'),'Boies':('edited_sentence_refused_by_apply','an edited sentence refused by the applier')}[n]
+        out[n]=(rd if P.get(extra[0]) else 'Hold',field+'; Part 10: '+extra[1],why+f'; Part 10 proof {P.get(extra[0])}')
+    return out
 def check_part9(repo):
     """Part 9 seats: Buffett reads that every candidate's source is a declared third-party class and carries a publication date; Lemonis reads that every candidate's sentence names a people, process or product change (the criterion keywords), not a mood; Boies reads that the row says exactly what the source says (the applier proof) and the validator passes."""
     out={}; qp=os.path.join(repo,'florida-practice-queue.json'); pf=os.path.join(repo,'bot-proofs-part9.json'); cp=os.path.join(repo,'practice-classes.json')
@@ -84,7 +93,7 @@ def check_part9(repo):
 
 def run(repo,label,part):
     R=json.load(open(os.path.join(repo,'founders-roster.json'))) if os.path.exists(os.path.join(repo,'founders-roster.json')) else json.load(open('founders-roster.json')); seats=R['seats']
-    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else (check_part7(repo) if part==7 else (check_part8(repo) if part==8 else (check_part9(repo) if part==9 else {}))))
+    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else (check_part7(repo) if part==7 else (check_part8(repo) if part==8 else (check_part9(repo) if part==9 else (check_part10(repo) if part==10 else {})))))
     bound={s['name'].split()[-1]:s.get('fields_by_part',{}).get(str(part)) for s in seats}
     rows=[]; 
     for s in seats:
@@ -97,7 +106,7 @@ def run(repo,label,part):
     print(f'== {label}: Pass {len(P)} · Hold {len(H)} · Blind {len(B)} · weight passing {sum(r[1] for r in P)} of {sum(r[1] for r in rows if r[2]!="Chair")}')
     for r in rows:
         if r[2]!='Blind' or r[0].split()[-1] in named: print(f'   {r[0]:22} w{r[1]:<5} {r[2]:5} | {r[3]} | {r[4]}')
-    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen'),7:('Schneier','Goldratt','Chen'),8:('Buffett','Branson','Boies'),9:('Buffett','Lemonis','Boies')}
+    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen'),7:('Schneier','Goldratt','Chen'),8:('Buffett','Branson','Boies'),9:('Buffett','Lemonis','Boies'),10:('Buffett','Lemonis','Boies')}
     stop=[r for r in rows if part in SEATS and r[0].split()[-1] in SEATS[part] and r[2]=='Blind']
     if part in SEATS:
         if stop and 'brief' in label.lower(): print(f'   Part {part} brief: Blind by construction on',[r[0] for r in stop],'— not a stop (roster standing rule); the stop binds on the delivery')

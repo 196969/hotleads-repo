@@ -1,0 +1,49 @@
+{
+ "item": "320 Part 10 — the first attended read",
+ "date": "2026-10-29",
+ "seat_readings": [
+  "== Item 320 Part 10 delivered: Pass 3 · Hold 0 · Blind 75 · weight passing 30.0 of 780.0",
+  "   Timothy A. Edick       w15.0  Chair | decides last | ",
+  "   David Boies            w10.0  Pass  | the applier writes exactly the source sentence (proof); nameless confirmation refused; validator passes on the live file; Part 10: an edited sentence refused by the applier | validator PASSED; source sentence carried verbatim True; nameless refused True; Part 10 proof True",
+  "   Warren Buffett         w10.0  Pass  | every candidate from a declared third-party class with a publication date; undated and company-site sources refused in proof; Part 10: an undated browser read refused | 0 candidate(s) in the queue (a vacuous pass: nothing to read yet); undated refused True; company-site refused True; Part 10 proof True",
+  "   Marcus Lemonis         w10.0  Pass  | every candidate sentence matches a people/process/product keyword set (practice.py KW), not a mood; Part 10: the dated control read as a candidate (criterion sentence) | 0 candidate(s) (a vacuous pass: nothing to read yet); keyword set loaded True; Part 10 proof True",
+  "   Part 10 seats: none Blind — may proceed"
+ ],
+ "run": {
+  "status": "refused before read 1 — the shared log already held 200 reads today (Part 7: 135, Part 9: 65); under the one-ceiling-per-day ruling the browser reader’s first read would have been read 201",
+  "reads_this_run": 0,
+  "rows_reached": 0,
+  "stopped_at": "before read 1",
+  "next": "run on the next day with no other reads: python3 practice_browser.py florida --attended \"Timothy A. Edick\""
+ },
+ "candidates": {
+  "by_criterion_and_class": {},
+  "total": 0,
+  "note": "the queue is unchanged from Part 9 (empty); every decision in it will be named and dated when there is one"
+ },
+ "rows_moved": {
+  "not_read_to_no_signal_found": 0,
+  "classes_read": {}
+ },
+ "measured_cost": {
+  "part_9_script": 1.55,
+  "part_10_browser": null,
+  "note": "no browser reads today; re-measured and restated after the first clean-day run"
+ },
+ "ceiling_arithmetic": {
+  "ceiling_per_day": 200,
+  "shared": "script and browser readers, never reset",
+  "full_pass_estimate": "4 classes × 47 rows × 1.55 ≈ 291 reads (Sunbiz at 0 excluded, so 3 permitted classes ≈ 219): more than one day; two clean days or a declared partial",
+  "basis": "1.55 measured on 21 rows in Part 9; provisional"
+ },
+ "proofs": {
+  "browser_403_counted_as_refusal": true,
+  "browser_undated_refused": true,
+  "control_dated_article_is_candidate": true,
+  "shared_ceiling_fires_on_201": true,
+  "edited_sentence_refused_by_apply": true,
+  "kill_switch_halts_attended_run_log_intact": true,
+  "character_classes": "HTTP 403 / 200 to the browser; publication date absent / present; shared log 200 / 201; sentence as read / edited; kill file present mid-run",
+  "proved_on": "2026-10-29"
+ }
+}

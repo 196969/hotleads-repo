@@ -1,0 +1,10 @@
+{
+ "browser_403_counted_as_refusal": true,
+ "browser_undated_refused": true,
+ "control_dated_article_is_candidate": true,
+ "shared_ceiling_fires_on_201": true,
+ "edited_sentence_refused_by_apply": true,
+ "kill_switch_halts_attended_run_log_intact": true,
+ "character_classes": "HTTP 403 / 200 to the browser; publication date absent / present; shared log 200 / 201; sentence as read / edited; kill file present mid-run",
+ "proved_on": "2026-10-29"
+}
