@@ -102,6 +102,15 @@ def staleness(rows):
         else: R['stale']='Outside on a verification date'; out['Outside on a verification date']+=1
         m=re.search(r'Trading checked \((site|registry)\)',R.get('note','')); R['trading_kind']=m.group(1) if m else ('registry' if re.search(r'\b(sunbiz|registry)\b[^.]{0,40}\b20\d\d',R.get('note',''),re.I) else ('other dated check' if R.get('f_trading')=='Checked' else None))
     return out
+# Item 320 Part 3 (C7, 29 Oct 2026): per-row "what would move this", derived from the row's own test results — never typed.
+REPAIR={'Trading':'needs a dated trading check','Window':'needs a re-dated read (a date of ours inside the window)','Phone':'needs a phone source','Decision maker':'needs a named decision maker','Title':'needs a dated title','Address':'needs a sourced address','Company':'needs a dated company source','Website':'needs a website that names the company','Tier':'needs a tier reason'}
+def what_would_move(tests):
+    """tests: the standard's nine tests for a row (True passes; False fails; 'Blind' is not a pass). One repair if one test blocks; all of them if several; a plain statement if none."""
+    f=[k for k,v in tests.items() if v is not True]
+    if not f: return 'passes every test'
+    if len(f)==1: return REPAIR.get(f[0],'needs '+f[0])
+    return 'blocked by more than one: '+'; '.join(REPAIR.get(k,'needs '+k) for k in f)
+
 def classify(rows):
     out=collections.Counter()
     for R in rows:

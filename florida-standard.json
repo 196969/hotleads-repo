@@ -30,7 +30,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
   },
   "2": {
    "company": "Badia Spices",
@@ -54,7 +55,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "site",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "3": {
    "company": "Quirch Foods",
@@ -82,7 +84,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
   },
   "4": {
    "company": "Cheney Brothers",
@@ -110,7 +113,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "5": {
    "company": "Gold Coast Beverage",
@@ -138,7 +142,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "6": {
    "company": "Eagle Brands Sales",
@@ -162,7 +167,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "site",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "7": {
    "company": "Martinez Distributors",
@@ -190,7 +196,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a sourced address"
   },
   "8": {
    "company": "PJ Distributors",
@@ -216,7 +223,8 @@
    "source_state": "blind",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated company source; needs a website that names the company"
   },
   "9": {
    "company": "Riverdale Farms",
@@ -240,7 +248,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "10": {
    "company": "Sunshine Bouquet",
@@ -264,7 +273,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "11": {
    "company": "Turbana Corp",
@@ -288,7 +298,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "site",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "12": {
    "company": "Fresh Del Monte Produce",
@@ -316,7 +327,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
   },
   "13": {
    "company": "Chiquita Brands (US HQ)",
@@ -340,7 +352,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "14": {
    "company": "Bacardi USA",
@@ -366,7 +379,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company; needs a re-dated read (a date of ours inside the window)"
   },
   "15": {
    "company": "Southern Glazer's Wine &amp; Spirits",
@@ -394,7 +408,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "16": {
    "company": "National Beverage (LaCroix)",
@@ -422,7 +437,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "17": {
    "company": "Celsius Holdings",
@@ -446,7 +462,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "18": {
    "company": "Watsco",
@@ -474,7 +491,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a sourced address"
   },
   "19": {
    "company": "Refricenter",
@@ -498,7 +516,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "site",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "20": {
    "company": "TruckMax",
@@ -522,7 +541,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "registry",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "21": {
    "company": "Sedano's Supermarkets",
@@ -546,7 +566,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "22": {
    "company": "Presidente Supermarkets",
@@ -574,7 +595,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "23": {
    "company": "City Furniture",
@@ -598,7 +620,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "24": {
    "company": "BrandsMart USA",
@@ -622,7 +645,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "25": {
    "company": "Perry Ellis International",
@@ -650,7 +674,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a sourced address"
   },
   "26": {
    "company": "JM Family Enterprises",
@@ -678,7 +703,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "27": {
    "company": "World Kinect",
@@ -706,7 +732,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "28": {
    "company": "HEICO",
@@ -734,7 +761,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated company source; needs a dated trading check; needs a sourced address; needs a re-dated read (a date of ours inside the window)"
   },
   "29": {
    "company": "Sintavia",
@@ -764,7 +792,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source"
   },
   "30": {
    "company": "VSE Aviation",
@@ -788,7 +817,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "31": {
    "company": "Cordis",
@@ -812,7 +842,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "32": {
    "company": "Noven Pharmaceuticals",
@@ -836,7 +867,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "33": {
    "company": "Eco Window Systems",
@@ -860,7 +892,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "34": {
    "company": "Cigarette Racing Team",
@@ -884,7 +917,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "35": {
    "company": "WTDC Logistics",
@@ -908,7 +942,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "36": {
    "company": "SkyPostal",
@@ -932,7 +967,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "37": {
    "company": "Fulfillment Hub USA",
@@ -956,7 +992,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "38": {
    "company": "TBC Corporation",
@@ -984,7 +1021,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
   },
   "39": {
    "company": "Oxbow Carbon",
@@ -1008,7 +1046,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "40": {
    "company": "Florida Crystals",
@@ -1036,7 +1075,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a website that names the company"
   },
   "41": {
    "company": "Vigo Importing",
@@ -1066,7 +1106,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a website that names the company"
   },
   "42": {
    "company": "Pepin Distributing",
@@ -1090,7 +1131,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "site",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "43": {
    "company": "Great Bay Distributors",
@@ -1119,7 +1161,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker"
   },
   "44": {
    "company": "J.J. Taylor Distributing FL",
@@ -1143,7 +1186,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "45": {
    "company": "Coca-Cola Beverages Florida",
@@ -1167,7 +1211,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "46": {
    "company": "Trademark Metals Recycling",
@@ -1195,7 +1240,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
   },
   "47": {
    "company": "Masonite International",
@@ -1219,7 +1265,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "48": {
    "company": "Rooms To Go",
@@ -1247,7 +1294,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "49": {
    "company": "Jabil",
@@ -1271,7 +1319,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "50": {
    "company": "TD Synnex",
@@ -1295,7 +1344,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "51": {
    "company": "Helios Technologies (Sun Hydraulics)",
@@ -1323,7 +1373,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "52": {
    "company": "Boar's Head Provisions",
@@ -1347,7 +1398,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "53": {
    "company": "Tropicana Brands",
@@ -1375,7 +1427,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
   },
   "54": {
    "company": "Bealls Inc.",
@@ -1399,7 +1452,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "site",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "55": {
    "company": "Tervis",
@@ -1427,7 +1481,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
   },
   "56": {
    "company": "PGT Innovations",
@@ -1455,7 +1510,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a phone source; needs a website that names the company"
   },
   "57": {
    "company": "Teakdecking Systems",
@@ -1479,7 +1535,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "58": {
    "company": "Saddle Creek Logistics",
@@ -1503,7 +1560,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "59": {
    "company": "Barney's Pumps",
@@ -1527,7 +1585,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "60": {
    "company": "Florida's Natural Growers",
@@ -1551,7 +1610,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "62": {
    "company": "Correct Craft (Nautique)",
@@ -1575,7 +1635,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "63": {
    "company": "Regal Boats",
@@ -1603,7 +1664,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "64": {
    "company": "Florida Paints",
@@ -1627,7 +1689,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "65": {
    "company": "ABC Fine Wine &amp; Spirits",
@@ -1651,7 +1714,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "67": {
    "company": "Duda Farm Fresh Foods",
@@ -1675,7 +1739,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "68": {
    "company": "E-ONE (fire apparatus)",
@@ -1703,7 +1768,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
   },
   "69": {
    "company": "ClosetMaid",
@@ -1731,7 +1797,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
   },
   "70": {
    "company": "Cone Distributors",
@@ -1757,7 +1824,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "71": {
    "company": "Exactech",
@@ -1781,7 +1849,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "72": {
    "company": "Monterey Boats",
@@ -1810,7 +1879,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker"
   },
   "73": {
    "company": "Beaver Street Fisheries",
@@ -1838,7 +1908,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated company source; needs a dated trading check; needs a website that names the company; needs a re-dated read (a date of ours inside the window)"
   },
   "74": {
    "company": "Ring Power (CAT)",
@@ -1862,7 +1933,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "75": {
    "company": "Rulon International",
@@ -1886,7 +1958,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "76": {
    "company": "Safariland",
@@ -1910,7 +1983,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "77": {
    "company": "Southeastern Grocers",
@@ -1934,7 +2008,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "78": {
    "company": "Fanatics (Jax ops)",
@@ -1962,7 +2037,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
   },
   "79": {
    "company": "Reid Transportation Group",
@@ -1986,7 +2062,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "80": {
    "company": "Boston Whaler",
@@ -2014,7 +2091,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
   },
   "81": {
    "company": "Everglades Boats",
@@ -2042,7 +2120,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "82": {
    "company": "El Dorado Furniture",
@@ -2066,7 +2145,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "site",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "83": {
    "company": "Duty Free Americas",
@@ -2095,7 +2175,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker"
   },
   "84": {
    "company": "Sunshine Gasoline Distributors",
@@ -2123,7 +2204,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "85": {
    "company": "Goya Foods of Florida",
@@ -2151,7 +2233,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source"
   },
   "86": {
    "company": "Miami Beef Company",
@@ -2175,7 +2258,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "87": {
    "company": "Antillean Marine",
@@ -2199,7 +2283,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "88": {
    "company": "Amerijet International",
@@ -2223,7 +2308,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "89": {
    "company": "Brown Jordan",
@@ -2247,7 +2333,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "90": {
    "company": "Ocean Bio-Chem (Star brite)",
@@ -2275,7 +2362,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source"
   },
   "91": {
    "company": "Sheltair Aviation",
@@ -2303,7 +2391,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated company source; needs a dated trading check; needs a re-dated read (a date of ours inside the window)"
   },
   "92": {
    "company": "Kellstrom Aerospace",
@@ -2332,7 +2421,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)"
   },
   "93": {
    "company": "Ed Morse Automotive Group",
@@ -2356,7 +2446,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "94": {
    "company": "Rick Case Automotive Group",
@@ -2380,7 +2471,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "95": {
    "company": "Braman Motorcars",
@@ -2404,7 +2496,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "96": {
    "company": "Modernizing Medicine (ModMed)",
@@ -2428,7 +2521,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "97": {
    "company": "Brown Distributing",
@@ -2456,7 +2550,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a named decision maker"
   },
   "98": {
    "company": "US Sugar",
@@ -2480,7 +2575,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "99": {
    "company": "Lipman Family Farms",
@@ -2504,7 +2600,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "100": {
    "company": "Arthrex",
@@ -2528,7 +2625,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "101": {
    "company": "Suncoast Beverage Sales",
@@ -2557,7 +2655,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)"
   },
   "102": {
    "company": "Shaw Development",
@@ -2581,7 +2680,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "103": {
    "company": "Alico Inc.",
@@ -2605,7 +2705,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "104": {
    "company": "Detwiler’s Farm Market",
@@ -2629,7 +2730,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "105": {
    "company": "Intertape Polymer Group",
@@ -2655,7 +2757,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "106": {
    "company": "Apyx Medical",
@@ -2679,7 +2782,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "107": {
    "company": "Plasma-Therm",
@@ -2703,7 +2807,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "108": {
    "company": "Superior Group of Companies",
@@ -2727,7 +2832,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "109": {
    "company": "FrankCrum",
@@ -2753,7 +2859,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a re-dated read (a date of ours inside the window)"
   },
   "110": {
    "company": "Amscot Financial",
@@ -2777,7 +2884,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "111": {
    "company": "BlueGrace Logistics",
@@ -2805,7 +2913,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a phone source"
   },
   "112": {
    "company": "Morgan Auto Group",
@@ -2831,7 +2940,8 @@
    "source_state": "unsourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated company source; needs a phone source"
   },
   "114": {
    "company": "Checkers &amp; Rally’s",
@@ -2855,7 +2965,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "115": {
    "company": "Wish Farms",
@@ -2879,7 +2990,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "site",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "116": {
    "company": "Florida Beer Company",
@@ -2907,7 +3019,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title"
   },
   "117": {
    "company": "Wayne Densch Inc.",
@@ -2936,7 +3049,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company; needs a re-dated read (a date of ours inside the window)"
   },
   "118": {
    "company": "S.R. Perrott",
@@ -2960,7 +3074,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "119": {
    "company": "Massey Services",
@@ -2984,7 +3099,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "120": {
    "company": "Mears Transportation",
@@ -3008,7 +3124,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "121": {
    "company": "Rosen Hotels &amp; Resorts",
@@ -3032,7 +3149,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "122": {
    "company": "Westgate Resorts",
@@ -3056,7 +3174,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "123": {
    "company": "Cavalier Distributing Florida",
@@ -3080,7 +3199,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "124": {
    "company": "Sonny’s BBQ",
@@ -3104,7 +3224,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "125": {
    "company": "4R Restaurant Group (4 Rivers)",
@@ -3130,7 +3251,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "126": {
    "company": "Piper Aircraft",
@@ -3154,7 +3276,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "127": {
    "company": "IMG Citrus",
@@ -3178,7 +3301,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "128": {
    "company": "Natalie’s Orchid Island Juice",
@@ -3206,7 +3330,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a dated trading check"
   },
   "129": {
    "company": "Pursuit Boats",
@@ -3234,7 +3359,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source"
   },
   "130": {
    "company": "Twin Vee PowerCats",
@@ -3258,7 +3384,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "131": {
    "company": "Satcom Direct",
@@ -3287,7 +3414,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)"
   },
   "132": {
    "company": "Vac-Con",
@@ -3311,7 +3439,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "133": {
    "company": "Sally Dark Rides",
@@ -3335,7 +3464,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "134": {
    "company": "Bubba Foods",
@@ -3361,7 +3491,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "135": {
    "company": "American Coolair",
@@ -3385,7 +3516,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "136": {
    "company": "Miller Electric Company",
@@ -3411,7 +3543,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "137": {
    "company": "W.W. Gay Mechanical",
@@ -3437,7 +3570,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a website that names the company"
   },
   "138": {
    "company": "Gate Petroleum",
@@ -3461,7 +3595,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a phone source; needs a website that names the company"
   },
   "139": {
    "company": "Swisher",
@@ -3485,7 +3620,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "140": {
    "company": "Mac Papers + Packaging",
@@ -3513,7 +3649,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source"
   },
   "141": {
    "company": "Patriot Transportation",
@@ -3541,7 +3678,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
   },
   "142": {
    "company": "ICI Homes",
@@ -3565,7 +3703,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "143": {
    "company": "Trailer Bridge",
@@ -3589,7 +3728,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "144": {
    "company": "TOTE Maritime",
@@ -3618,7 +3758,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a re-dated read (a date of ours inside the window)"
   },
   "145": {
    "company": "Innisfree Hotels",
@@ -3642,7 +3783,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "146": {
    "company": "Studer Family of Companies",
@@ -3672,7 +3814,8 @@
     "dated decision maker"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
   },
   "147": {
    "company": "Milam’s Markets",
@@ -3696,7 +3839,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "148": {
    "company": "Doris Italian Market",
@@ -3720,7 +3864,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   },
   "149": {
    "company": "Fresco y Más",
@@ -3748,7 +3893,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
   },
   "150": {
    "company": "Magaya",
@@ -3772,7 +3918,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "needs a phone source"
   },
   "151": {
    "company": "IBC Airways",
@@ -3800,7 +3947,8 @@
     "trading check"
    ],
    "trading_kind": null,
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a dated trading check; needs a phone source"
   },
   "152": {
    "company": "Cutrale Citrus Juices USA",
@@ -3828,7 +3976,8 @@
     "dated decision maker"
    ],
    "trading_kind": "other dated check",
-   "undated_src": []
+   "undated_src": [],
+   "move": "blocked by more than one: needs a named decision maker; needs a dated title; needs a phone source; needs a website that names the company"
   },
   "153": {
    "company": "Kelly Tractor Co.",
@@ -3852,7 +4001,8 @@
    "source_state": "sourced",
    "gaps": [],
    "trading_kind": "registry",
-   "undated_src": []
+   "undated_src": [],
+   "move": "passes every test"
   }
  }
 }
