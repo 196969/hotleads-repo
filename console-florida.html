@@ -72,7 +72,9 @@ function applySup(){var A={},Dm={};(SUP.entries||[]).forEach(function(e){var a=S
  ROWS.forEach(function(r){var em=((r.email||'').match(/[\w.+-]+@[\w.-]+\.\w+/)||[''])[0].toLowerCase();var d1=em?em.split('@')[1]:'',d2=r.site?hostOf(r.site):'';var hit=!SUP.readable?{reason:'suppression list unreadable \u2014 every address withheld until it reads'}:(A[em]||Dm[d1]||Dm[d2]);
   if(hit){r.suppressed=hit.reason+(hit.date?' ('+hit.date+(hit.market?', from '+hit.market:'')+')':'')+(Dm[d1]===hit||Dm[d2]===hit?' \u2014 domain '+(hit.domain||''):'');if(em){r.emailWithheld=em;}r.email='withheld \u2014 '+r.suppressed;}});}
 function strict(r){var s=std(r);return !r.suppressed&&!!s.workable&&!!r.src&&/@/.test(r.email)&&s.bandTier!=='C'}
-function addrElig(r){return !r.suppressed&&!!r.src&&/@/.test(r.email)&&!!r.dm&&std(r).bandTier!=='C'}
+/* the audit's person rule (Phase 3 convention): a family, role or team is not a person */
+function isPerson(n){n=String(n||'').replace(/\s+/g,' ').trim();var w=n.split(' ').filter(Boolean);if(w.length<2||n==='\u2014')return false;if(/\b(family|owners?|principal|management|team|office|leadership|founders?|estate|group)\b/i.test(n)&&!/\b(Jr|Sr|II|III)\b/.test(n))return false;return /^[A-Z][\w'\u2019.\-]*$/.test(w[0])&&/^[A-Z]/.test(w[w.length-1]);}
+function addrElig(r){return !r.suppressed&&!!r.src&&/@/.test(r.email)&&isPerson(r.dm)&&std(r).bandTier!=='C'}
 function blockers(r){var b=[];var s=std(r);if(!r.src)b.push(/@/.test(r.email)?'Address source empty (address on file, unsourced)':'Address source empty (no address held)');if(!r.dm)b.push('no named person');if(s.bandTier==='C')b.push('Tier C for banding');var t=s.tests||{};Object.keys(t).forEach(function(k){if(!t[k])b.push('standard: '+k)});return b;}
 function touchNo(k){var o=OUT.rows[k];return o?o.touches.length:0}
 function lastTouch(k){var o=OUT.rows[k];return o&&o.touches.length?o.touches[o.touches.length-1].date:''}

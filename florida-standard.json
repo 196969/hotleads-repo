@@ -1,7 +1,7 @@
 {
  "market": "florida",
  "standard": "Phase 3 workable-row standard",
- "measured": "2026-10-29 (Florida Pipeline Build — the 16 addresses and four practice outcomes)",
+ "measured": "2026-10-29 (corrected Window test: verification dates only; no verification date reads Blind)",
  "note": "Re-run audit.py after any upload of florida.html; the console reads this file as Phase 3’s table.",
  "rows": {
   "1": {
@@ -15,7 +15,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Stale",
@@ -24,13 +24,14 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": null
   },
   "2": {
    "company": "Badia Spices",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -39,14 +40,13 @@
     "Tier": true,
     "Window": true
    },
-   "workable": false,
-   "class": "Unsourced",
-   "band": 3,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
-   "why": [
-    "trading"
-   ]
+   "why": [],
+   "trading_kind": "site"
   },
   "3": {
    "company": "Quirch Foods",
@@ -59,7 +59,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Stale",
@@ -68,7 +68,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": null
   },
   "4": {
    "company": "Cheney Brothers",
@@ -90,7 +91,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": null
   },
   "5": {
    "company": "Gold Coast Beverage",
@@ -103,7 +105,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Stale",
@@ -112,13 +114,14 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": null
   },
   "6": {
    "company": "Eagle Brands Sales",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -127,14 +130,13 @@
     "Tier": true,
     "Window": true
    },
-   "workable": false,
-   "class": "Unsourced",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
-   "why": [
-    "trading"
-   ]
+   "why": [],
+   "trading_kind": "site"
   },
   "7": {
    "company": "Martinez Distributors",
@@ -156,7 +158,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "8": {
    "company": "PJ Distributors",
@@ -178,7 +181,8 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "9": {
    "company": "Riverdale Farms",
@@ -198,7 +202,8 @@
    "band": 1,
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "10": {
    "company": "Sunshine Bouquet",
@@ -211,16 +216,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Distribution & Wholesale",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "11": {
    "company": "Turbana Corp",
@@ -240,7 +244,8 @@
    "band": 1,
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "12": {
    "company": "Fresh Del Monte Produce",
@@ -262,7 +267,8 @@
    "ground": "Food & Beverage Processing",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": null
   },
   "13": {
    "company": "Chiquita Brands (US HQ)",
@@ -275,16 +281,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Food & Beverage Processing",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "14": {
    "company": "Bacardi USA",
@@ -306,7 +311,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "15": {
    "company": "Southern Glazer's Wine &amp; Spirits",
@@ -319,16 +325,17 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Unsourced",
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
    "why": [
-    "sourced once, outside the window"
-   ]
+    "trading"
+   ],
+   "trading_kind": null
   },
   "16": {
    "company": "National Beverage (LaCroix)",
@@ -341,16 +348,17 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
-   "band": 4,
+   "class": "Unsourced",
+   "band": 3,
    "bandTier": "B",
    "ground": "Food & Beverage Processing",
    "why": [
-    "sourced once, outside the window"
-   ]
+    "trading"
+   ],
+   "trading_kind": null
   },
   "17": {
    "company": "Celsius Holdings",
@@ -370,7 +378,8 @@
    "band": 4,
    "bandTier": "C",
    "ground": "Food & Beverage distribution/retail",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "18": {
    "company": "Watsco",
@@ -383,22 +392,23 @@
     "Address": false,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
-   "band": 4,
+   "class": "Unsourced",
+   "band": 3,
    "bandTier": "B",
    "ground": "Distribution & Wholesale",
    "why": [
-    "sourced once, outside the window"
-   ]
+    "trading"
+   ],
+   "trading_kind": null
   },
   "19": {
    "company": "Refricenter",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -407,14 +417,13 @@
     "Tier": true,
     "Window": true
    },
-   "workable": false,
-   "class": "Unsourced",
-   "band": 3,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "trading"
-   ]
+   "why": [],
+   "trading_kind": "site"
   },
   "20": {
    "company": "TruckMax",
@@ -427,16 +436,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "A",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "registry"
   },
   "21": {
    "company": "Sedano's Supermarkets",
@@ -449,16 +457,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "22": {
    "company": "Presidente Supermarkets",
@@ -480,7 +487,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "trading"
-   ]
+   ],
+   "trading_kind": null
   },
   "23": {
    "company": "City Furniture",
@@ -502,7 +510,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "24": {
    "company": "BrandsMart USA",
@@ -524,7 +533,8 @@
    "ground": "Other",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "25": {
    "company": "Perry Ellis International",
@@ -537,7 +547,7 @@
     "Address": false,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -546,7 +556,8 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": null
   },
   "26": {
    "company": "JM Family Enterprises",
@@ -559,16 +570,17 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
-   "band": 4,
+   "class": "Unsourced",
+   "band": 3,
    "bandTier": "B",
    "ground": "Distribution & Wholesale",
    "why": [
-    "sourced once, outside the window"
-   ]
+    "trading"
+   ],
+   "trading_kind": null
   },
   "27": {
    "company": "World Kinect",
@@ -581,16 +593,17 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Unsourced",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
    "why": [
-    "sourced once, outside the window"
-   ]
+    "trading"
+   ],
+   "trading_kind": null
   },
   "28": {
    "company": "HEICO",
@@ -603,7 +616,7 @@
     "Address": false,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Unsourced",
@@ -612,7 +625,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "29": {
    "company": "Sintavia",
@@ -625,16 +639,18 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
-   "band": 2,
+   "class": "Unsourced",
+   "band": 3,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
    "why": [
-    "sourced once, outside the window"
-   ]
+    "trading",
+    "dm"
+   ],
+   "trading_kind": null
   },
   "30": {
    "company": "VSE Aviation",
@@ -656,7 +672,8 @@
    "ground": "Other",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "31": {
    "company": "Cordis",
@@ -678,7 +695,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "32": {
    "company": "Noven Pharmaceuticals",
@@ -700,7 +718,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "33": {
    "company": "Eco Window Systems",
@@ -720,7 +739,8 @@
    "band": 4,
    "bandTier": "A",
    "ground": "Other",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "34": {
    "company": "Cigarette Racing Team",
@@ -733,16 +753,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
-   "band": 2,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "35": {
    "company": "WTDC Logistics",
@@ -762,7 +781,8 @@
    "band": 1,
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "36": {
    "company": "SkyPostal",
@@ -782,7 +802,8 @@
    "band": 4,
    "bandTier": "A",
    "ground": "Other",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "37": {
    "company": "Fulfillment Hub USA",
@@ -795,16 +816,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
-   "band": 2,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "38": {
    "company": "TBC Corporation",
@@ -826,7 +846,8 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "39": {
    "company": "Oxbow Carbon",
@@ -848,7 +869,8 @@
    "ground": "Other",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "40": {
    "company": "Florida Crystals",
@@ -861,7 +883,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Suspect",
@@ -870,7 +892,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "41": {
    "company": "Vigo Importing",
@@ -893,13 +916,14 @@
    "why": [
     "website names a different company",
     "role or family as decision maker"
-   ]
+   ],
+   "trading_kind": null
   },
   "42": {
    "company": "Pepin Distributing",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -908,14 +932,13 @@
     "Tier": true,
     "Window": true
    },
-   "workable": false,
-   "class": "Unsourced",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
-   "why": [
-    "trading"
-   ]
+   "why": [],
+   "trading_kind": "site"
   },
   "43": {
    "company": "Great Bay Distributors",
@@ -937,7 +960,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "role or family as decision maker"
-   ]
+   ],
+   "trading_kind": null
   },
   "44": {
    "company": "J.J. Taylor Distributing FL",
@@ -950,16 +974,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "45": {
    "company": "Coca-Cola Beverages Florida",
@@ -981,7 +1004,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "46": {
    "company": "Trademark Metals Recycling",
@@ -1003,7 +1027,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "dm"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "47": {
    "company": "Masonite International",
@@ -1025,7 +1050,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "48": {
    "company": "Rooms To Go",
@@ -1047,7 +1073,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "trading"
-   ]
+   ],
+   "trading_kind": null
   },
   "49": {
    "company": "Jabil",
@@ -1069,7 +1096,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "50": {
    "company": "TD Synnex",
@@ -1091,76 +1119,11 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "51": {
    "company": "Helios Technologies (Sun Hydraulics)",
-   "tests": {
-    "Company": true,
-    "Trading": false,
-    "Decision maker": true,
-    "Title": true,
-    "Phone": true,
-    "Address": true,
-    "Website": true,
-    "Tier": true,
-    "Window": false
-   },
-   "workable": false,
-   "class": "Stale",
-   "band": 4,
-   "bandTier": "B",
-   "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
-  },
-  "52": {
-   "company": "Boar's Head Provisions",
-   "tests": {
-    "Company": true,
-    "Trading": true,
-    "Decision maker": true,
-    "Title": true,
-    "Phone": false,
-    "Address": true,
-    "Website": false,
-    "Tier": true,
-    "Window": false
-   },
-   "workable": false,
-   "class": "Stale",
-   "band": 4,
-   "bandTier": "B",
-   "ground": "Food & Beverage Processing",
-   "why": [
-    "sourced once, outside the window"
-   ]
-  },
-  "53": {
-   "company": "Tropicana Brands",
-   "tests": {
-    "Company": true,
-    "Trading": true,
-    "Decision maker": false,
-    "Title": false,
-    "Phone": false,
-    "Address": true,
-    "Website": false,
-    "Tier": true,
-    "Window": false
-   },
-   "workable": false,
-   "class": "Stale",
-   "band": 4,
-   "bandTier": "C",
-   "ground": "Food & Beverage Processing",
-   "why": [
-    "sourced once, outside the window"
-   ]
-  },
-  "54": {
-   "company": "Bealls Inc.",
    "tests": {
     "Company": true,
     "Trading": false,
@@ -1174,12 +1137,78 @@
    },
    "workable": false,
    "class": "Unsourced",
+   "band": 3,
+   "bandTier": "B",
+   "ground": "Manufacturing & Industrial",
+   "why": [
+    "trading"
+   ],
+   "trading_kind": null
+  },
+  "52": {
+   "company": "Boar's Head Provisions",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": true,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Live",
+   "band": 4,
+   "bandTier": "B",
+   "ground": "Food & Beverage Processing",
+   "why": [],
+   "trading_kind": "other dated check"
+  },
+  "53": {
+   "company": "Tropicana Brands",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": false,
+    "Title": false,
+    "Phone": false,
+    "Address": true,
+    "Website": false,
+    "Tier": true,
+    "Window": true
+   },
+   "workable": false,
+   "class": "Unsourced",
+   "band": 4,
+   "bandTier": "C",
+   "ground": "Food & Beverage Processing",
+   "why": [
+    "dm"
+   ],
+   "trading_kind": "other dated check"
+  },
+  "54": {
+   "company": "Bealls Inc.",
+   "tests": {
+    "Company": true,
+    "Trading": true,
+    "Decision maker": true,
+    "Title": true,
+    "Phone": true,
+    "Address": true,
+    "Website": true,
+    "Tier": true,
+    "Window": true
+   },
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "A",
    "ground": "Other",
-   "why": [
-    "trading"
-   ]
+   "why": [],
+   "trading_kind": "site"
   },
   "55": {
    "company": "Tervis",
@@ -1192,7 +1221,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Stale",
@@ -1201,7 +1230,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": null
   },
   "56": {
    "company": "PGT Innovations",
@@ -1214,7 +1244,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Suspect",
@@ -1223,7 +1253,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "57": {
    "company": "Teakdecking Systems",
@@ -1243,7 +1274,8 @@
    "band": 4,
    "bandTier": "A",
    "ground": "Other",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "58": {
    "company": "Saddle Creek Logistics",
@@ -1256,16 +1288,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "59": {
    "company": "Barney's Pumps",
@@ -1285,7 +1316,8 @@
    "band": 1,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "60": {
    "company": "Florida's Natural Growers",
@@ -1307,7 +1339,8 @@
    "ground": "Food & Beverage Processing",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "62": {
    "company": "Correct Craft (Nautique)",
@@ -1320,16 +1353,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "63": {
    "company": "Regal Boats",
@@ -1351,7 +1383,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "trading"
-   ]
+   ],
+   "trading_kind": null
   },
   "64": {
    "company": "Florida Paints",
@@ -1364,16 +1397,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
-   "band": 2,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "65": {
    "company": "ABC Fine Wine &amp; Spirits",
@@ -1393,7 +1425,8 @@
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "67": {
    "company": "Duda Farm Fresh Foods",
@@ -1406,16 +1439,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage Processing",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "68": {
    "company": "E-ONE (fire apparatus)",
@@ -1437,7 +1469,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "69": {
    "company": "ClosetMaid",
@@ -1459,7 +1492,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "70": {
    "company": "Cone Distributors",
@@ -1481,7 +1515,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "71": {
    "company": "Exactech",
@@ -1503,7 +1538,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "72": {
    "company": "Monterey Boats",
@@ -1525,7 +1561,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "role or family as decision maker"
-   ]
+   ],
+   "trading_kind": null
   },
   "73": {
    "company": "Beaver Street Fisheries",
@@ -1538,7 +1575,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": true
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Unsourced",
@@ -1547,7 +1584,8 @@
    "ground": "Food & Beverage Processing",
    "why": [
     "company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "74": {
    "company": "Ring Power (CAT)",
@@ -1560,16 +1598,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "75": {
    "company": "Rulon International",
@@ -1582,16 +1619,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
-   "band": 2,
+   "workable": true,
+   "class": "Live",
+   "band": 1,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "76": {
    "company": "Safariland",
@@ -1604,16 +1640,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "77": {
    "company": "Southeastern Grocers",
@@ -1635,7 +1670,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "78": {
    "company": "Fanatics (Jax ops)",
@@ -1648,16 +1684,17 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Unsourced",
    "band": 4,
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
    "why": [
-    "sourced once, outside the window"
-   ]
+    "dm"
+   ],
+   "trading_kind": "other dated check"
   },
   "79": {
    "company": "Reid Transportation Group",
@@ -1677,7 +1714,8 @@
    "band": 1,
    "bandTier": "A",
    "ground": "Distribution & Wholesale",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "80": {
    "company": "Boston Whaler",
@@ -1690,7 +1728,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Stale",
@@ -1699,7 +1737,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": null
   },
   "81": {
    "company": "Everglades Boats",
@@ -1721,7 +1760,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "trading"
-   ]
+   ],
+   "trading_kind": null
   },
   "82": {
    "company": "El Dorado Furniture",
@@ -1734,16 +1774,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
-   "band": 2,
+   "class": "Live",
+   "band": 4,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "83": {
    "company": "Duty Free Americas",
@@ -1765,7 +1804,8 @@
    "ground": "Other",
    "why": [
     "role or family as decision maker"
-   ]
+   ],
+   "trading_kind": null
   },
   "84": {
    "company": "Sunshine Gasoline Distributors",
@@ -1787,7 +1827,8 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "trading"
-   ]
+   ],
+   "trading_kind": null
   },
   "85": {
    "company": "Goya Foods of Florida",
@@ -1809,7 +1850,8 @@
    "ground": "Food & Beverage Processing",
    "why": [
     "dm"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "86": {
    "company": "Miami Beef Company",
@@ -1822,16 +1864,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
-   "band": 2,
+   "class": "Live",
+   "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "87": {
    "company": "Antillean Marine",
@@ -1844,16 +1885,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "88": {
    "company": "Amerijet International",
@@ -1875,7 +1915,8 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "89": {
    "company": "Brown Jordan",
@@ -1897,7 +1938,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "90": {
    "company": "Ocean Bio-Chem (Star brite)",
@@ -1919,7 +1961,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "91": {
    "company": "Sheltair Aviation",
@@ -1932,7 +1975,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": true
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Unsourced",
@@ -1941,7 +1984,8 @@
    "ground": "Other",
    "why": [
     "company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "92": {
    "company": "Kellstrom Aerospace",
@@ -1963,7 +2007,8 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": null
   },
   "93": {
    "company": "Ed Morse Automotive Group",
@@ -1983,7 +2028,8 @@
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "94": {
    "company": "Rick Case Automotive Group",
@@ -1996,16 +2042,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "95": {
    "company": "Braman Motorcars",
@@ -2018,16 +2063,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "96": {
    "company": "Modernizing Medicine (ModMed)",
@@ -2049,7 +2093,8 @@
    "ground": "Other",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "97": {
    "company": "Brown Distributing",
@@ -2071,7 +2116,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "role or family as decision maker"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "98": {
    "company": "US Sugar",
@@ -2084,16 +2130,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "99": {
    "company": "Lipman Family Farms",
@@ -2113,7 +2158,8 @@
    "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage Processing",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "100": {
    "company": "Arthrex",
@@ -2133,7 +2179,8 @@
    "band": 1,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "101": {
    "company": "Suncoast Beverage Sales",
@@ -2146,7 +2193,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Stale",
@@ -2155,7 +2202,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": null
   },
   "102": {
    "company": "Shaw Development",
@@ -2177,7 +2225,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "103": {
    "company": "Alico Inc.",
@@ -2190,16 +2239,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "104": {
    "company": "Detwiler’s Farm Market",
@@ -2219,7 +2267,8 @@
    "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "105": {
    "company": "Intertape Polymer Group",
@@ -2241,7 +2290,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "106": {
    "company": "Apyx Medical",
@@ -2261,7 +2311,8 @@
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "107": {
    "company": "Plasma-Therm",
@@ -2274,16 +2325,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "108": {
    "company": "Superior Group of Companies",
@@ -2305,7 +2355,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "109": {
    "company": "FrankCrum",
@@ -2318,7 +2369,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Stale",
@@ -2327,7 +2378,8 @@
    "ground": "Other",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "110": {
    "company": "Amscot Financial",
@@ -2340,16 +2392,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "111": {
    "company": "BlueGrace Logistics",
@@ -2362,16 +2413,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "112": {
    "company": "Morgan Auto Group",
@@ -2384,7 +2434,7 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
    "class": "Unsourced",
@@ -2393,7 +2443,8 @@
    "ground": "Other",
    "why": [
     "company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "114": {
    "company": "Checkers &amp; Rally’s",
@@ -2415,13 +2466,14 @@
    "ground": "Other",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "115": {
    "company": "Wish Farms",
    "tests": {
     "Company": true,
-    "Trading": false,
+    "Trading": true,
     "Decision maker": true,
     "Title": true,
     "Phone": true,
@@ -2430,14 +2482,13 @@
     "Tier": true,
     "Window": true
    },
-   "workable": false,
-   "class": "Unsourced",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "A",
    "ground": "Other",
-   "why": [
-    "trading"
-   ]
+   "why": [],
+   "trading_kind": "site"
   },
   "116": {
    "company": "Florida Beer Company",
@@ -2459,7 +2510,8 @@
    "ground": "Other",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "117": {
    "company": "Wayne Densch Inc.",
@@ -2472,16 +2524,17 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Unsourced",
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
    "why": [
-    "sourced once, outside the window"
-   ]
+    "dm"
+   ],
+   "trading_kind": "other dated check"
   },
   "118": {
    "company": "S.R. Perrott",
@@ -2501,7 +2554,8 @@
    "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "119": {
    "company": "Massey Services",
@@ -2514,16 +2568,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "120": {
    "company": "Mears Transportation",
@@ -2536,16 +2589,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "121": {
    "company": "Rosen Hotels &amp; Resorts",
@@ -2567,7 +2619,8 @@
    "ground": "Other",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "122": {
    "company": "Westgate Resorts",
@@ -2580,16 +2633,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "123": {
    "company": "Cavalier Distributing Florida",
@@ -2602,16 +2654,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Food & Beverage distribution/retail",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "124": {
    "company": "Sonny’s BBQ",
@@ -2624,16 +2675,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Food & Beverage distribution/retail",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "125": {
    "company": "4R Restaurant Group (4 Rivers)",
@@ -2646,7 +2696,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -2655,7 +2705,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "126": {
    "company": "Piper Aircraft",
@@ -2677,7 +2728,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "127": {
    "company": "IMG Citrus",
@@ -2697,7 +2749,8 @@
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "128": {
    "company": "Natalie’s Orchid Island Juice",
@@ -2719,7 +2772,8 @@
    "ground": "Food & Beverage Processing",
    "why": [
     "trading"
-   ]
+   ],
+   "trading_kind": null
   },
   "129": {
    "company": "Pursuit Boats",
@@ -2741,7 +2795,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "130": {
    "company": "Twin Vee PowerCats",
@@ -2763,7 +2818,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "131": {
    "company": "Satcom Direct",
@@ -2785,7 +2841,8 @@
    "ground": "Other",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": null
   },
   "132": {
    "company": "Vac-Con",
@@ -2807,7 +2864,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "133": {
    "company": "Sally Dark Rides",
@@ -2827,7 +2885,8 @@
    "band": 1,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "134": {
    "company": "Bubba Foods",
@@ -2840,7 +2899,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
    "class": "Suspect",
@@ -2849,7 +2908,8 @@
    "ground": "Food & Beverage Processing",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "135": {
    "company": "American Coolair",
@@ -2869,7 +2929,8 @@
    "band": 1,
    "bandTier": "A",
    "ground": "Manufacturing & Industrial",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "136": {
    "company": "Miller Electric Company",
@@ -2891,7 +2952,8 @@
    "ground": "Other",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "137": {
    "company": "W.W. Gay Mechanical",
@@ -2913,7 +2975,8 @@
    "ground": "Other",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "138": {
    "company": "Gate Petroleum",
@@ -2926,16 +2989,15 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "139": {
    "company": "Swisher",
@@ -2948,16 +3010,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Manufacturing & Industrial",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "140": {
    "company": "Mac Papers + Packaging",
@@ -2979,7 +3040,8 @@
    "ground": "Manufacturing & Industrial",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "141": {
    "company": "Patriot Transportation",
@@ -3001,7 +3063,8 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "sourced once, outside the window"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "142": {
    "company": "ICI Homes",
@@ -3014,16 +3077,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
-   "workable": false,
-   "class": "Stale",
+   "workable": true,
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "143": {
    "company": "Trailer Bridge",
@@ -3036,16 +3098,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "144": {
    "company": "TOTE Maritime",
@@ -3058,17 +3119,17 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": true
+    "Window": "Blind"
    },
    "workable": false,
-   "class": "Unsourced",
+   "class": "Stale",
    "band": 4,
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
    "why": [
-    "trading",
-    "dm"
-   ]
+    "sourced once, outside the window"
+   ],
+   "trading_kind": null
   },
   "145": {
    "company": "Innisfree Hotels",
@@ -3081,16 +3142,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "B",
    "ground": "Other",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "146": {
    "company": "Studer Family of Companies",
@@ -3103,7 +3163,7 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": "Blind"
    },
    "workable": false,
    "class": "Unsourced",
@@ -3113,7 +3173,8 @@
    "why": [
     "company",
     "dm"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "147": {
    "company": "Milam’s Markets",
@@ -3133,7 +3194,8 @@
    "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "148": {
    "company": "Doris Italian Market",
@@ -3153,7 +3215,8 @@
    "band": 4,
    "bandTier": "A",
    "ground": "Food & Beverage distribution/retail",
-   "why": []
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "149": {
    "company": "Fresco y Más",
@@ -3175,7 +3238,8 @@
    "ground": "Food & Beverage distribution/retail",
    "why": [
     "website names a different company"
-   ]
+   ],
+   "trading_kind": "other dated check"
   },
   "150": {
    "company": "Magaya",
@@ -3188,16 +3252,15 @@
     "Address": true,
     "Website": true,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Live",
    "band": 4,
    "bandTier": "C",
    "ground": "Distribution & Wholesale",
-   "why": [
-    "sourced once, outside the window"
-   ]
+   "why": [],
+   "trading_kind": "other dated check"
   },
   "151": {
    "company": "IBC Airways",
@@ -3219,7 +3282,8 @@
    "ground": "Distribution & Wholesale",
    "why": [
     "trading"
-   ]
+   ],
+   "trading_kind": null
   },
   "152": {
    "company": "Cutrale Citrus Juices USA",
@@ -3232,16 +3296,17 @@
     "Address": true,
     "Website": false,
     "Tier": true,
-    "Window": false
+    "Window": true
    },
    "workable": false,
-   "class": "Stale",
+   "class": "Unsourced",
    "band": 4,
    "bandTier": "C",
    "ground": "Other",
    "why": [
-    "sourced once, outside the window"
-   ]
+    "dm"
+   ],
+   "trading_kind": "other dated check"
   },
   "153": {
    "company": "Kelly Tractor Co.",
@@ -3261,7 +3326,8 @@
    "band": 4,
    "bandTier": "A",
    "ground": "Other",
-   "why": []
+   "why": [],
+   "trading_kind": "registry"
   }
  }
 }
