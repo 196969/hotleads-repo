@@ -1,0 +1,218 @@
+{
+ "_doc": "reads.py — Item 320 Part 2 (C6, 29 Oct 2026). Site-read state per row, in <market>-reads.json at the repository root.",
+ "rows": {
+  "112": {
+   "state": "closed",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "403",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "challenge",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "closed",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": "challenge",
+   "last": "2026-10-29",
+   "reason": "ruled closed to automated reading — phone only"
+  },
+  "92": {
+   "state": "refused",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "timeout",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "522",
+     "note": ""
+    }
+   ],
+   "rerun": true,
+   "kind": "522",
+   "last": "2026-10-29"
+  },
+  "116": {
+   "state": "refused",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "503",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "503",
+     "note": ""
+    }
+   ],
+   "rerun": true,
+   "kind": "503",
+   "last": "2026-10-29"
+  },
+  "150": {
+   "state": "refused",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "503",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "503",
+     "note": ""
+    }
+   ],
+   "rerun": true,
+   "kind": "503",
+   "last": "2026-10-29"
+  },
+  "120": {
+   "state": "refused",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "403",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "403",
+     "note": ""
+    }
+   ],
+   "rerun": true,
+   "kind": "403",
+   "last": "2026-10-29"
+  },
+  "63": {
+   "state": "refused",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "net",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "challenge",
+     "note": ""
+    }
+   ],
+   "rerun": true,
+   "kind": "challenge",
+   "last": "2026-10-29"
+  },
+  "142": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "403",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "refused",
+     "kind": "challenge",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "148": {
+   "state": "not_found",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "timeout",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "not_found",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  },
+  "40": {
+   "state": "read",
+   "attempts": [
+    {
+     "date": "2026-10-29",
+     "reader": "script",
+     "outcome": "refused",
+     "kind": "403",
+     "note": ""
+    },
+    {
+     "date": "2026-10-29",
+     "reader": "browser",
+     "outcome": "read",
+     "kind": null,
+     "note": ""
+    }
+   ],
+   "rerun": false,
+   "kind": null,
+   "last": "2026-10-29"
+  }
+ }
+}
