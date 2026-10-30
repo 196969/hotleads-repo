@@ -746,6 +746,20 @@
    "date": "2026-10-30",
    "step": "9.0.h",
    "ruling": "band, option (a): published annual revenue only; ceiling $25,000,000; no lower bound; no published figure held as size-unsourced; 9.6 renamed band ceiling"
+  },
+  {
+   "date": "2026-10-30",
+   "chunk": "C-prep",
+   "fault": 25,
+   "class": "read outside the brief (stop 25)",
+   "note": "the dry-run fixture block crashed after redirecting the scratch log and before planting pages or rewriting routes; the runner then read the real declared routes through the local reader: about 30 network reads to the ten declared sources across two runs, answered 403/404 or a page; none entered the live log; nothing live was written"
+  },
+  {
+   "date": "2026-10-30",
+   "chunk": "C-prep",
+   "fault": 26,
+   "class": "reporting — evidence destroyed before it was read",
+   "note": "the per-URL record of those reads sat in dry-bot-log.jsonl; the count opened florida-bot-log.jsonl (absent), read zero, and the scratch folder was removed; the count in the report is reconstructed from run output"
   }
  ]
 }

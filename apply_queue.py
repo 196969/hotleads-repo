@@ -22,6 +22,32 @@ def apply_practice(m):
         nb=row[:c[-1].start(2)]+line+row[c[-1].start(2):]; t=t.replace(row,nb,1); e['status']='applied'; e['applied_on']=e['confirmed_on']; applied.append(k)
     open(m+'.html','w',encoding='utf-8').write(t); json.dump(Q,open(qp,'w',encoding='utf-8'),indent=1,ensure_ascii=False); print('practice applied:',applied,'| refused:',refused)
 
+
+def apply_intake(m):
+    """Chunk C ruling 7: carries CONFIRMED intake candidates (confirmed_by, confirmed_on, tests 3 and 4 recorded as the human's decision) into the
+    intake table of <m>-expansion.html as Unverified rows. Band is written 'derived' (never typed); Tier is 'Unverified'. The validator's typed-band
+    and typed-tier refusals apply. A candidate with no company name, no signal URL or no decision on tests 3 and 4 is refused."""
+    import os
+    qp=m+'-intake-queue.json'
+    if not os.path.exists(qp): print('intake: no queue'); return
+    Q=json.load(open(qp,encoding='utf-8')); p=m+'-expansion.html'; t=open(p,encoding='utf-8').read(); applied=[]; refused=[]
+    mt=re.search(r'(<table id="intake">.*?<tbody>)(.*?)(</tbody></table>)',t,re.S)
+    if not mt: print('intake: no intake table'); return
+    body=mt.group(2); n=len(re.findall(r'<tr',body))
+    for k,e in Q.items():
+        if e.get('status')!='confirmed': continue
+        if not (e.get('confirmed_by') and e.get('confirmed_on')): refused.append((k,'confirmed without confirmed_by or confirmed_on')); continue
+        if not e.get('company'): refused.append((k,'no company name — the human names it from the signal before confirming')); continue
+        t34=e.get('tests_3_4') or {}
+        if not (t34.get('test3') and t34.get('test4')): refused.append((k,'tests 3 and 4 not recorded as the human’s decision')); continue
+        s=e.get('signal') or {}
+        if not (s.get('url') and s.get('read')): refused.append((k,'signal lacks URL or read date')); continue
+        n+=1; key=f'N{n}'; esc=lambda x: html.escape(str(x or ''))
+        hist=e.get('history') or {}; hist_txt='; '.join(f'{kk}: {vv.get("text")} ({vv.get("url")} \u00b7 read {vv.get("read")})' for kk,vv in hist.items() if vv.get('url') and vv.get('read')) or ''
+        row=('<tr><td>'+key+'</td><td><strong>'+esc(e['company'])+'</strong></td><td>'+esc(s.get('sentence'))+' (Src: '+esc(s.get('url'))+' \u00b7 published '+esc(s.get('published'))+' \u00b7 read '+esc(s.get('read'))+')</td><td>'+esc(e.get('evidence_source','signal'))+'</td><td>'+esc(t34.get('decision_maker',''))+'</td><td>'+esc((e.get('phone') or {}).get('value',''))+'</td><td>'+esc((e.get('email') or {}).get('value',''))+'</td><td>'+esc(e.get('reachable_channel',''))+'</td><td>'+esc(e['practice'])+' \u2014 '+esc(t34.get('test3'))+'</td><td>'+esc(hist_txt)+'</td><td>derived</td><td>Unverified</td><td>'+esc('Intake '+e['confirmed_on']+' confirmed by '+e['confirmed_by']+' (self-confirmation stated)'+('; test 1: '+e['test1'] if e.get('test1') else '')+('; band: '+e['band']['why'] if e.get('band') else ''))+'</td></tr>')
+        body+=row+'\n'; e['status']='applied'; e['applied_on']=e['confirmed_on']; e['intake_key']=key; applied.append((k,key))
+    t=t.replace(mt.group(0),mt.group(1)+body+mt.group(3),1); open(p,'w',encoding='utf-8').write(t); json.dump(Q,open(qp,'w',encoding='utf-8'),indent=1,ensure_ascii=False); print('intake applied:',applied,'| refused:',refused); return applied,refused
+
 def main(m):
     Q=json.load(open(m+'-bot-queue.json',encoding='utf-8')); t=open(m+'.html',encoding='utf-8').read(); tb=re.search(r'<table[^>]*>(.*?)</table>',t,re.S)
     hd=[re.sub(r'\s+',' ',re.sub('<[^>]+>','',h)).strip() for h in re.findall(r'<th[^>]*>(.*?)</th>',tb.group(1),re.S)]; ix={h:i for i,h in enumerate(hd)}; applied=[]; refused=[]
@@ -41,4 +67,4 @@ def main(m):
             parts.append(row[last:cell.start(2)]+b); last=cell.end(2)
         t=t.replace(row,''.join(parts)+row[last:],1); e['bot_status']='applied'; e['applied_on']=d; applied.append(k)
     open(m+'.html','w',encoding='utf-8').write(t); json.dump(Q,open(m+'-bot-queue.json','w',encoding='utf-8'),indent=1,ensure_ascii=False); print('applied:',applied,'| refused:',refused)
-if __name__=='__main__': apply_practice(sys.argv[1] if len(sys.argv)>1 else 'florida'); main(sys.argv[1] if len(sys.argv)>1 else 'florida')
+if __name__=='__main__': apply_intake(sys.argv[1] if len(sys.argv)>1 else 'florida'); apply_practice(sys.argv[1] if len(sys.argv)>1 else 'florida'); main(sys.argv[1] if len(sys.argv)>1 else 'florida')

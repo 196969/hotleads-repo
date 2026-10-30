@@ -210,5 +210,147 @@
   "lower_bound": null,
   "no_published_figure": "held as size-unsourced: not admitted, not rejected, re-read when a page gives a number; never inferred",
   "renamed": "9.6 and the module check are the band ceiling, not a floor"
+ },
+ "discovery": {
+  "ruled": "Chunk C pre-rulings, 30 Oct 2026 (rulings 1–11); sources accepted as declared, no strikes, no additions",
+  "thirds": {
+   "rule": "the day’s ceiling split in equal thirds per practice, remainder unspent; the known-answer read and the six re-reads are charged to Acquisitions",
+   "per_practice": 66,
+   "unspent": 2
+  },
+  "round_robin": "one source read per practice per round, in the order below; a source that refuses or whose probe fails stops that source only",
+  "practices": {
+   "Private Equity": {
+    "sources": [
+     {
+      "id": "hig",
+      "name": "H.I.G. Capital",
+      "base": "Miami",
+      "route": "https://hig.com/portfolio/",
+      "kind": "portfolio page",
+      "item_pattern": "href=\"(https?://(?:www\\.)?hig\\.com/portfolio/[^\"/]+/?)\"[^>]*>\\s*([^<]{2,80})<"
+     },
+     {
+      "id": "suncap",
+      "name": "Sun Capital Partners",
+      "base": "Boca Raton",
+      "route": "https://www.suncappart.com/portfolio/",
+      "kind": "portfolio page",
+      "item_pattern": "href=\"(https?://(?:www\\.)?suncappart\\.com/portfolio/[^\"/]+/?)\"[^>]*>\\s*([^<]{2,80})<"
+     },
+     {
+      "id": "trivest",
+      "name": "Trivest Partners",
+      "base": "Coral Gables",
+      "route": "https://www.trivest.com/portfolio/",
+      "kind": "portfolio page",
+      "item_pattern": "href=\"(https?://(?:www\\.)?trivest\\.com/portfolio/[^\"/]+/?)\"[^>]*>\\s*([^<]{2,80})<"
+     },
+     {
+      "id": "comvest",
+      "name": "Comvest Partners",
+      "base": "West Palm Beach",
+      "route": "https://www.comvest.com/portfolio/",
+      "kind": "portfolio page",
+      "item_pattern": "href=\"(https?://(?:www\\.)?comvest\\.com/portfolio/[^\"/]+/?)\"[^>]*>\\s*([^<]{2,80})<"
+     },
+     {
+      "id": "boyne",
+      "name": "Boyne Capital",
+      "base": "Miami",
+      "route": "https://boynecapital.com/portfolio/",
+      "kind": "portfolio page",
+      "item_pattern": "href=\"(https?://(?:www\\.)?boynecapital\\.com/portfolio/[^\"/]+/?)\"[^>]*>\\s*([^<]{2,80})<"
+     }
+    ],
+    "rule": "each portfolio page read once; every company named there is a candidate; its own page read for test 1 the same day within the PE third; a sponsor whose Florida base its own site does not confirm is recorded not Florida-based and not read further; a company already on file (test 2) is a signal on the existing row, not a candidate (ruling 11)"
+   },
+   "Acquisitions": {
+    "sources": [
+     {
+      "id": "florida_trend",
+      "name": "Florida Trend (own search)",
+      "route": "https://www.floridatrend.com/search?q={q}",
+      "kind": "site search",
+      "queries": [
+       "acquired Florida",
+       "acquisition Florida",
+       "succession Florida",
+       "retiring owner Florida",
+       "sold the company Florida",
+       "ESOP Florida"
+      ],
+      "item_pattern": "href=\"(https?://(?:www\\.)?floridatrend\\.com/article/\\d+/[^\"]*)\"",
+      "note": "the first seven reads of the day (known-answer + six re-reads) run here and are charged to this third"
+     },
+     {
+      "id": "bizbuysell",
+      "name": "BizBuySell (own Florida index)",
+      "route": "https://www.bizbuysell.com/florida-businesses-for-sale/",
+      "kind": "listing index",
+      "item_pattern": "href=\"(https?://(?:www\\.)?bizbuysell\\.com/Business-Opportunity/[^\"]+)\"[^>]*>\\s*([^<]{2,120})<",
+      "note": "anonymous listings are unusable, never guessed; counted as unusable"
+     }
+    ]
+   },
+   "Fractionals": {
+    "sources": [
+     {
+      "id": "indeed",
+      "name": "Indeed (own search)",
+      "route": "https://www.indeed.com/jobs?q={q}&l=Florida",
+      "kind": "job board search",
+      "queries": [
+       "CFO",
+       "controller",
+       "director of operations",
+       "interim CFO"
+      ],
+      "item_pattern": "data-jk=\"([a-f0-9]{8,})\"[^>]*>|<span[^>]*title=\"([^\"]{3,120})\""
+     },
+     {
+      "id": "ziprecruiter",
+      "name": "ZipRecruiter (own search)",
+      "route": "https://www.ziprecruiter.com/jobs-search?search={q}&location=Florida",
+      "kind": "job board search",
+      "queries": [
+       "CFO",
+       "controller",
+       "director of operations",
+       "interim CFO"
+      ],
+      "item_pattern": "href=\"(https?://(?:www\\.)?ziprecruiter\\.com/c/[^\"]+)\""
+     },
+     {
+      "id": "glassdoor",
+      "name": "Glassdoor (own search)",
+      "route": "https://www.glassdoor.com/Job/florida-{q}-jobs-SRCH_IL.0,7_IS3318_KO8,{n}.htm",
+      "kind": "job board search",
+      "queries": [
+       "cfo",
+       "controller",
+       "director-of-operations",
+       "interim-cfo"
+      ],
+      "item_pattern": "href=\"(https?://(?:www\\.)?glassdoor\\.com/job-listing/[^\"]+)\""
+     }
+    ],
+    "rule": "refusals expected; logged by source with kind; a company’s own careers page is never a signal"
+   }
+  },
+  "day_one": {
+   "start_date_utc": "2026-10-31",
+   "order": [
+    "gate",
+    "known-answer read (Florida Trend; failure stops Florida Trend only)",
+    "six re-reads",
+    "every declared source probed with its control",
+    "round-robin discovery to the ceiling or exhaustion",
+    "candidates to the Intake queue",
+    "Part 10 re-measure",
+    "one report per 9.8 and Section 12"
+   ],
+   "sitting": "the Chair judges tests 3 and 4 by name at the end, in one sitting; start and end clock times stated in one line"
+  }
  }
 }
