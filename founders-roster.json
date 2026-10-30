@@ -957,6 +957,23 @@
     "under site-by-any-route a host that fails the proof is a failed guess (the Chair’s ruling), so the wrongness stop as written has no event to count; reported as 0 with that reason, not as a clean reading",
     "American Fasteners’ “$39M” is a deal value, not revenue; not read as a size figure"
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 8,
+   "fault": 46,
+   "note": "the revenue class’s 36 reads were spent in queue order, so the three carried companies’ narrow routes (9 reads each) used the budget before American Fasteners, whose every route was untried, got any read; the decision point required all five tried and cannot be read as measured shut"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 8,
+   "fault": 47,
+   "note": "the ownership proof passed the publisher’s own page: “Madison’s 1901 Inc” has one letter token, “Madison”, and In Business Madison’s title carries it. The article-link route offered the publisher’s host because it carries the token. A proof that matches one token is fooled by any page that shares a word with the name; repair: the whole bound name (normalised) must appear in the proving field, proved on a planted publisher page before the next window"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 8,
+   "note": "the tightened queries still returned no-company articles: a fund-commentary note, a “Top 10 PE firms” listicle, and the race for Florida’s elected CFO (a political office read as a CFO appointment); narrowing by negative terms does not reach these classes"
   }
  ]
 }

@@ -18714,5 +18714,283 @@
    "companies_found": [],
    "spans_examined": []
   }
+ },
+ "Acquisitions:gnews_rss_w8:663": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w8",
+  "company": "Madison’s 1901 Inc",
+  "signal": {
+   "sentence": " Florida company acquires Madison’s 1901 Inc.",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56a2VRRG5vRXRna2FDUWpudE91U2paUDg1S21McXZDV0lCV3dSQ1UxeFlSSVFRT3hHQVlZLXAyOFBraVZGYTZtMlRDRXFtUk9VMm54dTdyNnZKSkJpdWM3UHNrSS1za1RIeDQxQXIyNnpLMDg?oc=5",
+   "published": "2026-09-09",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Florida company acquires Madison’s 1901 Inc. - In Business Madison",
+  "query": "\"Florida\" company acquired -university -college -pension -\"State Board\" -opinion -column",
+  "evidence_source": "signal",
+  "status": "proof FALSE: ibmadison.com is the publisher (In Business Madison); its title carries “Madison”, the only letter token of the bound name (fault 47); no site found by any route — held; test-1 reading withdrawn",
+  "naming": {
+   "headline": "Florida company acquires Madison’s 1901 Inc.",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "on. Limbach Holdings Inc., a building systems firm based in Tampa, Florida, has acquired Madison’s 1901 I",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "Madison’s 1901 Inc",
+   "acquirer": "Florida company",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Florida company acquires Madison’s 1901 Inc.",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Florida company acquires Madison’s 1901 Inc.",
+    "position": "headline"
+   },
+   "body_bind_agrees": true
+  },
+  "company_named": true,
+  "acquirer": "Florida company",
+  "city": "Tampa",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://ibmadison.com/",
+    "outcome": "proved",
+    "proof": {
+     "where": "title",
+     "span": "In Business Madison - Wisconsin Capital Region Business News",
+     "construction": "direct"
+    }
+   }
+  ],
+  "site": "https://ibmadison.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "In Business Madison - Wisconsin Capital Region Business News",
+   "construction": "direct"
+  },
+  "site_route": "article link",
+  "test1": "no Florida address on the company’s own page",
+  "test1_pass": null,
+  "phone": null,
+  "email": null,
+  "test5": "form",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  },
+  "site_proof_false": true
+ },
+ "Private Equity:gnews_rss_w8:664": {
+  "practice": "Private Equity",
+  "source": "gnews_rss_w8",
+  "company": "",
+  "signal": {
+   "sentence": " Florida fund shines light on Southeast PEI Private Equity News & analysis Data Performance & rankings Network & events Sectors Regions Florida fund shines light on Southeast Sunrock Ventures aims to raise $100M to invest on early stage deals in the Southeastern United States.",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMWZtT3BCYkdqTGdwd1JKQ0p2bVZUSUJxYThiUVhpbXJPT3BPTi1ReFVES3ZoVDB0RndlWl9iTGVham50bk5UZnMwNjJ3UDYwT2dLOWU5Z0dMcHNHRHZnalJsLUpmd093c3FPaE8xYnIycEpFSjVabE1PM0lyZ2J0Q1ZBSXFPSzVqV1E?oc=5",
+   "published": "2007-11-01",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Florida fund shines light on Southeast - PEI Private Equity",
+  "query": "\"Florida\" \"private equity\" invests -university -college -pension -\"State Board\" -opinion -column",
+  "evidence_source": "signal",
+  "status": "unbound — detector result on the row",
+  "naming": {
+   "headline": "Florida fund shines light on Southeast",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "unbound",
+   "split": "no-company-named (the detector found none in the article’s own text)",
+   "detector": "legal-form suffix over the headline and the article’s own text (<article> element)",
+   "companies_found": [],
+   "spans_examined": []
+  }
+ },
+ "Private Equity:gnews_rss_w8:665": {
+  "practice": "Private Equity",
+  "source": "gnews_rss_w8",
+  "company": "",
+  "signal": {
+   "sentence": " Top 10 Private Equity Firms in Tampa 2026 Platform Products Dakota Marketplace Dakota Recommends Dakota Private Markets Connectors Chat GPT Claude Copilot Features AI Report Builder Chrome Extension Claude App Research As A Service Integrations Salesforce Hubspot Backstop Intapp DealCloud Snowflake Dynamo Altvia Pinnakl APIs Data Partners Partner Network Financial Media Companies Private Fund Ben",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdXJhN0ZtU1B2LU1mcWxKb25jT0ZtcEdLeTR2dVlHckZIZEhWbm1taVk3NG9Ca2dpNjBObUNwQjJNRXZKbDdHRWphYUhDbnMwTE90ODdTMlpnNVlmOHE2N190Y0l6SjMxaHVxMEdTSVBzeFFRS2MydDAtVHBtWTBqTm5uVDR4Zw?oc=5",
+   "published": "2026-08-27",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Top 10 Private Equity Firms in Tampa 2026 - www.dakota.com",
+  "query": "\"Florida\" \"private equity\" invests -university -college -pension -\"State Board\" -opinion -column",
+  "evidence_source": "signal",
+  "status": "unbound — detector result on the row",
+  "naming": {
+   "headline": "Top 10 Private Equity Firms in Tampa 2026",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Top 10 Private Equity Firms in Tampa 2026",
+    "position": "headline"
+   },
+   "state": "unbound",
+   "split": "no-company-named (the detector found none in the article’s own text)",
+   "detector": "legal-form suffix over the headline and the article’s own text (no bounded article text found)",
+   "companies_found": [],
+   "spans_examined": []
+  }
+ },
+ "Acquisitions:gnews_rss_w8:666": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w8",
+  "company": "",
+  "signal": {
+   "sentence": " Brasswater Expands Florida Hotel Portfolio With US$48M Acquisition - Connect CRE Canada Menu Filter Stories ConnectCRE.com Get Daily News Advertise Search --> --> Select Market Alberta & Prairies B.C.",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkpuTW9NQS02WkQtbHNDWFBwUFhjTjZhQ3VrMnlGV1lBOHdVemladUU5a1lFelRseFV1UUFEbFduR0dzSGhqSDRvcmN0YUhSWVJkNFo2dlFtTUVSMU15aXNvSkh4c3NEOUdncGpSS1hUUm42QlRXaTdFWkNPeWprTmh3OFkyX3pYamxZVXU0bVVRNGJHbUtRNFFNZmVjbUZPRGc?oc=5",
+   "published": "2026-10-29",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Brasswater Expands Florida Hotel Portfolio With US$48M Acquisition - Connect CRE Canada",
+  "query": "\"Florida\" acquisition -university -college -pension -\"State Board\" -opinion -column",
+  "evidence_source": "signal",
+  "status": "unbound — detector result on the row",
+  "naming": {
+   "headline": "Brasswater Expands Florida Hotel Portfolio With US$48M Acquisition",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "West Palm Beach",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "475 Gateway Blvd. for US$29.1M and the 110-room Hampton Inn West Palm Beach Florida Turnpike at 2025 Vista Pkwy. fo",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "legal-form suffix over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "Axonic Capital"
+   ],
+   "spans_examined": [
+    {
+     "position": "article text",
+     "span": "ooms at approximately US$175K per room. Axonic Capital provided US$42.2M i"
+    }
+   ]
+  }
+ },
+ "Fractionals:gnews_rss_w8:667": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w8",
+  "company": "Memorial Healthcare System",
+  "signal": {
+   "sentence": " Memorial Healthcare System Appoints Irfan Mirza as Chief Financial Officer - Florida Hospital News and Healthcare Report Home SF STAT!",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMEltSGx4MDFHcDE4RGlZZUc3QmROamJjWldTcVdITU9NQzFOWmpabS05ZWlsTF9DNGg2Qi1jR0JjSlg3WDZDVk1hUGRjcEVHU1gzVzJsaXFUTFB3QVlhbm9YSVFCa1NaVXhIS3k1dE9OSDhUVVB0V1FKZV9qbWpJTjdXX25vR2ZQc3lZNS1JU1VkZHFXeEZ1b0d6akpRWTZLMGxfS0p6Z2otNFl0TTdtMlkxMmo1YVNlbEFiTk5mYlU?oc=5",
+   "published": "2026-09-18",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Memorial Healthcare System Appoints Irfan Mirza as Chief Financial Officer - Florida Hospital News and Healthcare Report",
+  "query": "\"Florida\" \"chief financial officer\" appointed -university -college -pension -\"State Board\" -opinion -column",
+  "evidence_source": "signal",
+  "status": "site proved (article link); passes tests 1, 2 and 5; held size-unsourced",
+  "naming": {
+   "headline": "Memorial Healthcare System Appoints Irfan Mirza as Chief Financial Officer",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "Memorial Healthcare System",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "Memorial Healthcare System Appoints Irfan Mirza as Chief Financial Officer",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": true
+  },
+  "company_named": true,
+  "acquirer": null,
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://mhs.net/",
+    "outcome": "proved",
+    "proof": {
+     "where": "title",
+     "span": "Memorial Healthcare System Search facebook instagram linkedin twitter youtube facebook instagram linkedin twitter youtube",
+     "construction": "direct"
+    }
+   }
+  ],
+  "site": "https://mhs.net/",
+  "site_proof": {
+   "where": "title",
+   "span": "Memorial Healthcare System Search facebook instagram linkedin twitter youtube facebook instagram linkedin twitter youtube",
+   "construction": "direct"
+  },
+  "site_route": "article link",
+  "test1": "Florida operating address on https://mhs.net/ · read 2026-10-30",
+  "test1_pass": true,
+  "phone": null,
+  "email": null,
+  "test5": "address",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  }
+ },
+ "Fractionals:gnews_rss_w8:668": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w8",
+  "company": "",
+  "signal": {
+   "sentence": " A ‘watchdog,’ not a ‘lapdog’: Annette Taddeo is running to unseat Blaise Ingoglia as CFO October 30, 2026 Podcasts Lobby Firm Rankings Influence Magazine Home Elections 2026 — Statewide 2026 — Congressional 2026 — Down Ballot 2026 — Down Ballot — South Florida Culture Wars Legislative Communities Panhandle NE Florida Jax Orlando Tampa Bay St.",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORFVWVDBVNEpmR2tZbzk1NWZNUnU3c3NYZXVYZHlKeVhHNXpFeU9hbU1JYnBteFRJUlA4ZllHSFJ1ZWdjdWZXSnA1X3RFc1E4cTI5eW9HM2NFLUx1ZnA5T0dmRnV0dlN4S2lENklWWDVRTmZSb1pPYVBVN3FpUVlNajBqVmFqNXFGWWlCUmxoLTE4RDV6WHFybThvVjlQU2FpcURwVlQwUnl3VlMzN1RIX3lSTHlUb3Exa3VmVEE1eTNtdnNKSlE?oc=5",
+   "published": "2026-06-08",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "A ‘watchdog,’ not a ‘lapdog’: Annette Taddeo is running to unseat Blaise Ingoglia as CFO - Florida Politics",
+  "query": "\"Florida\" \"chief financial officer\" appointed -university -college -pension -\"State Board\" -opinion -column",
+  "evidence_source": "signal",
+  "status": "unbound — detector result on the row",
+  "naming": {
+   "headline": "A ‘watchdog,’ not a ‘lapdog’: Annette Taddeo is running to unseat Blaise Ingoglia as CFO",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Orlando",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "e everybody is breathing a sigh of relief that he found, in Orlando, that the poet laureate got a little ex",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "no-company-named (the detector found none in the article’s own text)",
+   "detector": "legal-form suffix over the headline and the article’s own text (<article> element)",
+   "companies_found": [],
+   "spans_examined": []
+  }
  }
 }
