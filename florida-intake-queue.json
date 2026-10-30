@@ -17637,11 +17637,12 @@
   "feed_title": "Inkle acquires Finally’s bookkeeping division and sets sights on South Florida growth - Refresh Miami",
   "naming": {
    "headline": "Inkle acquires Finally’s bookkeeping division and sets sights on South Florida growth",
-   "pattern_set": "v2",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
    "city": "Miami",
    "city_extraction": {
     "pattern": "Florida city name in text",
-    "span": " division and sets sights on South Florida growth - Refresh Miami Skip to content Subscribe Sign Up Sign ",
+    "span": "xpanding into the small business market Just two years ago, Miami-based fintech Finally was making headli",
     "position": "body"
    },
    "state": "rejected: span not a company",
@@ -17649,11 +17650,11 @@
    "span_taken": "Finally’s bookkeeping division",
    "acquirer": "Inkle",
    "name_extraction": {
-    "pattern": "{acquirer} acquires {company}",
+    "pattern": "{acquirer} acquire(s) {company}",
     "span": "Inkle acquires Finally’s bookkeeping division",
     "position": "headline"
    },
-   "why": "the matched span is not a company name (division, facility, business unit, firm or generic phrase)"
+   "why": "the matched span is not a company name (division, facility, unit, campus, firm or generic description)"
   },
   "city": "Miami"
  },
@@ -17673,13 +17674,14 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "unprovable-by-link, held: the article links no site for the bound name",
+  "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
   "naming": {
    "headline": "Jack Brown’s acquired by Florida investment firm",
-   "pattern_set": "v2",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
    "city": null,
    "city_extraction": {
     "pattern": "Florida city name in text",
@@ -17699,10 +17701,22 @@
     "span": "Jack Brown’s acquired by Florida investment firm",
     "position": "headline"
    },
-   "body_bind_agrees": true
+   "body_bind_agrees": false
   },
   "city": null,
-  "acquirer": "Florida investment firm"
+  "acquirer": "Florida investment firm",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.jackbrowns.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.jack-browns.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Acquisitions:gnews_rss:2": {
   "practice": "Acquisitions",
@@ -17720,13 +17734,14 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "unprovable-by-link, held: the article links no site for the bound name",
+  "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsville Business Journal",
   "naming": {
    "headline": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc",
-   "pattern_set": "v2",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
    "city": null,
    "city_extraction": {
     "pattern": "Florida city name in text",
@@ -17737,19 +17752,26 @@
    "company": "Havoc",
    "acquirer": "Florida Sports Ownership Company",
    "name_extraction": {
-    "pattern": "{acquirer} acquires controlling interest of {company}",
+    "pattern": "{acquirer} takes/acquires a stake in {company}",
     "span": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc",
     "position": "headline"
    },
    "acquirer_extraction": {
-    "pattern": "{acquirer} acquires controlling interest of {company}",
+    "pattern": "{acquirer} takes/acquires a stake in {company}",
     "span": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc",
     "position": "headline"
    },
-   "body_bind_agrees": true
+   "body_bind_agrees": false
   },
   "acquirer": "Florida Sports Ownership Company",
-  "city": null
+  "city": null,
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.havoc.com/",
+    "outcome": "resolved but failed the proof"
+   }
+  ]
  },
  "Acquisitions:gnews_rss:3": {
   "practice": "Acquisitions",
@@ -17773,12 +17795,13 @@
   "feed_title": "Florida-based NextEra agrees to $67B Dominion Energy acquisition - VPM",
   "naming": {
    "headline": "Florida-based NextEra agrees to $67B Dominion Energy acquisition",
-   "pattern_set": "v2",
-   "city": "Miami",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
    "city_extraction": {
     "pattern": "Florida city name in text",
-    "span": "s outlets in Montreal, Canada and for newspapers in Mexico, Miami and the Caribbean. He has won awards fo",
-    "position": "body"
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
    },
    "state": "bound",
    "company": "Dominion Energy",
@@ -17793,10 +17816,10 @@
     "span": "Florida-based NextEra agrees to $67B Dominion Energy acquisition",
     "position": "headline"
    },
-   "body_bind_agrees": false
+   "body_bind_agrees": true
   },
   "acquirer": "NextEra",
-  "city": "Miami"
+  "city": null
  },
  "Acquisitions:gnews_rss:4": {
   "practice": "Acquisitions",
@@ -17820,7 +17843,8 @@
   "feed_title": "Hilb Group expands Southeast footprint with Florida commercial P&amp;C acquisition - Insurance Business",
   "naming": {
    "headline": "Hilb Group expands Southeast footprint with Florida commercial P&C acquisition",
-   "pattern_set": "v2",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
    "city": null,
    "city_extraction": {
     "pattern": "Florida city name in text",
@@ -17828,59 +17852,15 @@
     "position": "none found in headline or first 6000 characters"
    },
    "state": "unbound",
-   "split": "headline-unmatched (a company is named; the patterns did not bind it)",
-   "detector": "legal-form suffix (Inc, LLC, Corp, Co, Company, Group, Holdings, Partners, Capital, Industries, Enterprises, Ltd) over the headline and the first 8000 body characters",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "legal-form suffix over the headline and the article’s own text (no bounded article text found)",
    "companies_found": [
-    "Acquisitions Hilb Group",
-    "Board Reinsurance Risk Management TV Group",
-    "Citizens Property Insurance Corporation",
-    "Hilb Group",
-    "OPTIS Partners",
-    "Related Stories The Hilb Group",
-    "Share Hilb Group",
-    "The Carlyle Group",
-    "The Hilb Group"
+    "Hilb Group"
    ],
    "spans_examined": [
     {
      "position": "headline",
      "span": "Hilb Group expands Southeast f"
-    },
-    {
-     "position": "body",
-     "span": " Hilb Group expands Southeast f"
-    },
-    {
-     "position": "body",
-     "span": "n Mergers & Acquisitions Legal Advisory Board Reinsurance Risk Management TV Group Benefits Digital Tr"
-    },
-    {
-     "position": "body",
-     "span": "n Mergers & Acquisitions Legal Advisory Board Reinsurance Risk Management TV Group Benefits Digital Tr"
-    },
-    {
-     "position": "body",
-     "span": "egular Contributors Advertise Mergers & Acquisitions Hilb Group expands Southeast f"
-    },
-    {
-     "position": "body",
-     "span": "UISITIONS By Josh Recamara Jul 05, 2026 Share Hilb Group has acquired a Flor"
-    },
-    {
-     "position": "body",
-     "span": "long-running string of acquisitions for Hilb Group, a portfolio compan"
-    },
-    {
-     "position": "body",
-     "span": " for Hilb Group, a portfolio company of The Carlyle Group. The company has now"
-    },
-    {
-     "position": "body",
-     "span": "l follows a busy first half of 2026 for Hilb Group. The company acquire"
-    },
-    {
-     "position": "body",
-     "span": "e agency on the same date. In February, Hilb Group's acquisition of a "
     }
    ]
   },
@@ -17902,13 +17882,14 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "unprovable-by-link, held: the article links no site for the bound name",
+  "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "CenterWell completes acquisition of MaxHealth in Florida - The Lane Report",
   "naming": {
    "headline": "CenterWell completes acquisition of MaxHealth in Florida",
-   "pattern_set": "v2",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
    "city": null,
    "city_extraction": {
     "pattern": "Florida city name in text",
@@ -17928,10 +17909,17 @@
     "span": "CenterWell completes acquisition of MaxHealth",
     "position": "headline"
    },
-   "body_bind_agrees": true
+   "body_bind_agrees": false
   },
   "city": null,
-  "acquirer": "CenterWell"
+  "acquirer": "CenterWell",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.maxhealth.com/",
+    "outcome": "refused (503)"
+   }
+  ]
  },
  "Acquisitions:gnews_rss:6": {
   "practice": "Acquisitions",
@@ -17949,18 +17937,19 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "unprovable-by-link, held: the article links no site for the bound name",
+  "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
   "tests_3_4": null,
   "date_field": "feed pubDate",
   "feed_title": "Michelli Weighing &amp; Measurement Announces Acquisition of Florida Industrial Scale Co. - Newswire",
   "naming": {
    "headline": "Michelli Weighing & Measurement Announces Acquisition of Florida Industrial Scale Co.",
-   "pattern_set": "v2",
-   "city": "Orlando",
+   "pattern_set": "v3",
+   "article_text_field": "JSON-LD articleBody",
+   "city": null,
    "city_extraction": {
     "pattern": "Florida city name in text",
-    "span": "tional service network expansion NIST traceable calibration Orlando industrial weighing services precision ",
-    "position": "body"
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
    },
    "state": "bound",
    "company": "Florida Industrial Scale Co",
@@ -17975,16 +17964,33 @@
     "span": "Michelli Weighing & Measurement Announces Acquisition of Florida Industrial Scale Co.",
     "position": "headline"
    },
-   "body_bind_agrees": true
+   "body_bind_agrees": false
   },
-  "city": "Orlando",
-  "acquirer": "Michelli Weighing & Measurement"
+  "city": null,
+  "acquirer": "Michelli Weighing & Measurement",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://newswire.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.floridaindustrialscale.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.florida-industrial-scale.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Acquisitions:gnews_rss:7": {
   "practice": "Acquisitions",
   "source": "gnews_rss",
   "company": "AAA Heating & Air",
-  "company_named": "provisional until the site proves it",
+  "company_named": true,
   "signal": {
    "sentence": "Florida company acquires AAA Heating & Air | Spokane Journal of Business Label Current Issue News by Sector Roundups & Features Supplements & Magazines E-Edition Journal Events Podcasts Sponsored INW Senior Home About Us Subscribe Advertise Newsroom Current Issue Latest News Special Report Up Close Opinion News by Sector Real Estate & Construction Banking & Finance Health Care Education & Talent N",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRWFwbFNtTnpXSEVGQ3NoN2JaMHlCU0pkZFQ4MmlLS3NsRjAwbThodkhwZVpET0lfMzRiUUZVX1hkRlMxRUpyZnloZUJoajFjNmFicWlLaEtkLXBjUUtmTUU1UnZ6NzA5U2V0Z2tVd3E2RkpRS0dVWUswSjM2NGxRaWNWV2kzR05oaUpWeEZB?oc=5",
@@ -17993,16 +17999,20 @@
   },
   "evidence_source": "signal",
   "company_url": null,
-  "test1": null,
+  "test1": "no Florida address on the company’s own page",
   "test2": "absent from all files",
-  "band": null,
-  "status": "unprovable-by-link, held: the article links no site for the bound name",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  },
+  "status": "proof FALSE: the derived host is a domain-for-sale page echoing the name (fault 45); no site found by any route — held; its test-1 reading is withdrawn",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Florida company acquires AAA Heating &amp; Air - Spokane Journal of Business",
   "naming": {
    "headline": "Florida company acquires AAA Heating & Air",
-   "pattern_set": "v2",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
    "city": null,
    "city_extraction": {
     "pattern": "Florida city name in text",
@@ -18013,19 +18023,52 @@
    "company": "AAA Heating & Air",
    "acquirer": "Florida company",
    "name_extraction": {
-    "pattern": "{acquirer} acquires {company}",
+    "pattern": "{acquirer} acquire(s) {company}",
     "span": "Florida company acquires AAA Heating & Air",
     "position": "headline"
    },
    "acquirer_extraction": {
-    "pattern": "{acquirer} acquires {company}",
+    "pattern": "{acquirer} acquire(s) {company}",
     "span": "Florida company acquires AAA Heating & Air",
     "position": "headline"
    },
-   "body_bind_agrees": true
+   "body_bind_agrees": false
   },
   "city": null,
-  "acquirer": "Florida company"
+  "acquirer": "Florida company",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.aaaheatingair.com/",
+    "outcome": "proved",
+    "proof": {
+     "where": "title",
+     "span": "AaaHeatingAir.com is for sale - Premium Domain Discover Card logo",
+     "construction": "direct"
+    }
+   }
+  ],
+  "site": "https://www.aaaheatingair.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "AaaHeatingAir.com is for sale - Premium Domain Discover Card logo",
+   "construction": "direct"
+  },
+  "site_route": "derived host",
+  "test1_pass": null,
+  "phone": {
+   "value": "(888) 694-6735",
+   "url": "https://www.aaaheatingair.com/",
+   "read": "2026-10-30"
+  },
+  "email": {
+   "value": "interested@domainmarket.com",
+   "url": "https://www.aaaheatingair.com/",
+   "read": "2026-10-30",
+   "role_inbox": false
+  },
+  "test5": "phone",
+  "site_proof_false": true
  },
  "Acquisitions:gnews_rss:8": {
   "practice": "Acquisitions",
@@ -18049,7 +18092,8 @@
   "feed_title": "FCC completes acquisition of Florida WTE facility - Waste Today -",
   "naming": {
    "headline": "FCC completes acquisition of Florida WTE facility",
-   "pattern_set": "v2",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
    "city": "Fort Lauderdale",
    "city_extraction": {
     "pattern": "Florida city name in text",
@@ -18065,7 +18109,7 @@
     "span": "FCC completes acquisition of Florida WTE facility",
     "position": "headline"
    },
-   "why": "the matched span is not a company name (division, facility, business unit, firm or generic phrase)"
+   "why": "the matched span is not a company name (division, facility, unit, campus, firm or generic description)"
   },
   "city": null
  },
@@ -18091,7 +18135,8 @@
   "feed_title": "CT registered investment advisor firm acquired by Florida wealth management company - Hartford Business Journal",
   "naming": {
    "headline": "CT registered investment advisor firm acquired by Florida wealth management company",
-   "pattern_set": "v2",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
    "city": "Miami",
    "city_extraction": {
     "pattern": "Florida city name in text",
@@ -18107,7 +18152,7 @@
     "span": "CT registered investment advisor firm acquired by Florida wealth management company",
     "position": "headline"
    },
-   "why": "the matched span is not a company name (division, facility, business unit, firm or generic phrase)"
+   "why": "the matched span is not a company name (division, facility, unit, campus, firm or generic description)"
   },
   "city": "Miami"
  },
@@ -18127,18 +18172,19 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "unprovable-by-link, held: the article links no site for the bound name",
+  "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Synergos Companies Expands into Florida with Acquisition of ODC Construction - PR Newswire",
   "naming": {
    "headline": "Synergos Companies Expands into Florida with Acquisition of ODC Construction",
-   "pattern_set": "v2",
-   "city": null,
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Orlando",
    "city_extraction": {
     "pattern": "Florida city name in text",
-    "span": null,
-    "position": "none found in headline or first 6000 characters"
+    "span": "t Synergos Companies. \"ODC is a trusted name in the greater Orlando market, both known and appreciated nati",
+    "position": "body"
    },
    "state": "bound",
    "company": "ODC Construction",
@@ -18155,14 +18201,26 @@
    },
    "body_bind_agrees": true
   },
-  "city": null,
-  "acquirer": "Synergos Companies"
+  "city": "Orlando",
+  "acquirer": "Synergos Companies",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.odcconstruction.com/",
+    "outcome": "refused (503)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.odc-construction.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Acquisitions:gnews_rss:11": {
   "practice": "Acquisitions",
   "source": "gnews_rss",
   "company": "Alpha Foundations",
-  "company_named": false,
+  "company_named": true,
   "signal": {
    "sentence": "Groundworks Acquires Florida-Based Alpha Foundations Accessibility Statement Skip Navigation Resources Investor Relations Journalists Agencies Client Login Send a Release News Products Contact Search Search When typing in this field, a list of search results will appear and be automatically updated as you type.",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXJTd3pRUklwbHYwSEZzY2FRc0x3Z29Fak02WEdSbDhqRVVYbUZwS2NqOWtSeFdzZnhRajdncHdLOGZYUi1kMUpwVDlKZEdQdWkzcUJwVm13RWxVX1VVd3lSLVd4dG10dWZfN1NzQ3MwUkw3VlByTkJ4ZTdiSV94NEJDQmVJYnFmdHloUUd4Tjd4UFExZ1g0N0Z5TlJuTjBOUTFPVFUza2JNMDRB?oc=5",
@@ -18171,16 +18229,20 @@
   },
   "evidence_source": "signal",
   "company_url": null,
-  "test1": null,
+  "test1": "Florida operating address on https://www.alphafoundations.com/ · read 2026-10-30",
   "test2": "absent from all files",
-  "band": null,
-  "status": "WRONG BIND: the site found for the name does not name the company",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  },
+  "status": "site proved (derived host); passes tests 1, 2 and 5; held size-unsourced",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Groundworks Acquires Florida-Based Alpha Foundations - PR Newswire",
   "naming": {
    "headline": "Groundworks Acquires Florida-Based Alpha Foundations",
-   "pattern_set": "v2",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
    "city": null,
    "city_extraction": {
     "pattern": "Florida city name in text",
@@ -18191,21 +18253,51 @@
    "company": "Alpha Foundations",
    "acquirer": "Groundworks",
    "name_extraction": {
-    "pattern": "{acquirer} acquires {company}",
+    "pattern": "{acquirer} acquire(s) {company}",
     "span": "Groundworks Acquires Florida-Based Alpha Foundations",
     "position": "headline"
    },
    "acquirer_extraction": {
-    "pattern": "{acquirer} acquires {company}",
+    "pattern": "{acquirer} acquire(s) {company}",
     "span": "Groundworks Acquires Florida-Based Alpha Foundations",
     "position": "headline"
    },
-   "body_bind_agrees": true
+   "body_bind_agrees": false
   },
   "acquirer": "Groundworks",
   "city": null,
-  "site": "https://c212.net/",
-  "site_proof": null
+  "site": "https://www.alphafoundations.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "Alpha Foundations | Foundation & Crawl Space Repair Close Icon Like Alpha Foundations on Facebook Like Alpha Foundations on X Like Alpha Foundations on Instagra",
+   "construction": "direct"
+  },
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://c212.net/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.alphafoundations.com/",
+    "outcome": "proved",
+    "proof": {
+     "where": "title",
+     "span": "Alpha Foundations | Foundation & Crawl Space Repair Close Icon Like Alpha Foundations on Facebook Like Alpha Foundations on X Like Alpha Foundations on Instagra",
+     "construction": "direct"
+    }
+   }
+  ],
+  "site_route": "derived host",
+  "test1_pass": true,
+  "phone": {
+   "value": "877-322-3446",
+   "url": "https://www.alphafoundations.com/",
+   "read": "2026-10-30"
+  },
+  "email": null,
+  "test5": "phone"
  },
  "Acquisitions:gnews_rss:12": {
   "practice": "Acquisitions",
@@ -18229,23 +18321,24 @@
   "feed_title": "The Mosaic Company to Acquire Florida Phosphate Business From CF Industries for $1.2 Billion - PR Newswire",
   "naming": {
    "headline": "The Mosaic Company to Acquire Florida Phosphate Business From CF Industries for $1.2 Billion",
-   "pattern_set": "v2",
-   "city": null,
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Tampa",
    "city_extraction": {
     "pattern": "Florida city name in text",
-    "span": null,
-    "position": "none found in headline or first 6000 characters"
+    "span": "monia terminal and finished product warehouse facilities in Tampa . The CF Industries' facilities current",
+    "position": "body"
    },
    "state": "rejected: span not a company",
    "rejected": true,
    "span_taken": "Florida Phosphate Business",
    "acquirer": "The Mosaic Company",
    "name_extraction": {
-    "pattern": "{acquirer} acquires {company}",
+    "pattern": "{acquirer} acquire(s) {company}",
     "span": "The Mosaic Company to Acquire Florida Phosphate Business",
     "position": "headline"
    },
-   "why": "the matched span is not a company name (division, facility, business unit, firm or generic phrase)"
+   "why": "the matched span is not a company name (division, facility, unit, campus, firm or generic description)"
   }
  },
  "Acquisitions:gnews_rss_w6:655": {
@@ -18430,6 +18523,196 @@
      "span": " BH Group and Gold Standard o"
     }
    ]
+  }
+ },
+ "Acquisitions:gnews_rss_w7:659": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w7",
+  "company": "American Fasteners",
+  "signal": {
+   "sentence": " DSG Acquires American Fasteners in $39M South Florida Expansion | National Association of Wholesaler-Distributors Skip to content Subscribe Log in Search MDM Topics Topics Expert Perspective Featured Leadership Mergers & Acquisitions News Operations Research Sales & Marketing Technology Top Distributor Sectors Recognition & Rewards Recognition & Rewards Women in Distribution Industry Titans Top D",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUDlycWJRZ0RzZEJfd3FobzhqV1BIVzZGUmRaLWhHZXlfUUxhM3VoTGtBV1hzQTNlNDNSbU52U2NVcU5zSGtOOUxkbGU5bEt0aUlzLTRlZGRPS2gwemEyY1F4RkZ4Z1N5TEVpaGNnT0g2Qk15TmlSZm5KTmZYSTVxY0ZVWEw2U25HMHU0dW9vcmJISjRySzJr?oc=5",
+   "published": "2026-09-02",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of Wholesaler-Distributors",
+  "query": "\"Florida\" company acquired",
+  "evidence_source": "signal",
+  "status": "site proved (article link); passes tests 1, 2 and 5; held size-unsourced",
+  "naming": {
+   "headline": "DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of Wholesaler-Distributors",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "American Fasteners",
+   "acquirer": "DSG",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "DSG Acquires American Fasteners",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "DSG Acquires American Fasteners",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": true,
+  "acquirer": "DSG",
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://americanfasteners.com/",
+    "outcome": "proved",
+    "proof": {
+     "where": "title",
+     "span": "American Fasteners | Top Supplier of Fastener, Tools, & Hardware",
+     "construction": "direct"
+    }
+   }
+  ],
+  "site": "https://americanfasteners.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "American Fasteners | Top Supplier of Fastener, Tools, & Hardware",
+   "construction": "direct"
+  },
+  "site_route": "article link",
+  "test1": "Florida operating address on https://americanfasteners.com/ · read 2026-10-30",
+  "test1_pass": true,
+  "phone": {
+   "value": "305-885-1717",
+   "url": "https://americanfasteners.com/",
+   "read": "2026-10-30"
+  },
+  "email": null,
+  "test5": "phone",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  }
+ },
+ "Private Equity:gnews_rss_w7:660": {
+  "practice": "Private Equity",
+  "source": "gnews_rss_w7",
+  "company": "",
+  "signal": {
+   "sentence": " Medium Private Equity’s Florida Takeover: Why Your AC, Plumbing & Rent Costs Keep Soaring | by Edmond Thorne | Medium Sitemap ",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRldDLXhPQ0RCVVBLVDNwT3hveWEyM2JfWUI1UWRNSTU4N1NnYmJybjNaQ1A1SEE4OENTOTRqbU1UV250S1RadzBqeDN5Zl9xcTd4QlhLdHMzS3dvYnFabGI2WDNuMzVyRnhsd3pQMU43WUFBZWQzbFY1ZDBaWjRHNjdiRF9HWkdqZHBFNV9WQVEydUE4SjZJdThDX0dVdTZOZmxVSjAwdTNrQUV4WUk5MDl3Tm1aM0Fqd1VoZ2V6R04?oc=5",
+   "published": "2026-06-21",
+   "read": "2026-10-30"
+  },
+  "date_field": "article:published_time",
+  "feed_title": "Private Equity’s Florida Takeover: Why Your AC, Plumbing & Rent Costs Keep Soaring - Medium",
+  "query": "\"Florida\" \"private equity\" invests",
+  "evidence_source": "signal",
+  "status": "unbound — detector result on the row",
+  "naming": {
+   "headline": "Private Equity’s Florida Takeover: Why Your AC, Plumbing & Rent Costs Keep Soaring",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "unbound",
+   "split": "no-company-named (the detector found none in the article’s own text)",
+   "detector": "legal-form suffix over the headline and the article’s own text (no bounded article text found)",
+   "companies_found": [],
+   "spans_examined": []
+  }
+ },
+ "Private Equity:gnews_rss_w7:661": {
+  "practice": "Private Equity",
+  "source": "gnews_rss_w7",
+  "company": "",
+  "signal": {
+   "sentence": " Florida SBA meeting takes aim at limits of private equity benchmarks PEI Private Equity News & analysis Data Performance & rankings Network & events Sectors Regions Home News & Analysis Florida SBA meeting takes aim at limits of private equity benchmarks News & Analysis Florida SBA meeting takes aim at limits of private equity benchmarks Members of the $219bn pension's investment advisory council",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRExncGtOTE93dmFNN1VmQXVVMm94bHpGUHM1bjNPXzR6Um1CeEhiempYMG1palhZSjBzRTloWjhPU1RPcDg4NEphcVRKMHVDNGU3QjNqcmV5M0p1b1ZGcWR0YUw5TWY1UlJUN01iY2tLZjlPNFhtYzBiYUVFQUF3VE5xd0VYU1U3NTM4ZFd0RUV0dVU1ZXhKMUlyaUJBT1pfZ2p5eUY5YWU2eWFzLWE0QnN3?oc=5",
+   "published": "2026-06-05",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Florida SBA meeting takes aim at limits of private equity benchmarks - PEI Private Equity",
+  "query": "\"Florida\" \"private equity\" invests",
+  "evidence_source": "signal",
+  "status": "unbound — detector result on the row",
+  "naming": {
+   "headline": "Florida SBA meeting takes aim at limits of private equity benchmarks",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "legal-form suffix over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "Firm Advent International Firm Francisco Partners",
+    "Firm Thoma Bravo Firm TrueBridge Capital",
+    "Limited Partners"
+   ],
+   "spans_examined": [
+    {
+     "position": "article text",
+     "span": "tors North America Buyout Growth equity Limited Partners Pensions Performanc"
+    },
+    {
+     "position": "article text",
+     "span": " Article Know the investor Key mentions Firm Advent International Firm Francisco Partners Firm Thoma Bravo Fi"
+    },
+    {
+     "position": "article text",
+     "span": "t International Firm Francisco Partners Firm Thoma Bravo Firm TrueBridge Capital Partners Investor t"
+    }
+   ]
+  }
+ },
+ "Fractionals:gnews_rss_w7:662": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w7",
+  "company": "",
+  "signal": {
+   "sentence": " Florida Tech Names New Vice President for Administration and Finance/Chief Financial Officer - Florida Tech News+ Search Search All News Academics & Research Campus & Community Panther Bites Expert Directory All News Academics & Research Campus & Community Panther Bites Expert Directory Florida Tech Names New Vice President for Administration and Finance/Chief Financial Officer Madeline Taylor Ju",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOXFZb0VtaDYxQlBDMW9BZjhSdjZCUXg1VFNuUzZ4NXVXbUllM1E4elVzbUZXOTNKcXlhcjU0ZS1DZUR1bkh3a21NWVZkajYtc1p2Q0t1MTJDdGNtSmd5OGFJUzZ6ZXVMN0Q0UnI2aU5xdVJwdDRjMGxCRmN4UkppQ0FranZtQzBQSVJhUldGQy0wbnJGc3VGdzNDYUpBVGJFb1NaODBVTFA0UE5IUGpoZjUwMml0Q1I2OWo1V3p3?oc=5",
+   "published": "2024-06-26",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Florida Tech Names New Vice President for Administration and Finance/Chief Financial Officer - Florida Tech News",
+  "query": "\"Florida\" company \"names\" CFO",
+  "evidence_source": "signal",
+  "status": "unbound — detector result on the row",
+  "naming": {
+   "headline": "Florida Tech Names New Vice President for Administration and Finance/Chief Financial Officer",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "unbound",
+   "split": "no-company-named (the detector found none in the article’s own text)",
+   "detector": "legal-form suffix over the headline and the article’s own text (<article> element)",
+   "companies_found": [],
+   "spans_examined": []
   }
  }
 }

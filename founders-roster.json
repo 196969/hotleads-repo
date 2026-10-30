@@ -937,6 +937,26 @@
     "a site is found FOR a name only when the link’s host or anchor text carries the name (fault 43 shows the anchor-text half is unsafe)",
     "article bodies filed to w6-bodies/ before anything is deleted"
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 7,
+   "fault": 45,
+   "note": "the ownership proof passed a domain-for-sale page: www.aaaheatingair.com titled “AaaHeatingAir.com is for sale - Premium Domain” echoed the bound name. A derived host’s commonest failure — a parked or for-sale domain named after the company — was not in the proof’s planted cases; repair: the proof refuses pages carrying parked-domain markers (for sale, buy this domain, parked, domain marketplace names), proved on a planted parked page before the next window"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 7,
+   "note": "v3 held-out result 7 of 8: “BH Group and Gold Standard of Care Acquire Naples Senior Living and Skilled Nursing Campus” bound “Naples Senior Living” — the name end at “and” truncates an and-joined name and the campus rule never saw the tail. Not repaired in this window: a fix written against a held-out item cannot be proved on it"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 7,
+   "builder_decisions": [
+    "the 13 re-bound from the bodies filed in window six: 0 reads for re-binding (the read-and-file rule paying for itself)",
+    "under site-by-any-route a host that fails the proof is a failed guess (the Chair’s ruling), so the wrongness stop as written has no event to count; reported as 0 with that reason, not as a clean reading",
+    "American Fasteners’ “$39M” is a deal value, not revenue; not read as a size figure"
+   ]
   }
  ]
 }
