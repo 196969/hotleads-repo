@@ -974,6 +974,28 @@
    "date": "2026-10-30",
    "window": 8,
    "note": "the tightened queries still returned no-company articles: a fund-commentary note, a “Top 10 PE firms” listicle, and the race for Florida’s elected CFO (a political office read as a CFO appointment); narrowing by negative terms does not reach these classes"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 9,
+   "fault": 48,
+   "note": "the revenue extractor required every letter token of the queried name in the sentence and read only “$X million/billion”; queried as “Mainline Information Systems”, CRN’s sentence named “Mainline” with “annual revenue of over $1 billion” and was passed over. Found by a zero-read re-scan of the filed body before the decision point was read — the read-and-file rule making the correction possible"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 9,
+   "fault": 49,
+   "note": "the bounded detector still defines a company as a legal-form suffix; “Garyline Receives Private Equity Investment” split as no-company-named though the headline names a company. Barry University and Tampa Bay EDC are correctly no-company. The split is right for 2 of 3 no-company readings"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 9,
+   "builder_decisions": [
+    "the revenue reserves allocated before any read: American Fasteners’ seven routes first, then one untried route per other subject per round; 41 of 60 revenue reads spent, every planned route read",
+    "Health Network One read under its current name (Emboss Specialty) and Mainline under its full name (Mainline Information Systems), names its proved pages carry — untried routes by construction",
+    "Memorial Healthcare System’s home page read once: it states no ownership form; the Chair’s conditional retirement stays conditional",
+    "Alpha Foundations’ “300 employees” recorded and flagged — not a size reading; the row stays size-unsourced"
+   ]
   }
  ]
 }

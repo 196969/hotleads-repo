@@ -6029,10 +6029,18 @@
   "test1": "Florida operating address on https://www.mainline.com/ · read 2026-10-30",
   "test2": "absent from all files",
   "band": {
-   "in_band": null,
-   "why": "size-unsourced"
+   "in_band": false,
+   "why": "band-rejected at test 1: published annual revenue “over $1 billion”, above the Private Equity ceiling of $100,000,000 (Src: https://www.crn.com/news/channel-news/ibm-partner-mainline-information-systems-acquired-by-miami-investment-firm · published n/a · read 2026-10-30; the article reports WFSU’s statement; a floor above the ceiling settles the band)",
+   "figure": {
+    "value": ">1000000000",
+    "span": "However, Tallahassee, Fla.-based public radio station WFSU said Mainline has annual revenue of over $1 billion.",
+    "url": "https://www.crn.com/news/channel-news/ibm-partner-mainline-information-systems-acquired-by-miami-investment-firm",
+    "read": "2026-10-30",
+    "published": null,
+    "found_by": "zero-read re-scan of the filed body (fault 48)"
+   }
   },
-  "status": "held size-unsourced: no third-party revenue figure found this window on the routes tried",
+  "status": "band-rejected at test 1: published revenue over $1 billion (Private Equity ceiling $100M)",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/mainline/",
@@ -18297,7 +18305,14 @@
    "read": "2026-10-30"
   },
   "email": null,
-  "test5": "phone"
+  "test5": "phone",
+  "employees_published": {
+   "value": "300",
+   "span": "Continue Reading Matt Shanley, Alpha Foundations Founder (left) and Matt Malone, Groundworks Founder and CEO (right) Founded in 2002 by Matt Shanley , Alpha Foundations is the leading foundation and crawl space repair company in Florida with six offices and more than 300 employees.",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXJTd3pRUklwbHYwSEZzY2FRc0x3Z29Fak02WEdSbDhqRVVYbUZwS2NqOWtSeFdzZnhRajdncHdLOGZYUi1kMUpwVDlKZEdQdWkzcUJwVm13RWxVX1VVd3lSLVd4dG10dWZfN1NzQ3MwUkw3VlByTkJ4ZTdiSV94NEJDQmVJYnFmdHloUUd4Tjd4UFExZ1g0N0Z5TlJuTjBOUTFPVFUza2JNMDRB?oc=5",
+   "read": "2026-10-30",
+   "flag": "employee count — recorded, not a size reading (revenue only)"
+  }
  },
  "Acquisitions:gnews_rss:12": {
   "practice": "Acquisitions",
@@ -18985,6 +19000,537 @@
     "pattern": "Florida city name in text",
     "span": "e everybody is breathing a sigh of relief that he found, in Orlando, that the poet laureate got a little ex",
     "position": "body"
+   },
+   "state": "unbound",
+   "split": "no-company-named (the detector found none in the article’s own text)",
+   "detector": "legal-form suffix over the headline and the article’s own text (<article> element)",
+   "companies_found": [],
+   "spans_examined": []
+  }
+ },
+ "Private Equity:gnews_rss_w9:669": {
+  "practice": "Private Equity",
+  "source": "gnews_rss_w9",
+  "company": "",
+  "signal": {
+   "sentence": " Garyline Receives Private Equity Investment, Completes Move to Florida × Member Login Please log in with any of the following accounts: ASICentral, ESP, or the Online Learning Center.",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTzZhTW5ZYXFUQ3huQ0NIV2tjR3J0RGtJVk1HUVF3cFBTemtKME9fOE1oSklxMVRkUHFWWWpRaVZNWW4zYXVnaFpzbV93c3RQSDhaNW9wcTV2Z1pzNjI4RjJfQ0lpVWFRS2VYRWhZbnBOeWtGSnNBaktJbVJPN01SYS1zN2lFMkY0NHRfUGtaOVVBUTZncmJZVTNlVG82SmpOWmh6R0Y0b0YwZmhVNTRfWXhBMEJtYUg1VzVZUDVRLWlRZjdCMU5uODR5N3I?oc=5",
+   "published": "2024-08-28",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Garyline Receives Private Equity Investment, Completes Move to Florida - members.asicentral.com",
+  "query": "\"Florida\" \"private equity\" invests",
+  "precondition_span": "Completes Move to Florida",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Garyline Receives Private Equity Investment, Completes Move to Florida",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "unbound",
+   "split": "no-company-named (the detector found none in the article’s own text)",
+   "detector": "legal-form suffix over the headline and the article’s own text (no bounded article text found)",
+   "companies_found": [],
+   "spans_examined": []
+  }
+ },
+ "Fractionals:gnews_rss_w9:670": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w9",
+  "company": "Palm Medical Centers",
+  "signal": {
+   "sentence": " Palm Medical Centers Names Jim McHugh Chief Financial Officer - Florida Hospital News and Healthcare Report Home SF STAT!",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1hkeUtURG5pd3o5eFZJVmNxVTUxcEU2bjVfUXZvNUxIMVZ1ZENiTDUwNGoyZkZueWcyNUp6Yjdmb29jN0lPNmV6c3RueTZnUW9JVm5ybjNjdFBlZ0EzYk5KS3k4WFRfVWlCUlhoVjFLWlhsdy1lYmJ3aFVlSWdXVnBjZzhmbmxOZlZ1WFdxOWVfdGZyQXpmcnlRZmVZTEJzS29qRjhWUkF6Y1RyNWtv?oc=5",
+   "published": "2021-10-18",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Palm Medical Centers Names Jim McHugh Chief Financial Officer - Florida Hospital News and Healthcare Report",
+  "query": "\"Florida\" company \"names\" CFO",
+  "precondition_span": "Palm Medical Centers Names",
+  "evidence_source": "signal",
+  "status": "site proved (derived host); passes tests 1, 2 and 5; held size-unsourced",
+  "naming": {
+   "headline": "Palm Medical Centers Names Jim McHugh Chief Financial Officer",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Coral Gables",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "ading middle market healthcare private equity fund based in Coral Gables, Florida. Our strategy is to partner wi",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "Palm Medical Centers",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "Palm Medical Centers Names Jim McHugh Chief Financial Officer",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": true
+  },
+  "company_named": true,
+  "acquirer": null,
+  "city": "Coral Gables",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.palmmedicalcenters.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://www.palmmedicalcenters.com/",
+  "site_route": "derived host",
+  "site_proof": {
+   "where": "title",
+   "span": "Senior Primary Care Centers in Florida | Palm Medical Centers",
+   "whole_name": "palm medical centers",
+   "construction": "direct"
+  },
+  "test1": "Florida operating address on https://www.palmmedicalcenters.com/ · read 2026-10-30",
+  "test1_pass": true,
+  "test5": "phone",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  }
+ },
+ "Acquisitions:gnews_rss_w9:671": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w9",
+  "company": "",
+  "signal": {
+   "sentence": "Completes Florida Acquisition Oops, something went wrong Skip to navigation Skip to main content Skip to right column Home News Finance Sports More News US Politics World Tech Science Originals 2026 Elections Weather Newsletters Finance My portfolio News Markets Research Community Personal finance Videos Sports Fantasy Football 2026 NFL College football NBA MLB NHL College basketball Soccer Fantas",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVUJPMVJpZkRhbTNKdzduYmd1ZXV1RktweGRRcnRvX1B6R2xaVnVjYUZEN21iTWVsMUJJUDdlNm1fVVJJVU9GTVh3dVBKbmFUbXU3ckFWWkM2eXlEa1pFYy1aaHhHdzBXMDZSMGIybnNqNDhrQmt4TjRGbjRyVXh4NHhTeVl4R3ppRUFYTm1SZ3YyUnM4dlBuemZsNmhTYXk0bElqNzc3WnE?oc=5",
+   "published": "2026-10-19",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Construction Partners, Inc. Completes Florida Acquisition - Yahoo Finance",
+  "query": "\"Florida\" acquisition",
+  "precondition_span": "Inc. Completes Florida Acquisition",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Construction Partners, Inc. Completes Florida Acquisition",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Daytona Beach",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "nsaction builds upon our acquisition of P&S Paving, Inc. in Daytona Beach last year and further strengthens CWR's",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "legal-form suffix over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "About Construction Partners",
+    "Construction Partners",
+    "Inc. Construction Partners",
+    "ROAD Transaction Expands Company",
+    "The Company"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "Construction Partners, Inc. Completes Flo"
+    },
+    {
+     "position": "article text",
+     "span": "istributor directly with any inquiries. Construction Partners, Inc. Completes Flo"
+    },
+    {
+     "position": "article text",
+     "span": "PR Newswire October 19, 2026 3 min read ROAD Transaction Expands Company's Operations Along "
+    },
+    {
+     "position": "article text",
+     "span": "AN, Ala., Oct. 19, 2026 /PRNewswire/ -- Construction Partners, Inc. (NASDAQ: ROAD"
+    },
+    {
+     "position": "article text",
+     "span": "operations along Florida's east coast.\" About Construction Partners, Inc. Construction "
+    },
+    {
+     "position": "article text",
+     "span": "st coast.\" About Construction Partners, Inc. Construction Partners, Inc. is a vertical"
+    },
+    {
+     "position": "article text",
+     "span": "peak only as of the date they are made. The Company assumes no obligati"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w9:672": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w9",
+  "company": "Zona Rosa",
+  "signal": {
+   "sentence": " Zona Rosa sold to Florida company for $63.3 million ",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNDBrR194V3BMNm5nQy1ieUJlSXBzaThJV0hSRE41Rjl1UTQ5R0JaU01ndVpZRGVZZEJRYktXTWd6LXFGY3RSaFotTlpkb2ZIRmM3X0M1WE80TWVoeE4wQzVORWNDTEp5bmFlb0ExNGNWTDZ4VG9tMXRtVFFSSzlOSmo5aXluUTJoVDhNM040X3JiV2JsNkdtZGRwV19oMm9fMUxRbmdIQ3lZSkJjNktoeFFyYTh3Wmh6RS1oeE0tM2xod2xSWHNsUlg3eUpycTFCcGdtQWZ6MkZwLUdDbUZ3T1VWRGVrbXN4X1ZEWXFWeXA?oc=5",
+   "published": "2026-09-18",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Zona Rosa sold to Florida company for $63.3 million in deal owners call a revitalization opportunity - KSHB 41 Kansas City",
+  "query": "\"Florida\" \"sold to\"",
+  "precondition_span": "Zona Rosa sold",
+  "evidence_source": "signal",
+  "status": "site proved (derived host); test 1 failed: no Florida address on the company’s own page",
+  "naming": {
+   "headline": "Zona Rosa sold to Florida company for $63.3 million in deal owners call a revitalization opportunity",
+   "pattern_set": "v3",
+   "article_text_field": "JSON-LD articleBody",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "Zona Rosa",
+   "acquirer": "Florida company",
+   "name_extraction": {
+    "pattern": "{company} acquired by {acquirer}",
+    "span": "Zona Rosa sold to Florida company",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{company} acquired by {acquirer}",
+    "span": "Zona Rosa sold to Florida company",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": true,
+  "acquirer": "Florida company",
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.zonarosa.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://www.zonarosa.com/",
+  "site_route": "derived host",
+  "site_proof": {
+   "where": "title",
+   "span": "Home - Zona Rosa",
+   "whole_name": "zona rosa",
+   "construction": "direct"
+  },
+  "test1": "no Florida address on the company’s own page",
+  "test1_pass": false,
+  "test5": "phone",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  }
+ },
+ "Private Equity:gnews_rss_w9:673": {
+  "practice": "Private Equity",
+  "source": "gnews_rss_w9",
+  "company": "O&A Landscaping",
+  "signal": {
+   "sentence": " Agellus-backed HighGrove Partners acquires O&A Landscaping in Florida PEI Private Equity News & analysis Data Performance & rankings Network & events Sectors Regions Home Deals Agellus-backed HighGrove Partners acquires O&A Landscaping in Florida Deals Agellus-backed HighGrove Partners acquires O&A Landscaping in Florida O&A Landscaping, founded in 2006 by Carl Osborn and Rob Allis, provides land",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcW8tamJvWHdpSVYyUkFwSk5pMzZ3VnlPb3R3WXg5RmNNbG1Kc0lob0ZpTHoyeEM3dkVZbV9hTTcwWFVhSXJMZ0tmelBNVVNxY0VwUU5jOF9MUVRGblZVdTJ6NEl0cTBRdXlkbVItbnA3SWs0cWhWMXB0WmNtclM4Z1FORmZBNTAtYnJOdHlaOWtEc3NDOHVNZUludVAxMVVORlRqelg3cFlMdkp3NkY0ckhR?oc=5",
+   "published": "2026-08-25",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Agellus-backed HighGrove Partners acquires O&A Landscaping in Florida - PEI Private Equity",
+  "query": "\"Florida\" \"private equity\" acquires",
+  "precondition_span": "Agellus-backed HighGrove Partners acquires",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Agellus-backed HighGrove Partners acquires O&A Landscaping in Florida",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "O&A Landscaping",
+   "acquirer": "Agellus-backed HighGrove Partners",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Agellus-backed HighGrove Partners acquires O&A Landscaping",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Agellus-backed HighGrove Partners acquires O&A Landscaping",
+    "position": "headline"
+   },
+   "body_bind_agrees": true
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Agellus-backed HighGrove Partners",
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.oalandscaping.com/",
+    "outcome": "refused (503)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.oa-landscaping.com/",
+    "outcome": "resolved but failed the proof"
+   }
+  ]
+ },
+ "Private Equity:gnews_rss_w9:674": {
+  "practice": "Private Equity",
+  "source": "gnews_rss_w9",
+  "company": "",
+  "signal": {
+   "sentence": " Fengate Private Equity Acquires Majority Stake in Clinical Research of West Florida Oops, something went wrong Skip to navigation Skip to main content Skip to right column Tip: Try a valid symbol or a specific company name for relevant results Trending Tickers ^ ^IXIC 25437.00 ( -2.86% ) SPCX 134.72 ( -6.37% ) INO 0.6024 ( -21.9487% ) ^ ^GSPC 7580.07 ( -1.82% ) ^ ^DJI 51770.31 ( -1.09% ) Home New",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYXl2SVZaazRud3lmR2JCLW1iTi03cXJaMGlZcm56YkE0MWlVVjBRY3RNaEhQRUdFdHZsNU5ndjJYR1V6cFVvdFp2cC10UjNpM19yLUJPbkVBZlZDX0RjaWVTbFFSemxSb0xHRE1mRFRqa1VXWGg3SVBKeUlqY1ZfNFgtNXhXb1U0MWdWaDQ5VVd3c0U4UExYeDhPRXhjUVlIbzVZ?oc=5",
+   "published": "2026-10-13",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Fengate Private Equity Acquires Majority Stake in Clinical Research of West Florida - Yahoo Finance",
+  "query": "\"Florida\" \"private equity\" acquires",
+  "precondition_span": "Fengate Private Equity Acquires",
+  "evidence_source": "signal",
+  "status": "bind disputed — held",
+  "naming": {
+   "headline": "Fengate Private Equity Acquires Majority Stake in Clinical Research of West Florida",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": ", an independent clinical research site network serving the Tampa Bay region. The investment marks the he",
+    "position": "body"
+   },
+   "state": "bind disputed",
+   "headline_bind": {
+    "company": "West Florida",
+    "acquirer": "Fengate Private Equity",
+    "name_extraction": {
+     "pattern": "{acquirer} takes/acquires a stake in {company}",
+     "span": "Fengate Private Equity Acquires Majority Stake in Clinical Research of West Florida",
+     "position": "headline",
+     "trimmed_from": "Clinical Research of West Florida"
+    },
+    "acquirer_extraction": {
+     "pattern": "{acquirer} takes/acquires a stake in {company}",
+     "span": "Fengate Private Equity Acquires Majority Stake in Clinical Research of West Florida",
+     "position": "headline",
+     "trimmed_from": "Clinical Research of West Florida"
+    }
+   },
+   "body_bind": {
+    "company": "GlobeNewswire Inc",
+    "acquirer": "Fengate Private Equity",
+    "name_extraction": {
+     "pattern": "{acquirer} takes/acquires a stake in {company}",
+     "span": "Fengate Private Equity Acquires Majority Stake in Clinical Research of West Florida GlobeNewswire · GlobeNewswire Inc",
+     "position": "article sentence 3",
+     "trimmed_from": "Clinical Research of West Florida GlobeNewswire · GlobeNewswire Inc"
+    },
+    "acquirer_extraction": {
+     "pattern": "{acquirer} takes/acquires a stake in {company}",
+     "span": "Fengate Private Equity Acquires Majority Stake in Clinical Research of West Florida GlobeNewswire · GlobeNewswire Inc",
+     "position": "article sentence 3",
+     "trimmed_from": "Clinical Research of West Florida GlobeNewswire · GlobeNewswire Inc"
+    }
+   }
+  }
+ },
+ "Fractionals:gnews_rss_w9:675": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w9",
+  "company": "",
+  "signal": {
+   "sentence": " Barry University Names Ron Steiger as New Vice President for Business and Finance & Chief Financial Officer - Miami’s Community News Advertise With Us Legal Notices Contact Us Facebook Instagram Linkedin X Youtube Advertise Media Kit Pay Online Contact Advertise Legal Notices Office Request Info Submit a Press Release About Us Place Legal Notice Special Sections Reviews Facebook Instagram Linkedi",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZFkwdWZDUGZOckUxLUFGM0k2S2I3dEQwczQwV29xYlBqazl6OVRiSUpXa19QX2tnZE01cDBDREgzLUdOSS1GaUtVWk0wUGJjZzN6cTVWM2VyTlBDcllWdmQzOXhwTzVyZUVVajZLWHh0bE9zQkltc2p5dDU2OHU2ajlFUFh6OFA0WG9lVGhhVVV2X2VkaEFSM2UwRm9BdG5XZTE4Q3ZFenJxWTRYemdqV0xDZnlnaDFKaXdILTJqLXpVTUtVellBdXZIcmJFTFZCRkt6QlB6b2wxV0xMWjEyaDBMbmN0R0U1RXpRYw?oc=5",
+   "published": "2026-07-14",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Barry University Names Ron Steiger as New Vice President for Business and Finance & Chief Financial Officer - Miami’s Community News",
+  "query": "\"Miami\" company names CFO",
+  "precondition_span": "Barry University Names",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Barry University Names Ron Steiger as New Vice President for Business and Finance & Chief Financial Officer",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": " Barry University Miami Community Newspaper Sponsored Content B",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "no-company-named (the detector found none in the article’s own text)",
+   "detector": "legal-form suffix over the headline and the article’s own text (<article> element)",
+   "companies_found": [],
+   "spans_examined": []
+  }
+ },
+ "Fractionals:gnews_rss_w9:676": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w9",
+  "company": "Palm Beach Gardens Medical Center",
+  "signal": {
+   "sentence": " Palm Beach Gardens Medical Center Names Marko Serrano as Chief Financial Officer - Florida Hospital News and Healthcare Report Home SF STAT!",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWGR1SmRaZzU3V2d1RlpMcTBnUnJMOEVGV0ZLeFU2NjlrQmgzQlQ5aFlrQTBKcUJSQ1hjZHpjb0xSend0dUVtWTVMRHRlYkh3N1dKaUI3Z2p1eXY5REpkdFFuWHdjeUkwNC1RVDNPakRmSzY3dUdaRzRWcGRLUGVpNXN1NXpZREhCOHptcVhZeTY4NEhkdURNa0RVVVV6TmxweG5TRHBYeWYyTl9lMjVVaW53WW1wQmhCemRxLXUwUG1FRm4xVThFZA?oc=5",
+   "published": "2024-11-08",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Palm Beach Gardens Medical Center Names Marko Serrano as Chief Financial Officer - Florida Hospital News and Healthcare Report",
+  "query": "\"Miami\" company names CFO",
+  "precondition_span": "Palm Beach Gardens Medical Center Names",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Palm Beach Gardens Medical Center Names Marko Serrano as Chief Financial Officer",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Palm Beach Gardens",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Palm Beach Gardens Medical Center Names Marko Serrano as C",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Palm Beach Gardens Medical Center",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "Palm Beach Gardens Medical Center Names Marko Serrano as Chief Financial Officer",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": true
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": null,
+  "city": "Palm Beach Gardens",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://palmbeachhealthnetwork.com/",
+    "outcome": "refused (403)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.palmbeachgardensmedicalcenter.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.palm-beach-gardens-medical-center.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Fractionals:gnews_rss_w9:677": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w9",
+  "company": "Port Tampa Bay",
+  "signal": {
+   "sentence": " Port Tampa Bay names Michael Poole as CFO ",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QaXFkQUlNdDJtOTFmUTJuLU1aaXlIMXN0aDU4Y2pCek1fYndPSHJfLURBeEU1YS1DZXU3TnhkNm5BZWFXZmpwZXRjRmJXMTN6RnpWV0dGaVJyNGhnWjVKeXdxQmxhX0FLb1dqbEVRVW13M0Q0T0FuX2xlMjVsdw?oc=5",
+   "published": "2024-07-02",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Port Tampa Bay names Michael Poole as CFO - TBBW",
+  "query": "\"Tampa\" company names CFO",
+  "precondition_span": "Port Tampa Bay names",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Port Tampa Bay names Michael Poole as CFO",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Port Tampa Bay names Michael Poole as CFO",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Port Tampa Bay",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "Port Tampa Bay names Michael Poole as CFO",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": null,
+  "city": "Tampa",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.porttampabay.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.port-tampa-bay.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Fractionals:gnews_rss_w9:678": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w9",
+  "company": "",
+  "signal": {
+   "sentence": " Tampa Bay EDC names chief financial officer Skip to content Tampa Bay Business News, Companies, Real Estate & Economic Development Menu News Commercial Districts Growth & Development Real Estate Private Markets Hospitality Technology Events CEO Connect Apogee Awards Women Who Win Philanthropists of the Year Magazine About Contact Tampa Bay EDC names chief financial officer March 13, 2024 by Jo-Ly",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWEtTV9OcGlqUUM2SWtVV1VzazBNaGFWbUZ6aHpkUEJNeGg4WnpIZUdNMzJUWFJlY1dudGxMQUN4a0xlbkxpRXBWdE5kcGFITVlJVTRzQ3c2UVY0RTF2TmE2NzJ4RnVVdG1Vb2NGaE5YQjJGRDktTnFpanFHYTI4Tw?oc=5",
+   "published": "2024-03-13",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Tampa Bay EDC names chief financial officer - TBBW",
+  "query": "\"Tampa\" company names CFO",
+  "precondition_span": "Tampa Bay EDC names",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Tampa Bay EDC names chief financial officer",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Tampa Bay EDC names chief financial officer",
+    "position": "headline"
    },
    "state": "unbound",
    "split": "no-company-named (the detector found none in the article’s own text)",
