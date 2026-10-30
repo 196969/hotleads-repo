@@ -817,6 +817,29 @@
     "test-1 reads prioritised by the card flag (later found to be noise)",
     "the PE third spent before the external-link fault was found; the fix is proved on the next window’s first read, not by spending a second third"
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 2,
+   "fault": 32,
+   "note": "day one’s wrong-site company links were cleared by one host, not by class; six Sun Capital candidates were read again at gmpg.org/xfn/11; six reads, not findings"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 2,
+   "fault": 33,
+   "note": "the Florida check on a sponsor entry read the whole page; Sun Capital’s own Boca Raton footer placed every entry in Florida. The H.I.G. entry carries a structured Location field; that field, not the page, is the source"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 2,
+   "builder_decisions": [
+    "addition 1 applied from the already-read sponsor pages with no reads; only Sun Capital’s cards carry a location",
+    "sponsor entries read 20 per source (H.I.G., Comvest, Sun; Boyne 3 before the third spent) — the cap applied to entry reads as test-1 reads’ precondition",
+    "nine new sources read once for their live forms: only Sunbelt answered (6 listing items in its form); the four business journals’ news sections, Transworld, Murphy, CareerBuilder and SimplyHired refused (403/404)",
+    "Florida Trend: the one live article shows the page’s date widget (today) and no publication date form the extractor can bind to; it stays stopped",
+    "addition 5 not exercised: no practice produced, so no third was released"
+   ]
   }
  ]
 }

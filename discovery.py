@@ -8,6 +8,24 @@ import bot,practice,intake
 C=json.load(open('practice-classes.json')); D=C['discovery']; BAND=C['band']; TODAY=datetime.date.today().isoformat()
 UA='DashRite-Advisory-attended-reader/1.0 (research; contact TEdick@dashriteadvisory.com)'
 PRACTICES=['Private Equity','Acquisitions','Fractionals']
+def card_text(body,a,b):
+    """The text of the smallest element enclosing the anchor (li, article, div or tr), bounded by its own tags; never the neighbours."""
+    for tag in ('li','article','tr','div'):
+        o=body.rfind('<'+tag,0,a); c=body.find('</'+tag+'>',b)
+        if o!=-1 and c!=-1 and c-o<4000 and body.count('<'+tag,o+1,a)==body.count('</'+tag+'>',o+1,a): return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',body[o:c])))
+    return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',body[a:b])))
+def site_link(body,company):
+    """The company's own site from a sponsor's company page: an anchor whose text says website/visit/www, or whose host matches the company's slug tokens; site-wide and portal links excluded. None if none qualifies (never the first external href)."""
+    toks=[w.lower() for w in re.findall(r'[A-Za-z]{4,}',company)][:2]; deny=('fiscloudservices','linkedin','twitter','facebook','youtube','instagram','google','wp.com','gravatar','wordpress','x.com','vimeo','apple.com','mailto','hig.com','suncappart','trivest','comvest','boynecapital')
+    best=None
+    for m in re.finditer(r'<a\b[^>]*href="(https?://[^"]+)"[^>]*>(.*?)</a>',body,re.S|re.I):
+        u=m.group(1); t=re.sub(r'<[^>]+>',' ',m.group(2)).strip().lower()
+        if any(x in u.lower() for x in deny) or re.search(r'\.(png|jpg|svg|css|js|pdf)(\?|$)',u): continue
+        host=re.sub(r'^https?://(www\.)?','',u).split('/')[0].lower()
+        if re.search(r'website|visit|www\.',t) or t==host: return u
+        if toks and any(tk in host.replace('-','') for tk in toks): best=best or u
+    return best
+FL=r'\bFL\b|\bFlorida\b|Miami|Tampa|Orlando|Jacksonville|Fort Lauderdale|Boca Raton|West Palm|Naples|Sarasota|Doral|Coral Gables|St\. Petersburg|Clearwater|Pompano|Hialeah|Tallahassee|Gainesville|Pensacola|Lakeland|Daytona|Melbourne|Ocala|Fort Myers|Hollywood, FL|Deerfield|Jupiter|Stuart|Vero Beach'
 def items(src,body):
     """Items on a source page: anchors whose href matches the source's declared pattern (derived from the live form); the name is the anchor's text with tags stripped, else the href's slug in words. Nothing is guessed: the name comes from the page's own link."""
     pat=src['item_pattern']; out=[]; seen=set()
@@ -16,8 +34,9 @@ def items(src,body):
         if re.search(r'[<>\s]|&sa=|&ved=|/feed/?$|oembed',u) or u in seen: continue
         seen.add(u); t=re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',m.group(2)))).strip()
         if not t or len(t)>90 or re.fullmatch(r'(active|exited|realized|current|former|view|read more|learn more|visit|website)',t,re.I): t=re.sub(r'[-_]+',' ',u.rstrip('/').split('/')[-1].replace('portfolio-','')).strip().title()
-        card=re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',body[max(0,m.start()-600):m.end()+600])))
-        out.append((u,t,bool(re.search(r'\bFL\b|\bFlorida\b|Miami|Tampa|Orlando|Jacksonville|Fort Lauderdale|Boca Raton|West Palm|Naples|Sarasota|Doral|Coral Gables',card))))
+        card=card_text(body,m.start(),m.end())
+        rev=re.search(r'\$\s?([\d.,]+)\s?(million|M|billion|B)\b',card,re.I); fig=float(rev.group(1).replace(',',''))*(1e9 if rev.group(2).lower().startswith('b') else 1e6) if rev else None
+        out.append((u,t,bool(re.search(FL,card)),card[:300],fig))
     return out
 class Day:
     def __init__(s,market,attended,read_fn,log_fn=None):
@@ -123,7 +142,7 @@ class Day:
                 for p in PRACTICES:
                     for src in D['practices'][p]['sources']:
                         st=s.rep['sources_state'].get(src['id'],{}).get('state','not yet read')
-                        if st.startswith('refused') or st in ('exhausted','probe failed','third spent'): continue
+                        if st.startswith(('refused','stopped','parked')) or st in ('exhausted','probe failed','third spent'): continue
                         await s.run_source(p,src,rnd); live=True; break
                 if not live: break
             for k in sorted([k for k,e in s.Q.items() if e.get('test1') is None],key=lambda k:(not s.Q[k].get('florida_on_card'),k)): await s.test1(k)
