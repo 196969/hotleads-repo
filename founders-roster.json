@@ -760,6 +760,12 @@
    "fault": 26,
    "class": "reporting — evidence destroyed before it was read",
    "note": "the per-URL record of those reads sat in dry-bot-log.jsonl; the count opened florida-bot-log.jsonl (absent), read zero, and the scratch folder was removed; the count in the report is reconstructed from run output"
+  },
+  {
+   "date": "2026-10-30",
+   "chunk": "C-prep resumed",
+   "standing_rule": "a scratch artefact is read and filed before it is deleted; an instrument never destroys its own evidence",
+   "done": "dry run re-done on planted routes with the route assertion before launch; kill switch proved mid-pass; second pass to completion; per-URL record filed"
   }
  ]
 }
