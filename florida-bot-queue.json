@@ -1,14 +1,4 @@
 {
- "1": {
-  "addr_found": "jobs@invictawatch.com",
-  "bot_note": "{\"source_url\": \"https://invictawatch.com/contact\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"(d) You may not use the Link in connection with the sale or offering for sale of any watch manufactured by any company (e) You must include the following notice on any page with\"], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\"]}",
-  "bot_status": "proposed — unconfirmed"
- },
- "2": {
-  "addr_found": "poconfirm@badiaspices.com",
-  "bot_note": "{\"source_url\": \"https://badiaspices.com/contact\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [\"salessupport@badiaspices.com\"], \"practice_signals\": [], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\"]}",
-  "bot_status": "proposed — unconfirmed"
- },
  "6": {
   "bot_note": "{\"link\": \"refused (500)\", \"read\": \"2026-10-29\", \"result\": \"refused — re-runnable\", \"practice_signals\": [], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\"]}",
   "bot_status": "no proposal — refused"
@@ -17,19 +7,9 @@
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [\"As a family owned and operated business, we focus on delivering high quality solutions to all of our clients\", \"Even though over the years we have experienced growth and expansion we continue to be a family owned business and family operated\", \"Shop Online Our People Martinez Distributors is and continues to be a family owned company composed of very loyal staff members that have been with us for many years, some of them si\", \"Little by little we built our company from ground up and we concentrated on growing in the directions where our customers needed us the most\"], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\", \"florida-expansion.html\", \"master-call-sheet.html\"]}",
   "bot_status": "no proposal — not found"
  },
- "9": {
-  "addr_found": "sales@riverdalefarms.com",
-  "bot_note": "{\"source_url\": \"https://riverdalefarms.com\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"ploy highly specialized professionals that are experts in post-harvest processes, implementing next-generation chain-of-life and post-harvest practices\"], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
- },
  "11": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\"]}",
   "bot_status": "no proposal — not found"
- },
- "19": {
-  "addr_found": "brian@refricenter.net",
-  "bot_note": "{\"source_url\": \"https://refricenter.net\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\"]}",
-  "bot_status": "proposed — unconfirmed"
  },
  "20": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [\"Fort Pierce Naples Tampa Contact Us Contact Us Blog Careers PAYMENTS Research Body Type Box Trucks for Sale in Florida Bucket Trucks for Sale in Florida Dump Trucks for Sale in Florida Flatbed Trucks for Sal\", \"e in Florida Landscape Dump Trucks vs Vanscapers Landscape Trucks for Sale in Florida Mechanic Service Trucks for Sale in Florida Refrigerator Trucks for Sale in Florida Roll\", \"back Carrier Trucks for Sale in Florida Tow Trucks for Sale in Florida Tractor Trailer Trucks for Sale in Florida Engine Type Trucks with Cummins Engines Make Kenworth Trucks for Sale in South Florida H\", \"ino Commercial Trucks for Sale in South Florida Isuzu Commercial Trucks for Sale in South Florida Peterbilt Commercial Trucks for Sale in South Florida Volvo Commercial Trucks for\"], \"duplicates_in_other_files\": []}",
@@ -39,33 +19,13 @@
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [], \"duplicates_in_other_files\": []}",
   "bot_status": "no proposal — not found"
  },
- "29": {
-  "addr_found": "info@sintavia.com",
-  "bot_note": "{\"source_url\": \"https://sintavia.com/contact\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"s of digital design and additive manufacturing, Sintavia supplies systems that power and cool a new generation of flight and launch vehicles\", \"-processing and non-destructive testing of final systems, Sintavia is committed to developing a new generation of PTMS components\"], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
- },
  "33": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [], \"duplicates_in_other_files\": []}",
   "bot_status": "no proposal — not found"
  },
- "34": {
-  "addr_found": "careers@cigaretteracing.com",
-  "bot_note": "{\"source_url\": \"https://cigaretteracing.com\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
- },
- "35": {
-  "addr_found": "info@wtdc.com",
-  "bot_note": "{\"source_url\": \"https://wtdc.com\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"Gazitua is the third generation of the Gazitua family to lead the company\", \"At that time, the Gazitua family owned and operated one of the first and largest freight forwarders in Miami, FL\", \"Gazitua, as the third generation of Gazituas to manage the company\"], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
- },
  "36": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [\"Learn More  Ship to LATAM Expand your reach with reliable shipping across Latin America\"], \"duplicates_in_other_files\": []}",
   "bot_status": "no proposal — not found"
- },
- "37": {
-  "addr_found": "info@fulfillmenthubusa.com",
-  "bot_note": "{\"source_url\": \"https://fulfillmenthubusa.com\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"Fulfillment Hub USA helps growing brands move from fragile fulfillment to a stronger national operation — U\", \"at you sell Electronics & accessories Fast pick, pack, shipping, inventory control, and returns for growing online brands\"], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
  },
  "41": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [], \"duplicates_in_other_files\": []}",
@@ -79,16 +39,6 @@
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [\"rvice Quality about us Our Story Founded in 1968 by Claude and Nina Focardi, Great Bay is now a 3rd generation independent family owned sales, marketing and distribution business\", \"Great Bay is Florida’s largest independently family owned distributor of Anheuser-Busch products\", \"Our teams market, promote, sell, spend money at retailers and sponsor many local events\"], \"duplicates_in_other_files\": []}",
   "bot_status": "no proposal — not found"
  },
- "48": {
-  "addr_found": "customerservice@roomstogo.com",
-  "bot_note": "{\"source_url\": \"https://roomstogo.com/contact\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [\"internetsalessupport@roomstogo.com\"], \"practice_signals\": [\"Reserved Privacy Notice | Terms of Use | Cookie Settings Shop Quality Home Furniture at Rooms To Go Family-Owned Since 1990 Rooms To Go was founded by Jeffrey and Morty Seaman in 1990 and remains a privately held\", \"org\\\\\\\"}30:T120f,\\\\u003ch3\\\\u003e Family-Owned Since 1990 \\\\u003c/h3\\\\u003e\\\\n\\\\u003cp\\\\u003eRooms To Go was founded by Jeffrey and Morty Seaman in 199\", \"Family-owned since 1990\", \"Family-owned since 1990\"], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
- },
- "54": {
-  "addr_found": "beallsinc-guests@beallsinc.com",
-  "bot_note": "{\"source_url\": \"https://beallsinc.com\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
- },
  "55": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\"]}",
   "bot_status": "no proposal — not found"
@@ -96,11 +46,6 @@
  "57": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [\"ced highest quality teak and alternative decking options, and a worldwide installation network, all backed by the accountability of a 100% employee-owned company\", \"ced highest quality teak and alternative decking options, and a worldwide installation network, all backed by the accountability of a 100% employee-owned company\"], \"duplicates_in_other_files\": []}",
   "bot_status": "no proposal — not found"
- },
- "59": {
-  "addr_found": "info@barneyspumps.com",
-  "bot_note": "{\"source_url\": \"https://barneyspumps.com/contact\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"Our third-generation family ownership and commitment to excellent customer service instills confidence within our custom\", \"​Each generation adds to the culture, business practices, and industries served\", \"mer Training Because we have a hand in every touchpoint of the packaging process, we are constantly expanding our team's abilities to involve the latest technologies, provide solutions to new industries and ev\", \"Backed by a devoted team of 100+ industry experts and professional engineers, we proudly operate our entire p\"], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
  },
  "63": {
   "bot_note": "{\"link\": \"refused (403)\", \"read\": \"2026-10-29\", \"result\": \"refused — re-runnable\", \"practice_signals\": [], \"duplicates_in_other_files\": []}",
@@ -114,21 +59,6 @@
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [\"TS THAT ENRICH PEOPLE’S LIVES A PREMIER BEVERAGE DISTRIBUTOR IN FLORIDA Team Cone is a locally, and family-owned total beverage distributor serving 22 counties with everything from local beverages to internationa\", \"We pride ourselves on creating a supportive work culture that focuses on growing your skills and providing opportunities to shine with your talents\", \", and members of his family through the acquisition of T\", \"^ 1986 Distribution Rights Acquired distribution rights for Corona family of brands in Marion, Citrus, Sumter, and Hamilton counties\"], \"duplicates_in_other_files\": []}",
   "bot_status": "no proposal — not found"
  },
- "72": {
-  "addr_found": "info@montereyboats.com",
-  "bot_note": "{\"source_url\": \"https://montereyboats.com/contact\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"Luxury High Performance Boats for Sale | Monterey Boats Elite Series Super Sports M Series Outboard Sport Boats Monterey Advantage Locate\", \"The World Behind Elite | Episode 6: Craftmanship of the Elite The World Behind Elite | Episode 5: Expanding the Platform The World Behind Elite | Episode 4: How it all comes together The World Behind Elite |\", \"34, the newest flagship of its award-winning Elite Series and the next major step in the continued expansion of the lineup\", \"Whether it's a run to a favorite waterfront restaurant, a trip to a nearby island, or exploring a stretch of coastline you've never visited before, destination boating adds another layer of freed\"], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
- },
- "75": {
-  "addr_found": "info@rulonco.com",
-  "bot_note": "{\"source_url\": \"https://rulonco.com\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"5 billion expansion is anything but ordinary; adding 200 table games and over 3,000 slot machines, the public spaces ar\"], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
- },
- "79": {
-  "addr_found": "info@reidtransportationgroup.com",
-  "bot_note": "{\"source_url\": \"https://reidtransportationgroup.com\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
- },
  "82": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [\"With services offered all over the world, the family-owned company is ranked among the top 50 furniture retailers in the country\", \"shing The Cancer Resource Center presented by the American CancerSociety 2013 - El Dorado Furniture Chief Operating Officer, Pedro Capó, honored with the \\\"Freedom Awards 2013: Entrepreneur Award\\\" by Kiwanis Club of\", \"\\\"Furniture/Office Equipment Firm of the Year\\\" Award 2012 - Recipient of the FBI Citizens Academy's \\\"Sponsor of the Year\\\" Award 2012 - Honored with a Proclamation by the City of West Miami, made on July 18, 2\", \"The small furniture store would soon flourish and take its first steps towards expansion, thanks to a $10,000 loan from the Small Business Administration\"], \"duplicates_in_other_files\": []}",
   "bot_status": "no proposal — not found"
@@ -140,11 +70,6 @@
  "84": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [\"opened its doors for business in 1987 and has been growing with the South Florida community ever since\", \"Sunshine Gasoline has been a constant sponsor of Miami Children’s Hospital and the Muscular Dystrophy Association\", \"Alvarez is a strong believer in the philosophy that every new generation must be better than the last\"], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\"]}",
   "bot_status": "no proposal — not found"
- },
- "86": {
-  "addr_found": "sales@miamibeef.com",
-  "bot_note": "{\"source_url\": \"https://miamibeef.com\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"care Summer Camps Amusement Parks Correctional Military Capabilities Food Safety Contact Us PROUDLY FAMILY OWNED SINCE 1972 Who We Are Since 1972, Miami Beef has been an industry leader in providing quality fresh\"], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\"]}",
-  "bot_status": "proposed — unconfirmed"
  },
  "91": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [], \"duplicates_in_other_files\": []}",
@@ -165,16 +90,6 @@
  "104": {
   "bot_note": "{\"link\": \"refused (503)\", \"read\": \"2026-10-29\", \"result\": \"refused — re-runnable\", \"practice_signals\": [], \"duplicates_in_other_files\": []}",
   "bot_status": "no proposal — refused"
- },
- "115": {
-  "addr_found": "info@wishfarms.com",
-  "bot_note": "{\"source_url\": \"https://wishfarms.com\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"rries arrow_drop_down Our Berries Organic Berries Berry Facts Care & Handling Berry U Picks Recipes Growing Happiness arrow_drop_down Growing Happiness Our Growers Food Safety Sustainability Worker Welfare O\", \"ies Family Foundation Meet the Family Pixie Blog Pineberries arrow_drop_down Pink-A-Boo Pineberries Growing Pineberries Where to buy Pineberry Care Pineberry FAQ Happiness Survey Berries Our Berries Organics\", \"Berry Facts Care & Handling Berry U-Picks Recipes Growing Happiness Growing Happiness Our Growers Food Safety Sustainability Worker Welfare About Us Our Story Meet the Family\", \"Meet Misty Pixie Blog Feel Good Berries Feel Good Berries Family Foundation Farm Tours Pineberries Growing Pineberries Pineberry FAQ Pineberry Care Where to buy Pineberries Happiness Survey Homepage Strawbe\"], \"duplicates_in_other_files\": []}",
-  "bot_status": "proposed — unconfirmed"
- },
- "118": {
-  "addr_found": "eva@srperrott.com",
-  "bot_note": "{\"source_url\": \"https://srperrott.com/contact\", \"read\": \"2026-10-29\", \"link\": \"resolves\", \"named_person_addresses\": [], \"practice_signals\": [\"It has since expanded its distribution rights to cover Volusia, Flagler, and parts of Putnam county\", \"eral Manager Eva McMullin Vice President of Sales Colleen Connors On-Premise Manager Arnell Spencer Controller Stacey Yarnell Operations Manager Steve Rutherford Home Brands Wines Events Beer Finder About Retai\"], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\"]}",
-  "bot_status": "proposed — unconfirmed"
  },
  "133": {
   "bot_note": "{\"link\": \"resolves\", \"read\": \"2026-10-29\", \"result\": \"not found — no address published on the pages read; nothing guessed\", \"practice_signals\": [\"Bill Cormier | Executive VP, Second-Generation Owner Sally made true theme park magic for us\", \"Bill Cormier | Executive VP, Second-Generation Owner We searched long and hard for what would be the next addition to our amusement park, and this\", \"We value those guest experiences that turn into traditions - from one generation to the next- being shared with friends and family for decades to come\", \"IAAPA Member TEA Global Sponsor All trademarks, names, logos, and brands are property of their respective owners\"], \"duplicates_in_other_files\": [\"florida-bd-three-industries.html\"]}",

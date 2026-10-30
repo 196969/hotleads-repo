@@ -766,6 +766,22 @@
    "chunk": "C-prep resumed",
    "standing_rule": "a scratch artefact is read and filed before it is deleted; an instrument never destroys its own evidence",
    "done": "dry run re-done on planted routes with the route assertion before launch; kill switch proved mid-pass; second pass to completion; per-URL record filed"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "Florida 100, Part A.1",
+   "builder_decision": "Brown Distributing: florida #97 and virginia #119 are not shown to be one company (different city, file and domain; only the Florida row carries a dated Src: line). Neither retired; the Virginia row annotated. Retiring on the name alone would write an unevidenced duplicate."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "Florida 100, Part C",
+   "builder_decisions": [
+    "the Practice column and filter already exist on both Florida files (C4); verified, not rebuilt",
+    "the composer’s three practice openers are generated from the practice standard’s criteria text and claim nothing about the recipient; they attach when the composer overlay opens",
+    "the Src: validator where a human types is exposed in the console (srcLinesValid) but found no note-save function to hook: recorded as a gap, hooked when such a control exists",
+    "the call timer’s export already exists on the console; market pages write nothing, so no export is added to them",
+    "status and tier filters are derived since Item 312; verified"
+   ]
   }
  ]
 }

@@ -1,0 +1,8 @@
+{
+ "openers": {
+  "Acquisitions": "Opener — Acquisitions: we read sale posture, succession or ownership transition (third parties only (brokers, trade press, registries); never the company's own site). Nothing here claims a signal for a company unless the row carries one with its source and date.",
+  "Fractionals": "Opener — Fractionals: we read a published finance or operations vacancy, an interim-leadership announcement, or a first-finance-hire posting (a published posting or announcement, with its source and date). Nothing here claims a signal for a company unless the row carries one with its source and date.",
+  "Private Equity": "Opener — Private Equity: we read a Florida sponsor's published portfolio, platform or add-on announcement (the sponsor's or the press's publication, with its source and date). Nothing here claims a signal for a company unless the row carries one with its source and date."
+ },
+ "source": "florida-standard.json practice_standard.criteria — the opener states what the practice reads; it makes no claim about the recipient"
+}
