@@ -33,6 +33,21 @@ def practice_flags(rows):
             crit=m.group(1); lines=[x for x in SIGNAL_LINE.finditer(html.unescape(cells)) if x.group(1).replace('PE','Private Equity')==crit]
             if not lines: bad.append((key,crit))
     return bad
+
+INTAKE_TIER='Unverified'
+def intake_table(t):
+    """Item 320 9.0.f: rows of the intake table (id="intake") must carry Tier 'Unverified' and an empty or 'derived' Band cell. A typed band or any other tier is refused."""
+    m=re.search(r'<table id="intake">(.*?)</table>',t,re.S)
+    if not m: return []
+    hd=[re.sub(r'\s+',' ',re.sub('<[^>]+>','',h)).strip() for h in re.findall(r'<th[^>]*>(.*?)</th>',m.group(1),re.S)]; ix={h:i for i,h in enumerate(hd)}; bad=[]
+    for row in re.findall(r'<tr[^>]*>(.*?)</tr>',m.group(1),re.S):
+        c=re.findall(r'<td[^>]*>(.*?)</td>',row,re.S)
+        if not c: continue
+        key=re.sub('<[^>]+>','',c[0]).strip(); band=re.sub('<[^>]+>','',c[ix['Band']]).strip(); tier=re.sub('<[^>]+>','',c[ix['Tier']]).strip()
+        if band and band.lower() not in ('derived','\u2014','-'): bad.append((key,f'typed band in the intake table: {band!r}'))
+        if tier!=INTAKE_TIER: bad.append((key,f'intake tier must be {INTAKE_TIER!r}, found {tier!r}'))
+    return bad
+
 def check(path):
     t=open(path,encoding='utf-8').read(); tb=re.search(r'<table[^>]*>(.*?)</table>',t,re.S).group(1)
     hd=[re.sub(r'\s+',' ',re.sub('<[^>]+>','',h)).strip() for h in re.findall(r'<th[^>]*>(.*?)</th>',tb,re.S)]; ix={h:i for i,h in enumerate(hd)}
@@ -47,6 +62,7 @@ def check(path):
             n+=1
             if not has_date(l): bad.append((key,l.strip()[:120]))
     for key,crit in practice_flags(flagrows): bad.append((key,f'typed practice flag: {crit} with no dated signal line'))
+    bad+=intake_table(t)
     return n,bad
 if __name__=='__main__':
     fails=0

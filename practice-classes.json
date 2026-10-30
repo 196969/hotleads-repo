@@ -17,8 +17,7 @@
     "tworld.com",
     "bizquest.com",
     "dealstream.com"
-   ],
-   "opens": "after a Florida Trend reading pass has produced its first non-vacuous candidate or exhausted rows 1–47 (ruling 5)"
+   ]
   },
   "trade_press": {
    "what": "trade press and business press",
@@ -69,8 +68,7 @@
     "ironwoodcap.com",
     "palmbeachcapital.com",
     "veronisshuler.com"
-   ],
-   "opens": "after a Florida Trend reading pass has produced its first non-vacuous candidate or exhausted rows 1–47 (ruling 5)"
+   ]
   },
   "job_board": {
    "what": "job boards, for the Fractionals criterion",
@@ -83,8 +81,7 @@
     "glassdoor.com",
     "simplyhired.com",
     "careerbuilder.com"
-   ],
-   "opens": "parked (ruling 5)"
+   ]
   }
  },
  "company_site": "not a source for any criterion",
@@ -192,14 +189,17 @@
      "obj"
     ],
     "why": "each refused its own search to the undisguised reader (403) on every row in Part 12; removed from the trade-press class for Florida until a different source-side route is ruled; the reader’s name does not change"
-   },
-   "day_two": {
-    "declared": "rows 33–47 (Tier A rows 13–47 in order), Florida Trend only, after rulings 2 and 3, on the next clean UTC start date with the Chair present (ruling 4)"
-   },
-   "re_read_first": {
-    "ruled": "ruling 3",
-    "pages": "the six Florida Trend result pages refused for no publication date in Part 12, re-read once the extractor is proved, before day two; not counted twice as absence"
    }
   }
+ },
+ "ruling_5": {
+  "withdrawn": "R-1029-11: no practice is gated behind another; struck in Step 9.0.a",
+  "struck": [
+   "source_classes.broker.opens",
+   "source_classes.sponsor.opens",
+   "source_classes.job_board.opens",
+   "sources.trade_press.re_read_first",
+   "sources.trade_press.day_two"
+  ]
  }
 }

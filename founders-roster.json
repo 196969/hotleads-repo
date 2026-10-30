@@ -442,7 +442,12 @@
    "fields_by_part": {
     "3": "Fractionals",
     "5": "Fractionals",
-    "9": "Fractionals"
+    "9": "Fractionals: every admitted Fractionals row names its decision maker with title and a dated Src: line (test 4); fails on a family name, department or role inbox"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Fractionals",
+    "check": "every admitted Fractionals row names its decision maker with title and a dated Src: line (test 4); fails on a family name, department or role inbox"
    }
   },
   {
@@ -454,7 +459,12 @@
    "fields_by_part": {
     "3": "Fractionals",
     "5": "Fractionals",
-    "9": "Fractionals"
+    "9": "Fractionals: every admitted Fractionals row carries a published vacancy, interim or first-finance-hire line with URL and publication date; fails on a company-site careers page used as the signal"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Fractionals",
+    "check": "every admitted Fractionals row carries a published vacancy, interim or first-finance-hire line with URL and publication date; fails on a company-site careers page used as the signal"
    }
   },
   {
@@ -466,7 +476,12 @@
    "fields_by_part": {
     "3": "Fractionals",
     "5": "Fractionals",
-    "9": "Fractionals"
+    "9": "Fractionals: every admitted Fractionals row’s company history carries years operating and size band each with a URL, or leaves them blank; fails on an unsourced clause"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Fractionals",
+    "check": "every admitted Fractionals row’s company history carries years operating and size band each with a URL, or leaves them blank; fails on an unsourced clause"
    }
   },
   {
@@ -517,7 +532,17 @@
    "name": "John C. Bogle",
    "weight": 10.0,
    "domain": "advisory",
-   "origin": "Dash Founders lens roster"
+   "origin": "Dash Founders lens roster; fields per part merged from the duplicate seat P5 (fault #24, 30 Oct 2026)",
+   "fields_by_part": {
+    "3": "Private Equity",
+    "5": "Private Equity",
+    "9": "Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a platform or add-on announcement, or a fund release naming the company — never the company’s own site; fails on a company-site signal"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Private Equity",
+    "check": "every admitted PE row’s signal is the sponsor’s own portfolio page, a platform or add-on announcement, or a fund release naming the company — never the company’s own site; fails on a company-site signal"
+   }
   },
   {
    "seat": "tsmurphy",
@@ -547,7 +572,12 @@
    "fields_by_part": {
     "4": "evidence standard",
     "5": "Private Equity",
-    "9": "the source is third-party and dated, or it is not a source"
+    "9": "Private Equity: every admitted PE row sits at or above the band floor with the figure stated and its operating address evidenced on the company’s own page (test 1); fails on either absence"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Private Equity",
+    "check": "every admitted PE row sits at or above the band floor with the figure stated and its operating address evidenced on the company’s own page (test 1); fails on either absence"
    }
   },
   {
@@ -559,7 +589,12 @@
    "fields_by_part": {
     "3": "Acquisitions",
     "5": "Acquisitions",
-    "9": "Acquisitions"
+    "9": "Acquisitions: every admitted Acquisitions row carries a signal with a third-party source URL and a publication date (test 3 evidence line); fails on any admitted row whose signal has no URL or no date"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Acquisitions",
+    "check": "every admitted Acquisitions row carries a signal with a third-party source URL and a publication date (test 3 evidence line); fails on any admitted row whose signal has no URL or no date"
    }
   },
   {
@@ -571,7 +606,12 @@
    "fields_by_part": {
     "3": "Acquisitions",
     "5": "Acquisitions",
-    "9": "Acquisitions"
+    "9": "Acquisitions: every admitted Acquisitions row sits at or above the band floor with the figure stated; fails on any admitted row below the floor or with no figure"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Acquisitions",
+    "check": "every admitted Acquisitions row sits at or above the band floor with the figure stated; fails on any admitted row below the floor or with no figure"
    }
   },
   {
@@ -583,7 +623,12 @@
    "fields_by_part": {
     "3": "Acquisitions",
     "5": "Acquisitions",
-    "9": "Acquisitions"
+    "9": "Acquisitions: every admitted Acquisitions row records which reachable channel it has (phone, address or form); fails on any admitted row with none recorded"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Acquisitions",
+    "check": "every admitted Acquisitions row records which reachable channel it has (phone, address or form); fails on any admitted row with none recorded"
    }
   },
   {
@@ -595,19 +640,12 @@
    "fields_by_part": {
     "3": "Private Equity",
     "5": "Private Equity",
-    "9": "Private Equity"
-   }
-  },
-  {
-   "seat": "P5",
-   "name": "John Bogle",
-   "weight": 10.0,
-   "domain": "brief-named",
-   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
-   "fields_by_part": {
-    "3": "Private Equity",
-    "5": "Private Equity",
-    "9": "Private Equity"
+    "9": "Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base is evidenced with a URL and date; fails when the sponsor or its base is unevidenced"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Private Equity",
+    "check": "every admitted PE row names its sponsor and the sponsor’s Florida base is evidenced with a URL and date; fails when the sponsor or its base is unevidenced"
    }
   },
   {
@@ -616,9 +654,8 @@
    "weight": 10.0,
    "domain": "brief-named",
    "origin": "Item 320 Part 9 brief, added 29 Oct 2026 (weight equal to the named governing seats)",
-   "fields_by_part": {
-    "9": "people, process or product — a signal names a change, not a mood"
-   }
+   "fields_by_part": {},
+   "note": "Part 9 ground withdrawn by the second edition’s Section 2 table; reads Blind by rule on Part 9"
   }
  ],
  "standing_rules": [
@@ -689,6 +726,21 @@
     "Florida Trend is the live source; parser fixed and proved; the known-answer date read, the six re-reads and day two wait for the next clean UTC start date",
     "brokers and sponsor portfolios open only after a Florida Trend reading pass produces a non-vacuous candidate or exhausts rows 1–47; job boards parked"
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "step": "9.0",
+   "done": [
+    "b: Boies’s standing dissent printed in every verdict (fault #23 closed)",
+    "c: nine practice-seat checks defined, each failable against the intake table",
+    "Lemonis’s Part 9 ground withdrawn per Section 2"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "step": "9.0",
+   "class": "roster double-count (fault #24, the #12 class)",
+   "note": "John C. Bogle (lens roster) and John Bogle (added P5) were one seat; the Part 6 merge matched exact names and missed the initial; merged, 78 seats, weight 785"
   }
  ]
 }

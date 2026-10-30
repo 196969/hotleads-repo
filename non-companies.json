@@ -1,0 +1,73 @@
+{
+ "_doc": "Non-company classes filtered out of every candidate count before counting (Item 320 9.2). A domain here is a signal source or noise, never a candidate. Read by intake.py.",
+ "classes": {
+  "directory": [
+   "yelp.com",
+   "yellowpages.com",
+   "manta.com",
+   "dnb.com",
+   "zoominfo.com",
+   "crunchbase.com",
+   "opencorporates.com",
+   "bizapedia.com",
+   "buzzfile.com",
+   "theorg.com"
+  ],
+  "aggregator": [
+   "indeed.com",
+   "glassdoor.com",
+   "ziprecruiter.com",
+   "simplyhired.com",
+   "careerbuilder.com",
+   "linkedin.com"
+  ],
+  "marketplace": [
+   "bizbuysell.com",
+   "businessbroker.net",
+   "bizquest.com",
+   "dealstream.com",
+   "sunbeltnetwork.com",
+   "tworld.com"
+  ],
+  "news": [
+   "floridatrend.com",
+   "bizjournals.com",
+   "prnewswire.com",
+   "businesswire.com",
+   "globenewswire.com",
+   "sfbwmag.com",
+   "orlandosentinel.com",
+   "tampabay.com",
+   "jaxdailyrecord.com",
+   "miamiherald.com",
+   "sun-sentinel.com"
+  ],
+  "social": [
+   "facebook.com",
+   "instagram.com",
+   "x.com",
+   "twitter.com",
+   "youtube.com"
+  ],
+  "ai_list_tool": [
+   "perplexity.ai",
+   "chatgpt.com",
+   "openai.com"
+  ],
+  "economic_development": [
+   "enterpriseflorida.com",
+   "selectflorida.org",
+   "beaconcouncil.com",
+   "gtpartnership.com",
+   "floridachamber.com"
+  ],
+  "lead_tool": [
+   "apollo.io",
+   "lusha.com",
+   "rocketreach.co",
+   "hunter.io",
+   "seamless.ai"
+  ]
+ },
+ "rule": "a candidate whose domain is in any class above is filtered before the count and listed in the report as filtered, with its class"
+}

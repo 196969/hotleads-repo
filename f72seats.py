@@ -91,9 +91,32 @@ def check_part9(repo):
     out['Boies']=('Pass' if ok and P.get('row_says_what_source_says') and P.get('nameless_confirmation_refused_by_apply') else 'Hold','the applier writes exactly the source sentence (proof); nameless confirmation refused; validator passes on the live file',f'validator {"PASSED" if ok else "REFUSED"}; source sentence carried verbatim {P.get("row_says_what_source_says")}; nameless refused {P.get("nameless_confirmation_refused_by_apply")}')
     return out
 
+
+def check_part9_intake(repo):
+    """Second edition, Section 2: Part 9 is read by the nine practice seats against the intake table of florida-expansion.html (9.4). Each check fails on an admitted row that lacks what the seat reads. With no admitted rows the pass is vacuous and says so."""
+    R=json.load(open(os.path.join(repo,'founders-roster.json'))); out={}
+    t=open(os.path.join(repo,'florida-expansion.html'),encoding='utf-8').read(); m=re.search(r'<table id="intake">(.*?)</table>',t,re.S)
+    rows=[]
+    if m:
+        hd=[re.sub(r'\s+',' ',re.sub('<[^>]+>','',h)).strip() for h in re.findall(r'<th[^>]*>(.*?)</th>',m.group(1),re.S)]
+        for row in re.findall(r'<tr[^>]*>(.*?)</tr>',m.group(1),re.S):
+            c=[re.sub('<[^>]+>','',x).strip() for x in re.findall(r'<td[^>]*>(.*?)</td>',row,re.S)]
+            if c: rows.append(dict(zip(hd,c)))
+    for s in R['seats']:
+        ck=s.get('check_part9')
+        if not ck: continue
+        pr=[r for r in rows if ck['practice'] in r.get('Practice','')]
+        if not m: out[s['name'].split()[-1]]=('Blind',ck['practice']+': '+ck['check'][:60],'intake table absent'); continue
+        if not pr: out[s['name'].split()[-1]]=('Pass',ck['practice']+': '+ck['check'][:70]+'\u2026',f'0 admitted {ck["practice"]} rows \u2014 a vacuous pass, stated'); continue
+        # with admitted rows, each seat's field must be present on every one of its practice's rows (the detailed per-field checks live in intake.py; here presence by column)
+        col={'Branson':'Signal','Cuban':'Band','Herjavec':'Reachable channel','Jain':'Signal','Bogle':'Signal','Buffett':'Band','Maister':'Signal','Drucker':'Decision maker','Baker':'Company history'}[s['name'].split()[-1]]
+        bad=[r.get('#') for r in pr if not r.get(col)]
+        out[s['name'].split()[-1]]=('Pass' if not bad else 'Hold',ck['practice']+': '+col+' present on every admitted row',f'{len(pr)} admitted rows; missing on {bad}' if bad else f'{len(pr)} admitted rows, all carry {col}')
+    return out
+
 def run(repo,label,part):
     R=json.load(open(os.path.join(repo,'founders-roster.json'))) if os.path.exists(os.path.join(repo,'founders-roster.json')) else json.load(open('founders-roster.json')); seats=R['seats']
-    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else (check_part7(repo) if part==7 else (check_part8(repo) if part==8 else (check_part9(repo) if part==9 else (check_part10(repo) if part==10 else {})))))
+    named=check_part4(repo) if part==4 else (check_part6(repo) if part==6 else (check_part7(repo) if part==7 else (check_part8(repo) if part==8 else (check_part9_intake(repo) if part==9 else (check_part10(repo) if part==10 else {})))))
     bound={s['name'].split()[-1]:s.get('fields_by_part',{}).get(str(part)) for s in seats}
     rows=[]; 
     for s in seats:
@@ -104,9 +127,10 @@ def run(repo,label,part):
         else: rows.append((s['name'],w,'Blind','no ground defined for this part','by rule'))
     P=[r for r in rows if r[2]=='Pass']; H=[r for r in rows if r[2]=='Hold']; B=[r for r in rows if r[2]=='Blind']
     print(f'== {label}: Pass {len(P)} · Hold {len(H)} · Blind {len(B)} · weight passing {sum(r[1] for r in P)} of {sum(r[1] for r in rows if r[2]!="Chair")}')
+    print('   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads \u201cUnevidenced \u2014 no signed copy on file\u201d; it bears on EST-1044 and heads every report either way.')
     for r in rows:
         if r[2]!='Blind' or r[0].split()[-1] in named: print(f'   {r[0]:22} w{r[1]:<5} {r[2]:5} | {r[3]} | {r[4]}')
-    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen'),7:('Schneier','Goldratt','Chen'),8:('Buffett','Branson','Boies'),9:('Buffett','Lemonis','Boies'),10:('Buffett','Lemonis','Boies')}
+    SEATS={4:('Buffett','Chen','Boies'),6:('Schneier','Goldratt','Chen'),7:('Schneier','Goldratt','Chen'),8:('Buffett','Branson','Boies'),9:('Branson','Cuban','Herjavec','Jain','Bogle','Buffett','Maister','Drucker','Baker'),10:('Buffett','Lemonis','Boies')}
     stop=[r for r in rows if part in SEATS and r[0].split()[-1] in SEATS[part] and r[2]=='Blind']
     if part in SEATS:
         if stop and 'brief' in label.lower(): print(f'   Part {part} brief: Blind by construction on',[r[0] for r in stop],'— not a stop (roster standing rule); the stop binds on the delivery')
