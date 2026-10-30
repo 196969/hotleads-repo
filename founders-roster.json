@@ -680,6 +680,15 @@
    "part": 12,
    "class": "parser boundary",
    "note": "the result-link pattern ran past the link end on Florida Trend’s search page; 8 reads spent on 404s to malformed addresses"
+  },
+  {
+   "date": "2026-10-30",
+   "part": 13,
+   "rulings": [
+    "the Business Journals stay refused under Option 1 and leave the trade-press class for Florida; the reader’s name does not change",
+    "Florida Trend is the live source; parser fixed and proved; the known-answer date read, the six re-reads and day two wait for the next clean UTC start date",
+    "brokers and sponsor portfolios open only after a Florida Trend reading pass produces a non-vacuous candidate or exhausts rows 1–47; job boards parked"
+   ]
   }
  ]
 }

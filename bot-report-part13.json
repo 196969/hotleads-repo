@@ -1,0 +1,45 @@
+{
+ "item": "320 Part 13 — rulings on Part 12 applied",
+ "date_utc": "2026-10-30",
+ "seat_readings": [
+  "== Item 320 Part 13 — rulings applied: Pass 3 · Hold 0 · Blind 75 · weight passing 30.0 of 780.0",
+  "   Timothy A. Edick       w15.0  Chair | decides last | ",
+  "   David Boies            w10.0  Pass  | the applier writes exactly the source sentence (proof); nameless confirmation refused; validator passes on the live file; Part 10: an edited sentence refused by the applier | validator PASSED; source sentence carried verbatim True; nameless refused True; Part 10 proof True",
+  "   Warren Buffett         w10.0  Pass  | every candidate from a declared third-party class with a publication date; undated and company-site sources refused in proof; Part 10: an undated browser read refused | 0 candidate(s) in the queue (a vacuous pass: nothing to read yet); undated refused True; company-site refused True; Part 10 proof True",
+  "   Marcus Lemonis         w10.0  Pass  | every candidate sentence matches a people/process/product keyword set (practice.py KW), not a mood; Part 10: the dated control read as a candidate (criterion sentence) | 0 candidate(s) (a vacuous pass: nothing to read yet); keyword set loaded True; Part 10 proof True",
+  "   Part 10 seats: none Blind — may proceed"
+ ],
+ "seat_note": "queue unchanged and empty: Buffett and Lemonis vacuous, stated; Boies not",
+ "gate": "PASSED on head 2f45cc8; the Part 12 upload live and equal",
+ "ruling_1": "applied: the four Business Journals marked refused by source and removed from the Florida trade-press order; the reader’s name unchanged",
+ "ruling_2a": "applied and proved: the result-link parser bounds the link at its closing quote and rejects markup and tracking tails; on the planted adversarial page the old pattern yielded 4 addresses (2 malformed), the fixed parser 2 clean ones (bot-proofs-part13.json)",
+ "ruling_2b": {
+  "known_answer_date_read": "REFUSED before read 1 — 200 reads on the start date 2026-10-30; waits for the next clean UTC start date",
+  "reads_this_part": 0
+ },
+ "ruling_3": "waits: the six re-reads follow the known-answer read on the next clean start date",
+ "ruling_4": "waits: day two (rows 33–47, Florida Trend only) after rulings 2 and 3, Chair present",
+ "ruling_5": "recorded in practice-classes.json: brokers and sponsor portfolios closed until a non-vacuous candidate or rows 1–47 exhausted; job boards parked",
+ "run": {
+  "reads": 0,
+  "run_start_utc": null,
+  "run_end_utc": null,
+  "straddled_midnight_utc": null
+ },
+ "candidates": {
+  "total": 0
+ },
+ "refusals_by_source": {},
+ "rows_moved": {
+  "not_read_to_no_signal_found": 0
+ },
+ "measured_cost": {
+  "this_part": null,
+  "part_12": {
+   "florida_trend": 2.25,
+   "business_journals": 1.0
+  },
+  "provisional": 1.55
+ },
+ "next": "on the next clean UTC start date, Chair present: gate · known-answer date read (1 read; stop and report if it fails) · the six re-reads · day two rows 33–47 to the ceiling"
+}

@@ -17,7 +17,8 @@
     "tworld.com",
     "bizquest.com",
     "dealstream.com"
-   ]
+   ],
+   "opens": "after a Florida Trend reading pass has produced its first non-vacuous candidate or exhausted rows 1–47 (ruling 5)"
   },
   "trade_press": {
    "what": "trade press and business press",
@@ -68,7 +69,8 @@
     "ironwoodcap.com",
     "palmbeachcapital.com",
     "veronisshuler.com"
-   ]
+   ],
+   "opens": "after a Florida Trend reading pass has produced its first non-vacuous candidate or exhausted rows 1–47 (ruling 5)"
   },
   "job_board": {
    "what": "job boards, for the Fractionals criterion",
@@ -81,7 +83,8 @@
     "glassdoor.com",
     "simplyhired.com",
     "careerbuilder.com"
-   ]
+   ],
+   "opens": "parked (ruling 5)"
   }
  },
  "company_site": "not a source for any criterion",
@@ -134,42 +137,43 @@
   "trade_press": {
    "ruled": "Part 12, 30 Oct 2026 — Option 1: each source’s own site search, no provider, undisguised reader",
    "order": [
-    "florida_trend",
-    "sfbj",
-    "tbbj",
-    "jbj",
-    "obj"
+    "florida_trend"
    ],
    "readers": {
     "florida_trend": {
      "name": "Florida Trend",
      "domain": "floridatrend.com",
      "search": "https://www.floridatrend.com/search?q={q}",
-     "result_link": "https?://(?:www\\.)?floridatrend\\.com/article/\\d+/[^\"\\s]+"
+     "result_link": "href=\"(https?://(?:www\\.)?floridatrend\\.com/article/\\d+/[^\"]*)\"",
+     "parser_fix": "Part 13 ruling 2: the link is bound at the quote closing its href; proved on a planted adversarial tail (bot-proofs-part13.json)"
     },
     "sfbj": {
      "name": "South Florida Business Journal",
      "domain": "bizjournals.com",
      "search": "https://www.bizjournals.com/southflorida/search?q={q}",
-     "result_link": "https?://(?:www\\.)?bizjournals\\.com/southflorida/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+"
+     "result_link": "https?://(?:www\\.)?bizjournals\\.com/southflorida/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+",
+     "status": "refused by source — not run (Part 13 ruling 1)"
     },
     "tbbj": {
      "name": "Tampa Bay Business Journal",
      "domain": "bizjournals.com",
      "search": "https://www.bizjournals.com/tampabay/search?q={q}",
-     "result_link": "https?://(?:www\\.)?bizjournals\\.com/tampabay/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+"
+     "result_link": "https?://(?:www\\.)?bizjournals\\.com/tampabay/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+",
+     "status": "refused by source — not run (Part 13 ruling 1)"
     },
     "jbj": {
      "name": "Jacksonville Business Journal",
      "domain": "bizjournals.com",
      "search": "https://www.bizjournals.com/jacksonville/search?q={q}",
-     "result_link": "https?://(?:www\\.)?bizjournals\\.com/jacksonville/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+"
+     "result_link": "https?://(?:www\\.)?bizjournals\\.com/jacksonville/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+",
+     "status": "refused by source — not run (Part 13 ruling 1)"
     },
     "obj": {
      "name": "Orlando Business Journal",
      "domain": "bizjournals.com",
      "search": "https://www.bizjournals.com/orlando/search?q={q}",
-     "result_link": "https?://(?:www\\.)?bizjournals\\.com/orlando/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+"
+     "result_link": "https?://(?:www\\.)?bizjournals\\.com/orlando/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+",
+     "status": "refused by source — not run (Part 13 ruling 1)"
     }
    },
    "day_one": {
@@ -178,7 +182,24 @@
     "ceiling_at_start": "128 reads already on the start date; 72 remain, so the ceiling fires inside day one and the report states the row and source"
    },
    "probe": "each source’s reader is probed against a planted results page in that source’s link form and a planted dated article before its first live read; a source whose probe fails is not run",
-   "refusal": "a source whose own search refuses the undisguised reader is logged as refused by source and the run moves to the next source; the reader’s name never changes"
+   "refusal": "a source whose own search refuses the undisguised reader is logged as refused by source and the run moves to the next source; the reader’s name never changes",
+   "removed_by_ruling": {
+    "ruled": "Part 13 ruling 1, 30 Oct 2026",
+    "sources": [
+     "sfbj",
+     "tbbj",
+     "jbj",
+     "obj"
+    ],
+    "why": "each refused its own search to the undisguised reader (403) on every row in Part 12; removed from the trade-press class for Florida until a different source-side route is ruled; the reader’s name does not change"
+   },
+   "day_two": {
+    "declared": "rows 33–47 (Tier A rows 13–47 in order), Florida Trend only, after rulings 2 and 3, on the next clean UTC start date with the Chair present (ruling 4)"
+   },
+   "re_read_first": {
+    "ruled": "ruling 3",
+    "pages": "the six Florida Trend result pages refused for no publication date in Part 12, re-read once the extractor is proved, before day two; not counted twice as absence"
+   }
   }
  }
 }

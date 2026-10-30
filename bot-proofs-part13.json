@@ -1,0 +1,16 @@
+{
+ "planted_tail": "a results page carrying the three adversarial forms seen live: an &sa=U&ved= tail, a </div><div tail, and a clean href",
+ "old_pattern_parsed": [
+  "https://www.floridatrend.com/article/11883/spotlight",
+  "https://www.floridatrend.com/article/11883/&sa=U&ved=2ahUKE",
+  "https://www.floridatrend.com/article/11883/</div><div",
+  "https://www.floridatrend.com/article/11962/spotlight-on-florida-manufacturing"
+ ],
+ "fixed_parser_parsed": [
+  "https://www.floridatrend.com/article/11883/spotlight",
+  "https://www.floridatrend.com/article/11962/spotlight-on-florida-manufacturing"
+ ],
+ "fixed_parser_clean": true,
+ "proved_on": "2026-10-30",
+ "result": "PARSER PROOF PASSED"
+}

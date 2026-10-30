@@ -6,7 +6,14 @@ import json,re,sys,os,time,datetime,asyncio,html,urllib.parse
 import bot,practice
 C=json.load(open('practice-classes.json')); SRC=C['sources']['trade_press']; TODAY=datetime.date.today().isoformat()
 UA='DashRite-Advisory-attended-reader/1.0 (research; contact TEdick@dashriteadvisory.com)'
-def parse_results(src,body): return list(dict.fromkeys(html.unescape(m) for m in re.findall(SRC['readers'][src]['result_link'],body)))[:2]
+def parse_results(src,body):
+    """Result links bound at the quote closing the href (Part 13 ruling 2); a pattern without a capturing group is used whole."""
+    pat=SRC['readers'][src]['result_link']; found=re.findall(pat,body); out=[]
+    for m in found:
+        u=html.unescape(m if isinstance(m,str) else m[0])
+        if re.search(r'[<>\s]|&sa=|&ved=',u): continue   # an address carrying markup or a tracking tail is not a link
+        if u not in out: out.append(u)
+    return out[:2]
 async def main(market,attended,cadence,lo=1,hi=32):
     from playwright.async_api import async_playwright
     rows=sorted(practice.pipeline(market),key=lambda r:int(r['key']))[lo-1:hi]; qp=market+'-practice-queue.json'; Q=json.load(open(qp)) if os.path.exists(qp) else {}; rp=market+'-practice-reads.json'; RR=json.load(open(rp)) if os.path.exists(rp) else {}
