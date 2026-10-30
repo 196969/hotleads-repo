@@ -5,12 +5,20 @@
  "ceiling_note": "200 reads per day is the Chair's ruled figure, assumed, not measured; every report citing it says so",
  "kill_switch": "bot-kill",
  "kill_switch_note": "a file named bot-kill in the working directory halts the run before the next read; the audit log is intact to the halt",
- "audit_log": "florida-bot-log.jsonl",
- "write_fence": ["addr_found", "bot_note", "bot_status"],
+ "audit_log": "florida100-window1-log.jsonl",
+ "write_fence": [
+  "addr_found",
+  "bot_note",
+  "bot_status"
+ ],
  "blast_radius": {
   "rows_touched": "only rows the run is given, never the working file",
-  "fields_written": "addr_found, bot_note, bot_status — on queue entries only; never a row's address, phone, decision maker, tier, status or note",
+  "fields_written": "addr_found, bot_note, bot_status \u2014 on queue entries only; never a row's address, phone, decision maker, tier, status or note",
   "what_total_failure_costs": "at most one day's ceiling of reads (200) spent, and a queue of unconfirmed proposals; nothing in florida.html, florida-standard.json, florida-outreach.json or suppression.json changes, because the bot cannot write to them",
   "how_it_is_reversed": "delete the queue file; the audit log records every read so the same rows are not re-read within the window"
+ },
+ "window": {
+  "ruled": "Chair, 30 Oct 2026: a day is a 24-hour window from launch; prior items\u2019 reads do not count",
+  "launch_utc": "2026-10-30T11:51:23.725907+00:00"
  }
 }

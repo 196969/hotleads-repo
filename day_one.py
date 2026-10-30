@@ -11,7 +11,7 @@ async def main(attended,dry=False,read_fn=None):
     day=discovery.Day('florida',attended,read_fn); 
     for k in failed: day.rep['sources_state'][k]={'state':'probe failed','reads':0}
     # known-answer read: one Florida Trend article already read on 30 Oct with a visible date; failure stops Florida Trend only
-    L=[json.loads(l) for l in open(bot.LOG)] if os.path.exists(bot.LOG) else []; six=[e['url'] for e in L if e.get('source')=='florida_trend' and e['outcome']=='read' and '/article/' in e.get('url','') and e['ts'][:10]=='2026-10-30']
+    L=[json.loads(l) for l in open('florida-bot-log.jsonl')] if os.path.exists('florida-bot-log.jsonl') else []; six=[e['url'] for e in L if e.get('source')=='florida_trend' and e['outcome']=='read' and '/article/' in e.get('url','') and e['ts'][:10]=='2026-10-30']
     ka={'article':six[0] if six else None,'result':None}
     if ka['article'] and 'florida_trend' not in failed:
         r=await day.one_read('Acquisitions','florida_trend',ka['article'])

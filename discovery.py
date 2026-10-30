@@ -9,14 +9,16 @@ C=json.load(open('practice-classes.json')); D=C['discovery']; BAND=C['band']; TO
 UA='DashRite-Advisory-attended-reader/1.0 (research; contact TEdick@dashriteadvisory.com)'
 PRACTICES=['Private Equity','Acquisitions','Fractionals']
 def items(src,body):
-    pat=src['item_pattern']; out=[]
-    for m in re.finditer(pat,body):
-        g=[x for x in m.groups() if x]
-        if not g: continue
-        u=html.unescape(g[0]); t=html.unescape(re.sub(r'\s+',' ',g[1])).strip() if len(g)>1 else ''
-        if re.search(r'[<>\s]|&sa=|&ved=',u): continue
-        if (u,t) not in out: out.append((u,t))
-    return out[:12]
+    """Items on a source page: anchors whose href matches the source's declared pattern (derived from the live form); the name is the anchor's text with tags stripped, else the href's slug in words. Nothing is guessed: the name comes from the page's own link."""
+    pat=src['item_pattern']; out=[]; seen=set()
+    for m in re.finditer(r'<a\b[^>]*href="('+pat+r')"[^>]*>(.*?)</a>',body,re.S|re.I):
+        u=html.unescape(m.group(1)); 
+        if re.search(r'[<>\s]|&sa=|&ved=|/feed/?$|oembed',u) or u in seen: continue
+        seen.add(u); t=re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',m.group(2)))).strip()
+        if not t or len(t)>90 or re.fullmatch(r'(active|exited|realized|current|former|view|read more|learn more|visit|website)',t,re.I): t=re.sub(r'[-_]+',' ',u.rstrip('/').split('/')[-1].replace('portfolio-','')).strip().title()
+        card=re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',body[max(0,m.start()-600):m.end()+600])))
+        out.append((u,t,bool(re.search(r'\bFL\b|\bFlorida\b|Miami|Tampa|Orlando|Jacksonville|Fort Lauderdale|Boca Raton|West Palm|Naples|Sarasota|Doral|Coral Gables',card))))
+    return out
 class Day:
     def __init__(s,market,attended,read_fn,log_fn=None):
         s.market=market; s.attended=attended; s.read=read_fn; s.q=market+'-intake-queue.json'; s.Q=json.load(open(s.q)) if os.path.exists(s.q) else {}
@@ -26,6 +28,7 @@ class Day:
         if bot.killed(): raise bot.Halted(f'kill switch present \u2014 before a read ({practice_}/{src_id})')
         if bot.reads_today()>=bot.CEILING: raise bot.Refused(f'ceiling {bot.CEILING} reached before {practice_}/{src_id}')
         if s.spent[practice_]>=s.third: return None,'third spent',None
+        await asyncio.sleep(2.0)
         t0=time.time(); code,body,final=await s.read(url); ok=isinstance(code,int) and code<400
         bot.log({'kind':'read','practice':practice_,'source':src_id,'url':url,'outcome':'read' if ok else 'refused','kind_detail':None if ok else str(code),'elapsed':round(time.time()-t0,2),'reader':'browser'})
         s.spent[practice_]+=1; s.rep['reads_total']+=1; s.rep['reads_by_practice'][practice_]=s.rep['reads_by_practice'].get(practice_,0)+1; s.rep['reads_by_source'][src_id]=s.rep['reads_by_source'].get(src_id,0)+1
@@ -45,7 +48,18 @@ class Day:
         return key
     async def test1(s,key):
         e=s.Q[key]
+        if not e.get('company_url') and e.get('sponsor_page'): e['company_url']=e['sponsor_page']
         if not e.get('company_url'): e['test1']='no company page known \u2014 read on a later day once named'; return
+        sponsor_hosts=('hig.com','suncappart.com','trivest.com','comvest.com','boynecapital.com')
+        if any(h in e['company_url'] for h in sponsor_hosts):
+            r=await s.one_read(e['practice'],'test1:'+e['source'],e['company_url'])
+            if r[0] is None: e['test1']='not read: '+r[1]; return
+            ok,code,body=r
+            if not ok: e['test1']=f'sponsor company page refused ({code}) \u2014 re-runnable'; return
+            ext=[u for u in re.findall(r'href="(https?://[^"]+)"',body) if not any(h in u for h in sponsor_hosts+('linkedin.com','twitter.com','facebook.com','youtube.com','instagram.com','google.com','wp.com','gravatar','wordpress','x.com')) and not re.search(r'\.(png|jpg|svg|css|js|pdf)(\?|$)',u)]
+            txt=re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',body))); e['sponsor_page_text_fl']=bool(re.search(r'\bFL\b|\bFlorida\b',txt))
+            if not ext: e['test1']='sponsor page names no company site; Florida on the sponsor page: '+str(e['sponsor_page_text_fl'])+' (not the company\u2019s own page \u2014 test 1 not settled)'; return
+            e['company_url']=ext[0]
         r=await s.one_read(e['practice'],'test1:'+e['source'],e['company_url'])
         if r[0] is None: e['test1']='not read: '+r[1]; return
         ok,code,body=r
@@ -66,10 +80,10 @@ class Day:
             if r[0] is None: st['state']='third spent'; return
             ok,code,body=r
             if not ok: st['state']=f'refused by source ({code})'; return
-            its=items(src,body); st['state']=f'read: {len(its)} portfolio companies named'
-            for u,t in its:
-                k=s.queue_candidate(practice_,src,t,src['route'],f'{t} is named on {src["name"]}\u2019s portfolio page.',TODAY,None)
-                if k not in ('filtered','on file'): s.Q[k]['sponsor']=src['name']; s.Q[k]['sponsor_page']=u
+            its=items(src,body); st['state']=f'read: {len(its)} portfolio companies named, {sum(1 for x in its if x[2])} with a Florida mention on the card'
+            for u,t,fl in its:
+                k=s.queue_candidate(practice_,src,t,src['route'],f'{t} is named on {src["name"]}\u2019s portfolio page{" (card mentions Florida)" if fl else ""}.',TODAY,None)
+                if k not in ('filtered','on file'): s.Q[k]['sponsor']=src['name']; s.Q[k]['sponsor_page']=u; s.Q[k]['florida_on_card']=fl
         elif src['kind'] in ('site search','job board search'):
             qs=src.get('queries',[]); i=st['reads']
             if i>=len(qs): st['state']='exhausted'; return
@@ -112,7 +126,7 @@ class Day:
                         if st.startswith('refused') or st in ('exhausted','probe failed','third spent'): continue
                         await s.run_source(p,src,rnd); live=True; break
                 if not live: break
-            for k in [k for k,e in s.Q.items() if e.get('test1') is None]: await s.test1(k)
+            for k in sorted([k for k,e in s.Q.items() if e.get('test1') is None],key=lambda k:(not s.Q[k].get('florida_on_card'),k)): await s.test1(k)
             s.rep['stopped']='completed: every source read, refused or exhausted'
         except bot.Refused as e: s.rep['stopped']='ceiling'; s.rep['stopped_at']=str(e)
         except bot.Halted as e: s.rep['stopped']='kill switch'; s.rep['stopped_at']=str(e)

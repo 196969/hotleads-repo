@@ -228,7 +228,8 @@
       "base": "Miami",
       "route": "https://hig.com/portfolio/",
       "kind": "portfolio page",
-      "item_pattern": "href=\"(https?://(?:www\\.)?hig\\.com/portfolio/[^\"/]+/?)\"[^>]*>\\s*([^<]{2,80})<"
+      "item_pattern": "https?://(?:www\\.)?hig\\.com/portfolio/(?!feed)[^\"/]+/?",
+      "pattern_derived": "from the live page form read 2026-10-30 (scratch body); probed on a control in that form"
      },
      {
       "id": "suncap",
@@ -236,15 +237,17 @@
       "base": "Boca Raton",
       "route": "https://www.suncappart.com/portfolio/",
       "kind": "portfolio page",
-      "item_pattern": "href=\"(https?://(?:www\\.)?suncappart\\.com/portfolio/[^\"/]+/?)\"[^>]*>\\s*([^<]{2,80})<"
+      "item_pattern": "https?://(?:www\\.)?suncappart\\.com/portfolio/[^\"/]+/?",
+      "pattern_derived": "from the live page form read 2026-10-30 (scratch body); probed on a control in that form"
      },
      {
       "id": "trivest",
       "name": "Trivest Partners",
       "base": "Coral Gables",
-      "route": "https://www.trivest.com/portfolio/",
+      "route": "https://www.trivest.com/our-private-equity-portfolio/",
       "kind": "portfolio page",
-      "item_pattern": "href=\"(https?://(?:www\\.)?trivest\\.com/portfolio/[^\"/]+/?)\"[^>]*>\\s*([^<]{2,80})<"
+      "item_pattern": "(?:https?://(?:www\\.)?trivest\\.com)?/(?:portfolio|our-private-equity-portfolio)/[^\"/]+/?",
+      "pattern_derived": "from the live page form read 2026-10-30 (scratch body); probed on a control in that form"
      },
      {
       "id": "comvest",
@@ -252,7 +255,8 @@
       "base": "West Palm Beach",
       "route": "https://www.comvest.com/portfolio/",
       "kind": "portfolio page",
-      "item_pattern": "href=\"(https?://(?:www\\.)?comvest\\.com/portfolio/[^\"/]+/?)\"[^>]*>\\s*([^<]{2,80})<"
+      "item_pattern": "(?:https?://(?:www\\.)?comvest\\.com)?/portfolio/[^\"/]+/?",
+      "pattern_derived": "from the live page form read 2026-10-30 (scratch body); probed on a control in that form"
      },
      {
       "id": "boyne",
@@ -260,7 +264,8 @@
       "base": "Miami",
       "route": "https://boynecapital.com/portfolio/",
       "kind": "portfolio page",
-      "item_pattern": "href=\"(https?://(?:www\\.)?boynecapital\\.com/portfolio/[^\"/]+/?)\"[^>]*>\\s*([^<]{2,80})<"
+      "item_pattern": "https?://(?:www\\.)?boynecapital\\.com/portfolio-[^\"/]+/?",
+      "pattern_derived": "from the live page form read 2026-10-30 (scratch body); probed on a control in that form"
      }
     ],
     "rule": "each portfolio page read once; every company named there is a candidate; its own page read for test 1 the same day within the PE third; a sponsor whose Florida base its own site does not confirm is recorded not Florida-based and not read further; a company already on file (test 2) is a signal on the existing row, not a candidate (ruling 11)"

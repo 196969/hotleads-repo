@@ -782,6 +782,41 @@
     "the call timer’s export already exists on the console; market pages write nothing, so no export is added to them",
     "status and tier filters are derived since Item 312; verified"
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "run": "Florida 100 day one",
+   "fault": 27,
+   "note": "four sponsor item patterns built from memory of the link form; probes passed on planted forms; live forms differed (no www, relative hrefs, portfolio-<slug>, a different route); derived from the live bodies and re-probed, 5 reads"
+  },
+  {
+   "date": "2026-10-30",
+   "fault": 28,
+   "note": "the company site was taken as the first external href on a sponsor company page, which on H.I.G. is a site-wide portal link; 26 candidates read at the wrong site, 52 reads spent"
+  },
+  {
+   "date": "2026-10-30",
+   "fault": 29,
+   "note": "the Florida-on-card flag read a ±600-character window that overlaps neighbouring cards; prioritisation by it was noise"
+  },
+  {
+   "date": "2026-10-30",
+   "fault": 30,
+   "note": "the known-answer read failed (no date form found) and Florida Trend was marked stopped, but the runner’s skip list did not recognise the stopped state and read 6 queries and 15 articles anyway, all refused for no publication date"
+  },
+  {
+   "date": "2026-10-30",
+   "fault": 31,
+   "note": "Trivest’s portfolio renders after load; the declared route’s body carries navigation only; 2 reads, 0 companies"
+  },
+  {
+   "date": "2026-10-30",
+   "builder_decisions": [
+    "window one’s own log florida100-window1-log.jsonl per ruling 1",
+    "sponsor candidates queued from bodies already read (no reads charged twice)",
+    "test-1 reads prioritised by the card flag (later found to be noise)",
+    "the PE third spent before the external-link fault was found; the fix is proved on the next window’s first read, not by spending a second third"
+   ]
   }
  ]
 }
