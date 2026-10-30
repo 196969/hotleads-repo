@@ -201,5 +201,14 @@
    "sources.trade_press.re_read_first",
    "sources.trade_press.day_two"
   ]
+ },
+ "band": {
+  "ruled": "2026-10-30, Chair, 9.0.h option (a)",
+  "measure": "published annual revenue only; employee count is not a measure and is not read for band",
+  "ceiling": 25000000,
+  "ceiling_text": "up to $25,000,000 annual revenue: at or below is in band; above is band-rejected at test 1 with the figure, its URL and date read",
+  "lower_bound": null,
+  "no_published_figure": "held as size-unsourced: not admitted, not rejected, re-read when a page gives a number; never inferred",
+  "renamed": "9.6 and the module check are the band ceiling, not a floor"
  }
 }

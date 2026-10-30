@@ -1,10 +1,11 @@
-"""intake.py — Item 320 Part 9 intake (9.3 tests, 9.4 record, 9.6 floor, 9.2 filter). Machine-settled: test 1 (Florida operating address on the
+"""intake.py — Item 320 Part 9 intake (9.3 tests, 9.4 record, 9.6 band ceiling, 9.2 filter). Machine-settled: test 1 (Florida operating address on the
 company's own page, not a registered agent), test 2 (absent from all 81 files by name and domain), test 5 (reachable channel recorded as which),
-the band floor, the non-company filter, and the sourcing of every history clause. Tests 3 and 4 are human-judged in the queue and are recorded here
+the band ceiling, the non-company filter, and the sourcing of every history clause. Tests 3 and 4 are human-judged in the queue and are recorded here
 only as the human's decision with a name and date. Nothing here admits a row to florida.html; admitted rows enter florida-expansion.html as Unverified."""
 import json,re,html,glob
 NC=json.load(open('non-companies.json'))['classes']
-class FloorNotRuled(Exception): pass
+class BandNotRuled(Exception): pass
+SIZE_UNSOURCED='size-unsourced'   # no published revenue figure: held, not admitted, not rejected, never inferred (9.0.h ruling)
 def host_of(u): return re.sub(r'^https?://(www\.)?','',u or '').split('/')[0].lower()
 def non_company(domain):
     d=domain.lower()
@@ -38,11 +39,15 @@ def test5_channel(rec):
         v=rec.get(k)
         if v and v.get('value') and v.get('url') and v.get('read'): return True,k
     return False,'no reachable channel with source and date'
-def floor_check(rec,floor):
-    if floor is None: raise FloorNotRuled('band floor not ruled: the practice standard carries no figure (9.0.h)')
-    fig=rec.get('size_figure')
-    if fig is None: return False,'no size figure on a page'
-    return (fig>=floor),f'figure {fig} against floor {floor}'
+def band_check(rec,band):
+    """9.6 band ceiling (9.0.h ruling, 30 Oct 2026): band['ceiling'] is published annual revenue; at or below is in band; above is band-rejected at test 1
+    with the figure, URL and date. No published figure -> held as size-unsourced: neither admitted nor rejected, re-read when a page gives a number. Employee count is not read."""
+    if not band or band.get('ceiling') is None: raise BandNotRuled('band not ruled: practice-classes.json carries no band ceiling')
+    fig=rec.get('revenue_figure'); src=rec.get('revenue_source') or {}
+    if fig is None: return None,SIZE_UNSOURCED
+    if not (src.get('url') and src.get('read')): return None,SIZE_UNSOURCED+' (a figure without its URL and read date is not a published figure)'
+    if fig>band['ceiling']: return False,f'band-rejected: published revenue {fig} above the ceiling {band["ceiling"]} ({src["url"]} \u00b7 read {src["read"]})'
+    return True,f'in band: published revenue {fig} at or below {band["ceiling"]} ({src["url"]} \u00b7 read {src["read"]})'
 def history_clauses(hist):
     """Every clause carries a URL or is blank. Returns the clauses that would be written and the ones left blank."""
     out={}; blank=[]

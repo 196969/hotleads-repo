@@ -572,12 +572,12 @@
    "fields_by_part": {
     "4": "evidence standard",
     "5": "Private Equity",
-    "9": "Private Equity: every admitted PE row sits at or above the band floor with the figure stated and its operating address evidenced on the company’s own page (test 1); fails on either absence"
+    "9": "Private Equity: every admitted PE row sits at or below the band ceiling ($25M published annual revenue) with the figure stated and its operating address evidenced on the company’s own page (test 1); fails on either absence"
    },
    "check_part9": {
     "part": "9",
     "practice": "Private Equity",
-    "check": "every admitted PE row sits at or above the band floor with the figure stated and its operating address evidenced on the company’s own page (test 1); fails on either absence"
+    "check": "every admitted PE row sits at or below the band ceiling ($25M published annual revenue) with the figure stated and its operating address evidenced on the company’s own page (test 1); fails on either absence"
    }
   },
   {
@@ -606,12 +606,12 @@
    "fields_by_part": {
     "3": "Acquisitions",
     "5": "Acquisitions",
-    "9": "Acquisitions: every admitted Acquisitions row sits at or above the band floor with the figure stated; fails on any admitted row below the floor or with no figure"
+    "9": "Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25M published annual revenue) with the figure stated; fails on any admitted row above the ceiling or with no figure"
    },
    "check_part9": {
     "part": "9",
     "practice": "Acquisitions",
-    "check": "every admitted Acquisitions row sits at or above the band floor with the figure stated; fails on any admitted row below the floor or with no figure"
+    "check": "every admitted Acquisitions row sits at or below the band ceiling ($25M published annual revenue) with the figure stated; fails on any admitted row above the ceiling or with no figure"
    }
   },
   {
@@ -741,6 +741,11 @@
    "step": "9.0",
    "class": "roster double-count (fault #24, the #12 class)",
    "note": "John C. Bogle (lens roster) and John Bogle (added P5) were one seat; the Part 6 merge matched exact names and missed the initial; merged, 78 seats, weight 785"
+  },
+  {
+   "date": "2026-10-30",
+   "step": "9.0.h",
+   "ruling": "band, option (a): published annual revenue only; ceiling $25,000,000; no lower bound; no published figure held as size-unsourced; 9.6 renamed band ceiling"
   }
  ]
 }
