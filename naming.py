@@ -56,3 +56,4 @@ def prove_site(body,company):
         t=clean(re.sub(r'<[^>]+>',' ',txt)); low=t.lower().replace('-',' ')
         if t and all(tk in low.replace(' ','') or tk in low for tk in toks[:2]): return {'where':where,'span':t[:160]}
     return None
+

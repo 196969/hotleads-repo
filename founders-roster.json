@@ -904,6 +904,39 @@
     "Inc. 5000 parked after three 403s; its absence is no size reading",
     "the 13 re-read inside the Google News step as the window’s first discovery reads, paid-for and re-runnable"
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 6,
+   "fault": 42,
+   "note": "pattern set v2’s non-company rule rejects any span ending in “company”, so “Percopo Coatings Company”, a legal name, was rejected as a non-company: a false rejection, proved against a corpus with no such name"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 6,
+   "fault": 43,
+   "note": "the builder’s site-for-name rule took c212.net (PR Newswire’s media host) for Alpha Foundations because a photo caption’s anchor text carried the name; the wrongness stop counted a site-finding fault as a wrong bind — the misfire the Chair’s split was written to prevent; the bind itself is right"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 6,
+   "fault": 44,
+   "note": "the company detector reads the whole page, so publisher navigation (“PEI Group”, “Compliance Watch PEI Events”) counts as a company named; every unbound this window split as headline-unmatched, and the split cannot be trusted until the detector is bounded to the article’s own text"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 6,
+   "register_reasoning": "the v2 proof was built on the same 13 headlines it was proved on; 13 of 13 measured fit, not generalisation. The first live window found two phrasing gaps (“takes majority stake in”, the plural “Acquire”), one false rejection and one wrong site within 4 new headlines"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 6,
+   "builder_decisions": [
+    "pattern set v2 placed in its own module (naming2.py) after an in-file patch failed to apply; the in-file v2 block removed",
+    "a matched span that is not a company is REJECTED with its span, a status distinct from unbound and counted toward neither stop",
+    "a site is found FOR a name only when the link’s host or anchor text carries the name (fault 43 shows the anchor-text half is unsafe)",
+    "article bodies filed to w6-bodies/ before anything is deleted"
+   ]
   }
  ]
 }
