@@ -1,0 +1,73 @@
+{
+ "item": "320 Part 11 — the first clean-day run",
+ "run_date_utc": "2026-10-30",
+ "chair_ruling": "the named day is 30 Oct 2026 UTC (ruled in writing, overruling 3 November)",
+ "run_start_utc": "2026-10-30",
+ "run_end_utc": "2026-10-30",
+ "straddled_midnight_utc": false,
+ "seat_readings": [
+  "== Item 320 Part 11 delivered (clean-day run): Pass 3 · Hold 0 · Blind 75 · weight passing 30.0 of 780.0",
+  "   Timothy A. Edick       w15.0  Chair | decides last | ",
+  "   David Boies            w10.0  Pass  | the applier writes exactly the source sentence (proof); nameless confirmation refused; validator passes on the live file; Part 10: an edited sentence refused by the applier | validator PASSED; source sentence carried verbatim True; nameless refused True; Part 10 proof True",
+  "   Warren Buffett         w10.0  Pass  | every candidate from a declared third-party class with a publication date; undated and company-site sources refused in proof; Part 10: an undated browser read refused | 0 candidate(s) in the queue (a vacuous pass: nothing to read yet); undated refused True; company-site refused True; Part 10 proof True",
+  "   Marcus Lemonis         w10.0  Pass  | every candidate sentence matches a people/process/product keyword set (practice.py KW), not a mood; Part 10: the dated control read as a candidate (criterion sentence) | 0 candidate(s) (a vacuous pass: nothing to read yet); keyword set loaded True; Part 10 proof True",
+  "   Part 10 seats: none Blind — may proceed"
+ ],
+ "seat_note": "the queue is empty after a full declared day: Buffett’s and Lemonis’s passes are vacuous again, stated plainly; Boies reads the applier and validator, which are not vacuous",
+ "gate": "PASSED at 00:18 UTC: head f53561e, every file raw == clone == delivery, shared log 0 for the start date",
+ "clock_proof": "re-run on the live bot.py, PASSED (unfixed granted read 201; fixed refused)",
+ "probe": "PASSED, no reads logged",
+ "run": {
+  "declared": "first 32 Tier A rows in ascending order, four classes, row-major",
+  "launched_as": "python3 run_day_one.py (wrapper filtering the pipeline; practice_browser.py unchanged)",
+  "two_launches": {
+   "first": "rows filtered by row NUMBER <= 32 (11 rows, 44 reads) — a wrapper fault, filed; corrected",
+   "second": "rows 12-32 of the order (21 rows, 84 reads), same start date, same shared count"
+  },
+  "rows_reached": 32,
+  "reads": 128,
+  "reads_today_total": 128,
+  "ceiling": 200,
+  "ceiling_fired": false,
+  "stopped": "at the end of the declared coverage, 72 reads under the ceiling"
+ },
+ "candidates": {
+  "total": 0,
+  "by_criterion_and_class": {}
+ },
+ "refusals": {
+  "total": 128,
+  "by_class": {
+   "trade_press": 32,
+   "job_board": 32,
+   "broker": 32,
+   "sponsor": 32
+  },
+  "by_kind": {
+   "403": 121,
+   "503": 7
+  },
+  "where": "every refusal is at the search step: the provider answers the attended browser’s self-identifying user agent with 403; no class-domain page was reached",
+  "rows_left_not_read": 32
+ },
+ "rows_moved": {
+  "not_read_to_no_signal_found": 0,
+  "classes_read": {}
+ },
+ "measured_cost": {
+  "this_run": 1.0,
+  "basis": "exactly one refused search per row per class; no page fetches followed, so this measures the cost of a refused pass, not of a reading pass",
+  "provisional_part_9": 1.55,
+  "full_pass_arithmetic": {
+   "from_measured_1.0": "4 × 47 × 1.0 = 188 reads — the cost of being refused on every row, within one day",
+   "from_provisional_1.55": "4 × 47 × 1.55 ≈ 291 reads — the cost of a pass that reaches pages; still the planning number"
+  }
+ },
+ "prove_it_can_fail_on_the_live_run": {
+  "live_refusal_per_class": "yes: 32 per class, rows left not read",
+  "candidate_rejected_by_name": "none to reject — the queue is empty",
+  "derived_no_signal_found": "none — no class returned a read",
+  "ceiling_at_declared_point": "did not fire; the declaration ended first at 128 reads"
+ },
+ "next_ruling_needs": "a number: 128 of 128 reads refused at the search provider. The attended reader cannot reach any class through this provider under the undisguised rule. Options for ruling: a different search route per class (each source’s own site search), direct class-domain reads without a search step, or a ruling on the user agent."
+}

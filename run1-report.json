@@ -1,0 +1,25 @@
+{
+ "market": "florida",
+ "date": "2026-10-30",
+ "reader": "browser (attended by Timothy A. Edick)",
+ "class_order": [
+  "trade_press",
+  "job_board",
+  "broker",
+  "sponsor"
+ ],
+ "rows_in_pipeline": 11,
+ "rows_reached": 11,
+ "reads_this_run": 44,
+ "reads_today_before_run": 0,
+ "candidates": {},
+ "classes_read": {},
+ "refusals": {
+  "search refused": 44
+ },
+ "stopped": "completed",
+ "run_start_utc": "2026-10-30",
+ "run_end_utc": "2026-10-30",
+ "straddled_midnight_utc": false,
+ "reads_today_after_run": 44
+}

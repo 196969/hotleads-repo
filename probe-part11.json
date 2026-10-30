@@ -5,5 +5,13 @@
  "undated_refused": true,
  "edited_candidate_refused_by_applier": true,
  "reads_logged": false,
- "result": "PROBE PASSED"
+ "result": "PROBE PASSED",
+ "clean_day_rerun": {
+  "run_on": "2026-10-30T00:18:28.948522+00:00",
+  "dated_control_accepted": true,
+  "undated_refused": true,
+  "edited_candidate_refused_by_applier": true,
+  "reads_logged": false,
+  "result": "PROBE PASSED"
+ }
 }

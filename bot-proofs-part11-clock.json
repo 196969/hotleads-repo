@@ -12,5 +12,20 @@
  "fault_witnessed": true,
  "fix_holds": true,
  "proved_on": "2026-10-29",
- "result": "CLOCK PROOF PASSED"
+ "result": "CLOCK PROOF PASSED",
+ "reruns": [
+  {
+   "rerun_on": "2026-10-30T00:18:28.623734+00:00",
+   "live_bot_py": "head f53561e",
+   "unfixed": {
+    "counted": 50,
+    "read_201": "granted"
+   },
+   "fixed": {
+    "counted_since_start": 200,
+    "read_201": "refused"
+   },
+   "result": "CLOCK PROOF PASSED"
+  }
+ ]
 }

@@ -1,15 +1,19 @@
 {
  "1": {
   "classes_read": {
-   "trade_press": "search refused",
-   "job_board": "search refused"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "2": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 0 class hit(s)",
-   "job_board": "read 2026-10-29: 2 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": [
    {
@@ -24,15 +28,19 @@
  },
  "6": {
   "classes_read": {
-   "trade_press": "search refused",
-   "job_board": "search refused"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "7": {
   "classes_read": {
-   "trade_press": "search refused",
-   "job_board": "read 2026-10-29: 2 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": [
    {
@@ -47,22 +55,28 @@
  },
  "8": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 0 class hit(s)",
-   "job_board": "search refused"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "9": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 0 class hit(s)",
-   "job_board": "search refused"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "11": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 2 class hit(s)",
-   "job_board": "read 2026-10-29: 2 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": [
    {
@@ -85,8 +99,10 @@
  },
  "19": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 0 class hit(s)",
-   "job_board": "read 2026-10-29: 2 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": [
    {
@@ -101,15 +117,19 @@
  },
  "20": {
   "classes_read": {
-   "trade_press": "search refused",
-   "job_board": "search refused"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "22": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 0 class hit(s)",
-   "job_board": "read 2026-10-29: 2 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": [
    {
@@ -124,29 +144,37 @@
  },
  "29": {
   "classes_read": {
-   "trade_press": "search refused",
-   "job_board": "read 2026-10-29: 0 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "33": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 0 class hit(s)",
-   "job_board": "search refused"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "34": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 0 class hit(s)",
-   "job_board": "search refused"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "35": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 0 class hit(s)",
-   "job_board": "read 2026-10-29: 2 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": [
    {
@@ -161,29 +189,37 @@
  },
  "36": {
   "classes_read": {
-   "trade_press": "search refused",
-   "job_board": "read 2026-10-29: 0 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "37": {
   "classes_read": {
-   "trade_press": "search refused",
-   "job_board": "search refused"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "41": {
   "classes_read": {
-   "trade_press": "search refused",
-   "job_board": "search refused"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  },
  "42": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 2 class hit(s)",
-   "job_board": "search refused"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": [
    {
@@ -198,8 +234,10 @@
  },
  "43": {
   "classes_read": {
-   "trade_press": "search refused",
-   "job_board": "read 2026-10-29: 2 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": [
    {
@@ -214,8 +252,10 @@
  },
  "48": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 0 class hit(s)",
-   "job_board": "read 2026-10-29: 2 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": [
    {
@@ -230,7 +270,109 @@
  },
  "54": {
   "classes_read": {
-   "trade_press": "read 2026-10-29: 0 class hit(s)"
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "55": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "57": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "59": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "63": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "64": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "70": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "72": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "73": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "75": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "79": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
+  },
+  "refusals": []
+ },
+ "82": {
+  "classes_read": {
+   "trade_press": "search refused (403) 2026-10-30 browser",
+   "job_board": "search refused (403) 2026-10-30 browser",
+   "broker": "search refused (403) 2026-10-30 browser",
+   "sponsor": "search refused (403) 2026-10-30 browser"
   },
   "refusals": []
  }
