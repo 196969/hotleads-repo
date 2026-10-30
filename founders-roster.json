@@ -668,6 +668,18 @@
    "part": 11,
    "class": "instrument fault, witnessed before it fired",
    "note": "the ceiling counted reads by the current UTC date, so a run crossing midnight UTC would have been granted a second 200 — a reset by the clock. Fixed: the ceiling’s day is the run’s UTC start date. Proof kept both ways: unfixed granting, fixed refusing."
+  },
+  {
+   "date": "2026-10-30",
+   "part": 12,
+   "class": "reader fault",
+   "note": "practice_sources.py crashed after one live read on a row record carried from Part 11 (missing sources_read); fixed; the read stands and the crash is logged as a run"
+  },
+  {
+   "date": "2026-10-30",
+   "part": 12,
+   "class": "parser boundary",
+   "note": "the result-link pattern ran past the link end on Florida Trend’s search page; 8 reads spent on 404s to malformed addresses"
   }
  ]
 }

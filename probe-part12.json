@@ -1,0 +1,34 @@
+{
+ "florida_trend": {
+  "results_parsed": true,
+  "dated_control_accepted": true,
+  "undated_refused": true,
+  "result": "PROBE PASSED"
+ },
+ "sfbj": {
+  "results_parsed": true,
+  "dated_control_accepted": true,
+  "undated_refused": true,
+  "result": "PROBE PASSED"
+ },
+ "tbbj": {
+  "results_parsed": true,
+  "dated_control_accepted": true,
+  "undated_refused": true,
+  "result": "PROBE PASSED"
+ },
+ "jbj": {
+  "results_parsed": true,
+  "dated_control_accepted": true,
+  "undated_refused": true,
+  "result": "PROBE PASSED"
+ },
+ "obj": {
+  "results_parsed": true,
+  "dated_control_accepted": true,
+  "undated_refused": true,
+  "result": "PROBE PASSED"
+ },
+ "_reads_logged": false,
+ "_date": "2026-10-30"
+}

@@ -129,5 +129,56 @@
   "ruled": "2026-10-29 (Item 320 Part 11)",
   "rule": "A “day” for the ceiling is the run’s UTC start date; every read from that start counts against one 200, across midnight UTC. The gate’s “0 reads for today” is read against that start date. Reads are stamped in UTC. One instrument, named precisely — beside the two-windows ruling, which was two.",
   "witnessed": "bot-proofs-part11-clock.json: the unfixed reader granted read 201 on the new UTC date; the fixed reader refuses it"
+ },
+ "sources": {
+  "trade_press": {
+   "ruled": "Part 12, 30 Oct 2026 — Option 1: each source’s own site search, no provider, undisguised reader",
+   "order": [
+    "florida_trend",
+    "sfbj",
+    "tbbj",
+    "jbj",
+    "obj"
+   ],
+   "readers": {
+    "florida_trend": {
+     "name": "Florida Trend",
+     "domain": "floridatrend.com",
+     "search": "https://www.floridatrend.com/search?q={q}",
+     "result_link": "https?://(?:www\\.)?floridatrend\\.com/article/\\d+/[^\"\\s]+"
+    },
+    "sfbj": {
+     "name": "South Florida Business Journal",
+     "domain": "bizjournals.com",
+     "search": "https://www.bizjournals.com/southflorida/search?q={q}",
+     "result_link": "https?://(?:www\\.)?bizjournals\\.com/southflorida/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+"
+    },
+    "tbbj": {
+     "name": "Tampa Bay Business Journal",
+     "domain": "bizjournals.com",
+     "search": "https://www.bizjournals.com/tampabay/search?q={q}",
+     "result_link": "https?://(?:www\\.)?bizjournals\\.com/tampabay/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+"
+    },
+    "jbj": {
+     "name": "Jacksonville Business Journal",
+     "domain": "bizjournals.com",
+     "search": "https://www.bizjournals.com/jacksonville/search?q={q}",
+     "result_link": "https?://(?:www\\.)?bizjournals\\.com/jacksonville/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+"
+    },
+    "obj": {
+     "name": "Orlando Business Journal",
+     "domain": "bizjournals.com",
+     "search": "https://www.bizjournals.com/orlando/search?q={q}",
+     "result_link": "https?://(?:www\\.)?bizjournals\\.com/orlando/news/\\d{4}/\\d\\d/\\d\\d/[^\"\\s]+"
+    }
+   },
+   "day_one": {
+    "declared": "before read 1",
+    "covers": "rows 1–32 in ascending row order (the first 32 Tier A rows), trade press only, source-major within each row",
+    "ceiling_at_start": "128 reads already on the start date; 72 remain, so the ceiling fires inside day one and the report states the row and source"
+   },
+   "probe": "each source’s reader is probed against a planted results page in that source’s link form and a planted dated article before its first live read; a source whose probe fails is not run",
+   "refusal": "a source whose own search refuses the undisguised reader is logged as refused by source and the run moves to the next source; the reader’s name never changes"
+  }
  }
 }

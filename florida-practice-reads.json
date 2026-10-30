@@ -6,7 +6,14 @@
    "broker": "search refused (403) 2026-10-30 browser",
    "sponsor": "search refused (403) 2026-10-30 browser"
   },
-  "refusals": []
+  "refusals": [],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 0 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "2": {
   "classes_read": {
@@ -23,8 +30,34 @@
    {
     "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
     "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/11962/spotlight-on-florida-manufactured-items/",
+    "criterion": "Acquisitions",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/11962/spotlight-on-florida-manufactured-items/",
+    "criterion": "Fractionals",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/11962/spotlight-on-florida-manufactured-items/",
+    "criterion": "Private Equity",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/11962/spotlight-on-florida-manufactured-items/&sa=U&ved=2ahUKEwilt92Tx-CXAxXrejIDHZSbKPoQFnoECAYQAg&usg=AOvVaw0i55e3OSx9QoC4myGtSlbP&fexp=122108195",
+    "why": "page refused (404) — florida_trend"
    }
-  ]
+  ],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 2 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "6": {
   "classes_read": {
@@ -33,7 +66,23 @@
    "broker": "search refused (403) 2026-10-30 browser",
    "sponsor": "search refused (403) 2026-10-30 browser"
   },
-  "refusals": []
+  "refusals": [
+   {
+    "url": "https://www.floridatrend.com/article/11883/&sa=U&ved=2ahUKEwjE57uvx-CXAxU9CoAAHfMhMLcQFnoECAYQAg&usg=AOvVaw1flV7e3XhV_lxyNpozxdkA&fexp=122108195",
+    "why": "page refused (404) — florida_trend"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/11883/</div><div",
+    "why": "page refused (404) — florida_trend"
+   }
+  ],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 2 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "7": {
   "classes_read": {
@@ -50,8 +99,34 @@
    {
     "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
     "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/3873/toprank-florida--top-200-private-companies/",
+    "criterion": "Acquisitions",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/3873/toprank-florida--top-200-private-companies/",
+    "criterion": "Fractionals",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/3873/toprank-florida--top-200-private-companies/",
+    "criterion": "Private Equity",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/3873/toprank-florida--top-200-private-companies/&sa=U&ved=2ahUKEwiO6t_Kx-CXAxV1kysGHXwSGakQFnoECAcQAg&usg=AOvVaw1f51ynAF72ETqRywn79C7k&fexp=121847799,122108195",
+    "why": "page refused (404) — florida_trend"
    }
-  ]
+  ],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 2 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "8": {
   "classes_read": {
@@ -60,7 +135,34 @@
    "broker": "search refused (403) 2026-10-30 browser",
    "sponsor": "search refused (403) 2026-10-30 browser"
   },
-  "refusals": []
+  "refusals": [
+   {
+    "url": "https://www.floridatrend.com/article/24801/perry-ellis-international-enters-into-a-437-million-transaction-to-become-a-private-company/",
+    "criterion": "Acquisitions",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/24801/perry-ellis-international-enters-into-a-437-million-transaction-to-become-a-private-company/",
+    "criterion": "Fractionals",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/24801/perry-ellis-international-enters-into-a-437-million-transaction-to-become-a-private-company/",
+    "criterion": "Private Equity",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/24801/perry-ellis-international-enters-into-a-437-million-transaction-to-become-a-private-company/&sa=U&ved=2ahUKEwiT16Dmx-CXAxVUHIYAHXnWB3QQFnoECAQQAg&usg=AOvVaw1V6AErbD6KvZUKsCxJOJN3&fexp=122108195",
+    "why": "page refused (404) — florida_trend"
+   }
+  ],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 2 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "9": {
   "classes_read": {
@@ -69,7 +171,14 @@
    "broker": "search refused (403) 2026-10-30 browser",
    "sponsor": "search refused (403) 2026-10-30 browser"
   },
-  "refusals": []
+  "refusals": [],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 0 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "11": {
   "classes_read": {
@@ -95,7 +204,14 @@
     "url": "https://www.indeed.com/q-Director-of-Operations-l-Florida-jobs.html",
     "why": "page refused (403)"
    }
-  ]
+  ],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 0 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "19": {
   "classes_read": {
@@ -113,7 +229,14 @@
     "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
     "why": "page refused (403)"
    }
-  ]
+  ],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 0 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "20": {
   "classes_read": {
@@ -122,7 +245,14 @@
    "broker": "search refused (403) 2026-10-30 browser",
    "sponsor": "search refused (403) 2026-10-30 browser"
   },
-  "refusals": []
+  "refusals": [],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 0 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "22": {
   "classes_read": {
@@ -139,8 +269,34 @@
    {
     "url": "https://www.simplyhired.com/search?q=director+of+operations&l=florida",
     "why": "page refused (403)"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/38010/thursdays-daily-pulse/",
+    "criterion": "Acquisitions",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/38010/thursdays-daily-pulse/",
+    "criterion": "Fractionals",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/38010/thursdays-daily-pulse/",
+    "criterion": "Private Equity",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/38010/thursdays-daily-pulse/&sa=U&ved=2ahUKEwjFoOrLyOCXAxU9oCsGHdjfAiwQFnoECAMQAQ&usg=AOvVaw2YN8G4c3Kd4DI54bGkENbb&fexp=122108195",
+    "why": "page refused (404) — florida_trend"
    }
-  ]
+  ],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 2 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "29": {
   "classes_read": {
@@ -149,7 +305,34 @@
    "broker": "search refused (403) 2026-10-30 browser",
    "sponsor": "search refused (403) 2026-10-30 browser"
   },
-  "refusals": []
+  "refusals": [
+   {
+    "url": "https://www.floridatrend.com/article/31715/sintavia-hollywood/",
+    "criterion": "Acquisitions",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/31715/sintavia-hollywood/",
+    "criterion": "Fractionals",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/31715/sintavia-hollywood/",
+    "criterion": "Private Equity",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/31715/sintavia-hollywood/&sa=U&ved=2ahUKEwis0J7nyOCXAxVboSsGHR2WF_8QFnoECAQQAg&usg=AOvVaw1yzHNDHIYieZl4mEIYoP5m&fexp=122108195",
+    "why": "page refused (404) — florida_trend"
+   }
+  ],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 2 result(s) parsed",
+   "sfbj": "search refused (403) 2026-10-30",
+   "tbbj": "search refused (403) 2026-10-30",
+   "jbj": "search refused (403) 2026-10-30",
+   "obj": "search refused (403) 2026-10-30"
+  }
  },
  "33": {
   "classes_read": {
@@ -158,7 +341,30 @@
    "broker": "search refused (403) 2026-10-30 browser",
    "sponsor": "search refused (403) 2026-10-30 browser"
   },
-  "refusals": []
+  "refusals": [
+   {
+    "url": "https://www.floridatrend.com/article/20370/inequality-the-prosperity-gap-in-miami/",
+    "criterion": "Acquisitions",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/20370/inequality-the-prosperity-gap-in-miami/",
+    "criterion": "Fractionals",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/20370/inequality-the-prosperity-gap-in-miami/",
+    "criterion": "Private Equity",
+    "why": "refused: no publication date on the page"
+   },
+   {
+    "url": "https://www.floridatrend.com/article/20370/inequality-the-prosperity-gap-in-miami/&sa=U&ved=2ahUKEwjQuL6CyeCXAxXnhysGHZOpG_QQFnoECAQQAg&usg=AOvVaw0VL072GCcpEQ056DWsaKmZ&fexp=122108195",
+    "why": "page refused (404) — florida_trend"
+   }
+  ],
+  "sources_read": {
+   "florida_trend": "read 2026-10-30: 2 result(s) parsed"
+  }
  },
  "34": {
   "classes_read": {

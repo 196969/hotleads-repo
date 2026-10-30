@@ -1,0 +1,119 @@
+{
+ "item": "320 Part 12 — site search per source (trade press, day one)",
+ "run_date_utc": "2026-10-30",
+ "run_start_utc": "2026-10-30",
+ "run_end_utc": "2026-10-30",
+ "straddled_midnight_utc": false,
+ "seat_readings": [
+  "== Item 320 Part 12 delivered — site search per source: Pass 3 · Hold 0 · Blind 75 · weight passing 30.0 of 780.0",
+  "   Timothy A. Edick       w15.0  Chair | decides last | ",
+  "   David Boies            w10.0  Pass  | the applier writes exactly the source sentence (proof); nameless confirmation refused; validator passes on the live file; Part 10: an edited sentence refused by the applier | validator PASSED; source sentence carried verbatim True; nameless refused True; Part 10 proof True",
+  "   Warren Buffett         w10.0  Pass  | every candidate from a declared third-party class with a publication date; undated and company-site sources refused in proof; Part 10: an undated browser read refused | 0 candidate(s) in the queue (a vacuous pass: nothing to read yet); undated refused True; company-site refused True; Part 10 proof True",
+  "   Marcus Lemonis         w10.0  Pass  | every candidate sentence matches a people/process/product keyword set (practice.py KW), not a mood; Part 10: the dated control read as a candidate (criterion sentence) | 0 candidate(s) (a vacuous pass: nothing to read yet); keyword set loaded True; Part 10 proof True",
+  "   Part 10 seats: none Blind — may proceed"
+ ],
+ "seat_note": "queue empty after the run: Buffett’s and Lemonis’s passes are vacuous again, stated plainly; Boies’s reads the applier and validator",
+ "gate": "PASSED on head c3096d8; 128 reads already on the start date, 72 remaining, declared before read 1",
+ "probes": "five sources, all PROBE PASSED on planted results pages and a planted dated article; no reads logged",
+ "run": {
+  "declared": "rows 1–32 (first 32 Tier A rows), trade press only, source-major",
+  "launches": [
+   {
+    "first": "crashed after 1 read — KeyError on a row record carried from Part 11 (reader fault, fixed, logged as a crashed run); the read stands"
+   },
+   {
+    "second": "71 reads to the ceiling"
+   }
+  ],
+  "rows_reached": 12,
+  "reads": 72,
+  "ceiling_fired": true,
+  "stopped_at": "ceiling 200 reached at row 33, source sfbj",
+  "reads_today_total": 200
+ },
+ "candidates": {
+  "total": 0,
+  "by_criterion_and_source": {}
+ },
+ "refusals_by_source": {
+  "florida_trend": {
+   "404": 8
+  },
+  "sfbj": {
+   "403": 12
+  },
+  "tbbj": {
+   "403": 11
+  },
+  "jbj": {
+   "403": 11
+  },
+  "obj": {
+   "403": 11
+  }
+ },
+ "reads_by_source": {
+  "florida_trend": {
+   "read": 19,
+   "refused": 8
+  },
+  "sfbj": {
+   "refused": 12
+  },
+  "tbbj": {
+   "refused": 11
+  },
+  "jbj": {
+   "refused": 11
+  },
+  "obj": {
+   "refused": 11
+  }
+ },
+ "sources": {
+  "florida_trend": "its own search answers the undisguised reader: 12 searches read, results on 7 rows; 6 result pages read, 8 result fetches 404 on malformed addresses (parser fault below)",
+  "sfbj": "own search refused (403) on every row",
+  "tbbj": "own search refused (403) on every row",
+  "jbj": "own search refused (403) on every row",
+  "obj": "own search refused (403) on every row"
+ },
+ "instrument_findings": [
+  {
+   "what": "result-link parser ran past the link end on Florida Trend’s search page (addresses carrying &sa=U&ved= or </div> tails)",
+   "effect": "8 of 14 result fetches were 404 on addresses that do not exist; those reads were spent on the parser, not the source",
+   "class": "parser boundary (the Src: line family)",
+   "fix": "bound the link at the quote that closes the href; prove on a planted page carrying the adversarial tail before the next run"
+  },
+  {
+   "what": "the 6 Florida Trend pages that read were refused for “no publication date”",
+   "status": "unknown, not a result: either a true absence or the date extractor not knowing Florida Trend’s date form",
+   "next": "a known-answer check: one read of a Florida Trend article with a visible date, on a day with ceiling, before any further Florida Trend reads"
+  }
+ ],
+ "rows_moved": {
+  "not_read_to_no_signal_found": 0,
+  "note": "no row had all permitted sources return a read"
+ },
+ "measured_cost": {
+  "per_source_reads_per_row": {
+   "florida_trend": 2.25,
+   "sfbj": 1.0,
+   "tbbj": 1.0,
+   "jbj": 1.0,
+   "obj": 1.0
+  },
+  "provisional_part_9": 1.55,
+  "note": "Florida Trend’s cost includes the parser’s 404s; the four Business Journals’ cost is one refused search per row",
+  "full_pass_arithmetic": {
+   "trade_press_only_47_rows": "Florida Trend 2.25 + four journals at 1.0 each ≈ 294 reads for 47 rows as the sources behaved today; more than one day with other classes",
+   "planning_number": "291 (4 classes × 47 × 1.55) stands until a reading pass is measured"
+  }
+ },
+ "prove_it_can_fail_on_the_live_run": {
+  "refusal_by_source": "yes: four sources refused on every row, logged by source; one source answered",
+  "candidate_rejected_by_name": "none to reject",
+  "derived_no_signal_found": "none",
+  "ceiling_at_declared_point": "fired at row 33, source sfbj, as the arithmetic before read 1 said it would, inside day one"
+ },
+ "next_ruling_needs": "(1) the parser fix proved on a planted adversarial tail; (2) the Florida Trend known-answer date check, one read; (3) the four Business Journals refuse their own search to the undisguised reader — they stay refused under the ruling; (4) day two of trade press (rows 33–47) on the next clean start date, after (1) and (2)"
+}
