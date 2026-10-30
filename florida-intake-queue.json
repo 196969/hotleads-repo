@@ -6527,7 +6527,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Gaithersburg, MD"
  },
  "Private Equity:hig:223": {
   "practice": "Private Equity",
@@ -6553,7 +6555,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:224": {
   "practice": "Private Equity",
@@ -6579,7 +6583,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:225": {
   "practice": "Private Equity",
@@ -6605,7 +6611,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Atlanta, GA"
  },
  "Private Equity:hig:226": {
   "practice": "Private Equity",
@@ -6631,7 +6639,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "New York, NY"
  },
  "Private Equity:hig:227": {
   "practice": "Private Equity",
@@ -6657,7 +6667,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Joilet, IL"
  },
  "Private Equity:hig:228": {
   "practice": "Private Equity",
@@ -6683,7 +6695,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Morgantown, WV"
  },
  "Private Equity:hig:229": {
   "practice": "Private Equity",
@@ -6709,7 +6723,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Portland, Oregon"
  },
  "Private Equity:hig:230": {
   "practice": "Private Equity",
@@ -6735,7 +6751,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:231": {
   "practice": "Private Equity",
@@ -6753,7 +6771,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/oasis/",
@@ -6761,7 +6779,16 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "West Palm Beach, FL",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.oasis.com/",
+    "outcome": "refused (403)"
+   }
+  ]
  },
  "Private Equity:hig:232": {
   "practice": "Private Equity",
@@ -6787,7 +6814,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:233": {
   "practice": "Private Equity",
@@ -6813,7 +6842,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:234": {
   "practice": "Private Equity",
@@ -6839,7 +6870,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:235": {
   "practice": "Private Equity",
@@ -6857,7 +6890,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/orius-corp/",
@@ -6865,7 +6898,16 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "West Palm Beach, FL",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.orius.com/",
+    "outcome": "refused (503)"
+   }
+  ]
  },
  "Private Equity:hig:236": {
   "practice": "Private Equity",
@@ -6891,7 +6933,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "San Diego, CA"
  },
  "Private Equity:hig:237": {
   "practice": "Private Equity",
@@ -6906,7 +6950,7 @@
   },
   "evidence_source": "signal",
   "company_url": null,
-  "test1": null,
+  "test1": "no Florida address on the company’s own page",
   "test2": "absent from all files",
   "band": {
    "in_band": null,
@@ -6922,7 +6966,25 @@
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
   "wrong_site_read_cleared": true,
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Orlando, FL",
+  "routes_tried": [
+   {
+    "route": "sponsor entry link",
+    "host": "https://www.outcomes.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://www.outcomes.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "Outcomes | Healthcare Solutions for Pharmacy, Pharma, and Payers",
+   "whole_name": "outcomes",
+   "construction": "direct"
+  },
+  "test1_pass": false,
+  "test5": "no reachable channel with source and date"
  },
  "Private Equity:hig:238": {
   "practice": "Private Equity",
@@ -6953,7 +7015,9 @@
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
   "wrong_site_read_cleared": true,
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Beverly, MA"
  },
  "Private Equity:hig:239": {
   "practice": "Private Equity",
@@ -6979,7 +7043,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Culver City, CA"
  },
  "Private Equity:hig:240": {
   "practice": "Private Equity",
@@ -7005,7 +7071,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Charlotte, NC"
  },
  "Private Equity:hig:241": {
   "practice": "Private Equity",
@@ -7031,7 +7099,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Wayne, NJ"
  },
  "Private Equity:hig:242": {
   "practice": "Private Equity",
@@ -7046,9 +7116,12 @@
   },
   "evidence_source": "signal",
   "company_url": "https://hig.com/portfolio/pellera-technologies/",
-  "test1": "not read: third spent",
+  "test1": "no Florida address on the company’s own page",
   "test2": "absent from all files",
-  "band": null,
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  },
   "status": "proposed — unconfirmed",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
@@ -7057,7 +7130,25 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Tallahassee, Florida",
+  "routes_tried": [
+   {
+    "route": "sponsor entry link",
+    "host": "https://pellera.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://pellera.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "IT Solutions for Businesses - Pellera Technologies",
+   "whole_name": "pellera technologies",
+   "construction": "direct"
+  },
+  "test1_pass": false,
+  "test5": "no reachable channel with source and date"
  },
  "Private Equity:hig:243": {
   "practice": "Private Equity",
@@ -7083,7 +7174,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Denver, CO"
  },
  "Private Equity:hig:244": {
   "practice": "Private Equity",
@@ -7109,7 +7202,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:245": {
   "practice": "Private Equity",
@@ -7135,7 +7230,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "New Orleans, LA"
  },
  "Private Equity:hig:246": {
   "practice": "Private Equity",
@@ -7161,7 +7258,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:247": {
   "practice": "Private Equity",
@@ -7187,7 +7286,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:248": {
   "practice": "Private Equity",
@@ -7213,7 +7314,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Trevose, PA"
  },
  "Private Equity:hig:249": {
   "practice": "Private Equity",
@@ -7239,7 +7342,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Troy, MI"
  },
  "Private Equity:hig:250": {
   "practice": "Private Equity",
@@ -7265,7 +7370,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Spring Grove, PA"
  },
  "Private Equity:hig:251": {
   "practice": "Private Equity",
@@ -7291,7 +7398,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Wichita, KS"
  },
  "Private Equity:hig:252": {
   "practice": "Private Equity",
@@ -7317,7 +7426,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:253": {
   "practice": "Private Equity",
@@ -7335,7 +7446,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/pmsi/",
@@ -7343,7 +7454,16 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Tampa, FL",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.pmsi.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Private Equity:hig:254": {
   "practice": "Private Equity",
@@ -7369,7 +7489,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:255": {
   "practice": "Private Equity",
@@ -7395,7 +7517,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Billerica, MA"
  },
  "Private Equity:hig:256": {
   "practice": "Private Equity",
@@ -7421,7 +7545,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Portland, IN"
  },
  "Private Equity:hig:257": {
   "practice": "Private Equity",
@@ -7447,7 +7573,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Richfield, UT"
  },
  "Private Equity:hig:258": {
   "practice": "Private Equity",
@@ -7473,7 +7601,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:259": {
   "practice": "Private Equity",
@@ -7499,7 +7629,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Salt Lake City, UT"
  },
  "Private Equity:hig:260": {
   "practice": "Private Equity",
@@ -7525,7 +7657,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:261": {
   "practice": "Private Equity",
@@ -7551,7 +7685,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Mahwah, NJ"
  },
  "Private Equity:hig:262": {
   "practice": "Private Equity",
@@ -7577,7 +7713,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Austin, TX"
  },
  "Private Equity:hig:263": {
   "practice": "Private Equity",
@@ -7595,7 +7733,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/protocol-global-solutions/",
@@ -7603,7 +7741,21 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Sarasota, FL",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.protocolglobalsolutions.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.protocol-global-solutions.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Private Equity:hig:264": {
   "practice": "Private Equity",
@@ -7629,7 +7781,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:265": {
   "practice": "Private Equity",
@@ -7655,7 +7809,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:266": {
   "practice": "Private Equity",
@@ -7681,7 +7837,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:267": {
   "practice": "Private Equity",
@@ -7707,7 +7865,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Menlo Park, CA"
  },
  "Private Equity:hig:268": {
   "practice": "Private Equity",
@@ -7733,7 +7893,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Dallas, TX"
  },
  "Private Equity:hig:269": {
   "practice": "Private Equity",
@@ -7759,7 +7921,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:270": {
   "practice": "Private Equity",
@@ -7785,7 +7949,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Landover, MD"
  },
  "Private Equity:hig:271": {
   "practice": "Private Equity",
@@ -7811,7 +7977,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Irwindale, CA"
  },
  "Private Equity:hig:272": {
   "practice": "Private Equity",
@@ -7837,7 +8005,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:273": {
   "practice": "Private Equity",
@@ -7863,7 +8033,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Plano, TX"
  },
  "Private Equity:hig:274": {
   "practice": "Private Equity",
@@ -7889,7 +8061,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Edison, NJ"
  },
  "Private Equity:hig:275": {
   "practice": "Private Equity",
@@ -7915,7 +8089,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": null
  },
  "Private Equity:hig:276": {
   "practice": "Private Equity",
@@ -7941,7 +8117,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-30",
+  "location_field": "Temecula, CA"
  },
  "Private Equity:hig:277": {
   "practice": "Private Equity",
@@ -19538,5 +19716,574 @@
    "companies_found": [],
    "spans_examined": []
   }
+ },
+ "Acquisitions:gnews_rss_w10:679": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w10",
+  "company": "InterContinental Miami",
+  "signal": {
+   "sentence": " Gencom-led group acquires InterContinental Miami | Hotel Management Hotel Management The Hospitality Show Hospitality Investor Hotec Operations Hotec Design Advertise About Us Own Operate Tech Design F&B HM 150 The Hospitality Show Magazine Resources All Resources Whitepaper | Special Reports Roundtables | Webinars Questex Events Industry Events Surveys Ebooks Top Lists Events Subscribe Own Opera",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWUhLZzF0c0p6Qy10ZVRmQnI0MVVYbXhZbDZJbTdBNVJsQmowOFY5c0NZSE5kQ1V4ZTZhel9adXhrZTExc2oxN0F6NTF2czJoSFN1UjNsajRzMDB3cGw5cDhBZ3BBdDVPRHBjX0hYSjcyTEFkdm05dVZ2c2g4S3cwZkxkZEU3MFVRbVR6SG1fQ2FwV0dnaFNLTA?oc=5",
+   "published": "2026-10-30",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Gencom-led group acquires InterContinental Miami - Hotel Management",
+  "query": "\"Miami\" company acquired",
+  "precondition_span": "acquires InterContinental Miami",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Gencom-led group acquires InterContinental Miami",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Gencom-led group acquires InterContinental Miami",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "InterContinental Miami",
+   "acquirer": "Gencom-led group",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Gencom-led group acquires InterContinental Miami",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Gencom-led group acquires InterContinental Miami",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Gencom-led group",
+  "city": "Miami",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://hotelmanagement.net/",
+    "outcome": "refused (403)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.intercontinentalmiami.com/",
+    "outcome": "refused (503)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.intercontinental-miami.com/",
+    "outcome": "refused (503)"
+   }
+  ]
+ },
+ "Fractionals:gnews_rss_w10:680": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w10",
+  "company": "SeaWorld",
+  "signal": {
+   "sentence": " SeaWorld names new CFO October 30, 2026 Podcasts Lobby Firm Rankings Influence Magazine Home Elections 2026 — Statewide 2026 — Congressional 2026 — Down Ballot 2026 — Down Ballot — South Florida Culture Wars Legislative Communities Panhandle NE Florida Jax Orlando Tampa Bay St.",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xaDBCM05MTjhUN2c2cURBRFFCeUdCanhUNnVuVV9BTl9DYkJ1VkNydkZ2QVpnM3RldGhKMWFTZ09QT1ZVeEdKRzVQOFMyUjZzQ1JvWFRzNjdtbjZra3Z3bk9HclNCRW9wMEhXYmFScG9LSWxRVWc?oc=5",
+   "published": "2022-06-17",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "SeaWorld names new CFO - Florida Politics",
+  "query": "\"Orlando\" company names CFO",
+  "precondition_span": "SeaWorld names",
+  "evidence_source": "signal",
+  "status": "site proved (derived host); passes tests 1, 2 and 5; held size-unsourced",
+  "naming": {
+   "headline": "SeaWorld names new CFO",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Orlando",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "ions, pivoting away from using orcas as its main image. The Orlando-headquartered company which operates 12",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "SeaWorld",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "SeaWorld names new CFO",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": false
+  },
+  "company_named": true,
+  "acquirer": null,
+  "city": "Orlando",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://floridapolitics.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.seaworld.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://www.seaworld.com/",
+  "site_route": "derived host",
+  "site_proof": {
+   "where": "title",
+   "span": "SeaWorld: Visit with Purpose",
+   "whole_name": "seaworld",
+   "construction": "direct"
+  },
+  "test1": "Florida operating address on https://www.seaworld.com/ · read 2026-10-30",
+  "test1_pass": true,
+  "test5": "address",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  }
+ },
+ "Acquisitions:gnews_rss_w10:681": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w10",
+  "company": "Westshore Grand Hotel",
+  "signal": {
+   "sentence": " Westshore Grand Hotel Acquired by Tampa Developer, Major Renovations Planned ",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ONHd1NWNqVHFNeGVlX1VHbUxGUFFpQW5TNG04U0duSjc4dHVnaXVxU1Zxelc3RG4wRUI5cGZMTmh6dmJyOVE0dURYUjZOdFBDQkFHSzFmeHl3OThTMGNJeXhjV2g3VmJvbXBN?oc=5",
+   "published": "2026-10-30",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Westshore Grand Hotel Acquired by Tampa Developer, Major Renovations Planned - TBBW",
+  "query": "\"Tampa\" company acquired",
+  "precondition_span": "Westshore Grand Hotel Acquire",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Westshore Grand Hotel Acquired by Tampa Developer, Major Renovations Planned",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Westshore Grand Hotel Acquired by Tampa Developer, Major Renovations Planned",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Westshore Grand Hotel",
+   "acquirer": "Tampa Developer",
+   "name_extraction": {
+    "pattern": "{company} acquired by {acquirer}",
+    "span": "Westshore Grand Hotel Acquired by Tampa Developer",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{company} acquired by {acquirer}",
+    "span": "Westshore Grand Hotel Acquired by Tampa Developer",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Tampa Developer",
+  "city": "Tampa",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.westshoregrandhotel.com/",
+    "outcome": "refused (503)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.westshore-grand-hotel.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w10:682": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w10",
+  "company": "",
+  "signal": {
+   "sentence": " Business Park Acquired in Jacksonville, Company Expands Local Footprint Sign in Home Briefs Central Florida State National Featured Columnists Archives Orlando | Orange County Orlando Mayor Buddy Dyer Executive Staff Salaries Election Integrity Crisis: Supervisor Bill Cowles Politics Tourism & Entertainment Contact Us About WON Donate Support WON Search for: Search Button Sign in Welcome!",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mQnZBRjdHY09YcnRZQy1WeDRKTGxyZ0hHUkZPdlNmLWtQZzI4YkdOb3BZelpkYUFrbzFONXpKT0ZvanJVQVIxTDFSUkVUN0dFYjAwYk1aSkwwZXYzVGZtRUUzRTdJMHVSeWtnbEtsU2gwUFhMRXc?oc=5",
+   "published": "2026-08-30",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Business Park Acquired in Jacksonville, Company Expands Local Footprint - West Orlando News",
+  "query": "\"Jacksonville\" company acquired",
+  "precondition_span": "Business Park Acquire",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Business Park Acquired in Jacksonville, Company Expands Local Footprint",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Jacksonville",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Business Park Acquired in Jacksonville, Company Expands Local Footprint",
+    "position": "headline"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "Business Park",
+    "Company",
+    "Tech State Business Park",
+    "Jacksonville",
+    "Merritt Properties",
+    "This",
+    "Northeast Florida. Merritt Properties",
+    "Business"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "Business Park Acquired in Jacksonville, Company Exp"
+    },
+    {
+     "position": "headline",
+     "span": "ark Acquired in Jacksonville, Company Expands Local Footprint"
+    },
+    {
+     "position": "article text",
+     "span": " Business / Tech State Business Park Acquired in Jacksonville, Company Exp"
+    },
+    {
+     "position": "article text",
+     "span": " 30, 2026 A business park was acquired in Jacksonville, and the company nearly doubl"
+    },
+    {
+     "position": "article text",
+     "span": " doubled its local footprint. Merritt Properties acquired Center Point Business Park, "
+    },
+    {
+     "position": "article text",
+     "span": "ivity throughout the market. “This acquisition is a defining moment for our "
+    },
+    {
+     "position": "article text",
+     "span": "ing the company’s presence in Northeast Florida. Merritt Properties acquired Center Point from Plymouth R"
+    },
+    {
+     "position": "article text",
+     "span": " and Republican Tied in High-Stakes Florida District Business / Tech Court Allows Cannabis "
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w10:683": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w10",
+  "company": "",
+  "signal": {
+   "sentence": " Merritt Properties Acquires 538,000-Square-Foot Jacksonville Industrial Park in Largest Deal to Date | citybiz Skip to content citybiz Cities Atlanta Baltimore Boston Charlotte Raleigh Chicago Cleveland Dallas Denver Detroit Global Houston Indianapolis Los Angeles New York Philadelphia Phoenix Pittsburgh Portland San Diego San Francisco Seattle South Florida Washington DC Channels Q&A citybiz+ Pe",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeE9FUEQ3OF9qOG1ZZEtLMTY2eU5vVk5UY21qeEpzcFdFcVQwVXhYWXBTU0pKTnBicE9HWVRraUxLdS01dzJqNWVFYWUwZXBqOTBZRWpGcko3T09MMV9PVVYzRzlXRm5yLWplaVNKNF96eU1PX1hjY1EzcHNJYTB1S0tueUJLTEZsS0JHb0xrWXg5SzBwRXVMbWdpLXhyWE5iLVhjUThfZkFKbWc3NW1XQnNxZWJaeXR6d3hJUGtNaml3R0xwckc3OVl0NkxnbC1XeVdfUg?oc=5",
+   "published": "2026-07-23",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Merritt Properties Acquires 538,000-Square-Foot Jacksonville Industrial Park in Largest Deal to Date - citybiz",
+  "query": "\"Jacksonville\" company acquired",
+  "precondition_span": "Merritt Properties Acquires",
+  "evidence_source": "signal",
+  "status": "bind disputed — held",
+  "naming": {
+   "headline": "Merritt Properties Acquires 538,000-Square-Foot Jacksonville Industrial Park in Largest Deal to Date",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Jacksonville",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Merritt Properties Acquires 538,000-Square-Foot Jacksonville Industrial Park in Largest Deal to Date",
+    "position": "headline"
+   },
+   "state": "bind disputed",
+   "headline_bind": {
+    "company": "538",
+    "acquirer": "Merritt Properties",
+    "name_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Merritt Properties Acquires 538",
+     "position": "headline"
+    },
+    "acquirer_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Merritt Properties Acquires 538",
+     "position": "headline"
+    }
+   },
+   "body_bind": {
+    "company": "Center Point Business Park",
+    "acquirer": "Center Point Business Park Merritt Properties",
+    "name_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Center Point Business Park Merritt Properties has acquired Center Point Business Park ",
+     "position": "article sentence 1"
+    },
+    "acquirer_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Center Point Business Park Merritt Properties has acquired Center Point Business Park ",
+     "position": "article sentence 1"
+    }
+   }
+  }
+ },
+ "Acquisitions:gnews_rss_w10:684": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w10",
+  "company": "Marino Performance Motors",
+  "signal": {
+   "sentence": " Marshall Goldman Acquires Marino Performance Motors, Expands into Florida | citybiz Skip to content citybiz Cities Atlanta Baltimore Boston Charlotte Raleigh Chicago Cleveland Dallas Denver Detroit Global Houston Indianapolis Los Angeles New York Philadelphia Phoenix Pittsburgh Portland San Diego San Francisco Seattle South Florida Washington DC Channels Q&A citybiz+ People Commercial Real Estate",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjNEN1YyM05Gd19zZkR6VTYwZUxtaHZXRlo3MkdqRlVJRzFyamhBb0g3MEZ2MVdIVl92M0RzVDZSUF9tdXpQbjVyS0dnanQ2bklVME1ITUxoaWF4VjhQVlhHOVU3NDZRMnZvOFNURkEwaUlRTzVJVmxkMHdhTTBvYkNZNk0xVDNlVXM3bVBxWWdtTnkxc3Zab2tEZmhNRGpYQTFfX1lUV2xhd1dvV3pKdA?oc=5",
+   "published": "2026-10-14",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Marshall Goldman Acquires Marino Performance Motors, Expands into Florida - citybiz",
+  "query": "\"West Palm Beach\" company acquired",
+  "precondition_span": "Marshall Goldman Acquires",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Marshall Goldman Acquires Marino Performance Motors, Expands into Florida",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "West Palm Beach",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": " Marshall Goldman's new West Palm Beach, Florida, showroom, formerly Marino Per",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "Marino Performance Motors",
+   "acquirer": "Marshall Goldman",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Marshall Goldman Acquires Marino Performance Motors",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Marshall Goldman Acquires Marino Performance Motors",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Marshall Goldman",
+  "city": "West Palm Beach",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.marinoperformancemotors.com/",
+    "outcome": "refused (403)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.marino-performance-motors.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w10:685": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w10",
+  "company": "Naples Bay Resort & Marina",
+  "signal": {
+   "sentence": " Pyramid Global JV acquires Naples Bay Resort & Marina - hotelbusiness.com Close Continue to Site Skip to content Reports 2025 Midyear Industry Outlook 2026 Green Book Reports Casino Report HB Reports HB Partner Reports Kalibri Labs Book Marketplace NEW Surveys Magazine Subscribe Current Issue Past Issues Subscribe Exclusives HB on the Scene Web Exclusives HB Exclusives Expert Insight Ask The Expe",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcktQeURRcHJibDU5X3VmWmc5c2JLNy1ncHpNWHJtVk9qdFNoXzVFMWhGUGhTM29kWm5qcG9ia251WHZtV3JTUEg4Ty1tbWxobGlISUxyWk5ERC0tand1VkFydndwa0hxX1dtLXNhclBkM284RTB4TFplY1JDZzhHMC1sT2g?oc=5",
+   "published": "2026-07-01",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Pyramid Global JV acquires Naples Bay Resort & Marina - hotelbusiness.com",
+  "query": "\"Naples\" company acquired",
+  "precondition_span": "Pyramid Global JV acquires",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Pyramid Global JV acquires Naples Bay Resort & Marina",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Naples",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Pyramid Global JV acquires Naples Bay Resort & Marina",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Naples Bay Resort & Marina",
+   "acquirer": "Pyramid Global JV",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Pyramid Global JV acquires Naples Bay Resort & Marina",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Pyramid Global JV acquires Naples Bay Resort & Marina",
+    "position": "headline"
+   },
+   "body_bind_agrees": true
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Pyramid Global JV",
+  "city": "Naples",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://hotelbusiness.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.naplesbayresortmarina.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.naples-bay-resort-marina.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w10:686": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w10",
+  "company": "200-Unit Pensacola Apartment Community",
+  "signal": {
+   "sentence": " Bowden Companies Acquires 200-Unit Pensacola Apartment Community, Rebrands It as The Maren About EIN Presswire overview About EIN Presswire How it works Compare PR services Customer testimonials Company ethos EIN Presswire in the news EIN Presswire on Substack EIN Presswire on Trustpilot Get in touch Pricing Distribution Distribution overview Sample distribution report Press Releases All Featured",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNblJySE1RUkUyVnZGRTBMdzJ4M0hEQ1R2WFRSUFhlZ3A2REthLWxOQWgwWDJYOW4xbE1QWlBadFJhNVEyOEpYQl92MGVoWG1UcnhCRlB4X2dvcm5reTV0REhLSmJMS2hWbU5DOVFHbzFNMW5zWHpEVTY0NXhGaVFfY09QN19zQU9Da3BSNXFVblNXMU01TFIxQXppMzBiY1JVWFpEYjVrQ0E1LWM2endpczNxNm8zbHBOaDNHX1pqWnBjY1U0NHA1T1p6akFUYmRMVWc?oc=5",
+   "published": "2026-10-07",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Bowden Companies Acquires 200-Unit Pensacola Apartment Community, Rebrands It as The Maren - EIN Presswire",
+  "query": "\"Pensacola\" company acquired",
+  "precondition_span": "Bowden Companies Acquires",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Bowden Companies Acquires 200-Unit Pensacola Apartment Community, Rebrands It as The Maren",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": "Pensacola",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Bowden Companies Acquires 200-Unit Pensacola Apartment Community, Rebrands It as The",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "200-Unit Pensacola Apartment Community",
+   "acquirer": "Bowden Companies",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Bowden Companies Acquires 200-Unit Pensacola Apartment Community",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Bowden Companies Acquires 200-Unit Pensacola Apartment Community",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Bowden Companies",
+  "city": "Pensacola",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://world.einnews.com/",
+    "outcome": "refused (403)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.200unitpensacolaapartmentcommunity.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.200unit-pensacola-apartment-community.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w10:687": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w10",
+  "company": "Lawn Enforcement Agency",
+  "signal": {
+   "sentence": " HighGrove Partners acquires Lawn Enforcement Agency in Florida - Lawn & Landscape Subscribe Home News Industry News Supplier News Mergers & Acquisitions Design/Build/Construction Irrigation Lawn Care Maintenance Snow & Ice Management Technology Research and Reports Top 100 State of the Industry Benchmarking your Business Landscaper Census Best Places to Work Tech Report State of the Market Report",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYWRaaWpRMnh0VmVsSldOSFZSb3pkckJpNGs2MExLY3dIMTJwSTUwN1ZvQk5TdW9LbkRENy1HQS13TnV1RzRtUFE2cW1MYzUxMzRLVFBwZmtYT0NtakVhRnRjSE5yNW5RS2JVWURTdWYycmU4eHUyR1FVTHItRUttX1UzVzVTdUp1TGtlSjU3MThBWTNrejB1c0hpeWpra3ZZcldUZGM5TnlYRDVEUTEwbkNsRQ?oc=5",
+   "published": "2026-05-19",
+   "read": "2026-10-30"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "HighGrove Partners acquires Lawn Enforcement Agency in Florida - Lawn & Landscape",
+  "query": "\"Gainesville\" company acquired",
+  "precondition_span": "HighGrove Partners acquires",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "HighGrove Partners acquires Lawn Enforcement Agency in Florida",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Gainesville",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "ny, has acquired Lawn Enforcement Agency , headquartered in Gainesville, Florida. HighGrove is backed by Agellu",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "Lawn Enforcement Agency",
+   "acquirer": "HighGrove Partners",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "HighGrove Partners acquires Lawn Enforcement Agency",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "HighGrove Partners acquires Lawn Enforcement Agency",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "HighGrove Partners",
+  "city": "Gainesville",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://events.lawnandlandscape.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.lawnenforcementagency.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.lawn-enforcement-agency.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  }
 }
