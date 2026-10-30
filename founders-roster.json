@@ -840,6 +840,48 @@
     "Florida Trend: the one live article shows the page’s date widget (today) and no publication date form the extractor can bind to; it stays stopped",
     "addition 5 not exercised: no practice produced, so no third was released"
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 3,
+   "builder_decisions": [
+    "the Tier A re-read was one read per row at the company’s home page; a named executive, phone or email not found on that one page is recorded as “not on the page read”, not as unpublished or wrong — no tier moved on a single home-page read; the contact and leadership pages are the next read before any tier moves (ruling 9 honoured: never silently)",
+    "Sunbiz refuses this reader (403); the registry half of every re-read stays outstanding, recorded, never a pass",
+    "the feed continuation spent the remaining ceiling on Google News RSS, the only producing source (addition 5)",
+    "feed candidates carry the signal sentence, URL and structured date; the company name is not extracted by the bot — the Chair names it from the sentence at the sitting (never guessed)",
+    "AVI-SPL (H.I.G., Tampa by the entry’s Location field, Florida on its own page, a published address) passes tests 1, 2 and 5 but carries no published revenue figure yet: held size-unsourced under 9.0.h, not counted as admitted",
+    "the console’s per-practice email tabs (Part 5) were not built this window; carried to the next, 0 reads"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 3,
+   "fault": 34,
+   "note": "the re-read charge bucket was not registered in the thirds map; the first launch crashed before any read; fixed and relaunched"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 4,
+   "fault": 39,
+   "note": "site_link accepted higcapital.br.com (a sponsor’s regional domain) as First Capital’s own site: the sponsor-host exclusion matched hig.com only, not the sponsor’s other domains; one wrong-site read, its “no Florida address” is not a finding"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 4,
+   "fault": 40,
+   "note": "the engine did not park a source after consecutive refusals: Google News answered 33 of 33 reads with 503 (13 re-reads, 20 queries) before the kill switch halted the pass; builder rule added: a source is parked for the window after 3 consecutive refusals"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 4,
+   "builder_decisions": [
+    "the window launched 21:21 UTC under the Chair’s waiver; Google News was already refusing (the same-day risk recorded in ruling 3)",
+    "the 13 stay unnamed: every body re-read was refused (503) and headline-only binding is refused (ruling 18); they are re-runnable, not filtered",
+    "Google News parked for the window after the halt; the pass resumed under the same start date at the directory step",
+    "addition 5: Acquisitions’ and Fractionals’ unspent reads released to Private Equity’s H.I.G. entries, the only source that had produced a test-1 pass",
+    "directory finders (ACG, DBPR, Florida Chamber, SelectFlorida, MAF, FloridaMakes, Florida Trucking) answered and are declared as finders; their member lists are not practice signals, so nothing from them is a candidate; LinkedIn Jobs refused (999)",
+    "AVI-SPL’s about page read for revenue: no figure published; held size-unsourced"
+   ]
   }
  ]
 }
