@@ -45,3 +45,14 @@ def name(title,body_text):
     b=hb or bb
     if b: out.update(state='bound',**b,body_bind_agrees=bool(hb and bb)); return out
     d=detector(body_text,t); out.update(state='unbound',split='headline-unmatched (a company is named; the patterns did not bind it)' if d['companies_found'] else 'no-company-named (the detector found none)',**d); return out
+
+def prove_site(body,company):
+    """Fault 39's class repaired in shape: a site belongs to the bound company only when its own page names it in the page title, a main
+    heading, or the copyright line. Returns the proving span and where it sits, or None. Read from the same fetch test 1 reads."""
+    toks=[w.lower() for w in re.findall(r'[A-Za-z]{3,}',company) if w.lower() not in ('inc','llc','corp','company','group','the','and','holdings')]
+    if not toks: return None
+    places=[('title',' '.join(re.findall(r'<title[^>]*>(.*?)</title>',body,re.S|re.I))),('main heading',' '.join(re.findall(r'<h1[^>]*>(.*?)</h1>',body,re.S|re.I))),('copyright line',' '.join(re.findall(r'(?:&copy;|\u00a9|Copyright)[^<]{0,120}',body,re.I))),('og:site_name',' '.join(re.findall(r'og:site_name"\s+content="([^"]+)"',body)))]
+    for where,txt in places:
+        t=clean(re.sub(r'<[^>]+>',' ',txt)); low=t.lower().replace('-',' ')
+        if t and all(tk in low.replace(' ','') or tk in low for tk in toks[:2]): return {'where':where,'span':t[:160]}
+    return None

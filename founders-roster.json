@@ -882,6 +882,28 @@
     "directory finders (ACG, DBPR, Florida Chamber, SelectFlorida, MAF, FloridaMakes, Florida Trucking) answered and are declared as finders; their member lists are not practice signals, so nothing from them is a candidate; LinkedIn Jobs refused (999)",
     "AVI-SPL’s about page read for revenue: no figure published; held size-unsourced"
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 5,
+   "fault": 41,
+   "class": "a parser boundary not proved against the corpus’s commonest adversarial input",
+   "note": "the naming pattern set passed seven planted sentences, every one with a lower-case verb; live Google News headlines are title case (“Acquires”, “to Acquire”), so three headlines naming a company went unmatched and fired the unbound stop; on inspection 5 of the 9 bound names are not company names (a division, a facility, a generic phrase, two clauses bound by the expansion pattern) and 2 more name companies outside Florida. The register rule already said it: a parser boundary is proved against the corpus’s commonest adversarial input"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 5,
+   "register_reasoning": "the Chair’s misread of “assumed” in the ceiling line: a claim about what a word was doing, made without reading what it was doing — unnumbered, beside the misattributed catch"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 5,
+   "builder_decisions": [
+    "Wikipedia’s own search declared in the revenue class as a reference publisher (a cited infobox figure is a third-party publication); recorded so the Chair can strike it",
+    "the site proof re-run on the four held companies’ home pages because their test-1 passes predate the rule; all four proved (Health Network One’s page reads “Emboss Specialty formerly Health Network One”: renamed, recorded)",
+    "Inc. 5000 parked after three 403s; its absence is no size reading",
+    "the 13 re-read inside the Google News step as the window’s first discovery reads, paid-for and re-runnable"
+   ]
   }
  ]
 }
