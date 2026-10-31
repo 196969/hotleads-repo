@@ -1,0 +1,1070 @@
+{
+ "source_list_with_end_states": {
+  "theladders": {
+   "class": "",
+   "window": "",
+   "state": "closed",
+   "reads": 3,
+   "refused": {
+    "403": 2,
+    "404": 1
+   },
+   "note": "name-built contact path, closed (Chair)"
+  },
+  "rocketreach": {
+   "class": "",
+   "window": "",
+   "state": "closed",
+   "reads": 3,
+   "refused": {
+    "404": 3
+   },
+   "note": "name-built contact path, closed (Chair)"
+  },
+  "hunter": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 3,
+   "refused": {},
+   "note": ""
+  },
+  "gnews_rss": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 3,
+   "refused": {},
+   "note": ""
+  },
+  "gnews_rss:article": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 5,
+   "refused": {},
+   "note": ""
+  },
+  "refused-queue:site": {
+   "class": "",
+   "window": "",
+   "state": "refused",
+   "reads": 3,
+   "refused": {
+    "403": 1,
+    "503": 1,
+    "challenge": 1
+   },
+   "note": ""
+  },
+  "suncap:entry": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 6,
+   "refused": {},
+   "note": ""
+  },
+  "suncap:site": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 9,
+   "refused": {
+    "503": 2,
+    "net": 3
+   },
+   "note": ""
+  },
+  "boyne:entry": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 26,
+   "refused": {},
+   "note": ""
+  },
+  "boyne:site": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 5,
+   "refused": {
+    "challenge": 1
+   },
+   "note": ""
+  },
+  "boyne:leadership": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 2,
+   "refused": {},
+   "note": ""
+  },
+  "probe:Trivest": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; company names present"
+  },
+  "probe:ACG": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; no listing or company names on the page read"
+  },
+  "probe:ACG chapters": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; no listing or company names on the page read"
+  },
+  "probe:SBIA": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; company names present"
+  },
+  "probe:PE Hub": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; no listing or company names on the page read"
+  },
+  "probe:SEC EDGAR search": {
+   "class": "",
+   "window": "",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "probe:SEC EDGAR full-text": {
+   "class": "",
+   "window": "",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "probe:Crunchbase": {
+   "class": "",
+   "window": "",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; company names present"
+  },
+  "probe:BizBuySell Florida": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "probe:BizBuySell": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "probe:BizQuest": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "probe:DealStream": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "probe:BusinessBroker.net": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {
+    "405": 1
+   },
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "probe:LoopNet": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "probe:IBBA": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {},
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "probe:M&A Source": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "probe:Sunbelt": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {},
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "probe:Transworld": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {},
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "probe:Murphy Business": {
+   "class": "Marketplace",
+   "window": "w19",
+   "state": "closed",
+   "reads": 1,
+   "refused": {},
+   "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design"
+  },
+  "H.I.G. Capital": {
+   "class": "",
+   "window": "",
+   "state": "exhausted",
+   "reads": 0,
+   "refused": {},
+   "note": "377 of 377 read; 28 Florida; 6 test-1 passes"
+  },
+  "Comvest": {
+   "class": "",
+   "window": "",
+   "state": "closed",
+   "reads": 0,
+   "refused": {},
+   "note": "20 of 130 read, no location field; not repeated"
+  },
+  "Sun Capital": {
+   "class": "",
+   "window": "",
+   "state": "unread",
+   "reads": 0,
+   "refused": {},
+   "note": "106 cards, 6 Florida on face; the 100 others not read (location on face)"
+  },
+  "Boyne": {
+   "class": "",
+   "window": "",
+   "state": "exhausted",
+   "reads": 0,
+   "refused": {},
+   "note": "29 of 29 entries read; 5 Florida"
+  },
+  "FMCSA SAFER": {
+   "class": "Transportation & Logistics",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "FMCSA L&I": {
+   "class": "Transportation & Logistics",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "ATA": {
+   "class": "Transportation & Logistics",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered behind a login or subscription wall"
+  },
+  "Transport Topics": {
+   "class": "Transportation & Logistics",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "FreightWaves": {
+   "class": "Transportation & Logistics",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; company names on the page"
+  },
+  "Logistics Management": {
+   "class": "Transportation & Logistics",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "USDA FSIS directory": {
+   "class": "Food & Beverage",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Specialty Food Association": {
+   "class": "Food & Beverage",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "Food Processing": {
+   "class": "Food & Beverage",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; company names on the page"
+  },
+  "Food Business News": {
+   "class": "Food & Beverage",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "IFDA": {
+   "class": "Food & Beverage",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "Brewers Association": {
+   "class": "Food & Beverage",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "Thomasnet": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "IndustryNet": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "503": 1
+   },
+   "note": ""
+  },
+  "MFG.com": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Kompass": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "MacRAE's Blue Book": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; company names on the page"
+  },
+  "Manta": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "NAM": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "NAW": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "ISA": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "MDM": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "IndustryWeek": {
+   "class": "Manufacturing / Distribution",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered behind a login or subscription wall"
+  },
+  "AGC chapters": {
+   "class": "Construction",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "404": 1
+   },
+   "note": ""
+  },
+  "ABC chapters": {
+   "class": "Construction",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "404": 1
+   },
+   "note": ""
+  },
+  "ENR": {
+   "class": "Construction",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "Construction Dive": {
+   "class": "Construction",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Chain Store Age": {
+   "class": "Retail, Field Ops & Events",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Retail Dive": {
+   "class": "Retail, Field Ops & Events",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "ICSC": {
+   "class": "Retail, Field Ops & Events",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "IFA": {
+   "class": "Retail, Field Ops & Events",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "IAVM": {
+   "class": "Retail, Field Ops & Events",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "TSNN": {
+   "class": "Retail, Field Ops & Events",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "10times": {
+   "class": "Retail, Field Ops & Events",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "SAM.gov": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "USAspending": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "OSHA establishments": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "EPA ECHO": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "Census CBP": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "PACER": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "SBA local assistance": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "America's SBDC": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "U.S. Chamber finder": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "NMSDC": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "WBENC": {
+   "class": "Government finders",
+   "window": "w20",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "South Florida Business Journal": {
+   "class": "Press",
+   "window": "w21",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Tampa Bay Business Journal": {
+   "class": "Press",
+   "window": "w21",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Orlando Business Journal": {
+   "class": "Press",
+   "window": "w21",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Jacksonville Business Journal": {
+   "class": "Press",
+   "window": "w21",
+   "state": "unread",
+   "reads": 0,
+   "refused": {},
+   "note": "not read: bizjournals.com closed after three refusals on that host (fault 62’s repair: a closure keyed on the host)"
+  },
+  "Florida Trend": {
+   "class": "Press",
+   "window": "w21",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "PR Newswire": {
+   "class": "Press",
+   "window": "w21",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "PR Newswire feeds": {
+   "class": "Press",
+   "window": "w21",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "Business Wire": {
+   "class": "Press",
+   "window": "w21",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "503": 1
+   },
+   "note": ""
+  },
+  "GlobeNewswire": {
+   "class": "Press",
+   "window": "w21",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Google News RSS": {
+   "class": "Press",
+   "window": "w21",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; company names on the page"
+  },
+  "Clutch": {
+   "class": "Brand / Marketing / Sales",
+   "window": "w21",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Ad Age": {
+   "class": "Brand / Marketing / Sales",
+   "window": "w21",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "AMA": {
+   "class": "Brand / Marketing / Sales",
+   "window": "w21",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "Selling Power": {
+   "class": "Brand / Marketing / Sales",
+   "window": "w21",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "Sunbiz": {
+   "class": "Registry",
+   "window": "w22",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Florida DBPR": {
+   "class": "Registry",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "LinkedIn Jobs Florida": {
+   "class": "Vacancy",
+   "window": "w22",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "999": 1
+   },
+   "note": ""
+  },
+  "The Ladders": {
+   "class": "Vacancy",
+   "window": "w22",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "U.S. DOL WARN": {
+   "class": "Vacancy",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "FloridaCommerce WARN": {
+   "class": "Vacancy",
+   "window": "w22",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Florida Chamber": {
+   "class": "Associations & ED",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "SelectFlorida": {
+   "class": "Associations & ED",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "MAF": {
+   "class": "Associations & ED",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "FloridaMakes": {
+   "class": "Associations & ED",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "Florida Trucking": {
+   "class": "Associations & ED",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "FRLA": {
+   "class": "Associations & ED",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "HHS breach portal": {
+   "class": "Fraud control",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "SEC EDGAR 8-K Item 1.05": {
+   "class": "Fraud control",
+   "window": "w22",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "FBI IC3": {
+   "class": "Fraud control",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "ACFE": {
+   "class": "Fraud control",
+   "window": "w22",
+   "state": "answering",
+   "reads": 1,
+   "refused": {},
+   "note": "answered; a publication or front page, not a roster"
+  },
+  "FTC": {
+   "class": "Fraud control",
+   "window": "w22",
+   "state": "refused",
+   "reads": 1,
+   "refused": {
+    "403": 1
+   },
+   "note": ""
+  },
+  "Indeed": {
+   "class": "Vacancy",
+   "window": "w22",
+   "state": "closed",
+   "reads": 0,
+   "refused": {},
+   "note": "refused, closed"
+  },
+  "ZipRecruiter": {
+   "class": "Vacancy",
+   "window": "w22",
+   "state": "closed",
+   "reads": 0,
+   "refused": {},
+   "note": "refused, closed"
+  },
+  "Glassdoor": {
+   "class": "Vacancy",
+   "window": "w22",
+   "state": "closed",
+   "reads": 0,
+   "refused": {},
+   "note": "refused, closed"
+  },
+  "CareerBuilder": {
+   "class": "Vacancy",
+   "window": "w22",
+   "state": "closed",
+   "reads": 0,
+   "refused": {},
+   "note": "refused, closed"
+  },
+  "SimplyHired": {
+   "class": "Vacancy",
+   "window": "w22",
+   "state": "closed",
+   "reads": 0,
+   "refused": {},
+   "note": "refused, closed"
+  }
+ },
+ "by_source_class": {
+  "press feed (Google News)": {
+   "reads": 499,
+   "admissions_sourced": 5,
+   "reads_per_admission": 99.8
+  },
+  "other": {
+   "reads": 260,
+   "admissions_sourced": 0,
+   "reads_per_admission": "none admitted"
+  },
+  "marketplaces and probes": {
+   "reads": 109,
+   "admissions_sourced": 0,
+   "reads_per_admission": "none admitted"
+  },
+  "sponsor roster": {
+   "reads": 564,
+   "admissions_sourced": 2,
+   "reads_per_admission": 282.0
+  },
+  "completion / executive reads": {
+   "reads": 36,
+   "admissions_sourced": 0,
+   "reads_per_admission": "none admitted"
+  },
+  "revenue routes": {
+   "reads": 152,
+   "admissions_sourced": 0,
+   "reads_per_admission": "none admitted"
+  }
+ },
+ "findings": [
+  "the press feed admits about one row per ~100 reads; sponsor rosters about one per ~280; every other class admitted none",
+  "marketplaces anonymise listings by design: a for-sale signal never names its company — closed, not re-tried",
+  "rosters pay in reads only where the listing carries the city on its face; of 45 roster-class sources probed in Florida, none did",
+  "registry, vacancy, association and fraud sources answered (or refused) without a company list on their face; Sunbiz and the WARN list refuse this reader",
+  "completion costs about 5 reads per finished row against ~100–280 to discover one: start a market from the rows on file",
+  "decide the size rule before the run: private revenue at this size is not published on free routes"
+ ],
+ "register_lines": {
+  "#59": "a run that does not gate on its own proofs has not been proved",
+  "#60": "a decision maker is a person, and the extractor must show it",
+  "#61": "a company matched by its first word is not the company — rebuilt: an officer binds by one clause’s grammar",
+  "#62": "a closure keyed on a queue measures the queue, not the host"
+ },
+ "enrichments": {
+  "paid": {
+   "completion queue": "13 completions at 6.7 reads each",
+   "contact block": "carried every completed contact onto the row with role inbox and Blind shown",
+   "roster reader": "saved ~86 entry reads at Sun Capital (paid in reads, not in rows)"
+  },
+  "built, did not change reads per admission": {
+   "source-coverage panel": "made closures and refusals visible as decisions"
+  },
+  "not built (the work did not need them)": [
+   "Tier B as a console status",
+   "refused-re-runnable queue on screen",
+   "check-ran counters on screen"
+  ]
+ },
+ "governing_lesson": "completion costs ~5–7 reads per finished row against ~100–280 to discover one (15–40×): a market’s existing rows are finished before any source is opened"
+}

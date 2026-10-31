@@ -1,0 +1,54 @@
+{
+ "date": "2026-10-31",
+ "rows": 200,
+ "dialable_universe": 115,
+ "dialable_universe_measured": "florida.html Tier A 47 + Tier B 45, expansion main A 12 + B 4, intake 7",
+ "call_ready": 93,
+ "verified_callable": 25,
+ "partial": 13,
+ "measured_shut": 9,
+ "tier_C_out_of_scope": 85,
+ "admissions_whole_reopening": 7,
+ "admitted_rows": [
+  "Alpha Foundations",
+  "American Fasteners",
+  "FreightCenter",
+  "Palm Medical Centers",
+  "Altitude Water",
+  "Health Network One",
+  "STS Aviation Group"
+ ],
+ "reads_per_admission_by_source_class": {
+  "press feed (Google News)": {
+   "reads": 499,
+   "admissions_sourced": 5,
+   "reads_per_admission": 99.8
+  },
+  "other": {
+   "reads": 260,
+   "admissions_sourced": 0,
+   "reads_per_admission": "none admitted"
+  },
+  "marketplaces and probes": {
+   "reads": 109,
+   "admissions_sourced": 0,
+   "reads_per_admission": "none admitted"
+  },
+  "sponsor roster": {
+   "reads": 564,
+   "admissions_sourced": 2,
+   "reads_per_admission": 282.0
+  },
+  "completion / executive reads": {
+   "reads": 36,
+   "admissions_sourced": 0,
+   "reads_per_admission": "none admitted"
+  },
+  "revenue routes": {
+   "reads": 152,
+   "admissions_sourced": 0,
+   "reads_per_admission": "none admitted"
+  }
+ },
+ "completion_cost": "run three: 87 reads, 13 completions, 6.7 reads each"
+}

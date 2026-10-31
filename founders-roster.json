@@ -1272,6 +1272,11 @@
     "Nadella": "every find read before write-back; one closed-list test caught and replaced",
     "Lemonis": "process: each of the 35 rows ends in one named state with its routes on the row"
    }
+  },
+  {
+   "date": "2026-10-31",
+   "close": "Item 320 second edition closed",
+   "note": "the dial pack’s first email rule (first.last = named) mislabelled initial-and-surname addresses such as rgazitua@ as role inboxes; read before writing and replaced: an address is named when it carries the row’s decision maker’s name, a role inbox when its local part is a function, otherwise “other address”"
   }
  ]
 }
