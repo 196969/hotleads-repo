@@ -15,13 +15,33 @@ def rows_of(path,which,source):
         d={h:html.unescape(re.sub(r'\s+',' ',re.sub('<[^>]+>',' ',c[i]))).strip() for i,h in enumerate(hd) if i<len(c)}
         d['_links']=re.findall(r'href="(https?://[^"]+)"',r); d['_source']=source; out.append(d)
     return out
+import validate as _V
+CONTACT_WORDS=re.compile(r'(?i)\b(phone|tel|telephone|main line|switchboard|e-?mail|contact (?:page|completed|details|form|information|info)|contact found|number)\b')
+def contact_source_bound(d,phone,email):
+    """A contact is dated only by a dated source that sources the contact (Item 321 fix, 2026-10-31): a date in the Phone or Email cell itself, or a dated
+    Src: line (the validator's own line rule) whose sentence names the number, the address, or the contact. Any other date on the row dates something else."""
+    digits=re.sub(r'\D','',phone or '')[-7:]
+    for cell in ('Phone','Email'):
+        if re.search(DATE,d.get(cell,'')): return True
+    for field in ('Notes','Address source'):
+        note=d.get(field,''); prev=0
+        for m in re.finditer(r'Src:',note):
+            line=next(_V.lines(note[m.start():]))
+            if _V.has_date(line):
+                head=note[max(prev,m.start()-300):m.start()].rstrip(); head=head[:-1] if head.endswith('.') else head
+                cut=max(head.rfind('. '),head.rfind('; '),head.rfind(' | '))
+                ctx=(head[cut+1:] if cut>=0 else head)+' '+line   # the sentence that the source line closes, not the paragraph before it
+                flat=re.sub(r'\D','',ctx)
+                if (digits and digits in flat) or (email and email.lower() in ctx.lower()) or CONTACT_WORDS.search(ctx): return True
+            prev=m.start()+len(line)
+    return False
+
 def assess(d):
     dm=d.get('Decision maker',''); words=re.findall(r"[A-Z][a-zA-Z'\-]+",dm)
     has_person=any(naming10.is_person(' '.join(words[i:i+2])) for i in range(max(0,len(words)-1))) and bool(TITLEW.search(dm))
     phone=re.search(r'\(?\b\d{3}\)?[ .-]\d{3}[ .-]\d{4}\b',d.get('Phone',''))
     em=re.search(r'[\w.+-]+@[\w.-]+\.\w{2,}',d.get('Email','')+' '+d.get('Email or address','')+' '+d.get('Notes',''))
-    dated=bool(re.search(DATE,d.get('Address source','')+' '+d.get('Notes','')+' '+d.get('Decision maker','')))
-    contact=bool(phone or em) and dated
+    contact=bool(phone or em) and contact_source_bound(d,phone.group(0) if phone else None,em.group(0) if em else None)
     tier=d.get('Tier',''); fit=tier in ('A','B','Unverified')   # fit = the market standard's tier test already passed; an industry word list failed 40 good rows ("mfg", "dist", "3PL")
     sig=re.search(r'(?:Acquisitions|Fractionals|Private Equity|PE) signal[^\u00b7]*\u00b7[^\u00b7]*?('+DATE+')',d.get('Notes',''))
     sig_date=sig.group(1) if sig else (re.search(DATE,d.get('Company history','')) or [None])[0] if d.get('Company history') else None

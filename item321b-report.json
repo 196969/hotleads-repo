@@ -1,0 +1,370 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Item 321 collisions and contact fix (brief): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Item 321 collisions and contact fix (delivered): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "gate": "fresh clone at head fe016c5: 12 of 13 Item 321 files on live; chicago.html did not land, and live chicago.html equals Item 321’s parent row for row, so the 321 bytes are carried forward in this set",
+  "reads": 0
+ },
+ "item4": "18 collision rows (Illinois 2, Chicago 16) carry the register’s legal officer beside the row’s named decision maker; nothing overwritten",
+ "item5": {
+  "rule": "a contact is dated only by a date in the Phone or Email cell, or by a dated source line closing a sentence that names the number, the address, or a specific contact term",
+  "proof": "7 of 7 planted cases",
+  "per_market": {
+   "arizona": {
+    "before": [
+     1,
+     1
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "california": {
+    "before": [
+     1,
+     1
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "chicago": {
+    "before": [
+     79,
+     77
+    ],
+    "after": [
+     23,
+     23
+    ]
+   },
+   "colorado": {
+    "before": [
+     2,
+     2
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "florida": {
+    "before": [
+     98,
+     97
+    ],
+    "after": [
+     40,
+     40
+    ]
+   },
+   "georgia": {
+    "before": [
+     16,
+     16
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "illinois": {
+    "before": [
+     22,
+     22
+    ],
+    "after": [
+     20,
+     20
+    ]
+   },
+   "indiana": {
+    "before": [
+     0,
+     0
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "iowa": {
+    "before": [
+     4,
+     4
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "kentucky": {
+    "before": [
+     1,
+     1
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "las-vegas": {
+    "before": [
+     1,
+     1
+    ],
+    "after": [
+     4,
+     4
+    ]
+   },
+   "michigan": {
+    "before": [
+     3,
+     3
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "minnesota": {
+    "before": [
+     2,
+     2
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "missouri": {
+    "before": [
+     1,
+     1
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "new-jersey": {
+    "before": [
+     7,
+     7
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "new-york": {
+    "before": [
+     5,
+     5
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "north-carolina": {
+    "before": [
+     11,
+     11
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "ohio": {
+    "before": [
+     1,
+     1
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "oregon": {
+    "before": [
+     0,
+     0
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "pennsylvania": {
+    "before": [
+     2,
+     2
+    ],
+    "after": [
+     3,
+     3
+    ]
+   },
+   "south-carolina": {
+    "before": [
+     15,
+     15
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "tennessee": {
+    "before": [
+     8,
+     8
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "texas": {
+    "before": [
+     58,
+     58
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "utah": {
+    "before": [
+     1,
+     1
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "virginia": {
+    "before": [
+     4,
+     4
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "washington": {
+    "before": [
+     1,
+     1
+    ],
+    "after": [
+     0,
+     0
+    ]
+   },
+   "wisconsin": {
+    "before": [
+     9,
+     9
+    ],
+    "after": [
+     0,
+     0
+    ]
+   }
+  },
+  "totals": {
+   "before rows": 353,
+   "after rows": 90,
+   "before companies": 350,
+   "after companies": 90
+  },
+  "lost_classes": {
+   "C (no source line on the row)": 203,
+   "D (source lines name something else)": 30,
+   "A (the row says the contact is unsourced)": 35,
+   "B (number in a dated verification note, no source named)": 2
+  },
+  "gains": [
+   [
+    "las-vegas",
+    "las-vegas.html",
+    "Findlay Automotive Group"
+   ],
+   [
+    "las-vegas",
+    "las-vegas.html",
+    "Towbin Motorcars"
+   ],
+   [
+    "las-vegas",
+    "las-vegas.html",
+    "Nacho Daddy"
+   ],
+   [
+    "las-vegas",
+    "las-vegas.html",
+    "Metro Pizza"
+   ],
+   [
+    "pennsylvania",
+    "pennsylvania.html",
+    "Ryeco LLC"
+   ],
+   [
+    "pennsylvania",
+    "pennsylvania.html",
+    "Geno’s Steaks"
+   ],
+   [
+    "pennsylvania",
+    "pennsylvania.html",
+    "S&A Homes"
+   ]
+  ],
+  "gains_read": "rows whose contact sentence names its source (“phone per Winmo profile”) under a dated line in a non-ISO date the old test could not read"
+ },
+ "consequences_not_acted_on": [
+  "Florida closed at 98 rows / 97 companies on the old rule; on the fixed rule it reads 40 / 40. The Florida dial pack and Core BD Report still carry 98 and were not regenerated in this pass",
+  "the 58 Texas call-ready rows all fall: none carries a source line naming its contact"
+ ],
+ "verified_callable_gate": "named on the index for Illinois and Chicago: no row carries a sourced address; needs reads"
+}

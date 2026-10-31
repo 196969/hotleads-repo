@@ -1425,6 +1425,44 @@
    "date": "2026-10-31",
    "item": 321,
    "control": "the join measured on rows that already held a named decision maker: of 68 register matches, the register officer agreed with the row’s named person 50 times and differed 18 times (legal officer, an older filing, or another entity of the same name); collisions left untouched and reported"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "fault": "the Chair’s brief named a field without reading the layout",
+   "owner": "the Chair",
+   "note": "“Corporations through Annual Report for president and secretary” was written from an earlier page read; the Annual Report file carries no officer field. A brief that names a field without reading the layout that defines it is the same fault as a join inferred from data; the brief is not exempt from the rule it imposes. Reading the documentation first caught it"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "ruling": "the unsplit president field stays unsplit and labelled as published: a field honestly incomplete is usable; a field confidently wrong is not"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "texas_figures": {
+    "Florida": "~150 reads not spent at measured yield, floor 15",
+    "Illinois": "at least 379 fetches not made that would have been prohibited"
+   },
+   "line": "a bulk state saves reads; a bulk state with an automation prohibition saves legitimacy"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "ruling": "18 collisions recorded both ways on the row, each labelled: the register’s legal officer dated from its file, the row’s named decision maker from its own source and still the dial target (the Martinez rule applied to people)"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "fault": "shape over meaning, third instance",
+   "line": "a contact’s dated source must bind to the contact field it sources, not to the row",
+   "note": "the call-ready test took any date on the row (a verification date, a register line, even “Phone unsourced 2026-10-29”) as dating the contact. Rebuilt and proved on seven planted cases (the ABT shape failed before the fix and passes after). Programme call-ready: 353 rows / 350 companies on the old rule → 90 / 90 on the fixed rule"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "note": "the first narrowing of the fix matched “before contact” in a history sentence and gained a row it should not have; caught by reading the gains before reporting; the binding was narrowed to the sentence the source line closes and re-proved"
   }
  ]
 }

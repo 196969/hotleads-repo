@@ -1,0 +1,12 @@
+{
+ "cases": [
+  "P1 ABT shape: undated phone, dated register line → not call-ready",
+  "P2 dated line naming the phone → call-ready",
+  "P3 main line from the contact page → call-ready",
+  "P4 a verification date only → not call-ready",
+  "P5 email named on a dated line → call-ready",
+  "P6 a history sentence that says “before contact” → not call-ready",
+  "P7 the row says the phone is unsourced → not call-ready"
+ ],
+ "result": "7 of 7; P1, P4 and P7 read call-ready under the old rule"
+}

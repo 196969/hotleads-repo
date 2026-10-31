@@ -1,0 +1,409 @@
+{
+ "markets": {
+  "arizona": {
+   "before": [
+    1,
+    1
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "california": {
+   "before": [
+    1,
+    1
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "chicago": {
+   "before": [
+    79,
+    77
+   ],
+   "after": [
+    23,
+    23
+   ]
+  },
+  "colorado": {
+   "before": [
+    2,
+    2
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "florida": {
+   "before": [
+    98,
+    97
+   ],
+   "after": [
+    40,
+    40
+   ]
+  },
+  "georgia": {
+   "before": [
+    16,
+    16
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "illinois": {
+   "before": [
+    22,
+    22
+   ],
+   "after": [
+    20,
+    20
+   ]
+  },
+  "indiana": {
+   "before": [
+    0,
+    0
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "iowa": {
+   "before": [
+    4,
+    4
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "kentucky": {
+   "before": [
+    1,
+    1
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "las-vegas": {
+   "before": [
+    1,
+    1
+   ],
+   "after": [
+    4,
+    4
+   ]
+  },
+  "michigan": {
+   "before": [
+    3,
+    3
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "minnesota": {
+   "before": [
+    2,
+    2
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "missouri": {
+   "before": [
+    1,
+    1
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "new-jersey": {
+   "before": [
+    7,
+    7
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "new-york": {
+   "before": [
+    5,
+    5
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "north-carolina": {
+   "before": [
+    11,
+    11
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "ohio": {
+   "before": [
+    1,
+    1
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "oregon": {
+   "before": [
+    0,
+    0
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "pennsylvania": {
+   "before": [
+    2,
+    2
+   ],
+   "after": [
+    3,
+    3
+   ]
+  },
+  "south-carolina": {
+   "before": [
+    15,
+    15
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "tennessee": {
+   "before": [
+    8,
+    8
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "texas": {
+   "before": [
+    58,
+    58
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "utah": {
+   "before": [
+    1,
+    1
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "virginia": {
+   "before": [
+    4,
+    4
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "washington": {
+   "before": [
+    1,
+    1
+   ],
+   "after": [
+    0,
+    0
+   ]
+  },
+  "wisconsin": {
+   "before": [
+    9,
+    9
+   ],
+   "after": [
+    0,
+    0
+   ]
+  }
+ },
+ "totals": {
+  "before rows": 353,
+  "after rows": 90,
+  "before companies": 350,
+  "after companies": 90
+ },
+ "lost_classes": {
+  "C": 203,
+  "D": 30,
+  "A": 35,
+  "B": 2
+ },
+ "lost_per_market": {
+  "arizona": {
+   "C": 1
+  },
+  "california": {
+   "D": 1
+  },
+  "chicago": {
+   "C": 48,
+   "D": 8
+  },
+  "colorado": {
+   "C": 2
+  },
+  "florida": {
+   "A": 35,
+   "D": 10,
+   "C": 13
+  },
+  "georgia": {
+   "C": 16
+  },
+  "illinois": {
+   "C": 2
+  },
+  "iowa": {
+   "C": 3,
+   "D": 1
+  },
+  "kentucky": {
+   "D": 1
+  },
+  "las-vegas": {
+   "C": 1
+  },
+  "michigan": {
+   "C": 3
+  },
+  "minnesota": {
+   "C": 2
+  },
+  "missouri": {
+   "C": 1
+  },
+  "new-jersey": {
+   "C": 7
+  },
+  "new-york": {
+   "C": 5
+  },
+  "north-carolina": {
+   "C": 11
+  },
+  "ohio": {
+   "C": 1
+  },
+  "pennsylvania": {
+   "C": 2
+  },
+  "south-carolina": {
+   "D": 1,
+   "C": 14
+  },
+  "tennessee": {
+   "D": 2,
+   "C": 6
+  },
+  "texas": {
+   "D": 4,
+   "C": 52,
+   "B": 2
+  },
+  "utah": {
+   "D": 1
+  },
+  "virginia": {
+   "C": 4
+  },
+  "washington": {
+   "C": 1
+  },
+  "wisconsin": {
+   "C": 8,
+   "D": 1
+  }
+ },
+ "gains": [
+  [
+   "las-vegas",
+   "las-vegas.html",
+   "Findlay Automotive Group"
+  ],
+  [
+   "las-vegas",
+   "las-vegas.html",
+   "Towbin Motorcars"
+  ],
+  [
+   "las-vegas",
+   "las-vegas.html",
+   "Nacho Daddy"
+  ],
+  [
+   "las-vegas",
+   "las-vegas.html",
+   "Metro Pizza"
+  ],
+  [
+   "pennsylvania",
+   "pennsylvania.html",
+   "Ryeco LLC"
+  ],
+  [
+   "pennsylvania",
+   "pennsylvania.html",
+   "Geno’s Steaks"
+  ],
+  [
+   "pennsylvania",
+   "pennsylvania.html",
+   "S&A Homes"
+  ]
+ ]
+}
