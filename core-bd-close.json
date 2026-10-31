@@ -1,0 +1,337 @@
+{
+ "callable": [
+  {
+   "key": "9",
+   "company": "Riverdale Farms",
+   "city": "Doral",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Luis H. Balcazar — President (Sunbiz officer P); Emilio Borrero, Chairman",
+   "phone": "(305) 592-5760",
+   "address": "sales@riverdalefarms.com",
+   "address_src": "riverdalefarms.com · read 2026-10-29",
+   "src": "riverdalefarms.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "34",
+   "company": "Cigarette Racing Team",
+   "city": "Opa-locka",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Alexander “Alex” Ruiz — CEO (Ruiz family / Lionheart ownership); Kurt Bender, President (appt. Nov 2025)",
+   "phone": "(305) 931-4564",
+   "address": "contact@cigaretteracing.com",
+   "address_src": "cigaretteracing.com · read 2026-10-29",
+   "src": "cigaretteracing.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "35",
+   "company": "WTDC Logistics",
+   "city": "Miami",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Sean P. Gazitua — President & CEO (3rd-gen family); Ralph L. Gazitua, Chairman",
+   "phone": "(305) 594-2195",
+   "address": "rgazitua@wtdc.com",
+   "address_src": "wtdc.com/contact-us · read 2026-10-29",
+   "src": "wtdc.com/contact-us · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "37",
+   "company": "Fulfillment Hub USA",
+   "city": "Doral",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "no signal found",
+    "Fractionals": "no signal found",
+    "Private Equity": "no signal found"
+   },
+   "person": "Abel Horvath — CEO / Owner (Sunbiz RA titled CEO, upd. 04/2026; BBB)",
+   "phone": "(786) 622-1102",
+   "address": "info@fulfillmenthubusa.com",
+   "address_src": "fulfillmenthubusa.com · read 2026-10-29",
+   "src": "fulfillmenthubusa.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "42",
+   "company": "Pepin Distributing",
+   "city": "Tampa",
+   "band": 4,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Tom Pepin — Chairman & CEO (3rd gen)",
+   "phone": "813-628-4400",
+   "address": "info@teampepin.com",
+   "address_src": "pepindistributing.com · read 2026-10-29",
+   "src": "pepindistributing.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "57",
+   "company": "Teakdecking Systems",
+   "city": "Sarasota",
+   "band": 4,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Richard J. Strauss — CEO (Sunbiz: President; board-promoted to CEO)",
+   "phone": "(941) 756-0600",
+   "address": "products@teakdecking.com",
+   "address_src": "teakdecking.com/contact · read 2026-10-29",
+   "src": "teakdecking.com/contact · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "59",
+   "company": "Barney's Pumps",
+   "city": "Lakeland",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Robbie Pearce — President & Director; Johnnie Mack Curls Jr., CEO & Director (Sunbiz current)",
+   "phone": "(863) 665-8500",
+   "address": "info@barneyspumps.com",
+   "address_src": "barneyspumps.com · read 2026-10-29",
+   "src": "barneyspumps.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "64",
+   "company": "Florida Paints",
+   "city": "Orlando",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Rick Strube & Don Strube Jr. — Co-Founders & Co-CEOs (Strube family, 2nd gen; Jeff Grasty, President/ops)",
+   "phone": "(407) 293-4175",
+   "address": "info@floridapaints.com",
+   "address_src": "floridapaints.com · read 2026-10-29",
+   "src": "floridapaints.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "75",
+   "company": "Rulon International",
+   "city": "St. Augustine",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Caleb Diffell — CEO (succeeded founder Wayne Robison, d. 2025-02-17); Matthew Robison, VP Business Ops (family)",
+   "phone": "(800) 227-8566",
+   "address": "info@rulonco.com",
+   "address_src": "rulonco.com · read 2026-10-29",
+   "src": "rulonco.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "79",
+   "company": "Reid Transportation Group",
+   "city": "Jacksonville",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Junior Anthony Reid — Manager/Principal (Sunbiz; with Krystal Alexandra Reid, Manager)",
+   "phone": "(904) 270-9387",
+   "address": "info@reidtransportationgroup.com",
+   "address_src": "reidtransportationgroup.com · read 2026-10-29",
+   "src": "reidtransportationgroup.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "82",
+   "company": "El Dorado Furniture",
+   "city": "Miami Gardens",
+   "band": 2,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Luis E. Capó — CEO (board = the six Capó brothers)",
+   "phone": "",
+   "address": "customercare@eldoradofurniture.com",
+   "address_src": "eldoradofurniture.com · read 2026-10-29",
+   "src": "eldoradofurniture.com · read 2026-10-29",
+   "move": "needs a phone source"
+  },
+  {
+   "key": "86",
+   "company": "Miami Beef Company",
+   "city": "Hialeah",
+   "band": 2,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Michael Young — President & Owner (Sunbiz officers all Young family: Elizabeth VP, Daniel CFO, Robert Dir.)",
+   "phone": "",
+   "address": "sales@miamibeef.com",
+   "address_src": "miamibeef.com · read 2026-10-29",
+   "src": "miamibeef.com · read 2026-10-29",
+   "move": "needs a phone source"
+  },
+  {
+   "key": "133",
+   "company": "Sally Dark Rides",
+   "city": "Jacksonville",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "John Wood — Chairman & President (co-founder, 1977); Rolf Paegert, CEO",
+   "phone": "(904) 355-7100",
+   "address": "lweaver@sallydarkrides.com",
+   "address_src": "sallydarkrides.com/dream-team · read 2026-10-29",
+   "src": "sallydarkrides.com/dream-team · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "153",
+   "company": "Kelly Tractor Co.",
+   "city": "Miami",
+   "band": 4,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Chris Kelly — President (named 2022, per company site read 2026-10-29)",
+   "phone": "(305) 592-5360",
+   "address": "dino_riggio@kellytractor.com",
+   "address_src": "kellytractor.com/eng/contactus.aspx · read 2026-10-29",
+   "src": "kellytractor.com/eng/contactus.aspx · read 2026-10-29",
+   "move": "passes every test"
+  }
+ ],
+ "admitted": [
+  {
+   "company": "Health Network One",
+   "practice": "Private Equity",
+   "dm": "Heyward Donigan, CEO",
+   "dm_src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcTJ5R3RZVWR3QXItYnF3OUhGRXFaQnZCSXZFM0lEcWd3dTloS3ZrNkY1dzZRTmlMSmg1WVpMSnJuSGhycGxCMVFxbEhUSWJSclIwd1h1WHgxRzR0YmV1QkVIbVN5eWZNY2l2LXp5QXA5eGlMejRtSjlWRkVSNGpRVUZRTVQ3OFZVV29EeWpCQUZpbXBzVGhsTlMweDlfWmMwX3hMLWpEZXFyUzZIMnFN?oc=5",
+   "dm_read": "2026-10-31",
+   "site": "https://www.healthnetworkone.com",
+   "phone": "Blind"
+  },
+  {
+   "company": "Sts Aviation Group",
+   "practice": "Private Equity",
+   "dm": "Mark Smith, President",
+   "dm_src": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzdTQkxFMXFTczRYVTRCVVVQX2JJR212LTk2RVBMempNS0w2MnQ1cF9xRDNrdzNlbkFVc0ZMR05JN3ktNjF6UUJCc3JkNWFQVzNKZzRucjRVQ3llZk1VYnpibmFYdnhYcHFTa01OR205aE5qTUkzR0VDNkJOdHViOXdTb3hMQUZQQ01OQ2NzUVU?oc=5",
+   "dm_read": "2026-10-31",
+   "site": "https://stsaviationgroup.com/",
+   "phone": "Blind"
+  },
+  {
+   "company": "Alpha Foundations",
+   "practice": "Acquisitions",
+   "dm": "Nick Blasco, General Manager",
+   "dm_src": "https://www.alphafoundations.com/about/meet-the-team/",
+   "dm_read": "2026-10-31",
+   "site": "https://www.alphafoundations.com/",
+   "phone": "877-322-3446"
+  },
+  {
+   "company": "American Fasteners",
+   "practice": "Acquisitions",
+   "dm": "Manuel Benitez, Founder",
+   "dm_src": "https://americanfasteners.com/about/",
+   "dm_read": "2026-10-31",
+   "site": "https://americanfasteners.com/",
+   "phone": "305-885-1717"
+  },
+  {
+   "company": "Palm Medical Centers",
+   "practice": "Fractionals",
+   "dm": "Jim McHugh, Chief Financial Officer",
+   "dm_src": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1hkeUtURG5pd3o5eFZJVmNxVTUxcEU2bjVfUXZvNUxIMVZ1ZENiTDUwNGoyZkZueWcyNUp6Yjdmb29jN0lPNmV6c3RueTZnUW9JVm5ybjNjdFBlZ0EzYk5KS3k4WFRfVWlCUlhoVjFLWlhsdy1lYmJ3aFVlSWdXVnBjZzhmbmxOZlZ1WFdxOWVfdGZyQXpmcnlRZmVZTEJzS29qRjhWUkF6Y1RyNWtv?oc=5",
+   "dm_read": "2026-10-30",
+   "site": "https://www.palmmedicalcenters.com/",
+   "phone": "Blind"
+  },
+  {
+   "company": "Altitude Water",
+   "practice": "Fractionals",
+   "dm": "Branden Riley, COO",
+   "dm_src": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcnhGM1FqcC04akpIaVJVZjlwTzZjbk9wRVQzbFdUblp6cTc4eGN5Rk9ic3ZKNGtoUjF1S1NzNGE2LWJNaUFDRVpfUEUxaUZLWGpqeTViR1l4V21CU0FRUUFKekx3REpCZXBPZFRpLXhFR25yTkc5Sk5CX2NScHFleTU5QVJsTkpkdU9yOHNUYjdvZjhfYUQwODZ3emhxY3BVbTY1T09adzBjZURZUlVjUjB1MFg0ZE5BRHpOeXQtamFpUVAzbzRETlRBTGU1dU1aUWc?oc=5",
+   "dm_read": "2026-10-31",
+   "site": "https://altitudewaterusa.com/",
+   "phone": "Blind"
+  },
+  {
+   "company": "FreightCenter",
+   "practice": "Acquisitions",
+   "dm": "Matthew Brosious, President",
+   "dm_src": "https://www.freightcenter.com/about/freightcenter-leadership/",
+   "dm_read": "2026-10-31",
+   "site": "https://freightcenter.com/",
+   "phone": "Blind"
+  }
+ ],
+ "contact_outstanding": [
+  {
+   "company": "Moneysolver",
+   "practice": "Private Equity",
+   "site": "https://www.moneysolver.org"
+  },
+  {
+   "company": "Trakamerica",
+   "practice": "Private Equity",
+   "site": "https://trakamerica.com/"
+  },
+  {
+   "company": "Marino Performance Motors",
+   "practice": "Acquisitions",
+   "site": "https://www.marinoperformancemotors.com/"
+  }
+ ],
+ "callable_dropped_on_the_fixed_contact_rule": [
+  "Badia Spices",
+  "Eagle Brands Sales",
+  "Refricenter",
+  "TruckMax",
+  "SkyPostal",
+  "Bealls Inc.",
+  "Cone Distributors",
+  "Arthrex",
+  "Wish Farms",
+  "S.R. Perrott",
+  "American Coolair"
+ ]
+}

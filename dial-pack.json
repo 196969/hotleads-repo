@@ -3,32 +3,6 @@
   {
    "verified_callable": true,
    "tier": "A",
-   "company": "Badia Spices",
-   "city": "Doral",
-   "decision_maker": "Joseph “Pepe” Badia President / majority owner",
-   "phone": "(305) 629-8000",
-   "email": "poconfirm@badiaspices.com (role inbox)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 1
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
-   "company": "Eagle Brands Sales",
-   "city": "Miami",
-   "decision_maker": "Susan B. McCollum President & CEO / owner",
-   "phone": "305-599-2337",
-   "email": "ghoyos@eaglebrands.com (other address)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 2
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
    "company": "Riverdale Farms",
    "city": "Doral",
    "decision_maker": "Luis H. Balcazar President (Sunbiz officer P); Emilio Borrero, Chairman",
@@ -36,34 +10,8 @@
    "email": "sales@riverdalefarms.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 3
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
-   "company": "Refricenter",
-   "city": "Miami",
-   "decision_maker": "Jose Hernandez President (CEO: Cirilo Hernandez — family)",
-   "phone": "(305) 477-8880",
-   "email": "brian@refricenter.net (other address)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 4
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
-   "company": "TruckMax",
-   "city": "Miami",
-   "decision_maker": "Joseph A. DeMaria President & owner (Sunbiz current, also RA; LinkedIn: Owner/CE",
-   "phone": "(305) 777-9000",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 5
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 1
   },
   {
    "verified_callable": true,
@@ -75,8 +23,8 @@
    "email": "contact@cigaretteracing.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 6
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 2
   },
   {
    "verified_callable": true,
@@ -88,21 +36,8 @@
    "email": "rgazitua@wtdc.com",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 7
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
-   "company": "SkyPostal",
-   "city": "Miami",
-   "decision_maker": "A.J. Hernandez President & CEO (2nd-gen; father Albert P. Hernandez founded)",
-   "phone": "(305) 599-1812",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 8
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 3
   },
   {
    "verified_callable": true,
@@ -114,8 +49,8 @@
    "email": "info@fulfillmenthubusa.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 9
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 4
   },
   {
    "verified_callable": true,
@@ -127,21 +62,8 @@
    "email": "info@teampepin.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 10
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
-   "company": "Bealls Inc.",
-   "city": "Bradenton",
-   "decision_maker": "Matt Beall CEO (Chairman: Robert M. Beall II; CFO: Dan Love)",
-   "phone": "(941) 747-2355",
-   "email": "beallsinc-guests@beallsinc.com",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 11
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 5
   },
   {
    "verified_callable": true,
@@ -153,8 +75,8 @@
    "email": "products@teakdecking.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 12
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 6
   },
   {
    "verified_callable": true,
@@ -166,8 +88,8 @@
    "email": "info@barneyspumps.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 13
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 7
   },
   {
    "verified_callable": true,
@@ -179,21 +101,8 @@
    "email": "info@floridapaints.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 14
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
-   "company": "Cone Distributors",
-   "city": "Ocala",
-   "decision_maker": "Douglas P. Cone Jr. Founder & President/CEO (Sunbiz: P; son Douglas Cone III, VP",
-   "phone": "(352) 732-4111",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 15
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 8
   },
   {
    "verified_callable": true,
@@ -205,8 +114,8 @@
    "email": "info@rulonco.com (role inbox)",
    "practice": "Acquisitions",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · Acquisitions · owner-led, named decision maker on the row",
-   "rank": 16
+   "reason": "Verified callable (Core BD Report) · Tier A · Acquisitions · named decision maker; contact sourced on a dated line",
+   "rank": 9
   },
   {
    "verified_callable": true,
@@ -218,8 +127,8 @@
    "email": "info@reidtransportationgroup.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 17
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 10
   },
   {
    "verified_callable": true,
@@ -231,8 +140,8 @@
    "email": "customercare@eldoradofurniture.com (other address)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 18
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 11
   },
   {
    "verified_callable": true,
@@ -244,47 +153,8 @@
    "email": "sales@miamibeef.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 19
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
-   "company": "Arthrex",
-   "city": "Naples",
-   "decision_maker": "Reinhold D. Schmieding Founder, President & CEO, majority owner",
-   "phone": "(239) 643-5553",
-   "email": "softwaresupport@arthrex.com (other address)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 20
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
-   "company": "Wish Farms",
-   "city": "Plant City",
-   "decision_maker": "James Peterson CEO (eff. 2026-06-01; family by marriage); Gary Wishnatzki → Chai",
-   "phone": "(813) 752-5111",
-   "email": "info@wishfarms.com (role inbox)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 21
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
-   "company": "S.R. Perrott",
-   "city": "Ormond Beach",
-   "decision_maker": "Michele P. Connors Owner & President (2nd gen; founders’ daughter)",
-   "phone": "(386) 672-2275",
-   "email": "info@srperrott.com (role inbox)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 22
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 12
   },
   {
    "verified_callable": true,
@@ -296,21 +166,8 @@
    "email": "lweaver@sallydarkrides.com (other address)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 23
-  },
-  {
-   "verified_callable": true,
-   "tier": "A",
-   "company": "American Coolair",
-   "city": "Jacksonville",
-   "decision_maker": "Harry Graves President (Graves family, 4th generation since 1928)",
-   "phone": "(904) 389-3646",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 24
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 13
   },
   {
    "verified_callable": true,
@@ -322,21 +179,8 @@
    "email": "dino_riggio@kellytractor.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Verified callable (Core BD Report) · Tier A · owner-led, named decision maker on the row",
-   "rank": 25
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Invicta Watch Group",
-   "city": "Hollywood",
-   "decision_maker": "Eyal Lalo President/CEO (owner, Lalo family)",
-   "phone": "(305) 715-9633",
-   "email": "sales@invictawatch.com (role inbox)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 26
+   "reason": "Verified callable (Core BD Report) · Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 14
   },
   {
    "verified_callable": false,
@@ -348,47 +192,8 @@
    "email": "info@mdist.us (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row · SAME COMPANY ALSO IN florida-expansion.html row 14",
-   "rank": 27
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "PJ Distributors",
-   "city": "Miami",
-   "decision_maker": "Edilberto “Eddie” Jiron Jr. President (Proveedora Jiron, Inc. d/b/a PJ Distribut",
-   "phone": "(305) 455-7508",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 28
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Turbana Corp",
-   "city": "Coral Gables",
-   "decision_maker": "Juan D. Alarcón CEO (CFO: Angelo Costantini)",
-   "phone": "(305) 445-1542",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 29
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Presidente Supermarkets",
-   "city": "Hialeah",
-   "decision_maker": "Omar Rodriguez Founder & Owner",
-   "phone": "305-231-9944",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 30
+   "reason": "Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 15
   },
   {
    "verified_callable": false,
@@ -400,86 +205,8 @@
    "email": "info@sintavia.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 31
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Eco Window Systems",
-   "city": "Medley",
-   "decision_maker": "Frank Mata President / Managing Member (Sunbiz MGR/AMBR/PRES); Samuel Bravo VP",
-   "phone": "(305) 885-5299",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 32
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Vigo Importing",
-   "city": "Tampa",
-   "decision_maker": "Vigo family Owner-operated",
-   "phone": "813-884-3491",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 33
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Great Bay Distributors",
-   "city": "St. Petersburg",
-   "decision_maker": "Knight family Owner-operated",
-   "phone": "727-576-1900",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 34
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Rooms To Go",
-   "city": "Seffner",
-   "decision_maker": "Jeffrey Seaman CEO & Co-Founder",
-   "phone": "813-623-5400",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 35
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Tervis",
-   "city": "North Venice",
-   "decision_maker": "Hosana Fieber CEO & President (Pres. & CRO: Roger Parsons, Aug 2025)",
-   "phone": "(941) 441-3100",
-   "email": "customercare@tervis.com (other address)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 36
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Regal Boats",
-   "city": "Orlando",
-   "decision_maker": "Duane Kuck / Tim Kuck Chairman / President & CEO (2nd gen)",
-   "phone": "407-851-4360",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 37
+   "reason": "Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 16
   },
   {
    "verified_callable": false,
@@ -491,21 +218,8 @@
    "email": "sales@montereyboats.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 38
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Beaver Street Fisheries",
-   "city": "Jacksonville",
-   "decision_maker": "Hank Frisch Chairman & CEO",
-   "phone": "904-354-8912",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 39
+   "reason": "Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 17
   },
   {
    "verified_callable": false,
@@ -517,8 +231,8 @@
    "email": "store223@dutyfreeamericas.com (other address)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 40
+   "reason": "Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 18
   },
   {
    "verified_callable": false,
@@ -530,34 +244,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 41
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Sheltair Aviation",
-   "city": "Fort Lauderdale",
-   "decision_maker": "Jerry Holland Founder & CEO",
-   "phone": "954-351-9900",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 42
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Brown Distributing",
-   "city": "West Palm Beach",
-   "decision_maker": "Brown family Owner-operated",
-   "phone": "561-863-1300",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 43
+   "reason": "Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 19
   },
   {
    "verified_callable": false,
@@ -569,8 +257,8 @@
    "email": "carriers@lipmanfamilyfarms.com (role inbox)",
    "practice": "Acquisitions",
    "signal": "Blind",
-   "reason": "Tier A · Acquisitions · owner-led, named decision maker on the row",
-   "rank": 44
+   "reason": "Tier A · Acquisitions · named decision maker; contact sourced on a dated line",
+   "rank": 20
   },
   {
    "verified_callable": false,
@@ -582,47 +270,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 45
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Doris Italian Market",
-   "city": "Sunrise",
-   "decision_maker": "John Alfano President & Co-owner (Alfano family since 1982; co-owner Gary Mulé)",
-   "phone": "(954) 749-1919",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 46
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Globe Trailers",
-   "city": "Bradenton",
-   "decision_maker": "Jeff Walters, President (Walters family)",
-   "phone": "941-751-9019",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 47
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Cypress Truck Lines",
-   "city": "Jacksonville",
-   "decision_maker": "David V. Penland Sr., President (Penland family)",
-   "phone": "904-353-8641",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 48
+   "reason": "Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 21
   },
   {
    "verified_callable": false,
@@ -634,138 +283,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 49
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "East Coast Metal Structures",
-   "city": "Lantana",
-   "decision_maker": "Daymon Allmon, President (Allmon family)",
-   "phone": "561-272-5417",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 50
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Martinez Distributors",
-   "city": "Doral",
-   "decision_maker": "Fabian Martinez, President (legal officer, Florida register)",
-   "phone": "305-882-8282",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row · SAME COMPANY ALSO IN florida.html row 7",
-   "rank": 51
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Trans-Phos",
-   "city": "Mulberry",
-   "decision_maker": "Neil Whitney, President; Bill Whitney, CEO",
-   "phone": "863-534-1575",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 52
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "FMX, Inc.",
-   "city": "Jacksonville",
-   "decision_maker": "Helen Venson, President",
-   "phone": "904-598-2683",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 53
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Prime Line Distributors",
-   "city": "Fort Lauderdale",
-   "decision_maker": "Gianni Landi, President; Dennis Landi, VP",
-   "phone": "954-925-4500",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 54
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "H&H Products Company",
-   "city": "Orlando",
-   "decision_maker": "Morris Hartley, President & CEO",
-   "phone": "800-678-8448",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 55
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Contender Boats",
-   "city": "Homestead",
-   "decision_maker": "Joe Neber, Founder/Owner/CEO",
-   "phone": "305-230-1600",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 56
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Regal Marine Industries",
-   "city": "Orlando",
-   "decision_maker": "Paul Kuck, President; Duane Kuck, CEO",
-   "phone": "407-851-4360",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 57
-  },
-  {
-   "verified_callable": false,
-   "tier": "A",
-   "company": "Southern Spring & Stamping",
-   "city": "Venice",
-   "decision_maker": "Jeff Deaterly, President (Deaterly family)",
-   "phone": "941-488-2276",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 58
-  },
-  {
-   "verified_callable": false,
-   "tier": "Unverified",
-   "company": "Alpha Foundations",
-   "city": "",
-   "decision_maker": "Nick Blasco, General Manager (Src: page · 2026-10-31)",
-   "phone": "877-322-3446",
-   "email": "—",
-   "practice": "Acquisitions",
-   "signal": "2021-12-17",
-   "reason": "Tier Unverified · Acquisitions · dated signal 2021-12-17",
-   "rank": 59
+   "reason": "Tier A · named decision maker; contact sourced on a dated line",
+   "rank": 22
   },
   {
    "verified_callable": false,
@@ -778,7 +297,7 @@
    "practice": "Fractionals",
    "signal": "2021-10-18",
    "reason": "Tier Unverified · Fractionals · dated signal 2021-10-18",
-   "rank": 60
+   "rank": 23
   },
   {
    "verified_callable": false,
@@ -791,20 +310,7 @@
    "practice": "Fractionals",
    "signal": "2026-08-26",
    "reason": "Tier Unverified · Fractionals · dated signal 2026-08-26",
-   "rank": 61
-  },
-  {
-   "verified_callable": false,
-   "tier": "Unverified",
-   "company": "American Fasteners",
-   "city": "",
-   "decision_maker": "Manuel Benitez, Founder (Src: page · read 2026-10-31)",
-   "phone": "305-885-1717",
-   "email": "—",
-   "practice": "Acquisitions",
-   "signal": "2026-09-02",
-   "reason": "Tier Unverified · Acquisitions · dated signal 2026-09-02",
-   "rank": 62
+   "rank": 24
   },
   {
    "verified_callable": false,
@@ -817,189 +323,7 @@
    "practice": "Acquisitions",
    "signal": "2025-01-08",
    "reason": "Tier Unverified · Acquisitions · dated signal 2025-01-08",
-   "rank": 63
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Quirch Foods",
-   "city": "Coral Gables",
-   "decision_maker": "Frank Grande President & CEO (CEO title effective 4/1/2026)",
-   "phone": "(305) 691-5901",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 64
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Sunshine Bouquet",
-   "city": "Miami",
-   "decision_maker": "John D. Simko President / Director (Sunbiz D/P; family owner, 3rd gen)",
-   "phone": "(305) 599-9600",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 65
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Fresh Del Monte Produce",
-   "city": "Coral Gables",
-   "decision_maker": "Danny Dumas SVP North America (Chairman/CEO: Mohammad Abu-Ghazaleh)",
-   "phone": "(305) 520-8433",
-   "email": "salesinquiry@freshdelmonte.com (other address)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 66
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Southern Glazer's Wine & Spirits",
-   "city": "Miramar",
-   "decision_maker": "Wayne E. Chaplin President & CEO",
-   "phone": "(954) 680-4600",
-   "email": "media@sgws.com (role inbox)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 67
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "National Beverage (LaCroix)",
-   "city": "Fort Lauderdale",
-   "decision_maker": "Nick A. Caporella Chairman & CEO (Pres.: Joseph G. Caporella; EVP-Fin: George R.",
-   "phone": "(954) 581-0922",
-   "email": "Media@NationalBeverage.com (role inbox)",
-   "practice": "Acquisitions",
-   "signal": "Blind",
-   "reason": "Tier B · Acquisitions · owner-led, named decision maker on the row",
-   "rank": 68
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Watsco",
-   "city": "Miami",
-   "decision_maker": "Albert H. Nahmad Chairman & CEO (Pres.: Aaron J. Nahmad; CFO: Ana M. Menendez)",
-   "phone": "(305) 714-4100",
-   "email": "info@watsco.com (role inbox)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 69
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Perry Ellis International",
-   "city": "Miami",
-   "decision_maker": "Oscar Feldenkreis President & CEO",
-   "phone": "(305) 592-2830",
-   "email": "info@pery.com (role inbox)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 70
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "JM Family Enterprises",
-   "city": "Deerfield Beach",
-   "decision_maker": "Dan Chait President & CEO (Jan 2025; Chairman: Colin Brown; CFO: Ravi Abbineni)",
-   "phone": "(954) 429-2000",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 71
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "World Kinect",
-   "city": "Miami",
-   "decision_maker": "Ira M. Birns CEO (~Jan 2026; CFO: Michael Tejada, Oct 2025; Chairman: Michael Ka",
-   "phone": "(305) 428-8000",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 72
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "HEICO",
-   "city": "Hollywood",
-   "decision_maker": "Eric A. & Victor H. Mendelson Co-CEOs / Co-Presidents (CFO: Carlos Macau)",
-   "phone": "(954) 987-4000",
-   "email": "sales@heico.com (role inbox)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 73
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Florida Crystals",
-   "city": "West Palm Beach",
-   "decision_maker": "J. Pepe Fanjul co-CEO/President (EVP & CFO: Luis J. Fernandez)",
-   "phone": "(561) 366-5100",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 74
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "J.J. Taylor Distributing FL",
-   "city": "Tampa",
-   "decision_maker": "John J. Taylor III President & CEO (Taylor family, 2nd generation)",
-   "phone": "(561) 354-2900",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 75
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Helios Technologies (Sun Hydraulics)",
-   "city": "Sarasota",
-   "decision_maker": "Sean Bagan President & CEO (Jan 2025; CFO: Michael Connaway, Oct 2025)",
-   "phone": "(941) 362-1333",
-   "email": "tania.almond@HLIO.com (other address)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 76
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Duda Farm Fresh Foods",
-   "city": "Oviedo",
-   "decision_maker": "Mark Bassetti President, Duda Farm Fresh Foods (Samuel ‘Sammy’ Duda is CEO of pa",
-   "phone": "(407) 365-2111",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 77
+   "rank": 25
   },
   {
    "verified_callable": false,
@@ -1011,21 +335,8 @@
    "email": "info@ringpower.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 78
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Boston Whaler",
-   "city": "Edgewater",
-   "decision_maker": "Brad Zoelle President (2025, succeeded Lenn Scholz; VP Ops: Jerry Newton)",
-   "phone": "(386) 428-0057",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 79
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 26
   },
   {
    "verified_callable": false,
@@ -1037,8 +348,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 80
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 27
   },
   {
    "verified_callable": false,
@@ -1050,8 +361,8 @@
    "email": "travislakam@rickcase.com (other address)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 81
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 28
   },
   {
    "verified_callable": false,
@@ -1063,8 +374,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 82
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 29
   },
   {
    "verified_callable": false,
@@ -1076,8 +387,8 @@
    "email": "information@plasmatherm.com (other address)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 83
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 30
   },
   {
    "verified_callable": false,
@@ -1089,8 +400,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 84
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 31
   },
   {
    "verified_callable": false,
@@ -1102,21 +413,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 85
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "BlueGrace Logistics",
-   "city": "Riverview",
-   "decision_maker": "Bobby Harris Founder, President & CEO",
-   "phone": "—",
-   "email": "contactus@mybluegrace.com (other address)",
-   "practice": "Private Equity",
-   "signal": "Blind",
-   "reason": "Tier B · Private Equity · owner-led, named decision maker on the row",
-   "rank": 86
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 32
   },
   {
    "verified_callable": false,
@@ -1128,8 +426,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 87
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 33
   },
   {
    "verified_callable": false,
@@ -1141,8 +439,8 @@
    "email": "careers@rosenhotels.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 88
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 34
   },
   {
    "verified_callable": false,
@@ -1154,21 +452,8 @@
    "email": "general_accounting@wgresorts.com (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 89
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Sonny’s BBQ",
-   "city": "Maitland",
-   "decision_maker": "Bob Yarmuth Owner & CEO (since 1991); Jeff Yarmuth, President",
-   "phone": "(407) 660-8888",
-   "email": "press@sonnysbbq.com (role inbox)",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 90
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 35
   },
   {
    "verified_callable": false,
@@ -1180,34 +465,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 91
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Natalie’s Orchid Island Juice",
-   "city": "Fort Pierce",
-   "decision_maker": "Marygrace Sexton Founder; was CEO at acquisition",
-   "phone": "(772) 465-1122",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 92
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "W.W. Gay Mechanical",
-   "city": "Jacksonville",
-   "decision_maker": "Paul Jones President & CEO (Tom Smith, President/COO)",
-   "phone": "(904) 388-2696",
-   "email": "—",
-   "practice": "None (fit by tier)",
-   "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 93
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 36
   },
   {
    "verified_callable": false,
@@ -1219,8 +478,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 94
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 37
   },
   {
    "verified_callable": false,
@@ -1232,8 +491,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 95
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 38
   },
   {
    "verified_callable": false,
@@ -1245,8 +504,8 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 96
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 39
   },
   {
    "verified_callable": false,
@@ -1258,71 +517,527 @@
    "email": "—",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 97
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
-   "company": "Conimar Corporation",
-   "city": "Ocala",
-   "decision_maker": "Succession pending (founder Terry Crawford deceased 2026)",
-   "phone": "800-874-9735",
-   "email": "—",
-   "practice": "Acquisitions",
-   "signal": "Blind",
-   "reason": "Tier B · Acquisitions · owner-led, named decision maker on the row",
-   "rank": 98
+   "reason": "Tier B · named decision maker; contact sourced on a dated line",
+   "rank": 40
   }
  ],
  "partial": [
   {
+   "company": "Invicta Watch Group",
+   "kind": "source the number",
+   "number": "(305) 715-9633",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Badia Spices",
+   "kind": "source the number",
+   "number": "(305) 629-8000",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Quirch Foods",
+   "kind": "source the number",
+   "number": "(305) 691-5901",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Eagle Brands Sales",
+   "kind": "source the number",
+   "number": "305-599-2337",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "PJ Distributors",
+   "kind": "source the number",
+   "number": "(305) 455-7508",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Sunshine Bouquet",
+   "kind": "source the number",
+   "number": "(305) 599-9600",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Turbana Corp",
+   "kind": "source the number",
+   "number": "(305) 445-1542",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Fresh Del Monte Produce",
+   "kind": "source the number",
+   "number": "(305) 520-8433",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Southern Glazer's Wine & Spirits",
+   "kind": "source the number",
+   "number": "(954) 680-4600",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "National Beverage (LaCroix)",
+   "kind": "source the number",
+   "number": "(954) 581-0922",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Watsco",
+   "kind": "source the number",
+   "number": "(305) 714-4100",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Refricenter",
+   "kind": "source the number",
+   "number": "(305) 477-8880",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "TruckMax",
+   "kind": "source the number",
+   "number": "(305) 777-9000",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Sedano's Supermarkets",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Presidente Supermarkets",
+   "kind": "source the number",
+   "number": "305-231-9944",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "City Furniture",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Perry Ellis International",
+   "kind": "source the number",
+   "number": "(305) 592-2830",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "JM Family Enterprises",
+   "kind": "source the number",
+   "number": "(954) 429-2000",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "World Kinect",
+   "kind": "source the number",
+   "number": "(305) 428-8000",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "HEICO",
+   "kind": "source the number",
+   "number": "(954) 987-4000",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Eco Window Systems",
+   "kind": "source the number",
+   "number": "(305) 885-5299",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "SkyPostal",
+   "kind": "source the number",
+   "number": "(305) 599-1812",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Florida Crystals",
+   "kind": "source the number",
+   "number": "(561) 366-5100",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Vigo Importing",
+   "kind": "source the number",
+   "number": "813-884-3491",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Great Bay Distributors",
+   "kind": "source the number",
+   "number": "727-576-1900",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "J.J. Taylor Distributing FL",
+   "kind": "source the number",
+   "number": "(561) 354-2900",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Coca-Cola Beverages Florida",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Rooms To Go",
+   "kind": "source the number",
+   "number": "813-623-5400",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Helios Technologies (Sun Hydraulics)",
+   "kind": "source the number",
+   "number": "(941) 362-1333",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Boar's Head Provisions",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Bealls Inc.",
+   "kind": "source the number",
+   "number": "(941) 747-2355",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Tervis",
+   "kind": "source the number",
+   "number": "(941) 441-3100",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Saddle Creek Logistics",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Regal Boats",
+   "kind": "source the number",
+   "number": "407-851-4360",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "ABC Fine Wine & Spirits",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Duda Farm Fresh Foods",
+   "kind": "source the number",
+   "number": "(407) 365-2111",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Cone Distributors",
+   "kind": "source the number",
+   "number": "(352) 732-4111",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Beaver Street Fisheries",
+   "kind": "source the number",
+   "number": "904-354-8912",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Boston Whaler",
+   "kind": "source the number",
+   "number": "(386) 428-0057",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Sheltair Aviation",
+   "kind": "source the number",
+   "number": "954-351-9900",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Braman Motorcars",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Brown Distributing",
+   "kind": "source the number",
+   "number": "561-863-1300",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Arthrex",
+   "kind": "source the number",
+   "number": "(239) 643-5553",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Detwiler’s Farm Market",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "BlueGrace Logistics",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
    "company": "Morgan Auto Group",
-   "kind": "find the number",
-   "number": "none published on the pages read",
-   "question": "Reach the named decision maker through the main line once a number is published",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Wish Farms",
+   "kind": "source the number",
+   "number": "(813) 752-5111",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "S.R. Perrott",
+   "kind": "source the number",
+   "number": "(386) 672-2275",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Sonny’s BBQ",
+   "kind": "source the number",
+   "number": "(407) 660-8888",
+   "question": "Source the published number on a dated line before dialling",
    "tier": "B"
   },
   {
    "company": "IMG Citrus",
-   "kind": "find the name and the number",
-   "number": "none published on the pages read",
-   "question": "“Who owns or runs the business day to day — and what is the best way to reach them?”",
+   "kind": "find the name and source the number",
+   "number": "none on the row",
+   "question": "“Who owns or runs the business day to day?”",
+   "tier": "B"
+  },
+  {
+   "company": "Natalie’s Orchid Island Juice",
+   "kind": "source the number",
+   "number": "(772) 465-1122",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "American Coolair",
+   "kind": "source the number",
+   "number": "(904) 389-3646",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "W.W. Gay Mechanical",
+   "kind": "source the number",
+   "number": "(904) 388-2696",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Gate Petroleum",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
    "tier": "B"
   },
   {
    "company": "Innisfree Hotels",
-   "kind": "find the number",
-   "number": "none published on the pages read",
-   "question": "Reach the named decision maker through the main line once a number is published",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
    "tier": "B"
   },
   {
    "company": "Studer Family of Companies",
-   "kind": "find the name and the number",
-   "number": "none published on the pages read",
-   "question": "“Who owns or runs the business day to day — and what is the best way to reach them?”",
+   "kind": "find the name and source the number",
+   "number": "none on the row",
+   "question": "“Who owns or runs the business day to day?”",
    "tier": "B"
+  },
+  {
+   "company": "Doris Italian Market",
+   "kind": "source the number",
+   "number": "(954) 749-1919",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Globe Trailers",
+   "kind": "source the number",
+   "number": "941-751-9019",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Cypress Truck Lines",
+   "kind": "source the number",
+   "number": "904-353-8641",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "East Coast Metal Structures",
+   "kind": "source the number",
+   "number": "561-272-5417",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Martinez Distributors",
+   "kind": "source the number",
+   "number": "305-882-8282",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Trans-Phos",
+   "kind": "source the number",
+   "number": "863-534-1575",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "FMX, Inc.",
+   "kind": "source the number",
+   "number": "904-598-2683",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Prime Line Distributors",
+   "kind": "source the number",
+   "number": "954-925-4500",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
   },
   {
    "company": "The Father's Table",
    "kind": "ask for the name",
    "number": "407-324-1200",
-   "question": "“Who owns or runs the business day to day — and what is the best way to reach them?”",
+   "question": "“Who owns or runs the business day to day?”",
    "tier": "B"
   },
   {
+   "company": "H&H Products Company",
+   "kind": "source the number",
+   "number": "800-678-8448",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Contender Boats",
+   "kind": "source the number",
+   "number": "305-230-1600",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Regal Marine Industries",
+   "kind": "source the number",
+   "number": "407-851-4360",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Southern Spring & Stamping",
+   "kind": "source the number",
+   "number": "941-488-2276",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "A"
+  },
+  {
+   "company": "Conimar Corporation",
+   "kind": "source the number",
+   "number": "800-874-9735",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "B"
+  },
+  {
+   "company": "Alpha Foundations",
+   "kind": "source the number",
+   "number": "877-322-3446",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "Unverified"
+  },
+  {
+   "company": "American Fasteners",
+   "kind": "source the number",
+   "number": "305-885-1717",
+   "question": "Source the published number on a dated line before dialling",
+   "tier": "Unverified"
+  },
+  {
    "company": "Health Network One",
-   "kind": "find the number",
-   "number": "none published on the pages read",
-   "question": "Reach the named decision maker through the main line once a number is published",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
    "tier": "Unverified"
   },
   {
    "company": "STS Aviation Group",
-   "kind": "find the number",
-   "number": "none published on the pages read",
-   "question": "Reach the named decision maker through the main line once a number is published",
+   "kind": "source the number",
+   "number": "none on the row",
+   "question": "Source the published number on a dated line before dialling",
    "tier": "Unverified"
   }
  ],
@@ -1336,12 +1051,12 @@
    113
   ],
   "call_ready": [
-   98,
-   97
+   40,
+   40
   ],
   "verified_callable": [
-   25,
-   25
+   14,
+   14
   ],
   "tier_C": [
    86,
@@ -1349,9 +1064,8 @@
   ]
  },
  "address_split": {
-  "role inbox": 31,
-  "other address": 12,
-  "named": 2
- },
- "measured_shut": 9
+  "role inbox": 20,
+  "named": 1,
+  "other address": 5
+ }
 }

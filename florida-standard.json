@@ -7501,7 +7501,7 @@
   "rows": 200,
   "dialable_universe": 115,
   "dialable_universe_measured": "florida.html Tier A 47 + Tier B 45, expansion main A 12 + B 4, intake 7",
-  "call_ready": "98 rows across 97 companies (93 + 2 + 3 + 1 − 1 Correct Craft, resolved to Tier C by evidence)",
+  "call_ready": "40 rows across 40 companies on the fixed contact rule (closed at 98 / 97 on the old rule, 31 October); verified-callable 14",
   "verified_callable": 25,
   "partial": 13,
   "measured_shut": 9,
