@@ -1,0 +1,268 @@
+{
+ "theladders": {
+  "reads": 3,
+  "answered": 0,
+  "refused": {
+   "403": 2,
+   "404": 1
+  },
+  "yield": 0
+ },
+ "rocketreach": {
+  "reads": 3,
+  "answered": 0,
+  "refused": {
+   "404": 3
+  },
+  "yield": 0
+ },
+ "hunter": {
+  "reads": 3,
+  "answered": 3,
+  "refused": {},
+  "yield": 0
+ },
+ "gnews_rss": {
+  "reads": 3,
+  "answered": 3,
+  "refused": {},
+  "yield": 0
+ },
+ "gnews_rss:article": {
+  "reads": 5,
+  "answered": 5,
+  "refused": {},
+  "yield": 0
+ },
+ "refused-queue:site": {
+  "reads": 3,
+  "answered": 0,
+  "refused": {
+   "403": 1,
+   "503": 1,
+   "challenge": 1
+  },
+  "yield": 0
+ },
+ "suncap:entry": {
+  "reads": 6,
+  "answered": 6,
+  "refused": {},
+  "yield": 0
+ },
+ "suncap:site": {
+  "reads": 9,
+  "answered": 4,
+  "refused": {
+   "503": 2,
+   "net": 3
+  },
+  "yield": 0
+ },
+ "boyne:entry": {
+  "reads": 26,
+  "answered": 26,
+  "refused": {},
+  "yield": 0
+ },
+ "boyne:site": {
+  "reads": 5,
+  "answered": 4,
+  "refused": {
+   "challenge": 1
+  },
+  "yield": 0
+ },
+ "boyne:leadership": {
+  "reads": 2,
+  "answered": 2,
+  "refused": {},
+  "yield": 0
+ },
+ "probe:Trivest": {
+  "reads": 1,
+  "answered": 1,
+  "refused": {},
+  "yield": 0,
+  "state": "answered",
+  "reading": "answered; company names present"
+ },
+ "probe:ACG": {
+  "reads": 1,
+  "answered": 1,
+  "refused": {},
+  "yield": 0,
+  "state": "answered",
+  "reading": "answered; no listing or company names on the page read"
+ },
+ "probe:ACG chapters": {
+  "reads": 1,
+  "answered": 1,
+  "refused": {},
+  "yield": 0,
+  "state": "answered",
+  "reading": "answered; no listing or company names on the page read"
+ },
+ "probe:SBIA": {
+  "reads": 1,
+  "answered": 1,
+  "refused": {},
+  "yield": 0,
+  "state": "answered",
+  "reading": "answered; company names present"
+ },
+ "probe:PE Hub": {
+  "reads": 1,
+  "answered": 1,
+  "refused": {},
+  "yield": 0,
+  "state": "answered",
+  "reading": "answered; no listing or company names on the page read"
+ },
+ "probe:SEC EDGAR search": {
+  "reads": 1,
+  "answered": 0,
+  "refused": {
+   "403": 1
+  },
+  "yield": 0,
+  "state": "refused (403)",
+  "reading": null
+ },
+ "probe:SEC EDGAR full-text": {
+  "reads": 1,
+  "answered": 0,
+  "refused": {
+   "403": 1
+  },
+  "yield": 0,
+  "state": "refused (403)",
+  "reading": null
+ },
+ "probe:Crunchbase": {
+  "reads": 1,
+  "answered": 1,
+  "refused": {},
+  "yield": 0,
+  "state": "answered",
+  "reading": "answered; company names present"
+ },
+ "probe:BizBuySell Florida": {
+  "reads": 1,
+  "answered": 0,
+  "refused": {
+   "403": 1
+  },
+  "yield": 0,
+  "state": "refused (403)",
+  "reading": null
+ },
+ "probe:BizBuySell": {
+  "reads": 1,
+  "answered": 0,
+  "refused": {
+   "403": 1
+  },
+  "yield": 0,
+  "state": "refused (403)",
+  "reading": null
+ },
+ "probe:BizQuest": {
+  "reads": 1,
+  "answered": 0,
+  "refused": {
+   "403": 1
+  },
+  "yield": 0,
+  "state": "refused (403)",
+  "reading": null
+ },
+ "probe:DealStream": {
+  "reads": 1,
+  "answered": 0,
+  "refused": {
+   "403": 1
+  },
+  "yield": 0,
+  "state": "refused (403)",
+  "reading": null
+ },
+ "probe:BusinessBroker.net": {
+  "reads": 1,
+  "answered": 0,
+  "refused": {
+   "405": 1
+  },
+  "yield": 0,
+  "state": "refused (405)",
+  "reading": null
+ },
+ "probe:LoopNet": {
+  "reads": 1,
+  "answered": 0,
+  "refused": {
+   "403": 1
+  },
+  "yield": 0,
+  "state": "refused (403)",
+  "reading": null
+ },
+ "probe:IBBA": {
+  "reads": 1,
+  "answered": 1,
+  "refused": {},
+  "yield": 0,
+  "state": "answered",
+  "reading": "answered; no listing or company names on the page read"
+ },
+ "probe:M&A Source": {
+  "reads": 1,
+  "answered": 0,
+  "refused": {
+   "403": 1
+  },
+  "yield": 0,
+  "state": "refused (403)",
+  "reading": null
+ },
+ "probe:Sunbelt": {
+  "reads": 1,
+  "answered": 1,
+  "refused": {},
+  "yield": 0,
+  "state": "answered",
+  "reading": "listing page: listings carry location but name no company"
+ },
+ "probe:Transworld": {
+  "reads": 1,
+  "answered": 1,
+  "refused": {},
+  "yield": 0,
+  "state": "answered",
+  "reading": "answered; no listing or company names on the page read"
+ },
+ "probe:Murphy Business": {
+  "reads": 1,
+  "answered": 1,
+  "refused": {},
+  "yield": 0,
+  "state": "answered",
+  "reading": "listing page: listings carry location but name no company"
+ },
+ "H.I.G. Capital": {
+  "state": "exhausted",
+  "note": "377 of 377 read; 28 Florida; 6 test-1 passes"
+ },
+ "Comvest": {
+  "state": "closed",
+  "note": "20 of 130 read, no location field; not repeated"
+ },
+ "Sun Capital": {
+  "state": "roster read in full from the cards",
+  "note": "106 cards, 6 Florida on face; the 100 others not read (location on face)"
+ },
+ "Boyne": {
+  "state": "exhausted",
+  "note": "29 of 29 entries read; 5 Florida"
+ }
+}

@@ -1192,6 +1192,28 @@
    "date": "2026-10-31",
    "window": 17,
    "close": "the Florida 100 closes at its measured count: 7 admitted, 3 complete with contact outstanding, 0 confirmed — a route tested and found absent (Chair)"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run one",
+   "fault": "61 (third instance)",
+   "note": "TrakAmerica was admitted in the run on “Jason Collins, President” and withdrawn at packaging: the article page carried no sentence breaks, so one “sentence” ran from TrakAmerica’s name into Millennium Capital & Recovery Corporation’s appointment. The Chair’s ruling applies: a third instance means the extractor’s approach is wrong — it is rebuilt (an officer is bound to the company by the grammar of one clause, not by co-occurrence in a span), not patched, before it reads again"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run one",
+   "fault": 62,
+   "line": "a closure keyed on a queue measures the queue, not the host",
+   "note": "the three-refusal closure was keyed on “refused-queue:site”, so three refusals from three different hosts closed the route for every later candidate; 17 of the 24 refused-re-runnable were recorded as re-read and were never read. Restored to refused, re-runnable; a closure is keyed on the host it measures"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run one",
+   "seats": {
+    "O’Leary": "four refused candidates failing the name or asset test were not re-read: no read could admit them",
+    "Lemonis": "process: the roster reader built from the live card form before Sun Capital was read",
+    "Nadella": "the corrections in 0.2 applied from the census, not the brief"
+   }
   }
  ]
 }

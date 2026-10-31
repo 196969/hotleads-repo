@@ -6323,7 +6323,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "COMPLETE, CONTACT OUTSTANDING — every test passed, size Blind, executive routes spent on the row",
+  "status": "COMPLETE, CONTACT OUTSTANDING — measured shut on The Ladders, RocketReach, Hunter and the trade press this run (routes on the row)",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/moneysolver/",
@@ -6358,6 +6358,24 @@
    {
     "route": "trade-press article naming an officer",
     "result": "articles read; no sentence naming an officer with the company"
+   }
+  ],
+  "contact_routes_run1": [
+   {
+    "route": "The Ladders",
+    "result": "refused (403) — the URL path is built from the name, a labelled guess"
+   },
+   {
+    "route": "RocketReach",
+    "result": "refused (404) — the URL path is built from the name, a labelled guess"
+   },
+   {
+    "route": "Hunter",
+    "result": "read; no named officer with the whole company name (behind an account wall or absent)"
+   },
+   {
+    "route": "trade press",
+    "result": "articles read; no sentence naming an officer with the whole company name"
    }
   ]
  },
@@ -6798,7 +6816,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused again on every route (core run one) — re-runnable, measured shut this run",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/oasis/",
@@ -6917,7 +6935,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused again on every route (core run one) — re-runnable, measured shut this run",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/orius-corp/",
@@ -10190,7 +10208,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "COMPLETE, CONTACT OUTSTANDING — the zero-read re-scan’s match was on a Google News feed page, where item titles run together into one “sentence”; a feed page is not an article and is refused as a source for an officer",
+  "status": "COMPLETE, CONTACT OUTSTANDING — the run’s trade-press match was withdrawn at packaging: the “sentence” was a run-on page with no sentence breaks, carrying Millennium Capital & Recovery Corporation’s new President (#61’s third instance)",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/trakamerica/",
@@ -10235,7 +10253,9 @@
     "route": "trade-press article naming an officer",
     "result": "named executive found"
    }
-  ]
+  ],
+  "tier": null,
+  "tier_reason": "sponsor portfolio membership: an ownership-form signal"
  },
  "Private Equity:hig:346": {
   "practice": "Private Equity",
@@ -11744,7 +11764,7 @@
  "Private Equity:suncap:20": {
   "practice": "Private Equity",
   "source": "suncap",
-  "company": "Clinical Care Services Florida",
+  "company": "Clinical Care",
   "company_named": true,
   "signal": {
    "sentence": "Clinical Care Services Florida is named on Sun Capital Partners’s portfolio page (card mentions Florida).",
@@ -11760,7 +11780,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "no site found by any route — held",
+  "status": "no site found by any route — held (routes on the row)",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/clinicalcare/",
@@ -11787,7 +11807,12 @@
     "host": "https://www.clinical-care-services-florida.com/",
     "outcome": "did not resolve"
    }
-  ]
+  ],
+  "card": {
+   "sector": "Services",
+   "location": "Florida",
+   "status": ""
+  }
  },
  "Private Equity:suncap:21": {
   "practice": "Private Equity",
@@ -12603,7 +12628,7 @@
  "Private Equity:suncap:52": {
   "practice": "Private Equity",
   "source": "suncap",
-  "company": "HealthPlan Services Services Florida",
+  "company": "HealthPlan Services",
   "company_named": true,
   "signal": {
    "sentence": "HealthPlan Services Services Florida is named on Sun Capital Partners’s portfolio page (card mentions Florida).",
@@ -12619,7 +12644,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "no site found by any route — held",
+  "status": "test 1 failed: no Florida address on the company’s own page",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/healthplan-services/",
@@ -12646,7 +12671,12 @@
     "host": "https://www.healthplan-services-services-florida.com/",
     "outcome": "did not resolve"
    }
-  ]
+  ],
+  "card": {
+   "sector": "Services",
+   "location": "Florida",
+   "status": "prior"
+  }
  },
  "Private Equity:suncap:53": {
   "practice": "Private Equity",
@@ -12864,7 +12894,7 @@
  "Private Equity:suncap:61": {
   "practice": "Private Equity",
   "source": "suncap",
-  "company": "Latite Roofing Sheet Metal",
+  "company": "Latite Roofing & Sheet Metal",
   "company_named": true,
   "signal": {
    "sentence": "Latite Roofing Sheet Metal is named on Sun Capital Partners’s portfolio page (card mentions Florida).",
@@ -12880,7 +12910,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "no site found by any route — held",
+  "status": "no site found by any route — held (routes on the row)",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/latite-roofing-sheet-metal/",
@@ -12907,7 +12937,12 @@
     "host": "https://www.latite-roofing-sheet-metal.com/",
     "outcome": "did not resolve"
    }
-  ]
+  ],
+  "card": {
+   "sector": "Business Services",
+   "location": "Florida",
+   "status": "active"
+  }
  },
  "Private Equity:suncap:62": {
   "practice": "Private Equity",
@@ -12969,7 +13004,7 @@
  "Private Equity:suncap:64": {
   "practice": "Private Equity",
   "source": "suncap",
-  "company": "Loan Logics Business Services Florida Actively seeking add-on acquisitions",
+  "company": "Loan Logics",
   "company_named": true,
   "signal": {
    "sentence": "Loan Logics Business Services Florida Actively seeking add-on acquisitions is named on Sun Capital Partners’s portfolio page (card mentions Florida).",
@@ -12985,7 +13020,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "no site found by any route — held",
+  "status": "test 1 failed: no Florida address on the company’s own page",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/loan-logics/",
@@ -13012,7 +13047,12 @@
     "host": "https://www.loan-logics-business-services-florida-actively-seeking-addon-acquisitions.com/",
     "outcome": "did not resolve"
    }
-  ]
+  ],
+  "card": {
+   "sector": "Business Services",
+   "location": "Florida",
+   "status": "active"
+  }
  },
  "Private Equity:suncap:65": {
   "practice": "Private Equity",
@@ -13282,7 +13322,7 @@
  "Private Equity:suncap:75": {
   "practice": "Private Equity",
   "source": "suncap",
-  "company": "Point Blank Enterprises Industrials & Distribution Florida",
+  "company": "Point Blank Enterprises",
   "company_named": true,
   "signal": {
    "sentence": "Point Blank Enterprises Industrials & Distribution Florida is named on Sun Capital Partners’s portfolio page (card mentions Florida).",
@@ -13298,7 +13338,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "no site found by any route — held",
+  "status": "test 1 failed: no Florida address on the company’s own page",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/point-blank-enterprises/",
@@ -13325,7 +13365,12 @@
     "host": "https://www.point-blank-enterprises-industrials-distribution-florida.com/",
     "outcome": "did not resolve"
    }
-  ]
+  ],
+  "card": {
+   "sector": "Industrials & Distribution",
+   "location": "Florida",
+   "status": "prior"
+  }
  },
  "Private Equity:suncap:76": {
   "practice": "Private Equity",
@@ -13595,7 +13640,7 @@
  "Private Equity:suncap:86": {
   "practice": "Private Equity",
   "source": "suncap",
-  "company": "Smokey Bones Florida",
+  "company": "Smokey Bones",
   "company_named": true,
   "signal": {
    "sentence": "Smokey Bones Florida is named on Sun Capital Partners’s portfolio page (card mentions Florida).",
@@ -13611,7 +13656,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "no site found by any route — held",
+  "status": "no site found by any route — held (routes on the row)",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/smokey-bones/",
@@ -13638,7 +13683,12 @@
     "host": "https://www.smokey-bones-florida.com/",
     "outcome": "did not resolve"
    }
-  ]
+  ],
+  "card": {
+   "sector": "",
+   "location": "Florida",
+   "status": "prior"
+  }
  },
  "Private Equity:suncap:87": {
   "practice": "Private Equity",
@@ -17645,7 +17695,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-allguard/",
@@ -17653,7 +17703,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:3": {
   "practice": "Private Equity",
@@ -17671,7 +17722,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-blue-monkey/",
@@ -17679,7 +17730,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:4": {
   "practice": "Private Equity",
@@ -17697,7 +17749,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "test 1 failed",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-cloudsafe/",
@@ -17705,7 +17757,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:5": {
   "practice": "Private Equity",
@@ -17723,7 +17776,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-flatworld-solutions-inc/",
@@ -17731,7 +17784,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:6": {
   "practice": "Private Equity",
@@ -17749,7 +17803,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-galleher-industries/",
@@ -17757,7 +17811,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:7": {
   "practice": "Private Equity",
@@ -17775,7 +17830,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-hb-facility-services/",
@@ -17783,7 +17838,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:8": {
   "practice": "Private Equity",
@@ -17801,7 +17857,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-integral-energy-services/",
@@ -17809,7 +17865,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:9": {
   "practice": "Private Equity",
@@ -17827,7 +17884,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-local-boy-outfitters/",
@@ -17835,7 +17892,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:10": {
   "practice": "Private Equity",
@@ -17890,7 +17948,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-mcnish/",
@@ -17899,7 +17957,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:12": {
   "practice": "Private Equity",
@@ -17917,7 +17976,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-novellum-longevity/",
@@ -17925,7 +17984,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:13": {
   "practice": "Private Equity",
@@ -17943,7 +18003,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-pinnacle-home-improvement-group/",
@@ -17951,7 +18011,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:14": {
   "practice": "Private Equity",
@@ -17969,7 +18030,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-premier-building-associates/",
@@ -17977,7 +18038,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:15": {
   "practice": "Private Equity",
@@ -17995,7 +18057,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-profusion/",
@@ -18003,7 +18065,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:16": {
   "practice": "Private Equity",
@@ -18021,7 +18084,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-ryan-infrastructure-services/",
@@ -18029,7 +18092,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:17": {
   "practice": "Private Equity",
@@ -18047,7 +18111,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-sagewater/",
@@ -18055,7 +18119,8 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:18": {
   "practice": "Private Equity",
@@ -18063,17 +18128,17 @@
   "company": "Fragrances",
   "company_named": true,
   "signal": {
-   "sentence": "Fragrances is named on Boyne Capital’s portfolio page.",
-   "url": "https://boynecapital.com/portfolio/",
-   "published": "2026-10-30",
-   "read": "2026-10-30"
+   "sentence": "Boyne Capital portfolio: Fragrances",
+   "url": "https://boynecapital.com/portfolio-fragrances/",
+   "published": null,
+   "read": "2026-10-31"
   },
   "evidence_source": "signal",
   "company_url": "https://boynecapital.com/portfolio-fragrances/",
-  "test1": "not read: third spent",
+  "test1": "Florida operating address on https://www.yzyfragrances.com/ · read 2026-10-31",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "COMPLETE, CONTACT OUTSTANDING — no named executive on the pages read",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-fragrances/",
@@ -18081,7 +18146,22 @@
   "card_text": " Active ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31",
+  "site": "https://www.yzyfragrances.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "YZY Fragrances | A Global Fragrance House Built for the Many",
+   "whole_name": "fragrances",
+   "construction": "direct"
+  },
+  "test1_pass": true,
+  "test5": "phone",
+  "phone": {
+   "value": "(305) 471-0103",
+   "url": "https://www.yzyfragrances.com/",
+   "read": "2026-10-31"
+  }
  },
  "Private Equity:boyne:19": {
   "practice": "Private Equity",
@@ -18099,7 +18179,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-aa-global-imports/",
@@ -18107,7 +18187,8 @@
   "card_text": " Realized ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:20": {
   "practice": "Private Equity",
@@ -18125,7 +18206,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "test 1 failed",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-amerifactors/",
@@ -18133,7 +18214,8 @@
   "card_text": " Realized ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:21": {
   "practice": "Private Equity",
@@ -18151,7 +18233,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-crispers/",
@@ -18159,7 +18241,8 @@
   "card_text": " Realized ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:22": {
   "practice": "Private Equity",
@@ -18177,7 +18260,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-danco-machine-dpms-inc/",
@@ -18185,7 +18268,8 @@
   "card_text": " Realized ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:23": {
   "practice": "Private Equity",
@@ -18203,7 +18287,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-double-wood-supplements/",
@@ -18211,7 +18295,8 @@
   "card_text": " Realized ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:24": {
   "practice": "Private Equity",
@@ -18229,7 +18314,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-infusion-associates-management-inc/",
@@ -18237,7 +18322,8 @@
   "card_text": " Realized ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:25": {
   "practice": "Private Equity",
@@ -18255,7 +18341,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-kbp-foods/",
@@ -18263,7 +18349,8 @@
   "card_text": " Realized ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:26": {
   "practice": "Private Equity",
@@ -18281,7 +18368,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-mckee-utility-contractors/",
@@ -18289,7 +18376,8 @@
   "card_text": " Realized ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:27": {
   "practice": "Private Equity",
@@ -18307,7 +18395,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "test 1 failed",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-ocp/",
@@ -18315,7 +18403,8 @@
   "card_text": " Realized ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Private Equity:boyne:28": {
   "practice": "Private Equity",
@@ -18333,7 +18422,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "location not on the entry — held, location unread",
   "tests_3_4": null,
   "sponsor": "Boyne Capital",
   "sponsor_page": "https://boynecapital.com/portfolio-rapid-fire-protection/",
@@ -18341,7 +18430,8 @@
   "card_text": " Realized ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "Boyne Capital"
+  "client": "Boyne Capital",
+  "entry_read": "2026-10-31"
  },
  "Acquisitions:gnews_rss:0": {
   "practice": "Acquisitions",
@@ -18402,7 +18492,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused again on every route (core run one) — re-runnable, measured shut this run",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
@@ -18463,7 +18553,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsville Business Journal",
@@ -18612,7 +18702,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "CenterWell completes acquisition of MaxHealth in Florida - The Lane Report",
@@ -18902,7 +18992,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Synergos Companies Expands into Florida with Acquisition of ODC Construction - PR Newswire",
@@ -20004,7 +20094,7 @@
   "query": "\"Florida\" \"private equity\" acquires",
   "precondition_span": "Agellus-backed HighGrove Partners acquires",
   "evidence_source": "signal",
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "Agellus-backed HighGrove Partners acquires O&A Landscaping in Florida",
    "pattern_set": "v3",
@@ -20156,7 +20246,7 @@
   "query": "\"Miami\" company names CFO",
   "precondition_span": "Palm Beach Gardens Medical Center Names",
   "evidence_source": "signal",
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "Palm Beach Gardens Medical Center Names Marko Serrano as Chief Financial Officer",
    "pattern_set": "v3",
@@ -20302,7 +20392,7 @@
   "query": "\"Miami\" company acquired",
   "precondition_span": "acquires InterContinental Miami",
   "evidence_source": "signal",
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "Gencom-led group acquires InterContinental Miami",
    "pattern_set": "v3",
@@ -20631,7 +20721,7 @@
   "query": "\"West Palm Beach\" company acquired",
   "precondition_span": "Marshall Goldman Acquires",
   "evidence_source": "signal",
-  "status": "COMPLETE, CONTACT OUTSTANDING — every test passed, size Blind, executive routes spent on the row",
+  "status": "COMPLETE, CONTACT OUTSTANDING — measured shut on The Ladders, RocketReach, Hunter and the trade press this run (routes on the row)",
   "naming": {
    "headline": "Marshall Goldman Acquires Marino Performance Motors, Expands into Florida",
    "pattern_set": "v3",
@@ -20704,6 +20794,24 @@
    {
     "route": "trade-press article naming an officer",
     "result": "articles read; no sentence naming an officer with the company"
+   }
+  ],
+  "contact_routes_run1": [
+   {
+    "route": "The Ladders",
+    "result": "refused (404) — the URL path is built from the name, a labelled guess"
+   },
+   {
+    "route": "RocketReach",
+    "result": "refused (404) — the URL path is built from the name, a labelled guess"
+   },
+   {
+    "route": "Hunter",
+    "result": "read; no named officer with the whole company name (behind an account wall or absent)"
+   },
+   {
+    "route": "trade press",
+    "result": "articles read; no sentence naming an officer with the whole company name"
    }
   ]
  },
@@ -20911,7 +21019,7 @@
   "query": "\"West Palm Beach\" company names CFO",
   "precondition_span": "St. Mary’s Medical Center Names",
   "evidence_source": "signal",
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "St. Mary’s Medical Center Names Romaine Layne as its Chief Financial Officer",
    "pattern_set": "v3",
@@ -21165,7 +21273,7 @@
   "query": "\"Sarasota\" company names CFO",
   "precondition_span": "Florida Digestive Health Specialists Names",
   "evidence_source": "signal",
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "Florida Digestive Health Specialists Names New CFO",
    "pattern_set": "v3",
@@ -21226,7 +21334,7 @@
   "query": "\"Sarasota\" company names CFO",
   "precondition_span": "Door Maker Names",
   "evidence_source": "signal",
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "Venice Window and Door Maker Names New Chief Financial Officer",
    "pattern_set": "v3",
@@ -21642,7 +21750,7 @@
   "query": "\"Lakeland\" company names CFO",
   "precondition_span": "Lakeland Dairies names",
   "evidence_source": "signal",
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "Lakeland Dairies names McAllister as new CFO",
    "pattern_set": "v3",
@@ -21696,7 +21804,7 @@
   "query": "\"Ocala\" company names CFO",
   "precondition_span": "HCA FLORIDA WOODMONT HOSPITAL NAMES",
   "evidence_source": "signal",
-  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "HCA FLORIDA WOODMONT HOSPITAL NAMES NEW CHIEF FINANCIAL OFFICER",
    "pattern_set": "v3",
@@ -22586,7 +22694,7 @@
   "query": "\"Orlando\" food and beverage company acquires",
   "precondition_span": null,
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
    "pattern_set": "v3",
@@ -22644,7 +22752,7 @@
   "query": "\"Jacksonville\" food and beverage company acquires",
   "precondition_span": null,
   "evidence_source": "signal",
-  "status": "refused on a route (re-runnable) — not an absence",
+  "status": "routes re-read; none proved — no site found by any route",
   "naming": {
    "headline": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
    "pattern_set": "v3",
@@ -22823,7 +22931,7 @@
   "query": "\"Tampa\" construction company acquires",
   "precondition_span": null,
   "evidence_source": "signal",
-  "status": "refused on a route (re-runnable) — not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "Moss acquires Ellison Construction, deepening Tampa Bay footprint",
    "pattern_set": "v3",
@@ -22931,7 +23039,7 @@
   "query": "\"Tampa\" transportation logistics company acquires",
   "precondition_span": null,
   "evidence_source": "signal",
-  "status": "refused on a route (re-runnable) — not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "BlueGrace Logistics Acquires Anthym Logistics, Heightens Its Presence In Tampa And Chicago",
    "pattern_set": "v3",
@@ -23124,7 +23232,7 @@
   "query": "\"Jacksonville\" transportation logistics company acquires",
   "precondition_span": null,
   "evidence_source": "signal",
-  "status": "refused on a route (re-runnable) — not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "P&S Transportation acquires Florida-based specialized carrier Rinaudo",
    "pattern_set": "v3",
@@ -23184,7 +23292,7 @@
   "query": "\"West Palm Beach\" food and beverage company acquires",
   "precondition_span": null,
   "evidence_source": "signal",
-  "status": "refused on a route (re-runnable) — not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "South Street Partners Acquires Solé Miami on Sunny Isles Beach",
    "pattern_set": "v3",
@@ -23302,7 +23410,7 @@
   "query": "\"Fort Lauderdale\" construction company acquires",
   "precondition_span": null,
   "evidence_source": "signal",
-  "status": "refused on a route (re-runnable) — not an absence",
+  "status": "refused, re-runnable — NOT re-run in core run one: the three-refusal closure was keyed on the queue, not the host, and closed every later candidate unread (fault 62)",
   "naming": {
    "headline": "Construction Resources Acquires Fuse Specialty Appliances & Plumbing in South Florida",
    "pattern_set": "v3",
