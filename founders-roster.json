@@ -1099,6 +1099,55 @@
     "ruling (b) built as a page-stated rename: the host derived from the bound name and a sentence on its page naming the bound name with a rename or merger verb",
     "the restatement counted from rows across every route on record, not from the reported totals"
    ]
+  },
+  {
+   "date": "2026-10-31",
+   "window": 13,
+   "fault": 56,
+   "line": "an abbreviation or a ticker is not a name",
+   "note": "“S.E” bound from “Construction Partners (ROAD).”; repaired: a dotted abbreviation, a parenthesised capital run, or a bare capital run the headline carries in parentheses. The first form would have lost CRWF and HCA (good names); revised before it ran; 36 good binds kept"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 13,
+   "fault": 57,
+   "line": "a closed list where an open test was needed lags the next word",
+   "note": "the property word list missed “portfolio”; re-stated as a test: a measure, no proper-name core, or a building head noun ((c) is still a list, stated). Stops 6 of 7 asset spans; 29 good binds kept; InterContinental Miami remains its stated limit"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 13,
+   "fault": 58,
+   "line": "a check reported as running must be shown to have run",
+   "note": "the property precondition was never wired into windows eleven, twelve or thirteen: the window-eleven edit’s anchor did not match and the script ran without it. Window eleven reported “it stopped none because no property headline came up” and window twelve reported “portfolio got past the property precondition” — both readings of a check that did not exist. The register’s fault #8 class (an import that parsed and never ran), arriving in a report. This window the open test ran only at the bind, after the read, so asset articles cost reads; “Hotel Maren Fort Lauderdale” passed it (a building noun at the front, not the head)"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 13,
+   "readings": [
+    "the refused-re-runnable queue: 13 re-run, 12 refused again (403, 503 or challenge) and stay re-runnable, 1 recovered — Marino Performance Motors, site proved, tests 1, 2 and 5 passed, held on revenue; 5 not re-run (assets or non-names)",
+    "Pepin Distributing — an existing Florida row — arrived as “Another A-B Wholesaler Pepin Distributing”: the descriptor kept it from test 2 by name; fault 52’s class again",
+    "three held companies (Altitude Water, STS Aviation Group, Marino Performance Motors) have had no revenue route read at all"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "window": 14,
+   "fault": "52 (third and fourth instances)",
+   "note": "third: Pepin Distributing (an existing Florida row) arrived as “Another A-B Wholesaler Pepin Distributing”; the repair strips a leading descriptor ending in a role noun, and Pepin is then caught by test 2 as on file. Fourth, found by the repair’s own proof: window thirteen’s role-noun rule rejected “AM Distributors”, a real company, as a description — a good bind lost, the costly error. The proof printed FAILED only because its planted label was mine and wrong; the repaired rule’s output is the right one"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 14,
+   "fault": 59,
+   "line": "a run that does not gate on its own proofs has not been proved",
+   "note": "both window-fourteen proofs printed FAILED and the pass launched anyway: the proof step and the launch were chained without a condition. The revenue step was unaffected; discovery was halted by the builder after 10 reads. A hung read then held the pass past the kill switch, which was cleared too early, and the pass was stopped outright; its engine record was never written and the revenue result was recovered from the log and the filed bodies"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 14,
+   "fault": "counter proof",
+   "note": "the check-ran counters work: a check never wired reads “NEVER RAN (0 calls)”, a check that ran and stopped nothing reads so. The proof failed on the property test’s behaviour, not the counter: a headline whose span the name rules already reject at the headline is not stopped before its read, so it costs a read before it is rejected"
   }
  ]
 }

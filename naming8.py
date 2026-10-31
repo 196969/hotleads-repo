@@ -9,13 +9,13 @@ def is_challenge(body):
     b=body or ''; t=(re.search(r'<title[^>]*>(.*?)</title>',b,re.S|re.I) or [None,''])[1]
     return bool(CHALLENGE.search(t)) or (len(re.sub(r'<[^>]+>','',b))<2500 and bool(CHALLENGE.search(b[:6000])))
 PLACES=['Florida','South Florida','Central Florida','North Florida','Southwest Florida','Miami','Fort Lauderdale','Tampa','Orlando','Jacksonville','West Palm Beach','Sarasota','Naples','Fort Myers','Pensacola','Tallahassee','Gainesville','Lakeland','Ocala','Venice','Doral','Boca Raton','Clearwater','St. Petersburg','Nebraska','Texas','Georgia','Alabama']
-ROLE=r'(?:Distributor|Distributors|Maker|Makers|Manufacturer|Manufacturers|Supplier|Suppliers|Developer|Developers|Provider|Providers|Operator|Operators|Retailer|Retailers|Builder|Builders|Contractor|Contractors|Firm|Firms)'
+ROLE=r'(?:Wholesaler|Wholesalers|Distributor|Distributors|Maker|Makers|Manufacturer|Manufacturers|Supplier|Suppliers|Developer|Developers|Provider|Providers|Operator|Operators|Retailer|Retailers|Builder|Builders|Contractor|Contractors|Firm|Firms)'
 PL='(?:'+'|'.join(re.escape(p) for p in sorted(PLACES,key=len,reverse=True))+')'
 def cleanup(co):
     """Returns (name or None, note)."""
     c=naming.clean(co)
     if re.fullmatch(PL,c): return None,'a bare place name, not a company'
-    m=re.match(r'^(?:'+PL+r'\s+)?'+ROLE+r'\s+([A-Z0-9].+)$',c)
+    m=re.match(r'^(?:'+PL+r'\s+)?'+ROLE+r'\s+([A-Z0-9].+)$',c) or re.match(r'^(?:[A-Z][\w\-]*\s+){1,4}?'+ROLE+r'\s+([A-Z0-9].+)$',c)
     if m: return m.group(1),f'title-case descriptor stripped from \u201c{c}\u201d'
     if re.search(r'\b'+ROLE+r'$',c): return None,'a description ending in a role noun, not a name'
     return c,None

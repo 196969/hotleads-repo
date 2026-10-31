@@ -6771,7 +6771,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/oasis/",
@@ -6890,7 +6890,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/orius-corp/",
@@ -9974,7 +9974,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:340": {
   "practice": "Private Equity",
@@ -10000,7 +10002,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:341": {
   "practice": "Private Equity",
@@ -10026,7 +10030,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Pasadena, TX"
  },
  "Private Equity:hig:342": {
   "practice": "Private Equity",
@@ -10052,7 +10058,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:343": {
   "practice": "Private Equity",
@@ -10078,7 +10086,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Irvine, CA"
  },
  "Private Equity:hig:344": {
   "practice": "Private Equity",
@@ -10104,7 +10114,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Boston, MA"
  },
  "Private Equity:hig:345": {
   "practice": "Private Equity",
@@ -10119,10 +10131,13 @@
   },
   "evidence_source": "signal",
   "company_url": "https://hig.com/portfolio/trakamerica/",
-  "test1": "not read: third spent",
+  "test1": "Florida operating address on https://trakamerica.com/ · read 2026-10-31",
   "test2": "absent from all files",
-  "band": null,
-  "status": "proposed — unconfirmed",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  },
+  "status": "site proved; passes tests 1, 2 and 5; held size-unsourced",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/trakamerica/",
@@ -10130,7 +10145,25 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Bonita Springs, FL",
+  "routes_tried": [
+   {
+    "route": "sponsor entry link",
+    "host": "https://trakamerica.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://trakamerica.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "TRAKAmerica - Optimizing Performance through Data Analytics",
+   "whole_name": "trakamerica",
+   "construction": "direct"
+  },
+  "test1_pass": true,
+  "test5": "phone"
  },
  "Private Equity:hig:346": {
   "practice": "Private Equity",
@@ -10156,7 +10189,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Sherman Oaks, CA"
  },
  "Private Equity:hig:347": {
   "practice": "Private Equity",
@@ -10182,7 +10217,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:348": {
   "practice": "Private Equity",
@@ -10200,7 +10237,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/triad-retail-media/",
@@ -10208,7 +10245,21 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "St.Petersburg, FL",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.triadretailmedia.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.triad-retail-media.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Private Equity:hig:349": {
   "practice": "Private Equity",
@@ -10234,7 +10285,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Chattanooga, TN"
  },
  "Private Equity:hig:350": {
   "practice": "Private Equity",
@@ -10260,7 +10313,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Irving, TX"
  },
  "Private Equity:hig:351": {
   "practice": "Private Equity",
@@ -10286,7 +10341,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Bristol, VA"
  },
  "Private Equity:hig:352": {
   "practice": "Private Equity",
@@ -10301,9 +10358,12 @@
   },
   "evidence_source": "signal",
   "company_url": "https://hig.com/portfolio/us-med/",
-  "test1": "not read: third spent",
+  "test1": "no Florida address on the company’s own page",
   "test2": "absent from all files",
-  "band": null,
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  },
   "status": "proposed — unconfirmed",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
@@ -10312,7 +10372,25 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Doral, FL",
+  "routes_tried": [
+   {
+    "route": "sponsor entry link",
+    "host": "https://www.usmed.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://www.usmed.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "Diabetes Supplies Online - Order Today From US MED! Powered by Osano",
+   "whole_name": "us med",
+   "construction": "direct"
+  },
+  "test1_pass": false,
+  "test5": "phone"
  },
  "Private Equity:hig:353": {
   "practice": "Private Equity",
@@ -10338,7 +10416,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Deer Park, TX"
  },
  "Private Equity:hig:354": {
   "practice": "Private Equity",
@@ -10364,7 +10444,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Baltimore, MD"
  },
  "Private Equity:hig:355": {
   "practice": "Private Equity",
@@ -10390,7 +10472,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Independence, OH"
  },
  "Private Equity:hig:356": {
   "practice": "Private Equity",
@@ -10416,7 +10500,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Chicago, IL"
  },
  "Private Equity:hig:357": {
   "practice": "Private Equity",
@@ -10442,7 +10528,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Everett, WA"
  },
  "Private Equity:hig:358": {
   "practice": "Private Equity",
@@ -10463,7 +10551,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/velocity-solutions/",
@@ -10473,7 +10561,26 @@
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
   "wrong_site_read_cleared": true,
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Fort Lauderdale, FL",
+  "routes_tried": [
+   {
+    "route": "sponsor entry link",
+    "host": "http://myvelocity.com/",
+    "outcome": "refused (403)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.velocitysolutions.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.velocity-solutions.com/",
+    "outcome": "refused (503)"
+   }
+  ]
  },
  "Private Equity:hig:359": {
   "practice": "Private Equity",
@@ -10504,7 +10611,9 @@
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
   "wrong_site_read_cleared": true,
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:360": {
   "practice": "Private Equity",
@@ -10522,7 +10631,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/viasys/",
@@ -10530,7 +10639,16 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Lakeland, FL",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.viasys.com/",
+    "outcome": "refused (503)"
+   }
+  ]
  },
  "Private Equity:hig:361": {
   "practice": "Private Equity",
@@ -10556,7 +10674,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:362": {
   "practice": "Private Equity",
@@ -10582,7 +10702,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Cerillos, Chile"
  },
  "Private Equity:hig:363": {
   "practice": "Private Equity",
@@ -10608,7 +10730,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Fontanelle, Treviso"
  },
  "Private Equity:hig:364": {
   "practice": "Private Equity",
@@ -10623,9 +10747,12 @@
   },
   "evidence_source": "signal",
   "company_url": "https://hig.com/portfolio/vix/",
-  "test1": "not read: third spent",
+  "test1": "no Florida address on the company’s own page",
   "test2": "absent from all files",
-  "band": null,
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  },
   "status": "proposed — unconfirmed",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
@@ -10634,7 +10761,25 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Miami, FL",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.vix.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://www.vix.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "Ver On Demand por ViX Back Button Search Icon Filter Icon",
+   "whole_name": "vix",
+   "construction": "direct"
+  },
+  "test1_pass": false,
+  "test5": "no reachable channel with source and date"
  },
  "Private Equity:hig:365": {
   "practice": "Private Equity",
@@ -10660,7 +10805,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:366": {
   "practice": "Private Equity",
@@ -10686,7 +10833,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:367": {
   "practice": "Private Equity",
@@ -10712,7 +10861,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Bedford, TX"
  },
  "Private Equity:hig:368": {
   "practice": "Private Equity",
@@ -10738,7 +10889,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Charlotte, NC"
  },
  "Private Equity:hig:369": {
   "practice": "Private Equity",
@@ -10764,7 +10917,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Danville, IL"
  },
  "Private Equity:hig:370": {
   "practice": "Private Equity",
@@ -10790,7 +10945,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Reston, VA"
  },
  "Private Equity:hig:371": {
   "practice": "Private Equity",
@@ -10816,7 +10973,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:372": {
   "practice": "Private Equity",
@@ -10842,7 +11001,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Dallas, TX"
  },
  "Private Equity:hig:373": {
   "practice": "Private Equity",
@@ -10868,7 +11029,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:374": {
   "practice": "Private Equity",
@@ -10894,7 +11057,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:375": {
   "practice": "Private Equity",
@@ -10920,7 +11085,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Mckinney, TX"
  },
  "Private Equity:hig:376": {
   "practice": "Private Equity",
@@ -10946,7 +11113,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:suncap:0": {
   "practice": "Private Equity",
@@ -18161,7 +18330,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
@@ -18222,7 +18391,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsville Business Journal",
@@ -18371,7 +18540,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "CenterWell completes acquisition of MaxHealth in Florida - The Lane Report",
@@ -18661,7 +18830,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Synergos Companies Expands into Florida with Acquisition of ODC Construction - PR Newswire",
@@ -19737,7 +19906,7 @@
   "query": "\"Florida\" \"private equity\" acquires",
   "precondition_span": "Agellus-backed HighGrove Partners acquires",
   "evidence_source": "signal",
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "naming": {
    "headline": "Agellus-backed HighGrove Partners acquires O&A Landscaping in Florida",
    "pattern_set": "v3",
@@ -19889,7 +20058,7 @@
   "query": "\"Miami\" company names CFO",
   "precondition_span": "Palm Beach Gardens Medical Center Names",
   "evidence_source": "signal",
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "naming": {
    "headline": "Palm Beach Gardens Medical Center Names Marko Serrano as Chief Financial Officer",
    "pattern_set": "v3",
@@ -20364,7 +20533,7 @@
   "query": "\"West Palm Beach\" company acquired",
   "precondition_span": "Marshall Goldman Acquires",
   "evidence_source": "signal",
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "re-run window thirteen: site proved; passes tests 1, 2 and 5; held size-unsourced",
   "naming": {
    "headline": "Marshall Goldman Acquires Marino Performance Motors, Expands into Florida",
    "pattern_set": "v3",
@@ -20405,7 +20574,21 @@
     "host": "https://www.marino-performance-motors.com/",
     "outcome": "did not resolve"
    }
-  ]
+  ],
+  "site": "https://www.marinoperformancemotors.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "Luxury & Exotic Used Car Dealership in West Palm Beach Florida | Marino Performance Motors",
+   "whole_name": "marino performance motors",
+   "construction": "direct"
+  },
+  "test1": "Florida operating address on https://www.marinoperformancemotors.com/ · read 2026-10-31",
+  "test1_pass": true,
+  "test5": "phone",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  }
  },
  "Acquisitions:gnews_rss_w10:685": {
   "practice": "Acquisitions",
@@ -20611,7 +20794,7 @@
   "query": "\"West Palm Beach\" company names CFO",
   "precondition_span": "St. Mary’s Medical Center Names",
   "evidence_source": "signal",
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "naming": {
    "headline": "St. Mary’s Medical Center Names Romaine Layne as its Chief Financial Officer",
    "pattern_set": "v3",
@@ -20865,7 +21048,7 @@
   "query": "\"Sarasota\" company names CFO",
   "precondition_span": "Florida Digestive Health Specialists Names",
   "evidence_source": "signal",
-  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "naming": {
    "headline": "Florida Digestive Health Specialists Names New CFO",
    "pattern_set": "v3",
@@ -21342,7 +21525,7 @@
   "query": "\"Lakeland\" company names CFO",
   "precondition_span": "Lakeland Dairies names",
   "evidence_source": "signal",
-  "status": "refused on a route (re-runnable) — not an absence",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "naming": {
    "headline": "Lakeland Dairies names McAllister as new CFO",
    "pattern_set": "v3",
@@ -21396,7 +21579,7 @@
   "query": "\"Ocala\" company names CFO",
   "precondition_span": "HCA FLORIDA WOODMONT HOSPITAL NAMES",
   "evidence_source": "signal",
-  "status": "refused on a route (re-runnable) — not an absence",
+  "status": "refused again on every route (window thirteen) — re-runnable, not an absence",
   "naming": {
    "headline": "HCA FLORIDA WOODMONT HOSPITAL NAMES NEW CHIEF FINANCIAL OFFICER",
    "pattern_set": "v3",
@@ -21840,5 +22023,483 @@
     }
    ]
   }
+ },
+ "Acquisitions:gnews_rss_w13:711": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w13",
+  "company": "",
+  "signal": {
+   "sentence": " Heritage Distribution Acquires Miami HVAC Distributor AM Distributors - Distribution Strategy Group Heritage Distribution Acquires Miami HVAC Distributor AM Distributors - Distribution Strategy Group Distribution Events Chicago Thought Leadership and Software for Wholesale Change Agents News Sales & Marketing AI, Tech, & Digital Commerce Operations Finance & Strategy Procurement & Sourcing Econom",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVXlQMDBRX19lRlpmeF9lNFpVSGpicXNqRklGYUQxRGdDdFBDdmxJUHd6TjBlM3JQWmdSa21TMFR6S0p5RnZSOG5KWF9LRWJHTkFEQ3Jtc0MybUM5dXNSaGxDOENJN3RoNWQtaE1uTDhROUl4YkNoVU9odEV5Sy1rUmpiZWZWU3NZUXc0cXhFZnktSlVIR2VSVmY3WFpzdjFXWnJLOW54MkpDVTdDblMwdQ?oc=5",
+   "published": "2026-05-29",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Heritage Distribution Acquires Miami HVAC Distributor AM Distributors - Distribution Strategy Group",
+  "query": "\"Miami\" distribution company acquires",
+  "precondition_span": "Heritage Distribution Acquires",
+  "evidence_source": "signal",
+  "status": "rejected: a description ending in a role noun, not a name — Miami HVAC Distributor AM Distributors",
+  "naming": {
+   "headline": "Heritage Distribution Acquires Miami HVAC Distributor AM Distributors",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Heritage Distribution Acquires Miami HVAC Distributor AM Distributors",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Miami HVAC Distributor AM Distributors",
+   "acquirer": "Heritage Distribution",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Heritage Distribution Acquires Miami HVAC Distributor AM Distributors",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Heritage Distribution Acquires Miami HVAC Distributor AM Distributors",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  }
+ },
+ "Acquisitions:gnews_rss_w13:712": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w13",
+  "company": "",
+  "signal": {
+   "sentence": " Construction Resources Company, LLC Acquires Opustone, L.L.C., Luxury Surfaces Distribution Business in South Florida Oops, something went wrong Skip to navigation Skip to main content Skip to right column Home News Finance Sports More News US Politics World Tech Science Originals 2026 Elections Weather Newsletters Finance My portfolio News Markets Research Community Personal finance Videos Sport",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUUhEVUxNeHJuem5YYU5wYUxMZzlBQkx3enBNWjdvNjdMbFV5dXZCOHlRQnA3Z3BJNFB3Ymw3c01keGtVN2RhTnRqUXphUkNVR0lQN01TbU81NHpJVkNuSHQ3TkZNXzBxX05IWGEyc2dmRUk5XzFHaElnc3oyVmJtRUtPYTZjd1AzVEJUOVpTRW5QZUk?oc=5",
+   "published": "2025-04-09",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Construction Resources Company, LLC Acquires Opustone, L.L.C., Luxury Surfaces Distribution Business in South Florida - Yahoo Finance",
+  "query": "\"Fort Lauderdale\" distribution company acquires",
+  "precondition_span": "LLC Acquires",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Construction Resources Company, LLC Acquires Opustone, L.L.C., Luxury Surfaces Distribution Business in South Florida",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "distributor with three showroom locations in South Florida (Miami, Fort Lauderdale, and West Palm Beach),",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "LLC",
+    "Opustone",
+    "Home Depot"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "nstruction Resources Company, LLC Acquires Opustone, L.L.C., Luxury Surf"
+    },
+    {
+     "position": "article text",
+     "span": "ompany, LLC has completed the acquisition of Opustone, L.L.C. Opustone is a South F"
+    },
+    {
+     "position": "article text",
+     "span": "truction Resources, which was acquired by The Home Depot in December 2023, is a leadin"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w13:713": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w13",
+  "company": "",
+  "signal": {
+   "sentence": " Utz Brands Drives DSD Growth With New Florida Distribution Acquisition | Consumer Goods Technology Skip to main content Subscribe Subscribe News Latest News News Briefs Topics Artificial Intelligence Data Analytics Sales & Marketing IT Integration Supply Chain Technology Innovation Retail Technology Leadership Moves Events All Events Consumer Goods Sales & Marketing Summit Analytics Unite Webinar",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbFcxZVBEaUNsSEJNLTk2RmVQSHAxN2FMTF9mY0tTdjVoUk81ZlhvVG1sQ2pIWW1xaUstQzBhNENYZDBIMXJXTnVtNDJOenBmY08tVFN6cWhJY1JjdzJWYzZJbmd2QmxROEFkQ3FjczBobldjSTlKMHhacjNxdlpwRGhYN3RQUDBDelV4U2d5aFJXTGNkY2c?oc=5",
+   "published": "2024-08-13",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Utz Brands Drives DSD Growth With New Florida Distribution Acquisition - Consumer Goods Technology",
+  "query": "\"Fort Lauderdale\" distribution company acquires",
+  "precondition_span": "Utz Brands Drives DSD Growth With New Florida Distribution Acquisition",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Utz Brands Drives DSD Growth With New Florida Distribution Acquisition",
+   "pattern_set": "v3",
+   "article_text_field": "JSON-LD articleBody",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "rd-party DSD distribution network includes 65 DSD routes in Miami, Fort Lauderdale, West Palm Beach, Napl",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (JSON-LD articleBody)",
+   "companies_found": [
+    "Utz Brands Drives DSD Growth With New Florida Distribution",
+    "DSD MapThe"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "Utz Brands Drives DSD Growth With New Florida Distribution Acquisition"
+    },
+    {
+     "position": "article text",
+     "span": "across Florida. Expanding the DSD MapThe acquisition is part of the company’s larg"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w13:714": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w13",
+  "company": "Another A-B Wholesaler Pepin Distributing",
+  "signal": {
+   "sentence": " Redwood Capital to Acquire Another A-B Wholesaler Pepin Distributing in Tampa | Brewbound Our Brands BevNET Nosh Taste Radio Nombase CPG Jobs Ask AI Newsletter Join Slack Podcasts Subscription: Sign Out Manage Account Subscription: Sign Out Manage Account Login Become an Insider Search across the BevNET CPG Media network including BevNET, Nosh, Brewbound, Taste Radio, Nombase and CPG Jobs.",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ0JXX1VoZkxkWk1lc3A0ekJCWkp4LURlREV6LWViUzNIbUJUb2FfaWhick5ibWpHcVRRQlBCVHpzbTlyT29JSkJTdVRMYThuMDY4NkNFZ3YyNXNDTFpCalhkaG9wWTUxVmNXYlFpNWE5WFJZNklNUFNsNzQ2Mk1wUW02RWxPNk5ONEJ2aXpEbTNRZU1rQnVabE8xbkdoY0ROUEJMdG0xYjk3djVCM0E?oc=5",
+   "published": "2021-07-07",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Redwood Capital to Acquire Another A-B Wholesaler Pepin Distributing in Tampa - Brewbound",
+  "query": "\"Tampa\" distribution company acquires",
+  "precondition_span": "Acquire Another A-B Wholesaler Pepin Distributing",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Redwood Capital to Acquire Another A-B Wholesaler Pepin Distributing in Tampa",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "tal to Acquire Another A-B Wholesaler Pepin Distributing in Tampa",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Another A-B Wholesaler Pepin Distributing",
+   "acquirer": "Redwood Capital",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Redwood Capital to Acquire Another A-B Wholesaler Pepin Distributing",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Redwood Capital to Acquire Another A-B Wholesaler Pepin Distributing",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Redwood Capital",
+  "city": "Tampa",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://pepindistributing.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.anotherabwholesalerpepindistributing.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.another-ab-wholesaler-pepin-distributing.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w13:715": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w13",
+  "company": "",
+  "signal": {
+   "sentence": " Orlando Bravo: AI is ‘reshaping’ investment research; Tigertail’s HVAC platform acquires Wisconsin business PEI Private Equity News & analysis Data Performance & rankings Network & events Sectors Regions Home TMT Orlando Bravo: AI is ‘reshaping’ investment research; Tigertail’s HVAC platform acquires Wisconsin business TMT Orlando Bravo: AI is ‘reshaping’ investment research; Tigertail’s HVAC pla",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObzduYTBHOUtySHlucTEwLUpyM3lmUE1MZU4zVkNnTnFuTHJiSXZvOU1ZVExtZFE3d1htZGhyaTVPTVgzclJGLVRNUDZLbDF0em1YUDMzSWhaUHk5TW5WcnBPLXNZWmdyV1JVcS1xMUxLVFZTcEU1R21RemdNNHVvTlgtV3NRWXRkZ3J2V0hOVWktOWpicnNUdVpkRHRZZmdVR1JRbXFKaXplUlNEcGUyNFRHRFVfOHpQTzVUYk9pUEJmN2c?oc=5",
+   "published": "2026-10-12",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Orlando Bravo: AI is ‘reshaping’ investment research; Tigertail’s HVAC platform acquires Wisconsin business - PEI Private Equity",
+  "query": "\"Orlando\" distribution company acquires",
+  "precondition_span": "acquires Wisconsin",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Orlando Bravo: AI is ‘reshaping’ investment research; Tigertail’s HVAC platform acquires Wisconsin business",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Orlando",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Orlando Bravo: AI is ‘reshaping’ investment res",
+    "position": "headline"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "Wisconsin",
+    "Tigertail",
+    "14"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "ch; Tigertail’s HVAC platform acquires Wisconsin business"
+    },
+    {
+     "position": "article text",
+     "span": "ch; Tigertail’s HVAC platform acquires Wisconsin business Tigertail launched in 2024 with initial"
+    },
+    {
+     "position": "article text",
+     "span": "link round as Goldman Sachs reinvests 14 hours ago · 1 min read View a"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w13:716": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w13",
+  "company": "",
+  "signal": {
+   "sentence": " Joint Venture Acquires 300,000-Square-Foot Retail District at $6 Billion Miami Mixed-Use Development Home News Retailers Restaurants Development Finance Investment sales Leasing Operations Company news By State Features SCBlog From the Magazine Industry Content Retail Insight Webinars Magazine Archive Videos Webinars Retail Insight 2026 Thought Leadership Conferences Entertainment Experience Evol",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSm5MbnJiNGp5dzZyeGl1eDcycllsY2pCbUtaUHJVNkFYaUlxQmp0bEI5VTYxb2xVSVltVy1mR1hwQk9HaUZYOG1COERBR3NNbmNnUC04WVYwejRGdVpJRkloSWg4cWpzWkc3ZkhaNlJ2RHZydVJhdUFCOWFtTi1tdzJEZUhYeVBmWlp0RlVtcEUzZ0c5M2EzS2NualU0UVIxQjltbWcxSnpPcmxuSXRocWRVQXJYM3NYOHJVb1FJRUZFQ3lVbFhyMkJWUkpER2c?oc=5",
+   "published": "2026-04-02",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Joint Venture Acquires 300,000-Square-Foot Retail District at $6 Billion Miami Mixed-Use Development - Shopping Center Business",
+  "query": "\"Miami\" food and beverage company acquires",
+  "precondition_span": "Joint Venture Acquires",
+  "evidence_source": "signal",
+  "status": "bind disputed — held",
+  "naming": {
+   "headline": "Joint Venture Acquires 300,000-Square-Foot Retail District at $6 Billion Miami Mixed-Use Development",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": " Acquires 300,000-Square-Foot Retail District at $6 Billion Miami Mixed-Use Development",
+    "position": "headline"
+   },
+   "state": "bind disputed",
+   "headline_bind": {
+    "company": "300",
+    "acquirer": "Joint Venture",
+    "name_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Joint Venture Acquires 300",
+     "position": "headline"
+    },
+    "acquirer_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Joint Venture Acquires 300",
+     "position": "headline"
+    }
+   },
+   "body_bind": {
+    "company": "300",
+    "acquirer": "Florida Investment sales Mixed-use News Joint Venture",
+    "name_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Florida Investment sales Mixed-use News Joint Venture Acquires 300",
+     "position": "article sentence 2"
+    },
+    "acquirer_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Florida Investment sales Mixed-use News Joint Venture Acquires 300",
+     "position": "article sentence 2"
+    }
+   }
+  }
+ },
+ "Acquisitions:gnews_rss_w13:717": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w13",
+  "company": "Hotel Maren Fort Lauderdale",
+  "signal": {
+   "sentence": " Rockpoint and Newbond Acquire Hotel Maren Fort Lauderdale | citybiz Skip to content citybiz Cities Atlanta Baltimore Boston Charlotte Raleigh Chicago Cleveland Dallas Denver Detroit Global Houston Indianapolis Los Angeles New York Philadelphia Phoenix Pittsburgh Portland San Diego San Francisco Seattle South Florida Washington DC Channels Q&A citybiz+ People Commercial Real Estate General Busines",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWWh0WXZObl9JdXczNFFaNUdkU1pwOUZ5V1gyTTUwRXRrNTBRNnJXbFpXRU5ObTkyTlNpVk9iZHN4a0hpTmgxdXFLdDFwZl9iNjVQY0Q5UkdmdkE2bG9IRHZMYk53WXdBdENQUWM1Q1N5NWd5X1RON3E1SXNycUtkZnUtQk9tY3h6ZUhZVk5oYlJ4bEkwMjBuVEpPcVU?oc=5",
+   "published": "2026-09-03",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Rockpoint and Newbond Acquire Hotel Maren Fort Lauderdale - citybiz",
+  "query": "\"Fort Lauderdale\" food and beverage company acquires",
+  "precondition_span": "Newbond Acquire",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Rockpoint and Newbond Acquire Hotel Maren Fort Lauderdale",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Fort Lauderdale",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Rockpoint and Newbond Acquire Hotel Maren Fort Lauderdale",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Hotel Maren Fort Lauderdale",
+   "acquirer": "Rockpoint and Newbond",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Rockpoint and Newbond Acquire Hotel Maren Fort Lauderdale",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Rockpoint and Newbond Acquire Hotel Maren Fort Lauderdale",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Rockpoint and Newbond",
+  "city": "Fort Lauderdale",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.hotelmarenfortlauderdale.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.hotel-maren-fort-lauderdale.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w13:718": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w13",
+  "company": "",
+  "signal": {
+   "sentence": " Rockpoint, Newbond acquire Hotel Maren Fort Lauderdale - hotelbusiness.com Close Continue to Site Skip to content Reports 2025 Midyear Industry Outlook 2026 Green Book Reports Casino Report HB Reports HB Partner Reports Kalibri Labs Book Marketplace NEW Surveys Magazine Subscribe Current Issue Past Issues Subscribe Exclusives HB on the Scene Web Exclusives HB Exclusives Expert Insight Ask The Exp",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSUh6c0Nidl9SeEFVU29EOW9xVklhWkhKMXdOcFNNT1p1UTd0ODlFX3lIWGVqNmFEX0llNnhfUnhiZFpsRFRFVV8xMDItajBpZThrcldaOWhWYXBfQW5aMDM3dGU2c0RUUmpiQlM0c2pHQzlNOE96SS1CcURvZ2JLOUx3SlZuNWM?oc=5",
+   "published": "2026-09-04",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Rockpoint, Newbond acquire Hotel Maren Fort Lauderdale - hotelbusiness.com",
+  "query": "\"Fort Lauderdale\" food and beverage company acquires",
+  "precondition_span": "Newbond acquire",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Rockpoint, Newbond acquire Hotel Maren Fort Lauderdale",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Fort Lauderdale",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Rockpoint, Newbond acquire Hotel Maren Fort Lauderdale",
+    "position": "headline"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "Newbond",
+    "Maren Fort Lauderdale",
+    "South Florida. The",
+    "Westin Tampa Waterside"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "Rockpoint, Newbond acquire Hotel Maren Fort Lauderdale"
+    },
+    {
+     "position": "article text",
+     "span": "int and Newbond Holdings have acquired the Hotel Maren Fort Lauderdale, Curio Collection by Hilton, "
+    },
+    {
+     "position": "article text",
+     "span": "urio Collection by Hilton, in South Florida. The acquisition expands the two firms’ longst"
+    },
+    {
+     "position": "article text",
+     "span": "g relationship, including the acquisition of the Westin Tampa Waterside in September 2025. Financial "
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w14:719": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w14",
+  "company": "Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+  "signal": {
+   "sentence": " McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall ",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQklvRndieGFRT3poX0RmMmNYbndKNUQtT2JSazNRT0hOZHhaMHF4eHpmOWR5WHd6ZjdWQ3FOSlRob0VpNXI3Q1FMdEZlUExzT184eGY0ZUJMaVd0TlpFdjBMNWRNWWVOSThnVmJLc1RmM0Z0ZmdMOUl0ZmtmMTEydV95dlJhc3EwM3hoNkw5UE9oTUFIOGNSU2ExYw?oc=5",
+   "published": "2025-06-27",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall - LODGING Magazine",
+  "query": "\"Orlando\" food and beverage company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": "Orlando",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+   "acquirer": "McKibbon",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "McKibbon",
+  "city": "Orlando",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.hiltongardeninnorlandoi4milleniablvdmall.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.hilton-garden-inn-orlando-i4-millenia-blvd-mall.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  }
 }
