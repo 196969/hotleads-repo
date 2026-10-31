@@ -1256,6 +1256,22 @@
     "Herjavec": "sell and protect: the 80 call-ready rows ranked to dial now",
     "Lemonis": "process: two of five unbuilt enrichments built because the queue needs them; three left unbuilt because it does not"
    }
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run three",
+   "fault": "57 class (instance)",
+   "note": "the role-inbox test was a closed list of local parts (info, sales, contact…); it would have flagged carriers@, rewards@ and general_accounting@ as named people. Caught reading the finds before write-back; an address now counts as named only when its local part reads first.last"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run three",
+   "seats": {
+    "O’Leary": "the run stopped when the queue ended: 87 of ~195 budgeted reads spent, 109 left unspent",
+    "Herjavec": "protect what is callable: the 25 verified-callable rows from the Core BD Report flagged at the top of the dial order",
+    "Nadella": "every find read before write-back; one closed-list test caught and replaced",
+    "Lemonis": "process: each of the 35 rows ends in one named state with its routes on the row"
+   }
   }
  ]
 }

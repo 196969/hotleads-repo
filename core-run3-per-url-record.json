@@ -1,0 +1,611 @@
+[
+ {
+  "ts": "11:05:21",
+  "source": "run3:site",
+  "url": "https://sintavia.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:05:25",
+  "source": "run3:leadership",
+  "url": "https://sintavia.com/who-we-are/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:05:29",
+  "source": "run3:leadership",
+  "url": "https://sintavia.com/leadership/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:05:33",
+  "source": "run3:site",
+  "url": "https://dutyfreeamericas.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:05:37",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Duty%20Free%20Americas\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:05:41",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:05:46",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRk5SRDgxSFN2ZkVuZnh5UnVEVHRVa05zaFR6eUpYanZJMG90TW9PRlowOEt3c0x6VDA1RjVxMndjelNUdXZaOThTdnEwQXpHTlNTOHJMV2VEZmUtUmpJTDl6Q0hMdmsyNExBaVZYQUtEaWpWYlg1YkxRNnpZaVhfaFZ4QzF2dWJrZ1RKbTBOeWs5UThRN1E3ekFsNlFEWjNpZFhuVTMxMzE1dE53N3FJTjQ5VG1JaHc?oc=5",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:05:51",
+  "source": "run3:site",
+  "url": "https://lipmanfamilyfarms.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:05:55",
+  "source": "run3:site",
+  "url": "https://detwilers.com",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:06:14",
+  "source": "run3:site",
+  "url": "https://www.detwilersfarmmarket.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:06:16",
+  "source": "run3:site",
+  "url": "https://www.detwilers-farm-market.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:06:22",
+  "source": "run3:site",
+  "url": "https://milamsmarkets.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:06:26",
+  "source": "run3:site",
+  "url": "https://www.schwend.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:06:30",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Schwend,%20Inc.\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:06:34",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:06:38",
+  "source": "run3:site",
+  "url": "https://www.martinezdistributors.com/",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "11:06:41",
+  "source": "run3:site",
+  "url": "https://www.martinez-distributors.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:06:44",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Martinez%20Distributors\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:06:49",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:06:53",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM0lYNzd3d1JSVmJseF9CcGtXZm1BZk1SMGRIQnpfNUQ3Ymk3b2tlUU5pOGRReXBkcVY1QVdiMVFPQnNiRVR1c3V6UklOWkgwdmpQeUtqSVJGRlNKUEFibUF3RGdZX0NucjZpRUhEMXVYbDc1UWRlWUNNbjdhOVlCMmplV0VtLTd1NVRuOEIyY1Izc1pmRXhWdi1JOFVsQ2xPa1NpMXo2WEVfdw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:06:57",
+  "source": "run3:site",
+  "url": "https://www.palmmedicalcenters.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:07:01",
+  "source": "run3:site",
+  "url": "https://altitudewaterusa.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:07:06",
+  "source": "run3:site",
+  "url": "https://www.healthnetworkone.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:07:10",
+  "source": "run3:site",
+  "url": "https://freightcenter.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:07:16",
+  "source": "run3:site",
+  "url": "https://stsaviationgroup.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:07:20",
+  "source": "run3:contact",
+  "url": "https://www.stsaviationgroup.com/global-locations/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:07:23",
+  "source": "run3:site",
+  "url": "https://www.sedanossupermarkets.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:07:25",
+  "source": "run3:site",
+  "url": "https://www.sedanos-supermarkets.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:07:29",
+  "source": "run3:site",
+  "url": "https://www.cityfurniture.com/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "11:07:47",
+  "source": "run3:site",
+  "url": "https://www.city-furniture.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:07:51",
+  "source": "run3:site",
+  "url": "https://www.cocacolabeveragesflorida.com/",
+  "outcome": "refused",
+  "kind": "525"
+ },
+ {
+  "ts": "11:07:54",
+  "source": "run3:site",
+  "url": "https://www.cocacola-beverages-florida.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:07:56",
+  "source": "run3:site",
+  "url": "https://www.boarsheadprovisions.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:07:58",
+  "source": "run3:site",
+  "url": "https://www.boars-head-provisions.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:08:02",
+  "source": "run3:site",
+  "url": "https://www.saddlecreeklogistics.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:08:04",
+  "source": "run3:site",
+  "url": "https://www.saddle-creek-logistics.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:08:09",
+  "source": "run3:site",
+  "url": "https://www.correctcraft.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:08:14",
+  "source": "run3:site",
+  "url": "https://www.abcfinewinespirits.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:08:16",
+  "source": "run3:site",
+  "url": "https://www.abc-fine-wine-spirits.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:08:21",
+  "source": "run3:site",
+  "url": "https://www.ringpower.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:08:26",
+  "source": "run3:site",
+  "url": "https://edmorse.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:08:30",
+  "source": "run3:site",
+  "url": "https://www.bramanmotorcars.com/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "11:08:32",
+  "source": "run3:site",
+  "url": "https://www.braman-motorcars.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:08:36",
+  "source": "run3:site",
+  "url": "https://amscot.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:08:40",
+  "source": "run3:site",
+  "url": "https://morganautogroup.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "11:08:59",
+  "source": "run3:site",
+  "url": "https://www.morganauto.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:09:06",
+  "source": "run3:site",
+  "url": "https://www.morgan-auto.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:09:12",
+  "source": "run3:site",
+  "url": "https://westgateresorts.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:09:17",
+  "source": "run3:contact",
+  "url": "https://westgateresorts.com/customer-service/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:09:21",
+  "source": "run3:site",
+  "url": "https://imgcitrus.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:09:25",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"IMG%20Citrus\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:09:30",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:09:33",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcDhod1pnLTJVUFRXRGNlSDVGSzA0c2c5UnFTOXZxbUQ4OS1POEFkNEJFZ1RaNFBoOTVWM2lvY2pIVmVEdzB6ejBSLW9VVlFOMTdFQnU5a0s4RW5SOTMtcnZZVnY5NkotRThMN3A0U1NYbkp1QlBZVGFSTGpZRi1tM3NQWEo3TDlSRGN5RFJ6TVBJTXJXNldpS3V3?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:09:37",
+  "source": "run3:site",
+  "url": "https://www.gatepetroleum.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:09:39",
+  "source": "run3:site",
+  "url": "https://www.gate-petroleum.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:09:45",
+  "source": "run3:site",
+  "url": "https://innisfreehotels.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:09:49",
+  "source": "run3:contact",
+  "url": "https://innisfreehotels.com/contact-us/",
+  "outcome": "refused",
+  "kind": "500"
+ },
+ {
+  "ts": "11:09:53",
+  "source": "run3:site",
+  "url": "https://ibcairways.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:09:59",
+  "source": "run3:site",
+  "url": "https://www.tampamaidfoods.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:01",
+  "source": "run3:site",
+  "url": "https://www.solutionsmanufacturing.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:10:03",
+  "source": "run3:site",
+  "url": "https://www.solutions-manufacturing.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:10:07",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Solutions%20Manufacturing\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:12",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:16",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQWHNjeG9OQnZ5bUhQQkhfRzEySEh2YmtoRW1vNWtWZTd6b19mdXNuSGotVDlTc3FBbGhmOHBqMTluUUxHb1ZYODdKV3BuRzVjWDFyMzZRTHdGMjNUb0FBSDdJdzZNRmppRlVUclQ1V3NidUF0WUdtTjE3V1phcHZHZW1QRTVVYW5COXpULVhfSTl3TVpVLTZlSHhaTVhwdWtGLTFHdXNWbzQ0eFNMcjJpVFVPRlpSanRhckE5WVlTTU96Sm1HUVF3dTFZVk1RM3V1S3VxVnBjU0wybVp4bExsZ0hDSDlieV84UHNGeHF5dU5hd3JOWUlMNw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:20",
+  "source": "run3:site",
+  "url": "https://suncoastbeverage.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:24",
+  "source": "run3:leadership",
+  "url": "https://suncoastbeverage.com/who-we-are/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:28",
+  "source": "run3:leadership",
+  "url": "https://suncoastbeverage.com/who-we-are/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:32",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Suncoast%20Beverage%20Sales\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:37",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:41",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbi1ZdkQzTGQ5cXQwRWtBRmpVMnRiVlJBQ1E1NmVBR1BoLVlSOGw4SGtTWXNadS1qN3RmcEo1Mmh1OEJVTlhDVVhGNG5WR3hVNl9rWHU0WWdCcXRMQWY0UEphYk5hSDZLNkMza1N3Z2RPRkNHT3RVdTlQemJ3cEZCOWhwX0gxczVkN2JDUUE5aEV4eDViRi01UzRXU0M5b1E0UV9naXdMaHRTYVU2c3Z3NHJKWG5ka3hHWUtIUE50dEM2TW4zSkMydC1nOE9rNHhaeVE?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:45",
+  "source": "run3:site",
+  "url": "https://www.waynedensch.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:49",
+  "source": "run3:leadership",
+  "url": "https://www.waynedensch.com/about",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:53",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Wayne%20Densch%20Inc.\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:10:58",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:02",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWkN2NHIzSkc4LWRCME9XQnJFeUtTR3ExMEcweThjb0QzS3hUS0Q3WXZiREs5RVRCMVI2anZkX1c3d2xIMW05d0t0Qy15bDdvUDhDT3lQY3JlMDBhR2loWjkxNEltdkliVjFyY3dueEUyUURlVFpHajg0MElPaF9yby05NTJyNU8zMkpEdjAtdEVKRUJHdk9sejY2emo?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:04",
+  "source": "run3:site",
+  "url": "https://www.studerfamilyofcompanies.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:11:06",
+  "source": "run3:site",
+  "url": "https://www.studer-family-of-companies.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:11:10",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Studer%20Family%20of%20Companies\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:14",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:18",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMEdUbXFlV0RmclpVeFZkdmNpa0ltS0YwdnZFUC1UbkdjQmMwNUdhS29RRUFLbklTTUZWUWdxdTV6Y3NLajNqbXh5WU92eG91c2gzSVF2RXZMRkRzb0J3UzFabkdtLWxGa0FST01LUGVDS25TN0hYSmxxQU1UbXZXOEFscDh6eTdWa1hQVEI2MUlYY3F1dVZUa1pzQmFraHBCaG9JZkFmeGYzXzQ0YllubVA1TWM2cVlSX3NMSXU3YVhMNmQzSEpmREhZczhONkZ0TmFR?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:24",
+  "source": "run3:site",
+  "url": "https://www.thefatherstable.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:28",
+  "source": "run3:contact",
+  "url": "https://thefatherstable.com/contact/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:32",
+  "source": "run3:leadership",
+  "url": "https://thefatherstable.com/our-story/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:36",
+  "source": "run3:leadership",
+  "url": "https://thefatherstable.com/our-story/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:40",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"The%20Father's%20Table\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:44",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:11:48",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14SERKa0puQkF1NEg5V0s3VmF0cEFVblB6ekdxb0hGVkhHTzl0VlNJQkx2bVUtb2d6al9sZzJ1NEV5RTdEY01neUFLVnB3TnRRUl85YXJBME5rSXBTSmVodl9WNmNHQzJILWpDeWlFRWl3NzZsckYxYw?oc=5",
+  "outcome": "read",
+  "kind": null
+ }
+]

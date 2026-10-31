@@ -1,0 +1,1000 @@
+[
+ {
+  "company": "Sintavia Additive mfg · Southeast FL",
+  "tier": "A",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "named decision maker with title"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": "info@sintavia.com",
+  "role_inbox": true,
+  "dm": "—",
+  "links": [
+   "https://sintavia.com",
+   "https://www.google.com/search?q=%22Sintavia%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Sintavia"
+  ],
+  "routes_unspent": [
+   "the company’s own leadership/about page (proved site)",
+   "trade press bound by officer.py (one clause’s grammar)"
+  ],
+  "est_reads": 5,
+  "name": "Sintavia",
+  "site": "https://sintavia.com",
+  "key": "29",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Duty Free Americas Travel retail · family-owned",
+  "tier": "A",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "named decision maker with title"
+  ],
+  "signal": "Blind",
+  "phone": "954-575-9200",
+  "email": "store223@dutyfreeamericas.com",
+  "role_inbox": false,
+  "dm": "Falic family Simon, Jerome & Leon Falic — Owners",
+  "links": [
+   "https://dutyfreeamericas.com",
+   "https://www.google.com/search?q=%22Duty%20Free%20Americas%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Duty%20Free%20Americas"
+  ],
+  "routes_unspent": [
+   "the company’s own leadership/about page (proved site)",
+   "trade press bound by officer.py (one clause’s grammar)"
+  ],
+  "est_reads": 5,
+  "name": "Duty Free Americas",
+  "site": "https://dutyfreeamericas.com",
+  "key": "83",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Lipman Family Farms Produce grower/dist · family",
+  "tier": "A",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Elyse Lipman CEO (4th gen, since 2023)",
+  "links": [
+   "https://lipmanfamilyfarms.com",
+   "https://www.google.com/search?q=%22Lipman%20Family%20Farms%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Lipman%20Family%20Farms"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Lipman Family Farms",
+  "site": "https://lipmanfamilyfarms.com",
+  "key": "99",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Detwiler’s Farm Market Grocery retail · family",
+  "tier": "A",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "2026-10-29",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Sam Detwiler President (day-to-day); Henry Detwiler Sr., Founder & CEO",
+  "links": [
+   "https://detwilers.com",
+   "https://www.google.com/search?q=%22Detwiler%E2%80%99s%20Farm%20Market%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Detwiler%E2%80%99s%20Farm%20Market"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Detwiler’s Farm Market",
+  "site": "https://detwilers.com",
+  "key": "104",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Milam’s Markets Grocery · family",
+  "tier": "A",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Max Milam CEO; Mike Milam, President (per 2025 Shelby Report; Allen Milam, co-fo",
+  "links": [
+   "https://milamsmarkets.com",
+   "https://www.google.com/search?q=%22Milam%E2%80%99s%20Markets%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Milam%E2%80%99s%20Markets"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Milam’s Markets",
+  "site": "https://milamsmarkets.com",
+  "key": "147",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Schwend, Inc. Transportation & Logistics",
+  "tier": "A",
+  "source": "expansion main",
+  "call_ready": false,
+  "missing": [
+   "named decision maker with title"
+  ],
+  "signal": "Blind",
+  "phone": "423-896-1014",
+  "email": null,
+  "role_inbox": false,
+  "dm": "President — 2nd-gen Schwend (name not published)",
+  "links": [
+   "https://www.google.com/search?q=Schwend%20Inc%20Dade%20City%20FL",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Schwend%2C%20Inc.",
+   "https://www.google.com/search?q=Schwend%2C%20Inc.%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own leadership/about page (proved site)",
+   "trade press bound by officer.py (one clause’s grammar)"
+  ],
+  "est_reads": 5,
+  "name": "Schwend, Inc.",
+  "site": null,
+  "key": "7",
+  "path": "florida-expansion.html",
+  "table": 0
+ },
+ {
+  "company": "Martinez Distributors Distribution & Wholesale",
+  "tier": "A",
+  "source": "expansion main",
+  "call_ready": false,
+  "missing": [
+   "named decision maker with title"
+  ],
+  "signal": "Blind",
+  "phone": "305-882-8282",
+  "email": null,
+  "role_inbox": false,
+  "dm": "Martinez family principal (name not published)",
+  "links": [
+   "https://www.google.com/search?q=Martinez%20Distributors%20Doral%20FL",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Martinez%20Distributors",
+   "https://www.google.com/search?q=Martinez%20Distributors%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own leadership/about page (proved site)",
+   "trade press bound by officer.py (one clause’s grammar)"
+  ],
+  "est_reads": 5,
+  "name": "Martinez Distributors",
+  "site": null,
+  "key": "14",
+  "path": "florida-expansion.html",
+  "table": 0
+ },
+ {
+  "company": "Palm Medical Centers own site",
+  "tier": "Unverified",
+  "source": "intake",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "2021-10-18",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Jim McHugh, Chief Financial Officer (Src: page · 2026-10-30)",
+  "links": [
+   "https://www.palmmedicalcenters.com/",
+   "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1hkeUtURG5pd3o5eFZJVmNxVTUxcEU2bjVfUXZvNUxIMVZ1ZENiTDUwNGoyZkZueWcyNUp6Yjdmb29jN0lPNmV6c3RueTZnUW9JVm5ybjNjdFBlZ0EzYk5KS3k4WFRfVWlCUlhoVjFLWlhsdy1lYmJ3aFVlSWdXVnBjZzhmbmxOZlZ1WFdxOWVfdGZyQXpmcnlRZmVZTEJzS29qRjhWUkF6Y1RyNWtv?oc=5",
+   "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1hkeUtURG5pd3o5eFZJVmNxVTUxcEU2bjVfUXZvNUxIMVZ1ZENiTDUwNGoyZkZueWcyNUp6Yjdmb29jN0lPNmV6c3RueTZnUW9JVm5ybjNjdFBlZ0EzYk5KS3k4WFRfVWlCUlhoVjFLWlhsdy1lYmJ3aFVlSWdXVnBjZzhmbmxOZlZ1WFdxOWVfdGZyQXpmcnlRZmVZTEJzS29qRjhWUkF6Y1RyNWtv?oc=5"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Palm Medical Centers",
+  "site": "https://www.palmmedicalcenters.com/",
+  "key": "I2",
+  "path": "florida-expansion.html",
+  "table": 2
+ },
+ {
+  "company": "Altitude Water own site",
+  "tier": "Unverified",
+  "source": "intake",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "2026-08-26",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Branden Riley, COO (Src: page · 2026-10-31)",
+  "links": [
+   "https://altitudewaterusa.com/",
+   "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcnhGM1FqcC04akpIaVJVZjlwTzZjbk9wRVQzbFdUblp6cTc4eGN5Rk9ic3ZKNGtoUjF1S1NzNGE2LWJNaUFDRVpfUEUxaUZLWGpqeTViR1l4V21CU0FRUUFKekx3REpCZXBPZFRpLXhFR25yTkc5Sk5CX2NScHFleTU5QVJsTkpkdU9yOHNUYjdvZjhfYUQwODZ3emhxY3BVbTY1T09adzBjZURZUlVjUjB1MFg0ZE5BRHpOeXQtamFpUVAzbzRETlRBTGU1dU1aUWc?oc=5",
+   "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcnhGM1FqcC04akpIaVJVZjlwTzZjbk9wRVQzbFdUblp6cTc4eGN5Rk9ic3ZKNGtoUjF1S1NzNGE2LWJNaUFDRVpfUEUxaUZLWGpqeTViR1l4V21CU0FRUUFKekx3REpCZXBPZFRpLXhFR25yTkc5Sk5CX2NScHFleTU5QVJsTkpkdU9yOHNUYjdvZjhfYUQwODZ3emhxY3BVbTY1T09adzBjZURZUlVjUjB1MFg0ZE5BRHpOeXQtamFpUVAzbzRETlRBTGU1dU1aUWc?oc=5"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Altitude Water",
+  "site": "https://altitudewaterusa.com/",
+  "key": "I3",
+  "path": "florida-expansion.html",
+  "table": 2
+ },
+ {
+  "company": "Health Network One own site",
+  "tier": "Unverified",
+  "source": "intake",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "2026-10-30",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Heyward Donigan, CEO (Src: page · read 2026-10-31)",
+  "links": [
+   "https://www.healthnetworkone.com",
+   "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcTJ5R3RZVWR3QXItYnF3OUhGRXFaQnZCSXZFM0lEcWd3dTloS3ZrNkY1dzZRTmlMSmg1WVpMSnJuSGhycGxCMVFxbEhUSWJSclIwd1h1WHgxRzR0YmV1QkVIbVN5eWZNY2l2LXp5QXA5eGlMejRtSjlWRkVSNGpRVUZRTVQ3OFZVV29EeWpCQUZpbXBzVGhsTlMweDlfWmMwX3hMLWpEZXFyUzZIMnFN?oc=5",
+   "https://hig.com/portfolio/"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Health Network One",
+  "site": "https://www.healthnetworkone.com",
+  "key": "I5",
+  "path": "florida-expansion.html",
+  "table": 2
+ },
+ {
+  "company": "FreightCenter own site",
+  "tier": "Unverified",
+  "source": "intake",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "2025-01-08",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Matthew Brosious, President (Src: page · read 2026-10-31)",
+  "links": [
+   "https://freightcenter.com/",
+   "https://www.freightcenter.com/about/freightcenter-leadership/",
+   "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX3djZ19wZW10YjFDZHd1MEN6ckdCVXFHNVg4MXRTZFdHUUNzOUVCa0xEQzZjLVc1cWhKa1A5UVFHVTN6b19IVC0wQVhkODJBWDlhdEY4cUlNNkptR2NocDV6YXU2Mk1kUlhBQTFDejctV18zQkszYzRnbVQ2RVVLT0VvWTQ1dnBSblowX3FR?oc=5"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "FreightCenter",
+  "site": "https://freightcenter.com/",
+  "key": "I6",
+  "path": "florida-expansion.html",
+  "table": 2
+ },
+ {
+  "company": "STS Aviation Group own site",
+  "tier": "Unverified",
+  "source": "intake",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "2026-10-31",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Mark Smith, President (Src: article · read 2026-10-31)",
+  "links": [
+   "https://stsaviationgroup.com/",
+   "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzdTQkxFMXFTczRYVTRCVVVQX2JJR212LTk2RVBMempNS0w2MnQ1cF9xRDNrdzNlbkFVc0ZMR05JN3ktNjF6UUJCc3JkNWFQVzNKZzRucjRVQ3llZk1VYnpibmFYdnhYcHFTa01OR205aE5qTUkzR0VDNkJOdHViOXdTb3hMQUZQQ01OQ2NzUVU?oc=5",
+   "https://hig.com/portfolio/sts-aviation-group/"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "STS Aviation Group",
+  "site": "https://stsaviationgroup.com/",
+  "key": "I7",
+  "path": "florida-expansion.html",
+  "table": 2
+ },
+ {
+  "company": "Sedano's Supermarkets Grocery + distribution · Southeast FL",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Agustín Herrán President & CEO (son of co-founder Manuel Herrán)",
+  "links": [
+   "https://www.google.com/search?q=%22Sedano's%20Supermarkets%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Sedano's%20Supermarkets",
+   "https://www.google.com/search?q=Sedano's%20Supermarkets%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Sedano's Supermarkets",
+  "site": null,
+  "key": "21",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "City Furniture Furniture retail/dist · Southeast FL",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Andrew Koenig CEO (2nd-generation; Keith Koenig, co-founder, Chairman)",
+  "links": [
+   "https://www.google.com/search?q=%22City%20Furniture%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+City%20Furniture",
+   "https://www.google.com/search?q=City%20Furniture%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "City Furniture",
+  "site": null,
+  "key": "23",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Coca-Cola Beverages Florida Beverage bottler/dist · Tampa Ba",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Troy Taylor Founder, Chairman & CEO",
+  "links": [
+   "https://www.google.com/search?q=%22Coca-Cola%20Beverages%20Florida%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Coca-Cola%20Beverages%20Florida",
+   "https://www.google.com/search?q=Coca-Cola%20Beverages%20Florida%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Coca-Cola Beverages Florida",
+  "site": null,
+  "key": "45",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Boar's Head Provisions Food mfg/dist · Tampa Bay",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Carlos Giraldo President (owning Brunckhorst & Bischoff families make major deci",
+  "links": [
+   "https://www.google.com/search?q=%22Boar's%20Head%20Provisions%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Boar's%20Head%20Provisions",
+   "https://www.google.com/search?q=Boar's%20Head%20Provisions%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Boar's Head Provisions",
+  "site": null,
+  "key": "52",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Saddle Creek Logistics 3PL/warehousing · Tampa Bay",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Grady Martin COO & incoming CEO (May 2026); Mark Cabrera CEO until handover; Sco",
+  "links": [
+   "https://www.google.com/search?q=%22Saddle%20Creek%20Logistics%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Saddle%20Creek%20Logistics",
+   "https://www.google.com/search?q=Saddle%20Creek%20Logistics%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Saddle Creek Logistics",
+  "site": null,
+  "key": "58",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Correct Craft (Nautique) Marine mfg · Orlando/Central",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Zach Hutcheson Incoming CEO (Mar 31 2026), succeeding Bill Yeargin; Meloon famil",
+  "links": [
+   "https://www.google.com/search?q=%22Correct%20Craft%20(Nautique)%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Correct%20Craft%20(Nautique)",
+   "https://www.google.com/search?q=Correct%20Craft%20(Nautique)%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Correct Craft (Nautique)",
+  "site": null,
+  "key": "62",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "ABC Fine Wine & Spirits Beverage retail/dist · Orlando/Centr",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Charles E. Bailes III Chairman & CEO (3rd-generation owner; CEO since 1994)",
+  "links": [
+   "https://www.google.com/search?q=%22ABC%20Fine%20Wine%20%26%20Spirits%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ABC%20Fine%20Wine%20%26amp%3B%20Spirits",
+   "https://www.google.com/search?q=ABC%20Fine%20Wine%20%26amp%3B%20Spirits%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "ABC Fine Wine & Spirits",
+  "site": null,
+  "key": "65",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Ring Power (CAT) Equipment dist · Northeast FL",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "David Alban President & CEO (since Jan 2024; Randal L. Ringhaver, Chairman/owner",
+  "links": [
+   "https://www.google.com/search?q=%22Ring%20Power%20(CAT)%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Ring%20Power%20(CAT)",
+   "https://www.google.com/search?q=Ring%20Power%20(CAT)%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Ring Power (CAT)",
+  "site": null,
+  "key": "74",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Ed Morse Automotive Group Auto retail · family",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Teddy Morse Chairman & CEO (3rd-generation owner)",
+  "links": [
+   "https://edmorse.com",
+   "https://www.google.com/search?q=%22Ed%20Morse%20Automotive%20Group%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Ed%20Morse%20Automotive%20Group"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Ed Morse Automotive Group",
+  "site": "https://edmorse.com",
+  "key": "93",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Braman Motorcars Auto retail · family",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Norman Braman Chairman & owner, Braman Enterprises (grandsons Brian and Alex Sha",
+  "links": [
+   "https://www.google.com/search?q=%22Braman%20Motorcars%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Braman%20Motorcars",
+   "https://www.google.com/search?q=Braman%20Motorcars%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Braman Motorcars",
+  "site": null,
+  "key": "95",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Amscot Financial Consumer finance · family",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Ian MacKechnie Founder, Chairman & CEO (sons Ian A. MacKechnie, Exec. Vice Chair",
+  "links": [
+   "https://amscot.com",
+   "https://www.google.com/search?q=%22Amscot%20Financial%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Amscot%20Financial"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Amscot Financial",
+  "site": "https://amscot.com",
+  "key": "110",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Morgan Auto Group Auto retail · family",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Brett A. Morgan CEO (Sunbiz); Larry C. Morgan, Chairman",
+  "links": [
+   "https://morganautogroup.com",
+   "https://www.google.com/search?q=%22Morgan%20Auto%20Group%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Morgan%20Auto%20Group"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Morgan Auto Group",
+  "site": "https://morganautogroup.com",
+  "key": "112",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Westgate Resorts Hospitality · family",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Jim Gissy CEO (since Mar 2024); Siegel family owners",
+  "links": [
+   "https://westgateresorts.com",
+   "https://www.google.com/search?q=%22Westgate%20Resorts%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Westgate%20Resorts"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Westgate Resorts",
+  "site": "https://westgateresorts.com",
+  "key": "122",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "IMG Citrus Citrus grower/packer · family",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "named decision maker with title"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": "info@imgcitrus.com",
+  "role_inbox": true,
+  "dm": "Timothee Sallin, Melanie Ressler & Chloe Gentry Co-CEOs (2nd-gen Sallin family; ",
+  "links": [
+   "https://imgcitrus.com",
+   "https://www.google.com/search?q=%22IMG%20Citrus%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+IMG%20Citrus"
+  ],
+  "routes_unspent": [
+   "the company’s own leadership/about page (proved site)",
+   "trade press bound by officer.py (one clause’s grammar)"
+  ],
+  "est_reads": 5,
+  "name": "IMG Citrus",
+  "site": "https://imgcitrus.com",
+  "key": "127",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Gate Petroleum Fuel / c-store · family",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "John Peyton President & CEO (Herb Peyton, founder & Chairman)",
+  "links": [
+   "https://www.google.com/search?q=%22Gate%20Petroleum%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Gate%20Petroleum",
+   "https://www.google.com/search?q=Gate%20Petroleum%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Gate Petroleum",
+  "site": null,
+  "key": "138",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Innisfree Hotels Hospitality · family",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Ted Ent President & CEO (Julian MacQueen, Founder & Chairman/owner)",
+  "links": [
+   "https://innisfreehotels.com",
+   "https://www.google.com/search?q=%22Innisfree%20Hotels%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Innisfree%20Hotels"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Innisfree Hotels",
+  "site": "https://innisfreehotels.com",
+  "key": "145",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "IBC Airways Regional air cargo",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Joe Costigan President",
+  "links": [
+   "https://ibcairways.com",
+   "https://www.google.com/search?q=%22IBC%20Airways%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+IBC%20Airways"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "IBC Airways",
+  "site": "https://ibcairways.com",
+  "key": "151",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Tampa Maid Foods Food & Beverage Processing",
+  "tier": "B",
+  "source": "expansion main",
+  "call_ready": false,
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Shawn Meaney, President & COO (hired; parent WAI)",
+  "links": [
+   "https://www.google.com/search?q=Tampa%20Maid%20Foods%20Lakeland%20FL",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Tampa%20Maid%20Foods",
+   "https://www.google.com/search?q=Tampa%20Maid%20Foods%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 5,
+  "name": "Tampa Maid Foods",
+  "site": null,
+  "key": "3",
+  "path": "florida-expansion.html",
+  "table": 0
+ },
+ {
+  "company": "Solutions Manufacturing Manufacturing & Industrial",
+  "tier": "B",
+  "source": "expansion main",
+  "call_ready": false,
+  "missing": [
+   "named decision maker with title"
+  ],
+  "signal": "Blind",
+  "phone": "321-848-0848",
+  "email": null,
+  "role_inbox": false,
+  "dm": "Owners (names not published) — via main line",
+  "links": [
+   "https://www.google.com/search?q=Solutions%20Manufacturing%20Inc%20Rockledge%20FL",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Solutions%20Manufacturing",
+   "https://www.google.com/search?q=Solutions%20Manufacturing%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own leadership/about page (proved site)",
+   "trade press bound by officer.py (one clause’s grammar)"
+  ],
+  "est_reads": 5,
+  "name": "Solutions Manufacturing",
+  "site": null,
+  "key": "34",
+  "path": "florida-expansion.html",
+  "table": 0
+ },
+ {
+  "company": "Suncoast Beverage Sales Beer distribution",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "named decision maker with title",
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "—",
+  "links": [
+   "https://suncoastbeverage.com",
+   "https://www.google.com/search?q=%22Suncoast%20Beverage%20Sales%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Suncoast%20Beverage%20Sales"
+  ],
+  "routes_unspent": [
+   "the company’s own leadership/about page (proved site)",
+   "trade press bound by officer.py (one clause’s grammar)",
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 10,
+  "name": "Suncoast Beverage Sales",
+  "site": "https://suncoastbeverage.com",
+  "key": "101",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Wayne Densch Inc. Beer distribution",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "named decision maker with title",
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "—",
+  "links": [
+   "https://www.google.com/search?q=%22Wayne%20Densch%20Inc.%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Wayne%20Densch%20Inc.",
+   "https://www.google.com/search?q=Wayne%20Densch%20Inc.%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own leadership/about page (proved site)",
+   "trade press bound by officer.py (one clause’s grammar)",
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 10,
+  "name": "Wayne Densch Inc.",
+  "site": null,
+  "key": "117",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "Studer Family of Companies Mixed holdings · family",
+  "tier": "B",
+  "source": "florida.html",
+  "call_ready": false,
+  "missing": [
+   "named decision maker with title",
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "—",
+  "links": [
+   "https://www.google.com/search?q=%22Studer%20Family%20of%20Companies%22%20owner%20OR%20president%20OR%20CEO",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Studer%20Family%20of%20Companies",
+   "https://www.google.com/search?q=Studer%20Family%20of%20Companies%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own leadership/about page (proved site)",
+   "trade press bound by officer.py (one clause’s grammar)",
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 10,
+  "name": "Studer Family of Companies",
+  "site": null,
+  "key": "146",
+  "path": "florida.html",
+  "table": 0
+ },
+ {
+  "company": "The Father's Table Food & Beverage Processing",
+  "tier": "B",
+  "source": "expansion main",
+  "call_ready": false,
+  "missing": [
+   "named decision maker with title",
+   "published phone or email with a dated Src:"
+  ],
+  "signal": "Blind",
+  "phone": null,
+  "email": null,
+  "role_inbox": false,
+  "dm": "Not published",
+  "links": [
+   "https://www.google.com/search?q=The%20Father%27s%20Table%20Sanford%20FL%20dessert%20manufacturer",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+The%20Father's%20Table",
+   "https://www.google.com/search?q=The%20Father's%20Table%20Florida%20official%20website"
+  ],
+  "routes_unspent": [
+   "the company’s own leadership/about page (proved site)",
+   "trade press bound by officer.py (one clause’s grammar)",
+   "the company’s own contact page (dated read)"
+  ],
+  "est_reads": 10,
+  "name": "The Father's Table",
+  "site": null,
+  "key": "24",
+  "path": "florida-expansion.html",
+  "table": 0
+ }
+]

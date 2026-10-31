@@ -1,0 +1,999 @@
+{
+ "run": "core build run three",
+ "launch_utc": "2026-10-31T11:05:15.091619+00:00",
+ "rows": [
+  {
+   "company": "Sintavia",
+   "source": "florida.html",
+   "key": "29",
+   "missing": [
+    "named decision maker with title"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://sintavia.com",
+     "outcome": "read (proved)"
+    },
+    {
+     "route": "leadership/about page",
+     "host": "https://sintavia.com/who-we-are/",
+     "outcome": "read"
+    },
+    {
+     "route": "leadership/about page",
+     "host": "https://sintavia.com/leadership/",
+     "outcome": "read"
+    }
+   ],
+   "found": {
+    "dm": {
+     "name": "Brian Neff",
+     "title": "Founder",
+     "span": "er GO BACK TO HOME Leadership Brian Neff, Founder & CEO Mr. Neff foun",
+     "src": "https://sintavia.com/leadership/",
+     "read": "2026-10-31",
+     "source": "the company’s own page"
+    }
+   },
+   "state": "completed",
+   "reads": 3
+  },
+  {
+   "company": "Duty Free Americas",
+   "source": "florida.html",
+   "key": "83",
+   "missing": [
+    "named decision maker with title"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://dutyfreeamericas.com",
+     "outcome": "read (proved)"
+    },
+    {
+     "route": "trade press (officer.py)",
+     "host": "news.google.com",
+     "outcome": "read"
+    }
+   ],
+   "found": {},
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 2
+  },
+  {
+   "company": "Lipman Family Farms",
+   "source": "florida.html",
+   "key": "99",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://lipmanfamilyfarms.com",
+     "outcome": "read (proved)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "239.657.4421",
+     "email": "carriers@lipmanfamilyfarms.com",
+     "role_inbox": false,
+     "src": "https://lipmanfamilyfarms.com",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "Detwiler’s Farm Market",
+   "source": "florida.html",
+   "key": "104",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://detwilers.com",
+     "outcome": "refused (503)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.detwilersfarmmarket.com/",
+     "outcome": "refused (503)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.detwilers-farm-market.com/",
+     "outcome": "refused (net)"
+    }
+   ],
+   "found": {},
+   "state": "measured shut",
+   "reads": 3
+  },
+  {
+   "company": "Milam’s Markets",
+   "source": "florida.html",
+   "key": "147",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://milamsmarkets.com",
+     "outcome": "read (proved)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "305-945-1890",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://milamsmarkets.com",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "Schwend, Inc.",
+   "source": "expansion main",
+   "key": "7",
+   "missing": [
+    "named decision maker with title"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.schwend.com/",
+     "outcome": "resolved but failed the proof"
+    },
+    {
+     "route": "trade press (officer.py)",
+     "host": "news.google.com",
+     "outcome": "read"
+    }
+   ],
+   "found": {},
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 2
+  },
+  {
+   "company": "Martinez Distributors",
+   "source": "expansion main",
+   "key": "14",
+   "missing": [
+    "named decision maker with title"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.martinezdistributors.com/",
+     "outcome": "refused (challenge)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.martinez-distributors.com/",
+     "outcome": "refused (net)"
+    },
+    {
+     "route": "trade press (officer.py)",
+     "host": "news.google.com",
+     "outcome": "read"
+    }
+   ],
+   "found": {},
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 3
+  },
+  {
+   "company": "Palm Medical Centers",
+   "source": "intake",
+   "key": "I2",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://www.palmmedicalcenters.com/",
+     "outcome": "read (proved)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "(877) 832-2684",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.palmmedicalcenters.com/",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "Altitude Water",
+   "source": "intake",
+   "key": "I3",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://altitudewaterusa.com/",
+     "outcome": "read (proved)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "(954) 530-5753",
+     "email": "info@altdwater.com",
+     "role_inbox": true,
+     "src": "https://altitudewaterusa.com/",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "Health Network One",
+   "source": "intake",
+   "key": "I5",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://www.healthnetworkone.com",
+     "outcome": "read (proved)"
+    }
+   ],
+   "found": {},
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 1
+  },
+  {
+   "company": "FreightCenter",
+   "source": "intake",
+   "key": "I6",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://freightcenter.com/",
+     "outcome": "read (proved)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "(800) 716-7608",
+     "email": "rewards@freightcenter.com",
+     "role_inbox": false,
+     "src": "https://freightcenter.com/",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "STS Aviation Group",
+   "source": "intake",
+   "key": "I7",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://stsaviationgroup.com/",
+     "outcome": "read (proved)"
+    },
+    {
+     "route": "contact page",
+     "host": "https://www.stsaviationgroup.com/global-locations/",
+     "outcome": "read"
+    }
+   ],
+   "found": {},
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 2
+  },
+  {
+   "company": "Sedano's Supermarkets",
+   "source": "florida.html",
+   "key": "21",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.sedanossupermarkets.com/",
+     "outcome": "refused (net)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.sedanos-supermarkets.com/",
+     "outcome": "refused (net)"
+    }
+   ],
+   "found": {},
+   "state": "measured shut",
+   "reads": 2
+  },
+  {
+   "company": "City Furniture",
+   "source": "florida.html",
+   "key": "23",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.cityfurniture.com/",
+     "outcome": "refused (403)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.city-furniture.com/",
+     "outcome": "refused (503)"
+    }
+   ],
+   "found": {},
+   "state": "measured shut",
+   "reads": 2
+  },
+  {
+   "company": "Coca-Cola Beverages Florida",
+   "source": "florida.html",
+   "key": "45",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.cocacolabeveragesflorida.com/",
+     "outcome": "refused (525)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.cocacola-beverages-florida.com/",
+     "outcome": "refused (net)"
+    }
+   ],
+   "found": {},
+   "state": "measured shut",
+   "reads": 2
+  },
+  {
+   "company": "Boar's Head Provisions",
+   "source": "florida.html",
+   "key": "52",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.boarsheadprovisions.com/",
+     "outcome": "refused (net)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.boars-head-provisions.com/",
+     "outcome": "refused (net)"
+    }
+   ],
+   "found": {},
+   "state": "measured shut",
+   "reads": 2
+  },
+  {
+   "company": "Saddle Creek Logistics",
+   "source": "florida.html",
+   "key": "58",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.saddlecreeklogistics.com/",
+     "outcome": "refused (503)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.saddle-creek-logistics.com/",
+     "outcome": "refused (net)"
+    }
+   ],
+   "found": {},
+   "state": "measured shut",
+   "reads": 2
+  },
+  {
+   "company": "Correct Craft (Nautique)",
+   "source": "florida.html",
+   "key": "62",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.correctcraft.com/",
+     "outcome": "read (proved)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": null,
+     "email": "info@correctcraft.com",
+     "role_inbox": true,
+     "src": "https://www.correctcraft.com/",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "ABC Fine Wine & Spirits",
+   "source": "florida.html",
+   "key": "65",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.abcfinewinespirits.com/",
+     "outcome": "refused (503)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.abc-fine-wine-spirits.com/",
+     "outcome": "refused (net)"
+    }
+   ],
+   "found": {},
+   "state": "measured shut",
+   "reads": 2
+  },
+  {
+   "company": "Ring Power (CAT)",
+   "source": "florida.html",
+   "key": "74",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.ringpower.com/",
+     "outcome": "read (proved)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "904-737-7730",
+     "email": "info@ringpower.com",
+     "role_inbox": true,
+     "src": "https://www.ringpower.com/",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "Ed Morse Automotive Group",
+   "source": "florida.html",
+   "key": "93",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://edmorse.com",
+     "outcome": "read (the row’s own site link)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "(813) 565-0095",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://edmorse.com",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "Braman Motorcars",
+   "source": "florida.html",
+   "key": "95",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.bramanmotorcars.com/",
+     "outcome": "refused (403)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.braman-motorcars.com/",
+     "outcome": "refused (net)"
+    }
+   ],
+   "found": {},
+   "state": "measured shut",
+   "reads": 2
+  },
+  {
+   "company": "Amscot Financial",
+   "source": "florida.html",
+   "key": "110",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://amscot.com",
+     "outcome": "read (the row’s own site link)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "800-801-4444",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://amscot.com",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "Morgan Auto Group",
+   "source": "florida.html",
+   "key": "112",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://morganautogroup.com",
+     "outcome": "refused (403)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.morganauto.com/",
+     "outcome": "refused (503)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.morgan-auto.com/",
+     "outcome": "resolved but failed the proof"
+    }
+   ],
+   "found": {},
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 3
+  },
+  {
+   "company": "Westgate Resorts",
+   "source": "florida.html",
+   "key": "122",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://westgateresorts.com",
+     "outcome": "read (proved)"
+    },
+    {
+     "route": "contact page",
+     "host": "https://westgateresorts.com/customer-service/",
+     "outcome": "read"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "800-925-9999",
+     "email": "general_accounting@wgresorts.com",
+     "role_inbox": false,
+     "src": "https://westgateresorts.com/customer-service/",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 2
+  },
+  {
+   "company": "IMG Citrus",
+   "source": "florida.html",
+   "key": "127",
+   "missing": [
+    "named decision maker with title"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://imgcitrus.com",
+     "outcome": "read (proved)"
+    },
+    {
+     "route": "trade press (officer.py)",
+     "host": "news.google.com",
+     "outcome": "read"
+    }
+   ],
+   "found": {},
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 2
+  },
+  {
+   "company": "Gate Petroleum",
+   "source": "florida.html",
+   "key": "138",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.gatepetroleum.com/",
+     "outcome": "refused (net)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.gate-petroleum.com/",
+     "outcome": "refused (net)"
+    }
+   ],
+   "found": {},
+   "state": "measured shut",
+   "reads": 2
+  },
+  {
+   "company": "Innisfree Hotels",
+   "source": "florida.html",
+   "key": "145",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://innisfreehotels.com",
+     "outcome": "read (proved)"
+    },
+    {
+     "route": "contact page",
+     "host": "https://innisfreehotels.com/contact-us/",
+     "outcome": "refused (500)"
+    }
+   ],
+   "found": {},
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 2
+  },
+  {
+   "company": "IBC Airways",
+   "source": "florida.html",
+   "key": "151",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://ibcairways.com",
+     "outcome": "read (proved)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "954-834-1700",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://ibcairways.com",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "Tampa Maid Foods",
+   "source": "expansion main",
+   "key": "3",
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.tampamaidfoods.com/",
+     "outcome": "read (proved)"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "(800) 237-7637",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.tampamaidfoods.com/",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "completed",
+   "reads": 1
+  },
+  {
+   "company": "Solutions Manufacturing",
+   "source": "expansion main",
+   "key": "34",
+   "missing": [
+    "named decision maker with title"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.solutionsmanufacturing.com/",
+     "outcome": "refused (net)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.solutions-manufacturing.com/",
+     "outcome": "refused (net)"
+    },
+    {
+     "route": "trade press (officer.py)",
+     "host": "news.google.com",
+     "outcome": "read"
+    }
+   ],
+   "found": {},
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 3
+  },
+  {
+   "company": "Suncoast Beverage Sales",
+   "source": "florida.html",
+   "key": "101",
+   "missing": [
+    "named decision maker with title",
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "row site link",
+     "host": "https://suncoastbeverage.com",
+     "outcome": "read (proved)"
+    },
+    {
+     "route": "leadership/about page",
+     "host": "https://suncoastbeverage.com/who-we-are/",
+     "outcome": "read"
+    },
+    {
+     "route": "leadership/about page",
+     "host": "https://suncoastbeverage.com/who-we-are/",
+     "outcome": "read"
+    },
+    {
+     "route": "trade press (officer.py)",
+     "host": "news.google.com",
+     "outcome": "read"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "239.334.3520",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://suncoastbeverage.com",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 4
+  },
+  {
+   "company": "Wayne Densch Inc.",
+   "source": "florida.html",
+   "key": "117",
+   "missing": [
+    "named decision maker with title",
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.waynedensch.com/",
+     "outcome": "read (proved)"
+    },
+    {
+     "route": "leadership/about page",
+     "host": "https://www.waynedensch.com/about",
+     "outcome": "read"
+    },
+    {
+     "route": "trade press (officer.py)",
+     "host": "news.google.com",
+     "outcome": "read"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "407-323-5600",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.waynedensch.com/",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 3
+  },
+  {
+   "company": "Studer Family of Companies",
+   "source": "florida.html",
+   "key": "146",
+   "missing": [
+    "named decision maker with title",
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.studerfamilyofcompanies.com/",
+     "outcome": "refused (net)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.studer-family-of-companies.com/",
+     "outcome": "refused (net)"
+    },
+    {
+     "route": "trade press (officer.py)",
+     "host": "news.google.com",
+     "outcome": "read"
+    }
+   ],
+   "found": {},
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 3
+  },
+  {
+   "company": "The Father's Table",
+   "source": "expansion main",
+   "key": "24",
+   "missing": [
+    "named decision maker with title",
+    "published phone or email with a dated Src:"
+   ],
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.thefatherstable.com/",
+     "outcome": "read (proved)"
+    },
+    {
+     "route": "contact page",
+     "host": "https://thefatherstable.com/contact/",
+     "outcome": "read"
+    },
+    {
+     "route": "leadership/about page",
+     "host": "https://thefatherstable.com/our-story/",
+     "outcome": "read"
+    },
+    {
+     "route": "leadership/about page",
+     "host": "https://thefatherstable.com/our-story/",
+     "outcome": "read"
+    },
+    {
+     "route": "trade press (officer.py)",
+     "host": "news.google.com",
+     "outcome": "read"
+    }
+   ],
+   "found": {
+    "contact": {
+     "phone": "407-324-1200",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://thefatherstable.com/contact/",
+     "read": "2026-10-31"
+    }
+   },
+   "state": "partial",
+   "remaining_routes": [
+    "Sunbiz officer list (refuses this reader, 403)",
+    "LinkedIn company page (refuses this reader, 999)"
+   ],
+   "reads": 5
+  }
+ ],
+ "stopped": "completed: the whole queue worked",
+ "spent": 87,
+ "closed_hosts": []
+}
