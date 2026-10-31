@@ -1,0 +1,355 @@
+{
+ "HEAD": {
+  "stop": "UNBOUND STOP FIRED mid-window: 4 unbound of 17 processed (over 3). All four split as headline-unmatched — but fault 44: the detector read publisher navigation as companies, so the split is untrustworthy this window. Read by hand from the spans: 2 are pattern gaps (“Fengate Private Equity takes majority stake in … CRWF”; “BH Group and Gold Standard of Care Acquire Naples … Campus” — plural verb), 1 names no target (Hilb Group’s unnamed P&C agency, expected), 1 is not a company signal (Florida SBA appointing an investment head)",
+  "discoverability": {
+   "articles_read": 19,
+   "carrying_a_dated_florida_signal": 17,
+   "reaching_binding": 17,
+   "binds_with_no_site_linked": 6,
+   "note": "the fourth figure’s first measurement: 6 of 8 binds among the 13 had no site linked in their article; no threshold set (ruled)"
+  },
+  "wrongness": {
+   "counted": 1,
+   "what_it_was": "Alpha Foundations’ bind is right; the site found was c212.net, PR Newswire’s media host (fault 43) — a site fault the stop counted as a bind fault"
+  },
+  "count_after_naming_the_13": {
+   "re_read": 13,
+   "bound": 8,
+   "rejected_span_not_a_company": 4,
+   "unbound": 1,
+   "of_the_8_bound": {
+    "unprovable_by_link_held": 6,
+    "on_file": 1,
+    "wrong_site_found": 1,
+    "proved": 0
+   }
+  },
+  "admitted_this_window": 0,
+  "running_count_against_100": 0,
+  "confirmed": 0,
+  "ceiling_line": "reads spent 25; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)",
+  "proof_fetch": "the ownership proof shares the test-1 fetch: zero additional reads"
+ },
+ "step_1_pattern_proof": "PASSED 13 of 13 on the live title-case corpus after two failed attempts (reports/w6-pattern-proof.json); measured as fit to its own corpus, not generalisation (register reasoning)",
+ "the_13": [
+  {
+   "key": "Acquisitions:gnews_rss:0",
+   "headline": "Inkle acquires Finally’s bookkeeping division and sets sights on South Florida growth - Refresh Miami",
+   "state": "rejected: span not a company",
+   "bound": "Finally’s bookkeeping division",
+   "pattern": "{acquirer} acquires {company}",
+   "span": "Inkle acquires Finally’s bookkeeping division",
+   "status": "rejected: the matched span is not a company — Finally’s bookkeeping division",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:1",
+   "headline": "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
+   "state": "bound",
+   "bound": "Jack Brown’s",
+   "pattern": "{company} acquired by {acquirer}",
+   "span": "Jack Brown’s acquired by Florida investment firm",
+   "status": "unprovable-by-link, held: the article links no site for the bound name",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:2",
+   "headline": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsville Business Journal",
+   "state": "bound",
+   "bound": "Havoc",
+   "pattern": "{acquirer} acquires controlling interest of {company}",
+   "span": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc",
+   "status": "unprovable-by-link, held: the article links no site for the bound name",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:3",
+   "headline": "Florida-based NextEra agrees to $67B Dominion Energy acquisition - VPM",
+   "state": "bound",
+   "bound": "Dominion Energy",
+   "pattern": "{acquirer} agrees to $X {company} acquisition",
+   "span": "Florida-based NextEra agrees to $67B Dominion Energy acquisition",
+   "status": "on file — a signal against the existing row",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:4",
+   "headline": "Hilb Group expands Southeast footprint with Florida commercial P&amp;C acquisition - Insurance Business",
+   "state": "unbound",
+   "bound": "Hilb Group",
+   "pattern": null,
+   "span": null,
+   "status": "unbound — detector result on the row",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:5",
+   "headline": "CenterWell completes acquisition of MaxHealth in Florida - The Lane Report",
+   "state": "bound",
+   "bound": "MaxHealth",
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "span": "CenterWell completes acquisition of MaxHealth",
+   "status": "unprovable-by-link, held: the article links no site for the bound name",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:6",
+   "headline": "Michelli Weighing &amp; Measurement Announces Acquisition of Florida Industrial Scale Co. - Newswire",
+   "state": "bound",
+   "bound": "Florida Industrial Scale Co",
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "span": "Michelli Weighing & Measurement Announces Acquisition of Florida Industrial Scale Co.",
+   "status": "unprovable-by-link, held: the article links no site for the bound name",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:7",
+   "headline": "Florida company acquires AAA Heating &amp; Air - Spokane Journal of Business",
+   "state": "bound",
+   "bound": "AAA Heating & Air",
+   "pattern": "{acquirer} acquires {company}",
+   "span": "Florida company acquires AAA Heating & Air",
+   "status": "unprovable-by-link, held: the article links no site for the bound name",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:8",
+   "headline": "FCC completes acquisition of Florida WTE facility - Waste Today -",
+   "state": "rejected: span not a company",
+   "bound": "Florida WTE facility - Waste Today -",
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "span": "FCC completes acquisition of Florida WTE facility",
+   "status": "rejected: the matched span is not a company — Florida WTE facility",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:9",
+   "headline": "CT registered investment advisor firm acquired by Florida wealth management company - Hartford Business Journal",
+   "state": "rejected: span not a company",
+   "bound": "CT registered investment advisor firm",
+   "pattern": "{company} acquired by {acquirer}",
+   "span": "CT registered investment advisor firm acquired by Florida wealth management company",
+   "status": "rejected: the matched span is not a company — CT registered investment advisor firm",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:10",
+   "headline": "Synergos Companies Expands into Florida with Acquisition of ODC Construction - PR Newswire",
+   "state": "bound",
+   "bound": "ODC Construction",
+   "pattern": "{acquirer} expands into ... with acquisition of {company}",
+   "span": "Synergos Companies Expands into Florida with Acquisition of ODC Construction",
+   "status": "unprovable-by-link, held: the article links no site for the bound name",
+   "site": null,
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:11",
+   "headline": "Groundworks Acquires Florida-Based Alpha Foundations - PR Newswire",
+   "state": "bound",
+   "bound": "Alpha Foundations",
+   "pattern": "{acquirer} acquires {company}",
+   "span": "Groundworks Acquires Florida-Based Alpha Foundations",
+   "status": "WRONG BIND: the site found for the name does not name the company",
+   "site": "https://c212.net/",
+   "proof": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:12",
+   "headline": "The Mosaic Company to Acquire Florida Phosphate Business From CF Industries for $1.2 Billion - PR Newswire",
+   "state": "rejected: span not a company",
+   "bound": "Florida Phosphate Business",
+   "pattern": "{acquirer} acquires {company}",
+   "span": "The Mosaic Company to Acquire Florida Phosphate Business",
+   "status": "rejected: the matched span is not a company — Florida Phosphate Business",
+   "site": null,
+   "proof": null
+  }
+ ],
+ "new_this_window": [
+  {
+   "practice": "Acquisitions",
+   "headline": "Bertram Capital Acquires Florida-Based Percopo Coatings Company With Generational Group Advising - citybiz",
+   "state": "rejected: span not a company",
+   "bound_or_span": "Percopo Coatings Company",
+   "split": null,
+   "detector_found": null,
+   "status": "rejected: the matched span is not a company — Percopo Coatings Company"
+  },
+  {
+   "practice": "Private Equity",
+   "headline": "Fengate Private Equity takes majority stake in Florida clinical research network CRWF - PEI Private Equity",
+   "state": "unbound",
+   "bound_or_span": null,
+   "split": "headline-unmatched (a company is named; the patterns did not bind it)",
+   "detector_found": [
+    "Alpine-backed Apex Service Partners",
+    "Compliance Watch PEI Events PEI Group",
+    "Fundraising Vertu Capital",
+    "PEI Group",
+    "Shore Capital"
+   ],
+   "status": "unbound — detector result on the row"
+  },
+  {
+   "practice": "Private Equity",
+   "headline": "Florida SBA appoints John Bradley to head private markets investments - PEI Private Equity",
+   "state": "unbound",
+   "bound_or_span": null,
+   "split": "headline-unmatched (a company is named; the patterns did not bind it)",
+   "detector_found": [
+    "Compliance Watch PEI Events PEI Group",
+    "Investors North America Secondaries Limited Partners",
+    "PEI Group"
+   ],
+   "status": "unbound — detector result on the row"
+  },
+  {
+   "practice": "Acquisitions",
+   "headline": "BH Group and Gold Standard of Care Acquire Naples Senior Living and Skilled Nursing Campus for $10 Million - Florida Hospital News and Healthcare Report",
+   "state": "unbound",
+   "bound_or_span": null,
+   "split": "headline-unmatched (a company is named; the patterns did not bind it)",
+   "detector_found": [
+    "BH Group"
+   ],
+   "status": "unbound — detector result on the row"
+  }
+ ],
+ "per_query": {
+  "\"Florida\" company acquired": {
+   "practice": "Acquisitions",
+   "articles_read": 2,
+   "florida_signal": 1,
+   "reaching_binding": 1,
+   "no_site_linked": 0
+  },
+  "\"Florida\" \"private equity\" invests": {
+   "practice": "Private Equity",
+   "articles_read": 2,
+   "florida_signal": 2,
+   "reaching_binding": 2,
+   "no_site_linked": 0
+  },
+  "\"Florida\" company \"names\" CFO": {
+   "practice": "Fractionals",
+   "articles_read": 1,
+   "florida_signal": 0,
+   "reaching_binding": 0,
+   "no_site_linked": 0
+  },
+  "\"Florida\" acquisition": {
+   "practice": "Acquisitions",
+   "articles_read": 1,
+   "florida_signal": 1,
+   "reaching_binding": 1,
+   "no_site_linked": 0
+  }
+ },
+ "parked": {},
+ "faults_added": [
+  42,
+  43,
+  44
+ ],
+ "repairs_before_window_seven": [
+  "patterns: “takes (majority|minority|controlling) stake in” and plural verbs (“Acquire”) added, proved on window six’s 4 new headlines plus the 13",
+  "the non-company rule keeps a span ending in “Company” when it is a proper name (Percopo Coatings Company), proved on that case",
+  "site-for-name by host only; anchor-text matches and media hosts (c212.net and the wire services’ CDNs) excluded",
+  "the detector bounded to the article’s own text (the JSON-LD articleBody or the main article element), so the unbound split means what it says"
+ ],
+ "held_into_window": "Health Network One (Emboss Specialty), Mainline, Moneysolver — size-unsourced, routes named; no revenue route ordered this window",
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window six ruling: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window six delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "window": {
+  "launch_utc": "2026-10-30T22:23:27.458603+00:00",
+  "run_start_utc": "2026-10-30",
+  "run_end_utc": "2026-10-30",
+  "straddled_midnight_utc": false,
+  "reads": 25
+ },
+ "proofs": [
+  "reports/w6-pattern-proof.json",
+  "reports/w6-per-url-record.json",
+  "reports/w6-engine.json"
+ ],
+ "instruments": "no page changed",
+ "reversal": "naming2.py new; naming.py’s in-file v2 block removed (v1 and prove_site unchanged); window-scoped files",
+ "changed_files": {
+  "naming.py": {
+   "bytes": 6335,
+   "blob": "f6fd8bcca0",
+   "sha256": "750852aaaf83130e"
+  },
+  "naming2.py": {
+   "bytes": 4645,
+   "blob": "8c2dab55bb",
+   "sha256": "512ed9d64c8eb1cf"
+  },
+  "window6.py": {
+   "bytes": 15012,
+   "blob": "9b165a68ed",
+   "sha256": "b49c0fe3b16c1283"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 651845,
+   "blob": "010e566bf0",
+   "sha256": "780b2ae32fef014d"
+  },
+  "florida100-window6-log.jsonl": {
+   "bytes": 11387,
+   "blob": "c6fc71bca5",
+   "sha256": "1e92725513808840"
+  },
+  "bot-config.json": {
+   "bytes": 1429,
+   "blob": "cc0d01a23e",
+   "sha256": "fe805b097bd3a03d"
+  },
+  "founders-roster.json": {
+   "bytes": 34842,
+   "blob": "de947ae31e",
+   "sha256": "a81f569c726a0059"
+  }
+ }
+}

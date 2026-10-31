@@ -1,0 +1,1748 @@
+[
+ {
+  "ts": "21:21:52",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZFE5WlEzdkI1M0VTN2JYQWpJdDdyYm5QbS01TFFZTHVlMVZaUHJmb1Vna2RrUlBpQTJvVkxXaXlwZndNcWVxbGdSTWRxSnBTVEpMaWlDV1hlSGZyT0E5M0dIVlBRNkhXVndCZ1M5Z0d1Z1VSV0pmeWlBRlNBemo4SjVsSkZUaXJFLWs0SmdCZWNWRExGSzMwc2dHbHJ5dWhtODc3bV9xZ2NLTU5iNGFURHlfMzlQdw?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 10.39
+ },
+ {
+  "ts": "21:22:03",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5adjhRdnNzSmJ5QXByYm5SNEllVmtSWVBBTTZXbXo3R0lXdGFhTjNwT3NOb0RrM2hFSzY5XzQyZ1VOT1oydW9fTGRES1BBSnpNbVJOZg?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 8.3
+ },
+ {
+  "ts": "21:22:12",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOVY2QURTVUw4bGJ6TjJweFY3cElveklvS1BYUEJSazdOVkFWOVhRMDNtRFBHVS1OYWZob0ZZUkhrT2xySkdpVjRYNk1BdE5fVGJTMGpNQXc3azRVUXRGbjh3VFBKU0dPNndlVmtueVl3US1yb3JQX2tQYmk0ZHRBNGM3VDN2Q1NLdk8tNHZ2d1NqM3JrdGhvX05kd2djOHlZOUtuWkQ5T2xpcWtlNHpxUXh5N1JxNEZtSDcwY19nSEVncHJq?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 7.53
+ },
+ {
+  "ts": "21:22:21",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMWlrNG1hYzlybmRDTTRsYVBzNF82cDdPcGM3ZV9fUzU1Rk9HU2tQUnA2WENEank1bzFDNUljOG9YTTAxMkhiVUU2X09IVzJKbklYS2dManBld2pUUzNseTVWeTM0ZFhTN29ETldJZkgzSFpnblVhd3lIaWRxTjVlQ3NIb2VTSEtfVElNcU5BOERCN1R4eEt6ekpXUlFKVEtqcWowM3ZYTGs?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 6.64
+ },
+ {
+  "ts": "21:22:34",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPajZJeG1IcjdHelVjN21obTdmUjBZX1Y0TzNNMUp2MFUzMmxDQnkxNVZHZHN1b0FvZFdHOXotamtLQTNwNE9XVFNHZmo3VmZvQWZHX01lenpka3hWakF2LVJOWHpRQ2I0NVQzUk5yakY5eXpvV2pnaGsxV2lUbW1sNDMxY3JJUVppcDh4dFdFN3lKRHlQOGltQUtYZXRyR1NicHU2QnY0NV9xMjM5ZjlyaVh6OVJjOGdkV1J5c0l2cjBwcVdyMG9EYmpJbHAwQWNuYnJ1b2trUkdSWmlfN3NFYW1fel9BNmE4c3NXS3AtZw?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 11.05
+ },
+ {
+  "ts": "21:22:47",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYktZQkk5TFREeHZ3cFY1aXdqaHFCMXpuSDFJV3RTY0VmeUlRRmJpcWlQX3Z0ZlRJVFpfbjBVOTNYZDZWczJ2TndqQ3NYS1JNR0hLeTBQOExFQ0QxU2dldV9WMm5DUkNMVkkwV1ZLcWE1OTgxZWJrUEtBZ3VTZE5GNXVKeS01ZG5CWUZyRVY5d3VVTkhLVE95MnNOYlZGTUtM?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 11.47
+ },
+ {
+  "ts": "21:22:57",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM0RaVUZUXzNWWHFFcV9nalBUNHltTDNldUhrWVhiSkJQNWhiYUFaSXhoU1JyMWYxUl9udlE3dTdjN2hfWjhVelJnbG5ENmh4bFNNMmlEeUI3WDJYSFpCa0kxRHpBTEMyUzlaTDhHZks1MjFuZWhmVS1WNEczOWRNQUFESzFENGh4VGJkTTI0WkxvQ0R0NnljYmNIN0ZIWmRITTBN?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 7.96
+ },
+ {
+  "ts": "21:23:08",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRWFwbFNtTnpXSEVGQ3NoN2JaMHlCU0pkZFQ4MmlLS3NsRjAwbThodkhwZVpET0lfMzRiUUZVX1hkRlMxRUpyZnloZUJoajFjNmFicWlLaEtkLXBjUUtmTUU1UnZ6NzA5U2V0Z2tVd3E2RkpRS0dVWUswSjM2NGxRaWNWV2kzR05oaUpWeEZB?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 8.24
+ },
+ {
+  "ts": "21:23:17",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRE9DOWJEOGROcjBUbXdVZmZYVVJyRVgxVF9TX3k1TE0tMFNSbktxdWdxWFdCYlF5RTdPMUxQOGZPaXg2RTNsdk1wQ0UtLXdIbjYyNGhDTGU1MDVSSFpKd2RWVThwMUtZUFVvX0twemxfLXp0Mm10dzRWZkJhazBSQlhSNF9uWk80QUFGQ2UyZ2g3dzRs?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 7.69
+ },
+ {
+  "ts": "21:23:28",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZzBINExzZE5UM1E2UGZZZVk3TWhRZ3JpNXA0aXlVOVpUVjNsQmlsMlVyazJWeno0YkZvcDJvcmRocGY2aWtEdU9VbXZUTkJ3UTVRWHdhQ3E2ZUVPVVhmcXZPTjNvbWJ2anRVTDJPVWhuQ2p1aWY1OWJpbzk4VXJuQjROUTN3V2NGMVNHSjFlSW5GdTFIRkRSa29YT0RpTGFnZnhESDlIaG1TTWpBeS1EVEFIR3hJMVlSTUZrTTlB?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 8.5
+ },
+ {
+  "ts": "21:23:41",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVUVOQVVQZHNGSVVkNjQ4NlZoU3dobElwaVZvZHBmS2ZZMUllVG1MRm53RTVXS3hXbWhkN1hSSDk5TXpaaHlOcnVKZWxmTklNN3MwaE9LYWpKU2UyUlBQbkxSNUZQQ2s4TXVLV0VyZnFuUndzVTR4aGZOMDJSSzNxYmpLRThqRkY5c0ZyYVcwWjVRNXBFN3dqM1dGVDVkS2dLMDZOQ1p6RG01QnlZd0g1UmNMcVc3aVlTVUNIUVYwdEctYUFiOVViT0pFVlI?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 10.81
+ },
+ {
+  "ts": "21:23:50",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXJTd3pRUklwbHYwSEZzY2FRc0x3Z29Fak02WEdSbDhqRVVYbUZwS2NqOWtSeFdzZnhRajdncHdLOGZYUi1kMUpwVDlKZEdQdWkzcUJwVm13RWxVX1VVd3lSLVd4dG10dWZfN1NzQ3MwUkw3VlByTkJ4ZTdiSV94NEJDQmVJYnFmdHloUUd4Tjd4UFExZ1g0N0Z5TlJuTjBOUTFPVFUza2JNMDRB?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 7.46
+ },
+ {
+  "ts": "21:24:04",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdGtBd2pmb2ZpMVczaFJUa0ZaZUx5VVptanBnYkdEZEdHMDMtcmpmcHpOZDQ3VUlvbDluOGNMY1N3VjlfLUpTYy1YUzJDSjB1YmR2bVhmbWF4dzRndGNhdXVYaXM4S2sybnFpMDAzdjlTbDlmYllycXMtVnQzbkdCQk5kSlRPbEUteHFKbFZuZnptOG9qYUdJXzZtX3g4U0dna0c1RERYaU50cF9xaTRKWVFDaUNVNkZpVE04WWVuMW1Yb0VuT21LNDdLeWZqSFJqXzI2T1NzM1hhWkxRaTFF?oc=5",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 11.54
+ },
+ {
+  "ts": "21:24:15",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 9.08
+ },
+ {
+  "ts": "21:24:25",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22private%20equity%22%20invests&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 8.69
+ },
+ {
+  "ts": "21:24:37",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20company%20%22names%22%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 9.15
+ },
+ {
+  "ts": "21:24:48",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20acquisition&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 9.81
+ },
+ {
+  "ts": "21:25:00",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22portfolio%20company%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 9.8
+ },
+ {
+  "ts": "21:25:13",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22chief%20financial%20officer%22%20appointed&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 11.28
+ },
+ {
+  "ts": "21:25:26",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22sold%20to%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 10.82
+ },
+ {
+  "ts": "21:25:35",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22private%20equity%22%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 7.01
+ },
+ {
+  "ts": "21:25:46",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20company%20expansion%20headquarters&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 8.72
+ },
+ {
+  "ts": "21:25:59",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22CEO%20retiring%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 10.79
+ },
+ {
+  "ts": "21:26:12",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Miami%22%20%22private%20equity%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 11.46
+ },
+ {
+  "ts": "21:26:24",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Miami%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 9.71
+ },
+ {
+  "ts": "21:26:34",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20succession%20family%20business&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 7.99
+ },
+ {
+  "ts": "21:26:47",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Fort%20Lauderdale%22%20%22private%20equity%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 10.94
+ },
+ {
+  "ts": "21:26:58",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Fort%20Lauderdale%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 8.96
+ },
+ {
+  "ts": "21:27:10",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Miami%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 9.88
+ },
+ {
+  "ts": "21:27:19",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Tampa%22%20%22private%20equity%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 7.05
+ },
+ {
+  "ts": "21:27:32",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Tampa%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 10.83
+ },
+ {
+  "ts": "21:27:42",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Fort%20Lauderdale%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 8.78
+ },
+ {
+  "ts": "21:27:54",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Orlando%22%20%22private%20equity%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 10.05
+ },
+ {
+  "ts": "21:28:37",
+  "practice": "Directory probes",
+  "source": "directory:ACG chapters",
+  "url": "https://www.acg.org/chapters",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.27
+ },
+ {
+  "ts": "21:28:41",
+  "practice": "Directory probes",
+  "source": "directory:Florida DBPR",
+  "url": "https://www.myfloridalicense.com",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.71
+ },
+ {
+  "ts": "21:28:46",
+  "practice": "Directory probes",
+  "source": "directory:Florida Chamber",
+  "url": "https://www.flchamber.com",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.74
+ },
+ {
+  "ts": "21:28:52",
+  "practice": "Directory probes",
+  "source": "directory:SelectFlorida",
+  "url": "https://www.selectflorida.org",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.99
+ },
+ {
+  "ts": "21:28:58",
+  "practice": "Directory probes",
+  "source": "directory:Manufacturers Associ",
+  "url": "https://www.mafmfg.com",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.9
+ },
+ {
+  "ts": "21:29:04",
+  "practice": "Directory probes",
+  "source": "directory:FloridaMakes",
+  "url": "https://www.floridamakes.com",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.74
+ },
+ {
+  "ts": "21:29:09",
+  "practice": "Directory probes",
+  "source": "directory:Florida Trucking Ass",
+  "url": "https://www.fltrucking.org",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.91
+ },
+ {
+  "ts": "21:29:12",
+  "practice": "Directory probes",
+  "source": "directory:LinkedIn Jobs (Flori",
+  "url": "https://www.linkedin.com/jobs/search/?keywords=controller%20OR%20%22director%20of%20operations%22&location=Florida",
+  "outcome": "refused",
+  "kind": "999",
+  "elapsed": 1.82
+ },
+ {
+  "ts": "21:29:17",
+  "practice": "Private Equity",
+  "source": "revenue:hig",
+  "url": "https://avispl.com/about-us/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.53
+ },
+ {
+  "ts": "21:29:21",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/carebox-healthcare-solutions/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.26
+ },
+ {
+  "ts": "21:29:26",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cargotuff/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.4
+ },
+ {
+  "ts": "21:29:30",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/carlton/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.33
+ },
+ {
+  "ts": "21:29:34",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/celerion/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "21:29:38",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/centerfield/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.38
+ },
+ {
+  "ts": "21:29:42",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/centros-unico/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.07
+ },
+ {
+  "ts": "21:29:46",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cgh-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.94
+ },
+ {
+  "ts": "21:29:50",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cha-consulting/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.91
+ },
+ {
+  "ts": "21:29:55",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cincinnati-test-systems/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "21:29:59",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/circle-graphics/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.92
+ },
+ {
+  "ts": "21:30:03",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/classmates/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "21:30:07",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/claymont-steel/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.55
+ },
+ {
+  "ts": "21:30:11",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cleo/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.01
+ },
+ {
+  "ts": "21:30:15",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/click-here-digital/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "21:30:20",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cmgc/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.85
+ },
+ {
+  "ts": "21:30:24",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cohera/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "21:30:28",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/compania-del-tropico/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.27
+ },
+ {
+  "ts": "21:30:32",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/comptia/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "21:30:37",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/comverge/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.4
+ },
+ {
+  "ts": "21:30:41",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/con-forms/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.37
+ },
+ {
+  "ts": "21:30:45",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/concord/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "21:30:49",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/conet/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.38
+ },
+ {
+  "ts": "21:30:53",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/connor-aga-sports-flooring/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "21:30:57",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/constructive-media/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "21:31:01",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/continental-batteries/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.01
+ },
+ {
+  "ts": "21:31:05",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cora-physical-therapy/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.02
+ },
+ {
+  "ts": "21:31:09",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/core-dermatology/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "21:31:14",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/crothall-laundry-services/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.4
+ },
+ {
+  "ts": "21:31:18",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/corelight/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "21:31:22",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/coriant/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.39
+ },
+ {
+  "ts": "21:31:27",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cornerstone-chemical/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.41
+ },
+ {
+  "ts": "21:31:31",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cpower/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.4
+ },
+ {
+  "ts": "21:31:35",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cuyana/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "21:31:39",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/cxtec/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "21:31:43",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/dazpak/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "21:31:47",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/deenova/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.32
+ },
+ {
+  "ts": "21:31:51",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/dent-wizard/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.99
+ },
+ {
+  "ts": "21:31:56",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/ella-resorts/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.5
+ },
+ {
+  "ts": "21:32:00",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/emedicine/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.36
+ },
+ {
+  "ts": "21:32:05",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/empire-today/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.5
+ },
+ {
+  "ts": "21:32:09",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/empower-ai/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.96
+ },
+ {
+  "ts": "21:32:13",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/enseo/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.39
+ },
+ {
+  "ts": "21:32:17",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/epic-production-technologies/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.46
+ },
+ {
+  "ts": "21:32:21",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/eruptr/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.07
+ },
+ {
+  "ts": "21:32:27",
+  "practice": "Private Equity",
+  "source": "test1:hig",
+  "url": "https://eruptr.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.19
+ },
+ {
+  "ts": "21:32:31",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/escalate-media/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.45
+ },
+ {
+  "ts": "21:32:36",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/ethos-care/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.53
+ },
+ {
+  "ts": "21:32:40",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/europa/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.39
+ },
+ {
+  "ts": "21:32:44",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/everlaw/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.1
+ },
+ {
+  "ts": "21:32:48",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/everrise-lift-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.26
+ },
+ {
+  "ts": "21:32:53",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/exceltec/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.3
+ },
+ {
+  "ts": "21:32:57",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/exterior-plus/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.0
+ },
+ {
+  "ts": "21:33:01",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/eysa/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.26
+ },
+ {
+  "ts": "21:33:05",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/family-entertainment-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "21:33:10",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/fanlib/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.86
+ },
+ {
+  "ts": "21:33:14",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/fibercore/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.45
+ },
+ {
+  "ts": "21:33:18",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/fifty5blue/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.91
+ },
+ {
+  "ts": "21:33:22",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/first-capital/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.24
+ },
+ {
+  "ts": "21:33:27",
+  "practice": "Private Equity",
+  "source": "test1:hig",
+  "url": "https://higcapital.br.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.4
+ },
+ {
+  "ts": "21:33:31",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/flight-options/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.45
+ },
+ {
+  "ts": "21:33:36",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/fluo-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.45
+ },
+ {
+  "ts": "21:33:40",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/fnz/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.07
+ },
+ {
+  "ts": "21:33:44",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/formerra/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.04
+ },
+ {
+  "ts": "21:33:48",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/framemax/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "21:33:52",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/funambol/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.44
+ },
+ {
+  "ts": "21:33:56",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/fvo/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.96
+ },
+ {
+  "ts": "21:34:00",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/general-datatech/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.99
+ },
+ {
+  "ts": "21:34:04",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/getixhealth/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.99
+ },
+ {
+  "ts": "21:34:08",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/gld/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.02
+ },
+ {
+  "ts": "21:34:15",
+  "practice": "Private Equity",
+  "source": "test1:hig",
+  "url": "https://www.gld.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 4.58
+ },
+ {
+  "ts": "21:34:19",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/global-elite-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.0
+ },
+ {
+  "ts": "21:34:23",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/gould-lamb/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.37
+ },
+ {
+  "ts": "21:34:27",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/greenflash-infrastructure/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.04
+ },
+ {
+  "ts": "21:34:31",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/groupe-cti/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.0
+ },
+ {
+  "ts": "21:34:35",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/gt-independence/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.01
+ },
+ {
+  "ts": "21:34:39",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/hcs-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.92
+ },
+ {
+  "ts": "21:34:44",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/halexistar/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.69
+ },
+ {
+  "ts": "21:34:48",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/hart-cooley/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.32
+ },
+ {
+  "ts": "21:34:52",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/harvard-drug-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.05
+ },
+ {
+  "ts": "21:34:56",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/health-network-one/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.92
+ },
+ {
+  "ts": "21:35:01",
+  "practice": "Private Equity",
+  "source": "test1:hig",
+  "url": "https://www.healthnetworkone.com",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.7
+ },
+ {
+  "ts": "21:35:05",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/health-e-commerce/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.01
+ },
+ {
+  "ts": "21:35:09",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/heath-company/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.92
+ },
+ {
+  "ts": "21:35:13",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/helpsystems/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.35
+ },
+ {
+  "ts": "21:35:17",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/hfi/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "21:35:21",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/hibu/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.05
+ },
+ {
+  "ts": "21:35:25",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/highbourne-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.96
+ },
+ {
+  "ts": "21:35:30",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/higher-gear-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "21:35:34",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/highridge-medical/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.43
+ },
+ {
+  "ts": "21:35:39",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/hiventy/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.4
+ },
+ {
+  "ts": "21:35:43",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/homewerks/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "21:35:47",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/icg-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "21:35:51",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/idc/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "21:35:55",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/ideal-image/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "21:36:00",
+  "practice": "Private Equity",
+  "source": "test1:hig",
+  "url": "https://www.idealimage.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.87
+ },
+ {
+  "ts": "21:36:04",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/infinigate/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.5
+ },
+ {
+  "ts": "21:36:09",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/infogix/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.39
+ },
+ {
+  "ts": "21:36:13",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/insight-global/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.0
+ },
+ {
+  "ts": "21:36:17",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/integrity-solution-services/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "21:36:21",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/intelius/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.38
+ },
+ {
+  "ts": "21:36:26",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/intellego-education/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.47
+ },
+ {
+  "ts": "21:36:30",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/interdent/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.99
+ },
+ {
+  "ts": "21:36:34",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/international-aerospace-coatings-iac/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.44
+ },
+ {
+  "ts": "21:36:38",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/international-schools-of-europe/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "21:36:43",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/interpath/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.33
+ },
+ {
+  "ts": "21:36:47",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/inventus-power/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.94
+ },
+ {
+  "ts": "21:36:51",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/invoca/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "21:36:55",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/iron-bow/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.38
+ },
+ {
+  "ts": "21:36:59",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/ith-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.92
+ },
+ {
+  "ts": "21:37:03",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/jackson-paper-manufacturing-sustainable-corrugated/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.94
+ },
+ {
+  "ts": "21:37:07",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/johnstown-corporation/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.5
+ },
+ {
+  "ts": "21:37:12",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/j-t-thorpe/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "21:37:16",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/jumpcloud/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "21:37:20",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/just-home-healthcare-services/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.91
+ },
+ {
+  "ts": "21:37:24",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/km2/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.91
+ },
+ {
+  "ts": "21:37:28",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/kondor/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.07
+ },
+ {
+  "ts": "21:37:32",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/koozie-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.54
+ },
+ {
+  "ts": "21:37:36",
+  "practice": "Private Equity",
+  "source": "test1:hig",
+  "url": "https://www.kooziegroup.com",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.89
+ },
+ {
+  "ts": "21:37:40",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/grupo-meridional/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.0
+ },
+ {
+  "ts": "21:37:44",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/l4a/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.0
+ },
+ {
+  "ts": "21:37:49",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/lancope/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.35
+ },
+ {
+  "ts": "21:37:53",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/letstalk-com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.36
+ },
+ {
+  "ts": "21:37:57",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/lg-lugar-de-gente/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.25
+ },
+ {
+  "ts": "21:38:02",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/life-agro/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.41
+ },
+ {
+  "ts": "21:38:06",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/lionbridge/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.96
+ },
+ {
+  "ts": "21:38:10",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/load-one/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.38
+ },
+ {
+  "ts": "21:38:14",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/looping/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.94
+ },
+ {
+  "ts": "21:38:18",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/losberger/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.94
+ },
+ {
+  "ts": "21:38:22",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/lovett-care/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "21:38:26",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/lucas-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.92
+ },
+ {
+  "ts": "21:38:30",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/lulus/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.99
+ },
+ {
+  "ts": "21:38:34",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/magnacare/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.94
+ },
+ {
+  "ts": "21:38:38",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/maillis-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.34
+ },
+ {
+  "ts": "21:38:43",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/mainline/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "21:38:48",
+  "practice": "Private Equity",
+  "source": "test1:hig",
+  "url": "https://www.mainline.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.2
+ },
+ {
+  "ts": "21:38:52",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/matrixx/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "21:38:56",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/medisolve/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.99
+ },
+ {
+  "ts": "21:39:00",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/medusind/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.0
+ },
+ {
+  "ts": "21:39:04",
+  "practice": "Private Equity",
+  "source": "test1:hig",
+  "url": "https://www.medusind.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.36
+ },
+ {
+  "ts": "21:39:09",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/metalprint/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.39
+ },
+ {
+  "ts": "21:39:13",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/meyra-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "21:39:17",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/milestone-technologies-inc/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.01
+ },
+ {
+  "ts": "21:39:21",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/mobile-health/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.5
+ },
+ {
+  "ts": "21:39:25",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/mode/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.96
+ },
+ {
+  "ts": "21:39:29",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/moneysolver/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.36
+ },
+ {
+  "ts": "21:39:34",
+  "practice": "Private Equity",
+  "source": "test1:hig",
+  "url": "https://www.moneysolver.org",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.18
+ },
+ {
+  "ts": "21:39:38",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/msc/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "21:39:41",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/mx/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.96
+ },
+ {
+  "ts": "21:39:46",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/mykaarma/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.02
+ },
+ {
+  "ts": "21:39:49",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/nadir-figueiredo/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.96
+ },
+ {
+  "ts": "21:39:53",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/national-product-services/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "21:39:58",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/naturalia-tantum/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.39
+ }
+]

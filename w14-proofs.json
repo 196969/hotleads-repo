@@ -1,0 +1,43 @@
+{
+ "fault52_third_instance": {
+  "third_instance": "Pepin Distributing (an existing Florida row) arrived as “Another A-B Wholesaler Pepin Distributing”; counted on #52",
+  "planted": {
+   "Another A-B Wholesaler Pepin Distributing": {
+    "after": "Pepin Distributing",
+    "expected": "Pepin Distributing",
+    "pass": true
+   },
+   "South Florida Distributor American Fasteners": {
+    "after": "American Fasteners",
+    "expected": "American Fasteners",
+    "pass": true
+   },
+   "Miami HVAC Distributor AM Distributors": {
+    "after": "AM Distributors",
+    "expected": null,
+    "pass": false
+   },
+   "Venice Window and Door Maker": {
+    "after": null,
+    "expected": null,
+    "pass": true
+   }
+  },
+  "pepin_then_caught_by_test2": [
+   true,
+   "already on file in: florida.html"
+  ],
+  "keep_set": 34,
+  "good_binds_lost": [],
+  "result": "FAILED"
+ },
+ "check_ran_counters": {
+  "planted_run": {
+   "headline precondition": "ran 3 times, stopped 1",
+   "property precondition": "ran 2 times, stopped nothing"
+  },
+  "never_wired_example": "NEVER RAN (0 calls)",
+  "rule": "a check is reported from its own counter in the window record; 0 calls reads “never ran”, calls with 0 stops reads “stopped nothing”",
+  "result": "FAILED"
+ }
+}

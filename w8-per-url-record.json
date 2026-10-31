@@ -1,0 +1,506 @@
+[
+ {
+  "ts": "22:53:49",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Health Net",
+  "url": "https://news.google.com/rss/search?q=%22Health%20Network%20One%22%20employees&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.11
+ },
+ {
+  "ts": "22:53:53",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.41
+ },
+ {
+  "ts": "22:53:57",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGR3MnAyelNFR01sd1VoNWJyUElsNDlSVmctSU4zMEZyUWlPZEJmdlF6SmRMTzV0UWxYeDVLb0V2NDMzbWctdHNzUUVhSWdZRTk3Mks3Qjh2Zkk3SmFkT0Z5U1Q3X2FEWTBhb3dMOVZ1Z1BVWnpCMkFxV0pGeDNvWUEtOWo2ZkVKRFVlV1V5QlJNcmF4b21GbDdzWlRmbDRhOWw4TVFQLUFkTFVnZWNIeHlEeHFaTzBpMkJxdA?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.81
+ },
+ {
+  "ts": "22:54:01",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Health Net",
+  "url": "https://news.google.com/rss/search?q=%22Health%20Network%20One%22%20%22annual%20sales%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "22:54:05",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.2
+ },
+ {
+  "ts": "22:54:09",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Health Net",
+  "url": "https://news.google.com/rss/search?q=%22Health%20Network%20One%22%20growth&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.87
+ },
+ {
+  "ts": "22:54:13",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.25
+ },
+ {
+  "ts": "22:54:18",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbllhODJhclppdnM3ZlNIWmFkNllrZEtUU3VfTVJreDRKQ1NoUVExMmZkLS1QUFVuZWhEUFBoZUxvOUlEQjJQekFteVkyWGhTLUhPZEYyS3oxbHZYRFhZRExJLUpfYndyU3VzenVuVTBfY0VPSktnYTJ2TFByTnpGUjNId04tMUZ0YkZrX3d5Q3UtTUtpLTdSRmpmdXRvTTREX2VBR0hLV29TMy1id0dMZE9BZ1g1X0NJdVE?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.72
+ },
+ {
+  "ts": "22:54:22",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Mainline\" ",
+  "url": "https://news.google.com/rss/search?q=%22Mainline%22%20employees&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "22:54:26",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.22
+ },
+ {
+  "ts": "22:54:30",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONEVxYmRsZ2h3bVIzclYtTERoMTFUSklxaWVNZkR3WFRWbEEtUUpUWmMzS2pSUjFhVGF0N1FPcEw4Q2N3WnQyaFFFTElyQjl3cW9BQ005al92OXJjbXYxbDFtVUV5OHhON3RTZVR3d1diRC1EcmFidXp0THhUOWxHaXg4WXlGUzFNaHlQbGZJZF9reEVSX0ZiSEIzLVBZYzJWWS1nSGszalcwa05ZekNNS1hTbWJWMlhCeTRxR2toT283U0JiTUVtdWRNVXFRaUV4RnAxempPRUdXRndZWnU0WlpDTWJaNjhSNnNucg?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "22:54:34",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Mainline\" ",
+  "url": "https://news.google.com/rss/search?q=%22Mainline%22%20%22annual%20sales%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "22:54:38",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.15
+ },
+ {
+  "ts": "22:54:42",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWVNrYVVUQTc2bmxrQ09ob2pOWVBUQ2d3aXVCU0N6bE5Bc0lrbUg5TFhIWlJPUTVSYlFwa3lTTnlYVFExcm8wT1BxcFpaZVJEUkhURnpfeV9JMlRzUnJVMkE5ZEh3QnAwWnpSUnZBT2pKRWNlRTV3WDE4U2QyeE9wVzBVbHZUd3FKX1VULVZWejlhbHNrN09BdGd3RjNjN1VKdzBzVThiV0cwMEhlcEkycTN1QmIwajdOT1d3N1hadU5VWVp5ckFyRU5tNzlRNmh1bWFXRlRlalFEUQ?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.76
+ },
+ {
+  "ts": "22:54:46",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Mainline\" ",
+  "url": "https://news.google.com/rss/search?q=%22Mainline%22%20growth&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.88
+ },
+ {
+  "ts": "22:54:50",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.38
+ },
+ {
+  "ts": "22:54:54",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbWFlMFREem9OTTlYY1pzWFotSDBteTVtUE1hYkVpeVlSRFRQazU4czl6c0kwLVFuMFczU1BlM1I3M0x4THg3WGNfRGdoTVhRYXZza2RIcU9KcmlqZzJaSnJuUmpSNXptLU9zUm44bnl0YnA4S2h4RGNDTGdxOGxqZXNaM3ZJS29WSk9oTHJyU1RTQmdKZzBrVmNRdUtnLW9SNE9YcDVLMXhwZzZ2?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "22:54:58",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Moneysolve",
+  "url": "https://news.google.com/rss/search?q=%22Moneysolver%22%20employees&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.82
+ },
+ {
+  "ts": "22:55:02",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.38
+ },
+ {
+  "ts": "22:55:06",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Moneysolve",
+  "url": "https://news.google.com/rss/search?q=%22Moneysolver%22%20%22annual%20sales%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.81
+ },
+ {
+  "ts": "22:55:10",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.11
+ },
+ {
+  "ts": "22:55:14",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Moneysolve",
+  "url": "https://news.google.com/rss/search?q=%22Moneysolver%22%20growth&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.81
+ },
+ {
+  "ts": "22:55:18",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.24
+ },
+ {
+  "ts": "22:55:22",
+  "practice": "Revenue class",
+  "source": "revenue:Wikipedia search",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22Alpha%20Foundations%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.02
+ },
+ {
+  "ts": "22:55:27",
+  "practice": "Revenue class",
+  "source": "revenue:Florida Trend search",
+  "url": "https://www.floridatrend.com/search?q=%22Alpha%20Foundations%22",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.64
+ },
+ {
+  "ts": "22:55:32",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://www.floridatrend.com/article/31848/providing-customers-peace-of-mind/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.78
+ },
+ {
+  "ts": "22:55:37",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://www.floridatrend.com/article/31842/best-midsized-companies",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.12
+ },
+ {
+  "ts": "22:55:41",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + reve",
+  "url": "https://news.google.com/rss/search?q=%22Alpha%20Foundations%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.84
+ },
+ {
+  "ts": "22:55:45",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.32
+ },
+ {
+  "ts": "22:55:49",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Alpha Foun",
+  "url": "https://news.google.com/rss/search?q=%22Alpha%20Foundations%22%20employees&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "22:55:53",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.18
+ },
+ {
+  "ts": "22:55:57",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLUlwR0xzX1c5YmE0NDVSVHhYU3hrM0t4eko5RnZ6OENQeXNzZWVKNjlIakN2OFJZQ1FSN3lkdUMtcVVfcE56VUl3V245TW1HbDZDbXVtZFpnYVZLNVBldUwzNTdDUWtRQnJTT2loVDlYOEJwM2RBVWd6STc5ZU8tdWYtY2QxRy0tQTNHZktPcm53V1JKLWdXNzBJaDZzOVFHYVE?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "22:56:01",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Alpha Foun",
+  "url": "https://news.google.com/rss/search?q=%22Alpha%20Foundations%22%20%22annual%20sales%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "22:56:05",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.15
+ },
+ {
+  "ts": "22:56:09",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: \"Alpha Foun",
+  "url": "https://news.google.com/rss/search?q=%22Alpha%20Foundations%22%20growth&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.82
+ },
+ {
+  "ts": "22:56:13",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.39
+ },
+ {
+  "ts": "22:56:17",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20company%20acquired%20-university%20-college%20-pension%20-%22State%20Board%22%20-opinion%20-column&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "22:56:21",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56a2VRRG5vRXRna2FDUWpudE91U2paUDg1S21McXZDV0lCV3dSQ1UxeFlSSVFRT3hHQVlZLXAyOFBraVZGYTZtMlRDRXFtUk9VMm54dTdyNnZKSkJpdWM3UHNrSS1za1RIeDQxQXIyNnpLMDg?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.9
+ },
+ {
+  "ts": "22:56:26",
+  "practice": "Acquisitions",
+  "source": "site:article link",
+  "url": "https://ibmadison.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.47
+ },
+ {
+  "ts": "22:56:30",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ2JSa1I4MkF3QkVPLS11Q1FLMFJMNWpta2JocDdtZFRTOVdqZ1NWNDZKRDVMd0Y0UXVoSmxzcHVzVVExZTZKUS1NalFmSXZVVDFvTVFBUnZEU3pHcHU5NmdxNjRmRUFjMkhUMTJvb3NvZ3FReTJTVE5CVE9RaVRrV0s0b3lKT3lpWDRZT053cWlGVi1zUF9hZWJORWNWNGJaR253UUZZanM2M0I1TWJ6WG9jbXFoYVpHelVhWDJFcnp4LVFJUnRaT000Yw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "22:56:34",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22private%20equity%22%20invests%20-university%20-college%20-pension%20-%22State%20Board%22%20-opinion%20-column&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "22:56:38",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMWZtT3BCYkdqTGdwd1JKQ0p2bVZUSUJxYThiUVhpbXJPT3BPTi1ReFVES3ZoVDB0RndlWl9iTGVham50bk5UZnMwNjJ3UDYwT2dLOWU5Z0dMcHNHRHZnalJsLUpmd093c3FPaE8xYnIycEpFSjVabE1PM0lyZ2J0Q1ZBSXFPSzVqV1E?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.88
+ },
+ {
+  "ts": "22:56:41",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdXJhN0ZtU1B2LU1mcWxKb25jT0ZtcEdLeTR2dVlHckZIZEhWbm1taVk3NG9Ca2dpNjBObUNwQjJNRXZKbDdHRWphYUhDbnMwTE90ODdTMlpnNVlmOHE2N190Y0l6SjMxaHVxMEdTSVBzeFFRS2MydDAtVHBtWTBqTm5uVDR4Zw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.81
+ },
+ {
+  "ts": "22:56:45",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20company%20%22names%22%20CFO%20-university%20-college%20-pension%20-%22State%20Board%22%20-opinion%20-column&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "22:56:50",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcnhGM1FqcC04akpIaVJVZjlwTzZjbk9wRVQzbFdUblp6cTc4eGN5Rk9ic3ZKNGtoUjF1S1NzNGE2LWJNaUFDRVpfUEUxaUZLWGpqeTViR1l4V21CU0FRUUFKekx3REpCZXBPZFRpLXhFR25yTkc5Sk5CX2NScHFleTU5QVJsTkpkdU9yOHNUYjdvZjhfYUQwODZ3emhxY3BVbTY1T09adzBjZURZUlVjUjB1MFg0ZE5BRHpOeXQtamFpUVAzbzRETlRBTGU1dU1aUWc?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.14
+ },
+ {
+  "ts": "22:56:53",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xaDBCM05MTjhUN2c2cURBRFFCeUdCanhUNnVuVV9BTl9DYkJ1VkNydkZ2QVpnM3RldGhKMWFTZ09QT1ZVeEdKRzVQOFMyUjZzQ1JvWFRzNjdtbjZra3Z3bk9HclNCRW9wMEhXYmFScG9LSWxRVWc?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "22:56:57",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20acquisition%20-university%20-college%20-pension%20-%22State%20Board%22%20-opinion%20-column&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.99
+ },
+ {
+  "ts": "22:57:01",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkpuTW9NQS02WkQtbHNDWFBwUFhjTjZhQ3VrMnlGV1lBOHdVemladUU5a1lFelRseFV1UUFEbFduR0dzSGhqSDRvcmN0YUhSWVJkNFo2dlFtTUVSMU15aXNvSkh4c3NEOUdncGpSS1hUUm42QlRXaTdFWkNPeWprTmh3OFkyX3pYamxZVXU0bVVRNGJHbUtRNFFNZmVjbUZPRGc?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.06
+ },
+ {
+  "ts": "22:57:05",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOFFBLWlCSWpqOGsxbXM5djRRV09fVG5DcWduc20xR0lCb2p1ODFETGNxZExnTlExOFZvVjRsM3NxcE1FXzFUWjkxNVJ2aEFwNjFNTmpveUxHR1JaRGxVbDdOWVcyeUtLUmIxLWVBRTlTelp4ellCQnRIdHlJdWRMM2paRjBsaVRGSEhxZUxnLWt1Wm04aGRrMU95LWJOS2pOaFNkUklCaDVNWlk5Qy02WnFRZVFBNXRQcDg4Zw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "22:57:09",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22portfolio%20company%22%20-university%20-college%20-pension%20-%22State%20Board%22%20-opinion%20-column&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.85
+ },
+ {
+  "ts": "22:57:13",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZTJmNnJjNDBqNTBOWU5GSWxWNHRCZWFRSzFtNUM2V0JhYWpUUGpJUnFyWDRic0prYUNuLXRFbFNpNXdOemt5NUNJeXFvWnFSM3Zjb2swTnFabGtyNnlPdTVnSjdUREt2Nk5BYVdHMWdZQmd1ME4wcVV3aEk2R2FiTTNKbFdVLWpfQ24xOHlKaXNteHY0YThjbXhPUk5qQVJCaXlacHVR?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "22:57:17",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUGxiSnQwX2JnTTNDVnZKcWJoRERmTTNRc3ZXUGtwOEFsV1NEYjhYaHc2WlRFOGkwSXBFUkNZNGtoMTZJenJub1BWaERORDU0YlpFWWxybklMc01Wc0FXVWliNW1xMHZuMG8zbG9rZ1BXQ2s0bV9vREZqTU1FOHJjWk1waS1WYkE2SFR5dXo4UzVETGdsbDJEUTdjVXk3Sms5Zm9KWGM4YTVWXzQ?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.76
+ },
+ {
+  "ts": "22:57:20",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22chief%20financial%20officer%22%20appointed%20-university%20-college%20-pension%20-%22State%20Board%22%20-opinion%20-column&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "22:57:24",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMEltSGx4MDFHcDE4RGlZZUc3QmROamJjWldTcVdITU9NQzFOWmpabS05ZWlsTF9DNGg2Qi1jR0JjSlg3WDZDVk1hUGRjcEVHU1gzVzJsaXFUTFB3QVlhbm9YSVFCa1NaVXhIS3k1dE9OSDhUVVB0V1FKZV9qbWpJTjdXX25vR2ZQc3lZNS1JU1VkZHFXeEZ1b0d6akpRWTZLMGxfS0p6Z2otNFl0TTdtMlkxMmo1YVNlbEFiTk5mYlU?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "22:57:29",
+  "practice": "Fractionals",
+  "source": "site:article link",
+  "url": "https://mhs.net/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.75
+ },
+ {
+  "ts": "22:57:33",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORFVWVDBVNEpmR2tZbzk1NWZNUnU3c3NYZXVYZHlKeVhHNXpFeU9hbU1JYnBteFRJUlA4ZllHSFJ1ZWdjdWZXSnA1X3RFc1E4cTI5eW9HM2NFLUx1ZnA5T0dmRnV0dlN4S2lENklWWDVRTmZSb1pPYVBVN3FpUVlNajBqVmFqNXFGWWlCUmxoLTE4RDV6WHFybThvVjlQU2FpcURwVlQwUnl3VlMzN1RIX3lSTHlUb3Exa3VmVEE1eTNtdnNKSlE?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.91
+ }
+]

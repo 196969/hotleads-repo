@@ -1,0 +1,80 @@
+{
+ "classes": [
+  "headline bind / body bind",
+  "agreeing / disagreeing headline and body",
+  "company named but unbound / no company named",
+  "generic phrase / proper name",
+  "acquisition / appointment pattern"
+ ],
+ "cases": [
+  {
+   "case": "headline \"X acquires Y\" with an agreeing body",
+   "state": "bound",
+   "company": "Bayside Marine",
+   "split": null,
+   "derivation": {
+    "pattern": "ACQ: {acquirer} acquires {company}",
+    "span": "Acme Holdings acquires Bayside Marine",
+    "position": "headline"
+   },
+   "pass": true
+  },
+  {
+   "case": "\"Y acquired by X\" and Google News publisher suffix stripped",
+   "state": "bound",
+   "company": "Coral Foods",
+   "split": null,
+   "derivation": {
+    "pattern": "ACQ: {company} acquired by {acquirer}",
+    "span": "Coral Foods acquired by Sunrise Capital",
+    "position": "headline"
+   },
+   "pass": true
+  },
+  {
+   "case": "headline and body bind different names",
+   "state": "bind disputed",
+   "company": null,
+   "split": null,
+   "derivation": null,
+   "pass": true
+  },
+  {
+   "case": "no company anywhere",
+   "state": "unbound",
+   "company": null,
+   "split": "no-company-named (the detector found none)",
+   "derivation": null,
+   "pass": true
+  },
+  {
+   "case": "company named but patterns do not bind",
+   "state": "unbound",
+   "company": null,
+   "split": "headline-unmatched (a company is named; the patterns did not bind it)",
+   "derivation": null,
+   "pass": true
+  },
+  {
+   "case": "generic acquirer phrase never binds as the company",
+   "state": "unbound",
+   "company": null,
+   "split": "no-company-named (the detector found none)",
+   "derivation": null,
+   "pass": true
+  },
+  {
+   "case": "officer appointment binds the company",
+   "state": "bound",
+   "company": "Gulf Coast Logistics",
+   "split": null,
+   "derivation": {
+    "pattern": "FRAC: {company} names/appoints an officer",
+    "span": "Gulf Coast Logistics names Jane Roe as CFO",
+    "position": "headline"
+   },
+   "pass": true
+  }
+ ],
+ "result": "PASSED"
+}

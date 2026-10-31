@@ -1,0 +1,578 @@
+[
+ {
+  "ts": "01:33:06",
+  "practice": "Revenue class",
+  "source": "revenue:Wikipedia search",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22Altitude%20Water%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:10",
+  "practice": "Revenue class",
+  "source": "revenue:Wikipedia search",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22STS%20Aviation%20Group%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:14",
+  "practice": "Revenue class",
+  "source": "revenue:Wikipedia search",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22Marino%20Performance%20Motors%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:18",
+  "practice": "Revenue class",
+  "source": "revenue:Wikipedia search",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22TrakAmerica%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:24",
+  "practice": "Revenue class",
+  "source": "revenue:Florida Trend search",
+  "url": "https://www.floridatrend.com/search?q=%22Altitude%20Water%22",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:28",
+  "practice": "Revenue class",
+  "source": "revenue:Florida Trend search",
+  "url": "https://www.floridatrend.com/search?q=%22STS%20Aviation%20Group%22",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:32",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://www.floridatrend.com/article/28382/stuart-based-solar-and-energy-software-energy-toolbase/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:37",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://www.floridatrend.com/article/27078/florida-pavilion-opens-at-paris-air-show-largest-exhibit-of-any-us-state/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:41",
+  "practice": "Revenue class",
+  "source": "revenue:Florida Trend search",
+  "url": "https://www.floridatrend.com/search?q=%22Marino%20Performance%20Motors%22",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:45",
+  "practice": "Revenue class",
+  "source": "revenue:Florida Trend search",
+  "url": "https://www.floridatrend.com/search?q=%22TrakAmerica%22",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:49",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Altitude%20Water%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:53",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:33:57",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObC1DZFB0UVZiYlZlcFRuZVQyeDVWY2FUSlBhZ09BVDBxMFNDTlZNMEtvV0I2ZjVMbGpOYkRZcEd5YTZFUS04eXM0bUM1elczbHZnVXVGSjN2VWRVblpmenFTUmYzT3FYVzJiSjAycjZyLUdWUHdLVWxSTXdfVkZwWTVXVjRrbWF1QkpiOGpXcnhLR3JDeU0waGlQN183dEZ4WlR2RnUwRFBoN3psRjNXZ1RiMXlsdw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:01",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22STS%20Aviation%20Group%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:05",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:09",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd0VHUGFWRndJRHUtbFVlSW42M2dlZWpLTFFWTnJoSUxWNG1xTzVFaEhKYWZzUHJ4MlU1aHl5WFZIYUNvLVp4QzN1SEZ5bnlPNnNzOEsxTHppUE9waFlMTUFMdkJZc2ZpYnE5Tml0Z3ByMFhicDJNSVN5RTJCV1F5T1hMQ0VrQXNZRWphT0pXc2tNX0tFekFfVXZPdEg?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:13",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Marino%20Performance%20Motors%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:17",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:21",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjNEN1YyM05Gd19zZkR6VTYwZUxtaHZXRlo3MkdqRlVJRzFyamhBb0g3MEZ2MVdIVl92M0RzVDZSUF9tdXpQbjVyS0dnanQ2bklVME1ITUxoaWF4VjhQVlhHOVU3NDZRMnZvOFNURkEwaUlRTzVJVmxkMHdhTTBvYkNZNk0xVDNlVXM3bVBxWWdtTnkxc3Zab2tEZmhNRGpYQTFfX1lUV2xhd1dvV3pKdA?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:25",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22TrakAmerica%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:29",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:33",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcy1oaWlqNFJ3RE1ZODZnR2Z4NG5mVjdxTmNpdjNwQ3ZldWtnSFFoWFg3ZTFCVE1GUzlaTU95V0NQaVM1X05Qc3BSa2RURVRPTFoxVUtZZnhKakFpanNUTnlaNkxQSkdYSU5jYThTclg4NGhGTTN5emIwaGczVldJaXhlWGw5V2dFQU5aT3cxSjZrZWxPSlJKRUFfVk5zQTZPdHprTGQxWUYwblNncTMxLWJpMW1ZVzByblE?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:37",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Altitude%20Water%22%20%22annual%20sales%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:41",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:45",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22STS%20Aviation%20Group%22%20%22annual%20sales%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:49",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:53",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Marino%20Performance%20Motors%22%20%22annual%20sales%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:34:57",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:01",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22TrakAmerica%22%20%22annual%20sales%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:05",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:09",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Altitude%20Water%22%20employees&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:13",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:17",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObC1DZFB0UVZiYlZlcFRuZVQyeDVWY2FUSlBhZ09BVDBxMFNDTlZNMEtvV0I2ZjVMbGpOYkRZcEd5YTZFUS04eXM0bUM1elczbHZnVXVGSjN2VWRVblpmenFTUmYzT3FYVzJiSjAycjZyLUdWUHdLVWxSTXdfVkZwWTVXVjRrbWF1QkpiOGpXcnhLR3JDeU0waGlQN183dEZ4WlR2RnUwRFBoN3psRjNXZ1RiMXlsdw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:21",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22STS%20Aviation%20Group%22%20employees&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:25",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:29",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HRFFWa2xVZndIN2J3Q3k1bXVwNVcwbkh3SnFCczhGVlJDdTBvbURvYlRRb1pZb0dpY0IzOGRxbUtwcEdSVFNHLUJZa2N5MFhONXhQcWhQUFctWllhVnhhVnRrcHJ0N3ozTVVvWkwxT3lidUVx?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:33",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Marino%20Performance%20Motors%22%20employees&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:37",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:41",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjNEN1YyM05Gd19zZkR6VTYwZUxtaHZXRlo3MkdqRlVJRzFyamhBb0g3MEZ2MVdIVl92M0RzVDZSUF9tdXpQbjVyS0dnanQ2bklVME1ITUxoaWF4VjhQVlhHOVU3NDZRMnZvOFNURkEwaUlRTzVJVmxkMHdhTTBvYkNZNk0xVDNlVXM3bVBxWWdtTnkxc3Zab2tEZmhNRGpYQTFfX1lUV2xhd1dvV3pKdA?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:45",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22TrakAmerica%22%20employees&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:49",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:53",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcy1oaWlqNFJ3RE1ZODZnR2Z4NG5mVjdxTmNpdjNwQ3ZldWtnSFFoWFg3ZTFCVE1GUzlaTU95V0NQaVM1X05Qc3BSa2RURVRPTFoxVUtZZnhKakFpanNUTnlaNkxQSkdYSU5jYThTclg4NGhGTTN5emIwaGczVldJaXhlWGw5V2dFQU5aT3cxSjZrZWxPSlJKRUFfVk5zQTZPdHprTGQxWUYwblNncTMxLWJpMW1ZVzByblE?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:35:57",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Altitude%20Water%22%20growth&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:01",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:05",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORDZlYjB0T25mNGpsbDFtbkJVZmJSWGJITXFFTG5sYkJhbG9hLWZGTmVhME5kemJoS0h4b3R1RVNMTWo5VmhmN0ZTNFBRVDE5TFU2M0dvTGlLRmRiMXFfQllaUjRfdUlLcmRpbVJjSTZtdnFtTHFvZW14cnVtaFRBRnpjby00MjBpQ2FoazBkWVVtbVNxbUJnbTVsc0RSbkMyb0xlNUgzTkRCZUtV?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:09",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22STS%20Aviation%20Group%22%20growth&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:13",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:17",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc3I4T0sxaFM3dkR4OS1rRGhEVjdNNldsNERCNUtteTdYRDZSTzhQbGxSR21jZ2JKRzdaMWM2ajFNcVZyUnlvNS1WeWJfYnJLYmdEeWEyX2tITXBLSE81NUNQTTBFdlpIQ3d3Qy1LOVJueWctSDI3cXQ2cnRVaUh2RVdrZHQ5WHdFRkd3?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:20",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Marino%20Performance%20Motors%22%20growth&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:25",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:28",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWWs3UGZ3UHVBTUlvWHppRDVTaTEwaWk3U1Q3VlBiczJpYi1yYVlYRk9hTnJYVXhEMEFMNlZRRDF3cEVLUUFFdkhoNDRoVGh2SDFobHJXaTlPRzc3S0ZrNDJ5dzZKWDRhLXQ1djRvb01uTmVUQTZrcnpNSGhrNnJaQmtnTF9pQjhaTVphQTVkU0FlVVR2SEI3a2ItSnF0azNQVU56S0dGYTNYcTBhQ3RUOUhySkpiRHFkcDVYV0VSakw3anRROU9td2l3bVUwUnhuUXlTTkF3?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:32",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22TrakAmerica%22%20growth&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:36",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:40",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM0dKejB2ay1yRkx5QU1oeFRBakpsVE9USmV3QXh4ODBQRGdLTmpmUHVjZ0xxbTloa1BuN2trQWdTQl9TdUVWVXE3R1Nocm84MjZ4ZlNDeE1MdjRmaTZfOTVCMlA0OXdUa1BaRk82RWkxeHZNVWxET3FoMVZEc1BxZ0E3dzZFNnpiV2I3RHNQN2JrcGNXOTZnWElQeVhlWllOLV9oV3Y3a000Sldua3J4dnJRcw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:44",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Altitude%20Water%22%20%22Inc.%205000%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:48",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:52",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22STS%20Aviation%20Group%22%20%22Inc.%205000%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:36:57",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:37:00",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Marino%20Performance%20Motors%22%20%22Inc.%205000%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:37:05",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:37:09",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22TrakAmerica%22%20%22Inc.%205000%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:37:13",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:37:17",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Tampa%22%20food%20and%20beverage%20company%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:37:21",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ3N1UTl1ZzBrVVU2Z0xmT3EtUm1XY1ZyR1pPbmlpeXlGWmlmek84eV9hakt6NVROYmlRbUhHQ2tDVm53aTNUWW1XLVBBVXZYUzZNMldZMnZXTEo5TEprYjBFOE9UOW82STd1aTNFWVFHOEktc1FMQ1ZFam8wTFBPQ2hIbDZ0Q3NOM2FOaFp4ajczSFJYcnp5bi1wLUdhZ1pvcU1B?oc=5",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "01:37:25",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS2h3dHFMbEprTEJvOWtzTGJibW5xWDhFRldaX2RJS19ValdBZXdfYmZybjJManRGbHlIcVFyMWV2ZGR6c3JwQklYZzlaZXNwWDk0TWI5My1yQlc0TmE5UXNLc3Jid1NRLUk0QXM3TFEzQ19YN1FQSEJVY3pGLUE1ZER3NzU5ckRzSVRfRGhoaw?oc=5",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "01:37:29",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Orlando%22%20food%20and%20beverage%20company%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:37:32",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQklvRndieGFRT3poX0RmMmNYbndKNUQtT2JSazNRT0hOZHhaMHF4eHpmOWR5WHd6ZjdWQ3FOSlRob0VpNXI3Q1FMdEZlUExzT184eGY0ZUJMaVd0TlpFdjBMNWRNWWVOSThnVmJLc1RmM0Z0ZmdMOUl0ZmtmMTEydV95dlJhc3EwM3hoNkw5UE9oTUFIOGNSU2ExYw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:37:35",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.hiltongardeninnorlandoi4milleniablvdmall.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "01:37:37",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.hilton-garden-inn-orlando-i4-millenia-blvd-mall.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "01:37:41",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Jacksonville%22%20food%20and%20beverage%20company%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:37:45",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV2FGOWpiOFdnMXNrT2lMZVhOTTZSTWNUdFEycmFzQkNoM0czZXNrM3ZDTWxDQnItWF85V0VYRmwtcnhZWG55VDlZSXNhS3MxY2I1ajNPUHY1alhtRFpIdUlIUS1oeVFmYjRBdWgxZHdHZnBxTW9PLWtYOU5GeW12cnFoZy1XUXlZRFdPb2ttcy01djZOcW1icktid2VDYkZtbkE?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "01:37:59",
+  "practice": "Acquisitions",
+  "source": "site:article link",
+  "url": "https://hilton.com/",
+  "outcome": "refused",
+  "kind": "403"
+ }
+]

@@ -1,0 +1,760 @@
+{
+ "CLOSE": {
+  "admitted": 0,
+  "running_count_against_100": 0,
+  "confirmed": 0,
+  "wrongness": 1,
+  "reads_spent": "reads spent 102; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)",
+  "held_named": [
+   {
+    "company": "Health Network One",
+    "current_name": null,
+    "practice": "Private Equity",
+    "site": "https://www.healthnetworkone.com",
+    "signal_source": "hig",
+    "revenue_routes_spent": [
+     {
+      "window": 5,
+      "route": "Wikipedia search",
+      "result": "no article matched — not a size reading"
+     },
+     {
+      "window": 5,
+      "route": "Florida Trend search",
+      "result": "articles read; no sentence naming the company with a revenue figure"
+     },
+     {
+      "window": 5,
+      "route": "Google News RSS",
+      "result": "2 items; none with a sentence naming the company and a revenue figure"
+     },
+     {
+      "window": 5,
+      "route": "Inc. 5000 search",
+      "result": "refused (403)"
+     },
+     {
+      "window": 8,
+      "route": "association directories publishing size",
+      "result": "none declared in the Source Directory publishes revenue for members; not read"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"Health Network One\" employees",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"Health Network One\" \"annual sales\"",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"Health Network One\" growth",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 9,
+      "route": "Google News: current name \"Emboss Specialty\" + revenue",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 9,
+      "route": "Wikipedia search: current name",
+      "result": "no article matched — not a size reading"
+     },
+     {
+      "window": 9,
+      "route": "Google News: name + \"Inc. 5000\" (press mention)",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 11,
+      "route": "every free route",
+      "result": "no unspent free route: Wikipedia, Florida Trend’s own search, Google News by name with revenue, employees, annual sales, growth and Inc. 5000 press mention already read (windows five, eight, nine); Inc. 5000 list parked under its code"
+     }
+    ],
+    "window_five_negatives_unrecoverable": true
+   },
+   {
+    "company": "Moneysolver",
+    "current_name": null,
+    "practice": "Private Equity",
+    "site": "https://www.moneysolver.org",
+    "signal_source": "hig",
+    "revenue_routes_spent": [
+     {
+      "window": 5,
+      "route": "Wikipedia search",
+      "result": "no article matched — not a size reading"
+     },
+     {
+      "window": 5,
+      "route": "Florida Trend search",
+      "result": "no article link for the name — not a size reading"
+     },
+     {
+      "window": 5,
+      "route": "Google News RSS",
+      "result": "1 items; none with a sentence naming the company and a revenue figure"
+     },
+     {
+      "window": 5,
+      "route": "Inc. 5000 search",
+      "result": "refused (403)"
+     },
+     {
+      "window": 8,
+      "route": "association directories publishing size",
+      "result": "none declared in the Source Directory publishes revenue for members; not read"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"Moneysolver\" employees",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"Moneysolver\" \"annual sales\"",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"Moneysolver\" growth",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 9,
+      "route": "Google News: name + \"Inc. 5000\" (press mention)",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 9,
+      "route": "Google News: name + \"debt relief\" revenue",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 11,
+      "route": "every free route",
+      "result": "no unspent free route: Wikipedia, Florida Trend’s own search, Google News by name with revenue, employees, annual sales, growth and Inc. 5000 press mention already read (windows five, eight, nine); Inc. 5000 list parked under its code"
+     }
+    ],
+    "window_five_negatives_unrecoverable": true
+   },
+   {
+    "company": "Sts Aviation Group",
+    "current_name": null,
+    "practice": "Private Equity",
+    "site": "https://stsaviationgroup.com/",
+    "signal_source": "hig",
+    "revenue_routes_spent": "NONE — no revenue route has been read for this company",
+    "window_five_negatives_unrecoverable": false
+   },
+   {
+    "company": "Trakamerica",
+    "current_name": null,
+    "practice": "Private Equity",
+    "site": "https://trakamerica.com/",
+    "signal_source": "hig",
+    "revenue_routes_spent": "NONE — no revenue route has been read for this company",
+    "window_five_negatives_unrecoverable": false
+   },
+   {
+    "company": "Alpha Foundations",
+    "current_name": null,
+    "practice": "Acquisitions",
+    "site": "https://www.alphafoundations.com/",
+    "signal_source": "gnews_rss",
+    "revenue_routes_spent": [
+     {
+      "window": 8,
+      "route": "Inc. 5000",
+      "result": "parked (403 ×3, window five) — not read; no size reading"
+     },
+     {
+      "window": 8,
+      "route": "Wikipedia search",
+      "result": "no article matched — not a size reading"
+     },
+     {
+      "window": 8,
+      "route": "Florida Trend search",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 8,
+      "route": "Google News: name + revenue",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"Alpha Foundations\" employees",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"Alpha Foundations\" \"annual sales\"",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"Alpha Foundations\" growth",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 9,
+      "route": "Google News: name + \"Inc. 5000\" (press mention)",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 9,
+      "route": "Google News: acquirer press (Groundworks) + revenue",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 11,
+      "route": "every free route",
+      "result": "no unspent free route: Wikipedia, Florida Trend’s own search, Google News by name with revenue, employees, annual sales, growth and Inc. 5000 press mention already read (windows five, eight, nine); Inc. 5000 list parked under its code"
+     }
+    ],
+    "window_five_negatives_unrecoverable": false
+   },
+   {
+    "company": "American Fasteners",
+    "current_name": null,
+    "practice": "Acquisitions",
+    "site": "https://americanfasteners.com/",
+    "signal_source": "gnews_rss_w7",
+    "revenue_routes_spent": [
+     {
+      "window": 8,
+      "route": "Inc. 5000",
+      "result": "parked (403 ×3, window five) — not read; no size reading"
+     },
+     {
+      "window": 8,
+      "route": "Wikipedia search",
+      "result": "not read: budget"
+     },
+     {
+      "window": 8,
+      "route": "Florida Trend search",
+      "result": "not read: budget"
+     },
+     {
+      "window": 8,
+      "route": "Google News: name + revenue",
+      "result": "not read: budget"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"American Fasteners\" employees",
+      "result": "not read: budget"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"American Fasteners\" \"annual sales\"",
+      "result": "not read: budget"
+     },
+     {
+      "window": 8,
+      "route": "Google News: \"American Fasteners\" growth",
+      "result": "not read: budget"
+     },
+     {
+      "window": 9,
+      "route": "Inc. 5000 list",
+      "result": "parked under its code (403 ×3, window five) — not read; no size reading"
+     },
+     {
+      "window": 9,
+      "route": "Wikipedia search",
+      "result": "no article matched — not a size reading"
+     },
+     {
+      "window": 9,
+      "route": "Florida Trend search",
+      "result": "no item for the name — not a size reading"
+     },
+     {
+      "window": 9,
+      "route": "Google News: name + revenue",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 9,
+      "route": "Google News: name + employees",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 9,
+      "route": "Google News: name + \"annual sales\"",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 9,
+      "route": "Google News: name + growth",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 9,
+      "route": "Google News: name + \"Inc. 5000\" (press mention)",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 11,
+      "route": "every free route",
+      "result": "no unspent free route: Wikipedia, Florida Trend’s own search, Google News by name with revenue, employees, annual sales, growth and Inc. 5000 press mention already read (windows five, eight, nine); Inc. 5000 list parked under its code"
+     }
+    ],
+    "window_five_negatives_unrecoverable": false
+   },
+   {
+    "company": "Memorial Healthcare System",
+    "current_name": null,
+    "practice": "Fractionals",
+    "site": "https://mhs.net/",
+    "signal_source": "gnews_rss_w8",
+    "revenue_routes_spent": "NONE — no revenue route has been read for this company",
+    "window_five_negatives_unrecoverable": false
+   },
+   {
+    "company": "Palm Medical Centers",
+    "current_name": null,
+    "practice": "Fractionals",
+    "site": "https://www.palmmedicalcenters.com/",
+    "signal_source": "gnews_rss_w9",
+    "revenue_routes_spent": [
+     {
+      "window": 11,
+      "route": "Wikipedia search",
+      "result": "no article matched — not a size reading"
+     },
+     {
+      "window": 11,
+      "route": "Florida Trend search",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 11,
+      "route": "Google News: name + revenue",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 11,
+      "route": "Google News: name + \"annual sales\"",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "window": 11,
+      "route": "Google News: name + employees",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     }
+    ],
+    "window_five_negatives_unrecoverable": false
+   },
+   {
+    "company": "Marino Performance Motors",
+    "current_name": null,
+    "practice": "Acquisitions",
+    "site": "https://www.marinoperformancemotors.com/",
+    "signal_source": "gnews_rss_w10",
+    "revenue_routes_spent": "NONE — no revenue route has been read for this company",
+    "window_five_negatives_unrecoverable": false
+   },
+   {
+    "company": "Altitude Water",
+    "current_name": null,
+    "practice": "Fractionals",
+    "site": "https://altitudewaterusa.com/",
+    "signal_source": "gnews_rss_w12",
+    "revenue_routes_spent": "NONE — no revenue route has been read for this company",
+    "window_five_negatives_unrecoverable": false
+   }
+  ]
+ },
+ "proofs": {
+  "fault_56": {
+   "revised": "first form read every bare 1–4 capital run as an abbreviation and would have lost CRWF and HCA, good names; revised: a dotted abbreviation, a parenthesised capital run, or a bare capital run only where the headline carries it in parentheses (a ticker)",
+   "planted": {
+    "S.E": true,
+    "ROAD": true,
+    "(ROAD)": true,
+    "U.S.": true,
+    "HCA": false,
+    "CRWF": false,
+    "American Fasteners": false,
+    "MaxHealth": false,
+    "SeaWorld": false
+   },
+   "keep_set": 36,
+   "good_binds_lost": [],
+   "classes": [
+    "dotted abbreviation / parenthesised ticker / ticker repeated bare",
+    "all-capitals proper name (CRWF, HCA) / mixed-case name"
+   ],
+   "result": "PASSED"
+  },
+  "fault_57": {
+   "stop_set": [
+    {
+     "span": "InterContinental Miami",
+     "asset": false,
+     "test": null
+    },
+    {
+     "span": "Westshore Grand Hotel",
+     "asset": true,
+     "test": "(c) head noun is a building or land type: Hotel"
+    },
+    {
+     "span": "Naples Bay Resort & Marina",
+     "asset": true,
+     "test": "(c) head noun is a building or land type: Marina"
+    },
+    {
+     "span": "200-Unit Pensacola Apartment Community",
+     "asset": true,
+     "test": "(a) carries a measure"
+    },
+    {
+     "span": "Orlando industrial portfolio",
+     "asset": true,
+     "test": "(b) no proper-name core once places and lower-case words are removed"
+    },
+    {
+     "span": "226,500 SF Flex Development",
+     "asset": true,
+     "test": "(a) carries a measure"
+    },
+    {
+     "span": "538,000-Square-Foot Jacksonville Industrial Park",
+     "asset": true,
+     "test": "(a) carries a measure"
+    }
+   ],
+   "stopped": "6 of 7",
+   "keep_set": 29,
+   "good_binds_lost": [],
+   "threshold": "zero good binds lost (ruled)",
+   "result": "PASSED"
+  }
+ },
+ "refused_queue": [
+  {
+   "company": "Oasis",
+   "tried": [
+    {
+     "host": "https://www.oasis.com/",
+     "outcome": "refused again (403)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "Orius Corp",
+   "tried": [
+    {
+     "host": "https://www.orius.com/",
+     "outcome": "refused again (503)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "Jack Brown’s",
+   "tried": [
+    {
+     "host": "https://www.jackbrowns.com/",
+     "outcome": "refused again (challenge)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "Havoc",
+   "tried": [
+    {
+     "host": "https://www.havoc.com/",
+     "outcome": "refused again (challenge)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "MaxHealth",
+   "tried": [
+    {
+     "host": "https://www.maxhealth.com/",
+     "outcome": "refused again (503)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "ODC Construction",
+   "tried": [
+    {
+     "host": "https://www.odcconstruction.com/",
+     "outcome": "refused again (503)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "O&A Landscaping",
+   "tried": [
+    {
+     "host": "https://www.oalandscaping.com/",
+     "outcome": "refused again (503)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "Palm Beach Gardens Medical Center",
+   "tried": [
+    {
+     "host": "https://palmbeachhealthnetwork.com/",
+     "outcome": "refused again (403)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "InterContinental Miami",
+   "result": "not re-run: fails the name or asset test (faults 52, 57)"
+  },
+  {
+   "company": "Westshore Grand Hotel",
+   "result": "not re-run: fails the name or asset test (faults 52, 57)"
+  },
+  {
+   "company": "Marino Performance Motors",
+   "tried": [
+    {
+     "host": "https://www.marinoperformancemotors.com/",
+     "outcome": "proved"
+    }
+   ],
+   "status": "re-run window thirteen: site proved; passes tests 1, 2 and 5; held size-unsourced"
+  },
+  {
+   "company": "200-Unit Pensacola Apartment Community",
+   "result": "not re-run: fails the name or asset test (faults 52, 57)"
+  },
+  {
+   "company": "St. Mary’s Medical Center",
+   "tried": [
+    {
+     "host": "https://stmarysmc.com/",
+     "outcome": "refused again (403)"
+    },
+    {
+     "host": "https://www.stmarysmedicalcenter.com/",
+     "outcome": "refused again (challenge)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "Florida Digestive Health Specialists",
+   "tried": [
+    {
+     "host": "https://fdhs.com/",
+     "outcome": "refused again (challenge)"
+    },
+    {
+     "host": "https://www.floridadigestivehealthspecialists.com/",
+     "outcome": "refused again (challenge)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "Door Maker",
+   "result": "not re-run: fails the name or asset test (faults 52, 57)"
+  },
+  {
+   "company": "Fort Myers",
+   "result": "not re-run: fails the name or asset test (faults 52, 57)"
+  },
+  {
+   "company": "Lakeland Dairies",
+   "tried": [
+    {
+     "host": "https://www.lakelanddairies.com/",
+     "outcome": "refused again (503)"
+    },
+    {
+     "host": "https://www.lakeland-dairies.com/",
+     "outcome": "refused again (503)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  },
+  {
+   "company": "HCA FLORIDA WOODMONT HOSPITAL",
+   "tried": [
+    {
+     "host": "https://www.hcafloridawoodmonthospital.com/",
+     "outcome": "refused again (503)"
+    }
+   ],
+   "status": "refused again on every route (window thirteen) — re-runnable, not an absence"
+  }
+ ],
+ "discovery": {
+  "articles_read": 14,
+  "carrying_a_dated_florida_signal": 8,
+  "reaching_binding": 8,
+  "site_by_article_link": 0,
+  "site_by_derived_host": 0,
+  "no_site_by_any_route": 2,
+  "refused_re_runnable": 0,
+  "precondition_stopped": 9,
+  "halts": [
+   {
+    "queue": "Google News discovery",
+    "reason": "UNBOUND STOP: 4 unbound of 8 processed",
+    "continued_with": "the Source Directory remainder"
+   }
+  ],
+  "routes": [
+   {
+    "company": "Another A-B Wholesaler Pepin Distributing",
+    "tried": [
+     {
+      "route": "article link",
+      "host": "https://pepindistributing.com/",
+      "outcome": "resolved but failed the proof"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.anotherabwholesalerpepindistributing.com/",
+      "outcome": "did not resolve"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.another-ab-wholesaler-pepin-distributing.com/",
+      "outcome": "did not resolve"
+     }
+    ]
+   },
+   {
+    "company": "Hotel Maren Fort Lauderdale",
+    "tried": [
+     {
+      "route": "derived host",
+      "host": "https://www.hotelmarenfortlauderdale.com/",
+      "outcome": "did not resolve"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.hotel-maren-fort-lauderdale.com/",
+      "outcome": "did not resolve"
+     }
+    ]
+   }
+  ],
+  "cleanup": [
+   {
+    "bound": "Miami HVAC Distributor AM Distributors",
+    "note": "a description ending in a role noun, not a name"
+   }
+  ]
+ },
+ "hig": {
+  "entries": 38,
+  "florida": 6,
+  "test1_pass": 1,
+  "no_site": 3
+ },
+ "faults": [
+  {
+   "fault": 56,
+   "line": "an abbreviation or a ticker is not a name",
+   "note": "“S.E” bound from “Construction Partners (ROAD).”; repaired: a dotted abbreviation, a parenthesised capital run, or a bare capital run the headline carries in parentheses. The first form would have lost CRWF and HCA (good names); revised before it ran; 36 good binds kept"
+  },
+  {
+   "fault": 57,
+   "line": "a closed list where an open test was needed lags the next word",
+   "note": "the property word list missed “portfolio”; re-stated as a test: a measure, no proper-name core, or a building head noun ((c) is still a list, stated). Stops 6 of 7 asset spans; 29 good binds kept; InterContinental Miami remains its stated limit"
+  },
+  {
+   "fault": 58,
+   "line": "a check reported as running must be shown to have run",
+   "note": "the property precondition was never wired into windows eleven, twelve or thirteen: the window-eleven edit’s anchor did not match and the script ran without it. Window eleven reported “it stopped none because no property headline came up” and window twelve reported “portfolio got past the property precondition” — both readings of a check that did not exist. The register’s fault #8 class (an import that parsed and never ran), arriving in a report. This window the open test ran only at the bind, after the read, so asset articles cost reads; “Hotel Maren Fort Lauderdale” passed it (a building noun at the front, not the head)"
+  }
+ ],
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window thirteen ruling: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window thirteen delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "window": {
+  "launch_utc": "2026-10-31T01:19:05.432602+00:00",
+  "run_end_utc": "2026-10-31T01:27:45.979211+00:00"
+ },
+ "instruments": "no page changed",
+ "reversal": "naming9.py and window13.py new; window-scoped files",
+ "changed_files": {
+  "naming9.py": {
+   "bytes": 2321,
+   "blob": "4f118e2d4b",
+   "sha256": "d510c05bcf47c0fc"
+  },
+  "window13.py": {
+   "bytes": 27441,
+   "blob": "9d7ea57aa2",
+   "sha256": "0225c3cc2cd3c3f9"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 821902,
+   "blob": "006b9d6c58",
+   "sha256": "75febbcc7f65ef74"
+  },
+  "florida100-window13-log.jsonl": {
+   "bytes": 30696,
+   "blob": "12a6d28bc6",
+   "sha256": "350ae2b9adf12a97"
+  },
+  "bot-config.json": {
+   "bytes": 1436,
+   "blob": "3aaca642a4",
+   "sha256": "539a2c7cd464c7ee"
+  },
+  "founders-roster.json": {
+   "bytes": 48673,
+   "blob": "8adf4c29f9",
+   "sha256": "c8a9363acc17f600"
+  }
+ }
+}

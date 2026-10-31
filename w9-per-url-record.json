@@ -1,0 +1,812 @@
+[
+ {
+  "ts": "23:17:14",
+  "practice": "Revenue class",
+  "source": "revenue:Wikipedia search",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22American%20Fasteners%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.31
+ },
+ {
+  "ts": "23:17:19",
+  "practice": "Revenue class",
+  "source": "revenue:Florida Trend search",
+  "url": "https://www.floridatrend.com/search?q=%22American%20Fasteners%22",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.13
+ },
+ {
+  "ts": "23:17:23",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + reve",
+  "url": "https://news.google.com/rss/search?q=%22American%20Fasteners%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.84
+ },
+ {
+  "ts": "23:17:27",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.13
+ },
+ {
+  "ts": "23:17:31",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVEQ5NS1ETm01MnJRc0tQZ2gwVkZndDRjc255TlJReWJSWm1aWm9Vam1OY1ZfOHRfMEpRMHpaZl9aTjZ5b1lrcU1PQ2tJeG5mNmZBbVNQaTZ1WHNIWXZDamQxLUVuYWVpZGNyWVE4SjhMSVBFWnFsLTVPREJuT01Ka2VqOVAtblhrd3VoYVFjazYwdXpNNzNXRlU3ajlEb3NtblFUdk5hRENIdVlSLU02RHJ1SlBNYWpPb3c?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.04
+ },
+ {
+  "ts": "23:17:35",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + empl",
+  "url": "https://news.google.com/rss/search?q=%22American%20Fasteners%22%20employees&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "23:17:39",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.26
+ },
+ {
+  "ts": "23:17:43",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRk5jR2pLSkJnM0FzVW9hVmVmQU9oLWcwWnJnbEVuMHlJVmU5SnhrY284OXlqY1VxS1FhUUpCODhtNWM2YkhzYnVDWmQyMFRqc2Z3M1BEbEVYSjc4SXBUZTJPUnRkSEVJX0x3WWFqMHlFQjlDN1BoRGphZFFCWVlXTExIY2NYMTRtOUhwMmNoM1dCUjNKZmx4QzNHUExBdjV3VG5EUlR4bzhrLUswZFdRQS1lZnI0RkVGbWNNX1l1NnB2YVhIaDNYYllJX2hsRm9r?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "23:17:47",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + \"ann",
+  "url": "https://news.google.com/rss/search?q=%22American%20Fasteners%22%20%22annual%20sales%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.85
+ },
+ {
+  "ts": "23:17:51",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.49
+ },
+ {
+  "ts": "23:17:56",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUDlycWJRZ0RzZEJfd3FobzhqV1BIVzZGUmRaLWhHZXlfUUxhM3VoTGtBV1hzQTNlNDNSbU52U2NVcU5zSGtOOUxkbGU5bEt0aUlzLTRlZGRPS2gwemEyY1F4RkZ4Z1N5TEVpaGNnT0g2Qk15TmlSZm5KTmZYSTVxY0ZVWEw2U25HMHU0dW9vcmJISjRySzJr?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.54
+ },
+ {
+  "ts": "23:18:00",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + grow",
+  "url": "https://news.google.com/rss/search?q=%22American%20Fasteners%22%20growth&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "23:18:04",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.35
+ },
+ {
+  "ts": "23:18:08",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUDlycWJRZ0RzZEJfd3FobzhqV1BIVzZGUmRaLWhHZXlfUUxhM3VoTGtBV1hzQTNlNDNSbU52U2NVcU5zSGtOOUxkbGU5bEt0aUlzLTRlZGRPS2gwemEyY1F4RkZ4Z1N5TEVpaGNnT0g2Qk15TmlSZm5KTmZYSTVxY0ZVWEw2U25HMHU0dW9vcmJISjRySzJr?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "23:18:12",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + \"Inc",
+  "url": "https://news.google.com/rss/search?q=%22American%20Fasteners%22%20%22Inc.%205000%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.85
+ },
+ {
+  "ts": "23:18:16",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.31
+ },
+ {
+  "ts": "23:18:20",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: current nam",
+  "url": "https://news.google.com/rss/search?q=%22Emboss%20Specialty%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.84
+ },
+ {
+  "ts": "23:18:24",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.21
+ },
+ {
+  "ts": "23:18:28",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeml2S2R6ZzRuekJQTUk5dThRUFQxUTlMTW9nQ00waHBCbjZYcWxiaEpFd3FCTGdYZk9DbjNSR2UwTlc1SEFPWHVMRGhfeThXbjkzcTFDcGdRS3lnd1laRXd2VWgxcGdjRVN3aVYzLXBxZHYwb2ZBdzA2Tm1uYnRHd0lkWXo0V3pMTTlBNEpNX2MzNExEeW1oTEl3?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.1
+ },
+ {
+  "ts": "23:18:32",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: full name \"",
+  "url": "https://news.google.com/rss/search?q=%22Mainline%20Information%20Systems%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.84
+ },
+ {
+  "ts": "23:18:36",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.12
+ },
+ {
+  "ts": "23:18:40",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTHpoVnRaM19Rd3FZeVFlT1lsV29ZV2FEU3RrSjFnX0RRaGc1YlVsM2gzMUtoNU04NWZUcEw2YkxhUXBTQUNxclNmdzVyR1ZEX2xpU2V6R0FONVVtaDFMdlR3c2stWGM5YnlkaUZNRU5zT214a29udElocnRfbE8xZzlqRWd6bzF3ZEJOeVlpUnh0czAxdWxXNVdQMFM3T0pOU1BYUlRjTHF0UnU3ckJIejFn?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "23:18:44",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + \"Inc",
+  "url": "https://news.google.com/rss/search?q=%22MoneySolver%22%20%22Inc.%205000%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "23:18:48",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.27
+ },
+ {
+  "ts": "23:18:52",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + \"Inc",
+  "url": "https://news.google.com/rss/search?q=%22Alpha%20Foundations%22%20%22Inc.%205000%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.85
+ },
+ {
+  "ts": "23:18:56",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.21
+ },
+ {
+  "ts": "23:19:00",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXJTd3pRUklwbHYwSEZzY2FRc0x3Z29Fak02WEdSbDhqRVVYbUZwS2NqOWtSeFdzZnhRajdncHdLOGZYUi1kMUpwVDlKZEdQdWkzcUJwVm13RWxVX1VVd3lSLVd4dG10dWZfN1NzQ3MwUkw3VlByTkJ4ZTdiSV94NEJDQmVJYnFmdHloUUd4Tjd4UFExZ1g0N0Z5TlJuTjBOUTFPVFUza2JNMDRB?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "23:19:04",
+  "practice": "Revenue class",
+  "source": "revenue:Wikipedia search: curren",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22Emboss%20Specialty%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.15
+ },
+ {
+  "ts": "23:19:08",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: full name +",
+  "url": "https://news.google.com/rss/search?q=%22Mainline%20Information%20Systems%22%20%22Inc.%205000%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.84
+ },
+ {
+  "ts": "23:19:12",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.11
+ },
+ {
+  "ts": "23:19:16",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + \"deb",
+  "url": "https://news.google.com/rss/search?q=%22MoneySolver%22%20%22debt%20relief%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "23:19:20",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.18
+ },
+ {
+  "ts": "23:19:24",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: acquirer pr",
+  "url": "https://news.google.com/rss/search?q=Groundworks%20%22Alpha%20Foundations%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "23:19:29",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.35
+ },
+ {
+  "ts": "23:19:32",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXJTd3pRUklwbHYwSEZzY2FRc0x3Z29Fak02WEdSbDhqRVVYbUZwS2NqOWtSeFdzZnhRajdncHdLOGZYUi1kMUpwVDlKZEdQdWkzcUJwVm13RWxVX1VVd3lSLVd4dG10dWZfN1NzQ3MwUkw3VlByTkJ4ZTdiSV94NEJDQmVJYnFmdHloUUd4Tjd4UFExZ1g0N0Z5TlJuTjBOUTFPVFUza2JNMDRB?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "23:19:36",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + \"Inc",
+  "url": "https://news.google.com/rss/search?q=%22Health%20Network%20One%22%20%22Inc.%205000%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.89
+ },
+ {
+  "ts": "23:19:41",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.28
+ },
+ {
+  "ts": "23:19:45",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQjFfYzBGR0U1NERUazNGdHNTX2oxR2IyT2hTV2M0ZzV2Y0VKRWJkZzA1alJSQ1hxVWYtSElQLTVyODROd1A4bDhiVnV6TlpoRkVnVWhDNldmV0t5dHB1YlBDYUs1ZndHaW5hcXQyUWlEYXUyUnV5QzVGN2JOb2Vid2RDQnU5NFB5dDljY0lFVW5qTHRwa3ltbDg0NUtxZkxqcGxHM0VR?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.81
+ },
+ {
+  "ts": "23:19:49",
+  "practice": "Revenue class",
+  "source": "revenue:Florida Trend search: fu",
+  "url": "https://www.floridatrend.com/search?q=%22Mainline%20Information%20Systems%22",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.85
+ },
+ {
+  "ts": "23:19:54",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://www.floridatrend.com/article/5253/trendsetters-best-companies/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.91
+ },
+ {
+  "ts": "23:19:59",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://www.floridatrend.com/article/12626/around-the-state-northwest-july-2002/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.83
+ },
+ {
+  "ts": "23:20:04",
+  "practice": "Fractionals",
+  "source": "ownership:memorial",
+  "url": "https://mhs.net/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "23:20:08",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "23:20:11",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ2JSa1I4MkF3QkVPLS11Q1FLMFJMNWpta2JocDdtZFRTOVdqZ1NWNDZKRDVMd0Y0UXVoSmxzcHVzVVExZTZKUS1NalFmSXZVVDFvTVFBUnZEU3pHcHU5NmdxNjRmRUFjMkhUMTJvb3NvZ3FReTJTVE5CVE9RaVRrV0s0b3lKT3lpWDRZT053cWlGVi1zUF9hZWJORWNWNGJaR253UUZZanM2M0I1TWJ6WG9jbXFoYVpHelVhWDJFcnp4LVFJUnRaT000Yw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "23:20:15",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMWRYVTNmQnZqRWRRQkZRcmJDRjVJMkY2TjNSaHJnYTR1a3RlajNfZ0RXUW0tTUZyeFk1UXk4bUg1OExmWEFNZHh3c0RIaTEtbWYzeFZ1cUgxZHhvNC1qYTR0bDBqd0hrd1M5Qm12TER3aGVIVnlLaFZ4U05ZalFEOVBoZkFBOG0xaFYwT3RmaFppeFZ2VnFpdDlvMGdKOXpIcS11TVBVOVZEbXM?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "23:20:19",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22private%20equity%22%20invests&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "23:20:23",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTzZhTW5ZYXFUQ3huQ0NIV2tjR3J0RGtJVk1HUVF3cFBTemtKME9fOE1oSklxMVRkUHFWWWpRaVZNWW4zYXVnaFpzbV93c3RQSDhaNW9wcTV2Z1pzNjI4RjJfQ0lpVWFRS2VYRWhZbnBOeWtGSnNBaktJbVJPN01SYS1zN2lFMkY0NHRfUGtaOVVBUTZncmJZVTNlVG82SmpOWmh6R0Y0b0YwZmhVNTRfWXhBMEJtYUg1VzVZUDVRLWlRZjdCMU5uODR5N3I?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "23:20:27",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSGNlU1pMZHg2QW0wRWtsUzgyalVfN2J2X3BvSkRscldYdnBsWklMbjgyX1RIUFI1MkFzbzQwdFllWm13Z2dOQ3czUUVEUzFkQlVyMTRiTjYwQ0RLWmVGdG9aUVlkM28wTnVVTUFrbmhhY3UyWl9rNmV6TVRBNTlaNEk3dkJ6eUgzQmRPaTd5N2NUaG9iczBmSV9GSFhIR2NseDZickJTWEZrNXNTS2t3V3htSlpVMjZmSDlCTHlwaw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "23:20:30",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20company%20%22names%22%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.87
+ },
+ {
+  "ts": "23:20:34",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeDV6U1lkd2o5d2tGcXRPVEItWml4SDVqcFdBR3o4WWM2cDdla2VOdzJHemRROE5lb1pXYWN1aTg0M1FmeXhwdlNKTkZHd2pnaWFCanM1bGlsYlI2QjBYYzZqUENUejRzajNsTU9raEs2c21BajBXNWRwaGN5VHJGWHJ6ZVJYQ2tFUVZpVW85Wng3d0N4MlZ1NjZ0Y0ctZw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "23:20:38",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1hkeUtURG5pd3o5eFZJVmNxVTUxcEU2bjVfUXZvNUxIMVZ1ZENiTDUwNGoyZkZueWcyNUp6Yjdmb29jN0lPNmV6c3RueTZnUW9JVm5ybjNjdFBlZ0EzYk5KS3k4WFRfVWlCUlhoVjFLWlhsdy1lYmJ3aFVlSWdXVnBjZzhmbmxOZlZ1WFdxOWVfdGZyQXpmcnlRZmVZTEJzS29qRjhWUkF6Y1RyNWtv?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "23:20:43",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.palmmedicalcenters.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.43
+ },
+ {
+  "ts": "23:20:46",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20acquisition&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.85
+ },
+ {
+  "ts": "23:20:50",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOFFBLWlCSWpqOGsxbXM5djRRV09fVG5DcWduc20xR0lCb2p1ODFETGNxZExnTlExOFZvVjRsM3NxcE1FXzFUWjkxNVJ2aEFwNjFNTmpveUxHR1JaRGxVbDdOWVcyeUtLUmIxLWVBRTlTelp4ellCQnRIdHlJdWRMM2paRjBsaVRGSEhxZUxnLWt1Wm04aGRrMU95LWJOS2pOaFNkUklCaDVNWlk5Qy02WnFRZVFBNXRQcDg4Zw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "23:20:54",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVUJPMVJpZkRhbTNKdzduYmd1ZXV1RktweGRRcnRvX1B6R2xaVnVjYUZEN21iTWVsMUJJUDdlNm1fVVJJVU9GTVh3dVBKbmFUbXU3ckFWWkM2eXlEa1pFYy1aaHhHdzBXMDZSMGIybnNqNDhrQmt4TjRGbjRyVXh4NHhTeVl4R3ppRUFYTm1SZ3YyUnM4dlBuemZsNmhTYXk0bElqNzc3WnE?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.18
+ },
+ {
+  "ts": "23:20:58",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22portfolio%20company%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.92
+ },
+ {
+  "ts": "23:21:02",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZTJmNnJjNDBqNTBOWU5GSWxWNHRCZWFRSzFtNUM2V0JhYWpUUGpJUnFyWDRic0prYUNuLXRFbFNpNXdOemt5NUNJeXFvWnFSM3Zjb2swTnFabGtyNnlPdTVnSjdUREt2Nk5BYVdHMWdZQmd1ME4wcVV3aEk2R2FiTTNKbFdVLWpfQ24xOHlKaXNteHY0YThjbXhPUk5qQVJCaXlacHVR?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.85
+ },
+ {
+  "ts": "23:21:06",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUGFyTm1uWXFhdzJYZ19IRkI5dlk4bnA2ckZsVkdVdkdkUFhOekJmODBPS0QySnY2ZU54WWxXRDdWdktOZDNVajJiVkdRVDRfNFlvS0ZDeFRHQU9FYTZORWkySVMzRlF3UlpKLVM4U3dMTDBxc0JhOUE2YXRsUFZNbHVIaW9sMGNRckdSaV80S0lSRzlSb3puYXlfMktXeWRNMG1FR3Y0V0dMbXRDY284SFBqZDFFX00?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 1.94
+ },
+ {
+  "ts": "23:21:10",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22chief%20financial%20officer%22%20appointed&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.04
+ },
+ {
+  "ts": "23:21:16",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbWhtbExxZFVwTTVVelFtRUNxTVlRZXBackNhV1J1Y1JZcm9IOHVFMGZPLUtqT2VSV1RGNUZ1WVhPZVp4aURGUG9OUG1Hb1VtNnVMOFd2YXR1ZXpaUHBmYjlIT3RteGJOOTRPT3NVUWlma2RTb0RjQk4yYkNaM0J3akRLQml6RHJNR2FEazk2d3lJaU5TaENzU096dG80YVIxc3ZoblBEbnh3VXdhLWlGSktIZlRjYkUySXc?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 3.76
+ },
+ {
+  "ts": "23:21:21",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPd0dvUldDRXBEQzlLZmJwR1h2VjNhRGk5RG9mMHQteWNRVkJwbW5MRTFwemFCeTZWeC02dGh4Rnk4b1RkT3JWaUNfeEs2eDRHaGIycVhRUWxJcXVRakd3RWt4bmt0dnRqSjdUZFVWZ0xzbXJLb01vOGJqX0lmWWwwWXdvLV9YSTNWV1F4VWNTZldrRmVLS28ya1o4TlFhVi0xVmdsclRIc2drZi1IVXc0Mi1DdkVvNlE1c09XcV9JWHU?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 3.38
+ },
+ {
+  "ts": "23:21:26",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22sold%20to%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.64
+ },
+ {
+  "ts": "23:21:30",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeEl2Qk9GR015MHROOXFEUXliZkFKTHRJTVI4bHJrb05XOXJKR2hxNnQtWUp6WFlSOGYxbGpZYlZPbndpZGEzOHllbUFDOTNRV01fdGlZYVhvNldMUWxGcEtvVVN0ODlZdFNyOTVHRDktbldyY2lPRXB4d0xFaUdNMTczS2JZWURhbHQ5X3V3Szh0QXdEQ2t5YnN30gGuAUFVX3lxTE56SF9wSkN2b1VhbkZGNk5KNUpVM1lLNkdZUEJoeE15SzcwU25xTGpibW9FTmNRVHp6R0xwRWxFT0lxWXpmaWpyaFlzZVNzaEdlU1dyV1VpSk9yUjVRSzRuUlB1elVhQXF3azdqRjFxaTlKT0dNeXhGcVROb2JLbXRwSW5fWnNGS3dnM1lKV3RLYWdPM0QtYm9VeElENnZjNnNMQ2xwSGFhU1huNExsQQ?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.39
+ },
+ {
+  "ts": "23:21:34",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNDBrR194V3BMNm5nQy1ieUJlSXBzaThJV0hSRE41Rjl1UTQ5R0JaU01ndVpZRGVZZEJRYktXTWd6LXFGY3RSaFotTlpkb2ZIRmM3X0M1WE80TWVoeE4wQzVORWNDTEp5bmFlb0ExNGNWTDZ4VG9tMXRtVFFSSzlOSmo5aXluUTJoVDhNM040X3JiV2JsNkdtZGRwV19oMm9fMUxRbmdIQ3lZSkJjNktoeFFyYTh3Wmh6RS1oeE0tM2xod2xSWHNsUlg3eUpycTFCcGdtQWZ6MkZwLUdDbUZ3T1VWRGVrbXN4X1ZEWXFWeXA?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.76
+ },
+ {
+  "ts": "23:21:39",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.zonarosa.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.88
+ },
+ {
+  "ts": "23:21:43",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22private%20equity%22%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.06
+ },
+ {
+  "ts": "23:21:47",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcW8tamJvWHdpSVYyUkFwSk5pMzZ3VnlPb3R3WXg5RmNNbG1Kc0lob0ZpTHoyeEM3dkVZbV9hTTcwWFVhSXJMZ0tmelBNVVNxY0VwUU5jOF9MUVRGblZVdTJ6NEl0cTBRdXlkbVItbnA3SWs0cWhWMXB0WmNtclM4Z1FORmZBNTAtYnJOdHlaOWtEc3NDOHVNZUludVAxMVVORlRqelg3cFlMdkp3NkY0ckhR?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "23:22:06",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.oalandscaping.com/",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 16.71
+ },
+ {
+  "ts": "23:22:10",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.oa-landscaping.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.22
+ },
+ {
+  "ts": "23:22:14",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYXl2SVZaazRud3lmR2JCLW1iTi03cXJaMGlZcm56YkE0MWlVVjBRY3RNaEhQRUdFdHZsNU5ndjJYR1V6cFVvdFp2cC10UjNpM19yLUJPbkVBZlZDX0RjaWVTbFFSemxSb0xHRE1mRFRqa1VXWGg3SVBKeUlqY1ZfNFgtNXhXb1U0MWdWaDQ5VVd3c0U4UExYeDhPRXhjUVlIbzVZ?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.47
+ },
+ {
+  "ts": "23:22:19",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Miami%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.05
+ },
+ {
+  "ts": "23:22:22",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZFkwdWZDUGZOckUxLUFGM0k2S2I3dEQwczQwV29xYlBqazl6OVRiSUpXa19QX2tnZE01cDBDREgzLUdOSS1GaUtVWk0wUGJjZzN6cTVWM2VyTlBDcllWdmQzOXhwTzVyZUVVajZLWHh0bE9zQkltc2p5dDU2OHU2ajlFUFh6OFA0WG9lVGhhVVV2X2VkaEFSM2UwRm9BdG5XZTE4Q3ZFenJxWTRYemdqV0xDZnlnaDFKaXdILTJqLXpVTUtVellBdXZIcmJFTFZCRkt6QlB6b2wxV0xMWjEyaDBMbmN0R0U1RXpRYw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "23:22:26",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWGR1SmRaZzU3V2d1RlpMcTBnUnJMOEVGV0ZLeFU2NjlrQmgzQlQ5aFlrQTBKcUJSQ1hjZHpjb0xSend0dUVtWTVMRHRlYkh3N1dKaUI3Z2p1eXY5REpkdFFuWHdjeUkwNC1RVDNPakRmSzY3dUdaRzRWcGRLUGVpNXN1NXpZREhCOHptcVhZeTY4NEhkdURNa0RVVVV6TmxweG5TRHBYeWYyTl9lMjVVaW53WW1wQmhCemRxLXUwUG1FRm4xVThFZA?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.87
+ },
+ {
+  "ts": "23:22:30",
+  "practice": "Fractionals",
+  "source": "site:article link",
+  "url": "https://palmbeachhealthnetwork.com/",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.86
+ },
+ {
+  "ts": "23:22:32",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.palmbeachgardensmedicalcenter.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "23:22:34",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.palm-beach-gardens-medical-center.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.1
+ },
+ {
+  "ts": "23:22:38",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20%22CEO%20retiring%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "23:22:42",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Miami%22%20%22private%20equity%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.0
+ },
+ {
+  "ts": "23:22:46",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYWx5VjRtajR3dmlPd2swc0Q4a2FsTmZsNGNZb0NheTh6S0ZhRU5NRDl4STZpWGtHMjN3WEpfUXRSeFlFWEpXVUI5b0RpcEFIWTFfZklCcHBFTThtNkdIcGNaODhOWlJHYUFiZmk0Vm1mbVJtVEJ2WVZPeUZkeFFkTHdXVUFlUlgxQzBYbG14aFcyT0tEeWNTUmEyUzgyZG1xTktlSGRIdUkwVzA?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.76
+ },
+ {
+  "ts": "23:22:50",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWWNMemEtdVNXWG1mc3Z0MnFzcFRIQ0t3MHd6c1NMZmQ0M0VhMHpNZlBYWHhBbHdZRjhUdWlZVVlCVXk3S1hPdmE3ZmVDZ0tFSWlrWUZtLXh0X3ZobnQzejBVY3JTN2ZfSHgzcG5uZEpWZjgtWE80Z2habE1EYzA5MXd5UHNISmZUTEZUQWwxR2Fvako0clo3TDVkbHpnV1hsZ2dPenAxTHk1QVFyU0w1U2hfOA?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.29
+ },
+ {
+  "ts": "23:22:54",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Fort%20Lauderdale%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.82
+ },
+ {
+  "ts": "23:22:58",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22%20succession%20family%20business&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.02
+ },
+ {
+  "ts": "23:23:02",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcllyckV4WHVNcktpWkJUWF9kSTZmcjU1eEptVUFjcVRWRFFURGRYeFBhSmJVM0xZRzhUeGM1bkUwdE8tTTBNbGtIUFRhVVBJbl9Ob1dJQ1NBQXI5clFFcmZMRFBrZkoya05vbjd3OVp2ZjFQdmxNVi1vTzU3cHhFMWhYVXlndVY4MTJJQ1RFR2MtS0RtRXZOSzc5U0tMQ203VUo0?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.82
+ },
+ {
+  "ts": "23:23:06",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaEltVGI5bGZkeGdKdnJyWnpLanNJQTlmb2x3M1ZFM2VtN1RXU3RiSktWQ19mVmpjT1lnUEJQTjFpVGphUFVDSk8ydVh1aEpOdVZzb00waHNJUXNWaDk4MExQajIwYVBfb2xWUWNtSG1aelEtdkRveVpneXN5N2k0T0c0RDJMNHVxNGY3TlptOWw4dnpiNnpEaC1HODJGdHFMS0VZNGlBb0FLUGIwNDhpNnZYWDNWYkdtTjVtRW9GaUFtdw?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.16
+ },
+ {
+  "ts": "23:23:10",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Fort%20Lauderdale%22%20%22private%20equity%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.08
+ },
+ {
+  "ts": "23:23:14",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Tampa%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "23:23:18",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QaXFkQUlNdDJtOTFmUTJuLU1aaXlIMXN0aDU4Y2pCek1fYndPSHJfLURBeEU1YS1DZXU3TnhkNm5BZWFXZmpwZXRjRmJXMTN6RnpWV0dGaVJyNGhnWjVKeXdxQmxhX0FLb1dqbEVRVW13M0Q0T0FuX2xlMjVsdw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "23:23:23",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.porttampabay.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.51
+ },
+ {
+  "ts": "23:23:25",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.port-tampa-bay.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.08
+ },
+ {
+  "ts": "23:23:28",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWEtTV9OcGlqUUM2SWtVV1VzazBNaGFWbUZ6aHpkUEJNeGg4WnpIZUdNMzJUWFJlY1dudGxMQUN4a0xlbkxpRXBWdE5kcGFITVlJVTRzQ3c2UVY0RTF2TmE2NzJ4RnVVdG1Vb2NGaE5YQjJGRDktTnFpanFHYTI4Tw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ }
+]

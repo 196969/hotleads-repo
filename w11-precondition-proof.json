@@ -1,0 +1,34 @@
+{
+ "keep_set": "19 bound headlines (all windows) that are not property binds",
+ "false_rejections": [],
+ "stop_set": [
+  [
+   "Gencom-led group acquires InterContinental Miami - Hotel Management",
+   false
+  ],
+  [
+   "Westshore Grand Hotel Acquired by Tampa Developer, Major Renovations Planned - TBBW",
+   true
+  ],
+  [
+   "Pyramid Global JV acquires Naples Bay Resort & Marina - hotelbusiness.com",
+   true
+  ],
+  [
+   "Bowden Companies Acquires 200-Unit Pensacola Apartment Community, Rebrands It as The Maren - EIN Presswire",
+   true
+  ]
+ ],
+ "stopped": "3 of 4",
+ "reading": "InterContinental Miami carries no property word: a hotel brand cannot be caught by words, and is recorded as the limit of this precondition",
+ "decision": "the ruled words are matched anywhere in the bound target, not only as its tail, so “200-Unit Pensacola Apartment Community” is caught",
+ "publisher_rule": {
+  "example": "floridapolitics.com link on a floridapolitics.com article",
+  "registrable_match": true
+ },
+ "classes": [
+  "a property bind / a company bind",
+  "a name carrying the property word as its tail / mid-name / not at all"
+ ],
+ "result": "PASSED"
+}

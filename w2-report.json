@@ -1,0 +1,297 @@
+{
+ "run": "Florida 100 — Part B, window two",
+ "step_executed": "window two as one pass under the ruling of 30 Oct and additions 1–5",
+ "nothing_outside_this_step_touched": true,
+ "window": {
+  "launch_utc": "2026-10-30T12:22:24.397829+00:00",
+  "ceiling": 200,
+  "ceiling_is_assumed": true,
+  "reads": 76,
+  "reads_by_practice": {
+   "Private Equity": 66,
+   "Acquisitions": 8,
+   "Fractionals": 2
+  },
+  "thirds_spent": {
+   "Private Equity": 66,
+   "Acquisitions": 8,
+   "Fractionals": 2
+  },
+  "hosts": {
+   "hig.com": 21,
+   "www.trivest.com": 1,
+   "www.floridatrend.com": 1,
+   "www.bizjournals.com": 4,
+   "www.sunbeltnetwork.com": 1,
+   "www.tworld.com": 1,
+   "www.murphybusiness.com": 1,
+   "www.careerbuilder.com": 1,
+   "www.simplyhired.com": 1,
+   "gmpg.org": 6,
+   "suncappart.com": 14,
+   "null": 20,
+   "boynecapital.com": 3,
+   "www.mastersbp.com": 1
+  }
+ },
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window two order: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window two delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "addition_1_mining_no_reads": {
+  "hig": {
+   "companies": 381,
+   "florida_on_card": 0,
+   "revenue_on_card": 0,
+   "above_ceiling_on_card": 0,
+   "florida_sample": []
+  },
+  "suncap": {
+   "companies": 106,
+   "florida_on_card": 6,
+   "revenue_on_card": 0,
+   "above_ceiling_on_card": 0,
+   "florida_sample": [
+    "Clinical Care Services Florida",
+    "HealthPlan Services Services Florida",
+    "Latite Roofing Sheet Metal",
+    "Loan Logics Business Services Florida Actively seeking add-on acquisitions",
+    "Point Blank Enterprises Industrials & Distribution Florida",
+    "Smokey Bones Florida"
+   ]
+  },
+  "comvest": {
+   "companies": 130,
+   "florida_on_card": 0,
+   "revenue_on_card": 0,
+   "above_ceiling_on_card": 0,
+   "florida_sample": []
+  },
+  "boyne": {
+   "companies": 28,
+   "florida_on_card": 0,
+   "revenue_on_card": 0,
+   "above_ceiling_on_card": 0,
+   "florida_sample": []
+  }
+ },
+ "addition_2_caps": {
+  "suncap": "parked: 20 reads, 0 rows passing test 1 (addition 2)",
+  "hig": "parked: 20 reads, 0 rows passing test 1 (addition 2)",
+  "comvest": "parked: 20 reads, 0 rows passing test 1 (addition 2)",
+  "boyne": "third spent"
+ },
+ "addition_3_proofs": {
+  "link_rule_first_live_read": {
+   "page": "https://hig.com/portfolio/37-5/",
+   "first_external_href": "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?ver=7.1.4",
+   "site_link_rule": "https://thirtysevenfive.com/",
+   "differ": true,
+   "portal_excluded": false,
+   "location_field": "Location  Boulder, CO",
+   "classes": [
+    "portal/site-wide link / company site link",
+    "location field present / absent"
+   ]
+  },
+  "florida_trend_date_form": {
+   "visible": "October 30, 2026",
+   "meta": null,
+   "extractor_before": null,
+   "extractor_after": null,
+   "result": "FAILED — no date form found on the live article; Florida Trend stays stopped"
+  },
+  "trivest": "portfolio still not in the DOM after load; parked for the window (reason: renders by script after load) | window two: 0 reads, 0 passing test 1",
+  "stopped_state_honoured": "Florida Trend not read in discovery this window (1 known-answer read only)"
+ },
+ "addition_4_new_sources": {
+  "sfbj_news": "refused by source (403)",
+  "tbbj_news": "refused by source (403)",
+  "obj_news": "refused by source (403)",
+  "jbj_news": "refused by source (403)",
+  "sunbelt": {
+   "read": true,
+   "bytes": 131600,
+   "items_by_declared_pattern": 6,
+   "live_forms": [
+    [
+     "https://www.sunbeltnetwork.com/…",
+     94
+    ],
+    [
+     "https://www.sunbeltnetwork.com/franchise/…",
+     18
+    ],
+    [
+     "https://www.sunbeltnetwork.com/resources/…",
+     14
+    ]
+   ],
+   "control": "built from the live form"
+  },
+  "transworld": "refused by source (404)",
+  "murphy": "refused by source (404)",
+  "careerbuilder": "refused by source (403)",
+  "simplyhired": "refused by source (403)"
+ },
+ "addition_5_rebalance": "not exercised: no practice produced",
+ "candidates": {
+  "queued_total": 642,
+  "by_source": {
+   "boyne": 29,
+   "hig": 377,
+   "suncap": 106,
+   "comvest": 130
+  },
+  "sponsor_entries_read": 57,
+  "placed_in_florida_by_entry": {
+   "raw": 11,
+   "after_fault_33": "1 (Boyne’s MBP); the 10 Sun Capital placements are the sponsor’s own footer address"
+  },
+  "band_rejected_on_sponsor_page": 10,
+  "own_site_reads": 7,
+  "test1_passed": 0
+ },
+ "admitted": 0,
+ "count_against_100": {
+  "admitted": 0,
+  "confirmed": 0,
+  "honest_statement": "0 of 100 after two windows (167 reads). The instrument is now right about the forms, the link rule and the sponsor entries; it spent this window learning that only Sun Capital’s cards and H.I.G.’s entries carry a location, that Sun’s companies are mostly above the ceiling, and that eight of nine new sources refuse. No candidate has yet passed test 1 at its own page."
+ },
+ "yield": {
+  "candidates": 642,
+  "admitted": 0,
+  "ratio": 0.0
+ },
+ "hours_of_human_time": "0",
+ "part_10": {
+  "baseline": {
+   "rows": 150,
+   "strict": 21,
+   "address_eligible": 29,
+   "bands": {
+    "1": 14,
+    "2": 4,
+    "3": 13,
+    "4": 119
+   },
+   "workable": 32,
+   "band_1": 12,
+   "callable": 21
+  },
+  "now": {
+   "rows": 150,
+   "bands": {
+    "1": 18,
+    "2": 2,
+    "3": 11,
+    "4": 119
+   },
+   "workable": 39,
+   "band_1": 18,
+   "tier_A": 47,
+   "intake_rows": 0,
+   "intake_by_practice": {},
+   "intake_tier": {},
+   "intake_band_typed": 0
+  },
+  "movement": {
+   "net_new": {
+    "intake_rows_unverified": 0,
+    "promoted_to_working": 0,
+    "note": "net-new enters the intake table as Unverified only; nothing is promoted until a recorded act (9.5)"
+   },
+   "data_repairs": "none this day unless the report names them",
+   "instrument_corrections": "none this day unless the report names them"
+  },
+  "bot_yield": {
+   "candidates_queued": 642,
+   "confirmed": 0,
+   "rejected": 0,
+   "yield": 0.0
+  }
+ },
+ "faults_added": [
+  32,
+  33
+ ],
+ "next_window": [
+  "H.I.G.: read the Location field on each entry (361 remaining), Florida ones to their own site’s contact page; Comvest entries likewise once their location field is identified from the 20 read",
+  "Sun Capital: the four Florida-card companies with no published figure to their own sites via the entry’s site link (the gmpg links cleared by class)",
+  "Sunbelt: a control from its live listing form, then the Florida index read for named listings",
+  "Florida Trend stays stopped; the business journals, Transworld, Murphy, CareerBuilder and SimplyHired refused by source",
+  "release Acquisitions’ and Fractionals’ unspent thirds to Private Equity under addition 5 once their sources are all parked or refused"
+ ],
+ "proofs": [
+  "reports/w2-engine.json (proofs with classes)",
+  "reports/w2-per-url-record.json",
+  "reports/w2-sponsor-mining.json"
+ ],
+ "instruments": "no page changed this window",
+ "reversal": "queue, log and engine files are new or window-scoped; practice-classes.json and discovery.py changed as recorded",
+ "changed_files": {
+  "discovery.py": {
+   "bytes": 15517,
+   "blob": "1221901e6f",
+   "sha256": "86e3bc1563c9c941"
+  },
+  "practice-classes.json": {
+   "bytes": 14731,
+   "blob": "835b97507f",
+   "sha256": "8b75110b0cd3906c"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 577941,
+   "blob": "9c638a0f48",
+   "sha256": "0a368c19dc530181"
+  },
+  "florida100-window2-log.jsonl": {
+   "bytes": 18465,
+   "blob": "121fe1d507",
+   "sha256": "1c6ca5732278e8a2"
+  },
+  "bot-config.json": {
+   "bytes": 1342,
+   "blob": "b4f5ca3d72",
+   "sha256": "725754bf7995580f"
+  },
+  "founders-roster.json": {
+   "bytes": 28127,
+   "blob": "38252baebd",
+   "sha256": "86fd967451e52fa8"
+  },
+  "window2.py": {
+   "bytes": 11927,
+   "blob": "502f9d5891",
+   "sha256": "3313f18483655aa4"
+  }
+ }
+}

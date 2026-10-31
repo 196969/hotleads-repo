@@ -1,0 +1,67 @@
+{
+ "fault_56": {
+  "revised": "first form read every bare 1–4 capital run as an abbreviation and would have lost CRWF and HCA, good names; revised: a dotted abbreviation, a parenthesised capital run, or a bare capital run only where the headline carries it in parentheses (a ticker)",
+  "planted": {
+   "S.E": true,
+   "ROAD": true,
+   "(ROAD)": true,
+   "U.S.": true,
+   "HCA": false,
+   "CRWF": false,
+   "American Fasteners": false,
+   "MaxHealth": false,
+   "SeaWorld": false
+  },
+  "keep_set": 36,
+  "good_binds_lost": [],
+  "classes": [
+   "dotted abbreviation / parenthesised ticker / ticker repeated bare",
+   "all-capitals proper name (CRWF, HCA) / mixed-case name"
+  ],
+  "result": "PASSED"
+ },
+ "fault_57": {
+  "stop_set": [
+   {
+    "span": "InterContinental Miami",
+    "asset": false,
+    "test": null
+   },
+   {
+    "span": "Westshore Grand Hotel",
+    "asset": true,
+    "test": "(c) head noun is a building or land type: Hotel"
+   },
+   {
+    "span": "Naples Bay Resort & Marina",
+    "asset": true,
+    "test": "(c) head noun is a building or land type: Marina"
+   },
+   {
+    "span": "200-Unit Pensacola Apartment Community",
+    "asset": true,
+    "test": "(a) carries a measure"
+   },
+   {
+    "span": "Orlando industrial portfolio",
+    "asset": true,
+    "test": "(b) no proper-name core once places and lower-case words are removed"
+   },
+   {
+    "span": "226,500 SF Flex Development",
+    "asset": true,
+    "test": "(a) carries a measure"
+   },
+   {
+    "span": "538,000-Square-Foot Jacksonville Industrial Park",
+    "asset": true,
+    "test": "(a) carries a measure"
+   }
+  ],
+  "stopped": "6 of 7",
+  "keep_set": 29,
+  "good_binds_lost": [],
+  "threshold": "zero good binds lost (ruled)",
+  "result": "PASSED"
+ }
+}

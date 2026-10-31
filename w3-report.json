@@ -1,0 +1,412 @@
+{
+ "run": "Florida 100 — Part B, window three",
+ "step_executed": "window three as one pass under everything in force, rulings 6–10 and the Chair’s addition",
+ "nothing_outside_this_step_touched": true,
+ "window": {
+  "launch_utc": "2026-10-30T13:12:33.181650+00:00",
+  "ceiling": 200,
+  "ceiling_is_assumed": true,
+  "reads": 169,
+  "reads_by_practice": {
+   "Tier A re-read": 45,
+   "Acquisitions": 62,
+   "Fractionals": 1,
+   "Private Equity": 61
+  },
+  "hosts": 56
+ },
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window three order: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window three delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "ruling_9_tier_a_reread": {
+  "rows": 47,
+  "read": 43,
+  "refused": 2,
+  "no_link": 2,
+  "executive_confirmed_on_site": 8,
+  "executive_not_found_on_site": 34,
+  "phone_confirmed": 12,
+  "phone_not_on_site": 26,
+  "email_confirmed": 12,
+  "email_not_on_site": 14,
+  "reading": "one read per row at the home page; 43 read, 2 refused, 2 rows with no link. Named executive found on that page for 8 rows, not on it for 34; phone on file found on it for 12, not for 26; email on file found for 12, not for 14. Sunbiz 403 on every row. No tier moved: a home page not carrying a name or number is not evidence it is unpublished; contact and leadership pages are the next read (decision recorded). Per-row readings in reports/w3-engine.json."
+ },
+ "ruling_6_florida_trend": {
+  "articles": [
+   {
+    "url": "https://www.floridatrend.com/article/11962/spotlight-on-florida-manufactured-items/",
+    "read": "read",
+    "date": null,
+    "field": null
+   },
+   {
+    "url": "https://www.floridatrend.com/article/3873/toprank-florida--top-200-private-companies/",
+    "read": "read",
+    "date": null,
+    "field": null
+   },
+   {
+    "url": "https://www.floridatrend.com/article/24801/perry-ellis-international-enters-into-a-437-million-transaction-to-become-a-private-company/",
+    "read": "read",
+    "date": null,
+    "field": null
+   },
+   {
+    "url": "https://www.floridatrend.com/article/38010/thursdays-daily-pulse/",
+    "read": "read",
+    "date": null,
+    "field": null
+   },
+   {
+    "url": "https://www.floridatrend.com/article/31715/sintavia-hollywood/",
+    "read": "read",
+    "date": null,
+    "field": null
+   },
+   {
+    "url": "https://www.floridatrend.com/article/20370/inequality-the-prosperity-gap-in-miami/",
+    "read": "read",
+    "date": null,
+    "field": null
+   }
+  ],
+  "dated": 0,
+  "result": "stopped: none of the six carries a date in any structured form or a dated path"
+ },
+ "ruling_7_feeds": {
+  "gnews_rss": {
+   "items": 48,
+   "florida_and_signal": 33,
+   "sample": [
+    "Inkle acquires Finally’s bookkeeping division and sets sights on South Florida growth - Refresh Miami",
+    "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
+    "News | New Jersey-based industrial firm taps exec to lead property acquisition efforts in Florida - CoStar",
+    "Florida ‘ghost’ candidate scandal haunts FPL in merger talks with Dominion - Miami Herald",
+    "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsville Business Journal"
+   ]
+  },
+  "prn_rss": {
+   "items": 20,
+   "florida_and_signal": 0,
+   "sample": []
+  },
+  "gnw_rss": "refused by source (403)",
+  "bw_rss": {
+   "items": 0,
+   "florida_and_signal": 0,
+   "sample": []
+  },
+  "sfbj_rss": "refused by source (403)",
+  "ft_rss": "refused by source (404)",
+  "continuation": {
+   "articles_read": 38,
+   "queued": 11,
+   "no_date": 0,
+   "no_sentence": 24,
+   "refused": 3
+  }
+ },
+ "ruling_8_public_record": {
+  "warn": {
+   "read": false,
+   "status": "403",
+   "bytes": 0,
+   "form": null,
+   "note": "refused by source"
+  },
+  "edgar_fts": {
+   "read": false,
+   "status": "403",
+   "bytes": 0,
+   "form": null,
+   "note": "refused by source"
+  }
+ },
+ "ruling_10_pe": {
+  "ceiling": "$100M for PE rows; sponsor recorded as client",
+  "sun_capital_re_test_no_read": "10 band-rejected companies re-tested against $100M from the sponsor page figures: 0 back in band (all above $100M)",
+  "hig_entries": {
+   "reads": 60,
+   "hig_entries_read": 79,
+   "hig_location_fields": [
+    [
+     "ne",
+     47
+    ],
+    [
+     "NC",
+     3
+    ],
+    [
+     "MD",
+     2
+    ],
+    [
+     "PA",
+     2
+    ],
+    [
+     "FL",
+     2
+    ],
+    [
+     "IN",
+     2
+    ],
+    [
+     "AZ",
+     2
+    ],
+    [
+     "CA",
+     2
+    ]
+   ],
+   "florida_by_field": 13,
+   "test1_passed": 1,
+   "admitted_by_test": 1
+  }
+ },
+ "sunbelt": {
+  "items": 6,
+  "named": 0,
+  "unusable": 0,
+  "note": "6 listing pages read; none names a company in its text — unusable, never guessed"
+ },
+ "candidates": {
+  "queued_total": 655,
+  "new_this_window": {
+   "feed_acquisitions": 13,
+   "hig_florida_by_location_field": 2
+  },
+  "feed_candidates": [
+   {
+    "date": "2026-10-28",
+    "field": "JSON-LD datePublished",
+    "sentence": "Inkle acquires Finally's bookkeeping division and sets sights on South Florida growth - Refresh Miami                                       ",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZFE5WlEzdkI1M0VTN2JYQWpJdDd"
+   },
+   {
+    "date": "2026-10-27",
+    "field": "JSON-LD datePublished",
+    "sentence": "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5adjhRdnNzSmJ5QXByYm5SNEllVmt"
+   },
+   {
+    "date": "2026-09-08",
+    "field": "JSON-LD datePublished",
+    "sentence": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsville Business Journal",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOVY2QURTVUw4bGJ6TjJweFY3cEl"
+   },
+   {
+    "date": "2026-05-18",
+    "field": "JSON-LD datePublished",
+    "sentence": "Menu Show Search Search Query Donate VPM News Morning Edition 0:00 0:00 NEXT UP: 9:00 AM Radio Streams News Election Coverage Listen Watch A",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMWlrNG1hYzlybmRDTTRsYVBzNF8"
+   },
+   {
+    "date": "2026-07-06",
+    "field": "JSON-LD datePublished",
+    "sentence": "Hilb Group expands Southeast footprint with Florida commercial P&C acquisition | Insurance Business CONTINUE TO SITE CONTINUE TO SITE SELECT",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPajZJeG1IcjdHelVjN21obTdmUjB"
+   },
+   {
+    "date": "2026-02-16",
+    "field": "JSON-LD datePublished",
+    "sentence": "CenterWell completes acquisition of MaxHealth in Florida - The Lane Report | Kentucky Business & Economic News",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYktZQkk5TFREeHZ3cFY1aXdqaHF"
+   },
+   {
+    "date": "2026-03-27",
+    "field": "feed pubDate",
+    "sentence": "Michelli Weighing & Measurement Announces Acquisition of Florida Industrial Scale Co.",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM0RaVUZUXzNWWHFFcV9nalBUNHl"
+   },
+   {
+    "date": "2020-03-12",
+    "field": "JSON-LD datePublished",
+    "sentence": "Florida company acquires AAA Heating & Air | Spokane Journal of Business Label Current Issue News by Sector Roundups & Features Supplements ",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRWFwbFNtTnpXSEVGQ3NoN2JaMHl"
+   },
+   {
+    "date": "2025-07-16",
+    "field": "JSON-LD datePublished",
+    "sentence": "FCC completes acquisition of Florida WTE facility - Waste Today",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRE9DOWJEOGROcjBUbXdVZmZYVVJ"
+   },
+   {
+    "date": "2025-09-16",
+    "field": "JSON-LD datePublished",
+    "sentence": "CT registered investment advisor firm acquired by Florida wealth management company Facebook Linkedin X Log In Industries Accounting Adverti",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZzBINExzZE5UM1E2UGZZZVk3TWh"
+   },
+   {
+    "date": "2024-09-03",
+    "field": "JSON-LD datePublished",
+    "sentence": "Synergos Companies Expands into Florida with Acquisition of ODC Construction Accessibility Statement Skip Navigation Resources Investor Rela",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVUVOQVVQZHNGSVVkNjQ4NlZoU3d"
+   },
+   {
+    "date": "2021-12-17",
+    "field": "JSON-LD datePublished",
+    "sentence": "Groundworks Acquires Florida-Based Alpha Foundations Accessibility Statement Skip Navigation Resources Investor Relations Journalists Agenci",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXJTd3pRUklwbHYwSEZzY2FRc0x"
+   },
+   {
+    "date": "2013-10-28",
+    "field": "JSON-LD datePublished",
+    "sentence": "The Mosaic Company to Acquire Florida Phosphate Business From CF Industries for $1.2 Billion Accessibility Statement Skip Navigation Resourc",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdGtBd2pmb2ZpMVczaFJUa0ZaZUx"
+   }
+  ]
+ },
+ "test_1": {
+  "passed": 1,
+  "named": [
+   "Avi Spl"
+  ]
+ },
+ "admitted": 0,
+ "held_size_unsourced_after_passing_1_2_5": [
+  "Avi Spl"
+ ],
+ "count_against_100": {
+  "admitted": 0,
+  "confirmed": 0,
+  "honest_statement": "0 of 100 after three windows (336 reads). First yield this window: AVI-SPL passes tests 1, 2 and 5 (Tampa by H.I.G.’s Location field, Florida and an address on its own page) and is held only for a published revenue figure; 13 Acquisitions candidates from the Google News feed carry a dated third-party signal sentence and await naming and test 1. The free doors that opened: Google News RSS and H.I.G.’s Location field. The doors still shut: Florida Trend (no date in any form), the Business Journals and their feeds, WARN, EDGAR full-text, GlobeNewswire feed, the job boards."
+ },
+ "yield": {
+  "candidates": 655,
+  "passing_test_1": 1,
+  "admitted": 0
+ },
+ "hours_of_human_time": "0 — no sitting yet; the Intake tab holds 13 feed candidates to name and 1 row to confirm once sized",
+ "part_10": {
+  "baseline": {
+   "rows": 150,
+   "strict": 21,
+   "address_eligible": 29,
+   "bands": {
+    "1": 14,
+    "2": 4,
+    "3": 13,
+    "4": 119
+   },
+   "workable": 32,
+   "band_1": 12,
+   "callable": 21
+  },
+  "now": {
+   "rows": 150,
+   "bands": {
+    "1": 18,
+    "2": 2,
+    "3": 11,
+    "4": 119
+   },
+   "workable": 39,
+   "band_1": 18,
+   "tier_A": 47,
+   "intake_rows": 0,
+   "intake_by_practice": {},
+   "intake_tier": {},
+   "intake_band_typed": 0
+  },
+  "movement": {
+   "net_new": {
+    "intake_rows_unverified": 0,
+    "promoted_to_working": 0,
+    "note": "net-new enters the intake table as Unverified only; nothing is promoted until a recorded act (9.5)"
+   },
+   "data_repairs": "none this day unless the report names them",
+   "instrument_corrections": "none this day unless the report names them"
+  },
+  "bot_yield": {
+   "candidates_queued": 655,
+   "confirmed": 0,
+   "rejected": 0,
+   "yield": 0.0
+  }
+ },
+ "faults_added": [
+  34
+ ],
+ "carried": [
+  "Part 5 console email tabs (0 reads)",
+  "Tier A contact and leadership pages before any tier moves",
+  "AVI-SPL revenue: a published figure with URL and date, or held"
+ ],
+ "proofs": [
+  "reports/w3-engine.json",
+  "reports/w3-per-url-record.json",
+  "reports/w3-feed-continuation.json"
+ ],
+ "instruments": "no page changed this window",
+ "reversal": "window-scoped files; practice-classes.json (rulings 6–10 recorded) and the queue changed as recorded",
+ "changed_files": {
+  "practice-classes.json": {
+   "bytes": 15581,
+   "blob": "1d33e85905",
+   "sha256": "65d54783856e58c7"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 617215,
+   "blob": "90f97c3f30",
+   "sha256": "2d3f822ae0ec23da"
+  },
+  "florida100-window3-log.jsonl": {
+   "bytes": 51732,
+   "blob": "391fecccc7",
+   "sha256": "21d2169a3e4d7c69"
+  },
+  "bot-config.json": {
+   "bytes": 1369,
+   "blob": "dc34e39361",
+   "sha256": "2c056f16c3583581"
+  },
+  "founders-roster.json": {
+   "bytes": 29551,
+   "blob": "7b8dd55701",
+   "sha256": "9748444f08a4ce74"
+  },
+  "window3.py": {
+   "bytes": 14867,
+   "blob": "37860163d7",
+   "sha256": "f465435e74c703d2"
+  },
+  "w3b.py": {
+   "bytes": 3255,
+   "blob": "bfd460d234",
+   "sha256": "f94577f2b200c421"
+  }
+ }
+}

@@ -1,0 +1,297 @@
+{
+ "corpus": "the 13 live title-case Google News headlines (window three); labels set by the builder from the headline text before any read",
+ "classes": [
+  "title-case verb / sentence-case verb",
+  "target a company / a division, facility, business unit or generic phrase",
+  "acquirer-first / target-first / controlling interest / priced-deal / expands-into",
+  "target named / not named",
+  "proof construction direct / formerly"
+ ],
+ "expected_labels": {
+  "0": [
+   "rejected",
+   null
+  ],
+  "1": [
+   "bound",
+   "Jack Brown’s"
+  ],
+  "2": [
+   "bound",
+   "Havoc"
+  ],
+  "3": [
+   "bound",
+   "Dominion Energy"
+  ],
+  "4": [
+   "unbound",
+   null
+  ],
+  "5": [
+   "bound",
+   "MaxHealth"
+  ],
+  "6": [
+   "bound",
+   "Florida Industrial Scale Co"
+  ],
+  "7": [
+   "bound",
+   "AAA Heating & Air"
+  ],
+  "8": [
+   "rejected",
+   null
+  ],
+  "9": [
+   "rejected",
+   null
+  ],
+  "10": [
+   "bound",
+   "ODC Construction"
+  ],
+  "11": [
+   "bound",
+   "Alpha Foundations"
+  ],
+  "12": [
+   "rejected",
+   null
+  ]
+ },
+ "results": [
+  {
+   "i": 0,
+   "headline": "Inkle acquires Finally’s bookkeeping division and sets sights on South Florida g",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "Finally’s bookkeeping division"
+   ],
+   "acquirer": "Inkle",
+   "pattern": "{acquirer} acquires {company}",
+   "span": "Inkle acquires Finally’s bookkeeping division",
+   "pass": true
+  },
+  {
+   "i": 1,
+   "headline": "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
+   "expected": [
+    "bound",
+    "Jack Brown’s"
+   ],
+   "got": [
+    "bound",
+    "Jack Brown’s"
+   ],
+   "acquirer": "Florida investment firm",
+   "pattern": "{company} acquired by {acquirer}",
+   "span": "Jack Brown’s acquired by Florida investment firm",
+   "pass": true
+  },
+  {
+   "i": 2,
+   "headline": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsv",
+   "expected": [
+    "bound",
+    "Havoc"
+   ],
+   "got": [
+    "bound",
+    "Havoc"
+   ],
+   "acquirer": "Florida Sports Ownership Company",
+   "pattern": "{acquirer} acquires controlling interest of {company}",
+   "span": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc",
+   "pass": true
+  },
+  {
+   "i": 3,
+   "headline": "Florida-based NextEra agrees to $67B Dominion Energy acquisition - VPM",
+   "expected": [
+    "bound",
+    "Dominion Energy"
+   ],
+   "got": [
+    "bound",
+    "Dominion Energy"
+   ],
+   "acquirer": "NextEra",
+   "pattern": "{acquirer} agrees to $X {company} acquisition",
+   "span": "Florida-based NextEra agrees to $67B Dominion Energy acquisition",
+   "pass": true
+  },
+  {
+   "i": 4,
+   "headline": "Hilb Group expands Southeast footprint with Florida commercial P&C acquisition -",
+   "expected": [
+    "unbound",
+    null
+   ],
+   "got": [
+    "unbound",
+    null
+   ],
+   "acquirer": null,
+   "pattern": null,
+   "span": null,
+   "pass": true
+  },
+  {
+   "i": 5,
+   "headline": "CenterWell completes acquisition of MaxHealth in Florida - The Lane Report",
+   "expected": [
+    "bound",
+    "MaxHealth"
+   ],
+   "got": [
+    "bound",
+    "MaxHealth"
+   ],
+   "acquirer": "CenterWell",
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "span": "CenterWell completes acquisition of MaxHealth",
+   "pass": true
+  },
+  {
+   "i": 6,
+   "headline": "Michelli Weighing & Measurement Announces Acquisition of Florida Industrial Scal",
+   "expected": [
+    "bound",
+    "Florida Industrial Scale Co"
+   ],
+   "got": [
+    "bound",
+    "Florida Industrial Scale Co"
+   ],
+   "acquirer": "Michelli Weighing & Measurement",
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "span": "Michelli Weighing & Measurement Announces Acquisition of Florida Industrial Scale Co.",
+   "pass": true
+  },
+  {
+   "i": 7,
+   "headline": "Florida company acquires AAA Heating & Air - Spokane Journal of Business",
+   "expected": [
+    "bound",
+    "AAA Heating & Air"
+   ],
+   "got": [
+    "bound",
+    "AAA Heating & Air"
+   ],
+   "acquirer": "Florida company",
+   "pattern": "{acquirer} acquires {company}",
+   "span": "Florida company acquires AAA Heating & Air",
+   "pass": true
+  },
+  {
+   "i": 8,
+   "headline": "FCC completes acquisition of Florida WTE facility - Waste Today -",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "Florida WTE facility"
+   ],
+   "acquirer": "FCC",
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "span": "FCC completes acquisition of Florida WTE facility",
+   "pass": true
+  },
+  {
+   "i": 9,
+   "headline": "CT registered investment advisor firm acquired by Florida wealth management comp",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "CT registered investment advisor firm"
+   ],
+   "acquirer": "Florida wealth management company",
+   "pattern": "{company} acquired by {acquirer}",
+   "span": "CT registered investment advisor firm acquired by Florida wealth management company",
+   "pass": true
+  },
+  {
+   "i": 10,
+   "headline": "Synergos Companies Expands into Florida with Acquisition of ODC Construction - P",
+   "expected": [
+    "bound",
+    "ODC Construction"
+   ],
+   "got": [
+    "bound",
+    "ODC Construction"
+   ],
+   "acquirer": "Synergos Companies",
+   "pattern": "{acquirer} expands into ... with acquisition of {company}",
+   "span": "Synergos Companies Expands into Florida with Acquisition of ODC Construction",
+   "pass": true
+  },
+  {
+   "i": 11,
+   "headline": "Groundworks Acquires Florida-Based Alpha Foundations - PR Newswire",
+   "expected": [
+    "bound",
+    "Alpha Foundations"
+   ],
+   "got": [
+    "bound",
+    "Alpha Foundations"
+   ],
+   "acquirer": "Groundworks",
+   "pattern": "{acquirer} acquires {company}",
+   "span": "Groundworks Acquires Florida-Based Alpha Foundations",
+   "pass": true
+  },
+  {
+   "i": 12,
+   "headline": "The Mosaic Company to Acquire Florida Phosphate Business From CF Industries for ",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "Florida Phosphate Business"
+   ],
+   "acquirer": "The Mosaic Company",
+   "pattern": "{acquirer} acquires {company}",
+   "span": "The Mosaic Company to Acquire Florida Phosphate Business",
+   "pass": true
+  }
+ ],
+ "junk_from_window_five": [
+  [
+   "We plan to expand our footprint",
+   "unbound"
+  ],
+  [
+   "The addition of FISC further expands our reach",
+   "unbound"
+  ],
+  [
+   "Inkle acquires Finally’s bookkeeping division",
+   "rejected"
+  ]
+ ],
+ "formerly_proof": {
+  "where": "title",
+  "span": "Emboss Specialty formerly Health Network One",
+  "construction": "formerly",
+  "current_name": "Emboss Specialty"
+ },
+ "attempts": "two failed attempts before this pass (7 of 13 each): names stopped at the first lower-case word; a Florida-start rule rejected Florida Industrial Scale Co.; a replacement script whose anchors did not match left the file unchanged — moved to its own module and re-proved",
+ "expansion_pattern": "removed from naming",
+ "result": "PASSED"
+}

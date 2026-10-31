@@ -1,0 +1,167 @@
+{
+ "CLOSE": {
+  "admitted": 0,
+  "running_count_against_100": 0,
+  "confirmed": 0,
+  "reads_spent": "reads spent 72; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)",
+  "window": "halted by the builder after the revenue step and 10 discovery reads: two proofs had not passed (fault 59)"
+ },
+ "revenue_for_the_four": {
+  "companies": [
+   "Altitude Water",
+   "STS Aviation Group",
+   "Marino Performance Motors",
+   "TrakAmerica"
+  ],
+  "routes_per_subject": "7 each, one per subject per round: Wikipedia search, Florida Trend search, Google News by name with revenue, annual sales, employees, growth, and Inc. 5000 press mention; the Inc. 5000 list parked under its code",
+  "reads": 62,
+  "by_route": {
+   "revenue:Wikipedia search": 4,
+   "revenue:Florida Trend search": 4,
+   "revenue:article": 34,
+   "revenue:Google News: name + ": 20
+  },
+  "bodies_rescanned_widened_at_zero_reads": 62,
+  "figures_found": 0,
+  "employee_counts_found": 0
+ },
+ "the_nine": {
+  "revenue_tested_and_unsourced": [
+   "American Fasteners",
+   "Health Network One (Emboss Specialty)",
+   "Moneysolver",
+   "Alpha Foundations",
+   "Palm Medical Centers",
+   "Altitude Water",
+   "STS Aviation Group",
+   "Marino Performance Motors",
+   "TrakAmerica"
+  ],
+  "untested": [],
+  "note": "window five’s negatives for Health Network One and Moneysolver remain unrecoverable (no body kept); every other free route on every one of the nine has been read"
+ },
+ "proofs": {
+  "fault52_third_instance": {
+   "third_instance": "Pepin Distributing (an existing Florida row) arrived as “Another A-B Wholesaler Pepin Distributing”; counted on #52",
+   "planted": {
+    "Another A-B Wholesaler Pepin Distributing": {
+     "after": "Pepin Distributing",
+     "expected": "Pepin Distributing",
+     "pass": true
+    },
+    "South Florida Distributor American Fasteners": {
+     "after": "American Fasteners",
+     "expected": "American Fasteners",
+     "pass": true
+    },
+    "Miami HVAC Distributor AM Distributors": {
+     "after": "AM Distributors",
+     "expected": null,
+     "pass": false
+    },
+    "Venice Window and Door Maker": {
+     "after": null,
+     "expected": null,
+     "pass": true
+    }
+   },
+   "pepin_then_caught_by_test2": [
+    true,
+    "already on file in: florida.html"
+   ],
+   "keep_set": 34,
+   "good_binds_lost": [],
+   "result": "FAILED"
+  },
+  "check_ran_counters": {
+   "planted_run": {
+    "headline precondition": "ran 3 times, stopped 1",
+    "property precondition": "ran 2 times, stopped nothing"
+   },
+   "never_wired_example": "NEVER RAN (0 calls)",
+   "rule": "a check is reported from its own counter in the window record; 0 calls reads “never ran”, calls with 0 stops reads “stopped nothing”",
+   "result": "FAILED"
+  }
+ },
+ "faults": [
+  {
+   "fault": "52 (third and fourth instances)",
+   "note": "third: Pepin Distributing (an existing Florida row) arrived as “Another A-B Wholesaler Pepin Distributing”; the repair strips a leading descriptor ending in a role noun, and Pepin is then caught by test 2 as on file. Fourth, found by the repair’s own proof: window thirteen’s role-noun rule rejected “AM Distributors”, a real company, as a description — a good bind lost, the costly error. The proof printed FAILED only because its planted label was mine and wrong; the repaired rule’s output is the right one"
+  },
+  {
+   "fault": 59,
+   "line": "a run that does not gate on its own proofs has not been proved",
+   "note": "both window-fourteen proofs printed FAILED and the pass launched anyway: the proof step and the launch were chained without a condition. The revenue step was unaffected; discovery was halted by the builder after 10 reads. A hung read then held the pass past the kill switch, which was cleared too early, and the pass was stopped outright; its engine record was never written and the revenue result was recovered from the log and the filed bodies"
+  },
+  {
+   "fault": "counter proof",
+   "note": "the check-ran counters work: a check never wired reads “NEVER RAN (0 calls)”, a check that ran and stopped nothing reads so. The proof failed on the property test’s behaviour, not the counter: a headline whose span the name rules already reject at the headline is not stopped before its read, so it costs a read before it is rejected"
+  }
+ ],
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window fourteen ruling: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window fourteen delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "instruments": "no page changed",
+ "reversal": "naming8.py (#52 repair) and window14.py; window-scoped files",
+ "changed_files": {
+  "naming8.py": {
+   "bytes": 3492,
+   "blob": "309edd1e1b",
+   "sha256": "425c72803e7dbd28"
+  },
+  "window14.py": {
+   "bytes": 33113,
+   "blob": "10ad1db19e",
+   "sha256": "77bc42af9a956510"
+  },
+  "florida100-window14-log.jsonl": {
+   "bytes": 23465,
+   "blob": "1d041199f4",
+   "sha256": "8adf18bb8d5aa439"
+  },
+  "bot-config.json": {
+   "bytes": 1441,
+   "blob": "898a9f104e",
+   "sha256": "3e33e8d8ee3432de"
+  },
+  "founders-roster.json": {
+   "bytes": 50346,
+   "blob": "7405b117a3",
+   "sha256": "aa7886d400999543"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 824241,
+   "blob": "d2e9127bed",
+   "sha256": "a04f58122bba3978"
+  }
+ }
+}

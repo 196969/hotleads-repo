@@ -1,0 +1,51 @@
+{
+ "pre_read_rejection": {
+  "keep_set": 34,
+  "good_headlines_stopped": [],
+  "stop_set": [
+   [
+    "Midtown Capital Partners acquires Orlando industri",
+    true
+   ],
+   [
+    "Bowden Companies Acquires 200-Unit Pensacola Apart",
+    true
+   ],
+   [
+    "Westshore Grand Hotel Acquired by Tampa Developer,",
+    true
+   ]
+  ],
+  "result": "PASSED"
+ },
+ "fault52_role_noun": {
+  "planted": {
+   "Miami HVAC Distributor AM Distributors": "AM Distributors",
+   "AM Distributors": "AM Distributors",
+   "Another A-B Wholesaler Pepin Distributing": "Pepin Distributing",
+   "South Florida Distributor American Fasteners": "American Fasteners",
+   "Fort Myers": null
+  },
+  "expected": {
+   "Miami HVAC Distributor AM Distributors": "AM Distributors",
+   "AM Distributors": "AM Distributors",
+   "Another A-B Wholesaler Pepin Distributing": "Pepin Distributing",
+   "South Florida Distributor American Fasteners": "American Fasteners",
+   "Fort Myers": null
+  },
+  "keep_set": 35,
+  "good_binds_changed": [],
+  "note": "a role-noun tail no longer rejects; “Venice Window and Door Maker” now goes to the ownership proof rather than being rejected unread",
+  "result": "PASSED"
+ },
+ "counters": {
+  "pre-read": {
+   "calls": 6,
+   "stopped": 3
+  },
+  "never_wired": {
+   "calls": 0
+  },
+  "result": "PASSED"
+ }
+}

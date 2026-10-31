@@ -1,0 +1,12 @@
+{
+ "validator_on_live": {
+  "output": "florida-expansion.html: 0 Src: lines read in the main table, 6 in the intake table, 0 without a date on the line itself\nVALIDATOR PASSED",
+  "intake_src_read": 6,
+  "result": "PASSED"
+ },
+ "validator_on_planted_undated_intake_line": {
+  "refused": true,
+  "output": "in table, 7 in the intake table, 1 without a date on the line itself\n   row #I1: intake: Src: planted page with no date\nVALIDATOR REFUSED \u2014 1 undated Src: line(s); the date must sit on the line itself",
+  "result": "PASSED"
+ }
+}

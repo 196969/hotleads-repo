@@ -1,0 +1,514 @@
+{
+ "HEAD": {
+  "stop": "UNBOUND STOP FIRED mid-window: 4 unbound of 17 processed. Split, now from the article’s own text: 2 no-company-named (a Medium essay on private equity; a university naming a CFO) and 2 headline-unmatched (Hilb Group’s unnamed target, expected; the Florida SBA, a public pension board, on benchmarks — the detector found PE firms named in the article). Read from the spans: 3 of the 4 are articles that carry no company opportunity — the feed query, not the patterns.",
+  "decision_point_figures": {
+   "articles_read": 19,
+   "carrying_a_dated_florida_signal": 17,
+   "reaching_binding": 17,
+   "site_found_by_article_link": 1,
+   "site_found_by_derived_host": "1 (2 recorded; AAA Heating & Air’s was a domain-for-sale page that passed the proof — fault 45 — so 1 stands: Alpha Foundations)",
+   "no_site_found_by_any_route": "6 (5 recorded, plus AAA Heating & Air after its false proof is withdrawn)",
+   "routes_tried": [
+    {
+     "key": "Acquisitions:gnews_rss:1",
+     "company": "Jack Brown’s",
+     "tried": [
+      {
+       "route": "derived host",
+       "host": "https://www.jackbrowns.com/",
+       "outcome": "resolved but failed the proof"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.jack-browns.com/",
+       "outcome": "did not resolve"
+      }
+     ]
+    },
+    {
+     "key": "Acquisitions:gnews_rss:2",
+     "company": "Havoc",
+     "tried": [
+      {
+       "route": "derived host",
+       "host": "https://www.havoc.com/",
+       "outcome": "resolved but failed the proof"
+      }
+     ]
+    },
+    {
+     "key": "Acquisitions:gnews_rss:5",
+     "company": "MaxHealth",
+     "tried": [
+      {
+       "route": "derived host",
+       "host": "https://www.maxhealth.com/",
+       "outcome": "refused (503)"
+      }
+     ]
+    },
+    {
+     "key": "Acquisitions:gnews_rss:6",
+     "company": "Florida Industrial Scale Co",
+     "tried": [
+      {
+       "route": "article link",
+       "host": "https://newswire.com/",
+       "outcome": "resolved but failed the proof"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.floridaindustrialscale.com/",
+       "outcome": "did not resolve"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.florida-industrial-scale.com/",
+       "outcome": "did not resolve"
+      }
+     ]
+    },
+    {
+     "key": "Acquisitions:gnews_rss:7",
+     "company": "AAA Heating & Air",
+     "tried": [
+      {
+       "route": "derived host",
+       "host": "https://www.aaaheatingair.com/",
+       "outcome": "proved",
+       "proof": {
+        "where": "title",
+        "span": "AaaHeatingAir.com is for sale - Premium Domain Discover Card logo",
+        "construction": "direct"
+       }
+      }
+     ]
+    },
+    {
+     "key": "Acquisitions:gnews_rss:10",
+     "company": "ODC Construction",
+     "tried": [
+      {
+       "route": "derived host",
+       "host": "https://www.odcconstruction.com/",
+       "outcome": "refused (503)"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.odc-construction.com/",
+       "outcome": "did not resolve"
+      }
+     ]
+    },
+    {
+     "key": "Acquisitions:gnews_rss:11",
+     "company": "Alpha Foundations",
+     "tried": [
+      {
+       "route": "article link",
+       "host": "https://c212.net/",
+       "outcome": "resolved but failed the proof"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.alphafoundations.com/",
+       "outcome": "proved",
+       "proof": {
+        "where": "title",
+        "span": "Alpha Foundations | Foundation & Crawl Space Repair Close Icon Like Alpha Foundations on Facebook Like Alpha Foundations on X Like Alpha Foundations on Instagra",
+        "construction": "direct"
+       }
+      }
+     ]
+    },
+    {
+     "key": "Acquisitions:gnews_rss_w7:659",
+     "company": "American Fasteners",
+     "tried": [
+      {
+       "route": "article link",
+       "host": "https://americanfasteners.com/",
+       "outcome": "proved",
+       "proof": {
+        "where": "title",
+        "span": "American Fasteners | Top Supplier of Fastener, Tools, & Hardware",
+        "construction": "direct"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "decision_point_read": "Both free routes produced proved sites: an article link (American Fasteners, americanfasteners.com) and a derived host (Alpha Foundations, alphafoundations.com, after c212.net failed the proof on the same candidate). By the governing form the provider ruling does not go live: the free route can get from a name to a site. Read with its limits: the window stopped at 22 reads, so 2 true proofs from 9 bound names (7 that reached a site attempt) is a thin measure, and one derived-host proof was false.",
+  "where_the_route_now_stops": "admitted is still 0 for a different reason: the three companies that pass tests 1, 2 and 5 on a proved site (Alpha Foundations, American Fasteners, and window four’s three held) publish no revenue figure. The binding constraint has moved from site to size.",
+  "admitted_this_window": 0,
+  "running_count_against_100": 0,
+  "confirmed": 0,
+  "wrongness": "0 — under site-by-any-route a host that fails the proof is a failed guess (ruled), so the stop as written has no event to count; this 0 is not a clean reading",
+  "ceiling_line": "reads spent 22; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)"
+ },
+ "repairs_proved_before_reads": {
+  "v3": "built on the older 9 (9 of 9) and proved on the newer 8 it had not seen: 7 of 8 — thin, and the miss recorded (an and-joined name truncated)",
+  "site_by_any_route": "in force: 1 article link and up to 2 derived hosts per candidate, each attempt recorded with its outcome",
+  "detector": "bounded to the article’s own text (JSON-LD articleBody, else <article>, else <main>); the split this window reads from that field"
+ },
+ "the_13": [
+  {
+   "key": "Acquisitions:gnews_rss:0",
+   "headline": "Inkle acquires Finally’s bookkeeping division and sets sights on South Florida growth - Refresh Miami",
+   "state": "rejected: span not a company",
+   "bound": "Finally’s bookkeeping division",
+   "pattern": "{acquirer} acquire(s) {company}",
+   "span": "Inkle acquires Finally’s bookkeeping division",
+   "status": "rejected: the matched span is not a company — Finally’s bookkeeping division",
+   "site": null,
+   "route": null,
+   "routes_tried": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:1",
+   "headline": "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
+   "state": "bound",
+   "bound": "Jack Brown’s",
+   "pattern": "{company} acquired by {acquirer}",
+   "span": "Jack Brown’s acquired by Florida investment firm",
+   "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
+   "site": null,
+   "route": null,
+   "routes_tried": [
+    {
+     "route": "derived host",
+     "host": "https://www.jackbrowns.com/",
+     "outcome": "resolved but failed the proof"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.jack-browns.com/",
+     "outcome": "did not resolve"
+    }
+   ]
+  },
+  {
+   "key": "Acquisitions:gnews_rss:2",
+   "headline": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsville Business Journal",
+   "state": "bound",
+   "bound": "Havoc",
+   "pattern": "{acquirer} takes/acquires a stake in {company}",
+   "span": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc",
+   "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
+   "site": null,
+   "route": null,
+   "routes_tried": [
+    {
+     "route": "derived host",
+     "host": "https://www.havoc.com/",
+     "outcome": "resolved but failed the proof"
+    }
+   ]
+  },
+  {
+   "key": "Acquisitions:gnews_rss:3",
+   "headline": "Florida-based NextEra agrees to $67B Dominion Energy acquisition - VPM",
+   "state": "bound",
+   "bound": "Dominion Energy",
+   "pattern": "{acquirer} agrees to $X {company} acquisition",
+   "span": "Florida-based NextEra agrees to $67B Dominion Energy acquisition",
+   "status": "on file — a signal against the existing row",
+   "site": null,
+   "route": null,
+   "routes_tried": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:4",
+   "headline": "Hilb Group expands Southeast footprint with Florida commercial P&amp;C acquisition - Insurance Business",
+   "state": "unbound",
+   "bound": "Hilb Group",
+   "pattern": null,
+   "span": null,
+   "status": "unbound — detector result on the row",
+   "site": null,
+   "route": null,
+   "routes_tried": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:5",
+   "headline": "CenterWell completes acquisition of MaxHealth in Florida - The Lane Report",
+   "state": "bound",
+   "bound": "MaxHealth",
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "span": "CenterWell completes acquisition of MaxHealth",
+   "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
+   "site": null,
+   "route": null,
+   "routes_tried": [
+    {
+     "route": "derived host",
+     "host": "https://www.maxhealth.com/",
+     "outcome": "refused (503)"
+    }
+   ]
+  },
+  {
+   "key": "Acquisitions:gnews_rss:6",
+   "headline": "Michelli Weighing &amp; Measurement Announces Acquisition of Florida Industrial Scale Co. - Newswire",
+   "state": "bound",
+   "bound": "Florida Industrial Scale Co",
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "span": "Michelli Weighing & Measurement Announces Acquisition of Florida Industrial Scale Co.",
+   "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
+   "site": null,
+   "route": null,
+   "routes_tried": [
+    {
+     "route": "article link",
+     "host": "https://newswire.com/",
+     "outcome": "resolved but failed the proof"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.floridaindustrialscale.com/",
+     "outcome": "did not resolve"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.florida-industrial-scale.com/",
+     "outcome": "did not resolve"
+    }
+   ]
+  },
+  {
+   "key": "Acquisitions:gnews_rss:7",
+   "headline": "Florida company acquires AAA Heating &amp; Air - Spokane Journal of Business",
+   "state": "bound",
+   "bound": "AAA Heating & Air",
+   "pattern": "{acquirer} acquire(s) {company}",
+   "span": "Florida company acquires AAA Heating & Air",
+   "status": "site proved (derived host); test 1 failed: no Florida address on the company’s own page",
+   "site": "https://www.aaaheatingair.com/",
+   "route": "derived host",
+   "routes_tried": [
+    {
+     "route": "derived host",
+     "host": "https://www.aaaheatingair.com/",
+     "outcome": "proved",
+     "proof": {
+      "where": "title",
+      "span": "AaaHeatingAir.com is for sale - Premium Domain Discover Card logo",
+      "construction": "direct"
+     }
+    }
+   ]
+  },
+  {
+   "key": "Acquisitions:gnews_rss:8",
+   "headline": "FCC completes acquisition of Florida WTE facility - Waste Today -",
+   "state": "rejected: span not a company",
+   "bound": "Florida WTE facility - Waste Today -",
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "span": "FCC completes acquisition of Florida WTE facility",
+   "status": "rejected: the matched span is not a company — Florida WTE facility",
+   "site": null,
+   "route": null,
+   "routes_tried": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:9",
+   "headline": "CT registered investment advisor firm acquired by Florida wealth management company - Hartford Business Journal",
+   "state": "rejected: span not a company",
+   "bound": "CT registered investment advisor firm",
+   "pattern": "{company} acquired by {acquirer}",
+   "span": "CT registered investment advisor firm acquired by Florida wealth management company",
+   "status": "rejected: the matched span is not a company — CT registered investment advisor firm",
+   "site": null,
+   "route": null,
+   "routes_tried": null
+  },
+  {
+   "key": "Acquisitions:gnews_rss:10",
+   "headline": "Synergos Companies Expands into Florida with Acquisition of ODC Construction - PR Newswire",
+   "state": "bound",
+   "bound": "ODC Construction",
+   "pattern": "{acquirer} expands into ... with acquisition of {company}",
+   "span": "Synergos Companies Expands into Florida with Acquisition of ODC Construction",
+   "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
+   "site": null,
+   "route": null,
+   "routes_tried": [
+    {
+     "route": "derived host",
+     "host": "https://www.odcconstruction.com/",
+     "outcome": "refused (503)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.odc-construction.com/",
+     "outcome": "did not resolve"
+    }
+   ]
+  },
+  {
+   "key": "Acquisitions:gnews_rss:11",
+   "headline": "Groundworks Acquires Florida-Based Alpha Foundations - PR Newswire",
+   "state": "bound",
+   "bound": "Alpha Foundations",
+   "pattern": "{acquirer} acquire(s) {company}",
+   "span": "Groundworks Acquires Florida-Based Alpha Foundations",
+   "status": "site proved (derived host); passes tests 1, 2 and 5; held size-unsourced",
+   "site": "https://www.alphafoundations.com/",
+   "route": "derived host",
+   "routes_tried": [
+    {
+     "route": "article link",
+     "host": "https://c212.net/",
+     "outcome": "resolved but failed the proof"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.alphafoundations.com/",
+     "outcome": "proved",
+     "proof": {
+      "where": "title",
+      "span": "Alpha Foundations | Foundation & Crawl Space Repair Close Icon Like Alpha Foundations on Facebook Like Alpha Foundations on X Like Alpha Foundations on Instagra",
+      "construction": "direct"
+     }
+    }
+   ]
+  },
+  {
+   "key": "Acquisitions:gnews_rss:12",
+   "headline": "The Mosaic Company to Acquire Florida Phosphate Business From CF Industries for $1.2 Billion - PR Newswire",
+   "state": "rejected: span not a company",
+   "bound": "Florida Phosphate Business",
+   "pattern": "{acquirer} acquire(s) {company}",
+   "span": "The Mosaic Company to Acquire Florida Phosphate Business",
+   "status": "rejected: the matched span is not a company — Florida Phosphate Business",
+   "site": null,
+   "route": null,
+   "routes_tried": null
+  }
+ ],
+ "new_this_window": [
+  {
+   "practice": "Acquisitions",
+   "headline": "DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of Wholesaler-Distributors",
+   "state": "bound",
+   "bound": "American Fasteners",
+   "split": null,
+   "field": "<article> element",
+   "status": "site proved (article link); passes tests 1, 2 and 5; held size-unsourced"
+  },
+  {
+   "practice": "Private Equity",
+   "headline": "Private Equity’s Florida Takeover: Why Your AC, Plumbing & Rent Costs Keep Soaring - Medium",
+   "state": "unbound",
+   "bound": "",
+   "split": "no-company-named (the detector found none in the article’s own text)",
+   "field": "no bounded article text found",
+   "status": "unbound — detector result on the row"
+  },
+  {
+   "practice": "Private Equity",
+   "headline": "Florida SBA meeting takes aim at limits of private equity benchmarks - PEI Private Equity",
+   "state": "unbound",
+   "bound": "",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "field": "<article> element",
+   "status": "unbound — detector result on the row"
+  },
+  {
+   "practice": "Fractionals",
+   "headline": "Florida Tech Names New Vice President for Administration and Finance/Chief Financial Officer - Florida Tech News",
+   "state": "unbound",
+   "bound": "",
+   "split": "no-company-named (the detector found none in the article’s own text)",
+   "field": "<article> element",
+   "status": "unbound — detector result on the row"
+  }
+ ],
+ "passing_1_2_5_held_size_unsourced": [
+  "Alpha Foundations (alphafoundations.com, derived host; Florida operating address; phone)",
+  "American Fasteners (americanfasteners.com, article link; Florida operating address; phone; the $39M in the headline is a deal value, not revenue)",
+  "Health Network One (Emboss Specialty), Mainline, Moneysolver — carried"
+ ],
+ "faults_added": [
+  45
+ ],
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window seven ruling: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window seven delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "window": {
+  "launch_utc": "2026-10-30T22:41:25.536380+00:00",
+  "run_start_utc": "2026-10-30",
+  "run_end_utc": "2026-10-30",
+  "straddled_midnight_utc": false,
+  "reads": 22
+ },
+ "proofs": [
+  "reports/w7-pattern-proof.json (v3: build 9 of 9, held-out 7 of 8, thin)",
+  "reports/w7-per-url-record.json",
+  "reports/w7-engine.json"
+ ],
+ "instruments": "no page changed",
+ "reversal": "naming3.py and window7.py new; window-scoped files",
+ "changed_files": {
+  "naming3.py": {
+   "bytes": 6700,
+   "blob": "66defceba0",
+   "sha256": "cab88e30a698b5b7"
+  },
+  "window7.py": {
+   "bytes": 17242,
+   "blob": "b7e2c08d8a",
+   "sha256": "3a9fe10373bb5f16"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 663494,
+   "blob": "6ae133890d",
+   "sha256": "d7f09b2981408475"
+  },
+  "florida100-window7-log.jsonl": {
+   "bytes": 6927,
+   "blob": "2ae793a5c1",
+   "sha256": "eff315dc508625d0"
+  },
+  "bot-config.json": {
+   "bytes": 1417,
+   "blob": "86a9c2dcea",
+   "sha256": "7fce52452b50b702"
+  },
+  "founders-roster.json": {
+   "bytes": 36318,
+   "blob": "c4e6fec150",
+   "sha256": "fd4f2a2fe10e8540"
+  }
+ }
+}

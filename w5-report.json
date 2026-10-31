@@ -1,0 +1,340 @@
+{
+ "HEAD": {
+  "stop": "UNBOUND STOP FIRED mid-window: 3 unbound of 12 processed (25%, over 20% once 10 processed); split: all 3 headline-unmatched (a company is named; the patterns did not bind it) — the pattern set, not the feed query",
+  "count_after_naming": {
+   "started_from": 13,
+   "re_read": 12,
+   "refused": 1,
+   "bound_by_pattern": 9,
+   "unbound": 3,
+   "disputed": 0,
+   "on_inspection": "of the 9 bound, 5 are not company names and 2 name companies the articles place outside Florida; 1 (MaxHealth) names a Florida target; Hilb Group is a real company bound as the target when it is the acquirer"
+  },
+  "admitted_this_window": 0,
+  "running_count_against_100": 0,
+  "confirmed": 0,
+  "ceiling_line": "reads spent 38; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)",
+  "feed_quality": {
+   "baseline": "13 of 39 read (window three)",
+   "this_window": "the 13 only: 12 read, 1 refused (net), 12 reached binding by construction (they were window three’s binding candidates); the widened queries were not reached — the stop fired first"
+  },
+  "proof_fetch": "the site-ownership proof shares the test-1 fetch: zero additional reads"
+ },
+ "run": "Florida 100 — Part B, window five",
+ "step_executed": "window five as ruled (clean-day gate struck); one pass, stopped mid-window by the unbound stop",
+ "window": {
+  "launch_utc": "2026-10-30T21:59:21.776468+00:00",
+  "run_start_utc": "2026-10-30",
+  "run_end_utc": "2026-10-30",
+  "straddled_midnight_utc": false,
+  "reads": 38,
+  "by_source": {
+   "wikipedia": 4,
+   "floridatrend:search": 4,
+   "floridatrend:article": 4,
+   "proof:hig": 4,
+   "gnews_rss:revenue": 3,
+   "gnews_rss:article": 3,
+   "inc5000:search": 3,
+   "gnews_rss:reread": 13
+  },
+  "outcomes": {
+   "read": 33,
+   "refused 403": 3,
+   "refused 503": 1,
+   "refused net": 1
+  }
+ },
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window five ruling: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window five delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "revenue_class_on_the_four": {
+  "Avi Spl": {
+   "figure": {
+    "value": 804700000.0,
+    "span": "32, $804.7 million revenue D) AVI-SPL / Tampa: Private No.",
+    "source": "Florida Trend",
+    "url": "https://www.floridatrend.com/article/1928/more-about-floridas-top-private-companies/",
+    "read": "2026-10-30",
+    "published": null
+   },
+   "routes": [
+    {
+     "source": "Wikipedia search",
+     "url": "en.wikipedia.org search",
+     "result": "article without a revenue figure"
+    },
+    {
+     "source": "Florida Trend search",
+     "result": "figure found"
+    }
+   ]
+  },
+  "Health Network One": {
+   "figure": null,
+   "routes": [
+    {
+     "source": "Wikipedia search",
+     "url": "en.wikipedia.org search",
+     "result": "no article matched — not a size reading"
+    },
+    {
+     "source": "Florida Trend search",
+     "result": "articles read; no sentence naming the company with a revenue figure"
+    },
+    {
+     "source": "Google News RSS",
+     "result": "2 items; none with a sentence naming the company and a revenue figure"
+    },
+    {
+     "source": "Inc. 5000 search",
+     "result": "refused (403)"
+    }
+   ]
+  },
+  "Mainline": {
+   "figure": null,
+   "routes": [
+    {
+     "source": "Wikipedia search",
+     "url": "en.wikipedia.org search",
+     "result": "article without a revenue figure"
+    },
+    {
+     "source": "Florida Trend search",
+     "result": "articles read; no sentence naming the company with a revenue figure"
+    },
+    {
+     "source": "Google News RSS",
+     "result": "refused (503)"
+    },
+    {
+     "source": "Inc. 5000 search",
+     "result": "refused (403)"
+    }
+   ]
+  },
+  "Moneysolver": {
+   "figure": null,
+   "routes": [
+    {
+     "source": "Wikipedia search",
+     "url": "en.wikipedia.org search",
+     "result": "no article matched — not a size reading"
+    },
+    {
+     "source": "Florida Trend search",
+     "result": "no article link for the name — not a size reading"
+    },
+    {
+     "source": "Google News RSS",
+     "result": "1 items; none with a sentence naming the company and a revenue figure"
+    },
+    {
+     "source": "Inc. 5000 search",
+     "result": "refused (403)"
+    }
+   ]
+  }
+ },
+ "the_four_now": {
+  "AVI-SPL": "BAND-REJECTED at test 1: published revenue $804.7M above the Private Equity ceiling of $100M (Src: floridatrend.com/article/1928/more-about-floridas-top-private-companies/ · read 2026-10-30; Florida Trend’s top private companies). Site proved (og:site_name “AVI-SPL”).",
+  "Health Network One": "held size-unsourced; site proved (title “Emboss Specialty formerly Health Network One” — the company has been renamed); routes tried: Wikipedia (no article, not a size reading), Florida Trend (no sentence with a figure), Google News (2 items, no figure), Inc. 5000 (403)",
+  "Mainline": "held size-unsourced; site proved (“Mainline Information Systems”); Wikipedia article carries no revenue figure; Florida Trend no figure; Google News 503; Inc. 5000 403",
+  "Moneysolver": "held size-unsourced; site proved (“MoneySolver”); no route carried a figure; Inc. 5000 403"
+ },
+ "the_13": [
+  {
+   "key": "Acquisitions:gnews_rss:0",
+   "state": "bound",
+   "bound": "Finally’s bookkeeping division",
+   "pattern": "ACQ: {acquirer} acquires {company}",
+   "span": "Inkle acquires Finally’s bookkeeping division",
+   "split": null,
+   "inspection": "a division, not a company (ruling 12’s named case)"
+  },
+  {
+   "key": "Acquisitions:gnews_rss:1",
+   "state": "bound",
+   "bound": "Jack Brown’s",
+   "pattern": "ACQ: {company} acquired by {acquirer}",
+   "span": "Jack Brown’s acquired by Florida investment firm",
+   "split": null,
+   "inspection": "a company; the article places it in Virginia (the acquirer is Florida-based)"
+  },
+  {
+   "key": "Acquisitions:gnews_rss:2",
+   "state": "refused (net)",
+   "bound": null,
+   "pattern": null,
+   "span": null,
+   "split": null,
+   "inspection": ""
+  },
+  {
+   "key": "Acquisitions:gnews_rss:3",
+   "state": "unbound",
+   "bound": null,
+   "pattern": null,
+   "span": null,
+   "split": "headline-unmatched (a company is named; the patterns did not bind it)",
+   "inspection": ""
+  },
+  {
+   "key": "Acquisitions:gnews_rss:4",
+   "state": "bound",
+   "bound": "Hilb Group",
+   "pattern": "FRAC: {company} expands/opens",
+   "span": "Hilb Group expands",
+   "split": null,
+   "inspection": "a company, but the acquirer; bound by the expansion pattern; the Florida target is unnamed in the headline"
+  },
+  {
+   "key": "Acquisitions:gnews_rss:5",
+   "state": "bound",
+   "bound": "MaxHealth",
+   "pattern": "ACQ: {acquirer} acquires {company}",
+   "span": "CenterWell completes acquisition of MaxHealth",
+   "split": null,
+   "inspection": "a company and the Florida target"
+  },
+  {
+   "key": "Acquisitions:gnews_rss:6",
+   "state": "bound",
+   "bound": "The addition of FISC further",
+   "pattern": "FRAC: {company} expands/opens",
+   "span": "The addition of FISC further expands",
+   "split": null,
+   "inspection": "not a company: a body clause bound by the expansion pattern; the headline’s target (Florida Industrial Scale Co.) went unmatched"
+  },
+  {
+   "key": "Acquisitions:gnews_rss:7",
+   "state": "bound",
+   "bound": "AAA Heating & Air",
+   "pattern": "ACQ: {acquirer} acquires {company}",
+   "span": "Florida company acquires AAA Heating & Air",
+   "split": null,
+   "inspection": "a company; the article (Spokane Journal) places it outside Florida; the acquirer is “Florida company”"
+  },
+  {
+   "key": "Acquisitions:gnews_rss:8",
+   "state": "bound",
+   "bound": "Florida WTE facility - Waste Today -",
+   "pattern": "ACQ: {acquirer} acquires {company}",
+   "span": "FCC completes acquisition of Florida WTE facility - Waste Today -",
+   "split": null,
+   "inspection": "not a company: a facility, with the publisher suffix unstripped"
+  },
+  {
+   "key": "Acquisitions:gnews_rss:9",
+   "state": "bound",
+   "bound": "CT registered investment advisor firm",
+   "pattern": "ACQ: {company} acquired by {acquirer}",
+   "span": "CT registered investment advisor firm acquired by Florida wealth management company",
+   "split": null,
+   "inspection": "not a company name: a generic phrase"
+  },
+  {
+   "key": "Acquisitions:gnews_rss:10",
+   "state": "bound",
+   "bound": "We plan",
+   "pattern": "FRAC: {company} expands/opens",
+   "span": "We plan to expand",
+   "split": null,
+   "inspection": "not a company: a pronoun clause bound by the expansion pattern"
+  },
+  {
+   "key": "Acquisitions:gnews_rss:11",
+   "state": "unbound",
+   "bound": null,
+   "pattern": null,
+   "span": null,
+   "split": "headline-unmatched (a company is named; the patterns did not bind it)",
+   "inspection": ""
+  },
+  {
+   "key": "Acquisitions:gnews_rss:12",
+   "state": "unbound",
+   "bound": null,
+   "pattern": null,
+   "span": null,
+   "split": "headline-unmatched (a company is named; the patterns did not bind it)",
+   "inspection": ""
+  }
+ ],
+ "what_produced_the_stop": "the pattern set is case-sensitive on the verb and was proved only on sentence-case text; Google News headlines are title case (“Groundworks Acquires Florida-Based Alpha Foundations”, “The Mosaic Company to Acquire Florida Phosphate Business”, “Florida Sports Ownership Company Acquires…” — the last refused before binding). The same set binds silently wrong where it does match: a division, a facility, a generic phrase, and clauses (“We plan”, “The addition of FISC further”) through the expansion pattern. Disputed binds read 0 because the body rarely bound a second name to compare — so the dispute check never ran on most rows, which is the gap ruling 18 named. The patterns re-open before the next window; the repair is a pattern set proved first on a planted corpus of live title-case headlines (the 13 are that corpus) with the expansion pattern removed from naming.",
+ "parked": {
+  "inc5000": "parked for the window: 3 consecutive refusals (last 403)"
+ },
+ "faults_added": [
+  41
+ ],
+ "proofs": [
+  "reports/w5-site-proof.json (site proof, four planted pages with classes, PASSED; same fetch, zero cost)",
+  "reports/w5-per-url-record.json",
+  "reports/w5-engine.json"
+ ],
+ "instruments": "no page changed this window",
+ "reversal": "window-scoped files; naming.py gained prove_site; the queue gained fields on the four and the 13",
+ "changed_files": {
+  "naming.py": {
+   "bytes": 6334,
+   "blob": "66295b2f28",
+   "sha256": "5a6e63666d966330"
+  },
+  "window5.py": {
+   "bytes": 18292,
+   "blob": "cac3851c62",
+   "sha256": "f8a61be1c104ea49"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 639823,
+   "blob": "92cdba7ac6",
+   "sha256": "8f355ce9e4ea38d0"
+  },
+  "florida100-window5-log.jsonl": {
+   "bytes": 13288,
+   "blob": "351615e311",
+   "sha256": "7c9f1825dc4326f7"
+  },
+  "bot-config.json": {
+   "bytes": 1427,
+   "blob": "d3cf629bbe",
+   "sha256": "bb3da16cca795d83"
+  },
+  "founders-roster.json": {
+   "bytes": 32880,
+   "blob": "0407761b36",
+   "sha256": "0e1aa8f37a29c9e2"
+  }
+ }
+}

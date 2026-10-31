@@ -1,0 +1,271 @@
+{
+ "split": "by arrival, fixed before v4: build = the 17 seen in windows three and six (the and-joined truncation included, per the Chair), prove = window seven’s 4 unseen",
+ "build": "17 of 17",
+ "held_out": "4 of 4",
+ "thin": "4 held-out headlines: a thin proof; it shows v4 binds these 4, not the feed",
+ "results_build": [
+  {
+   "headline": "Inkle acquires Finally’s bookkeeping division and sets sights on South Florida growth - Re",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "Finally’s bookkeeping division"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
+   "expected": [
+    "bound",
+    "Jack Brown’s"
+   ],
+   "got": [
+    "bound",
+    "Jack Brown’s"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsville Busin",
+   "expected": [
+    "bound",
+    "Havoc"
+   ],
+   "got": [
+    "bound",
+    "Havoc"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Florida-based NextEra agrees to $67B Dominion Energy acquisition - VPM",
+   "expected": [
+    "bound",
+    "Dominion Energy"
+   ],
+   "got": [
+    "bound",
+    "Dominion Energy"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Hilb Group expands Southeast footprint with Florida commercial P&C acquisition - Insurance",
+   "expected": [
+    "unbound",
+    null
+   ],
+   "got": [
+    "unbound",
+    null
+   ],
+   "pass": true
+  },
+  {
+   "headline": "CenterWell completes acquisition of MaxHealth in Florida - The Lane Report",
+   "expected": [
+    "bound",
+    "MaxHealth"
+   ],
+   "got": [
+    "bound",
+    "MaxHealth"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Michelli Weighing & Measurement Announces Acquisition of Florida Industrial Scale Co. - Ne",
+   "expected": [
+    "bound",
+    "Florida Industrial Scale Co"
+   ],
+   "got": [
+    "bound",
+    "Florida Industrial Scale Co"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Florida company acquires AAA Heating & Air - Spokane Journal of Business",
+   "expected": [
+    "bound",
+    "AAA Heating & Air"
+   ],
+   "got": [
+    "bound",
+    "AAA Heating & Air"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "FCC completes acquisition of Florida WTE facility - Waste Today -",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "Florida WTE facility"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "CT registered investment advisor firm acquired by Florida wealth management company - Hart",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "CT registered investment advisor firm"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Synergos Companies Expands into Florida with Acquisition of ODC Construction - PR Newswire",
+   "expected": [
+    "bound",
+    "ODC Construction"
+   ],
+   "got": [
+    "bound",
+    "ODC Construction"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Groundworks Acquires Florida-Based Alpha Foundations - PR Newswire",
+   "expected": [
+    "bound",
+    "Alpha Foundations"
+   ],
+   "got": [
+    "bound",
+    "Alpha Foundations"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "The Mosaic Company to Acquire Florida Phosphate Business From CF Industries for $1.2 Billi",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "Florida Phosphate Business"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Bertram Capital Acquires Florida-Based Percopo Coatings Company With Generational Group Ad",
+   "expected": [
+    "bound",
+    "Percopo Coatings Company"
+   ],
+   "got": [
+    "bound",
+    "Percopo Coatings Company"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Fengate Private Equity takes majority stake in Florida clinical research network CRWF - PE",
+   "expected": [
+    "bound",
+    "CRWF"
+   ],
+   "got": [
+    "bound",
+    "CRWF"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Florida SBA appoints John Bradley to head private markets investments - PEI Private Equity",
+   "expected": [
+    "unbound",
+    null
+   ],
+   "got": [
+    "unbound",
+    null
+   ],
+   "pass": true
+  },
+  {
+   "headline": "BH Group and Gold Standard of Care Acquire Naples Senior Living and Skilled Nursing Campus",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "Naples Senior Living and Skilled Nursing Campus"
+   ],
+   "pass": true
+  }
+ ],
+ "results_held_out": [
+  {
+   "headline": "DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of ",
+   "expected": [
+    "bound",
+    "American Fasteners"
+   ],
+   "got": [
+    "bound",
+    "American Fasteners"
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Private Equity’s Florida Takeover: Why Your AC, Plumbing & Rent Costs Keep Soaring - Mediu",
+   "expected": [
+    "unbound",
+    null
+   ],
+   "got": [
+    "unbound",
+    null
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Florida SBA meeting takes aim at limits of private equity benchmarks - PEI Private Equity",
+   "expected": [
+    "unbound",
+    null
+   ],
+   "got": [
+    "unbound",
+    null
+   ],
+   "pass": true
+  },
+  {
+   "headline": "Florida Tech Names New Vice President for Administration and Finance/Chief Financial Offic",
+   "expected": [
+    "unbound",
+    null
+   ],
+   "got": [
+    "unbound",
+    null
+   ],
+   "pass": true
+  }
+ ],
+ "parked_page_proof": {
+  "planted_parked_page_refused": true,
+  "planted_real_page_proved": true,
+  "classes": [
+   "parked or for-sale page echoing the name / the company’s own page"
+  ],
+  "chosen_before_the_route_runs": true
+ },
+ "result": "PASSED"
+}

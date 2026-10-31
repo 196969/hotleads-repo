@@ -1,0 +1,246 @@
+{
+ "corpus": "17 headlines that reached binding (window three’s 13, then window six’s 4), split by arrival and fixed before any pattern was touched: build = the older 9, prove = the newer 8",
+ "labels": "set from the headline text before v3 was built; recorded",
+ "build_9": [
+  {
+   "headline": "Inkle acquires Finally’s bookkeeping division and sets sights on South Florida growth - Re",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "Finally’s bookkeeping division"
+   ],
+   "pattern": "{acquirer} acquire(s) {company}",
+   "pass": true
+  },
+  {
+   "headline": "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
+   "expected": [
+    "bound",
+    "Jack Brown’s"
+   ],
+   "got": [
+    "bound",
+    "Jack Brown’s"
+   ],
+   "pattern": "{company} acquired by {acquirer}",
+   "pass": true
+  },
+  {
+   "headline": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsville Busin",
+   "expected": [
+    "bound",
+    "Havoc"
+   ],
+   "got": [
+    "bound",
+    "Havoc"
+   ],
+   "pattern": "{acquirer} takes/acquires a stake in {company}",
+   "pass": true
+  },
+  {
+   "headline": "Florida-based NextEra agrees to $67B Dominion Energy acquisition - VPM",
+   "expected": [
+    "bound",
+    "Dominion Energy"
+   ],
+   "got": [
+    "bound",
+    "Dominion Energy"
+   ],
+   "pattern": "{acquirer} agrees to $X {company} acquisition",
+   "pass": true
+  },
+  {
+   "headline": "Hilb Group expands Southeast footprint with Florida commercial P&C acquisition - Insurance",
+   "expected": [
+    "unbound",
+    null
+   ],
+   "got": [
+    "unbound",
+    null
+   ],
+   "pattern": null,
+   "pass": true
+  },
+  {
+   "headline": "CenterWell completes acquisition of MaxHealth in Florida - The Lane Report",
+   "expected": [
+    "bound",
+    "MaxHealth"
+   ],
+   "got": [
+    "bound",
+    "MaxHealth"
+   ],
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "pass": true
+  },
+  {
+   "headline": "Michelli Weighing & Measurement Announces Acquisition of Florida Industrial Scale Co. - Ne",
+   "expected": [
+    "bound",
+    "Florida Industrial Scale Co"
+   ],
+   "got": [
+    "bound",
+    "Florida Industrial Scale Co"
+   ],
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "pass": true
+  },
+  {
+   "headline": "Florida company acquires AAA Heating & Air - Spokane Journal of Business",
+   "expected": [
+    "bound",
+    "AAA Heating & Air"
+   ],
+   "got": [
+    "bound",
+    "AAA Heating & Air"
+   ],
+   "pattern": "{acquirer} acquire(s) {company}",
+   "pass": true
+  },
+  {
+   "headline": "FCC completes acquisition of Florida WTE facility - Waste Today -",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "Florida WTE facility"
+   ],
+   "pattern": "{acquirer} completes/announces acquisition of {company}",
+   "pass": true
+  }
+ ],
+ "held_out_8": [
+  {
+   "headline": "CT registered investment advisor firm acquired by Florida wealth management company - Hart",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "CT registered investment advisor firm"
+   ],
+   "pattern": "{company} acquired by {acquirer}",
+   "pass": true
+  },
+  {
+   "headline": "Synergos Companies Expands into Florida with Acquisition of ODC Construction - PR Newswire",
+   "expected": [
+    "bound",
+    "ODC Construction"
+   ],
+   "got": [
+    "bound",
+    "ODC Construction"
+   ],
+   "pattern": "{acquirer} expands into ... with acquisition of {company}",
+   "pass": true
+  },
+  {
+   "headline": "Groundworks Acquires Florida-Based Alpha Foundations - PR Newswire",
+   "expected": [
+    "bound",
+    "Alpha Foundations"
+   ],
+   "got": [
+    "bound",
+    "Alpha Foundations"
+   ],
+   "pattern": "{acquirer} acquire(s) {company}",
+   "pass": true
+  },
+  {
+   "headline": "The Mosaic Company to Acquire Florida Phosphate Business From CF Industries for $1.2 Billi",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "rejected",
+    "Florida Phosphate Business"
+   ],
+   "pattern": "{acquirer} acquire(s) {company}",
+   "pass": true
+  },
+  {
+   "headline": "Bertram Capital Acquires Florida-Based Percopo Coatings Company With Generational Group Ad",
+   "expected": [
+    "bound",
+    "Percopo Coatings Company"
+   ],
+   "got": [
+    "bound",
+    "Percopo Coatings Company"
+   ],
+   "pattern": "{acquirer} acquire(s) {company}",
+   "pass": true
+  },
+  {
+   "headline": "Fengate Private Equity takes majority stake in Florida clinical research network CRWF - PE",
+   "expected": [
+    "bound",
+    "CRWF"
+   ],
+   "got": [
+    "bound",
+    "CRWF"
+   ],
+   "pattern": "{acquirer} takes/acquires a stake in {company}",
+   "pass": true
+  },
+  {
+   "headline": "Florida SBA appoints John Bradley to head private markets investments - PEI Private Equity",
+   "expected": [
+    "unbound",
+    null
+   ],
+   "got": [
+    "unbound",
+    null
+   ],
+   "pattern": null,
+   "pass": true
+  },
+  {
+   "headline": "BH Group and Gold Standard of Care Acquire Naples Senior Living and Skilled Nursing Campus",
+   "expected": [
+    "rejected",
+    null
+   ],
+   "got": [
+    "bound",
+    "Naples Senior Living"
+   ],
+   "pattern": "{acquirer} acquire(s) {company}",
+   "pass": false
+  }
+ ],
+ "build_result": "9 of 9",
+ "held_out_result": "7 of 8",
+ "thin": "8 held-out headlines is a thin proof; it shows the repairs generalise to these 8, not to the feed",
+ "derived_host_examples": [
+  [
+   "alphafoundations.com",
+   "alpha-foundations.com"
+  ],
+  [
+   "percopocoatings.com",
+   "percopo-coatings.com"
+  ],
+  [
+   "maxhealth.com"
+  ]
+ ],
+ "result": "FAILED"
+}

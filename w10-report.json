@@ -1,0 +1,577 @@
+{
+ "CLOSE": {
+  "admitted": 0,
+  "running_count_against_100": 0,
+  "confirmed": 0,
+  "wrongness": "3 counted, all fault 50 (the publisher’s own host offered as an article link); 0 wrong binds",
+  "reads_spent": "reads spent 135; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)",
+  "window": "ran to completion: no stop halted the window; no queue halt was needed"
+ },
+ "1_rescan": {
+  "bodies_scanned": 146,
+  "by_window": {
+   "6": 24,
+   "7": 16,
+   "8": 42,
+   "9": 64
+  },
+  "revenue_sentences_by_subject": {
+   "Mainline": [
+    {
+     "file": "w9-bodies/7afd6d2c230a.html",
+     "sentence": "However, Tallahassee, Fla.-based public radio station WFSU said Mainline has annual revenue of over $1 billion."
+    }
+   ]
+  },
+  "held_subjects_with_a_figure": [],
+  "rate": {
+   "revenue_class_reads_from_window_six_on": 77,
+   "figures_landed": 1,
+   "reading": "1 figure (Mainline, a reject) per 77 revenue-class reads across 5 subjects, windows eight and nine; window six and seven bodies carry no revenue sentence for any subject"
+  },
+  "outside_the_rate": "window five’s revenue negatives for Health Network One, Mainline and Moneysolver (Wikipedia, Florida Trend search and article reads, Google News) were read before the read-and-file rule; no body was kept; they are unrecoverable without re-reading and are not part of this rate"
+ },
+ "2_detector": {
+  "one_definition": "naming6.detector_unified imports naming5.TOK and naming5.VERB — the precondition’s definition, not a second one",
+  "precondition_on_the_keep_set": {
+   "bound_headlines": 16,
+   "false_rejections": 0
+  },
+  "precondition_on_the_stop_set": {
+   "unbound_headlines": 15,
+   "stopped": 5
+  },
+  "detector_on_the_unbound_set": [
+   {
+    "headline": "Hilb Group expands Southeast footprint with Florida commercial P&C acquisition - Insurance",
+    "company_named": true
+   },
+   {
+    "headline": "Fengate Private Equity takes majority stake in Florida clinical research network CRWF - PE",
+    "company_named": true
+   },
+   {
+    "headline": "Florida SBA appoints John Bradley to head private markets investments - PEI Private Equity",
+    "company_named": true
+   },
+   {
+    "headline": "BH Group and Gold Standard of Care Acquire Naples Senior Living and Skilled Nursing Campus",
+    "company_named": true
+   },
+   {
+    "headline": "Private Equity’s Florida Takeover: Why Your AC, Plumbing & Rent Costs Keep Soaring - Mediu",
+    "company_named": false
+   },
+   {
+    "headline": "Florida SBA meeting takes aim at limits of private equity benchmarks - PEI Private Equity",
+    "company_named": false
+   },
+   {
+    "headline": "Florida Tech Names New Vice President for Administration and Finance/Chief Financial Offic",
+    "company_named": true
+   },
+   {
+    "headline": "Florida fund shines light on Southeast - PEI Private Equity",
+    "company_named": false
+   },
+   {
+    "headline": "Top 10 Private Equity Firms in Tampa 2026 - www.dakota.com",
+    "company_named": false
+   },
+   {
+    "headline": "Brasswater Expands Florida Hotel Portfolio With US$48M Acquisition - Connect CRE Canada",
+    "company_named": true
+   },
+   {
+    "headline": "A ‘watchdog,’ not a ‘lapdog’: Annette Taddeo is running to unseat Blaise Ingoglia as CFO -",
+    "company_named": false
+   },
+   {
+    "headline": "Garyline Receives Private Equity Investment, Completes Move to Florida - members.asicentra",
+    "company_named": true
+   },
+   {
+    "headline": "Construction Partners, Inc. Completes Florida Acquisition - Yahoo Finance",
+    "company_named": true
+   },
+   {
+    "headline": "Barry University Names Ron Steiger as New Vice President for Business and Finance & Chief ",
+    "company_named": true
+   },
+   {
+    "headline": "Tampa Bay EDC names chief financial officer - TBBW",
+    "company_named": true
+   }
+  ],
+  "garyline_now_seen": true,
+  "classes": [
+   "a company named without a legal suffix / with one",
+   "a headline naming no company",
+   "an institution (university, development body) that is company-shaped but not a company — the shared definition cannot tell these apart, stated rather than hidden"
+  ],
+  "result": "PASSED"
+ },
+ "3_queries": {
+  "figures": {
+   "articles_read": 29,
+   "carrying_a_dated_florida_signal": 9,
+   "reaching_binding": 9,
+   "site_found_by_article_link": 0,
+   "site_found_by_derived_host": 1,
+   "no_site_found_by_any_route": "6 (4 of them are properties, not companies — fault 51)",
+   "precondition_stopped_before_any_read": 66
+  },
+  "routes_tried": [
+   {
+    "company": "InterContinental Miami",
+    "tried": [
+     {
+      "route": "article link",
+      "host": "https://hotelmanagement.net/",
+      "outcome": "refused (403)"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.intercontinentalmiami.com/",
+      "outcome": "refused (503)"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.intercontinental-miami.com/",
+      "outcome": "refused (503)"
+     }
+    ]
+   },
+   {
+    "company": "SeaWorld",
+    "tried": [
+     {
+      "route": "article link",
+      "host": "https://floridapolitics.com/",
+      "outcome": "resolved but failed the proof"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.seaworld.com/",
+      "outcome": "proved"
+     }
+    ]
+   },
+   {
+    "company": "Westshore Grand Hotel",
+    "tried": [
+     {
+      "route": "derived host",
+      "host": "https://www.westshoregrandhotel.com/",
+      "outcome": "refused (503)"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.westshore-grand-hotel.com/",
+      "outcome": "did not resolve"
+     }
+    ]
+   },
+   {
+    "company": "Marino Performance Motors",
+    "tried": [
+     {
+      "route": "derived host",
+      "host": "https://www.marinoperformancemotors.com/",
+      "outcome": "refused (403)"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.marino-performance-motors.com/",
+      "outcome": "did not resolve"
+     }
+    ]
+   },
+   {
+    "company": "Naples Bay Resort & Marina",
+    "tried": [
+     {
+      "route": "article link",
+      "host": "https://hotelbusiness.com/",
+      "outcome": "resolved but failed the proof"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.naplesbayresortmarina.com/",
+      "outcome": "did not resolve"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.naples-bay-resort-marina.com/",
+      "outcome": "did not resolve"
+     }
+    ]
+   },
+   {
+    "company": "200-Unit Pensacola Apartment Community",
+    "tried": [
+     {
+      "route": "article link",
+      "host": "https://world.einnews.com/",
+      "outcome": "refused (403)"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.200unitpensacolaapartmentcommunity.com/",
+      "outcome": "did not resolve"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.200unit-pensacola-apartment-community.com/",
+      "outcome": "did not resolve"
+     }
+    ]
+   },
+   {
+    "company": "Lawn Enforcement Agency",
+    "tried": [
+     {
+      "route": "article link",
+      "host": "https://events.lawnandlandscape.com/",
+      "outcome": "resolved but failed the proof"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.lawnenforcementagency.com/",
+      "outcome": "resolved but failed the proof"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.lawn-enforcement-agency.com/",
+      "outcome": "did not resolve"
+     }
+    ]
+   }
+  ],
+  "per_query": {
+   "\"Miami\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 1,
+    "reaching_binding": 1,
+    "precondition_stopped": 0
+   },
+   "\"Tampa\" \"private equity\"": {
+    "practice": "Private Equity",
+    "articles_read": 2,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 31
+   },
+   "\"Orlando\" company names CFO": {
+    "practice": "Fractionals",
+    "articles_read": 1,
+    "florida_signal": 1,
+    "reaching_binding": 1,
+    "precondition_stopped": 0
+   },
+   "\"Fort Lauderdale\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 0
+   },
+   "\"Orlando\" \"private equity\"": {
+    "practice": "Private Equity",
+    "articles_read": 0,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 17
+   },
+   "\"Jacksonville\" company names CFO": {
+    "practice": "Fractionals",
+    "articles_read": 1,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 4
+   },
+   "\"Tampa\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 1,
+    "reaching_binding": 1,
+    "precondition_stopped": 1
+   },
+   "\"Jacksonville\" \"private equity\"": {
+    "practice": "Private Equity",
+    "articles_read": 1,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 12
+   },
+   "\"Orlando\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 0
+   },
+   "\"Jacksonville\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 2,
+    "reaching_binding": 2,
+    "precondition_stopped": 0
+   },
+   "\"West Palm Beach\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 1,
+    "reaching_binding": 1,
+    "precondition_stopped": 0
+   },
+   "\"Sarasota\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 1
+   },
+   "\"Naples\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 1,
+    "reaching_binding": 1,
+    "precondition_stopped": 0
+   },
+   "\"Fort Myers\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 1,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 0
+   },
+   "\"Pensacola\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 1,
+    "reaching_binding": 1,
+    "precondition_stopped": 0
+   },
+   "\"Tallahassee\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 1,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 0
+   },
+   "\"Gainesville\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 1,
+    "reaching_binding": 1,
+    "precondition_stopped": 0
+   },
+   "\"Lakeland\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 2,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 0
+   },
+   "\"Ocala\" company acquired": {
+    "practice": "Acquisitions",
+    "articles_read": 0,
+    "florida_signal": 0,
+    "reaching_binding": 0,
+    "precondition_stopped": 0
+   }
+  },
+  "counts": {
+   "processed": 9,
+   "wrong": 3,
+   "unbound": 1,
+   "unbound:headline-unmatched (": 1,
+   "disputed": 1
+  },
+  "new": [
+   {
+    "practice": "Acquisitions",
+    "headline": "Gencom-led group acquires InterContinental Miami - Hotel Management",
+    "state": "bound",
+    "bound": "InterContinental Miami",
+    "status": "no site found by any route (routes on the row) — held; a fact about the guesses"
+   },
+   {
+    "practice": "Fractionals",
+    "headline": "SeaWorld names new CFO - Florida Politics",
+    "state": "bound",
+    "bound": "SeaWorld",
+    "status": "site proved (derived host); passes tests 1, 2 and 5; held size-unsourced"
+   },
+   {
+    "practice": "Acquisitions",
+    "headline": "Westshore Grand Hotel Acquired by Tampa Developer, Major Renovations Planned - TBBW",
+    "state": "bound",
+    "bound": "Westshore Grand Hotel",
+    "status": "no site found by any route (routes on the row) — held; a fact about the guesses"
+   },
+   {
+    "practice": "Acquisitions",
+    "headline": "Business Park Acquired in Jacksonville, Company Expands Local Footprint - West Orlando News",
+    "state": "unbound",
+    "bound": "",
+    "status": "unbound"
+   },
+   {
+    "practice": "Acquisitions",
+    "headline": "Merritt Properties Acquires 538,000-Square-Foot Jacksonville Industrial Park in Largest Deal to Date - citybiz",
+    "state": "bind disputed",
+    "bound": "",
+    "status": "bind disputed — held"
+   },
+   {
+    "practice": "Acquisitions",
+    "headline": "Marshall Goldman Acquires Marino Performance Motors, Expands into Florida - citybiz",
+    "state": "bound",
+    "bound": "Marino Performance Motors",
+    "status": "no site found by any route (routes on the row) — held; a fact about the guesses"
+   },
+   {
+    "practice": "Acquisitions",
+    "headline": "Pyramid Global JV acquires Naples Bay Resort & Marina - hotelbusiness.com",
+    "state": "bound",
+    "bound": "Naples Bay Resort & Marina",
+    "status": "no site found by any route (routes on the row) — held; a fact about the guesses"
+   },
+   {
+    "practice": "Acquisitions",
+    "headline": "Bowden Companies Acquires 200-Unit Pensacola Apartment Community, Rebrands It as The Maren - EIN Presswire",
+    "state": "bound",
+    "bound": "200-Unit Pensacola Apartment Community",
+    "status": "no site found by any route (routes on the row) — held; a fact about the guesses"
+   },
+   {
+    "practice": "Acquisitions",
+    "headline": "HighGrove Partners acquires Lawn Enforcement Agency in Florida - Lawn & Landscape",
+    "state": "bound",
+    "bound": "Lawn Enforcement Agency",
+    "status": "no site found by any route (routes on the row) — held; a fact about the guesses"
+   }
+  ]
+ },
+ "4_directory": {
+  "FRLA": "answered — declared as a finder; no candidates",
+  "AGC chapters": "refused (404) — parked under its code",
+  "H.I.G. entries": {
+   "read": 55,
+   "florida_by_location_field": 6,
+   "no_site_by_any_route": 4
+  }
+ },
+ "5_memorial": {
+  "route": "Wikipedia search (third-party; the home page read in window nine states no ownership form)",
+  "read": "2026-10-30",
+  "finding": null,
+  "reading": "article read; no ownership form stated — unresolved"
+ },
+ "held_size_unsourced_passing_1_2_5": [
+  "American Fasteners",
+  "Health Network One (Emboss Specialty)",
+  "Moneysolver",
+  "Alpha Foundations",
+  "Palm Medical Centers",
+  "SeaWorld (new; seaworld.com, derived host; its CFO appointment the Fractionals signal)"
+ ],
+ "faults": [
+  {
+   "fault": 50,
+   "line": "a candidate route that includes the reporter’s own host measures the reporter, not the company",
+   "note": "all 3 wrongness counts this window were the publisher’s own host offered as an “article link” because a link on its page carried the name (floridapolitics.com for SeaWorld, hotelbusiness.com for Naples Bay Resort, events.lawnandlandscape.com for Lawn Enforcement Agency); the stop counted the route’s link-picking, not wrong binds. Repair: an article-link candidate must point off the publisher’s host"
+  },
+  {
+   "fault": 51,
+   "line": "a property is not a company; a pattern that binds an asset sale counts a building as a candidate",
+   "note": "four binds this window name properties, not companies: InterContinental Miami, Westshore Grand Hotel, Naples Bay Resort & Marina, “200-Unit Pensacola Apartment Community”; each then counts toward “no site found by any route”, inflating the figure the Chair’s decision point reads with non-companies. Repair: hotel, resort, marina, apartment community, industrial park, business park and property tails rejected as non-company spans, proved on these four (build) and held out on the next window’s"
+  },
+  {
+   "fault": "49 closed",
+   "line": "one definition of a company, imported by the detector from the precondition",
+   "note": "Garyline is now seen; an institution (a university, a development body) is company-shaped and the shared definition cannot tell it apart — stated in the proof, not hidden"
+  }
+ ],
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window ten ruling: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window ten delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "window": {
+  "launch_utc": "2026-10-30T23:36:31.114647+00:00",
+  "run_start_utc": "2026-10-30",
+  "run_end_utc": "2026-10-30",
+  "straddled_midnight_utc": false
+ },
+ "proofs": [
+  "reports/w10-rescan.json",
+  "reports/w10-detector-proof.json",
+  "reports/w10-per-url-record.json",
+  "reports/w10-engine.json"
+ ],
+ "instruments": "no page changed",
+ "reversal": "naming6.py and window10.py new; window-scoped files",
+ "changed_files": {
+  "naming6.py": {
+   "bytes": 1261,
+   "blob": "2086cd0ebd",
+   "sha256": "a1a10fe22e6c79be"
+  },
+  "window10.py": {
+   "bytes": 17904,
+   "blob": "4a33c073af",
+   "sha256": "eebef519f5c9bade"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 730591,
+   "blob": "9466a90f3c",
+   "sha256": "d496a489e472a2b6"
+  },
+  "florida100-window10-log.jsonl": {
+   "bytes": 42104,
+   "blob": "478500a95a",
+   "sha256": "bdfdcd4015ba8200"
+  },
+  "bot-config.json": {
+   "bytes": 1429,
+   "blob": "ef8c06e2af",
+   "sha256": "89d3a69f080b6e67"
+  },
+  "founders-roster.json": {
+   "bytes": 41591,
+   "blob": "e1cb69dfdf",
+   "sha256": "d4a10888a337a606"
+  }
+ }
+}

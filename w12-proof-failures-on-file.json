@@ -1,0 +1,172 @@
+[
+ {
+  "key": "Private Equity:hig:282",
+  "company": "Rxstrategies",
+  "source": "hig",
+  "host": "https://rxstrategies.com/",
+  "route": "sponsor entry link",
+  "filed": true,
+  "title": "Strengthening Pharmacies with Smarter 340B Solutions | Pillr Health",
+  "challenge": false
+ },
+ {
+  "key": "Private Equity:hig:282",
+  "company": "Rxstrategies",
+  "source": "hig",
+  "host": "https://www.rxstrategies.com/",
+  "route": "derived host",
+  "filed": true,
+  "title": "Strengthening Pharmacies with Smarter 340B Solutions | Pillr Health",
+  "challenge": false
+ },
+ {
+  "key": "Acquisitions:gnews_rss:1",
+  "company": "Jack Brown’s",
+  "source": "gnews_rss",
+  "host": "https://www.jackbrowns.com/",
+  "route": "derived host",
+  "filed": true,
+  "title": "Access Denied",
+  "challenge": true
+ },
+ {
+  "key": "Acquisitions:gnews_rss:2",
+  "company": "Havoc",
+  "source": "gnews_rss",
+  "host": "https://www.havoc.com/",
+  "route": "derived host",
+  "filed": true,
+  "title": "Access Denied",
+  "challenge": true
+ },
+ {
+  "key": "Acquisitions:gnews_rss:6",
+  "company": "Florida Industrial Scale Co",
+  "source": "gnews_rss",
+  "host": "https://newswire.com/",
+  "route": "article link",
+  "filed": true,
+  "title": "Press Release Distribution | Media Outreach Platform | #1 in Customer ",
+  "challenge": false
+ },
+ {
+  "key": "Acquisitions:gnews_rss:11",
+  "company": "Alpha Foundations",
+  "source": "gnews_rss",
+  "host": "https://c212.net/",
+  "route": "article link",
+  "filed": true,
+  "title": "Privacy Policy | Cision",
+  "challenge": false
+ },
+ {
+  "key": "Private Equity:gnews_rss_w9:673",
+  "company": "O&A Landscaping",
+  "source": "gnews_rss_w9",
+  "host": "https://www.oa-landscaping.com/",
+  "route": "derived host",
+  "filed": true,
+  "title": "Hardscaping &amp; Paver Patios Eugene OR | Outdoor Aesthetics",
+  "challenge": false
+ },
+ {
+  "key": "Fractionals:gnews_rss_w9:677",
+  "company": "Port Tampa Bay",
+  "source": "gnews_rss_w9",
+  "host": "https://www.porttampabay.com/",
+  "route": "derived host",
+  "filed": true,
+  "title": "PortTampaBay.com is for sale | HugeDomains",
+  "challenge": true
+ },
+ {
+  "key": "Fractionals:gnews_rss_w10:680",
+  "company": "SeaWorld",
+  "source": "gnews_rss_w10",
+  "host": "https://floridapolitics.com/",
+  "route": "article link",
+  "filed": true,
+  "title": "Florida Politics",
+  "challenge": false
+ },
+ {
+  "key": "Acquisitions:gnews_rss_w10:685",
+  "company": "Naples Bay Resort & Marina",
+  "source": "gnews_rss_w10",
+  "host": "https://hotelbusiness.com/",
+  "route": "article link",
+  "filed": true,
+  "title": "Home - hotelbusiness.com",
+  "challenge": false
+ },
+ {
+  "key": "Acquisitions:gnews_rss_w10:687",
+  "company": "Lawn Enforcement Agency",
+  "source": "gnews_rss_w10",
+  "host": "https://events.lawnandlandscape.com/",
+  "route": "article link",
+  "filed": true,
+  "title": "LL Events -",
+  "challenge": false
+ },
+ {
+  "key": "Acquisitions:gnews_rss_w10:687",
+  "company": "Lawn Enforcement Agency",
+  "source": "gnews_rss_w10",
+  "host": "https://www.lawnenforcementagency.com/",
+  "route": "derived host",
+  "filed": true,
+  "title": "LawnEnforcementAgency.com is for sale | HugeDomains",
+  "challenge": true
+ },
+ {
+  "key": "Fractionals:gnews_rss_w11:688",
+  "company": "St. Mary’s Medical Center",
+  "source": "gnews_rss_w11",
+  "host": "https://www.stmarysmedicalcenter.com/",
+  "route": "derived host",
+  "filed": true,
+  "title": "Access Denied",
+  "challenge": true
+ },
+ {
+  "key": "Acquisitions:gnews_rss_w11:689",
+  "company": "South Florida Distributor American Fasteners",
+  "source": "gnews_rss_w11",
+  "host": "https://aftfasteners.com/",
+  "route": "article link",
+  "filed": true,
+  "title": "AFT Fasteners: Fasteners Supply, Industrial Supplies &amp; More",
+  "challenge": false
+ },
+ {
+  "key": "Fractionals:gnews_rss_w11:692",
+  "company": "Florida Digestive Health Specialists",
+  "source": "gnews_rss_w11",
+  "host": "https://fdhs.com/",
+  "route": "article link",
+  "filed": true,
+  "title": "Robot Challenge Screen",
+  "challenge": true
+ },
+ {
+  "key": "Fractionals:gnews_rss_w11:692",
+  "company": "Florida Digestive Health Specialists",
+  "source": "gnews_rss_w11",
+  "host": "https://www.floridadigestivehealthspecialists.com/",
+  "route": "derived host",
+  "filed": true,
+  "title": "Robot Challenge Screen",
+  "challenge": true
+ },
+ {
+  "key": "Fractionals:gnews_rss_w11:693",
+  "company": "Door Maker",
+  "source": "gnews_rss_w11",
+  "host": "https://www.door-maker.com/",
+  "route": "derived host",
+  "filed": true,
+  "title": "Access Denied",
+  "challenge": true
+ }
+]

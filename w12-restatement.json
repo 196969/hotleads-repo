@@ -1,0 +1,115 @@
+{
+ "restated_no_site_by_any_route": {
+  "window 7": {
+   "as_reported": 5,
+   "restated": 1
+  },
+  "window 9": {
+   "as_reported": 3,
+   "restated": 1
+  },
+  "window 10": {
+   "as_reported": 10,
+   "restated": 4
+  },
+  "window 11": {
+   "as_reported": 14,
+   "restated": 9
+  }
+ },
+ "moved_to_refused": [
+  [
+   10,
+   "Oasis",
+   "hig"
+  ],
+  [
+   10,
+   "Orius Corp",
+   "hig"
+  ],
+  [
+   7,
+   "Jack Brown’s",
+   "gnews_rss"
+  ],
+  [
+   7,
+   "Havoc",
+   "gnews_rss"
+  ],
+  [
+   7,
+   "MaxHealth",
+   "gnews_rss"
+  ],
+  [
+   7,
+   "ODC Construction",
+   "gnews_rss"
+  ],
+  [
+   9,
+   "O&A Landscaping",
+   "gnews_rss_w9"
+  ],
+  [
+   9,
+   "Palm Beach Gardens Medical Center",
+   "gnews_rss_w9"
+  ],
+  [
+   10,
+   "InterContinental Miami",
+   "gnews_rss_w10"
+  ],
+  [
+   10,
+   "Westshore Grand Hotel",
+   "gnews_rss_w10"
+  ],
+  [
+   10,
+   "Marino Performance Motors",
+   "gnews_rss_w10"
+  ],
+  [
+   10,
+   "200-Unit Pensacola Apartment Community",
+   "gnews_rss_w10"
+  ],
+  [
+   11,
+   "St. Mary’s Medical Center",
+   "gnews_rss_w11"
+  ],
+  [
+   11,
+   "Florida Digestive Health Specialists",
+   "gnews_rss_w11"
+  ],
+  [
+   11,
+   "Door Maker",
+   "gnews_rss_w11"
+  ],
+  [
+   11,
+   "Fort Myers",
+   "gnews_rss_w11"
+  ]
+ ],
+ "recovered_by_rename": [
+  [
+   "Rxstrategies",
+   "https://www.rxstrategies.com/",
+   "Pillr Health",
+   false
+  ]
+ ],
+ "revenue_reads_that_were_challenge_screens": {
+  "count": 0,
+  "by_window": {},
+  "reads": []
+ }
+}

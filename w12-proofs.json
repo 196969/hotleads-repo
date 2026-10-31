@@ -1,0 +1,93 @@
+{
+ "fault54_classifier": {
+  "must_refuse": [
+   [
+    "https://www.jackbrowns.com/",
+    true
+   ],
+   [
+    "https://www.havoc.com/",
+    true
+   ],
+   [
+    "https://www.stmarysmedicalcenter.com/",
+    true
+   ],
+   [
+    "https://fdhs.com/",
+    true
+   ],
+   [
+    "https://www.floridadigestivehealthspecialists.com/",
+    true
+   ],
+   [
+    "https://www.door-maker.com/",
+    true
+   ]
+  ],
+  "refused": 6,
+  "proved_pages_checked": 9,
+  "false_refusals": [],
+  "classes": [
+   "challenge screen served with HTTP 200 (Access Denied / Robot Challenge Screen) / a company’s own page"
+  ],
+  "result": "PASSED"
+ },
+ "fault52_bounds": {
+  "stop_set": [
+   {
+    "bound": "South Florida Distributor American Fasteners",
+    "after": "American Fasteners",
+    "expected": "American Fasteners",
+    "pass": true
+   },
+   {
+    "bound": "Door Maker",
+    "after": null,
+    "expected": null,
+    "pass": true
+   },
+   {
+    "bound": "Fort Myers",
+    "after": null,
+    "expected": null,
+    "pass": true
+   },
+   {
+    "bound": "Venice Window and Door Maker",
+    "after": null,
+    "expected": null,
+    "pass": true
+   }
+  ],
+  "keep_set": 28,
+  "good_binds_changed_or_lost": [],
+  "result": "PASSED"
+ },
+ "rename_case": {
+  "rename_case": {
+   "where": "page sentence",
+   "span": "We are excited to announce that RxStrategies, Hudson Headwaters 340B, and RPh Innovations are merging to form a new, unified organization: Pillr Health.",
+   "construction": "renamed (the page states it; no “formerly”)",
+   "current_name": "Pillr Health",
+   "whole_name": "rxstrategies"
+  },
+  "right_sites_refused_on_bound_corpus": [],
+  "publisher_pages": [
+   [
+    "https://floridapolitics.com/",
+    false
+   ],
+   [
+    "https://hotelbusiness.com/",
+    false
+   ],
+   [
+    "https://ibmadison.com/",
+    false
+   ]
+  ],
+  "result": "PASSED"
+ }
+}

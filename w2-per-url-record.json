@@ -1,0 +1,686 @@
+[
+ {
+  "ts": "12:22:32",
+  "practice": "Private Equity",
+  "source": "proof:hig",
+  "url": "https://hig.com/portfolio/37-5/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.94
+ },
+ {
+  "ts": "12:22:36",
+  "practice": "Private Equity",
+  "source": "trivest",
+  "url": "https://www.trivest.com/our-private-equity-portfolio/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.27
+ },
+ {
+  "ts": "12:22:41",
+  "practice": "Acquisitions",
+  "source": "florida_trend:known-answer",
+  "url": "https://www.floridatrend.com/article/11962/spotlight-on-florida-manufactured-items/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.19
+ },
+ {
+  "ts": "12:22:45",
+  "practice": "Acquisitions",
+  "source": "sfbj_news",
+  "url": "https://www.bizjournals.com/southflorida/news/",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.66
+ },
+ {
+  "ts": "12:22:49",
+  "practice": "Acquisitions",
+  "source": "tbbj_news",
+  "url": "https://www.bizjournals.com/tampabay/news/",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.58
+ },
+ {
+  "ts": "12:22:52",
+  "practice": "Acquisitions",
+  "source": "obj_news",
+  "url": "https://www.bizjournals.com/orlando/news/",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.58
+ },
+ {
+  "ts": "12:22:56",
+  "practice": "Acquisitions",
+  "source": "jbj_news",
+  "url": "https://www.bizjournals.com/jacksonville/news/",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.58
+ },
+ {
+  "ts": "12:23:01",
+  "practice": "Acquisitions",
+  "source": "sunbelt",
+  "url": "https://www.sunbeltnetwork.com/businesses-for-sale/?state=FL",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.23
+ },
+ {
+  "ts": "12:23:09",
+  "practice": "Acquisitions",
+  "source": "transworld",
+  "url": "https://www.tworld.com/buy-a-business/florida/",
+  "outcome": "refused",
+  "kind": "404",
+  "elapsed": 5.72
+ },
+ {
+  "ts": "12:23:18",
+  "practice": "Acquisitions",
+  "source": "murphy",
+  "url": "https://www.murphybusiness.com/businesses-for-sale/?state=FL",
+  "outcome": "refused",
+  "kind": "404",
+  "elapsed": 7.23
+ },
+ {
+  "ts": "12:23:22",
+  "practice": "Fractionals",
+  "source": "careerbuilder",
+  "url": "https://www.careerbuilder.com/jobs?keywords=controller&location=FL",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 2.04
+ },
+ {
+  "ts": "12:23:26",
+  "practice": "Fractionals",
+  "source": "simplyhired",
+  "url": "https://www.simplyhired.com/search?q=controller&l=Florida",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.81
+ },
+ {
+  "ts": "12:23:30",
+  "practice": "Private Equity",
+  "source": "test1:suncap",
+  "url": "http://gmpg.org/xfn/11",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.73
+ },
+ {
+  "ts": "12:23:33",
+  "practice": "Private Equity",
+  "source": "test1:suncap",
+  "url": "http://gmpg.org/xfn/11",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.63
+ },
+ {
+  "ts": "12:23:37",
+  "practice": "Private Equity",
+  "source": "test1:suncap",
+  "url": "http://gmpg.org/xfn/11",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.64
+ },
+ {
+  "ts": "12:23:40",
+  "practice": "Private Equity",
+  "source": "test1:suncap",
+  "url": "http://gmpg.org/xfn/11",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.64
+ },
+ {
+  "ts": "12:23:44",
+  "practice": "Private Equity",
+  "source": "test1:suncap",
+  "url": "http://gmpg.org/xfn/11",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.67
+ },
+ {
+  "ts": "12:23:48",
+  "practice": "Private Equity",
+  "source": "test1:suncap",
+  "url": "http://gmpg.org/xfn/11",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.64
+ },
+ {
+  "ts": "12:24:01",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/aclara/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 11.28
+ },
+ {
+  "ts": "12:24:13",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/admiral-petroleum-company/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 9.74
+ },
+ {
+  "ts": "12:24:21",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/arrow-tru-line/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 5.97
+ },
+ {
+  "ts": "12:24:28",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/unico-technologies-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 4.88
+ },
+ {
+  "ts": "12:24:36",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/vetrerie-riunite/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 5.89
+ },
+ {
+  "ts": "12:24:41",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/vince/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.8
+ },
+ {
+  "ts": "12:24:52",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/wabash-technologies/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 8.71
+ },
+ {
+  "ts": "12:25:01",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/wescom/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 7.23
+ },
+ {
+  "ts": "12:25:29",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/windsor-fashions/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 25.57
+ },
+ {
+  "ts": "12:25:56",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/bh-worldwide-ltd/",
+  "outcome": "refused",
+  "kind": "timeout",
+  "elapsed": 25.04
+ },
+ {
+  "ts": "12:26:00",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/bellrock-group/",
+  "outcome": "refused",
+  "kind": "504",
+  "elapsed": 1.64
+ },
+ {
+  "ts": "12:26:27",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/brueggers-enterprises/",
+  "outcome": "refused",
+  "kind": "timeout",
+  "elapsed": 25.05
+ },
+ {
+  "ts": "12:26:54",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/btx-group/",
+  "outcome": "refused",
+  "kind": "timeout",
+  "elapsed": 25.06
+ },
+ {
+  "ts": "12:27:06",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/ck/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 9.79
+ },
+ {
+  "ts": "12:27:10",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/37-5/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "12:27:14",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/3pillar-global/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.16
+ },
+ {
+  "ts": "12:27:18",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/adscape-media/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.88
+ },
+ {
+  "ts": "12:27:22",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/desktop/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.87
+ },
+ {
+  "ts": "12:27:26",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/dgs/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.35
+ },
+ {
+  "ts": "12:27:30",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/dhisco/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.0
+ },
+ {
+  "ts": "12:27:34",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/diam-international/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.44
+ },
+ {
+  "ts": "12:27:39",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/die-cuts-with-a-view/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.32
+ },
+ {
+  "ts": "12:27:43",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/digital-room/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.39
+ },
+ {
+  "ts": "12:27:47",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/digital-ware/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.01
+ },
+ {
+  "ts": "12:27:51",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/dsd/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "12:27:55",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/dx-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "12:27:59",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/dynasteel/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.91
+ },
+ {
+  "ts": "12:28:03",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/adtheorent/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "12:28:07",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/easy-gardener-products/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "12:28:11",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/eci/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.04
+ },
+ {
+  "ts": "12:28:16",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/ecore/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.41
+ },
+ {
+  "ts": "12:28:20",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/ehealth/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.11
+ },
+ {
+  "ts": "12:28:24",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/elekeiroz/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.44
+ },
+ {
+  "ts": "12:28:29",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/eletromidia/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.56
+ },
+ {
+  "ts": "12:28:31",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/j-jill-inc/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.06
+ },
+ {
+  "ts": "12:28:33",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/aspire/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.05
+ },
+ {
+  "ts": "12:28:35",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/oceans-healthcare/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.06
+ },
+ {
+  "ts": "12:28:37",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/retail-services-wis-holdings/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.05
+ },
+ {
+  "ts": "12:28:39",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/millers-ale-house/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.06
+ },
+ {
+  "ts": "12:28:41",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/connectamerica/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.06
+ },
+ {
+  "ts": "12:28:43",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/vintage-stock/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.06
+ },
+ {
+  "ts": "12:28:45",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/acima-credit/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.05
+ },
+ {
+  "ts": "12:28:47",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/merchant-advance-capital/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "12:28:50",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/american-physician-partners/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "12:28:52",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/minute-key/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.05
+ },
+ {
+  "ts": "12:28:54",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/carite/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "12:28:56",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/cash4you/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "12:28:58",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/rails-international/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.05
+ },
+ {
+  "ts": "12:29:00",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/citizens-rx/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.05
+ },
+ {
+  "ts": "12:29:02",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/ch-financial-services/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.05
+ },
+ {
+  "ts": "12:29:04",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/cerca-trova-restaurant-concepts-inc/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.05
+ },
+ {
+  "ts": "12:29:06",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/transfast-llc/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.05
+ },
+ {
+  "ts": "12:29:08",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/lasko-holdings-2/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.05
+ },
+ {
+  "ts": "12:29:10",
+  "practice": "Private Equity",
+  "source": "entry:comvest",
+  "url": "/portfolio/path-medical/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.06
+ },
+ {
+  "ts": "12:29:15",
+  "practice": "Private Equity",
+  "source": "entry:boyne",
+  "url": "https://boynecapital.com/portfolio/case-study-iron-markets/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.45
+ },
+ {
+  "ts": "12:29:18",
+  "practice": "Private Equity",
+  "source": "entry:boyne",
+  "url": "https://boynecapital.com/portfolio-adapt-laser-systems/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "12:29:22",
+  "practice": "Private Equity",
+  "source": "entry:boyne",
+  "url": "https://boynecapital.com/portfolio-mbp/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.88
+ },
+ {
+  "ts": "12:29:26",
+  "practice": "Private Equity",
+  "source": "test1:boyne",
+  "url": "https://www.mastersbp.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.0
+ }
+]

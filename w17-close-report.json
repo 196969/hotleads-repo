@@ -1,0 +1,123 @@
+{
+ "CLOSE": {
+  "admitted": 7,
+  "admitted_rows": [
+   "Alpha Foundations",
+   "American Fasteners",
+   "FreightCenter (Acquisitions)",
+   "Palm Medical Centers",
+   "Altitude Water (Fractionals)",
+   "Health Network One",
+   "STS Aviation Group (Private Equity)"
+  ],
+  "complete_contact_outstanding": [
+   "Moneysolver",
+   "TrakAmerica",
+   "Marino Performance Motors"
+  ],
+  "confirmed": 0,
+  "reads_this_window": 0,
+  "cause": "measured: feed discovery ~1–2 full passes per window and exhausted; the one sponsor roster read in full ~1.6% at a read per entry; four association rosters unreadable; private revenue unpublished on free routes"
+ },
+ "routes_named_not_pursued": {
+  "paid provider data": "refused on the standard; condition unchanged",
+  "manual sourcing outside the module": "a new decision with its own brief"
+ },
+ "window_seventeen": {
+  "repairs": {
+   "is_person": {
+    "planted": {
+     "Executive Vice": false,
+     "Principal Greg": false,
+     "Manuel Benitez": true,
+     "Heyward Donigan": true,
+     "Matthew Brosious": true,
+     "Nick Blasco": true,
+     "Jim McHugh": true,
+     "Branden Riley": true,
+     "Jason Collins": true
+    },
+    "expected": {
+     "Executive Vice": false,
+     "Principal Greg": false,
+     "Manuel Benitez": true,
+     "Heyward Donigan": true,
+     "Matthew Brosious": true,
+     "Nick Blasco": true,
+     "Jim McHugh": true,
+     "Branden Riley": true,
+     "Jason Collins": true
+    },
+    "pass": true
+   },
+   "names_company": {
+    "planted": {
+     "Health Network One: Personnel note: Health Network One appoi": true,
+     "Trakamerica: Millennium Capital & Recovery Corporatio": false,
+     "Health Network One: Health systems name new leaders across t": false
+    },
+    "pass": true
+   },
+   "classes": [
+    "a title fragment / a role word plus a first name / a person",
+    "a sentence naming the whole company / naming another company that shares a first word / sharing only a generic first word"
+   ],
+   "result": "PASSED",
+   "rescan_four": {
+    "Moneysolver": null,
+    "Sts Aviation Group": {
+     "name": "Mark Smith",
+     "title": "President",
+     "span": "King will report to Mark Smith, President of STS Aviation Group.",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzdTQkxFMXFTczRYVTRCVVVQX2JJR212LTk2RVBMempNS0w2MnQ1cF9xRDNrdzNlbkFVc0ZMR05JN3ktNjF6UUJCc3JkNWFQVzNKZzRucjRVQ3llZk1VYnpibmFYdnhYcHFTa01OR205aE5qTUkzR0VDNkJOdHViOXdTb3hMQUZQQ01OQ2NzUVU?oc=5",
+     "read": "2026-10-31",
+     "source": "filed page re-read at zero reads, whole company name in the sentence"
+    },
+    "Marino Performance Motors": null,
+    "Trakamerica": {
+     "name": "Jason Collins",
+     "title": "President",
+     "span": "Sat, 31 Oct 2026 02:03:04 GMT Google News https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256 https://news.google.com/ 256 256 Google News M",
+     "url": "https://news.google.com/rss/search?q=%22TrakAmerica%22%20%28CEO%20OR%20president%20OR%20founder%20OR%20owner%29&hl=en-US&gl=US&ceid=US:en",
+     "read": "2026-10-31",
+     "source": "filed page re-read at zero reads, whole company name in the sentence"
+    }
+   }
+  },
+  "validator": "florida.html: 167 Src: lines read in the main table (167 present in the table), 0 in the intake table, 0 without a date on the line itself\nflorida-expansion.html: 0 Src: lines read in the main table (0 present in the table), 14 in the intake table, 0 without a date on the line itself\nVALIDATOR PASSED",
+  "core_bd_report": "Core-BD-Report-Florida.docx regenerated on the final bytes: 3 pages, border and page number on every page, sectioned by practice",
+  "standard": "florida-standard.json → florida100_close (yield measurement and lessons for the next market)"
+ },
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — the close: Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+   "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+   "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+   "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+   "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — the close delivered: Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+   "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+   "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+   "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+   "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ }
+}

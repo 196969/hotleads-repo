@@ -1,0 +1,80 @@
+{
+ "one_definition": "naming6.detector_unified imports naming5.TOK and naming5.VERB — the precondition’s definition, not a second one",
+ "precondition_on_the_keep_set": {
+  "bound_headlines": 16,
+  "false_rejections": 0
+ },
+ "precondition_on_the_stop_set": {
+  "unbound_headlines": 15,
+  "stopped": 5
+ },
+ "detector_on_the_unbound_set": [
+  {
+   "headline": "Hilb Group expands Southeast footprint with Florida commercial P&C acquisition - Insurance",
+   "company_named": true
+  },
+  {
+   "headline": "Fengate Private Equity takes majority stake in Florida clinical research network CRWF - PE",
+   "company_named": true
+  },
+  {
+   "headline": "Florida SBA appoints John Bradley to head private markets investments - PEI Private Equity",
+   "company_named": true
+  },
+  {
+   "headline": "BH Group and Gold Standard of Care Acquire Naples Senior Living and Skilled Nursing Campus",
+   "company_named": true
+  },
+  {
+   "headline": "Private Equity’s Florida Takeover: Why Your AC, Plumbing & Rent Costs Keep Soaring - Mediu",
+   "company_named": false
+  },
+  {
+   "headline": "Florida SBA meeting takes aim at limits of private equity benchmarks - PEI Private Equity",
+   "company_named": false
+  },
+  {
+   "headline": "Florida Tech Names New Vice President for Administration and Finance/Chief Financial Offic",
+   "company_named": true
+  },
+  {
+   "headline": "Florida fund shines light on Southeast - PEI Private Equity",
+   "company_named": false
+  },
+  {
+   "headline": "Top 10 Private Equity Firms in Tampa 2026 - www.dakota.com",
+   "company_named": false
+  },
+  {
+   "headline": "Brasswater Expands Florida Hotel Portfolio With US$48M Acquisition - Connect CRE Canada",
+   "company_named": true
+  },
+  {
+   "headline": "A ‘watchdog,’ not a ‘lapdog’: Annette Taddeo is running to unseat Blaise Ingoglia as CFO -",
+   "company_named": false
+  },
+  {
+   "headline": "Garyline Receives Private Equity Investment, Completes Move to Florida - members.asicentra",
+   "company_named": true
+  },
+  {
+   "headline": "Construction Partners, Inc. Completes Florida Acquisition - Yahoo Finance",
+   "company_named": true
+  },
+  {
+   "headline": "Barry University Names Ron Steiger as New Vice President for Business and Finance & Chief ",
+   "company_named": true
+  },
+  {
+   "headline": "Tampa Bay EDC names chief financial officer - TBBW",
+   "company_named": true
+  }
+ ],
+ "garyline_now_seen": true,
+ "classes": [
+  "a company named without a legal suffix / with one",
+  "a headline naming no company",
+  "an institution (university, development body) that is company-shaped but not a company — the shared definition cannot tell these apart, stated rather than hidden"
+ ],
+ "result": "PASSED"
+}

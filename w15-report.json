@@ -1,0 +1,288 @@
+{
+ "CLOSE": {
+  "admitted": 3,
+  "admitted_rows": [
+   {
+    "company": "Alpha Foundations",
+    "practice": "Acquisitions",
+    "decision_maker": "Nick Blasco, General Manager",
+    "dm_source": "the company’s own page"
+   },
+   {
+    "company": "Palm Medical Centers",
+    "practice": "Fractionals",
+    "decision_maker": "Jim McHugh, Chief Financial Officer",
+    "dm_source": "the dated signal article"
+   },
+   {
+    "company": "Altitude Water",
+    "practice": "Fractionals",
+    "decision_maker": "Branden Riley, COO",
+    "dm_source": "the dated signal article"
+   }
+  ],
+  "running_count_against_100": 3,
+  "confirmed": 0,
+  "not_admitted_for_want_of_a_named_executive": [
+   [
+    "American Fasteners",
+    "no named executive with a title on the pages read"
+   ],
+   [
+    "Health Network One",
+    "no named executive with a title on the pages read"
+   ],
+   [
+    "Moneysolver",
+    "no named executive with a title on the pages read"
+   ],
+   [
+    "Sts Aviation Group",
+    "no named executive with a title on the pages read"
+   ],
+   [
+    "Marino Performance Motors",
+    "decision maker read was not a person"
+   ],
+   [
+    "Trakamerica",
+    "no named executive with a title on the pages read"
+   ],
+   [
+    "FreightCenter",
+    "decision maker not yet read (found after the completion step)"
+   ]
+  ],
+  "am_distributors": {
+   "company": "AM Distributors",
+   "test2": "absent from all files",
+   "routes": [
+    {
+     "route": "derived host",
+     "host": "https://www.amdistributors.com/",
+     "outcome": "refused (503)"
+    },
+    {
+     "route": "derived host",
+     "host": "https://www.am-distributors.com/",
+     "outcome": "refused (net)"
+    }
+   ],
+   "test1": null,
+   "test5": null
+  },
+  "reads_spent": "reads spent 71; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)",
+  "checks": {
+   "headline precondition": {
+    "calls": 57,
+    "stopped": 13,
+    "reading": "stopped 13"
+   },
+   "property precondition (open test)": {
+    "calls": 44,
+    "stopped": 15,
+    "reading": "stopped 15"
+   },
+   "name bounds (#52)": {
+    "calls": 7,
+    "stopped": 0,
+    "reading": "stopped nothing"
+   },
+   "abbreviation test (#56)": {
+    "calls": 7,
+    "stopped": 0,
+    "reading": "stopped nothing"
+   },
+   "asset test (#57)": {
+    "calls": 7,
+    "stopped": 0,
+    "reading": "stopped nothing"
+   }
+  }
+ },
+ "gate": {
+  "pre_read_rejection": {
+   "keep_set": 34,
+   "good_headlines_stopped": [],
+   "stop_set": [
+    [
+     "Midtown Capital Partners acquires Orlando industri",
+     true
+    ],
+    [
+     "Bowden Companies Acquires 200-Unit Pensacola Apart",
+     true
+    ],
+    [
+     "Westshore Grand Hotel Acquired by Tampa Developer,",
+     true
+    ]
+   ],
+   "result": "PASSED"
+  },
+  "fault52_role_noun": {
+   "planted": {
+    "Miami HVAC Distributor AM Distributors": "AM Distributors",
+    "AM Distributors": "AM Distributors",
+    "Another A-B Wholesaler Pepin Distributing": "Pepin Distributing",
+    "South Florida Distributor American Fasteners": "American Fasteners",
+    "Fort Myers": null
+   },
+   "expected": {
+    "Miami HVAC Distributor AM Distributors": "AM Distributors",
+    "AM Distributors": "AM Distributors",
+    "Another A-B Wholesaler Pepin Distributing": "Pepin Distributing",
+    "South Florida Distributor American Fasteners": "American Fasteners",
+    "Fort Myers": null
+   },
+   "keep_set": 35,
+   "good_binds_changed": [],
+   "note": "a role-noun tail no longer rejects; “Venice Window and Door Maker” now goes to the ownership proof rather than being rejected unread",
+   "result": "PASSED"
+  },
+  "counters": {
+   "pre-read": {
+    "calls": 6,
+    "stopped": 3
+   },
+   "never_wired": {
+    "calls": 0
+   },
+   "result": "PASSED"
+  }
+ },
+ "rate": {
+  "feed_full_pass_by_window": {
+   "w9": [
+    "Palm Medical Centers"
+   ],
+   "w10": [
+    "SeaWorld (band-rejected)"
+   ],
+   "w12": [
+    "Altitude Water",
+    "STS Aviation Group (H.I.G.)"
+   ],
+   "w13": [
+    "Marino Performance Motors (recovered)",
+    "TrakAmerica (H.I.G.)"
+   ],
+   "w15": [
+    "FreightCenter"
+   ]
+  },
+  "reading": "roughly 1–2 companies reaching tests 1, 2 and 5 per window at 70–135 reads; the widened Google News queues for Private Equity and Fractionals are now exhausted (0 reads this window: every query issued)",
+  "roster_hig": {
+   "entries_named": 377,
+   "entries_read": 377,
+   "florida_by_location_field": 28,
+   "passing_test_1": 6,
+   "reading": "one sponsor roster, read in full over windows one to twelve: 377 entries read, 28 Florida, 6 passing test 1 — about 7% Florida and 1.6% to a test-1 pass, at roughly two reads per Florida entry"
+  }
+ },
+ "discovery": {
+  "articles_read": 16,
+  "florida_signal": 9,
+  "reaching_binding": 9,
+  "site_by_article_link": 1,
+  "site_by_derived_host": 0,
+  "no_site_by_any_route": 2,
+  "precondition_stopped": 28,
+  "refused_re_runnable": 4
+ },
+ "faults": [
+  {
+   "fault": "57 (instance)",
+   "note": "“Hilton Garden Inn Orlando I-4 Millenia Blvd Mall” and “Sawgrass Marriott Golf Resort & Spa” bound past the asset test: (c)’s head-noun list lacks Mall and Spa, and a hotel brand at the front is not a head noun — the list part of the test lagging again, as its proof stated it would"
+  },
+  {
+   "fault": "52 (instance)",
+   "note": "“And Break Ground” bound from a financing headline: a conjunction-led span; the name bounds stopped nothing all window (7 calls, 0 stops) yet this got through"
+  },
+  {
+   "fault": 60,
+   "line": "a decision maker is a person, and the extractor must show it",
+   "note": "the completion read took “Owner Principal Greg” as a name; refused at packaging. The per-row record requires a named executive with a title, so six companies complete on every test and size Blind stay unadmitted for want of one"
+  }
+ ],
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window fifteen ruling: Pass 8 · Hold 1 · Blind 68 · weight passing 80.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+   "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+   "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 1 admitted rows, all carry Signal",
+   "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 1 admitted rows; missing on ['I1']",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 1 admitted rows, all carry Reachable channel",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window fifteen delivered: Pass 8 · Hold 1 · Blind 68 · weight passing 80.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+   "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+   "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 1 admitted rows, all carry Signal",
+   "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 1 admitted rows; missing on ['I1']",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 1 admitted rows, all carry Reachable channel",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "validator": "florida-expansion.html: 0 Src: lines read, 0 without a date on the line itself\nVALIDATOR PASSED",
+ "changed_files": {
+  "naming8.py": {
+   "bytes": 3538,
+   "blob": "052805031c",
+   "sha256": "7e492f48b07a91b3"
+  },
+  "naming9.py": {
+   "bytes": 2358,
+   "blob": "97c2e31430",
+   "sha256": "0c20b85cadfce50f"
+  },
+  "w15_gate.py": {
+   "bytes": 2634,
+   "blob": "77cbaa0113",
+   "sha256": "d8c98f9cbf02a40f"
+  },
+  "window15.py": {
+   "bytes": 39231,
+   "blob": "1dd0dc2392",
+   "sha256": "29c562bbc4a09a4c"
+  },
+  "florida-expansion.html": {
+   "bytes": 184929,
+   "blob": "ef284c6ec1",
+   "sha256": "a9016641004dda87"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 850636,
+   "blob": "ab391c28e3",
+   "sha256": "d2e4202ec8cc05a7"
+  },
+  "florida100-window15-log.jsonl": {
+   "bytes": 26092,
+   "blob": "67a9c7c683",
+   "sha256": "4a8c620b50075320"
+  },
+  "bot-config.json": {
+   "bytes": 1470,
+   "blob": "08d33a9d51",
+   "sha256": "fa05634dcab5bc84"
+  },
+  "founders-roster.json": {
+   "bytes": 51377,
+   "blob": "10eeac748a",
+   "sha256": "1d50e22657d4269d"
+  }
+ }
+}

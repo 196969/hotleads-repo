@@ -1,0 +1,463 @@
+{
+ "HEAD": {
+  "count_after_naming": "0 of the 13 named: every body re-read refused (503); headline-only binding refused (ruling 18); the 13 stay unnamed and re-runnable",
+  "started_from": 13,
+  "admitted_this_window": 0,
+  "running_count_against_100": 0,
+  "confirmed": 0,
+  "feed_quality": {
+   "baseline": "13 of 39 read (window three)",
+   "this_window": {
+    "queries": 19,
+    "refused": 19,
+    "articles_read": 0,
+    "florida_signal": 0,
+    "reached_binding": 0
+   },
+   "per_query": {
+    "\"Florida\" company acquired": {
+     "practice": "Acquisitions",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Florida\" \"private equity\" invests": {
+     "practice": "Private Equity",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Florida\" company \"names\" CFO": {
+     "practice": "Fractionals",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Florida\" acquisition": {
+     "practice": "Acquisitions",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Florida\" \"portfolio company\"": {
+     "practice": "Private Equity",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Florida\" \"chief financial officer\" appointed": {
+     "practice": "Fractionals",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Florida\" \"sold to\"": {
+     "practice": "Acquisitions",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Florida\" \"private equity\" acquires": {
+     "practice": "Private Equity",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Florida\" company expansion headquarters": {
+     "practice": "Fractionals",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Florida\" \"CEO retiring\"": {
+     "practice": "Acquisitions",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Miami\" \"private equity\"": {
+     "practice": "Private Equity",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Miami\" company names CFO": {
+     "practice": "Fractionals",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Florida\" succession family business": {
+     "practice": "Acquisitions",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Fort Lauderdale\" \"private equity\"": {
+     "practice": "Private Equity",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Fort Lauderdale\" company names CFO": {
+     "practice": "Fractionals",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Miami\" company acquired": {
+     "practice": "Acquisitions",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Tampa\" \"private equity\"": {
+     "practice": "Private Equity",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Tampa\" company names CFO": {
+     "practice": "Fractionals",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    },
+    "\"Fort Lauderdale\" company acquired": {
+     "practice": "Acquisitions",
+     "articles_read": 0,
+     "florida_signal": 0,
+     "reached_binding": 0,
+     "items": 0,
+     "refused": "503"
+    }
+   },
+   "reading": "not a feed-query or pattern reading: the source refused every request (503) from 21:21 UTC; nothing reached the patterns"
+  },
+  "naming_stops": {
+   "disputed": 0,
+   "unbound": 0,
+   "processed": 0,
+   "fired": false,
+   "reading": "not exercised — 0 candidates reached binding"
+  },
+  "yield": {
+   "reads": 194,
+   "passing_tests_1_2_5_this_window": 3,
+   "admitted": 0
+  }
+ },
+ "run": "Florida 100 — Part B, window four",
+ "step_executed": "window four as ruled (clean-day gate waived), one pass to one report; halted once by the kill switch on refusals and resumed under the same start date",
+ "window": {
+  "launch_utc": "2026-10-30T21:21:35",
+  "run_start_utc": "2026-10-30",
+  "run_end_utc": "2026-10-30",
+  "straddled_midnight_utc": false,
+  "ceiling": 200,
+  "ceiling_is_assumed": true,
+  "reads": 194,
+  "by_practice": {
+   "Acquisitions": 20,
+   "Private Equity": 160,
+   "Fractionals": 6,
+   "Directory probes": 8
+  },
+  "outcomes": {
+   "refused 503": 33,
+   "read": 159,
+   "refused 999": 1,
+   "refused 403": 1
+  }
+ },
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window four ruling: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window four delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "order": {
+  "1_the_13": "all 13 body re-reads refused (503)",
+  "2_google_news_widened": "19 separate queries issued of the planned 44 before the halt, all 503; parked for the window",
+  "3_directory": {
+   "ACG chapters": {
+    "answered": true,
+    "bytes": 150897,
+    "named_companies_by_suffix": 3,
+    "decision": "declared as a finder (not a practice signal); company sites and member listings are never signals"
+   },
+   "Florida DBPR": {
+    "answered": true,
+    "bytes": 212248,
+    "named_companies_by_suffix": 0,
+    "decision": "declared as a finder (not a practice signal); company sites and member listings are never signals"
+   },
+   "Florida Chamber": {
+    "answered": true,
+    "bytes": 152251,
+    "named_companies_by_suffix": 1,
+    "decision": "declared as a finder (not a practice signal); company sites and member listings are never signals"
+   },
+   "SelectFlorida": {
+    "answered": true,
+    "bytes": 89403,
+    "named_companies_by_suffix": 5,
+    "decision": "declared as a finder (not a practice signal); company sites and member listings are never signals"
+   },
+   "Manufacturers Association of Florida": {
+    "answered": true,
+    "bytes": 193686,
+    "named_companies_by_suffix": 0,
+    "decision": "declared as a finder (not a practice signal); company sites and member listings are never signals"
+   },
+   "FloridaMakes": {
+    "answered": true,
+    "bytes": 155736,
+    "named_companies_by_suffix": 5,
+    "decision": "declared as a finder (not a practice signal); company sites and member listings are never signals"
+   },
+   "Florida Trucking Association": {
+    "answered": true,
+    "bytes": 802715,
+    "named_companies_by_suffix": 1,
+    "decision": "declared as a finder (not a practice signal); company sites and member listings are never signals"
+   },
+   "LinkedIn Jobs (Florida controller / ops director)": "refused (999) — parked under its code"
+  },
+  "parked_under_codes": {
+   "Sunbiz": "0 reads permitted",
+   "BizBuySell Florida": "403 (window one)",
+   "FloridaCommerce WARN": "403 (window three)",
+   "South Florida / Tampa Bay / Orlando / Jacksonville Business Journals": "403 news sections and feed",
+   "Florida Trend": "stopped: no date in any form (window three)",
+   "Indeed": "403",
+   "ZipRecruiter": "403",
+   "Glassdoor": "403",
+   "Trivest": "renders after load",
+   "Transworld": "404",
+   "Murphy Business": "404",
+   "CareerBuilder": "403",
+   "SimplyHired": "403",
+   "EDGAR full-text": "403",
+   "GlobeNewswire feed": "403",
+   "Sunbelt": "broker listing, unnamed (Chair ruling)",
+   "Comvest entries": "no location field in 20 entries read — not repeated",
+   "Boyne entries": "one Florida placement settled (MBP, no Florida address)"
+  },
+  "pe_remainder_hig": {
+   "entries_read_this_window": 143,
+   "florida_by_location_field": 11,
+   "test1_pass": 3,
+   "all_windows": {
+    "entries_read": 222,
+    "florida": 13
+   }
+  },
+  "avispl": "size-unsourced (https://avispl.com/about-us/ read 2026-10-30, no revenue figure)"
+ },
+ "held_passing_tests_1_2_5": [
+  {
+   "company": "Avi Spl",
+   "city": "Tampa, FL",
+   "site": "https://avispl.com/",
+   "test1": "Florida operating address on https://avispl.com/ · read 2026-10-30",
+   "test5": "address",
+   "band": "size-unsourced (https://avispl.com/about-us/ read 2026-10-30, no revenue figure)",
+   "client": "H.I.G. Capital"
+  },
+  {
+   "company": "Health Network One",
+   "city": "Ft. Lauderdale, FL",
+   "site": "https://www.healthnetworkone.com",
+   "test1": "Florida operating address on https://www.healthnetworkone.com · read 2026-10-30",
+   "test5": "address",
+   "band": "size-unsourced",
+   "client": "H.I.G. Capital"
+  },
+  {
+   "company": "Mainline",
+   "city": "Tallahassee, FL",
+   "site": "https://www.mainline.com/",
+   "test1": "Florida operating address on https://www.mainline.com/ · read 2026-10-30",
+   "test5": "address",
+   "band": "size-unsourced",
+   "client": "H.I.G. Capital"
+  },
+  {
+   "company": "Moneysolver",
+   "city": "Jacksonville, FL",
+   "site": "https://www.moneysolver.org",
+   "test1": "Florida operating address on https://www.moneysolver.org · read 2026-10-30",
+   "test5": "phone",
+   "band": "size-unsourced",
+   "client": "H.I.G. Capital"
+  }
+ ],
+ "held_reason": "each passes tests 1, 2 and 5 on its own site (a Florida operating address and a published channel); none publishes an annual revenue figure, so each is held size-unsourced under 9.0.h — not admitted, not rejected. Under ruling 10 the sponsor, H.I.G. Capital, is the client.",
+ "per_source_reasons_under_ten": {
+  "Google News RSS": "503 on every read from 21:21 UTC (33 reads); it served nothing, so it yielded nothing; next window: itself on a clean start date — the only source that has produced Acquisitions signals, refusing on volume on the day, not on the route",
+  "H.I.G. Capital entries": "143 entries this window, 11 placed in Florida by the Location field, 3 passing tests 1, 2 and 5; no admission because no H.I.G. Florida company publishes revenue; next window: the remaining entries",
+  "Directory finders (7 answered)": "their own pages (association, licensing, economic development); member listings are not practice signals; not re-read",
+  "LinkedIn Jobs": "refused (999); parked under its code",
+  "Every other source": "parked under its code; not re-probed"
+ },
+ "candidates_total_in_queue": 655,
+ "part_10": {
+  "baseline": {
+   "rows": 150,
+   "strict": 21,
+   "address_eligible": 29,
+   "bands": {
+    "1": 14,
+    "2": 4,
+    "3": 13,
+    "4": 119
+   },
+   "workable": 32,
+   "band_1": 12,
+   "callable": 21
+  },
+  "now": {
+   "rows": 150,
+   "bands": {
+    "1": 18,
+    "2": 2,
+    "3": 11,
+    "4": 119
+   },
+   "workable": 39,
+   "band_1": 18,
+   "tier_A": 47,
+   "intake_rows": 0,
+   "intake_by_practice": {},
+   "intake_tier": {},
+   "intake_band_typed": 0
+  },
+  "movement": {
+   "net_new": {
+    "intake_rows_unverified": 0,
+    "promoted_to_working": 0,
+    "note": "net-new enters the intake table as Unverified only; nothing is promoted until a recorded act (9.5)"
+   },
+   "data_repairs": "none this day unless the report names them",
+   "instrument_corrections": "none this day unless the report names them"
+  },
+  "bot_yield": {
+   "candidates_queued": 655,
+   "confirmed": 0,
+   "rejected": 0,
+   "yield": 0.0
+  }
+ },
+ "faults_added": [
+  39,
+  40
+ ],
+ "proofs": [
+  "reports/w4-naming-proof.json (seven planted cases, classes stated, PASSED before any read)",
+  "reports/w4-per-url-record.json",
+  "reports/w4-engine-part1.json",
+  "reports/w4-engine-part2.json"
+ ],
+ "instruments": "no page changed this window",
+ "reversal": "window-scoped files; the queue changed only by fields added to H.I.G. entries and the 13’s re-read status",
+ "changed_files": {
+  "naming.py": {
+   "bytes": 5278,
+   "blob": "e7bb549ab7",
+   "sha256": "9e41daabf5c0996e"
+  },
+  "window4.py": {
+   "bytes": 14863,
+   "blob": "4788df9868",
+   "sha256": "c031aca0b687a81f"
+  },
+  "window4b.py": {
+   "bytes": 16398,
+   "blob": "e2d15278ed",
+   "sha256": "e45da184de7a9a55"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 628138,
+   "blob": "9a3c591eeb",
+   "sha256": "8fe77e8dbc16f63d"
+  },
+  "florida100-window4-log.jsonl": {
+   "bytes": 51179,
+   "blob": "181f208a84",
+   "sha256": "15bb9cfe605bac17"
+  },
+  "bot-config.json": {
+   "bytes": 1375,
+   "blob": "48814609ea",
+   "sha256": "009046fc5fbba0ed"
+  },
+  "founders-roster.json": {
+   "bytes": 31212,
+   "blob": "cf78ef3722",
+   "sha256": "6834dcc97142b1e8"
+  }
+ }
+}

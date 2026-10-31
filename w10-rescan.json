@@ -1,0 +1,24 @@
+{
+ "bodies_scanned": 146,
+ "by_window": {
+  "6": 24,
+  "7": 16,
+  "8": 42,
+  "9": 64
+ },
+ "revenue_sentences_by_subject": {
+  "Mainline": [
+   {
+    "file": "w9-bodies/7afd6d2c230a.html",
+    "sentence": "However, Tallahassee, Fla.-based public radio station WFSU said Mainline has annual revenue of over $1 billion."
+   }
+  ]
+ },
+ "held_subjects_with_a_figure": [],
+ "rate": {
+  "revenue_class_reads_from_window_six_on": 77,
+  "figures_landed": 1,
+  "reading": "1 figure (Mainline, a reject) per 77 revenue-class reads across 5 subjects, windows eight and nine; window six and seven bodies carry no revenue sentence for any subject"
+ },
+ "outside_the_rate": "window five’s revenue negatives for Health Network One, Mainline and Moneysolver (Wikipedia, Florida Trend search and article reads, Google News) were read before the read-and-file rule; no body was kept; they are unrecoverable without re-reading and are not part of this rate"
+}

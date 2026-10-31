@@ -1,0 +1,345 @@
+{
+ "CLOSE": {
+  "admitted_this_window": [
+   {
+    "company": "American Fasteners",
+    "decision_maker": "Manuel Benitez, Founder",
+    "source": "the company’s own page"
+   },
+   {
+    "company": "Health Network One",
+    "decision_maker": "Heyward Donigan, CEO",
+    "source": "trade press naming the officer with the company in the same sentence"
+   },
+   {
+    "company": "FreightCenter",
+    "decision_maker": "Matthew Brosious, President",
+    "source": "the company’s own page"
+   }
+  ],
+  "admitted_total": 6,
+  "running_count_against_100": 6,
+  "complete_contact_outstanding": {
+   "count": 4,
+   "companies": [
+    "Moneysolver",
+    "Sts Aviation Group",
+    "Marino Performance Motors",
+    "Trakamerica"
+   ]
+  },
+  "confirmed": 0,
+  "reads_spent": "reads spent 80; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)",
+  "checks": {
+   "headline precondition": "stopped 8",
+   "property precondition (open test)": "stopped 20",
+   "name bounds (#52)": "stopped nothing",
+   "abbreviation test (#56)": "stopped nothing",
+   "asset test (#57)": "stopped 1"
+  },
+  "validator": "florida-expansion.html: 0 Src: lines read in the main table, 12 in the intake table, 0 without a date on the line itself\nVALIDATOR PASSED"
+ },
+ "executives": {
+  "American Fasteners": {
+   "routes": [
+    {
+     "route": "team page",
+     "result": "the home page links no such page"
+    },
+    {
+     "route": "leadership page",
+     "result": "named executive found"
+    }
+   ],
+   "dm": {
+    "name": "Manuel Benitez",
+    "title": "Founder",
+    "span": "Manuel Benitez, Founder",
+    "url": "https://americanfasteners.com/about/",
+    "read": "2026-10-31",
+    "source": "the company’s own page"
+   }
+  },
+  "Health Network One": {
+   "routes": [
+    {
+     "route": "team page",
+     "result": "the home page links no such page"
+    },
+    {
+     "route": "leadership page",
+     "result": "https://healthnetworkone.com/total-eye?hsLang=en read; no named executive with a title"
+    },
+    {
+     "route": "LinkedIn public company page",
+     "result": "refused (999) — slug built from the name, labelled a guess"
+    },
+    {
+     "route": "trade-press article naming an officer",
+     "result": "named executive found"
+    }
+   ],
+   "dm": {
+    "name": "Heyward Donigan",
+    "title": "CEO",
+    "span": "Heyward Donigan as CEO",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcTJ5R3RZVWR3QXItYnF3OUhGRXFaQnZCSXZFM0lEcWd3dTloS3ZrNkY1dzZRTmlMSmg1WVpMSnJuSGhycGxCMVFxbEhUSWJSclIwd1h1WHgxRzR0YmV1QkVIbVN5eWZNY2l2LXp5QXA5eGlMejRtSjlWRkVSNGpRVUZRTVQ3OFZVV29EeWpCQUZpbXBzVGhsTlMweDlfWmMwX3hMLWpEZXFyUzZIMnFN?oc=5",
+    "read": "2026-10-31",
+    "source": "trade press naming the officer with the company in the same sentence"
+   }
+  },
+  "Moneysolver": {
+   "routes": [
+    {
+     "route": "team page",
+     "result": "the home page links no such page"
+    },
+    {
+     "route": "leadership page",
+     "result": "the home page links no such page"
+    },
+    {
+     "route": "LinkedIn public company page",
+     "result": "refused (999) — slug built from the name, labelled a guess"
+    },
+    {
+     "route": "trade-press article naming an officer",
+     "result": "articles read; no sentence naming an officer with the company"
+    }
+   ],
+   "dm": null
+  },
+  "Sts Aviation Group": {
+   "routes": [
+    {
+     "route": "team page",
+     "result": "https://www.stsaviationgroup.com/contact-tank-tigers/ read; no named executive with a title"
+    },
+    {
+     "route": "leadership page",
+     "result": "https://www.stsaviationgroup.com/about-sts-aviation-group/ read; no named executive with a title"
+    },
+    {
+     "route": "LinkedIn public company page",
+     "result": "refused (999) — slug built from the name, labelled a guess"
+    },
+    {
+     "route": "trade-press article naming an officer",
+     "result": "named executive found"
+    }
+   ],
+   "dm": {
+    "name": "Executive Vice",
+    "title": "President",
+    "span": "Executive Vice President",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzdTQkxFMXFTczRYVTRCVVVQX2JJR212LTk2RVBMempNS0w2MnQ1cF9xRDNrdzNlbkFVc0ZMR05JN3ktNjF6UUJCc3JkNWFQVzNKZzRucjRVQ3llZk1VYnpibmFYdnhYcHFTa01OR205aE5qTUkzR0VDNkJOdHViOXdTb3hMQUZQQ01OQ2NzUVU?oc=5",
+    "read": "2026-10-31",
+    "source": "trade press naming the officer with the company in the same sentence"
+   }
+  },
+  "Marino Performance Motors": {
+   "routes": [
+    {
+     "route": "team page",
+     "result": "https://www.marinoperformancemotors.com/about-marino-performance-motors-in-west-palm-beach-fl/ read; no named executive with a title"
+    },
+    {
+     "route": "leadership page",
+     "result": "https://www.marinoperformancemotors.com/about-marino-performance-motors-in-west-palm-beach-fl/ read; no named executive with a title"
+    },
+    {
+     "route": "LinkedIn public company page",
+     "result": "refused (parked) — slug built from the name, labelled a guess"
+    },
+    {
+     "route": "trade-press article naming an officer",
+     "result": "articles read; no sentence naming an officer with the company"
+    }
+   ],
+   "dm": null
+  },
+  "Trakamerica": {
+   "routes": [
+    {
+     "route": "team page",
+     "result": "the home page links no such page"
+    },
+    {
+     "route": "leadership page",
+     "result": "https://trakamerica.com/expertise/compliance-management/ read; no named executive with a title"
+    },
+    {
+     "route": "LinkedIn public company page",
+     "result": "refused (parked) — slug built from the name, labelled a guess"
+    },
+    {
+     "route": "trade-press article naming an officer",
+     "result": "named executive found"
+    }
+   ],
+   "dm": {
+    "name": "Jason Collins",
+    "title": "President",
+    "span": "Jason Collins as President",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM0dKejB2ay1yRkx5QU1oeFRBakpsVE9USmV3QXh4ODBQRGdLTmpmUHVjZ0xxbTloa1BuN2trQWdTQl9TdUVWVXE3R1Nocm84MjZ4ZlNDeE1MdjRmaTZfOTVCMlA0OXdUa1BaRk82RWkxeHZNVWxET3FoMVZEc1BxZ0E3dzZFNnpiV2I3RHNQN2JrcGNXOTZnWElQeVhlWllOLV9oV3Y3a000Sldua3J4dnJRcw?oc=5",
+    "read": "2026-10-31",
+    "source": "trade press naming the officer with the company in the same sentence"
+   }
+  },
+  "FreightCenter": {
+   "routes": [
+    {
+     "route": "team page",
+     "result": "named executive found"
+    }
+   ],
+   "dm": {
+    "name": "Matthew Brosious",
+    "title": "President",
+    "span": "Matthew Brosious President",
+    "url": "https://www.freightcenter.com/about/freightcenter-leadership/",
+    "read": "2026-10-31",
+    "source": "the company’s own page"
+   }
+  }
+ },
+ "roster_verdict": {
+  "probed": {
+   "Florida Restaurant and Lodging Association": {
+    "home": "https://www.frla.org/",
+    "directory_links": [],
+    "result": "the home page links no member directory"
+   },
+   "Manufacturers Association of Florida": {
+    "home": "https://www.mafmfg.com/",
+    "directory_links": [],
+    "result": "the home page links no member directory"
+   },
+   "FloridaMakes": {
+    "home": "https://www.floridamakes.com/",
+    "directory_links": [
+     "https://floridamakes.com/floridamakes-network/member-directory",
+     "https://floridamakes.com/floridamakes-network/speaker-directory"
+    ],
+    "result": "directory refused (404)"
+   },
+   "Florida Trucking Association": {
+    "home": "https://www.fltrucking.org/",
+    "directory_links": [],
+    "result": "the home page links no member directory"
+   }
+  },
+  "verdict": "none of the four declared Florida associations exposes a member list a plain reader can read: FRLA, the Manufacturers Association of Florida and the Florida Trucking Association link no member directory from their home pages; FloridaMakes links one, and it returned 404. No roster with location on its face was found; the measured scope is these four, not every association in Florida"
+ },
+ "yield": {
+  "this_window_discovery": {
+   "articles_read": 14,
+   "florida_signal": 6,
+   "reaching_binding": 6,
+   "site_by_article_link": 0,
+   "site_by_derived_host": 0,
+   "no_site_by_any_route": 1,
+   "precondition_stopped": 28,
+   "refused_re_runnable": 3
+  },
+  "full_pass_new": 0,
+  "reading": "feed discovery added no company reaching tests 1, 2 and 5 this window (50 Acquisitions reads); the Private Equity and Fractionals queues were already exhausted"
+ },
+ "gate": {
+  "validator_on_live": {
+   "output": "florida-expansion.html: 0 Src: lines read in the main table, 6 in the intake table, 0 without a date on the line itself\nVALIDATOR PASSED",
+   "intake_src_read": 6,
+   "result": "PASSED"
+  },
+  "validator_on_planted_undated_intake_line": {
+   "refused": true,
+   "output": "in table, 7 in the intake table, 1 without a date on the line itself\n   row #I1: intake: Src: planted page with no date\nVALIDATOR REFUSED — 1 undated Src: line(s); the date must sit on the line itself",
+   "result": "PASSED"
+  }
+ },
+ "faults": [
+  {
+   "fault": 61,
+   "line": "a company matched by its first word is not the company",
+   "note": "the trade-press executive route required only the company’s first word in the sentence; for TrakAmerica it returned Millennium Capital & Recovery Corporation’s new President. Caught by reading the span before admission; Health Network One’s sentence carries its whole name (“Health Network One appoints Heyward Donigan as CEO”) and stands"
+  },
+  {
+   "fault": "60 (second instance)",
+   "note": "“Executive Vice” (from “Executive Vice President”) passed the person test: a two-word capitalised title fragment reads as a name"
+  }
+ ],
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window sixteen ruling: Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+   "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+   "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 1 admitted rows, all carry Signal",
+   "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 1 admitted rows; missing on ['I5']",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+   "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 1 admitted rows, all carry Signal",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window sixteen delivered: Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+   "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+   "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 1 admitted rows, all carry Signal",
+   "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 1 admitted rows; missing on ['I5']",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+   "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 1 admitted rows, all carry Signal",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "changed_files": {
+  "validate.py": {
+   "bytes": 5635,
+   "blob": "0306277511",
+   "sha256": "744e1e444722ab24"
+  },
+  "w16_gate.py": {
+   "bytes": 1235,
+   "blob": "ee8f55f500",
+   "sha256": "9b69f426eb1ce1b0"
+  },
+  "window16.py": {
+   "bytes": 45949,
+   "blob": "e663eebf26",
+   "sha256": "3c1c312bc9117817"
+  },
+  "florida-expansion.html": {
+   "bytes": 187977,
+   "blob": "614ee41ec1",
+   "sha256": "e7e06a3fcf37447b"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 868986,
+   "blob": "428e1da3b8",
+   "sha256": "5f7c76c288f35a4f"
+  },
+  "florida100-window16-log.jsonl": {
+   "bytes": 27902,
+   "blob": "86d6a96252",
+   "sha256": "e926c7fddd6aaba7"
+  },
+  "bot-config.json": {
+   "bytes": 1450,
+   "blob": "34adbed7c9",
+   "sha256": "a2b23fe0c7a886b9"
+  },
+  "founders-roster.json": {
+   "bytes": 52112,
+   "blob": "903122565a",
+   "sha256": "1a0e41d51978062f"
+  }
+ }
+}

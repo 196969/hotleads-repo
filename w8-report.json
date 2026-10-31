@@ -1,0 +1,278 @@
+{
+ "HEAD": {
+  "decision_point": "NOT READABLE AS MEASURED SHUT. No figure landed for any of the five — but American Fasteners received 0 revenue reads: the class’s 36 reads were spent in queue order on the other four before it was reached (fault 46). Four of five tried, every route recorded; one untried. The governing form reads “no figure for any of the five from the free routes”; a company whose free routes were never read cannot be part of that measurement. The Chair rules whether the decision point stands open into window nine with American Fasteners read first.",
+  "revenue_class": {
+   "Health Network One": {
+    "figure": null,
+    "employees": null,
+    "routes": [
+     {
+      "route": "association directories publishing size",
+      "result": "none declared in the Source Directory publishes revenue for members; not read"
+     },
+     {
+      "route": "Google News: \"Health Network One\" employees",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "route": "Google News: \"Health Network One\" \"annual sales\"",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "route": "Google News: \"Health Network One\" growth",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     }
+    ]
+   },
+   "Mainline": {
+    "figure": null,
+    "employees": null,
+    "routes": [
+     {
+      "route": "association directories publishing size",
+      "result": "none declared in the Source Directory publishes revenue for members; not read"
+     },
+     {
+      "route": "Google News: \"Mainline\" employees",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "route": "Google News: \"Mainline\" \"annual sales\"",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "route": "Google News: \"Mainline\" growth",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     }
+    ]
+   },
+   "Moneysolver": {
+    "figure": null,
+    "employees": null,
+    "routes": [
+     {
+      "route": "association directories publishing size",
+      "result": "none declared in the Source Directory publishes revenue for members; not read"
+     },
+     {
+      "route": "Google News: \"Moneysolver\" employees",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "route": "Google News: \"Moneysolver\" \"annual sales\"",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "route": "Google News: \"Moneysolver\" growth",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     }
+    ]
+   },
+   "Alpha Foundations": {
+    "figure": null,
+    "employees": null,
+    "routes": [
+     {
+      "route": "Inc. 5000",
+      "result": "parked (403 ×3, window five) — not read; no size reading"
+     },
+     {
+      "route": "Wikipedia search",
+      "result": "no article matched — not a size reading"
+     },
+     {
+      "route": "Florida Trend search",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "route": "Google News: name + revenue",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "route": "Google News: \"Alpha Foundations\" employees",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "route": "Google News: \"Alpha Foundations\" \"annual sales\"",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     },
+     {
+      "route": "Google News: \"Alpha Foundations\" growth",
+      "result": "article(s) read; no sentence naming the company with a revenue figure (deal values excluded)"
+     }
+    ]
+   },
+   "American Fasteners": {
+    "figure": null,
+    "employees": null,
+    "routes": [
+     {
+      "route": "Inc. 5000",
+      "result": "parked (403 ×3, window five) — not read; no size reading"
+     },
+     {
+      "route": "Wikipedia search",
+      "result": "not read: budget"
+     },
+     {
+      "route": "Florida Trend search",
+      "result": "not read: budget"
+     },
+     {
+      "route": "Google News: name + revenue",
+      "result": "not read: budget"
+     },
+     {
+      "route": "Google News: \"American Fasteners\" employees",
+      "result": "not read: budget"
+     },
+     {
+      "route": "Google News: \"American Fasteners\" \"annual sales\"",
+      "result": "not read: budget"
+     },
+     {
+      "route": "Google News: \"American Fasteners\" growth",
+      "result": "not read: budget"
+     }
+    ]
+   }
+  },
+  "revenue_reads": 36,
+  "stop": "UNBOUND STOP FIRED mid-window: 4 unbound of 6 processed. From the article’s own text: 3 no-company-named (a fund-commentary note; a “Top 10 Private Equity Firms in Tampa” listicle; the race for Florida’s elected CFO, a political office) and 1 headline-unmatched (Brasswater expanding its hotel portfolio with an unnamed $48M acquisition). The query, again; the negative terms did not reach these classes.",
+  "decision_point_figures": {
+   "articles_read": 11,
+   "carrying_a_dated_florida_signal": 6,
+   "reaching_binding": 6,
+   "site_found_by_article_link": "1 (2 recorded; Madison’s 1901 Inc’s “proof” was the publisher’s page — fault 47 — withdrawn)",
+   "site_found_by_derived_host": 0,
+   "no_site_found_by_any_route": "1 (Madison’s 1901 Inc after the withdrawal)",
+   "routes_tried": [
+    {
+     "key": "Acquisitions:gnews_rss_w8:663",
+     "company": "Madison’s 1901 Inc",
+     "tried": [
+      {
+       "route": "article link",
+       "host": "https://ibmadison.com/",
+       "outcome": "proved",
+       "proof": {
+        "where": "title",
+        "span": "In Business Madison - Wisconsin Capital Region Business News",
+        "construction": "direct"
+       }
+      }
+     ]
+    },
+    {
+     "key": "Fractionals:gnews_rss_w8:667",
+     "company": "Memorial Healthcare System",
+     "tried": [
+      {
+       "route": "article link",
+       "host": "https://mhs.net/",
+       "outcome": "proved",
+       "proof": {
+        "where": "title",
+        "span": "Memorial Healthcare System Search facebook instagram linkedin twitter youtube facebook instagram linkedin twitter youtube",
+        "construction": "direct"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "new_passing_1_2_5_held_size_unsourced": "Memorial Healthcare System (mhs.net, article link; Fractionals — the CFO appointment is the signal). Recorded as found: it is a public hospital system, which the Chair may judge at tests 3 and 4",
+  "admitted_this_window": 0,
+  "running_count_against_100": 0,
+  "confirmed": 0,
+  "wrongness": "0 article-linked hosts failed the proof this window (the stop now counts only those)",
+  "ceiling_line": "reads spent 56; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)"
+ },
+ "proved_before_reads": {
+  "v4": "build 17 of 17 (the and-joined truncation in the build half), held-out 4 of 4 on window seven’s unseen headlines — thin",
+  "parked_page_proof": "a planted for-sale page refused, a planted company page proved — the route’s commonest failure chosen before the route ran",
+  "missed": "the planted cases did not include a publisher’s page sharing one word with the name; fault 47 is that case arriving live"
+ },
+ "faults_added": [
+  46,
+  47
+ ],
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window eight ruling: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window eight delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "window": {
+  "launch_utc": "2026-10-30T22:53:44.004264+00:00",
+  "run_start_utc": "2026-10-30",
+  "run_end_utc": "2026-10-30",
+  "straddled_midnight_utc": false,
+  "reads": 56
+ },
+ "proofs": [
+  "reports/w8-pattern-and-proof.json",
+  "reports/w8-per-url-record.json",
+  "reports/w8-engine.json"
+ ],
+ "instruments": "no page changed",
+ "reversal": "naming4.py and window8.py new; window-scoped files",
+ "changed_files": {
+  "naming4.py": {
+   "bytes": 1223,
+   "blob": "b02667e6a8",
+   "sha256": "5ac5341a7833578a"
+  },
+  "window8.py": {
+   "bytes": 22602,
+   "blob": "36990adbab",
+   "sha256": "4b6e2f8196768520"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 676228,
+   "blob": "3adecca5a9",
+   "sha256": "a0d343b177b107e0"
+  },
+  "florida100-window8-log.jsonl": {
+   "bytes": 19912,
+   "blob": "21c6329896",
+   "sha256": "1f94b169d25fd2bf"
+  },
+  "bot-config.json": {
+   "bytes": 1407,
+   "blob": "19f198f599",
+   "sha256": "44409d2324b0c975"
+  },
+  "founders-roster.json": {
+   "bytes": 37559,
+   "blob": "db5fd1924e",
+   "sha256": "3d06b43b20f0c056"
+  }
+ }
+}

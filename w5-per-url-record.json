@@ -1,0 +1,344 @@
+[
+ {
+  "ts": "21:59:27",
+  "practice": "Revenue class",
+  "source": "wikipedia",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22Avi%20SPL%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.32
+ },
+ {
+  "ts": "21:59:32",
+  "practice": "Revenue class",
+  "source": "floridatrend:search",
+  "url": "https://www.floridatrend.com/search?q=%22Avi%20SPL%22",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.77
+ },
+ {
+  "ts": "21:59:36",
+  "practice": "Revenue class",
+  "source": "floridatrend:article",
+  "url": "https://www.floridatrend.com/article/1928/more-about-floridas-top-private-companies/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.58
+ },
+ {
+  "ts": "21:59:41",
+  "practice": "Private Equity",
+  "source": "proof:hig",
+  "url": "https://avispl.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.05
+ },
+ {
+  "ts": "21:59:46",
+  "practice": "Revenue class",
+  "source": "wikipedia",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22Health%20Network%20One%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.14
+ },
+ {
+  "ts": "21:59:50",
+  "practice": "Revenue class",
+  "source": "floridatrend:search",
+  "url": "https://www.floridatrend.com/search?q=%22Health%20Network%20One%22",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.08
+ },
+ {
+  "ts": "21:59:54",
+  "practice": "Revenue class",
+  "source": "floridatrend:article",
+  "url": "https://www.floridatrend.com/article/34983/health-network-one-ft-lauderdale/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.64
+ },
+ {
+  "ts": "21:59:58",
+  "practice": "Revenue class",
+  "source": "gnews_rss:revenue",
+  "url": "https://news.google.com/rss/search?q=%22Health%20Network%20One%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.87
+ },
+ {
+  "ts": "22:00:02",
+  "practice": "Revenue class",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.2
+ },
+ {
+  "ts": "22:00:06",
+  "practice": "Revenue class",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGR3MnAyelNFR01sd1VoNWJyUElsNDlSVmctSU4zMEZyUWlPZEJmdlF6SmRMTzV0UWxYeDVLb0V2NDMzbWctdHNzUUVhSWdZRTk3Mks3Qjh2Zkk3SmFkT0Z5U1Q3X2FEWTBhb3dMOVZ1Z1BVWnpCMkFxV0pGeDNvWUEtOWo2ZkVKRFVlV1V5QlJNcmF4b21GbDdzWlRmbDRhOWw4TVFQLUFkTFVnZWNIeHlEeHFaTzBpMkJxdA?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.76
+ },
+ {
+  "ts": "22:00:10",
+  "practice": "Revenue class",
+  "source": "inc5000:search",
+  "url": "https://www.inc.com/inc5000/search?query=Health%20Network%20One",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 2.11
+ },
+ {
+  "ts": "22:00:15",
+  "practice": "Private Equity",
+  "source": "proof:hig",
+  "url": "https://www.healthnetworkone.com",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.59
+ },
+ {
+  "ts": "22:00:19",
+  "practice": "Revenue class",
+  "source": "wikipedia",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22Mainline%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.05
+ },
+ {
+  "ts": "22:00:23",
+  "practice": "Revenue class",
+  "source": "floridatrend:search",
+  "url": "https://www.floridatrend.com/search?q=%22Mainline%22",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.3
+ },
+ {
+  "ts": "22:00:28",
+  "practice": "Revenue class",
+  "source": "floridatrend:article",
+  "url": "https://www.floridatrend.com/article/14683/floridas-largest-private-companies/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.77
+ },
+ {
+  "ts": "22:00:33",
+  "practice": "Revenue class",
+  "source": "floridatrend:article",
+  "url": "https://www.floridatrend.com/article/39501/wednesdays-daily-pulse/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.51
+ },
+ {
+  "ts": "22:00:46",
+  "practice": "Revenue class",
+  "source": "gnews_rss:revenue",
+  "url": "https://news.google.com/rss/search?q=%22Mainline%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 11.28
+ },
+ {
+  "ts": "22:00:50",
+  "practice": "Revenue class",
+  "source": "inc5000:search",
+  "url": "https://www.inc.com/inc5000/search?query=Mainline",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.7
+ },
+ {
+  "ts": "22:00:54",
+  "practice": "Private Equity",
+  "source": "proof:hig",
+  "url": "https://www.mainline.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.76
+ },
+ {
+  "ts": "22:00:58",
+  "practice": "Revenue class",
+  "source": "wikipedia",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22Moneysolver%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "22:01:02",
+  "practice": "Revenue class",
+  "source": "floridatrend:search",
+  "url": "https://www.floridatrend.com/search?q=%22Moneysolver%22",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.11
+ },
+ {
+  "ts": "22:01:06",
+  "practice": "Revenue class",
+  "source": "gnews_rss:revenue",
+  "url": "https://news.google.com/rss/search?q=%22Moneysolver%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "22:01:11",
+  "practice": "Revenue class",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.52
+ },
+ {
+  "ts": "22:01:14",
+  "practice": "Revenue class",
+  "source": "inc5000:search",
+  "url": "https://www.inc.com/inc5000/search?query=Moneysolver",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.68
+ },
+ {
+  "ts": "22:01:19",
+  "practice": "Private Equity",
+  "source": "proof:hig",
+  "url": "https://www.moneysolver.org",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.22
+ },
+ {
+  "ts": "22:01:22",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZFE5WlEzdkI1M0VTN2JYQWpJdDdyYm5QbS01TFFZTHVlMVZaUHJmb1Vna2RrUlBpQTJvVkxXaXlwZndNcWVxbGdSTWRxSnBTVEpMaWlDV1hlSGZyT0E5M0dIVlBRNkhXVndCZ1M5Z0d1Z1VSV0pmeWlBRlNBemo4SjVsSkZUaXJFLWs0SmdCZWNWRExGSzMwc2dHbHJ5dWhtODc3bV9xZ2NLTU5iNGFURHlfMzlQdw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.76
+ },
+ {
+  "ts": "22:01:26",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5adjhRdnNzSmJ5QXByYm5SNEllVmtSWVBBTTZXbXo3R0lXdGFhTjNwT3NOb0RrM2hFSzY5XzQyZ1VOT1oydW9fTGRES1BBSnpNbVJOZg?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "22:01:30",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOVY2QURTVUw4bGJ6TjJweFY3cElveklvS1BYUEJSazdOVkFWOVhRMDNtRFBHVS1OYWZob0ZZUkhrT2xySkdpVjRYNk1BdE5fVGJTMGpNQXc3azRVUXRGbjh3VFBKU0dPNndlVmtueVl3US1yb3JQX2tQYmk0ZHRBNGM3VDN2Q1NLdk8tNHZ2d1NqM3JrdGhvX05kd2djOHlZOUtuWkQ5T2xpcWtlNHpxUXh5N1JxNEZtSDcwY19nSEVncHJq?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 1.94
+ },
+ {
+  "ts": "22:01:34",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMWlrNG1hYzlybmRDTTRsYVBzNF82cDdPcGM3ZV9fUzU1Rk9HU2tQUnA2WENEank1bzFDNUljOG9YTTAxMkhiVUU2X09IVzJKbklYS2dManBld2pUUzNseTVWeTM0ZFhTN29ETldJZkgzSFpnblVhd3lIaWRxTjVlQ3NIb2VTSEtfVElNcU5BOERCN1R4eEt6ekpXUlFKVEtqcWowM3ZYTGs?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.89
+ },
+ {
+  "ts": "22:01:38",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPajZJeG1IcjdHelVjN21obTdmUjBZX1Y0TzNNMUp2MFUzMmxDQnkxNVZHZHN1b0FvZFdHOXotamtLQTNwNE9XVFNHZmo3VmZvQWZHX01lenpka3hWakF2LVJOWHpRQ2I0NVQzUk5yakY5eXpvV2pnaGsxV2lUbW1sNDMxY3JJUVppcDh4dFdFN3lKRHlQOGltQUtYZXRyR1NicHU2QnY0NV9xMjM5ZjlyaVh6OVJjOGdkV1J5c0l2cjBwcVdyMG9EYmpJbHAwQWNuYnJ1b2trUkdSWmlfN3NFYW1fel9BNmE4c3NXS3AtZw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "22:01:42",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYktZQkk5TFREeHZ3cFY1aXdqaHFCMXpuSDFJV3RTY0VmeUlRRmJpcWlQX3Z0ZlRJVFpfbjBVOTNYZDZWczJ2TndqQ3NYS1JNR0hLeTBQOExFQ0QxU2dldV9WMm5DUkNMVkkwV1ZLcWE1OTgxZWJrUEtBZ3VTZE5GNXVKeS01ZG5CWUZyRVY5d3VVTkhLVE95MnNOYlZGTUtM?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.37
+ },
+ {
+  "ts": "22:01:46",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM0RaVUZUXzNWWHFFcV9nalBUNHltTDNldUhrWVhiSkJQNWhiYUFaSXhoU1JyMWYxUl9udlE3dTdjN2hfWjhVelJnbG5ENmh4bFNNMmlEeUI3WDJYSFpCa0kxRHpBTEMyUzlaTDhHZks1MjFuZWhmVS1WNEczOWRNQUFESzFENGh4VGJkTTI0WkxvQ0R0NnljYmNIN0ZIWmRITTBN?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "22:01:50",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRWFwbFNtTnpXSEVGQ3NoN2JaMHlCU0pkZFQ4MmlLS3NsRjAwbThodkhwZVpET0lfMzRiUUZVX1hkRlMxRUpyZnloZUJoajFjNmFicWlLaEtkLXBjUUtmTUU1UnZ6NzA5U2V0Z2tVd3E2RkpRS0dVWUswSjM2NGxRaWNWV2kzR05oaUpWeEZB?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "22:01:54",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRE9DOWJEOGROcjBUbXdVZmZYVVJyRVgxVF9TX3k1TE0tMFNSbktxdWdxWFdCYlF5RTdPMUxQOGZPaXg2RTNsdk1wQ0UtLXdIbjYyNGhDTGU1MDVSSFpKd2RWVThwMUtZUFVvX0twemxfLXp0Mm10dzRWZkJhazBSQlhSNF9uWk80QUFGQ2UyZ2g3dzRs?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "22:01:58",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZzBINExzZE5UM1E2UGZZZVk3TWhRZ3JpNXA0aXlVOVpUVjNsQmlsMlVyazJWeno0YkZvcDJvcmRocGY2aWtEdU9VbXZUTkJ3UTVRWHdhQ3E2ZUVPVVhmcXZPTjNvbWJ2anRVTDJPVWhuQ2p1aWY1OWJpbzk4VXJuQjROUTN3V2NGMVNHSjFlSW5GdTFIRkRSa29YT0RpTGFnZnhESDlIaG1TTWpBeS1EVEFIR3hJMVlSTUZrTTlB?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "22:02:02",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVUVOQVVQZHNGSVVkNjQ4NlZoU3dobElwaVZvZHBmS2ZZMUllVG1MRm53RTVXS3hXbWhkN1hSSDk5TXpaaHlOcnVKZWxmTklNN3MwaE9LYWpKU2UyUlBQbkxSNUZQQ2s4TXVLV0VyZnFuUndzVTR4aGZOMDJSSzNxYmpLRThqRkY5c0ZyYVcwWjVRNXBFN3dqM1dGVDVkS2dLMDZOQ1p6RG01QnlZd0g1UmNMcVc3aVlTVUNIUVYwdEctYUFiOVViT0pFVlI?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "22:02:05",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXJTd3pRUklwbHYwSEZzY2FRc0x3Z29Fak02WEdSbDhqRVVYbUZwS2NqOWtSeFdzZnhRajdncHdLOGZYUi1kMUpwVDlKZEdQdWkzcUJwVm13RWxVX1VVd3lSLVd4dG10dWZfN1NzQ3MwUkw3VlByTkJ4ZTdiSV94NEJDQmVJYnFmdHloUUd4Tjd4UFExZ1g0N0Z5TlJuTjBOUTFPVFUza2JNMDRB?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.84
+ },
+ {
+  "ts": "22:02:09",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:reread",
+  "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdGtBd2pmb2ZpMVczaFJUa0ZaZUx5VVptanBnYkdEZEdHMDMtcmpmcHpOZDQ3VUlvbDluOGNMY1N3VjlfLUpTYy1YUzJDSjB1YmR2bVhmbWF4dzRndGNhdXVYaXM4S2sybnFpMDAzdjlTbDlmYllycXMtVnQzbkdCQk5kSlRPbEUteHFKbFZuZnptOG9qYUdJXzZtX3g4U0dna0c1RERYaU50cF9xaTRKWVFDaUNVNkZpVE04WWVuMW1Yb0VuT21LNDdLeWZqSFJqXzI2T1NzM1hhWkxRaTFF?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.88
+ }
+]

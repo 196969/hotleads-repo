@@ -1,0 +1,1217 @@
+[
+ {
+  "ts": "23:36:36",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Miami%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.22
+ },
+ {
+  "ts": "23:36:40",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWUhLZzF0c0p6Qy10ZVRmQnI0MVVYbXhZbDZJbTdBNVJsQmowOFY5c0NZSE5kQ1V4ZTZhel9adXhrZTExc2oxN0F6NTF2czJoSFN1UjNsajRzMDB3cGw5cDhBZ3BBdDVPRHBjX0hYSjcyTEFkdm05dVZ2c2g4S3cwZkxkZEU3MFVRbVR6SG1fQ2FwV0dnaFNLTA?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "23:36:44",
+  "practice": "Acquisitions",
+  "source": "site:article link",
+  "url": "https://hotelmanagement.net/",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.98
+ },
+ {
+  "ts": "23:37:03",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.intercontinentalmiami.com/",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 16.83
+ },
+ {
+  "ts": "23:37:22",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.intercontinental-miami.com/",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 16.86
+ },
+ {
+  "ts": "23:37:26",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTWRBMlk1eWt4RmhtTWVLT2FOdlVvM0t5cTRqbklPVEtPbk5iNi1KYlota1pKQWhPZHd1N2U2eXZGMy04UG5sZnpYOFlYZE9PcWFHaVFadVhlLXd4MWJCMXpXU29LbWhLWjNycDNUWWRRc1UxOGhpOWZjdlk1QUNiY3J4V3RrMUQz?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.87
+ },
+ {
+  "ts": "23:37:30",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Tampa%22%20%22private%20equity%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "23:37:33",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNVlCWThCckplZThneExMSURUaS05alZyYlJhZXpuRnc1YmtXcTJsS013S21NY2Z4T2MyNGJLeHpLLTF6ZVM0OHlMRHcwdUh2T0EyR0tpYUlVQmF2S1U0c0FTTE8xcE5jRVd4YUZsOWxtVEJZYXFXTUtvY1Rudkt6Rjh4LUh4akVrMFBiYzRydnZtM3d1MmdDa2JEcGlnczdMZ1l2OW5qTFc?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.82
+ },
+ {
+  "ts": "23:37:37",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa19MdS03SFo3bmlBLXhsWUNuWnVOVUdxdDlDenU1N2syTmVuOTkwNmxDZlFtMnVLOW9BS21WWm92VGpJMkFwb1ZPV20tNjhKejM4VHJjc2RqT01MeTJGNlNaeTI3N1FWbkRrUGtlUWRSRHRZWW84LWpDRWVaZjl4TU5mYUJfQXRRa3FtOEpFdElhNHVISWNVR0JNVXVGd2pyVFNwcUpSeVVra1d6VERQWklhWQ?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "23:37:41",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Orlando%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.88
+ },
+ {
+  "ts": "23:37:45",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xaDBCM05MTjhUN2c2cURBRFFCeUdCanhUNnVuVV9BTl9DYkJ1VkNydkZ2QVpnM3RldGhKMWFTZ09QT1ZVeEdKRzVQOFMyUjZzQ1JvWFRzNjdtbjZra3Z3bk9HclNCRW9wMEhXYmFScG9LSWxRVWc?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.99
+ },
+ {
+  "ts": "23:37:49",
+  "practice": "Fractionals",
+  "source": "site:article link",
+  "url": "https://floridapolitics.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.06
+ },
+ {
+  "ts": "23:37:54",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.seaworld.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.75
+ },
+ {
+  "ts": "23:37:58",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNalQ4MjFESHNFYmlXeTRCVDhzdk8xa3JNd0dQLVgzdHltRXZkOEsySVlrbXpBNEVwRmtzMHI2RGdaQ0JZVm8wc1NyeDZJMERVTVdwc0hoUUJyck82UDVVR0I5ZHZnUVdYMXZyQVlaS010Z0V4dHFPNUJuamRFMDczMnJUdFB3RUMtR1hfa0VlQnBseVJpU1hV?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.48
+ },
+ {
+  "ts": "23:38:02",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Fort%20Lauderdale%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.87
+ },
+ {
+  "ts": "23:38:06",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU01EelFPOUVkSEFkQjJfcV9hTEM2QjhBa1ZMTmFuRUNEaWhzdWlaQkp6TkxDVDVIZlFGNy1LN3dfeFU5cFNPcUJPN1R1bm5XUjJ6S0YxMlVKZWx1SzBFWG1jTm1wdHFlcGdZTElBSmtleFY0WWRJRUJiSGotaW9QZG5EenVpRG5NaUZWV0VnMThSVk1CR05fa2hacjBjT3JXVEYyQlFISVFULU5O?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.76
+ },
+ {
+  "ts": "23:38:10",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPX3FOX0ljRzRKdXo0OTNraS1fREx2ejQyZTJmT21uNFYzUUxtQTdjejFUMW91U1NNcjZvdHZoejFOaF9RSFhFQjlGRTB2dXBPTnYyTG9zV2JYQ2NlYWNSQXFId3dqeHlyMHBjVEpHWlMtUHo1eXpIQVktaDFDT1NuRVhTSzBGMjFjVUplNUpCQXZIZm92QURYREJTUjlBSlhjTnhQelpva29kc3RKUDM3VU9XNE9Xank3d1E1bG51Z0ExN256eXhxSi1wRXlDZk9ZLVJfeGloZXE0NnZPVW51alVsOXdqeldoaS1JbFh3eE1sdDZlOE1RVmM3Z202Um5jRERGVHhhc1BTZWpoTEt5Z1lGR1REQU94MEdodVRLaUdyZw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "23:38:14",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Orlando%22%20%22private%20equity%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.28
+ },
+ {
+  "ts": "23:38:19",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVGp6dzFGUkhMRnRNY000N0taeEFQc05KZ2dSVGtQb0JtUmZZTVFPVENVdlRsdWFYRWJUbFUxTVBZWXRCMTlXdW83MFV4UDVfeUpydTAya01uWkROSEhjUnZfRWFXUWhhbmJEZFhEZ2FfdUMzRlp6elZmTlQxYWp1OFhEbGJKOE9oYThtWWJ6UXZVU1RWYUtBRmZlVG9JQU1sVFVOQnh4V0FkVzVZcEhzUmFOeVo3bXNRaGt0OFV4VTVFRlNrVERLTnNpZXZ6d2VwOHpUU1VB?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.78
+ },
+ {
+  "ts": "23:38:23",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWmZ3Tjl4S3U0T04wMVB2Q1JEOGI5WWh1eHJJLTMzYjZORDdycUtoME9UTEZVS25ZRHh2X2U2bDRwSlhIS1hSdUl5bFF2b2JYanpCNlE3OXdVNnR5cWhTWDNkek1scDlURjNoU0FtSTdUbktxbEZhOFpOa0F6cjc3ODhLamU0bG1MRUlLYW1QVjMyQlVOVHJhLXlSOC04Q0hsaU9SZjNZbWFqN0RqdEJRTm1Eem1rNmZobVhsalRVYTJva2Q4TmhUSktaOGlzRkh2OU5XUlFB?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.35
+ },
+ {
+  "ts": "23:38:27",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Jacksonville%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.84
+ },
+ {
+  "ts": "23:38:31",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZTZoY0c5VTQtcHJBNW04UHVYUXNoMFJLMXZGM19DUElYVnZXM2FGSW4tQklDbVZxTkZYRlhUZTd1cERQYlNyYkRrZlZNS0t0ODBlUTBBaDRuQWJpc2pZRmozU08xc0JTYXRmMmZlOEtmMllhbVA3QzBrekRCUU5PNktoUFJhREpqeWVXQk51LUJVY1FPN0dWSVNIbElqRThoZG5kVg?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "23:38:35",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Tampa%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.9
+ },
+ {
+  "ts": "23:38:39",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ONHd1NWNqVHFNeGVlX1VHbUxGUFFpQW5TNG04U0duSjc4dHVnaXVxU1Zxelc3RG4wRUI5cGZMTmh6dmJyOVE0dURYUjZOdFBDQkFHSzFmeHl3OThTMGNJeXhjV2g3VmJvbXBN?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "23:38:43",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.westshoregrandhotel.com/",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 2.12
+ },
+ {
+  "ts": "23:38:45",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.westshore-grand-hotel.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.12
+ },
+ {
+  "ts": "23:38:49",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMWRYVTNmQnZqRWRRQkZRcmJDRjVJMkY2TjNSaHJnYTR1a3RlajNfZ0RXUW0tTUZyeFk1UXk4bUg1OExmWEFNZHh3c0RIaTEtbWYzeFZ1cUgxZHhvNC1qYTR0bDBqd0hrd1M5Qm12TER3aGVIVnlLaFZ4U05ZalFEOVBoZkFBOG0xaFYwT3RmaFppeFZ2VnFpdDlvMGdKOXpIcS11TVBVOVZEbXM?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.74
+ },
+ {
+  "ts": "23:38:53",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Jacksonville%22%20%22private%20equity%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.9
+ },
+ {
+  "ts": "23:38:56",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOWtOTUV4M1d6MEJPbWFPVXFlLXpvOVdRNDg0aTlFT3BaTWpnblpYVFZOcmdxZ2wwVGZFOGZqN3RLdmFKcEhyVVRfNE40S0lsaTVZYm9hc1hGcV9GWHhNbV9JV0QyclNkMlUybFR1dE1RT2RQLXI4ZlhTNV8wYXhkbktyN0FFNGdYSVcyemRTWl9vY2ZSeWJJOWIwd0RFOEtzNkJEendYbTNFNlEwOVJqRTlJdGxjcFdOYVlDdEpQRHc?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.82
+ },
+ {
+  "ts": "23:39:00",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Orlando%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.91
+ },
+ {
+  "ts": "23:39:04",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdW5YNHZ6Z25Cc0R5YTBCbXJxV3ZzMENqajZXa0p4R2hEcjZHUWNZUi1NSVFjNmJkV0lESE0yRy0xWGVTUEFXTHRobHhQSHlFdlhpWUxUR0hjelB2LTh4eEo4UUVjX1B1aXNwMGxsSmhRSVZ4WlZ0Q2ZvcWlYdmZFcXFkOEFabzVPN2pLNXA3c1lkTktQRExhUFV4STZTVldwOFFDZ0JLNFVLOWVqYUh1RUVWdFBYYVpYRnNlbEVUaXEtZDV2ZFVJSVB4NmdEaGlRbTcyaw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "23:39:08",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOFQ3MnhzS00tTmFoeEFYZ3BhWFBtc3NFd2I0MzhCLWg4WEhQRDF2Q002QnJ2R1BQYnhlSlpEZ2pwNURzUlpRckRtSmJZMTcyR0RkYURsSXEyVEVRamVMU2Z5Z3Nfa041dFpDWHMxdXF6cFhLZGlrUG1EdUJ6VDFOamNtczVaaXps?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.76
+ },
+ {
+  "ts": "23:39:12",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Jacksonville%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.11
+ },
+ {
+  "ts": "23:39:16",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mQnZBRjdHY09YcnRZQy1WeDRKTGxyZ0hHUkZPdlNmLWtQZzI4YkdOb3BZelpkYUFrbzFONXpKT0ZvanJVQVIxTDFSUkVUN0dFYjAwYk1aSkwwZXYzVGZtRUUzRTdJMHVSeWtnbEtsU2gwUFhMRXc?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "23:39:20",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeE9FUEQ3OF9qOG1ZZEtLMTY2eU5vVk5UY21qeEpzcFdFcVQwVXhYWXBTU0pKTnBicE9HWVRraUxLdS01dzJqNWVFYWUwZXBqOTBZRWpGcko3T09MMV9PVVYzRzlXRm5yLWplaVNKNF96eU1PX1hjY1EzcHNJYTB1S0tueUJLTEZsS0JHb0xrWXg5SzBwRXVMbWdpLXhyWE5iLVhjUThfZkFKbWc3NW1XQnNxZWJaeXR6d3hJUGtNaml3R0xwckc3OVl0NkxnbC1XeVdfUg?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.02
+ },
+ {
+  "ts": "23:39:24",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22West%20Palm%20Beach%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.05
+ },
+ {
+  "ts": "23:39:28",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa1RyWlBFZ1BKRjBUU3Y1Q0xBTGdQbloyT1BzS1pURkZPLUlGNEVVYWE1MVpoSlRhQkdoT085XzRYT2pNMW1oZ0Q5Y0V5aHZwU2hKMElhdUZ4dlNYMjQ2ejhqb1ZhZm1FYUZ2OUxiTU1sSDUxZlBCZmEzbVdZbGpFMFVIckh0Tlc5bFBzV2pubFJMUHNGMWo2bVNyc3hCaUlXRUJsellGbW9WaHV6?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "23:39:32",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjNEN1YyM05Gd19zZkR6VTYwZUxtaHZXRlo3MkdqRlVJRzFyamhBb0g3MEZ2MVdIVl92M0RzVDZSUF9tdXpQbjVyS0dnanQ2bklVME1ITUxoaWF4VjhQVlhHOVU3NDZRMnZvOFNURkEwaUlRTzVJVmxkMHdhTTBvYkNZNk0xVDNlVXM3bVBxWWdtTnkxc3Zab2tEZmhNRGpYQTFfX1lUV2xhd1dvV3pKdA?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "23:39:36",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.marinoperformancemotors.com/",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.9
+ },
+ {
+  "ts": "23:39:38",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.marino-performance-motors.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "23:39:42",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Sarasota%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.82
+ },
+ {
+  "ts": "23:39:45",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVmZ5a0R2SEd0eUs3RlBVOFl3cjljaUhOa2c1anNYZDRYMjZUSjloVnBPazI1VUN5RzFjTnZCYzlNbVc5a1hGdzNtN3RaU0Npb1BUSTlhZG1BaDl4SE9GQnZ2NHB1eGR4LTk5MXpEWTZGQzJGQ3NFX1RpbFVvbm5wN3M0Ul85MXZpTHZiZDUtcWZOSm54SU1ZNnc0SXZ2YzB1d2ctcHBtTk92LVJxZ2NJSFpTNjlaX0dHUlZsU2JfaVFaRzhSQ0ZnZ19ZOVVGZHFjWHpYYkFnd1B0d01ON3c?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "23:39:49",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY2lKRHNkY0dsWHoxRHFNUXk0bE9JOFRoWE5DNDdpN1Jpcm1EaHVmNl8zSUVybHRLa2tlVVhVNk54RlpTM0NDWkg2b0w0Smk3YjRNZFpWVVZrUGFKVFdxeUoyekIzWlZoLXJVX01rZjZtTTJHbFVlckRnN1B6Y3g3R1g3cW1UM0N2VzJn?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "23:39:53",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Naples%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "23:39:57",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQzZjNFpROU5oMnhuOVlfbXM4d1hSQlRsaUxCM2tLeUlibzB0UTRuT0VYOHUycTEybTEtdG9LaTJudmtJdGY4LTQ4YkxpRFlWc1BQLXFzeDlWeGZTX1BnWkFtM1NWMXEzU0g2QVRXY0lmTk1mRWNPcnZIYlRZTEI3N0pKM2tmNWVhRjhZMTgxMHBqdWl0UVQyek53YUEwYm9HYWlhV1oyNHdvRzRzMFlWc2tWQkoxbllK?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "23:40:01",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcktQeURRcHJibDU5X3VmWmc5c2JLNy1ncHpNWHJtVk9qdFNoXzVFMWhGUGhTM29kWm5qcG9ia251WHZtV3JTUEg4Ty1tbWxobGlISUxyWk5ERC0tand1VkFydndwa0hxX1dtLXNhclBkM284RTB4TFplY1JDZzhHMC1sT2g?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "23:40:05",
+  "practice": "Acquisitions",
+  "source": "site:article link",
+  "url": "https://hotelbusiness.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.12
+ },
+ {
+  "ts": "23:40:07",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.naplesbayresortmarina.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.09
+ },
+ {
+  "ts": "23:40:09",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.naples-bay-resort-marina.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "23:40:13",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Fort%20Myers%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "23:40:17",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcUg2ZEZmMmFBb1d4SGM5QnJLRmZoWDM4dUxFWEo5WDE1eWtNSWROY1RnX2VEbjJnTzl0ODFFamd1ZWFrUkJieVhCX3ZjZS1xaWkzNEtzc0NXT1g4SmlJbkFCOGtEemFhMU5WV3JsT083c0tLaHI5MVFldk5Tbm4wN0VORWpvNGpJdTZfN0JVQ0JuLTZNUGlFN3o4VklsX3VDeW5R?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "23:40:21",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOEVRUE1nVFAycVB6U1AzU0lNeHdPMzhsLU8teGZvcUZ2bS14N3FCdzlLa1dfMDVnU3U3RExZM0E1akVFS3g4aWljY01nQlluN1FEbzU1TkJUN1pUdll3MXhTWEtrTlh6U01fSnZydUNzajBENUVvTVF4dmdkRzBqcFAtUkxYN2VOQmJOLXpVVkdNUnduX0hn?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 1.98
+ },
+ {
+  "ts": "23:40:25",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Pensacola%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.9
+ },
+ {
+  "ts": "23:40:29",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNblJySE1RUkUyVnZGRTBMdzJ4M0hEQ1R2WFRSUFhlZ3A2REthLWxOQWgwWDJYOW4xbE1QWlBadFJhNVEyOEpYQl92MGVoWG1UcnhCRlB4X2dvcm5reTV0REhLSmJMS2hWbU5DOVFHbzFNMW5zWHpEVTY0NXhGaVFfY09QN19zQU9Da3BSNXFVblNXMU01TFIxQXppMzBiY1JVWFpEYjVrQ0E1LWM2endpczNxNm8zbHBOaDNHX1pqWnBjY1U0NHA1T1p6akFUYmRMVWc?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "23:40:33",
+  "practice": "Acquisitions",
+  "source": "site:article link",
+  "url": "https://world.einnews.com/",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.85
+ },
+ {
+  "ts": "23:40:35",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.200unitpensacolaapartmentcommunity.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.08
+ },
+ {
+  "ts": "23:40:37",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.200unit-pensacola-apartment-community.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "23:40:41",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ1dyM3ZIRUNoOE9uSDFSbTN5MTNmOWJvaEtRMDNwZHMzZW5CcHZySV9zNkN1NnRSOVB4MTNlTWZlVWxNeDNlSTdiVHMwQ2hUazBHRVEzclk2WkRVd3ZLbHVUZTU4Z1daUXc3TzQ3cDhZM3RqVGdkdEg2Y0lkbm9ZZmoyZFNsNWN0NHdNclJ1SzJPU3VWS3Rxb2tjYldKUUYwNXVzcnlQQjFEZGZtRFVTUQ?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "23:40:45",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Tallahassee%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "23:40:49",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWVJ6cU5LLVkwRFp6SHNoTzlENzY2Z0R0ajh6dWVlV1J0RU1laVlyYzRiZlVuOHV0T3BDcHF6dTU2cjVBeGJ5ZkttVlNHSmNoSzIxT200RGQzQkRtaDNVQ1JsZ1d6QklQUzVxYWFEaV9tRG1MWlpGLU9wTldKSVNoZEJXWVRyMzJFS3RTREZ3cVNSMThVb3VONDNZOGNjVXY4LUcxaUtCOVVSZ0xGc2cw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "23:40:53",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUUY5dnBZX3lBeVB5QVhGRUpPZGMxUlRDb2RtZjZWRS10M0NxTmY1SldTd0FrT3p5QjNZZW1qaU02dF9IQUIyOVJId0hmUWstZDByaDlBa0JJa0tPaTVDaHRYc1NKUnM1R2E2UDdkOGMtb1duR0JHUDNIQ1hqNklIQUxuQng2bFNRVEx6RmF3eG95MmM4ampkWVVYZVlqbzFpM2poaWNpbEdRanZYWF9wV25ncDlxbUROY3pReW1qT3FMLUI2ZVlDbXFCVmZ0QkdRcWhjc05nN2NVdjhiRmZWT2VidmN5YmM?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.16
+ },
+ {
+  "ts": "23:40:57",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Gainesville%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.81
+ },
+ {
+  "ts": "23:41:00",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdzJGTU9aNl9CVzFwRXZZalFXOGpfclZ4T1AzN2dKQXYxX0pRclFBYjNTTjd5THplQ3gteWR0Si1NM0pWYk00TlZUUlM4T1lydTBPX0ZCZE1MNDMwMHZCaEhZYnNiYWQ3TkxVbkhDampvS2JGeDlacVhEbk1XdW5qLTdEeHFhbGNyWFlHQ3FHZ2JaaVZaU0pnSkE3SXMwVEdpUEp2U09DZy16SW5PNlE?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "23:41:04",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYWRaaWpRMnh0VmVsSldOSFZSb3pkckJpNGs2MExLY3dIMTJwSTUwN1ZvQk5TdW9LbkRENy1HQS13TnV1RzRtUFE2cW1MYzUxMzRLVFBwZmtYT0NtakVhRnRjSE5yNW5RS2JVWURTdWYycmU4eHUyR1FVTHItRUttX1UzVzVTdUp1TGtlSjU3MThBWTNrejB1c0hpeWpra3ZZcldUZGM5TnlYRDVEUTEwbkNsRQ?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "23:41:09",
+  "practice": "Acquisitions",
+  "source": "site:article link",
+  "url": "https://events.lawnandlandscape.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.88
+ },
+ {
+  "ts": "23:41:14",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.lawnenforcementagency.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.91
+ },
+ {
+  "ts": "23:41:16",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.lawn-enforcement-agency.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.08
+ },
+ {
+  "ts": "23:41:20",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Lakeland%22%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.04
+ },
+ {
+  "ts": "23:41:24",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWWxScnF6aDFkNmdIaHpLUlFLU2dZQVNCVnhKVjdQYzhERFdid1ZoQnYtbGJ6T1FWYlJEX0pJQWZQRzNqd3FMSUVKMVFvUF81d3RnTUVZbXZqMDd5TWtTTnU1YjlSdjRnZmlSUVgzQVlTelUxbUljS1Z3ZHFXMWJPUTJpWWJwZlU?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "23:41:28",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUmhWcHpMZUNoYmVtQ2dsdnJ6RXhZMlN4NUZ1QmZQeEpVY1doVlFLcmFMak1heWZRQWhWV2VELXY5bHJNOXd5SFpzOFllbTE2S1FjXzVvX2Z1S2hXQzNlNTkxd05TeVJfZlM4YzRjbWhwMmdRcGJ1U2FvQTBSSUVkRkpwTnZSU281alplQTlJZjhldkRZekg4ZEZHb3hONENsc2c?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "23:41:32",
+  "practice": "Directory probes",
+  "source": "directory",
+  "url": "https://www.frla.org",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.36
+ },
+ {
+  "ts": "23:41:37",
+  "practice": "Directory probes",
+  "source": "directory",
+  "url": "https://www.agc.org/chapters",
+  "outcome": "refused",
+  "kind": "404",
+  "elapsed": 2.76
+ },
+ {
+  "ts": "23:41:41",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/navitas-life-sciences/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.56
+ },
+ {
+  "ts": "23:41:49",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/net-trans/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 6.12
+ },
+ {
+  "ts": "23:41:57",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/netexial/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 5.88
+ },
+ {
+  "ts": "23:42:02",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/nexidia/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.57
+ },
+ {
+  "ts": "23:42:06",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/nextsource/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.45
+ },
+ {
+  "ts": "23:42:10",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/north-america-central-school-bus/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.98
+ },
+ {
+  "ts": "23:42:15",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/northern-biogas/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.43
+ },
+ {
+  "ts": "23:42:19",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/northwest-pump/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.35
+ },
+ {
+  "ts": "23:42:23",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/nzn/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "23:42:31",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/oasis/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 5.86
+ },
+ {
+  "ts": "23:42:35",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.oasis.com/",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 2.16
+ },
+ {
+  "ts": "23:42:39",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/ob-streem/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.31
+ },
+ {
+  "ts": "23:42:43",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/office-people/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.91
+ },
+ {
+  "ts": "23:42:47",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/office-total/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "23:42:52",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/orius-corp/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.41
+ },
+ {
+  "ts": "23:42:56",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.orius.com/",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 2.08
+ },
+ {
+  "ts": "23:43:00",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/out-west-restaurant-group-inc/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.01
+ },
+ {
+  "ts": "23:43:09",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/outcomes/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 7.57
+ },
+ {
+  "ts": "23:43:14",
+  "practice": "Private Equity",
+  "source": "site:sponsor entry link",
+  "url": "https://www.outcomes.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.66
+ },
+ {
+  "ts": "23:43:19",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/oxford-global-resources/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.9
+ },
+ {
+  "ts": "23:43:23",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/parachute/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.02
+ },
+ {
+  "ts": "23:43:27",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/passport/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.99
+ },
+ {
+  "ts": "23:43:31",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/patriot-pickle/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.04
+ },
+ {
+  "ts": "23:43:35",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/pellera-technologies/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.34
+ },
+ {
+  "ts": "23:43:40",
+  "practice": "Private Equity",
+  "source": "site:sponsor entry link",
+  "url": "https://pellera.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.52
+ },
+ {
+  "ts": "23:43:44",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/pendum/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "23:43:53",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/penhall/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 6.61
+ },
+ {
+  "ts": "23:43:57",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/personal-optics/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.02
+ },
+ {
+  "ts": "23:44:01",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/phoenix-me/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.39
+ },
+ {
+  "ts": "23:44:06",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/pinalli/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "23:44:10",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/pinkerton-computer-consultants/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.48
+ },
+ {
+  "ts": "23:44:14",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/pinnacle-gi-partners/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.47
+ },
+ {
+  "ts": "23:44:18",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/pixelle-specialty-solutions/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.88
+ },
+ {
+  "ts": "23:44:23",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/plastic-fabricating-company/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.67
+ },
+ {
+  "ts": "23:44:27",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/plixxent/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.35
+ },
+ {
+  "ts": "23:44:32",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/pmsi/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.51
+ },
+ {
+  "ts": "23:44:34",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.pmsi.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.13
+ },
+ {
+  "ts": "23:44:39",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/polar/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.82
+ },
+ {
+  "ts": "23:44:43",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/potpourri/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.49
+ },
+ {
+  "ts": "23:44:48",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/premier-forge-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.34
+ },
+ {
+  "ts": "23:44:52",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/pressed-petals/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.36
+ },
+ {
+  "ts": "23:44:57",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/pro-pet/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.78
+ },
+ {
+  "ts": "23:45:01",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/progrexion/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "23:45:05",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/weareproject/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.54
+ },
+ {
+  "ts": "23:45:09",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/propel-health/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "23:45:13",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/prosperops/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "23:45:17",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/protocol-global-solutions/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "23:45:20",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.protocolglobalsolutions.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 1.04
+ },
+ {
+  "ts": "23:45:22",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.protocol-global-solutions.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "23:45:27",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/protos-s-p-a/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.35
+ },
+ {
+  "ts": "23:45:31",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/puerto-de-indias/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.34
+ },
+ {
+  "ts": "23:45:35",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/quick/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.09
+ },
+ {
+  "ts": "23:45:40",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/quicken/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "23:45:44",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/quisitive/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.99
+ },
+ {
+  "ts": "23:45:48",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/ransa/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.05
+ },
+ {
+  "ts": "23:45:52",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/rbmedia/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.4
+ },
+ {
+  "ts": "23:45:56",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/ready-pac-produce/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.96
+ },
+ {
+  "ts": "23:46:00",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/recochem/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.01
+ },
+ {
+  "ts": "23:46:04",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/reliant-rehabilitation/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "23:46:08",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/rely-home/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.45
+ },
+ {
+  "ts": "23:46:13",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/reside-dublin/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.6
+ },
+ {
+  "ts": "23:46:17",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/revshare/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "23:46:22",
+  "practice": "Ownership",
+  "source": "ownership:memorial",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22Memorial%20Healthcare%20System%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.26
+ }
+]

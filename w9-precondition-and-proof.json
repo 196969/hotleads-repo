@@ -1,0 +1,33 @@
+{
+ "precondition": {
+  "keep_set": "the 11 bound headlines on file",
+  "false_rejections": 0,
+  "threshold": "zero false rejections (ruled)",
+  "stop_set": "the headlines on file whose article named no company",
+  "stopped": "4 of 5",
+  "other_unbound_passed": 6,
+  "classes": [
+   "a good headline with a single-word / multi-word / suffixed name next to the verb (must keep)",
+   "a headline naming no company (should stop)"
+  ]
+ },
+ "whole_name_proof": {
+  "publisher_page_sharing_one_word_refused": true,
+  "company_page_with_whole_name_proved": true,
+  "formerly_construction": {
+   "where": "title",
+   "span": "Emboss Specialty formerly Health Network One",
+   "whole_name": "health network one",
+   "construction": "formerly",
+   "current_name": "Emboss Specialty"
+  },
+  "parked_page_refused": true,
+  "single_word_name_proved": true,
+  "classes": [
+   "publisher page sharing one word / company page carrying the whole name",
+   "parked / real",
+   "direct / formerly"
+  ]
+ },
+ "result": "PASSED"
+}

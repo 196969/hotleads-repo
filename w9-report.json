@@ -1,0 +1,372 @@
+{
+ "HEAD": {
+  "decision_point": "READ: A FIGURE LANDED FOR ONE OF THE FIVE — the free revenue routes are producing, and by the governing form the provider stays held. Mainline: “annual revenue of over $1 billion”, CRN (crn.com/news/channel-news/ibm-partner-mainline-information-systems-acquired-by-miami-investment-firm, reporting WFSU), read 2026-10-30 through the free Google News route. It band-rejects Mainline (Private Equity ceiling $100M); it does not admit it. The window’s extractor missed the sentence (fault 48); a zero-read re-scan of the filed bodies found it before the decision point was read. Every subject’s reserve was spent: American Fasteners’ full set and every planned route for the other four.",
+  "the_five": {
+   "American Fasteners": "held size-unsourced; 7 routes read (Wikipedia: no article, not a size reading; Florida Trend: no item for the name, not a size reading; Google News with revenue, employees, annual sales, growth, Inc. 5000 press mention: articles read, no revenue sentence); Inc. 5000 list parked under its code",
+   "Health Network One (Emboss Specialty)": "held size-unsourced; read under its current name too: no figure",
+   "Mainline": "BAND-REJECTED at test 1: published revenue over $1 billion (above the $100M PE ceiling); source and read date on the row",
+   "Moneysolver": "held size-unsourced; no figure",
+   "Alpha Foundations": "held size-unsourced; “300 employees” recorded and flagged — not a size reading"
+  },
+  "memorial": {
+   "url": "https://mhs.net/",
+   "read": "2026-10-30",
+   "finding": null,
+   "reading": "the page states no ownership form — the conditional retirement stays conditional"
+  },
+  "stop": "UNBOUND STOP FIRED mid-window: 4 of 10 processed. Garyline (a company the detector cannot see: no legal suffix — fault 49), Construction Partners completing an unnamed Florida acquisition (headline-unmatched, no target named), Barry University and Tampa Bay EDC (correctly no-company: a university and an economic-development body)",
+  "decision_point_figures": {
+   "articles_read": 18,
+   "carrying_a_dated_florida_signal": 10,
+   "reaching_binding": 10,
+   "site_found_by_article_link": 0,
+   "site_found_by_derived_host": 2,
+   "no_site_found_by_any_route": 3,
+   "routes_tried": [
+    {
+     "company": "Palm Medical Centers",
+     "tried": [
+      {
+       "route": "derived host",
+       "host": "https://www.palmmedicalcenters.com/",
+       "outcome": "proved"
+      }
+     ]
+    },
+    {
+     "company": "Zona Rosa",
+     "tried": [
+      {
+       "route": "derived host",
+       "host": "https://www.zonarosa.com/",
+       "outcome": "proved"
+      }
+     ]
+    },
+    {
+     "company": "O&A Landscaping",
+     "tried": [
+      {
+       "route": "derived host",
+       "host": "https://www.oalandscaping.com/",
+       "outcome": "refused (503)"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.oa-landscaping.com/",
+       "outcome": "resolved but failed the proof"
+      }
+     ]
+    },
+    {
+     "company": "Palm Beach Gardens Medical Center",
+     "tried": [
+      {
+       "route": "article link",
+       "host": "https://palmbeachhealthnetwork.com/",
+       "outcome": "refused (403)"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.palmbeachgardensmedicalcenter.com/",
+       "outcome": "did not resolve"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.palm-beach-gardens-medical-center.com/",
+       "outcome": "did not resolve"
+      }
+     ]
+    },
+    {
+     "company": "Port Tampa Bay",
+     "tried": [
+      {
+       "route": "derived host",
+       "host": "https://www.porttampabay.com/",
+       "outcome": "resolved but failed the proof"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.port-tampa-bay.com/",
+       "outcome": "did not resolve"
+      }
+     ]
+    }
+   ],
+   "precondition_stopped_before_any_read": 45
+  },
+  "new_passing_1_2_5_held_size_unsourced": [
+   "Palm Medical Centers (palmmedicalcenters.com, derived host; its CFO appointment the Fractionals signal)"
+  ],
+  "admitted_this_window": 0,
+  "running_count_against_100": 0,
+  "confirmed": 0,
+  "wrongness": "0 — no article-linked host failed the proof",
+  "ceiling_line": "reads spent 90; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)"
+ },
+ "proved_before_reads": {
+  "precondition": {
+   "keep_set": "the 11 bound headlines on file",
+   "false_rejections": 0,
+   "threshold": "zero false rejections (ruled)",
+   "stop_set": "the headlines on file whose article named no company",
+   "stopped": "4 of 5",
+   "other_unbound_passed": 6,
+   "classes": [
+    "a good headline with a single-word / multi-word / suffixed name next to the verb (must keep)",
+    "a headline naming no company (should stop)"
+   ]
+  },
+  "whole_name_proof": {
+   "publisher_page_sharing_one_word_refused": true,
+   "company_page_with_whole_name_proved": true,
+   "formerly_construction": {
+    "where": "title",
+    "span": "Emboss Specialty formerly Health Network One",
+    "whole_name": "health network one",
+    "construction": "formerly",
+    "current_name": "Emboss Specialty"
+   },
+   "parked_page_refused": true,
+   "single_word_name_proved": true,
+   "classes": [
+    "publisher page sharing one word / company page carrying the whole name",
+    "parked / real",
+    "direct / formerly"
+   ]
+  },
+  "result": "PASSED"
+ },
+ "rescan": {
+  "scan": "zero-read re-scan of the bodies filed in windows eight and nine with figure forms widened ($40M, $1.2B, mil, bn, MM) and revenue words widened (top line, turnover, grossed, earned), because the window’s extractor read only “$X million/billion”",
+  "files": 106,
+  "revenue_hits": [
+   {
+    "file": "w9-bodies/7afd6d2c230a.html",
+    "name": "Mainline",
+    "sentence": "However, Tallahassee, Fla.-based public radio station WFSU said Mainline has annual revenue of over $1 billion."
+   }
+  ],
+  "figure_not_revenue": [
+   {
+    "file": "w8-bodies/ab92a2bd4d2b.html",
+    "name": "Health Network One",
+    "sentence": "- The Business Journals https://news.google.com/rss/articles/CBMimwFBVV95cUxNSk9uSks0VDljOGFJWGtZNU5oSVJpNlF3c3Y5QXlLNV8zTk5XeXZKX0piYW5BODZZVUNyTV96b1lDclVobkMxa19VdWZkaGlKMTRkUWFOMThmYUxLcGd2QlRtQTlnbG5JNHFUV0NTcy1TMkJSMFlpRUw4enNsTDJyUWRkUDNLMFRrVTRHZEhiNnh"
+   },
+   {
+    "file": "w8-bodies/cc766c6bae32.html",
+    "name": "Mainline",
+    "sentence": "Fri, 30 Oct 2026 22:54:44 GMT Google News https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256 https://news.google.com/ 256 256 Google News Enbridge: A $41 Billion Growth Backlog Meets A Mainline Volum"
+   },
+   {
+    "file": "w8-bodies/cc766c6bae32.html",
+    "name": "Mainline",
+    "sentence": "- Religion Unplugged https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTkNYa19vOFIwZjNETzhkV3hsTHhucE1vb2hBTFltRV8tTzJHSEhITmZYS1VHd0R4VThKTExjU1Z4SVY2ZEJVYURSbE9hSGp2Ui1kVktUWUtGeWpDdkhTTVpMMEh2emVMN1F3VDVVWWxPMTE2d2RvS2FEZDdZNzRXeDNVX2Nnd3lvaUxj?oc=5 CBMi"
+   },
+   {
+    "file": "w8-bodies/cc766c6bae32.html",
+    "name": "Mainline",
+    "sentence": "</image> <description> Google News </description> <item> <title> Enbridge: A $41 Billion Growth Backlog Meets A Mainline Volume Threat (NYSE:ENB) - Seeking Alpha </title> <link> https://news.google.com/rss/articles/CBMirAFBVV95cUxQbWFlMFREem9OTTlYY1pzWFotSDBte"
+   },
+   {
+    "file": "w8-bodies/cc766c6bae32.html",
+    "name": "Mainline",
+    "sentence": "</item> <item> <title> Enbridge Delays $1.4B Mainline Pipeline Expansion Over Upstream Uncertainty - Pipeline Technology Journal </title> <link> https://news.google.com/rss/articles/CBMisAFBVV95cUxOcjB3Rk05NVNJLU9IN2g5OThtNzZhakxPalEtUm9fUWFCLXZzOUY4ZEJMNmNJUk"
+   },
+   {
+    "file": "w9-bodies/00c57ef92b04.html",
+    "name": "Alpha Foundations",
+    "sentence": "- Newswire https://news.google.com/rss/articles/CBMiowFBVV95cUxNM0RaVUZUXzNWWHFFcV9nalBUNHltTDNldUhrWVhiSkJQNWhiYUFaSXhoU1JyMWYxUl9udlE3dTdjN2hfWjhVelJnbG5ENmh4bFNNMmlEeUI3WDJYSFpCa0kxRHpBTEMyUzlaTDhHZks1MjFuZWhmVS1WNEczOWRNQUFESzFENGh4VGJkTTI0WkxvQ0R0NnljYmNI"
+   },
+   {
+    "file": "w9-bodies/59ff87933231.html",
+    "name": "American Fasteners",
+    "sentence": "- Industrial Distribution https://news.google.com/rss/articles/CBMivAFBVV95cUxPdWJ3V0lSQ25JcVMxZGF0R1ExcUg3VlFDNHRsWnFFb0hJWnZVZXVQUS1XQ2FDV29xUndseFBpZ0tabjN6WW55YkV2SDJHWGpKalJBdVJsVzJxUWQxYVU3TkRzN2VJT0Fjd19TajNROFhUR1JOVXRrSmRBN3lYYW9BbkwyVndObTBibzFEQkFab"
+   },
+   {
+    "file": "w9-bodies/59ff87933231.html",
+    "name": "American Fasteners",
+    "sentence": "</item> <item> <title> DSG buys $39M South Florida distributor American Fasteners - Dealroom </title> <link> https://news.google.com/rss/articles/CBMilgFBVV95cUxNOTNSNnI2UDVxdXJDc1ljVGxEbTU4ZUNvN1FLUUxXNUNGa3RqTk94Rko4dXJwVUlFZnlJeVZ6ZS03Z2xsX2g0M3QwREMtbUk0TW"
+   },
+   {
+    "file": "w9-bodies/0854fa33ee3f.html",
+    "name": "American Fasteners",
+    "sentence": "Fri, 30 Oct 2026 23:17:21 GMT Google News https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256 https://news.google.com/ 256 256 Google News Distribution Solutions Group Acquires American Fasteners to E"
+   },
+   {
+    "file": "w9-bodies/0854fa33ee3f.html",
+    "name": "American Fasteners",
+    "sentence": "- Yahoo Finance https://news.google.com/rss/articles/CBMitgFBVV95cUxOenM4aVk2T1EtMFY1UFhzSlpUR3cwcUlWSGRDRTBNVkZIcFlJbTFOZTU0MTR3d0xWMjhqTHd4UEgtMzc0RTIxakdlU2g2UEI1RTgwaDdrb3VaQTQxdTJYRTRPYWhhT2hwTmpZczFNUnlQeUVMQllkWXJ5V1BLQVNscGktVHVzX1FfNGpKSExwbW5KOUJ6U2x"
+   },
+   {
+    "file": "w9-bodies/0854fa33ee3f.html",
+    "name": "American Fasteners",
+    "sentence": "</item> <item> <title> DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of Wholesaler-Distributors </title> <link> https://news.google.com/rss/articles/CBMilwFBVV95cUxQUDlycWJRZ0RzZEJfd3FobzhqV1BIVzZGUmRaLWhHZXlfUUxhM3VoTG"
+   },
+   {
+    "file": "w9-bodies/0854fa33ee3f.html",
+    "name": "American Fasteners",
+    "sentence": "</item> <item> <title> DSG buys $39M South Florida distributor American Fasteners - Dealroom </title> <link> https://news.google.com/rss/articles/CBMilgFBVV95cUxNOTNSNnI2UDVxdXJDc1ljVGxEbTU4ZUNvN1FLUUxXNUNGa3RqTk94Rko4dXJwVUlFZnlJeVZ6ZS03Z2xsX2g0M3QwREMtbUk0TW"
+   },
+   {
+    "file": "w9-bodies/30fdda653b75.html",
+    "name": "American Fasteners",
+    "sentence": "DSG Acquires American Fasteners in $39M South Florida Expansion | National Association of Wholesaler-Distributors Skip to content Subscribe Log in Search MDM Topics Topics Expert Perspective Featured Leadership Mergers & Acquisitions News Operations Research S"
+   },
+   {
+    "file": "w9-bodies/30fdda653b75.html",
+    "name": "American Fasteners",
+    "sentence": "Distribution Solutions Group has acquired South Florida-based American Fasteners Corp., adding a fastener and industrial supply distributor with approximately $39 million in annual revenue to its Lawson Products business."
+   },
+   {
+    "file": "w9-bodies/fe2a31a9ecdd.html",
+    "name": "Mainline",
+    "sentence": "Capital Creates $4B Tech Powerhouse: Converge and Mainline Unite as Pellera Technologies - Stock Titan https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTHlidlZYRVR4V244bTV2a2ZDUlBxZHB0VXlRcnN6WFdjaE9nTUJHTGxfNm51WE9EcTl6U2dkYThMVmM1MnZmb2FvT0h5VmpxemZjTk5J"
+   },
+   {
+    "file": "w9-bodies/fe2a31a9ecdd.html",
+    "name": "Mainline",
+    "sentence": "Capital Creates $4B Tech Powerhouse: Converge and Mainline Unite as Pellera Technologies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stock Titan</font> Stock Titan Pellera Technologies CEO On Driving ‘End-To-End’ Offering For Modern IT, Security - CRN https://news.go"
+   },
+   {
+    "file": "w9-bodies/fe2a31a9ecdd.html",
+    "name": "Mainline Information Systems",
+    "sentence": "Capital Creates $4B Tech Powerhouse: Converge and Mainline Unite as Pellera Technologies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stock Titan</font> Stock Titan Pellera Technologies CEO On Driving ‘End-To-End’ Offering For Modern IT, Security - CRN https://news.go"
+   },
+   {
+    "file": "w9-bodies/fe2a31a9ecdd.html",
+    "name": "Mainline",
+    "sentence": "Capital Creates $4B Tech Powerhouse: Converge and Mainline Unite as Pellera Technologies - Stock Titan </title> <link> https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTHlidlZYRVR4V244bTV2a2ZDUlBxZHB0VXlRcnN6WFdjaE9nTUJHTGxfNm51WE9EcTl6U2dkYThMVmM1MnZmb2Fv"
+   },
+   {
+    "file": "w9-bodies/fe2a31a9ecdd.html",
+    "name": "Mainline",
+    "sentence": "Capital Creates $4B Tech Powerhouse: Converge and Mainline Unite as Pellera Technologies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stock Titan</font> </description> <source url =\" https://www.stocktitan.net \" > Stock Titan </source> ..."
+   },
+   {
+    "file": "w9-bodies/9e54edb73b3b.html",
+    "name": "American Fasteners",
+    "sentence": "Fri, 30 Oct 2026 23:17:45 GMT Google News https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256 https://news.google.com/ 256 256 Google News DSG Acquires American Fasteners in $39M South Florida Expansi"
+   },
+   {
+    "file": "w9-bodies/9e54edb73b3b.html",
+    "name": "American Fasteners",
+    "sentence": "</image> <description> Google News </description> <item> <title> DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of Wholesaler-Distributors </title> <link> https://news.google.com/rss/articles/CBMilwFBVV95cUxQUDlycWJRZ0Rz"
+   },
+   {
+    "file": "w9-bodies/7659ab4185c5.html",
+    "name": "Mainline",
+    "sentence": "Rick Kearney, founder, Tallahassee-based Mainline Information Systems , is building a $7 million to $10 million \"smart\" park east of downtown to ..."
+   },
+   {
+    "file": "w9-bodies/7659ab4185c5.html",
+    "name": "Mainline Information Systems",
+    "sentence": "Rick Kearney, founder, Tallahassee-based Mainline Information Systems , is building a $7 million to $10 million \"smart\" park east of downtown to ..."
+   },
+   {
+    "file": "w9-bodies/ecd186f0c274.html",
+    "name": "American Fasteners",
+    "sentence": "Fri, 30 Oct 2026 23:17:58 GMT Google News https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256 https://news.google.com/ 256 256 Google News DSG Acquires American Fasteners in $39M South Florida Expansi"
+   },
+   {
+    "file": "w9-bodies/ecd186f0c274.html",
+    "name": "American Fasteners",
+    "sentence": "- Business Wire https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRk5jR2pLSkJnM0FzVW9hVmVmQU9oLWcwWnJnbEVuMHlJVmU5SnhrY284OXlqY1VxS1FhUUpCODhtNWM2YkhzYnVDWmQyMFRqc2Z3M1BEbEVYSjc4SXBUZTJPUnRkSEVJX0x3WWFqMHlFQjlDN1BoRGphZFFCWVlXTExIY2NYMTRtOUhwMmNoM1dCUjNKZmx"
+   },
+   {
+    "file": "w9-bodies/ecd186f0c274.html",
+    "name": "American Fasteners",
+    "sentence": "</image> <description> Google News </description> <item> <title> DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of Wholesaler-Distributors </title> <link> https://news.google.com/rss/articles/CBMilwFBVV95cUxQUDlycWJRZ0Rz"
+   },
+   {
+    "file": "w9-bodies/ecd186f0c274.html",
+    "name": "American Fasteners",
+    "sentence": "</item> <item> <title> DSG buys $39M South Florida distributor American Fasteners - Dealroom </title> <link> https://news.google.com/rss/articles/CBMilgFBVV95cUxNOTNSNnI2UDVxdXJDc1ljVGxEbTU4ZUNvN1FLUUxXNUNGa3RqTk94Rko4dXJwVUlFZnlJeVZ6ZS03Z2xsX2g0M3QwREMtbUk0TW"
+   }
+  ]
+ },
+ "faults_added": [
+  48,
+  49
+ ],
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window nine ruling: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window nine delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "window": {
+  "launch_utc": "2026-10-30T23:17:08.604361+00:00",
+  "run_start_utc": "2026-10-30",
+  "run_end_utc": "2026-10-30",
+  "straddled_midnight_utc": false,
+  "reads": 90
+ },
+ "proofs": [
+  "reports/w9-precondition-and-proof.json",
+  "reports/w9-rescan.json",
+  "reports/w9-per-url-record.json",
+  "reports/w9-engine.json"
+ ],
+ "instruments": "no page changed",
+ "reversal": "naming5.py and window9.py new; window-scoped files",
+ "changed_files": {
+  "naming5.py": {
+   "bytes": 2443,
+   "blob": "6fd650becb",
+   "sha256": "fb2f774f6c09b6ab"
+  },
+  "window9.py": {
+   "bytes": 22009,
+   "blob": "b3b63e53f3",
+   "sha256": "13af546a2e006848"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 701227,
+   "blob": "e098fbd4f9",
+   "sha256": "f8144bb1b6c12210"
+  },
+  "florida100-window9-log.jsonl": {
+   "bytes": 32544,
+   "blob": "54c4f42759",
+   "sha256": "5fd2e4dec258b299"
+  },
+  "bot-config.json": {
+   "bytes": 1461,
+   "blob": "479ea85fc7",
+   "sha256": "c3c1b0a74fbe2fe7"
+  },
+  "founders-roster.json": {
+   "bytes": 39178,
+   "blob": "7ae4b4cf23",
+   "sha256": "a5782fc7e5b95417"
+  }
+ }
+}

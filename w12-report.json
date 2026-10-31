@@ -1,0 +1,679 @@
+{
+ "CLOSE": {
+  "admitted": 0,
+  "running_count_against_100": 0,
+  "confirmed": 0,
+  "wrongness": "1 — boardroompr.com (a PR agency link) failing the proof; not a wrong bind",
+  "reads_spent": "reads spent 115; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)",
+  "window": "ran to completion; the unbound stop halted the Google News queue (3 of 11) and the window continued with H.I.G."
+ },
+ "zero_read_repairs": {
+  "fault54_classifier": {
+   "must_refuse": [
+    [
+     "https://www.jackbrowns.com/",
+     true
+    ],
+    [
+     "https://www.havoc.com/",
+     true
+    ],
+    [
+     "https://www.stmarysmedicalcenter.com/",
+     true
+    ],
+    [
+     "https://fdhs.com/",
+     true
+    ],
+    [
+     "https://www.floridadigestivehealthspecialists.com/",
+     true
+    ],
+    [
+     "https://www.door-maker.com/",
+     true
+    ]
+   ],
+   "refused": 6,
+   "proved_pages_checked": 9,
+   "false_refusals": [],
+   "classes": [
+    "challenge screen served with HTTP 200 (Access Denied / Robot Challenge Screen) / a company’s own page"
+   ],
+   "result": "PASSED"
+  },
+  "fault52_bounds": {
+   "stop_set": [
+    {
+     "bound": "South Florida Distributor American Fasteners",
+     "after": "American Fasteners",
+     "expected": "American Fasteners",
+     "pass": true
+    },
+    {
+     "bound": "Door Maker",
+     "after": null,
+     "expected": null,
+     "pass": true
+    },
+    {
+     "bound": "Fort Myers",
+     "after": null,
+     "expected": null,
+     "pass": true
+    },
+    {
+     "bound": "Venice Window and Door Maker",
+     "after": null,
+     "expected": null,
+     "pass": true
+    }
+   ],
+   "keep_set": 28,
+   "good_binds_changed_or_lost": [],
+   "result": "PASSED"
+  },
+  "rename_case": {
+   "rename_case": {
+    "where": "page sentence",
+    "span": "We are excited to announce that RxStrategies, Hudson Headwaters 340B, and RPh Innovations are merging to form a new, unified organization: Pillr Health.",
+    "construction": "renamed (the page states it; no “formerly”)",
+    "current_name": "Pillr Health",
+    "whole_name": "rxstrategies"
+   },
+   "right_sites_refused_on_bound_corpus": [],
+   "publisher_pages": [
+    [
+     "https://floridapolitics.com/",
+     false
+    ],
+    [
+     "https://hotelbusiness.com/",
+     false
+    ],
+    [
+     "https://ibmadison.com/",
+     false
+    ]
+   ],
+   "result": "PASSED"
+  }
+ },
+ "restatement": {
+  "restated_no_site_by_any_route": {
+   "window 7": {
+    "as_reported": 5,
+    "restated": 1
+   },
+   "window 9": {
+    "as_reported": 3,
+    "restated": 1
+   },
+   "window 10": {
+    "as_reported": 10,
+    "restated": 4
+   },
+   "window 11": {
+    "as_reported": 14,
+    "restated": 9
+   }
+  },
+  "moved_to_refused": [
+   [
+    10,
+    "Oasis",
+    "hig"
+   ],
+   [
+    10,
+    "Orius Corp",
+    "hig"
+   ],
+   [
+    7,
+    "Jack Brown’s",
+    "gnews_rss"
+   ],
+   [
+    7,
+    "Havoc",
+    "gnews_rss"
+   ],
+   [
+    7,
+    "MaxHealth",
+    "gnews_rss"
+   ],
+   [
+    7,
+    "ODC Construction",
+    "gnews_rss"
+   ],
+   [
+    9,
+    "O&A Landscaping",
+    "gnews_rss_w9"
+   ],
+   [
+    9,
+    "Palm Beach Gardens Medical Center",
+    "gnews_rss_w9"
+   ],
+   [
+    10,
+    "InterContinental Miami",
+    "gnews_rss_w10"
+   ],
+   [
+    10,
+    "Westshore Grand Hotel",
+    "gnews_rss_w10"
+   ],
+   [
+    10,
+    "Marino Performance Motors",
+    "gnews_rss_w10"
+   ],
+   [
+    10,
+    "200-Unit Pensacola Apartment Community",
+    "gnews_rss_w10"
+   ],
+   [
+    11,
+    "St. Mary’s Medical Center",
+    "gnews_rss_w11"
+   ],
+   [
+    11,
+    "Florida Digestive Health Specialists",
+    "gnews_rss_w11"
+   ],
+   [
+    11,
+    "Door Maker",
+    "gnews_rss_w11"
+   ],
+   [
+    11,
+    "Fort Myers",
+    "gnews_rss_w11"
+   ]
+  ],
+  "recovered_by_rename": [
+   [
+    "Rxstrategies",
+    "https://www.rxstrategies.com/",
+    "Pillr Health",
+    false
+   ]
+  ],
+  "revenue_reads_that_were_challenge_screens": {
+   "count": 0,
+   "by_window": {},
+   "reads": []
+  }
+ },
+ "proof_failures_on_file": [
+  {
+   "key": "Private Equity:hig:282",
+   "company": "Rxstrategies",
+   "source": "hig",
+   "host": "https://rxstrategies.com/",
+   "route": "sponsor entry link",
+   "filed": true,
+   "title": "Strengthening Pharmacies with Smarter 340B Solutions | Pillr Health",
+   "challenge": false
+  },
+  {
+   "key": "Private Equity:hig:282",
+   "company": "Rxstrategies",
+   "source": "hig",
+   "host": "https://www.rxstrategies.com/",
+   "route": "derived host",
+   "filed": true,
+   "title": "Strengthening Pharmacies with Smarter 340B Solutions | Pillr Health",
+   "challenge": false
+  },
+  {
+   "key": "Acquisitions:gnews_rss:1",
+   "company": "Jack Brown’s",
+   "source": "gnews_rss",
+   "host": "https://www.jackbrowns.com/",
+   "route": "derived host",
+   "filed": true,
+   "title": "Access Denied",
+   "challenge": true
+  },
+  {
+   "key": "Acquisitions:gnews_rss:2",
+   "company": "Havoc",
+   "source": "gnews_rss",
+   "host": "https://www.havoc.com/",
+   "route": "derived host",
+   "filed": true,
+   "title": "Access Denied",
+   "challenge": true
+  },
+  {
+   "key": "Acquisitions:gnews_rss:6",
+   "company": "Florida Industrial Scale Co",
+   "source": "gnews_rss",
+   "host": "https://newswire.com/",
+   "route": "article link",
+   "filed": true,
+   "title": "Press Release Distribution | Media Outreach Platform | #1 in Customer ",
+   "challenge": false
+  },
+  {
+   "key": "Acquisitions:gnews_rss:11",
+   "company": "Alpha Foundations",
+   "source": "gnews_rss",
+   "host": "https://c212.net/",
+   "route": "article link",
+   "filed": true,
+   "title": "Privacy Policy | Cision",
+   "challenge": false
+  },
+  {
+   "key": "Private Equity:gnews_rss_w9:673",
+   "company": "O&A Landscaping",
+   "source": "gnews_rss_w9",
+   "host": "https://www.oa-landscaping.com/",
+   "route": "derived host",
+   "filed": true,
+   "title": "Hardscaping &amp; Paver Patios Eugene OR | Outdoor Aesthetics",
+   "challenge": false
+  },
+  {
+   "key": "Fractionals:gnews_rss_w9:677",
+   "company": "Port Tampa Bay",
+   "source": "gnews_rss_w9",
+   "host": "https://www.porttampabay.com/",
+   "route": "derived host",
+   "filed": true,
+   "title": "PortTampaBay.com is for sale | HugeDomains",
+   "challenge": true
+  },
+  {
+   "key": "Fractionals:gnews_rss_w10:680",
+   "company": "SeaWorld",
+   "source": "gnews_rss_w10",
+   "host": "https://floridapolitics.com/",
+   "route": "article link",
+   "filed": true,
+   "title": "Florida Politics",
+   "challenge": false
+  },
+  {
+   "key": "Acquisitions:gnews_rss_w10:685",
+   "company": "Naples Bay Resort & Marina",
+   "source": "gnews_rss_w10",
+   "host": "https://hotelbusiness.com/",
+   "route": "article link",
+   "filed": true,
+   "title": "Home - hotelbusiness.com",
+   "challenge": false
+  },
+  {
+   "key": "Acquisitions:gnews_rss_w10:687",
+   "company": "Lawn Enforcement Agency",
+   "source": "gnews_rss_w10",
+   "host": "https://events.lawnandlandscape.com/",
+   "route": "article link",
+   "filed": true,
+   "title": "LL Events -",
+   "challenge": false
+  },
+  {
+   "key": "Acquisitions:gnews_rss_w10:687",
+   "company": "Lawn Enforcement Agency",
+   "source": "gnews_rss_w10",
+   "host": "https://www.lawnenforcementagency.com/",
+   "route": "derived host",
+   "filed": true,
+   "title": "LawnEnforcementAgency.com is for sale | HugeDomains",
+   "challenge": true
+  },
+  {
+   "key": "Fractionals:gnews_rss_w11:688",
+   "company": "St. Mary’s Medical Center",
+   "source": "gnews_rss_w11",
+   "host": "https://www.stmarysmedicalcenter.com/",
+   "route": "derived host",
+   "filed": true,
+   "title": "Access Denied",
+   "challenge": true
+  },
+  {
+   "key": "Acquisitions:gnews_rss_w11:689",
+   "company": "South Florida Distributor American Fasteners",
+   "source": "gnews_rss_w11",
+   "host": "https://aftfasteners.com/",
+   "route": "article link",
+   "filed": true,
+   "title": "AFT Fasteners: Fasteners Supply, Industrial Supplies &amp; More",
+   "challenge": false
+  },
+  {
+   "key": "Fractionals:gnews_rss_w11:692",
+   "company": "Florida Digestive Health Specialists",
+   "source": "gnews_rss_w11",
+   "host": "https://fdhs.com/",
+   "route": "article link",
+   "filed": true,
+   "title": "Robot Challenge Screen",
+   "challenge": true
+  },
+  {
+   "key": "Fractionals:gnews_rss_w11:692",
+   "company": "Florida Digestive Health Specialists",
+   "source": "gnews_rss_w11",
+   "host": "https://www.floridadigestivehealthspecialists.com/",
+   "route": "derived host",
+   "filed": true,
+   "title": "Robot Challenge Screen",
+   "challenge": true
+  },
+  {
+   "key": "Fractionals:gnews_rss_w11:693",
+   "company": "Door Maker",
+   "source": "gnews_rss_w11",
+   "host": "https://www.door-maker.com/",
+   "route": "derived host",
+   "filed": true,
+   "title": "Access Denied",
+   "challenge": true
+  }
+ ],
+ "discovery": {
+  "articles_read": 27,
+  "carrying_a_dated_florida_signal": 11,
+  "reaching_binding": 11,
+  "site_found_by_article_link": 1,
+  "site_found_by_derived_host": 1,
+  "no_site_found_by_any_route": 2,
+  "refused_on_a_route_re_runnable": 2,
+  "precondition_stopped": 10,
+  "routes_tried": [
+   {
+    "company": "S.E",
+    "tried": [
+     {
+      "route": "derived host",
+      "host": "https://www.se.com/",
+      "outcome": "resolved but failed the proof"
+     }
+    ]
+   },
+   {
+    "company": "Lakeland Dairies",
+    "tried": [
+     {
+      "route": "derived host",
+      "host": "https://www.lakelanddairies.com/",
+      "outcome": "refused (503)"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.lakeland-dairies.com/",
+      "outcome": "refused (503)"
+     }
+    ]
+   },
+   {
+    "company": "HCA FLORIDA WOODMONT HOSPITAL",
+    "tried": [
+     {
+      "route": "article link",
+      "host": "https://boardroompr.com?utm_source=hospital+news&amp;utm_medium=web/",
+      "outcome": "resolved but failed the proof"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.hcafloridawoodmonthospital.com/",
+      "outcome": "refused (503)"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.hca-florida-woodmont-hospital.com/",
+      "outcome": "did not resolve"
+     }
+    ]
+   },
+   {
+    "company": "Altitude Water",
+    "tried": [
+     {
+      "route": "article link",
+      "host": "https://altitudewaterusa.com/",
+      "outcome": "proved"
+     }
+    ]
+   },
+   {
+    "company": "Florida Food Products",
+    "tried": [
+     {
+      "route": "derived host",
+      "host": "https://www.floridafoodproducts.com/",
+      "outcome": "proved"
+     }
+    ]
+   },
+   {
+    "company": "Florida Food",
+    "tried": [
+     {
+      "route": "derived host",
+      "host": "https://www.floridafood.com/",
+      "outcome": "resolved but failed the proof"
+     },
+     {
+      "route": "derived host",
+      "host": "https://www.florida-food.com/",
+      "outcome": "did not resolve"
+     }
+    ]
+   }
+  ],
+  "halts": [
+   {
+    "queue": "Google News discovery",
+    "reason": "UNBOUND STOP: 3 unbound of 11 processed",
+    "continued_with": "the Source Directory remainder"
+   }
+  ]
+ },
+ "hig": {
+  "entries": 45,
+  "florida": 2,
+  "test1_pass": 1,
+  "passing_test_1": [
+   "Sts Aviation Group"
+  ]
+ },
+ "new": [
+  {
+   "practice": "Acquisitions",
+   "headline": "A Florida acquisition brings about 60 employees to Construction Partners (ROAD). - Stock Titan",
+   "state": "bound",
+   "bound": "S.E",
+   "status": "no site found by any route (routes on the row) — held; a fact about the guesses"
+  },
+  {
+   "practice": "Fractionals",
+   "headline": "Lakeland Dairies names McAllister as new CFO - RTE.ie",
+   "state": "bound",
+   "bound": "Lakeland Dairies",
+   "status": "refused on a route (re-runnable) — not an absence"
+  },
+  {
+   "practice": "Fractionals",
+   "headline": "HCA FLORIDA WOODMONT HOSPITAL NAMES NEW CHIEF FINANCIAL OFFICER - Florida Hospital News and Healthcare Report",
+   "state": "bound",
+   "bound": "HCA FLORIDA WOODMONT HOSPITAL",
+   "status": "refused on a route (re-runnable) — not an absence"
+  },
+  {
+   "practice": "Fractionals",
+   "headline": "Altitude Water Names Branden Riley COO and Robbye Rapp CFO as South Florida Manufacturing Expands - citybiz",
+   "state": "bound",
+   "bound": "Altitude Water",
+   "status": "site proved (article link); passes tests 1, 2 and 5; held size-unsourced"
+  },
+  {
+   "practice": "Fractionals",
+   "headline": "Florida Food Products Names Kevin Neat Chief Financial Officer - Food Industry Executive",
+   "state": "bound",
+   "bound": "Florida Food Products",
+   "status": "site proved (derived host); test 1 failed: no Florida address on the company’s own page"
+  },
+  {
+   "practice": "Private Equity",
+   "headline": "Ardian Acquires Majority Stake in Florida Food - themiddlemarket.com",
+   "state": "bound",
+   "bound": "Florida Food",
+   "status": "no site found by any route (routes on the row) — held; a fact about the guesses"
+  },
+  {
+   "practice": "Fractionals",
+   "headline": "BENCHMARK Names Jim Koutsky Director of Finance for Grand Plaza Hotel and The Beachcomber, St. Pete Beach, Florida - Hotel Online",
+   "state": "unbound",
+   "bound": "",
+   "status": "unbound"
+  },
+  {
+   "practice": "Acquisitions",
+   "headline": "Midtown Capital Partners acquires Orlando industrial portfolio for $56.1M - JLL",
+   "state": "rejected: span not a company",
+   "bound": "",
+   "status": "rejected: span not a company — Orlando industrial portfolio"
+  },
+  {
+   "practice": "Fractionals",
+   "headline": "HCA Florida Lake City Hospital announces Kim Williams as CFO - Florida Hospital News and Healthcare Report",
+   "state": "unbound",
+   "bound": "",
+   "status": "unbound"
+  },
+  {
+   "practice": "Acquisitions",
+   "headline": "Bluecrest Capital Acquires 226,500 SF Flex Development in Jacksonville, Plans Industrial Conversion - REBusinessOnline",
+   "state": "bind disputed",
+   "bound": "",
+   "status": "bind disputed — held"
+  },
+  {
+   "practice": "Fractionals",
+   "headline": "Florida Tech Names Marsha Bewersdorf Senior VP of Finance, CFO - Florida Tech News",
+   "state": "unbound",
+   "bound": "",
+   "status": "unbound"
+  }
+ ],
+ "held_size_unsourced_passing_1_2_5": [
+  "American Fasteners",
+  "Health Network One (Emboss Specialty)",
+  "Moneysolver",
+  "Alpha Foundations",
+  "Palm Medical Centers",
+  "Altitude Water (new)",
+  "Sts Aviation Group"
+ ],
+ "faults": [
+  {
+   "fault": "53 restated",
+   "line": "a ruling written on an inferred cause is a figure typed rather than measured",
+   "note": "fault 53 as first filed named a right site titled by initials; fdhs.com’s filed page is a “Robot Challenge Screen”. The cause was stated by the build without reading the page and the Chair’s ruling 1 was built on it; ruling 1 struck. Filed on both sides"
+  },
+  {
+   "fault": 54,
+   "line": "a challenge screen served with HTTP 200 is a refusal, never a page",
+   "note": "6 of 17 proof failures on record were challenge screens (Access Denied ×4, Robot Challenge Screen ×2); repaired and proved on the six, 0 false refusals on 9 proved pages; 2 refused live this window as challenge, re-runnable"
+  },
+  {
+   "fault": 55,
+   "line": "a candidate with a refused route has not been shown to have no site",
+   "note": "the “no site found by any route” figure counted candidates whose routes included ordinary 403/503 refusals as absences — stop 10’s class beyond fault 54. Restated from rows: window seven 5→1, nine 3→1, ten 10→4, eleven 14→9 (discovery and H.I.G. together). The seventh figure-not-row correction, cause as measured. New head line: refused on a route, re-runnable"
+  },
+  {
+   "fault": "observed",
+   "line": null,
+   "note": "two misses recorded without a number: “S.E” bound from a ticker parenthetical past the name bounds; “Orlando industrial portfolio” past the property precondition (“portfolio” is not in the ruled word list), caught after its read by the non-company rule"
+  }
+ ],
+ "founders_72": {
+  "on_the_brief": [
+   "== Florida 100 — window twelve ruling: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ],
+  "on_the_delivery": [
+   "== Florida 100 — window twelve delivered: Pass 9 · Hold 0 · Blind 68 · weight passing 90.0 of 770.0",
+   "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+   "   Timothy A. Edick       w15.0  Chair | decides last | ",
+   "   Peter Drucker          w10.0  Pass  | Fractionals: every admitted Fractionals row names its decision maker with title and… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   David Maister          w10.0  Pass  | Fractionals: every admitted Fractionals row carries a published vacancy, interim or… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   Ron Baker              w10.0  Pass  | Fractionals: every admitted Fractionals row’s company history carries years operati… | 0 admitted Fractionals rows — a vacuous pass, stated",
+   "   John C. Bogle          w10.0  Pass  | Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a … | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Warren Buffett         w10.0  Pass  | Private Equity: every admitted PE row sits at or below the band ceiling ($25M publishe… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Richard Branson        w10.0  Pass  | Acquisitions: every admitted Acquisitions row carries a signal with a third-party so… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Mark Cuban             w10.0  Pass  | Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Robert Herjavec        w10.0  Pass  | Acquisitions: every admitted Acquisitions row records which reachable channel it has… | 0 admitted Acquisitions rows — a vacuous pass, stated",
+   "   Ajit Jain              w10.0  Pass  | Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base… | 0 admitted Private Equity rows — a vacuous pass, stated",
+   "   Part 9 seats: none Blind — may proceed"
+  ]
+ },
+ "window": {
+  "launch_utc": "2026-10-31T01:04:48.414526+00:00",
+  "run_start_utc": "2026-10-31",
+  "run_end_utc": "2026-10-31",
+  "straddled_midnight_utc": false
+ },
+ "instruments": "no page changed",
+ "reversal": "naming8.py and window12.py new; window-scoped files; the queue’s routes carry their restated outcomes beside a note",
+ "changed_files": {
+  "naming8.py": {
+   "bytes": 3399,
+   "blob": "8190034cae",
+   "sha256": "9f2726fcd4d618ea"
+  },
+  "window12.py": {
+   "bytes": 24454,
+   "blob": "af56f642d9",
+   "sha256": "971bae56174ee2c8"
+  },
+  "florida-intake-queue.json": {
+   "bytes": 796097,
+   "blob": "9a49bde7c5",
+   "sha256": "419c067fc7a61f05"
+  },
+  "florida100-window12-log.jsonl": {
+   "bytes": 37860,
+   "blob": "6320680d15",
+   "sha256": "1dfb50f998e8f8ec"
+  },
+  "bot-config.json": {
+   "bytes": 1435,
+   "blob": "80b2364bf3",
+   "sha256": "7e98745ec0f60a88"
+  },
+  "founders-roster.json": {
+   "bytes": 46423,
+   "blob": "dd0450ba13",
+   "sha256": "9e070e57caf5d63d"
+  }
+ }
+}

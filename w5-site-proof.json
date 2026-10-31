@@ -1,0 +1,34 @@
+{
+ "classes": [
+  "page names the company in title / heading / copyright",
+  "page of a sponsor or portal that does not name it"
+ ],
+ "cases": [
+  {
+   "case": "title names the company",
+   "proved": true,
+   "expected": true,
+   "pass": true
+  },
+  {
+   "case": "copyright names it",
+   "proved": true,
+   "expected": true,
+   "pass": true
+  },
+  {
+   "case": "sponsor regional site (fault 39)",
+   "proved": false,
+   "expected": false,
+   "pass": true
+  },
+  {
+   "case": "portal page",
+   "proved": false,
+   "expected": false,
+   "pass": true
+  }
+ ],
+ "result": "PASSED",
+ "cost": "same fetch as test 1: zero additional reads"
+}

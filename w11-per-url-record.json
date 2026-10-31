@@ -1,0 +1,1100 @@
+[
+ {
+  "ts": "00:05:07",
+  "practice": "Revenue class",
+  "source": "revenue:Wikipedia search",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22SeaWorld%20Entertainment%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.27
+ },
+ {
+  "ts": "00:05:11",
+  "practice": "Revenue class",
+  "source": "revenue:Wikipedia search",
+  "url": "https://en.wikipedia.org/w/index.php?search=%22Palm%20Medical%20Centers%22&title=Special:Search&go=Go",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.07
+ },
+ {
+  "ts": "00:05:16",
+  "practice": "Revenue class",
+  "source": "revenue:Florida Trend search",
+  "url": "https://www.floridatrend.com/search?q=%22Palm%20Medical%20Centers%22",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.23
+ },
+ {
+  "ts": "00:05:21",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://www.floridatrend.com/article/32629/palm-medical-centers-coral-gables/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.98
+ },
+ {
+  "ts": "00:05:26",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://www.floridatrend.com/article/32629/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.87
+ },
+ {
+  "ts": "00:05:30",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Palm%20Medical%20Centers%22%20revenue&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.94
+ },
+ {
+  "ts": "00:05:34",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.11
+ },
+ {
+  "ts": "00:05:38",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1hkeUtURG5pd3o5eFZJVmNxVTUxcEU2bjVfUXZvNUxIMVZ1ZENiTDUwNGoyZkZueWcyNUp6Yjdmb29jN0lPNmV6c3RueTZnUW9JVm5ybjNjdFBlZ0EzYk5KS3k4WFRfVWlCUlhoVjFLWlhsdy1lYmJ3aFVlSWdXVnBjZzhmbmxOZlZ1WFdxOWVfdGZyQXpmcnlRZmVZTEJzS29qRjhWUkF6Y1RyNWtv?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "00:05:42",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Palm%20Medical%20Centers%22%20%22annual%20sales%22&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.88
+ },
+ {
+  "ts": "00:05:46",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.09
+ },
+ {
+  "ts": "00:05:50",
+  "practice": "Revenue class",
+  "source": "revenue:Google News: name + ",
+  "url": "https://news.google.com/rss/search?q=%22Palm%20Medical%20Centers%22%20employees&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "00:05:54",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.1
+ },
+ {
+  "ts": "00:05:58",
+  "practice": "Revenue class",
+  "source": "revenue:article",
+  "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNS0lCSnlCM05pVHJnblhuU0pYUXY3SlY5SkhISE5xbHFvVjgwVlZJb0NEbS1FbHRvYk1saFFLSzNoT2dtM2F2SXhpdkIzVmxlaFkzUHVBWi13RlRLQm1TY2NtRVNNVGo4bDZlbVJLcjhnRG5WaFpDZERPM19qSndtQ2ZlbGR5MEF1SUpIOFQ3cW9PeGNLN1dRMmNUUE53SUdud0F1N0UtNE5YR1hfa0c3LWd2VFYyUU4xVndhZWNjWHJUbFd3SlNTaEJKODJ5SWVrTUMwMjM3V29Hd2s4ZWZSWmRpM2hsTkgwbGc?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.9
+ },
+ {
+  "ts": "00:06:02",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=Florida%20manufacturing%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.2
+ },
+ {
+  "ts": "00:06:06",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRmpuNTQydzRRLWoxSklFcF9tY00xZDFsamx1TzZBZ1Iyc2pxbEI0SmlGendNSzlUTVJBQ0wxUHhMYWxxazc3VEFaQ2REUWlGTnZiZXFuNGxpU1VLbDhVZVVUc3JhaWNnSHZ5LWtqU2NiRm5XTGhRdzFuRmlMcWlNT2d4Y0xGWFhoXzZFRE1MUS1TZ25rZWR6M0VTb2MwZw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.74
+ },
+ {
+  "ts": "00:06:10",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSEpMVGEwLWRLd3NtZ2ZDVmtpZU5uVHM2cDVfNlFKSV9QVjJ5SXU1M1NXVk85VjkxdU5vXzB2M2ZfRllidGpIdjJGbmdsVnhVY1kwVjBoQ0J1cnNOaWQtVlUzQUhGSzJ5QW8yVkZFVVhRZjVWU1ZSX0ZxNHFoZG13eTVIUGdVWGM2X0dlNQ?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.73
+ },
+ {
+  "ts": "00:06:14",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22West%20Palm%20Beach%22%20%22private%20equity%22%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "00:06:18",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUmhQQ3prLUF5MThTd0NzNzhSR2VkaGhGN1pvM01LMEFTMUNqcEhBU0paV2dhM2lSRnN3cDF6UGhjbmoyWnJCc1RPbmUtVVBfanFSd1hWYWJZSmpZcTEzSTU3TDhwdG90Z20wR0s5OUJLLW9KTzBuU0YySXZmQ093WUpIdlFzLTNaTUIxd2RMVEpYeFh1R2doZ3VNQUFNZXFHMVNQME1JY080OGhIY0lSY080N1I0SnVLU1ZxRTZhMU9hYkx1RFNmejA1R0VSdTBkUHJsVXVYOGJUMUIxNUdCd3Q2b0gzQzlyYnZzbWpnZHk5NERu0gGIAkFVX3lxTE1kQUFHMXFaU3VIN3hWd0RvNWRkYXVIZmV2R1ZoUm0ybkVBM3ZnSVlXMkphTWFDYXR5S1VHbjZYM0RSbE5uTk5HYTFaMC0xSGpzcFBHVnExV0o2QTAzZklDcjhJWDZQeXRHYXJqeExtM3hqMkxPYVBQcDN4bXJ5RUxtTkw5OGhoai13N20wZlljVzQyQlJLY0loeVRtd0g4VXkwUjNyNFdoUDFSV0pJaDVIOVBJc3VJd050c3gxQkdBcDVNN1ZPNVFBWjJtVkI2b0FhdVhJZ1dsbldkQVJaZnFpTlIyR3RJN3I1Z2VDMlRTbHZXaTJELUlTZE9rcERUYjhtTkgxQkNuVQ?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.13
+ },
+ {
+  "ts": "00:06:22",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTUxmaWttN2dPVkNtaWdBWW1UUjBiYWI2bUsxam4tb0dxdmRHV1pDRW9HTzdpSlZWWFJTT244ampwSWhNR1Q5UU5feEMyTVIyektIc0hnd0pKaTBBTE5IRmpva1dsY1NGNDExeWVzUUpNWjVZNG1ocjRVT2Rza05TTmwtZnJ4NUt0U2xEYmotdlI2eEc1Zk9fZlgxd3JIRU0?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "00:06:26",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22West%20Palm%20Beach%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.04
+ },
+ {
+  "ts": "00:06:30",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOXhzaVlmVUFOaGRWN2w1enN2R2RMVXZFaHk1QlVac3dkRlNnb2RCdy1xVERTQWpKcEJGeWx4VHRXVmdyOGM1X3pQYjRPQ2tOUUZxX1BsZFFnTi1GQm80MnU5SG5QWFduVWFNam1LeG12VGd2bEVxT29ZYlRBWGJxS2RWVHdBeExUNG5ZbHZiVG1SNGJUcDJQbkxZOUpIVUJTQldvN1hhMEt3Y1pKbWx6NmpkNWc3OWJILXFSaVQzRks?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "00:06:34",
+  "practice": "Fractionals",
+  "source": "site:article link",
+  "url": "https://stmarysmc.com/",
+  "outcome": "refused",
+  "kind": "403",
+  "elapsed": 1.96
+ },
+ {
+  "ts": "00:06:38",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.stmarysmedicalcenter.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.97
+ },
+ {
+  "ts": "00:06:40",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.st-marys-medical-center.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "00:06:45",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNX01Hc1FMZkJnWXY4bnBwYVFBaFFPUVZQMU5DSVpka0RqUHdTT1MxSEdIYUFKWjNSOWRRX1dkTXV0dGtFY09xOFJVTHNkRi1WR0xnenUtYmYxbTFSX09pLXdFVmRRUkFFdWVUbks5SE0tWnl2dHBkSHN3SGU1aVF2LTVxTzc4cnhpMUR3NllweHhtLU5PSU1sQW5DNXk4V1Q1S0hqZUJja3c3VHBIOXhOazh4RjRUYndMdjlyZDAzYWRPNTNVb2daaU1HTTlFMHFuYjdpVjh5eVQ?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 3.25
+ },
+ {
+  "ts": "00:06:49",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=Florida%20distribution%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.08
+ },
+ {
+  "ts": "00:06:53",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNajdMdEp6anl1dkFOcV96eWNGLVotcEU2M1JDdzZfZlk4X2ZQRzBSclMxN3ctYkpONkJaMVRJUlRYVG4xNTFzZC1wMU9Pb0wwelNTNElfM0llbTlfQWhTT1VkUmJCRG1aa3doYk9fUFgxWE9sbTdZMDJ0Rjk3ZnhSVGJiRFJkaVh1VldmaGhmdC1mVkhyU2c?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.79
+ },
+ {
+  "ts": "00:06:58",
+  "practice": "Acquisitions",
+  "source": "site:article link",
+  "url": "https://aftfasteners.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.93
+ },
+ {
+  "ts": "00:07:00",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.southfloridadistributoramericanfasteners.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.13
+ },
+ {
+  "ts": "00:07:02",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.south-florida-distributor-american-fasteners.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "00:07:06",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPX3I0dUNYNDNuN2tYWjhsT0RCM2NsT0wzOXZyRDVXLWpfN1BneWRpQXV6T0JwOGFldldkOHdRQVpyRWQxZDBjQlBoNkJUZ2xMT0l5Z21lVGxQTHJZUkthbXAyQWdaLXVXMXZYVkRnblpMRnFaRXZGNTY1YU0xVzFHU21UblhpZ01YLTVPbXFRTnlpdG42aXFnamJ3Q2FmWXJfQ1Y4OFZmTEtDZ2lMenhFbGxCaTNxRkV3a09xejBCdjZabDZpMjFrLVM4WnMySG9FOFZmeGZycE9rRzkxWGpWSTZTOFBsQnFYQXZyZHJWbzA0bXNaTGhBeFpQYWE?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "00:07:09",
+  "practice": "Acquisitions",
+  "source": "site:article link",
+  "url": "https://icecreamflorida.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.94
+ },
+ {
+  "ts": "00:07:14",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.arctica.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 3.07
+ },
+ {
+  "ts": "00:07:18",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Sarasota%22%20%22private%20equity%22%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "00:07:22",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYm1XUlNaanIxbS0teWU0MGxfUkYzcDdQWm4zSEszOXE0Zmc3bHc3M2VPcTZuNGFLdThEVjg1LVhVTmJxNktBMWgtX3I3bnhSRlFpS2FGby1UeDNZdHdodzJIT3ZOQWZjYlFvOVd1UV9sbTFSQUpwV3gyaUx0N3A0Y2JhUzRWRkdUSnJaUHBSaW45Y1UzQVdjekxQS1pUNzU3bkg2enJWSlMzT0ZNREtYdTA4ZVZXQ3dKYzkw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.85
+ },
+ {
+  "ts": "00:07:24",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.nebraskatelecommunications.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "00:07:26",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.nebraska-telecommunications.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "00:07:30",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOXp1Slc0ZjV5c29rNXdzZXhjTWhJc3B6aTBfWlQweG9ldjkwRFZBWG1qMnJteFgwQ1FGWDFlOEhRS1IzMkQwMEloWmRQd1UxVWpYYkpDVG02dzdqZzZ2UW00d20xc1F6Sjc5cmdLWmhHbHpCamhVNG9XS3JzUnlmbVdPVkZvcVRPdF9VbjFmQTI?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.81
+ },
+ {
+  "ts": "00:07:34",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Sarasota%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.9
+ },
+ {
+  "ts": "00:07:38",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWG9yVEoyZVJWZW9Xb202aDYzVXJXRmdmNUFRZXhnVmltTXBCb2N0NE5ZUS03Yi1QN3ZKeENsVkQzejRNT09WWFBaRFVzdW1qalVyaC12RUh2MS1MbWJrb3pWcjBpTGVKbUlJS3ZqYVloMTJYRVZ0cjZoeUxQRFJrM3NnWFA4SERXUHN5bXBwY21RQmVfMmJwVDg3TE02YUJFWFlCNXNac0o1OUlqQWc?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.9
+ },
+ {
+  "ts": "00:07:41",
+  "practice": "Fractionals",
+  "source": "site:article link",
+  "url": "https://fdhs.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.87
+ },
+ {
+  "ts": "00:07:45",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.floridadigestivehealthspecialists.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.05
+ },
+ {
+  "ts": "00:07:48",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.florida-digestive-health-specialists.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "00:07:51",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUzJ2ZUQ2TzBUVDhQaUxDSEtjUU5yR1l1MDJwZzVqSDBpdDRXMUVfX29hSU45UUNmT3hhMWRvQUZidDFiM0FWRTItS0FFTFhUcTBJTDQ3QU05cUVpTWZObGh0UmtYeklLWGNIcmdKZnowUDJkOTZ5MFQ4bmk3V0dERGhHZG02NVM5UEZGUEhaaEw0SmhVdlBPX1haTWQzTjVKRkttdHAzcmdFMHZzRXFweWp3bVNwblU4Q014UGZHcWV2QlVW?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.96
+ },
+ {
+  "ts": "00:08:10",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.doormaker.com/",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 16.92
+ },
+ {
+  "ts": "00:08:14",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.door-maker.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "00:08:18",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=Florida%20food%20and%20beverage%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.07
+ },
+ {
+  "ts": "00:08:22",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LNmk5Q2ZyRk9LTmxfRW9iYlNDMlBuajBiaThlLV82TDBDejFZWnBta05JSnhDSzRVakZaVEdnNlZrUWVwZlNCelVQbFNIOVp3cGZNVnJ2Nk1vQ01FaFRLRGhIN0xrYlk1clllTVlhWnVSVnN2cXQ3VWlvcHlUUQ?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 1.88
+ },
+ {
+  "ts": "00:08:26",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNU1pb05rQVlOVkVVdTYyUnVvM2k3M0JVdlJwcHFJTF9ncV9UM2ttRWhPOGlSQ1p4ZzVLc0t6X3hGVkMyZ2dkVl9qOUtueWJ5ckRNaXBjVTFidWpaMzJ6aWwweVBtMFpqb3BDTjJBRnJ4SXlmZ3h0ajdSZFhHb3ZzTHNnRGxDdm9zdXdkTHpNLUFGdjBsTnk4cERR?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.17
+ },
+ {
+  "ts": "00:08:30",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Naples%22%20%22private%20equity%22%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.95
+ },
+ {
+  "ts": "00:08:34",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeFVtRjRDVnJLRWJjRDQ5TXozaEpCemltMWhTN1BuZkU2MDZITk0zNF9Lby0wYWF5MF9yaF9kYkJQaDJYSVlwdVlmSjdGZkJhLTZUanJaVTNNM1ZwOFNYa1pRU0lzYjNoSTFRNHZmR3hKM3UySk1JTkhBOWZaNVR5cTZuRHRJcXFyVUpMa3NDeWsyekFsZ3c?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "00:08:38",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbDhjZ0NINDE3OHdvQVdESkVYMUVIOTZHQ3QwekFOMFRjMnVxSG95X1BSODgxb3VkRmVxTU1xemtGREpqa3VJQU5aVkNjZDhzd0FpX0w2SE1KOUViS2J6NnR3N1MzbHZ1bjctdTRSY1o1bTFhY3Fxc0tIZXhfVXYyTFVsTjB0cnFfTjczVHlMMWh4dGVfNnZTZFFvRUZIUi1HYnN3U1lreU4?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "00:08:42",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Naples%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.82
+ },
+ {
+  "ts": "00:08:46",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV3BScDZhd29TVDlac3Ryc0JhZWJYaDhid1YxVzdiUUZ5Z0VjUklMSjByWFRuZkFIV0hpSUJSZ0xURzVyWmY0WjNDWXRrUUttdFJYb2tsNGpHaEc5eDdOaHlsVWpYUWxzMkpWcDlFMWhHY3lLUXdWcEZsYzJ1LTZMQ2FhMWc4eWt1TVNST25lbHBsN2FOZlB2NjhkSlVWREVuWFlFQm9ZQnV0dVhi?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.26
+ },
+ {
+  "ts": "00:08:50",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaVVjcWtVRlZvekljUFdvTkJqWUpiVFYtZnp0VFowV1o5NWZfcWN1bHhaUlVwSURGc0JGYzVOM3FMWUJrdkxFdlRXSkZacmI3d3ZBZW9QbnFsMHpJMnBvSEk5NjBuWE9mbk5oR1dvOUxPOEdqZHRGeDNpend5OS1CaUhlbm11WU5vZkEyVXplSnpGMVJaWTBZLVFGZWp1cGtRWnVxeldIZmJzSU55MGxZaVZlMmhPYTJ6N3l5a3ByVDRwdFFaS0NPc2ozQ1RnNUJlU28wbE5XVWY?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "00:08:54",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=Florida%20construction%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.85
+ },
+ {
+  "ts": "00:08:57",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSHRrd1BlcWVzaEJrMVlwUGs5Tjd4X3RONldNZTFoYjl5bDJWZmtqWVotcnM5Q193VnJxOW1RSTVoT2ZfeTFBY3NfdVd0aWRPU0k1WWZ5Y29uaHVjT3M4WDJ0ODZOQnJqRFI0YlF4SWFZWU9yYUwtbm83OG5laTVlOFdUTk1CUWhya3o5RUxzZWdmWTJkcnVZdHdMVWVFTjlPU0JVMmVLcmxXZw?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "00:09:02",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQVZsSXpmRTBLd0EtNTlOQ29HbnNYNEIzdzJLMExBeXFldUQ0ZkdVRUtzc0h0RnpGNXpVNW9CUkFSVm80cXVrd002R19kc3VycGVVU2dtdXdwbjdONWhNYVBkU3BzTWhNQy1wM0xBdGlKWm04bDd2bjZhc1dtd0dubGNfdTJSUnZKNnFZRVdTQU1VNmtwZTVTREdxVG41UU9wWDZDSTdMRExnZkE1ZUE0ZA?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.13
+ },
+ {
+  "ts": "00:09:06",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Fort%20Myers%22%20%22private%20equity%22%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "00:09:09",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Fort%20Myers%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.85
+ },
+ {
+  "ts": "00:09:13",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=Florida%20transportation%20logistics%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.9
+ },
+ {
+  "ts": "00:09:17",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ3N1UTl1ZzBrVVU2Z0xmT3EtUm1XY1ZyR1pPbmlpeXlGWmlmek84eV9hakt6NVROYmlRbUhHQ2tDVm53aTNUWW1XLVBBVXZYUzZNMldZMnZXTEo5TEprYjBFOE9UOW82STd1aTNFWVFHOEktc1FMQ1ZFam8wTFBPQ2hIbDZ0Q3NOM2FOaFp4ajczSFJYcnp5bi1wLUdhZ1pvcU1B?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.76
+ },
+ {
+  "ts": "00:09:21",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPS0xlZlIxREtVck1zZjB2UnZfUHlaSmx4UUpScE1idVJNMTdVZFlpRm9JT3dndkpQdWhQTkxZTVJ3ZFZfR0ZJRzd1MXpjdTVManZGbXVZMzBLVS0tcDBqd3Y3bmJNbVhpdUtnQjBhVzRjcE5pYXNQLXdqblZiME0xdWptQVU3Wnl0b0RsN1B6Q1JaZmhEckU1VlpabTBOWkFscENRYkZhWFdydHpjYnlKaEtoVnF5OHNDYWlWS3JWa1VkdkJ0dDJXZ0dROEgtV2xD?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "00:09:25",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Pensacola%22%20%22private%20equity%22%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.83
+ },
+ {
+  "ts": "00:09:29",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX094dDc2RTFtc0Q1cko2QVB1OHd1cTZiRTF6THNrZ01lY1dad3h2cUxWMVpsRTlDcmg1SVVwTXJaZnN0OTF6VGVpTF81a2xsTFFrRmxibUVCcGV2eVRUSEhQaGtpcmNOSjZuZkFNSmRsekRMeUh0V3JqV1EzU084V0k3MzhvZTBLRWlSdGROT0JLaFRxNTl4Ty1tbjJCWnBpcDZnT0RLVUxlTC0y?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "00:09:32",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Pensacola%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.84
+ },
+ {
+  "ts": "00:09:37",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=Florida%20multi-site%20retail%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.09
+ },
+ {
+  "ts": "00:09:40",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWS1NYmZGMWlJQTFQUnFkM0tqNnBrMFh2Xy1aZXE4YmE0enIzUmpoSjZrc0NqZ0FCWlRUNWllaF8yU3ozX3dQVUp2V0xINzlPaE9ycjl4bFpsVkRtcnBYb3BNR2FnMlZHRHNLTGx6NDJDd3Y2UnE4cVVvUkJkRmFGdjZB?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "00:09:44",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYU1UWW1ac2UwQjA5YWdlZHBrYU9zVjFBWnpGaE1aZ2czOFBBVXRKYm5HNkVUOGRKRFZ2SGZreXB2QTNLQmM2WWRSdm0zc3laYXlIQ3A2cWwtRHNuWDBJLWcwSVFZRWJOYkU2VWl5OTRCQzBhMW4wVW0yOXctYk9MSGduV1lqUEloQl9UYjNvM2k2T09xNGlGc1JteDZ5amQ3eVE?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.86
+ },
+ {
+  "ts": "00:09:47",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.fortmyers.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 1.18
+ },
+ {
+  "ts": "00:10:06",
+  "practice": "Acquisitions",
+  "source": "site:derived host",
+  "url": "https://www.fort-myers.com/",
+  "outcome": "refused",
+  "kind": "503",
+  "elapsed": 16.81
+ },
+ {
+  "ts": "00:10:10",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Tallahassee%22%20%22private%20equity%22%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.84
+ },
+ {
+  "ts": "00:10:14",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWVNrYVVUQTc2bmxrQ09ob2pOWVBUQ2d3aXVCU0N6bE5Bc0lrbUg5TFhIWlJPUTVSYlFwa3lTTnlYVFExcm8wT1BxcFpaZVJEUkhURnpfeV9JMlRzUnJVMkE5ZEh3QnAwWnpSUnZBT2pKRWNlRTV3WDE4U2QyeE9wVzBVbHZUd3FKX1VULVZWejlhbHNrN09BdGd3RjNjN1VKdzBzVThiV0cwMEhlcEkycTN1QmIwajdOT1d3N1hadU5VWVp5ckFyRU5tNzlRNmh1bWFXRlRlalFEUQ?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.77
+ },
+ {
+  "ts": "00:10:18",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Tallahassee%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.88
+ },
+ {
+  "ts": "00:10:22",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQMnF5QjBYQk1ZMGJXNzY3d1RjYnhrQWFiTWhMUnM0OUVkNkp1OU85WXV4REFJNFE4RnBZRlJwUUhWT05LcU5VemJ6Rkk4OVZNVjR5S2cwbEJsMUZDZlJpSWpSM2Q5REtYSldLeXM5dnhHZFp4UGpoeGozU0E4SmJIQkxEUjhqNWhkb2pJUklZVFFDTFZUYUVYMTBmYWVlRmZoenpJR0ZvVjBXa2t3R21LRHgyNlRoemJ4dDZSRi1DTjZEYldKUU0tWWdGMXVEWHpEZDlxeTlzWmkxRDhEekZDaC02TENuTGp4cDFLYVNteEc0RGFsMzlHTy0zRlhONER5STVDUmZpVnZpNnZiVk84?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "00:10:26",
+  "practice": "Acquisitions",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=Florida%20field%20services%20company%20acquired&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.11
+ },
+ {
+  "ts": "00:10:29",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMDBwUk05V2xINncxVkpIMDhoY1oxTW9UbE5xb01xVjBqTmtzM2ZHQ2NzYWstTDEzNGpqN0ZkRVVMTjdKY0MxVG53eTE1bC05TGxNdDJRWWFaNjd3N2VkRmsyZHE2YXVsUGJ4ZkpSQXZqYTFyN1BMU04wWTdwaXJFUWlic3VCQWJfUXA5YWZJTHdzNkxDamFnM3NoeEpoZjJaQWtLMXZIYzg4bTN4bll6Y0RZQzZGOWM?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.75
+ },
+ {
+  "ts": "00:10:33",
+  "practice": "Acquisitions",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZFFMVnVRZWxqTmpGMmFtWTE1aW5mYmJMaTY1dzYxMmZONEFjWk5QYVI3SGhjbDJmZ2hmTzR3V1dFeTBuanNSQlNCdW1KRFpieEx0LVVsWmpqVm9TR3V4NXUtaHd2dWlRMl9hMDUwX3BxWjlMMld1UXFSWFB4ZWk2MzRycnExUk5UV3JYUlhsY2dzSjkyaDVNay03MHdyejdOamtBUDZpVnNQT2NvZ0E?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.78
+ },
+ {
+  "ts": "00:10:37",
+  "practice": "Private Equity",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Gainesville%22%20%22private%20equity%22%20acquires&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.8
+ },
+ {
+  "ts": "00:10:42",
+  "practice": "Private Equity",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZnQ0WXk3a0w1anFnZTdRaktIWjRjLXdhM3B3UmgtejZ6Nng1RnJRR2hfZnBLSlp1YXpfUVFNMnRjb2NJOU1FcWRVeGlfT2EzdE9EUG9oVEdMVlJmc3ZzdTBSSS12UE50RVFvNFpFOVVWVmQwQjcxZnI1VG9VWjV6U090RUMxZjlTSzBhaktIOVJfZ1pSVGJUa01LNGk3dmczT2p1eWpDemhnRV9ianlyd3o0R0JoYkdWY3ViWFJFUG03bEhWenRWUU9wNE5CVVRPN3UtSw?oc=5",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 2.65
+ },
+ {
+  "ts": "00:10:46",
+  "practice": "Fractionals",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Gainesville%22%20company%20names%20CFO&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.82
+ },
+ {
+  "ts": "00:10:50",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdDJQYmhBb1J0cVhQTG9zeGlpV0F3c3VpblBLN0VUUGpNOERvSXEtNnBEUjc1ZW44bEtoejZZNVNjemxkUGxnaDBkOWpmZGQxeXpkZ05ncXcxS1c4Q3hmbmZ2TUFpa2FVcVN3OHJ4T0xEZkQ1WUl5MXRxQVhxbVBwS2pkWGRVS3Zj?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.05
+ },
+ {
+  "ts": "00:10:54",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.gainesvillehousingauthority.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 1.93
+ },
+ {
+  "ts": "00:10:56",
+  "practice": "Fractionals",
+  "source": "site:derived host",
+  "url": "https://www.gainesville-housing-authority.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.09
+ },
+ {
+  "ts": "00:11:00",
+  "practice": "Fractionals",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcF9oT0ZzRGlaVWt6MnRyamVmSEJOZHJuSW9Pak1WZmZCdFZCel9YMDdXMDVIdTh6aGZiSEhUNUJCaUtZdmtRQU8xNE1PYV9qWGZ6TWN5V3pUY0VuRGlIWXQtQXI1TXZMbDlSU3FYLU5VOWJILU9iOXNyNVk1UGk4MDNiRWNadjdrcjd5WDZTN25VTVFiU1FwVWUtZWprOWs5SE1pY0ZNeVVtMkhRVjZneG1NQlo?oc=5",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.82
+ },
+ {
+  "ts": "00:11:19",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/clinicalcare/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 17.16
+ },
+ {
+  "ts": "00:11:21",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.clinicalcareservicesflorida.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.1
+ },
+ {
+  "ts": "00:11:23",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.clinical-care-services-florida.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.08
+ },
+ {
+  "ts": "00:11:32",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/healthplan-services/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 7.33
+ },
+ {
+  "ts": "00:11:34",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.healthplanservicesservicesflorida.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "00:11:36",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.healthplan-services-services-florida.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "00:11:50",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/latite-roofing-sheet-metal/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 11.27
+ },
+ {
+  "ts": "00:11:52",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.latiteroofingsheetmetal.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.08
+ },
+ {
+  "ts": "00:11:54",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.latite-roofing-sheet-metal.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.09
+ },
+ {
+  "ts": "00:12:05",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/loan-logics/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 9.0
+ },
+ {
+  "ts": "00:12:07",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.loanlogicsbusinessservicesfloridaactivelyseekingaddonacquisitions.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.06
+ },
+ {
+  "ts": "00:12:09",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.loan-logics-business-services-florida-actively-seeking-addon-acquisitions.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "00:12:23",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/point-blank-enterprises/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 12.43
+ },
+ {
+  "ts": "00:12:26",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.pointblankenterprisesindustrialsdistributionflorida.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.1
+ },
+ {
+  "ts": "00:12:28",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.point-blank-enterprises-industrials-distribution-florida.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.09
+ },
+ {
+  "ts": "00:12:42",
+  "practice": "Private Equity",
+  "source": "entry:suncap",
+  "url": "https://suncappart.com/portfolio/smokey-bones/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 12.0
+ },
+ {
+  "ts": "00:12:44",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.smokeybonesflorida.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.07
+ },
+ {
+  "ts": "00:12:46",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.smokey-bones-florida.com/",
+  "outcome": "refused",
+  "kind": "net",
+  "elapsed": 0.09
+ },
+ {
+  "ts": "00:12:50",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/rewind/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.56
+ },
+ {
+  "ts": "00:12:55",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/rising-pharmaceuticals/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.37
+ },
+ {
+  "ts": "00:12:59",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/riveron/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.04
+ },
+ {
+  "ts": "00:13:03",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/rotorcraft-leasing-company/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.49
+ },
+ {
+  "ts": "00:13:08",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/royo-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.42
+ },
+ {
+  "ts": "00:13:12",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/rxstrategies/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.4
+ },
+ {
+  "ts": "00:13:16",
+  "practice": "Private Equity",
+  "source": "site:sponsor entry link",
+  "url": "https://rxstrategies.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.36
+ },
+ {
+  "ts": "00:13:21",
+  "practice": "Private Equity",
+  "source": "site:derived host",
+  "url": "https://www.rxstrategies.com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.03
+ },
+ {
+  "ts": "00:13:25",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/safe-guard-products-international/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.34
+ },
+ {
+  "ts": "00:13:29",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/sage-hospice/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.36
+ },
+ {
+  "ts": "00:13:33",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/salary-com/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.05
+ },
+ {
+  "ts": "00:13:38",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/savvion/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.32
+ },
+ {
+  "ts": "00:13:42",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/scuf-gaming/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.46
+ },
+ {
+  "ts": "00:13:47",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/seastar-solutions/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.52
+ },
+ {
+  "ts": "00:13:51",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/segers/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 1.93
+ },
+ {
+  "ts": "00:13:55",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/selfit/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.43
+ },
+ {
+  "ts": "00:14:00",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/servicecraft-logistics/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.82
+ },
+ {
+  "ts": "00:14:05",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/servicetitan/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.79
+ },
+ {
+  "ts": "00:14:09",
+  "practice": "Private Equity",
+  "source": "entry:hig",
+  "url": "https://hig.com/portfolio/shore-excursions-group/",
+  "outcome": "read",
+  "kind": null,
+  "elapsed": 2.47
+ }
+]
