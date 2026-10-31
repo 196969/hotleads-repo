@@ -1,0 +1,57 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Item 322 ruling (brief): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Item 322 ruling (delivered): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "reads": 0,
+  "gate": "discipline, not a hook"
+ },
+ "written": "10 observation lines, each “Phone <number> shown on <page>. Src: read <page> 2026-10-31.”",
+ "florida": {
+  "call_ready": "50 rows / 50 companies",
+  "verified_callable": "21 / 21",
+  "short_of_call_ready": "64 rows",
+  "short_kinds": {
+   "source the number": 48,
+   "acquire a number (none on the row)": 14,
+   "find the name and source the number": 1,
+   "ask for the name": 1
+  },
+  "address_split": {
+   "other address": 9,
+   "role inbox": 21,
+   "named": 1
+  }
+ },
+ "programme": "call-ready 100 rows / 100 companies (Florida 50)",
+ "validator": "passed before any figure was stated"
+}

@@ -1,6 +1,40 @@
 {
  "callable": [
   {
+   "key": "2",
+   "company": "Badia Spices",
+   "city": "Doral",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Joseph “Pepe” Badia — President / majority owner",
+   "phone": "(305) 629-8000",
+   "address": "poconfirm@badiaspices.com",
+   "address_src": "badiaspices.com/contact-us/ · read 2026-10-29",
+   "src": "badiaspices.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "6",
+   "company": "Eagle Brands Sales",
+   "city": "Miami",
+   "band": 4,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Susan B. McCollum — President & CEO / owner",
+   "phone": "305-599-2337",
+   "address": "ghoyos@eaglebrands.com",
+   "address_src": "eaglebrands.com/contact · read 2026-10-29",
+   "src": "eaglebrands.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
    "key": "9",
    "company": "Riverdale Farms",
    "city": "Doral",
@@ -49,6 +83,23 @@
    "address": "rgazitua@wtdc.com",
    "address_src": "wtdc.com/contact-us · read 2026-10-29",
    "src": "wtdc.com/contact-us · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "36",
+   "company": "SkyPostal",
+   "city": "Miami",
+   "band": 4,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "A.J. Hernandez — President & CEO (2nd-gen; father Albert P. Hernandez founded)",
+   "phone": "(305) 599-1812",
+   "address": "",
+   "address_src": "",
+   "src": "skypostal.com · read 2026-10-29",
    "move": "passes every test"
   },
   {
@@ -137,6 +188,23 @@
    "move": "passes every test"
   },
   {
+   "key": "70",
+   "company": "Cone Distributors",
+   "city": "Ocala",
+   "band": 4,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Douglas P. Cone Jr. — Founder & President/CEO (Sunbiz: P; son Douglas Cone III, VP — succession in place)",
+   "phone": "(352) 732-4111",
+   "address": "",
+   "address_src": "",
+   "src": "teamcone.net · read 2026-10-29",
+   "move": "needs a website that names the company"
+  },
+  {
    "key": "75",
    "company": "Rulon International",
    "city": "St. Augustine",
@@ -205,6 +273,40 @@
    "move": "needs a phone source"
   },
   {
+   "key": "115",
+   "company": "Wish Farms",
+   "city": "Plant City",
+   "band": 4,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "James Peterson — CEO (eff. 2026-06-01; family by marriage); Gary Wishnatzki → Chairman",
+   "phone": "(813) 752-5111",
+   "address": "info@wishfarms.com",
+   "address_src": "wishfarms.com · read 2026-10-29",
+   "src": "wishfarms.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "118",
+   "company": "S.R. Perrott",
+   "city": "Ormond Beach",
+   "band": 4,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Michele P. Connors — Owner & President (2nd gen; founders’ daughter)",
+   "phone": "(386) 672-2275",
+   "address": "info@srperrott.com",
+   "address_src": "srperrott.com/contact · read 2026-10-29",
+   "src": "srperrott.com · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
    "key": "133",
    "company": "Sally Dark Rides",
    "city": "Jacksonville",
@@ -219,6 +321,23 @@
    "address": "lweaver@sallydarkrides.com",
    "address_src": "sallydarkrides.com/dream-team · read 2026-10-29",
    "src": "sallydarkrides.com/dream-team · read 2026-10-29",
+   "move": "passes every test"
+  },
+  {
+   "key": "135",
+   "company": "American Coolair",
+   "city": "Jacksonville",
+   "band": 1,
+   "practice": {
+    "Acquisitions": "not read",
+    "Fractionals": "not read",
+    "Private Equity": "not read"
+   },
+   "person": "Harry Graves — President (Graves family, 4th generation since 1928)",
+   "phone": "(904) 389-3646",
+   "address": "",
+   "address_src": "",
+   "src": "coolair.com/index.php · read 2026-10-29",
    "move": "passes every test"
   },
   {
@@ -320,18 +439,5 @@
    "practice": "Acquisitions",
    "site": "https://www.marinoperformancemotors.com/"
   }
- ],
- "callable_dropped_on_the_fixed_contact_rule": [
-  "Badia Spices",
-  "Eagle Brands Sales",
-  "Refricenter",
-  "TruckMax",
-  "SkyPostal",
-  "Bealls Inc.",
-  "Cone Distributors",
-  "Arthrex",
-  "Wish Farms",
-  "S.R. Perrott",
-  "American Coolair"
  ]
 }

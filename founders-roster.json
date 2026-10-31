@@ -1496,6 +1496,27 @@
    "date": "2026-10-31",
    "item": 322,
    "scope": "the brief’s 71 is the dial pack’s “source the number” list; 57 hold a phone and 14 hold none. Sourcing a number for those 14 is acquisition, out of scope by the brief’s own definition, and was refused"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "ruling": "the read date governs a live page; a fixed artefact is dated by its own date; the line says which, in the ruled form"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "measurement": "17.5% at about 12 reads per sourced row (10 of 57 rows, 117 reads)",
+   "meaning": "the 203-row backlog would cost about 2,400 reads to yield about 35 sourced rows; company-page sourcing is expensive. Texas, Georgia and the Carolinas do not open on this route by default; the register route in a bulk state filled 176 rows for nothing"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "finding": "of 57 rows worked, 47 could not be sourced from company pages at all (29 refused or the number not shown, 18 with no site on the row): company pages source about one row in six"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "correction": "the dial pack’s 71 was 57 holding a number and 14 holding none; the pack now names the 14 as “acquire a number”, a separate kind"
   }
  ]
 }

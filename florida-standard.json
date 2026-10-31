@@ -7494,14 +7494,15 @@
   "figures_leave_as": "anywhere a figure leaves the programme it states rows and companies; duplicate pairs stand as pairs, never merged",
   "market_open_validator": "the dated-source validator runs at every market open, before any figure is stated (2026-10-31)",
   "market_open_self_overlap": "the self-overlap check runs at every market open, before any figure is stated (2026-10-31)",
-  "undated_share": "a market whose undated share exceeds one tenth of its source lines is flagged at market level, re-dated or re-verified as a market, never patched row by row (2026-10-31; Pennsylvania 34 of 73, the first)"
+  "undated_share": "a market whose undated share exceeds one tenth of its source lines is flagged at market level, re-dated or re-verified as a market, never patched row by row (2026-10-31; Pennsylvania 34 of 73, the first)",
+  "source_line_form": "a live page observed is dated by the observation: “Src: read <page> <date>”; a fixed artefact (document, filing, article, dataset) is dated by its own date: “Src: <document>, dated <its date>”. The line says which it is; a read date never wears the shape of a publication date (ruled 2026-10-31)"
  },
  "florida_close": {
   "date": "2026-10-31",
   "rows": 200,
   "dialable_universe": 115,
   "dialable_universe_measured": "florida.html Tier A 47 + Tier B 45, expansion main A 12 + B 4, intake 7",
-  "call_ready": "40 rows across 40 companies on the fixed contact rule (closed at 98 / 97 on the old rule, 31 October); verified-callable 14",
+  "call_ready": "50 rows across 50 companies (98 / 97 on the old contact rule; 40 / 40 on the fixed rule; +10 by Item 322’s observed reads); verified-callable 21",
   "verified_callable": 25,
   "partial": 13,
   "measured_shut": 9,
