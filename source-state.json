@@ -6,7 +6,9 @@
    "403": 2,
    "404": 1
   },
-  "yield": 0
+  "yield": 0,
+  "state": "closed",
+  "note": "name-built contact path, closed (Chair)"
  },
  "rocketreach": {
   "reads": 3,
@@ -14,7 +16,9 @@
   "refused": {
    "404": 3
   },
-  "yield": 0
+  "yield": 0,
+  "state": "closed",
+  "note": "name-built contact path, closed (Chair)"
  },
  "hunter": {
   "reads": 3,
@@ -154,8 +158,11 @@
    "403": 1
   },
   "yield": 0,
-  "state": "refused (403)",
-  "reading": null
+  "state": "closed",
+  "reading": null,
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "probe:BizBuySell": {
   "reads": 1,
@@ -164,8 +171,11 @@
    "403": 1
   },
   "yield": 0,
-  "state": "refused (403)",
-  "reading": null
+  "state": "closed",
+  "reading": null,
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "probe:BizQuest": {
   "reads": 1,
@@ -174,8 +184,11 @@
    "403": 1
   },
   "yield": 0,
-  "state": "refused (403)",
-  "reading": null
+  "state": "closed",
+  "reading": null,
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "probe:DealStream": {
   "reads": 1,
@@ -184,8 +197,11 @@
    "403": 1
   },
   "yield": 0,
-  "state": "refused (403)",
-  "reading": null
+  "state": "closed",
+  "reading": null,
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "probe:BusinessBroker.net": {
   "reads": 1,
@@ -194,8 +210,11 @@
    "405": 1
   },
   "yield": 0,
-  "state": "refused (405)",
-  "reading": null
+  "state": "closed",
+  "reading": null,
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "probe:LoopNet": {
   "reads": 1,
@@ -204,16 +223,22 @@
    "403": 1
   },
   "yield": 0,
-  "state": "refused (403)",
-  "reading": null
+  "state": "closed",
+  "reading": null,
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "probe:IBBA": {
   "reads": 1,
   "answered": 1,
   "refused": {},
   "yield": 0,
-  "state": "answered",
-  "reading": "answered; no listing or company names on the page read"
+  "state": "closed",
+  "reading": "answered; no listing or company names on the page read",
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "probe:M&A Source": {
   "reads": 1,
@@ -222,32 +247,44 @@
    "403": 1
   },
   "yield": 0,
-  "state": "refused (403)",
-  "reading": null
+  "state": "closed",
+  "reading": null,
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "probe:Sunbelt": {
   "reads": 1,
   "answered": 1,
   "refused": {},
   "yield": 0,
-  "state": "answered",
-  "reading": "listing page: listings carry location but name no company"
+  "state": "closed",
+  "reading": "listing page: listings carry location but name no company",
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "probe:Transworld": {
   "reads": 1,
   "answered": 1,
   "refused": {},
   "yield": 0,
-  "state": "answered",
-  "reading": "answered; no listing or company names on the page read"
+  "state": "closed",
+  "reading": "answered; no listing or company names on the page read",
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "probe:Murphy Business": {
   "reads": 1,
   "answered": 1,
   "refused": {},
   "yield": 0,
-  "state": "answered",
-  "reading": "listing page: listings carry location but name no company"
+  "state": "closed",
+  "reading": "listing page: listings carry location but name no company",
+  "note": "window-19 marketplaces closed permanently (Chair): 7 refuse, 4 anonymise listings by design",
+  "window": "w19",
+  "class": "Marketplace"
  },
  "H.I.G. Capital": {
   "state": "exhausted",
@@ -264,5 +301,966 @@
  "Boyne": {
   "state": "exhausted",
   "note": "29 of 29 entries read; 5 Florida"
+ },
+ "FMCSA SAFER": {
+  "window": "w20",
+  "class": "Transportation & Logistics",
+  "url": "https://safer.fmcsa.dot.gov",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 14916,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 2,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "FMCSA L&I": {
+  "window": "w20",
+  "class": "Transportation & Logistics",
+  "url": "https://li-public.fmcsa.dot.gov",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 7477,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "ATA": {
+  "window": "w20",
+  "class": "Transportation & Logistics",
+  "url": "https://www.trucking.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 139980,
+  "florida_city_pairs": 2,
+  "legal_suffix_names": 0,
+  "login_wall": true,
+  "reading": "answered behind a login or subscription wall"
+ },
+ "Transport Topics": {
+  "window": "w20",
+  "class": "Transportation & Logistics",
+  "url": "https://www.ttnews.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 241913,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "FreightWaves": {
+  "window": "w20",
+  "class": "Transportation & Logistics",
+  "url": "https://www.freightwaves.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 333534,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 5,
+  "login_wall": false,
+  "reading": "answered; company names on the page"
+ },
+ "Logistics Management": {
+  "window": "w20",
+  "class": "Transportation & Logistics",
+  "url": "https://www.logisticsmgmt.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 123531,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "USDA FSIS directory": {
+  "window": "w20",
+  "class": "Food & Beverage",
+  "url": "https://www.fsis.usda.gov/inspection/establishments/meat-poultry-and-egg-product-inspection-directory",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Specialty Food Association": {
+  "window": "w20",
+  "class": "Food & Beverage",
+  "url": "https://www.specialtyfood.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 176165,
+  "florida_city_pairs": 1,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "Food Processing": {
+  "window": "w20",
+  "class": "Food & Beverage",
+  "url": "https://www.foodprocessing.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 335847,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 5,
+  "login_wall": false,
+  "reading": "answered; company names on the page"
+ },
+ "Food Business News": {
+  "window": "w20",
+  "class": "Food & Beverage",
+  "url": "https://www.foodbusinessnews.net",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 295907,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 2,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "IFDA": {
+  "window": "w20",
+  "class": "Food & Beverage",
+  "url": "https://www.ifdaonline.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 240731,
+  "florida_city_pairs": 1,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "Brewers Association": {
+  "window": "w20",
+  "class": "Food & Beverage",
+  "url": "https://www.brewersassociation.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 257320,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 1,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "Thomasnet": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://www.thomasnet.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "IndustryNet": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://www.industrynet.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "503": 1
+  },
+  "answered": 0
+ },
+ "MFG.com": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://www.mfg.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Kompass": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://us.kompass.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "MacRAE's Blue Book": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://www.macraesbluebook.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 66568,
+  "florida_city_pairs": 1,
+  "legal_suffix_names": 5,
+  "login_wall": false,
+  "reading": "answered; company names on the page"
+ },
+ "Manta": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://www.manta.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "NAM": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://nam.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 336945,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "NAW": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://www.naw.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 888975,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "ISA": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://www.isapartners.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 707319,
+  "florida_city_pairs": 1,
+  "legal_suffix_names": 1,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "MDM": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://www.mdm.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 865429,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "IndustryWeek": {
+  "window": "w20",
+  "class": "Manufacturing / Distribution",
+  "url": "https://www.industryweek.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 406891,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 6,
+  "login_wall": true,
+  "reading": "answered behind a login or subscription wall"
+ },
+ "AGC chapters": {
+  "window": "w20",
+  "class": "Construction",
+  "url": "https://www.agc.org/chapters",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "404": 1
+  },
+  "answered": 0
+ },
+ "ABC chapters": {
+  "window": "w20",
+  "class": "Construction",
+  "url": "https://www.abc.org/chapters",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "404": 1
+  },
+  "answered": 0
+ },
+ "ENR": {
+  "window": "w20",
+  "class": "Construction",
+  "url": "https://www.enr.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 399959,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "Construction Dive": {
+  "window": "w20",
+  "class": "Construction",
+  "url": "https://www.constructiondive.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Chain Store Age": {
+  "window": "w20",
+  "class": "Retail, Field Ops & Events",
+  "url": "https://chainstoreage.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Retail Dive": {
+  "window": "w20",
+  "class": "Retail, Field Ops & Events",
+  "url": "https://www.retaildive.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "ICSC": {
+  "window": "w20",
+  "class": "Retail, Field Ops & Events",
+  "url": "https://www.icsc.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 135182,
+  "florida_city_pairs": 1,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "IFA": {
+  "window": "w20",
+  "class": "Retail, Field Ops & Events",
+  "url": "https://www.franchise.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 996857,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 2,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "IAVM": {
+  "window": "w20",
+  "class": "Retail, Field Ops & Events",
+  "url": "https://iavm.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 326146,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 2,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "TSNN": {
+  "window": "w20",
+  "class": "Retail, Field Ops & Events",
+  "url": "https://www.tsnn.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 453375,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "10times": {
+  "window": "w20",
+  "class": "Retail, Field Ops & Events",
+  "url": "https://10times.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "SAM.gov": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://sam.gov",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 109539,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "USAspending": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://www.usaspending.gov",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 135191,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "OSHA establishments": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://www.osha.gov/ords/imis/establishment.html",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "EPA ECHO": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://echo.epa.gov",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 71763,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 1,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "Census CBP": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://www.census.gov/programs-surveys/cbp.html",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 344783,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "PACER": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://pacer.uscourts.gov",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 160074,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "SBA local assistance": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://www.sba.gov/local-assistance",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 428290,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "America's SBDC": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://americassbdc.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 192991,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "U.S. Chamber finder": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://www.uschamber.com/co/chambers",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 98223,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 1,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "NMSDC": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://nmsdc.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 384088,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 1,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "WBENC": {
+  "window": "w20",
+  "class": "Government finders",
+  "url": "https://www.wbenc.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 187610,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 1,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "South Florida Business Journal": {
+  "window": "w21",
+  "class": "Press",
+  "url": "https://www.bizjournals.com/southflorida",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Tampa Bay Business Journal": {
+  "window": "w21",
+  "class": "Press",
+  "url": "https://www.bizjournals.com/tampabay",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Orlando Business Journal": {
+  "window": "w21",
+  "class": "Press",
+  "url": "https://www.bizjournals.com/orlando",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Jacksonville Business Journal": {
+  "window": "w21",
+  "class": "Press",
+  "url": "https://www.bizjournals.com/jacksonville",
+  "reads": 0,
+  "state": "unread",
+  "note": "not read: bizjournals.com closed after three refusals on that host (fault 62’s repair: a closure keyed on the host)"
+ },
+ "Florida Trend": {
+  "window": "w21",
+  "class": "Press",
+  "url": "https://www.floridatrend.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 295125,
+  "florida_city_pairs": 2,
+  "legal_suffix_names": 2,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "PR Newswire": {
+  "window": "w21",
+  "class": "Press",
+  "url": "https://www.prnewswire.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 253502,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 3,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "PR Newswire feeds": {
+  "window": "w21",
+  "class": "Press",
+  "url": "https://www.prnewswire.com/rss/",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 198465,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 2,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "Business Wire": {
+  "window": "w21",
+  "class": "Press",
+  "url": "https://www.businesswire.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "503": 1
+  },
+  "answered": 0
+ },
+ "GlobeNewswire": {
+  "window": "w21",
+  "class": "Press",
+  "url": "https://www.globenewswire.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Google News RSS": {
+  "window": "w21",
+  "class": "Press",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22+company+acquired",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 385659,
+  "florida_city_pairs": 4,
+  "legal_suffix_names": 7,
+  "login_wall": false,
+  "reading": "answered; company names on the page"
+ },
+ "Clutch": {
+  "window": "w21",
+  "class": "Brand / Marketing / Sales",
+  "url": "https://clutch.co",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Ad Age": {
+  "window": "w21",
+  "class": "Brand / Marketing / Sales",
+  "url": "https://adage.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "AMA": {
+  "window": "w21",
+  "class": "Brand / Marketing / Sales",
+  "url": "https://www.ama.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 205510,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 1,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "Selling Power": {
+  "window": "w21",
+  "class": "Brand / Marketing / Sales",
+  "url": "https://www.sellingpower.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 110091,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 1,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "Sunbiz": {
+  "window": "w22",
+  "class": "Registry",
+  "url": "https://search.sunbiz.org",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Florida DBPR": {
+  "window": "w22",
+  "class": "Registry",
+  "url": "https://www.myfloridalicense.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 213012,
+  "florida_city_pairs": 1,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "LinkedIn Jobs Florida": {
+  "window": "w22",
+  "class": "Vacancy",
+  "url": "https://www.linkedin.com/jobs/search/?keywords=controller%20OR%20%22director%20of%20operations%22&location=Florida",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "999": 1
+  },
+  "answered": 0
+ },
+ "The Ladders": {
+  "window": "w22",
+  "class": "Vacancy",
+  "url": "https://www.theladders.com",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "U.S. DOL WARN": {
+  "window": "w22",
+  "class": "Vacancy",
+  "url": "https://www.dol.gov/agencies/eta/layoffs/warn",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 100644,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "FloridaCommerce WARN": {
+  "window": "w22",
+  "class": "Vacancy",
+  "url": "https://floridajobs.org/office-directory/division-of-workforce-services/workforce-programs/reemployment-and-emergency-assistance-coordination-team-react/warn-notices",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Florida Chamber": {
+  "window": "w22",
+  "class": "Associations & ED",
+  "url": "https://www.flchamber.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 154526,
+  "florida_city_pairs": 1,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "SelectFlorida": {
+  "window": "w22",
+  "class": "Associations & ED",
+  "url": "https://www.selectflorida.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 104333,
+  "florida_city_pairs": 3,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "MAF": {
+  "window": "w22",
+  "class": "Associations & ED",
+  "url": "https://www.mafmfg.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 193686,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "FloridaMakes": {
+  "window": "w22",
+  "class": "Associations & ED",
+  "url": "https://www.floridamakes.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 155740,
+  "florida_city_pairs": 1,
+  "legal_suffix_names": 2,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "Florida Trucking": {
+  "window": "w22",
+  "class": "Associations & ED",
+  "url": "https://www.fltrucking.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 802618,
+  "florida_city_pairs": 1,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "FRLA": {
+  "window": "w22",
+  "class": "Associations & ED",
+  "url": "https://www.frla.org",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 479361,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "HHS breach portal": {
+  "window": "w22",
+  "class": "Fraud control",
+  "url": "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 13243,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "SEC EDGAR 8-K Item 1.05": {
+  "window": "w22",
+  "class": "Fraud control",
+  "url": "https://www.sec.gov/edgar/search/",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "FBI IC3": {
+  "window": "w22",
+  "class": "Fraud control",
+  "url": "https://www.ic3.gov",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 52914,
+  "florida_city_pairs": 0,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "ACFE": {
+  "window": "w22",
+  "class": "Fraud control",
+  "url": "https://www.acfe.com",
+  "reads": 1,
+  "state": "answering",
+  "answered": 1,
+  "bytes": 200965,
+  "florida_city_pairs": 2,
+  "legal_suffix_names": 0,
+  "login_wall": false,
+  "reading": "answered; a publication or front page, not a roster"
+ },
+ "FTC": {
+  "window": "w22",
+  "class": "Fraud control",
+  "url": "https://www.ftc.gov",
+  "reads": 1,
+  "state": "refused",
+  "refused": {
+   "403": 1
+  },
+  "answered": 0
+ },
+ "Indeed": {
+  "state": "closed",
+  "note": "refused, closed",
+  "window": "w22",
+  "class": "Vacancy"
+ },
+ "ZipRecruiter": {
+  "state": "closed",
+  "note": "refused, closed",
+  "window": "w22",
+  "class": "Vacancy"
+ },
+ "Glassdoor": {
+  "state": "closed",
+  "note": "refused, closed",
+  "window": "w22",
+  "class": "Vacancy"
+ },
+ "CareerBuilder": {
+  "state": "closed",
+  "note": "refused, closed",
+  "window": "w22",
+  "class": "Vacancy"
+ },
+ "SimplyHired": {
+  "state": "closed",
+  "note": "refused, closed",
+  "window": "w22",
+  "class": "Vacancy"
  }
 }

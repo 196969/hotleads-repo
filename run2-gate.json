@@ -1,0 +1,17 @@
+{
+ "officer_rebuild": "PASSED",
+ "coverage_panel": {
+  "planted_counts": {
+   "unread": 1,
+   "probed": 1,
+   "answering": 1,
+   "refused": 1,
+   "exhausted": 1,
+   "closed": 1
+  },
+  "result": "PASSED",
+  "classes": [
+   "unread / probed / answering / refused with code and count / exhausted / closed"
+  ]
+ }
+}

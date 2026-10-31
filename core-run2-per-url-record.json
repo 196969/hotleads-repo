@@ -1,0 +1,527 @@
+[
+ {
+  "ts": "10:48:19",
+  "source": "probe:FMCSA SAFER",
+  "url": "https://safer.fmcsa.dot.gov",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:48:23",
+  "source": "probe:FMCSA L&I",
+  "url": "https://li-public.fmcsa.dot.gov",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:48:28",
+  "source": "probe:ATA",
+  "url": "https://www.trucking.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:48:34",
+  "source": "probe:Transport Topics",
+  "url": "https://www.ttnews.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:48:40",
+  "source": "probe:FreightWaves",
+  "url": "https://www.freightwaves.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:48:44",
+  "source": "probe:Logistics Management",
+  "url": "https://www.logisticsmgmt.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:48:48",
+  "source": "probe:USDA FSIS directory",
+  "url": "https://www.fsis.usda.gov/inspection/establishments/meat-poultry-and-egg-product-inspection-directory",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:48:55",
+  "source": "probe:Specialty Food Association",
+  "url": "https://www.specialtyfood.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:49:03",
+  "source": "probe:Food Processing",
+  "url": "https://www.foodprocessing.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:49:08",
+  "source": "probe:Food Business News",
+  "url": "https://www.foodbusinessnews.net",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:49:13",
+  "source": "probe:IFDA",
+  "url": "https://www.ifdaonline.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:49:18",
+  "source": "probe:Brewers Association",
+  "url": "https://www.brewersassociation.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:49:22",
+  "source": "probe:Thomasnet",
+  "url": "https://www.thomasnet.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:49:26",
+  "source": "probe:IndustryNet",
+  "url": "https://www.industrynet.com",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "10:49:30",
+  "source": "probe:MFG.com",
+  "url": "https://www.mfg.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:49:34",
+  "source": "probe:Kompass",
+  "url": "https://us.kompass.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:49:38",
+  "source": "probe:MacRAE's Blue Book",
+  "url": "https://www.macraesbluebook.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:49:42",
+  "source": "probe:Manta",
+  "url": "https://www.manta.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:49:47",
+  "source": "probe:NAM",
+  "url": "https://nam.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:49:52",
+  "source": "probe:NAW",
+  "url": "https://www.naw.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:49:58",
+  "source": "probe:ISA",
+  "url": "https://www.isapartners.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:50:03",
+  "source": "probe:MDM",
+  "url": "https://www.mdm.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:50:16",
+  "source": "probe:IndustryWeek",
+  "url": "https://www.industryweek.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:50:21",
+  "source": "probe:AGC chapters",
+  "url": "https://www.agc.org/chapters",
+  "outcome": "refused",
+  "kind": "404"
+ },
+ {
+  "ts": "10:50:26",
+  "source": "probe:ABC chapters",
+  "url": "https://www.abc.org/chapters",
+  "outcome": "refused",
+  "kind": "404"
+ },
+ {
+  "ts": "10:50:30",
+  "source": "probe:ENR",
+  "url": "https://www.enr.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:50:34",
+  "source": "probe:Construction Dive",
+  "url": "https://www.constructiondive.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:50:38",
+  "source": "probe:Chain Store Age",
+  "url": "https://chainstoreage.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:50:42",
+  "source": "probe:Retail Dive",
+  "url": "https://www.retaildive.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:50:49",
+  "source": "probe:ICSC",
+  "url": "https://www.icsc.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:50:57",
+  "source": "probe:IFA",
+  "url": "https://www.franchise.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:02",
+  "source": "probe:IAVM",
+  "url": "https://iavm.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:08",
+  "source": "probe:TSNN",
+  "url": "https://www.tsnn.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:12",
+  "source": "probe:10times",
+  "url": "https://10times.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:51:16",
+  "source": "probe:SAM.gov",
+  "url": "https://sam.gov",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:22",
+  "source": "probe:USAspending",
+  "url": "https://www.usaspending.gov",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:25",
+  "source": "probe:OSHA establishments",
+  "url": "https://www.osha.gov/ords/imis/establishment.html",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:51:30",
+  "source": "probe:EPA ECHO",
+  "url": "https://echo.epa.gov",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:35",
+  "source": "probe:Census CBP",
+  "url": "https://www.census.gov/programs-surveys/cbp.html",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:40",
+  "source": "probe:PACER",
+  "url": "https://pacer.uscourts.gov",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:44",
+  "source": "probe:SBA local assistance",
+  "url": "https://www.sba.gov/local-assistance",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:49",
+  "source": "probe:America's SBDC",
+  "url": "https://americassbdc.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:53",
+  "source": "probe:U.S. Chamber finder",
+  "url": "https://www.uschamber.com/co/chambers",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:51:58",
+  "source": "probe:NMSDC",
+  "url": "https://nmsdc.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:52:03",
+  "source": "probe:WBENC",
+  "url": "https://www.wbenc.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:52:07",
+  "source": "probe:South Florida Business Journal",
+  "url": "https://www.bizjournals.com/southflorida",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:52:10",
+  "source": "probe:Tampa Bay Business Journal",
+  "url": "https://www.bizjournals.com/tampabay",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:52:14",
+  "source": "probe:Orlando Business Journal",
+  "url": "https://www.bizjournals.com/orlando",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:52:19",
+  "source": "probe:Florida Trend",
+  "url": "https://www.floridatrend.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:52:24",
+  "source": "probe:PR Newswire",
+  "url": "https://www.prnewswire.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:52:28",
+  "source": "probe:PR Newswire feeds",
+  "url": "https://www.prnewswire.com/rss/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:52:31",
+  "source": "probe:Business Wire",
+  "url": "https://www.businesswire.com",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "10:52:35",
+  "source": "probe:GlobeNewswire",
+  "url": "https://www.globenewswire.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:52:39",
+  "source": "probe:Google News RSS",
+  "url": "https://news.google.com/rss/search?q=%22Florida%22+company+acquired",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:52:43",
+  "source": "probe:Clutch",
+  "url": "https://clutch.co",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:52:47",
+  "source": "probe:Ad Age",
+  "url": "https://adage.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:52:52",
+  "source": "probe:AMA",
+  "url": "https://www.ama.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:52:57",
+  "source": "probe:Selling Power",
+  "url": "https://www.sellingpower.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:53:00",
+  "source": "probe:Sunbiz",
+  "url": "https://search.sunbiz.org",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:53:05",
+  "source": "probe:Florida DBPR",
+  "url": "https://www.myfloridalicense.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:53:09",
+  "source": "probe:LinkedIn Jobs Florida",
+  "url": "https://www.linkedin.com/jobs/search/?keywords=controller%20OR%20%22director%20of%20operations%22&location=Florida",
+  "outcome": "refused",
+  "kind": "999"
+ },
+ {
+  "ts": "10:53:13",
+  "source": "probe:The Ladders",
+  "url": "https://www.theladders.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:53:18",
+  "source": "probe:U.S. DOL WARN",
+  "url": "https://www.dol.gov/agencies/eta/layoffs/warn",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:53:22",
+  "source": "probe:FloridaCommerce WARN",
+  "url": "https://floridajobs.org/office-directory/division-of-workforce-services/workforce-programs/reemployment-and-emergency-assistance-coordination-team-react/warn-notices",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:53:27",
+  "source": "probe:Florida Chamber",
+  "url": "https://www.flchamber.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:53:32",
+  "source": "probe:SelectFlorida",
+  "url": "https://www.selectflorida.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:53:38",
+  "source": "probe:MAF",
+  "url": "https://www.mafmfg.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:53:43",
+  "source": "probe:FloridaMakes",
+  "url": "https://www.floridamakes.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:53:48",
+  "source": "probe:Florida Trucking",
+  "url": "https://www.fltrucking.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:53:53",
+  "source": "probe:FRLA",
+  "url": "https://www.frla.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:53:57",
+  "source": "probe:HHS breach portal",
+  "url": "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:54:01",
+  "source": "probe:SEC EDGAR 8-K Item 1.05",
+  "url": "https://www.sec.gov/edgar/search/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:54:05",
+  "source": "probe:FBI IC3",
+  "url": "https://www.ic3.gov",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:54:10",
+  "source": "probe:ACFE",
+  "url": "https://www.acfe.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:54:14",
+  "source": "probe:FTC",
+  "url": "https://www.ftc.gov",
+  "outcome": "refused",
+  "kind": "403"
+ }
+]

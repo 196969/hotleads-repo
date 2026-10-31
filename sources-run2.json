@@ -1,0 +1,388 @@
+{
+ "w20": [
+  [
+   "FMCSA SAFER",
+   "https://safer.fmcsa.dot.gov",
+   "Transportation & Logistics"
+  ],
+  [
+   "FMCSA L&I",
+   "https://li-public.fmcsa.dot.gov",
+   "Transportation & Logistics"
+  ],
+  [
+   "ATA",
+   "https://www.trucking.org",
+   "Transportation & Logistics"
+  ],
+  [
+   "Transport Topics",
+   "https://www.ttnews.com",
+   "Transportation & Logistics"
+  ],
+  [
+   "FreightWaves",
+   "https://www.freightwaves.com",
+   "Transportation & Logistics"
+  ],
+  [
+   "Logistics Management",
+   "https://www.logisticsmgmt.com",
+   "Transportation & Logistics"
+  ],
+  [
+   "USDA FSIS directory",
+   "https://www.fsis.usda.gov/inspection/establishments/meat-poultry-and-egg-product-inspection-directory",
+   "Food & Beverage"
+  ],
+  [
+   "Specialty Food Association",
+   "https://www.specialtyfood.com",
+   "Food & Beverage"
+  ],
+  [
+   "Food Processing",
+   "https://www.foodprocessing.com",
+   "Food & Beverage"
+  ],
+  [
+   "Food Business News",
+   "https://www.foodbusinessnews.net",
+   "Food & Beverage"
+  ],
+  [
+   "IFDA",
+   "https://www.ifdaonline.org",
+   "Food & Beverage"
+  ],
+  [
+   "Brewers Association",
+   "https://www.brewersassociation.org",
+   "Food & Beverage"
+  ],
+  [
+   "Thomasnet",
+   "https://www.thomasnet.com",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "IndustryNet",
+   "https://www.industrynet.com",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "MFG.com",
+   "https://www.mfg.com",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "Kompass",
+   "https://us.kompass.com",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "MacRAE's Blue Book",
+   "https://www.macraesbluebook.com",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "Manta",
+   "https://www.manta.com",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "NAM",
+   "https://nam.org",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "NAW",
+   "https://www.naw.org",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "ISA",
+   "https://www.isapartners.org",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "MDM",
+   "https://www.mdm.com",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "IndustryWeek",
+   "https://www.industryweek.com",
+   "Manufacturing / Distribution"
+  ],
+  [
+   "AGC chapters",
+   "https://www.agc.org/chapters",
+   "Construction"
+  ],
+  [
+   "ABC chapters",
+   "https://www.abc.org/chapters",
+   "Construction"
+  ],
+  [
+   "ENR",
+   "https://www.enr.com",
+   "Construction"
+  ],
+  [
+   "Construction Dive",
+   "https://www.constructiondive.com",
+   "Construction"
+  ],
+  [
+   "Chain Store Age",
+   "https://chainstoreage.com",
+   "Retail, Field Ops & Events"
+  ],
+  [
+   "Retail Dive",
+   "https://www.retaildive.com",
+   "Retail, Field Ops & Events"
+  ],
+  [
+   "ICSC",
+   "https://www.icsc.com",
+   "Retail, Field Ops & Events"
+  ],
+  [
+   "IFA",
+   "https://www.franchise.org",
+   "Retail, Field Ops & Events"
+  ],
+  [
+   "IAVM",
+   "https://iavm.org",
+   "Retail, Field Ops & Events"
+  ],
+  [
+   "TSNN",
+   "https://www.tsnn.com",
+   "Retail, Field Ops & Events"
+  ],
+  [
+   "10times",
+   "https://10times.com",
+   "Retail, Field Ops & Events"
+  ],
+  [
+   "SAM.gov",
+   "https://sam.gov",
+   "Government finders"
+  ],
+  [
+   "USAspending",
+   "https://www.usaspending.gov",
+   "Government finders"
+  ],
+  [
+   "OSHA establishments",
+   "https://www.osha.gov/ords/imis/establishment.html",
+   "Government finders"
+  ],
+  [
+   "EPA ECHO",
+   "https://echo.epa.gov",
+   "Government finders"
+  ],
+  [
+   "Census CBP",
+   "https://www.census.gov/programs-surveys/cbp.html",
+   "Government finders"
+  ],
+  [
+   "PACER",
+   "https://pacer.uscourts.gov",
+   "Government finders"
+  ],
+  [
+   "SBA local assistance",
+   "https://www.sba.gov/local-assistance",
+   "Government finders"
+  ],
+  [
+   "America's SBDC",
+   "https://americassbdc.org",
+   "Government finders"
+  ],
+  [
+   "U.S. Chamber finder",
+   "https://www.uschamber.com/co/chambers",
+   "Government finders"
+  ],
+  [
+   "NMSDC",
+   "https://nmsdc.org",
+   "Government finders"
+  ],
+  [
+   "WBENC",
+   "https://www.wbenc.org",
+   "Government finders"
+  ]
+ ],
+ "w21": [
+  [
+   "South Florida Business Journal",
+   "https://www.bizjournals.com/southflorida",
+   "Press"
+  ],
+  [
+   "Tampa Bay Business Journal",
+   "https://www.bizjournals.com/tampabay",
+   "Press"
+  ],
+  [
+   "Orlando Business Journal",
+   "https://www.bizjournals.com/orlando",
+   "Press"
+  ],
+  [
+   "Jacksonville Business Journal",
+   "https://www.bizjournals.com/jacksonville",
+   "Press"
+  ],
+  [
+   "Florida Trend",
+   "https://www.floridatrend.com",
+   "Press"
+  ],
+  [
+   "PR Newswire",
+   "https://www.prnewswire.com",
+   "Press"
+  ],
+  [
+   "PR Newswire feeds",
+   "https://www.prnewswire.com/rss/",
+   "Press"
+  ],
+  [
+   "Business Wire",
+   "https://www.businesswire.com",
+   "Press"
+  ],
+  [
+   "GlobeNewswire",
+   "https://www.globenewswire.com",
+   "Press"
+  ],
+  [
+   "Google News RSS",
+   "https://news.google.com/rss/search?q=%22Florida%22+company+acquired",
+   "Press"
+  ],
+  [
+   "Clutch",
+   "https://clutch.co",
+   "Brand / Marketing / Sales"
+  ],
+  [
+   "Ad Age",
+   "https://adage.com",
+   "Brand / Marketing / Sales"
+  ],
+  [
+   "AMA",
+   "https://www.ama.org",
+   "Brand / Marketing / Sales"
+  ],
+  [
+   "Selling Power",
+   "https://www.sellingpower.com",
+   "Brand / Marketing / Sales"
+  ]
+ ],
+ "w22": [
+  [
+   "Sunbiz",
+   "https://search.sunbiz.org",
+   "Registry"
+  ],
+  [
+   "Florida DBPR",
+   "https://www.myfloridalicense.com",
+   "Registry"
+  ],
+  [
+   "LinkedIn Jobs Florida",
+   "https://www.linkedin.com/jobs/search/?keywords=controller%20OR%20%22director%20of%20operations%22&location=Florida",
+   "Vacancy"
+  ],
+  [
+   "The Ladders",
+   "https://www.theladders.com",
+   "Vacancy"
+  ],
+  [
+   "U.S. DOL WARN",
+   "https://www.dol.gov/agencies/eta/layoffs/warn",
+   "Vacancy"
+  ],
+  [
+   "FloridaCommerce WARN",
+   "https://floridajobs.org/office-directory/division-of-workforce-services/workforce-programs/reemployment-and-emergency-assistance-coordination-team-react/warn-notices",
+   "Vacancy"
+  ],
+  [
+   "Florida Chamber",
+   "https://www.flchamber.com",
+   "Associations & ED"
+  ],
+  [
+   "SelectFlorida",
+   "https://www.selectflorida.org",
+   "Associations & ED"
+  ],
+  [
+   "MAF",
+   "https://www.mafmfg.com",
+   "Associations & ED"
+  ],
+  [
+   "FloridaMakes",
+   "https://www.floridamakes.com",
+   "Associations & ED"
+  ],
+  [
+   "Florida Trucking",
+   "https://www.fltrucking.org",
+   "Associations & ED"
+  ],
+  [
+   "FRLA",
+   "https://www.frla.org",
+   "Associations & ED"
+  ],
+  [
+   "HHS breach portal",
+   "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf",
+   "Fraud control"
+  ],
+  [
+   "SEC EDGAR 8-K Item 1.05",
+   "https://www.sec.gov/edgar/search/",
+   "Fraud control"
+  ],
+  [
+   "FBI IC3",
+   "https://www.ic3.gov",
+   "Fraud control"
+  ],
+  [
+   "ACFE",
+   "https://www.acfe.com",
+   "Fraud control"
+  ],
+  [
+   "FTC",
+   "https://www.ftc.gov",
+   "Fraud control"
+  ]
+ ]
+}

@@ -1214,6 +1214,28 @@
     "Lemonis": "process: the roster reader built from the live card form before Sun Capital was read",
     "Nadella": "the corrections in 0.2 applied from the census, not the brief"
    }
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run two",
+   "fault": "61 rebuilt",
+   "note": "officer.py binds an officer to a company only by one clause’s grammar (subject, title’s object, possessor); proved on six planted cases including the TrakAmerica run-on page; the first attempt failed 5 of 6 (a title-case name split by the headline cut) and was revised before any read"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run two",
+   "fault": "reading",
+   "note": "no window-20 source showed the roster shape: 0 of 45 carried ten or more Florida cities on the page read; 17 of 45 refused (mostly 403); the answering ones are publications, association front pages or login walls"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run two",
+   "seats": {
+    "O’Leary": "window-19 marketplaces, H.I.G., Comvest and the five vacancy sites not re-probed; 100 candidate reads left unspent because no source produced a candidate",
+    "Lemonis": "process: the coverage panel built from the file the runs already write, so it shows what was measured",
+    "Nadella": "Jacksonville Business Journal recorded unread under the host closure, not counted as read",
+    "Cuban": "out-prepare: every declared window-20–22 source probed once on its live form, end state recorded"
+   }
   }
  ]
 }

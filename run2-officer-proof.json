@@ -1,0 +1,49 @@
+{
+ "rebuilt": "officer.py: bound by one clause’s grammar (S1 subject, S2 title’s object, S3 possessive); a company span is a run of capitalised words joined only by &, of, and; clauses cut at stops, bars, a body word followed by a new title-case run, and 40 words",
+ "first_attempt": "FAILED 5 of 6: the headline-join cut split a title-case name (“Alpha | Foundations General Manager…”); revised and re-proved",
+ "cases": [
+  {
+   "case": "TrakAmerica (Millennium run-on page)",
+   "got": null,
+   "expected": null,
+   "pass": true
+  },
+  {
+   "case": "STS: the title’s object",
+   "got": "Mark Smith",
+   "expected": "Mark Smith",
+   "pass": true
+  },
+  {
+   "case": "HN1: the clause’s subject",
+   "got": "Heyward Donigan",
+   "expected": "Heyward Donigan",
+   "pass": true
+  },
+  {
+   "case": "no sentence breaks, two companies",
+   "got": null,
+   "expected": null,
+   "pass": true
+  },
+  {
+   "case": "possessive frame",
+   "got": "Nick Blasco",
+   "expected": "Nick Blasco",
+   "pass": true
+  },
+  {
+   "case": "title fragment",
+   "got": null,
+   "expected": null,
+   "pass": true
+  }
+ ],
+ "classes": [
+  "a run-on page with no sentence breaks / a clean sentence",
+  "the company as subject / as object / as possessor",
+  "another company’s officer in the same span",
+  "a title fragment"
+ ],
+ "result": "PASSED"
+}
