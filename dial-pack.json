@@ -348,7 +348,7 @@
    "email": "info@mdist.us (role inbox)",
    "practice": "None (fit by tier)",
    "signal": "Blind",
-   "reason": "Tier A · owner-led, named decision maker on the row",
+   "reason": "Tier A · owner-led, named decision maker on the row · SAME COMPANY ALSO IN florida-expansion.html row 14",
    "rank": 27
   },
   {
@@ -653,6 +653,19 @@
   {
    "verified_callable": false,
    "tier": "A",
+   "company": "Martinez Distributors",
+   "city": "Doral",
+   "decision_maker": "Fabian Martinez, President (legal officer, Florida register)",
+   "phone": "305-882-8282",
+   "email": "—",
+   "practice": "None (fit by tier)",
+   "signal": "Blind",
+   "reason": "Tier A · owner-led, named decision maker on the row · SAME COMPANY ALSO IN florida.html row 7",
+   "rank": 51
+  },
+  {
+   "verified_callable": false,
+   "tier": "A",
    "company": "Trans-Phos",
    "city": "Mulberry",
    "decision_maker": "Neil Whitney, President; Bill Whitney, CEO",
@@ -661,7 +674,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 51
+   "rank": 52
   },
   {
    "verified_callable": false,
@@ -674,7 +687,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 52
+   "rank": 53
   },
   {
    "verified_callable": false,
@@ -687,7 +700,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 53
+   "rank": 54
   },
   {
    "verified_callable": false,
@@ -700,7 +713,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 54
+   "rank": 55
   },
   {
    "verified_callable": false,
@@ -713,7 +726,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 55
+   "rank": 56
   },
   {
    "verified_callable": false,
@@ -726,7 +739,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 56
+   "rank": 57
   },
   {
    "verified_callable": false,
@@ -739,7 +752,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier A · owner-led, named decision maker on the row",
-   "rank": 57
+   "rank": 58
   },
   {
    "verified_callable": false,
@@ -752,7 +765,7 @@
    "practice": "Acquisitions",
    "signal": "2021-12-17",
    "reason": "Tier Unverified · Acquisitions · dated signal 2021-12-17",
-   "rank": 58
+   "rank": 59
   },
   {
    "verified_callable": false,
@@ -765,7 +778,7 @@
    "practice": "Fractionals",
    "signal": "2021-10-18",
    "reason": "Tier Unverified · Fractionals · dated signal 2021-10-18",
-   "rank": 59
+   "rank": 60
   },
   {
    "verified_callable": false,
@@ -778,7 +791,7 @@
    "practice": "Fractionals",
    "signal": "2026-08-26",
    "reason": "Tier Unverified · Fractionals · dated signal 2026-08-26",
-   "rank": 60
+   "rank": 61
   },
   {
    "verified_callable": false,
@@ -791,7 +804,7 @@
    "practice": "Acquisitions",
    "signal": "2026-09-02",
    "reason": "Tier Unverified · Acquisitions · dated signal 2026-09-02",
-   "rank": 61
+   "rank": 62
   },
   {
    "verified_callable": false,
@@ -804,7 +817,7 @@
    "practice": "Acquisitions",
    "signal": "2025-01-08",
    "reason": "Tier Unverified · Acquisitions · dated signal 2025-01-08",
-   "rank": 62
+   "rank": 63
   },
   {
    "verified_callable": false,
@@ -817,7 +830,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 63
+   "rank": 64
   },
   {
    "verified_callable": false,
@@ -830,7 +843,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 64
+   "rank": 65
   },
   {
    "verified_callable": false,
@@ -843,7 +856,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 65
+   "rank": 66
   },
   {
    "verified_callable": false,
@@ -856,7 +869,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 66
+   "rank": 67
   },
   {
    "verified_callable": false,
@@ -869,7 +882,7 @@
    "practice": "Acquisitions",
    "signal": "Blind",
    "reason": "Tier B · Acquisitions · owner-led, named decision maker on the row",
-   "rank": 67
+   "rank": 68
   },
   {
    "verified_callable": false,
@@ -882,7 +895,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 68
+   "rank": 69
   },
   {
    "verified_callable": false,
@@ -895,7 +908,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 69
+   "rank": 70
   },
   {
    "verified_callable": false,
@@ -908,7 +921,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 70
+   "rank": 71
   },
   {
    "verified_callable": false,
@@ -921,7 +934,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 71
+   "rank": 72
   },
   {
    "verified_callable": false,
@@ -934,7 +947,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 72
+   "rank": 73
   },
   {
    "verified_callable": false,
@@ -947,7 +960,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 73
+   "rank": 74
   },
   {
    "verified_callable": false,
@@ -960,7 +973,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 74
+   "rank": 75
   },
   {
    "verified_callable": false,
@@ -973,7 +986,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 75
+   "rank": 76
   },
   {
    "verified_callable": false,
@@ -985,8 +998,8 @@
    "email": "info@correctcraft.com (role inbox)",
    "practice": "Acquisitions",
    "signal": "Blind",
-   "reason": "Tier B · Acquisitions · owner-led, named decision maker on the row",
-   "rank": 76
+   "reason": "Tier B · Acquisitions · owner-led, named decision maker on the row · SAME COMPANY ALSO IN florida-expansion.html row 30",
+   "rank": 77
   },
   {
    "verified_callable": false,
@@ -999,7 +1012,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 77
+   "rank": 78
   },
   {
    "verified_callable": false,
@@ -1012,7 +1025,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 78
+   "rank": 79
   },
   {
    "verified_callable": false,
@@ -1025,7 +1038,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 79
+   "rank": 80
   },
   {
    "verified_callable": false,
@@ -1038,7 +1051,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 80
+   "rank": 81
   },
   {
    "verified_callable": false,
@@ -1051,7 +1064,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 81
+   "rank": 82
   },
   {
    "verified_callable": false,
@@ -1064,7 +1077,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 82
+   "rank": 83
   },
   {
    "verified_callable": false,
@@ -1077,7 +1090,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 83
+   "rank": 84
   },
   {
    "verified_callable": false,
@@ -1090,7 +1103,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 84
+   "rank": 85
   },
   {
    "verified_callable": false,
@@ -1103,7 +1116,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 85
+   "rank": 86
   },
   {
    "verified_callable": false,
@@ -1116,7 +1129,7 @@
    "practice": "Private Equity",
    "signal": "Blind",
    "reason": "Tier B · Private Equity · owner-led, named decision maker on the row",
-   "rank": 86
+   "rank": 87
   },
   {
    "verified_callable": false,
@@ -1129,7 +1142,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 87
+   "rank": 88
   },
   {
    "verified_callable": false,
@@ -1142,7 +1155,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 88
+   "rank": 89
   },
   {
    "verified_callable": false,
@@ -1155,7 +1168,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 89
+   "rank": 90
   },
   {
    "verified_callable": false,
@@ -1168,7 +1181,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 90
+   "rank": 91
   },
   {
    "verified_callable": false,
@@ -1181,7 +1194,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 91
+   "rank": 92
   },
   {
    "verified_callable": false,
@@ -1194,7 +1207,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 92
+   "rank": 93
   },
   {
    "verified_callable": false,
@@ -1207,7 +1220,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 93
+   "rank": 94
   },
   {
    "verified_callable": false,
@@ -1220,7 +1233,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 94
+   "rank": 95
   },
   {
    "verified_callable": false,
@@ -1233,7 +1246,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 95
+   "rank": 96
   },
   {
    "verified_callable": false,
@@ -1246,7 +1259,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 96
+   "rank": 97
   },
   {
    "verified_callable": false,
@@ -1259,7 +1272,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 97
+   "rank": 98
   },
   {
    "verified_callable": false,
@@ -1272,7 +1285,7 @@
    "practice": "Acquisitions",
    "signal": "Blind",
    "reason": "Tier B · Acquisitions · owner-led, named decision maker on the row",
-   "rank": 98
+   "rank": 99
   }
  ],
  "partial": [
@@ -1305,13 +1318,6 @@
    "tier": "B"
   },
   {
-   "company": "Martinez Distributors",
-   "kind": "ask for the name",
-   "number": "305-882-8282",
-   "question": "“Who owns or runs the business day to day — and what is the best way to reach them?”",
-   "tier": "A"
-  },
-  {
    "company": "The Father's Table",
    "kind": "ask for the name",
    "number": "407-324-1200",
@@ -1332,5 +1338,33 @@
    "question": "Reach the named decision maker through the main line once a number is published",
    "tier": "Unverified"
   }
- ]
+ ],
+ "counts_rows_companies": {
+  "rows": [
+   200,
+   197
+  ],
+  "dialable": [
+   115,
+   114
+  ],
+  "call_ready": [
+   99,
+   98
+  ],
+  "verified_callable": [
+   25,
+   25
+  ],
+  "tier_C": [
+   85,
+   84
+  ]
+ },
+ "address_split": {
+  "role inbox": 31,
+  "other address": 12,
+  "named": 2
+ },
+ "measured_shut": 9
 }

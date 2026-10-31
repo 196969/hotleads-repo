@@ -1,0 +1,136 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Florida overlap and close (brief): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Florida overlap and close (delivered): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "gate": "the amended set equals live at head 0e69887 (florida.html, florida-expansion.html, florida-standard.json byte-for-byte); discipline, not a hook",
+  "reads": 0
+ },
+ "overlap": {
+  "method": "name core and city across florida.html and florida-expansion.html (main and intake); the expansion file carries no address column, so city is the address field both share",
+  "pairs": [
+   {
+    "name": "CHENEY BROTHERS",
+    "rows": [
+     {
+      "file": "florida.html",
+      "row": "4",
+      "company": "Cheney Brothers",
+      "city": "Riviera Beach",
+      "tier": "C",
+      "status": "Downgraded",
+      "address": ""
+     },
+     {
+      "file": "florida-expansion.html (main)",
+      "row": "16",
+      "company": "Cheney Brothers",
+      "city": "Riviera Beach",
+      "tier": "C",
+      "status": "Downgraded",
+      "address": ""
+     }
+    ],
+    "same_city": true
+   },
+   {
+    "name": "MARTINEZ DISTRIBUTORS",
+    "rows": [
+     {
+      "file": "florida.html",
+      "row": "7",
+      "company": "Martinez Distributors",
+      "city": "Doral",
+      "tier": "A",
+      "status": "Verified",
+      "address": ""
+     },
+     {
+      "file": "florida-expansion.html (main)",
+      "row": "14",
+      "company": "Martinez Distributors",
+      "city": "Doral",
+      "tier": "A",
+      "status": "Verified",
+      "address": ""
+     }
+    ],
+    "same_city": true
+   },
+   {
+    "name": "CORRECT CRAFT",
+    "rows": [
+     {
+      "file": "florida.html",
+      "row": "62",
+      "company": "Correct Craft (Nautique)",
+      "city": "Orlando",
+      "tier": "B",
+      "status": "Downgraded",
+      "address": ""
+     },
+     {
+      "file": "florida-expansion.html (main)",
+      "row": "30",
+      "company": "Correct Craft (Nautique)",
+      "city": "Orlando",
+      "tier": "C",
+      "status": "Downgraded",
+      "address": ""
+     }
+    ],
+    "same_city": true
+   }
+  ],
+  "repeats_inside_one_file": 0
+ },
+ "florida_restated": {
+  "rows": "200 rows / 197 companies",
+  "dialable": "115 rows / 114 companies",
+  "call_ready": "99 rows / 98 companies",
+  "verified_callable": "25 rows / 25 companies",
+  "tier_C": "85 rows / 84 companies"
+ },
+ "partial": 7,
+ "measured_shut": 9,
+ "address_split_rows": {
+  "role inbox": 31,
+  "other address": 12,
+  "named": 2
+ },
+ "dial_pack": "Florida-Dial-Pack.docx regenerated once on the final bytes: 99 rows across 98 companies on the cover with the lineage; both Martinez rows name their twin; BlueGrace Logistics carries its released Private Equity wording. Exactech, Fanatics (Jax ops) and Mac Papers + Packaging are Tier C, so they are not call-ready and are not in the pack; their Private Equity wording is on their rows",
+ "carried": [
+  "the two derived views (the files do not name which two)",
+  "the console filter’s unwritten data-practice attribute",
+  "Illinois and Chicago at the access line"
+ ]
+}

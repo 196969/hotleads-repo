@@ -1332,6 +1332,15 @@
   {
    "date": "2026-10-31",
    "ruling": "route: Florida is a phone market (2 named against 31 role inboxes across 98); written beside the access line"
+  },
+  {
+   "date": "2026-10-31",
+   "beside": "fault 66",
+   "control": "the wrong-row write was caught by a recount that did not move when it should have: a figure that fails to change is evidence, as a figure that changes without cause is. The control was the recount, not an inspection"
+  },
+  {
+   "date": "2026-10-31",
+   "finding": "the first self-overlap check run in any market: florida.html × florida-expansion.html, three pairs (Cheney Brothers, Martinez Distributors, Correct Craft); reported, nothing merged"
   }
  ]
 }

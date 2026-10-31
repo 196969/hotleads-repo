@@ -7486,7 +7486,9 @@
   "officers": "an officer binds to a company by one clause’s grammar, never by span",
   "portfolio_band": "a Private Equity row is not capped at $25M: the counterparty is the sponsor; the qualifier is the sponsor relationship and the operating problem. The $25M band governs Fractionals and Acquisitions, where the owner is the buyer (ruled 2026-10-31)",
   "route": "Florida is a phone market: 2 named addresses against 31 role inboxes across 98 call-ready rows; email follows a connected call (measured 2026-10-31)",
-  "two_addresses": "a register address and a row city that differ are both recorded, each labelled by what it is; neither overwrites the other (ruled 2026-10-31)"
+  "two_addresses": "a register address and a row city that differ are both recorded, each labelled by what it is; neither overwrites the other (ruled 2026-10-31)",
+  "rows_or_companies": "every count states whether it is rows or companies; a figure given without that distinction is incomplete, not merely imprecise (standing rule, all 27 markets, 2026-10-31)",
+  "self_overlap": "every market’s working file is matched against its own expansion file on name and address before its figures are stated; pairs are reported, never merged or deleted on the build’s judgement (proved on Florida, 2026-10-31)"
  },
  "florida_close": {
   "date": "2026-10-31",
@@ -7541,6 +7543,33 @@
    }
   },
   "completion_cost": "run three: 87 reads, 13 completions, 6.7 reads each",
-  "call_ready_lineage": "93 benchmark + 2 (2A register) + 3 (queue, zero reads) = 98; + 1 (Martinez Distributors’ expansion row, filled by the two-address ruling of 2026-10-31) = 99 rows. Martinez Distributors sits in both florida.html and florida-expansion.html, so 99 call-ready rows are 98 distinct companies; the duplicate is recorded, not merged"
+  "call_ready_lineage": "93 + 2 (register) + 3 (queue) + 1 (Martinez expansion row) = 99 call-ready rows across 98 distinct companies",
+  "rows_and_companies": {
+   "rows": {
+    "rows": 200,
+    "companies": 197
+   },
+   "dialable": {
+    "rows": 115,
+    "companies": 114
+   },
+   "call_ready": {
+    "rows": 99,
+    "companies": 98
+   },
+   "verified_callable": {
+    "rows": 25,
+    "companies": 25
+   },
+   "tier_C": {
+    "rows": 85,
+    "companies": 84
+   }
+  },
+  "self_overlap_pairs": [
+   "CHENEY BROTHERS",
+   "MARTINEZ DISTRIBUTORS",
+   "CORRECT CRAFT"
+  ]
  }
 }

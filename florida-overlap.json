@@ -1,0 +1,77 @@
+{
+ "pairs_across_working_and_expansion": [
+  {
+   "name": "CHENEY BROTHERS",
+   "rows": [
+    {
+     "file": "florida.html",
+     "row": "4",
+     "company": "Cheney Brothers",
+     "city": "Riviera Beach",
+     "tier": "C",
+     "status": "Downgraded",
+     "address": ""
+    },
+    {
+     "file": "florida-expansion.html (main)",
+     "row": "16",
+     "company": "Cheney Brothers",
+     "city": "Riviera Beach",
+     "tier": "C",
+     "status": "Downgraded",
+     "address": ""
+    }
+   ],
+   "same_city": true
+  },
+  {
+   "name": "MARTINEZ DISTRIBUTORS",
+   "rows": [
+    {
+     "file": "florida.html",
+     "row": "7",
+     "company": "Martinez Distributors",
+     "city": "Doral",
+     "tier": "A",
+     "status": "Verified",
+     "address": ""
+    },
+    {
+     "file": "florida-expansion.html (main)",
+     "row": "14",
+     "company": "Martinez Distributors",
+     "city": "Doral",
+     "tier": "A",
+     "status": "Verified",
+     "address": ""
+    }
+   ],
+   "same_city": true
+  },
+  {
+   "name": "CORRECT CRAFT",
+   "rows": [
+    {
+     "file": "florida.html",
+     "row": "62",
+     "company": "Correct Craft (Nautique)",
+     "city": "Orlando",
+     "tier": "B",
+     "status": "Downgraded",
+     "address": ""
+    },
+    {
+     "file": "florida-expansion.html (main)",
+     "row": "30",
+     "company": "Correct Craft (Nautique)",
+     "city": "Orlando",
+     "tier": "C",
+     "status": "Downgraded",
+     "address": ""
+    }
+   ],
+   "same_city": true
+  }
+ ],
+ "repeats_within_one_file": []
+}
