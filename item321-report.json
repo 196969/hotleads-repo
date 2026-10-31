@@ -1,0 +1,312 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Item 321 Illinois register ingest (brief): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Item 321 Illinois register ingest (delivered): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "gate": "fresh clone at head 5f6f98e; discipline, not a hook",
+  "reads": 0,
+  "ilsos_fetches": 0
+ },
+ "layouts": {
+  "corp": "proc_corp_data.pdf v004: Master 160 (president 41–100, secretary 101–160, status 30–31), Name 197, Agent 164, Annual Report 126, Other 119 stated / 127 by its own field table; key: file number 1–8",
+  "llc": "proc_llc_data.pdf v004: Master 136 (status 15–16, records-office city 89–118), Name 128, Agent 164, Annual Report 74, Manager 163 (name 9–68, city 114–143, filed 155–162, type 163), Assumed 281; key: file number 1–8",
+  "proved": "every file’s header and trailer read; trailer counts equal body lines in all eleven (Corporations 1,988,904 each; LLC 1,517,079 each; Managers 2,138,390; Assumed 112,196); fixed-length files match the layout; Master and Name lines are right-trimmed and padded back to layout length",
+  "not_defined": [
+   "a separate person-name field for corporation officers (name and address share one field)",
+   "an entity city for corporations"
+  ]
+ },
+ "join": {
+  "name_records": {
+   "corp": 1988904,
+   "llc": 1517079
+  },
+  "market_name_cores": 482,
+  "cores_found": 301,
+  "candidate_records": 408,
+  "masters_joined": "312 of 312 corporations, 96 of 96 LLCs; 95 LLCs with manager records (216)",
+  "dropped": "none at the file-number join; rows dropped at the decision step are counted under not reached"
+ },
+ "three_numbers": {
+  "filled": {
+   "Illinois": [
+    119,
+    112
+   ],
+   "Chicago": [
+    57,
+    56
+   ]
+  },
+  "not_reached": {
+   "Illinois": [
+    114,
+    111
+   ],
+   "Chicago": [
+    89,
+    88
+   ],
+   "reasons": {
+    "the register names this company only as inactive entities": 39,
+    "no register record carries this name": 137,
+    "the LLC’s managers and members are entities, not people": 20,
+    "the president field names no person": 5,
+    "2 active register entities share this name and the city does not separate them": 1,
+    "3 active register entities share this name and the city does not separate them": 1
+   }
+  },
+  "reads_not_spent": {
+   "Illinois_alternative": "a per-row route is prohibited in Illinois, so the alternative was not reads but at least 379 prohibited fetches (one per row with no decision maker)",
+   "at_floor": "528 reads: 176 fills at Florida’s 3.0 reads per decision-maker row",
+   "at_measured_yield": "about 5,280 reads: Florida’s per-row route found one decision maker per 30 reads",
+   "texas_line": "a bulk state saved ~5,280 reads at measured yield on 176 fills, 528 at floor"
+  }
+ },
+ "no_dm_base": {
+  "brief": {
+   "Illinois": 240,
+   "Chicago": 170
+  },
+  "re_derived": "the 240 and 170 reproduce on live bytes with the title test as it stood before the Florida pass, placeholders included (7 Illinois, 22 Chicago open-slot rows); with the widened title test and placeholders excluded the base is 233 and 146",
+  "becomes": {
+   "Illinois": "114 rows / 111 companies still without a named decision maker",
+   "Chicago": "89 rows / 88 companies"
+  }
+ },
+ "collisions": [
+  {
+   "market": "Illinois",
+   "company": "Dot Foods",
+   "row_dm": "Dick Tracy, CEO Tracy family (2nd/3rd gen)",
+   "register": "GEORGE H. EVERSMAN 1 DOT WAY, MT. STERLING, IL 62353"
+  },
+  {
+   "market": "Illinois",
+   "company": "Peoria Charter Coach Company",
+   "row_dm": "William Winkler, Owner Winkler family (4th gen)",
+   "register": "JAMES WANG 1810 AUTUMN RIDGE URBANA IL 61802"
+  },
+  {
+   "market": "Chicago",
+   "company": "Power Construction",
+   "row_dm": "Jeff Geier President & CEO, partner (management-owned firm)",
+   "register": "PATRICK DUGGAN"
+  },
+  {
+   "market": "Chicago",
+   "company": "Clayco",
+   "row_dm": "Bob Clark Founder & Executive Chairman, majority owner; Anthony Johnson, CEO (si",
+   "register": "RYAN M. MCGIRE 8590 NATIONAL BLVD. CULVER CITY, CA 90232"
+  },
+  {
+   "market": "Chicago",
+   "company": "Wight & Company",
+   "row_dm": "Mark Wight Chairman & CEO (3rd generation: Col. Raulin Wight 1939 → Sonny Wight ",
+   "register": "PATRICK CERMAK 2500 N. FRONTAGE ROAD DARIEN, IL 60561"
+  },
+  {
+   "market": "Chicago",
+   "company": "Legat Architects",
+   "row_dm": "Jeff Sandberg President & CEO (since Jan 2025); employee-owned firm",
+   "register": "JEFFERY K SANDBERY 1515 5TH AVE STE 108 MOLINE IL 61265"
+  },
+  {
+   "market": "Chicago",
+   "company": "Forest City Gear",
+   "row_dm": "Kika Young President (3rd gen, since 2022); ownership shared with sisters Appy M",
+   "register": "KRYSTA C. RISA, 11715 MAIN STREET, ROSCOE, IL  61073"
+  },
+  {
+   "market": "Chicago",
+   "company": "Midwest Orthopaedics at Rush",
+   "row_dm": "Dr. Brian Cole, Managing Partner Physician-owned; division of OrthoMidwest (aggr",
+   "register": "CRAIG DELLA VALLE"
+  },
+  {
+   "market": "Chicago",
+   "company": "Illinois Bone & Joint Institute",
+   "row_dm": "Andre Blom CEO — largest independent physician-OWNED ortho practice in Illinois",
+   "register": "DR. CRAIG WILLIAMS"
+  },
+  {
+   "market": "Chicago",
+   "company": "Gurtz Electric",
+   "row_dm": "Frank Gurtz Owner & CEO (3rd gen, President since 2002); Mallory Gurtz, COO (4th",
+   "register": "BRIAN KARLOW 77 W SEEGERS ARLINGTON HEIGHTS, IL 60005"
+  },
+  {
+   "market": "Chicago",
+   "company": "F.E. Moran",
+   "row_dm": "Brian Moran CEO & 3rd-gen owner (F.E. → Owen → Brian) — F.E. Moran Group of Comp",
+   "register": "GAVIN HANSEN 1610 CASSANDRA LN, MCHENRY IL 60051"
+  },
+  {
+   "market": "Chicago",
+   "company": "Marquette Management",
+   "row_dm": "Jim Cunningham Partner & President, Marquette Management (Feb 2025; COO 2011–202",
+   "register": "NICHOLAS M RYAN  135 WATER STNAPERVILLE  60540"
+  },
+  {
+   "market": "Chicago",
+   "company": "Essex Realty Group",
+   "row_dm": "Doug Imber Founder & Principal (since 1990, owner); Brian Kochendorfer, Presiden",
+   "register": "JAMES DARROW"
+  },
+  {
+   "market": "Chicago",
+   "company": "Baum Realty Group",
+   "row_dm": "David Baum & Douglas Baum Brothers, co-founders & principal owners — Baum Realty",
+   "register": "DEMETRIOU, MICHAEL"
+  },
+  {
+   "market": "Chicago",
+   "company": "Alliance Shippers",
+   "row_dm": "Steven Golich President & CEO (based Orland Park, IL) — per company's own Aug-20",
+   "register": "HESSEL VERHAGE 840 CRESCENT CENTRE DR #260 FRANKLIN TN 37067"
+  },
+  {
+   "market": "Chicago",
+   "company": "Currie Motors",
+   "row_dm": "Currie family 3rd-generation family-owned, 60+ years — principal name not publis",
+   "register": "GLENN PITZER 8401 W. ROSEVELTRD FOREST PARK IL 60130"
+  },
+  {
+   "market": "Chicago",
+   "company": "Joe Cotton Ford",
+   "row_dm": "Pam Cotton Conn Owner, 2nd gen; Paul Cotton GM — family-owned since 1974 (founde",
+   "register": "JOHN LEFEVOUR 11400 S PULASKIRD CHICAGO IL 60655"
+  },
+  {
+   "market": "Chicago",
+   "company": "Azteca Foods, Inc.",
+   "row_dm": "Art Velasquez, Owner Velasquez family (2nd gen)",
+   "register": "RENEE TOGHER 5005 S NAGLE AVECHICAGO IL 60638"
+  }
+ ],
+ "restated": {
+  "before": {
+   "illinois": {
+    "all": [
+     243,
+     229
+    ],
+    "dialable": [
+     190,
+     185
+    ],
+    "call_ready": [
+     3,
+     3
+    ],
+    "verified_callable": [
+     0,
+     0
+    ],
+    "tier_C": [
+     53,
+     44
+    ]
+   },
+   "chicago": {
+    "all": [
+     266,
+     260
+    ],
+    "dialable": [
+     156,
+     152
+    ],
+    "call_ready": [
+     68,
+     67
+    ],
+    "verified_callable": [
+     0,
+     0
+    ],
+    "tier_C": [
+     110,
+     109
+    ]
+   }
+  },
+  "after": {
+   "illinois": {
+    "all": [
+     243,
+     229
+    ],
+    "dialable": [
+     190,
+     185
+    ],
+    "call_ready": [
+     22,
+     22
+    ],
+    "verified_callable": [
+     0,
+     0
+    ],
+    "tier_C": [
+     53,
+     44
+    ]
+   },
+   "chicago": {
+    "all": [
+     266,
+     260
+    ],
+    "dialable": [
+     156,
+     152
+    ],
+    "call_ready": [
+     78,
+     76
+    ],
+    "verified_callable": [
+     0,
+     0
+    ],
+    "tier_C": [
+     110,
+     109
+    ]
+   }
+  },
+  "note": "Chicago call-ready after excludes ABT Electronics, whose contact is dated only by the register line"
+ },
+ "validator": "passed on all four files before any figure was stated"
+}

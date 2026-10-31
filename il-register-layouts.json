@@ -1,0 +1,9 @@
+{
+ "corp": "proc_corp_data.pdf v004: Master 160 (president 41\u2013100, secretary 101\u2013160, status 30\u201331), Name 197, Agent 164, Annual Report 126, Other 119 stated / 127 by its own field table; key: file number 1\u20138",
+ "llc": "proc_llc_data.pdf v004: Master 136 (status 15\u201316, records-office city 89\u2013118), Name 128, Agent 164, Annual Report 74, Manager 163 (name 9\u201368, city 114\u2013143, filed 155\u2013162, type 163), Assumed 281; key: file number 1\u20138",
+ "proved": "every file\u2019s header and trailer read; trailer counts equal body lines in all eleven (Corporations 1,988,904 each; LLC 1,517,079 each; Managers 2,138,390; Assumed 112,196); fixed-length files match the layout; Master and Name lines are right-trimmed and padded back to layout length",
+ "not_defined": [
+  "a separate person-name field for corporation officers (name and address share one field)",
+  "an entity city for corporations"
+ ]
+}

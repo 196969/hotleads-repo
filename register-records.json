@@ -1,0 +1,4254 @@
+{
+ "corp": {
+  "02543826": {
+   "status": "00",
+   "type": "6",
+   "pres": "JUAN LUCIANO  4666 FARIES PKWY DECATUR IL 62526",
+   "sec": "REGINA JONES  4666 FARIES PKWY DECATUR IL 62526",
+   "trans": "00000000"
+  },
+  "04316622": {
+   "status": "06",
+   "type": "6",
+   "pres": "ROBERT A CORNOG  2801-80TH ST  KENOSHA WI 53140",
+   "sec": "WITHDRAWN               08 20 96",
+   "trans": "00000000"
+  },
+  "05221901": {
+   "status": "07",
+   "type": "6",
+   "pres": "MICHAEL H JOYCE  1328 RACINE STREET  RACINE WI 53403",
+   "sec": "REVOKED          02 09 07",
+   "trans": "00000000"
+  },
+  "06235093": {
+   "status": "00",
+   "type": "4",
+   "pres": "HAROLD W. KNAPHIEDE IV 1848 WESTPHALIA STRASSE POB 7140",
+   "sec": "JEFFERY A SCHWANKE 1848 WESTPHALIA STRASSE POB 7140 QUINCY",
+   "trans": "00000000"
+  },
+  "07079818": {
+   "status": "00",
+   "type": "6",
+   "pres": "CHRISTOPHER BALDWIN 1375 PARK AVE SYCAMORE IL 60178",
+   "sec": "JEFFREY LIEBLING  1375 PARK AVE.  SYCAMORE, IL  60178",
+   "trans": "00000000"
+  },
+  "07222939": {
+   "status": "06",
+   "type": "6",
+   "pres": "WILLIAM T. DIVANE JR 1022 INDIAN HILLS RD, FONTANA, WI 53125",
+   "sec": "WITHDRAWN               11 27 24",
+   "trans": "00000000"
+  },
+  "07661274": {
+   "status": "00",
+   "type": "6",
+   "pres": "JAMES B MEEK 1505 SUSSEX CT CHAMPAIGN, IL  61821",
+   "sec": "JOHN B MEEK  1914 HACKBERRY RD  BLOOMINGTON IL  61704",
+   "trans": "00000000"
+  },
+  "08802114": {
+   "status": "00",
+   "type": "6",
+   "pres": "JOSEPH M KULEK 8 THE ELMS SPRINGFIELD IL 62712",
+   "sec": "BRIAN K VOGT 21 APPLE LOOP PETERSBURG IL 62675",
+   "trans": "00000000"
+  },
+  "08983518": {
+   "status": "00",
+   "type": "4",
+   "pres": "SEAN CAIN  252 W ADAMS ST MORTON IL 61550",
+   "sec": "NICK VENTURI  SAME",
+   "trans": "00000000"
+  },
+  "09005684": {
+   "status": "00",
+   "type": "4",
+   "pres": "CHARLES C ELLIS 4640 E 56TH ST DAVENPORT IA 52807",
+   "sec": "",
+   "trans": "00000000"
+  },
+  "09421823": {
+   "status": "06",
+   "type": "6",
+   "pres": "JOHN R HARTMANN  8600 W BRYN MAWR AVE CHICAGO IL 60631",
+   "sec": "WITHDRAWN               08 09 18",
+   "trans": "00000000"
+  },
+  "09874453": {
+   "status": "00",
+   "type": "4",
+   "pres": "MARK D. EVANS 1755 W ARMITAGE AVE CHICAGO IL 60622",
+   "sec": "VACANT",
+   "trans": "00000000"
+  },
+  "10089522": {
+   "status": "09",
+   "type": "4",
+   "pres": "CHARLES S ALLEN  156 WOODSTOCK AVE KENILWORTH 60043",
+   "sec": "MERGED OR CONSOLIDATED  02 28 00  60873089",
+   "trans": "00000000"
+  },
+  "10483131": {
+   "status": "09",
+   "type": "4",
+   "pres": "SANDRA WILSON  4849 SOUTH AUSTIN AVENUE CHICAGO IL  60638",
+   "sec": "MERGED OR CONSOLIDATED  09 30 13  NQ DELLC",
+   "trans": "00000000"
+  },
+  "10515297": {
+   "status": "00",
+   "type": "4",
+   "pres": "MARK POESCHL 3755 LAKEVIEW DR WINNEBAGO 61088",
+   "sec": "DIANE FOWLER 11583 BARBERRY LN HUNTLEY 60142",
+   "trans": "00000000"
+  },
+  "11356907": {
+   "status": "00",
+   "type": "6",
+   "pres": "DYLAN WOLIN 1333 BUTTERFIELD RD STE500 DOWNERS GROVE IL",
+   "sec": "DIANE I BONINA  SAME                    60515",
+   "trans": "00000000"
+  },
+  "11468861": {
+   "status": "00",
+   "type": "6",
+   "pres": "FRANK J MANNA 844 E ROCKLAND RD, LIBERTYVILLE, IL 60048-3358",
+   "sec": "MICHAEL SCHYMAN 844 E ROCKLAND RD LIBERTYVILLE 66048-3358",
+   "trans": "00000000"
+  },
+  "12333765": {
+   "status": "06",
+   "type": "6",
+   "pres": "JAMES CLAUSSEN  3000 W 51ST ST CHICAGO IL 60632-2122",
+   "sec": "WITHDRAWN               08 17 21",
+   "trans": "00000000"
+  },
+  "12689292": {
+   "status": "00",
+   "type": "6",
+   "pres": "L.E. ROJO  1101 SKOKIE BLVD SUITE 500 NORTHBROOK, IL 60062",
+   "sec": "S.G. LISLE 1101 SKOKIE BLVD, SUITE 500 NORTHBROOK, IL 60062",
+   "trans": "00000000"
+  },
+  "12953496": {
+   "status": "09",
+   "type": "4",
+   "pres": "ROBERT B HAIGH  2531 W 48TH ST CHICAGO IL 60632",
+   "sec": "MERGED OR CONSOLIDATED  01 31 92  56684794",
+   "trans": "00000000"
+  },
+  "13489246": {
+   "status": "00",
+   "type": "6",
+   "pres": "KEITH DICKENS, 2605 W MAIN, MARION, IL 62959",
+   "sec": "JOHN RAINS 2605 W MAIN, MARION, IL  62959",
+   "trans": "00000000"
+  },
+  "13610991": {
+   "status": "09",
+   "type": "6",
+   "pres": "MICHAEL CULLINAN  PO BOX 121 WPARK ST TREMONT 61568",
+   "sec": "MERGED OR CONSOLIDATED  12 31 09  61655166",
+   "trans": "00000000"
+  },
+  "13641625": {
+   "status": "00",
+   "type": "6",
+   "pres": "MICHAEL RITSCHDORFF  2900 DUKANE DRIVE  SAINT CHARLES  60174",
+   "sec": "MATT RITSCHDORFF 2900 DUKANE DRIVE SAINT CHARLES 60174",
+   "trans": "00000000"
+  },
+  "13743207": {
+   "status": "06",
+   "type": "6",
+   "pres": "JAMES SHIRK  103 N ROBINSON BLOOMINGTON 61701",
+   "sec": "WITHDRAWN               03 17 88",
+   "trans": "00000000"
+  },
+  "13783829": {
+   "status": "00",
+   "type": "6",
+   "pres": "NEIL BRINKER 1500 DEKOVEN AVE RACINE WI 53403",
+   "sec": "ERIN J ROTH  SAME",
+   "trans": "00000000"
+  },
+  "14365052": {
+   "status": "03",
+   "type": "4",
+   "pres": "KENNETH NEMETH    2600 W HAVEN AVE JOLIET IL 60433",
+   "sec": "INVOLUNTARY DISSOLUTION 12 25 18",
+   "trans": "00000000"
+  },
+  "14444416": {
+   "status": "00",
+   "type": "6",
+   "pres": "WILLIAM M GULLY JR   1406 N 54TH ST   QUINCY, IL   62305",
+   "sec": "VIRGINIA GULLY  1406 N 54TH STQUINCY, IL  62305",
+   "trans": "00000000"
+  },
+  "16416649": {
+   "status": "07",
+   "type": "6",
+   "pres": "SEE C PAGE",
+   "sec": "REVOKED          08 09 24",
+   "trans": "00000000"
+  },
+  "16559229": {
+   "status": "06",
+   "type": "6",
+   "pres": "ARTHUR H BUNN 5020 ASH GROVE DR SPRINGFIELD IL 62711-6329",
+   "sec": "WITHDRAWN               07 31 25",
+   "trans": "00000000"
+  },
+  "16977411": {
+   "status": "00",
+   "type": "6",
+   "pres": "ADAM J. BURNS 3253 SUNRISE CT. ZIONSVILLE, IN 46077",
+   "sec": "RAED A ARMOUTI 123 CHAMBERLAIN DR. EDWARDSVILLE, IL 62025",
+   "trans": "00000000"
+  },
+  "17155105": {
+   "status": "00",
+   "type": "4",
+   "pres": "DAVID MARCUCCI 1117 EAST WILEY ROAD, SCHAUMBURG, IL 60173",
+   "sec": "ANTHONY MAZUKELLI 1117 EAST WILEY ROAD, SCHAUMBURG, IL 60173",
+   "trans": "00000000"
+  },
+  "17377078": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOHN ANTON JR 2902 LOCUST STREET STERLING IL 61081",
+   "sec": "MELISSA A WOESSNER 29643 CLARK RD MILLEDGEVILLE IL 61051",
+   "trans": "00000000"
+  },
+  "17388291": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOHN C GRIFFIN  9145 MEADOWSWEET DR  BELVIDERE IL 61008",
+   "sec": "CHERRY BETO  1239 NATIONAL AVEROCKFORD 61103",
+   "trans": "00000000"
+  },
+  "18037670": {
+   "status": "00",
+   "type": "6",
+   "pres": "WILLIAM K KRESS  2376 BUCHARME LN GREEN BAY WI 54301",
+   "sec": "WILLIAM R WEST  975 FOXKIRK DR BROOKFIELD WI 53045",
+   "trans": "00000000"
+  },
+  "18363836": {
+   "status": "06",
+   "type": "6",
+   "pres": "JOHN F HEALY 1445 OAKTON ST. ELK GROVE VILLAGE, IL 60007",
+   "sec": "WITHDRAWN               11 17 23",
+   "trans": "00000000"
+  },
+  "18393506": {
+   "status": "00",
+   "type": "4",
+   "pres": "DAMIAN EALLONARDO 6 SHENANDOAH CT BURR RIDGE, IL 60527",
+   "sec": "PATRICK J. MCGOWAN 6896 N. WILDWOOD CHICAGO, IL 60646",
+   "trans": "00000000"
+  },
+  "18955644": {
+   "status": "00",
+   "type": "6",
+   "pres": "JONATHAN B DEGAYNOR 25650 W 11 MILE RD SOUTHFIELD MI  48034",
+   "sec": "KAREN L KEEGANS  SAME",
+   "trans": "00000000"
+  },
+  "19342999": {
+   "status": "00",
+   "type": "4",
+   "pres": "TODD A BANCROFT  55 E MONROE ST #3900 CHICAGO IL 60603",
+   "sec": "JAMES P HAYES  55 E MONROE ST #3900 CHICAGO IL 60603",
+   "trans": "00000000"
+  },
+  "19610179": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOEL BROWN 27755 DIEHL RD SUITE 200 WARRENVILLE IL 60555",
+   "sec": "CHRISTINA REATO      SAME AS ABOVE",
+   "trans": "00000000"
+  },
+  "19771717": {
+   "status": "09",
+   "type": "6",
+   "pres": "KENNETH D BAUM  866 N MAIN ST  MORTON  61550",
+   "sec": "MERGED OR CONSOLIDATED  02 16 06  64651838",
+   "trans": "00000000"
+  },
+  "19771814": {
+   "status": "09",
+   "type": "6",
+   "pres": "J HASS  PO BOX 2020 ROCK ISLAND 61204",
+   "sec": "MERGED OR CONSOLIDATED  01 18 90  53398375",
+   "trans": "00000000"
+  },
+  "20883456": {
+   "status": "09",
+   "type": "6",
+   "pres": "JOSEPH F WARNER  525 NORTH EAST ST BLOOMINGTON 61701",
+   "sec": "MERGED OR CONSOLIDATED  04 11 90  55829918",
+   "trans": "00000000"
+  },
+  "21291277": {
+   "status": "07",
+   "type": "6",
+   "pres": "BARRY S ASTROWSKY  837 MARGO LN  PENN VALLEY PA 19072",
+   "sec": "REVOKED          03 01 97",
+   "trans": "00000000"
+  },
+  "21410373": {
+   "status": "16",
+   "type": "4",
+   "pres": "ROBERT PASIN  6515 W GRAND AVECHICAGO 60707",
+   "sec": "REDOMESTICATION         04 01 24  74464335",
+   "trans": "00000000"
+  },
+  "21576344": {
+   "status": "00",
+   "type": "4",
+   "pres": "GRANT W SJOSTROM 1129 HARRISONAVENUE ROCKFORD, IL 61104",
+   "sec": "KRISTOPHER SJOSTROM 1129 HARRISON AVENUE ROCKFORD, IL 61104",
+   "trans": "00000000"
+  },
+  "22209094": {
+   "status": "09",
+   "type": "4",
+   "pres": "THOMAS E REED  11 HAWTHORN PKWY  VERNON HILLS 60061",
+   "sec": "MERGED OR CONSOLIDATED  12 31 16  NQDECORP",
+   "trans": "00000000"
+  },
+  "23132672": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOSEPH C SCANDROLI 90 hawley woods rd barrington il 60010",
+   "sec": "ANTHONY SCANDROLI 6027 high gate way belvidere il 61008",
+   "trans": "00000000"
+  },
+  "24914593": {
+   "status": "00",
+   "type": "4",
+   "pres": "LISA SHASHEK 145 N KANSAS ST EDWARDSVILLE 62025",
+   "sec": "MARK SHASHEK 145 N KANSAS ST EDWARDSVILLE 62025",
+   "trans": "00000000"
+  },
+  "25082508": {
+   "status": "09",
+   "type": "4",
+   "pres": "THOMAS HURT 431 E SOUTH ST PLANO IL 60545",
+   "sec": "MERGED OR CONSOLIDATED  12 21 12  DE LLC",
+   "trans": "00000000"
+  },
+  "25937490": {
+   "status": "00",
+   "type": "4",
+   "pres": "PETER A BAKER 1349 ROCKLANDRD LAKE BLUFF 60044",
+   "sec": "ROBERT G BAKER  1349 ROCKLANDRD LAKE BLUFF 60044",
+   "trans": "00000000"
+  },
+  "26460191": {
+   "status": "08",
+   "type": "4",
+   "pres": "JAY A LAWRENCE  1402 E 28TH STREET STERLING 61081",
+   "sec": "BANKRUPTCY  FILED     01 09 02  SEE MV",
+   "trans": "00000000"
+  },
+  "26736846": {
+   "status": "00",
+   "type": "4",
+   "pres": "RICHARD J NIEMANN JR 2654 STATE HWY CC MONROE CITY MO 63456",
+   "sec": "JODIE FELTER 30158 OLD HWY V LAGRANGE MO 63448",
+   "trans": "00000000"
+  },
+  "28393121": {
+   "status": "00",
+   "type": "4",
+   "pres": "RICHARD J ROBERTS 1102 SILVERLAKE ROAD CARY IL 60013-1658",
+   "sec": "JULIE CAMPBELL SAME",
+   "trans": "00000000"
+  },
+  "28904444": {
+   "status": "00",
+   "type": "4",
+   "pres": "MATTHEW R TREUTELAAR 6581 WINDHAM LANE LONG GROVE IL 60047",
+   "sec": "DIANE J CWIKLA 1110 MERCURY DRIVE UNT 1A SCHAUMBURG IL 60193",
+   "trans": "00000000"
+  },
+  "28926278": {
+   "status": "00",
+   "type": "4",
+   "pres": "FRED BERGLUND 1430 RYDER ROAD,CHESTERTON, IN 46304",
+   "sec": "CYNTHIA KIELBASINSKI, 8410 S CHICAGO AVE., CHICAGO, IL 60617",
+   "trans": "00000000"
+  },
+  "29182353": {
+   "status": "00",
+   "type": "4",
+   "pres": "ERIC TREIBER 649 IL ROUTE 83 BENSENVILLE IL 60106",
+   "sec": "ERIC TREIBER 649 IL ROUTE 83 BENSENVILLE IL 60106",
+   "trans": "00000000"
+  },
+  "29715408": {
+   "status": "09",
+   "type": "4",
+   "pres": "STEVEN R DON  9801 ADAM DON PARKWAY WOODRIDGE IL 60517",
+   "sec": "MERGED OR CONSOLIDATED  02 10 17  NQDECORP",
+   "trans": "00000000"
+  },
+  "29760454": {
+   "status": "09",
+   "type": "4",
+   "pres": "CHARLES L WITZ  28605 VERNON COURT LIBERTYVILLE 60048",
+   "sec": "MERGED OR CONSOLIDATED  10 15 98  DE  N.Q.",
+   "trans": "00000000"
+  },
+  "31058686": {
+   "status": "00",
+   "type": "4",
+   "pres": "WESLEY HEINKEL 1003 SCHROLL DR FORSYTH IL, 62535",
+   "sec": "TOM MCCARTHY 1163 WEDGEWOOD CT DECATUR IL, 62526",
+   "trans": "00000000"
+  },
+  "31215285": {
+   "status": "08",
+   "type": "4",
+   "pres": "PASCAL SCALA, 1135 BONNIE BRAE, RIVER FOREST, IL 60305",
+   "sec": "INVOLUNTARY DISSOLUTION 08 12 16",
+   "trans": "00000000"
+  },
+  "31369711": {
+   "status": "00",
+   "type": "4",
+   "pres": "JAY C HARMS  354 ELLER DR.  EAST PEORIA, IL  61611",
+   "sec": "SUSAN RYAN  705 W DAVISON ST.ROANOKE, IL  61561",
+   "trans": "00000000"
+  },
+  "31403693": {
+   "status": "00",
+   "type": "4",
+   "pres": "DAN GIOVANNETTI 2390 BLACKHAWK ROAD ROCKFORD IL 61109",
+   "sec": "JEANNIE YANCY SAME",
+   "trans": "00000000"
+  },
+  "32315275": {
+   "status": "00",
+   "type": "4",
+   "pres": "KURT MARQUARDT  1077 WAKEFIELDDRIVE  ELGIN  60120",
+   "sec": "DANIEL J MARQUARDT 28730 W HARVEST GLEN CIR CARY IL 60013",
+   "trans": "00000000"
+  },
+  "32760058": {
+   "status": "00",
+   "type": "4",
+   "pres": "RYAN D KERRIGAN 1075 ALEXANDERCT CARY IL 60013",
+   "sec": "LUKE MCCABE, 1075 ALEXANDER CT, CARY, IL 60013",
+   "trans": "00000000"
+  },
+  "33369549": {
+   "status": "09",
+   "type": "4",
+   "pres": "EDWARD C GARST  1607 STODDARD ST ROCKFORD 61108",
+   "sec": "MERGED OR CONSOLIDATED  09 01 88  55129223",
+   "trans": "00000000"
+  },
+  "33782276": {
+   "status": "00",
+   "type": "4",
+   "pres": "ROBERT C ALTORFER 15402 W BRIMFIELD-JUBILEE RD BRIMFIELD IL",
+   "sec": "TROY A. BEHNKE 1133 E. TYLER STREET MORTON IL 61550",
+   "trans": "00000000"
+  },
+  "33903758": {
+   "status": "15",
+   "type": "4",
+   "pres": "CHARLES HODGES 2727 PACES FERRY RD #1 S1850 ATLANTA GA 30339",
+   "sec": "CONVERSION              12 05 18  07157088",
+   "trans": "00000000"
+  },
+  "34114901": {
+   "status": "00",
+   "type": "4",
+   "pres": "F PAUL VALENTI JR  2501 COMMERCE DRIVE  LIBERTYVILLE 60048",
+   "sec": "SAME",
+   "trans": "00000000"
+  },
+  "34558949": {
+   "status": "00",
+   "type": "4",
+   "pres": "CHAD R. LARSON 5456 INTERNATIONAL PKWY SPRINGFIELD, IL 62711",
+   "sec": "CHRIS LARSON 5456 INTERNATIONAL PKWY SPRINGFIELD, IL 62711",
+   "trans": "00000000"
+  },
+  "35759417": {
+   "status": "00",
+   "type": "4",
+   "pres": "ROBERT NOGAJ, 1 MARTIN PLACE NEPONSET IL 61345",
+   "sec": "CHRISTINE M USREY SAME",
+   "trans": "00000000"
+  },
+  "36570849": {
+   "status": "08",
+   "type": "4",
+   "pres": "RUTH E GOLDSMITH  2419 ILLINOIS RD  NORTHBROOK 60062",
+   "sec": "VOLUNTARY DISSOLUTION 11 15 95",
+   "trans": "00000000"
+  },
+  "36748265": {
+   "status": "00",
+   "type": "4",
+   "pres": "GAVIN HANSEN 1610 CASSANDRA LN, MCHENRY IL 60051",
+   "sec": "ELLYA WONG 25 WILDWOOD CRT VERNON HILLS IL  60061",
+   "trans": "00000000"
+  },
+  "38358774": {
+   "status": "00",
+   "type": "4",
+   "pres": "HENRY R. SIEMER 207 W ELM ST TEUTOPOLIS, IL 62467",
+   "sec": "ERIN BLOEMER 17651 E 1700TH AVE TEUTOPOLIS, IL 62467",
+   "trans": "00000000"
+  },
+  "38426265": {
+   "status": "00",
+   "type": "4",
+   "pres": "ARINASH NAYAK 2000 HOLLISTER DRIVE, LIBERTYVILLE, IL 60048",
+   "sec": "LISE M. HEROUX 2000 HOLLISTER DRIVE, LIBERTYVILLE, IL 60048",
+   "trans": "00000000"
+  },
+  "40715398": {
+   "status": "00",
+   "type": "4",
+   "pres": "BRIAN KARLOW 77 W SEEGERS ARLINGTON HEIGHTS, IL 60005",
+   "sec": "EWA ZAKRZEWSKI 77 W SEEGERS ARLINGTON HEIGHTS, IL 60005",
+   "trans": "00000000"
+  },
+  "41760443": {
+   "status": "09",
+   "type": "4",
+   "pres": "DOUG PARSONS  14463 WAGONSELLER RD PEKIN 61554",
+   "sec": "MERGED OR CONSOLIDATED  12 31 13  63846074",
+   "trans": "00000000"
+  },
+  "43413821": {
+   "status": "00",
+   "type": "4",
+   "pres": "WILLIAM G SULLIVAN  20 WILLOWCREEK DR HIGHLAND IL 62249",
+   "sec": "SUE E SULLIVAN  SAME",
+   "trans": "00000000"
+  },
+  "43467573": {
+   "status": "01",
+   "type": "4",
+   "pres": "MICHAEL CULVER 1301 ALLANSON RD MUNDELEIN IL, 60060",
+   "sec": "JORDAN TOWNSEND 1301 ALLANSON RD MUNDELEIN IL, 60060",
+   "trans": "00000000"
+  },
+  "47202035": {
+   "status": "00",
+   "type": "4",
+   "pres": "KALIN N LIEFER 11207 OBST RD RED BUD IL 62278",
+   "sec": "ROSE KELLERMAN 4515 BETHEL CHURCH RD PINCKNEYVILLE IL 62278",
+   "trans": "00000000"
+  },
+  "47523524": {
+   "status": "00",
+   "type": "4",
+   "pres": "PATRICK CERMAK 2500 N. FRONTAGE ROAD DARIEN, IL 60561",
+   "sec": "CAROL ROGLIN 2500 N. FRONTAGE ROAD DARIEN, IL 60561",
+   "trans": "00000000"
+  },
+  "48567614": {
+   "status": "00",
+   "type": "4",
+   "pres": "CARRIE S SCHMIDT 207 VORIS STE 2 PEORIA IL 61603",
+   "sec": "JOANNA LEE YOUNG 207 VORIS STE 2 PEORIA IL 61603",
+   "trans": "00000000"
+  },
+  "49468113": {
+   "status": "06",
+   "type": "6",
+   "pres": "DAVID KUZY 315 FIFTH ST PO BOX 599 PERU 61354",
+   "sec": "WITHDRAWN               07 26 19",
+   "trans": "00000000"
+  },
+  "49470568": {
+   "status": "00",
+   "type": "6",
+   "pres": "JENNIFER L SHERMAN 1333 BUTTERFIELD RD STE 500 DOWNERS GROVE",
+   "sec": "DIANE I BINONA 1333 BUTTERFIELD RD STE 500 DOWNERS GROVE IL",
+   "trans": "00000000"
+  },
+  "49528639": {
+   "status": "09",
+   "type": "6",
+   "pres": "H B MUSGROVE  1405 1ST AVE STERLING 61081",
+   "sec": "MERGED OR CONSOLIDATED  10 24 88  55226784",
+   "trans": "00000000"
+  },
+  "49566069": {
+   "status": "08",
+   "type": "4",
+   "pres": "ERIC J HANKS 214 W JEFFERSON EFFINGHAM 62401",
+   "sec": "INVOLUNTARY DISSOLUTION 03 11 16",
+   "trans": "00000000"
+  },
+  "49594062": {
+   "status": "00",
+   "type": "6",
+   "pres": "BRADY FOSTER 2542 N BUFFALO HILL ROAD OTTERBEIN IN 47970",
+   "sec": "DUSTIN FOSTER 605 E VOREY STREET HEYWORTH IL 61745",
+   "trans": "00000000"
+  },
+  "49684878": {
+   "status": "00",
+   "type": "4",
+   "pres": "CLIFFORD BEHRMANN  2 OAK TREEDR ALBERS IL 62215",
+   "sec": "CLIFFORD BEHRMANN  2 OAK TREEDR ALBERS IL 62215",
+   "trans": "00000000"
+  },
+  "49763611": {
+   "status": "00",
+   "type": "4",
+   "pres": "DIETMAR GOELLNER 2500 LATHAM ST ROCKFORD 61103",
+   "sec": "MARIKA MERTZ  SAME",
+   "trans": "00000000"
+  },
+  "49854765": {
+   "status": "00",
+   "type": "6",
+   "pres": "BRENT B JOHNSON 1725 HUNTWOODDR, CHERRY VALLEY, IL 61016",
+   "sec": "LAUREN B SPENCER 1725 HUNTWOODDR, CHERRY VALLEY, IL 61016",
+   "trans": "00000000"
+  },
+  "49898835": {
+   "status": "09",
+   "type": "6",
+   "pres": "HANS W BECHERER  JOHN DEERE RD MOLINE 61265",
+   "sec": "MERGED OR CONSOLIDATED  04 21 92  12201630",
+   "trans": "00000000"
+  },
+  "49921195": {
+   "status": "00",
+   "type": "4",
+   "pres": "KENNETH HALL   6698 QUAIL TRAPRD   POPLAR GRV   61065",
+   "sec": "BARBARA HALL   6698 QUAIL TRAPRD   POPLAR GRV   61065",
+   "trans": "00000000"
+  },
+  "49936672": {
+   "status": "00",
+   "type": "6",
+   "pres": "THOMAS B WELGE 3136 STATE RT 150 CHESTER IL 62233",
+   "sec": "MICHAEL W WELGE  908 PARK AVE CHESTER   IL 62233",
+   "trans": "00000000"
+  },
+  "49939604": {
+   "status": "06",
+   "type": "6",
+   "pres": "RANDALL D FELLERHOFF 2400 W DURSTON RD , UNIT 76 BOZEMAN MT,",
+   "sec": "WITHDRAWN               08 22 23",
+   "trans": "00000000"
+  },
+  "49944799": {
+   "status": "00",
+   "type": "6",
+   "pres": "J. SCOT PEPPER 643 NORTH ORLEANS STREET, CHICAGO, IL  60654",
+   "sec": "TIMOTHY F. SULLIVAN, 411 LAKEZURICH ROAD, BARRINGTON, IL",
+   "trans": "00000000"
+  },
+  "50020614": {
+   "status": "09",
+   "type": "4",
+   "pres": "JOHN R SCULLY  275 OLD HIGGINS RD DES PLAINES 60016",
+   "sec": "MERGED OR CONSOLIDATED  12 31 97  59645056",
+   "trans": "00000000"
+  },
+  "50116077": {
+   "status": "00",
+   "type": "4",
+   "pres": "DONNA J VIGNOCCHI  25865 IVANHOE RD WAUCONDA IL 60084",
+   "sec": "HARRY J VIGNOCCHI 25865 IVANHOE RD WAUCONDA IL 60084",
+   "trans": "00000000"
+  },
+  "50168085": {
+   "status": "00",
+   "type": "6",
+   "pres": "JOHN S VENHUIZEN 2915 JORIE BLVD., OAK BROOK, IL 60523",
+   "sec": "KERILYN M JOHNSON  SAME",
+   "trans": "00000000"
+  },
+  "50227529": {
+   "status": "08",
+   "type": "4",
+   "pres": "MARY JANE WELLS   4621 W WEST END AVE   CHGO   60644",
+   "sec": "INVOLUNTARY DISSOLUTION 09 01 93",
+   "trans": "00000000"
+  },
+  "50228916": {
+   "status": "00",
+   "type": "4",
+   "pres": "SKIPPY G HOMEIER 1900 OAK CRK RD SPRINGFIELD IL 62704",
+   "sec": "CULLEN D MANNING 2048 S WALNUT SPRINGFIELD IL 62704",
+   "trans": "00000000"
+  },
+  "50261271": {
+   "status": "00",
+   "type": "4",
+   "pres": "THOMAS A. BUSSE 3263 TWIN RIDGE LANE, ROCKFORD, IL 61109",
+   "sec": "SUSAN A. BUSSE 3263 TWIN RIDGE LANE, ROCKFORD, IL 61109",
+   "trans": "00000000"
+  },
+  "50285529": {
+   "status": "00",
+   "type": "4",
+   "pres": "LINDA MCGARY  5003 SMOKETHORN TRAIL  BELVIDERE  61008",
+   "sec": "RANDY MCBAIN  1279 KEY LARGO  ROCKFORD, IL  61103",
+   "trans": "00000000"
+  },
+  "50355837": {
+   "status": "00",
+   "type": "4",
+   "pres": "JAMES WANG 1810 AUTUMN RIDGE URBANA IL 61802",
+   "sec": "",
+   "trans": "00000000"
+  },
+  "50448967": {
+   "status": "16",
+   "type": "6",
+   "pres": "JOHN LEFAVOUR 175 W NORTH AVE CAROL STREAM IL 60188",
+   "sec": "REDOMESTICATION         01 19 21  72548019",
+   "trans": "00000000"
+  },
+  "50509885": {
+   "status": "00",
+   "type": "4",
+   "pres": "DANIEL COSTELLO 332 RIDGE AVENUE, CLARENDON HILLS, IL  60514",
+   "sec": "NICHOLAS PERRINO 682 HILLSIDEAVENUE, GLEN ELLYN, IL 60137",
+   "trans": "00000000"
+  },
+  "50517543": {
+   "status": "00",
+   "type": "4",
+   "pres": "DOMINIC P. STRAMAGLIA 220 E NORTH AVENUE VILLA PARK,IL 60181",
+   "sec": "DOMINIC P. STRAMAGLIA SAME ASABOVE",
+   "trans": "00000000"
+  },
+  "50567737": {
+   "status": "00",
+   "type": "4",
+   "pres": "MICHAEL ABT 1200 MILWAUKEE AVENUE  GLENVIEW 60025",
+   "sec": "RICHARD L ABT",
+   "trans": "00000000"
+  },
+  "50603091": {
+   "status": "08",
+   "type": "4",
+   "pres": "ROBERT M FLESHER  908 MONARCH CHATHAM 62629",
+   "sec": "INVOLUNTARY DISSOLUTION 07 11 14",
+   "trans": "00000000"
+  },
+  "50628302": {
+   "status": "00",
+   "type": "6",
+   "pres": "MARK YOUNGREN 2787 N DAVID COURT OREGON IL 61061",
+   "sec": "ROXANNE TUCKETT 720 E SHORE DR SUMMERLAND KEY FL 33042",
+   "trans": "00000000"
+  },
+  "50666921": {
+   "status": "00",
+   "type": "4",
+   "pres": "PHILLIP VILIASENOR 2141 S THROOP ST  CHICAGO IL  60608",
+   "sec": "DAVID VILLASENOR  2141 S THROOP  CHICAGO, IL 60608",
+   "trans": "00000000"
+  },
+  "50686906": {
+   "status": "00",
+   "type": "4",
+   "pres": "KRYSTA C. RISA, 11715 MAIN STREET, ROSCOE, IL  61073",
+   "sec": "MINDY JOY NUTTER YOUNG   SAME",
+   "trans": "00000000"
+  },
+  "50690792": {
+   "status": "00",
+   "type": "4",
+   "pres": "ANDREW LIBMAN  1 LIBMAN WAY ARCOLA IL 61910",
+   "sec": "JARED LIBMAN   1 LIBMAN WAY ARCOLA IL 61910",
+   "trans": "00000000"
+  },
+  "50728277": {
+   "status": "15",
+   "type": "4",
+   "pres": "LAWRENCE E TANGEL  201 ALTORFER LANE  E PEORIA 61611",
+   "sec": "CONVERSION              03 24 26  17561871",
+   "trans": "00000000"
+  },
+  "50737608": {
+   "status": "09",
+   "type": "4",
+   "pres": "BILL MARCHIDO  2034 E FACTORY RD  DAKOTA 61018",
+   "sec": "MERGED OR CONSOLIDATED  11 16 15  DE  LLC",
+   "trans": "00000000"
+  },
+  "50797171": {
+   "status": "00",
+   "type": "6",
+   "pres": "WILLIAM J WYFFELS III 19256 252ND AVE BETTENDORF IA 52722",
+   "sec": "DAWN M PUTNAM 4516 THORNWOOD DR BETTENDORF IA 52722",
+   "trans": "00000000"
+  },
+  "50828565": {
+   "status": "07",
+   "type": "6",
+   "pres": "MARTHA SEEBER  313 WOODLAND DR RANTOUL 61866",
+   "sec": "REVOKED          07 01 05",
+   "trans": "00000000"
+  },
+  "50935221": {
+   "status": "00",
+   "type": "6",
+   "pres": "ALOYSIUS VAN EEKEREN 709 ENTERPRISE DR, OAK BROOK/IL 60523",
+   "sec": "ANDREW VAN EEKEREN 709 ENTERPRISE DRIVE, OAK BROOK/IL 60523",
+   "trans": "00000000"
+  },
+  "50936554": {
+   "status": "00",
+   "type": "4",
+   "pres": "RAULINDA SIERRA 3050 W. 26TH ST CHICAGO IL  60623",
+   "sec": "JESUS LOPEZ  3050 W 26TH STREET  CHICAGO IL 60623",
+   "trans": "00000000"
+  },
+  "50948013": {
+   "status": "00",
+   "type": "6",
+   "pres": "RONALD E HAHN  1413 AUGUSTA WAY  SPRING GROVE, IL  60081",
+   "sec": "LORETTA BOUTOTA  216 NEW HAVEN DR CARY IL 60013",
+   "trans": "00000000"
+  },
+  "50993426": {
+   "status": "00",
+   "type": "4",
+   "pres": "ROSS S PEARLSTEIN THREE PARKWAY NORTH STE 200 DEERFIELD",
+   "sec": "KRISTEN L FITZPATRICK    SAMEADDRESS              60015",
+   "trans": "00000000"
+  },
+  "51049012": {
+   "status": "00",
+   "type": "6",
+   "pres": "CHARLES A BLANKENSHIP JR 1081 WOODWARD WAY FT COLLINS CO",
+   "sec": "KARRIE BEM",
+   "trans": "00000000"
+  },
+  "51066138": {
+   "status": "00",
+   "type": "4",
+   "pres": "DIETMAR GOELLNER  9900 N ALPINE ROAD MACHESNEY PARK 61115",
+   "sec": "MARIKA MERTZ  SAME",
+   "trans": "00000000"
+  },
+  "51129377": {
+   "status": "09",
+   "type": "6",
+   "pres": "JON TUNBERG 1908 GLENWOOD DR MOLINE 61265",
+   "sec": "MERGED INTO 67011368 123109",
+   "trans": "00000000"
+  },
+  "51276604": {
+   "status": "06",
+   "type": "6",
+   "pres": "SCOTT ABERLE 11 GREPWOLF CT MORTON IL 61550",
+   "sec": "WITHDRAWN               07 10 14",
+   "trans": "00000000"
+  },
+  "51298047": {
+   "status": "00",
+   "type": "6",
+   "pres": "LARRY HAMPTON 7605 N  UNIVERSITY PEORIA IL, 61614",
+   "sec": "ASHLEY HAMPTON 7605 N  UNIVERSITY PEORIA IL, 61614",
+   "trans": "00000000"
+  },
+  "51330552": {
+   "status": "15",
+   "type": "4",
+   "pres": "ANDREW J MILLS  3 LAKES DRIVE NORTHFIELD IL 60093-2753",
+   "sec": "CONVERSION              09 07 21  S0030704",
+   "trans": "00000000"
+  },
+  "51422287": {
+   "status": "15",
+   "type": "4",
+   "pres": "SHAHID R. KHAN, 4101 GULF SHORE BLVD. PH#1, NAPLES, FL 34103",
+   "sec": "CONVERSION              12 21 18  07162553",
+   "trans": "00000000"
+  },
+  "51448839": {
+   "status": "00",
+   "type": "4",
+   "pres": "STEVEN V HALVERSON 6204 TREYBURN CT SPRINGFIELD IL 62711",
+   "sec": "KYLE G ZELLERS 1414 HOSTA DR SPRINGFIELD IL 62712",
+   "trans": "00000000"
+  },
+  "51474171": {
+   "status": "06",
+   "type": "6",
+   "pres": "TOMOKI MATSUMOTO 222 MERCHANDISE MART PLAZA STE 626 CHICAGO",
+   "sec": "WITHDRAWN               05 29 25",
+   "trans": "00000000"
+  },
+  "51559223": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOSEPH G MEYER 1 PARKVIEW PLZ#710, OAKBROOK TRRACE IL 60181",
+   "sec": "STEVEN G PIERSON 1 PARKVIEW PL#710 OAKBROOK TERRACE IL 60181",
+   "trans": "00000000"
+  },
+  "51652215": {
+   "status": "00",
+   "type": "6",
+   "pres": "CLAYTON LAMKIN 300 W FRANK BURR BLVD #21 TEANECK NJ 07666",
+   "sec": "JUDITH A WEINSTEIN 300 FRANK WBURR BLVD, TEANECK, NJ 07666",
+   "trans": "00000000"
+  },
+  "51711726": {
+   "status": "08",
+   "type": "4",
+   "pres": "PATRICIA W KAULAS  534 STRATFORD  CHICAGO 60657",
+   "sec": "INVOLUNTARY DISSOLUTION 09 01 94",
+   "trans": "00000000"
+  },
+  "51826736": {
+   "status": "00",
+   "type": "4",
+   "pres": "MICHAEL C. KINGERY 10108 BLUFF VIEW AVE, EFFINGHAM, IL 62401",
+   "sec": "ANGELA M. HELMUTH 583 N. 3135 E. ROAD, STEWARDSON, IL 62463",
+   "trans": "00000000"
+  },
+  "51874498": {
+   "status": "00",
+   "type": "6",
+   "pres": "HESSEL VERHAGE 840 CRESCENT CENTRE DR #260 FRANKLIN TN 37067",
+   "sec": "MATTHEW DECKER 840 CRESCENT CENTRE DR #260 FRANKLIN TN 37067",
+   "trans": "00000000"
+  },
+  "51888162": {
+   "status": "00",
+   "type": "4",
+   "pres": "JEFFERY K SANDBERY 1515 5TH AVE STE 108 MOLINE IL 61265",
+   "sec": "ADAM K QUIGLEY 549 W RANDOLPH ST, STE 602 CHICAGO, IL 60661",
+   "trans": "00000000"
+  },
+  "51943546": {
+   "status": "00",
+   "type": "4",
+   "pres": "H. STEPHEN CHURCH 202 HAMILTONBLVD. PEORIA, IL 61602",
+   "sec": "NICHOLAS VESPA 202 HAMILTON BLVD. PEORIA, IL 61602",
+   "trans": "00000000"
+  },
+  "51962265": {
+   "status": "00",
+   "type": "6",
+   "pres": "CURTIS A PITMAN  BOX 135 RIO 61472",
+   "sec": "RUSSELL L LARSON  564 S PEARL GALESBURG 61401",
+   "trans": "00000000"
+  },
+  "52035015": {
+   "status": "09",
+   "type": "6",
+   "pres": "ROY WARREN  1500 TAYLOR AVE SPRINGFIELD 62703",
+   "sec": "MERGED OR CONSOLIDATED  04 14 05  64150715",
+   "trans": "00000000"
+  },
+  "52073278": {
+   "status": "08",
+   "type": "4",
+   "pres": "SHAHID R KHAN  1306 E UNIVERSITY URBANA 61801",
+   "sec": "VOLUNTARY DISSOLUTION 06 27 96",
+   "trans": "00000000"
+  },
+  "52104033": {
+   "status": "00",
+   "type": "4",
+   "pres": "WAYNE SIRLES  70 MARKS LN ALTOPASS IL 62905",
+   "sec": "BETTY P SIRLES  9760 S R 127NPO BOX 159 ALTO PASS 62905",
+   "trans": "00000000"
+  },
+  "52185092": {
+   "status": "06",
+   "type": "6",
+   "pres": "THOMAS SCHMITT 4370 OLD DIXIEROAD ATLANTA GA 30354",
+   "sec": "WITHDRAWN               06 10 24",
+   "trans": "00000000"
+  },
+  "52189403": {
+   "status": "00",
+   "type": "4",
+   "pres": "MARC S SCHULMAN  6701 W FORESTPRESERVE DR CHICAGO 60634",
+   "sec": "MARC S SCHULMAN 6701 W FORESTPRESERVE DR CHICAGO 60634",
+   "trans": "00000000"
+  },
+  "52209277": {
+   "status": "09",
+   "type": "4",
+   "pres": "RICHARD L TRACY 17050 BAXTER RD CHESTERFIELD MO 63005",
+   "sec": "MERGED OR CONSOLIDATED  01 01 18  71431134",
+   "trans": "00000000"
+  },
+  "52216974": {
+   "status": "00",
+   "type": "4",
+   "pres": "DELENE M BANE, 20100 IL ROUTE9, PEKIN ILLINOIS 61554",
+   "sec": "DELENE M BANE, 20100 IL ROUTE9, PEKIN ILLINOIS 61554",
+   "trans": "00000000"
+  },
+  "52348498": {
+   "status": "00",
+   "type": "4",
+   "pres": "JEFFREY FLAMM  6715 OLD HWY 51 N COBDEN 62920",
+   "sec": "KAREN FLAMM KIEFER 1180 UNION SPRINGS RD COBDEN IL  62920",
+   "trans": "00000000"
+  },
+  "52358906": {
+   "status": "08",
+   "type": "4",
+   "pres": "ABRAHAM JAFFE  161 CHERTSEY TWICKENHAM MIDDLESEX ENGLAND",
+   "sec": "INVOLUNTARY DISSOLUTION 09 10 10",
+   "trans": "00000000"
+  },
+  "52378265": {
+   "status": "00",
+   "type": "4",
+   "pres": "ANTHONY R. ROSSI JR. 4613 LEEAVE, DOWNERS GROVE, IL  60515",
+   "sec": "THOMAS F. MORAN 1 N. FRANKLIN,CHICAGO, IL  60606",
+   "trans": "00000000"
+  },
+  "52412137": {
+   "status": "00",
+   "type": "4",
+   "pres": "DANIEL R. PLOTE 1100 BRANDT DR. HOFFMAN ESTATES IL 60192",
+   "sec": "GEORGE KAPITZKY 1100 BRANDT DR. HOFFMAN ESTATES IL 60192",
+   "trans": "00000000"
+  },
+  "52529018": {
+   "status": "00",
+   "type": "6",
+   "pres": "NICOLAS NEYKOV ONE BLUE BUNNY DRIVE LEMARS, IA 51031",
+   "sec": "MICHAEL HATFIELD ONE BLUE BUNNY DRIVE LEMARS, IA 51031",
+   "trans": "00000000"
+  },
+  "52529948": {
+   "status": "00",
+   "type": "4",
+   "pres": "MARK KOENIG  2428 W FARMINGTON RD PEORIA 61604",
+   "sec": "SAME",
+   "trans": "00000000"
+  },
+  "52574439": {
+   "status": "00",
+   "type": "4",
+   "pres": "GARY L LANG 5103 MANN DRIVE RINGWOOD IL 60072",
+   "sec": "GARY L LANG 5103 MANN DRIVE RINGWOOD IL 60072",
+   "trans": "00000000"
+  },
+  "52604923": {
+   "status": "00",
+   "type": "4",
+   "pres": "THOMAS J. EICKMAN 8170 BRIDGELAND ROAD WINNEBAGO IL 61088",
+   "sec": "KATHERINE L. EICKMAN 8170 BRIDGELAND RD WINNEBAGO IL 61088",
+   "trans": "00000000"
+  },
+  "52663202": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOHN P. BODMAN 2501 N. DAMEN AVE CHICAGO IL 60647",
+   "sec": "JANE B LUSTIG  2501 N. DAMEN AVE CHICAGO IL 60647",
+   "trans": "00000000"
+  },
+  "52883245": {
+   "status": "00",
+   "type": "4",
+   "pres": "JEAN PITZO 484 THOMAS DR BENSENVILLE IL 60106",
+   "sec": "ANGELA PITZO SAME",
+   "trans": "00000000"
+  },
+  "52994071": {
+   "status": "00",
+   "type": "4",
+   "pres": "MATTHEW WALSH  929 W ADAMS  CHICAGO 60607",
+   "sec": "",
+   "trans": "00000000"
+  },
+  "53035388": {
+   "status": "09",
+   "type": "4",
+   "pres": "PAUL G REITZ 2701 SPRUCE ST  QUINCY 62301",
+   "sec": "MERGED OR CONSOLIDATED  06 26 15  NQDECORP",
+   "trans": "00000000"
+  },
+  "53203787": {
+   "status": "00",
+   "type": "4",
+   "pres": "PATRICK R. KENNEDY 7325 JANES AVENUE, WOODRIDGE, IL 60517",
+   "sec": "AMY K. HOLMES 7325 JANES AVENUE, WOODRIDGE, IL 60517",
+   "trans": "00000000"
+  },
+  "53335578": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOHN E GOETZ  421 W JACKSON ST., PETERSBURG, IL 62675",
+   "sec": "JUDITH A. MCMURL  1409 JACKSONST., BEARDSTOWN, IL 62618",
+   "trans": "00000000"
+  },
+  "53389821": {
+   "status": "09",
+   "type": "4",
+   "pres": "RICHARD UIHLEIN  1396 N WAUKEGAN RD LAKE FOREST 60045",
+   "sec": "MERGED OR CONSOLIDATED  12 31 89  55780358",
+   "trans": "00000000"
+  },
+  "53398375": {
+   "status": "00",
+   "type": "4",
+   "pres": "GREGORY G HASS 3610 78TH AVE WEST ROCK ISLAND 61201",
+   "sec": "ADAM J HASS 3610 78TH AVE WEST ROCK ISLAND 61201",
+   "trans": "00000000"
+  },
+  "53564895": {
+   "status": "09",
+   "type": "4",
+   "pres": "R J CURREY   303 LAFAYETTE AVE   MATTOON   61938",
+   "sec": "MERGED OR CONSOLIDATED  09 24 97  59591096",
+   "trans": "00000000"
+  },
+  "53602606": {
+   "status": "08",
+   "type": "4",
+   "pres": "JAMES F WOODWARD JR  9545 RIDGEWAY AVE  EVANSTON 60203",
+   "sec": "INVOLUNTARY DISSOLUTION 02 01 99",
+   "trans": "00000000"
+  },
+  "53607063": {
+   "status": "00",
+   "type": "4",
+   "pres": "MICHAEL N CULLINAN  324 VALLEYVIEW CT PEORIA 61615",
+   "sec": "ALLEN D CULLINAN 121 W PARK ST TREMONT IL 61568",
+   "trans": "00000000"
+  },
+  "53622119": {
+   "status": "00",
+   "type": "4",
+   "pres": "MARTY FEARDAY, 101 WEST TEMPLEAVENUE, EFFINGHAM, IL 62401",
+   "sec": "CARISSA SNOW 101 WEST TEMPLE AVENUE EFFINGHAM IL 62401",
+   "trans": "00000000"
+  },
+  "53700802": {
+   "status": "00",
+   "type": "4",
+   "pres": "MARCO CAPURSO  404 W HARRISON ST SUITE 650  CHICAGO 60607",
+   "sec": "KEVIN LALL 404 W HARRISON ST STE 650 CHICAGO IL 60607",
+   "trans": "00000000"
+  },
+  "53731929": {
+   "status": "00",
+   "type": "4",
+   "pres": "ROBERTO VEDOVOTTO ONE ALOHA LANE PEORIA, IL 61615",
+   "sec": "PAUL J. LIPPENS, JR. ONE ALOHA LANE PEORIA, IL 61615",
+   "trans": "00000000"
+  },
+  "53799817": {
+   "status": "09",
+   "type": "4",
+   "pres": "JEFFREY A OWENS  8201 N UNIVERSITY ST PEORIA 61615",
+   "sec": "MERGED OR CONSOLIDATED  01 04 11  NQDECORP",
+   "trans": "00000000"
+  },
+  "53934323": {
+   "status": "00",
+   "type": "6",
+   "pres": "RYAN M. MCGIRE 8590 NATIONAL BLVD. CULVER CITY, CA 90232",
+   "sec": "BRET S. LITTON 8640 EVANS AVENUE ST. LOUIS, MO 63134",
+   "trans": "00000000"
+  },
+  "53992404": {
+   "status": "00",
+   "type": "4",
+   "pres": "MICHAEL  MITROVICH  4918 N SPRINGFIELD CHGO 60625",
+   "sec": "MATHEW WOJCIESZEK  4918 N SPRINGFIELD  CHICAGO 60625",
+   "trans": "00000000"
+  },
+  "54236093": {
+   "status": "00",
+   "type": "6",
+   "pres": "BOB DE LANGE 5205 N O'CONNOR BLVD STE 100 IRVING TX 75039",
+   "sec": "NICOLE PUZA 5205 N. O'CONNOR BLVD SUITE 100, IRVIN, TX 75039",
+   "trans": "00000000"
+  },
+  "54240775": {
+   "status": "06",
+   "type": "6",
+   "pres": "JOANNA L SOHOVICH  300 WINDSOR DR OAK BROOK 60523",
+   "sec": "WITHDRAWN               09 02 21",
+   "trans": "00000000"
+  },
+  "54407831": {
+   "status": "00",
+   "type": "4",
+   "pres": "MICHAEL E. KERR 9575 W HIGGINSRD 600, ROSEMONT, IL 60018",
+   "sec": "JOSEPH T. ELBERTS 9575 W HIGGINS RD 600, ROSEMONT, IL 60018",
+   "trans": "00000000"
+  },
+  "54408013": {
+   "status": "00",
+   "type": "4",
+   "pres": "RYAN C WITGES 306 W SOUTHERN ROW TEUTOPOLIS IL 62467",
+   "sec": "BRADLEY J KOENIG 1002 ASHWOOD DR EFFINGHAM IL 62401",
+   "trans": "00000000"
+  },
+  "54408099": {
+   "status": "00",
+   "type": "4",
+   "pres": "MICHAEL B SHRIER 8471 EDGEWATER CARLOCK IL, 61725",
+   "sec": "THOMAS A SHRIER 119 HOLLANDS GROVE LN WASHINGTON IL 61571",
+   "trans": "00000000"
+  },
+  "54459696": {
+   "status": "07",
+   "type": "6",
+   "pres": "WILLIAM J JOHNSON  1107 PADDOCK PALATINE 60067",
+   "sec": "REVOKED          05 02 88",
+   "trans": "00000000"
+  },
+  "54587961": {
+   "status": "00",
+   "type": "6",
+   "pres": "MATTHEW S RICHARDS  910 W WINGRA DR MADISON WI 53715",
+   "sec": "JOSEPH M BUNKER  SAME",
+   "trans": "00000000"
+  },
+  "54617305": {
+   "status": "00",
+   "type": "4",
+   "pres": "JASON RECOB 286 MEMORIAL CT. CRYSTAL LAKE IL 60014",
+   "sec": "GREGORY PREVES 286 MEMORIAL COURT CRYSTAL LAKE IL 60014",
+   "trans": "00000000"
+  },
+  "54716982": {
+   "status": "00",
+   "type": "4",
+   "pres": "ERIN INMAN 550 W JACKSON BLVD STE 600 CHICAGO IL 60661",
+   "sec": "ERIN INMAN 550 W JACKSON BLVD STE 600 CHICAGO IL 60661",
+   "trans": "00000000"
+  },
+  "54722524": {
+   "status": "06",
+   "type": "6",
+   "pres": "ROBERT A PRITZKER  225 W WASHINGTON ST  CHGO   60606",
+   "sec": "WITHDRAWN               06 24 04",
+   "trans": "00000000"
+  },
+  "54857667": {
+   "status": "06",
+   "type": "6",
+   "pres": "PHILIP BAERENWALD 840 CRESCENT CENTRAL DR #600 FRANKLIN TN",
+   "sec": "WITHDRAWN               06 30 15",
+   "trans": "00000000"
+  },
+  "54905769": {
+   "status": "09",
+   "type": "4",
+   "pres": "ANDREW T BERLIN  111 N CANAL STE 300  CHICAGO 60606",
+   "sec": "MERGED OR CONSOLIDATED  12 31 97  DE  N.Q.",
+   "trans": "00000000"
+  },
+  "54937555": {
+   "status": "00",
+   "type": "6",
+   "pres": "ERIC ASHLEMAN  3100 SANDERS RD #301 NORTHBROOK IL 60062",
+   "sec": "LISA ANDERSON 3100 SANDERS ROAD, #301 NORTHBROOK IL 60062",
+   "trans": "00000000"
+  },
+  "55009678": {
+   "status": "00",
+   "type": "4",
+   "pres": "JAMES A SHIRK 103 N ROBINSON ST BLOOMINGTON IL, 61701",
+   "sec": "JEFFREY A COMBS  103 N ROBINSON ST BLOOMINGTON IL 61701",
+   "trans": "00000000"
+  },
+  "55014892": {
+   "status": "08",
+   "type": "4",
+   "pres": "JACK SPIRO DIBIE  1641 PEBBLE BEACH DR HOFFMAN ESTATES 60194",
+   "sec": "VOLUNTARY DISSOLUTION 02 06 04",
+   "trans": "00000000"
+  },
+  "55049815": {
+   "status": "00",
+   "type": "4",
+   "pres": "DIANE A OBERHELMAN 420 N MAIN ST EAST PEORIA IL 61611",
+   "sec": "KATHLEEN BRILL 420 N MAIN STREET EAST PEORIA IL 61611",
+   "trans": "00000000"
+  },
+  "55158258": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOHN AMMONS  105 WEST VETERANSPKWY  YORKVILLE 60560",
+   "sec": "SAME",
+   "trans": "00000000"
+  },
+  "55170355": {
+   "status": "08",
+   "type": "4",
+   "pres": "NATALE CAPUTO 390 E. DEVON AVE. STE. 101 ROSELLE, IL 60172",
+   "sec": "INVOLUNTARY DISSOLUTION 12 09 16",
+   "trans": "00000000"
+  },
+  "55226784": {
+   "status": "00",
+   "type": "4",
+   "pres": "C.A. SHURSON 315 S WALNUT ST FRANKLIN GROVE IL 61031",
+   "sec": "C C MUSGROVE  1710 AVENUE C  STERLING, IL  61081",
+   "trans": "00000000"
+  },
+  "55430918": {
+   "status": "00",
+   "type": "4",
+   "pres": "RENEE TOGHER 5005 S NAGLE AVECHICAGO IL 60638",
+   "sec": "JOANNE VELASQUEZ  5005 S NAGLEAVE CHICAGO IL 60638",
+   "trans": "00000000"
+  },
+  "55576742": {
+   "status": "00",
+   "type": "6",
+   "pres": "DAVID E FLITMAN 9399 W HIGGINS RD STE 100 ROSEMONT IL 60018",
+   "sec": "TIMOTHY JOHNSON 9399 W HIGGINS RD STE 100 ROSEMONT IL 60018",
+   "trans": "00000000"
+  },
+  "55753415": {
+   "status": "09",
+   "type": "4",
+   "pres": "CRAIG J DUCHOSSOIS  845 LARCH AVE.  ELMHURST, IL 60126",
+   "sec": "MERGED OR CONSOLIDATED  03 01 16  NQ DELLC",
+   "trans": "00000000"
+  },
+  "55780358": {
+   "status": "00",
+   "type": "6",
+   "pres": "ELIZABETH UIHLEIN 12575 ULINE DR PLEASANT PRAIRIE WI 53158",
+   "sec": "STEPHEN E UIHLEIN 12575 ULINE DR PLEASANT PRAIRIE WI",
+   "trans": "00000000"
+  },
+  "55829918": {
+   "status": "00",
+   "type": "4",
+   "pres": "BENJAMIN HART  115 W JEFFERSTON ST #401  BLOOMINGTON 61701",
+   "sec": "PAUL JEFFERSON  115 W. JEFFERSON ST  STE 401",
+   "trans": "00000000"
+  },
+  "55916349": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"JAMES M BUCHANAN  9625 WICKER  ST JOHN IN  46373",
+   "sec": "INVOLUNTARY DISSOLUTION 09 03 91",
+   "trans": "00000000"
+  },
+  "56017143": {
+   "status": "07",
+   "type": "6",
+   "pres": "DONALD E KINSER  1263 COLONY DR  MARIETTA GA 30068",
+   "sec": "REVOKED          11 01 94",
+   "trans": "00000000"
+  },
+  "56020063": {
+   "status": "00",
+   "type": "4",
+   "pres": "JENNIFER BEAVER 10688 DUNCAN ROAD WYOMING, IL 61491",
+   "sec": "MARILYN TANNER  728 ST RT 40SPEER 61479",
+   "trans": "00000000"
+  },
+  "56026444": {
+   "status": "08",
+   "type": "4",
+   "pres": "CAROLYN L BECK  RR 1 BOX 284  ILLIOPOLIS 62539",
+   "sec": "INVOLUNTARY DISSOLUTION 12 01 93",
+   "trans": "00000000"
+  },
+  "56096302": {
+   "status": "00",
+   "type": "6",
+   "pres": "BRYAN W. LANGSTON 1 DOT WAY, MT. STERLING, IL 62353",
+   "sec": "GEORGE H. EVERSMAN 1 DOT WAY, MT. STERLING, IL 62353",
+   "trans": "00000000"
+  },
+  "56193952": {
+   "status": "15",
+   "type": "4",
+   "pres": "BRIAN KOCHENDORFER 2718 W ROSCOE ST #100A CHICAGO IL 60618",
+   "sec": "CONVERSION              01 01 25  15562595",
+   "trans": "00000000"
+  },
+  "56203214": {
+   "status": "07",
+   "type": "6",
+   "pres": "HERMAN H DIERKS  4651 155TH ST  CLINTON IA  52732",
+   "sec": "REVOKED          05 13 11",
+   "trans": "00000000"
+  },
+  "56265287": {
+   "status": "00",
+   "type": "4",
+   "pres": "NICHOLAS M RYAN  135 WATER STNAPERVILLE  60540",
+   "sec": "SANDRA HOHENSTEIN  135 WATER ST  NAPERVILLE  60540",
+   "trans": "00000000"
+  },
+  "56289569": {
+   "status": "00",
+   "type": "4",
+   "pres": "LESLIE J. SAWYER, 33 W MONROE#1825, CHICAGO, IL 60603",
+   "sec": "JOAN M MAZUREK 33 W MONROE #1825, CHICAGO, IL 60603",
+   "trans": "00000000"
+  },
+  "56322671": {
+   "status": "00",
+   "type": "4",
+   "pres": "RAYMOND J SCARPELLI JR (TR)39NUS HIGHWAY 12 FOX LAKE 60020",
+   "sec": "MARK SCARPELLI (DI) SAME",
+   "trans": "00000000"
+  },
+  "56355332": {
+   "status": "06",
+   "type": "6",
+   "pres": "THOMAS H WEBER  2792 N HELEN N  ST PAUL MN 55109",
+   "sec": "WITHDRAWN               04 25 00",
+   "trans": "00000000"
+  },
+  "56614915": {
+   "status": "00",
+   "type": "4",
+   "pres": "RACHELLE LENGERMANN, 2808 THOLE-PLOCHER RD, HIGHLAND IL62249",
+   "sec": "LISA J. SCHOLL, 2808 THOLE-PLOCHER ROAD, HIGHLAND IL 62249",
+   "trans": "00000000"
+  },
+  "56656839": {
+   "status": "00",
+   "type": "6",
+   "pres": "GREG HENDERSON  6133 N RIVER RD STE 500 ROSEMONT IL 60018",
+   "sec": "RYAN STAFFORD  6133 N RIVER RD STE 500 ROSEMONT IL 60018",
+   "trans": "00000000"
+  },
+  "56684794": {
+   "status": "00",
+   "type": "6",
+   "pres": "WILLIAM ZIELINSKI ONE CHICAGO TUBE DR ROMEOVILLE, IL 60446",
+   "sec": "ROBERT BRADY ONE CHICAGO TUBE DRIVE ROMEOVILLE, IL 60446",
+   "trans": "00000000"
+  },
+  "56745416": {
+   "status": "08",
+   "type": "4",
+   "pres": "DONALD E MANHAD JR 900 WOODLANDS PKWY  VERNON HILLS 60061",
+   "sec": "VOLUNTARY DISSOLUTION 05 08 07",
+   "trans": "00000000"
+  },
+  "56782818": {
+   "status": "00",
+   "type": "4",
+   "pres": "BRIAN ALWAN 703 E WAR MEMORIAL DR PEORIA HEIGHTS IL 61616",
+   "sec": "PATRICK ALWAN 703 E WAR MEMORIAL DR PEORIA HEIGHTS IL 61616",
+   "trans": "00000000"
+  },
+  "56809317": {
+   "status": "00",
+   "type": "4",
+   "pres": "RICHARD J STEINABRTH 3400 W 35TH ST CHICAGO 60632",
+   "sec": "DAVID A STEINBARTH 3400 W 35THST CHICAGO 60632",
+   "trans": "00000000"
+  },
+  "56975241": {
+   "status": "15",
+   "type": "4",
+   "pres": "GUILLERMO GARCIA  301 WASHINGTON ST  GLENVIEW IL 60025",
+   "sec": "CONVERSION              12 19 25  16879592",
+   "trans": "00000000"
+  },
+  "57025611": {
+   "status": "00",
+   "type": "4",
+   "pres": "KAREN STEINGRABER 9601 LAKESHORE DRIVE NEWTON WI 53063",
+   "sec": "JAMIL F BOU-SAAB 1023 HOME AVE OAK PARK IL 60302",
+   "trans": "00000000"
+  },
+  "57104996": {
+   "status": "00",
+   "type": "4",
+   "pres": "JAMIE WHITE  4279 N RINK RD LENA IL 61048",
+   "sec": "LINDSEY WHITE  SAME",
+   "trans": "00000000"
+  },
+  "57108665": {
+   "status": "00",
+   "type": "4",
+   "pres": "JON SEGAL 1051 PERIMTER DR , 9TH FLOOR SCHAUMBURG, IL 60173",
+   "sec": "MICHAEL HARLAN 1051 PERIMTER DR , 9TH FLOOR SCHAUMBURG, IL 6",
+   "trans": "00000000"
+  },
+  "57127023": {
+   "status": "00",
+   "type": "4",
+   "pres": "TIMOTHY S CRANE  9700 W HIGGINS RD #800  ROSEMONT 60018",
+   "sec": "KATHLEEN M BOEGE  9700 W HIGGINS RD #800  ROSEMONT 60018",
+   "trans": "00000000"
+  },
+  "57148845": {
+   "status": "00",
+   "type": "4",
+   "pres": "TERESA L BEACH-SHELOW 8629 SECRET WAY DR ROSCOE, IL 61073",
+   "sec": "THOMAS A SHELOW 8629 SECRET WAY DRIVE ROSCOE IL 61073",
+   "trans": "00000000"
+  },
+  "57218479": {
+   "status": "08",
+   "type": "4",
+   "pres": "JOSE MALDONADO  20153 STONY ISLAND CHICAGO HEIGHTS IL 60411",
+   "sec": "INVOLUNTARY DISSOLUTION 08 08 25",
+   "trans": "00000000"
+  },
+  "57247568": {
+   "status": "00",
+   "type": "4",
+   "pres": "STEPHEN W BAIRD  120 S LASALLE#2000  CHICAGO 60603",
+   "sec": "STEPHEN W BAIRD  SAME",
+   "trans": "00000000"
+  },
+  "57299347": {
+   "status": "00",
+   "type": "4",
+   "pres": "TIMOTHY ANDERSON 100 S WACKER DR SUITE 2100 CHICAGO IL 60606",
+   "sec": "NANCY ANDERSON 100 S WACKER DR, SUITE 2100 CHICAGO, IL 60606",
+   "trans": "00000000"
+  },
+  "57354089": {
+   "status": "00",
+   "type": "4",
+   "pres": "JEFFREY S HUEBNER 1322 GARDNERLN PEORIA HEIGHTS, IL 61616",
+   "sec": "MARTHA E HUEBNER 1322 GARDNERLN PEORIA HEIGHTS, IL 61616",
+   "trans": "00000000"
+  },
+  "57387971": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"CYNTHIA M MORAN  10 S LA SALLE STE 3600  CHICAGO  60603",
+   "sec": "VOLUNTARY DISSOLUTION 09 22 93",
+   "trans": "00000000"
+  },
+  "57615419": {
+   "status": "00",
+   "type": "4",
+   "pres": "CHRISTINE SPARKS 1360 POST OAK BLVD #100 HOUSTON TX 77056",
+   "sec": "SEAN STONER      SAME",
+   "trans": "00000000"
+  },
+  "57634391": {
+   "status": "00",
+   "type": "4",
+   "pres": "KEVIN D MCARTOR 19400 SHABBONARD MALTA IL 60150",
+   "sec": "JENNA L SPYCHAL  444 KENSINGTON CT, DEKALB IL  60115",
+   "trans": "00000000"
+  },
+  "57833157": {
+   "status": "00",
+   "type": "4",
+   "pres": "JEFFREY SLOAN 157 SOUTHMORELAND PL DECATUR 62521",
+   "sec": "JEFFREY SLOAN 157 SOUTHMORELAND PL DECATUR 62521",
+   "trans": "00000000"
+  },
+  "58031259": {
+   "status": "00",
+   "type": "4",
+   "pres": "PATRICK E GROTH  925 S 7TH STREET SPRINGFIELD 62703",
+   "sec": "PATRICK E GROTH  925 S 7TH STREET SPRINGFIELD 62703",
+   "trans": "00000000"
+  },
+  "58218901": {
+   "status": "00",
+   "type": "4",
+   "pres": "KEVIN P. HOGAN 245 E. BOB JONES ROAD, SOUTHLAKE, TX 76092",
+   "sec": "",
+   "trans": "00000000"
+  },
+  "58306045": {
+   "status": "08",
+   "type": "4",
+   "pres": "MARK T WIGHT  5919 MEADOW AVE  LISLE 60532",
+   "sec": "VOLUNTARY DISSOLUTION 05 16 96",
+   "trans": "00000000"
+  },
+  "58312193": {
+   "status": "00",
+   "type": "4",
+   "pres": "BRADLEY D GENUNG  1550 COBDENSCHOOL ROAD  COBDEN  62920",
+   "sec": "CHRISTINE A GENUNG SAME",
+   "trans": "00000000"
+  },
+  "59056417": {
+   "status": "07",
+   "type": "6",
+   "pres": "DANNY LAM  900 LANIDEX PLAZA 3RD FL PARSIAPPANY NJ 070542",
+   "sec": "REVOKED          02 01 01",
+   "trans": "00000000"
+  },
+  "59272985": {
+   "status": "08",
+   "type": "4",
+   "pres": "MICHAEL F PENNINO  5836 N MARMORA CHICAGO 60646",
+   "sec": "INVOLUNTARY DISSOLUTION 07 01 99",
+   "trans": "00000000"
+  },
+  "59429299": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"SARAH E FILLER  525 W MONROE ST #1600  CHICAGO IL  60661",
+   "sec": "VOLUNTARY DISSOLUTION 06 17 97",
+   "trans": "00000000"
+  },
+  "59589598": {
+   "status": "08",
+   "type": "4",
+   "pres": "PHIL H COHN  907 MLK  E ST LOUIS 62201",
+   "sec": "INVOLUNTARY DISSOLUTION 02 01 05",
+   "trans": "00000000"
+  },
+  "59645056": {
+   "status": "00",
+   "type": "4",
+   "pres": "ANDREW B. GROSS 2700 E 5TH AVENUE, GARY, IN 46402",
+   "sec": "ANDREW B. GROSS 2700 E 5TH AVENUE, GARY, IN 46402",
+   "trans": "00000000"
+  },
+  "59692828": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"EDDIE E ANDERSON  8128 S WESTERN AVE CHICAGO 60620",
+   "sec": "INVOLUNTARY DISSOLUTION 05 01 99",
+   "trans": "00000000"
+  },
+  "59902873": {
+   "status": "09",
+   "type": "4",
+   "pres": "RACHELLE JACOBS  871 E 2725 NORTH RD MECHANICSBURG 62545",
+   "sec": "MERGED OR CONSOLIDATED  02 22 12  67767209",
+   "trans": "00000000"
+  },
+  "59903365": {
+   "status": "00",
+   "type": "6",
+   "pres": "M. JUDE REYES 777 S. FLAGLER DR STE 1500 WEST PALM BEACH, FL",
+   "sec": "DAVID K REYES 777 FLAGLER DR.,SUITE 1500 WEST PALM BEACH FL",
+   "trans": "00000000"
+  },
+  "59932195": {
+   "status": "09",
+   "type": "6",
+   "pres": "ROBIN L PETROELJE  32 WINDSOR DRIVE  ELMHURST 60126",
+   "sec": "MERGED OR CONSOLIDATED  12 31 17  53203787",
+   "trans": "00000000"
+  },
+  "59960342": {
+   "status": "07",
+   "type": "6",
+   "pres": "JOHN E RAU  171 N CLARK STREET CHICAGO 60601-3294",
+   "sec": "REVOKED          10 02 00",
+   "trans": "00000000"
+  },
+  "60116237": {
+   "status": "09",
+   "type": "4",
+   "pres": "DANIEL L GOODWIN  2901 BUTTERFIELD ROAD OAK BROOK 60523",
+   "sec": "MERGED OR CONSOLIDATED  06 13 17  71227073",
+   "trans": "00000000"
+  },
+  "60168482": {
+   "status": "08",
+   "type": "4",
+   "pres": "DALE T GOMEZ  1336 S FINLEY RD 2I LOMBARD 60148",
+   "sec": "INVOLUNTARY DISSOLUTION 03 01 06",
+   "trans": "00000000"
+  },
+  "60265798": {
+   "status": "06",
+   "type": "6",
+   "pres": "JACQUELINE RENNER 6640 W TOUGHY AVE NILES IL 60714",
+   "sec": "WITHDRAWN               08 06 10",
+   "trans": "00000000"
+  },
+  "60272824": {
+   "status": "09",
+   "type": "4",
+   "pres": "GREGG A SAUDER 9136 SPRINGFIELD RD TERMONT 61568",
+   "sec": "MERGED OR CONSOLIDATED  07 02 12  NQ DELLC",
+   "trans": "00000000"
+  },
+  "60387206": {
+   "status": "08",
+   "type": "4",
+   "pres": "TODD HOLLAND, 180 REGAL CT, O'FALLON, IL 62269",
+   "sec": "INVOLUNTARY DISSOLUTION 08 14 26",
+   "trans": "00000000"
+  },
+  "60403406": {
+   "status": "00",
+   "type": "4",
+   "pres": "CHARLES NORWESH  680 PORTWINERD RIVERWOODS 60015",
+   "sec": "JEFF JOZWIAK 1060 W. ALBION AVE CHICAGO 60626",
+   "trans": "00000000"
+  },
+  "60444781": {
+   "status": "00",
+   "type": "6",
+   "pres": "MARK W KOWLZAN  1 N FIELD CT  LAKE FOREST 60045",
+   "sec": "S. ELLIS CUNNINGHAM 1 N FIELD CT  LAKE FOREST 60045",
+   "trans": "00000000"
+  },
+  "60736073": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"DAVID E BRANDT 1280 LAFAYETTE CIRCLE URBANA 61803",
+   "sec": "INVOLUNTARY DISSOLUTION 03 01 01",
+   "trans": "00000000"
+  },
+  "60857245": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"KENNETH G FREUND 3011 BONNIE BRAE CR FLOSSMOOR 60422",
+   "sec": "VOLUNTARY DISSOLUTION 04 04 00",
+   "trans": "00000000"
+  },
+  "60873089": {
+   "status": "00",
+   "type": "6",
+   "pres": "CHARLES S ALLEN JR 205 WAGNERRD NORTHFIELD 60093",
+   "sec": "JAMES ALLEN  2 GOLF LANE  WINNTEKA  60093",
+   "trans": "00000000"
+  },
+  "61046844": {
+   "status": "00",
+   "type": "4",
+   "pres": "JEFFREY A SEBERT 1550 W BARTLETT RD. BARTLETT, IL 60103",
+   "sec": "STEVE PEARCE  SAME",
+   "trans": "00000000"
+  },
+  "61112227": {
+   "status": "09",
+   "type": "4",
+   "pres": "IQBAL ALI  8457 N DRAKE AVE SKOKIE 60076",
+   "sec": "MERGED OR CONSOLIDATED  12 30 03  61251448",
+   "trans": "00000000"
+  },
+  "61228616": {
+   "status": "00",
+   "type": "4",
+   "pres": "A. JIMMY LOPEZ 602 N COUNTRY FAIR DR CHAMPAIGN 61820",
+   "sec": "KAREN COOLEY 602 N COUNTRY FAIR DR CHAMPAIGN 61820",
+   "trans": "00000000"
+  },
+  "61386742": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"SKENDER ZULKU 121 3RD AVE. WEST ANDALUSIA 61232",
+   "sec": "INVOLUNTARY DISSOLUTION 05 01 02",
+   "trans": "00000000"
+  },
+  "61445463": {
+   "status": "08",
+   "type": "4",
+   "pres": "EVA EPSTEIN 920 N LAKESIDE DR STE 1B VERNON HILLS 60061",
+   "sec": "INVOLUNTARY DISSOLUTION 06 02 03",
+   "trans": "00000000"
+  },
+  "61741453": {
+   "status": "08",
+   "type": "4",
+   "pres": "JOSHUA KIM  3632 BREITWIESER LN NAPERVILLE 60564",
+   "sec": "INVOLUNTARY DISSOLUTION 12 01 04",
+   "trans": "00000000"
+  },
+  "61816534": {
+   "status": "06",
+   "type": "6",
+   "pres": "BRYANT L KEIL 900 N MICHIGAN AVE STE 1800 CHICAGO 60611",
+   "sec": "WITHDRAWN               04 19 02",
+   "trans": "00000000"
+  },
+  "61850392": {
+   "status": "00",
+   "type": "4",
+   "pres": "CHRIS ERVIN 5 CUT ST  ALTON  62002",
+   "sec": "CHAD BRIGHAM  5 CUT ST  ALTON  62002",
+   "trans": "00000000"
+  },
+  "61888268": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"RANDY BAUER 3671 GRAND RIDGE CT MCHENRY 60050",
+   "sec": "INVOLUNTARY DISSOLUTION 03 01 03",
+   "trans": "00000000"
+  },
+  "62127635": {
+   "status": "00",
+   "type": "4",
+   "pres": "JIMMY AKINTONDE 1213 W LEXINGTON ST CHICAGO IL 60607",
+   "sec": "JIMMY AKINTONDE 1213 W LEXINGTON ST CHICAGO IL 60607",
+   "trans": "00000000"
+  },
+  "62235594": {
+   "status": "00",
+   "type": "4",
+   "pres": "C DAVID HODGE 1942A COUNTY RDO E MAHOMET 61853",
+   "sec": "C DAVID HODGE 1942A COUNTY RDO E MAHOMET 61853",
+   "trans": "00000000"
+  },
+  "62372893": {
+   "status": "15",
+   "type": "4",
+   "pres": "C ROBERT UDELL, JR (DI) 2116 S 17TH ST MATTOON IL 61938",
+   "sec": "CONVERSION              01 30 25  NQDELLC",
+   "trans": "00000000"
+  },
+  "62415347": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"DENNIS M FEINBERG 221 N LASALLE ST CHICAGO 60601",
+   "sec": "INVOLUNTARY DISSOLUTION 01 02 04",
+   "trans": "00000000"
+  },
+  "62865784": {
+   "status": "00",
+   "type": "4",
+   "pres": "JAMAL HASHMEH 5038 W. 79TH STREET",
+   "sec": "JAMAL HASHMEH 5038 W. 79TH STREET",
+   "trans": "00000000"
+  },
+  "62917326": {
+   "status": "07",
+   "type": "6",
+   "pres": "DANIEL P O'SHEA  988 WHITMOOR DR  ST CHARLES MO 63304",
+   "sec": "REVOKED          10 12 07",
+   "trans": "00000000"
+  },
+  "63060127": {
+   "status": "00",
+   "type": "4",
+   "pres": "JEFFREY KIMBERLY, 707 FULTON AVENUE, ROCKFORD, IL 61107",
+   "sec": "JAMES W KEELING 4414 ALPINE OAKS ROCKFORD IL 61107",
+   "trans": "00000000"
+  },
+  "63273546": {
+   "status": "00",
+   "type": "4",
+   "pres": "HOPE HUMPHREY-WALKER 1821 S. 15TH STREET SPRINGFIELD, IL",
+   "sec": "HOPE HUMPHREY-WALKER  SAME ASABOVE",
+   "trans": "00000000"
+  },
+  "63433802": {
+   "status": "09",
+   "type": "4",
+   "pres": "PETER A GARETTO  4855 W 121ST  ALSIP 60803",
+   "sec": "MERGED OR CONSOLIDATED  09 21 05  51361784",
+   "trans": "00000000"
+  },
+  "63818372": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOSEPH W KNEPP 1272 WEATHERSPOON DRIVE MORTON, IL 61550",
+   "sec": "JONATHAN S PETERSON 26 TAMARACK CT MORTON IL 61550",
+   "trans": "00000000"
+  },
+  "63883247": {
+   "status": "06",
+   "type": "6",
+   "pres": "CHRIS OBER 700 COMMERCE DRIVE,MORTON, IL  61550",
+   "sec": "WITHDRAWN               12 26 08",
+   "trans": "00000000"
+  },
+  "64150715": {
+   "status": "00",
+   "type": "4",
+   "pres": "FERNANDO CANALES CLARIOND  CALZADA DEL VALLE #110 20 PISO",
+   "sec": "ALFREDO IBARRA SALUM     SAN PEDRO GARZA GARCIA MEXICO 66220",
+   "trans": "00000000"
+  },
+  "64364375": {
+   "status": "15",
+   "type": "4",
+   "pres": "DON MANHARD 595 SHERIDAN ROAD GLENCOE IL 60022",
+   "sec": "CONVERSION              08 18 25  16591335",
+   "trans": "00000000"
+  },
+  "64397249": {
+   "status": "00",
+   "type": "6",
+   "pres": "W. ANTHONY WILL  2375 WATERVIEW DR. NORTHBROOK IL 60062",
+   "sec": "MICHAEL P. MCGRANE  2375 WATERVIEW DR. NORTHBROOK IL 60062",
+   "trans": "00000000"
+  },
+  "64588834": {
+   "status": "00",
+   "type": "4",
+   "pres": "NICK HART, 107 COMMERCE PLACE, PEORIA, IL  61604",
+   "sec": "SCOTT RINKENBERGER   SAME ADDRESS",
+   "trans": "00000000"
+  },
+  "64651838": {
+   "status": "00",
+   "type": "4",
+   "pres": "TERRY L BAUM 866 N MAIN ST MORTON IL 61550",
+   "sec": "STEPHANIE COBB SAME",
+   "trans": "00000000"
+  },
+  "64774727": {
+   "status": "08",
+   "type": "4",
+   "pres": "VELIN VELINOV  65 6TH ST WHEELING  60090",
+   "sec": "INVOLUNTARY DISSOLUTION 07 13 18",
+   "trans": "00000000"
+  },
+  "65109069": {
+   "status": "00",
+   "type": "6",
+   "pres": "DAVE MENZEL 600 W CHICAGO AVE STE 200 CHICAGO IL 60654",
+   "sec": "PETER ROGERS 600 W CHICAGO AVE STE 200 CHICAGO IL 60654",
+   "trans": "00000000"
+  },
+  "65186519": {
+   "status": "08",
+   "type": "4",
+   "pres": "ATIF HAMEED KHAN 10402 S 84TH AVE PALOS HILLS IL 60465-17",
+   "sec": "VOLUNTARY DISSOLUTION 08 13 15",
+   "trans": "00000000"
+  },
+  "65286068": {
+   "status": "00",
+   "type": "4",
+   "pres": "STANLEY J BANAS 224 BRAMPTON LN LAKE FOREST 60045",
+   "sec": "SAME",
+   "trans": "00000000"
+  },
+  "65554844": {
+   "status": "07",
+   "type": "6",
+   "pres": "ADAM W BORGMAN 101 OAKLEY STREET EVANSVILLE, IN 47710",
+   "sec": "REVOKED          10 09 26",
+   "trans": "00000000"
+  },
+  "66171701": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"DENNIS RIGGS",
+   "sec": "INVOLUNTARY DISSOLUTION 01 08 10",
+   "trans": "00000000"
+  },
+  "66291804": {
+   "status": "00",
+   "type": "4",
+   "pres": "MATTHEW J KILGUS  6778 N 2150 E. RD   FAIRBURY 61739",
+   "sec": "PAUL KILGUS  21471 E 670 N. RD   FAIRBURY 61739",
+   "trans": "00000000"
+  },
+  "66523241": {
+   "status": "06",
+   "type": "6",
+   "pres": "JERRY W LEVIN 2240 W 75TH ST WOODRIDGE IL 60517",
+   "sec": "WITHDRAWN               11 29 12",
+   "trans": "00000000"
+  },
+  "66693414": {
+   "status": "00",
+   "type": "6",
+   "pres": "NICHOLAS PINCHUK  2801 80TH ST KENOSHA WI 53143",
+   "sec": "RICHARD MILLER  2801 80TH ST KENOSHA WI 53143",
+   "trans": "00000000"
+  },
+  "67011368": {
+   "status": "00",
+   "type": "4",
+   "pres": "JEFFREY R TUNBERG 2525 41ST STMOLINE 61265",
+   "sec": "JON C TUNBERG SAME",
+   "trans": "00000000"
+  },
+  "67323467": {
+   "status": "00",
+   "type": "4",
+   "pres": "KEITH J PLAVEC 3116 N DRIES LN #100 PEORIA IL 61604",
+   "sec": "TERRY L. FELDMANN SAME",
+   "trans": "00000000"
+  },
+  "67607724": {
+   "status": "00",
+   "type": "6",
+   "pres": "",
+   "sec": "JASON W MONTGOMERY 8201 N UNIVERSITY ST PEORIA 61615",
+   "trans": "00000000"
+  },
+  "67622987": {
+   "status": "00",
+   "type": "4",
+   "pres": "FRANK A. LIZZADRO 19 OXFORD AVENUE CLARENDON HILLS IL 60514",
+   "sec": "DAVID A LEALI  510 E ATWOOD COURT ELMHURST IL 60126",
+   "trans": "00000000"
+  },
+  "68006279": {
+   "status": "07",
+   "type": "6",
+   "pres": "JUSTIN PENROSE  9705 NEWBERRY DR SCHOFIELD WI 54476",
+   "sec": "REVOKED          01 08 21",
+   "trans": "00000000"
+  },
+  "68454166": {
+   "status": "00",
+   "type": "6",
+   "pres": "J JEFFREY HEINEN 2565 SOM CENTER RD HUNTING VALLEY OH 44022",
+   "sec": "THOMAS HEINEN 7540 WATERFALL TRAIL CHAGRIN FALLS OH 44022",
+   "trans": "00000000"
+  },
+  "68937051": {
+   "status": "08",
+   "type": "4",
+   "pres": "UNACCEPTABLE PAYMENT    09 16 13",
+   "sec": "INVOLUNTARY DISSOLUTION 11 01 13",
+   "trans": "00000000"
+  },
+  "69312268": {
+   "status": "00",
+   "type": "4",
+   "pres": "MICHAEL BOUSIS  1250 N LAKE ST.   AURORA, IL  60506",
+   "sec": "SAME",
+   "trans": "00000000"
+  },
+  "69440126": {
+   "status": "06",
+   "type": "6",
+   "pres": "KEVIN NOLAN  85 MILL ST BLDG A, #214  ROSWELL, GA 30075",
+   "sec": "WITHDRAWN               03 01 17",
+   "trans": "00000000"
+  },
+  "69512666": {
+   "status": "08",
+   "type": "4",
+   "pres": "UNACCEPTABLE PAYMENT    09 24 14",
+   "sec": "INVOLUNTARY DISSOLUTION 11 01 14",
+   "trans": "00000000"
+  },
+  "70197472": {
+   "status": "00",
+   "type": "6",
+   "pres": "PAUL G. REITZ 1525 KAUTZ RD, STE 600 WEST CHICAGO IL 60185",
+   "sec": "DAVID A. MARTIN 1525 KAUTZ RD, STE 600 WEST CHICAGO IL 60185",
+   "trans": "00000000"
+  },
+  "70217384": {
+   "status": "00",
+   "type": "4",
+   "pres": "MATTHEW RIGGS, 1901 S HIGH CROSS RD, URBANA, IL 61802",
+   "sec": "DARIN RIGGS 406 COUNTY RD 2000EAST SIDNEY IL 61877",
+   "trans": "00000000"
+  },
+  "70544202": {
+   "status": "00",
+   "type": "6",
+   "pres": "CRAIG J DUCHOSSOIS 444 W LAKE ST/#2000 CHICAGO 60606",
+   "sec": "MICHAEL E FLANNERY 606 MARQUETTE DR NEW BUFFALO MI 49117",
+   "trans": "00000000"
+  },
+  "70631911": {
+   "status": "09",
+   "type": "6",
+   "pres": "PAUL D VANDUYNE  623 26TH AVE  ROCK ISLAND 61201",
+   "sec": "MERGED OR CONSOLIDATED  05 18 23  74133029",
+   "trans": "00000000"
+  },
+  "70745852": {
+   "status": "06",
+   "type": "6",
+   "pres": "ANDREW FRICHTL 100 SW MAIN ST SUITE 1600 PORTLAND OR 97204",
+   "sec": "WITHDRAWN               07 23 26",
+   "trans": "00000000"
+  },
+  "70875764": {
+   "status": "08",
+   "type": "4",
+   "pres": "JOSH FLANDER  113 DORAL DR SPRINGFIELD IL 62704",
+   "sec": "VOLUNTARY DISSOLUTION 08 26 26",
+   "trans": "00000000"
+  },
+  "71075745": {
+   "status": "00",
+   "type": "6",
+   "pres": "JEFFERY C ACKERBERG 11 HAWTHORN PKWY, VERNON HILLS, IL 60061",
+   "sec": "TRACY D CRANDALL 11 HAWTHORN PARKWAY, VERNON HILLS, IL 60061",
+   "trans": "00000000"
+  },
+  "71431134": {
+   "status": "00",
+   "type": "4",
+   "pres": "GEORGE H. EVERSMAN 1 DOT WAY, MT. STERLING, IL 62353",
+   "sec": "MARTIN H. TRUONG 1 DOT WAY, MT. STERLING, IL 62353",
+   "trans": "00000000"
+  },
+  "71590062": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOHN AUSTIN 8900 N PIONEER RD PEORIA IL 61615",
+   "sec": "JOHN AUSTIN   SAME",
+   "trans": "00000000"
+  },
+  "72099028": {
+   "status": "00",
+   "type": "4",
+   "pres": "ERIC MILES 805 SW BROADWAY, SUITE 1400 PORTLAND OR 97205",
+   "sec": "",
+   "trans": "00000000"
+  },
+  "72548019": {
+   "status": "00",
+   "type": "4",
+   "pres": "JOHN LEFEVOUR 11400 S PULASKIRD CHICAGO IL 60655",
+   "sec": "TERRENCE LEFEVOUR 11400 S PULASKI RD CHICAGO IL 60655",
+   "trans": "00000000"
+  },
+  "72685806": {
+   "status": "00",
+   "type": "4",
+   "pres": "GLENN PITZER 8401 W. ROSEVELTRD FOREST PARK IL 60130",
+   "sec": "JULIE SIERACKI 8401 W ROOSEVELT RD",
+   "trans": "00000000"
+  },
+  "73038553": {
+   "status": "00",
+   "type": "4",
+   "pres": "ELIZABETH ZUCKER 8640 EVANS AVENUE ST. LOUIS, MO 63134",
+   "sec": "BRET S. LITTON 8640 EVANS AVENUE ST. LOUIS, MO 63134",
+   "trans": "00000000"
+  },
+  "73816858": {
+   "status": "00",
+   "type": "6",
+   "pres": "CEO - DEBORAH BECKETT 705 TESORO ROAD MONTEREY CA 93940",
+   "sec": "MICHAEL PROCHELO 345 N MAPLE DR #284 BEVERLY HILLS CA 90210",
+   "trans": "00000000"
+  },
+  "74043968": {
+   "status": "08",
+   "type": "4",
+   "pres": "UNACCEPTABLE PAYMENT    01 26 23",
+   "sec": "INVOLUNTARY DISSOLUTION 03 01 23",
+   "trans": "00000000"
+  },
+  "74464335": {
+   "status": "00",
+   "type": "6",
+   "pres": "ROBERT PASIN     6515 W GRANDAVE CHICAGO IL 60707",
+   "sec": "STEPHANIE DECKER 6515 W GRANDAVE CHICAGO IL 60707",
+   "trans": "00000000"
+  },
+  "75058462": {
+   "status": "08",
+   "type": "4",
+   "pres": "\"I\"IMRAN MEGHANI",
+   "sec": "INVOLUNTARY DISSOLUTION 08 14 26",
+   "trans": "00000000"
+  },
+  "75346026": {
+   "status": "00",
+   "type": "4",
+   "pres": "\"I\"RICHARD L LIEBERMAN",
+   "sec": "",
+   "trans": "00000000"
+  },
+  "75537948": {
+   "status": "00",
+   "type": "6",
+   "pres": "ANDREW FRICHTL 100 SW MAIN ST STE 1600 PORTLAND OR 97204",
+   "sec": "SHAWN MACLEAN 49 STEVENSON ST STE 660 SAN FRANCISCO CA 94105",
+   "trans": "00000000"
+  },
+  "99018267": {
+   "status": "10",
+   "type": "3",
+   "pres": "\"I\"ROBERT G SIMPSON",
+   "sec": "REGISTERED NAME EXPIRED 11 01 96",
+   "trans": "00000000"
+  },
+  "99019379": {
+   "status": "12",
+   "type": "3",
+   "pres": "\"I\"ROBERT G SIMPSON",
+   "sec": "REGISTERED NAME CANCEL",
+   "trans": "00000000"
+  }
+ },
+ "llc": {
+  "00002917": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "SHOREWOOD",
+   "juris": "IL"
+  },
+  "00007544": {
+   "status": "11",
+   "mgmt": "0",
+   "city": "OAK BROOK",
+   "juris": "DE"
+  },
+  "00045365": {
+   "status": "11",
+   "mgmt": "2",
+   "city": "MATOON",
+   "juris": "DE"
+  },
+  "00057517": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "ATLANTA",
+   "juris": "IL"
+  },
+  "00088951": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "LINCOLNSHIRE",
+   "juris": "IL"
+  },
+  "00098248": {
+   "status": "11",
+   "mgmt": "2",
+   "city": "ELK GROVE VILLAGE",
+   "juris": "IL"
+  },
+  "00155071": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "EAST PEORIA",
+   "juris": "IL"
+  },
+  "00169943": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "CHICAGO",
+   "juris": "DE"
+  },
+  "00198765": {
+   "status": "08",
+   "mgmt": "2",
+   "city": "NORTHFIELD",
+   "juris": "IL"
+  },
+  "00234109": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "NORTHBROOK",
+   "juris": "IL"
+  },
+  "00271225": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "00316717": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "00371904": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "ROSEMONT",
+   "juris": "DE"
+  },
+  "00417556": {
+   "status": "09",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "00462039": {
+   "status": "09",
+   "mgmt": "1",
+   "city": "SOUTH BELOIT",
+   "juris": "IL"
+  },
+  "00516007": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "MILAN",
+   "juris": "IL"
+  },
+  "00637424": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "00800708": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "OAK BROOK",
+   "juris": "IL"
+  },
+  "00831603": {
+   "status": "07",
+   "mgmt": "2",
+   "city": "WILMINGTON",
+   "juris": "DE"
+  },
+  "00919594": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "01141244": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "EAST PEORIA",
+   "juris": "IL"
+  },
+  "01505297": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "NORTHBROOK",
+   "juris": "DE"
+  },
+  "01686909": {
+   "status": "09",
+   "mgmt": "1",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "01689223": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "DES PLAINES",
+   "juris": "IL"
+  },
+  "01809733": {
+   "status": "09",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "01910469": {
+   "status": "09",
+   "mgmt": "2",
+   "city": "NORMAL",
+   "juris": "IL"
+  },
+  "02028255": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "AURORA",
+   "juris": "DE"
+  },
+  "02049007": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CINCINNATI",
+   "juris": "OH"
+  },
+  "02082306": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "02115204": {
+   "status": "09",
+   "mgmt": "2",
+   "city": "NAPERVILLE",
+   "juris": "IL"
+  },
+  "02320339": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "ATLANTA",
+   "juris": "DE"
+  },
+  "02387301": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "LAKE ZURICH",
+   "juris": "DE"
+  },
+  "02483726": {
+   "status": "09",
+   "mgmt": "1",
+   "city": "BELLEVILLE",
+   "juris": "IL"
+  },
+  "02572648": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "02893258": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "WHEELING",
+   "juris": "DE"
+  },
+  "03002942": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "JACKSONVILLE",
+   "juris": "DE"
+  },
+  "03008959": {
+   "status": "09",
+   "mgmt": "2",
+   "city": "ITASCA",
+   "juris": "IL"
+  },
+  "03015211": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "SKOKIE",
+   "juris": "DE"
+  },
+  "03273342": {
+   "status": "09",
+   "mgmt": "1",
+   "city": "FITHIAN",
+   "juris": "IL"
+  },
+  "03284395": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "NORMAL",
+   "juris": "IL"
+  },
+  "03333086": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "DE"
+  },
+  "03376184": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CARPENTERSVILLE",
+   "juris": "IL"
+  },
+  "03676161": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "NORMAL",
+   "juris": "IL"
+  },
+  "03677117": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "MORTON",
+   "juris": "IL"
+  },
+  "03829863": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "SPRINGFIELD",
+   "juris": "IL"
+  },
+  "03955583": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "TREMONT",
+   "juris": "DE"
+  },
+  "04103084": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "GALENA",
+   "juris": "IL"
+  },
+  "04162951": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "NAPERVILLE",
+   "juris": "DE"
+  },
+  "04180917": {
+   "status": "07",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "DE"
+  },
+  "04212673": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "FREEPORT",
+   "juris": "IL"
+  },
+  "04434765": {
+   "status": "06",
+   "mgmt": "1",
+   "city": "CHICAGO",
+   "juris": "DE"
+  },
+  "04539176": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "HIGHLAND PARK",
+   "juris": "DE"
+  },
+  "04665015": {
+   "status": "09",
+   "mgmt": "1",
+   "city": "DOWNERS GROVE",
+   "juris": "IL"
+  },
+  "04670574": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "DANVILLE",
+   "juris": "DE"
+  },
+  "04678117": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "ROCKFORD",
+   "juris": "DE"
+  },
+  "04789725": {
+   "status": "06",
+   "mgmt": "2",
+   "city": "CONGERVILLE",
+   "juris": "DE"
+  },
+  "05253519": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "05254388": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "CHICAGO",
+   "juris": "DE"
+  },
+  "05396751": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "DAKOTA",
+   "juris": "DE"
+  },
+  "05866715": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "ATLANTA",
+   "juris": "DE"
+  },
+  "05904528": {
+   "status": "09",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "06037895": {
+   "status": "00",
+   "mgmt": "1",
+   "city": "QUINCY",
+   "juris": "IL"
+  },
+  "06119387": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "ELK GROVE VILLAGE",
+   "juris": "IL"
+  },
+  "06153887": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "WOODRIDGE",
+   "juris": "DE"
+  },
+  "06157998": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "GREENVILLE",
+   "juris": "IL"
+  },
+  "06234305": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "OAK BROOK",
+   "juris": "DE"
+  },
+  "06438768": {
+   "status": "04",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "06606148": {
+   "status": "13",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "DE"
+  },
+  "07157088": {
+   "status": "10",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "07162553": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "URBANA",
+   "juris": "IL"
+  },
+  "07328826": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "INDIANAPOLIS",
+   "juris": "IN"
+  },
+  "07571666": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "PERU",
+   "juris": "DE"
+  },
+  "07873026": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "OSWEGO",
+   "juris": "IL"
+  },
+  "08238316": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "PEORIA",
+   "juris": "IL"
+  },
+  "10629446": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "DE"
+  },
+  "10636221": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "OAK BROOK",
+   "juris": "DE"
+  },
+  "11840183": {
+   "status": "07",
+   "mgmt": "2",
+   "city": "OWENSBORO",
+   "juris": "KY"
+  },
+  "11917402": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "PEORIA",
+   "juris": "DE"
+  },
+  "12358652": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "BENTON HARBOR",
+   "juris": "DE"
+  },
+  "13422885": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "ROCKFORD",
+   "juris": "DE"
+  },
+  "13455465": {
+   "status": "09",
+   "mgmt": "2",
+   "city": "DARIEN",
+   "juris": "IL"
+  },
+  "13541671": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "MT ZION",
+   "juris": "IL"
+  },
+  "13635609": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "DEERFIELD",
+   "juris": "DE"
+  },
+  "13910405": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "HILLSIDE",
+   "juris": "DE"
+  },
+  "14104488": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "HARVARD",
+   "juris": "IL"
+  },
+  "14607056": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "NAPERVILLE",
+   "juris": "DE"
+  },
+  "14691529": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "DALLAS",
+   "juris": "DE"
+  },
+  "15295635": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "NAPERVILLE",
+   "juris": "IL"
+  },
+  "15562595": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "IL"
+  },
+  "15580399": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "CHICAGO",
+   "juris": "DE"
+  },
+  "15763302": {
+   "status": "06",
+   "mgmt": "2",
+   "city": "MATTOON",
+   "juris": "DE"
+  },
+  "15986689": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "DETROIT",
+   "juris": "WA"
+  },
+  "16591335": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "SOUTHFIELD",
+   "juris": "IL"
+  },
+  "16879592": {
+   "status": "04",
+   "mgmt": "2",
+   "city": "SCHAUMBURG",
+   "juris": "IL"
+  },
+  "17307908": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "COLUMBIA",
+   "juris": "DE"
+  },
+  "17561871": {
+   "status": "00",
+   "mgmt": "2",
+   "city": "MACKINAW",
+   "juris": "DE"
+  }
+ },
+ "mgr": {
+  "00002917": [
+   {
+    "name": "HALSTEAD, JAMES A.",
+    "city": "SHOREWOOD",
+    "date": "20260126",
+    "type": "1"
+   },
+   {
+    "name": "HALSTEAD, MARY E.",
+    "city": "SHOREWOOD",
+    "date": "20260126",
+    "type": "1"
+   }
+  ],
+  "00045365": [
+   {
+    "name": "MARK MCELHINNY",
+    "city": "MATTOON",
+    "date": "20220803",
+    "type": "1"
+   },
+   {
+    "name": "CHRISTOPHER KODOSKY",
+    "city": "DEERFIELD",
+    "date": "20220803",
+    "type": "1"
+   },
+   {
+    "name": "VICKIE WHITLOCK",
+    "city": "DEERFIELD",
+    "date": "20220803",
+    "type": "1"
+   },
+   {
+    "name": "CARLOS CABO",
+    "city": "DEERFIELD",
+    "date": "20220803",
+    "type": "1"
+   },
+   {
+    "name": "JON GIARDINA",
+    "city": "DEERFIELD",
+    "date": "20220803",
+    "type": "1"
+   },
+   {
+    "name": "LEE BERGSTROM",
+    "city": "DEERFIELD",
+    "date": "20220803",
+    "type": "1"
+   }
+  ],
+  "00057517": [
+   {
+    "name": "POTBELLY ILLINOIS, INC. 6202 225 6",
+    "city": "CHICAGO",
+    "date": "20260121",
+    "type": "1"
+   }
+  ],
+  "00088951": [
+   {
+    "name": "MOWERY, JEFFERY",
+    "city": "LIBERTYVILLE",
+    "date": "20251118",
+    "type": "1"
+   },
+   {
+    "name": "SCHOENFELD, KEITH",
+    "city": "MUNDELEIN",
+    "date": "20251118",
+    "type": "1"
+   }
+  ],
+  "00098248": [
+   {
+    "name": "BANDEL, DAVID B",
+    "city": "BARRINGTON",
+    "date": "20071211",
+    "type": "1"
+   },
+   {
+    "name": "JONES, BRUCE G",
+    "city": "ELMHURST",
+    "date": "20071211",
+    "type": "1"
+   },
+   {
+    "name": "CANE, JOSEPH",
+    "city": "ST. CHARLES",
+    "date": "20071211",
+    "type": "1"
+   },
+   {
+    "name": "SEBASTIANO, WILLIAM",
+    "city": "HAMPSHIRE",
+    "date": "20071211",
+    "type": "1"
+   },
+   {
+    "name": "WILSON, RUSSELL",
+    "city": "ELMHURST",
+    "date": "20071211",
+    "type": "1"
+   },
+   {
+    "name": "SMIIEJEK, JEFFREY R",
+    "city": "CHICAGO",
+    "date": "20091214",
+    "type": "1"
+   },
+   {
+    "name": "GLEBA, JOSEPH A",
+    "city": "BARTLETT",
+    "date": "20091214",
+    "type": "1"
+   },
+   {
+    "name": "KNIGHT, GENEVRA",
+    "city": "CHICAGO",
+    "date": "20131211",
+    "type": "1"
+   },
+   {
+    "name": "KAPLAN, SCOTT",
+    "city": "BUFFALO GROVE",
+    "date": "20150106",
+    "type": "1"
+   },
+   {
+    "name": "HARE, KELLEY M.",
+    "city": "GLENDALE HEIGHTS",
+    "date": "20151216",
+    "type": "1"
+   },
+   {
+    "name": "SWITT, KELLY L.",
+    "city": "ARLINGTON HEIGHTS",
+    "date": "20151216",
+    "type": "1"
+   },
+   {
+    "name": "MASSARO, MICHAEL",
+    "city": "HOMER GLEN",
+    "date": "20170105",
+    "type": "1"
+   }
+  ],
+  "00155071": [
+   {
+    "name": "CULLINAN, MICHAEL N",
+    "city": "TREMONT",
+    "date": "20251124",
+    "type": "1"
+   },
+   {
+    "name": "CULLINAN, ALLEN",
+    "city": "TREMONT",
+    "date": "20251124",
+    "type": "1"
+   },
+   {
+    "name": "SKUSE, LEANNE",
+    "city": "E. PEORIA",
+    "date": "20251124",
+    "type": "1"
+   }
+  ],
+  "00169943": [
+   {
+    "name": "BERLIN PACKAGING HOLDINGS, L.L.C.",
+    "city": "CHICAGO",
+    "date": "20251202",
+    "type": "1"
+   },
+   {
+    "name": "GOLDBERG, ROBERT B.",
+    "city": "CHICAGO",
+    "date": "20251202",
+    "type": "1"
+   }
+  ],
+  "00198765": [
+   {
+    "name": "FOCUS DEVELOPMENT, INC",
+    "city": "NORTHFIELD",
+    "date": "19990323",
+    "type": "1"
+   }
+  ],
+  "00234109": [
+   {
+    "name": "STUART, JEFFREY T",
+    "city": "NORTHBROOK",
+    "date": "20261023",
+    "type": "1"
+   },
+   {
+    "name": "LOTTS, ANDREW R",
+    "city": "NORTHBROOK",
+    "date": "20261023",
+    "type": "1"
+   },
+   {
+    "name": "BERGMAN, MATTHEW S",
+    "city": "NORTHBROOK",
+    "date": "20261023",
+    "type": "1"
+   },
+   {
+    "name": "LORENA ENGELMAN",
+    "city": "NORTHBROOK",
+    "date": "20261023",
+    "type": "1"
+   }
+  ],
+  "00271225": [
+   {
+    "name": "PUNTILLO, TIMOTHY C.",
+    "city": "CHICAGO",
+    "date": "20260105",
+    "type": "1"
+   }
+  ],
+  "00316717": [
+   {
+    "name": "PATRICK DUGGAN",
+    "city": "CHICAGO",
+    "date": "20260602",
+    "type": "1"
+   },
+   {
+    "name": "DAVID ANDERSKOW",
+    "city": "CHICAGO",
+    "date": "20260602",
+    "type": "1"
+   },
+   {
+    "name": "JEFF GEIER",
+    "city": "CHICAGO",
+    "date": "20260602",
+    "type": "1"
+   }
+  ],
+  "00371904": [
+   {
+    "name": "REYES HOLDINGS INC F5990 336 5",
+    "city": "ROSEMONT",
+    "date": "20251204",
+    "type": "1"
+   }
+  ],
+  "00417556": [
+   {
+    "name": "BE DELL, JUDITH",
+    "city": "CHICAGO",
+    "date": "20000523",
+    "type": "1"
+   }
+  ],
+  "00462039": [
+   {
+    "name": "KENTNER, DENNIS R",
+    "city": "SOUTH BELOIT",
+    "date": "20000921",
+    "type": "2"
+   }
+  ],
+  "00516007": [
+   {
+    "name": "TERENCE L BRANDT",
+    "city": "ROCK ISLAND",
+    "date": "20260120",
+    "type": "1"
+   }
+  ],
+  "00637424": [
+   {
+    "name": "FIASCONE, MATTHEW G",
+    "city": "CHICAGO",
+    "date": "20261023",
+    "type": "1"
+   },
+   {
+    "name": "GALLER, STEPHEN F",
+    "city": "CHICAGO",
+    "date": "20261023",
+    "type": "1"
+   },
+   {
+    "name": "BYRNE, SHEILA",
+    "city": "CHICAGO",
+    "date": "20261023",
+    "type": "1"
+   }
+  ],
+  "00800708": [
+   {
+    "name": "DAVID R. CHORLEY",
+    "city": "OAK BROOK",
+    "date": "20260901",
+    "type": "1"
+   }
+  ],
+  "00831603": [
+   {
+    "name": "GIORDANO'S ENTERPRISES INC.    5515 193 8",
+    "city": "CHICAGO",
+    "date": "20040130",
+    "type": "1"
+   }
+  ],
+  "00919594": [
+   {
+    "name": "CRAIG DELLA VALLE",
+    "city": "CHICAGO",
+    "date": "20260324",
+    "type": "1"
+   },
+   {
+    "name": "ROBERT WYSOCKI",
+    "city": "CHICAGO",
+    "date": "20260324",
+    "type": "1"
+   },
+   {
+    "name": "DANIEL BOHL",
+    "city": "CHICAGO",
+    "date": "20260324",
+    "type": "1"
+   },
+   {
+    "name": "BRIAN J. COLE, M.D. S.C.  (D6027-118-6)",
+    "city": "CHICAGO",
+    "date": "20260324",
+    "type": "1"
+   },
+   {
+    "name": "TAD GERLINGER",
+    "city": "CHICAGO",
+    "date": "20260324",
+    "type": "1"
+   }
+  ],
+  "01141244": [
+   {
+    "name": "UFTRING, GARY L.",
+    "city": "EAST PEORIA",
+    "date": "20260127",
+    "type": "1"
+   },
+   {
+    "name": "JOHNSON, KIRK A",
+    "city": "BLOOMINGTON",
+    "date": "20260127",
+    "type": "1"
+   }
+  ],
+  "01505297": [
+   {
+    "name": "ASTELLAS US HOLDING INC.",
+    "city": "NORTHBROOK",
+    "date": "20260303",
+    "type": "1"
+   }
+  ],
+  "01686909": [
+   {
+    "name": "SUROWIEC, LESZEK",
+    "city": "CRYSTAL LAKE",
+    "date": "20051128",
+    "type": "2"
+   },
+   {
+    "name": "DOLINSKI, JACEK",
+    "city": "CHICAGO",
+    "date": "20051128",
+    "type": "2"
+   }
+  ],
+  "01689223": [
+   {
+    "name": "CHAMS, M.D., ROGER N.",
+    "city": "DES PLAINES",
+    "date": "20171120",
+    "type": "1"
+   },
+   {
+    "name": "ACKERMAN, JEFFREY A. MD",
+    "city": "DES PLAINES",
+    "date": "20191127",
+    "type": "1"
+   },
+   {
+    "name": "ORYHON, JEREMY M. MD",
+    "city": "DES PLAINES",
+    "date": "20191127",
+    "type": "1"
+   },
+   {
+    "name": "GIRIDHAR BURRA, M.D.",
+    "city": "DES PLAINES",
+    "date": "20201030",
+    "type": "1"
+   },
+   {
+    "name": "MICHAEL J CORCORAN, M.D.",
+    "city": "DES PLAINES",
+    "date": "20201030",
+    "type": "1"
+   },
+   {
+    "name": "PORTLAND GREGORY MD",
+    "city": "DES PLAINES",
+    "date": "20221024",
+    "type": "1"
+   },
+   {
+    "name": "GOLDSTEIN JEFFREY MD",
+    "city": "DES PLAINES",
+    "date": "20221024",
+    "type": "1"
+   },
+   {
+    "name": "HAMMING MD, DAVID",
+    "city": "DES PLAINES",
+    "date": "20241024",
+    "type": "1"
+   },
+   {
+    "name": "HURBANEK MD, JASON",
+    "city": "DES PLAINES",
+    "date": "20241024",
+    "type": "1"
+   },
+   {
+    "name": "MCCALL MD, BRIAN",
+    "city": "DES PLAINES",
+    "date": "20241024",
+    "type": "1"
+   },
+   {
+    "name": "DR. CRAIG WILLIAMS",
+    "city": "DES PLAINES",
+    "date": "20251024",
+    "type": "1"
+   }
+  ],
+  "01809733": [
+   {
+    "name": "CURRAN, PAMELA M",
+    "city": "CHICAGO",
+    "date": "20080406",
+    "type": "1"
+   }
+  ],
+  "01910469": [
+   {
+    "name": "ROPP, KENNETH G",
+    "city": "NORMAL",
+    "date": "20230726",
+    "type": "1"
+   },
+   {
+    "name": "ROPP, REBECCA L",
+    "city": "NORMAL",
+    "date": "20230726",
+    "type": "1"
+   },
+   {
+    "name": "ROPP, RAY E",
+    "city": "NORMAL",
+    "date": "20230726",
+    "type": "1"
+   },
+   {
+    "name": "ROPP, CAROL L",
+    "city": "NORMAL",
+    "date": "20230726",
+    "type": "1"
+   }
+  ],
+  "02028255": [
+   {
+    "name": "CHODY, LANCE M.",
+    "city": "AURORA",
+    "date": "20261014",
+    "type": "1"
+   }
+  ],
+  "02049007": [
+   {
+    "name": "OAKS, KENNETH G",
+    "city": "CINCINNATI",
+    "date": "20261013",
+    "type": "1"
+   }
+  ],
+  "02082306": [
+   {
+    "name": "DEMETRIOU, MICHAEL",
+    "city": "CHICAGO",
+    "date": "20251105",
+    "type": "1"
+   },
+   {
+    "name": "BAUM, DAVID L.",
+    "city": "CHICAGO",
+    "date": "20251105",
+    "type": "1"
+   }
+  ],
+  "02115204": [
+   {
+    "name": "PIETRYKA, MARCIN",
+    "city": "NAPERVILLE",
+    "date": "20150629",
+    "type": "1"
+   }
+  ],
+  "02320339": [
+   {
+    "name": "FIRESTONE, JEFFREY",
+    "city": "ATLANTA",
+    "date": "20260609",
+    "type": "1"
+   },
+   {
+    "name": "HARRIS, JAMIE",
+    "city": "ATLANTA",
+    "date": "20260609",
+    "type": "1"
+   },
+   {
+    "name": "AMO, LOUIS",
+    "city": "ATLANTA",
+    "date": "20260609",
+    "type": "1"
+   },
+   {
+    "name": "MANN, LAUREN",
+    "city": "ATLANTA",
+    "date": "20260609",
+    "type": "1"
+   },
+   {
+    "name": "MURRAY, DAVID",
+    "city": "ATLANTA",
+    "date": "20260609",
+    "type": "1"
+   },
+   {
+    "name": "JOHNSON, CAROLYN",
+    "city": "ATLANTA",
+    "date": "20260609",
+    "type": "1"
+   },
+   {
+    "name": "KERR, JASON",
+    "city": "ATLANTA",
+    "date": "20260609",
+    "type": "1"
+   }
+  ],
+  "02387301": [
+   {
+    "name": "FRESENIUS KABI PHARMACEUTICALS HOLDINGS, LLC",
+    "city": "LAKE ZURICH",
+    "date": "20260909",
+    "type": "1"
+   },
+   {
+    "name": "DUENKEL, ANDREAS",
+    "city": "LAKE ZURICH",
+    "date": "20260909",
+    "type": "1"
+   }
+  ],
+  "02483726": [
+   {
+    "name": "WELLS, RYAN M",
+    "city": "BELLEVILLE",
+    "date": "20080312",
+    "type": "2"
+   },
+   {
+    "name": "WELLS, TINA M",
+    "city": "BELLEVILLE",
+    "date": "20090130",
+    "type": "2"
+   }
+  ],
+  "02572648": [
+   {
+    "name": "CHUGACH COMMERCIAL HOLDINGS, LLC",
+    "city": "ANCHORAGE",
+    "date": "20260729",
+    "type": "1"
+   },
+   {
+    "name": "PATRICK LANCASTER",
+    "city": "CHICAGO",
+    "date": "20260729",
+    "type": "1"
+   },
+   {
+    "name": "TIM HOLCOMB",
+    "city": "CHICAGO",
+    "date": "20260729",
+    "type": "1"
+   }
+  ],
+  "02893258": [
+   {
+    "name": "EFG HOLDINGS INC.",
+    "city": "WHEELING",
+    "date": "20261026",
+    "type": "1"
+   }
+  ],
+  "03002942": [
+   {
+    "name": "CHICAGO TITLE AGENCY HOLDING LLC  (NQ)",
+    "city": "JACKSONVILLE",
+    "date": "20260519",
+    "type": "1"
+   }
+  ],
+  "03008959": [
+   {
+    "name": "MORGAN, LAWRENCE",
+    "city": "ITASCA",
+    "date": "20100805",
+    "type": "1"
+   }
+  ],
+  "03015211": [
+   {
+    "name": "SETTEDUCATE, MICHAEL",
+    "city": "SKOKIE",
+    "date": "20260714",
+    "type": "1"
+   },
+   {
+    "name": "SWAIN, KEITH",
+    "city": "SKOKIE",
+    "date": "20260714",
+    "type": "1"
+   },
+   {
+    "name": "OKLEPEK, DANIEL",
+    "city": "SKOKIE",
+    "date": "20260714",
+    "type": "1"
+   }
+  ],
+  "03273342": [
+   {
+    "name": "SINGH, AMARJIT",
+    "city": "FITHIAN",
+    "date": "20231027",
+    "type": "1"
+   }
+  ],
+  "03284395": [
+   {
+    "name": "DESTIHL HOLDINGS LLC    03215253",
+    "city": "NORMAL",
+    "date": "20260601",
+    "type": "1"
+   }
+  ],
+  "03333086": [
+   {
+    "name": "GOSS, DAVID B",
+    "city": "CHICAGO",
+    "date": "20260803",
+    "type": "1"
+   },
+   {
+    "name": "MORGAN, JON P",
+    "city": "CHICAGO",
+    "date": "20260803",
+    "type": "1"
+   }
+  ],
+  "03376184": [
+   {
+    "name": "JENDRUCZEK, JAMES S.",
+    "city": "CARPENTERSVILLE",
+    "date": "20260831",
+    "type": "1"
+   }
+  ],
+  "03676161": [
+   {
+    "name": "RADER, LYNN D",
+    "city": "NORMAL",
+    "date": "20260626",
+    "type": "1"
+   },
+   {
+    "name": "RADER, LINDA D.",
+    "city": "NORMAL",
+    "date": "20260626",
+    "type": "1"
+   }
+  ],
+  "03677117": [
+   {
+    "name": "CHRISTOPHER K. OBER",
+    "city": "MORTON",
+    "date": "20260616",
+    "type": "1"
+   }
+  ],
+  "03829863": [
+   {
+    "name": "BRENT SCHWOERER",
+    "city": "SPRINGFIELD",
+    "date": "20260103",
+    "type": "1"
+   }
+  ],
+  "03955583": [
+   {
+    "name": "AGCO CORPORATION",
+    "city": "DULUTH",
+    "date": "20260529",
+    "type": "1"
+   },
+   {
+    "name": "SUDERMAN, ANDREW",
+    "city": "TREMONT",
+    "date": "20260529",
+    "type": "1"
+   }
+  ],
+  "04103084": [
+   {
+    "name": "BLAUM, MATTHEW C",
+    "city": "GALENA",
+    "date": "20251016",
+    "type": "1"
+   },
+   {
+    "name": "BLAUM, MICHAEL W",
+    "city": "GALENA",
+    "date": "20251016",
+    "type": "1"
+   }
+  ],
+  "04162951": [
+   {
+    "name": "RUEDIGER DORNHOF",
+    "city": "NAPERVILLE",
+    "date": "20251120",
+    "type": "1"
+   },
+   {
+    "name": "ALEXANDER EDELMANN",
+    "city": "NAPERVILLE",
+    "date": "20251120",
+    "type": "1"
+   },
+   {
+    "name": "CHRISTIAN VON TWICKEL",
+    "city": "NAPERVILLE",
+    "date": "20251120",
+    "type": "1"
+   }
+  ],
+  "04180917": [
+   {
+    "name": "THOMAS M. SCOTT",
+    "city": "LEASING OFFICE",
+    "date": "20241113",
+    "type": "1"
+   }
+  ],
+  "04212673": [
+   {
+    "name": "WINTER, STEVEN M.",
+    "city": "FREEPORT",
+    "date": "20251222",
+    "type": "1"
+   },
+   {
+    "name": "WINTER, MARK A.",
+    "city": "FREEPORT",
+    "date": "20251222",
+    "type": "1"
+   }
+  ],
+  "04434765": [
+   {
+    "name": "MEDIO, JOHN",
+    "city": "CHICAGO",
+    "date": "20230831",
+    "type": "1"
+   },
+   {
+    "name": "OGILVIE, TRENT",
+    "city": "BURLINGTON ONTARIO CANADA",
+    "date": "20230831",
+    "type": "1"
+   }
+  ],
+  "04539176": [
+   {
+    "name": "BUCHSBAUM, ROBERT",
+    "city": "HIGHLAND PARK",
+    "date": "20261012",
+    "type": "1"
+   },
+   {
+    "name": "WISER, TRAVIS",
+    "city": "HIGHLAND PARK",
+    "date": "20261012",
+    "type": "1"
+   }
+  ],
+  "04665015": [
+   {
+    "name": "CURRAN, MARY BETH",
+    "city": "DOWNERS GROVE",
+    "date": "20230728",
+    "type": "1"
+   }
+  ],
+  "04670574": [
+   {
+    "name": "GRIMES, ADAM",
+    "city": "DANVILLE",
+    "date": "20260225",
+    "type": "1"
+   },
+   {
+    "name": "HARRIOT, STEPHEN B",
+    "city": "DANVILLE",
+    "date": "20260225",
+    "type": "1"
+   }
+  ],
+  "04678117": [
+   {
+    "name": "ECK, FREDERICK A.",
+    "city": "CHICAGO",
+    "date": "20260209",
+    "type": "1"
+   },
+   {
+    "name": "GOLLNITZ, DEREK",
+    "city": "ROCKFORD",
+    "date": "20260209",
+    "type": "1"
+   },
+   {
+    "name": "KUNIN, KEN",
+    "city": "KNOXVILLE",
+    "date": "20260209",
+    "type": "1"
+   },
+   {
+    "name": "NITISS, JOSEPH",
+    "city": "CHICAGO",
+    "date": "20260209",
+    "type": "1"
+   }
+  ],
+  "04789725": [
+   {
+    "name": "ABERLE, SCOTT",
+    "city": "CONGERVILLE",
+    "date": "20170426",
+    "type": "1"
+   }
+  ],
+  "05253519": [
+   {
+    "name": "VPC PIZZA INTERMEDIATE LLC",
+    "city": "CHICAGO",
+    "date": "20260618",
+    "type": "1"
+   }
+  ],
+  "05254388": [
+   {
+    "name": "CCGC LLC",
+    "city": "CHICAGO",
+    "date": "20260511",
+    "type": "1"
+   }
+  ],
+  "05396751": [
+   {
+    "name": "JEFF ELMER",
+    "city": "DAKOTA",
+    "date": "20251230",
+    "type": "1"
+   }
+  ],
+  "05866715": [
+   {
+    "name": "TI INTERMEDIATE HOLDINGS, LLC",
+    "city": "ATLANTA",
+    "date": "20260717",
+    "type": "1"
+   },
+   {
+    "name": "NTG HOLDINGS, LLC",
+    "city": "ATLANTA",
+    "date": "20260717",
+    "type": "1"
+   }
+  ],
+  "05904528": [
+   {
+    "name": "VOSGES HOLDINGS, LLC",
+    "city": "CHICAGO",
+    "date": "20240617",
+    "type": "1"
+   }
+  ],
+  "06037895": [
+   {
+    "name": "STEVENS, AMY",
+    "city": "QUINCY",
+    "date": "20220829",
+    "type": "1"
+   }
+  ],
+  "06119387": [
+   {
+    "name": "CANE, JOSPEH G",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20191213",
+    "type": "1"
+   },
+   {
+    "name": "MASSARO, MICHAEL M",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20191213",
+    "type": "1"
+   },
+   {
+    "name": "WILSON, RUSSELL J",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20191213",
+    "type": "1"
+   },
+   {
+    "name": "SMIEJEK, JEFFREY M",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20191213",
+    "type": "1"
+   },
+   {
+    "name": "GLEBA, JOSEPH A",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20191213",
+    "type": "1"
+   },
+   {
+    "name": "HARE, KELLEY",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20191213",
+    "type": "1"
+   },
+   {
+    "name": "KNIGHT, GENEVRA",
+    "city": "ELK GROVE ILL",
+    "date": "20191213",
+    "type": "1"
+   },
+   {
+    "name": "SWITT, KELLY",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20191213",
+    "type": "1"
+   },
+   {
+    "name": "STABB, PAULINE",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20191213",
+    "type": "1"
+   },
+   {
+    "name": "GARRELS, STEVE",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20191213",
+    "type": "1"
+   },
+   {
+    "name": "VITALE, DAN",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20231213",
+    "type": "1"
+   },
+   {
+    "name": "ANGLE, MEGAN P.",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20231213",
+    "type": "1"
+   },
+   {
+    "name": "LANCASTER, JOHN K",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20231213",
+    "type": "1"
+   },
+   {
+    "name": "MARK S GALLEGOS",
+    "city": "ELK GROVE",
+    "date": "20251226",
+    "type": "1"
+   },
+   {
+    "name": "GABE W GRZESKIEWICZ",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20251226",
+    "type": "1"
+   },
+   {
+    "name": "DAN KARNATZ",
+    "city": "ELK GROVE VILLAGE",
+    "date": "20251226",
+    "type": "1"
+   }
+  ],
+  "06153887": [
+   {
+    "name": "EDWARD DON & COMPANY INTERMEDIATE, LLC",
+    "city": "WOODRIDGE",
+    "date": "20260128",
+    "type": "1"
+   }
+  ],
+  "06157998": [
+   {
+    "name": "MARCOOT, AMY",
+    "city": "GREENVILLE",
+    "date": "20251230",
+    "type": "1"
+   },
+   {
+    "name": "YOUNG, BETH",
+    "city": "GREENVILLE",
+    "date": "20251230",
+    "type": "1"
+   },
+   {
+    "name": "WALL, AUDREA",
+    "city": "SORENTO",
+    "date": "20251230",
+    "type": "1"
+   }
+  ],
+  "06234305": [
+   {
+    "name": "BAUM, ROBERT H.",
+    "city": "OAK BROOK",
+    "date": "20260526",
+    "type": "1"
+   },
+   {
+    "name": "TICE, MATTHEW",
+    "city": "OAK BROOK",
+    "date": "20260526",
+    "type": "1"
+   },
+   {
+    "name": "CHERESO, ANTHONY",
+    "city": "OAK BROOK",
+    "date": "20260526",
+    "type": "1"
+   },
+   {
+    "name": "LYNCH, CATHERINE L.",
+    "city": "OAK BROOK",
+    "date": "20260526",
+    "type": "1"
+   }
+  ],
+  "06438768": [
+   {
+    "name": "JOHNSON, LAMAR A.",
+    "city": "CHICAGO",
+    "date": "20200727",
+    "type": "1"
+   },
+   {
+    "name": "SIECKHAUS, STEVEN R.",
+    "city": "ST. LOUIS",
+    "date": "20200727",
+    "type": "1"
+   },
+   {
+    "name": "BURNS, RUSSELL L.",
+    "city": "CHICAGO",
+    "date": "20200727",
+    "type": "1"
+   },
+   {
+    "name": "CLARK, ROBERT G.",
+    "city": "CHICAGO",
+    "date": "20200727",
+    "type": "1"
+   },
+   {
+    "name": "SCHOFIELD, ANTHONY M.",
+    "city": "ST. LOUIS",
+    "date": "20200727",
+    "type": "1"
+   }
+  ],
+  "06606148": [
+   {
+    "name": "BAWA, MO",
+    "city": "CHICAGO",
+    "date": "20240320",
+    "type": "1"
+   },
+   {
+    "name": "KEMPA, CHRISTOPHER",
+    "city": "CHICAGO",
+    "date": "20240320",
+    "type": "1"
+   },
+   {
+    "name": "SCHWARTZ, ARON",
+    "city": "CHICAGO",
+    "date": "20240320",
+    "type": "1"
+   }
+  ],
+  "07157088": [
+   {
+    "name": "STRONGHAVEN, INC.",
+    "city": "ATLANTA",
+    "date": "20201102",
+    "type": "1"
+   }
+  ],
+  "07162553": [
+   {
+    "name": "SHAHID R. KHAN",
+    "city": "URBANA",
+    "date": "20251121",
+    "type": "1"
+   }
+  ],
+  "07328826": [
+   {
+    "name": "BURKE, CHRISTOPHER B.",
+    "city": "ROSEMONT",
+    "date": "20251110",
+    "type": "1"
+   },
+   {
+    "name": "BURKE, THOMAS",
+    "city": "ROSEMONT",
+    "date": "20251110",
+    "type": "1"
+   },
+   {
+    "name": "STOLZ, JON",
+    "city": "INDIANAPOLIS",
+    "date": "20251110",
+    "type": "1"
+   },
+   {
+    "name": "JOSEPH ELBERTS",
+    "city": "ROSEMONT",
+    "date": "20251110",
+    "type": "1"
+   },
+   {
+    "name": "ZACH BISHTON",
+    "city": "INDIANAPOLIS",
+    "date": "20251110",
+    "type": "1"
+   }
+  ],
+  "07571666": [
+   {
+    "name": "CONDY HOLDINGS, LLC",
+    "city": "PERU",
+    "date": "20260720",
+    "type": "1"
+   }
+  ],
+  "07873026": [
+   {
+    "name": "WEIS, DANIELLE L.",
+    "city": "OSWEGO",
+    "date": "20260421",
+    "type": "1"
+   }
+  ],
+  "08238316": [
+   {
+    "name": "O'BRIEN, JOSEPH P.",
+    "city": "PEORIA",
+    "date": "20200601",
+    "type": "1"
+   },
+   {
+    "name": "VAUGHN, SHELBY",
+    "city": "PEORIA",
+    "date": "20210510",
+    "type": "1"
+   },
+   {
+    "name": "O'BRIEN JOSEPH, R",
+    "city": "PEORIA",
+    "date": "20220504",
+    "type": "1"
+   }
+  ],
+  "10629446": [
+   {
+    "name": "OKUN, ANDREA C.",
+    "city": "CHICAGO",
+    "date": "20260715",
+    "type": "1"
+   },
+   {
+    "name": "SILVER, MARK",
+    "city": "CHICAGO",
+    "date": "20260715",
+    "type": "1"
+   }
+  ],
+  "10636221": [
+   {
+    "name": "CHARIOT BUYER LLC",
+    "city": "OAK BROOK",
+    "date": "20260826",
+    "type": "1"
+   }
+  ],
+  "11840183": [
+   {
+    "name": "MARK W.",
+    "city": "LOUISVILLE",
+    "date": "20240517",
+    "type": "1"
+   }
+  ],
+  "11917402": [
+   {
+    "name": "LIGON CAPITAL, LLC",
+    "city": "BIRMINGHAM",
+    "date": "20260406",
+    "type": "1"
+   },
+   {
+    "name": "J. MCMAHON, JOHN JR",
+    "city": "BIRMINGHAM",
+    "date": "20260406",
+    "type": "1"
+   }
+  ],
+  "12358652": [
+   {
+    "name": "TODD TOMCZAK",
+    "city": "BENTON HARBOR",
+    "date": "20261022",
+    "type": "1"
+   },
+   {
+    "name": "BRIDGET QUINN",
+    "city": "BENTON HARBOR",
+    "date": "20261022",
+    "type": "1"
+   },
+   {
+    "name": "DYLAN BINKLEY",
+    "city": "BENTON HARBOR",
+    "date": "20261022",
+    "type": "1"
+   },
+   {
+    "name": "SCOTT CARTWRIGHT",
+    "city": "BENTON HARBOR",
+    "date": "20261022",
+    "type": "1"
+   }
+  ],
+  "13422885": [
+   {
+    "name": "INCOMPASS, LLC",
+    "city": "MAPLE GROVE",
+    "date": "20260604",
+    "type": "1"
+   },
+   {
+    "name": "CATTOOR, CHRIS",
+    "city": "MAPLE GROVE",
+    "date": "20260604",
+    "type": "1"
+   }
+  ],
+  "13455465": [
+   {
+    "name": "WILLIAMS RICHARD",
+    "city": "DARIEN",
+    "date": "20230704",
+    "type": "1"
+   }
+  ],
+  "13541671": [
+   {
+    "name": "JACOBS BRANDS LLC",
+    "city": "MT ZION",
+    "date": "20250731",
+    "type": "1"
+   }
+  ],
+  "13635609": [
+   {
+    "name": "KUMAR, ANKUSH",
+    "city": "DEERFIELD",
+    "date": "20260831",
+    "type": "1"
+   },
+   {
+    "name": "GLAVIN, JOHN",
+    "city": "DEERFIELD",
+    "date": "20260831",
+    "type": "1"
+   },
+   {
+    "name": "ANDREW NELSON",
+    "city": "DEERFIELD",
+    "date": "20260831",
+    "type": "1"
+   },
+   {
+    "name": "ASHLEY SCHEETZ",
+    "city": "DEERFIELD",
+    "date": "20260831",
+    "type": "1"
+   }
+  ],
+  "13910405": [
+   {
+    "name": "BUILDER'S ASPHALT, LLC (#01592173)",
+    "city": "HILLSIDE",
+    "date": "20260929",
+    "type": "1"
+   }
+  ],
+  "14104488": [
+   {
+    "name": "RENEE NORTON",
+    "city": "HARVARD",
+    "date": "20251124",
+    "type": "1"
+   }
+  ],
+  "14607056": [
+   {
+    "name": "SIKICH INTERMEDIATE HOLDINGS LLC",
+    "city": "NAPERVILLE",
+    "date": "20260504",
+    "type": "1"
+   }
+  ],
+  "14691529": [
+   {
+    "name": "HANCE, MICHAEL",
+    "city": "DALLAS",
+    "date": "20260420",
+    "type": "1"
+   }
+  ],
+  "15295635": [
+   {
+    "name": "ZHARKALLI, ATHINA",
+    "city": "NAPERVILLE",
+    "date": "20261023",
+    "type": "1"
+   }
+  ],
+  "15562595": [
+   {
+    "name": "JAMES DARROW",
+    "city": "CHICAGO",
+    "date": "20251126",
+    "type": "1"
+   },
+   {
+    "name": "JORDAN GOTTLIEB",
+    "city": "CHICAGO",
+    "date": "20251126",
+    "type": "1"
+   },
+   {
+    "name": "DOUGLAS IMBER",
+    "city": "CHICAGO",
+    "date": "20251126",
+    "type": "1"
+   },
+   {
+    "name": "BRIAN KARMOWSKI",
+    "city": "CHICAGO",
+    "date": "20251126",
+    "type": "1"
+   },
+   {
+    "name": "BRIAN KOCHENDORFER",
+    "city": "CHICAGO",
+    "date": "20251126",
+    "type": "1"
+   },
+   {
+    "name": "STEVEN LIVADITIS",
+    "city": "CHICAGO",
+    "date": "20251126",
+    "type": "1"
+   },
+   {
+    "name": "KATHERINE VARDE",
+    "city": "CHICAGO",
+    "date": "20251126",
+    "type": "1"
+   }
+  ],
+  "15580399": [
+   {
+    "name": "FUJI VEGETABLE OIL, INC.",
+    "city": "CHICAGO",
+    "date": "20260526",
+    "type": "1"
+   }
+  ],
+  "15763302": [
+   {
+    "name": "CONSOLIDATED COMMUNICATIONS HOLDINGS, LLC",
+    "city": "MATTOON",
+    "date": "20250211",
+    "type": "1"
+   }
+  ],
+  "15986689": [
+   {
+    "name": "JAMES M. NICHOLSON",
+    "city": "DETROIT",
+    "date": "20260407",
+    "type": "1"
+   }
+  ],
+  "16591335": [
+   {
+    "name": "ATWELL, LLC",
+    "city": "SOUTHFIELD",
+    "date": "20260706",
+    "type": "1"
+   }
+  ],
+  "16879592": [
+   {
+    "name": "G&A HOLDINGS, LLC",
+    "city": "SCHAUMBURG",
+    "date": "20251222",
+    "type": "1"
+   }
+  ],
+  "17307908": [
+   {
+    "name": "PLANO HOLDINGS LLC",
+    "city": "COLUMBIA",
+    "date": "20260122",
+    "type": "1"
+   }
+  ],
+  "17561871": [
+   {
+    "name": "TANGEL FAMILY HOLDINGS, LLC",
+    "city": "MACKINAW",
+    "date": "20260324",
+    "type": "1"
+   }
+  ]
+ }
+}

@@ -1397,6 +1397,34 @@
   {
    "date": "2026-10-31",
    "finding": "the index’s own headline read 3,390 verified and 439 net-new, figures distinct from the 3,323 and 408 quoted in briefs; all five quoted totals (3,220, 3,323, 3,390, 408, 439) retired for the measured rows and companies"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "fault": "the published layout corrected the brief",
+   "note": "corporation president and secretary sit in the Master record (positions 41–160), not the Annual Report file, which carries no officer field; the layout governed"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "finding": "a field the programme needs that the layout does not define: the corporation president field is one 60-character name-and-address field with no defined split, and the corporation layout carries no entity city. Fills write the field verbatim, labelled unsplit; city cannot separate same-named corporations"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "fault": "reading",
+   "note": "a merge of row and register records let the register’s file name overwrite the row’s file name; the write stopped at its first row with nothing changed; restored row by row from the target list"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "fault": "shape over meaning (instance)",
+   "note": "the contact test accepts any dated source line on a row, so the register line sourcing a decision maker dated an undated contact: ABT Electronics (chicago.html row 102) reads call-ready on that alone. Excluded from the count; the instrument fix owed is to bind a contact’s dated source to the contact field"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "control": "the join measured on rows that already held a named decision maker: of 68 register matches, the register officer agreed with the row’s named person 50 times and differed 18 times (legal officer, an older filing, or another entity of the same name); collisions left untouched and reported"
   }
  ]
 }
