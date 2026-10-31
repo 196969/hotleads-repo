@@ -7341,5 +7341,32 @@
     }
    }
   }
+ },
+ "florida100_close": {
+  "closed": "2026-10-31",
+  "ruling": "the Chair: the Florida 100 closes at its measured count — a route tested and found absent, not a shortfall",
+  "admitted": 7,
+  "complete_contact_outstanding": [
+   "Moneysolver",
+   "Marino Performance Motors",
+   "TrakAmerica"
+  ],
+  "confirmed": 0,
+  "measured": {
+   "windows": 16,
+   "feed_full_pass_rate": "about 1–2 companies reaching tests 1, 2 and 5 per window at 70–135 reads; 0 in window sixteen; the Private Equity and Fractionals feed queues exhausted",
+   "sponsor_roster_hig": "377 entries read in full; 28 Florida by the Location field (~7%); 6 passing test 1 (~1.6%); about one read per entry, because location is not on the listing’s face",
+   "association_rosters": "FRLA, the Manufacturers Association of Florida, the Florida Trucking Association: no member directory linked from the home page; FloridaMakes: directory linked, 404 — none readable (scope: these four)",
+   "revenue": "no free route produced a published revenue figure for any of the companies passing every other test; two figures found were above the ceiling (SeaWorld $1.66B, Mainline over $1B); size ruled Blind at window fifteen",
+   "completion": "every admission after window fifteen came from completing rows already found (a named executive), not from discovery"
+  },
+  "for_the_next_market": [
+   "completion beats discovery: start from the rows already on file",
+   "a roster pays only where location is on the listing’s face",
+   "revenue for private companies at this size is not published on free routes; decide the size rule before the run, not after",
+   "prove every instrument on both sets — what it must stop and what it must keep — and gate the run on the proofs",
+   "count every check from its own counter; a zero must say whether it ran"
+  ],
+  "faults": "1–61, in founders-roster.json and the window reports"
  }
 }

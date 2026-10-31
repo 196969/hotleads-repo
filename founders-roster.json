@@ -1180,6 +1180,18 @@
    "window": 16,
    "fault": "60 (second instance)",
    "note": "“Executive Vice” (from “Executive Vice President”) passed the person test: a two-word capitalised title fragment reads as a name"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 17,
+   "fault": "60 and 61 repaired as one class",
+   "line": "a span is not the thing it resembles",
+   "note": "a person is name words with no title or role word; an officer sentence counts only with the company’s whole name. Proved on both failures and every admitted name; the zero-read re-scan then found STS Aviation Group’s President (Mark Smith, “President of STS Aviation Group”) and refused a TrakAmerica match taken from a feed page. A third instance means the extractor is rebuilt, not patched (Chair)"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 17,
+   "close": "the Florida 100 closes at its measured count: 7 admitted, 3 complete with contact outstanding, 0 confirmed — a route tested and found absent (Chair)"
   }
  ]
 }

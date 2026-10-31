@@ -9249,7 +9249,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "COMPLETE, CONTACT OUTSTANDING — every test passed, size Blind, executive routes spent on the row — “Executive Vice” is a title fragment, not a person (fault 60, second instance)",
+  "status": "ADMITTED BY TEST (1, 2, 5; size Blind; named executive) — Unverified, awaiting the Chair’s tests 3 and 4",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/sts-aviation-group/",
@@ -9276,7 +9276,14 @@
   },
   "test1_pass": true,
   "test5": "address",
-  "decision_maker": null,
+  "decision_maker": {
+   "name": "Mark Smith",
+   "title": "President",
+   "span": "King will report to Mark Smith, President of STS Aviation Group.",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzdTQkxFMXFTczRYVTRCVVVQX2JJR212LTk2RVBMempNS0w2MnQ1cF9xRDNrdzNlbkFVc0ZMR05JN3ktNjF6UUJCc3JkNWFQVzNKZzRucjRVQ3llZk1VYnpibmFYdnhYcHFTa01OR205aE5qTUkzR0VDNkJOdHViOXdTb3hMQUZQQ01OQ2NzUVU?oc=5",
+   "read": "2026-10-31",
+   "source": "filed page re-read at zero reads, whole company name in the sentence"
+  },
   "executive_routes_spent": [
    {
     "route": "team page",
@@ -10183,7 +10190,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "COMPLETE, CONTACT OUTSTANDING — every test passed, size Blind, executive routes spent on the row — the trade-press sentence names Jason Collins as President of Millennium Capital & Recovery Corporation, not TrakAmerica: the route matched the company by its first word (fault 61)",
+  "status": "COMPLETE, CONTACT OUTSTANDING — the zero-read re-scan’s match was on a Google News feed page, where item titles run together into one “sentence”; a feed page is not an article and is refused as a source for an officer",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/trakamerica/",

@@ -357,5 +357,23 @@
    ],
    "sitting": "the Chair judges tests 3 and 4 by name at the end, in one sitting; start and end clock times stated in one line"
   }
+ },
+ "band_by_practice": {
+  "ruled": "Ruling 10, 30 Oct 2026",
+  "Private Equity": {
+   "ceiling": 100000000,
+   "client": "the sponsor, recorded beside the portfolio company"
+  },
+  "Acquisitions": {
+   "ceiling": 25000000
+  },
+  "Fractionals": {
+   "ceiling": 25000000
+  }
+ },
+ "signal_classes_added": {
+  "ruling_7": "a source’s own feed is its own form (RSS/Atom/JSON); pubDate is the date; the linked article read for the signal clause",
+  "ruling_8": "public record as a fifth class: FloridaCommerce WARN (Fractionals); SEC EDGAR full-text, Florida Form D and 8-K acquisition items (PE, Acquisitions); Sunbiz officer/agent changes where exposed; company sites never a signal",
+  "ruling_6": "dates from structured metadata count: JSON-LD datePublished, article:published_time, time[datetime], a dated URL path, recorded with the field name"
  }
 }

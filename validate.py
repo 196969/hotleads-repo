@@ -35,7 +35,8 @@ def practice_flags(rows):
     return bad
 
 INTAKE_TIER='Unverified'
-INTAKE_SRC=[0]   # Src: lines read in the intake table — reported, so a check that saw nothing reads as such
+INTAKE_SRC=[0]
+PRESENT=[0]   # Src: occurrences present in the main table — so a 0 read is told apart from a 0 present   # Src: lines read in the intake table — reported, so a check that saw nothing reads as such
 def intake_table(t):
     """Item 320 9.0.f: rows of the intake table (id="intake") must carry Tier 'Unverified' and an empty or 'derived' Band cell. A typed band or any other tier is refused."""
     m=re.search(r'<table id="intake">(.*?)</table>',t,re.S)
@@ -68,11 +69,12 @@ def check(path):
             if not has_date(l): bad.append((key,l.strip()[:120]))
     for key,crit in practice_flags(flagrows): bad.append((key,f'typed practice flag: {crit} with no dated signal line'))
     bad+=intake_table(t)
+    PRESENT[0]=tb.count('Src:')
     return n,bad
 if __name__=='__main__':
     fails=0
     for f in sys.argv[1:]:
         n,bad=check(f); fails+=len(bad)
-        print(f'{f}: {n} Src: lines read in the main table, {INTAKE_SRC[0]} in the intake table, {len(bad)} without a date on the line itself'); INTAKE_SRC[0]=0
+        print(f'{f}: {n} Src: lines read in the main table ({PRESENT[0]} present in the table), {INTAKE_SRC[0]} in the intake table, {len(bad)} without a date on the line itself'); INTAKE_SRC[0]=0
         for k,l in bad: print(f'   row #{k}: {l}')
     print('VALIDATOR PASSED' if not fails else f'VALIDATOR REFUSED — {fails} undated Src: line(s); the date must sit on the line itself'); sys.exit(1 if fails else 0)
