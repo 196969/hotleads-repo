@@ -7677,6 +7677,20 @@
    "scope": "all four routes"
   },
   "refusals": "19 Route 4 pages and 3 GrowthZone chamber pages refused one reader kind; not confirmed by a second",
-  "opening_use": "Every new market opens on these four measured rates against the same 24-row denominator: Route 4 29.2%, Route 1 4.2%, Route 2 4.2%, Route 3 0.0% (Item 322 company-page control 17.5% on 57 rows). Budget the void rate beside the spend: in the follow-on 12 of 69 reads were refused or empty."
+  "opening_use": "Ruled 2026-10-31 (Item 323 close): Texas, Georgia and the Carolinas open on the company’s own pages first; associations, chambers and trade press are budgeted as cheap confirmations, not as discovery. Measured on the same 24 Florida rows, seed 323: company pages 7/24 (29.2%) · associations 1/24 (4.2%) · chambers 1/24 (4.2%) · trade press 0/24 (0.0%), against the Item 322 company-page control 10/57 (17.5%). Budget on real cost: in the follow-on run 12 of 69 reads were void (10 refused, 2 empty); in Part 1, 106 of 197 were voided by a search-reader fault. Void reads count against the ceiling.",
+  "void_beside_spend": {
+   "part1": {
+    "spent": 197,
+    "ceiling": 200,
+    "void_instrument_fault": "Routes 1–3: 96; Route 4: the v1 site searches on 10 no-site rows and their follow-on page reads"
+   },
+   "followon": {
+    "spent": 69,
+    "ceiling": 100,
+    "void": 12,
+    "refused": 10,
+    "empty": 2
+   }
+  }
  }
 }

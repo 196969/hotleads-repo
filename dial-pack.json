@@ -756,8 +756,9 @@
    "email": "—",
    "practice": "None — no exit, vacancy or sponsor evidence on the row (row read 2026-10-29)",
    "signal": "Blind",
-   "reason": "Item 323 follow-on (2026-10-31): number sourced on the company’s association listing (Route 1, single route) · Tier B · contact observed on a dated read · verified-callable test not re-run this pass",
-   "rank": 58
+   "reason": "Item 323 follow-on (2026-10-31): number sourced on the company’s association listing (Route 1, single route) · Tier B · contact observed on a dated read · verified-callable test not re-run this pass · dialler flag: New Jersey area code as published",
+   "rank": 58,
+   "dialler_flag": "Area code 732 is New Jersey on a Florida row. It is what the Society of American Florists directory published (read 2026-10-31) — recorded as read, not an error, not for repair; confirm on the call. The row is not promoted on the strength of the number: rank last, not verified callable."
   }
  ],
  "partial": [
