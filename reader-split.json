@@ -1,0 +1,19 @@
+{
+ "method": "every read on record carries a reader field in its log line (or its run line); counted across all 16 Florida windows, the three core runs, the earlier bot log and Chicago/Illinois window one",
+ "reads": {
+  "browser": {
+   "read": 1552,
+   "refused": 688,
+   "not_found": 63
+  },
+  "plain fetch": 0
+ },
+ "refusals_by_reader": {
+  "headless Chromium (discovery.browser_reader, Playwright)": 688,
+  "plain fetch": 0
+ },
+ "core_run_two_26": "all 26 by headless Chromium",
+ "finding": "no refusal on record was taken by a plain fetch; v4’s plain-fetch re-probe has no population in Florida, Chicago or Illinois",
+ "downgrade": "the Cross-Check’s second finding (“twenty-six sources and nine rows were closed by a plain fetch”) is downgraded in writing: they were closed by a browser-grade reader in the sense of a real headless browser",
+ "caveat": "v4’s own definition of a browser-grade reader includes rotating proxies and rate-limit handling (section on the reader). The build’s reader is headless Chromium with a declared user agent and no proxy, so it is browser-grade in rendering and not in network identity. Whether that difference is worth a paid proxy reader is a separate decision; it is not the plain-fetch finding"
+}

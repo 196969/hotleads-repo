@@ -1,0 +1,19 @@
+{
+ "Florida": {
+  "class": "free bulk file",
+  "read": "2026-10-31",
+  "source": "dos.fl.gov/sunbiz/other-services/data-downloads/ and /quarterly-data",
+  "line": "The Division of Corporations offers free data downloads for informational purposes, by browser or secure FTP client, public credentials on the page; quarterly corporate filings at doc > quarterly > cor > cordata.zip contain all data on record when generated; dailies under doc > cor."
+ },
+ "Illinois": {
+  "class": "public bulk set under statute, person-downloaded; no automated fetch of ilsos.gov by any route, bulk or per-row",
+  "read": "2026-10-31",
+  "source": "ilsos.gov/data/bus-serv-home.html (read from the search index’s copy; the site’s robots file refused an automated fetch, and it was not forced)",
+  "line": "Public data sets are made available under the Business Data Transparency Act (P.A. 102-0049): Corporations bulk data (Master, Company Name, Agent, Annual Report, Assumed/Old Names, Stock, Other) and the LLC equivalents. The same page prohibits any process, software, mechanism, tool, device or other means of sending automated queries to the website. A person downloads the files the page offers; the build parses what it is handed and never touches ilsos.gov. Per-row File Detail Report reads by the build are automated queries and are therefore prohibited too; step 2B is struck.",
+  "superseded": "the earlier reading “individual lookup only; bulk sold by contract” (the 2017 page) is retired"
+ },
+ "Chicago": {
+  "class": "inherits Illinois",
+  "read": "2026-10-31"
+ }
+}

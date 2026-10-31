@@ -1,0 +1,37 @@
+{
+ "method": "the Word file read as text (5,630 words) and compared section by section with the pasted brief",
+ "structure": "the file is the full v4 standard (sections 1–9 plus an appended run template); the paste is a market-specific brief built from that template for Florida, Chicago and Illinois",
+ "differences": [
+  {
+   "where": "file §4, Illinois; file §1 framing",
+   "file": "Illinois is “individual lookup only” and “prohibits bulk retrieval”",
+   "paste": "same",
+   "status": "both superseded by the step-zero reading (public bulk set under P.A. 102-0049)"
+  },
+  {
+   "where": "file §2, measured shut",
+   "file": "“twenty-six sources and nine rows” were closed by a plain fetch",
+   "paste": "same premise",
+   "status": "contradicted by the logs: 0 plain-fetch refusals on record"
+  },
+  {
+   "where": "file §9, the reader",
+   "file": "defines a browser-grade reader as one that handles rotating proxies, rate limits and JavaScript-rendered pages and returns its own HTTP status",
+   "paste": "uses “browser-grade reader” without a definition",
+   "status": "the file governs: the build’s reader meets the rendering and status parts, not the proxy part"
+  },
+  {
+   "where": "file run template",
+   "file": "generic per jurisdiction (“read this jurisdiction”)",
+   "paste": "carries Florida’s SFTP host and paths and Illinois’s expected class",
+   "status": "no conflict beyond the Illinois class"
+  },
+  {
+   "where": "file §9, instruction files",
+   "file": "instruction files under two hundred lines; rules files load on demand",
+   "paste": "absent",
+   "status": "applies to an environment that loads instruction files; recorded, not actionable in this chat build"
+  }
+ ],
+ "no_other_difference_found": "scope, step order, the benchmark figures, the stop conditions, the outcome column, the address split and the repo gaps agree"
+}
