@@ -7483,7 +7483,10 @@
   "blind": "a Blind signal does not block a dial",
   "classifiers": "a classifier’s output is read before it is written or counted",
   "closures": "a closure is keyed on the host it measures",
-  "officers": "an officer binds to a company by one clause’s grammar, never by span"
+  "officers": "an officer binds to a company by one clause’s grammar, never by span",
+  "portfolio_band": "a Private Equity row is not capped at $25M: the counterparty is the sponsor; the qualifier is the sponsor relationship and the operating problem. The $25M band governs Fractionals and Acquisitions, where the owner is the buyer (ruled 2026-10-31)",
+  "route": "Florida is a phone market: 2 named addresses against 31 role inboxes across 98 call-ready rows; email follows a connected call (measured 2026-10-31)",
+  "two_addresses": "a register address and a row city that differ are both recorded, each labelled by what it is; neither overwrites the other (ruled 2026-10-31)"
  },
  "florida_close": {
   "date": "2026-10-31",
@@ -7537,6 +7540,7 @@
     "reads_per_admission": "none admitted"
    }
   },
-  "completion_cost": "run three: 87 reads, 13 completions, 6.7 reads each"
+  "completion_cost": "run three: 87 reads, 13 completions, 6.7 reads each",
+  "call_ready_lineage": "93 benchmark + 2 (2A register) + 3 (queue, zero reads) = 98; + 1 (Martinez Distributors’ expansion row, filled by the two-address ruling of 2026-10-31) = 99 rows. Martinez Distributors sits in both florida.html and florida-expansion.html, so 99 call-ready rows are 98 distinct companies; the duplicate is recorded, not merged"
  }
 }

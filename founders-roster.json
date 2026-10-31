@@ -1313,6 +1313,25 @@
    "item": "Florida pass",
    "fault": "reading",
    "note": "the practice derivation’s first form placed 34 rows in Private Equity on “no sponsor or parent in note”, read completed acquisitions as exit signals, and took “succession in place” and “no published vacancy” as evidence for; negations stripped and completed deals dropped before anything was written"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": 66,
+   "line": "absence of a disqualifier read as presence of a qualifier",
+   "note": "“no sponsor or parent in note” placed 34 rows in Private Equity; “succession in place” and “no published vacancy” had the same shape. The control that caught it was reading the output before writing it, not an instrument"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": "reading",
+   "note": "applying the two-address ruling, the register fill first landed on florida.html’s Martinez Distributors row, which already named its president and VP from a dated read; caught by a recount that did not move, reverted to the delivered bytes, and applied to the row the ruling meant (expansion main, row 14). Martinez Distributors sits in both files: recorded, not merged"
+  },
+  {
+   "date": "2026-10-31",
+   "ruling": "portfolio band: a Private Equity row is not capped at $25M; the four held rows released with their band-risk phrase as a note"
+  },
+  {
+   "date": "2026-10-31",
+   "ruling": "route: Florida is a phone market (2 named against 31 role inboxes across 98); written beside the access line"
   }
  ]
 }
