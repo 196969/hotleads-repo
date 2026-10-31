@@ -7491,7 +7491,10 @@
   "self_overlap": "the self-overlap check is owed in every market before its figures are stated; until it runs, that market’s company counts are unknown, not merely unverified",
   "tier_contest": "a tier contested across two files is resolved by evidence: Tier C governs only where the Tier C row names its screen-out; unevidenced Tier C yields; two named reasons that disagree are held",
   "ab_contest": "A and B differ by depth, not eligibility, and both dial: the row carrying dated decision-maker evidence governs; on a tie the lower tier governs for counting, and both rows carry the contest line (ruled 2026-10-31)",
-  "figures_leave_as": "anywhere a figure leaves the programme it states rows and companies; duplicate pairs stand as pairs, never merged"
+  "figures_leave_as": "anywhere a figure leaves the programme it states rows and companies; duplicate pairs stand as pairs, never merged",
+  "market_open_validator": "the dated-source validator runs at every market open, before any figure is stated (2026-10-31)",
+  "market_open_self_overlap": "the self-overlap check runs at every market open, before any figure is stated (2026-10-31)",
+  "undated_share": "a market whose undated share exceeds one tenth of its source lines is flagged at market level, re-dated or re-verified as a market, never patched row by row (2026-10-31; Pennsylvania 34 of 73, the first)"
  },
  "florida_close": {
   "date": "2026-10-31",

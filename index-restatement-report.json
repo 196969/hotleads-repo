@@ -1,0 +1,43 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Index restatement (brief): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Index restatement (delivered): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "gate": "62 of 62 equal live at head aff2db3; discipline, not a hook",
+  "reads": 0
+ },
+ "index": "headline stats restated as rows / companies; the market table’s columns relabelled and all 27 markets restated as rows · companies; Pennsylvania flagged; the 13 held pairs listed as an open section; quoted totals retired (3,390 and 439 on the page, 3,323, 408 and 3,220 in briefs)",
+ "pennsylvania": "market flag line written on pennsylvania.html and the index",
+ "standard": "validator and self-overlap at every market open; the one-tenth undated rule",
+ "closed": "Florida: 98 call-ready rows across 97 companies; 200 rows across 197 companies",
+ "waiting": "Illinois and Chicago: the Chair’s bulk download; everything else needs reads or the Chair"
+}

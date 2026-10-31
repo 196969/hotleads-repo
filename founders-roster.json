@@ -1378,6 +1378,25 @@
    "fault": "annotation counted as evidence",
    "line": "a note about a source must never carry the shape of a source",
    "note": "the dated exposure marks made 16 Pennsylvania rows read call-ready; caught by a recount against live that moved when nothing should have; marks rewritten without a date"
+  },
+  {
+   "date": "2026-10-31",
+   "weight": "full",
+   "line": "a thing that resembles evidence is treated as evidence by a reader that matches on shape rather than meaning",
+   "note": "the general case of every instrument fault in the register; this item’s instance: a dated annotation about a source was read as a source date and moved call-ready from 324 to 339 rows. A note about a source must never carry the shape of a source"
+  },
+  {
+   "date": "2026-10-31",
+   "line": "the recount is not a formality",
+   "note": "twice this item a recount against live was the detector: the Martinez overwrite (a count that did not move) and the dated annotation (a count that moved when nothing should have)"
+  },
+  {
+   "date": "2026-10-31",
+   "finding": "Pennsylvania flagged at market level: sourcing unreliable, 34 of 73 source lines undated, 15 of 85 Verified rows resting on them; no status moved"
+  },
+  {
+   "date": "2026-10-31",
+   "finding": "the index’s own headline read 3,390 verified and 439 net-new, figures distinct from the 3,323 and 408 quoted in briefs; all five quoted totals (3,220, 3,323, 3,390, 408, 439) retired for the measured rows and companies"
   }
  ]
 }
