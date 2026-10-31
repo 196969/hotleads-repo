@@ -1,0 +1,915 @@
+[
+ {
+  "file": "arizona-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 44,
+   "Verified": 6
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "arizona.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 62,
+   "Reclassified": 34,
+   "Downgraded": 103,
+   "Unverified": 1
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded",
+   "Reclassified"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "california-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 10,
+   "Downgraded": 40
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "california.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 100,
+   "Downgraded": 2,
+   "Reclassified": 10
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded",
+   "Reclassified"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "chicago-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 18,
+   "Downgraded": 32
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "chicago.html",
+  "status_filter": false,
+  "built_from_rows_at_runtime": false,
+  "row_statuses": {
+   "Verified": 113,
+   "Downgraded": 101,
+   "Verified w/ caveat": 1,
+   "Unverified": 11,
+   "Reclassified": 12
+  },
+  "static_options": null,
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "colorado-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 45,
+   "Verified": 5
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "colorado.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 74,
+   "Downgraded": 94,
+   "Reclassified": 27,
+   "Unverified": 5
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded",
+   "Reclassified"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "florida-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 13,
+   "Downgraded": 30
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "florida.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 64,
+   "Downgraded": 81,
+   "Unverified": 5
+  },
+  "static_options": [
+   "Verified",
+   "Pending by rule"
+  ],
+  "static_mismatch": [
+   "Downgraded",
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "georgia-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 34,
+   "Verified": 16
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "georgia.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 100,
+   "Downgraded": 100
+  },
+  "static_options": [
+   "Verified",
+   "Pending by rule",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "illinois-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 26,
+   "Verified": 24
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "illinois.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 175,
+   "Downgraded": 25
+  },
+  "static_options": [
+   "Verified",
+   "Research pending"
+  ],
+  "static_mismatch": [
+   "Downgraded"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "indiana-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 32,
+   "Verified": 18
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "indiana.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 159,
+   "Downgraded": 41
+  },
+  "static_options": [
+   "Verified",
+   "Research pending"
+  ],
+  "static_mismatch": [
+   "Downgraded"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "iowa-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 29,
+   "Verified": 21
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "iowa.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 191,
+   "Downgraded": 9
+  },
+  "static_options": [
+   "Verified",
+   "Research pending"
+  ],
+  "static_mismatch": [
+   "Downgraded"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "kentucky-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 39,
+   "Verified": 11
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "kentucky.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 41,
+   "Verified": 159
+  },
+  "static_options": [
+   "Verified",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "las-vegas-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 44,
+   "Verified": 6
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "las-vegas.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 124,
+   "Verified": 12,
+   "Unverified": 64
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "michigan-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 26,
+   "Verified": 24
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "michigan.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 32,
+   "Verified": 112,
+   "Unverified": 5
+  },
+  "static_options": [
+   "Verified",
+   "Pending by rule",
+   "Downgraded"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "minnesota-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 37,
+   "Verified": 13
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "minnesota.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 151,
+   "Downgraded": 47,
+   "Unverified": 2
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "missouri-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 38,
+   "Verified": 12
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "missouri.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 155,
+   "Downgraded": 44,
+   "Unverified": 1
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "new-jersey-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 27,
+   "Verified": 23
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "new-jersey.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 168,
+   "Downgraded": 32
+  },
+  "static_options": [
+   "Verified",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "new-york-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 18,
+   "Downgraded": 32
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "new-york.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 108,
+   "Unverified": 2,
+   "Downgraded": 16
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "north-carolina-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 14,
+   "Downgraded": 36
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "north-carolina.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 100,
+   "Verified": 97,
+   "Reclassified": 3
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded",
+   "Reclassified"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "ohio-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 33,
+   "Verified": 17
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "ohio.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 98,
+   "Verified": 98,
+   "Unverified": 4
+  },
+  "static_options": [
+   "Verified",
+   "Pending by rule",
+   "Downgraded"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "oregon-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 38,
+   "Verified": 12
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "oregon.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 61,
+   "Verified": 139
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "pennsylvania-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 32,
+   "Verified": 18
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "pennsylvania.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 81,
+   "Downgraded": 59,
+   "Unverified": 18
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "south-carolina-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 16,
+   "Downgraded": 34
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "south-carolina.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 32,
+   "Verified": 168
+  },
+  "static_options": [
+   "Verified",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "tennessee-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 16,
+   "Downgraded": 34
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "tennessee.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 37,
+   "Verified": 163
+  },
+  "static_options": [
+   "Verified",
+   "Research pending"
+  ],
+  "static_mismatch": [
+   "Downgraded"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "texas-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 11,
+   "Downgraded": 39
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "texas.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 60,
+   "Verified": 54,
+   "Unverified": 15,
+   "Reclassified": 9
+  },
+  "static_options": [
+   "Verified",
+   "Pending by rule",
+   "Downgraded",
+   "Reclassified"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "utah-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 34,
+   "Verified": 16
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "utah.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 41,
+   "Verified": 159
+  },
+  "static_options": [
+   "Verified",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "virginia-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 33,
+   "Verified": 17
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "virginia.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 26,
+   "Verified": 174
+  },
+  "static_options": [
+   "Verified",
+   "Research pending"
+  ],
+  "static_mismatch": [
+   "Downgraded"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "washington-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 44,
+   "Verified": 6
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "washington.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 92,
+   "Verified": 94,
+   "Reclassified": 12,
+   "Unverified": 2
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded",
+   "Reclassified"
+  ],
+  "static_mismatch": [
+   "Unverified"
+  ],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "wisconsin-expansion.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Downgraded": 22,
+   "Verified": 28
+  },
+  "static_options": [
+   "Verified",
+   "Research pending",
+   "Downgraded"
+  ],
+  "static_mismatch": [],
+  "reader_cannot_reach": []
+ },
+ {
+  "file": "wisconsin.html",
+  "status_filter": true,
+  "built_from_rows_at_runtime": true,
+  "row_statuses": {
+   "Verified": 198,
+   "Downgraded": 2
+  },
+  "static_options": [
+   "Verified",
+   "Research pending"
+  ],
+  "static_mismatch": [
+   "Downgraded"
+  ],
+  "reader_cannot_reach": []
+ }
+]

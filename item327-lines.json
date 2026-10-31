@@ -1,0 +1,1640 @@
+{
+ "item": "327",
+ "partA": [
+  {
+   "part": "A1",
+   "market": "texas",
+   "file": "texas.html",
+   "num": "28",
+   "name": "Gulf Coast Machine & Supply",
+   "tier": "A",
+   "clause": null,
+   "result": "named and left",
+   "why": "read in full: the note says “privately held, no co-op or ESOP indicators” — it negates employee ownership; Item 326 filed this row under employee-owned on a keyword match, in error. Named and left under its original standing."
+  },
+  {
+   "part": "A1",
+   "market": "texas",
+   "file": "texas.html",
+   "num": "32",
+   "name": "Austin Industries",
+   "tier": "B",
+   "clause": "Employee-owned (ESOP).",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "texas",
+   "file": "texas.html",
+   "num": "34",
+   "name": "SpawGlass",
+   "tier": "B",
+   "clause": "Employee-owned (ESOP) since 1953.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "texas",
+   "file": "texas.html",
+   "num": "36",
+   "name": "Bartlett Cocke General Contractors",
+   "tier": "B",
+   "clause": "Employee-owned.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "texas",
+   "file": "texas.html",
+   "num": "44",
+   "name": "Chamberlin Roofing & Waterproofing",
+   "tier": "B",
+   "clause": "Employee-owned.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "texas",
+   "file": "texas.html",
+   "num": "47",
+   "name": "TDIndustries",
+   "tier": "B",
+   "clause": "Employee-owned (ESOP) since 1952.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "texas",
+   "file": "texas.html",
+   "num": "77",
+   "name": "Improving",
+   "tier": "B",
+   "clause": "Employee-owned technology consultancy.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "texas",
+   "file": "texas.html",
+   "num": "93",
+   "name": "Sammons Enterprises",
+   "tier": "B",
+   "clause": "Employee-owned holding company.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "texas",
+   "file": "texas.html",
+   "num": "94",
+   "name": "Higginbotham Insurance",
+   "tier": "B",
+   "clause": "Employee-owned insurance brokerage.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "76",
+   "name": "Choate Construction",
+   "tier": "B",
+   "clause": "Employee-owned since 1989.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "81",
+   "name": "Gay Construction",
+   "tier": "B",
+   "clause": null,
+   "result": "named and left",
+   "why": "the note asserts the ESOP class without a clause establishing employee ownership"
+  },
+  {
+   "part": "A1",
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "93",
+   "name": "McCarthy GA",
+   "tier": "B",
+   "clause": "Employee-owned.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "119",
+   "name": "Tindall Corporation GA",
+   "tier": "B",
+   "clause": "Employee-owned.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "60",
+   "name": "National Spinning",
+   "tier": "B",
+   "clause": "OWNERSHIP: EMPLOYEE-OWNED since the 1990s, not family — the fourth NC family-to-employee-ownership case in this file.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "100",
+   "name": "LandDesign",
+   "tier": "B",
+   "clause": "Employee-owned.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "139",
+   "name": "McAdams Company",
+   "tier": "B",
+   "clause": "Employee-owned.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "141",
+   "name": "Stewart Inc.",
+   "tier": "B",
+   "clause": "Employee-owned.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "144",
+   "name": "Little Diversified Architectural",
+   "tier": "B",
+   "clause": "Employee-owned.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "17",
+   "name": "QuikTrip MO",
+   "tier": "B",
+   "clause": "Oklahoma employee-owned parent.",
+   "result": "Verified"
+  },
+  {
+   "part": "A2",
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "144",
+   "name": "UHY MO",
+   "tier": "B",
+   "clause": "National firm — competitor.",
+   "result": "Unverified"
+  },
+  {
+   "part": "A2",
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "168",
+   "name": "Baker Tilly MN",
+   "tier": "B",
+   "clause": "Competitor.",
+   "result": "Unverified"
+  },
+  {
+   "part": "A2",
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "169",
+   "name": "Wipfli MN",
+   "tier": "B",
+   "clause": "Competitor.",
+   "result": "Unverified"
+  },
+  {
+   "part": "A1",
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "11",
+   "name": "Stewart’s Shops",
+   "tier": "B",
+   "clause": "Family and employee-owned.",
+   "result": "Verified"
+  },
+  {
+   "part": "A1",
+   "market": "california",
+   "file": "california.html",
+   "num": "70",
+   "name": "Stater Bros. Markets",
+   "tier": "B",
+   "clause": "Family and employee-owned since 1936.",
+   "result": "Verified"
+  },
+  {
+   "part": "A2",
+   "market": "washington",
+   "file": "washington.html",
+   "num": "101",
+   "name": "Clark Nuber",
+   "tier": "B",
+   "clause": "Accounting firm — competitor.",
+   "result": "Unverified"
+  },
+  {
+   "part": "A2",
+   "market": "washington",
+   "file": "washington.html",
+   "num": "102",
+   "name": "Moss Adams",
+   "tier": "B",
+   "clause": "Large accounting/advisory — competitor.",
+   "result": "Unverified"
+  },
+  {
+   "part": "A2",
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "165",
+   "name": "ACM LLP",
+   "tier": "B",
+   "clause": "Accounting firm — competitor.",
+   "result": "Unverified"
+  },
+  {
+   "part": "A2",
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "166",
+   "name": "Richey May",
+   "tier": "B",
+   "clause": "Accounting/advisory — competitor.",
+   "result": "Unverified"
+  },
+  {
+   "part": "A2",
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "167",
+   "name": "Causey Demgen & Moore",
+   "tier": "B",
+   "clause": "Accounting firm — competitor.",
+   "result": "Unverified"
+  },
+  {
+   "part": "A2",
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "168",
+   "name": "Stockman Kast Ryan",
+   "tier": "B",
+   "clause": "Accounting firm — competitor.",
+   "result": "Unverified"
+  },
+  {
+   "part": "A2",
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "169",
+   "name": "Dalby Wendland",
+   "tier": "B",
+   "clause": "Accounting firm — competitor.",
+   "result": "Unverified"
+  },
+  {
+   "part": "A2",
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "52",
+   "name": "Henry+Horne",
+   "tier": "B",
+   "clause": "Accounting firm — competitor.",
+   "result": "Unverified"
+  }
+ ],
+ "partC": {
+  "results": {
+   "Armanino": {
+    "file": "missouri.html",
+    "num": "143",
+    "row": "Brown Smith Wallace",
+    "class": null,
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      []
+     ],
+     [
+      "search press",
+      "refused"
+     ],
+     [
+      "retry search",
+      "Armanino LLP firm",
+      "results"
+     ],
+     [
+      "page refused",
+      "https://www.armanino.com/"
+     ],
+     [
+      "page refused",
+      "https://www.armanino.com/company/"
+     ],
+     [
+      "page refused",
+      "https://lawfirmsurvey.armanino.com/"
+     ],
+     [
+      "retry search",
+      "Armanino accounting firm independent",
+      "results"
+     ],
+     [
+      "page refused",
+      "https://www.armanino.com/"
+     ],
+     [
+      "page refused",
+      "https://www.armanino.com/company/"
+     ],
+     [
+      "page",
+      "https://www.forbes.com/companies/armanino/",
+      "neither"
+     ]
+    ],
+    "route": 3,
+    "page": "forbes.com/companies/armanino",
+    "context": "Editor Last Updated Nov 30, 2022, 6:00pm EDT Armanino is an independent accounting and business consulting firm serving privately-held companies, as well as non-profit organizations and public entities with assuran",
+    "override": "read in full: the matched phrase “privately-held” describes Armanino’s clients, not Armanino; class not established"
+   },
+   "CBIZ": {
+    "file": "missouri.html",
+    "num": "147",
+    "row": "Mayer Hoffman McCann",
+    "class": "public",
+    "route": 2,
+    "page": "sec.gov/files/company_tickers.json",
+    "context": "SEC’s list of exchange-traded registrants lists CBIZ, Inc. under ticker CBZ",
+    "steps": [
+     [
+      "search own site",
+      "results"
+     ],
+     [
+      "owner site",
+      "https://www.cbiz.com/about",
+      null
+     ],
+     [
+      "sec ticker list",
+      [
+       [
+        "CBIZ, Inc.",
+        "CBZ"
+       ]
+      ]
+     ]
+    ]
+   },
+   "Hearst": {
+    "file": "missouri.html",
+    "num": "183",
+    "row": "Litton Entertainment",
+    "class": null,
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      []
+     ],
+     [
+      "search press",
+      "refused"
+     ],
+     [
+      "retry search",
+      "Hearst Corporation privately held company",
+      "results"
+     ],
+     [
+      "page refused",
+      "https://en.wikipedia.org/wiki/Hearst_Communications"
+     ],
+     [
+      "page",
+      "https://www.hearst.com/about",
+      null
+     ],
+     [
+      "retry search",
+      "Hearst about us company",
+      "refused"
+     ]
+    ]
+   },
+   "KKR": {
+    "file": "minnesota.html",
+    "num": "30",
+    "row": "Mills Fleet Farm",
+    "class": "public",
+    "route": 2,
+    "page": "sec.gov/files/company_tickers.json",
+    "context": "SEC’s list of exchange-traded registrants lists KKR & Co. Inc. under ticker KKR",
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      [
+       [
+        "KKR & Co. Inc.",
+        "KKR"
+       ],
+       [
+        "KKR Income Opportunities Fund",
+        "KIO"
+       ],
+       [
+        "KKR Real Estate Finance Trust Inc.",
+        "KREF"
+       ]
+      ]
+     ]
+    ]
+   },
+   "Taft": {
+    "file": "minnesota.html",
+    "num": "177",
+    "row": "Briggs and Morgan",
+    "class": null,
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      []
+     ],
+     [
+      "search press",
+      "refused"
+     ],
+     [
+      "retry search",
+      "Taft Stettinius & Hollister law firm",
+      "refused"
+     ],
+     [
+      "retry search",
+      "Taft law firm about",
+      "results"
+     ],
+     [
+      "page",
+      "https://www.taftlaw.com/about/about-us/",
+      null
+     ]
+    ]
+   },
+   "Lathrop": {
+    "file": "minnesota.html",
+    "num": "178",
+    "row": "Gray Plant Mooty",
+    "class": null,
+    "steps": [
+     [
+      "search own site",
+      "results"
+     ],
+     [
+      "owner site",
+      "https://www.greaterlathrop.org/about-lathrop",
+      null
+     ],
+     [
+      "sec ticker list",
+      []
+     ],
+     [
+      "search press",
+      "empty"
+     ],
+     [
+      "retry search",
+      "Lathrop GPM law firm",
+      "results"
+     ],
+     [
+      "page",
+      "https://www.lathropgpm.com/firm/our-approach/",
+      null
+     ],
+     [
+      "retry search",
+      "Lathrop GPM about",
+      "results"
+     ],
+     [
+      "page",
+      "https://www.lathropgpm.com/firm/our-approach/",
+      null
+     ]
+    ]
+   },
+   "Emart": {
+    "file": "oregon.html",
+    "num": "6",
+    "row": "New Seasons Market",
+    "class": null,
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      []
+     ],
+     [
+      "search press",
+      "refused"
+     ],
+     [
+      "retry search",
+      "E-Mart Korea listed company",
+      "refused"
+     ],
+     [
+      "retry search",
+      "Emart Inc KRX",
+      "refused"
+     ]
+    ]
+   },
+   "Balfour Beatty": {
+    "file": "oregon.html",
+    "num": "84",
+    "row": "Howard S. Wright",
+    "class": "public",
+    "route": 2,
+    "page": "sec.gov/files/company_tickers.json",
+    "context": "SEC’s list of exchange-traded registrants lists Balfour Beatty plc/ADR under ticker BLFBY",
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      [
+       [
+        "Balfour Beatty plc/ADR",
+        "BLFBY"
+       ],
+       [
+        "Balfour Beatty plc/ADR",
+        "BAFBF"
+       ]
+      ]
+     ]
+    ]
+   },
+   "Carlyle": {
+    "file": "oregon.html",
+    "num": "157",
+    "row": "Vigor Industrial",
+    "class": "public",
+    "route": 2,
+    "page": "sec.gov/files/company_tickers.json",
+    "context": "SEC’s list of exchange-traded registrants lists Carlyle Group Inc. under ticker CG",
+    "steps": [
+     [
+      "search own site",
+      "results"
+     ],
+     [
+      "owner site refused",
+      "https://www.carlyle.com/"
+     ],
+     [
+      "sec ticker list",
+      [
+       [
+        "Carlyle Group Inc.",
+        "CG"
+       ],
+       [
+        "Carlyle Secured Lending, Inc.",
+        "CGBD"
+       ],
+       [
+        "Carlyle Credit Income Fund",
+        "CCIF"
+       ]
+      ]
+     ]
+    ]
+   },
+   "China Construction America": {
+    "file": "new-york.html",
+    "num": "38",
+    "row": "Plaza Construction",
+    "class": null,
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      []
+     ],
+     [
+      "search press",
+      "refused"
+     ],
+     [
+      "retry search",
+      "China Construction America subsidiary China State Construction",
+      "refused"
+     ],
+     [
+      "retry search",
+      "CCA construction about",
+      "results"
+     ],
+     [
+      "page",
+      "https://www.ccaco.com/about-us",
+      null
+     ]
+    ]
+   },
+   "EMCOR": {
+    "file": "new-york.html",
+    "num": "44",
+    "row": "Forest Electric",
+    "class": "public",
+    "route": 2,
+    "page": "sec.gov/files/company_tickers.json",
+    "context": "SEC’s list of exchange-traded registrants lists EMCOR Group, Inc. under ticker EME",
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      [
+       [
+        "EMCOR Group, Inc.",
+        "EME"
+       ]
+      ]
+     ]
+    ]
+   },
+   "Tutor Perini": {
+    "file": "new-york.html",
+    "num": "45",
+    "row": "Five Star Electric",
+    "class": "public",
+    "route": 2,
+    "page": "sec.gov/files/company_tickers.json",
+    "context": "SEC’s list of exchange-traded registrants lists TUTOR PERINI CORP under ticker TPC",
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      [
+       [
+        "TUTOR PERINI CORP",
+        "TPC"
+       ]
+      ]
+     ]
+    ]
+   },
+   "Colliers": {
+    "file": "new-york.html",
+    "num": "126",
+    "row": "Bergmann Associates",
+    "class": "public",
+    "route": 2,
+    "page": "sec.gov/files/company_tickers.json",
+    "context": "SEC’s list of exchange-traded registrants lists Colliers International Group Inc. under ticker CIGI",
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      [
+       [
+        "Colliers International Group Inc.",
+        "CIGI"
+       ]
+      ]
+     ]
+    ]
+   },
+   "Zonin": {
+    "file": "virginia.html",
+    "num": "64",
+    "row": "Barboursville Vineyards",
+    "class": null,
+    "steps": [
+     [
+      "search own site",
+      "refused"
+     ],
+     [
+      "sec ticker list",
+      []
+     ],
+     [
+      "search press",
+      "refused"
+     ],
+     [
+      "retry search",
+      "Zonin1821 family company",
+      "refused"
+     ],
+     [
+      "retry search",
+      "Zonin family winery Italy",
+      "results"
+     ],
+     [
+      "page refused",
+      "https://www.zonin.com/en/"
+     ],
+     [
+      "page refused",
+      "https://www.zonin1821.com/en/"
+     ],
+     [
+      "page refused",
+      "https://www.zonin.com/"
+     ],
+     [
+      "page refused",
+      "https://www.zonin1821.com/en/about/"
+     ]
+    ]
+   }
+  },
+  "records": [
+   {
+    "owner": "Armanino",
+    "row": "Brown Smith Wallace",
+    "file": "missouri.html",
+    "num": "143",
+    "outcome": "named and left — class unread",
+    "line": "Item 328 (2026-10-31), a read of the owner’s class only: the class of the named owner, Armanino, is unread, not unknown. Src: read forbes.com/companies/armanino 2026-10-31 — fact not re-established at this read (the page read does not state the owner’s class; SEC’s ticker list carries no issuer of that name)."
+   },
+   {
+    "owner": "CBIZ",
+    "row": "Mayer Hoffman McCann",
+    "file": "missouri.html",
+    "num": "147",
+    "outcome": "named and left",
+    "why": "CBIZ is a listed issuer (SEC ticker list, CBZ), but the note says “CBIZ affiliated”, not owned — the relation read is affiliation, not ownership"
+   },
+   {
+    "owner": "Hearst",
+    "row": "Litton Entertainment",
+    "file": "missouri.html",
+    "num": "183",
+    "outcome": "named and left — class unread",
+    "line": "Item 328 (2026-10-31), a read of the owner’s class only: the class of the named owner, Hearst, is unread, not unknown. Src: read hearst.com/about 2026-10-31 — fact not re-established at this read (the page read does not state the owner’s class; SEC’s ticker list carries no issuer of that name)."
+   },
+   {
+    "owner": "KKR",
+    "row": "Mills Fleet Farm",
+    "file": "minnesota.html",
+    "num": "30",
+    "outcome": "moved to Tier C by established class",
+    "class": "public",
+    "src": "sec.gov/files/company_tickers.json"
+   },
+   {
+    "owner": "Taft",
+    "row": "Briggs and Morgan",
+    "file": "minnesota.html",
+    "num": "177",
+    "outcome": "named and left — class unread",
+    "line": "Item 328 (2026-10-31), a read of the owner’s class only: the class of the named owner, Taft, is unread, not unknown. Src: read taftlaw.com/about/about-us 2026-10-31 — fact not re-established at this read (the page read does not state the owner’s class; SEC’s ticker list carries no issuer of that name)."
+   },
+   {
+    "owner": "Lathrop",
+    "row": "Gray Plant Mooty",
+    "file": "minnesota.html",
+    "num": "178",
+    "outcome": "named and left — class unread",
+    "line": "Item 328 (2026-10-31), a read of the owner’s class only: the class of the named owner, Lathrop, is unread, not unknown. Src: read lathropgpm.com/firm/our-approach 2026-10-31 — fact not re-established at this read (the page read does not state the owner’s class; SEC’s ticker list carries no issuer of that name)."
+   },
+   {
+    "owner": "Emart",
+    "row": "New Seasons Market",
+    "file": "oregon.html",
+    "num": "6",
+    "outcome": "named and left — class unread",
+    "line": "Item 328 (2026-10-31), a read of the owner’s class only: the class of the named owner, Emart, is unread, not unknown. Src: read html.duckduckgo.com search “Emart” 2026-10-31 — fact not re-established at this read (searches only, refused or empty; SEC’s ticker list carries no issuer of that name)."
+   },
+   {
+    "owner": "Balfour Beatty",
+    "row": "Howard S. Wright",
+    "file": "oregon.html",
+    "num": "84",
+    "outcome": "moved to Tier C by established class",
+    "class": "public",
+    "src": "sec.gov/files/company_tickers.json"
+   },
+   {
+    "owner": "Carlyle",
+    "row": "Vigor Industrial",
+    "file": "oregon.html",
+    "num": "157",
+    "outcome": "moved to Tier C by established class",
+    "class": "public",
+    "src": "sec.gov/files/company_tickers.json"
+   },
+   {
+    "owner": "China Construction America",
+    "row": "Plaza Construction",
+    "file": "new-york.html",
+    "num": "38",
+    "outcome": "named and left — class unread",
+    "line": "Item 328 (2026-10-31), a read of the owner’s class only: the class of the named owner, China Construction America, is unread, not unknown. Src: read ccaco.com/about-us 2026-10-31 — fact not re-established at this read (the page read does not state the owner’s class; SEC’s ticker list carries no issuer of that name)."
+   },
+   {
+    "owner": "EMCOR",
+    "row": "Forest Electric",
+    "file": "new-york.html",
+    "num": "44",
+    "outcome": "moved to Tier C by established class",
+    "class": "public",
+    "src": "sec.gov/files/company_tickers.json"
+   },
+   {
+    "owner": "Tutor Perini",
+    "row": "Five Star Electric",
+    "file": "new-york.html",
+    "num": "45",
+    "outcome": "moved to Tier C by established class",
+    "class": "public",
+    "src": "sec.gov/files/company_tickers.json"
+   },
+   {
+    "owner": "Colliers",
+    "row": "Bergmann Associates",
+    "file": "new-york.html",
+    "num": "126",
+    "outcome": "moved to Tier C by established class",
+    "class": "public",
+    "src": "sec.gov/files/company_tickers.json"
+   },
+   {
+    "owner": "Zonin",
+    "row": "Barboursville Vineyards",
+    "file": "virginia.html",
+    "num": "64",
+    "outcome": "named and left — class unread",
+    "line": "Item 328 (2026-10-31), a read of the owner’s class only: the class of the named owner, Zonin, is unread, not unknown. Src: read zonin1821.com/en/about 2026-10-31 — fact not re-established at this read (page refused; SEC’s ticker list carries no issuer of that name)."
+   }
+  ]
+ },
+ "partC_spend": {
+  "reads": 55,
+  "ceiling": 120,
+  "work_returned": 20,
+  "void_refused": 34,
+  "void_empty": 1,
+  "void_rate": 63.6,
+  "rows_settled": 6,
+  "reads_per_row_settled": 9.2
+ },
+ "partC_known_answer": {
+  "Caterpillar": {
+   "expected": "public",
+   "got": "public",
+   "route": 2,
+   "page": "sec.gov/files/company_tickers.json",
+   "ctx": "SEC’s list of exchange-traded registrants lists CATERPILLAR INC under ticker CAT",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site refused",
+     "https://www.caterpillar.com/en/company.html"
+    ],
+    [
+     "sec ticker list",
+     [
+      [
+       "CATERPILLAR INC",
+       "CAT"
+      ]
+     ]
+    ]
+   ]
+  },
+  "Hearst": {
+   "expected": "neither",
+   "got": null,
+   "route": null,
+   "page": null,
+   "ctx": "",
+   "steps": [
+    [
+     "search own site",
+     "refused"
+    ],
+    [
+     "sec ticker list",
+     []
+    ],
+    [
+     "search press",
+     "refused"
+    ]
+   ]
+  }
+ },
+ "partD_writes": {
+  "writes": {
+   "chicago": [
+    {
+     "file": "chicago.html",
+     "num": "20",
+     "company": "Uline",
+     "action": "written",
+     "route": 4,
+     "number": "(800) 295-5510",
+     "replaced": "262-612-4200",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "31",
+     "company": "Vienna Beef",
+     "action": "written",
+     "route": 4,
+     "number": "(773) 278-7800",
+     "replaced": "(773) 278-7800",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "32",
+     "company": "Eli’s Cheesecake Company",
+     "action": "written",
+     "route": 4,
+     "number": "(773) 205-3800",
+     "replaced": "(773) 205-3800",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "49",
+     "company": "Angelo Caputo’s Fresh Markets",
+     "action": "held",
+     "route": 4,
+     "number": "(630) 480-8205",
+     "reason": "site shopcaputos.com does not carry the name’s first word “angelo” — identity not established"
+    },
+    {
+     "file": "chicago.html",
+     "num": "53",
+     "company": "Blick Art Materials",
+     "action": "written",
+     "route": 4,
+     "number": "(800) 828-4548",
+     "replaced": "(847) 681-6843",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "61",
+     "company": "Pepper Construction",
+     "action": "written",
+     "route": 4,
+     "number": "(312) 266-4700",
+     "replaced": "(312) 266-4700",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "62",
+     "company": "Power Construction",
+     "action": "written",
+     "route": 4,
+     "number": "(312) 596-6960",
+     "replaced": null,
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "64",
+     "company": "McHugh Construction",
+     "action": "written",
+     "route": 4,
+     "number": "(312) 986-8000",
+     "replaced": "(312) 986-8000",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "65",
+     "company": "Bulley & Andrews",
+     "action": "written",
+     "route": 4,
+     "number": "(773) 235-2433",
+     "replaced": "(773) 235-2433",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "68",
+     "company": "Berglund Construction",
+     "action": "written",
+     "route": 4,
+     "number": "(773) 374-1000",
+     "replaced": "(773) 374-1000",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "74",
+     "company": "Primera Engineers",
+     "action": "written",
+     "route": 4,
+     "number": "(312) 606-0910",
+     "replaced": "(312) 606-0910",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "76",
+     "company": "Terra Engineering",
+     "action": "written",
+     "route": 4,
+     "number": "(312) 467-0123",
+     "replaced": "(312) 467-0123",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "77",
+     "company": "GSG Consultants",
+     "action": "written",
+     "route": 4,
+     "number": "(630) 994-2600",
+     "replaced": "(312) 733-6262",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "79",
+     "company": "Wight & Company",
+     "action": "written",
+     "route": 4,
+     "number": "(312) 261-5700",
+     "replaced": null,
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "96",
+     "company": "Porte Brown",
+     "action": "written",
+     "route": 4,
+     "number": "(847) 956-1040",
+     "replaced": null,
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "98",
+     "company": "CJBS",
+     "action": "written",
+     "route": 4,
+     "number": "(847) 945-2888",
+     "replaced": null,
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "105",
+     "company": "Winzeler Gear",
+     "action": "written",
+     "route": 4,
+     "number": "(708) 867-7971",
+     "replaced": "(708) 867-7971",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "106",
+     "company": "Superior Joining Technologies",
+     "action": "written",
+     "route": 4,
+     "number": "(815) 282-7581",
+     "replaced": "(815) 282-7581",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "107",
+     "company": "Forest City Gear",
+     "action": "written",
+     "route": 4,
+     "number": "(815) 623-2168",
+     "replaced": "(815) 623-2168",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "136",
+     "company": "dbHMS",
+     "action": "written",
+     "route": 4,
+     "number": "(312) 915-0557",
+     "replaced": "(312) 915-0557",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "140",
+     "company": "ILT Vignocchi",
+     "action": "written",
+     "route": 4,
+     "number": "(847) 487-5200",
+     "replaced": "(847) 487-5200",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "145",
+     "company": "Curran Contracting",
+     "action": "written",
+     "route": 4,
+     "number": "(815) 455-5100",
+     "replaced": "(815) 455-5100",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "146",
+     "company": "Peter Baker & Son",
+     "action": "written",
+     "route": 4,
+     "number": "(847) 362-3663",
+     "replaced": "(847) 362-3663",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "148",
+     "company": "Aldridge Electric",
+     "action": "written",
+     "route": 4,
+     "number": "(847) 680-5200",
+     "replaced": "(847) 680-5200",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "150",
+     "company": "Gurtz Electric",
+     "action": "written",
+     "route": 4,
+     "number": "(847) 734-2400",
+     "replaced": "(847) 734-2400",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "154",
+     "company": "F.E. Moran",
+     "action": "written",
+     "route": 4,
+     "number": "(847) 498-4800",
+     "replaced": "(847) 498-4800",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "158",
+     "company": "Sherman Mechanical",
+     "action": "written",
+     "route": 4,
+     "number": "(847) 462-1000",
+     "replaced": "(847) 462-1000",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "160",
+     "company": "Madison Industries",
+     "action": "written",
+     "route": 4,
+     "number": "(312) 277-0156",
+     "replaced": null,
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "164",
+     "company": "Marquette Companies",
+     "action": "written",
+     "route": 4,
+     "number": "(630) 420-4730",
+     "replaced": "(630) 420-4730",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "171",
+     "company": "Marquette Management",
+     "action": "written",
+     "route": 4,
+     "number": "(630) 320-0550",
+     "replaced": "(630) 320-0550",
+     "agreed": 1,
+     "multi_numbers": true
+    },
+    {
+     "file": "chicago.html",
+     "num": "174",
+     "company": "Interra Realty",
+     "action": "written",
+     "route": 4,
+     "number": "(312) 361-3140",
+     "replaced": "(312) 361-3140",
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "175",
+     "company": "Kiser Group",
+     "action": "written",
+     "route": 4,
+     "number": "(773) 293-5000",
+     "replaced": null,
+     "agreed": 1,
+     "multi_numbers": false
+    },
+    {
+     "file": "chicago.html",
+     "num": "176",
+     "company": "Essex Realty Group",
+     "action": "written",
+     "route": 4,
+     "number": "(773) 305-4900",
+     "replaced": null,
+     "agreed": 1,
+     "multi_numbers": true
+    }
+   ],
+   "california": [
+    {
+     "file": "california-expansion.html",
+     "num": "6",
+     "company": "Guittard Chocolate Company",
+     "action": "written",
+     "route": 4,
+     "number": "(650) 697-4427",
+     "replaced": "650-697-4427",
+     "agreed": 1,
+     "multi_numbers": true
+    }
+   ],
+   "washington": [],
+   "colorado": [],
+   "arizona": []
+  },
+  "rows_with_a_stray_trailing_cell": [
+   [
+    "/home/claude/hl9/chicago.html",
+    "61",
+    "Pepper Construction"
+   ],
+   [
+    "/home/claude/hl9/chicago.html",
+    "62",
+    "Power Construction"
+   ],
+   [
+    "/home/claude/hl9/chicago.html",
+    "65",
+    "Bulley & Andrews"
+   ]
+  ]
+ },
+ "partD_checks": {
+  "chicago": {
+   "before": 23,
+   "after": 55,
+   "gained": 32,
+   "gained_by_written_line": 32,
+   "unexplained": [],
+   "lost": [],
+   "written_not_cr": [],
+   "integrity": [
+    [
+     "chicago.html",
+     "87",
+     "C",
+     "Verified"
+    ],
+    [
+     "chicago.html",
+     "180",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "chicago.html",
+     "217",
+     "B",
+     "Downgraded"
+    ]
+   ]
+  },
+  "california": {
+   "before": 0,
+   "after": 1,
+   "gained": 1,
+   "gained_by_written_line": 1,
+   "unexplained": [],
+   "lost": [],
+   "written_not_cr": [],
+   "integrity": [
+    [
+     "california.html",
+     "38",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "california.html",
+     "70",
+     "B",
+     "Downgraded"
+    ]
+   ]
+  },
+  "washington": {
+   "before": 0,
+   "after": 0,
+   "gained": 0,
+   "gained_by_written_line": 0,
+   "unexplained": [],
+   "lost": [],
+   "written_not_cr": [],
+   "integrity": [
+    [
+     "washington.html",
+     "2",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "washington.html",
+     "109",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "washington.html",
+     "135",
+     "B",
+     "Downgraded"
+    ]
+   ]
+  },
+  "colorado": {
+   "before": 0,
+   "after": 0,
+   "gained": 0,
+   "gained_by_written_line": 0,
+   "unexplained": [],
+   "lost": [],
+   "written_not_cr": [],
+   "integrity": [
+    [
+     "colorado.html",
+     "48",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "colorado.html",
+     "66",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "colorado.html",
+     "112",
+     "B",
+     "Downgraded"
+    ]
+   ]
+  },
+  "arizona": {
+   "before": 0,
+   "after": 0,
+   "gained": 0,
+   "gained_by_written_line": 0,
+   "unexplained": [],
+   "lost": [],
+   "written_not_cr": [],
+   "integrity": [
+    [
+     "arizona.html",
+     "20",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "arizona.html",
+     "37",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "arizona.html",
+     "78",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "arizona.html",
+     "118",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "arizona.html",
+     "130",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "arizona.html",
+     "171",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "arizona.html",
+     "183",
+     "B",
+     "Downgraded"
+    ],
+    [
+     "arizona.html",
+     "187",
+     "B",
+     "Downgraded"
+    ]
+   ]
+  }
+ },
+ "call_ready": {
+  "call_ready_before": 268,
+  "call_ready_after": 301,
+  "gained": 33,
+  "lost": [],
+  "unexplained": [],
+  "per_market_before": {
+   "florida": 58,
+   "texas": 23,
+   "georgia": 23,
+   "north-carolina": 3,
+   "south-carolina": 8,
+   "tennessee": 5,
+   "virginia": 3,
+   "wisconsin": 27,
+   "iowa": 11,
+   "illinois": 57,
+   "new-jersey": 7,
+   "indiana": 6,
+   "kentucky": 0,
+   "utah": 4,
+   "missouri": 0,
+   "minnesota": 1,
+   "oregon": 0,
+   "new-york": 2,
+   "michigan": 0,
+   "chicago": 23,
+   "california": 0,
+   "ohio": 0,
+   "washington": 0,
+   "las-vegas": 4,
+   "colorado": 0,
+   "arizona": 0,
+   "pennsylvania": 3
+  },
+  "per_market_after": {
+   "florida": 58,
+   "texas": 23,
+   "georgia": 23,
+   "north-carolina": 3,
+   "south-carolina": 8,
+   "tennessee": 5,
+   "virginia": 3,
+   "wisconsin": 27,
+   "iowa": 11,
+   "illinois": 57,
+   "new-jersey": 7,
+   "indiana": 6,
+   "kentucky": 0,
+   "utah": 4,
+   "missouri": 0,
+   "minnesota": 1,
+   "oregon": 0,
+   "new-york": 2,
+   "michigan": 0,
+   "chicago": 55,
+   "california": 1,
+   "ohio": 0,
+   "washington": 0,
+   "las-vegas": 4,
+   "colorado": 0,
+   "arizona": 0,
+   "pennsylvania": 3
+  },
+  "dialable": [
+   4172,
+   4166
+  ],
+  "tier_c_rows": [
+   2249,
+   2255
+  ]
+ }
+}

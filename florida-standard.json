@@ -8002,5 +8002,110 @@
     "not_reached": "the 1,200-read total bound before this market"
    }
   }
+ },
+ "amendments": [
+  {
+   "date": "2026-10-31",
+   "item": "327a",
+   "amends": "the status mapping (Item 326)",
+   "mapping": {
+    "Verified": "the verification held",
+    "Reclassified": "verified, does not fit the band (scale or fit)",
+    "Downgraded": "the verification failed, or the row is out on a disqualifier",
+    "Unverified": "the row’s disposition is settled as out of scope; verification was never the question"
+   },
+   "reason": "Competitor is a disposition, not a verification outcome; the three-outcome mapping had no status for it, so 11 competitor rows were named and left in Item 326. The fourth outcome gives them one.",
+   "definition": "Status answers whether the verification held; tier answers whether the row fits the practice."
+  }
+ ],
+ "item327_market_route_yields": {
+  "measured": "2026-10-31",
+  "rule": "each market reads its own row; no programme mean (entry 18)",
+  "markets": {
+   "chicago": {
+    "rows_in_scope": 108,
+    "route4": "33/83 (39.8%)",
+    "confirmations": {
+     "route1": "0/0",
+     "route2": "0/0",
+     "route3": "0/0"
+    },
+    "reads": 150,
+    "void_refused": 37,
+    "void_empty": 0,
+    "void_rate_of_logged_reads": 24.7,
+    "reads_per_row_with_number": 4.5,
+    "rows_unreached": 25
+   },
+   "california": {
+    "rows_in_scope": 1,
+    "route4": "1/1 (100.0%)",
+    "confirmations": {
+     "route1": "0/0",
+     "route2": "0/0",
+     "route3": "0/0"
+    },
+    "reads": 3,
+    "void_refused": 0,
+    "void_empty": 0,
+    "void_rate_of_logged_reads": 0.0,
+    "reads_per_row_with_number": 3.0,
+    "rows_unreached": 0
+   },
+   "washington": {
+    "rows_in_scope": 1,
+    "route4": "0/1 (0.0%)",
+    "confirmations": {
+     "route1": "0/1",
+     "route2": "0/1",
+     "route3": "0/1"
+    },
+    "reads": 4,
+    "void_refused": 2,
+    "void_empty": 0,
+    "void_rate_of_logged_reads": 50.0,
+    "reads_per_row_with_number": null,
+    "rows_unreached": 0
+   },
+   "colorado": {
+    "rows_in_scope": 2,
+    "route4": "0/2 (0.0%)",
+    "confirmations": {
+     "route1": "0/2",
+     "route2": "0/2",
+     "route3": "0/2"
+    },
+    "reads": 8,
+    "void_refused": 2,
+    "void_empty": 1,
+    "void_rate_of_logged_reads": 37.5,
+    "reads_per_row_with_number": null,
+    "rows_unreached": 0
+   },
+   "arizona": {
+    "rows_in_scope": 1,
+    "route4": "0/1 (0.0%)",
+    "confirmations": {
+     "route1": "0/1",
+     "route2": "0/1",
+     "route3": "0/1"
+    },
+    "reads": 4,
+    "void_refused": 1,
+    "void_empty": 0,
+    "void_rate_of_logged_reads": 25.0,
+    "reads_per_row_with_number": null,
+    "rows_unreached": 0
+   }
+  },
+  "item328_owner_class": {
+   "question": "the class of a row’s named owner (PE, public, or neither)",
+   "reads": 55,
+   "void_refused": 34,
+   "void_empty": 1,
+   "void_rate": 63.6,
+   "reads_per_row_settled": 9.2,
+   "route_that_answered": "SEC company_tickers.json (6 of 6 settled); owner sites refused or silent in every case"
+  }
  }
 }

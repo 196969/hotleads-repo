@@ -1,0 +1,3560 @@
+{
+ "item": "327",
+ "stats": {
+  "chicago": {
+   "rows_in_scope": 108,
+   "r4_attempted": 83,
+   "r4_sourced": 33,
+   "r4_rate": 39.8,
+   "unreached_rows": [
+    "Wheatland Title",
+    "Greater Illinois Title",
+    "Baird & Warner",
+    "Alliance Shippers",
+    "Dot Transportation (Chicago)",
+    "Sloan Valve Company",
+    "Chicago Tag & Label",
+    "Bill Jacobs Auto Group",
+    "Continental Auto Group",
+    "Napleton Automotive Group",
+    "Rizza Auto Group",
+    "Currie Motors",
+    "Gerald Auto Group",
+    "Larry Roesch Auto Group",
+    "Elmhurst Ford / Elmhurst CDJR (Kislyansky)",
+    "Advantage Chevrolet",
+    "Patrick Dealer Group",
+    "Packey Webb Ford",
+    "Bredemann Auto Group",
+    "Autobarn Group",
+    "Ruprecht Company",
+    "Radio Flyer Inc.",
+    "Vienna Beef Ltd.",
+    "Fellowes Brands",
+    "Azteca Foods, Inc."
+   ],
+   "confirmations": {
+    "1": {
+     "given": 0,
+     "sourced": 0
+    },
+    "2": {
+     "given": 0,
+     "sourced": 0
+    },
+    "3": {
+     "given": 0,
+     "sourced": 0
+    }
+   },
+   "reads_total": 150,
+   "reads_logged": 150,
+   "lost_killed_run": 0,
+   "work_returned": 113,
+   "void_refused": 37,
+   "void_empty": 0,
+   "void_rate_logged": 24.7,
+   "rows_with_number": 33,
+   "disputed": 0,
+   "reads_per_sourced_row": 4.5
+  },
+  "california": {
+   "rows_in_scope": 1,
+   "r4_attempted": 1,
+   "r4_sourced": 1,
+   "r4_rate": 100.0,
+   "unreached_rows": [],
+   "confirmations": {
+    "1": {
+     "given": 0,
+     "sourced": 0
+    },
+    "2": {
+     "given": 0,
+     "sourced": 0
+    },
+    "3": {
+     "given": 0,
+     "sourced": 0
+    }
+   },
+   "reads_total": 3,
+   "reads_logged": 3,
+   "lost_killed_run": 0,
+   "work_returned": 3,
+   "void_refused": 0,
+   "void_empty": 0,
+   "void_rate_logged": 0.0,
+   "rows_with_number": 1,
+   "disputed": 0,
+   "reads_per_sourced_row": 3.0
+  },
+  "washington": {
+   "rows_in_scope": 1,
+   "r4_attempted": 1,
+   "r4_sourced": 0,
+   "r4_rate": 0.0,
+   "unreached_rows": [],
+   "confirmations": {
+    "1": {
+     "given": 1,
+     "sourced": 0
+    },
+    "2": {
+     "given": 1,
+     "sourced": 0
+    },
+    "3": {
+     "given": 1,
+     "sourced": 0
+    }
+   },
+   "reads_total": 4,
+   "reads_logged": 4,
+   "lost_killed_run": 0,
+   "work_returned": 2,
+   "void_refused": 2,
+   "void_empty": 0,
+   "void_rate_logged": 50.0,
+   "rows_with_number": 0,
+   "disputed": 0,
+   "reads_per_sourced_row": null
+  },
+  "colorado": {
+   "rows_in_scope": 2,
+   "r4_attempted": 2,
+   "r4_sourced": 0,
+   "r4_rate": 0.0,
+   "unreached_rows": [],
+   "confirmations": {
+    "1": {
+     "given": 2,
+     "sourced": 0
+    },
+    "2": {
+     "given": 2,
+     "sourced": 0
+    },
+    "3": {
+     "given": 2,
+     "sourced": 0
+    }
+   },
+   "reads_total": 8,
+   "reads_logged": 8,
+   "lost_killed_run": 0,
+   "work_returned": 5,
+   "void_refused": 2,
+   "void_empty": 1,
+   "void_rate_logged": 37.5,
+   "rows_with_number": 0,
+   "disputed": 0,
+   "reads_per_sourced_row": null
+  },
+  "arizona": {
+   "rows_in_scope": 1,
+   "r4_attempted": 1,
+   "r4_sourced": 0,
+   "r4_rate": 0.0,
+   "unreached_rows": [],
+   "confirmations": {
+    "1": {
+     "given": 1,
+     "sourced": 0
+    },
+    "2": {
+     "given": 1,
+     "sourced": 0
+    },
+    "3": {
+     "given": 1,
+     "sourced": 0
+    }
+   },
+   "reads_total": 4,
+   "reads_logged": 4,
+   "lost_killed_run": 0,
+   "work_returned": 3,
+   "void_refused": 1,
+   "void_empty": 0,
+   "void_rate_logged": 25.0,
+   "rows_with_number": 0,
+   "disputed": 0,
+   "reads_per_sourced_row": null
+  }
+ },
+ "rows": {
+  "chicago": [
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "1",
+     "company_cell": "Reyes Holdings Distribution & Wholesale",
+     "phone": "(847) 227-6600",
+     "email": null,
+     "city": "Rosemont",
+     "kind": "source the contact",
+     "dm": "Chris & Jude Reyes Co-Chairmen (founders); Duke Reyes, CEO — all family",
+     "name": "Reyes Holdings"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no number on the company pages read",
+     "site": "reyesholdings.com",
+     "candidates": [],
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "5",
+     "company_cell": "Alliance Steel Distribution & Wholesale",
+     "phone": null,
+     "email": null,
+     "city": "Bedford Park",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Andrew \"Andy\" Gross President & CEO, owner since late 1990s (son Drew Gross, VP ",
+     "name": "Alliance Steel"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "9",
+     "company_cell": "Breakthru Beverage Group Distribution & Wholesale",
+     "phone": null,
+     "email": null,
+     "city": "Cicero",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Danny Wirtz & Charlie Merinoff Co-Chairmen (two founding families); Tom Bené, Pr",
+     "name": "Breakthru Beverage Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no number on the company pages read",
+     "site": "breakthrubev.com",
+     "candidates": [],
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "14",
+     "company_cell": "SC Johnson Manufacturing & Industrial",
+     "phone": "(262) 260-2154",
+     "email": null,
+     "city": "Racine WI",
+     "kind": "source the contact",
+     "dm": "Dr. H. Fisk Johnson Chairman & CEO (5th generation; family majority owners)",
+     "name": "SC Johnson"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "19",
+     "company_cell": "Jockey International Manufacturing & Industrial",
+     "phone": "(262) 658-8111",
+     "email": null,
+     "city": "Kenosha WI",
+     "kind": "source the contact",
+     "dm": "Debra S. Waller Chairman & CEO since 2001 (3rd-gen family; succeeded her mother)",
+     "name": "Jockey International"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "site jockey.com refused",
+     "site": "jockey.com",
+     "attempted": true,
+     "refused": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "20",
+     "company_cell": "Uline Distribution & Wholesale",
+     "phone": "262-612-4200",
+     "email": null,
+     "city": "Pleasant Prairie WI",
+     "kind": "source the contact",
+     "dm": "Richard “Dick” Uihlein, CEO Elizabeth “Liz” Uihlein, President",
+     "name": "Uline"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(800) 295-5510",
+     "how": "company page",
+     "site": "uline.com",
+     "candidates": [
+      "(800) 295-5510",
+      "(800) 295-5571"
+     ],
+     "src": "Src: read uline.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "30",
+     "company_cell": "Turano Baking Company Manufacturing & Industrial",
+     "phone": "(708) 788-7222",
+     "email": null,
+     "city": "Berwyn",
+     "kind": "source the contact",
+     "dm": "Joe Turano President (3rd gen, since 2013); Tony & Giancarlo Turano, Co-Chairmen",
+     "name": "Turano Baking Company"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "31",
+     "company_cell": "Vienna Beef Manufacturing & Industrial",
+     "phone": "(773) 278-7800",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Jim Bodman Chairman & CEO (co-owner since 1983); Tim O’Brien, President",
+     "name": "Vienna Beef"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(773) 278-7800",
+     "how": "company page",
+     "site": "viennabeef.com",
+     "candidates": [
+      "(800) 366-3647",
+      "(773) 278-7800",
+      "(323) 583-8951",
+      "(941) 723-7234",
+      "(773) 435-2447",
+      "(773) 435-2298"
+     ],
+     "src": "Src: read viennabeef.com/contact 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "32",
+     "company_cell": "Eli’s Cheesecake Company Manufacturing & Industrial",
+     "phone": "(773) 205-3800",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Marc Schulman President (2nd gen, since 1984); Elana Schulman, VP (3rd gen)",
+     "name": "Eli’s Cheesecake Company"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(773) 205-3800",
+     "how": "company page",
+     "site": "elicheesecake.com",
+     "candidates": [
+      "(773) 736-3417",
+      "(773) 205-3800"
+     ],
+     "src": "Src: read elicheesecake.com/contact 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "36",
+     "company_cell": "Home Run Inn Manufacturing & Industrial",
+     "phone": null,
+     "email": null,
+     "city": "Woodridge",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Dan Costello CEO (4th gen family, since 2018; nephew of late Joe Perrino)",
+     "name": "Home Run Inn"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "40",
+     "company_cell": "Beggars Pizza Multi-Site Retail",
+     "phone": "(708) 385-1234",
+     "email": null,
+     "city": "Blue Island",
+     "kind": "source the contact",
+     "dm": "Larry (Laurance H.) Garetto President & Owner (2nd gen; co-owner Ray Cantelo)",
+     "name": "Beggars Pizza"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "41",
+     "company_cell": "Rosati’s Pizza Multi-Site Retail",
+     "phone": "(847) 741-5400",
+     "email": null,
+     "city": "Elgin",
+     "kind": "source the contact",
+     "dm": "Marla Topliff President, Rosati’s Franchising (Rosati family owners; 4th generat",
+     "name": "Rosati’s Pizza"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no number on the company pages read",
+     "site": "rosatispizza.com",
+     "candidates": [],
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "45",
+     "company_cell": "Pete’s Fresh Market Multi-Site Retail",
+     "phone": "773-247-1600",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Stephanie Dremonas, CEO Jimmy Dremonas, Founder/Owner",
+     "name": "Pete’s Fresh Market"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no number on the company pages read",
+     "site": "petesfresh.com",
+     "candidates": [],
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "49",
+     "company_cell": "Angelo Caputo’s Fresh Markets Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Addison",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Robertino Presta CEO (son-in-law of founder; wife Antonella Caputo Presta, Presi",
+     "name": "Angelo Caputo’s Fresh Markets"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(630) 480-8205",
+     "how": "company page",
+     "site": "shopcaputos.com",
+     "candidates": [
+      "(630) 480-8205",
+      "(630) 620-4444",
+      "(630) 620-4440"
+     ],
+     "src": "Src: read shopcaputos.com/contact-us 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "50",
+     "company_cell": "Garden Fresh Market Multi-Site Retail",
+     "phone": "(847) 949-9210",
+     "email": null,
+     "city": "Mundelein",
+     "kind": "source the contact",
+     "dm": "Adi Mor Founder, Owner & President; Golan Mor (2nd gen), General Manager",
+     "name": "Garden Fresh Market"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "51",
+     "company_cell": "Binny’s Beverage Depot Multi-Site Retail",
+     "phone": "888-817-5898",
+     "email": null,
+     "city": "Niles",
+     "kind": "source the contact",
+     "dm": "Michael Binstein Owner & CEO",
+     "name": "Binny’s Beverage Depot"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "52",
+     "company_cell": "Vosges Haut-Chocolat Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Katrina Markoff Founder & CEO (sister Natalie Markoff, Creative Marketing Office",
+     "name": "Vosges Haut-Chocolat"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "53",
+     "company_cell": "Blick Art Materials Multi-Site Retail",
+     "phone": "(847) 681-6843",
+     "email": null,
+     "city": "Highland Park",
+     "kind": "source the contact",
+     "dm": "Robert \"Bob\" Buchsbaum CEO since 1996 (3rd generation of family ownership)",
+     "name": "Blick Art Materials"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(800) 828-4548",
+     "how": "company page",
+     "site": "dickblick.com",
+     "candidates": [
+      "(800) 828-4548",
+      "(309) 343-6181",
+      "(800) 621-8293",
+      "(800) 723-2787",
+      "(800) 933-2542",
+      "(800) 704-7744"
+     ],
+     "src": "Src: read dickblick.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "57",
+     "company_cell": "Berkot’s Super Foods Multi-Site Retail",
+     "phone": "(708) 337-1334",
+     "email": null,
+     "city": "Mokena",
+     "kind": "source the contact",
+     "dm": "Luke Kotara President (2nd gen); John Kotara, Founder & Owner",
+     "name": "Berkot’s Super Foods"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no number on the company pages read",
+     "site": "berkotfoods.com",
+     "candidates": [],
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "61",
+     "company_cell": "Pepper Construction Construction & Specialty Trades",
+     "phone": "(312) 266-4700",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Stan Pepper Chairman & CEO, The Pepper Companies (3rd gen); Scot & Jake Pepper (",
+     "name": "Pepper Construction"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(312) 266-4700",
+     "how": "company page",
+     "site": "pepperconstruction.com",
+     "candidates": [
+      "(312) 266-4700",
+      "(847) 381-2760",
+      "(847) 756-2020",
+      "(317) 681-1000",
+      "(614) 793-4477",
+      "(513) 563-7700"
+     ],
+     "src": "Src: read pepperconstruction.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "62",
+     "company_cell": "Power Construction Construction & Specialty Trades",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Jeff Geier President & CEO, partner (management-owned firm)",
+     "name": "Power Construction"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(312) 596-6960",
+     "how": "company page",
+     "site": "powerconstruction.net",
+     "candidates": [
+      "(312) 596-6960"
+     ],
+     "src": "Src: read powerconstruction.net 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "63",
+     "company_cell": "Clayco Construction & Specialty Trades",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Bob Clark Founder & Executive Chairman, majority owner; Anthony Johnson, CEO (si",
+     "name": "Clayco"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "64",
+     "company_cell": "McHugh Construction Construction & Specialty Trades",
+     "phone": "(312) 986-8000",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Patricia H. McHugh Chairman & 4th-gen family owner; Kinjal Patel, President (sin",
+     "name": "McHugh Construction"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(312) 986-8000",
+     "how": "company page",
+     "site": "mchughconstruction.com",
+     "candidates": [
+      "(312) 986-8000",
+      "(312) 431-0939"
+     ],
+     "src": "Src: read mchughconstruction.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "65",
+     "company_cell": "Bulley & Andrews Construction & Specialty Trades",
+     "phone": "(773) 235-2433",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Allan E. Bulley III Chairman & CEO (family, 4th/5th gen); Allan E. Bulley Jr., E",
+     "name": "Bulley & Andrews"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(773) 235-2433",
+     "how": "company page",
+     "site": "bulley.com",
+     "candidates": [
+      "(773) 235-2433"
+     ],
+     "src": "Src: read bulley.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "66",
+     "company_cell": "Leopardo Companies Construction & Specialty Trades",
+     "phone": null,
+     "email": null,
+     "city": "Hoffman Estates",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Giancarlo Pacini CEO & President (25-yr company veteran; succession completed fr",
+     "name": "Leopardo Companies"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "67",
+     "company_cell": "W.E. O’Neil Construction Construction & Specialty Trades",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Damian Eallonardo Regional President — IL/TN/TX (succeeded 43-yr veteran John Ru",
+     "name": "W.E. O’Neil Construction"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no number on the company pages read",
+     "site": "weoneil.com",
+     "candidates": [],
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "68",
+     "company_cell": "Berglund Construction Construction & Specialty Trades",
+     "phone": "(773) 374-1000",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Fred Berglund CEO (3rd gen); Jeffrey Berglund, President (4th gen, appointed Sep",
+     "name": "Berglund Construction"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(773) 374-1000",
+     "how": "company page",
+     "site": "berglundco.com",
+     "candidates": [
+      "(773) 374-1000",
+      "(312) 726-6624",
+      "(219) 926-4246",
+      "(614) 380-0418",
+      "(217) 849-8801",
+      "(888) 689-5763"
+     ],
+     "src": "Src: read berglundco.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "69",
+     "company_cell": "Norcon Inc. Construction & Specialty Trades",
+     "phone": "(312) 715-9200",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Charles Norwesh President, Principal & co-founder-owner; Jeff Jozwiak, Principal",
+     "name": "Norcon Inc."
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no company site in the search results",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "72",
+     "company_cell": "Ujamaa Construction Construction & Specialty Trades",
+     "phone": "(773) 374-1300",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Jimmy Akintonde Founder, President & CEO (since 2002); Todd Pressley, Co-Princip",
+     "name": "Ujamaa Construction"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "73",
+     "company_cell": "Milhouse Engineering Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Wilbur C. Milhouse III Founder, Chairman & CEO (since 2001)",
+     "name": "Milhouse Engineering"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "74",
+     "company_cell": "Primera Engineers Professional Services",
+     "phone": "(312) 606-0910",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Erin Inman, PE President, CEO & Owner (purchased firm from retiring co-founders,",
+     "name": "Primera Engineers"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(312) 606-0910",
+     "how": "company page",
+     "site": "primeraeng.com",
+     "candidates": [
+      "(312) 606-0910"
+     ],
+     "src": "Src: read primeraeng.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "75",
+     "company_cell": "Environmental Design International Professional Services",
+     "phone": "(312) 345-1400",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Leslie J. Sawyer President, CEO & Owner (since Aug 2016; sister of late founder ",
+     "name": "Environmental Design International"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "76",
+     "company_cell": "Terra Engineering Professional Services",
+     "phone": "(312) 467-0123",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Karen Steingraber & Jamil Bou-Saab Co-founders (1992); Steingraber = woman owner",
+     "name": "Terra Engineering"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(312) 467-0123",
+     "how": "company page",
+     "site": "terraengineering.com",
+     "candidates": [
+      "(312) 467-0123",
+      "(309) 999-0123",
+      "(314) 395-9899",
+      "(414) 763-1231"
+     ],
+     "src": "Src: read terraengineering.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "77",
+     "company_cell": "GSG Consultants Professional Services",
+     "phone": "(312) 733-6262",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Guillermo Garcia Co-founder, President & CEO",
+     "name": "GSG Consultants"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(630) 994-2600",
+     "how": "company page",
+     "site": "gsg-consultants.com",
+     "candidates": [
+      "(630) 994-2600"
+     ],
+     "src": "Src: read gsg-consultants.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "79",
+     "company_cell": "Wight & Company Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Darien",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Mark Wight Chairman & CEO (3rd generation: Col. Raulin Wight 1939 → Sonny Wight ",
+     "name": "Wight & Company"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(312) 261-5700",
+     "how": "company page",
+     "site": "wightco.com",
+     "candidates": [
+      "(312) 261-5700",
+      "(630) 969-7000",
+      "(720) 432-4435"
+     ],
+     "src": "Src: read wightco.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "80",
+     "company_cell": "Legat Architects Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Jeff Sandberg President & CEO (since Jan 2025); employee-owned firm",
+     "name": "Legat Architects"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "81",
+     "company_cell": "Cordogan Clark Professional Services",
+     "phone": "(630) 896-4678",
+     "email": null,
+     "city": "Aurora",
+     "kind": "source the contact",
+     "dm": "John G. Cordogan & John W. Clark Principals & owners (2nd gen Cordogan; 3rd gen ",
+     "name": "Cordogan Clark"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "82",
+     "company_cell": "Eriksson Engineering Professional Services",
+     "phone": "(847) 223-4804",
+     "email": null,
+     "city": "Grayslake",
+     "kind": "source the contact",
+     "dm": "Glen Eriksson, PE President, CEO & Owner (founded 1995); Chris Keppner, COO",
+     "name": "Eriksson Engineering"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "83",
+     "company_cell": "Christopher B. Burke Engineering Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Rosemont",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Dr. Christopher B. Burke Founder & CEO (est. 1986; NAE member); Michael E. Kerr,",
+     "name": "Christopher B. Burke Engineering"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "84",
+     "company_cell": "V3 Companies Professional Services",
+     "phone": "(630) 724-9200",
+     "email": null,
+     "city": "Woodridge",
+     "kind": "source the contact",
+     "dm": "Patrick Kennedy CEO (third CEO in firm history; employee-owned shareholder model",
+     "name": "V3 Companies"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no company site in the search results",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "91",
+     "company_cell": "Miller Cooper & Co. Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Deerfield",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Ross S Pearlstein Three Parkway North Ste 200 Deerfield — President per the Illi",
+     "name": "Miller Cooper & Co."
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "site millercooper.com refused",
+     "site": "millercooper.com",
+     "attempted": true,
+     "refused": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "93",
+     "company_cell": "Selden Fox Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Oak Brook",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Joseph G Meyer 1 Parkview Plz#710, Oakbrook Trrace Il 60181 — President per the ",
+     "name": "Selden Fox"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "96",
+     "company_cell": "Porte Brown Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Elk Grove Village",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Mark S Gallegos, Manager (legal manager, Illinois register)",
+     "name": "Porte Brown"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(847) 956-1040",
+     "how": "company page",
+     "site": "portebrown.com",
+     "candidates": [
+      "(847) 956-1040",
+      "(847) 956-6780",
+      "(847) 695-1775",
+      "(815) 385-1120",
+      "(630) 472-0800"
+     ],
+     "src": "Src: read portebrown.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "97",
+     "company_cell": "Mowery & Schoenfeld Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Lincolnshire",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Mowery, Jeffery, Manager (legal manager, Illinois register)",
+     "name": "Mowery & Schoenfeld"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "98",
+     "company_cell": "CJBS Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Northbrook",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Stuart, Jeffrey T, Manager (legal manager, Illinois register)",
+     "name": "CJBS"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(847) 945-2888",
+     "how": "company page",
+     "site": "cjbs.com",
+     "candidates": [
+      "(847) 945-2888",
+      "(847) 945-9512"
+     ],
+     "src": "Src: read cjbs.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "99",
+     "company_cell": "Kutchins Robbins & Diamond Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Schaumburg",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Jon Segal 1051 Perimter Dr , 9th Floor Schaumburg, Il 60173 — President per the ",
+     "name": "Kutchins Robbins & Diamond"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "103",
+     "company_cell": "Ace Metal Crafts Manufacturing & Industrial",
+     "phone": null,
+     "email": null,
+     "city": "Bensenville",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Keith Stout, CEO & Angela Pitzo, President 3rd-gen family transition completed J",
+     "name": "Ace Metal Crafts"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "site acemetal.com refused",
+     "site": "acemetal.com",
+     "attempted": true,
+     "refused": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "104",
+     "company_cell": "Chicago White Metal Casting Manufacturing & Industrial",
+     "phone": "(630) 595-4424",
+     "email": null,
+     "city": "Bensenville",
+     "kind": "source the contact",
+     "dm": "Eric Treiber President & CEO (3rd gen, since Dec 2009); Ryan Treiber (4th gen), ",
+     "name": "Chicago White Metal Casting"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "105",
+     "company_cell": "Winzeler Gear Manufacturing & Industrial",
+     "phone": "(708) 867-7971",
+     "email": null,
+     "city": "Harwood Heights",
+     "kind": "source the contact",
+     "dm": "Gary Rheude President/CEO of acquirer Adkev, Inc. (Goodland, IN — family-owned)",
+     "name": "Winzeler Gear"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(708) 867-7971",
+     "how": "company page",
+     "site": "winzelergear.com",
+     "candidates": [
+      "(708) 867-7971"
+     ],
+     "src": "Src: read winzelergear.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "106",
+     "company_cell": "Superior Joining Technologies Manufacturing & Industrial",
+     "phone": "(815) 282-7581",
+     "email": null,
+     "city": "Machesney Park",
+     "kind": "source the contact",
+     "dm": "Teresa Beach-Shelow President, Co-founder & Owner; Thom Shelow, Co-founder & VP ",
+     "name": "Superior Joining Technologies"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(815) 282-7581",
+     "how": "company page",
+     "site": "superiorjt.com",
+     "candidates": [
+      "(815) 282-7581"
+     ],
+     "src": "Src: read superiorjt.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "107",
+     "company_cell": "Forest City Gear Manufacturing & Industrial",
+     "phone": "(815) 623-2168",
+     "email": null,
+     "city": "Roscoe",
+     "kind": "source the contact",
+     "dm": "Kika Young President (3rd gen, since 2022); ownership shared with sisters Appy M",
+     "name": "Forest City Gear"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(815) 623-2168",
+     "how": "company page",
+     "site": "forestcitygear.com",
+     "candidates": [
+      "(815) 623-2168",
+      "(815) 623-6620"
+     ],
+     "src": "Src: read forestcitygear.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "112",
+     "company_cell": "Bergstrom Inc. Manufacturing & Industrial",
+     "phone": null,
+     "email": null,
+     "city": "Rockford",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Dan Giovannetti 2390 Blackhawk Road Rockford Il 61109 — President per the Illino",
+     "name": "Bergstrom Inc."
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no company site in the search results",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "120",
+     "company_cell": "Midwest Orthopaedics at Rush Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Dr. Brian Cole, Managing Partner Physician-owned; division of OrthoMidwest (aggr",
+     "name": "Midwest Orthopaedics at Rush"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "site rush.edu does not name the company — identity not established",
+     "site": "rush.edu",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "121",
+     "company_cell": "Illinois Bone & Joint Institute Professional Services",
+     "phone": "(847) 375-3000",
+     "email": null,
+     "city": "Des Plaines",
+     "kind": "source the contact",
+     "dm": "Andre Blom CEO — largest independent physician-OWNED ortho practice in Illinois",
+     "name": "Illinois Bone & Joint Institute"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no company site in the search results",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "136",
+     "company_cell": "dbHMS Professional Services",
+     "phone": "(312) 915-0557",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Sachin Anand Founding Principal & President (est. 2002)",
+     "name": "dbHMS"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(312) 915-0557",
+     "how": "company page",
+     "site": "dbhms.com",
+     "candidates": [
+      "(312) 915-0557",
+      "(616) 776-9009",
+      "(267) 217-1612",
+      "(857) 777-0479"
+     ],
+     "src": "Src: read dbhms.com/contact.html 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "138",
+     "company_cell": "Sebert Landscaping Construction & Specialty Trades",
+     "phone": "(630) 497-1000",
+     "email": null,
+     "city": "Bartlett",
+     "kind": "source the contact",
+     "dm": "Jeff Sebert Founder & CEO (owner since 1985)",
+     "name": "Sebert Landscaping"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "139",
+     "company_cell": "Christy Webber Landscapes Construction & Specialty Trades",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Christy Webber President & Founding Owner (since 1988); Roger Post, CFO",
+     "name": "Christy Webber Landscapes"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "140",
+     "company_cell": "ILT Vignocchi Construction & Specialty Trades",
+     "phone": "(847) 487-5200",
+     "email": null,
+     "city": "Wauconda",
+     "kind": "source the contact",
+     "dm": "Donna Vignocchi Zych President (2nd gen; father Harry founded ILT — \"Italian Law",
+     "name": "ILT Vignocchi"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(847) 487-5200",
+     "how": "company page",
+     "site": "iltvignocchi.com",
+     "candidates": [
+      "(847) 487-5200"
+     ],
+     "src": "Src: read iltvignocchi.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "143",
+     "company_cell": "Arrow Road Construction Construction & Specialty Trades",
+     "phone": "(847) 437-0700",
+     "email": null,
+     "city": "Mount Prospect",
+     "kind": "source the contact",
+     "dm": "John F. Healy, Esq. President & CEO — Arrow Road Construction Co. / Healy Asphal",
+     "name": "Arrow Road Construction"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no company site in the search results",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "144",
+     "company_cell": "Plote Construction Construction & Specialty Trades",
+     "phone": "(847) 695-9300",
+     "email": null,
+     "city": "Hoffman Estates",
+     "kind": "source the contact",
+     "dm": "Dan Plote President (2nd gen, since 2005); founded by Ray & Jan Plote 1964 — fam",
+     "name": "Plote Construction"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "site plote.com refused",
+     "site": "plote.com",
+     "attempted": true,
+     "refused": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "145",
+     "company_cell": "Curran Contracting Construction & Specialty Trades",
+     "phone": "(815) 455-5100",
+     "email": null,
+     "city": "Crystal Lake",
+     "kind": "source the contact",
+     "dm": "Jason Recob President, Curran Contracting (since May 2023, non-family profession",
+     "name": "Curran Contracting"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(815) 455-5100",
+     "how": "company page",
+     "site": "currancontracting.com",
+     "candidates": [
+      "(815) 758-8113",
+      "(815) 455-5100",
+      "(630) 554-1665"
+     ],
+     "src": "Src: read currancontracting.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "146",
+     "company_cell": "Peter Baker & Son Construction & Specialty Trades",
+     "phone": "(847) 362-3663",
+     "email": null,
+     "city": "Lake Bluff",
+     "kind": "source the contact",
+     "dm": "Art Baker (Arthur II), President & Rob Baker 4th-gen brother owners (company und",
+     "name": "Peter Baker & Son"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(847) 362-3663",
+     "how": "company page",
+     "site": "peterbaker.com",
+     "candidates": [
+      "(847) 362-3663",
+      "(847) 362-0707"
+     ],
+     "src": "Src: read peterbaker.com/index.php/contact 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "148",
+     "company_cell": "Aldridge Electric Construction & Specialty Trades",
+     "phone": "(847) 680-5200",
+     "email": null,
+     "city": "Libertyville",
+     "kind": "source the contact",
+     "dm": "Alex Aldridge CEO (3rd gen; Ken Aldridge, 2nd-gen owner, still active); Frank Ma",
+     "name": "Aldridge Electric"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(847) 680-5200",
+     "how": "company page",
+     "site": "aldridgegroup.com",
+     "candidates": [
+      "(847) 680-5200"
+     ],
+     "src": "Src: read aldridgegroup.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "149",
+     "company_cell": "Divane Bros. Electric Construction & Specialty Trades",
+     "phone": "(847) 455-7143",
+     "email": null,
+     "city": "Franklin Park",
+     "kind": "source the contact",
+     "dm": "William T. Divane President — 3rd-gen family-owned since 1920",
+     "name": "Divane Bros. Electric"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "150",
+     "company_cell": "Gurtz Electric Construction & Specialty Trades",
+     "phone": "(847) 734-2400",
+     "email": null,
+     "city": "Arlington Heights",
+     "kind": "source the contact",
+     "dm": "Frank Gurtz Owner & CEO (3rd gen, President since 2002); Mallory Gurtz, COO (4th",
+     "name": "Gurtz Electric"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(847) 734-2400",
+     "how": "company page",
+     "site": "gurtzelectric.com",
+     "candidates": [
+      "(847) 734-2400"
+     ],
+     "src": "Src: read gurtzelectric.com/contact 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "151",
+     "company_cell": "Continental Electrical Construction Construction & Specialty Trades",
+     "phone": null,
+     "email": null,
+     "city": "Oak Brook",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "David Chorley, President Operating DM (non-family); Witz family 4th-gen owners (",
+     "name": "Continental Electrical Construction"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "153",
+     "company_cell": "Great Lakes Plumbing & Heating Construction & Specialty Trades",
+     "phone": "(773) 489-0400",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Justin Treutelaar, President Treutelaar family-owned since 1946; Matt Treutelaar",
+     "name": "Great Lakes Plumbing & Heating"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no company site in the search results",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "154",
+     "company_cell": "F.E. Moran Construction & Specialty Trades",
+     "phone": "(847) 498-4800",
+     "email": null,
+     "city": "Northbrook",
+     "kind": "source the contact",
+     "dm": "Brian Moran CEO & 3rd-gen owner (F.E. → Owen → Brian) — F.E. Moran Group of Comp",
+     "name": "F.E. Moran"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(847) 498-4800",
+     "how": "company page",
+     "site": "femoran.com",
+     "candidates": [
+      "(847) 498-4800"
+     ],
+     "src": "Src: read femoran.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "155",
+     "company_cell": "Hill Mechanical Group Construction & Specialty Trades",
+     "phone": "(847) 451-5000",
+     "email": null,
+     "city": "Franklin Park",
+     "kind": "source the contact",
+     "dm": "Jim (James B.) Hill II President (3rd gen, since 2014) — Hill family-owned since",
+     "name": "Hill Mechanical Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "156",
+     "company_cell": "AMS Mechanical Systems Construction & Specialty Trades",
+     "phone": "(630) 887-7700",
+     "email": null,
+     "city": "Alsip",
+     "kind": "source the contact",
+     "dm": "Ben Campbell President & CEO (since 2017) — 100% EMPLOYEE-OWNED (ESOP since 2017",
+     "name": "AMS Mechanical Systems"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "158",
+     "company_cell": "Sherman Mechanical Construction & Specialty Trades",
+     "phone": "(847) 462-1000",
+     "email": null,
+     "city": "Cary",
+     "kind": "source the contact",
+     "dm": "Michael Kivland President; David Kerrigan listed as Owner (directory) — privatel",
+     "name": "Sherman Mechanical"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(847) 462-1000",
+     "how": "company page",
+     "site": "shermanmech.com",
+     "candidates": [
+      "(847) 462-1000",
+      "(847) 462-1020"
+     ],
+     "src": "Src: read shermanmech.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "160",
+     "company_cell": "Madison Industries Manufacturing & Industrial",
+     "phone": null,
+     "email": null,
+     "city": "Lake Forest",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Larry Gies Founder, Chairman & CEO",
+     "name": "Madison Industries"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(312) 277-0156",
+     "how": "company page",
+     "site": "madison.net",
+     "candidates": [
+      "(312) 277-0156",
+      "(312) 277-0163"
+     ],
+     "src": "Src: read madison.net/about-us/contact-us 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "164",
+     "company_cell": "Marquette Companies Construction & Specialty Trades",
+     "phone": "(630) 420-4730",
+     "email": null,
+     "city": "Naperville",
+     "kind": "source the contact",
+     "dm": "Trevor Ryan Partner & President (2nd gen, Feb 2025); founder Nick Ryan → Exec Ch",
+     "name": "Marquette Companies"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(630) 420-4730",
+     "how": "company page",
+     "site": "marquettecompanies.com",
+     "candidates": [
+      "(630) 420-4730"
+     ],
+     "src": "Src: read marquettecompanies.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "165",
+     "company_cell": "Focus Development Construction & Specialty Trades",
+     "phone": null,
+     "email": null,
+     "city": "Northfield",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Tim Anderson Founder & CEO (since 1993); ownership broadened 2022 — EVPs Justin ",
+     "name": "Focus Development"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "167",
+     "company_cell": "Habitat Company Professional Services",
+     "phone": "(312) 527-5400",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Matt Fiascone President (promoted from within; leads strategy, investment & oper",
+     "name": "Habitat Company"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "169",
+     "company_cell": "RMK Management Professional Services",
+     "phone": "(312) 407-6767",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Anthony R. Rossi Jr. President since 2015 (2nd gen — family firm w/ sister co M&",
+     "name": "RMK Management"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "170",
+     "company_cell": "Draper and Kramer Professional Services",
+     "phone": "(312) 346-8600",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Todd Bancroft President & CEO (non-family, since 2018) of D&K and parent DKH Inc",
+     "name": "Draper and Kramer"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "171",
+     "company_cell": "Marquette Management Professional Services",
+     "phone": "(630) 320-0550",
+     "email": null,
+     "city": "Naperville",
+     "kind": "source the contact",
+     "dm": "Jim Cunningham Partner & President, Marquette Management (Feb 2025; COO 2011–202",
+     "name": "Marquette Management"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(630) 320-0550",
+     "how": "company page",
+     "site": "marquettemanagement.com",
+     "candidates": [
+      "(630) 320-0550",
+      "(630) 320-0551"
+     ],
+     "src": "Src: read marquettemanagement.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "172",
+     "company_cell": "Inland Real Estate Group Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Oak Brook",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Baum, Robert H., Manager (legal manager, Illinois register)",
+     "name": "Inland Real Estate Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no number on the company pages read",
+     "site": "inlandgroup.com",
+     "candidates": [],
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "174",
+     "company_cell": "Interra Realty Professional Services",
+     "phone": "(312) 361-3140",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "David Goss & Jon Morgan Co-founders & Managing Principals (owner-operators)",
+     "name": "Interra Realty"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(312) 361-3140",
+     "how": "company page",
+     "site": "interrarealty.com",
+     "candidates": [
+      "(312) 361-3140"
+     ],
+     "src": "Src: read interrarealty.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "175",
+     "company_cell": "Kiser Group Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Lee Kiser Co-founder, Principal & Managing Broker (owner w/ Estella Kiser, Co-fo",
+     "name": "Kiser Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(773) 293-5000",
+     "how": "company page",
+     "site": "kisergroup.com",
+     "candidates": [
+      "(773) 293-5000"
+     ],
+     "src": "Src: read kisergroup.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "176",
+     "company_cell": "Essex Realty Group Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Doug Imber Founder & Principal (since 1990, owner); Brian Kochendorfer, Presiden",
+     "name": "Essex Realty Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(773) 305-4900",
+     "how": "company page",
+     "site": "essexrealtygroup.com",
+     "candidates": [
+      "(773) 305-4870",
+      "(847) 732-9090",
+      "(773) 305-4900",
+      "(847) 373-6368",
+      "(773) 305-4901"
+     ],
+     "src": "Src: read essexrealtygroup.com 2026-10-31",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "180",
+     "company_cell": "Dream Town Realty Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Yuval Degani Founder & CEO — now President of Brokerage Services at acquirer Bai",
+     "name": "Dream Town Realty"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "183",
+     "company_cell": "Wheatland Title Professional Services",
+     "phone": "(630) 892-2323",
+     "email": null,
+     "city": "Yorkville",
+     "kind": "source the contact",
+     "dm": "John D. Ammons Founder & President since 1982 — still at the helm at ~44 years",
+     "name": "Wheatland Title"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "184",
+     "company_cell": "Greater Illinois Title Professional Services",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Christine Sparks 1360 Post Oak Blvd #100 Houston Tx 77056 — President per the Il",
+     "name": "Greater Illinois Title"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "185",
+     "company_cell": "Baird & Warner Professional Services",
+     "phone": "800-644-1855",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Stephen W. Baird President & CEO, 5th-gen owner",
+     "name": "Baird & Warner"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "192",
+     "company_cell": "Alliance Shippers Distribution & Wholesale",
+     "phone": null,
+     "email": null,
+     "city": "Bensenville",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Steven Golich President & CEO (based Orland Park, IL) — per company's own Aug-20",
+     "name": "Alliance Shippers"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "194",
+     "company_cell": "Dot Transportation (Chicago) Distribution & Wholesale",
+     "phone": null,
+     "email": null,
+     "city": "Chicago",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Bryan W. Langston 1 Dot Way, Mt. Sterling, Il 62353 — President per the Illinois",
+     "name": "Dot Transportation (Chicago)"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "197",
+     "company_cell": "Sloan Valve Company Manufacturing & Industrial",
+     "phone": "800-982-5839",
+     "email": null,
+     "city": "Franklin Park",
+     "kind": "source the contact",
+     "dm": "Kirk, Jim & Graham Allen, Co-Presidents Charles S. Allen, Exec. Chairman",
+     "name": "Sloan Valve Company"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "206",
+     "company_cell": "Chicago Tag & Label Manufacturing & Industrial",
+     "phone": "(847) 362-5100",
+     "email": null,
+     "city": "Libertyville",
+     "kind": "source the contact",
+     "dm": "F. Paul Valenti Jr. (Francis P. Valenti) President, 2nd gen — son of founder F. ",
+     "name": "Chicago Tag & Label"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "209",
+     "company_cell": "Bill Jacobs Auto Group Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Naperville",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Jacobs family (Linda Jacobs) Family-owned since 1955, 3rd gen active; operates a",
+     "name": "Bill Jacobs Auto Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "210",
+     "company_cell": "Continental Auto Group Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Naperville",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Joel Weinberger Family owners w/ brother Jay & cousin Cheryl — Continental Motor",
+     "name": "Continental Auto Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "211",
+     "company_cell": "Napleton Automotive Group Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Westmont",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Ed Napleton President & Owner, 3rd gen — family-owned since 1931",
+     "name": "Napleton Automotive Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "213",
+     "company_cell": "Rizza Auto Group Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Orland Park",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Joe Rizza Founder, President & CEO (in the business since 1967, group since 1978",
+     "name": "Rizza Auto Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "214",
+     "company_cell": "Currie Motors Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Frankfort",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Currie family 3rd-generation family-owned, 60+ years — principal name not publis",
+     "name": "Currie Motors"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "216",
+     "company_cell": "Gerald Auto Group Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Naperville",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Gerald family, 3rd generation at the helm Family-owned since the mid-1930s (Neil",
+     "name": "Gerald Auto Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "217",
+     "company_cell": "Larry Roesch Auto Group Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Elmhurst",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Oleg Kislyansky New individual owner of the ex-Roesch Ford & CDJR (now Elmhurst ",
+     "name": "Larry Roesch Auto Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "217b",
+     "company_cell": "Elmhurst Ford / Elmhurst CDJR (Kislyansky) Auto Retail — NEW ROW added per Tim 2026-08-23",
+     "phone": null,
+     "email": null,
+     "city": "Elmhurst / Bensenville",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Oleg Kislyansky Owner-operator — acquired both rooftops from Dan Roesch & Paul K",
+     "name": "Elmhurst Ford / Elmhurst CDJR (Kislyansky)"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "221",
+     "company_cell": "Advantage Chevrolet Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Bolingbrook",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Desmond Roberts Owner & President — family-owned; in the business since 1986 (GM",
+     "name": "Advantage Chevrolet"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "226",
+     "company_cell": "Patrick Dealer Group Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Schaumburg",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Hanley Dawson IV President, 4th gen — Dawson family in autos since 1904 (Henry F",
+     "name": "Patrick Dealer Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "231",
+     "company_cell": "Packey Webb Ford Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Downers Grove",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Webb family (\"Webb Boys\" dealerships) Family-owned & operated since 1962 — princ",
+     "name": "Packey Webb Ford"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "232",
+     "company_cell": "Bredemann Auto Group Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Park Ridge",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Bredemann family, 4th generation working in the business Family-owned since 1912",
+     "name": "Bredemann Auto Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "233",
+     "company_cell": "Autobarn Group Multi-Site Retail",
+     "phone": null,
+     "email": null,
+     "city": "Evanston",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Richard Fisher Founder & sole owner since 1990 (ex-Patrick Dealer Group) — HQ 3r",
+     "name": "Autobarn Group"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago.html",
+     "num": "235",
+     "company_cell": "Ruprecht Company Manufacturing & Industrial",
+     "phone": null,
+     "email": null,
+     "city": "Mundelein",
+     "kind": "acquire a contact (none on the row)",
+     "dm": "Michael Culver 1301 Allanson Rd Mundelein Il, 60060 — President per the Illinois",
+     "name": "Ruprecht Company"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago-expansion.html",
+     "num": "1",
+     "company_cell": "Radio Flyer Inc. Manufacturing & Industrial",
+     "phone": "773-637-7100",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Robert Pasin, CEO (“Chief Wagon Officer”) Pasin family (3rd gen)",
+     "name": "Radio Flyer Inc."
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago-expansion.html",
+     "num": "4",
+     "company_cell": "Vienna Beef Ltd. Food & Beverage Processing",
+     "phone": "773-278-7800",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Jack (John P.) Bodman, CEO Family/management ownership since 1893",
+     "name": "Vienna Beef Ltd."
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago-expansion.html",
+     "num": "13",
+     "company_cell": "Fellowes Brands Manufacturing & Industrial",
+     "phone": "630-893-1600",
+     "email": null,
+     "city": "Itasca",
+     "kind": "source the contact",
+     "dm": "Fellowes family (4th gen; John Fellowes CEO)",
+     "name": "Fellowes Brands"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   },
+   {
+    "row": {
+     "file": "chicago-expansion.html",
+     "num": "17",
+     "company_cell": "Azteca Foods, Inc. Food & Beverage Processing",
+     "phone": "708-563-6600",
+     "email": null,
+     "city": "Chicago",
+     "kind": "source the contact",
+     "dm": "Art Velasquez, Owner Velasquez family (2nd gen)",
+     "name": "Azteca Foods, Inc."
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "unreached: ceiling",
+     "attempted": false
+    }
+   }
+  ],
+  "california": [
+   {
+    "row": {
+     "file": "california-expansion.html",
+     "num": "6",
+     "company_cell": "Guittard Chocolate Company Food & Beverage Processing",
+     "phone": "650-697-4427",
+     "email": null,
+     "city": "Burlingame",
+     "kind": "source the contact",
+     "dm": "Gary Guittard, Chairman; Amy Guittard Guittard family (4th/5th gen)",
+     "name": "Guittard Chocolate Company"
+    },
+    "r4": {
+     "route": 4,
+     "number": "(650) 697-4427",
+     "how": "company page",
+     "site": "guittard.com",
+     "candidates": [
+      "(800) 468-2462",
+      "(650) 697-4427"
+     ],
+     "src": "Src: read guittard.com/contact 2026-10-31",
+     "attempted": true
+    }
+   }
+  ],
+  "washington": [
+   {
+    "row": {
+     "file": "washington-expansion.html",
+     "num": "8",
+     "company_cell": "Janicki Industries Manufacturing & Industrial",
+     "phone": "360-856-5143",
+     "email": null,
+     "city": "Sedro-Woolley",
+     "kind": "source the contact",
+     "dm": "John Janicki, President Janicki family (founders)",
+     "name": "Janicki Industries"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "no association page in the results",
+     "attempted": true
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "no chamber page in the results",
+     "attempted": true
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    }
+   }
+  ],
+  "colorado": [
+   {
+    "row": {
+     "file": "colorado-expansion.html",
+     "num": "10",
+     "company_cell": "Boulder Amplifiers, Inc. Manufacturing & Industrial",
+     "phone": "303-449-8220",
+     "email": null,
+     "city": "Louisville",
+     "kind": "source the contact",
+     "dm": "Jeff Nelson, Founder/Owner",
+     "name": "Boulder Amplifiers, Inc."
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no company site in the search results",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "no chamber page in the results",
+     "attempted": true
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "no trade-press page in the results",
+     "attempted": true
+    }
+   },
+   {
+    "row": {
+     "file": "colorado-expansion.html",
+     "num": "11",
+     "company_cell": "Big Agnes, Inc. Manufacturing & Industrial",
+     "phone": "877-554-8975",
+     "email": null,
+     "city": "Steamboat Springs",
+     "kind": "source the contact",
+     "dm": "Bill Gamber, Co-Founder/Owner",
+     "name": "Big Agnes, Inc."
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "search empty",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "no association page in the results",
+     "attempted": true
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "no chamber page in the results",
+     "attempted": true
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    }
+   }
+  ],
+  "arizona": [
+   {
+    "row": {
+     "file": "arizona-expansion.html",
+     "num": "13",
+     "company_cell": "TYR Tactical, LLC Manufacturing & Industrial",
+     "phone": "623-780-9013",
+     "email": null,
+     "city": "Peoria",
+     "kind": "source the contact",
+     "dm": "Jason Beck, Founder/Owner",
+     "name": "TYR Tactical, LLC"
+    },
+    "r4": {
+     "route": 4,
+     "number": null,
+     "how": "no company site in the search results",
+     "attempted": true
+    },
+    "r1": {
+     "route": 1,
+     "number": null,
+     "how": "search refused",
+     "attempted": true
+    },
+    "r2": {
+     "route": 2,
+     "number": null,
+     "how": "no chamber page in the results",
+     "attempted": true
+    },
+    "r3": {
+     "route": 3,
+     "number": null,
+     "how": "no trade-press page in the results",
+     "attempted": true
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "item": "327",
+ "note": "open = head 4cb0e27; close = final bytes; census9 instrument as Item 325",
+ "markets": {
+  "chicago": {
+   "open": {
+    "rows": 288,
+    "call_ready": 23,
+    "tier_C": 133
+   },
+   "close": {
+    "rows": 288,
+    "tier": {
+     "A": 115,
+     "C": 133,
+     "B": 40
+    },
+    "status": {
+     "Verified": 131,
+     "Downgraded": 133,
+     "Verified w/ caveat": 1,
+     "Unverified": 11,
+     "Reclassified": 12
+    },
+    "call_ready": 55,
+    "short": {
+     "source the contact": 36,
+     "acquire a contact (none on the row)": 40,
+     "find the name and acquire a contact": 19,
+     "find the name and source the contact": 5
+    },
+    "short_total": 100
+   }
+  },
+  "california": {
+   "open": {
+    "rows": 162,
+    "call_ready": 0,
+    "tier_C": 41
+   },
+   "close": {
+    "rows": 162,
+    "tier": {
+     "A": 98,
+     "B": 23,
+     "C": 41
+    },
+    "status": {
+     "Verified": 110,
+     "Downgraded": 42,
+     "Reclassified": 10
+    },
+    "call_ready": 1,
+    "short": {
+     "find the name and acquire a contact": 111,
+     "find the name and source the contact": 9
+    },
+    "short_total": 120
+   }
+  },
+  "washington": {
+   "open": {
+    "rows": 250,
+    "call_ready": 0,
+    "tier_C": 135
+   },
+   "close": {
+    "rows": 250,
+    "tier": {
+     "C": 135,
+     "B": 22,
+     "A": 93
+    },
+    "status": {
+     "Downgraded": 136,
+     "Verified": 100,
+     "Reclassified": 12,
+     "Unverified": 2
+    },
+    "call_ready": 0,
+    "short": {
+     "find the name and acquire a contact": 109,
+     "source the contact": 1,
+     "find the name and source the contact": 5
+    },
+    "short_total": 115
+   }
+  },
+  "colorado": {
+   "open": {
+    "rows": 250,
+    "call_ready": 0,
+    "tier_C": 136
+   },
+   "close": {
+    "rows": 250,
+    "tier": {
+     "A": 73,
+     "B": 41,
+     "C": 136
+    },
+    "status": {
+     "Verified": 79,
+     "Downgraded": 139,
+     "Reclassified": 27,
+     "Unverified": 5
+    },
+    "call_ready": 0,
+    "short": {
+     "find the name and acquire a contact": 109,
+     "find the name and source the contact": 3,
+     "source the contact": 2
+    },
+    "short_total": 114
+   }
+  },
+  "arizona": {
+   "open": {
+    "rows": 250,
+    "call_ready": 0,
+    "tier_C": 140
+   },
+   "close": {
+    "rows": 250,
+    "tier": {
+     "A": 62,
+     "B": 48,
+     "C": 140
+    },
+    "status": {
+     "Verified": 68,
+     "Reclassified": 34,
+     "Downgraded": 147,
+     "Unverified": 1
+    },
+    "call_ready": 0,
+    "short": {
+     "find the name and source the contact": 32,
+     "find the name and acquire a contact": 77,
+     "source the contact": 1
+    },
+    "short_total": 110
+   }
+  }
+ }
+}
