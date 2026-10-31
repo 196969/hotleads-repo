@@ -1463,22 +1463,6 @@
    "date": "2026-10-31",
    "item": 321,
    "note": "the first narrowing of the fix matched “before contact” in a history sentence and gained a row it should not have; caught by reading the gains before reporting; the binding was narrowed to the sentence the source line closes and re-proved"
-  },
-  {
-   "date": "2026-10-31",
-   "retired": "353 (the sixth figure)",
-   "note": "the first five (3,220, 3,323, 3,390, 408, 439) were quoted without derivation; 353 derived correctly from a test that measured the wrong thing. That is the more dangerous kind: it survives every check that asks whether the figure derives"
-  },
-  {
-   "date": "2026-10-31",
-   "control": "reading, fourth instance",
-   "line": "a narrowed rule is proved by reading what it still admits, not only what it now rejects",
-   "note": "“before contact” in a history sentence nearly dated a phone; caught by reading the gains. Three of this item’s four controls were reading; the fourth was a recount"
-  },
-  {
-   "date": "2026-10-31",
-   "market": "Florida",
-   "note": "re-closed at 40 rows / 40 companies on the fixed contact rule (98 / 97 on the old); verified-callable 14 (25 on the old). Dial pack and Core BD Report regenerated with the lineage"
   }
  ]
 }
