@@ -1,0 +1,152 @@
+{
+ "read": "2026-10-31",
+ "hosts": 20,
+ "without_identity": {
+  "answer_now": 1,
+  "still_refuse": 19
+ },
+ "with_identity": "unmeasured",
+ "table": [
+  {
+   "host": "indeed.com",
+   "status_on_record": "403",
+   "status_without_identity_now": "403",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "ziprecruiter.com",
+   "status_on_record": "403",
+   "status_without_identity_now": "403",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "glassdoor.com",
+   "status_on_record": "403",
+   "status_without_identity_now": "403",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "bizbuysell.com",
+   "status_on_record": "403",
+   "status_without_identity_now": "403",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "hotelmanagement.net",
+   "status_on_record": "403",
+   "status_without_identity_now": "403",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "intercontinentalmiami.com",
+   "status_on_record": "503",
+   "status_without_identity_now": "503",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "intercontinental-miami.com",
+   "status_on_record": "503",
+   "status_without_identity_now": "503",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "westshoregrandhotel.com",
+   "status_on_record": "503",
+   "status_without_identity_now": "503",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "marinoperformancemotors.com",
+   "status_on_record": "403",
+   "status_without_identity_now": "200",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "answers now"
+  },
+  {
+   "host": "world.einnews.com",
+   "status_on_record": "403",
+   "status_without_identity_now": "403",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "oasis.com",
+   "status_on_record": "403",
+   "status_without_identity_now": "403",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "orius.com",
+   "status_on_record": "503",
+   "status_without_identity_now": "503",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "stmarysmc.com",
+   "status_on_record": "403",
+   "status_without_identity_now": "403",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "doormaker.com",
+   "status_on_record": "503",
+   "status_without_identity_now": "503",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "fort-myers.com",
+   "status_on_record": "503",
+   "status_without_identity_now": "503",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "lakelanddairies.com",
+   "status_on_record": "503",
+   "status_without_identity_now": "503",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "lakeland-dairies.com",
+   "status_on_record": "503",
+   "status_without_identity_now": "503",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "hcafloridawoodmonthospital.com",
+   "status_on_record": "503",
+   "status_without_identity_now": "503",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "jackbrowns.com",
+   "status_on_record": "challenge",
+   "status_without_identity_now": "challenge",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  },
+  {
+   "host": "havoc.com",
+   "status_on_record": "challenge",
+   "status_without_identity_now": "challenge",
+   "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+   "verdict": "still refuses without identity"
+  }
+ ],
+ "recommendation": "the split cannot be completed here: the “with network identity” arm needs a proxy service this environment does not have, and the ruling forbids buying one. Measured: 19 of 20 refusals are stable for the build’s reader today, so they are not transient. The definition is not amended on half a measurement; the question stays open until an identity arm is available to run once"
+}

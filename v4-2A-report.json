@@ -1,0 +1,333 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Item 320 v4 — 2A, 2C, proxy brief: Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Item 320 v4 — 2A, 2C, proxy delivered: Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "gate": "discipline, not a hook: the build gates on its proofs by running them before its own launch"
+ },
+ "2A": {
+  "records_scanned": 12987601,
+  "records_kept": 138,
+  "reads_spent_from_the_row_budget": 0,
+  "control": [
+   [
+    "Invicta Watch Group",
+    "not reached under the strict join"
+   ],
+   [
+    "Badia Spices",
+    "not reached under the strict join"
+   ],
+   [
+    "PJ Distributors",
+    "not reached under the strict join"
+   ],
+   [
+    "Riverdale Farms",
+    "right entity, the register’s legal officers differ from the operating decision maker on the row"
+   ],
+   [
+    "Turbana Corp",
+    "not reached under the strict join"
+   ],
+   [
+    "Refricenter",
+    "not reached under the strict join"
+   ],
+   [
+    "TruckMax",
+    "officer agrees with the known decision maker"
+   ],
+   [
+    "Presidente Supermarkets",
+    "not reached under the strict join"
+   ],
+   [
+    "Sintavia",
+    "officer agrees with the known decision maker"
+   ],
+   [
+    "Eco Window Systems",
+    "not reached under the strict join"
+   ],
+   [
+    "Cigarette Racing Team",
+    "not reached under the strict join"
+   ],
+   [
+    "WTDC Logistics",
+    "not reached under the strict join"
+   ],
+   [
+    "SkyPostal",
+    "officer agrees with the known decision maker"
+   ],
+   [
+    "Fulfillment Hub USA",
+    "right entity, the register’s legal officers differ from the operating decision maker on the row"
+   ],
+   [
+    "Pepin Distributing",
+    "right entity, the register’s legal officers differ from the operating decision maker on the row"
+   ],
+   [
+    "Rooms To Go",
+    "not reached under the strict join"
+   ]
+  ],
+  "filled": [
+   {
+    "key": "83",
+    "source": "florida.html",
+    "company": "Duty Free Americas",
+    "officer": "Jerome Falic",
+    "title_code": "DCEO",
+    "record": "F05000001368",
+    "register_name": "DUTY FREE AMERICAS, INC.",
+    "city": "HOLLYWOOD"
+   },
+   {
+    "key": "101",
+    "source": "florida.html",
+    "company": "Suncoast Beverage Sales",
+    "officer": "Timothy Mitchell",
+    "title_code": "MGR",
+    "record": "L23000009585",
+    "register_name": "SUNCOAST BEVERAGE SALES, LLC",
+    "city": "FORT MYERS"
+   },
+   {
+    "key": "117",
+    "source": "florida.html",
+    "company": "Wayne Densch Inc.",
+    "officer": "John A. Williams",
+    "title_code": "Chai",
+    "record": "P97000067644",
+    "register_name": "WAYNE DENSCH, INC.",
+    "city": "SANFORD"
+   },
+   {
+    "key": "7",
+    "source": "expansion main",
+    "company": "Schwend, Inc.",
+    "officer": "Jeffrey Schwend",
+    "title_code": "P",
+    "record": "580326",
+    "register_name": "SCHWEND, INC.",
+    "city": "DADE CITY"
+   },
+   {
+    "key": "34",
+    "source": "expansion main",
+    "company": "Solutions Manufacturing",
+    "officer": "Neel Faldu",
+    "title_code": "MGR,",
+    "record": "L14000016759",
+    "register_name": "SOLUTIONS MANUFACTURING, LLC",
+    "city": "ROCKLEDGE"
+   }
+  ],
+  "not_reached": [
+   "IMG Citrus",
+   "Studer Family of Companies",
+   "Martinez Distributors (register city Miami, row Doral)",
+   "The Father's Table"
+  ],
+  "row_states_written": {
+   "partial": 13,
+   "measured_shut": 9
+  },
+  "call_ready": {
+   "before": 93,
+   "after": 95,
+   "of": 200
+  },
+  "why_only_two": "three of the five filled rows still lack a published contact with a dated read, so a named officer alone does not make them call-ready"
+ },
+ "2C": "not run: the Illinois files have not landed (nothing matching in the uploads); no automated fetch of ilsos.gov was attempted",
+ "proxy": {
+  "read": "2026-10-31",
+  "hosts": 20,
+  "without_identity": {
+   "answer_now": 1,
+   "still_refuse": 19
+  },
+  "with_identity": "unmeasured",
+  "table": [
+   {
+    "host": "indeed.com",
+    "status_on_record": "403",
+    "status_without_identity_now": "403",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "ziprecruiter.com",
+    "status_on_record": "403",
+    "status_without_identity_now": "403",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "glassdoor.com",
+    "status_on_record": "403",
+    "status_without_identity_now": "403",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "bizbuysell.com",
+    "status_on_record": "403",
+    "status_without_identity_now": "403",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "hotelmanagement.net",
+    "status_on_record": "403",
+    "status_without_identity_now": "403",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "intercontinentalmiami.com",
+    "status_on_record": "503",
+    "status_without_identity_now": "503",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "intercontinental-miami.com",
+    "status_on_record": "503",
+    "status_without_identity_now": "503",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "westshoregrandhotel.com",
+    "status_on_record": "503",
+    "status_without_identity_now": "503",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "marinoperformancemotors.com",
+    "status_on_record": "403",
+    "status_without_identity_now": "200",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "answers now"
+   },
+   {
+    "host": "world.einnews.com",
+    "status_on_record": "403",
+    "status_without_identity_now": "403",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "oasis.com",
+    "status_on_record": "403",
+    "status_without_identity_now": "403",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "orius.com",
+    "status_on_record": "503",
+    "status_without_identity_now": "503",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "stmarysmc.com",
+    "status_on_record": "403",
+    "status_without_identity_now": "403",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "doormaker.com",
+    "status_on_record": "503",
+    "status_without_identity_now": "503",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "fort-myers.com",
+    "status_on_record": "503",
+    "status_without_identity_now": "503",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "lakelanddairies.com",
+    "status_on_record": "503",
+    "status_without_identity_now": "503",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "lakeland-dairies.com",
+    "status_on_record": "503",
+    "status_without_identity_now": "503",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "hcafloridawoodmonthospital.com",
+    "status_on_record": "503",
+    "status_without_identity_now": "503",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "jackbrowns.com",
+    "status_on_record": "challenge",
+    "status_without_identity_now": "challenge",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   },
+   {
+    "host": "havoc.com",
+    "status_on_record": "challenge",
+    "status_without_identity_now": "challenge",
+    "status_with_identity": "not measured — no proxy or network-identity service exists in this environment",
+    "verdict": "still refuses without identity"
+   }
+  ],
+  "recommendation": "the split cannot be completed here: the “with network identity” arm needs a proxy service this environment does not have, and the ruling forbids buying one. Measured: 19 of 20 refusals are stable for the build’s reader today, so they are not transient. The definition is not amended on half a measurement; the question stays open until an identity arm is available to run once"
+ },
+ "chicago_gaps_carried": [
+  "no sourced address on any row: verified-callable is structurally zero",
+  "no intake table in either expansion file"
+ ]
+}

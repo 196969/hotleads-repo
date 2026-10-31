@@ -1,0 +1,123 @@
+{
+ "filled": {
+  "Duty Free Americas": true,
+  "Suncoast Beverage Sales": true,
+  "Wayne Densch Inc.": true,
+  "Schwend, Inc.": true,
+  "Solutions Manufacturing": true
+ },
+ "states_written": [
+  [
+   "Duty Free Americas",
+   "partial",
+   true
+  ],
+  [
+   "Detwiler’s Farm Market",
+   "measured shut",
+   true
+  ],
+  [
+   "Schwend, Inc.",
+   "partial",
+   true
+  ],
+  [
+   "Martinez Distributors",
+   "partial",
+   true
+  ],
+  [
+   "Health Network One",
+   "partial",
+   true
+  ],
+  [
+   "STS Aviation Group",
+   "partial",
+   true
+  ],
+  [
+   "Sedano's Supermarkets",
+   "measured shut",
+   true
+  ],
+  [
+   "City Furniture",
+   "measured shut",
+   true
+  ],
+  [
+   "Coca-Cola Beverages Florida",
+   "measured shut",
+   true
+  ],
+  [
+   "Boar's Head Provisions",
+   "measured shut",
+   true
+  ],
+  [
+   "Saddle Creek Logistics",
+   "measured shut",
+   true
+  ],
+  [
+   "ABC Fine Wine & Spirits",
+   "measured shut",
+   true
+  ],
+  [
+   "Braman Motorcars",
+   "measured shut",
+   true
+  ],
+  [
+   "Morgan Auto Group",
+   "partial",
+   true
+  ],
+  [
+   "IMG Citrus",
+   "partial",
+   true
+  ],
+  [
+   "Gate Petroleum",
+   "measured shut",
+   true
+  ],
+  [
+   "Innisfree Hotels",
+   "partial",
+   true
+  ],
+  [
+   "Solutions Manufacturing",
+   "partial",
+   true
+  ],
+  [
+   "Suncoast Beverage Sales",
+   "partial",
+   true
+  ],
+  [
+   "Wayne Densch Inc.",
+   "partial",
+   true
+  ],
+  [
+   "Studer Family of Companies",
+   "partial",
+   true
+  ],
+  [
+   "The Father's Table",
+   "partial",
+   true
+  ]
+ ],
+ "call_ready_after": 95,
+ "validator": "florida.html: 198 Src: lines read in the main table (198 present in the table), 0 in the intake table, 3 without a date on the line itself\n   row #112: Src: open; routes spent: row site link refused (403); derived host refused (503); derived host resolved but failed the p\n   row #145: Src: open; routes spent: row site link read (proved); contact page refused (500); remaining: Sunbiz officer list (refuse\n   row #146: Src: open; routes spent: derived host refused (net); derived host refused (net); trade press (officer.py) read; remainin\nflorida-expansion.html: 8 Src: lines read in the main table (8 present in the table), 21 in the intake table, 3 without a date on the line itself\n   row #24: Src: open; routes spent: derived host read (proved); contact page read; leadership/about page read; leadership/about pag\n   row #I5: intake: Src: open; routes spent: row site link read (proved); remaining: Sunbiz officer list (refuses this reader, 403); LinkedI\n   row #I7: intake: Src: open; routes spent: row site link read (proved); contact page read; remaining: Sunbiz officer list (refuses this re\nVALIDATOR REFUSED — 6 undated Src: line(s); the date must sit on the line itself"
+}

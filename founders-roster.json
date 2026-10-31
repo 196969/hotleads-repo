@@ -1280,28 +1280,35 @@
   },
   {
    "date": "2026-10-31",
-   "item": "320 third edition",
-   "run": "Chicago/Illinois window one",
-   "fault": 63,
-   "line": "a run that keeps iterating past its ceiling must not label what it did not read",
-   "note": "after the 196th read the engine went on through the queue and marked 222 unread rows “partial”, then reported “the whole queue worked”; caught reading the output before counting; relabelled unworked and re-queued. Repair: the engine stops at the ceiling and leaves the rest unworked by name"
+   "item": "320 v4 2A",
+   "line": "a state held in an engine record is not recorded on the row",
+   "note": "22 row states written onto the rows"
   },
   {
    "date": "2026-10-31",
-   "item": "320 third edition",
-   "run": "Chicago/Illinois window one",
-   "fault": 64,
-   "line": "a proof that binds a name must also bind a place",
-   "note": "alliancesteel.com passed the whole-name proof and carried a Montreal number (514): a same-name company elsewhere. Five completions were refused before write-back (four with no Illinois address or area code on the page read, one a founder named in a 1912 history passage)"
+   "item": "320 v4 2A",
+   "fault": "reading",
+   "note": "the planted control’s first form took nicknames and words as surnames and listed a target as a control; read and corrected before use. A name-only join took inactive records and other entities (7 of 11 false); replaced by the strict join (0 of 6 wrong entities)"
   },
   {
    "date": "2026-10-31",
-   "item": "320 third edition",
-   "seats": {
-    "Nadella": "the census zeros read before believed: Illinois rows are skeletons (decision maker “— Family owner (confirm)”, phone —, no site link)",
-    "O’Leary": "discovery stays closed: Step Two has not closed, and the queue forecast says it is several windows",
-    "Herjavec": "only finds placed in Illinois written back"
-   }
+   "item": "320 v4 2A",
+   "fault": "reading",
+   "note": "six state lines carried the missing-field label “…with a dated Src:” and read as undated source lines; the validator refused them; reworded inside the state lines only"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": 65,
+   "line": "a classification made from one source when the jurisdiction publishes two that say different things",
+   "note": "Illinois was classed “individual lookup only” from the search page’s disclaimer alone; the Secretary of State’s data page publishes bulk sets under P.A. 102-0049 and prohibits automated queries. Ruled: free bulk, person-downloaded, automation prohibited. 2B struck. The access line names every page read (Chapter 4, all 27 markets)"
+  },
+  {
+   "date": "2026-10-31",
+   "finding": "honouring the Illinois restriction costs less, not more: the person-downloaded bulk set brings the officer field for every row at once at no read cost"
+  },
+  {
+   "date": "2026-10-31",
+   "2A_parent": "the florida.html and florida-expansion.html 2A was built from equal live byte for byte at head 0a0f4a2: 2A is safe to upload"
   }
  ]
 }

@@ -1,0 +1,120 @@
+{
+ "control": [
+  [
+   "Invicta Watch Group",
+   "not reached under the strict join"
+  ],
+  [
+   "Badia Spices",
+   "not reached under the strict join"
+  ],
+  [
+   "PJ Distributors",
+   "not reached under the strict join"
+  ],
+  [
+   "Riverdale Farms",
+   "right entity, the register’s legal officers differ from the operating decision maker on the row"
+  ],
+  [
+   "Turbana Corp",
+   "not reached under the strict join"
+  ],
+  [
+   "Refricenter",
+   "not reached under the strict join"
+  ],
+  [
+   "TruckMax",
+   "officer agrees with the known decision maker"
+  ],
+  [
+   "Presidente Supermarkets",
+   "not reached under the strict join"
+  ],
+  [
+   "Sintavia",
+   "officer agrees with the known decision maker"
+  ],
+  [
+   "Eco Window Systems",
+   "not reached under the strict join"
+  ],
+  [
+   "Cigarette Racing Team",
+   "not reached under the strict join"
+  ],
+  [
+   "WTDC Logistics",
+   "not reached under the strict join"
+  ],
+  [
+   "SkyPostal",
+   "officer agrees with the known decision maker"
+  ],
+  [
+   "Fulfillment Hub USA",
+   "right entity, the register’s legal officers differ from the operating decision maker on the row"
+  ],
+  [
+   "Pepin Distributing",
+   "right entity, the register’s legal officers differ from the operating decision maker on the row"
+  ],
+  [
+   "Rooms To Go",
+   "not reached under the strict join"
+  ]
+ ],
+ "fills": [
+  {
+   "key": "83",
+   "source": "florida.html",
+   "company": "Duty Free Americas",
+   "officer": "Jerome Falic",
+   "title_code": "DCEO",
+   "record": "F05000001368",
+   "register_name": "DUTY FREE AMERICAS, INC.",
+   "city": "HOLLYWOOD"
+  },
+  {
+   "key": "101",
+   "source": "florida.html",
+   "company": "Suncoast Beverage Sales",
+   "officer": "Timothy Mitchell",
+   "title_code": "MGR",
+   "record": "L23000009585",
+   "register_name": "SUNCOAST BEVERAGE SALES, LLC",
+   "city": "FORT MYERS"
+  },
+  {
+   "key": "117",
+   "source": "florida.html",
+   "company": "Wayne Densch Inc.",
+   "officer": "John A. Williams",
+   "title_code": "Chai",
+   "record": "P97000067644",
+   "register_name": "WAYNE DENSCH, INC.",
+   "city": "SANFORD"
+  },
+  {
+   "key": "7",
+   "source": "expansion main",
+   "company": "Schwend, Inc.",
+   "officer": "Jeffrey Schwend",
+   "title_code": "P",
+   "record": "580326",
+   "register_name": "SCHWEND, INC.",
+   "city": "DADE CITY"
+  },
+  {
+   "key": "34",
+   "source": "expansion main",
+   "company": "Solutions Manufacturing",
+   "officer": "Neel Faldu",
+   "title_code": "MGR,",
+   "record": "L14000016759",
+   "register_name": "SOLUTIONS MANUFACTURING, LLC",
+   "city": "ROCKLEDGE"
+  }
+ ]
+}

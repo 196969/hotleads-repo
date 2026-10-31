@@ -1,0 +1,155 @@
+{
+ "florida.html": {
+  "market": "Florida",
+  "rows": 150,
+  "tiers": {
+   "A": 47,
+   "B": 45,
+   "C": 58
+  },
+  "dialable": 92,
+  "call_ready": 77,
+  "verified_callable": 25,
+  "no_named_dm": 21,
+  "no_dated_contact": 48,
+  "no_email": 95,
+  "no_dated_signal": 149
+ },
+ "florida-expansion.html": {
+  "market": "Florida",
+  "rows": 43,
+  "tiers": {
+   "A": 12,
+   "C": 27,
+   "B": 4
+  },
+  "dialable": 16,
+  "call_ready": 13,
+  "verified_callable": 0,
+  "no_named_dm": 11,
+  "no_dated_contact": 20,
+  "no_email": 43,
+  "no_dated_signal": 42
+ },
+ "florida-expansion.html intake": {
+  "market": "Florida",
+  "rows": 7,
+  "tiers": {
+   "Unverified": 7
+  },
+  "dialable": 7,
+  "call_ready": 5,
+  "verified_callable": 0,
+  "no_named_dm": 0,
+  "no_dated_contact": 2,
+  "no_email": 5,
+  "no_dated_signal": 0
+ },
+ "florida-archive.html": {
+  "market": "Florida",
+  "rows": 51,
+  "tiers": {
+   "C": 51
+  },
+  "dialable": 0,
+  "call_ready": 0,
+  "verified_callable": 0,
+  "no_named_dm": 38,
+  "no_dated_contact": 46,
+  "no_email": 51,
+  "no_dated_signal": 51
+ },
+ "chicago.html": {
+  "market": "Chicago",
+  "rows": 239,
+  "tiers": {
+   "A": 109,
+   "C": 99,
+   "B": 30,
+   "": 1
+  },
+  "dialable": 139,
+  "call_ready": 64,
+  "verified_callable": 0,
+  "no_named_dm": 124,
+  "no_dated_contact": 173,
+  "no_email": 238,
+  "no_dated_signal": 239
+ },
+ "chicago-expansion.html": {
+  "market": "Chicago",
+  "rows": 50,
+  "tiers": {
+   "A": 5,
+   "C": 32,
+   "B": 13
+  },
+  "dialable": 18,
+  "call_ready": 4,
+  "verified_callable": 0,
+  "no_named_dm": 46,
+  "no_dated_contact": 26,
+  "no_email": 50,
+  "no_dated_signal": 50
+ },
+ "chicago-archive.html": {
+  "market": "Chicago",
+  "rows": 48,
+  "tiers": {
+   "C": 48
+  },
+  "dialable": 0,
+  "call_ready": 0,
+  "verified_callable": 0,
+  "no_named_dm": 48,
+  "no_dated_contact": 48,
+  "no_email": 48,
+  "no_dated_signal": 48
+ },
+ "illinois.html": {
+  "market": "Illinois",
+  "rows": 200,
+  "tiers": {
+   "A": 120,
+   "B": 55,
+   "C": 25
+  },
+  "dialable": 175,
+  "call_ready": 1,
+  "verified_callable": 0,
+  "no_named_dm": 198,
+  "no_dated_contact": 199,
+  "no_email": 199,
+  "no_dated_signal": 200
+ },
+ "illinois-expansion.html": {
+  "market": "Illinois",
+  "rows": 50,
+  "tiers": {
+   "C": 26,
+   "A": 4,
+   "B": 20
+  },
+  "dialable": 24,
+  "call_ready": 2,
+  "verified_callable": 0,
+  "no_named_dm": 42,
+  "no_dated_contact": 9,
+  "no_email": 50,
+  "no_dated_signal": 50
+ },
+ "illinois-archive.html": {
+  "market": "Illinois",
+  "rows": 48,
+  "tiers": {
+   "C": 48
+  },
+  "dialable": 0,
+  "call_ready": 0,
+  "verified_callable": 0,
+  "no_named_dm": 48,
+  "no_dated_contact": 48,
+  "no_email": 48,
+  "no_dated_signal": 48
+ }
+}

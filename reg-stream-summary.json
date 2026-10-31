@@ -1,0 +1,20 @@
+{
+ "file": "https://sftp.floridados.gov/Public/doc/quarterly/cor/cordata.zip",
+ "bytes": 1793034019,
+ "members": [
+  "cordata0.txt",
+  "cordata1.txt",
+  "cordata2.txt",
+  "cordata3.txt",
+  "cordata4.txt",
+  "cordata5.txt",
+  "cordata6.txt",
+  "cordata7.txt",
+  "cordata8.txt",
+  "cordata9.txt"
+ ],
+ "records_scanned": 12987601,
+ "records_kept": 138,
+ "seconds": 432,
+ "read": "2026-10-31"
+}
