@@ -7692,5 +7692,315 @@
     "empty": 2
    }
   }
+ },
+ "item325_market_route_yields": {
+  "measured": "2026-10-31",
+  "rule": "Each market reads its own row, nearest its own ground; no programme mean is computed (entry 18). Route 4 ran on every row in scope; Routes 1–3 ran only as confirmations on Route 4 failures, each against the rows it was given.",
+  "markets": {
+   "texas": {
+    "rows_in_scope": 61,
+    "route4": "26/61 (42.6%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "1/3",
+     "route2": "0/0",
+     "route3": "0/0"
+    },
+    "reads": 150,
+    "reads_lost_to_killed_run": 21,
+    "void_refused": 15,
+    "void_empty": 2,
+    "void_rate_of_logged_reads": 13.2,
+    "reads_per_row_with_number": 5.6,
+    "rows_unreached": 0
+   },
+   "georgia": {
+    "rows_in_scope": 83,
+    "route4": "24/58 (41.4%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "0/0",
+     "route2": "0/0",
+     "route3": "0/0"
+    },
+    "reads": 150,
+    "reads_lost_to_killed_run": 24,
+    "void_refused": 12,
+    "void_empty": 4,
+    "void_rate_of_logged_reads": 12.7,
+    "reads_per_row_with_number": 6.2,
+    "rows_unreached": 25
+   },
+   "north-carolina": {
+    "rows_in_scope": 13,
+    "route4": "3/13 (23.1%)",
+    "route4_vs_florida_29_2": "below",
+    "confirmations": {
+     "route1": "0/10",
+     "route2": "0/10",
+     "route3": "0/10"
+    },
+    "reads": 61,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 9,
+    "void_empty": 11,
+    "void_rate_of_logged_reads": 32.8,
+    "reads_per_row_with_number": 20.3,
+    "rows_unreached": 0
+   },
+   "south-carolina": {
+    "rows_in_scope": 17,
+    "route4": "6/17 (35.3%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "0/11",
+     "route2": "1/11",
+     "route3": "2/11"
+    },
+    "reads": 68,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 8,
+    "void_empty": 1,
+    "void_rate_of_logged_reads": 12.7,
+    "reads_per_row_with_number": 9.7,
+    "rows_unreached": 0
+   },
+   "tennessee": {
+    "rows_in_scope": 19,
+    "route4": "4/19 (21.1%)",
+    "route4_vs_florida_29_2": "below",
+    "confirmations": {
+     "route1": "0/15",
+     "route2": "3/15",
+     "route3": "1/15"
+    },
+    "reads": 85,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 13,
+    "void_empty": 14,
+    "void_rate_of_logged_reads": 31.8,
+    "reads_per_row_with_number": 14.2,
+    "rows_unreached": 0
+   },
+   "virginia": {
+    "rows_in_scope": 7,
+    "route4": "4/7 (57.1%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "1/3",
+     "route2": "0/3",
+     "route3": "1/3"
+    },
+    "reads": 28,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 3,
+    "void_empty": 0,
+    "void_rate_of_logged_reads": 10.7,
+    "reads_per_row_with_number": 7.0,
+    "rows_unreached": 0
+   },
+   "wisconsin": {
+    "rows_in_scope": 53,
+    "route4": "26/53 (49.1%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "2/27",
+     "route2": "0/3",
+     "route3": "0/0"
+    },
+    "reads": 150,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 20,
+    "void_empty": 15,
+    "void_rate_of_logged_reads": 23.3,
+    "reads_per_row_with_number": 5.4,
+    "rows_unreached": 0
+   },
+   "iowa": {
+    "rows_in_scope": 19,
+    "route4": "7/19 (36.8%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "1/12",
+     "route2": "1/12",
+     "route3": "2/12"
+    },
+    "reads": 86,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 12,
+    "void_empty": 7,
+    "void_rate_of_logged_reads": 22.1,
+    "reads_per_row_with_number": 7.8,
+    "rows_unreached": 0
+   },
+   "illinois": {
+    "rows_in_scope": 84,
+    "route4": "37/70 (52.9%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "0/0",
+     "route2": "0/0",
+     "route3": "0/0"
+    },
+    "reads": 150,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 15,
+    "void_empty": 2,
+    "void_rate_of_logged_reads": 11.3,
+    "reads_per_row_with_number": 4.1,
+    "rows_unreached": 14
+   },
+   "new-jersey": {
+    "rows_in_scope": 14,
+    "route4": "6/14 (42.9%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "0/8",
+     "route2": "0/8",
+     "route3": "2/8"
+    },
+    "reads": 55,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 11,
+    "void_empty": 7,
+    "void_rate_of_logged_reads": 32.7,
+    "reads_per_row_with_number": 6.9,
+    "rows_unreached": 0
+   },
+   "indiana": {
+    "rows_in_scope": 17,
+    "route4": "5/17 (29.4%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "0/12",
+     "route2": "0/12",
+     "route3": "1/12"
+    },
+    "reads": 79,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 18,
+    "void_empty": 6,
+    "void_rate_of_logged_reads": 30.4,
+    "reads_per_row_with_number": 13.2,
+    "rows_unreached": 0
+   },
+   "kentucky": {
+    "rows_in_scope": 3,
+    "route4": "0/3 (0.0%)",
+    "route4_vs_florida_29_2": "below",
+    "confirmations": {
+     "route1": "0/3",
+     "route2": "0/3",
+     "route3": "0/3"
+    },
+    "reads": 19,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 4,
+    "void_empty": 2,
+    "void_rate_of_logged_reads": 31.6,
+    "reads_per_row_with_number": null,
+    "rows_unreached": 0
+   },
+   "utah": {
+    "rows_in_scope": 13,
+    "route4": "3/13 (23.1%)",
+    "route4_vs_florida_29_2": "below",
+    "confirmations": {
+     "route1": "0/10",
+     "route2": "0/10",
+     "route3": "1/10"
+    },
+    "reads": 67,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 14,
+    "void_empty": 2,
+    "void_rate_of_logged_reads": 23.9,
+    "reads_per_row_with_number": 16.8,
+    "rows_unreached": 0
+   },
+   "missouri": {
+    "rows_in_scope": 1,
+    "route4": "0/1 (0.0%)",
+    "route4_vs_florida_29_2": "below",
+    "confirmations": {
+     "route1": "0/1",
+     "route2": "0/1",
+     "route3": "0/1"
+    },
+    "reads": 4,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 1,
+    "void_empty": 3,
+    "void_rate_of_logged_reads": 100.0,
+    "reads_per_row_with_number": null,
+    "rows_unreached": 0
+   },
+   "minnesota": {
+    "rows_in_scope": 2,
+    "route4": "1/2 (50.0%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "0/1",
+     "route2": "0/1",
+     "route3": "0/1"
+    },
+    "reads": 6,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 2,
+    "void_empty": 2,
+    "void_rate_of_logged_reads": 66.7,
+    "reads_per_row_with_number": 6.0,
+    "rows_unreached": 0
+   },
+   "oregon": {
+    "rows_in_scope": 0,
+    "route4": "0/0",
+    "route4_vs_florida_29_2": null,
+    "confirmations": {
+     "route1": "0/0",
+     "route2": "0/0",
+     "route3": "0/0"
+    },
+    "reads": 0,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 0,
+    "void_empty": 0,
+    "void_rate_of_logged_reads": null,
+    "reads_per_row_with_number": null,
+    "rows_unreached": 0
+   },
+   "new-york": {
+    "rows_in_scope": 6,
+    "route4": "2/6 (33.3%)",
+    "route4_vs_florida_29_2": "at or above",
+    "confirmations": {
+     "route1": "0/4",
+     "route2": "0/4",
+     "route3": "0/2"
+    },
+    "reads": 25,
+    "reads_lost_to_killed_run": 0,
+    "void_refused": 2,
+    "void_empty": 4,
+    "void_rate_of_logged_reads": 24.0,
+    "reads_per_row_with_number": 12.5,
+    "rows_unreached": 0
+   },
+   "chicago": {
+    "not_reached": "the 1,200-read total bound before this market"
+   },
+   "california": {
+    "not_reached": "the 1,200-read total bound before this market"
+   },
+   "washington": {
+    "not_reached": "the 1,200-read total bound before this market"
+   },
+   "colorado": {
+    "not_reached": "the 1,200-read total bound before this market"
+   },
+   "arizona": {
+    "not_reached": "the 1,200-read total bound before this market"
+   }
+  }
  }
 }

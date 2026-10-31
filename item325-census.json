@@ -1,0 +1,877 @@
+{
+ "item": "325",
+ "date": "2026-10-31",
+ "instrument": "w/census.py over stepd.assess (reproduces the index\u2019s 108 call-ready and 4,178 dialable at head 9375ea9)",
+ "kind_definitions": "source the contact = decision maker named, phone or email on the row without a dated source; acquire a contact = decision maker named, no phone or email; find the name \u2026 = no named decision maker",
+ "open": {
+  "texas": {
+   "rows": 188,
+   "tier": {
+    "C": 69,
+    "B": 69,
+    "A": 50
+   },
+   "status": {
+    "Downgraded": 116,
+    "Verified": 57,
+    "Unverified": 15
+   },
+   "call_ready": 0,
+   "short": {
+    "source the contact": 58,
+    "find the name and source the contact": 45,
+    "find the name and acquire a contact": 13,
+    "acquire a contact (none on the row)": 3
+   },
+   "short_total": 119
+  },
+  "georgia": {
+   "rows": 250,
+   "tier": {
+    "A": 110,
+    "C": 116,
+    "B": 24
+   },
+   "status": {
+    "Verified": 112,
+    "Downgraded": 138
+   },
+   "call_ready": 0,
+   "short": {
+    "acquire a contact (none on the row)": 67,
+    "find the name and acquire a contact": 51,
+    "source the contact": 16
+   },
+   "short_total": 134
+  },
+  "north-carolina": {
+   "rows": 250,
+   "tier": {
+    "C": 122,
+    "B": 27,
+    "A": 101
+   },
+   "status": {
+    "Downgraded": 144,
+    "Verified": 106
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 115,
+    "source the contact": 11,
+    "acquire a contact (none on the row)": 2
+   },
+   "short_total": 128
+  },
+  "south-carolina": {
+   "rows": 250,
+   "tier": {
+    "C": 70,
+    "B": 27,
+    "A": 153
+   },
+   "status": {
+    "Downgraded": 66,
+    "Verified": 184
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 162,
+    "acquire a contact (none on the row)": 2,
+    "source the contact": 15,
+    "find the name and source the contact": 1
+   },
+   "short_total": 180
+  },
+  "tennessee": {
+   "rows": 250,
+   "tier": {
+    "C": 72,
+    "A": 139,
+    "B": 39
+   },
+   "status": {
+    "Downgraded": 71,
+    "Verified": 179
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 151,
+    "acquire a contact (none on the row)": 11,
+    "source the contact": 8,
+    "find the name and source the contact": 8
+   },
+   "short_total": 178
+  },
+  "virginia": {
+   "rows": 250,
+   "tier": {
+    "C": 63,
+    "A": 145,
+    "B": 42
+   },
+   "status": {
+    "Downgraded": 59,
+    "Verified": 191
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 167,
+    "acquire a contact (none on the row)": 3,
+    "source the contact": 4,
+    "find the name and source the contact": 13
+   },
+   "short_total": 187
+  },
+  "wisconsin": {
+   "rows": 250,
+   "tier": {
+    "B": 77,
+    "C": 36,
+    "A": 137
+   },
+   "status": {
+    "Verified": 226,
+    "Downgraded": 24
+   },
+   "call_ready": 0,
+   "short": {
+    "acquire a contact (none on the row)": 44,
+    "find the name and acquire a contact": 142,
+    "find the name and source the contact": 19,
+    "source the contact": 9
+   },
+   "short_total": 214
+  },
+  "iowa": {
+   "rows": 250,
+   "tier": {
+    "C": 48,
+    "B": 79,
+    "A": 123
+   },
+   "status": {
+    "Verified": 212,
+    "Downgraded": 38
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 166,
+    "acquire a contact (none on the row)": 15,
+    "source the contact": 4,
+    "find the name and source the contact": 17
+   },
+   "short_total": 202
+  },
+  "illinois": {
+   "rows": 250,
+   "tier": {
+    "A": 118,
+    "B": 72,
+    "C": 60
+   },
+   "status": {
+    "Verified": 199,
+    "Downgraded": 51
+   },
+   "call_ready": 20,
+   "short": {
+    "acquire a contact (none on the row)": 82,
+    "find the name and acquire a contact": 83,
+    "source the contact": 2,
+    "find the name and source the contact": 3
+   },
+   "short_total": 170
+  },
+  "new-jersey": {
+   "rows": 250,
+   "tier": {
+    "C": 62,
+    "A": 120,
+    "B": 68
+   },
+   "status": {
+    "Verified": 191,
+    "Downgraded": 59
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 158,
+    "acquire a contact (none on the row)": 7,
+    "source the contact": 7,
+    "find the name and source the contact": 16
+   },
+   "short_total": 188
+  },
+  "indiana": {
+   "rows": 250,
+   "tier": {
+    "B": 59,
+    "A": 111,
+    "C": 80
+   },
+   "status": {
+    "Verified": 177,
+    "Downgraded": 73
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 136,
+    "acquire a contact (none on the row)": 17,
+    "find the name and source the contact": 17
+   },
+   "short_total": 170
+  },
+  "kentucky": {
+   "rows": 250,
+   "tier": {
+    "C": 84,
+    "B": 40,
+    "A": 126
+   },
+   "status": {
+    "Downgraded": 80,
+    "Verified": 170
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 153,
+    "acquire a contact (none on the row)": 2,
+    "find the name and source the contact": 10,
+    "source the contact": 1
+   },
+   "short_total": 166
+  },
+  "utah": {
+   "rows": 250,
+   "tier": {
+    "C": 79,
+    "B": 57,
+    "A": 114
+   },
+   "status": {
+    "Downgraded": 75,
+    "Verified": 175
+   },
+   "call_ready": 0,
+   "short": {
+    "acquire a contact (none on the row)": 11,
+    "find the name and acquire a contact": 144,
+    "find the name and source the contact": 14,
+    "source the contact": 2
+   },
+   "short_total": 171
+  },
+  "missouri": {
+   "rows": 250,
+   "tier": {
+    "A": 150,
+    "C": 73,
+    "B": 27
+   },
+   "status": {
+    "Verified": 166,
+    "Downgraded": 84
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 165,
+    "source the contact": 1,
+    "find the name and source the contact": 11
+   },
+   "short_total": 177
+  },
+  "minnesota": {
+   "rows": 250,
+   "tier": {
+    "B": 26,
+    "C": 70,
+    "A": 154
+   },
+   "status": {
+    "Verified": 164,
+    "Downgraded": 86
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 166,
+    "find the name and source the contact": 12,
+    "source the contact": 2
+   },
+   "short_total": 180
+  },
+  "oregon": {
+   "rows": 250,
+   "tier": {
+    "C": 85,
+    "B": 44,
+    "A": 121
+   },
+   "status": {
+    "Downgraded": 98,
+    "Verified": 152
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 153,
+    "find the name and source the contact": 12
+   },
+   "short_total": 165
+  },
+  "new-york": {
+   "rows": 176,
+   "tier": {
+    "A": 111,
+    "C": 35,
+    "B": 30
+   },
+   "status": {
+    "Verified": 125,
+    "Downgraded": 49,
+    "Unverified": 2
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 122,
+    "acquire a contact (none on the row)": 1,
+    "find the name and source the contact": 13,
+    "source the contact": 5
+   },
+   "short_total": 141
+  },
+  "chicago": {
+   "rows": 288,
+   "tier": {
+    "A": 115,
+    "C": 133,
+    "B": 40
+   },
+   "status": {
+    "Verified": 129,
+    "Downgraded": 137,
+    "Verified w/ caveat": 1,
+    "Unverified": 11,
+    "Reclassified": 10
+   },
+   "call_ready": 23,
+   "short": {
+    "source the contact": 61,
+    "acquire a contact (none on the row)": 47,
+    "find the name and acquire a contact": 19,
+    "find the name and source the contact": 5
+   },
+   "short_total": 132
+  },
+  "california": {
+   "rows": 162,
+   "tier": {
+    "A": 98,
+    "B": 24,
+    "C": 40
+   },
+   "status": {
+    "Verified": 109,
+    "Downgraded": 53
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 112,
+    "find the name and source the contact": 9,
+    "source the contact": 1
+   },
+   "short_total": 122
+  },
+  "washington": {
+   "rows": 250,
+   "tier": {
+    "C": 135,
+    "B": 22,
+    "A": 93
+   },
+   "status": {
+    "Downgraded": 150,
+    "Verified": 100
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 109,
+    "source the contact": 1,
+    "find the name and source the contact": 5
+   },
+   "short_total": 115
+  },
+  "colorado": {
+   "rows": 250,
+   "tier": {
+    "A": 73,
+    "B": 41,
+    "C": 136
+   },
+   "status": {
+    "Verified": 79,
+    "Downgraded": 171
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 109,
+    "find the name and source the contact": 3,
+    "source the contact": 2
+   },
+   "short_total": 114
+  },
+  "arizona": {
+   "rows": 250,
+   "tier": {
+    "A": 62,
+    "B": 48,
+    "C": 140
+   },
+   "status": {
+    "Verified": 68,
+    "Downgraded": 182
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and source the contact": 32,
+    "find the name and acquire a contact": 77,
+    "source the contact": 1
+   },
+   "short_total": 110
+  }
+ },
+ "close": {
+  "texas": {
+   "rows": 188,
+   "tier": {
+    "C": 69,
+    "B": 69,
+    "A": 50
+   },
+   "status": {
+    "Downgraded": 116,
+    "Verified": 57,
+    "Unverified": 15
+   },
+   "call_ready": 23,
+   "short": {
+    "source the contact": 37,
+    "find the name and source the contact": 45,
+    "find the name and acquire a contact": 13,
+    "acquire a contact (none on the row)": 1
+   },
+   "short_total": 96
+  },
+  "georgia": {
+   "rows": 250,
+   "tier": {
+    "A": 110,
+    "C": 116,
+    "B": 24
+   },
+   "status": {
+    "Verified": 112,
+    "Downgraded": 138
+   },
+   "call_ready": 23,
+   "short": {
+    "acquire a contact (none on the row)": 44,
+    "find the name and acquire a contact": 51,
+    "source the contact": 16
+   },
+   "short_total": 111
+  },
+  "north-carolina": {
+   "rows": 250,
+   "tier": {
+    "C": 122,
+    "B": 27,
+    "A": 101
+   },
+   "status": {
+    "Downgraded": 144,
+    "Verified": 106
+   },
+   "call_ready": 3,
+   "short": {
+    "find the name and acquire a contact": 115,
+    "source the contact": 9,
+    "acquire a contact (none on the row)": 1
+   },
+   "short_total": 125
+  },
+  "south-carolina": {
+   "rows": 250,
+   "tier": {
+    "C": 70,
+    "B": 27,
+    "A": 153
+   },
+   "status": {
+    "Downgraded": 66,
+    "Verified": 184
+   },
+   "call_ready": 8,
+   "short": {
+    "find the name and acquire a contact": 162,
+    "acquire a contact (none on the row)": 2,
+    "source the contact": 7,
+    "find the name and source the contact": 1
+   },
+   "short_total": 172
+  },
+  "tennessee": {
+   "rows": 250,
+   "tier": {
+    "C": 72,
+    "A": 139,
+    "B": 39
+   },
+   "status": {
+    "Downgraded": 71,
+    "Verified": 179
+   },
+   "call_ready": 5,
+   "short": {
+    "find the name and acquire a contact": 151,
+    "acquire a contact (none on the row)": 8,
+    "source the contact": 6,
+    "find the name and source the contact": 8
+   },
+   "short_total": 173
+  },
+  "virginia": {
+   "rows": 250,
+   "tier": {
+    "C": 63,
+    "A": 145,
+    "B": 42
+   },
+   "status": {
+    "Downgraded": 59,
+    "Verified": 191
+   },
+   "call_ready": 3,
+   "short": {
+    "find the name and acquire a contact": 167,
+    "acquire a contact (none on the row)": 2,
+    "find the name and source the contact": 13,
+    "source the contact": 2
+   },
+   "short_total": 184
+  },
+  "wisconsin": {
+   "rows": 250,
+   "tier": {
+    "B": 77,
+    "C": 36,
+    "A": 137
+   },
+   "status": {
+    "Verified": 226,
+    "Downgraded": 24
+   },
+   "call_ready": 27,
+   "short": {
+    "find the name and acquire a contact": 142,
+    "acquire a contact (none on the row)": 23,
+    "find the name and source the contact": 19,
+    "source the contact": 3
+   },
+   "short_total": 187
+  },
+  "iowa": {
+   "rows": 250,
+   "tier": {
+    "C": 48,
+    "B": 79,
+    "A": 123
+   },
+   "status": {
+    "Verified": 212,
+    "Downgraded": 38
+   },
+   "call_ready": 11,
+   "short": {
+    "find the name and acquire a contact": 166,
+    "acquire a contact (none on the row)": 6,
+    "find the name and source the contact": 17,
+    "source the contact": 2
+   },
+   "short_total": 191
+  },
+  "illinois": {
+   "rows": 250,
+   "tier": {
+    "A": 118,
+    "B": 72,
+    "C": 60
+   },
+   "status": {
+    "Verified": 199,
+    "Downgraded": 51
+   },
+   "call_ready": 57,
+   "short": {
+    "acquire a contact (none on the row)": 45,
+    "find the name and acquire a contact": 83,
+    "source the contact": 2,
+    "find the name and source the contact": 3
+   },
+   "short_total": 133
+  },
+  "new-jersey": {
+   "rows": 250,
+   "tier": {
+    "C": 62,
+    "A": 120,
+    "B": 68
+   },
+   "status": {
+    "Verified": 191,
+    "Downgraded": 59
+   },
+   "call_ready": 7,
+   "short": {
+    "find the name and acquire a contact": 158,
+    "acquire a contact (none on the row)": 4,
+    "source the contact": 3,
+    "find the name and source the contact": 16
+   },
+   "short_total": 181
+  },
+  "indiana": {
+   "rows": 250,
+   "tier": {
+    "B": 59,
+    "A": 111,
+    "C": 80
+   },
+   "status": {
+    "Verified": 177,
+    "Downgraded": 73
+   },
+   "call_ready": 6,
+   "short": {
+    "find the name and acquire a contact": 136,
+    "acquire a contact (none on the row)": 11,
+    "find the name and source the contact": 17
+   },
+   "short_total": 164
+  },
+  "kentucky": {
+   "rows": 250,
+   "tier": {
+    "C": 84,
+    "B": 40,
+    "A": 126
+   },
+   "status": {
+    "Downgraded": 80,
+    "Verified": 170
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 153,
+    "acquire a contact (none on the row)": 2,
+    "find the name and source the contact": 10,
+    "source the contact": 1
+   },
+   "short_total": 166
+  },
+  "utah": {
+   "rows": 250,
+   "tier": {
+    "C": 79,
+    "B": 57,
+    "A": 114
+   },
+   "status": {
+    "Downgraded": 75,
+    "Verified": 175
+   },
+   "call_ready": 4,
+   "short": {
+    "acquire a contact (none on the row)": 8,
+    "find the name and acquire a contact": 144,
+    "find the name and source the contact": 14,
+    "source the contact": 1
+   },
+   "short_total": 167
+  },
+  "missouri": {
+   "rows": 250,
+   "tier": {
+    "A": 150,
+    "C": 73,
+    "B": 27
+   },
+   "status": {
+    "Verified": 166,
+    "Downgraded": 84
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 165,
+    "source the contact": 1,
+    "find the name and source the contact": 11
+   },
+   "short_total": 177
+  },
+  "minnesota": {
+   "rows": 250,
+   "tier": {
+    "B": 26,
+    "C": 70,
+    "A": 154
+   },
+   "status": {
+    "Verified": 164,
+    "Downgraded": 86
+   },
+   "call_ready": 1,
+   "short": {
+    "find the name and acquire a contact": 166,
+    "find the name and source the contact": 12,
+    "source the contact": 1
+   },
+   "short_total": 179
+  },
+  "oregon": {
+   "rows": 250,
+   "tier": {
+    "C": 86,
+    "B": 43,
+    "A": 121
+   },
+   "status": {
+    "Downgraded": 99,
+    "Verified": 151
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 152,
+    "find the name and source the contact": 12
+   },
+   "short_total": 164
+  },
+  "new-york": {
+   "rows": 176,
+   "tier": {
+    "A": 111,
+    "C": 35,
+    "B": 30
+   },
+   "status": {
+    "Verified": 125,
+    "Downgraded": 49,
+    "Unverified": 2
+   },
+   "call_ready": 2,
+   "short": {
+    "find the name and acquire a contact": 122,
+    "find the name and source the contact": 13,
+    "source the contact": 4
+   },
+   "short_total": 139
+  },
+  "chicago": {
+   "rows": 288,
+   "tier": {
+    "A": 115,
+    "C": 133,
+    "B": 40
+   },
+   "status": {
+    "Verified": 129,
+    "Downgraded": 137,
+    "Verified w/ caveat": 1,
+    "Unverified": 11,
+    "Reclassified": 10
+   },
+   "call_ready": 23,
+   "short": {
+    "source the contact": 61,
+    "acquire a contact (none on the row)": 47,
+    "find the name and acquire a contact": 19,
+    "find the name and source the contact": 5
+   },
+   "short_total": 132
+  },
+  "california": {
+   "rows": 162,
+   "tier": {
+    "A": 98,
+    "B": 24,
+    "C": 40
+   },
+   "status": {
+    "Verified": 109,
+    "Downgraded": 53
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 112,
+    "find the name and source the contact": 9,
+    "source the contact": 1
+   },
+   "short_total": 122
+  },
+  "washington": {
+   "rows": 250,
+   "tier": {
+    "C": 135,
+    "B": 22,
+    "A": 93
+   },
+   "status": {
+    "Downgraded": 150,
+    "Verified": 100
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 109,
+    "source the contact": 1,
+    "find the name and source the contact": 5
+   },
+   "short_total": 115
+  },
+  "colorado": {
+   "rows": 250,
+   "tier": {
+    "A": 73,
+    "B": 41,
+    "C": 136
+   },
+   "status": {
+    "Verified": 79,
+    "Downgraded": 171
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and acquire a contact": 109,
+    "find the name and source the contact": 3,
+    "source the contact": 2
+   },
+   "short_total": 114
+  },
+  "arizona": {
+   "rows": 250,
+   "tier": {
+    "A": 62,
+    "B": 48,
+    "C": 140
+   },
+   "status": {
+    "Verified": 68,
+    "Downgraded": 182
+   },
+   "call_ready": 0,
+   "short": {
+    "find the name and source the contact": 32,
+    "find the name and acquire a contact": 77,
+    "source the contact": 1
+   },
+   "short_total": 110
+  }
+ }
+}
