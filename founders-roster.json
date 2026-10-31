@@ -1167,6 +1167,19 @@
    "fault": 60,
    "line": "a decision maker is a person, and the extractor must show it",
    "note": "the completion read took “Owner Principal Greg” as a name; refused at packaging. The per-row record requires a named executive with a title, so six companies complete on every test and size Blind stay unadmitted for want of one"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 16,
+   "fault": 61,
+   "line": "a company matched by its first word is not the company",
+   "note": "the trade-press executive route required only the company’s first word in the sentence; for TrakAmerica it returned Millennium Capital & Recovery Corporation’s new President. Caught by reading the span before admission; Health Network One’s sentence carries its whole name (“Health Network One appoints Heyward Donigan as CEO”) and stands"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 16,
+   "fault": "60 (second instance)",
+   "note": "“Executive Vice” (from “Executive Vice President”) passed the person test: a two-word capitalised title fragment reads as a name"
   }
  ]
 }

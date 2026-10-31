@@ -5,7 +5,7 @@
  "ceiling_note": "200 reads per day is the Chair's ruled figure, assumed, not measured; every report citing it says so",
  "kill_switch": "bot-kill",
  "kill_switch_note": "a file named bot-kill in the working directory halts the run before the next read; the audit log is intact to the halt",
- "audit_log": "florida100-window15-log.jsonl",
+ "audit_log": "florida100-window16-log.jsonl",
  "write_fence": [
   "addr_found",
   "bot_note",
@@ -18,7 +18,7 @@
   "how_it_is_reversed": "delete the queue file; the audit log records every read so the same rows are not re-read within the window"
  },
  "window": {
-  "ruled": "window fifteen (Chair): #59 gate; admission test changed (size Blind); the nine admitted; #52 role-noun fix and AM Distributors; pre-read rejection; discovery; yield rate",
-  "launch_utc": "2026-10-31T01:48:44.280552+00:00"
+  "ruled": "window sixteen (Chair): executive discovery for the six; FreightCenter; association-roster probe; validator wired; discovery; yield and roster verdict",
+  "launch_utc": "2026-10-31T02:01:24.242812+00:00"
  }
 }

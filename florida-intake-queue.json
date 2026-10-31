@@ -4580,7 +4580,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read",
+  "status": "ADMITTED BY TEST (1, 2, 5; size Blind; named executive) — Unverified, awaiting the Chair’s tests 3 and 4",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/health-network-one/",
@@ -4600,7 +4600,14 @@
    "where": "title",
    "span": "Emboss Specialty formerly Health Network One linkedin-in icon"
   },
-  "decision_maker": null
+  "decision_maker": {
+   "name": "Heyward Donigan",
+   "title": "CEO",
+   "span": "Heyward Donigan as CEO",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcTJ5R3RZVWR3QXItYnF3OUhGRXFaQnZCSXZFM0lEcWd3dTloS3ZrNkY1dzZRTmlMSmg1WVpMSnJuSGhycGxCMVFxbEhUSWJSclIwd1h1WHgxRzR0YmV1QkVIbVN5eWZNY2l2LXp5QXA5eGlMejRtSjlWRkVSNGpRVUZRTVQ3OFZVV29EeWpCQUZpbXBzVGhsTlMweDlfWmMwX3hMLWpEZXFyUzZIMnFN?oc=5",
+   "read": "2026-10-31",
+   "source": "trade press naming the officer with the company in the same sentence"
+  }
  },
  "Private Equity:hig:156": {
   "practice": "Private Equity",
@@ -6316,7 +6323,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read",
+  "status": "COMPLETE, CONTACT OUTSTANDING — every test passed, size Blind, executive routes spent on the row",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/moneysolver/",
@@ -6334,7 +6341,25 @@
    "where": "title",
    "span": "MoneySolver - Debt Relief Services visit our facebook page visit our linkedin page"
   },
-  "decision_maker": null
+  "decision_maker": null,
+  "executive_routes_spent": [
+   {
+    "route": "team page",
+    "result": "the home page links no such page"
+   },
+   {
+    "route": "leadership page",
+    "result": "the home page links no such page"
+   },
+   {
+    "route": "LinkedIn public company page",
+    "result": "refused (999) — slug built from the name, labelled a guess"
+   },
+   {
+    "route": "trade-press article naming an officer",
+    "result": "articles read; no sentence naming an officer with the company"
+   }
+  ]
  },
  "Private Equity:hig:216": {
   "practice": "Private Equity",
@@ -9224,7 +9249,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read",
+  "status": "COMPLETE, CONTACT OUTSTANDING — every test passed, size Blind, executive routes spent on the row — “Executive Vice” is a title fragment, not a person (fault 60, second instance)",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/sts-aviation-group/",
@@ -9251,7 +9276,25 @@
   },
   "test1_pass": true,
   "test5": "address",
-  "decision_maker": null
+  "decision_maker": null,
+  "executive_routes_spent": [
+   {
+    "route": "team page",
+    "result": "https://www.stsaviationgroup.com/contact-tank-tigers/ read; no named executive with a title"
+   },
+   {
+    "route": "leadership page",
+    "result": "https://www.stsaviationgroup.com/about-sts-aviation-group/ read; no named executive with a title"
+   },
+   {
+    "route": "LinkedIn public company page",
+    "result": "refused (999) — slug built from the name, labelled a guess"
+   },
+   {
+    "route": "trade-press article naming an officer",
+    "result": "named executive found"
+   }
+  ]
  },
  "Private Equity:hig:314": {
   "practice": "Private Equity",
@@ -10140,7 +10183,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read",
+  "status": "COMPLETE, CONTACT OUTSTANDING — every test passed, size Blind, executive routes spent on the row — the trade-press sentence names Jason Collins as President of Millennium Capital & Recovery Corporation, not TrakAmerica: the route matched the company by its first word (fault 61)",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/trakamerica/",
@@ -10167,7 +10210,25 @@
   },
   "test1_pass": true,
   "test5": "phone",
-  "decision_maker": null
+  "decision_maker": null,
+  "executive_routes_spent": [
+   {
+    "route": "team page",
+    "result": "the home page links no such page"
+   },
+   {
+    "route": "leadership page",
+    "result": "https://trakamerica.com/expertise/compliance-management/ read; no named executive with a title"
+   },
+   {
+    "route": "LinkedIn public company page",
+    "result": "refused (parked) — slug built from the name, labelled a guess"
+   },
+   {
+    "route": "trade-press article naming an officer",
+    "result": "named executive found"
+   }
+  ]
  },
  "Private Equity:hig:346": {
   "practice": "Private Equity",
@@ -19217,7 +19278,7 @@
   "feed_title": "DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of Wholesaler-Distributors",
   "query": "\"Florida\" company acquired",
   "evidence_source": "signal",
-  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read",
+  "status": "ADMITTED BY TEST (1, 2, 5; size Blind; named executive) — Unverified, awaiting the Chair’s tests 3 and 4",
   "naming": {
    "headline": "DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of Wholesaler-Distributors",
    "pattern_set": "v3",
@@ -19279,7 +19340,14 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "decision_maker": null
+  "decision_maker": {
+   "name": "Manuel Benitez",
+   "title": "Founder",
+   "span": "Manuel Benitez, Founder",
+   "url": "https://americanfasteners.com/about/",
+   "read": "2026-10-31",
+   "source": "the company’s own page"
+  }
  },
  "Private Equity:gnews_rss_w7:660": {
   "practice": "Private Equity",
@@ -20556,7 +20624,7 @@
   "query": "\"West Palm Beach\" company acquired",
   "precondition_span": "Marshall Goldman Acquires",
   "evidence_source": "signal",
-  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read (“Principal Greg” refused: a role word and a first name, not a person)",
+  "status": "COMPLETE, CONTACT OUTSTANDING — every test passed, size Blind, executive routes spent on the row",
   "naming": {
    "headline": "Marshall Goldman Acquires Marino Performance Motors, Expands into Florida",
    "pattern_set": "v3",
@@ -20612,7 +20680,25 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "decision_maker": null
+  "decision_maker": null,
+  "executive_routes_spent": [
+   {
+    "route": "team page",
+    "result": "https://www.marinoperformancemotors.com/about-marino-performance-motors-in-west-palm-beach-fl/ read; no named executive with a title"
+   },
+   {
+    "route": "leadership page",
+    "result": "https://www.marinoperformancemotors.com/about-marino-performance-motors-in-west-palm-beach-fl/ read; no named executive with a title"
+   },
+   {
+    "route": "LinkedIn public company page",
+    "result": "refused (parked) — slug built from the name, labelled a guess"
+   },
+   {
+    "route": "trade-press article naming an officer",
+    "result": "articles read; no sentence naming an officer with the company"
+   }
+  ]
  },
  "Acquisitions:gnews_rss_w10:685": {
   "practice": "Acquisitions",
@@ -22896,7 +22982,7 @@
   "query": "\"Tampa\" transportation logistics company acquires",
   "precondition_span": null,
   "evidence_source": "signal",
-  "status": "passes tests 1, 2 and 5 (window fifteen discovery); decision maker not yet read — next window’s completion read",
+  "status": "ADMITTED BY TEST (1, 2, 5; size Blind; named executive) — Unverified, awaiting the Chair’s tests 3 and 4",
   "naming": {
    "headline": "BlueGrace acquires fellow Florida 3PL FreightCenter",
    "pattern_set": "v3",
@@ -22949,6 +23035,14 @@
   "band": {
    "in_band": null,
    "why": "size-unsourced"
+  },
+  "decision_maker": {
+   "name": "Matthew Brosious",
+   "title": "President",
+   "span": "Matthew Brosious President",
+   "url": "https://www.freightcenter.com/about/freightcenter-leadership/",
+   "read": "2026-10-31",
+   "source": "the company’s own page"
   }
  },
  "Acquisitions:gnews_rss_w15:727": {
@@ -23065,6 +23159,347 @@
     "route": "derived host",
     "host": "https://www.rinaudo.com/",
     "outcome": "refused (503)"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w16:729": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w16",
+  "company": "Solé Miami",
+  "signal": {
+   "sentence": " South Street Partners Acquires Solé Miami on Sunny Isles Beach | Hotel Online Skip to main content News Property News Acquisitions All Things Independent Appointments Architecture & Design Brand News Hotel Development Hotel Management New Hotel Openings Renovations & Rebranding Operations & Technology Amenities Artificial Intelligence Back Office F&B FF&E Future-Proofing Guest Experience Group Tr",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQnRvV2xYMjFVUTBxNWpxLVhrM3dUNnpNZ1ZPamVKY3J4SGVRR0dOdXhYS3dIeDBJaVJsUndiVWZRQU9GZndMZWt2dWFiaWIzdEJXM2tOOE5Ba295ODJZVUdjdDBoTWl1Y09BUmxqS1RNQXdQUGNTVTRqdWlvZ3htM2tjV3A5OFJhRVRobVZRbEstaS1kNEpQY1p6NWQ?oc=5",
+   "published": "2026-05-28",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "South Street Partners Acquires Solé Miami on Sunny Isles Beach - Hotel Online",
+  "query": "\"West Palm Beach\" food and beverage company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "refused on a route (re-runnable) — not an absence",
+  "naming": {
+   "headline": "South Street Partners Acquires Solé Miami on Sunny Isles Beach",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "South Street Partners Acquires Solé Miami on Sunny Isles Beach",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Solé Miami",
+   "acquirer": "South Street Partners",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "South Street Partners Acquires Solé Miami",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "South Street Partners Acquires Solé Miami",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "South Street Partners",
+  "city": "Miami",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://link.edgepilot.com/",
+    "outcome": "refused (404)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.solmiami.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.sol-miami.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w16:730": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w16",
+  "company": "",
+  "signal": {
+   "sentence": " Autodesk makes a $3.6B move onto the factory floor with MaintainX acquisition - Refresh Miami Skip to content Subscribe Sign Up Sign In News Recent Articles Special Reports Fundraises & Exits Startup Spotlights Events Community Calendar Add Event Jobs Tech & Startup Jobs Browse Companies Post A Job Resources Newsletters Miami Tech Pod Tech Talent Coalition Women in Miami Tech Welcome to Miami Gui",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVVlFQW54WEJ5UXNLeEZnVW1kTHk1RTNYbGRhemthQVZYNndNWFZHV09GbUNzOUZWRTFOeTFVSE5VaV9LaXdPUVBmQXN1a1RMaFpLcmNaTVVVZ3pKelJJY3pmWkN4cEN1WTlOa2VfWllvT1Y3eHl2VjBOWXBxb1h2MmZxOGYxcF9jbk1lZWh4T3BMZ0ZWT1VXOUQ5bDM4cDRLTjI2VzUyLUQzWW5hUUlQS2ZNZGU?oc=5",
+   "published": "2026-05-29",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Autodesk makes a $3.6B move onto the factory floor with MaintainX acquisition - Refresh Miami",
+  "query": "\"Miami\" construction company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Autodesk makes a $3.6B move onto the factory floor with MaintainX acquisition",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "e. This week, the software giant announced plans to acquire Miami/San Francisco scaleup MaintainX , a mai",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "MaintainX",
+    "Miami",
+    "The",
+    "2026 Inkle"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "e onto the factory floor with MaintainX acquisition"
+    },
+    {
+     "position": "article text",
+     "span": "ware giant announced plans to acquire Miami/San Francisco scaleup Maintai"
+    },
+    {
+     "position": "article text",
+     "span": "t approximately $3.6 billion. The acquisition is the largest in Autodesk’s "
+    },
+    {
+     "position": "article text",
+     "span": "al hiring plans - October 29, 2026 Inkle acquires Finally’s bookkeeping divisio"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w16:731": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w16",
+  "company": "Fuse Specialty Appliances & Plumbing",
+  "signal": {
+   "sentence": " Construction Resources Acquires Fuse Specialty Appliances & Plumbing in South Florida | phcppros Label Engineers & Specifiers Contractors & Installers Wholesalers & Distributors PRODUCTS PROJECTS HOW TO BUSINESS CODES & STANDARDS RESOURCES DIGITAL EDITIONS Editorial Team Home Contact Us About Advertise PRODUCTS Bath & Kitchen Fire Protection HVAC Hydronics/Radiant Plumbing PVF Tools PROJECTS Comm",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaGVURzhDQW1qVEV5Nk9ORzBxUUtFNGdmWktSLWswZnFuYzEtblRraEZHWGtNRlR6RWpvU01aN3h1Y1RKTm9QWFMyODA4OWZMeEx2RzI4UWZaaGJ2M29ERzBwd0hLd0dWZ3ExTEdUT3VIcG4zZ2pTbnVSYklrZ0l3WFdLS19pNU9ia2FGM24tWmtkNUV3clpva3p6ZzFKOW9KSTlfZUQzeWN3SU5uSHJodEM3aDBGcDJZSkR0LVRuMDlzekdkblE?oc=5",
+   "published": "2026-08-31",
+   "read": "2026-10-31"
+  },
+  "date_field": "time[datetime]",
+  "feed_title": "Construction Resources Acquires Fuse Specialty Appliances & Plumbing in South Florida - PHCPPros",
+  "query": "\"Fort Lauderdale\" construction company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "refused on a route (re-runnable) — not an absence",
+  "naming": {
+   "headline": "Construction Resources Acquires Fuse Specialty Appliances & Plumbing in South Florida",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "Fuse Specialty Appliances & Plumbing",
+   "acquirer": "Construction Resources",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Construction Resources Acquires Fuse Specialty Appliances & Plumbing",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Construction Resources Acquires Fuse Specialty Appliances & Plumbing",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Construction Resources",
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://us.list-manage.com/",
+    "outcome": "refused (404)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.fusespecialtyappliancesplumbing.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.fuse-specialty-appliances-plumbing.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w16:732": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w16",
+  "company": "California AI Company",
+  "signal": {
+   "sentence": " Tampa Health Care Firm Acquires California AI Company ",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sUllNNlpPbFpTSGUzc1ZaaTJYRG9CR1RhR2VlSE0wVU5fbHVFMUdKLU5la2FWNWJOR3VGMzljUThOOUJMaHRFMTRnNUg4ejJ2eUE1Y1RnbFUwWTNSLTRaMVZZbnVJa05YX1J0YTJyWQ?oc=5",
+   "published": "2026-08-31",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Tampa Health Care Firm Acquires California AI Company - TBBW",
+  "query": "\"Tampa\" construction company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "refused on a route (re-runnable) — not an absence",
+  "naming": {
+   "headline": "Tampa Health Care Firm Acquires California AI Company",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Tampa Health Care Firm Acquires California AI",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "California AI Company",
+   "acquirer": "Tampa Health Care Firm",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Tampa Health Care Firm Acquires California AI Company",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Tampa Health Care Firm Acquires California AI Company",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Tampa Health Care Firm",
+  "city": "Tampa",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.californiaai.com/",
+    "outcome": "refused (challenge)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.california-ai.com/",
+    "outcome": "refused (503)"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w16:733": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w16",
+  "company": "",
+  "signal": {
+   "sentence": " VanTrust Real Estate’s Sunbridge Acquisition to Bring One Million Square Feet of Industrial Space to Orlando Region | Orlando Economic Partnership Skip to content Facebook Twitter Instagram LinkedIn YouTube Broad-based Prosperity™ Orlando, FL Menu OEP Logo News Toggle Search Menu Our Community Events Rankings Research Market Commentaries Success Stories Sustainability Industries Advanced Manufact",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZXE3a0VoSEJCbEhXdlR2UWRvbmJlM1BxX3RBWWpIVEZMdkszVHNFc2lYYkdnaEwyNzVHNEJCaTdDN09wWTZmSFJ4MkJZXy1FY2gybFYtYW5yZFJ5R3BaMXI1c0haOHgtM0RLX1VTZWtJNUVlZVhRZUdmS1A2ZmRtZjVpVHB5bHF6VlpWeG9OWm94RDRqVE11SjViRlJEUmo5UkFkb2tYSThzMHY4SEIyaUpQNTJoanE5bGdWZEpyY3ZrRXEtUjFOenA1MzRtbHVldDF3MHZUd2NPUVluSXc?oc=5",
+   "published": "2026-02-11",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "VanTrust Real Estate’s Sunbridge Acquisition to Bring One Million Square Feet of Industrial Space to Orlando Region - Orlando Economic Partnership",
+  "query": "\"Orlando\" construction company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "rejected: an asset, not an entity (fault 57): (c) head noun is a building or land type: Park — Sunbridge Business Park",
+  "naming": {
+   "headline": "VanTrust Real Estate’s Sunbridge Acquisition to Bring One Million Square Feet of Industrial Space to Orlando Region",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Orlando",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "ion to Bring One Million Square Feet of Industrial Space to Orlando Region",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Sunbridge Business Park",
+   "acquirer": "VanTrust Real Estate",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "VanTrust Real Estate has acquired 71.19 acres within the Sunbridge Business Park",
+    "position": "article sentence 2",
+    "trimmed_from": "71.19 acres within the Sunbridge Business Park"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "VanTrust Real Estate has acquired 71.19 acres within the Sunbridge Business Park",
+    "position": "article sentence 2",
+    "trimmed_from": "71.19 acres within the Sunbridge Business Park"
+   },
+   "body_bind_agrees": false
+  }
+ },
+ "Acquisitions:gnews_rss_w16:734": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w16",
+  "company": "Miami-Based Forwarder Gsdmia",
+  "signal": {
+   "sentence": " AIT Acquires Miami-Based Forwarder Gsdmia - TT --> Skip to main content Top Menu Advertising Subscribe Classifieds My Account Log In Log Out Sort: Publish Date: Most Recent to Oldest Publish Date: Oldest to Most Recent Relevance (Asc) Relevance (Desc) Transport Topics Advertising Subscribe Classifieds My Account Log In Log Out Home Government Business Technology Equipment Safety Fuel Logistics Au",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lbFVzb1RSTU1sdW5ldWN6UUQ0aXFBeFNabFYxNG10Y2JWVUpXcHdsS1ZiNXMydDBPbHdzbWlFMVlOcFZ4WGczRnIyZ1R2VnY0UThxY18xbDBHRVlYc0lFMA?oc=5",
+   "published": "2025-04-25",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "AIT Acquires Miami-Based Forwarder Gsdmia - Transport Topics",
+  "query": "\"Miami\" transportation logistics company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "AIT Acquires Miami-Based Forwarder Gsdmia",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "AIT Acquires Miami-Based Forwarder Gsdmia",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Miami-Based Forwarder Gsdmia",
+   "acquirer": "AIT",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "AIT Acquires Miami-Based Forwarder Gsdmia",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "AIT Acquires Miami-Based Forwarder Gsdmia",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "AIT",
+  "city": "Miami",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.miamibasedforwardergsdmia.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.miamibased-forwarder-gsdmia.com/",
+    "outcome": "did not resolve"
    }
   ]
  }

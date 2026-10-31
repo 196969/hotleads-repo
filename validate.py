@@ -35,6 +35,7 @@ def practice_flags(rows):
     return bad
 
 INTAKE_TIER='Unverified'
+INTAKE_SRC=[0]   # Src: lines read in the intake table — reported, so a check that saw nothing reads as such
 def intake_table(t):
     """Item 320 9.0.f: rows of the intake table (id="intake") must carry Tier 'Unverified' and an empty or 'derived' Band cell. A typed band or any other tier is refused."""
     m=re.search(r'<table id="intake">(.*?)</table>',t,re.S)
@@ -46,6 +47,10 @@ def intake_table(t):
         key=re.sub('<[^>]+>','',c[0]).strip(); band=re.sub('<[^>]+>','',c[ix['Band']]).strip(); tier=re.sub('<[^>]+>','',c[ix['Tier']]).strip()
         if band and band.lower() not in ('derived','\u2014','-'): bad.append((key,f'typed band in the intake table: {band!r}'))
         if tier!=INTAKE_TIER: bad.append((key,f'intake tier must be {INTAKE_TIER!r}, found {tier!r}'))
+        for cell in c:
+            for l in lines(html.unescape(re.sub(r'<[^>]+>',' ',cell))):
+                INTAKE_SRC[0]+=1
+                if not has_date(l): bad.append((key,'intake: '+l.strip()[:120]))
     return bad
 
 def check(path):
@@ -68,6 +73,6 @@ if __name__=='__main__':
     fails=0
     for f in sys.argv[1:]:
         n,bad=check(f); fails+=len(bad)
-        print(f'{f}: {n} Src: lines read, {len(bad)} without a date on the line itself')
+        print(f'{f}: {n} Src: lines read in the main table, {INTAKE_SRC[0]} in the intake table, {len(bad)} without a date on the line itself'); INTAKE_SRC[0]=0
         for k,l in bad: print(f'   row #{k}: {l}')
     print('VALIDATOR PASSED' if not fails else f'VALIDATOR REFUSED — {fails} undated Src: line(s); the date must sit on the line itself'); sys.exit(1 if fails else 0)
