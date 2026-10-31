@@ -4580,7 +4580,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "held size-unsourced: no third-party revenue figure found this window on the routes tried",
+  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/health-network-one/",
@@ -4599,7 +4599,8 @@
   "site_proof": {
    "where": "title",
    "span": "Emboss Specialty formerly Health Network One linkedin-in icon"
-  }
+  },
+  "decision_maker": null
  },
  "Private Equity:hig:156": {
   "practice": "Private Equity",
@@ -6315,7 +6316,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "held size-unsourced: no third-party revenue figure found this window on the routes tried",
+  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/moneysolver/",
@@ -6332,7 +6333,8 @@
   "site_proof": {
    "where": "title",
    "span": "MoneySolver - Debt Relief Services visit our facebook page visit our linkedin page"
-  }
+  },
+  "decision_maker": null
  },
  "Private Equity:hig:216": {
   "practice": "Private Equity",
@@ -9222,7 +9224,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "site proved; passes tests 1, 2 and 5; held size-unsourced",
+  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/sts-aviation-group/",
@@ -9248,7 +9250,8 @@
    "construction": "direct"
   },
   "test1_pass": true,
-  "test5": "address"
+  "test5": "address",
+  "decision_maker": null
  },
  "Private Equity:hig:314": {
   "practice": "Private Equity",
@@ -10137,7 +10140,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "site proved; passes tests 1, 2 and 5; held size-unsourced",
+  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/trakamerica/",
@@ -10163,7 +10166,8 @@
    "construction": "direct"
   },
   "test1_pass": true,
-  "test5": "phone"
+  "test5": "phone",
+  "decision_maker": null
  },
  "Private Equity:hig:346": {
   "practice": "Private Equity",
@@ -18893,7 +18897,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "site proved (derived host); passes tests 1, 2 and 5; held size-unsourced",
+  "status": "ADMITTED BY TEST (1, 2, 5; size Blind under the Chair’s ruling) — Unverified, awaiting the Chair’s tests 3 and 4",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Groundworks Acquires Florida-Based Alpha Foundations - PR Newswire",
@@ -18962,7 +18966,16 @@
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXJTd3pRUklwbHYwSEZzY2FRc0x3Z29Fak02WEdSbDhqRVVYbUZwS2NqOWtSeFdzZnhRajdncHdLOGZYUi1kMUpwVDlKZEdQdWkzcUJwVm13RWxVX1VVd3lSLVd4dG10dWZfN1NzQ3MwUkw3VlByTkJ4ZTdiSV94NEJDQmVJYnFmdHloUUd4Tjd4UFExZ1g0N0Z5TlJuTjBOUTFPVFUza2JNMDRB?oc=5",
    "read": "2026-10-30",
    "flag": "employee count — recorded, not a size reading (revenue only)"
-  }
+  },
+  "decision_maker": {
+   "name": "Nick Blasco",
+   "title": "General Manager",
+   "span": "Nick Blasco General Manager",
+   "url": "https://www.alphafoundations.com/about/meet-the-team/",
+   "read": "2026-10-31",
+   "source": "the company’s own page"
+  },
+  "size": "Blind (ruled window fifteen: no published revenue on any free route)"
  },
  "Acquisitions:gnews_rss:12": {
   "practice": "Acquisitions",
@@ -19204,7 +19217,7 @@
   "feed_title": "DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of Wholesaler-Distributors",
   "query": "\"Florida\" company acquired",
   "evidence_source": "signal",
-  "status": "site proved (article link); passes tests 1, 2 and 5; held size-unsourced",
+  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read",
   "naming": {
    "headline": "DSG Acquires American Fasteners in $39M South Florida Expansion - National Association of Wholesaler-Distributors",
    "pattern_set": "v3",
@@ -19265,7 +19278,8 @@
   "band": {
    "in_band": null,
    "why": "size-unsourced"
-  }
+  },
+  "decision_maker": null
  },
  "Private Equity:gnews_rss_w7:660": {
   "practice": "Private Equity",
@@ -19706,7 +19720,7 @@
   "query": "\"Florida\" company \"names\" CFO",
   "precondition_span": "Palm Medical Centers Names",
   "evidence_source": "signal",
-  "status": "site proved (derived host); passes tests 1, 2 and 5; held size-unsourced",
+  "status": "ADMITTED BY TEST (1, 2, 5; size Blind under the Chair’s ruling) — Unverified, awaiting the Chair’s tests 3 and 4",
   "naming": {
    "headline": "Palm Medical Centers Names Jim McHugh Chief Financial Officer",
    "pattern_set": "v3",
@@ -19753,7 +19767,16 @@
   "band": {
    "in_band": null,
    "why": "size-unsourced"
-  }
+  },
+  "decision_maker": {
+   "name": "Jim McHugh",
+   "title": "Chief Financial Officer",
+   "span": "Jim McHugh Chief Financial Officer",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1hkeUtURG5pd3o5eFZJVmNxVTUxcEU2bjVfUXZvNUxIMVZ1ZENiTDUwNGoyZkZueWcyNUp6Yjdmb29jN0lPNmV6c3RueTZnUW9JVm5ybjNjdFBlZ0EzYk5KS3k4WFRfVWlCUlhoVjFLWlhsdy1lYmJ3aFVlSWdXVnBjZzhmbmxOZlZ1WFdxOWVfdGZyQXpmcnlRZmVZTEJzS29qRjhWUkF6Y1RyNWtv?oc=5",
+   "read": "2026-10-30",
+   "source": "the dated signal article"
+  },
+  "size": "Blind (ruled window fifteen: no published revenue on any free route)"
  },
  "Acquisitions:gnews_rss_w9:671": {
   "practice": "Acquisitions",
@@ -20533,7 +20556,7 @@
   "query": "\"West Palm Beach\" company acquired",
   "precondition_span": "Marshall Goldman Acquires",
   "evidence_source": "signal",
-  "status": "re-run window thirteen: site proved; passes tests 1, 2 and 5; held size-unsourced",
+  "status": "complete on tests 1, 2 and 5 and size Blind; NOT ADMITTED — no named executive with a title on the pages read (“Principal Greg” refused: a role word and a first name, not a person)",
   "naming": {
    "headline": "Marshall Goldman Acquires Marino Performance Motors, Expands into Florida",
    "pattern_set": "v3",
@@ -20588,7 +20611,8 @@
   "band": {
    "in_band": null,
    "why": "size-unsourced"
-  }
+  },
+  "decision_maker": null
  },
  "Acquisitions:gnews_rss_w10:685": {
   "practice": "Acquisitions",
@@ -21638,7 +21662,7 @@
   "query": "Florida manufacturing company names CFO",
   "precondition_span": "Altitude Water Names",
   "evidence_source": "signal",
-  "status": "site proved (article link); passes tests 1, 2 and 5; held size-unsourced",
+  "status": "ADMITTED BY TEST (1, 2, 5; size Blind under the Chair’s ruling) — Unverified, awaiting the Chair’s tests 3 and 4",
   "naming": {
    "headline": "Altitude Water Names Branden Riley COO and Robbye Rapp CFO as South Florida Manufacturing Expands",
    "pattern_set": "v3",
@@ -21685,7 +21709,16 @@
   "band": {
    "in_band": null,
    "why": "size-unsourced"
-  }
+  },
+  "decision_maker": {
+   "name": "Branden Riley",
+   "title": "COO",
+   "span": "Branden Riley COO",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcnhGM1FqcC04akpIaVJVZjlwTzZjbk9wRVQzbFdUblp6cTc4eGN5Rk9ic3ZKNGtoUjF1S1NzNGE2LWJNaUFDRVpfUEUxaUZLWGpqeTViR1l4V21CU0FRUUFKekx3REpCZXBPZFRpLXhFR25yTkc5Sk5CX2NScHFleTU5QVJsTkpkdU9yOHNUYjdvZjhfYUQwODZ3emhxY3BVbTY1T09adzBjZURZUlVjUjB1MFg0ZE5BRHpOeXQtamFpUVAzbzRETlRBTGU1dU1aUWc?oc=5",
+   "read": "2026-10-31",
+   "source": "the dated signal article"
+  },
+  "size": "Blind (ruled window fifteen: no published revenue on any free route)"
  },
  "Fractionals:gnews_rss_w12:704": {
   "practice": "Fractionals",
@@ -22027,7 +22060,7 @@
  "Acquisitions:gnews_rss_w13:711": {
   "practice": "Acquisitions",
   "source": "gnews_rss_w13",
-  "company": "",
+  "company": "AM Distributors",
   "signal": {
    "sentence": " Heritage Distribution Acquires Miami HVAC Distributor AM Distributors - Distribution Strategy Group Heritage Distribution Acquires Miami HVAC Distributor AM Distributors - Distribution Strategy Group Distribution Events Chicago Thought Leadership and Software for Wholesale Change Agents News Sales & Marketing AI, Tech, & Digital Commerce Operations Finance & Strategy Procurement & Sourcing Econom",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVXlQMDBRX19lRlpmeF9lNFpVSGpicXNqRklGYUQxRGdDdFBDdmxJUHd6TjBlM3JQWmdSa21TMFR6S0p5RnZSOG5KWF9LRWJHTkFEQ3Jtc0MybUM5dXNSaGxDOENJN3RoNWQtaE1uTDhROUl4YkNoVU9odEV5Sy1rUmpiZWZWU3NZUXc0cXhFZnktSlVIR2VSVmY3WFpzdjFXWnJLOW54MkpDVTdDblMwdQ?oc=5",
@@ -22039,7 +22072,7 @@
   "query": "\"Miami\" distribution company acquires",
   "precondition_span": "Heritage Distribution Acquires",
   "evidence_source": "signal",
-  "status": "rejected: a description ending in a role noun, not a name — Miami HVAC Distributor AM Distributors",
+  "status": "re-bound window fifteen (#52): title-case descriptor stripped from “Miami HVAC Distributor AM Distributors”",
   "naming": {
    "headline": "Heritage Distribution Acquires Miami HVAC Distributor AM Distributors",
    "pattern_set": "v3",
@@ -22064,7 +22097,8 @@
     "position": "headline"
    },
    "body_bind_agrees": false
-  }
+  },
+  "test2": "absent from all files"
  },
  "Acquisitions:gnews_rss_w13:712": {
   "practice": "Acquisitions",
@@ -22499,6 +22533,538 @@
     "route": "derived host",
     "host": "https://www.hilton-garden-inn-orlando-i4-millenia-blvd-mall.com/",
     "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w15:720": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w15",
+  "company": "Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+  "signal": {
+   "sentence": " McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall | Hotel Online Skip to main content News Property News Acquisitions All Things Independent Appointments Architecture & Design Brand News Hotel Development Hotel Management New Hotel Openings Renovations & Rebranding Operations & Technology Amenities Artificial Intelligence Back Office F&B FF&E Future-Proofing Guest Experience Grou",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV2FGOWpiOFdnMXNrT2lMZVhOTTZSTWNUdFEycmFzQkNoM0czZXNrM3ZDTWxDQnItWF85V0VYRmwtcnhZWG55VDlZSXNhS3MxY2I1ajNPUHY1alhtRFpIdUlIUS1oeVFmYjRBdWgxZHdHZnBxTW9PLWtYOU5GeW12cnFoZy1XUXlZRFdPb2ttcy01djZOcW1icktid2VDYkZtbkE?oc=5",
+   "published": "2025-06-26",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall - Hotel Online",
+  "query": "\"Jacksonville\" food and beverage company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "refused on a route (re-runnable) — not an absence",
+  "naming": {
+   "headline": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Orlando",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+   "acquirer": "McKibbon",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "McKibbon Acquires Hilton Garden Inn Orlando I-4 Millenia Blvd Mall",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "McKibbon",
+  "city": "Orlando",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://hilton.com/",
+    "outcome": "refused (403)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.hiltongardeninnorlandoi4milleniablvdmall.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.hilton-garden-inn-orlando-i4-millenia-blvd-mall.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w15:721": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w15",
+  "company": "Sawgrass Marriott Golf Resort & Spa",
+  "signal": {
+   "sentence": " South Street Partners and Dream Finders Homes Acquire Sawgrass Marriott Golf Resort & Spa in Ponte Vedra Beach, Florida Accessibility Statement Skip Navigation Resources Investor Relations Journalists Agencies Client Login Send a Release News Products Contact Search Search When typing in this field, a list of search results will appear and be automatically updated as you type.",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNNTdudm9saUpRYVlfOUk4V0JDRFh0OEFkYU9SOFpCM1pUVXpaNjFvV2gyeXBYRVpDZ2txZ1ZPc0pOR3VLU1RoQ1RtY3NzS1RDSGtSaXRwM3pydDJtVG1NeUtScmpiSXNieFB4T29EUDVHWnltaVlOLWR0M3RwaVJ0eXREaG9TRVZGRl8ydUh6bU9MNFo4Y2hKRDRkckRuWVBxSG52RzduRDh0bHVWWTNPOEZlaGFGZC0zYkVQZGJvVzY0dHcyYUJCR3c1ZEJfbFVKb0RaRTVDR3BRSG9QQ2Y0SFF2VFVDUXdmNG9icUF1Vl9JeW5ZT0h6Y1lkOUpOckdTeG9n?oc=5",
+   "published": "2025-11-06",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "South Street Partners and Dream Finders Homes Acquire Sawgrass Marriott Golf Resort & Spa in Ponte Vedra Beach, Florida - PR Newswire",
+  "query": "\"Jacksonville\" food and beverage company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "South Street Partners and Dream Finders Homes Acquire Sawgrass Marriott Golf Resort & Spa in Ponte Vedra Beach, Florida",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Jacksonville",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Homes, a nationally recognized homebuilder headquartered in Jacksonville and the Official Home Builder of the PG",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "Sawgrass Marriott Golf Resort & Spa",
+   "acquirer": "South Street Partners and Dream Finders Homes",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "South Street Partners and Dream Finders Homes Acquire Sawgrass Marriott Golf Resort & Spa",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "South Street Partners and Dream Finders Homes Acquire Sawgrass Marriott Golf Resort & Spa",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "South Street Partners and Dream Finders Homes",
+  "city": "Jacksonville",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.sawgrassmarriottgolfresortspa.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.sawgrass-marriott-golf-resort-spa.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w15:722": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w15",
+  "company": "And Break Ground",
+  "signal": {
+   "sentence": " Cymbal DLT Companies Secures $102.5 Million In Financing From Related To Acquire And Break Ground On 341-Unit Miami Gardens Project - Florida YIMBY YIMBY+ About Advertising Contact Us Copyright and Sharing Research Subscribe to our Newsletter YIMBY Topics Building Types Affordable Housing Commercial Community Facility Hotel Infrastructure Manufacturing Mixed Use Office Other Residential Retail Su",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPQkx2d3k5N3B4VHlHdVE5S0gxNjZRR3ppaWx0TG1ZYTJzQ011b3ZJQmtIeU95T3pXUlQ3dGI2c1JQUnF0U2l3eUlzYzBFWHJucUptRE44LWgzOWZ2Ml95Qnh3Q3BXOGE3eVhPZDRWWGQ5VGxjN3ptZXlWMG1STnNBV1BvV2ZZOGVXNkhGRUVwQUxHc0lSeUhJamJOc1Y2Q0QtcjRkeEc4bzBrZEZSVWpGSUttT1YwU1FreDZnaTFraFNONVZTQkRsLWFMeWlod0hCTm9qQ2ZhZnhHeUlTT0pzdVUySjlWcjZPbWlxTWR5bVJYZzhQdWhfMVJ6Rjg?oc=5",
+   "published": "2022-06-16",
+   "read": "2026-10-31"
+  },
+  "date_field": "article:published_time",
+  "feed_title": "Cymbal DLT Companies Secures $102.5 Million In Financing From Related To Acquire And Break Ground On 341-Unit Miami Gardens Project - Florida YIMBY",
+  "query": "\"Miami\" construction company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Cymbal DLT Companies Secures $102.5 Million In Financing From Related To Acquire And Break Ground On 341-Unit Miami Gardens Project",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "ancing From Related To Acquire And Break Ground On 341-Unit Miami Gardens Project",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "And Break Ground",
+   "acquirer": "Cymbal DLT Companies Secures $102.5 Million In Financing From Related",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Cymbal DLT Companies Secures $102.5 Million In Financing From Related To Acquire And Break Ground",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Cymbal DLT Companies Secures $102.5 Million In Financing From Related To Acquire And Break Ground",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Cymbal DLT Companies Secures $102.5 Million In Financing From Related",
+  "city": "Miami",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.andbreakground.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.and-break-ground.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w15:723": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w15",
+  "company": "Ellison Construction",
+  "signal": {
+   "sentence": " Moss acquires Ellison Construction, deepening Tampa Bay footprint ",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM0hXNnFfYlk2VFlMci1Lendsckk1MkdoREJ2STJNRHdSQ09LaVA4QlJDVkdpazBfWDZyMTZOc09nb05qNFloSXB1OEV6TTFsa1g4cmZQVUppRXpZQnQxcE00dTZIQnl2YU5qLUtzbFdLLWppQ0M2ME1MczBpeXdiNzhR?oc=5",
+   "published": "2025-12-22",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Moss acquires Ellison Construction, deepening Tampa Bay footprint - TBBW",
+  "query": "\"Tampa\" construction company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "refused on a route (re-runnable) — not an absence",
+  "naming": {
+   "headline": "Moss acquires Ellison Construction, deepening Tampa Bay footprint",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Moss acquires Ellison Construction, deepening Tampa Bay footprint",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Ellison Construction",
+   "acquirer": "Moss",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Moss acquires Ellison Construction",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Moss acquires Ellison Construction",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Moss",
+  "city": "Tampa",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.ellisonconstruction.com/",
+    "outcome": "refused (503)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.ellison-construction.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w15:724": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w15",
+  "company": "",
+  "signal": {
+   "sentence": " Construction Resources Company, LLC Acquires Ramos Marble & Granite, Premier Surfaces Fabrication Business in the Greater Tampa, FL Area Oops, something went wrong Skip to navigation Skip to main content Skip to right column Home News Finance Sports More News US Politics World Tech Science Originals 2026 Elections Weather Newsletters Finance My portfolio News Markets Research Community Personal f",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOFdqbjJDWVY4NHphM2w5eldXTEprSEVhT1BRTUN6NkEta0p2ZHk5LU5XM01iRUdKdEJQWkl5NVRmWXFOdURYN3JrTUsyeEZqdGt4WENPcTFpUW9PY2kzdTByMHhYU3JyYmUtUWotSkVJMnA5d3JhaXVBX1JTMHBLVGNJc2p6TzRmREZ1Rlp6bnVjcXozdzhYSHZQZ3ZYellWNE5zb0dOY2tWbzI1?oc=5",
+   "published": "2026-03-26",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Construction Resources Company, LLC Acquires Ramos Marble & Granite, Premier Surfaces Fabrication Business in the Greater Tampa, FL Area - Yahoo Finance",
+  "query": "\"Tampa\" construction company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Construction Resources Company, LLC Acquires Ramos Marble & Granite, Premier Surfaces Fabrication Business in the Greater Tampa, FL Area",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "anite, Premier Surfaces Fabrication Business in the Greater Tampa, FL Area",
+    "position": "headline"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "LLC",
+    "Marble & Granite",
+    "Home Depot"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "nstruction Resources Company, LLC Acquires Ramos Marble & Granite, Premi"
+    },
+    {
+     "position": "article text",
+     "span": "de Construction Resources has acquired Tampa-based Ramos Marble & Granite, strengthening its stone and "
+    },
+    {
+     "position": "article text",
+     "span": "nstruction Resources, who was acquired by The Home Depot in December 2023, is a leadin"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w15:725": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w15",
+  "company": "Anthym Logistics",
+  "signal": {
+   "sentence": " Raven.config('https://6b64f5cc8af542cbb920e0238864390a@sentry.io/147999').install(); BlueGrace Logistics Acquires Anthym Logistics, Heightens Its Presence In Tampa And Chicago | DC Velocity Skip to content googletag.cmd.push(function() { googletag.display('dcv_leaderboard'); }); Search & Section Navigation About Contact Us Press Room Open Search Sign Me Up Site Navigation Material Handling Storag",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYmY1cDJlUDJHR1RPb0hNdVlnX19jSEUzMVZ6b1FldE9WaFloSUJiYU1lRE03ZjJ0am5xVUZfZWpZREVpdWhQaXo1clNWQjVmM09zZjREUnBqRThXT003ckdDcHl0RXB6aHEyUGg3cXZhY0dRa3o0c01pRFo3S3hmOEkyN0ZCOXpZZlZsYmFGTG9kellrMU52Qno4R3FtX2hIQV9Nc3RhQ3lhLU50b3JoUnNyU2N3eVhySTlabGRrRVc0XzU3NWFEOVFVWQ?oc=5",
+   "published": "2020-03-09",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "BlueGrace Logistics Acquires Anthym Logistics, Heightens Its Presence In Tampa And Chicago - DC Velocity",
+  "query": "\"Tampa\" transportation logistics company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "refused on a route (re-runnable) — not an absence",
+  "naming": {
+   "headline": "BlueGrace Logistics Acquires Anthym Logistics, Heightens Its Presence In Tampa And Chicago",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "istics Acquires Anthym Logistics, Heightens Its Presence In Tampa And Chicago",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Anthym Logistics",
+   "acquirer": "BlueGrace Logistics",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "BlueGrace Logistics Acquires Anthym Logistics",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "BlueGrace Logistics Acquires Anthym Logistics",
+    "position": "headline"
+   },
+   "body_bind_agrees": true
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "BlueGrace Logistics",
+  "city": "Tampa",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.anthymlogistics.com/",
+    "outcome": "refused (503)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.anthym-logistics.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w15:726": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w15",
+  "company": "FreightCenter",
+  "signal": {
+   "sentence": " BlueGrace acquires fellow Florida 3PL FreightCenter - FreightWaves SONAR Demo | SONAR Login | Customer Support | SONAR Demo | Subscribe | Newsletters Contact Us Brands Search Close Search for: Search Read Brands FreightWaves American Shipper Modern Shipper FreightWaves Checkpoint SONAR Trending Topics Startups Reindustrialization Global Supply Chain Trade and Compliance Borderlands: Mexico Fuel N",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX3djZ19wZW10YjFDZHd1MEN6ckdCVXFHNVg4MXRTZFdHUUNzOUVCa0xEQzZjLVc1cWhKa1A5UVFHVTN6b19IVC0wQVhkODJBWDlhdEY4cUlNNkptR2NocDV6YXU2Mk1kUlhBQTFDejctV18zQkszYzRnbVQ2RVVLT0VvWTQ1dnBSblowX3FR?oc=5",
+   "published": "2025-01-08",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "BlueGrace acquires fellow Florida 3PL FreightCenter - FreightWaves",
+  "query": "\"Tampa\" transportation logistics company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "passes tests 1, 2 and 5 (window fifteen discovery); decision maker not yet read — next window’s completion read",
+  "naming": {
+   "headline": "BlueGrace acquires fellow Florida 3PL FreightCenter",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "t for our customers,” said FreightCenter CEO Matt Brosious. Tampa, Florida-based BlueGrace has 10,000 cus",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "FreightCenter",
+   "acquirer": "BlueGrace Logistics announced it",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "BlueGrace Logistics announced it has acquired 3PL peer FreightCenter",
+    "position": "article sentence 1",
+    "trimmed_from": "3PL peer FreightCenter"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "BlueGrace Logistics announced it has acquired 3PL peer FreightCenter",
+    "position": "article sentence 1",
+    "trimmed_from": "3PL peer FreightCenter"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": true,
+  "acquirer": "BlueGrace Logistics announced it",
+  "city": "Tampa",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://freightcenter.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://freightcenter.com/",
+  "site_route": "article link",
+  "site_proof": {
+   "where": "title",
+   "span": "Instant Freight Quotes & Calculator | FreightCenter prev prev next next Loading date Loading date",
+   "whole_name": "freightcenter",
+   "construction": "direct"
+  },
+  "test1": "Florida operating address on https://freightcenter.com/ · read 2026-10-31",
+  "test1_pass": true,
+  "test5": "phone",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  }
+ },
+ "Acquisitions:gnews_rss_w15:727": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w15",
+  "company": "",
+  "signal": {
+   "sentence": " PS Logistics acquires Florida-based flatbed hauler - FreightWaves SONAR Demo | SONAR Login | Customer Support | SONAR Demo | Subscribe | Newsletters Contact Us Brands Search Close Search for: Search Read Brands FreightWaves American Shipper Modern Shipper FreightWaves Checkpoint SONAR Trending Topics Startups Reindustrialization Global Supply Chain Trade and Compliance Borderlands: Mexico Fuel Ne",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOENvREZXUGY3b0JULTJ2S0ctR1hJYlFoQXA4bnRtbk1IZ1ZjZThtdWg0UUNhS3pWc0VKdC0wSDN0Z19EYk1NX3VVTGNFcnJWTlJhYkdCVV9rbXQyQVgtNUF1UXJWelBHcTNjeEo1dzFUOGNPOVhjX29rbkJsZHY5SFZzdDNtTnlsVjdvdA?oc=5",
+   "published": "2023-07-25",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "PS Logistics acquires Florida-based flatbed hauler - FreightWaves",
+  "query": "\"Jacksonville\" transportation logistics company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "bind disputed — held",
+  "naming": {
+   "headline": "PS Logistics acquires Florida-based flatbed hauler",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Jacksonville",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "idiary P&S Transportation announced Tuesday it has acquired Jacksonville, Florida-based asset-based trucking and",
+    "position": "body"
+   },
+   "state": "bind disputed",
+   "headline_bind": {
+    "company": "Florida-based flatbed hauler",
+    "acquirer": "PS Logistics",
+    "name_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "PS Logistics acquires Florida-based flatbed hauler",
+     "position": "headline"
+    },
+    "acquirer_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "PS Logistics acquires Florida-based flatbed hauler",
+     "position": "headline"
+    }
+   },
+   "body_bind": {
+    "company": "Jacksonville",
+    "acquirer": "PS Logistics subsidiary P&S Transportation announced Tuesday it",
+    "name_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "PS Logistics subsidiary P&S Transportation announced Tuesday it has acquired Jacksonville",
+     "position": "article sentence 1"
+    },
+    "acquirer_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "PS Logistics subsidiary P&S Transportation announced Tuesday it has acquired Jacksonville",
+     "position": "article sentence 1"
+    }
+   }
+  }
+ },
+ "Acquisitions:gnews_rss_w15:728": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w15",
+  "company": "Rinaudo",
+  "signal": {
+   "sentence": " P&S Transportation acquires Florida-based specialized carrier Rinaudo | Truckers News Trucks News Jobs Gear How-To Life Videos SheDrives 40K truck drivers get it.",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRkQtV3V1YXRlN3Q3OGpWT3VfbllBc1h2NTl1YVpWZTEzRGNhTVdITzNzWjltZUlpeWoyanJhcDBaUXhITlVOUVhsX1A5dE5wb3RTanNDMWpTWjNuaG1lRXhKbGVxUlZaWWpWbjZmVzZCbTFiTkVid09JdHFOaERXYzJocF9QUi0tdndOUi1CeFBSeU1WYTIzajJXUEpZVWM1MW1hM2hTTXItY2RxLXhHcUhxWXRHS0Z4Nnc?oc=5",
+   "published": "2023-07-25",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "P&S Transportation acquires Florida-based specialized carrier Rinaudo - Truckers News",
+  "query": "\"Jacksonville\" transportation logistics company acquires",
+  "precondition_span": null,
+  "evidence_source": "signal",
+  "status": "refused on a route (re-runnable) — not an absence",
+  "naming": {
+   "headline": "P&S Transportation acquires Florida-based specialized carrier Rinaudo",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Jacksonville",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "rms of the transaction were not disclosed. Headquartered in Jacksonville, Florida, Rinaudo was founded in 1984 b",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "Rinaudo",
+   "acquirer": "P&S Transportation",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "P&S Transportation acquires Florida-based specialized carrier Rinaudo",
+    "position": "headline",
+    "trimmed_from": "Florida-based specialized carrier Rinaudo"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "P&S Transportation acquires Florida-based specialized carrier Rinaudo",
+    "position": "headline",
+    "trimmed_from": "Florida-based specialized carrier Rinaudo"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "P&S Transportation",
+  "city": "Jacksonville",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://urldefense.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.rinaudo.com/",
+    "outcome": "refused (503)"
    }
   ]
  }

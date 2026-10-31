@@ -17,7 +17,7 @@ def cleanup(co):
     if re.fullmatch(PL,c): return None,'a bare place name, not a company'
     m=re.match(r'^(?:'+PL+r'\s+)?'+ROLE+r'\s+([A-Z0-9].+)$',c) or re.match(r'^(?:[A-Z][\w\-]*\s+){1,4}?'+ROLE+r'\s+([A-Z0-9].+)$',c)
     if m: return m.group(1),f'title-case descriptor stripped from \u201c{c}\u201d'
-    if re.search(r'\b'+ROLE+r'$',c): return None,'a description ending in a role noun, not a name'
+    # #52 (window fifteen): a role-noun tail no longer rejects — it cost a real company (AM Distributors); the ownership proof decides instead
     return c,None
 RENAME=re.compile(r'(?i)\b(?:merg(?:e|es|ing|ed) (?:to form|into|with)|is now|are now|now known as|formerly|rebrand(?:s|ed|ing)? (?:as|to)|renamed|has become|became|joins|joined)\b')
 def host_core(host): return re.sub(r'[^a-z0-9]','',re.sub(r'^www\.','',host.lower()).split('.')[0])

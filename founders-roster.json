@@ -1148,6 +1148,25 @@
    "window": 14,
    "fault": "counter proof",
    "note": "the check-ran counters work: a check never wired reads “NEVER RAN (0 calls)”, a check that ran and stopped nothing reads so. The proof failed on the property test’s behaviour, not the counter: a headline whose span the name rules already reject at the headline is not stopped before its read, so it costs a read before it is rejected"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 15,
+   "fault": "57 (instance)",
+   "note": "“Hilton Garden Inn Orlando I-4 Millenia Blvd Mall” and “Sawgrass Marriott Golf Resort & Spa” bound past the asset test: (c)’s head-noun list lacks Mall and Spa, and a hotel brand at the front is not a head noun — the list part of the test lagging again, as its proof stated it would"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 15,
+   "fault": "52 (instance)",
+   "note": "“And Break Ground” bound from a financing headline: a conjunction-led span; the name bounds stopped nothing all window (7 calls, 0 stops) yet this got through"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 15,
+   "fault": 60,
+   "line": "a decision maker is a person, and the extractor must show it",
+   "note": "the completion read took “Owner Principal Greg” as a name; refused at packaging. The per-row record requires a named executive with a title, so six companies complete on every test and size Blind stay unadmitted for want of one"
   }
  ]
 }
