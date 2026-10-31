@@ -1,0 +1,847 @@
+{
+ "run": "core build run one",
+ "launch_utc": "2026-10-31T10:25:21.797650+00:00",
+ "stepA": {
+  "contact": {
+   "Moneysolver": {
+    "routes": [
+     {
+      "route": "The Ladders",
+      "result": "refused (403) — the URL path is built from the name, a labelled guess"
+     },
+     {
+      "route": "RocketReach",
+      "result": "refused (404) — the URL path is built from the name, a labelled guess"
+     },
+     {
+      "route": "Hunter",
+      "result": "read; no named officer with the whole company name (behind an account wall or absent)"
+     },
+     {
+      "route": "trade press",
+      "result": "articles read; no sentence naming an officer with the whole company name"
+     }
+    ],
+    "dm": null
+   },
+   "Trakamerica": {
+    "routes": [
+     {
+      "route": "The Ladders",
+      "result": "refused (403) — the URL path is built from the name, a labelled guess"
+     },
+     {
+      "route": "RocketReach",
+      "result": "refused (404) — the URL path is built from the name, a labelled guess"
+     },
+     {
+      "route": "Hunter",
+      "result": "read; no named officer with the whole company name (behind an account wall or absent)"
+     },
+     {
+      "route": "trade press",
+      "result": "named executive found"
+     }
+    ],
+    "dm": {
+     "name": "Jason Collins",
+     "title": "President",
+     "span": "Millennium Capital & Recovery Corporation Appoints Industry Veteran Jason Collins as President to Accelerate National Growth Strategy PR Newswire May 21, 2026 3 min read AKRON, Ohio, May 21, 2026 /PRN",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM0dKejB2ay1yRkx5QU1oeFRBakpsVE9USmV3QXh4ODBQRGdLTmpmUHVjZ0xxbTloa1BuN2trQWdTQl9TdUVWVXE3R1Nocm84MjZ4ZlNDeE1MdjRmaTZfOTVCMlA0OXdUa1BaRk82RWkxeHZNVWxET3FoMVZEc1BxZ0E3dzZFNnpiV2I3RHNQN2JrcGNXOTZnWElQeVhlWllOLV9oV3Y3a000Sldua3J4dnJRcw?oc=5",
+     "read": "2026-10-31",
+     "source": "trade press, whole company name in the sentence"
+    }
+   },
+   "Marino Performance Motors": {
+    "routes": [
+     {
+      "route": "The Ladders",
+      "result": "refused (404) — the URL path is built from the name, a labelled guess"
+     },
+     {
+      "route": "RocketReach",
+      "result": "refused (404) — the URL path is built from the name, a labelled guess"
+     },
+     {
+      "route": "Hunter",
+      "result": "read; no named officer with the whole company name (behind an account wall or absent)"
+     },
+     {
+      "route": "trade press",
+      "result": "articles read; no sentence naming an officer with the whole company name"
+     }
+    ],
+    "dm": null
+   }
+  },
+  "refused": {
+   "Oasis": {
+    "result": "refused again on every route (core run one) — re-runnable, measured shut this run",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.oasis.com/",
+      "outcome": "refused (403) — re-runnable"
+     }
+    ]
+   },
+   "Orius Corp": {
+    "result": "refused again on every route (core run one) — re-runnable, measured shut this run",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.orius.com/",
+      "outcome": "refused (503) — re-runnable"
+     }
+    ]
+   },
+   "Jack Brown’s": {
+    "result": "refused again on every route (core run one) — re-runnable, measured shut this run",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.jackbrowns.com/",
+      "outcome": "refused (challenge) — re-runnable"
+     }
+    ]
+   },
+   "Havoc": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.havoc.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "MaxHealth": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.maxhealth.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "ODC Construction": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.odcconstruction.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "O&A Landscaping": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.oalandscaping.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Palm Beach Gardens Medical Center": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://palmbeachhealthnetwork.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "InterContinental Miami": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://hotelmanagement.net/",
+      "outcome": "not read: closed"
+     },
+     {
+      "route": "re-run",
+      "host": "https://www.intercontinentalmiami.com/",
+      "outcome": "not read: closed"
+     },
+     {
+      "route": "re-run",
+      "host": "https://www.intercontinental-miami.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Westshore Grand Hotel": {
+    "result": "not re-read: the candidate fails the name or asset test, so no read can admit it (O’Leary: a read must earn its return)"
+   },
+   "200-Unit Pensacola Apartment Community": {
+    "result": "not re-read: the candidate fails the name or asset test, so no read can admit it (O’Leary: a read must earn its return)"
+   },
+   "St. Mary’s Medical Center": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://stmarysmc.com/",
+      "outcome": "not read: closed"
+     },
+     {
+      "route": "re-run",
+      "host": "https://www.stmarysmedicalcenter.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Florida Digestive Health Specialists": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://fdhs.com/",
+      "outcome": "not read: closed"
+     },
+     {
+      "route": "re-run",
+      "host": "https://www.floridadigestivehealthspecialists.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Door Maker": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.doormaker.com/",
+      "outcome": "not read: closed"
+     },
+     {
+      "route": "re-run",
+      "host": "https://www.door-maker.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Fort Myers": {
+    "result": "not re-read: the candidate fails the name or asset test, so no read can admit it (O’Leary: a read must earn its return)"
+   },
+   "Lakeland Dairies": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.lakelanddairies.com/",
+      "outcome": "not read: closed"
+     },
+     {
+      "route": "re-run",
+      "host": "https://www.lakeland-dairies.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "HCA FLORIDA WOODMONT HOSPITAL": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.hcafloridawoodmonthospital.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Hilton Garden Inn Orlando I-4 Millenia Blvd Mall": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://hilton.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Ellison Construction": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.ellisonconstruction.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Anthym Logistics": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.anthymlogistics.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Rinaudo": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://www.rinaudo.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Solé Miami": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://link.edgepilot.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "Fuse Specialty Appliances & Plumbing": {
+    "result": "routes re-read; none proved — no site found by any route",
+    "tried": [
+     {
+      "route": "re-run",
+      "host": "https://us.list-manage.com/",
+      "outcome": "not read: closed"
+     }
+    ]
+   },
+   "California AI Company": {
+    "result": "not re-read: the candidate fails the name or asset test, so no read can admit it (O’Leary: a read must earn its return)"
+   }
+  }
+ },
+ "w18": {
+  "sun_capital": {
+   "cards_on_the_roster": 106,
+   "florida_on_face": 6,
+   "unread_entries_not_florida": 100,
+   "decision": "the roster reader reads location from the card; the non-Florida entries are not read (a read that cannot place a company in Florida earns nothing)",
+   "companies": [
+    {
+     "company": "Clinical Care",
+     "sector": "Services",
+     "status": "",
+     "investment_date_on_entry": null,
+     "routes": [
+      {
+       "route": "derived host",
+       "host": "https://www.clinicalcare.com/",
+       "outcome": "refused (503) — re-runnable"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.clinical-care.com/",
+       "outcome": "refused (503) — re-runnable"
+      }
+     ],
+     "result": "no site found by any route — held (routes on the row)"
+    },
+    {
+     "company": "HealthPlan Services",
+     "sector": "Services",
+     "status": "prior",
+     "investment_date_on_entry": null,
+     "routes": [
+      {
+       "route": "derived host",
+       "host": "https://www.healthplanservices.com/",
+       "outcome": "proved"
+      }
+     ],
+     "result": "test 1 failed: no Florida address on the company’s own page"
+    },
+    {
+     "company": "Latite Roofing & Sheet Metal",
+     "sector": "Business Services",
+     "status": "active",
+     "investment_date_on_entry": null,
+     "routes": [
+      {
+       "route": "derived host",
+       "host": "https://www.latiteroofingsheetmetal.com/",
+       "outcome": "refused (net) — re-runnable"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.latite-roofing-sheet-metal.com/",
+       "outcome": "refused (net) — re-runnable"
+      }
+     ],
+     "result": "no site found by any route — held (routes on the row)"
+    },
+    {
+     "company": "Loan Logics",
+     "sector": "Business Services",
+     "status": "active",
+     "investment_date_on_entry": null,
+     "routes": [
+      {
+       "route": "derived host",
+       "host": "https://www.loanlogics.com/",
+       "outcome": "proved"
+      }
+     ],
+     "result": "test 1 failed: no Florida address on the company’s own page"
+    },
+    {
+     "company": "Point Blank Enterprises",
+     "sector": "Industrials & Distribution",
+     "status": "prior",
+     "investment_date_on_entry": null,
+     "routes": [
+      {
+       "route": "derived host",
+       "host": "https://www.pointblankenterprises.com/",
+       "outcome": "proved"
+      }
+     ],
+     "result": "test 1 failed: no Florida address on the company’s own page"
+    },
+    {
+     "company": "Smokey Bones",
+     "sector": "",
+     "status": "prior",
+     "investment_date_on_entry": null,
+     "routes": [
+      {
+       "route": "derived host",
+       "host": "https://www.smokeybones.com/",
+       "outcome": "resolved but failed the proof"
+      },
+      {
+       "route": "derived host",
+       "host": "https://www.smokey-bones.com/",
+       "outcome": "refused (net) — re-runnable"
+      }
+     ],
+     "result": "no site found by any route — held (routes on the row)"
+    }
+   ]
+  },
+  "boyne": {
+   "entries": 26,
+   "florida": 5,
+   "companies": [
+    {
+     "company": "Cloudsafe",
+     "florida_span": " Augustine, FL Company Overview: A provider of managed",
+     "routes": [
+      {
+       "route": "sponsor entry link",
+       "host": "https://www.cloudsafe.com/",
+       "outcome": "proved"
+      }
+     ],
+     "result": "test 1 failed"
+    },
+    {
+     "company": "Fragrances",
+     "florida_span": "TFOLIO INDUSTRY Consumer Products / Fragrances HEADQUARTERS Miami, FL Company Overview: YZY Fragrances is a v",
+     "routes": [
+      {
+       "route": "sponsor entry link",
+       "host": "https://www.yzyfragrances.com/",
+       "outcome": "proved"
+      }
+     ],
+     "result": "COMPLETE, CONTACT OUTSTANDING — no named executive on the pages read"
+    },
+    {
+     "company": "Amerifactors",
+     "florida_span": "TOR LOGIN PORTFOLIO INDUSTRY Business Services HEADQUARTERS Celebration, FL Company Overview: A non-recourse factor",
+     "routes": [
+      {
+       "route": "derived host",
+       "host": "https://www.amerifactors.com/",
+       "outcome": "proved"
+      }
+     ],
+     "result": "test 1 failed"
+    },
+    {
+     "company": "Crispers",
+     "florida_span": "OGIN PORTFOLIO INDUSTRY Consumer Products/Food HEADQUARTERS Lakeland, FL Company Overview: Crispers is chain of ",
+     "routes": [
+      {
+       "route": "derived host",
+       "host": "https://www.crispers.com/",
+       "outcome": "refused (challenge) — re-runnable"
+      }
+     ],
+     "result": "no site found by any route — held"
+    },
+    {
+     "company": "Ocp",
+     "florida_span": "T INVESTOR LOGIN PORTFOLIO INDUSTRY Healthcare HEADQUARTERS Miami, FL Company Overview: One Care Pediatric De",
+     "routes": [
+      {
+       "route": "derived host",
+       "host": "https://www.ocp.com/",
+       "outcome": "proved"
+      }
+     ],
+     "result": "test 1 failed"
+    }
+   ]
+  },
+  "probes": {
+   "Trivest": {
+    "state": "answered",
+    "bytes": 314319,
+    "florida_city_pairs": 1,
+    "legal_suffix_names": 1,
+    "listing_markers": 0,
+    "reading": "answered; company names present"
+   },
+   "ACG": {
+    "state": "answered",
+    "bytes": 125432,
+    "florida_city_pairs": 0,
+    "legal_suffix_names": 0,
+    "listing_markers": 0,
+    "reading": "answered; no listing or company names on the page read"
+   },
+   "ACG chapters": {
+    "state": "answered",
+    "bytes": 151029,
+    "florida_city_pairs": 6,
+    "legal_suffix_names": 0,
+    "listing_markers": 0,
+    "reading": "answered; no listing or company names on the page read"
+   },
+   "SBIA": {
+    "state": "answered",
+    "bytes": 327011,
+    "florida_city_pairs": 0,
+    "legal_suffix_names": 1,
+    "listing_markers": 0,
+    "reading": "answered; company names present"
+   },
+   "PE Hub": {
+    "state": "answered",
+    "bytes": 341606,
+    "florida_city_pairs": 0,
+    "legal_suffix_names": 0,
+    "listing_markers": 0,
+    "reading": "answered; no listing or company names on the page read"
+   },
+   "SEC EDGAR search": {
+    "state": "refused (403)"
+   },
+   "SEC EDGAR full-text": {
+    "state": "refused (403)"
+   },
+   "Crunchbase": {
+    "state": "answered",
+    "bytes": 147021,
+    "florida_city_pairs": 0,
+    "legal_suffix_names": 6,
+    "listing_markers": 0,
+    "reading": "answered; company names present"
+   }
+  }
+ },
+ "w19": {
+  "probes": {
+   "BizBuySell Florida": {
+    "state": "refused (403)"
+   },
+   "BizBuySell": {
+    "state": "refused (403)"
+   },
+   "BizQuest": {
+    "state": "refused (403)"
+   },
+   "DealStream": {
+    "state": "refused (403)"
+   },
+   "BusinessBroker.net": {
+    "state": "refused (405)"
+   },
+   "LoopNet": {
+    "state": "refused (403)"
+   },
+   "IBBA": {
+    "state": "answered",
+    "bytes": 166134,
+    "florida_city_pairs": 1,
+    "legal_suffix_names": 0,
+    "listing_markers": 0,
+    "reading": "answered; no listing or company names on the page read"
+   },
+   "M&A Source": {
+    "state": "refused (403)"
+   },
+   "Sunbelt": {
+    "state": "answered",
+    "bytes": 131599,
+    "florida_city_pairs": 0,
+    "legal_suffix_names": 0,
+    "listing_markers": 3,
+    "reading": "listing page: listings carry location but name no company"
+   },
+   "Transworld": {
+    "state": "answered",
+    "bytes": 228280,
+    "florida_city_pairs": 1,
+    "legal_suffix_names": 0,
+    "listing_markers": 0,
+    "reading": "answered; no listing or company names on the page read"
+   },
+   "Murphy Business": {
+    "state": "answered",
+    "bytes": 152406,
+    "florida_city_pairs": 1,
+    "legal_suffix_names": 0,
+    "listing_markers": 3,
+    "reading": "listing page: listings carry location but name no company"
+   }
+  }
+ },
+ "sources": {
+  "theladders": {
+   "reads": 3,
+   "answered": 0,
+   "refused": {
+    "403": 2,
+    "404": 1
+   },
+   "yield": 0
+  },
+  "rocketreach": {
+   "reads": 3,
+   "answered": 0,
+   "refused": {
+    "404": 3
+   },
+   "yield": 0
+  },
+  "hunter": {
+   "reads": 3,
+   "answered": 3,
+   "refused": {},
+   "yield": 0
+  },
+  "gnews_rss": {
+   "reads": 3,
+   "answered": 3,
+   "refused": {},
+   "yield": 0
+  },
+  "gnews_rss:article": {
+   "reads": 5,
+   "answered": 5,
+   "refused": {},
+   "yield": 0
+  },
+  "refused-queue:site": {
+   "reads": 3,
+   "answered": 0,
+   "refused": {
+    "403": 1,
+    "503": 1,
+    "challenge": 1
+   },
+   "yield": 0
+  },
+  "suncap:entry": {
+   "reads": 6,
+   "answered": 6,
+   "refused": {},
+   "yield": 0
+  },
+  "suncap:site": {
+   "reads": 9,
+   "answered": 4,
+   "refused": {
+    "503": 2,
+    "net": 3
+   },
+   "yield": 0
+  },
+  "boyne:entry": {
+   "reads": 26,
+   "answered": 26,
+   "refused": {},
+   "yield": 0
+  },
+  "boyne:site": {
+   "reads": 5,
+   "answered": 4,
+   "refused": {
+    "challenge": 1
+   },
+   "yield": 0
+  },
+  "boyne:leadership": {
+   "reads": 2,
+   "answered": 2,
+   "refused": {},
+   "yield": 0
+  },
+  "probe:Trivest": {
+   "reads": 1,
+   "answered": 1,
+   "refused": {},
+   "yield": 0
+  },
+  "probe:ACG": {
+   "reads": 1,
+   "answered": 1,
+   "refused": {},
+   "yield": 0
+  },
+  "probe:ACG chapters": {
+   "reads": 1,
+   "answered": 1,
+   "refused": {},
+   "yield": 0
+  },
+  "probe:SBIA": {
+   "reads": 1,
+   "answered": 1,
+   "refused": {},
+   "yield": 0
+  },
+  "probe:PE Hub": {
+   "reads": 1,
+   "answered": 1,
+   "refused": {},
+   "yield": 0
+  },
+  "probe:SEC EDGAR search": {
+   "reads": 1,
+   "answered": 0,
+   "refused": {
+    "403": 1
+   },
+   "yield": 0
+  },
+  "probe:SEC EDGAR full-text": {
+   "reads": 1,
+   "answered": 0,
+   "refused": {
+    "403": 1
+   },
+   "yield": 0
+  },
+  "probe:Crunchbase": {
+   "reads": 1,
+   "answered": 1,
+   "refused": {},
+   "yield": 0
+  },
+  "probe:BizBuySell Florida": {
+   "reads": 1,
+   "answered": 0,
+   "refused": {
+    "403": 1
+   },
+   "yield": 0
+  },
+  "probe:BizBuySell": {
+   "reads": 1,
+   "answered": 0,
+   "refused": {
+    "403": 1
+   },
+   "yield": 0
+  },
+  "probe:BizQuest": {
+   "reads": 1,
+   "answered": 0,
+   "refused": {
+    "403": 1
+   },
+   "yield": 0
+  },
+  "probe:DealStream": {
+   "reads": 1,
+   "answered": 0,
+   "refused": {
+    "403": 1
+   },
+   "yield": 0
+  },
+  "probe:BusinessBroker.net": {
+   "reads": 1,
+   "answered": 0,
+   "refused": {
+    "405": 1
+   },
+   "yield": 0
+  },
+  "probe:LoopNet": {
+   "reads": 1,
+   "answered": 0,
+   "refused": {
+    "403": 1
+   },
+   "yield": 0
+  },
+  "probe:IBBA": {
+   "reads": 1,
+   "answered": 1,
+   "refused": {},
+   "yield": 0
+  },
+  "probe:M&A Source": {
+   "reads": 1,
+   "answered": 0,
+   "refused": {
+    "403": 1
+   },
+   "yield": 0
+  },
+  "probe:Sunbelt": {
+   "reads": 1,
+   "answered": 1,
+   "refused": {},
+   "yield": 0
+  },
+  "probe:Transworld": {
+   "reads": 1,
+   "answered": 1,
+   "refused": {},
+   "yield": 0
+  },
+  "probe:Murphy Business": {
+   "reads": 1,
+   "answered": 1,
+   "refused": {},
+   "yield": 0
+  }
+ },
+ "admitted": [
+  {
+   "key": "Private Equity:hig:345",
+   "company": "Trakamerica",
+   "practice": "Private Equity",
+   "tier": "B",
+   "reason": "sponsor portfolio membership: an ownership-form signal",
+   "dm": "Jason Collins, President"
+  }
+ ],
+ "decisions": [],
+ "stopped": "completed",
+ "spent": {
+  "Step A": 20,
+  "Private Equity": 56,
+  "Acquisitions": 11
+ },
+ "closed": {
+  "theladders": "three refusals (last 404)",
+  "rocketreach": "three refusals (last 404)",
+  "refused-queue:site": "three refusals (last challenge)"
+ },
+ "end_utc": "2026-10-31T10:31:52.148514+00:00"
+}

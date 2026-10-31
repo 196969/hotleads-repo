@@ -1,0 +1,698 @@
+[
+ {
+  "ts": "10:25:29",
+  "practice": "Step A",
+  "source": "theladders",
+  "url": "https://www.theladders.com/company/moneysolver-jobs",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:25:35",
+  "practice": "Step A",
+  "source": "rocketreach",
+  "url": "https://rocketreach.co/moneysolver-management_b5c",
+  "outcome": "refused",
+  "kind": "404"
+ },
+ {
+  "ts": "10:25:40",
+  "practice": "Step A",
+  "source": "hunter",
+  "url": "https://hunter.io/companies/moneysolver.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:25:44",
+  "practice": "Step A",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22MoneySolver%22%20%28president%20OR%20CEO%20OR%20owner%20OR%20founder%29&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:25:48",
+  "practice": "Step A",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:25:52",
+  "practice": "Step A",
+  "source": "theladders",
+  "url": "https://www.theladders.com/company/trakamerica-jobs",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:25:57",
+  "practice": "Step A",
+  "source": "rocketreach",
+  "url": "https://rocketreach.co/trakamerica-management_b5c",
+  "outcome": "refused",
+  "kind": "404"
+ },
+ {
+  "ts": "10:26:01",
+  "practice": "Step A",
+  "source": "hunter",
+  "url": "https://hunter.io/companies/trakamerica.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:26:05",
+  "practice": "Step A",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22TrakAmerica%22%20%28president%20OR%20CEO%20OR%20owner%20OR%20founder%29&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:26:09",
+  "practice": "Step A",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:26:14",
+  "practice": "Step A",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM0dKejB2ay1yRkx5QU1oeFRBakpsVE9USmV3QXh4ODBQRGdLTmpmUHVjZ0xxbTloa1BuN2trQWdTQl9TdUVWVXE3R1Nocm84MjZ4ZlNDeE1MdjRmaTZfOTVCMlA0OXdUa1BaRk82RWkxeHZNVWxET3FoMVZEc1BxZ0E3dzZFNnpiV2I3RHNQN2JrcGNXOTZnWElQeVhlWllOLV9oV3Y3a000Sldua3J4dnJRcw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:26:18",
+  "practice": "Step A",
+  "source": "theladders",
+  "url": "https://www.theladders.com/company/marino-performance-motors-jobs",
+  "outcome": "refused",
+  "kind": "404"
+ },
+ {
+  "ts": "10:26:23",
+  "practice": "Step A",
+  "source": "rocketreach",
+  "url": "https://rocketreach.co/marino-performance-motors-management_b5c",
+  "outcome": "refused",
+  "kind": "404"
+ },
+ {
+  "ts": "10:26:27",
+  "practice": "Step A",
+  "source": "hunter",
+  "url": "https://hunter.io/companies/marinoperformancemotors.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:26:31",
+  "practice": "Step A",
+  "source": "gnews_rss",
+  "url": "https://news.google.com/rss/search?q=%22Marino%20Performance%20Motors%22%20%28president%20OR%20CEO%20OR%20owner%20OR%20founder%29&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:26:35",
+  "practice": "Step A",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:26:39",
+  "practice": "Step A",
+  "source": "gnews_rss:article",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjNEN1YyM05Gd19zZkR6VTYwZUxtaHZXRlo3MkdqRlVJRzFyamhBb0g3MEZ2MVdIVl92M0RzVDZSUF9tdXpQbjVyS0dnanQ2bklVME1ITUxoaWF4VjhQVlhHOVU3NDZRMnZvOFNURkEwaUlRTzVJVmxkMHdhTTBvYkNZNk0xVDNlVXM3bVBxWWdtTnkxc3Zab2tEZmhNRGpYQTFfX1lUV2xhd1dvV3pKdA?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:26:44",
+  "practice": "Step A",
+  "source": "refused-queue:site",
+  "url": "https://www.oasis.com/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:26:48",
+  "practice": "Step A",
+  "source": "refused-queue:site",
+  "url": "https://www.orius.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "10:26:52",
+  "practice": "Step A",
+  "source": "refused-queue:site",
+  "url": "https://www.jackbrowns.com/",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "10:26:59",
+  "practice": "Private Equity",
+  "source": "suncap:entry",
+  "url": "https://suncappart.com/portfolio/clinicalcare/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:27:03",
+  "practice": "Private Equity",
+  "source": "suncap:site",
+  "url": "https://www.clinicalcare.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "10:27:07",
+  "practice": "Private Equity",
+  "source": "suncap:site",
+  "url": "https://www.clinical-care.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "10:27:13",
+  "practice": "Private Equity",
+  "source": "suncap:entry",
+  "url": "https://suncappart.com/portfolio/healthplan-services/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:27:18",
+  "practice": "Private Equity",
+  "source": "suncap:site",
+  "url": "https://www.healthplanservices.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:27:24",
+  "practice": "Private Equity",
+  "source": "suncap:entry",
+  "url": "https://suncappart.com/portfolio/latite-roofing-sheet-metal/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:27:26",
+  "practice": "Private Equity",
+  "source": "suncap:site",
+  "url": "https://www.latiteroofingsheetmetal.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "10:27:28",
+  "practice": "Private Equity",
+  "source": "suncap:site",
+  "url": "https://www.latite-roofing-sheet-metal.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "10:27:33",
+  "practice": "Private Equity",
+  "source": "suncap:entry",
+  "url": "https://suncappart.com/portfolio/loan-logics/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:27:38",
+  "practice": "Private Equity",
+  "source": "suncap:site",
+  "url": "https://www.loanlogics.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:27:45",
+  "practice": "Private Equity",
+  "source": "suncap:entry",
+  "url": "https://suncappart.com/portfolio/point-blank-enterprises/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:27:50",
+  "practice": "Private Equity",
+  "source": "suncap:site",
+  "url": "https://www.pointblankenterprises.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:27:55",
+  "practice": "Private Equity",
+  "source": "suncap:entry",
+  "url": "https://suncappart.com/portfolio/smokey-bones/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:00",
+  "practice": "Private Equity",
+  "source": "suncap:site",
+  "url": "https://www.smokeybones.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:02",
+  "practice": "Private Equity",
+  "source": "suncap:site",
+  "url": "https://www.smokey-bones.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "10:28:07",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-allguard/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:11",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-blue-monkey/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:15",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-cloudsafe/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:20",
+  "practice": "Private Equity",
+  "source": "boyne:site",
+  "url": "https://www.cloudsafe.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:24",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-flatworld-solutions-inc/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:28",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-galleher-industries/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:32",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-hb-facility-services/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:36",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-integral-energy-services/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:40",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-local-boy-outfitters/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:44",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-mcnish/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:48",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-novellum-longevity/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:52",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-pinnacle-home-improvement-group/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:28:56",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-premier-building-associates/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:00",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-profusion/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:04",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-ryan-infrastructure-services/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:08",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-sagewater/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:12",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-fragrances/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:17",
+  "practice": "Private Equity",
+  "source": "boyne:site",
+  "url": "https://www.yzyfragrances.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:22",
+  "practice": "Private Equity",
+  "source": "boyne:leadership",
+  "url": "https://yzyfragrances.com/about",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:27",
+  "practice": "Private Equity",
+  "source": "boyne:leadership",
+  "url": "https://yzyfragrances.com/team",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:32",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-aa-global-imports/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:36",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-amerifactors/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:42",
+  "practice": "Private Equity",
+  "source": "boyne:site",
+  "url": "https://www.amerifactors.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:46",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-crispers/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:50",
+  "practice": "Private Equity",
+  "source": "boyne:site",
+  "url": "https://www.crispers.com/",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "10:29:54",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-danco-machine-dpms-inc/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:29:58",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-double-wood-supplements/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:02",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-infusion-associates-management-inc/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:06",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-kbp-foods/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:10",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-mckee-utility-contractors/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:15",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-ocp/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:21",
+  "practice": "Private Equity",
+  "source": "boyne:site",
+  "url": "https://www.ocp.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:25",
+  "practice": "Private Equity",
+  "source": "boyne:entry",
+  "url": "https://boynecapital.com/portfolio-rapid-fire-protection/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:29",
+  "practice": "Private Equity",
+  "source": "probe:Trivest",
+  "url": "https://www.trivest.com/portfolio/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:34",
+  "practice": "Private Equity",
+  "source": "probe:ACG",
+  "url": "https://www.acg.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:38",
+  "practice": "Private Equity",
+  "source": "probe:ACG chapters",
+  "url": "https://www.acg.org/chapters",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:43",
+  "practice": "Private Equity",
+  "source": "probe:SBIA",
+  "url": "https://www.sbia.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:47",
+  "practice": "Private Equity",
+  "source": "probe:PE Hub",
+  "url": "https://www.pehub.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:30:51",
+  "practice": "Private Equity",
+  "source": "probe:SEC EDGAR search",
+  "url": "https://www.sec.gov/edgar/search/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:30:55",
+  "practice": "Private Equity",
+  "source": "probe:SEC EDGAR full-text",
+  "url": "https://efts.sec.gov/LATEST/search-index?q=%22Florida%22%20%22acquisition%22&forms=8-K",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:30:59",
+  "practice": "Private Equity",
+  "source": "probe:Crunchbase",
+  "url": "https://www.crunchbase.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:31:03",
+  "practice": "Acquisitions",
+  "source": "probe:BizBuySell Florida",
+  "url": "https://www.bizbuysell.com/florida-businesses-for-sale/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:31:06",
+  "practice": "Acquisitions",
+  "source": "probe:BizBuySell",
+  "url": "https://www.bizbuysell.com",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:31:10",
+  "practice": "Acquisitions",
+  "source": "probe:BizQuest",
+  "url": "https://www.bizquest.com/florida-businesses-for-sale/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:31:14",
+  "practice": "Acquisitions",
+  "source": "probe:DealStream",
+  "url": "https://dealstream.com/florida-businesses-for-sale",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:31:19",
+  "practice": "Acquisitions",
+  "source": "probe:BusinessBroker.net",
+  "url": "https://www.businessbroker.net/state/florida-businesses-for-sale.aspx",
+  "outcome": "refused",
+  "kind": "405"
+ },
+ {
+  "ts": "10:31:23",
+  "practice": "Acquisitions",
+  "source": "probe:LoopNet",
+  "url": "https://www.loopnet.com/biz/florida-businesses-for-sale/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:31:28",
+  "practice": "Acquisitions",
+  "source": "probe:IBBA",
+  "url": "https://www.ibba.org",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:31:32",
+  "practice": "Acquisitions",
+  "source": "probe:M&A Source",
+  "url": "https://www.masource.org",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "10:31:38",
+  "practice": "Acquisitions",
+  "source": "probe:Sunbelt",
+  "url": "https://www.sunbeltnetwork.com/businesses-for-sale/?state=FL",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:31:42",
+  "practice": "Acquisitions",
+  "source": "probe:Transworld",
+  "url": "https://www.tworld.com",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "10:31:52",
+  "practice": "Acquisitions",
+  "source": "probe:Murphy Business",
+  "url": "https://www.murphybusiness.com",
+  "outcome": "read",
+  "kind": null
+ }
+]

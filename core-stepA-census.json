@@ -1,0 +1,166 @@
+{
+ "florida.html": {
+  "0": {
+   "headers": [
+    "#",
+    "Company",
+    "City",
+    "Tier",
+    "Status",
+    "Decision maker",
+    "Phone",
+    "Email",
+    "Address source",
+    "Links",
+    "Practice",
+    "Notes"
+   ],
+   "rows": 150,
+   "tiers": {
+    "A": 47,
+    "B": 45,
+    "C": 58
+   },
+   "no_named_dm": 21,
+   "no_phone": 70,
+   "no_email_on_row": 99,
+   "no_dated_practice_signal": 150
+  },
+  "1": {
+   "headers": [
+    "#",
+    "Company",
+    "Decision maker",
+    "Phone",
+    "Angle (from notes)",
+    "Done"
+   ],
+   "rows": 1,
+   "tiers": {
+    "": 1
+   },
+   "no_named_dm": 0,
+   "no_phone": 1,
+   "no_email_on_row": 1,
+   "no_dated_practice_signal": 1
+  }
+ },
+ "florida-expansion.html": {
+  "0": {
+   "headers": [
+    "#",
+    "Company",
+    "City",
+    "Tier",
+    "Status",
+    "Decision maker",
+    "Phone",
+    "Links",
+    "Practice",
+    "Notes"
+   ],
+   "rows": 43,
+   "tiers": {
+    "A": 12,
+    "C": 27,
+    "B": 4
+   },
+   "no_named_dm": 5,
+   "no_phone": 21,
+   "no_email_on_row": 43,
+   "no_dated_practice_signal": 43
+  },
+  "1": {
+   "headers": [
+    "#",
+    "Company",
+    "Decision maker",
+    "Phone",
+    "Angle (from notes)",
+    "Done"
+   ],
+   "rows": 1,
+   "tiers": {
+    "": 1
+   },
+   "no_named_dm": 0,
+   "no_phone": 1,
+   "no_email_on_row": 1,
+   "no_dated_practice_signal": 1
+  },
+  "2": {
+   "headers": [
+    "#",
+    "Company",
+    "Signal",
+    "evidence_source",
+    "Decision maker",
+    "Phone",
+    "Email or address",
+    "Reachable channel",
+    "Practice",
+    "Company history",
+    "Band",
+    "Tier"
+   ],
+   "rows": 7,
+   "tiers": {
+    "Unverified": 7
+   },
+   "no_named_dm": 0,
+   "no_phone": 5,
+   "no_email_on_row": 7,
+   "no_dated_practice_signal": 0
+  }
+ },
+ "florida-archive.html": {
+  "0": {
+   "headers": [
+    "#",
+    "Company",
+    "City",
+    "Tier",
+    "Status",
+    "Decision maker",
+    "Phone",
+    "Email",
+    "Address source",
+    "Links",
+    "Notes"
+   ],
+   "rows": 51,
+   "tiers": {
+    "C": 51
+   },
+   "no_named_dm": 35,
+   "no_phone": 43,
+   "no_email_on_row": 51,
+   "no_dated_practice_signal": 51
+  }
+ },
+ "queue": {
+  "statuses": {
+   "admitted": 7,
+   "contact outstanding": 3,
+   "refused, re-runnable": 24
+  },
+  "sponsors": {
+   "hig": {
+    "named": 377,
+    "entries_read": 377
+   },
+   "suncap": {
+    "named": 106,
+    "entries_read": 20
+   },
+   "comvest": {
+    "named": 130,
+    "entries_read": 20
+   },
+   "boyne": {
+    "named": 29,
+    "entries_read": 3
+   }
+  }
+ }
+}

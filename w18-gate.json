@@ -1,0 +1,23 @@
+{
+ "roster_reader": {
+  "cards": 106,
+  "florida_on_face": 6,
+  "florida_names": [
+   "Clinical Care",
+   "HealthPlan Services",
+   "Latite Roofing & Sheet Metal",
+   "Loan Logics",
+   "Point Blank Enterprises",
+   "Smokey Bones"
+  ],
+  "expected_florida": 6,
+  "classes": [
+   "a card carrying Florida on its face / another state",
+   "a clean card title / card text run into the name (window two’s failure: “Loan Logics Business Services Florida Actively seeking add-on acquisitions”)"
+  ],
+  "result": "PASSED"
+ },
+ "person_and_whole_name": {
+  "result": "PASSED"
+ }
+}
