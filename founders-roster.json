@@ -1341,6 +1341,43 @@
   {
    "date": "2026-10-31",
    "finding": "the first self-overlap check run in any market: florida.html × florida-expansion.html, three pairs (Cheney Brothers, Martinez Distributors, Correct Craft); reported, nothing merged"
+  },
+  {
+   "date": "2026-10-31",
+   "line": "the first time a check was run it found three faults: the absence of a check is not evidence of its not being needed",
+   "note": "the 27-market self-overlap sweep then found pairs in 25 of 27 markets and 150 tier contradictions"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": "57 class (instance)",
+   "note": "the screen-out test missed the files’ own words (“over-band”, “over $150M ceiling”, “PARK”, “out of profile”) and would have sent 76 Tier C rows back to dialable as unevidenced; caught by reading a sample of branch-2 rows before writing; rebuilt as reason classes, 3 branch-2 remain"
+  },
+  {
+   "date": "2026-10-31",
+   "finding": "36 undated Src: lines already on live in pennsylvania.html (34), michigan.html (1) and ohio.html (1), present before the sweep wrote anything; recorded, not touched"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": "headline figure",
+   "line": "a headline figure quoted across many editions with no derivation the files support",
+   "note": "HOT Leads “Verified 3,323” and “net-new 408” are retired; the files read Verified 3,727 rows / 3,644 companies and expansion 902 / 902. 3,220 was corrected to 3,323 on 19 October; neither reproduces. The correction of a figure is not evidence that the corrected figure derives"
+  },
+  {
+   "date": "2026-10-31",
+   "beside": "the #57-class instance of the sweep",
+   "line": "an instrument that does not speak the corpus’s language reads absence where the corpus wrote presence",
+   "control": "a sample read of branch-2 rows before writing"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": "reading",
+   "note": "the first parse of the undated source lines split them differently from the validator and counted 71 in Pennsylvania where the validator counts 34; caught because the two counts disagreed; marks removed and redone with the validator’s own line rule (36 rows, matching the validator)"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": "annotation counted as evidence",
+   "line": "a note about a source must never carry the shape of a source",
+   "note": "the dated exposure marks made 16 Pennsylvania rows read call-ready; caught by a recount against live that moved when nothing should have; marks rewritten without a date"
   }
  ]
 }

@@ -1,0 +1,3220 @@
+[
+ {
+  "market": "arizona",
+  "name": "Hensley Beverage Company",
+  "rows": [
+   {
+    "f": "arizona.html",
+    "row": "2",
+    "tier": "A",
+    "why": [
+     "ownership"
+    ]
+   },
+   {
+    "f": "arizona-expansion.html",
+    "row": "3",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "arizona",
+  "name": "Empire Southwest",
+  "rows": [
+   {
+    "f": "arizona.html",
+    "row": "16",
+    "tier": "A",
+    "why": [
+     "ownership"
+    ]
+   },
+   {
+    "f": "arizona-expansion.html",
+    "row": "14",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "arizona",
+  "name": "Cerreta Candy Company",
+  "rows": [
+   {
+    "f": "arizona.html",
+    "row": "45",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "arizona-expansion.html",
+    "row": "8",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "california",
+  "name": "Guittard Chocolate",
+  "rows": [
+   {
+    "f": "california.html",
+    "row": "50",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "california-expansion.html",
+    "row": "6",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "california",
+  "name": "Ganahl Lumber",
+  "rows": [
+   {
+    "f": "california.html",
+    "row": "100",
+    "tier": "A",
+    "why": [
+     "ownership"
+    ]
+   },
+   {
+    "f": "california-expansion.html",
+    "row": "9",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "chicago",
+  "name": "Edward Don & Company",
+  "rows": [
+   {
+    "f": "chicago.html",
+    "row": "7",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "chicago-expansion.html",
+    "row": "25",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "chicago",
+  "name": "Turano Baking Company",
+  "rows": [
+   {
+    "f": "chicago.html",
+    "row": "30",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "chicago-expansion.html",
+    "row": "6",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "chicago",
+  "name": "Eli’s Cheesecake Company",
+  "rows": [
+   {
+    "f": "chicago.html",
+    "row": "32",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "chicago-expansion.html",
+    "row": "10",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "chicago",
+  "name": "Berlin Packaging",
+  "rows": [
+   {
+    "f": "chicago.html",
+    "row": "237",
+    "tier": "B",
+    "why": [
+     "ownership"
+    ]
+   },
+   {
+    "f": "chicago-expansion.html",
+    "row": "16",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "colorado",
+  "name": "Ready Foods",
+  "rows": [
+   {
+    "f": "colorado.html",
+    "row": "2",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "colorado-expansion.html",
+    "row": "6",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "colorado",
+  "name": "Continental Sausage",
+  "rows": [
+   {
+    "f": "colorado.html",
+    "row": "55",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "colorado-expansion.html",
+    "row": "5",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "florida",
+  "name": "Correct Craft (Nautique)",
+  "rows": [
+   {
+    "f": "florida.html",
+    "row": "62",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "florida-expansion.html",
+    "row": "30",
+    "tier": "C",
+    "why": [
+     "band",
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "illinois",
+  "name": "Niemann Foods",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "24",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "15",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "illinois",
+  "name": "Peoria Charter Coach",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "31",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "24",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "illinois",
+  "name": "Wahl Clipper Corporation",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "70",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "3",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "illinois",
+  "name": "Raynor Garage Doors",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "73",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "14",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "illinois",
+  "name": "Rural King",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "81",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "4",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "illinois",
+  "name": "Advanced Technology Services (ATS)",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "88",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "32",
+    "tier": "C",
+    "why": [
+     "band",
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "illinois",
+  "name": "The Libman Company",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "133",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "5",
+    "tier": "A",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "illinois",
+  "name": "Excel Foundry & Machine",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "143",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "9",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "illinois",
+  "name": "Vonachen Group",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "144",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "13",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "illinois",
+  "name": "P.J. Hoerr",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "149",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "35",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "illinois",
+  "name": "Sloan Implement",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "153",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "27",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "illinois",
+  "name": "Gilster-Mary Lee",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "161",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "2",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "illinois",
+  "name": "Marcoot Jersey Creamery",
+  "rows": [
+   {
+    "f": "illinois.html",
+    "row": "196",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "illinois-expansion.html",
+    "row": "21",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "indiana",
+  "name": "Gunthorp Farms",
+  "rows": [
+   {
+    "f": "indiana.html",
+    "row": "4",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "indiana-expansion.html",
+    "row": "12",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "indiana",
+  "name": "Fischer Farms",
+  "rows": [
+   {
+    "f": "indiana.html",
+    "row": "5",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "indiana-expansion.html",
+    "row": "21",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "indiana",
+  "name": "Best Home Furnishings",
+  "rows": [
+   {
+    "f": "indiana.html",
+    "row": "47",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "indiana-expansion.html",
+    "row": "23",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "indiana",
+  "name": "Steel Warehouse",
+  "rows": [
+   {
+    "f": "indiana.html",
+    "row": "66",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "indiana-expansion.html",
+    "row": "25",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "indiana",
+  "name": "Rea Magnet Wire",
+  "rows": [
+   {
+    "f": "indiana.html",
+    "row": "69",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "indiana-expansion.html",
+    "row": "28",
+    "tier": "C",
+    "why": [
+     "band",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "indiana",
+  "name": "Meyer Distributing",
+  "rows": [
+   {
+    "f": "indiana.html",
+    "row": "91",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "indiana-expansion.html",
+    "row": "15",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "indiana",
+  "name": "Rose Acre Farms",
+  "rows": [
+   {
+    "f": "indiana.html",
+    "row": "101",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "indiana-expansion.html",
+    "row": "34",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "indiana",
+  "name": "Smith Brothers of Berne",
+  "rows": [
+   {
+    "f": "indiana.html",
+    "row": "116",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "indiana-expansion.html",
+    "row": "8",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "iowa",
+  "name": "Vermeer Corporation",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "1",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "13",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "iowa",
+  "name": "Sukup Manufacturing",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "2",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "14",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "iowa",
+  "name": "Musco Lighting",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "4",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "27",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "iowa",
+  "name": "Kemin Industries",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "7",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "15",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "iowa",
+  "name": "La Quercia",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "8",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "16",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "iowa",
+  "name": "Kinze Manufacturing",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "17",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "26",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "iowa",
+  "name": "Interpower",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "32",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "11",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "iowa",
+  "name": "Metalcraft",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "34",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "45",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "iowa",
+  "name": "Wilson Trailer Company",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "52",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "7",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "iowa",
+  "name": "Van Diest Supply Co.",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "68",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "30",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "iowa",
+  "name": "American Pop Corn Company (Jolly Time)",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "82",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "8",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "iowa",
+  "name": "Farmers Hen House",
+  "rows": [
+   {
+    "f": "iowa.html",
+    "row": "113",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "iowa-expansion.html",
+    "row": "17",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "kentucky",
+  "name": "Kern's Kitchen (Derby-Pie)",
+  "rows": [
+   {
+    "f": "kentucky.html",
+    "row": "47",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "kentucky-expansion.html",
+    "row": "12",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "kentucky",
+  "name": "Bourbon Barrel Foods",
+  "rows": [
+   {
+    "f": "kentucky.html",
+    "row": "48",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "kentucky-expansion.html",
+    "row": "16",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "kentucky",
+  "name": "ISCO Industries",
+  "rows": [
+   {
+    "f": "kentucky.html",
+    "row": "97",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "kentucky-expansion.html",
+    "row": "10",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "kentucky",
+  "name": "Kentucky Trailer",
+  "rows": [
+   {
+    "f": "kentucky.html",
+    "row": "98",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "kentucky-expansion.html",
+    "row": "6",
+    "tier": "A",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "kentucky",
+  "name": "Derby Industries",
+  "rows": [
+   {
+    "f": "kentucky.html",
+    "row": "129",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "kentucky-expansion.html",
+    "row": "11",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "michigan",
+  "name": "Germack Pistachio",
+  "rows": [
+   {
+    "f": "michigan.html",
+    "row": "5",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "michigan-expansion.html",
+    "row": "7",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "michigan",
+  "name": "Lipari Foods",
+  "rows": [
+   {
+    "f": "michigan.html",
+    "row": "11",
+    "tier": "B",
+    "why": []
+   },
+   {
+    "f": "michigan-expansion.html",
+    "row": "19",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "michigan",
+  "name": "Guernsey Farms Dairy",
+  "rows": [
+   {
+    "f": "michigan.html",
+    "row": "21",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "michigan-expansion.html",
+    "row": "8",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "michigan",
+  "name": "Request Foods",
+  "rows": [
+   {
+    "f": "michigan.html",
+    "row": "82",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "michigan-expansion.html",
+    "row": "20",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "minnesota",
+  "name": "Warners’ Stellian",
+  "rows": [
+   {
+    "f": "minnesota.html",
+    "row": "42",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "minnesota-expansion.html",
+    "row": "22",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "minnesota",
+  "name": "Andersen Corporation",
+  "rows": [
+   {
+    "f": "minnesota.html",
+    "row": "51",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "minnesota-expansion.html",
+    "row": "3",
+    "tier": "C",
+    "why": []
+   }
+  ],
+  "branch": "branch 2 — the Tier C row names no screen-out reason: Tier C unevidenced; the other tier stands"
+ },
+ {
+  "market": "minnesota",
+  "name": "RTP Company",
+  "rows": [
+   {
+    "f": "minnesota.html",
+    "row": "155",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "minnesota-expansion.html",
+    "row": "25",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "missouri",
+  "name": "Springfield Grocer Company",
+  "rows": [
+   {
+    "f": "missouri.html",
+    "row": "173",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "missouri-expansion.html",
+    "row": "28",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "missouri",
+  "name": "Positronic Industries",
+  "rows": [
+   {
+    "f": "missouri.html",
+    "row": "175",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "missouri-expansion.html",
+    "row": "22",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "missouri",
+  "name": "Paul Mueller Company",
+  "rows": [
+   {
+    "f": "missouri.html",
+    "row": "176",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "missouri-expansion.html",
+    "row": "10",
+    "tier": "C",
+    "why": [
+     "band",
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "new-jersey",
+  "name": "Goya Foods",
+  "rows": [
+   {
+    "f": "new-jersey.html",
+    "row": "1",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "new-jersey-expansion.html",
+    "row": "1",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "new-jersey",
+  "name": "Best Provision Co.",
+  "rows": [
+   {
+    "f": "new-jersey.html",
+    "row": "8",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-jersey-expansion.html",
+    "row": "26",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "new-jersey",
+  "name": "Seabra Foods",
+  "rows": [
+   {
+    "f": "new-jersey.html",
+    "row": "11",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-jersey-expansion.html",
+    "row": "37",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "new-jersey",
+  "name": "Calandra's Bakery",
+  "rows": [
+   {
+    "f": "new-jersey.html",
+    "row": "17",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-jersey-expansion.html",
+    "row": "10",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "new-jersey",
+  "name": "Citromax",
+  "rows": [
+   {
+    "f": "new-jersey.html",
+    "row": "56",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-jersey-expansion.html",
+    "row": "22",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "new-jersey",
+  "name": "Accurate Box Company",
+  "rows": [
+   {
+    "f": "new-jersey.html",
+    "row": "88",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-jersey-expansion.html",
+    "row": "27",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "new-jersey",
+  "name": "NFI Industries",
+  "rows": [
+   {
+    "f": "new-jersey.html",
+    "row": "119",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "new-jersey-expansion.html",
+    "row": "3",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "new-jersey",
+  "name": "Kontos Foods",
+  "rows": [
+   {
+    "f": "new-jersey.html",
+    "row": "190",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "new-jersey-expansion.html",
+    "row": "30",
+    "tier": "A",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "new-jersey",
+  "name": "Conte's Pasta",
+  "rows": [
+   {
+    "f": "new-jersey.html",
+    "row": "194",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-jersey-expansion.html",
+    "row": "32",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "new-york",
+  "name": "Byrne Dairy",
+  "rows": [
+   {
+    "f": "new-york.html",
+    "row": "8",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-york-expansion.html",
+    "row": "2",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "new-york",
+  "name": "Perry’s Ice Cream",
+  "rows": [
+   {
+    "f": "new-york.html",
+    "row": "10",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-york-expansion.html",
+    "row": "15",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "new-york",
+  "name": "Try-It Distributing",
+  "rows": [
+   {
+    "f": "new-york.html",
+    "row": "23",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-york-expansion.html",
+    "row": "9",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "new-york",
+  "name": "Renzi Foodservice",
+  "rows": [
+   {
+    "f": "new-york.html",
+    "row": "91",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-york-expansion.html",
+    "row": "12",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "new-york",
+  "name": "Rich Products",
+  "rows": [
+   {
+    "f": "new-york.html",
+    "row": "101",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-york-expansion.html",
+    "row": "11",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "new-york",
+  "name": "Wardynski & Sons",
+  "rows": [
+   {
+    "f": "new-york.html",
+    "row": "105",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "new-york-expansion.html",
+    "row": "17",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "ohio",
+  "name": "Fresh Mark",
+  "rows": [
+   {
+    "f": "ohio.html",
+    "row": "6",
+    "tier": "A",
+    "why": [
+     "ownership"
+    ]
+   },
+   {
+    "f": "ohio-expansion.html",
+    "row": "17",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "ohio",
+  "name": "Mike-sell’s Potato Chip",
+  "rows": [
+   {
+    "f": "ohio.html",
+    "row": "13",
+    "tier": "C",
+    "why": []
+   },
+   {
+    "f": "ohio-expansion.html",
+    "row": "6",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "branch 2 — the Tier C row names no screen-out reason: Tier C unevidenced; the other tier stands"
+ },
+ {
+  "market": "ohio",
+  "name": "Superior Beverage Group",
+  "rows": [
+   {
+    "f": "ohio.html",
+    "row": "47",
+    "tier": "A",
+    "why": [
+     "profile"
+    ]
+   },
+   {
+    "f": "ohio-expansion.html",
+    "row": "28",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "ohio",
+  "name": "Jergens Inc.",
+  "rows": [
+   {
+    "f": "ohio.html",
+    "row": "93",
+    "tier": "A",
+    "why": [
+     "ownership"
+    ]
+   },
+   {
+    "f": "ohio-expansion.html",
+    "row": "18",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "ohio",
+  "name": "Nickles Bakery",
+  "rows": [
+   {
+    "f": "ohio.html",
+    "row": "105",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "ohio-expansion.html",
+    "row": "9",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "ohio",
+  "name": "Buckeye Corrugated",
+  "rows": [
+   {
+    "f": "ohio.html",
+    "row": "136",
+    "tier": "B",
+    "why": []
+   },
+   {
+    "f": "ohio-expansion.html",
+    "row": "16",
+    "tier": "C",
+    "why": []
+   }
+  ],
+  "branch": "branch 2 — the Tier C row names no screen-out reason: Tier C unevidenced; the other tier stands"
+ },
+ {
+  "market": "oregon",
+  "name": "Les Schwab Tire Centers",
+  "rows": [
+   {
+    "f": "oregon.html",
+    "row": "3",
+    "tier": "B",
+    "why": []
+   },
+   {
+    "f": "oregon-expansion.html",
+    "row": "2",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "oregon",
+  "name": "Franz Family Bakeries",
+  "rows": [
+   {
+    "f": "oregon.html",
+    "row": "21",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "oregon-expansion.html",
+    "row": "3",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "oregon",
+  "name": "Bear Mountain Forest Products",
+  "rows": [
+   {
+    "f": "oregon.html",
+    "row": "65",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "oregon-expansion.html",
+    "row": "26",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "oregon",
+  "name": "Roseburg Forest Products",
+  "rows": [
+   {
+    "f": "oregon.html",
+    "row": "66",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "oregon-expansion.html",
+    "row": "5",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "oregon",
+  "name": "Rosboro Company",
+  "rows": [
+   {
+    "f": "oregon.html",
+    "row": "70",
+    "tier": "B",
+    "why": [
+     "ownership"
+    ]
+   },
+   {
+    "f": "oregon-expansion.html",
+    "row": "21",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "oregon",
+  "name": "Zip-O-Log Mills",
+  "rows": [
+   {
+    "f": "oregon.html",
+    "row": "78",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "oregon-expansion.html",
+    "row": "22",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "oregon",
+  "name": "Consolidated Supply",
+  "rows": [
+   {
+    "f": "oregon.html",
+    "row": "129",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "oregon-expansion.html",
+    "row": "23",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "oregon",
+  "name": "Warn Industries",
+  "rows": [
+   {
+    "f": "oregon.html",
+    "row": "152",
+    "tier": "B",
+    "why": []
+   },
+   {
+    "f": "oregon-expansion.html",
+    "row": "11",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "oregon",
+  "name": "A-dec Inc.",
+  "rows": [
+   {
+    "f": "oregon.html",
+    "row": "164",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "oregon-expansion.html",
+    "row": "14",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "pennsylvania",
+  "name": "Dietz & Watson",
+  "rows": [
+   {
+    "f": "pennsylvania.html",
+    "row": "15",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "pennsylvania-expansion.html",
+    "row": "7",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "pennsylvania",
+  "name": "Sarris Candies",
+  "rows": [
+   {
+    "f": "pennsylvania.html",
+    "row": "62",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "pennsylvania-expansion.html",
+    "row": "19",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "south-carolina",
+  "name": "Milliken & Company",
+  "rows": [
+   {
+    "f": "south-carolina.html",
+    "row": "4",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "south-carolina-expansion.html",
+    "row": "5",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "south-carolina",
+  "name": "Titan Farms",
+  "rows": [
+   {
+    "f": "south-carolina.html",
+    "row": "34",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "south-carolina-expansion.html",
+    "row": "1",
+    "tier": "A",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "south-carolina",
+  "name": "W.P. Rawl & Sons",
+  "rows": [
+   {
+    "f": "south-carolina.html",
+    "row": "37",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "south-carolina-expansion.html",
+    "row": "4",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "south-carolina",
+  "name": "McCall Farms",
+  "rows": [
+   {
+    "f": "south-carolina.html",
+    "row": "144",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "south-carolina-expansion.html",
+    "row": "3",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "south-carolina",
+  "name": "Zeus Company",
+  "rows": [
+   {
+    "f": "south-carolina.html",
+    "row": "161",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "south-carolina-expansion.html",
+    "row": "39",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "south-carolina",
+  "name": "Tindall Corporation",
+  "rows": [
+   {
+    "f": "south-carolina.html",
+    "row": "164",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "south-carolina-expansion.html",
+    "row": "6",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "tennessee",
+  "name": "McKee Foods",
+  "rows": [
+   {
+    "f": "tennessee.html",
+    "row": "45",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "tennessee-expansion.html",
+    "row": "3",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "tennessee",
+  "name": "Chattanooga Bakery (MoonPie)",
+  "rows": [
+   {
+    "f": "tennessee.html",
+    "row": "120",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "tennessee-expansion.html",
+    "row": "1",
+    "tier": "A",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "tennessee",
+  "name": "Lodge Cast Iron",
+  "rows": [
+   {
+    "f": "tennessee.html",
+    "row": "176",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "tennessee-expansion.html",
+    "row": "2",
+    "tier": "A",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "tennessee",
+  "name": "Bryce Corporation",
+  "rows": [
+   {
+    "f": "tennessee.html",
+    "row": "199",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "tennessee-expansion.html",
+    "row": "19",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "texas",
+  "name": "Ben E. Keith Company",
+  "rows": [
+   {
+    "f": "texas.html",
+    "row": "1",
+    "tier": "A",
+    "why": [
+     "ownership"
+    ]
+   },
+   {
+    "f": "texas-expansion.html",
+    "row": "16",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "texas",
+  "name": "Elliott Electric Supply",
+  "rows": [
+   {
+    "f": "texas.html",
+    "row": "7",
+    "tier": "A",
+    "why": [
+     "ownership"
+    ]
+   },
+   {
+    "f": "texas-expansion.html",
+    "row": "12",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "texas",
+  "name": "Bolner’s Fiesta Products",
+  "rows": [
+   {
+    "f": "texas.html",
+    "row": "104",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "texas-expansion.html",
+    "row": "7",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "texas",
+  "name": "Fischer & Wieser Specialty Foods",
+  "rows": [
+   {
+    "f": "texas.html",
+    "row": "109",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "texas-expansion.html",
+    "row": "5",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "utah",
+  "name": "Lifetime Products",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "11",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "1",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "utah",
+  "name": "Gossner Foods",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "26",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "4",
+    "tier": "A",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "utah",
+  "name": "Beehive Cheese Company",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "28",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "33",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "utah",
+  "name": "Redmond (Real Salt)",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "30",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "6",
+    "tier": "A",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "utah",
+  "name": "Winder Farms",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "31",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "23",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "utah",
+  "name": "Petersen Inc",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "82",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "21",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "utah",
+  "name": "Wheeler Machinery",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "93",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "31",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "utah",
+  "name": "Casper's Ice Cream (FatBoy)",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "117",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "5",
+    "tier": "A",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "utah",
+  "name": "Cache Valley Electric",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "144",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "18",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "utah",
+  "name": "Nicholas & Co.",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "169",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "3",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "utah",
+  "name": "Wasatch Container",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "190",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "17",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "utah",
+  "name": "Christensen Arms",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "196",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "22",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "utah",
+  "name": "Metalcraft Technologies",
+  "rows": [
+   {
+    "f": "utah.html",
+    "row": "197",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "utah-expansion.html",
+    "row": "25",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "virginia",
+  "name": "Edwards Virginia Smokehouse",
+  "rows": [
+   {
+    "f": "virginia.html",
+    "row": "3",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "virginia-expansion.html",
+    "row": "20",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "virginia",
+  "name": "Route 11 Potato Chips",
+  "rows": [
+   {
+    "f": "virginia.html",
+    "row": "8",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "virginia-expansion.html",
+    "row": "24",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "virginia",
+  "name": "Vaughan-Bassett Furniture",
+  "rows": [
+   {
+    "f": "virginia.html",
+    "row": "32",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "virginia-expansion.html",
+    "row": "4",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "virginia",
+  "name": "Estes Express Lines",
+  "rows": [
+   {
+    "f": "virginia.html",
+    "row": "37",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "virginia-expansion.html",
+    "row": "18",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "virginia",
+  "name": "Graham & Rollins",
+  "rows": [
+   {
+    "f": "virginia.html",
+    "row": "97",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "virginia-expansion.html",
+    "row": "42",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "virginia",
+  "name": "J&W Seafood",
+  "rows": [
+   {
+    "f": "virginia.html",
+    "row": "98",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "virginia-expansion.html",
+    "row": "25",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "virginia",
+  "name": "Rappahannock Oyster Co.",
+  "rows": [
+   {
+    "f": "virginia.html",
+    "row": "99",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "virginia-expansion.html",
+    "row": "30",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "virginia",
+  "name": "Bevans Oyster",
+  "rows": [
+   {
+    "f": "virginia.html",
+    "row": "100",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "virginia-expansion.html",
+    "row": "14",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "washington",
+  "name": "Uwajimaya",
+  "rows": [
+   {
+    "f": "washington.html",
+    "row": "6",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "washington-expansion.html",
+    "row": "6",
+    "tier": "C",
+    "why": [
+     "band",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "washington",
+  "name": "Washington Fruit & Produce",
+  "rows": [
+   {
+    "f": "washington.html",
+    "row": "32",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "washington-expansion.html",
+    "row": "13",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "washington",
+  "name": "Zirkle Fruit Company",
+  "rows": [
+   {
+    "f": "washington.html",
+    "row": "33",
+    "tier": "A",
+    "why": [
+     "ownership"
+    ]
+   },
+   {
+    "f": "washington-expansion.html",
+    "row": "15",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "held — both rows name screen-out reasons that disagree"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Sargento Foods",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "4",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "2",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Johnsonville",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "5",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "21",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Nueske's Applewood Smoked Meats",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "9",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "10",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Widmer's Cheese Cellars",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "10",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "44",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Vollrath Company",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "14",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "24",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Amerequip",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "15",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "16",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Klement's Sausage",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "16",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "11",
+    "tier": "B",
+    "why": [
+     "ownership"
+    ]
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Grande Cheese",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "19",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "49",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Renard's Cheese",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "22",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "47",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Weyco Group",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "28",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "3",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Charter Manufacturing",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "29",
+    "tier": "B",
+    "why": [
+     "band",
+     "ownership"
+    ]
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "39",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Ariens Company",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "32",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "23",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Wisconsin Metal Parts",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "71",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "36",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Bassett Mechanical",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "82",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "37",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "wisconsin",
+  "name": "BelGioioso Cheese",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "95",
+    "tier": "B",
+    "why": [
+     "band"
+    ]
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "22",
+    "tier": "C",
+    "why": [
+     "band"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Decatur Dairy",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "97",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "14",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Mullins Cheese",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "104",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "45",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Sassy Cow Creamery",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "120",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "43",
+    "tier": "C",
+    "why": [
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Salm Partners",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "126",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "26",
+    "tier": "C",
+    "why": [
+     "ownership",
+     "profile"
+    ]
+   }
+  ],
+  "branch": "branch 1 — the Tier C row names its screen-out reason: Tier C governs"
+ },
+ {
+  "market": "wisconsin",
+  "name": "Cesar's Cheese",
+  "rows": [
+   {
+    "f": "wisconsin.html",
+    "row": "174",
+    "tier": "A",
+    "why": []
+   },
+   {
+    "f": "wisconsin-expansion.html",
+    "row": "13",
+    "tier": "B",
+    "why": []
+   }
+  ],
+  "branch": "held — no Tier C row (an A/B difference): Part 1’s test has nothing to test"
+ }
+]

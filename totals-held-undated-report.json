@@ -1,0 +1,2716 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Totals, held pairs and undated sources (brief): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Totals, held pairs and undated sources (delivered): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "gate": "live still at 6ff5f2d: the 60-file sweep set had not landed when this pass began. Its parent equals live, so this pass ran on the sweep bytes and the set below supersedes the 60-file set as one upload",
+  "reads": 0
+ },
+ "1_totals": {
+  "measured": {
+   "all rows": 5973,
+   "all companies": 5775,
+   "dialable rows": 4180,
+   "dialable companies": 4092,
+   "call_ready rows": 323,
+   "call_ready companies": 321,
+   "verified_callable rows": 25,
+   "verified_callable companies": 25,
+   "tier_C rows": 1793,
+   "tier_C companies": 1697,
+   "verified_status rows": 3727,
+   "verified_status companies": 3644,
+   "expansion rows": 902,
+   "expansion companies": 902
+  },
+  "retired": [
+   "3,323",
+   "408",
+   "3,220"
+  ]
+ },
+ "3_ab_pairs": {
+  "total": 52,
+  "split": {
+   "the row carrying dated decision-maker evidence governs": 18,
+   "neither row carries dated decision-maker evidence": 33,
+   "both rows carry dated decision-maker evidence": 1
+  },
+  "governs": {
+   "B": 36,
+   "A": 16
+  },
+  "pairs": [
+   {
+    "market": "california",
+    "name": "Guittard Chocolate",
+    "rows": [
+     {
+      "f": "california.html",
+      "row": "50",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "california-expansion.html",
+      "row": "6",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": true
+     }
+    ],
+    "governs": "B",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "california",
+    "name": "Ganahl Lumber",
+    "rows": [
+     {
+      "f": "california.html",
+      "row": "100",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "california-expansion.html",
+      "row": "9",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "chicago",
+    "name": "Turano Baking Company",
+    "rows": [
+     {
+      "f": "chicago.html",
+      "row": "30",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "chicago-expansion.html",
+      "row": "6",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "chicago",
+    "name": "Eli’s Cheesecake Company",
+    "rows": [
+     {
+      "f": "chicago.html",
+      "row": "32",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "chicago-expansion.html",
+      "row": "10",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "colorado",
+    "name": "Ready Foods",
+    "rows": [
+     {
+      "f": "colorado.html",
+      "row": "2",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "colorado-expansion.html",
+      "row": "6",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "colorado",
+    "name": "Continental Sausage",
+    "rows": [
+     {
+      "f": "colorado.html",
+      "row": "55",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "colorado-expansion.html",
+      "row": "5",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "illinois",
+    "name": "The Libman Company",
+    "rows": [
+     {
+      "f": "illinois.html",
+      "row": "133",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "illinois-expansion.html",
+      "row": "5",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "illinois",
+    "name": "Excel Foundry & Machine",
+    "rows": [
+     {
+      "f": "illinois.html",
+      "row": "143",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "illinois-expansion.html",
+      "row": "9",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "illinois",
+    "name": "Vonachen Group",
+    "rows": [
+     {
+      "f": "illinois.html",
+      "row": "144",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "illinois-expansion.html",
+      "row": "13",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "illinois",
+    "name": "P.J. Hoerr",
+    "rows": [
+     {
+      "f": "illinois.html",
+      "row": "149",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "illinois-expansion.html",
+      "row": "35",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "indiana",
+    "name": "Smith Brothers of Berne",
+    "rows": [
+     {
+      "f": "indiana.html",
+      "row": "116",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "indiana-expansion.html",
+      "row": "8",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "iowa",
+    "name": "Interpower",
+    "rows": [
+     {
+      "f": "iowa.html",
+      "row": "32",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "iowa-expansion.html",
+      "row": "11",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "iowa",
+    "name": "American Pop Corn Company (Jolly Time)",
+    "rows": [
+     {
+      "f": "iowa.html",
+      "row": "82",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "iowa-expansion.html",
+      "row": "8",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": true
+     }
+    ],
+    "governs": "B",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "kentucky",
+    "name": "Kentucky Trailer",
+    "rows": [
+     {
+      "f": "kentucky.html",
+      "row": "98",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "kentucky-expansion.html",
+      "row": "6",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "michigan",
+    "name": "Germack Pistachio",
+    "rows": [
+     {
+      "f": "michigan.html",
+      "row": "5",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "michigan-expansion.html",
+      "row": "7",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "michigan",
+    "name": "Guernsey Farms Dairy",
+    "rows": [
+     {
+      "f": "michigan.html",
+      "row": "21",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "michigan-expansion.html",
+      "row": "8",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "michigan",
+    "name": "Request Foods",
+    "rows": [
+     {
+      "f": "michigan.html",
+      "row": "82",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "michigan-expansion.html",
+      "row": "20",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "minnesota",
+    "name": "RTP Company",
+    "rows": [
+     {
+      "f": "minnesota.html",
+      "row": "155",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "minnesota-expansion.html",
+      "row": "25",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "new-jersey",
+    "name": "Best Provision Co.",
+    "rows": [
+     {
+      "f": "new-jersey.html",
+      "row": "8",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "new-jersey-expansion.html",
+      "row": "26",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "new-jersey",
+    "name": "Calandra's Bakery",
+    "rows": [
+     {
+      "f": "new-jersey.html",
+      "row": "17",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "new-jersey-expansion.html",
+      "row": "10",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "new-jersey",
+    "name": "Citromax",
+    "rows": [
+     {
+      "f": "new-jersey.html",
+      "row": "56",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "new-jersey-expansion.html",
+      "row": "22",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "new-jersey",
+    "name": "Accurate Box Company",
+    "rows": [
+     {
+      "f": "new-jersey.html",
+      "row": "88",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "new-jersey-expansion.html",
+      "row": "27",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "new-jersey",
+    "name": "Kontos Foods",
+    "rows": [
+     {
+      "f": "new-jersey.html",
+      "row": "190",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "new-jersey-expansion.html",
+      "row": "30",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "new-jersey",
+    "name": "Conte's Pasta",
+    "rows": [
+     {
+      "f": "new-jersey.html",
+      "row": "194",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "new-jersey-expansion.html",
+      "row": "32",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "new-york",
+    "name": "Perry’s Ice Cream",
+    "rows": [
+     {
+      "f": "new-york.html",
+      "row": "10",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "new-york-expansion.html",
+      "row": "15",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "new-york",
+    "name": "Try-It Distributing",
+    "rows": [
+     {
+      "f": "new-york.html",
+      "row": "23",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "new-york-expansion.html",
+      "row": "9",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "new-york",
+    "name": "Wardynski & Sons",
+    "rows": [
+     {
+      "f": "new-york.html",
+      "row": "105",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "new-york-expansion.html",
+      "row": "17",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "ohio",
+    "name": "Jergens Inc.",
+    "rows": [
+     {
+      "f": "ohio.html",
+      "row": "93",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "ohio-expansion.html",
+      "row": "18",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "ohio",
+    "name": "Nickles Bakery",
+    "rows": [
+     {
+      "f": "ohio.html",
+      "row": "105",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "ohio-expansion.html",
+      "row": "9",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "oregon",
+    "name": "Bear Mountain Forest Products",
+    "rows": [
+     {
+      "f": "oregon.html",
+      "row": "65",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "oregon-expansion.html",
+      "row": "26",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "oregon",
+    "name": "Zip-O-Log Mills",
+    "rows": [
+     {
+      "f": "oregon.html",
+      "row": "78",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "oregon-expansion.html",
+      "row": "22",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "oregon",
+    "name": "Consolidated Supply",
+    "rows": [
+     {
+      "f": "oregon.html",
+      "row": "129",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "oregon-expansion.html",
+      "row": "23",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "pennsylvania",
+    "name": "Sarris Candies",
+    "rows": [
+     {
+      "f": "pennsylvania.html",
+      "row": "62",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "pennsylvania-expansion.html",
+      "row": "19",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "south-carolina",
+    "name": "Titan Farms",
+    "rows": [
+     {
+      "f": "south-carolina.html",
+      "row": "34",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "south-carolina-expansion.html",
+      "row": "1",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "tennessee",
+    "name": "Chattanooga Bakery (MoonPie)",
+    "rows": [
+     {
+      "f": "tennessee.html",
+      "row": "120",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "tennessee-expansion.html",
+      "row": "1",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "tennessee",
+    "name": "Lodge Cast Iron",
+    "rows": [
+     {
+      "f": "tennessee.html",
+      "row": "176",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "tennessee-expansion.html",
+      "row": "2",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "texas",
+    "name": "Bolner’s Fiesta Products",
+    "rows": [
+     {
+      "f": "texas.html",
+      "row": "104",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "texas-expansion.html",
+      "row": "7",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "texas",
+    "name": "Fischer & Wieser Specialty Foods",
+    "rows": [
+     {
+      "f": "texas.html",
+      "row": "109",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "texas-expansion.html",
+      "row": "5",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "utah",
+    "name": "Gossner Foods",
+    "rows": [
+     {
+      "f": "utah.html",
+      "row": "26",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "utah-expansion.html",
+      "row": "4",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "utah",
+    "name": "Redmond (Real Salt)",
+    "rows": [
+     {
+      "f": "utah.html",
+      "row": "30",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "utah-expansion.html",
+      "row": "6",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "utah",
+    "name": "Casper's Ice Cream (FatBoy)",
+    "rows": [
+     {
+      "f": "utah.html",
+      "row": "117",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "utah-expansion.html",
+      "row": "5",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "utah",
+    "name": "Wasatch Container",
+    "rows": [
+     {
+      "f": "utah.html",
+      "row": "190",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "utah-expansion.html",
+      "row": "17",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "utah",
+    "name": "Metalcraft Technologies",
+    "rows": [
+     {
+      "f": "utah.html",
+      "row": "197",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "utah-expansion.html",
+      "row": "25",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "virginia",
+    "name": "Bevans Oyster",
+    "rows": [
+     {
+      "f": "virginia.html",
+      "row": "100",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "virginia-expansion.html",
+      "row": "14",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "wisconsin",
+    "name": "Nueske's Applewood Smoked Meats",
+    "rows": [
+     {
+      "f": "wisconsin.html",
+      "row": "9",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "wisconsin-expansion.html",
+      "row": "10",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "wisconsin",
+    "name": "Amerequip",
+    "rows": [
+     {
+      "f": "wisconsin.html",
+      "row": "15",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "wisconsin-expansion.html",
+      "row": "16",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "wisconsin",
+    "name": "Klement's Sausage",
+    "rows": [
+     {
+      "f": "wisconsin.html",
+      "row": "16",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "wisconsin-expansion.html",
+      "row": "11",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "A",
+    "how": "the row carrying dated decision-maker evidence governs"
+   },
+   {
+    "market": "wisconsin",
+    "name": "Wisconsin Metal Parts",
+    "rows": [
+     {
+      "f": "wisconsin.html",
+      "row": "71",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "wisconsin-expansion.html",
+      "row": "36",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "wisconsin",
+    "name": "Bassett Mechanical",
+    "rows": [
+     {
+      "f": "wisconsin.html",
+      "row": "82",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "wisconsin-expansion.html",
+      "row": "37",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "wisconsin",
+    "name": "Decatur Dairy",
+    "rows": [
+     {
+      "f": "wisconsin.html",
+      "row": "97",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": true
+     },
+     {
+      "f": "wisconsin-expansion.html",
+      "row": "14",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": true
+     }
+    ],
+    "governs": "B",
+    "how": "both rows carry dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "wisconsin",
+    "name": "Mullins Cheese",
+    "rows": [
+     {
+      "f": "wisconsin.html",
+      "row": "104",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "wisconsin-expansion.html",
+      "row": "45",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   },
+   {
+    "market": "wisconsin",
+    "name": "Cesar's Cheese",
+    "rows": [
+     {
+      "f": "wisconsin.html",
+      "row": "174",
+      "tier": "A",
+      "dated": true,
+      "dm_evidence": false
+     },
+     {
+      "f": "wisconsin-expansion.html",
+      "row": "13",
+      "tier": "B",
+      "dated": true,
+      "dm_evidence": false
+     }
+    ],
+    "governs": "B",
+    "how": "neither row carries dated decision-maker evidence; the lower tier governs for counting"
+   }
+  ]
+ },
+ "4_held_13": [
+  {
+   "market": "arizona",
+   "name": "Hensley Beverage Company",
+   "rows": [
+    {
+     "file": "arizona.html",
+     "row": "2",
+     "tier": "A",
+     "reasons": [
+      "ownership: “ce. SCALE CAVEAT: far above range; division door. Tier contested (self-overlap swee”"
+     ]
+    },
+    {
+     "file": "arizona-expansion.html",
+     "row": "3",
+     "tier": "C",
+     "reasons": [
+      "band: “Seed-adjacent → over-band. Hensley/McCain family-owned since”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "arizona",
+   "name": "Empire Southwest",
+   "rows": [
+    {
+     "file": "arizona.html",
+     "row": "16",
+     "tier": "A",
+     "reasons": [
+      "ownership: “lti-generation family business, no sponsor. SCALE CAVEAT: well above range. F”"
+     ]
+    },
+    {
+     "file": "arizona-expansion.html",
+     "row": "14",
+     "tier": "C",
+     "reasons": [
+      "band: “Net-new candidate → over-band. Whiteman family-owned since 1950”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "chicago",
+   "name": "Berlin Packaging",
+   "rows": [
+    {
+     "file": "chicago.html",
+     "row": "237",
+     "tier": "B",
+     "reasons": [
+      "ownership: “but Oak Hill Capital and CD&R hold sponsor stakes. Tier contested (self-overl”"
+     ]
+    },
+    {
+     "file": "chicago-expansion.html",
+     "row": "16",
+     "tier": "C",
+     "reasons": [
+      "profile: “ikipedia; CBInsights). PE control. KILLED. Tier contested (self-overlap swee”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "ohio",
+   "name": "Fresh Mark",
+   "rows": [
+    {
+     "file": "ohio.html",
+     "row": "6",
+     "tier": "A",
+     "reasons": [
+      "ownership: “erately tight operational radius). Parent of the SUGARDALE and Superior's Br”"
+     ]
+    },
+    {
+     "file": "ohio-expansion.html",
+     "row": "17",
+     "tier": "C",
+     "reasons": [
+      "band: “Net-new candidate → over-band. Genet family-owned since 1922, Ma”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "ohio",
+   "name": "Superior Beverage Group",
+   "rows": [
+    {
+     "file": "ohio.html",
+     "row": "47",
+     "tier": "A",
+     "reasons": [
+      "profile: “ton/Lorain/Columbus/Cleveland plus out-of-state (TX, CO, KY) — a genuinely multi-m”"
+     ]
+    },
+    {
+     "file": "ohio-expansion.html",
+     "row": "28",
+     "tier": "C",
+     "reasons": [
+      "band: “Net-new candidate → over-band/confirm. Columbus/Cleveland bevera”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "oregon",
+   "name": "Rosboro Company",
+   "rows": [
+    {
+     "file": "oregon.html",
+     "row": "70",
+     "tier": "B",
+     "reasons": [
+      "ownership: “PE-backed. Verify. Tier contested (self-over”"
+     ]
+    },
+    {
+     "file": "oregon-expansion.html",
+     "row": "21",
+     "tier": "C",
+     "reasons": [
+      "profile: “Net-new candidate → PARK. Springfield engineered-wood/glula”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "south-carolina",
+   "name": "Zeus Company",
+   "rows": [
+    {
+     "file": "south-carolina.html",
+     "row": "161",
+     "tier": "B",
+     "reasons": [
+      "band: “e family-owned polymer-tubing mfr. BAND RISK — scale; confirm. Tier contested (”"
+     ]
+    },
+    {
+     "file": "south-carolina-expansion.html",
+     "row": "39",
+     "tier": "C",
+     "reasons": [
+      "ownership: “urville family-founded (1966), but ACQUIRED by EQT Private Equity ($3.4B), closed”",
+      "profile: “ng). PE-owned corpse-and-acquirer. KILLED. Tier contested (self-overlap swee”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "texas",
+   "name": "Ben E. Keith Company",
+   "rows": [
+    {
+     "file": "texas.html",
+     "row": "1",
+     "tier": "A",
+     "reasons": [
+      "ownership: “er). Cap-table: clean, private, no sponsor. SCALE far past range — division/b”"
+     ]
+    },
+    {
+     "file": "texas-expansion.html",
+     "row": "16",
+     "tier": "C",
+     "reasons": [
+      "band: “Net-new candidate → over-band. Beckham/Hallam family-owned since”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "texas",
+   "name": "Elliott Electric Supply",
+   "rows": [
+    {
+     "file": "texas.html",
+     "row": "7",
+     "tier": "A",
+     "reasons": [
+      "ownership: “ure + succession window may open a division door. Tier contested (self-overlap swee”"
+     ]
+    },
+    {
+     "file": "texas-expansion.html",
+     "row": "12",
+     "tier": "C",
+     "reasons": [
+      "band: “Net-new candidate → over-band. Elliott family-owned since 1972,”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "utah",
+   "name": "Winder Farms",
+   "rows": [
+    {
+     "file": "utah.html",
+     "row": "31",
+     "tier": "B",
+     "reasons": [
+      "band: “amily-lineage dairy/home delivery. BAND RISK / ownership — confirm. Tier contes”"
+     ]
+    },
+    {
+     "file": "utah-expansion.html",
+     "row": "23",
+     "tier": "C",
+     "reasons": [
+      "ownership: “watch). Winder family (since 1880) SOLD to PE (Dolphin Capital) in 2004, then”",
+      "profile: “Net-new candidate → PARK (upward correction watch). Winder”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "utah",
+   "name": "Christensen Arms",
+   "rows": [
+    {
+     "file": "utah.html",
+     "row": "196",
+     "tier": "B",
+     "reasons": [
+      "band: “y-founded firearms mfr (PE stake). BAND RISK — confirm control. Tier contested”"
+     ]
+    },
+    {
+     "file": "utah-expansion.html",
+     "row": "22",
+     "tier": "C",
+     "reasons": [
+      "profile: “09-03 (CBInsights). Investor-held. KILLED. Tier contested (self-overlap swee”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "virginia",
+   "name": "Rappahannock Oyster Co.",
+   "rows": [
+    {
+     "file": "virginia.html",
+     "row": "99",
+     "tier": "B",
+     "reasons": [
+      "band: “y-owned oyster farm + restaurants. BAND RISK — confirm band. Tier contested (se”"
+     ]
+    },
+    {
+     "file": "virginia-expansion.html",
+     "row": "30",
+     "tier": "C",
+     "reasons": [
+      "profile: “Net-new candidate → PARK/confirm. Family-owned (Croxton cou”"
+     ]
+    }
+   ]
+  },
+  {
+   "market": "washington",
+   "name": "Zirkle Fruit Company",
+   "rows": [
+    {
+     "file": "washington.html",
+     "row": "33",
+     "tier": "A",
+     "reasons": [
+      "ownership: “Aug 2026. Zirkle family. DUPLICATE PARENT with #37 (Domex Superfresh, Zirkle”"
+     ]
+    },
+    {
+     "file": "washington-expansion.html",
+     "row": "15",
+     "tier": "C",
+     "reasons": [
+      "band: “Net-new candidate → over-band. Zirkle/Mathison family-owned, Sel”"
+     ]
+    }
+   ]
+  }
+ ],
+ "5_undated": {
+  "pennsylvania.html": {
+   "rows": 34,
+   "would_become": {
+    "Unverified": 20,
+    "Downgraded": 14
+   },
+   "rows_detail": [
+    {
+     "row": "26",
+     "company": "Marburger Farm Dairy  Manufacturing & Indust",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Farm and Dairy (Crawford County ag award); Butler Eagle; Dairy Foods Dairy Plants USA. | Prior ",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "27",
+     "company": "Brunton Dairy  Manufacturing & Industrial",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Three Rivers Grown / bruntondairy.com profile; PA Milk Marketing Board licensee list. | Prior n",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "45",
+     "company": "M. Levin & Company  Distribution & Wholesale",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: mlevinco.com; The Produce News (2024–25 profiles); Wikipedia",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "74",
+     "company": "Tony Luke’s  Multi-Site Retail",
+     "status": "Downgraded",
+     "tier": "C",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Wikipedia/Tony Luke’s; CBS News Philadelphia (name change, guilty plea)",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "82",
+     "company": "Ernest Bock & Sons  Construction & Specialty",
+     "status": "Unverified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: CIS Leads company profile. | Prior note: Family-owned since 1931",
+     "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "83",
+     "company": "Daniel J. Keating Company  Construction & Sp",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: djkeating.com leadership page; CIS Leads; Siteline. | Prior note: Family-owned since 1907",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "85",
+     "company": "Benchmark Construction  Construction & Speci",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Siteline GC profile; BuiltWorlds (founder); Owler; The Blue Book; Lean Construction Institute m",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "94",
+     "company": "Jendoco Construction  Construction & Special",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: MBA of Western PA member profile; Pittsburgh Business Times contractors list 2024. | Prior note",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "95",
+     "company": "Volpatt Construction  Construction & Special",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: The Blue Book company story; MBA of Western PA directory; a-leads profile. | Prior note: Family",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "96",
+     "company": "A. Martini & Company  Construction & Special",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: MBA of Western PA member profile; The Blue Book company story. | Prior note: Family-owned since",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "98",
+     "company": "Franjo Construction  Construction & Specialt",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: SkillHero directory (company profile); Top Workplaces; CB Insights. | Prior note: Family-owned",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "99",
+     "company": "Nello Construction  Construction & Specialty",
+     "status": "Unverified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Observer-Reporter local listing; CIS Leads (the separate Philadelphia company); OSHA inspection",
+     "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "106",
+     "company": "Poole Anderson Construction  Construction &",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: pooleanderson.com news; Geisinger board bio (Poole); The Blue Book; CBICC directory. | Prior no",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "107",
+     "company": "Leonard S. Fiore  Construction & Specialty T",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: CBICC member directory; MarketScreener officer profile; OSHA establishment records (Altoona mai",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "111",
+     "company": "E.G. Stoltzfus  Construction & Specialty Tra",
+     "status": "Unverified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: CPBJ company profile; ContactOut company record (address, headcount, ‘second-generation, family",
+     "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "125",
+     "company": "Loftus Construction  Construction & Specialt",
+     "status": "Downgraded",
+     "tier": "C",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: CIS Leads company profile",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "126",
+     "company": "Neshaminy Constructors  Construction & Speci",
+     "status": "Unverified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Aqua PA contractor list",
+     "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "154",
+     "company": "Seubert & Associates  Professional Services",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: ZoomInfo; Rough Notes ‘Marketing Agency of the Month’ (Seubert ownership plan); Chubb agency li",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "159",
+     "company": "Oxford Development  Professional Services",
+     "status": "Downgraded",
+     "tier": "B",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Wikipedia/Oxford Development; oxforddevelopment.com leadership page; Pittsburgh Business Times ",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "162",
+     "company": "McKnight Realty Partners  Professional Servi",
+     "status": "Downgraded",
+     "tier": "B",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: mcknightrealtypartners.com/history",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "169",
+     "company": "Alterra Property Group  Professional Service",
+     "status": "Downgraded",
+     "tier": "B",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: ZoomInfo company profile; Philadelphia Life/Suburban Life profile (Meridian Bank)",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "170",
+     "company": "Pennrose  Professional Services",
+     "status": "Downgraded",
+     "tier": "B",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Owler company profile (CEO, headcount); REBusinessOnline project coverage 2025–2026",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "172",
+     "company": "Rouse Chamberlin Homes  Construction & Speci",
+     "status": "Unverified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Zillow builder profiles (19468/19475) and HomeGuide listing, all current to 2026",
+     "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "173",
+     "company": "W.B. Homes  Construction & Specialty Trades",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: wbhomesinc.com; Times News profile; a-leads",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "182",
+     "company": "Weaber Lumber  Manufacturing & Industrial",
+     "status": "Downgraded",
+     "tier": "B",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: The Middle Market (Cyprium/Weaber); Woodworking Network",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "196",
+     "company": "Esbenshade Farms  Manufacturing & Industrial",
+     "status": "Downgraded",
+     "tier": "C",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Central Penn Business Journal; National Hog Farmer",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "200",
+     "company": "Yoder’s Country Market  Multi-Site Retail",
+     "status": "Verified",
+     "tier": "A",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: ExplorePAHistory; Produce Market Guide (New Holland, 17557 PA listing); marketreportblog store ",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "6",
+     "company": "Weis Markets  Multi-Site Retail",
+     "status": "Downgraded",
+     "tier": "C",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Wikipedia; Talent4Boards/company release 2014; stock profiles",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "17",
+     "company": "Utz Brands  Manufacturing & Industrial",
+     "status": "Downgraded",
+     "tier": "C",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Nemo Money WMK-vs-UTZ profile (ticker); Wikipedia",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "30",
+     "company": "Gertrude Hawk Chocolates  Manufacturing & In",
+     "status": "Verified",
+     "tier": "B",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Datanyze; WNEP; company wholesale catalog 2024–25",
+     "would_become": "Unverified — no dated source remains"
+    },
+    {
+     "row": "46",
+     "company": "Coosemans Philadelphia  Distribution & Whole",
+     "status": "Downgraded",
+     "tier": "C",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Coosemans Worldwide network listings; Philadelphia Wholesale Produce Market merchant roster",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "54",
+     "company": "Lancaster Foods  Distribution & Wholesale",
+     "status": "Downgraded",
+     "tier": "C",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Baldor/Lancaster Foods acquisition coverage; PA Milk Board sub-dealer list (Baldor Pennsylvania",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "127",
+     "company": "Gilbert Associates  Professional Services",
+     "status": "Downgraded",
+     "tier": "C",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: Parsons/Gilbert Associates acquisition history; SEC-era filings",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    },
+    {
+     "row": "132",
+     "company": "Drucker & Scaccetti  Professional Services",
+     "status": "Downgraded",
+     "tier": "C",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: armanino.com merger announcement",
+     "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+    }
+   ]
+  },
+  "michigan.html": {
+   "rows": 1,
+   "would_become": {
+    "Unverified": 1
+   },
+   "rows_detail": [
+    {
+     "row": "61",
+     "company": "Cadillac Asphalt  Construction & Specialty T",
+     "status": "Unverified",
+     "tier": "B",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: ZoomInfo profile. | Prior note: Verify parent",
+     "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+    }
+   ]
+  },
+  "ohio.html": {
+   "rows": 1,
+   "would_become": {
+    "Unverified": 1
+   },
+   "rows_detail": [
+    {
+     "row": "19",
+     "company": "Skyline Chili  Multi-Site Retail",
+     "status": "Unverified",
+     "tier": "B",
+     "undated": 1,
+     "dated": 0,
+     "line": "Src: WKRC Local 12 (CEO announcement). | Prior note: Verify PE ownership",
+     "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+    }
+   ]
+  }
+ },
+ "5_pennsylvania": "34 of 73 Src: lines in pennsylvania.html are undated (47%); 15 of its 85 Verified rows would have no dated source left. That is a market-level finding: Pennsylvania’s sourcing should be re-dated or re-verified as a market, not row by row",
+ "per_market_after": {
+  "arizona": {
+   "all": [
+    215,
+    211
+   ],
+   "dialable": [
+    110,
+    110
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    105,
+    103
+   ],
+   "verified_status": [
+    68,
+    68
+   ],
+   "expansion": [
+    15,
+    15
+   ]
+  },
+  "california": {
+   "all": [
+    130,
+    128
+   ],
+   "dialable": [
+    122,
+    120
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    8,
+    8
+   ],
+   "verified_status": [
+    109,
+    107
+   ],
+   "expansion": [
+    18,
+    18
+   ]
+  },
+  "chicago": {
+   "all": [
+    266,
+    260
+   ],
+   "dialable": [
+    156,
+    152
+   ],
+   "call_ready": [
+    68,
+    67
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    110,
+    109
+   ],
+   "verified_status": [
+    131,
+    127
+   ],
+   "expansion": [
+    28,
+    28
+   ]
+  },
+  "colorado": {
+   "all": [
+    213,
+    209
+   ],
+   "dialable": [
+    114,
+    111
+   ],
+   "call_ready": [
+    2,
+    2
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    99,
+    98
+   ],
+   "verified_status": [
+    79,
+    76
+   ],
+   "expansion": [
+    13,
+    13
+   ]
+  },
+  "florida": {
+   "all": [
+    200,
+    197
+   ],
+   "dialable": [
+    114,
+    113
+   ],
+   "call_ready": [
+    98,
+    97
+   ],
+   "verified_callable": [
+    25,
+    25
+   ],
+   "tier_C": [
+    86,
+    84
+   ],
+   "verified_status": [
+    77,
+    76
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  },
+  "georgia": {
+   "all": [
+    250,
+    250
+   ],
+   "dialable": [
+    134,
+    134
+   ],
+   "call_ready": [
+    16,
+    16
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    116,
+    116
+   ],
+   "verified_status": [
+    112,
+    112
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  },
+  "illinois": {
+   "all": [
+    243,
+    229
+   ],
+   "dialable": [
+    190,
+    185
+   ],
+   "call_ready": [
+    3,
+    3
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    53,
+    44
+   ],
+   "verified_status": [
+    199,
+    194
+   ],
+   "expansion": [
+    43,
+    43
+   ]
+  },
+  "indiana": {
+   "all": [
+    245,
+    235
+   ],
+   "dialable": [
+    170,
+    169
+   ],
+   "call_ready": [
+    0,
+    0
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    75,
+    66
+   ],
+   "verified_status": [
+    177,
+    176
+   ],
+   "expansion": [
+    45,
+    45
+   ]
+  },
+  "iowa": {
+   "all": [
+    245,
+    228
+   ],
+   "dialable": [
+    202,
+    195
+   ],
+   "call_ready": [
+    4,
+    4
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    43,
+    33
+   ],
+   "verified_status": [
+    212,
+    205
+   ],
+   "expansion": [
+    45,
+    45
+   ]
+  },
+  "kentucky": {
+   "all": [
+    226,
+    220
+   ],
+   "dialable": [
+    166,
+    165
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    60,
+    55
+   ],
+   "verified_status": [
+    170,
+    169
+   ],
+   "expansion": [
+    26,
+    26
+   ]
+  },
+  "las-vegas": {
+   "all": [
+    210,
+    208
+   ],
+   "dialable": [
+    92,
+    91
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    118,
+    118
+   ],
+   "verified_status": [
+    22,
+    22
+   ],
+   "expansion": [
+    10,
+    10
+   ]
+  },
+  "michigan": {
+   "all": [
+    181,
+    175
+   ],
+   "dialable": [
+    163,
+    158
+   ],
+   "call_ready": [
+    3,
+    3
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    18,
+    17
+   ],
+   "verified_status": [
+    136,
+    131
+   ],
+   "expansion": [
+    32,
+    32
+   ]
+  },
+  "minnesota": {
+   "all": [
+    229,
+    223
+   ],
+   "dialable": [
+    180,
+    177
+   ],
+   "call_ready": [
+    2,
+    2
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    49,
+    46
+   ],
+   "verified_status": [
+    164,
+    162
+   ],
+   "expansion": [
+    29,
+    29
+   ]
+  },
+  "missouri": {
+   "all": [
+    230,
+    226
+   ],
+   "dialable": [
+    177,
+    177
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    53,
+    49
+   ],
+   "verified_status": [
+    166,
+    166
+   ],
+   "expansion": [
+    30,
+    30
+   ]
+  },
+  "new-jersey": {
+   "all": [
+    243,
+    231
+   ],
+   "dialable": [
+    188,
+    180
+   ],
+   "call_ready": [
+    7,
+    7
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    55,
+    51
+   ],
+   "verified_status": [
+    191,
+    183
+   ],
+   "expansion": [
+    43,
+    43
+   ]
+  },
+  "new-york": {
+   "all": [
+    153,
+    145
+   ],
+   "dialable": [
+    141,
+    136
+   ],
+   "call_ready": [
+    5,
+    5
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    12,
+    9
+   ],
+   "verified_status": [
+    125,
+    120
+   ],
+   "expansion": [
+    27,
+    27
+   ]
+  },
+  "north-carolina": {
+   "all": [
+    250,
+    250
+   ],
+   "dialable": [
+    128,
+    128
+   ],
+   "call_ready": [
+    11,
+    11
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    122,
+    122
+   ],
+   "verified_status": [
+    106,
+    106
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  },
+  "ohio": {
+   "all": [
+    228,
+    221
+   ],
+   "dialable": [
+    156,
+    151
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    72,
+    72
+   ],
+   "verified_status": [
+    115,
+    112
+   ],
+   "expansion": [
+    28,
+    28
+   ]
+  },
+  "oregon": {
+   "all": [
+    229,
+    220
+   ],
+   "dialable": [
+    165,
+    162
+   ],
+   "call_ready": [
+    0,
+    0
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    64,
+    59
+   ],
+   "verified_status": [
+    152,
+    149
+   ],
+   "expansion": [
+    29,
+    29
+   ]
+  },
+  "pennsylvania": {
+   "all": [
+    184,
+    182
+   ],
+   "dialable": [
+    147,
+    146
+   ],
+   "call_ready": [
+    2,
+    2
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    37,
+    36
+   ],
+   "verified_status": [
+    103,
+    102
+   ],
+   "expansion": [
+    26,
+    26
+   ]
+  },
+  "south-carolina": {
+   "all": [
+    250,
+    244
+   ],
+   "dialable": [
+    181,
+    180
+   ],
+   "call_ready": [
+    15,
+    15
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    69,
+    65
+   ],
+   "verified_status": [
+    185,
+    184
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  },
+  "tennessee": {
+   "all": [
+    250,
+    246
+   ],
+   "dialable": [
+    178,
+    176
+   ],
+   "call_ready": [
+    8,
+    8
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    72,
+    70
+   ],
+   "verified_status": [
+    179,
+    177
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  },
+  "texas": {
+   "all": [
+    155,
+    150
+   ],
+   "dialable": [
+    120,
+    117
+   ],
+   "call_ready": [
+    58,
+    58
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    35,
+    35
+   ],
+   "verified_status": [
+    58,
+    56
+   ],
+   "expansion": [
+    17,
+    17
+   ]
+  },
+  "utah": {
+   "all": [
+    235,
+    220
+   ],
+   "dialable": [
+    170,
+    163
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    65,
+    59
+   ],
+   "verified_status": [
+    174,
+    167
+   ],
+   "expansion": [
+    35,
+    35
+   ]
+  },
+  "virginia": {
+   "all": [
+    247,
+    232
+   ],
+   "dialable": [
+    187,
+    181
+   ],
+   "call_ready": [
+    4,
+    4
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    60,
+    52
+   ],
+   "verified_status": [
+    191,
+    185
+   ],
+   "expansion": [
+    47,
+    47
+   ]
+  },
+  "washington": {
+   "all": [
+    216,
+    211
+   ],
+   "dialable": [
+    115,
+    114
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    101,
+    98
+   ],
+   "verified_status": [
+    100,
+    99
+   ],
+   "expansion": [
+    16,
+    16
+   ]
+  },
+  "wisconsin": {
+   "all": [
+    250,
+    224
+   ],
+   "dialable": [
+    214,
+    201
+   ],
+   "call_ready": [
+    9,
+    9
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    36,
+    23
+   ],
+   "verified_status": [
+    226,
+    213
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  }
+ },
+ "florida": "98 call-ready rows across 97 companies; lineage 93 + 2 + 3 + 1 − 1; Correct Craft out of the dial list (no A/B pair touched Florida)",
+ "carried": [
+  "the two derived views",
+  "the console filter’s unwritten attribute",
+  "Illinois and Chicago at the access line"
+ ],
+ "caught_before_delivery": "the exposure marks first carried a date, and the call-ready test read it as dating 16 Pennsylvania rows’ contacts (324 → 339); caught by recounting against live, rewritten without a date: call-ready is 323 rows (324 on live less Correct Craft)"
+}

@@ -1,0 +1,4230 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Self-overlap sweep (brief): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Self-overlap sweep (delivered): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "gate": "discipline, not a hook; the last delivery equalled live at head 6ff5f2d",
+  "reads": 0
+ },
+ "part1_correct_craft": "branch 1: the expansion row (Tier C) names its screen-out — KILLED, not Meloon-owned since 2008, $1B+ holding, band risk; florida.html #62 corrected to Tier C, both rows carry the contest line",
+ "part2_per_market": {
+  "arizona": {
+   "pairs": 4,
+   "pair_names": [
+    "Hensley Beverage Company",
+    "Empire Southwest",
+    "Arizona Nutritional Supplements",
+    "Cerreta Candy Company"
+   ],
+   "all": [
+    215,
+    211
+   ],
+   "dialable": [
+    110,
+    110
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    105,
+    103
+   ],
+   "verified_status": [
+    68,
+    68
+   ],
+   "expansion": [
+    15,
+    15
+   ]
+  },
+  "california": {
+   "pairs": 2,
+   "pair_names": [
+    "Guittard Chocolate",
+    "Ganahl Lumber"
+   ],
+   "all": [
+    130,
+    128
+   ],
+   "dialable": [
+    122,
+    120
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    8,
+    8
+   ],
+   "verified_status": [
+    109,
+    107
+   ],
+   "expansion": [
+    18,
+    18
+   ]
+  },
+  "chicago": {
+   "pairs": 6,
+   "pair_names": [
+    "Edward Don & Company",
+    "Turano Baking Company",
+    "Vienna Beef",
+    "Eli’s Cheesecake Company",
+    "Home Run Inn",
+    "Berlin Packaging"
+   ],
+   "all": [
+    266,
+    260
+   ],
+   "dialable": [
+    156,
+    152
+   ],
+   "call_ready": [
+    68,
+    67
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    110,
+    109
+   ],
+   "verified_status": [
+    131,
+    127
+   ],
+   "expansion": [
+    28,
+    28
+   ]
+  },
+  "colorado": {
+   "pairs": 4,
+   "pair_names": [
+    "Ready Foods",
+    "Continental Sausage",
+    "Il Mondo Vecchio",
+    "Polidori Sausage"
+   ],
+   "all": [
+    213,
+    209
+   ],
+   "dialable": [
+    114,
+    111
+   ],
+   "call_ready": [
+    2,
+    2
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    99,
+    98
+   ],
+   "verified_status": [
+    79,
+    76
+   ],
+   "expansion": [
+    13,
+    13
+   ]
+  },
+  "florida": {
+   "pairs": 3,
+   "pair_names": [
+    "Cheney Brothers",
+    "Martinez Distributors",
+    "Correct Craft (Nautique)"
+   ],
+   "all": [
+    200,
+    197
+   ],
+   "dialable": [
+    114,
+    113
+   ],
+   "call_ready": [
+    98,
+    97
+   ],
+   "verified_callable": [
+    25,
+    25
+   ],
+   "tier_C": [
+    86,
+    84
+   ],
+   "verified_status": [
+    77,
+    76
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  },
+  "georgia": {
+   "pairs": 0,
+   "pair_names": [],
+   "all": [
+    250,
+    250
+   ],
+   "dialable": [
+    134,
+    134
+   ],
+   "call_ready": [
+    16,
+    16
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    116,
+    116
+   ],
+   "verified_status": [
+    112,
+    112
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  },
+  "illinois": {
+   "pairs": 14,
+   "pair_names": [
+    "Niemann Foods",
+    "Peoria Charter Coach",
+    "Wahl Clipper Corporation",
+    "Raynor Garage Doors",
+    "Rural King",
+    "Advanced Technology Services (ATS)",
+    "The Libman Company",
+    "Excel Foundry & Machine",
+    "Vonachen Group",
+    "P.J. Hoerr",
+    "Sloan Implement",
+    "Gilster-Mary Lee",
+    "Martin Engineering",
+    "Marcoot Jersey Creamery"
+   ],
+   "all": [
+    243,
+    229
+   ],
+   "dialable": [
+    190,
+    185
+   ],
+   "call_ready": [
+    3,
+    3
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    53,
+    44
+   ],
+   "verified_status": [
+    199,
+    194
+   ],
+   "expansion": [
+    43,
+    43
+   ]
+  },
+  "indiana": {
+   "pairs": 10,
+   "pair_names": [
+    "Gunthorp Farms",
+    "Fischer Farms",
+    "Best Home Furnishings",
+    "Steel Warehouse",
+    "Rea Magnet Wire",
+    "Do it Best Corp",
+    "Meyer Distributing",
+    "Rose Acre Farms",
+    "Clabber Girl (Hulman)",
+    "Smith Brothers of Berne"
+   ],
+   "all": [
+    245,
+    235
+   ],
+   "dialable": [
+    170,
+    169
+   ],
+   "call_ready": [
+    0,
+    0
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    75,
+    66
+   ],
+   "verified_status": [
+    177,
+    176
+   ],
+   "expansion": [
+    45,
+    45
+   ]
+  },
+  "iowa": {
+   "pairs": 17,
+   "pair_names": [
+    "Vermeer Corporation",
+    "Sukup Manufacturing",
+    "Musco Lighting",
+    "Palmer Candy Company",
+    "Kemin Industries",
+    "La Quercia",
+    "Gomaco Corporation",
+    "Kinze Manufacturing",
+    "Weiler",
+    "Interpower",
+    "Metalcraft",
+    "Wilson Trailer Company",
+    "Barr-Nunn Transportation",
+    "Van Diest Supply Co.",
+    "American Pop Corn Company (Jolly Time)",
+    "Farmers Hen House",
+    "Sioux-Preme Packing"
+   ],
+   "all": [
+    245,
+    228
+   ],
+   "dialable": [
+    202,
+    195
+   ],
+   "call_ready": [
+    4,
+    4
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    43,
+    33
+   ],
+   "verified_status": [
+    212,
+    205
+   ],
+   "expansion": [
+    45,
+    45
+   ]
+  },
+  "kentucky": {
+   "pairs": 6,
+   "pair_names": [
+    "Kern's Kitchen (Derby-Pie)",
+    "Bourbon Barrel Foods",
+    "ISCO Industries",
+    "Kentucky Trailer",
+    "Derby Industries",
+    "Owensboro Grain"
+   ],
+   "all": [
+    226,
+    220
+   ],
+   "dialable": [
+    166,
+    165
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    60,
+    55
+   ],
+   "verified_status": [
+    170,
+    169
+   ],
+   "expansion": [
+    26,
+    26
+   ]
+  },
+  "las-vegas": {
+   "pairs": 1,
+   "pair_names": [
+    "Nevada Beverage Company"
+   ],
+   "all": [
+    210,
+    208
+   ],
+   "dialable": [
+    92,
+    91
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    118,
+    118
+   ],
+   "verified_status": [
+    22,
+    22
+   ],
+   "expansion": [
+    10,
+    10
+   ]
+  },
+  "michigan": {
+   "pairs": 6,
+   "pair_names": [
+    "Better Made Snack Foods",
+    "Germack Pistachio",
+    "Dearborn Sausage",
+    "Lipari Foods",
+    "Guernsey Farms Dairy",
+    "Request Foods"
+   ],
+   "all": [
+    181,
+    175
+   ],
+   "dialable": [
+    163,
+    158
+   ],
+   "call_ready": [
+    3,
+    3
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    18,
+    17
+   ],
+   "verified_status": [
+    136,
+    131
+   ],
+   "expansion": [
+    32,
+    32
+   ]
+  },
+  "minnesota": {
+   "pairs": 6,
+   "pair_names": [
+    "Schwan’s Company",
+    "Faribault Foods",
+    "Warners’ Stellian",
+    "Andersen Corporation",
+    "Nordic Ware",
+    "RTP Company"
+   ],
+   "all": [
+    229,
+    223
+   ],
+   "dialable": [
+    180,
+    177
+   ],
+   "call_ready": [
+    2,
+    2
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    49,
+    46
+   ],
+   "verified_status": [
+    164,
+    162
+   ],
+   "expansion": [
+    29,
+    29
+   ]
+  },
+  "missouri": {
+   "pairs": 4,
+   "pair_names": [
+    "Springfield Grocer Company",
+    "Positronic Industries",
+    "Paul Mueller Company",
+    "EFCO Corporation"
+   ],
+   "all": [
+    230,
+    226
+   ],
+   "dialable": [
+    177,
+    177
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    53,
+    49
+   ],
+   "verified_status": [
+    166,
+    166
+   ],
+   "expansion": [
+    30,
+    30
+   ]
+  },
+  "new-jersey": {
+   "pairs": 12,
+   "pair_names": [
+    "Goya Foods",
+    "Best Provision Co.",
+    "Thumann's",
+    "Seabra Foods",
+    "Calandra's Bakery",
+    "Village Super Market",
+    "Citromax",
+    "Marotta Controls",
+    "Accurate Box Company",
+    "NFI Industries",
+    "Kontos Foods",
+    "Conte's Pasta"
+   ],
+   "all": [
+    243,
+    231
+   ],
+   "dialable": [
+    188,
+    180
+   ],
+   "call_ready": [
+    7,
+    7
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    55,
+    51
+   ],
+   "verified_status": [
+    191,
+    183
+   ],
+   "expansion": [
+    43,
+    43
+   ]
+  },
+  "new-york": {
+   "pairs": 8,
+   "pair_names": [
+    "Byrne Dairy",
+    "Perry’s Ice Cream",
+    "Try-It Distributing",
+    "Palmer Food Services",
+    "Renzi Foodservice",
+    "Rich Products",
+    "Sahlen Packing",
+    "Wardynski & Sons"
+   ],
+   "all": [
+    153,
+    145
+   ],
+   "dialable": [
+    141,
+    136
+   ],
+   "call_ready": [
+    5,
+    5
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    12,
+    9
+   ],
+   "verified_status": [
+    125,
+    120
+   ],
+   "expansion": [
+    27,
+    27
+   ]
+  },
+  "north-carolina": {
+   "pairs": 0,
+   "pair_names": [],
+   "all": [
+    250,
+    250
+   ],
+   "dialable": [
+    128,
+    128
+   ],
+   "call_ready": [
+    11,
+    11
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    122,
+    122
+   ],
+   "verified_status": [
+    106,
+    106
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  },
+  "ohio": {
+   "pairs": 7,
+   "pair_names": [
+    "Fresh Mark",
+    "Anthony-Thomas Candy",
+    "Mike-sell’s Potato Chip",
+    "Superior Beverage Group",
+    "Jergens Inc.",
+    "Nickles Bakery",
+    "Buckeye Corrugated"
+   ],
+   "all": [
+    228,
+    221
+   ],
+   "dialable": [
+    156,
+    151
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    72,
+    72
+   ],
+   "verified_status": [
+    115,
+    112
+   ],
+   "expansion": [
+    28,
+    28
+   ]
+  },
+  "oregon": {
+   "pairs": 9,
+   "pair_names": [
+    "Les Schwab Tire Centers",
+    "Franz Family Bakeries",
+    "Bear Mountain Forest Products",
+    "Roseburg Forest Products",
+    "Rosboro Company",
+    "Zip-O-Log Mills",
+    "Consolidated Supply",
+    "Warn Industries",
+    "A-dec Inc."
+   ],
+   "all": [
+    229,
+    220
+   ],
+   "dialable": [
+    165,
+    162
+   ],
+   "call_ready": [
+    0,
+    0
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    64,
+    59
+   ],
+   "verified_status": [
+    152,
+    149
+   ],
+   "expansion": [
+    29,
+    29
+   ]
+  },
+  "pennsylvania": {
+   "pairs": 2,
+   "pair_names": [
+    "Dietz & Watson",
+    "Sarris Candies"
+   ],
+   "all": [
+    184,
+    182
+   ],
+   "dialable": [
+    147,
+    146
+   ],
+   "call_ready": [
+    2,
+    2
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    37,
+    36
+   ],
+   "verified_status": [
+    103,
+    102
+   ],
+   "expansion": [
+    26,
+    26
+   ]
+  },
+  "south-carolina": {
+   "pairs": 6,
+   "pair_names": [
+    "Milliken & Company",
+    "Titan Farms",
+    "W.P. Rawl & Sons",
+    "McCall Farms",
+    "Zeus Company",
+    "Tindall Corporation"
+   ],
+   "all": [
+    250,
+    244
+   ],
+   "dialable": [
+    181,
+    180
+   ],
+   "call_ready": [
+    15,
+    15
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    69,
+    65
+   ],
+   "verified_status": [
+    185,
+    184
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  },
+  "tennessee": {
+   "pairs": 4,
+   "pair_names": [
+    "McKee Foods",
+    "Chattanooga Bakery (MoonPie)",
+    "Lodge Cast Iron",
+    "Bryce Corporation"
+   ],
+   "all": [
+    250,
+    246
+   ],
+   "dialable": [
+    178,
+    176
+   ],
+   "call_ready": [
+    8,
+    8
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    72,
+    70
+   ],
+   "verified_status": [
+    179,
+    177
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  },
+  "texas": {
+   "pairs": 5,
+   "pair_names": [
+    "Ben E. Keith Company",
+    "Elliott Electric Supply",
+    "Alamo Iron Works",
+    "Bolner’s Fiesta Products",
+    "Fischer & Wieser Specialty Foods"
+   ],
+   "all": [
+    155,
+    150
+   ],
+   "dialable": [
+    120,
+    117
+   ],
+   "call_ready": [
+    58,
+    58
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    35,
+    35
+   ],
+   "verified_status": [
+    58,
+    56
+   ],
+   "expansion": [
+    17,
+    17
+   ]
+  },
+  "utah": {
+   "pairs": 15,
+   "pair_names": [
+    "Lifetime Products",
+    "Sweet Candy Company",
+    "Gossner Foods",
+    "Beehive Cheese Company",
+    "Redmond (Real Salt)",
+    "Winder Farms",
+    "Petersen Inc",
+    "Wheeler Machinery",
+    "Casper's Ice Cream (FatBoy)",
+    "Cache Valley Electric",
+    "Futura Industries",
+    "Nicholas & Co.",
+    "Wasatch Container",
+    "Christensen Arms",
+    "Metalcraft Technologies"
+   ],
+   "all": [
+    235,
+    220
+   ],
+   "dialable": [
+    170,
+    163
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    65,
+    59
+   ],
+   "verified_status": [
+    174,
+    167
+   ],
+   "expansion": [
+    35,
+    35
+   ]
+  },
+  "virginia": {
+   "pairs": 15,
+   "pair_names": [
+    "Edwards Virginia Smokehouse",
+    "Route 11 Potato Chips",
+    "Hooker Furnishings",
+    "Vaughan-Bassett Furniture",
+    "Estes Express Lines",
+    "Ukrop's Homestyle Foods",
+    "Colonna's Shipyard",
+    "Graham & Rollins",
+    "J&W Seafood",
+    "Rappahannock Oyster Co.",
+    "Bevans Oyster",
+    "Blue Ridge Beverage Company",
+    "Southern States Cooperative",
+    "Carter Machinery",
+    "James River Equipment"
+   ],
+   "all": [
+    247,
+    232
+   ],
+   "dialable": [
+    187,
+    181
+   ],
+   "call_ready": [
+    4,
+    4
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    60,
+    52
+   ],
+   "verified_status": [
+    191,
+    185
+   ],
+   "expansion": [
+    47,
+    47
+   ]
+  },
+  "washington": {
+   "pairs": 5,
+   "pair_names": [
+    "Uwajimaya",
+    "Charlie’s Produce",
+    "Washington Fruit & Produce",
+    "Zirkle Fruit Company",
+    "Janicki Industries"
+   ],
+   "all": [
+    216,
+    211
+   ],
+   "dialable": [
+    115,
+    114
+   ],
+   "call_ready": [
+    1,
+    1
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    101,
+    98
+   ],
+   "verified_status": [
+    100,
+    99
+   ],
+   "expansion": [
+    16,
+    16
+   ]
+  },
+  "wisconsin": {
+   "pairs": 26,
+   "pair_names": [
+    "Sargento Foods",
+    "Johnsonville",
+    "Nueske's Applewood Smoked Meats",
+    "Widmer's Cheese Cellars",
+    "Wisconsin Aluminum Foundry",
+    "Vollrath Company",
+    "Amerequip",
+    "Klement's Sausage",
+    "Grande Cheese",
+    "Ellsworth Cooperative Creamery",
+    "Renard's Cheese",
+    "Weyco Group",
+    "Charter Manufacturing",
+    "Ariens Company",
+    "Super Steel",
+    "Wisconsin Metal Parts",
+    "Bassett Mechanical",
+    "BelGioioso Cheese",
+    "Klondike Cheese",
+    "Decatur Dairy",
+    "Mullins Cheese",
+    "Nasonville Dairy",
+    "Sassy Cow Creamery",
+    "Jones Dairy Farm",
+    "Salm Partners",
+    "Cesar's Cheese"
+   ],
+   "all": [
+    250,
+    224
+   ],
+   "dialable": [
+    214,
+    201
+   ],
+   "call_ready": [
+    9,
+    9
+   ],
+   "verified_callable": [
+    0,
+    0
+   ],
+   "tier_C": [
+    36,
+    23
+   ],
+   "verified_status": [
+    226,
+    213
+   ],
+   "expansion": [
+    50,
+    50
+   ]
+  }
+ },
+ "tier_contradictions": {
+  "total": 150,
+  "branch_1": [
+   {
+    "market": "arizona",
+    "name": "Cerreta Candy Company",
+    "rows": [
+     [
+      "arizona.html",
+      "45",
+      "A",
+      []
+     ],
+     [
+      "arizona-expansion.html",
+      "8",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "chicago",
+    "name": "Edward Don & Company",
+    "rows": [
+     [
+      "chicago.html",
+      "7",
+      "A",
+      []
+     ],
+     [
+      "chicago-expansion.html",
+      "25",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "florida",
+    "name": "Correct Craft (Nautique)",
+    "rows": [
+     [
+      "florida.html",
+      "62",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "florida-expansion.html",
+      "30",
+      "C",
+      [
+       "band",
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Niemann Foods",
+    "rows": [
+     [
+      "illinois.html",
+      "24",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "illinois-expansion.html",
+      "15",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Peoria Charter Coach",
+    "rows": [
+     [
+      "illinois.html",
+      "31",
+      "A",
+      []
+     ],
+     [
+      "illinois-expansion.html",
+      "24",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Wahl Clipper Corporation",
+    "rows": [
+     [
+      "illinois.html",
+      "70",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "illinois-expansion.html",
+      "3",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Raynor Garage Doors",
+    "rows": [
+     [
+      "illinois.html",
+      "73",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "illinois-expansion.html",
+      "14",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Rural King",
+    "rows": [
+     [
+      "illinois.html",
+      "81",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "illinois-expansion.html",
+      "4",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Advanced Technology Services (ATS)",
+    "rows": [
+     [
+      "illinois.html",
+      "88",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "illinois-expansion.html",
+      "32",
+      "C",
+      [
+       "band",
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Sloan Implement",
+    "rows": [
+     [
+      "illinois.html",
+      "153",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "illinois-expansion.html",
+      "27",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Gilster-Mary Lee",
+    "rows": [
+     [
+      "illinois.html",
+      "161",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "illinois-expansion.html",
+      "2",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Marcoot Jersey Creamery",
+    "rows": [
+     [
+      "illinois.html",
+      "196",
+      "A",
+      []
+     ],
+     [
+      "illinois-expansion.html",
+      "21",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "indiana",
+    "name": "Gunthorp Farms",
+    "rows": [
+     [
+      "indiana.html",
+      "4",
+      "A",
+      []
+     ],
+     [
+      "indiana-expansion.html",
+      "12",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "indiana",
+    "name": "Fischer Farms",
+    "rows": [
+     [
+      "indiana.html",
+      "5",
+      "A",
+      []
+     ],
+     [
+      "indiana-expansion.html",
+      "21",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "indiana",
+    "name": "Best Home Furnishings",
+    "rows": [
+     [
+      "indiana.html",
+      "47",
+      "A",
+      []
+     ],
+     [
+      "indiana-expansion.html",
+      "23",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "indiana",
+    "name": "Steel Warehouse",
+    "rows": [
+     [
+      "indiana.html",
+      "66",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "indiana-expansion.html",
+      "25",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "indiana",
+    "name": "Rea Magnet Wire",
+    "rows": [
+     [
+      "indiana.html",
+      "69",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "indiana-expansion.html",
+      "28",
+      "C",
+      [
+       "band",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "indiana",
+    "name": "Meyer Distributing",
+    "rows": [
+     [
+      "indiana.html",
+      "91",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "indiana-expansion.html",
+      "15",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "indiana",
+    "name": "Rose Acre Farms",
+    "rows": [
+     [
+      "indiana.html",
+      "101",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "indiana-expansion.html",
+      "34",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "Vermeer Corporation",
+    "rows": [
+     [
+      "iowa.html",
+      "1",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "iowa-expansion.html",
+      "13",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "Sukup Manufacturing",
+    "rows": [
+     [
+      "iowa.html",
+      "2",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "iowa-expansion.html",
+      "14",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "Musco Lighting",
+    "rows": [
+     [
+      "iowa.html",
+      "4",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "iowa-expansion.html",
+      "27",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "Kemin Industries",
+    "rows": [
+     [
+      "iowa.html",
+      "7",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "iowa-expansion.html",
+      "15",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "La Quercia",
+    "rows": [
+     [
+      "iowa.html",
+      "8",
+      "A",
+      []
+     ],
+     [
+      "iowa-expansion.html",
+      "16",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "Kinze Manufacturing",
+    "rows": [
+     [
+      "iowa.html",
+      "17",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "iowa-expansion.html",
+      "26",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "Metalcraft",
+    "rows": [
+     [
+      "iowa.html",
+      "34",
+      "A",
+      []
+     ],
+     [
+      "iowa-expansion.html",
+      "45",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "Wilson Trailer Company",
+    "rows": [
+     [
+      "iowa.html",
+      "52",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "iowa-expansion.html",
+      "7",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "Van Diest Supply Co.",
+    "rows": [
+     [
+      "iowa.html",
+      "68",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "iowa-expansion.html",
+      "30",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "Farmers Hen House",
+    "rows": [
+     [
+      "iowa.html",
+      "113",
+      "A",
+      []
+     ],
+     [
+      "iowa-expansion.html",
+      "17",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "kentucky",
+    "name": "Kern's Kitchen (Derby-Pie)",
+    "rows": [
+     [
+      "kentucky.html",
+      "47",
+      "A",
+      []
+     ],
+     [
+      "kentucky-expansion.html",
+      "12",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "kentucky",
+    "name": "Bourbon Barrel Foods",
+    "rows": [
+     [
+      "kentucky.html",
+      "48",
+      "A",
+      []
+     ],
+     [
+      "kentucky-expansion.html",
+      "16",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "kentucky",
+    "name": "ISCO Industries",
+    "rows": [
+     [
+      "kentucky.html",
+      "97",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "kentucky-expansion.html",
+      "10",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "kentucky",
+    "name": "Derby Industries",
+    "rows": [
+     [
+      "kentucky.html",
+      "129",
+      "A",
+      []
+     ],
+     [
+      "kentucky-expansion.html",
+      "11",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "michigan",
+    "name": "Lipari Foods",
+    "rows": [
+     [
+      "michigan.html",
+      "11",
+      "B",
+      []
+     ],
+     [
+      "michigan-expansion.html",
+      "19",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "minnesota",
+    "name": "Warners’ Stellian",
+    "rows": [
+     [
+      "minnesota.html",
+      "42",
+      "A",
+      []
+     ],
+     [
+      "minnesota-expansion.html",
+      "22",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "missouri",
+    "name": "Springfield Grocer Company",
+    "rows": [
+     [
+      "missouri.html",
+      "173",
+      "A",
+      []
+     ],
+     [
+      "missouri-expansion.html",
+      "28",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "missouri",
+    "name": "Positronic Industries",
+    "rows": [
+     [
+      "missouri.html",
+      "175",
+      "A",
+      []
+     ],
+     [
+      "missouri-expansion.html",
+      "22",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "missouri",
+    "name": "Paul Mueller Company",
+    "rows": [
+     [
+      "missouri.html",
+      "176",
+      "A",
+      []
+     ],
+     [
+      "missouri-expansion.html",
+      "10",
+      "C",
+      [
+       "band",
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "new-jersey",
+    "name": "Goya Foods",
+    "rows": [
+     [
+      "new-jersey.html",
+      "1",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "new-jersey-expansion.html",
+      "1",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "new-jersey",
+    "name": "Seabra Foods",
+    "rows": [
+     [
+      "new-jersey.html",
+      "11",
+      "A",
+      []
+     ],
+     [
+      "new-jersey-expansion.html",
+      "37",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "new-jersey",
+    "name": "NFI Industries",
+    "rows": [
+     [
+      "new-jersey.html",
+      "119",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "new-jersey-expansion.html",
+      "3",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "new-york",
+    "name": "Byrne Dairy",
+    "rows": [
+     [
+      "new-york.html",
+      "8",
+      "A",
+      []
+     ],
+     [
+      "new-york-expansion.html",
+      "2",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "new-york",
+    "name": "Renzi Foodservice",
+    "rows": [
+     [
+      "new-york.html",
+      "91",
+      "A",
+      []
+     ],
+     [
+      "new-york-expansion.html",
+      "12",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "new-york",
+    "name": "Rich Products",
+    "rows": [
+     [
+      "new-york.html",
+      "101",
+      "A",
+      []
+     ],
+     [
+      "new-york-expansion.html",
+      "11",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "oregon",
+    "name": "Les Schwab Tire Centers",
+    "rows": [
+     [
+      "oregon.html",
+      "3",
+      "B",
+      []
+     ],
+     [
+      "oregon-expansion.html",
+      "2",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "oregon",
+    "name": "Franz Family Bakeries",
+    "rows": [
+     [
+      "oregon.html",
+      "21",
+      "A",
+      []
+     ],
+     [
+      "oregon-expansion.html",
+      "3",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "oregon",
+    "name": "Roseburg Forest Products",
+    "rows": [
+     [
+      "oregon.html",
+      "66",
+      "A",
+      []
+     ],
+     [
+      "oregon-expansion.html",
+      "5",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "oregon",
+    "name": "Warn Industries",
+    "rows": [
+     [
+      "oregon.html",
+      "152",
+      "B",
+      []
+     ],
+     [
+      "oregon-expansion.html",
+      "11",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "oregon",
+    "name": "A-dec Inc.",
+    "rows": [
+     [
+      "oregon.html",
+      "164",
+      "A",
+      []
+     ],
+     [
+      "oregon-expansion.html",
+      "14",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "pennsylvania",
+    "name": "Dietz & Watson",
+    "rows": [
+     [
+      "pennsylvania.html",
+      "15",
+      "A",
+      []
+     ],
+     [
+      "pennsylvania-expansion.html",
+      "7",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "south-carolina",
+    "name": "Milliken & Company",
+    "rows": [
+     [
+      "south-carolina.html",
+      "4",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "south-carolina-expansion.html",
+      "5",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "south-carolina",
+    "name": "W.P. Rawl & Sons",
+    "rows": [
+     [
+      "south-carolina.html",
+      "37",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "south-carolina-expansion.html",
+      "4",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "south-carolina",
+    "name": "McCall Farms",
+    "rows": [
+     [
+      "south-carolina.html",
+      "144",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "south-carolina-expansion.html",
+      "3",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "south-carolina",
+    "name": "Tindall Corporation",
+    "rows": [
+     [
+      "south-carolina.html",
+      "164",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "south-carolina-expansion.html",
+      "6",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "tennessee",
+    "name": "McKee Foods",
+    "rows": [
+     [
+      "tennessee.html",
+      "45",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "tennessee-expansion.html",
+      "3",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "tennessee",
+    "name": "Bryce Corporation",
+    "rows": [
+     [
+      "tennessee.html",
+      "199",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "tennessee-expansion.html",
+      "19",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Lifetime Products",
+    "rows": [
+     [
+      "utah.html",
+      "11",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "utah-expansion.html",
+      "1",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Beehive Cheese Company",
+    "rows": [
+     [
+      "utah.html",
+      "28",
+      "A",
+      []
+     ],
+     [
+      "utah-expansion.html",
+      "33",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Petersen Inc",
+    "rows": [
+     [
+      "utah.html",
+      "82",
+      "A",
+      []
+     ],
+     [
+      "utah-expansion.html",
+      "21",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Wheeler Machinery",
+    "rows": [
+     [
+      "utah.html",
+      "93",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "utah-expansion.html",
+      "31",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Cache Valley Electric",
+    "rows": [
+     [
+      "utah.html",
+      "144",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "utah-expansion.html",
+      "18",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Nicholas & Co.",
+    "rows": [
+     [
+      "utah.html",
+      "169",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "utah-expansion.html",
+      "3",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "virginia",
+    "name": "Edwards Virginia Smokehouse",
+    "rows": [
+     [
+      "virginia.html",
+      "3",
+      "A",
+      []
+     ],
+     [
+      "virginia-expansion.html",
+      "20",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "virginia",
+    "name": "Route 11 Potato Chips",
+    "rows": [
+     [
+      "virginia.html",
+      "8",
+      "A",
+      []
+     ],
+     [
+      "virginia-expansion.html",
+      "24",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "virginia",
+    "name": "Vaughan-Bassett Furniture",
+    "rows": [
+     [
+      "virginia.html",
+      "32",
+      "A",
+      []
+     ],
+     [
+      "virginia-expansion.html",
+      "4",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "virginia",
+    "name": "Estes Express Lines",
+    "rows": [
+     [
+      "virginia.html",
+      "37",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "virginia-expansion.html",
+      "18",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "virginia",
+    "name": "Graham & Rollins",
+    "rows": [
+     [
+      "virginia.html",
+      "97",
+      "A",
+      []
+     ],
+     [
+      "virginia-expansion.html",
+      "42",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "virginia",
+    "name": "J&W Seafood",
+    "rows": [
+     [
+      "virginia.html",
+      "98",
+      "A",
+      []
+     ],
+     [
+      "virginia-expansion.html",
+      "25",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "washington",
+    "name": "Uwajimaya",
+    "rows": [
+     [
+      "washington.html",
+      "6",
+      "A",
+      []
+     ],
+     [
+      "washington-expansion.html",
+      "6",
+      "C",
+      [
+       "band",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "washington",
+    "name": "Washington Fruit & Produce",
+    "rows": [
+     [
+      "washington.html",
+      "32",
+      "A",
+      []
+     ],
+     [
+      "washington-expansion.html",
+      "13",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Sargento Foods",
+    "rows": [
+     [
+      "wisconsin.html",
+      "4",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "wisconsin-expansion.html",
+      "2",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Johnsonville",
+    "rows": [
+     [
+      "wisconsin.html",
+      "5",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "wisconsin-expansion.html",
+      "21",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Widmer's Cheese Cellars",
+    "rows": [
+     [
+      "wisconsin.html",
+      "10",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "44",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Vollrath Company",
+    "rows": [
+     [
+      "wisconsin.html",
+      "14",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "wisconsin-expansion.html",
+      "24",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Grande Cheese",
+    "rows": [
+     [
+      "wisconsin.html",
+      "19",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "wisconsin-expansion.html",
+      "49",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Renard's Cheese",
+    "rows": [
+     [
+      "wisconsin.html",
+      "22",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "47",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Weyco Group",
+    "rows": [
+     [
+      "wisconsin.html",
+      "28",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "wisconsin-expansion.html",
+      "3",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Charter Manufacturing",
+    "rows": [
+     [
+      "wisconsin.html",
+      "29",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "wisconsin-expansion.html",
+      "39",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Ariens Company",
+    "rows": [
+     [
+      "wisconsin.html",
+      "32",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "wisconsin-expansion.html",
+      "23",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "BelGioioso Cheese",
+    "rows": [
+     [
+      "wisconsin.html",
+      "95",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "wisconsin-expansion.html",
+      "22",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Sassy Cow Creamery",
+    "rows": [
+     [
+      "wisconsin.html",
+      "120",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "43",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Salm Partners",
+    "rows": [
+     [
+      "wisconsin.html",
+      "126",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "26",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   }
+  ],
+  "branch_2": [
+   {
+    "market": "minnesota",
+    "name": "Andersen Corporation",
+    "rows": [
+     [
+      "minnesota.html",
+      "51",
+      "A",
+      []
+     ],
+     [
+      "minnesota-expansion.html",
+      "3",
+      "C",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "ohio",
+    "name": "Mike-sell’s Potato Chip",
+    "rows": [
+     [
+      "ohio.html",
+      "13",
+      "C",
+      []
+     ],
+     [
+      "ohio-expansion.html",
+      "6",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "ohio",
+    "name": "Buckeye Corrugated",
+    "rows": [
+     [
+      "ohio.html",
+      "136",
+      "B",
+      []
+     ],
+     [
+      "ohio-expansion.html",
+      "16",
+      "C",
+      []
+     ]
+    ]
+   }
+  ],
+  "held_disagreeing_reasons": [
+   {
+    "market": "arizona",
+    "name": "Hensley Beverage Company",
+    "rows": [
+     [
+      "arizona.html",
+      "2",
+      "A",
+      [
+       "ownership"
+      ]
+     ],
+     [
+      "arizona-expansion.html",
+      "3",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "arizona",
+    "name": "Empire Southwest",
+    "rows": [
+     [
+      "arizona.html",
+      "16",
+      "A",
+      [
+       "ownership"
+      ]
+     ],
+     [
+      "arizona-expansion.html",
+      "14",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "chicago",
+    "name": "Berlin Packaging",
+    "rows": [
+     [
+      "chicago.html",
+      "237",
+      "B",
+      [
+       "ownership"
+      ]
+     ],
+     [
+      "chicago-expansion.html",
+      "16",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "ohio",
+    "name": "Fresh Mark",
+    "rows": [
+     [
+      "ohio.html",
+      "6",
+      "A",
+      [
+       "ownership"
+      ]
+     ],
+     [
+      "ohio-expansion.html",
+      "17",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "ohio",
+    "name": "Superior Beverage Group",
+    "rows": [
+     [
+      "ohio.html",
+      "47",
+      "A",
+      [
+       "profile"
+      ]
+     ],
+     [
+      "ohio-expansion.html",
+      "28",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "oregon",
+    "name": "Rosboro Company",
+    "rows": [
+     [
+      "oregon.html",
+      "70",
+      "B",
+      [
+       "ownership"
+      ]
+     ],
+     [
+      "oregon-expansion.html",
+      "21",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "south-carolina",
+    "name": "Zeus Company",
+    "rows": [
+     [
+      "south-carolina.html",
+      "161",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "south-carolina-expansion.html",
+      "39",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "texas",
+    "name": "Ben E. Keith Company",
+    "rows": [
+     [
+      "texas.html",
+      "1",
+      "A",
+      [
+       "ownership"
+      ]
+     ],
+     [
+      "texas-expansion.html",
+      "16",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "texas",
+    "name": "Elliott Electric Supply",
+    "rows": [
+     [
+      "texas.html",
+      "7",
+      "A",
+      [
+       "ownership"
+      ]
+     ],
+     [
+      "texas-expansion.html",
+      "12",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Winder Farms",
+    "rows": [
+     [
+      "utah.html",
+      "31",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "utah-expansion.html",
+      "23",
+      "C",
+      [
+       "ownership",
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Christensen Arms",
+    "rows": [
+     [
+      "utah.html",
+      "196",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "utah-expansion.html",
+      "22",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "virginia",
+    "name": "Rappahannock Oyster Co.",
+    "rows": [
+     [
+      "virginia.html",
+      "99",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "virginia-expansion.html",
+      "30",
+      "C",
+      [
+       "profile"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "washington",
+    "name": "Zirkle Fruit Company",
+    "rows": [
+     [
+      "washington.html",
+      "33",
+      "A",
+      [
+       "ownership"
+      ]
+     ],
+     [
+      "washington-expansion.html",
+      "15",
+      "C",
+      [
+       "band"
+      ]
+     ]
+    ]
+   }
+  ],
+  "held_no_tier_C": [
+   {
+    "market": "california",
+    "name": "Guittard Chocolate",
+    "rows": [
+     [
+      "california.html",
+      "50",
+      "A",
+      []
+     ],
+     [
+      "california-expansion.html",
+      "6",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "california",
+    "name": "Ganahl Lumber",
+    "rows": [
+     [
+      "california.html",
+      "100",
+      "A",
+      [
+       "ownership"
+      ]
+     ],
+     [
+      "california-expansion.html",
+      "9",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "chicago",
+    "name": "Turano Baking Company",
+    "rows": [
+     [
+      "chicago.html",
+      "30",
+      "A",
+      []
+     ],
+     [
+      "chicago-expansion.html",
+      "6",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "chicago",
+    "name": "Eli’s Cheesecake Company",
+    "rows": [
+     [
+      "chicago.html",
+      "32",
+      "A",
+      []
+     ],
+     [
+      "chicago-expansion.html",
+      "10",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "colorado",
+    "name": "Ready Foods",
+    "rows": [
+     [
+      "colorado.html",
+      "2",
+      "A",
+      []
+     ],
+     [
+      "colorado-expansion.html",
+      "6",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "colorado",
+    "name": "Continental Sausage",
+    "rows": [
+     [
+      "colorado.html",
+      "55",
+      "A",
+      []
+     ],
+     [
+      "colorado-expansion.html",
+      "5",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "The Libman Company",
+    "rows": [
+     [
+      "illinois.html",
+      "133",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "illinois-expansion.html",
+      "5",
+      "A",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Excel Foundry & Machine",
+    "rows": [
+     [
+      "illinois.html",
+      "143",
+      "A",
+      []
+     ],
+     [
+      "illinois-expansion.html",
+      "9",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "Vonachen Group",
+    "rows": [
+     [
+      "illinois.html",
+      "144",
+      "A",
+      []
+     ],
+     [
+      "illinois-expansion.html",
+      "13",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "illinois",
+    "name": "P.J. Hoerr",
+    "rows": [
+     [
+      "illinois.html",
+      "149",
+      "A",
+      []
+     ],
+     [
+      "illinois-expansion.html",
+      "35",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "indiana",
+    "name": "Smith Brothers of Berne",
+    "rows": [
+     [
+      "indiana.html",
+      "116",
+      "A",
+      []
+     ],
+     [
+      "indiana-expansion.html",
+      "8",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "Interpower",
+    "rows": [
+     [
+      "iowa.html",
+      "32",
+      "A",
+      []
+     ],
+     [
+      "iowa-expansion.html",
+      "11",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "iowa",
+    "name": "American Pop Corn Company (Jolly Time)",
+    "rows": [
+     [
+      "iowa.html",
+      "82",
+      "A",
+      []
+     ],
+     [
+      "iowa-expansion.html",
+      "8",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "kentucky",
+    "name": "Kentucky Trailer",
+    "rows": [
+     [
+      "kentucky.html",
+      "98",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "kentucky-expansion.html",
+      "6",
+      "A",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "michigan",
+    "name": "Germack Pistachio",
+    "rows": [
+     [
+      "michigan.html",
+      "5",
+      "A",
+      []
+     ],
+     [
+      "michigan-expansion.html",
+      "7",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "michigan",
+    "name": "Guernsey Farms Dairy",
+    "rows": [
+     [
+      "michigan.html",
+      "21",
+      "A",
+      []
+     ],
+     [
+      "michigan-expansion.html",
+      "8",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "michigan",
+    "name": "Request Foods",
+    "rows": [
+     [
+      "michigan.html",
+      "82",
+      "A",
+      []
+     ],
+     [
+      "michigan-expansion.html",
+      "20",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "minnesota",
+    "name": "RTP Company",
+    "rows": [
+     [
+      "minnesota.html",
+      "155",
+      "A",
+      []
+     ],
+     [
+      "minnesota-expansion.html",
+      "25",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "new-jersey",
+    "name": "Best Provision Co.",
+    "rows": [
+     [
+      "new-jersey.html",
+      "8",
+      "A",
+      []
+     ],
+     [
+      "new-jersey-expansion.html",
+      "26",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "new-jersey",
+    "name": "Calandra's Bakery",
+    "rows": [
+     [
+      "new-jersey.html",
+      "17",
+      "A",
+      []
+     ],
+     [
+      "new-jersey-expansion.html",
+      "10",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "new-jersey",
+    "name": "Citromax",
+    "rows": [
+     [
+      "new-jersey.html",
+      "56",
+      "A",
+      []
+     ],
+     [
+      "new-jersey-expansion.html",
+      "22",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "new-jersey",
+    "name": "Accurate Box Company",
+    "rows": [
+     [
+      "new-jersey.html",
+      "88",
+      "A",
+      []
+     ],
+     [
+      "new-jersey-expansion.html",
+      "27",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "new-jersey",
+    "name": "Kontos Foods",
+    "rows": [
+     [
+      "new-jersey.html",
+      "190",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "new-jersey-expansion.html",
+      "30",
+      "A",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "new-jersey",
+    "name": "Conte's Pasta",
+    "rows": [
+     [
+      "new-jersey.html",
+      "194",
+      "A",
+      []
+     ],
+     [
+      "new-jersey-expansion.html",
+      "32",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "new-york",
+    "name": "Perry’s Ice Cream",
+    "rows": [
+     [
+      "new-york.html",
+      "10",
+      "A",
+      []
+     ],
+     [
+      "new-york-expansion.html",
+      "15",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "new-york",
+    "name": "Try-It Distributing",
+    "rows": [
+     [
+      "new-york.html",
+      "23",
+      "A",
+      []
+     ],
+     [
+      "new-york-expansion.html",
+      "9",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "new-york",
+    "name": "Wardynski & Sons",
+    "rows": [
+     [
+      "new-york.html",
+      "105",
+      "A",
+      []
+     ],
+     [
+      "new-york-expansion.html",
+      "17",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "ohio",
+    "name": "Jergens Inc.",
+    "rows": [
+     [
+      "ohio.html",
+      "93",
+      "A",
+      [
+       "ownership"
+      ]
+     ],
+     [
+      "ohio-expansion.html",
+      "18",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "ohio",
+    "name": "Nickles Bakery",
+    "rows": [
+     [
+      "ohio.html",
+      "105",
+      "A",
+      []
+     ],
+     [
+      "ohio-expansion.html",
+      "9",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "oregon",
+    "name": "Bear Mountain Forest Products",
+    "rows": [
+     [
+      "oregon.html",
+      "65",
+      "A",
+      []
+     ],
+     [
+      "oregon-expansion.html",
+      "26",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "oregon",
+    "name": "Zip-O-Log Mills",
+    "rows": [
+     [
+      "oregon.html",
+      "78",
+      "A",
+      []
+     ],
+     [
+      "oregon-expansion.html",
+      "22",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "oregon",
+    "name": "Consolidated Supply",
+    "rows": [
+     [
+      "oregon.html",
+      "129",
+      "A",
+      []
+     ],
+     [
+      "oregon-expansion.html",
+      "23",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "pennsylvania",
+    "name": "Sarris Candies",
+    "rows": [
+     [
+      "pennsylvania.html",
+      "62",
+      "A",
+      []
+     ],
+     [
+      "pennsylvania-expansion.html",
+      "19",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "south-carolina",
+    "name": "Titan Farms",
+    "rows": [
+     [
+      "south-carolina.html",
+      "34",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "south-carolina-expansion.html",
+      "1",
+      "A",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "tennessee",
+    "name": "Chattanooga Bakery (MoonPie)",
+    "rows": [
+     [
+      "tennessee.html",
+      "120",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "tennessee-expansion.html",
+      "1",
+      "A",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "tennessee",
+    "name": "Lodge Cast Iron",
+    "rows": [
+     [
+      "tennessee.html",
+      "176",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "tennessee-expansion.html",
+      "2",
+      "A",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "texas",
+    "name": "Bolner’s Fiesta Products",
+    "rows": [
+     [
+      "texas.html",
+      "104",
+      "A",
+      []
+     ],
+     [
+      "texas-expansion.html",
+      "7",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "texas",
+    "name": "Fischer & Wieser Specialty Foods",
+    "rows": [
+     [
+      "texas.html",
+      "109",
+      "A",
+      []
+     ],
+     [
+      "texas-expansion.html",
+      "5",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Gossner Foods",
+    "rows": [
+     [
+      "utah.html",
+      "26",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "utah-expansion.html",
+      "4",
+      "A",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Redmond (Real Salt)",
+    "rows": [
+     [
+      "utah.html",
+      "30",
+      "B",
+      [
+       "band",
+       "ownership"
+      ]
+     ],
+     [
+      "utah-expansion.html",
+      "6",
+      "A",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Casper's Ice Cream (FatBoy)",
+    "rows": [
+     [
+      "utah.html",
+      "117",
+      "B",
+      [
+       "band"
+      ]
+     ],
+     [
+      "utah-expansion.html",
+      "5",
+      "A",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Wasatch Container",
+    "rows": [
+     [
+      "utah.html",
+      "190",
+      "A",
+      []
+     ],
+     [
+      "utah-expansion.html",
+      "17",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "utah",
+    "name": "Metalcraft Technologies",
+    "rows": [
+     [
+      "utah.html",
+      "197",
+      "A",
+      []
+     ],
+     [
+      "utah-expansion.html",
+      "25",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "virginia",
+    "name": "Bevans Oyster",
+    "rows": [
+     [
+      "virginia.html",
+      "100",
+      "A",
+      []
+     ],
+     [
+      "virginia-expansion.html",
+      "14",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Nueske's Applewood Smoked Meats",
+    "rows": [
+     [
+      "wisconsin.html",
+      "9",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "10",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Amerequip",
+    "rows": [
+     [
+      "wisconsin.html",
+      "15",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "16",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Klement's Sausage",
+    "rows": [
+     [
+      "wisconsin.html",
+      "16",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "11",
+      "B",
+      [
+       "ownership"
+      ]
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Wisconsin Metal Parts",
+    "rows": [
+     [
+      "wisconsin.html",
+      "71",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "36",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Bassett Mechanical",
+    "rows": [
+     [
+      "wisconsin.html",
+      "82",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "37",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Decatur Dairy",
+    "rows": [
+     [
+      "wisconsin.html",
+      "97",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "14",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Mullins Cheese",
+    "rows": [
+     [
+      "wisconsin.html",
+      "104",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "45",
+      "B",
+      []
+     ]
+    ]
+   },
+   {
+    "market": "wisconsin",
+    "name": "Cesar's Cheese",
+    "rows": [
+     [
+      "wisconsin.html",
+      "174",
+      "A",
+      []
+     ],
+     [
+      "wisconsin-expansion.html",
+      "13",
+      "B",
+      []
+     ]
+    ]
+   }
+  ]
+ },
+ "part3_programme": {
+  "measured_from_the_files": {
+   "all rows": 5973,
+   "all companies": 5775,
+   "dialable rows": 4180,
+   "dialable companies": 4092,
+   "call_ready rows": 323,
+   "call_ready companies": 321,
+   "verified_status rows": 3727,
+   "verified_status companies": 3644,
+   "expansion rows": 902,
+   "expansion companies": 902
+  },
+  "quoted_figures": "Verified 3,323 and net-new 408 do not reproduce from the files: Status=Verified counts 3,727 rows / 3,644 companies across all 54 working and expansion files, and the expansion files hold 902 rows / 902 companies. Neither quoted figure carries a derivation the files support, so both are restated from the files rather than adjusted"
+ },
+ "part4": "standard rules written; Florida size reads 200 rows · 197 companies on the index, the Core BD Report and the dial pack cover",
+ "part6": "Core BD Report and dial pack regenerated once on the final bytes; Correct Craft removed from the dial list (Tier C)",
+ "stop_conditions": "none fired: every expansion file existed and parsed; 13 pairs held on disagreeing reasons; no read was needed",
+ "carried": [
+  "the two derived views",
+  "the console filter’s unwritten attribute",
+  "Illinois and Chicago at the access line"
+ ],
+ "found_not_fixed": "36 undated Src: lines already on live (pennsylvania 34, michigan 1, ohio 1)"
+}

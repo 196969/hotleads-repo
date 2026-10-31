@@ -1,0 +1,368 @@
+{
+ "pennsylvania.html": [
+  {
+   "row": "26",
+   "company": "Marburger Farm Dairy  Manufacturing & Indust",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Farm and Dairy (Crawford County ag award); Butler Eagle; Dairy Foods Dairy Plants USA. | Prior ",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "27",
+   "company": "Brunton Dairy  Manufacturing & Industrial",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Three Rivers Grown / bruntondairy.com profile; PA Milk Marketing Board licensee list. | Prior n",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "45",
+   "company": "M. Levin & Company  Distribution & Wholesale",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: mlevinco.com; The Produce News (2024–25 profiles); Wikipedia",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "74",
+   "company": "Tony Luke’s  Multi-Site Retail",
+   "status": "Downgraded",
+   "tier": "C",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Wikipedia/Tony Luke’s; CBS News Philadelphia (name change, guilty plea)",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "82",
+   "company": "Ernest Bock & Sons  Construction & Specialty",
+   "status": "Unverified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: CIS Leads company profile. | Prior note: Family-owned since 1931",
+   "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "83",
+   "company": "Daniel J. Keating Company  Construction & Sp",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: djkeating.com leadership page; CIS Leads; Siteline. | Prior note: Family-owned since 1907",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "85",
+   "company": "Benchmark Construction  Construction & Speci",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Siteline GC profile; BuiltWorlds (founder); Owler; The Blue Book; Lean Construction Institute m",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "94",
+   "company": "Jendoco Construction  Construction & Special",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: MBA of Western PA member profile; Pittsburgh Business Times contractors list 2024. | Prior note",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "95",
+   "company": "Volpatt Construction  Construction & Special",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: The Blue Book company story; MBA of Western PA directory; a-leads profile. | Prior note: Family",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "96",
+   "company": "A. Martini & Company  Construction & Special",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: MBA of Western PA member profile; The Blue Book company story. | Prior note: Family-owned since",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "98",
+   "company": "Franjo Construction  Construction & Specialt",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: SkillHero directory (company profile); Top Workplaces; CB Insights. | Prior note: Family-owned",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "99",
+   "company": "Nello Construction  Construction & Specialty",
+   "status": "Unverified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Observer-Reporter local listing; CIS Leads (the separate Philadelphia company); OSHA inspection",
+   "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "106",
+   "company": "Poole Anderson Construction  Construction &",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: pooleanderson.com news; Geisinger board bio (Poole); The Blue Book; CBICC directory. | Prior no",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "107",
+   "company": "Leonard S. Fiore  Construction & Specialty T",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: CBICC member directory; MarketScreener officer profile; OSHA establishment records (Altoona mai",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "111",
+   "company": "E.G. Stoltzfus  Construction & Specialty Tra",
+   "status": "Unverified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: CPBJ company profile; ContactOut company record (address, headcount, ‘second-generation, family",
+   "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "125",
+   "company": "Loftus Construction  Construction & Specialt",
+   "status": "Downgraded",
+   "tier": "C",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: CIS Leads company profile",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "126",
+   "company": "Neshaminy Constructors  Construction & Speci",
+   "status": "Unverified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Aqua PA contractor list",
+   "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "154",
+   "company": "Seubert & Associates  Professional Services",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: ZoomInfo; Rough Notes ‘Marketing Agency of the Month’ (Seubert ownership plan); Chubb agency li",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "159",
+   "company": "Oxford Development  Professional Services",
+   "status": "Downgraded",
+   "tier": "B",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Wikipedia/Oxford Development; oxforddevelopment.com leadership page; Pittsburgh Business Times ",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "162",
+   "company": "McKnight Realty Partners  Professional Servi",
+   "status": "Downgraded",
+   "tier": "B",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: mcknightrealtypartners.com/history",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "169",
+   "company": "Alterra Property Group  Professional Service",
+   "status": "Downgraded",
+   "tier": "B",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: ZoomInfo company profile; Philadelphia Life/Suburban Life profile (Meridian Bank)",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "170",
+   "company": "Pennrose  Professional Services",
+   "status": "Downgraded",
+   "tier": "B",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Owler company profile (CEO, headcount); REBusinessOnline project coverage 2025–2026",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "172",
+   "company": "Rouse Chamberlin Homes  Construction & Speci",
+   "status": "Unverified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Zillow builder profiles (19468/19475) and HomeGuide listing, all current to 2026",
+   "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "173",
+   "company": "W.B. Homes  Construction & Specialty Trades",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: wbhomesinc.com; Times News profile; a-leads",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "182",
+   "company": "Weaber Lumber  Manufacturing & Industrial",
+   "status": "Downgraded",
+   "tier": "B",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: The Middle Market (Cyprium/Weaber); Woodworking Network",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "196",
+   "company": "Esbenshade Farms  Manufacturing & Industrial",
+   "status": "Downgraded",
+   "tier": "C",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Central Penn Business Journal; National Hog Farmer",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "200",
+   "company": "Yoder’s Country Market  Multi-Site Retail",
+   "status": "Verified",
+   "tier": "A",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: ExplorePAHistory; Produce Market Guide (New Holland, 17557 PA listing); marketreportblog store ",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "6",
+   "company": "Weis Markets  Multi-Site Retail",
+   "status": "Downgraded",
+   "tier": "C",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Wikipedia; Talent4Boards/company release 2014; stock profiles",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "17",
+   "company": "Utz Brands  Manufacturing & Industrial",
+   "status": "Downgraded",
+   "tier": "C",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Nemo Money WMK-vs-UTZ profile (ticker); Wikipedia",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "30",
+   "company": "Gertrude Hawk Chocolates  Manufacturing & In",
+   "status": "Verified",
+   "tier": "B",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Datanyze; WNEP; company wholesale catalog 2024–25",
+   "would_become": "Unverified — no dated source remains"
+  },
+  {
+   "row": "46",
+   "company": "Coosemans Philadelphia  Distribution & Whole",
+   "status": "Downgraded",
+   "tier": "C",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Coosemans Worldwide network listings; Philadelphia Wholesale Produce Market merchant roster",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "54",
+   "company": "Lancaster Foods  Distribution & Wholesale",
+   "status": "Downgraded",
+   "tier": "C",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Baldor/Lancaster Foods acquisition coverage; PA Milk Board sub-dealer list (Baldor Pennsylvania",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "127",
+   "company": "Gilbert Associates  Professional Services",
+   "status": "Downgraded",
+   "tier": "C",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: Parsons/Gilbert Associates acquisition history; SEC-era filings",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  },
+  {
+   "row": "132",
+   "company": "Drucker & Scaccetti  Professional Services",
+   "status": "Downgraded",
+   "tier": "C",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: armanino.com merger announcement",
+   "would_become": "Downgraded — unchanged, 0 dated source line(s) remain"
+  }
+ ],
+ "michigan.html": [
+  {
+   "row": "61",
+   "company": "Cadillac Asphalt  Construction & Specialty T",
+   "status": "Unverified",
+   "tier": "B",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: ZoomInfo profile. | Prior note: Verify parent",
+   "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+  }
+ ],
+ "ohio.html": [
+  {
+   "row": "19",
+   "company": "Skyline Chili  Multi-Site Retail",
+   "status": "Unverified",
+   "tier": "B",
+   "undated": 1,
+   "dated": 0,
+   "line": "Src: WKRC Local 12 (CEO announcement). | Prior note: Verify PE ownership",
+   "would_become": "Unverified — unchanged, 0 dated source line(s) remain"
+  }
+ ]
+}

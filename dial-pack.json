@@ -991,19 +991,6 @@
   {
    "verified_callable": false,
    "tier": "B",
-   "company": "Correct Craft (Nautique)",
-   "city": "Orlando",
-   "decision_maker": "Zach Hutcheson Incoming CEO (Mar 31 2026), succeeding Bill Yeargin; Meloon famil",
-   "phone": "—",
-   "email": "info@correctcraft.com (role inbox)",
-   "practice": "Acquisitions",
-   "signal": "Blind",
-   "reason": "Tier B · Acquisitions · owner-led, named decision maker on the row · SAME COMPANY ALSO IN florida-expansion.html row 30",
-   "rank": 77
-  },
-  {
-   "verified_callable": false,
-   "tier": "B",
    "company": "Duda Farm Fresh Foods",
    "city": "Oviedo",
    "decision_maker": "Mark Bassetti President, Duda Farm Fresh Foods (Samuel ‘Sammy’ Duda is CEO of pa",
@@ -1012,7 +999,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 78
+   "rank": 77
   },
   {
    "verified_callable": false,
@@ -1025,7 +1012,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 79
+   "rank": 78
   },
   {
    "verified_callable": false,
@@ -1038,7 +1025,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 80
+   "rank": 79
   },
   {
    "verified_callable": false,
@@ -1051,7 +1038,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 81
+   "rank": 80
   },
   {
    "verified_callable": false,
@@ -1064,7 +1051,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 82
+   "rank": 81
   },
   {
    "verified_callable": false,
@@ -1077,7 +1064,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 83
+   "rank": 82
   },
   {
    "verified_callable": false,
@@ -1090,7 +1077,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 84
+   "rank": 83
   },
   {
    "verified_callable": false,
@@ -1103,7 +1090,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 85
+   "rank": 84
   },
   {
    "verified_callable": false,
@@ -1116,7 +1103,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 86
+   "rank": 85
   },
   {
    "verified_callable": false,
@@ -1129,7 +1116,7 @@
    "practice": "Private Equity",
    "signal": "Blind",
    "reason": "Tier B · Private Equity · owner-led, named decision maker on the row",
-   "rank": 87
+   "rank": 86
   },
   {
    "verified_callable": false,
@@ -1142,7 +1129,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 88
+   "rank": 87
   },
   {
    "verified_callable": false,
@@ -1155,7 +1142,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 89
+   "rank": 88
   },
   {
    "verified_callable": false,
@@ -1168,7 +1155,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 90
+   "rank": 89
   },
   {
    "verified_callable": false,
@@ -1181,7 +1168,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 91
+   "rank": 90
   },
   {
    "verified_callable": false,
@@ -1194,7 +1181,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 92
+   "rank": 91
   },
   {
    "verified_callable": false,
@@ -1207,7 +1194,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 93
+   "rank": 92
   },
   {
    "verified_callable": false,
@@ -1220,7 +1207,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 94
+   "rank": 93
   },
   {
    "verified_callable": false,
@@ -1233,7 +1220,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 95
+   "rank": 94
   },
   {
    "verified_callable": false,
@@ -1246,7 +1233,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 96
+   "rank": 95
   },
   {
    "verified_callable": false,
@@ -1259,7 +1246,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 97
+   "rank": 96
   },
   {
    "verified_callable": false,
@@ -1272,7 +1259,7 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Tier B · owner-led, named decision maker on the row",
-   "rank": 98
+   "rank": 97
   },
   {
    "verified_callable": false,
@@ -1285,7 +1272,7 @@
    "practice": "Acquisitions",
    "signal": "Blind",
    "reason": "Tier B · Acquisitions · owner-led, named decision maker on the row",
-   "rank": 99
+   "rank": 98
   }
  ],
  "partial": [
@@ -1345,19 +1332,19 @@
    197
   ],
   "dialable": [
-   115,
-   114
+   114,
+   113
   ],
   "call_ready": [
-   99,
-   98
+   98,
+   97
   ],
   "verified_callable": [
    25,
    25
   ],
   "tier_C": [
-   85,
+   86,
    84
   ]
  },
