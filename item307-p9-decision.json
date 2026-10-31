@@ -1,0 +1,8 @@
+{
+ "item": "307",
+ "date": "2026-10-31",
+ "decision": "(b) Blind by construction",
+ "seat": "P9 Marcus Lemonis",
+ "written_on_entry": "Item 307 (2026-10-31), outcome (b): Blind by construction. No Part 9 check is defined for this seat; it reads Blind on Part 9 until one exists. Basis, read in this roster: the Part 9 ground was withdrawn by the second edition’s Section 2 table (record of 2026-10-30, step 9.0, and this entry’s own note). Supplying a check would reverse that recorded withdrawal and would also require the instrument’s Part 9 column map (f72seats.py) to carry a Lemonis column, which it does not.",
+ "why_not_a": "a Part 9 check for Lemonis would reverse the withdrawal recorded 2026-10-30 (step 9.0, the second edition’s Section 2 table) and would need a Lemonis column in f72seats.py’s Part 9 map, which this item does not change; no planted-case proof was needed because no check was written"
+}

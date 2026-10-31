@@ -102,7 +102,27 @@
    "name": "Sell and protect",
    "weight": 10.0,
    "domain": "advisory",
-   "origin": "Dash Founders lens roster"
+   "origin": "Dash Founders lens roster",
+   "fields_by_part": {
+    "3": "Acquisitions",
+    "5": "Acquisitions",
+    "9": "Acquisitions: every admitted Acquisitions row records which reachable channel it has (phone, address or form); fails on any admitted row with none recorded"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Acquisitions",
+    "check": "every admitted Acquisitions row records which reachable channel it has (phone, address or form); fails on any admitted row with none recorded"
+   },
+   "merged_from": {
+    "entry": "P3",
+    "name": "Robert Herjavec",
+    "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+    "domain": "brief-named",
+    "weight": 10.0,
+    "date": "2026-10-31",
+    "by": "Item 307 §4 (Item 323 §2.1 remedy: merge, never strike)",
+    "basis": "read in this roster: the record of 2026-10-31 (Step D) labels the Herjavec reading “sell and protect”, and core run three labels it “protect what is callable”; “Sell and protect” is this seat’s name, exactly"
+   }
   },
   {
    "seat": "sales",
@@ -618,7 +638,8 @@
     "check": "every admitted PE row sits at or below the band ceiling ($25M published annual revenue) with the figure stated and its operating address evidenced on the company’s own page (test 1); fails on either absence"
    },
    "votes": false,
-   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it."
+   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it.",
+   "item307": "Item 307 (2026-10-31): theme seat not established by this roster — no record or field names the seat this entry duplicates; stays non-voting, reading kept on record; its theme seat reads Blind."
   },
   {
    "seat": "P2",
@@ -637,26 +658,8 @@
     "check": "every admitted Acquisitions row sits at or below the band ceiling ($25M published annual revenue) with the figure stated; fails on any admitted row above the ceiling or with no figure"
    },
    "votes": false,
-   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it."
-  },
-  {
-   "seat": "P3",
-   "name": "Robert Herjavec",
-   "weight": 10.0,
-   "domain": "brief-named",
-   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
-   "fields_by_part": {
-    "3": "Acquisitions",
-    "5": "Acquisitions",
-    "9": "Acquisitions: every admitted Acquisitions row records which reachable channel it has (phone, address or form); fails on any admitted row with none recorded"
-   },
-   "check_part9": {
-    "part": "9",
-    "practice": "Acquisitions",
-    "check": "every admitted Acquisitions row records which reachable channel it has (phone, address or form); fails on any admitted row with none recorded"
-   },
-   "votes": false,
-   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it."
+   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it.",
+   "item307": "Item 307 (2026-10-31): theme seat not established by this roster — the records label the Cuban reading “out-prepare”, which is no seat’s name; stays non-voting, reading kept on record; its theme seat reads Blind."
   },
   {
    "seat": "P9",
@@ -667,7 +670,9 @@
    "fields_by_part": {},
    "note": "Part 9 ground withdrawn by the second edition’s Section 2 table; reads Blind by rule on Part 9",
    "votes": false,
-   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it."
+   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it.",
+   "part9_decision": "Item 307 (2026-10-31), outcome (b): Blind by construction. No Part 9 check is defined for this seat; it reads Blind on Part 9 until one exists. Basis, read in this roster: the Part 9 ground was withdrawn by the second edition’s Section 2 table (record of 2026-10-30, step 9.0, and this entry’s own note). Supplying a check would reverse that recorded withdrawal and would also require the instrument’s Part 9 column map (f72seats.py) to carry a Lemonis column, which it does not.",
+   "item307": "Item 307 (2026-10-31): theme seat not established by this roster — the records label the Lemonis readings “process”, one word of seat “ppp” (“People, process, product”) and not its name; a partial match is not a reading, so the seat is not named; stays non-voting; and on Part 9 it would read Blind regardless (outcome (b))."
   }
  ],
  "standing_rules": [
@@ -1563,6 +1568,32 @@
      "weight_retired": 10.0
     }
    ]
+  },
+  {
+   "date": "2026-10-31",
+   "item": "307",
+   "p9_decision": "(b) Blind by construction — no Part 9 check defined; ground withdrawn 2026-10-30 (step 9.0)",
+   "named": [
+    {
+     "entry": "P3",
+     "name": "Robert Herjavec",
+     "into": "sell",
+     "seat_name": "Sell and protect",
+     "basis": "roster records label the reading “sell and protect” — the seat’s exact name",
+     "fields_moved": [
+      "fields_by_part",
+      "check_part9"
+     ],
+     "weight_retired": 10.0
+    }
+   ],
+   "not_named": {
+    "B1 Warren Buffett": "no roster text names the seat",
+    "P2 Mark Cuban": "the roster’s label “out-prepare” matches no seat name",
+    "P9 Marcus Lemonis": "the roster’s label “process” is one word of seat “ppp”, not its name — partial match held as not established"
+   },
+   "file_after": "75 entries, 755.0",
+   "council": "72 seats, 725.0 (Chair included)"
   }
  ]
 }

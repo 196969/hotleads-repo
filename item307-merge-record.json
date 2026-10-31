@@ -1,0 +1,26 @@
+{
+ "item": "307",
+ "date": "2026-10-31",
+ "named": [
+  {
+   "entry": "P3",
+   "name": "Robert Herjavec",
+   "into": "sell",
+   "seat_name": "Sell and protect",
+   "basis": "roster records label the reading “sell and protect” — the seat’s exact name",
+   "fields_moved": [
+    "fields_by_part",
+    "check_part9"
+   ],
+   "weight_retired": 10.0
+  }
+ ],
+ "not_named": {
+  "B1 Warren Buffett": "no roster text names the seat",
+  "P2 Mark Cuban": "the roster’s label “out-prepare” matches no seat name",
+  "P9 Marcus Lemonis": "the roster’s label “process” is one word of seat “ppp”, not its name — partial match held as not established"
+ },
+ "file_before": "76 entries, 765.0",
+ "file_after": "75 entries, 755.0",
+ "council": "72 seats, 725.0 (Chair included)"
+}
