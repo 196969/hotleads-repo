@@ -1,0 +1,1665 @@
+{
+ "definition": {
+  "named decision maker": "a person with a title on the row, from a dated source",
+  "contact": "a published phone or email on the row with a dated read on the row (Src: or Address source); a role inbox is flagged and counts as contact, distinct from a named individual",
+  "practice fit": "the row passed the market standard’s tier test (A, B, or Unverified intake); Tier C failed it",
+  "signal": "a dated third-party practice signal where one exists; Blind recorded where it does not — it does not block a dial"
+ },
+ "counts": {
+  "expansion main · Tier A": {
+   "call-ready": 10,
+   "short": 2
+  },
+  "expansion main · Tier B": {
+   "short": 3,
+   "call-ready": 1
+  },
+  "expansion main · Tier C": {
+   "short": 27
+  },
+  "florida.html · Tier A": {
+   "call-ready": 42,
+   "short": 5
+  },
+  "florida.html · Tier B": {
+   "call-ready": 25,
+   "short": 20
+  },
+  "florida.html · Tier C": {
+   "short": 58
+  },
+  "intake · Tier Unverified": {
+   "call-ready": 2,
+   "short": 5
+  }
+ },
+ "call_ready": 80,
+ "of": 200,
+ "queue": [
+  {
+   "company": "Sintavia Additive mfg · Southeast FL",
+   "tier": "A",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "named decision maker with title"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": "info@sintavia.com",
+   "role_inbox": true,
+   "dm": "—",
+   "links": [
+    "https://sintavia.com",
+    "https://www.google.com/search?q=%22Sintavia%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Sintavia"
+   ],
+   "routes_unspent": [
+    "the company’s own leadership/about page (proved site)",
+    "trade press bound by officer.py (one clause’s grammar)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Duty Free Americas Travel retail · family-owned",
+   "tier": "A",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "named decision maker with title"
+   ],
+   "signal": "Blind",
+   "phone": "954-575-9200",
+   "email": "store223@dutyfreeamericas.com",
+   "role_inbox": false,
+   "dm": "Falic family Simon, Jerome & Leon Falic — Owners",
+   "links": [
+    "https://dutyfreeamericas.com",
+    "https://www.google.com/search?q=%22Duty%20Free%20Americas%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Duty%20Free%20Americas"
+   ],
+   "routes_unspent": [
+    "the company’s own leadership/about page (proved site)",
+    "trade press bound by officer.py (one clause’s grammar)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Lipman Family Farms Produce grower/dist · family",
+   "tier": "A",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Elyse Lipman CEO (4th gen, since 2023)",
+   "links": [
+    "https://lipmanfamilyfarms.com",
+    "https://www.google.com/search?q=%22Lipman%20Family%20Farms%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Lipman%20Family%20Farms"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Detwiler’s Farm Market Grocery retail · family",
+   "tier": "A",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "2026-10-29",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Sam Detwiler President (day-to-day); Henry Detwiler Sr., Founder & CEO",
+   "links": [
+    "https://detwilers.com",
+    "https://www.google.com/search?q=%22Detwiler%E2%80%99s%20Farm%20Market%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Detwiler%E2%80%99s%20Farm%20Market"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Milam’s Markets Grocery · family",
+   "tier": "A",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Max Milam CEO; Mike Milam, President (per 2025 Shelby Report; Allen Milam, co-fo",
+   "links": [
+    "https://milamsmarkets.com",
+    "https://www.google.com/search?q=%22Milam%E2%80%99s%20Markets%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Milam%E2%80%99s%20Markets"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Schwend, Inc. Transportation & Logistics",
+   "tier": "A",
+   "source": "expansion main",
+   "call_ready": false,
+   "missing": [
+    "named decision maker with title"
+   ],
+   "signal": "Blind",
+   "phone": "423-896-1014",
+   "email": null,
+   "role_inbox": false,
+   "dm": "President — 2nd-gen Schwend (name not published)",
+   "links": [
+    "https://www.google.com/search?q=Schwend%20Inc%20Dade%20City%20FL",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Schwend%2C%20Inc.",
+    "https://www.google.com/search?q=Schwend%2C%20Inc.%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own leadership/about page (proved site)",
+    "trade press bound by officer.py (one clause’s grammar)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Martinez Distributors Distribution & Wholesale",
+   "tier": "A",
+   "source": "expansion main",
+   "call_ready": false,
+   "missing": [
+    "named decision maker with title"
+   ],
+   "signal": "Blind",
+   "phone": "305-882-8282",
+   "email": null,
+   "role_inbox": false,
+   "dm": "Martinez family principal (name not published)",
+   "links": [
+    "https://www.google.com/search?q=Martinez%20Distributors%20Doral%20FL",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Martinez%20Distributors",
+    "https://www.google.com/search?q=Martinez%20Distributors%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own leadership/about page (proved site)",
+    "trade press bound by officer.py (one clause’s grammar)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Palm Medical Centers own site",
+   "tier": "Unverified",
+   "source": "intake",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "2021-10-18",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Jim McHugh, Chief Financial Officer (Src: page · 2026-10-30)",
+   "links": [
+    "https://www.palmmedicalcenters.com/",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1hkeUtURG5pd3o5eFZJVmNxVTUxcEU2bjVfUXZvNUxIMVZ1ZENiTDUwNGoyZkZueWcyNUp6Yjdmb29jN0lPNmV6c3RueTZnUW9JVm5ybjNjdFBlZ0EzYk5KS3k4WFRfVWlCUlhoVjFLWlhsdy1lYmJ3aFVlSWdXVnBjZzhmbmxOZlZ1WFdxOWVfdGZyQXpmcnlRZmVZTEJzS29qRjhWUkF6Y1RyNWtv?oc=5",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1hkeUtURG5pd3o5eFZJVmNxVTUxcEU2bjVfUXZvNUxIMVZ1ZENiTDUwNGoyZkZueWcyNUp6Yjdmb29jN0lPNmV6c3RueTZnUW9JVm5ybjNjdFBlZ0EzYk5KS3k4WFRfVWlCUlhoVjFLWlhsdy1lYmJ3aFVlSWdXVnBjZzhmbmxOZlZ1WFdxOWVfdGZyQXpmcnlRZmVZTEJzS29qRjhWUkF6Y1RyNWtv?oc=5"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Altitude Water own site",
+   "tier": "Unverified",
+   "source": "intake",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "2026-08-26",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Branden Riley, COO (Src: page · 2026-10-31)",
+   "links": [
+    "https://altitudewaterusa.com/",
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcnhGM1FqcC04akpIaVJVZjlwTzZjbk9wRVQzbFdUblp6cTc4eGN5Rk9ic3ZKNGtoUjF1S1NzNGE2LWJNaUFDRVpfUEUxaUZLWGpqeTViR1l4V21CU0FRUUFKekx3REpCZXBPZFRpLXhFR25yTkc5Sk5CX2NScHFleTU5QVJsTkpkdU9yOHNUYjdvZjhfYUQwODZ3emhxY3BVbTY1T09adzBjZURZUlVjUjB1MFg0ZE5BRHpOeXQtamFpUVAzbzRETlRBTGU1dU1aUWc?oc=5",
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcnhGM1FqcC04akpIaVJVZjlwTzZjbk9wRVQzbFdUblp6cTc4eGN5Rk9ic3ZKNGtoUjF1S1NzNGE2LWJNaUFDRVpfUEUxaUZLWGpqeTViR1l4V21CU0FRUUFKekx3REpCZXBPZFRpLXhFR25yTkc5Sk5CX2NScHFleTU5QVJsTkpkdU9yOHNUYjdvZjhfYUQwODZ3emhxY3BVbTY1T09adzBjZURZUlVjUjB1MFg0ZE5BRHpOeXQtamFpUVAzbzRETlRBTGU1dU1aUWc?oc=5"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Health Network One own site",
+   "tier": "Unverified",
+   "source": "intake",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "2026-10-30",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Heyward Donigan, CEO (Src: page · read 2026-10-31)",
+   "links": [
+    "https://www.healthnetworkone.com",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcTJ5R3RZVWR3QXItYnF3OUhGRXFaQnZCSXZFM0lEcWd3dTloS3ZrNkY1dzZRTmlMSmg1WVpMSnJuSGhycGxCMVFxbEhUSWJSclIwd1h1WHgxRzR0YmV1QkVIbVN5eWZNY2l2LXp5QXA5eGlMejRtSjlWRkVSNGpRVUZRTVQ3OFZVV29EeWpCQUZpbXBzVGhsTlMweDlfWmMwX3hMLWpEZXFyUzZIMnFN?oc=5",
+    "https://hig.com/portfolio/"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "FreightCenter own site",
+   "tier": "Unverified",
+   "source": "intake",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "2025-01-08",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Matthew Brosious, President (Src: page · read 2026-10-31)",
+   "links": [
+    "https://freightcenter.com/",
+    "https://www.freightcenter.com/about/freightcenter-leadership/",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX3djZ19wZW10YjFDZHd1MEN6ckdCVXFHNVg4MXRTZFdHUUNzOUVCa0xEQzZjLVc1cWhKa1A5UVFHVTN6b19IVC0wQVhkODJBWDlhdEY4cUlNNkptR2NocDV6YXU2Mk1kUlhBQTFDejctV18zQkszYzRnbVQ2RVVLT0VvWTQ1dnBSblowX3FR?oc=5"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "STS Aviation Group own site",
+   "tier": "Unverified",
+   "source": "intake",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "2026-10-31",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Mark Smith, President (Src: article · read 2026-10-31)",
+   "links": [
+    "https://stsaviationgroup.com/",
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzdTQkxFMXFTczRYVTRCVVVQX2JJR212LTk2RVBMempNS0w2MnQ1cF9xRDNrdzNlbkFVc0ZMR05JN3ktNjF6UUJCc3JkNWFQVzNKZzRucjRVQ3llZk1VYnpibmFYdnhYcHFTa01OR205aE5qTUkzR0VDNkJOdHViOXdTb3hMQUZQQ01OQ2NzUVU?oc=5",
+    "https://hig.com/portfolio/sts-aviation-group/"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Sedano's Supermarkets Grocery + distribution · Southeast FL",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Agustín Herrán President & CEO (son of co-founder Manuel Herrán)",
+   "links": [
+    "https://www.google.com/search?q=%22Sedano's%20Supermarkets%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Sedano's%20Supermarkets",
+    "https://www.google.com/search?q=Sedano's%20Supermarkets%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "City Furniture Furniture retail/dist · Southeast FL",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Andrew Koenig CEO (2nd-generation; Keith Koenig, co-founder, Chairman)",
+   "links": [
+    "https://www.google.com/search?q=%22City%20Furniture%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+City%20Furniture",
+    "https://www.google.com/search?q=City%20Furniture%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Coca-Cola Beverages Florida Beverage bottler/dist · Tampa Ba",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Troy Taylor Founder, Chairman & CEO",
+   "links": [
+    "https://www.google.com/search?q=%22Coca-Cola%20Beverages%20Florida%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Coca-Cola%20Beverages%20Florida",
+    "https://www.google.com/search?q=Coca-Cola%20Beverages%20Florida%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Boar's Head Provisions Food mfg/dist · Tampa Bay",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Carlos Giraldo President (owning Brunckhorst & Bischoff families make major deci",
+   "links": [
+    "https://www.google.com/search?q=%22Boar's%20Head%20Provisions%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Boar's%20Head%20Provisions",
+    "https://www.google.com/search?q=Boar's%20Head%20Provisions%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Saddle Creek Logistics 3PL/warehousing · Tampa Bay",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Grady Martin COO & incoming CEO (May 2026); Mark Cabrera CEO until handover; Sco",
+   "links": [
+    "https://www.google.com/search?q=%22Saddle%20Creek%20Logistics%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Saddle%20Creek%20Logistics",
+    "https://www.google.com/search?q=Saddle%20Creek%20Logistics%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Correct Craft (Nautique) Marine mfg · Orlando/Central",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Zach Hutcheson Incoming CEO (Mar 31 2026), succeeding Bill Yeargin; Meloon famil",
+   "links": [
+    "https://www.google.com/search?q=%22Correct%20Craft%20(Nautique)%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Correct%20Craft%20(Nautique)",
+    "https://www.google.com/search?q=Correct%20Craft%20(Nautique)%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "ABC Fine Wine & Spirits Beverage retail/dist · Orlando/Centr",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Charles E. Bailes III Chairman & CEO (3rd-generation owner; CEO since 1994)",
+   "links": [
+    "https://www.google.com/search?q=%22ABC%20Fine%20Wine%20%26%20Spirits%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+ABC%20Fine%20Wine%20%26amp%3B%20Spirits",
+    "https://www.google.com/search?q=ABC%20Fine%20Wine%20%26amp%3B%20Spirits%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Ring Power (CAT) Equipment dist · Northeast FL",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "David Alban President & CEO (since Jan 2024; Randal L. Ringhaver, Chairman/owner",
+   "links": [
+    "https://www.google.com/search?q=%22Ring%20Power%20(CAT)%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Ring%20Power%20(CAT)",
+    "https://www.google.com/search?q=Ring%20Power%20(CAT)%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Ed Morse Automotive Group Auto retail · family",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Teddy Morse Chairman & CEO (3rd-generation owner)",
+   "links": [
+    "https://edmorse.com",
+    "https://www.google.com/search?q=%22Ed%20Morse%20Automotive%20Group%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Ed%20Morse%20Automotive%20Group"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Braman Motorcars Auto retail · family",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Norman Braman Chairman & owner, Braman Enterprises (grandsons Brian and Alex Sha",
+   "links": [
+    "https://www.google.com/search?q=%22Braman%20Motorcars%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Braman%20Motorcars",
+    "https://www.google.com/search?q=Braman%20Motorcars%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Amscot Financial Consumer finance · family",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Ian MacKechnie Founder, Chairman & CEO (sons Ian A. MacKechnie, Exec. Vice Chair",
+   "links": [
+    "https://amscot.com",
+    "https://www.google.com/search?q=%22Amscot%20Financial%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Amscot%20Financial"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Morgan Auto Group Auto retail · family",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Brett A. Morgan CEO (Sunbiz); Larry C. Morgan, Chairman",
+   "links": [
+    "https://morganautogroup.com",
+    "https://www.google.com/search?q=%22Morgan%20Auto%20Group%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Morgan%20Auto%20Group"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Westgate Resorts Hospitality · family",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Jim Gissy CEO (since Mar 2024); Siegel family owners",
+   "links": [
+    "https://westgateresorts.com",
+    "https://www.google.com/search?q=%22Westgate%20Resorts%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Westgate%20Resorts"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "IMG Citrus Citrus grower/packer · family",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "named decision maker with title"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": "info@imgcitrus.com",
+   "role_inbox": true,
+   "dm": "Timothee Sallin, Melanie Ressler & Chloe Gentry Co-CEOs (2nd-gen Sallin family; ",
+   "links": [
+    "https://imgcitrus.com",
+    "https://www.google.com/search?q=%22IMG%20Citrus%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+IMG%20Citrus"
+   ],
+   "routes_unspent": [
+    "the company’s own leadership/about page (proved site)",
+    "trade press bound by officer.py (one clause’s grammar)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Gate Petroleum Fuel / c-store · family",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "John Peyton President & CEO (Herb Peyton, founder & Chairman)",
+   "links": [
+    "https://www.google.com/search?q=%22Gate%20Petroleum%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Gate%20Petroleum",
+    "https://www.google.com/search?q=Gate%20Petroleum%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Innisfree Hotels Hospitality · family",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Ted Ent President & CEO (Julian MacQueen, Founder & Chairman/owner)",
+   "links": [
+    "https://innisfreehotels.com",
+    "https://www.google.com/search?q=%22Innisfree%20Hotels%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Innisfree%20Hotels"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "IBC Airways Regional air cargo",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Joe Costigan President",
+   "links": [
+    "https://ibcairways.com",
+    "https://www.google.com/search?q=%22IBC%20Airways%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+IBC%20Airways"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Tampa Maid Foods Food & Beverage Processing",
+   "tier": "B",
+   "source": "expansion main",
+   "call_ready": false,
+   "missing": [
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Shawn Meaney, President & COO (hired; parent WAI)",
+   "links": [
+    "https://www.google.com/search?q=Tampa%20Maid%20Foods%20Lakeland%20FL",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Tampa%20Maid%20Foods",
+    "https://www.google.com/search?q=Tampa%20Maid%20Foods%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Solutions Manufacturing Manufacturing & Industrial",
+   "tier": "B",
+   "source": "expansion main",
+   "call_ready": false,
+   "missing": [
+    "named decision maker with title"
+   ],
+   "signal": "Blind",
+   "phone": "321-848-0848",
+   "email": null,
+   "role_inbox": false,
+   "dm": "Owners (names not published) — via main line",
+   "links": [
+    "https://www.google.com/search?q=Solutions%20Manufacturing%20Inc%20Rockledge%20FL",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Solutions%20Manufacturing",
+    "https://www.google.com/search?q=Solutions%20Manufacturing%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own leadership/about page (proved site)",
+    "trade press bound by officer.py (one clause’s grammar)"
+   ],
+   "est_reads": 5
+  },
+  {
+   "company": "Suncoast Beverage Sales Beer distribution",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "named decision maker with title",
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "—",
+   "links": [
+    "https://suncoastbeverage.com",
+    "https://www.google.com/search?q=%22Suncoast%20Beverage%20Sales%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Suncoast%20Beverage%20Sales"
+   ],
+   "routes_unspent": [
+    "the company’s own leadership/about page (proved site)",
+    "trade press bound by officer.py (one clause’s grammar)",
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 10
+  },
+  {
+   "company": "Wayne Densch Inc. Beer distribution",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "named decision maker with title",
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "—",
+   "links": [
+    "https://www.google.com/search?q=%22Wayne%20Densch%20Inc.%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Wayne%20Densch%20Inc.",
+    "https://www.google.com/search?q=Wayne%20Densch%20Inc.%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own leadership/about page (proved site)",
+    "trade press bound by officer.py (one clause’s grammar)",
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 10
+  },
+  {
+   "company": "Studer Family of Companies Mixed holdings · family",
+   "tier": "B",
+   "source": "florida.html",
+   "call_ready": false,
+   "missing": [
+    "named decision maker with title",
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "—",
+   "links": [
+    "https://www.google.com/search?q=%22Studer%20Family%20of%20Companies%22%20owner%20OR%20president%20OR%20CEO",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+Studer%20Family%20of%20Companies",
+    "https://www.google.com/search?q=Studer%20Family%20of%20Companies%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own leadership/about page (proved site)",
+    "trade press bound by officer.py (one clause’s grammar)",
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 10
+  },
+  {
+   "company": "The Father's Table Food & Beverage Processing",
+   "tier": "B",
+   "source": "expansion main",
+   "call_ready": false,
+   "missing": [
+    "named decision maker with title",
+    "published phone or email with a dated Src:"
+   ],
+   "signal": "Blind",
+   "phone": null,
+   "email": null,
+   "role_inbox": false,
+   "dm": "Not published",
+   "links": [
+    "https://www.google.com/search?q=The%20Father%27s%20Table%20Sanford%20FL%20dessert%20manufacturer",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+The%20Father's%20Table",
+    "https://www.google.com/search?q=The%20Father's%20Table%20Florida%20official%20website"
+   ],
+   "routes_unspent": [
+    "the company’s own leadership/about page (proved site)",
+    "trade press bound by officer.py (one clause’s grammar)",
+    "the company’s own contact page (dated read)"
+   ],
+   "est_reads": 10
+  }
+ ],
+ "dial_order": [
+  {
+   "rank": 1,
+   "company": "Invicta Watch Group Consumer import/dist · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Eyal Lalo President/CEO (owner, Lalo family)",
+   "phone": "(305) 715-9633",
+   "email": "sales@invictawatch.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 2,
+   "company": "Badia Spices Food import/mfg · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Joseph “Pepe” Badia President / majority owner",
+   "phone": "(305) 629-8000",
+   "email": "poconfirm@badiaspices.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 3,
+   "company": "Eagle Brands Sales Beverage distribution · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Susan B. McCollum President & CEO / owner",
+   "phone": "305-599-2337",
+   "email": "ghoyos@eaglebrands.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 4,
+   "company": "Martinez Distributors Food distribution · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Fabian J. Martinez President (VP: Marta I. Martinez)",
+   "phone": "(305) 882-8282",
+   "email": "info@mdist.us",
+   "role_inbox": true
+  },
+  {
+   "rank": 5,
+   "company": "PJ Distributors General import/dist · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Edilberto “Eddie” Jiron Jr. President (Proveedora Jiron, Inc. d/b/a PJ Distribut",
+   "phone": "(305) 455-7508",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 6,
+   "company": "Riverdale Farms Floral import/dist · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Luis H. Balcazar President (Sunbiz officer P); Emilio Borrero, Chairman",
+   "phone": "(305) 592-5760",
+   "email": "sales@riverdalefarms.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 7,
+   "company": "Turbana Corp Produce import · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Juan D. Alarcón CEO (CFO: Angelo Costantini)",
+   "phone": "(305) 445-1542",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 8,
+   "company": "Refricenter HVAC parts dist · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Jose Hernandez President (CEO: Cirilo Hernandez — family)",
+   "phone": "(305) 477-8880",
+   "email": "brian@refricenter.net",
+   "role_inbox": false
+  },
+  {
+   "rank": 9,
+   "company": "TruckMax Commercial truck/parts · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Joseph A. DeMaria President & owner (Sunbiz current, also RA; LinkedIn: Owner/CE",
+   "phone": "(305) 777-9000",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 10,
+   "company": "Presidente Supermarkets Grocery + distribution · Southeast F",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Omar Rodriguez Founder & Owner",
+   "phone": "305-231-9944",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 11,
+   "company": "Eco Window Systems Building products · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Frank Mata President / Managing Member (Sunbiz MGR/AMBR/PRES); Samuel Bravo VP",
+   "phone": "(305) 885-5299",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 12,
+   "company": "Cigarette Racing Team Marine mfg · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Alexander “Alex” Ruiz CEO (Ruiz family / Lionheart ownership); Kurt Bender, Pres",
+   "phone": "(305) 931-4564",
+   "email": "contact@cigaretteracing.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 13,
+   "company": "WTDC Logistics Trade logistics/FTZ · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Sean P. Gazitua President & CEO (3rd-gen family); Ralph L. Gazitua, Chairman",
+   "phone": "(305) 594-2195",
+   "email": "rgazitua@wtdc.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 14,
+   "company": "SkyPostal Cross-border parcel · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "A.J. Hernandez President & CEO (2nd-gen; father Albert P. Hernandez founded)",
+   "phone": "(305) 599-1812",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 15,
+   "company": "Fulfillment Hub USA 3PL/fulfillment · Southeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Abel Horvath CEO / Owner (Sunbiz RA titled CEO, upd. 04/2026; BBB)",
+   "phone": "(786) 622-1102",
+   "email": "info@fulfillmenthubusa.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 16,
+   "company": "Vigo Importing Food import/mfg · Tampa Bay",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Vigo family Owner-operated",
+   "phone": "813-884-3491",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 17,
+   "company": "Pepin Distributing Beverage distribution · Tampa Bay",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Tom Pepin Chairman & CEO (3rd gen)",
+   "phone": "813-628-4400",
+   "email": "info@teampepin.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 18,
+   "company": "Great Bay Distributors Beverage distribution · Tampa Bay",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Knight family Owner-operated",
+   "phone": "727-576-1900",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 19,
+   "company": "Rooms To Go Furniture retail/dist · Tampa Bay",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Jeffrey Seaman CEO & Co-Founder",
+   "phone": "813-623-5400",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 20,
+   "company": "Bealls Inc. Retail + DC · Tampa Bay",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Matt Beall CEO (Chairman: Robert M. Beall II; CFO: Dan Love)",
+   "phone": "(941) 747-2355",
+   "email": "beallsinc-guests@beallsinc.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 21,
+   "company": "Tervis Drinkware mfg · Tampa Bay",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Hosana Fieber CEO & President (Pres. & CRO: Roger Parsons, Aug 2025)",
+   "phone": "(941) 441-3100",
+   "email": "customercare@tervis.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 22,
+   "company": "Teakdecking Systems Marine components · Tampa Bay",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Richard J. Strauss CEO (Sunbiz: President; board-promoted to CEO)",
+   "phone": "(941) 756-0600",
+   "email": "products@teakdecking.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 23,
+   "company": "Barney's Pumps Pump dist/mfg · Tampa Bay",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Robbie Pearce President & Director; Johnnie Mack Curls Jr., CEO & Director (Sunb",
+   "phone": "(863) 665-8500",
+   "email": "info@barneyspumps.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 24,
+   "company": "Regal Boats Marine mfg · Orlando/Central",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Duane Kuck / Tim Kuck Chairman / President & CEO (2nd gen)",
+   "phone": "407-851-4360",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 25,
+   "company": "Florida Paints Coatings mfg/dist · Orlando/Central",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Rick Strube & Don Strube Jr. Co-Founders & Co-CEOs (Strube family, 2nd gen; Jeff",
+   "phone": "(407) 293-4175",
+   "email": "info@floridapaints.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 26,
+   "company": "Cone Distributors Beverage distribution · Orlando/Central",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Douglas P. Cone Jr. Founder & President/CEO (Sunbiz: P; son Douglas Cone III, VP",
+   "phone": "(352) 732-4111",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 27,
+   "company": "Monterey Boats Marine mfg · Orlando/Central",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Sanders family Owner-operated",
+   "phone": "352-528-2628",
+   "email": "sales@montereyboats.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 28,
+   "company": "Beaver Street Fisheries Seafood import/dist · Northeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Hank Frisch Chairman & CEO",
+   "phone": "904-354-8912",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 29,
+   "company": "Rulon International Architectural mfg · Northeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Caleb Diffell CEO (succeeded founder Wayne Robison, d. 2025-02-17); Matthew Robi",
+   "phone": "(800) 227-8566",
+   "email": "info@rulonco.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 30,
+   "company": "Reid Transportation Group Freight forwarding · Northeast FL",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Junior Anthony Reid Manager/Principal (Sunbiz; with Krystal Alexandra Reid, Mana",
+   "phone": "(904) 270-9387",
+   "email": "info@reidtransportationgroup.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 31,
+   "company": "El Dorado Furniture Furniture retail/dist · family-owned",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Luis E. Capó CEO (board = the six Capó brothers)",
+   "phone": null,
+   "email": "customercare@eldoradofurniture.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 32,
+   "company": "Sunshine Gasoline Distributors Fuel distribution · family-ow",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Maximo Alvarez Founder & President",
+   "phone": "305-599-1300",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 33,
+   "company": "Miami Beef Company Food mfg · family-owned",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Michael Young President & Owner (Sunbiz officers all Young family: Elizabeth VP,",
+   "phone": null,
+   "email": "sales@miamibeef.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 34,
+   "company": "Sheltair Aviation FBO / aviation real estate · family",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Jerry Holland Founder & CEO",
+   "phone": "954-351-9900",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 35,
+   "company": "Brown Distributing Beer distribution · family",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Brown family Owner-operated",
+   "phone": "561-863-1300",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 36,
+   "company": "Arthrex Medical device mfg · founder-owned",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Reinhold D. Schmieding Founder, President & CEO, majority owner",
+   "phone": "(239) 643-5553",
+   "email": "softwaresupport@arthrex.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 37,
+   "company": "Wish Farms Berry grower/dist · family",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "James Peterson CEO (eff. 2026-06-01; family by marriage); Gary Wishnatzki → Chai",
+   "phone": "(813) 752-5111",
+   "email": "info@wishfarms.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 38,
+   "company": "S.R. Perrott Beer distribution · family",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Michele P. Connors Owner & President (2nd gen; founders’ daughter)",
+   "phone": "(386) 672-2275",
+   "email": "info@srperrott.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 39,
+   "company": "Sally Dark Rides Themed attractions mfg · family",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "John Wood Chairman & President (co-founder, 1977); Rolf Paegert, CEO",
+   "phone": "(904) 355-7100",
+   "email": "lweaver@sallydarkrides.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 40,
+   "company": "American Coolair Fan mfg · family",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Harry Graves President (Graves family, 4th generation since 1928)",
+   "phone": "(904) 389-3646",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 41,
+   "company": "Doris Italian Market Grocery · family",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "John Alfano President & Co-owner (Alfano family since 1982; co-owner Gary Mulé)",
+   "phone": "(954) 749-1919",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 42,
+   "company": "Kelly Tractor Co. Equipment dealing (Caterpillar) · South Fl",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Chris Kelly President (named 2022, per company site read 2026-10-29)",
+   "phone": "(305) 592-5360",
+   "email": "dino_riggio@kellytractor.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 43,
+   "company": "Globe Trailers Manufacturing & Industrial",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Jeff Walters, President (Walters family)",
+   "phone": "941-751-9019",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 44,
+   "company": "Cypress Truck Lines Transportation & Logistics",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "David V. Penland Sr., President (Penland family)",
+   "phone": "904-353-8641",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 45,
+   "company": "East Coast Metal Structures Manufacturing & Industrial",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Daymon Allmon, President (Allmon family)",
+   "phone": "561-272-5417",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 46,
+   "company": "Trans-Phos Transportation & Logistics",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Neil Whitney, President; Bill Whitney, CEO",
+   "phone": "863-534-1575",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 47,
+   "company": "FMX, Inc. Transportation & Logistics",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Helen Venson, President",
+   "phone": "904-598-2683",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 48,
+   "company": "Prime Line Distributors Distribution & Wholesale",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Gianni Landi, President; Dennis Landi, VP",
+   "phone": "954-925-4500",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 49,
+   "company": "H&H Products Company Food & Beverage Processing",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Morris Hartley, President & CEO",
+   "phone": "800-678-8448",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 50,
+   "company": "Contender Boats Manufacturing & Industrial",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Joe Neber, Founder/Owner/CEO",
+   "phone": "305-230-1600",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 51,
+   "company": "Regal Marine Industries Manufacturing & Industrial",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Paul Kuck, President; Duane Kuck, CEO",
+   "phone": "407-851-4360",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 52,
+   "company": "Southern Spring & Stamping Manufacturing & Industrial",
+   "tier": "A",
+   "signal": "Blind",
+   "dm": "Jeff Deaterly, President (Deaterly family)",
+   "phone": "941-488-2276",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 53,
+   "company": "Alpha Foundations own site",
+   "tier": "Unverified",
+   "signal": "2021-12-17",
+   "dm": "Nick Blasco, General Manager (Src: page · 2026-10-31)",
+   "phone": "877-322-3446",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 54,
+   "company": "American Fasteners own site",
+   "tier": "Unverified",
+   "signal": "2026-09-02",
+   "dm": "Manuel Benitez, Founder (Src: page · read 2026-10-31)",
+   "phone": "305-885-1717",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 55,
+   "company": "Quirch Foods Food distribution · Southeast FL",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Frank Grande President & CEO (CEO title effective 4/1/2026)",
+   "phone": "(305) 691-5901",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 56,
+   "company": "Sunshine Bouquet Floral import/dist · Southeast FL",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "John D. Simko President / Director (Sunbiz D/P; family owner, 3rd gen)",
+   "phone": "(305) 599-9600",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 57,
+   "company": "Fresh Del Monte Produce Produce import · Southeast FL",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Danny Dumas SVP North America (Chairman/CEO: Mohammad Abu-Ghazaleh)",
+   "phone": "(305) 520-8433",
+   "email": "salesinquiry@freshdelmonte.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 58,
+   "company": "Southern Glazer's Wine & Spirits Beverage distribution · Sou",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Wayne E. Chaplin President & CEO",
+   "phone": "(954) 680-4600",
+   "email": "media@sgws.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 59,
+   "company": "National Beverage (LaCroix) Beverage mfg · Southeast FL",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Nick A. Caporella Chairman & CEO (Pres.: Joseph G. Caporella; EVP-Fin: George R.",
+   "phone": "(954) 581-0922",
+   "email": "Media@NationalBeverage.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 60,
+   "company": "Watsco HVAC distribution · Southeast FL",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Albert H. Nahmad Chairman & CEO (Pres.: Aaron J. Nahmad; CFO: Ana M. Menendez)",
+   "phone": "(305) 714-4100",
+   "email": "info@watsco.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 61,
+   "company": "Perry Ellis International Apparel import/dist · Southeast FL",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Oscar Feldenkreis President & CEO",
+   "phone": "(305) 592-2830",
+   "email": "info@pery.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 62,
+   "company": "JM Family Enterprises Auto distribution · Southeast FL",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Dan Chait President & CEO (Jan 2025; Chairman: Colin Brown; CFO: Ravi Abbineni)",
+   "phone": "(954) 429-2000",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 63,
+   "company": "World Kinect Fuel/energy dist · Southeast FL",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Ira M. Birns CEO (~Jan 2026; CFO: Michael Tejada, Oct 2025; Chairman: Michael Ka",
+   "phone": "(305) 428-8000",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 64,
+   "company": "HEICO Aerospace parts mfg · Southeast FL",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Eric A. & Victor H. Mendelson Co-CEOs / Co-Presidents (CFO: Carlos Macau)",
+   "phone": "(954) 987-4000",
+   "email": "sales@heico.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 65,
+   "company": "Florida Crystals Sugar mfg/dist · Southeast FL",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "J. Pepe Fanjul co-CEO/President (EVP & CFO: Luis J. Fernandez)",
+   "phone": "(561) 366-5100",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 66,
+   "company": "J.J. Taylor Distributing FL Beverage distribution · Tampa Ba",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "John J. Taylor III President & CEO (Taylor family, 2nd generation)",
+   "phone": "(561) 354-2900",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 67,
+   "company": "Helios Technologies (Sun Hydraulics) Industrial mfg · Tampa ",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Sean Bagan President & CEO (Jan 2025; CFO: Michael Connaway, Oct 2025)",
+   "phone": "(941) 362-1333",
+   "email": "tania.almond@HLIO.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 68,
+   "company": "Duda Farm Fresh Foods Produce grower/dist · Orlando/Central",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Mark Bassetti President, Duda Farm Fresh Foods (Samuel ‘Sammy’ Duda is CEO of pa",
+   "phone": "(407) 365-2111",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 69,
+   "company": "Boston Whaler Marine mfg · Space Coast",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Brad Zoelle President (2025, succeeded Lenn Scholz; VP Ops: Jerry Newton)",
+   "phone": "(386) 428-0057",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 70,
+   "company": "Rick Case Automotive Group Auto retail · family",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Rita Case President & CEO (owner; children Ryan and Raquel Case in leadership)",
+   "phone": null,
+   "email": "travislakam@rickcase.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 71,
+   "company": "Plasma-Therm Semiconductor equipment mfg",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Abdul Lateef CEO & principal owner (led the Jan 2009 management buyout)",
+   "phone": "(727) 577-4999",
+   "email": "information@plasmatherm.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 72,
+   "company": "FrankCrum PEO / HR services · family",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Frank W. Crum Jr. Founder & CEO (Haley Crum and Matt Crum, Co-Presidents)",
+   "phone": "(727) 799-1243",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 73,
+   "company": "BlueGrace Logistics 3PL · founder-led",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Bobby Harris Founder, President & CEO",
+   "phone": null,
+   "email": "contactus@mybluegrace.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 74,
+   "company": "Rosen Hotels & Resorts Hospitality · family",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Frank Santos CEO (since Dec 3 2024; Rosen family owners)",
+   "phone": null,
+   "email": "careers@rosenhotels.com",
+   "role_inbox": true
+  },
+  {
+   "rank": 75,
+   "company": "Sonny’s BBQ Restaurant franchisor",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Bob Yarmuth Owner & CEO (since 1991); Jeff Yarmuth, President",
+   "phone": "(407) 660-8888",
+   "email": "press@sonnysbbq.com",
+   "role_inbox": false
+  },
+  {
+   "rank": 76,
+   "company": "4R Restaurant Group (4 Rivers) Restaurants · founder",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "John Rivers Founder & CEO (owner)",
+   "phone": "(844) 474-8377",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 77,
+   "company": "Natalie’s Orchid Island Juice Juice mfg · family",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Marygrace Sexton Founder; was CEO at acquisition",
+   "phone": "(772) 465-1122",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 78,
+   "company": "W.W. Gay Mechanical Mechanical contractor · family",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Paul Jones President & CEO (Tom Smith, President/COO)",
+   "phone": "(904) 388-2696",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 79,
+   "company": "ICI Homes Homebuilder · family",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Mori Hosseini Founder, Chairman & CEO",
+   "phone": "(386) 788-0820",
+   "email": null,
+   "role_inbox": false
+  },
+  {
+   "rank": 80,
+   "company": "Conimar Corporation Manufacturing & Industrial",
+   "tier": "B",
+   "signal": "Blind",
+   "dm": "Succession pending (founder Terry Crawford deceased 2026)",
+   "phone": "800-874-9735",
+   "email": null,
+   "role_inbox": false
+  }
+ ]
+}

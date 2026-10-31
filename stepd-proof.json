@@ -1,0 +1,9 @@
+{
+ "contact_block": {
+  "role_inbox_flagged": true,
+  "blind_phone_shown_as_blind": true,
+  "copy_controls_on_live_page": 7
+ },
+ "queue_rank_monotone": true,
+ "result": "PASSED"
+}

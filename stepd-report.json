@@ -1,0 +1,312 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Florida core build — Step D brief: Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Florida core build — Step D delivered: Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "reads": 0,
+  "call_ready": "80 of 200"
+ },
+ "1_call_ready": {
+  "definition": {
+   "named decision maker": "a person with a title on the row, from a dated source",
+   "contact": "a published phone or email on the row with a dated read on the row (Src: or Address source); a role inbox is flagged and counts as contact, distinct from a named individual",
+   "practice fit": "the row passed the market standard’s tier test (A, B, or Unverified intake); Tier C failed it",
+   "signal": "a dated third-party practice signal where one exists; Blind recorded where it does not — it does not block a dial"
+  },
+  "counts_by_file_and_tier": {
+   "expansion main · Tier A": {
+    "call-ready": 10,
+    "short": 2
+   },
+   "expansion main · Tier B": {
+    "short": 3,
+    "call-ready": 1
+   },
+   "expansion main · Tier C": {
+    "short": 27
+   },
+   "florida.html · Tier A": {
+    "call-ready": 42,
+    "short": 5
+   },
+   "florida.html · Tier B": {
+    "call-ready": 25,
+    "short": 20
+   },
+   "florida.html · Tier C": {
+    "short": 58
+   },
+   "intake · Tier Unverified": {
+    "call-ready": 2,
+    "short": 5
+   }
+  }
+ },
+ "2_completion_queue": {
+  "rows": 35,
+  "one_field_short": 31,
+  "two_fields_short": 4,
+  "missing": {
+   "named decision maker with title": 10,
+   "published phone or email with a dated Src:": 29
+  },
+  "estimated_reads_to_finish_all": 195,
+  "not_queued": "85 Tier C rows: they failed the market standard’s fit test, so completing their contact would not make them dialable",
+  "page": "completion-queue.html"
+ },
+ "3_dial_order": {
+  "rows": 80,
+  "rule": "Tier A, then the admitted intake rows (dated signal), then Tier B; within each, a dated signal before Blind; the 47 Tier A counted once, inside florida.html",
+  "top_10": [
+   {
+    "rank": 1,
+    "company": "Invicta Watch Group Consumer import/dist · Southeast FL",
+    "tier": "A",
+    "signal": "Blind",
+    "dm": "Eyal Lalo President/CEO (owner, Lalo family)",
+    "phone": "(305) 715-9633",
+    "email": "sales@invictawatch.com",
+    "role_inbox": true
+   },
+   {
+    "rank": 2,
+    "company": "Badia Spices Food import/mfg · Southeast FL",
+    "tier": "A",
+    "signal": "Blind",
+    "dm": "Joseph “Pepe” Badia President / majority owner",
+    "phone": "(305) 629-8000",
+    "email": "poconfirm@badiaspices.com",
+    "role_inbox": false
+   },
+   {
+    "rank": 3,
+    "company": "Eagle Brands Sales Beverage distribution · Southeast FL",
+    "tier": "A",
+    "signal": "Blind",
+    "dm": "Susan B. McCollum President & CEO / owner",
+    "phone": "305-599-2337",
+    "email": "ghoyos@eaglebrands.com",
+    "role_inbox": false
+   },
+   {
+    "rank": 4,
+    "company": "Martinez Distributors Food distribution · Southeast FL",
+    "tier": "A",
+    "signal": "Blind",
+    "dm": "Fabian J. Martinez President (VP: Marta I. Martinez)",
+    "phone": "(305) 882-8282",
+    "email": "info@mdist.us",
+    "role_inbox": true
+   },
+   {
+    "rank": 5,
+    "company": "PJ Distributors General import/dist · Southeast FL",
+    "tier": "A",
+    "signal": "Blind",
+    "dm": "Edilberto “Eddie” Jiron Jr. President (Proveedora Jiron, Inc. d/b/a PJ Distribut",
+    "phone": "(305) 455-7508",
+    "email": null,
+    "role_inbox": false
+   },
+   {
+    "rank": 6,
+    "company": "Riverdale Farms Floral import/dist · Southeast FL",
+    "tier": "A",
+    "signal": "Blind",
+    "dm": "Luis H. Balcazar President (Sunbiz officer P); Emilio Borrero, Chairman",
+    "phone": "(305) 592-5760",
+    "email": "sales@riverdalefarms.com",
+    "role_inbox": true
+   },
+   {
+    "rank": 7,
+    "company": "Turbana Corp Produce import · Southeast FL",
+    "tier": "A",
+    "signal": "Blind",
+    "dm": "Juan D. Alarcón CEO (CFO: Angelo Costantini)",
+    "phone": "(305) 445-1542",
+    "email": null,
+    "role_inbox": false
+   },
+   {
+    "rank": 8,
+    "company": "Refricenter HVAC parts dist · Southeast FL",
+    "tier": "A",
+    "signal": "Blind",
+    "dm": "Jose Hernandez President (CEO: Cirilo Hernandez — family)",
+    "phone": "(305) 477-8880",
+    "email": "brian@refricenter.net",
+    "role_inbox": false
+   },
+   {
+    "rank": 9,
+    "company": "TruckMax Commercial truck/parts · Southeast FL",
+    "tier": "A",
+    "signal": "Blind",
+    "dm": "Joseph A. DeMaria President & owner (Sunbiz current, also RA; LinkedIn: Owner/CE",
+    "phone": "(305) 777-9000",
+    "email": null,
+    "role_inbox": false
+   },
+   {
+    "rank": 10,
+    "company": "Presidente Supermarkets Grocery + distribution · Southeast F",
+    "tier": "A",
+    "signal": "Blind",
+    "dm": "Omar Rodriguez Founder & Owner",
+    "phone": "305-231-9944",
+    "email": null,
+    "role_inbox": false
+   }
+  ]
+ },
+ "4_enrichments": {
+  "roster reader": "built (run one): saved ~86 entry reads at Sun Capital; produced no admission, so reads-per-admission is unchanged (none before, none after)",
+  "source-coverage panel": "built (run two): changes no reads-per-admission; it made closures and refusals visible as decisions",
+  "completion queue": "BUILT NOW — the queue needs it: completion-queue.html, ranked, routes named",
+  "contact block": "BUILT NOW — the queue needs it: phone and email on each queued row, role inbox flagged, Blind shown, copy controls",
+  "Tier B status": "not built: the queue does not need it (tier rides on the row)",
+  "refused-re-runnable queue": "not built: its 17 are discovery candidates without proved sites, not pipeline rows",
+  "on-screen counters": "not built: no precondition runs in a zero-read step"
+ },
+ "5_source_state_for_inheritance": {
+  "per_source_class": {
+   "press feed (Google News)": {
+    "reads": 499,
+    "admissions_sourced": 5,
+    "reads_per_admission": 99.8
+   },
+   "other": {
+    "reads": 260,
+    "admissions_sourced": 0,
+    "reads_per_admission": "none admitted"
+   },
+   "marketplaces and probes": {
+    "reads": 109,
+    "admissions_sourced": 0,
+    "reads_per_admission": "none admitted"
+   },
+   "sponsor roster": {
+    "reads": 564,
+    "admissions_sourced": 2,
+    "reads_per_admission": 282.0
+   },
+   "completion / executive reads": {
+    "reads": 36,
+    "admissions_sourced": 0,
+    "reads_per_admission": "none admitted"
+   },
+   "revenue routes": {
+    "reads": 152,
+    "admissions_sourced": 0,
+    "reads_per_admission": "none admitted"
+   }
+  },
+  "end_states_by_class": {
+   "earlier windows (sponsors, feeds, contact paths)": {
+    "closed": 3,
+    "answering": 14,
+    "refused": 3,
+    "exhausted": 2,
+    "unread": 1
+   },
+   "Marketplace": {
+    "closed": 11
+   },
+   "Transportation & Logistics": {
+    "answering": 6
+   },
+   "Food & Beverage": {
+    "refused": 1,
+    "answering": 5
+   },
+   "Manufacturing / Distribution": {
+    "refused": 5,
+    "answering": 6
+   },
+   "Construction": {
+    "refused": 3,
+    "answering": 1
+   },
+   "Retail, Field Ops & Events": {
+    "refused": 3,
+    "answering": 4
+   },
+   "Government finders": {
+    "answering": 10,
+    "refused": 1
+   },
+   "Press": {
+    "refused": 5,
+    "unread": 1,
+    "answering": 4
+   },
+   "Brand / Marketing / Sales": {
+    "refused": 2,
+    "answering": 2
+   },
+   "Registry": {
+    "refused": 1,
+    "answering": 1
+   },
+   "Vacancy": {
+    "refused": 3,
+    "answering": 1,
+    "closed": 5
+   },
+   "Associations & ED": {
+    "answering": 6
+   },
+   "Fraud control": {
+    "answering": 3,
+    "refused": 2
+   }
+  },
+  "findings_for_the_next_market": [
+   "the press feed admits about one row per ~100 reads; sponsor rosters about one per ~280; every other class admitted none",
+   "marketplaces anonymise listings by design: a for-sale signal never names its company — closed, not re-tried",
+   "rosters pay in reads only where the listing carries the city on its face; of 45 roster-class sources probed in Florida, none did",
+   "registry, vacancy, association and fraud sources answered (or refused) without a company list on their face; Sunbiz and the WARN list refuse this reader",
+   "completion costs about 5 reads per finished row against ~100–280 to discover one: start a market from the rows on file",
+   "decide the size rule before the run: private revenue at this size is not published on free routes"
+  ]
+ },
+ "proof": {
+  "contact_block": {
+   "role_inbox_flagged": true,
+   "blind_phone_shown_as_blind": true,
+   "copy_controls_on_live_page": 7
+  },
+  "queue_rank_monotone": true,
+  "result": "PASSED"
+ }
+}

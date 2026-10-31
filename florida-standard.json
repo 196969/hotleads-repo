@@ -7368,5 +7368,113 @@
    "count every check from its own counter; a zero must say whether it ran"
   ],
   "faults": "1–61, in founders-roster.json and the window reports"
+ },
+ "inheritance": {
+  "per_source_class": {
+   "press feed (Google News)": {
+    "reads": 499,
+    "admissions_sourced": 5,
+    "reads_per_admission": 99.8
+   },
+   "other": {
+    "reads": 260,
+    "admissions_sourced": 0,
+    "reads_per_admission": "none admitted"
+   },
+   "marketplaces and probes": {
+    "reads": 109,
+    "admissions_sourced": 0,
+    "reads_per_admission": "none admitted"
+   },
+   "sponsor roster": {
+    "reads": 564,
+    "admissions_sourced": 2,
+    "reads_per_admission": 282.0
+   },
+   "completion / executive reads": {
+    "reads": 36,
+    "admissions_sourced": 0,
+    "reads_per_admission": "none admitted"
+   },
+   "revenue routes": {
+    "reads": 152,
+    "admissions_sourced": 0,
+    "reads_per_admission": "none admitted"
+   }
+  },
+  "end_states_by_class": {
+   "earlier windows (sponsors, feeds, contact paths)": {
+    "closed": 3,
+    "answering": 14,
+    "refused": 3,
+    "exhausted": 2,
+    "unread": 1
+   },
+   "Marketplace": {
+    "closed": 11
+   },
+   "Transportation & Logistics": {
+    "answering": 6
+   },
+   "Food & Beverage": {
+    "refused": 1,
+    "answering": 5
+   },
+   "Manufacturing / Distribution": {
+    "refused": 5,
+    "answering": 6
+   },
+   "Construction": {
+    "refused": 3,
+    "answering": 1
+   },
+   "Retail, Field Ops & Events": {
+    "refused": 3,
+    "answering": 4
+   },
+   "Government finders": {
+    "answering": 10,
+    "refused": 1
+   },
+   "Press": {
+    "refused": 5,
+    "unread": 1,
+    "answering": 4
+   },
+   "Brand / Marketing / Sales": {
+    "refused": 2,
+    "answering": 2
+   },
+   "Registry": {
+    "refused": 1,
+    "answering": 1
+   },
+   "Vacancy": {
+    "refused": 3,
+    "answering": 1,
+    "closed": 5
+   },
+   "Associations & ED": {
+    "answering": 6
+   },
+   "Fraud control": {
+    "answering": 3,
+    "refused": 2
+   }
+  },
+  "findings_for_the_next_market": [
+   "the press feed admits about one row per ~100 reads; sponsor rosters about one per ~280; every other class admitted none",
+   "marketplaces anonymise listings by design: a for-sale signal never names its company — closed, not re-tried",
+   "rosters pay in reads only where the listing carries the city on its face; of 45 roster-class sources probed in Florida, none did",
+   "registry, vacancy, association and fraud sources answered (or refused) without a company list on their face; Sunbiz and the WARN list refuse this reader",
+   "completion costs about 5 reads per finished row against ~100–280 to discover one: start a market from the rows on file",
+   "decide the size rule before the run: private revenue at this size is not published on free routes"
+  ]
+ },
+ "call_ready": {
+  "named decision maker": "a person with a title on the row, from a dated source",
+  "contact": "a published phone or email on the row with a dated read on the row (Src: or Address source); a role inbox is flagged and counts as contact, distinct from a named individual",
+  "practice fit": "the row passed the market standard’s tier test (A, B, or Unverified intake); Tier C failed it",
+  "signal": "a dated third-party practice signal where one exists; Blind recorded where it does not — it does not block a dial"
  }
 }
