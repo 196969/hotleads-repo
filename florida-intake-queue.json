@@ -6771,7 +6771,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "no site found by any route — held",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/oasis/",
@@ -6890,7 +6890,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "no site found by any route — held",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/orius-corp/",
@@ -8274,10 +8274,10 @@
   },
   "evidence_source": "signal",
   "company_url": "https://hig.com/portfolio/rxstrategies/",
-  "test1": "not read: third spent",
+  "test1": "no Florida address on the company’s own page",
   "test2": "absent from all files",
   "band": null,
-  "status": "no site found by any route — held",
+  "status": "site proved as renamed (window twelve, zero reads): test 1 failed: no Florida address on the company’s own page",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/rxstrategies/",
@@ -8292,14 +8292,40 @@
    {
     "route": "sponsor entry link",
     "host": "https://rxstrategies.com/",
-    "outcome": "resolved but failed the proof"
+    "outcome": "proved",
+    "proof": {
+     "where": "page sentence",
+     "span": "We are excited to announce that RxStrategies, Hudson Headwaters 340B, and RPh Innovations are merging to form a new, unified organization: Pillr Health.",
+     "construction": "renamed (the page states it; no “formerly”)",
+     "current_name": "Pillr Health",
+     "whole_name": "rxstrategies"
+    },
+    "restated": "window twelve: proved as renamed"
    },
    {
     "route": "derived host",
     "host": "https://www.rxstrategies.com/",
-    "outcome": "resolved but failed the proof"
+    "outcome": "proved",
+    "proof": {
+     "where": "page sentence",
+     "span": "We are excited to announce that RxStrategies, Hudson Headwaters 340B, and RPh Innovations are merging to form a new, unified organization: Pillr Health.",
+     "construction": "renamed (the page states it; no “formerly”)",
+     "current_name": "Pillr Health",
+     "whole_name": "rxstrategies"
+    },
+    "restated": "window twelve: proved as renamed"
    }
-  ]
+  ],
+  "site": "https://www.rxstrategies.com/",
+  "site_proof": {
+   "where": "page sentence",
+   "span": "We are excited to announce that RxStrategies, Hudson Headwaters 340B, and RPh Innovations are merging to form a new, unified organization: Pillr Health.",
+   "construction": "renamed (the page states it; no “formerly”)",
+   "current_name": "Pillr Health",
+   "whole_name": "rxstrategies"
+  },
+  "current_name": "Pillr Health",
+  "test1_pass": false
  },
  "Private Equity:hig:283": {
   "practice": "Private Equity",
@@ -8650,7 +8676,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:295": {
   "practice": "Private Equity",
@@ -8676,7 +8704,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:296": {
   "practice": "Private Equity",
@@ -8702,7 +8732,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Montclair, NJ"
  },
  "Private Equity:hig:297": {
   "practice": "Private Equity",
@@ -8728,7 +8760,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Burr Ridge, IL"
  },
  "Private Equity:hig:298": {
   "practice": "Private Equity",
@@ -8754,7 +8788,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Amsterdam, Netherlands"
  },
  "Private Equity:hig:299": {
   "practice": "Private Equity",
@@ -8780,7 +8816,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:300": {
   "practice": "Private Equity",
@@ -8806,7 +8844,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:301": {
   "practice": "Private Equity",
@@ -8832,7 +8872,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Brooklyn, NY"
  },
  "Private Equity:hig:302": {
   "practice": "Private Equity",
@@ -8858,7 +8900,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Frisco, TX"
  },
  "Private Equity:hig:303": {
   "practice": "Private Equity",
@@ -8884,7 +8928,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Hollis, NH"
  },
  "Private Equity:hig:304": {
   "practice": "Private Equity",
@@ -8910,7 +8956,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Pontotoc, MS"
  },
  "Private Equity:hig:305": {
   "practice": "Private Equity",
@@ -8936,7 +8984,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:306": {
   "practice": "Private Equity",
@@ -8962,7 +9012,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:307": {
   "practice": "Private Equity",
@@ -8988,7 +9040,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:308": {
   "practice": "Private Equity",
@@ -9014,7 +9068,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Denver, CO"
  },
  "Private Equity:hig:309": {
   "practice": "Private Equity",
@@ -9040,7 +9096,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Minneapolis, MN"
  },
  "Private Equity:hig:310": {
   "practice": "Private Equity",
@@ -9066,7 +9124,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:311": {
   "practice": "Private Equity",
@@ -9081,9 +9141,12 @@
   },
   "evidence_source": "signal",
   "company_url": "https://hig.com/portfolio/strada/",
-  "test1": "not read: third spent",
+  "test1": "no Florida address on the company’s own page",
   "test2": "absent from all files",
-  "band": null,
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  },
   "status": "proposed — unconfirmed",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
@@ -9092,7 +9155,25 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Miami, FL",
+  "routes_tried": [
+   {
+    "route": "sponsor entry link",
+    "host": "https://stradaglobal.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://stradaglobal.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "People, Payroll and Technology Solutions | Strada Global Strada Strada",
+   "whole_name": "strada",
+   "construction": "direct"
+  },
+  "test1_pass": false,
+  "test5": "no reachable channel with source and date"
  },
  "Private Equity:hig:312": {
   "practice": "Private Equity",
@@ -9118,7 +9199,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Richardson, TX"
  },
  "Private Equity:hig:313": {
   "practice": "Private Equity",
@@ -9133,10 +9216,13 @@
   },
   "evidence_source": "signal",
   "company_url": "https://hig.com/portfolio/sts-aviation-group/",
-  "test1": "not read: third spent",
+  "test1": "Florida operating address on https://stsaviationgroup.com/ · read 2026-10-31",
   "test2": "absent from all files",
-  "band": null,
-  "status": "proposed — unconfirmed",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  },
+  "status": "site proved; passes tests 1, 2 and 5; held size-unsourced",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/sts-aviation-group/",
@@ -9144,7 +9230,25 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Jensen Beach, FL",
+  "routes_tried": [
+   {
+    "route": "sponsor entry link",
+    "host": "https://stsaviationgroup.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://stsaviationgroup.com/",
+  "site_proof": {
+   "where": "title",
+   "span": "Total Aircraft Maintenance Solutions by STS Aviation Group",
+   "whole_name": "sts aviation group",
+   "construction": "direct"
+  },
+  "test1_pass": true,
+  "test5": "address"
  },
  "Private Equity:hig:314": {
   "practice": "Private Equity",
@@ -9170,7 +9274,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Phoenix, AZ"
  },
  "Private Equity:hig:315": {
   "practice": "Private Equity",
@@ -9196,7 +9302,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Nashville, TN"
  },
  "Private Equity:hig:316": {
   "practice": "Private Equity",
@@ -9222,7 +9330,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Brentwood, TN"
  },
  "Private Equity:hig:317": {
   "practice": "Private Equity",
@@ -9248,7 +9358,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:318": {
   "practice": "Private Equity",
@@ -9274,7 +9386,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "New York, NY"
  },
  "Private Equity:hig:319": {
   "practice": "Private Equity",
@@ -9300,7 +9414,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Arlington, VA"
  },
  "Private Equity:hig:320": {
   "practice": "Private Equity",
@@ -9326,7 +9442,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:321": {
   "practice": "Private Equity",
@@ -9352,7 +9470,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Rensselaer, NY"
  },
  "Private Equity:hig:322": {
   "practice": "Private Equity",
@@ -9378,7 +9498,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "San Mateo, CA"
  },
  "Private Equity:hig:323": {
   "practice": "Private Equity",
@@ -9404,7 +9526,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:324": {
   "practice": "Private Equity",
@@ -9430,7 +9554,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Los Angeles, CA"
  },
  "Private Equity:hig:325": {
   "practice": "Private Equity",
@@ -9456,7 +9582,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Syracuse, NY"
  },
  "Private Equity:hig:326": {
   "practice": "Private Equity",
@@ -9482,7 +9610,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:327": {
   "practice": "Private Equity",
@@ -9508,7 +9638,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Asheville, NC"
  },
  "Private Equity:hig:328": {
   "practice": "Private Equity",
@@ -9534,7 +9666,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Pearland, TX"
  },
  "Private Equity:hig:329": {
   "practice": "Private Equity",
@@ -9560,7 +9694,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:330": {
   "practice": "Private Equity",
@@ -9586,7 +9722,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:331": {
   "practice": "Private Equity",
@@ -9612,7 +9750,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Minneapolis, MN"
  },
  "Private Equity:hig:332": {
   "practice": "Private Equity",
@@ -9638,7 +9778,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "New York, NY"
  },
  "Private Equity:hig:333": {
   "practice": "Private Equity",
@@ -9664,7 +9806,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:334": {
   "practice": "Private Equity",
@@ -9690,7 +9834,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Pittsburgh, PA"
  },
  "Private Equity:hig:335": {
   "practice": "Private Equity",
@@ -9716,7 +9862,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Phoenix, AZ"
  },
  "Private Equity:hig:336": {
   "practice": "Private Equity",
@@ -9742,7 +9890,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Milwaukee, Wisconsin"
  },
  "Private Equity:hig:337": {
   "practice": "Private Equity",
@@ -9768,7 +9918,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Waco, TX"
  },
  "Private Equity:hig:338": {
   "practice": "Private Equity",
@@ -9794,7 +9946,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:339": {
   "practice": "Private Equity",
@@ -18007,7 +18161,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Jack Brown’s acquired by Florida investment firm - Cville Right Now",
@@ -18042,7 +18196,8 @@
    {
     "route": "derived host",
     "host": "https://www.jackbrowns.com/",
-    "outcome": "resolved but failed the proof"
+    "outcome": "refused (challenge) — re-runnable",
+    "restated": "window twelve: a challenge screen, not a page (fault 54)"
    },
    {
     "route": "derived host",
@@ -18067,7 +18222,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Florida Sports Ownership Company Acquires Controlling Interest Of Havoc - Huntsville Business Journal",
@@ -18102,7 +18257,8 @@
    {
     "route": "derived host",
     "host": "https://www.havoc.com/",
-    "outcome": "resolved but failed the proof"
+    "outcome": "refused (challenge) — re-runnable",
+    "restated": "window twelve: a challenge screen, not a page (fault 54)"
    }
   ]
  },
@@ -18215,7 +18371,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "CenterWell completes acquisition of MaxHealth in Florida - The Lane Report",
@@ -18505,7 +18661,7 @@
   "test1": null,
   "test2": "absent from all files",
   "band": null,
-  "status": "no site found by any route (routes tried on the row) — held; this is a fact about the guesses, not about the company",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "tests_3_4": null,
   "date_field": "JSON-LD datePublished",
   "feed_title": "Synergos Companies Expands into Florida with Acquisition of ODC Construction - PR Newswire",
@@ -19581,7 +19737,7 @@
   "query": "\"Florida\" \"private equity\" acquires",
   "precondition_span": "Agellus-backed HighGrove Partners acquires",
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "naming": {
    "headline": "Agellus-backed HighGrove Partners acquires O&A Landscaping in Florida",
    "pattern_set": "v3",
@@ -19733,7 +19889,7 @@
   "query": "\"Miami\" company names CFO",
   "precondition_span": "Palm Beach Gardens Medical Center Names",
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "naming": {
    "headline": "Palm Beach Gardens Medical Center Names Marko Serrano as Chief Financial Officer",
    "pattern_set": "v3",
@@ -19879,7 +20035,7 @@
   "query": "\"Miami\" company acquired",
   "precondition_span": "acquires InterContinental Miami",
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "naming": {
    "headline": "Gencom-led group acquires InterContinental Miami",
    "pattern_set": "v3",
@@ -20018,7 +20174,7 @@
   "query": "\"Tampa\" company acquired",
   "precondition_span": "Westshore Grand Hotel Acquire",
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "naming": {
    "headline": "Westshore Grand Hotel Acquired by Tampa Developer, Major Renovations Planned",
    "pattern_set": "v3",
@@ -20208,7 +20364,7 @@
   "query": "\"West Palm Beach\" company acquired",
   "precondition_span": "Marshall Goldman Acquires",
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "naming": {
    "headline": "Marshall Goldman Acquires Marino Performance Motors, Expands into Florida",
    "pattern_set": "v3",
@@ -20329,7 +20485,7 @@
   "query": "\"Pensacola\" company acquired",
   "precondition_span": "Bowden Companies Acquires",
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "naming": {
    "headline": "Bowden Companies Acquires 200-Unit Pensacola Apartment Community, Rebrands It as The Maren",
    "pattern_set": "v3",
@@ -20455,7 +20611,7 @@
   "query": "\"West Palm Beach\" company names CFO",
   "precondition_span": "St. Mary’s Medical Center Names",
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "naming": {
    "headline": "St. Mary’s Medical Center Names Romaine Layne as its Chief Financial Officer",
    "pattern_set": "v3",
@@ -20490,7 +20646,8 @@
    {
     "route": "derived host",
     "host": "https://www.stmarysmedicalcenter.com/",
-    "outcome": "resolved but failed the proof"
+    "outcome": "refused (challenge) — re-runnable",
+    "restated": "window twelve: a challenge screen, not a page (fault 54)"
    },
    {
     "route": "derived host",
@@ -20708,7 +20865,7 @@
   "query": "\"Sarasota\" company names CFO",
   "precondition_span": "Florida Digestive Health Specialists Names",
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "naming": {
    "headline": "Florida Digestive Health Specialists Names New CFO",
    "pattern_set": "v3",
@@ -20738,12 +20895,14 @@
    {
     "route": "article link",
     "host": "https://fdhs.com/",
-    "outcome": "resolved but failed the proof"
+    "outcome": "refused (challenge) — re-runnable",
+    "restated": "window twelve: a challenge screen, not a page (fault 54)"
    },
    {
     "route": "derived host",
     "host": "https://www.floridadigestivehealthspecialists.com/",
-    "outcome": "resolved but failed the proof"
+    "outcome": "refused (challenge) — re-runnable",
+    "restated": "window twelve: a challenge screen, not a page (fault 54)"
    },
    {
     "route": "derived host",
@@ -20767,7 +20926,7 @@
   "query": "\"Sarasota\" company names CFO",
   "precondition_span": "Door Maker Names",
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "naming": {
    "headline": "Venice Window and Door Maker Names New Chief Financial Officer",
    "pattern_set": "v3",
@@ -20803,7 +20962,8 @@
    {
     "route": "derived host",
     "host": "https://www.door-maker.com/",
-    "outcome": "resolved but failed the proof"
+    "outcome": "refused (challenge) — re-runnable",
+    "restated": "window twelve: a challenge screen, not a page (fault 54)"
    }
   ]
  },
@@ -20937,7 +21097,7 @@
   "query": "Florida multi-site retail company acquired",
   "precondition_span": "Fort Myers sold",
   "evidence_source": "signal",
-  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "status": "refused (re-runnable) — restated from “no site found by any route” (fault 54)",
   "naming": {
    "headline": "Closed Sears store in Fort Myers sold to company in Hong Kong",
    "pattern_set": "v3",
@@ -21110,6 +21270,573 @@
     {
      "position": "headline",
      "span": "HCA Florida Putnam Hospital Announces New Chief Financial Officer"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w12:700": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w12",
+  "company": "S.E",
+  "signal": {
+   "sentence": "Cline Construction The acquired Florida operations include approximately 60 employees and a rail-served, permitted hot-mix asphalt plant site in Bunnell.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM3ctZ1NkV3pRQm1jZWc1cXdZMnB0Rl9WZXZIeVdTc19idGt6LTAxOTVseDlNc3hJanZRb2h2Mmc5TUZoZnBlOGh5YzNMS3o0NVlERDN2X1RhbHRQUjhjSEZSVkVzNTVOeDF2ZFRBZHZyVGF1Z1M2Skh0Q3BCTkdHNUluNi0wOUpwQVBDQUM4d1lSbWlxNnFrTU1OOXBHZThKMXVuZHBzaHUzd3dBV2xfa2NTNjE?oc=5",
+   "published": "2026-10-19",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "A Florida acquisition brings about 60 employees to Construction Partners (ROAD). - Stock Titan",
+  "query": "Florida events company acquired",
+  "precondition_span": "A Florida acquisition",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "A Florida acquisition brings about 60 employees to Construction Partners (ROAD).",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Daytona Beach",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": " the transaction builds on its acquisition of P&S Paving in Daytona Beach last year and extends its presence alon",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "S.E",
+   "acquirer": "Construction Partners",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Construction Partners acquires S.E",
+    "position": "article sentence 1"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Construction Partners acquires S.E",
+    "position": "article sentence 1"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Construction Partners",
+  "city": "Daytona Beach",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.se.com/",
+    "outcome": "resolved but failed the proof"
+   }
+  ]
+ },
+ "Fractionals:gnews_rss_w12:701": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w12",
+  "company": "Lakeland Dairies",
+  "signal": {
+   "sentence": " Lakeland Dairies names McAllister as new CFO skip to main content Your browser does not support Javascript.",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdXhGcEg1aF9IN2g5c2pmVURQX3ROMHZiMWFTaUo2ZkZ0UmlKdUNpR2dtR1QtcUkydFhDa0FleFBpTzFENkdXMXFESVc4VXlFYXhsN0xpdzUtVHhHQkdhbXBXblFlYUpkU0FHRWg3NnEzYWVsNVVacW9xcUdqblpsbENn?oc=5",
+   "published": "2024-03-11",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Lakeland Dairies names McAllister as new CFO - RTE.ie",
+  "query": "\"Lakeland\" company names CFO",
+  "precondition_span": "Lakeland Dairies names",
+  "evidence_source": "signal",
+  "status": "refused on a route (re-runnable) — not an absence",
+  "naming": {
+   "headline": "Lakeland Dairies names McAllister as new CFO",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Lakeland",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Lakeland Dairies names McAllister as new CFO",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Lakeland Dairies",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "Lakeland Dairies names McAllister as new CFO",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": null,
+  "city": "Lakeland",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.lakelanddairies.com/",
+    "outcome": "refused (503)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.lakeland-dairies.com/",
+    "outcome": "refused (503)"
+   }
+  ]
+ },
+ "Fractionals:gnews_rss_w12:702": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w12",
+  "company": "HCA FLORIDA WOODMONT HOSPITAL",
+  "signal": {
+   "sentence": " HCA FLORIDA WOODMONT HOSPITAL NAMES NEW CHIEF FINANCIAL OFFICER - Florida Hospital News and Healthcare Report Home SF STAT!",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZmxsd1REeHFUSVhkWlFNNjJxcFY3RnVFdUEydGRsQXFNUjdPVkYyWFg4VWFyRzl0eXBOUGFXSndKSEwwenV1SlhkamFSNXk4cnNfdndfNVhoZEl3ejQ5QTdhWHlZeFl4WFg5bVdyWmIydHVGdTFIVUN1dnBjZXJrS3g2WjlMLTk0dVN3Uk9BTW80bW1zQTNKZTJZNDBKQUJxX0dJN0p6MV8yTk1XMjRPZkhn?oc=5",
+   "published": "2023-10-05",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "HCA FLORIDA WOODMONT HOSPITAL NAMES NEW CHIEF FINANCIAL OFFICER - Florida Hospital News and Healthcare Report",
+  "query": "\"Ocala\" company names CFO",
+  "precondition_span": "HCA FLORIDA WOODMONT HOSPITAL NAMES",
+  "evidence_source": "signal",
+  "status": "refused on a route (re-runnable) — not an absence",
+  "naming": {
+   "headline": "HCA FLORIDA WOODMONT HOSPITAL NAMES NEW CHIEF FINANCIAL OFFICER",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Ocala",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "erving as Assistant Chief Financial Officer for HCA Florida Ocala Hospital and HCA Florida West Marion Ho",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "HCA FLORIDA WOODMONT HOSPITAL",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "HCA FLORIDA WOODMONT HOSPITAL NAMES NEW CHIEF FINANCIAL OFFICER",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": true
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": null,
+  "city": "Ocala",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://boardroompr.com?utm_source=hospital+news&amp;utm_medium=web/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.hcafloridawoodmonthospital.com/",
+    "outcome": "refused (503)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.hca-florida-woodmont-hospital.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Fractionals:gnews_rss_w12:703": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w12",
+  "company": "Altitude Water",
+  "signal": {
+   "sentence": " Altitude Water Names Branden Riley COO and Robbye Rapp CFO as South Florida Manufacturing Expands | citybiz Skip to content citybiz Cities Atlanta Baltimore Boston Charlotte Raleigh Chicago Cleveland Dallas Denver Detroit Global Houston Indianapolis Los Angeles New York Philadelphia Phoenix Pittsburgh Portland San Diego San Francisco Seattle South Florida Washington DC Channels Q&A citybiz+ Peopl",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcnhGM1FqcC04akpIaVJVZjlwTzZjbk9wRVQzbFdUblp6cTc4eGN5Rk9ic3ZKNGtoUjF1S1NzNGE2LWJNaUFDRVpfUEUxaUZLWGpqeTViR1l4V21CU0FRUUFKekx3REpCZXBPZFRpLXhFR25yTkc5Sk5CX2NScHFleTU5QVJsTkpkdU9yOHNUYjdvZjhfYUQwODZ3emhxY3BVbTY1T09adzBjZURZUlVjUjB1MFg0ZE5BRHpOeXQtamFpUVAzbzRETlRBTGU1dU1aUWc?oc=5",
+   "published": "2026-08-26",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Altitude Water Names Branden Riley COO and Robbye Rapp CFO as South Florida Manufacturing Expands - citybiz",
+  "query": "Florida manufacturing company names CFO",
+  "precondition_span": "Altitude Water Names",
+  "evidence_source": "signal",
+  "status": "site proved (article link); passes tests 1, 2 and 5; held size-unsourced",
+  "naming": {
+   "headline": "Altitude Water Names Branden Riley COO and Robbye Rapp CFO as South Florida Manufacturing Expands",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "Altitude Water",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "Altitude Water Names Branden Riley COO",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": false
+  },
+  "company_named": true,
+  "acquirer": null,
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://altitudewaterusa.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://altitudewaterusa.com/",
+  "site_route": "article link",
+  "site_proof": {
+   "where": "title",
+   "span": "Atmospheric Water Generator | Altitude Water",
+   "whole_name": "altitude water",
+   "construction": "direct"
+  },
+  "test1": "Florida operating address on https://altitudewaterusa.com/ · read 2026-10-31",
+  "test1_pass": true,
+  "test5": "phone",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  }
+ },
+ "Fractionals:gnews_rss_w12:704": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w12",
+  "company": "Florida Food Products",
+  "signal": {
+   "sentence": " Florida Food Products Names Kevin Neat Chief Financial Officer - Food Industry Executive ",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTDgtRE8yakktZ0hqYmR0OHA4MXJzR3RHR0o5ZUpTSzJRREJkcF9pMUNiUFl3ZHBlYXItWk1VMmtOSWpGSWRCVDZQSVAxbzdoYlU0SE1UQVZwWXl1a3N6bHhNLVppTGV2ajQ3WDdRRDdOblh4VHk5TElnQ0JUM1lhVnc3eHdFelBTcmRLZkh4al9SbDFJSDNVNDlYSmxUdTU3WWJCV3VGLU0?oc=5",
+   "published": "2023-05-08",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Florida Food Products Names Kevin Neat Chief Financial Officer - Food Industry Executive",
+  "query": "Florida manufacturing company names CFO",
+  "precondition_span": "Florida Food Products Names",
+  "evidence_source": "signal",
+  "status": "site proved (derived host); test 1 failed: no Florida address on the company’s own page",
+  "naming": {
+   "headline": "Florida Food Products Names Kevin Neat Chief Financial Officer",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "Florida Food Products",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "Florida Food Products Names Kevin Neat Chief Financial Officer",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": false
+  },
+  "company_named": true,
+  "acquirer": null,
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.floridafoodproducts.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://www.floridafoodproducts.com/",
+  "site_route": "derived host",
+  "site_proof": {
+   "where": "main heading",
+   "span": "floridafoodproducts.com",
+   "whole_name": "florida food products",
+   "construction": "direct"
+  },
+  "test1": "no Florida address on the company’s own page",
+  "test1_pass": false,
+  "test5": "no reachable channel with source and date",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  }
+ },
+ "Private Equity:gnews_rss_w12:705": {
+  "practice": "Private Equity",
+  "source": "gnews_rss_w12",
+  "company": "Florida Food",
+  "signal": {
+   "sentence": " Ardian Acquires Majority Stake in Florida Food Intelligence for the Dealmaking Community since 1965 Intelligence for the Dealmaking Community since 1965 M&A Magazine login Become a member Private Equity Strategics & Family Offices Bankers & Advisors Lenders & Private Credit Sector M&A Sector M&A Aerospace Business Services Construction Consumer Goods Cybersecurity Energy Financial Services Food &",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTVU5VmNlM2cxZXZ3aHE4Mlc3UWVuMVZKR3pkMjM1MmFnNDJ6VW16Q3FsU3lFVFZTYXFHeXdPSk1pZ281ZWRFSl9VMFRRTkJfYlRQanhBR1RiQ180b0FaZ29qU1doUHY0MWlIcWlVeGZiNnJqTjFyTXdIYlNzaHEtbjJQc3hfNDFDX09xVUZFUU1ISEYzX2Q4?oc=5",
+   "published": "2021-09-21",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Ardian Acquires Majority Stake in Florida Food - themiddlemarket.com",
+  "query": "Florida food and beverage \"private equity\" platform",
+  "precondition_span": "Ardian Acquires",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Ardian Acquires Majority Stake in Florida Food",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "Florida Food",
+   "acquirer": "Ardian",
+   "name_extraction": {
+    "pattern": "{acquirer} takes/acquires a stake in {company}",
+    "span": "Ardian Acquires Majority Stake in Florida Food",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} takes/acquires a stake in {company}",
+    "span": "Ardian Acquires Majority Stake in Florida Food",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Ardian",
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.floridafood.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.florida-food.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Fractionals:gnews_rss_w12:706": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w12",
+  "company": "",
+  "signal": {
+   "sentence": "Pete Beach, Florida | Hotel Online Skip to main content News Property News Acquisitions All Things Independent Appointments Architecture & Design Brand News Hotel Development Hotel Management New Hotel Openings Renovations & Rebranding Operations & Technology Amenities Artificial Intelligence Back Office F&B FF&E Future-Proofing Guest Experience Group Travel Housekeeping Industry Trends Labor & Em",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVWkzR0czZHBkcDZ5RUhlcWpFdzVicm5BVWJpXzB1RTA1OVhFcW5tSXM0TXI5YUVQdUdJc2dYSmliUnhRaW5WZFNBUmktVHFSbkxZb042OE5nRGplUV9iUE1uSTBJYkRwaDdmM2tNSlBtTDNLd2I5dFRlTDl3N1VfRlVJLTJKMjdmd1pzTWgySjBoTlh1TzFNWkJ5a2VqUFp1RnNocUdtVXVJOEdQaHJITXo4WWRYYXhUVE9IRzdabWJSTzVubm1tVndFWElFVTNJYVI4eUd2cTZqM1FMMkE?oc=5",
+   "published": "2019-08-02",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "BENCHMARK Names Jim Koutsky Director of Finance for Grand Plaza Hotel and The Beachcomber, St. Pete Beach, Florida - Hotel Online",
+  "query": "Florida food and beverage company names CFO",
+  "precondition_span": "BENCHMARK Names",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "BENCHMARK Names Jim Koutsky Director of Finance for Grand Plaza Hotel and The Beachcomber, St. Pete Beach, Florida",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Tampa",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "pter is underway at Saddlebrook Resort, the iconic 480-acre Tampa Bay-area destination known for world-cl",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "BENCHMARK"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "BENCHMARK Names Jim Koutsky Director of Finan"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w12:707": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w12",
+  "company": "",
+  "signal": {
+   "sentence": " Midtown Capital Partners acquires Orlando industrial portfolio for $56.1M Skip to main content JLL Logo JLL Logo United States keyboard_arrow_down search Contact us menu Properties Services Technology People Insights Industries About JLL Client stories Careers News Investor relations search Search menu Menu Home chevron_right Newsroom 09 July 2026 News release 09 July 2026 Midtown Capital Partner",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYlJUS2x4dWFBeHBsaFVyVWJqT0NXc2RzQzF2NHV0VE82Um9BS2xuY1pXTzhsczNNR00wcHBqek05Ym5kNzRWcFBfZnRfSmhtUGZncTBoejNGM01RUlJJOHE5Q3U4OVQ3a1hYS0xTNXMtR19ta3RacUNvMGg1ZjBuemZnMkNNeE94SjBwVlVjTTNzLW5MWDNSMHVmM0I0Zw?oc=5",
+   "published": "2026-07-09",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Midtown Capital Partners acquires Orlando industrial portfolio for $56.1M - JLL",
+  "query": "\"Orlando\" manufacturing company acquires",
+  "precondition_span": "Midtown Capital Partners acquires",
+  "evidence_source": "signal",
+  "status": "rejected: span not a company — Orlando industrial portfolio",
+  "naming": {
+   "headline": "Midtown Capital Partners acquires Orlando industrial portfolio for $56.1M",
+   "pattern_set": "v3",
+   "article_text_field": "<main> element",
+   "city": "Orlando",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Midtown Capital Partners acquires Orlando industrial portfolio for $56.1M",
+    "position": "headline"
+   },
+   "state": "rejected: span not a company",
+   "rejected": true,
+   "span_taken": "Orlando industrial portfolio",
+   "acquirer": "Midtown Capital Partners",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Midtown Capital Partners acquires Orlando industrial portfolio",
+    "position": "headline"
+   },
+   "why": "the matched span is not a company name (division, facility, unit, campus, firm or generic description)"
+  }
+ },
+ "Fractionals:gnews_rss_w12:708": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w12",
+  "company": "",
+  "signal": {
+   "sentence": " HCA Florida Lake City Hospital announces Kim Williams as CFO - Florida Hospital News and Healthcare Report Home SF STAT!",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcUI2M01XNWxHU1NVbFVuRnhSZ1BLdFdOZmhOMlFJY3V1SHluMjJKdFlRLXJSam1FSlZCSHR0b01uaTFGUHgxY1o5cmY2SXFKWEYyejA1M0FaZTB5RF9sY1hrTU1tU08zbm03UVNzbm1jZnNrajFWNWpOQ1hMbDhjMGR5Q2t2WldyaDEwOHVVWmZsR0N3OGd5MW0zWGd6cUZIWk41ZEt6cU43RW8tZkE?oc=5",
+   "published": "2024-04-13",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "HCA Florida Lake City Hospital announces Kim Williams as CFO - Florida Hospital News and Healthcare Report",
+  "query": "Florida transportation logistics company names CFO",
+  "precondition_span": "HCA Florida Lake City Hospital announces",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "HCA Florida Lake City Hospital announces Kim Williams as CFO",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "HCA Florida Lake City Hospital"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "HCA Florida Lake City Hospital announces Kim Williams as CFO"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w12:709": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w12",
+  "company": "",
+  "signal": {
+   "sentence": " Bluecrest Capital Acquires 226,500 SF Flex Development in Jacksonville, Plans Industrial Conversion - REBusinessOnline Home News by Region Midwest Northeast Southeast Texas Western News by State Market Reports News by Sector Retail Restaurant Net Lease Mixed-Use Industrial Data Centers Office Multifamily Affordable Housing Single-Family Rental Build-to-Rent Seniors Housing Student Housing Healthc",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcXVIbFJXR3JwbWl0T0xySEd4YjUzdWJXN2h3b0lfZWY4ZjE4N2dDUm9rTWZRZGJDYXI5RG85RlFySEZQT0NxMTRDM3p2WGx1c0pQa2lndjhPRlZ4d3dNQ29PVmJ3ZHVmMkNlZDgxYUR1NVU1ZmxzOGR0QWF2bE9KTko3T2lmMHdQMkVkUDlNSnRSUGM1cU9aZXZxYjQ5S20wai0zbHIwTTJwMFZuWU40a3l2MUVrNlNHbEx0R2Vid3RHMTRya1E?oc=5",
+   "published": "2026-08-17",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Bluecrest Capital Acquires 226,500 SF Flex Development in Jacksonville, Plans Industrial Conversion - REBusinessOnline",
+  "query": "\"Jacksonville\" manufacturing company acquires",
+  "precondition_span": "Bluecrest Capital Acquires",
+  "evidence_source": "signal",
+  "status": "bind disputed — held",
+  "naming": {
+   "headline": "Bluecrest Capital Acquires 226,500 SF Flex Development in Jacksonville, Plans Industrial Conversion",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Jacksonville",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Bluecrest Capital Acquires 226,500 SF Flex Development in Jacksonville, Plans Industrial Conversion",
+    "position": "headline"
+   },
+   "state": "bind disputed",
+   "headline_bind": {
+    "company": "226",
+    "acquirer": "Bluecrest Capital",
+    "name_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Bluecrest Capital Acquires 226",
+     "position": "headline"
+    },
+    "acquirer_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Bluecrest Capital Acquires 226",
+     "position": "headline"
+    }
+   },
+   "body_bind": {
+    "company": "226",
+    "acquirer": "Acquisitions Development Florida Industrial Loans Southeast Bluecrest Capital",
+    "name_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Acquisitions Development Florida Industrial Loans Southeast Bluecrest Capital Acquires 226",
+     "position": "article sentence 2"
+    },
+    "acquirer_extraction": {
+     "pattern": "{acquirer} acquire(s) {company}",
+     "span": "Acquisitions Development Florida Industrial Loans Southeast Bluecrest Capital Acquires 226",
+     "position": "article sentence 2"
+    }
+   }
+  }
+ },
+ "Fractionals:gnews_rss_w12:710": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w12",
+  "company": "",
+  "signal": {
+   "sentence": " Florida Tech Names Marsha Bewersdorf Senior VP of Finance, CFO - Florida Tech News+ Search Search All News Academics & Research Campus & Community Panther Bites Expert Directory All News Academics & Research Campus & Community Panther Bites Expert Directory Florida Tech Names Marsha Bewersdorf Senior VP of Finance, CFO Adam Lowenstein February 1, 2019 2 Mins Read Marsha Bewersdorf is Florida Tech",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSXVkZ2xJbDZxMEV3QVZ5MGh3VWRuNUc3bjhSUnVOY280ZVZlSTZ5NldhOEUxd3pkVXc4bGRWUFFsOHZ0MURydUtjTmxuNVoxclhNLUwyTVlDQ0VfMUxMczVtZ29HM0dFV01PU3haNC1zNmQ0VURHYW4zdmwtMnVDVzlmMGhqZlBWZ20tTm1XTGtlQUFJZ1E?oc=5",
+   "published": "2019-02-01",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Florida Tech Names Marsha Bewersdorf Senior VP of Finance, CFO - Florida Tech News",
+  "query": "Florida field services company names CFO",
+  "precondition_span": "Florida Tech Names",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Florida Tech Names Marsha Bewersdorf Senior VP of Finance, CFO",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "Florida Tech"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "Florida Tech Names Marsha Bewersdorf Senior VP o"
     }
    ]
   }

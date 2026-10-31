@@ -5,7 +5,7 @@
  "ceiling_note": "200 reads per day is the Chair's ruled figure, assumed, not measured; every report citing it says so",
  "kill_switch": "bot-kill",
  "kill_switch_note": "a file named bot-kill in the working directory halts the run before the next read; the audit log is intact to the halt",
- "audit_log": "florida100-window11-log.jsonl",
+ "audit_log": "florida100-window12-log.jsonl",
  "write_fence": [
   "addr_found",
   "bot_note",
@@ -18,7 +18,7 @@
   "how_it_is_reversed": "delete the queue file; the audit log records every read so the same rows are not re-read within the window"
  },
  "window": {
-  "ruled": "window eleven (Chair): property and publisher repairs; directory remainder; unspent revenue routes for six; discovery to the ceiling; decision point at close",
-  "launch_utc": "2026-10-31T00:00:10.432079+00:00"
+  "ruled": "window twelve (Chair): fault 54 first; restatement; fault 52; rename case; H.I.G. re-run; Google News resumed; discovery to the ceiling",
+  "launch_utc": "2026-10-31T00:46:18.950437+00:00"
  }
 }
