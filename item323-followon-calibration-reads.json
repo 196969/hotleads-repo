@@ -1,0 +1,68 @@
+[
+ {
+  "n": 1,
+  "route": 0,
+  "row": "calibration-v3",
+  "kind": "search",
+  "reader": "ddg-html-post-v3",
+  "url": "https://html.duckduckgo.com/html/ q=\"Refricenter\" Miami",
+  "date": "2026-10-31",
+  "status": 200,
+  "bytes": 28760,
+  "outcome": "results",
+  "results": [
+   "https://refricenter.net/",
+   "https://refricenter.net/locations.asp",
+   "https://www.mapquest.com/us/florida/refricenter-miami-4407476",
+   "https://www.yellowpages.com/miami-fl/mip/refricenter-of-miami-12182344",
+   "https://www.chamberofcommerce.com/united-states/florida/miami/hvac-contractor/3447507-refri-center",
+   "https://www.facebook.com/RefricenterOfMiami/",
+   "https://www.yelp.com/biz/refricenter-miami-miami-4",
+   "https://www.yelp.com/biz/refricenter-miami-miami-5",
+   "https://naicslist.com/company-profile/refricenter-of-miami-miami-fl-33166",
+   "https://www.loc8nearme.com/florida/miami/refricenter-international/8038540/"
+  ],
+  "secs": 0.61
+ },
+ {
+  "n": 2,
+  "route": 0,
+  "row": "calibration-v3",
+  "kind": "search",
+  "reader": "ddg-html-post-v3",
+  "url": "https://html.duckduckgo.com/html/ q=\"zqxjvkwpl qxzvbn\" florida",
+  "date": "2026-10-31",
+  "status": 200,
+  "bytes": 9335,
+  "outcome": "empty",
+  "results": [],
+  "secs": 0.55
+ },
+ {
+  "route": 0,
+  "row": "calibration-probe (unlogged raw request, logged after the fact)",
+  "kind": "search",
+  "url": "https://html.duckduckgo.com/html/ q=\"Quirch Foods\" Coral Gables",
+  "date": "2026-10-31",
+  "status": 200,
+  "outcome": "results (10)"
+ },
+ {
+  "route": 0,
+  "row": "calibration-probe (unlogged raw request, logged after the fact)",
+  "kind": "search",
+  "url": "https://html.duckduckgo.com/html/ q=\"zqxjvkwpl qxzvbn\" florida",
+  "date": "2026-10-31",
+  "status": 200,
+  "outcome": "empty (no-results marker)"
+ },
+ {
+  "route": 0,
+  "row": "calibration-probe (unlogged raw request, logged after the fact)",
+  "kind": "search",
+  "url": "https://html.duckduckgo.com/html/ q=\"Coosemans Philadelphia\" Pennsylvania owner",
+  "date": "2026-10-31",
+  "status": 200,
+  "outcome": "results (10) — NOT used on row #46 (ruling 2: search form, no new reads)"
+ }
+]

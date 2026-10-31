@@ -1,0 +1,508 @@
+{
+ "item": "323 follow-on",
+ "date": "2026-10-31",
+ "ceiling": 100,
+ "route1_ceiling_within": 40,
+ "reader": "v3 (four outcomes: results · empty · refused · unclassified)",
+ "reads": {
+  "spent": 69,
+  "route1": 28,
+  "route3": 41,
+  "void": 12,
+  "void_split": {
+   "refused": 10,
+   "empty": 2
+  }
+ },
+ "routes": {
+  "1": {
+   "attempted": 24,
+   "sourced": 1,
+   "rate": "1/24 = 4.2%",
+   "reads": 28,
+   "reads_per_sourced_row": 28.0,
+   "directories_probed": 4,
+   "directories_refused": 3
+  },
+  "3": {
+   "attempted": 24,
+   "sourced": 0,
+   "rate": "0/24 = 0.0%",
+   "reads": 41,
+   "reads_per_row_actual": "41/24 = 1.7",
+   "reads_per_row_estimate": "48/24 = 2.0",
+   "press_rule": "(?i)news|press|journal|times|bizjournals|prnewswire|businesswire|globenewswire|newswire|magazine|today|daily|post|herald|tribune|gazette|sentinel|insider|digest|review|report|wire|media|week|trade|industry|supplymarket|freightwaves|foodlogistics|thepacker|producenews|beverage|marine|aviation|trucking|hvac|achr"
+  }
+ },
+ "all_four_routes_whole_sample": {
+  "4": "7/24 29.2%",
+  "1": "1/24 4.2%",
+  "2": "1/24 4.2%",
+  "3": "0/24 0.0%",
+  "control": "Item 322 company pages 10/57 17.5%"
+ },
+ "contact_field_all_routes": {
+  "single_route": 7,
+  "agreed": 0,
+  "resolved_by_precedence": 1,
+  "disputed_unresolved": 0
+ },
+ "written": [
+  {
+   "row": "Sunshine Bouquet (florida.html #10)",
+   "number": "(732) 274-2900",
+   "src": "Src: read safnow.org/member-directory/wholesaler/sunshine-bouquet-company-miami-fl 2026-10-31",
+   "note": "single route; replaces the unsourced (305) 599-9600; 732 is a New Jersey area code, recorded as read"
+  }
+ ],
+ "results": [
+  {
+   "route": 1,
+   "row": "Invicta Watch Group",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Quirch Foods",
+   "number": null,
+   "candidates": [],
+   "how": "directory npfda.org refused",
+   "src": null,
+   "directory": "npfda.org",
+   "refused": true,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "PJ Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Sunshine Bouquet",
+   "number": "(732) 274-2900",
+   "candidates": [
+    "(732) 274-2900"
+   ],
+   "how": "association page",
+   "src": "Src: read safnow.org/member-directory/wholesaler/sunshine-bouquet-company-miami-fl 2026-10-31",
+   "directory": "safnow.org",
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Turbana Corp",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "National Beverage (LaCroix)",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Refricenter",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "TruckMax",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Presidente Supermarkets",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "JM Family Enterprises",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "World Kinect",
+   "number": null,
+   "candidates": [],
+   "how": "search refused",
+   "src": null,
+   "refused": true,
+   "search_outcome": "refused"
+  },
+  {
+   "route": 1,
+   "row": "Great Bay Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "directory members.hempbeveragealliance.org refused",
+   "src": null,
+   "directory": "members.hempbeveragealliance.org",
+   "refused": true,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "J.J. Taylor Distributing FL",
+   "number": null,
+   "candidates": [],
+   "how": "search empty",
+   "src": null,
+   "search_outcome": "empty"
+  },
+  {
+   "route": 1,
+   "row": "Helios Technologies (Sun Hydraulics)",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Regal Boats",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Duda Farm Fresh Foods",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Sheltair Aviation",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Globe Trailers",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Trans-Phos",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Prime Line Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "directory my.afius.org refused",
+   "src": null,
+   "directory": "my.afius.org",
+   "refused": true,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "H&H Products Company",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Regal Marine Industries",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Conimar Corporation",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 1,
+   "row": "Alpha Foundations",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 3,
+   "row": "Invicta Watch Group",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "prnewswire.com"
+  },
+  {
+   "route": 3,
+   "row": "Quirch Foods",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "live5news.com"
+  },
+  {
+   "route": 3,
+   "row": "PJ Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no trade-press result in the search results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 3,
+   "row": "Sunshine Bouquet",
+   "number": null,
+   "candidates": [],
+   "how": "no trade-press result in the search results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 3,
+   "row": "Turbana Corp",
+   "number": null,
+   "candidates": [],
+   "how": "no trade-press result in the search results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 3,
+   "row": "National Beverage (LaCroix)",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "usearch.com"
+  },
+  {
+   "route": 3,
+   "row": "Refricenter",
+   "number": null,
+   "candidates": [],
+   "how": "outlet hvacinsider.com refused",
+   "src": null,
+   "outlet": "hvacinsider.com",
+   "refused": true
+  },
+  {
+   "route": 3,
+   "row": "TruckMax",
+   "number": null,
+   "candidates": [],
+   "how": "no trade-press result in the search results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 3,
+   "row": "Presidente Supermarkets",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "supermarketnews.com"
+  },
+  {
+   "route": 3,
+   "row": "JM Family Enterprises",
+   "number": null,
+   "candidates": [],
+   "how": "outlet bizjournals.com refused",
+   "src": null,
+   "outlet": "bizjournals.com",
+   "refused": true
+  },
+  {
+   "route": 3,
+   "row": "World Kinect",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "ir.worldfuel.com"
+  },
+  {
+   "route": 3,
+   "row": "Great Bay Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "outlet marketscreener.com refused",
+   "src": null,
+   "outlet": "marketscreener.com",
+   "refused": true
+  },
+  {
+   "route": 3,
+   "row": "J.J. Taylor Distributing FL",
+   "number": null,
+   "candidates": [],
+   "how": "search empty",
+   "src": null,
+   "search_outcome": "empty"
+  },
+  {
+   "route": 3,
+   "row": "Helios Technologies (Sun Hydraulics)",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "marketchameleon.com"
+  },
+  {
+   "route": 3,
+   "row": "Regal Boats",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "tradeonlytoday.com"
+  },
+  {
+   "route": 3,
+   "row": "Duda Farm Fresh Foods",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "dudafresh.com"
+  },
+  {
+   "route": 3,
+   "row": "Sheltair Aviation",
+   "number": null,
+   "candidates": [],
+   "how": "outlet generalaviationnews.com refused",
+   "src": null,
+   "outlet": "generalaviationnews.com",
+   "refused": true
+  },
+  {
+   "route": 3,
+   "row": "Globe Trailers",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "prnewswire.com"
+  },
+  {
+   "route": 3,
+   "row": "Trans-Phos",
+   "number": null,
+   "candidates": [],
+   "how": "no trade-press result in the search results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 3,
+   "row": "Prime Line Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "foodsafetynews.com"
+  },
+  {
+   "route": 3,
+   "row": "H&H Products Company",
+   "number": null,
+   "candidates": [],
+   "how": "outlet old.businessviewmagazine.com refused",
+   "src": null,
+   "outlet": "old.businessviewmagazine.com",
+   "refused": true
+  },
+  {
+   "route": 3,
+   "row": "Regal Marine Industries",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "incfact.com"
+  },
+  {
+   "route": 3,
+   "row": "Conimar Corporation",
+   "number": null,
+   "candidates": [],
+   "how": "no trade-press result in the search results",
+   "src": null,
+   "search_outcome": "results"
+  },
+  {
+   "route": 3,
+   "row": "Alpha Foundations",
+   "number": null,
+   "candidates": [],
+   "how": "outlet bizjournals.com refused",
+   "src": null,
+   "outlet": "bizjournals.com",
+   "refused": true
+  }
+ ]
+}

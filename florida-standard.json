@@ -7605,7 +7605,7 @@
  },
  "contact_sourcing_routes": {
   "item": "323",
-  "measured": "2026-10-31",
+  "measured": "2026-10-31 (Routes 2 and 4 in Part 1; Routes 1 and 3 in the follow-on, fresh 100-read ceiling)",
   "replaces": "the single company-page rate (Item 322: 10 of 57 rows, 17.5%, ~12 reads per sourced row) as the figure every market opens on",
   "sample": "24 of Florida’s 48 “source the number” rows, stratified by industry label, seed 323; every route on every row, no early exit; denominator 24 for every route",
   "routes": [
@@ -7616,9 +7616,33 @@
     "sourced": 7,
     "rate": "29.2%",
     "reads": 72,
-    "reads_per_sourced_row": "~10.3 (includes reads voided by the search-reader fault on 10 no-site rows)",
+    "reads_per_sourced_row": 10.3,
     "estimate": "~50 (measured basis, Item 322)",
-    "comparable": "whole sample — comparable with 17.5%; n=24, wide interval"
+    "void": "v1 site searches on 10 no-site rows (counted)"
+   },
+   {
+    "route": 1,
+    "name": "associations",
+    "attempted": 24,
+    "sourced": 1,
+    "rate": "4.2%",
+    "reads": 28,
+    "reads_per_sourced_row": 28.0,
+    "estimate": "40 (ceiling)",
+    "directories": {
+     "probed": 4,
+     "refused": 3,
+     "read": [
+      "safnow.org (sourced)"
+     ],
+     "refused_list": [
+      "npfda.org",
+      "members.hempbeveragealliance.org",
+      "my.afius.org"
+     ]
+    },
+    "void_this_run": "1 search refused, 1 search empty, 3 directory pages refused",
+    "prior_void": "24 reads in Part 1 (search reader v1)"
    },
    {
     "route": 2,
@@ -7626,39 +7650,33 @@
     "attempted": 24,
     "sourced": 1,
     "rate": "4.2%",
-    "reads": "29 valid (plus 24 voided)",
-    "reads_per_row_actual": "1.2",
-    "reads_per_row_estimate": "2.0 (est. 48)",
-    "comparable": "whole sample"
-   },
-   {
-    "route": 1,
-    "name": "associations",
-    "attempted": 0,
-    "sourced": null,
-    "rate": "unmeasured",
-    "reads": "24 voided",
-    "note": "search reader v1 returned results unrelated to the query; route not measured"
+    "reads": "29 valid",
+    "reads_per_row_actual": 1.2,
+    "reads_per_row_estimate": 2.0,
+    "void": "24 in Part 1 (v1)"
    },
    {
     "route": 3,
     "name": "trade press",
-    "attempted": 0,
-    "sourced": null,
-    "rate": "unmeasured",
-    "reads": "48 voided",
-    "reads_per_row_actual": "none valid",
-    "reads_per_row_estimate": "2.0 (est. 48)"
+    "attempted": 24,
+    "sourced": 0,
+    "rate": "0.0%",
+    "reads": 41,
+    "reads_per_row_actual": 1.7,
+    "reads_per_row_estimate": 2.0,
+    "reads_per_sourced_row": "none sourced",
+    "void_this_run": "1 search empty, 6 outlet pages refused",
+    "prior_void": "48 reads in Part 1 (search reader v1)"
    }
   ],
   "contact_field": {
-   "single_route": 6,
+   "single_route": 7,
    "routes_agreed": 0,
    "resolved_by_precedence": 1,
    "disputed_unresolved": 0,
-   "scope": "two measured routes only"
+   "scope": "all four routes"
   },
   "refusals": "19 Route 4 pages and 3 GrowthZone chamber pages refused one reader kind; not confirmed by a second",
-  "opening_use": "Texas, Georgia and the Carolinas open on Route 4 at 29.2% (7/24) and Route 2 at 4.2% (1/24); Routes 1 and 3 have no measured cost and must be measured before they are budgeted"
+  "opening_use": "Every new market opens on these four measured rates against the same 24-row denominator: Route 4 29.2%, Route 1 4.2%, Route 2 4.2%, Route 3 0.0% (Item 322 company-page control 17.5% on 57 rows). Budget the void rate beside the spend: in the follow-on 12 of 69 reads were refused or empty."
  }
 }

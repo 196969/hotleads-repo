@@ -745,6 +745,19 @@
    "signal": "Blind",
    "reason": "Item 323 Part 1 (2026-10-31): number sourced on the company’s own page (Route 4) · Tier A · contact observed on a dated read · verified-callable test not re-run this pass",
    "rank": 57
+  },
+  {
+   "verified_callable": false,
+   "tier": "B",
+   "company": "Sunshine Bouquet",
+   "city": "Miami",
+   "decision_maker": "John D. Simko President / Director (Sunbiz D/P; family owner, 3rd gen)",
+   "phone": "(732) 274-2900",
+   "email": "—",
+   "practice": "None — no exit, vacancy or sponsor evidence on the row (row read 2026-10-29)",
+   "signal": "Blind",
+   "reason": "Item 323 follow-on (2026-10-31): number sourced on the company’s association listing (Route 1, single route) · Tier B · contact observed on a dated read · verified-callable test not re-run this pass",
+   "rank": 58
   }
  ],
  "partial": [
@@ -754,13 +767,6 @@
    "number": "(305) 455-7508",
    "question": "Source the number on a dated line before dialling",
    "tier": "A"
-  },
-  {
-   "company": "Sunshine Bouquet",
-   "kind": "source the number",
-   "number": "(305) 599-9600",
-   "question": "Source the number on a dated line before dialling",
-   "tier": "B"
   },
   {
    "company": "Turbana Corp",
@@ -1158,8 +1164,8 @@
    113
   ],
   "call_ready": [
-   57,
-   57
+   58,
+   58
   ],
   "verified_callable": [
    16,
@@ -1176,7 +1182,7 @@
   "named": 1
  },
  "kinds_short_of_call_ready": {
-  "source the number": 41,
+  "source the number": 40,
   "acquire a number (none on the row)": 14,
   "find the name and source the number": 1,
   "ask for the name": 1,
@@ -1184,7 +1190,7 @@
  },
  "lineage_item323": {
   "date": "2026-10-31",
-  "call_ready": "50 → 57 rows (7 sourced by Route 4 in Part 1)",
+  "call_ready": "50 → 57 rows (7 sourced by Route 4 in Part 1) → 58 rows (Sunshine Bouquet, Route 1, follow-on)",
   "verified_callable": "21 → 16, withdrawn 2026-10-31 (Item 323 §2.4): SkyPostal and American Coolair hold no address; El Dorado Furniture and Miami Beef hold no phone; Cone Distributors fails the site test",
   "new_kind": "contact disputed, unresolved — 0 rows this pass",
   "companies_note": "dialable and Tier C company counts carried from the prior close (no row changed tier or name in Florida this pass)"
