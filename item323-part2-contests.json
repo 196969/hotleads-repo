@@ -1,0 +1,411 @@
+{
+ "item": "323",
+ "part": 2,
+ "date": "2026-10-31",
+ "reads": {
+  "spent": 39,
+  "ceiling": 39
+ },
+ "source": "totals-held-undated-report.json key 4_held_13 (13 entries at c3c62dd)",
+ "settled": [
+  {
+   "pair": "Berlin Packaging",
+   "result": "Tier C, both rows (chicago.html #237 B→C/Downgraded)",
+   "basis": "PE control: Oak Hill completed its acquisition",
+   "src": "Src: oakhill.com, Oak Hill Capital Partners Completes Acquisition of Berlin Packaging, dated 2014-10-06",
+   "caveat": "current control not re-read"
+  },
+  {
+   "pair": "Zeus Company",
+   "result": "Tier C, both rows (south-carolina.html #161 B→C/Downgraded)",
+   "basis": "acquired by EQT Private Equity",
+   "src": "Src: eqtgroup.com, EQT Private Equity to acquire Zeus, dated 2023-12-18; Src: read zeusinc.com/company/news/eqt-private-equity-has-acquired-zeus 2026-10-31"
+  },
+  {
+   "pair": "Ben E. Keith Company",
+   "result": "Tier C, both rows (texas.html #1 A→C/Downgraded)",
+   "basis": "family-held, out of band on scale: two third-party estimates ~$7.9–8B; the company does not disclose",
+   "src": "Src: anglera.com blog, Ben E. Keith: The $8 Billion Distributor That Won’t Say So, dated 2026-07-07; Src: read inecta.com/blog/the-power-players-top-5-largest-food-distributors-in-the-us 2026-10-31"
+  },
+  {
+   "pair": "Winder Farms",
+   "result": "Tier B, both rows (utah-expansion.html #23 C→B/Verified, upward correction)",
+   "basis": "the PE ownership screen-out is no longer supported: the company’s site says members of the Winder family reacquired it",
+   "src": "Src: read winderfarms.com 2026-10-31"
+  }
+ ],
+ "still_held": {
+  "count": 9,
+  "reasons": {
+   "band unestablished — only statistical “over $500 million” estimates read (incfact.com), not a stated figure against the $1B line": [
+    "Hensley Beverage Company",
+    "Empire Southwest",
+    "Fresh Mark",
+    "Superior Beverage Group",
+    "Elliott Electric Supply"
+   ],
+   "fact not read — pages refused (one reader kind, unconfirmed by a second)": [
+    "Rosboro Company",
+    "Christensen Arms",
+    "Rappahannock Oyster Co.",
+    "Zirkle Fruit Company"
+   ]
+  }
+ },
+ "reads_detail": {
+  "Hensley Beverage Company": {
+   "query": "Hensley Beverage Company annual revenue billion",
+   "results": [
+    "https://incfact.com/company/hensley-phoenix-az/",
+    "https://www.zoominfo.com/c/hensley-beverage-co/23365331",
+    "https://www.zippia.com/hensley-co-careers-26086/revenue/",
+    "https://rocketreach.co/hensley-beverage-company-profile_b5c77b2ef42e0d1c",
+    "https://growjo.com/company/Hensley_Beverage_Company"
+   ],
+   "hits": [
+    {
+     "url": "https://incfact.com/company/hensley-phoenix-az/",
+     "sents": [
+      "Annual Revenue, Growth & Competitor Analysis Report for Hensley - IncFact Company Profiles: Revenue, Growth, Competition Subscribe Log In --> Log In Menu Private & Public Companies Search by Industry Advanced Search My Watch List   ✕ Log In Email Address Password ✕ Subscribe Email Address Password H",
+      "Hensley Fast Facts Revenue Over $500 million    See Exact Annual Revenue Employees Over 1,000 Exact Company Size Primary Industry 4248 Beer, Wine & Distilled Alcoholic Beverage Merchant Wholesalers Address 4201 North 45th Avenue Phoenix, AZ 85031 Note: Revenues for privately held companies are stati",
+      "(Annual sales and employees) Hensley's annual revenues are Over $500 million (see exact revenue data) What industry is the company in?",
+      "Hensley Annual Revenue and Growth Rate Hensley Revenue Est.",
+      "($ Million) Growth Rate (%) # Employees 2025 Over $500 million Details in Premium Report 2024 2023 2021 2020 2019 1-Year Growth Rate: 3-Year Growth Rate (CAGR): Note: Hensley's revenues are gauged from an analysis of company filings.",
+      "Hensley's Income Statement (based on Industry Averages) Hensley P&L $ Millions Revenue (Sales) Cost of Goods Sold Gross Profit Operating Expenses Advertising Salaries and wages Other Operating Expenses Total Operating Expenses Operating Income EBITDA EBIT (Earnings Before Interest and Taxes) Net Pro",
+      "Company Headquarters Revenue ($ MM) REPUBLIC NATIONAL DISTRIBUTING Atlanta, GA 100   YOUNG'S MARKET Atlanta, GA 77   DOBBS COMPANIES 401K Albuquerque, NM 74   BREAKTHRU BEVERAGE GROUP New York, NY 47   MANHATTAN BEER DISTRIBUTORS Bronx, NY 41   COHO DISTRIBUTING Wilsonville, OR 31   RNDC TEXAS Atlan",
+      "Company Headquarters Revenue ($ MM) HENSLEY Phoenix, AZ 100   YOUNG'S MARKET COMPANY OF ARIZONA Phoenix, AZ 3   QUAIL DISTRIBUTING Phoenix, AZ 3   ALLIANCE BEVERAGE DISTRIBUTING Phoenix, AZ 1   ACTION WINE & SPIRITS USA Phoenix, AZ 1   1AJ Phoenix, AZ 0   (0.0247 s) Future Competition: Hensley's Fas"
+     ]
+    },
+    {
+     "url": "https://growjo.com/company/Hensley_Beverage_Company",
+     "refused": true
+    }
+   ]
+  },
+  "Empire Southwest": {
+   "query": "Empire Southwest revenue billion family owned",
+   "results": [
+    "https://incfact.com/company/empiresouthwest-showlow-az/",
+    "https://www.zoominfo.com/c/empire-southwest-llc/92472969",
+    "https://incfact.com/company/empiresouthwest-mesa-az/",
+    "https://www.salary.com/research/company/empire-southwest-llc-overview",
+    "https://www.zoominfo.com/c/empire-southwest/459305956"
+   ],
+   "hits": [
+    {
+     "url": "https://incfact.com/company/empiresouthwest-showlow-az/",
+     "sents": [
+      "Annual Revenue, Growth & Competitor Analysis Report for Empire Southwest - IncFact Company Profiles: Revenue, Growth, Competition Subscribe Log In --> Log In Menu Private & Public Companies Search by Industry Advanced Search My Watch List   ✕ Log In Email Address Password ✕ Subscribe Email Address P",
+      "Empire Southwest Fast Facts Revenue Over $500 million    See Exact Annual Revenue Employees Over 1,000 Exact Company Size Primary Industry 5324 Commercial & Industrial Machinery & Equipment Rental & Leasing Address 1501 E Thornton Show Low, AZ 85901 Note: Revenues for privately held companies are st",
+      "(Annual sales and employees) Empire Southwest's annual revenues are Over $500 million (see exact revenue data) What industry is the company in?",
+      "Empire Southwest Annual Revenue and Growth Rate Empire Southwest Revenue Est.",
+      "($ Million) Growth Rate (%) # Employees 2025 Over $500 million Details in Premium Report 2024 2023 2021 2020 2019 1-Year Growth Rate: 3-Year Growth Rate (CAGR): Note: Empire Southwest's revenues are gauged from an analysis of company filings.",
+      "Empire Southwest's Income Statement (based on Industry Averages) Empire Southwest P&L $ Millions Revenue (Sales) Cost of Goods Sold Gross Profit Operating Expenses Advertising Salaries and wages Other Operating Expenses Total Operating Expenses Operating Income EBITDA EBIT (Earnings Before Interest ",
+      "Company Headquarters Revenue ($ MM) UNITED RENTALS NORTH AMERICA Stamford, CT 100   PRIDE GROUP Chandler, AZ 79   HERC RENTALS Raleigh, NC 28   EQUIPMENTSHARE.COM Columbia, MO 17   AIRBUS AMERICAS CUSTOMER SERVICES Herndon, VA 12   EMPIRE SOUTHWEST Show Low, AZ 10   SUNSTATE EQUIPMENT Phoenix, AZ 10",
+      "Company Headquarters Revenue ($ MM) EMPIRE SOUTHWEST Show Low, AZ 100   ROAM ADVENTURE Show Low, AZ 0   (0.0473 s) Future Competition: Empire Southwest's Fastest Growing Competitors These companies are in the same general field as Empire Southwest and are rapidly expanding."
+     ]
+    },
+    {
+     "url": "https://incfact.com/company/empiresouthwest-mesa-az/",
+     "sents": [
+      "Annual Revenue, Growth & Competitor Analysis Report for Empire Southwest - IncFact Company Profiles: Revenue, Growth, Competition Subscribe Log In --> Log In Menu Private & Public Companies Search by Industry Advanced Search My Watch List   ✕ Log In Email Address Password ✕ Subscribe Email Address P",
+      "Empire Southwest Fast Facts Revenue Over $500 million    See Exact Annual Revenue Employees Over 1,000 Exact Company Size Primary Industry 532 Rental & Leasing Services Address 1501 E Thornton Show Low, AZ 85901 Note: Revenues for privately held companies are statistical evaluations.",
+      "(Annual sales and employees) Empire Southwest's annual revenues are Over $500 million (see exact revenue data) What industry is the company in?",
+      "Empire Southwest Annual Revenue and Growth Rate Empire Southwest Revenue Est.",
+      "($ Million) Growth Rate (%) # Employees 2025 Over $500 million Details in Premium Report 2024 2023 2021 2020 2019 1-Year Growth Rate: 3-Year Growth Rate (CAGR): Note: Empire Southwest's revenues are gauged from an analysis of company filings.",
+      "Empire Southwest's Income Statement (based on Industry Averages) Empire Southwest P&L $ Millions Revenue (Sales) Cost of Goods Sold Gross Profit Operating Expenses Advertising Salaries and wages Other Operating Expenses Total Operating Expenses Operating Income EBITDA EBIT (Earnings Before Interest ",
+      "Company Headquarters Revenue ($ MM) CRAWFORD GROUP St Louis, MO 100   NETFLIX Los Gatos, CA 82   ENTERPRISE FLEET MANAGEMENT Saint Louis, MO 80   U-HAUL HOLDING CO /NV/ Reno, NV 49   UNITED RENTALS NORTH AMERICA Stamford, CT 29   PRIDE GROUP Chandler, AZ 23   HERC RENTALS Fresno, CA 21   SUNBELT REN",
+      "Company Headquarters Revenue ($ MM) EMPIRE SOUTHWEST Show Low, AZ 100   ROAM ADVENTURE Show Low, AZ 0   (0.0044 s) Future Competition: Empire Southwest's Fastest Growing Competitors These companies are in the same general field as Empire Southwest and are rapidly expanding."
+     ]
+    }
+   ]
+  },
+  "Berlin Packaging": {
+   "query": "Berlin Packaging owner Oak Hill Capital majority",
+   "results": [
+    "https://www.berlinpackaging.com/oak-hill-capital-completes-acquisition-of-berlin-packaging/",
+    "https://oakhill.com/2014/10/06/oak-hill-capital-partners-completes-acquisition-of-berlin-packaging/",
+    "https://www.berlinpackaging.com/oak-hill-capital-partners-to-acquire-berlin-packaging/",
+    "https://en.wikipedia.org/wiki/Berlin_Packaging",
+    "https://oakhill.com/2014/08/25/oak-hill-capital-partners-to-acquire-berlin-packaging-for-1-43-billion/"
+   ],
+   "hits": [
+    {
+     "url": "https://www.berlinpackaging.com/oak-hill-capital-completes-acquisition-of-berlin-packaging/",
+     "sents": [
+      "Oak Hill Capital Partners Acquisition | Berlin Packaging $0.00 Loading...",
+      "× --> Berlin Packaging Berlin Packaging Logo Search --> packaging services inquiry --> Request Quote --> Shop Now Shop All Dropdown Why Berlin Our Mission Our Model Our Global Reach Our Divisions Our Operations Our Story Our Community Results Quantified Value On-Time Delivery Testimonials Services D",
+      "By: Berlin Packaging Specialist Date: October 20, 2019 Oak Hill Capital Partners (“Oak Hill”), a leading private equity firm, announced today that it has completed the previously announced acquisition of Berlin Packaging LLC (“Berlin Packaging”), a leading supplier of rigid packaging products and se",
+      "Our new partnership with Oak Hill will create wins for all of the company’s stakeholders.” In connection with the closing of the acquisition, Berlin Packaging also closed its previously announced first and second lien financing in addition to a revolving credit facility."
+     ]
+    },
+    {
+     "url": "https://oakhill.com/2014/10/06/oak-hill-capital-partners-completes-acquisition-of-berlin-packaging/",
+     "sents": [
+      "Oak Hill Capital Partners Completes Acquisition of Berlin Packaging – Oak Hill Skip to main content Investor Login FIRM TEAM STRATEGY INVESTMENTS NEWS Home Firm Team Strategy Investments News Responsible Investment Oak Hill Capital Partners Completes Acquisition of Berlin Packaging Home / Blog / Acq",
+      "Our new partnership with Oak Hill will create wins for all of the company’s stakeholders.” In connection with the closing of the acquisition, Berlin Packaging also closed its previously announced first and second lien financing in addition to a revolving credit facility.",
+      "Berlin Packaging supplies billions of containers and closures annually as well as warehousing and logistics services for customers of all sizes in all industries."
+     ]
+    }
+   ]
+  },
+  "Fresh Mark": {
+   "query": "Fresh Mark Massillon revenue billion Genet",
+   "results": [
+    "https://incfact.com/company/freshmark-massillon-oh/",
+    "https://www.zoominfo.com/c/fresh-mark-inc/31607140",
+    "https://compworth.com/company/fresh-mark",
+    "https://rocketreach.co/fresh-mark-inc-profile_b5dd527ff42e54b5",
+    "https://www.buzzfile.com/business/Superior!s-Brand-Meats-330-832-7491"
+   ],
+   "hits": [
+    {
+     "url": "https://incfact.com/company/freshmark-massillon-oh/",
+     "sents": [
+      "Annual Revenue, Growth & Competitor Analysis Report for Fresh Mark - IncFact Company Profiles: Revenue, Growth, Competition Subscribe Log In --> Log In Menu Private & Public Companies Search by Industry Advanced Search My Watch List   ✕ Log In Email Address Password ✕ Subscribe Email Address Passwor",
+      "Fresh Mark Fast Facts Revenue Over $500 million    See Exact Annual Revenue Employees Over 1,000 Exact Company Size Primary Industry 311611 Animal Slaughtering Additional NAICS Codes 311612 Meat Processed from Carcasses Address 1888 Southway St Sw Massillon, OH 44646 Note: Revenues for privately hel",
+      "(Annual sales and employees) Fresh Mark's annual revenues are Over $500 million (see exact revenue data) What industry is the company in?",
+      "Fresh Mark Annual Revenue and Growth Rate Fresh Mark Revenue Est.",
+      "($ Million) Growth Rate (%) # Employees 2025 Over $500 million Details in Premium Report 2024 2023 2021 2020 2019 1-Year Growth Rate: 3-Year Growth Rate (CAGR): Note: Fresh Mark's revenues are gauged from an analysis of company filings.",
+      "Fresh Mark's Income Statement (based on Industry Averages) Fresh Mark P&L $ Millions Revenue (Sales) Cost of Goods Sold Gross Profit Operating Expenses Advertising Salaries and wages Other Operating Expenses Total Operating Expenses Operating Income EBITDA EBIT (Earnings Before Interest and Taxes) N",
+      "Company Headquarters Revenue ($ MM) PREMIUM IOWA PORKLLC Hospers, IA 100   LYNCH BBQ Waucoma, IA 57   NOAH'S ARK PROCESSORS Dawson, MN 43   OWB PACKERS Brawley, CA 29   SCHENK PACKING Stanwood, WA 22   MANNING'S BEEF Pico Rivera, CA 20   ROYAL FOODS Pell City, AL 16   BEYER & FUNDERBURGH LIMITED Dub"
+     ]
+    },
+    {
+     "url": "https://compworth.com/company/fresh-mark",
+     "refused": true
+    }
+   ]
+  },
+  "Superior Beverage Group": {
+   "query": "Superior Beverage Group Ohio revenue owner",
+   "results": [
+    "https://www.zoominfo.com/c/superior-beverage-group-ltd/115769532",
+    "https://incfact.com/company/superiorbeveragegroup-lewiscenter-oh/",
+    "https://incfact.com/company/superiorbeveragegroup-columbus-oh/",
+    "https://compworth.com/company/superior-beverage-group",
+    "https://rocketreach.co/superior-beverage-group-profile_b5c73739f42e0d03"
+   ],
+   "hits": [
+    {
+     "url": "https://incfact.com/company/superiorbeveragegroup-lewiscenter-oh/",
+     "sents": [
+      "Annual Revenue, Growth & Competitor Analysis Report for Superior Beverage Group - IncFact Company Profiles: Revenue, Growth, Competition Subscribe Log In --> Log In Menu Private & Public Companies Search by Industry Advanced Search My Watch List   ✕ Log In Email Address Password ✕ Subscribe Email Ad",
+      "Superior Beverage Group Fast Facts Revenue Over $500 million    See Exact Annual Revenue Employees 500 - 1,000 Exact Company Size Primary Industry 4248 Beer, Wine & Distilled Alcoholic Beverage Merchant Wholesalers Address 8133 Highfield Drive Lewis Center, OH 43035 Note: Revenues for privately held",
+      "(Annual sales and employees) Superior Beverage Group's annual revenues are Over $500 million (see exact revenue data) What industry is the company in?",
+      "Superior Beverage Group Annual Revenue and Growth Rate Superior Beverage Group Revenue Est.",
+      "($ Million) Growth Rate (%) # Employees 2025 Over $500 million Details in Premium Report 2024 2023 2021 2020 2019 1-Year Growth Rate: 3-Year Growth Rate (CAGR): Note: Superior Beverage Group's revenues are gauged from an analysis of company filings.",
+      "Superior Beverage Group's Income Statement (based on Industry Averages) Superior Beverage Group P&L $ Millions Revenue (Sales) Cost of Goods Sold Gross Profit Operating Expenses Advertising Salaries and wages Other Operating Expenses Total Operating Expenses Operating Income EBITDA EBIT (Earnings Be",
+      "Company Headquarters Revenue ($ MM) REPUBLIC NATIONAL DISTRIBUTING Atlanta, GA 100   YOUNG'S MARKET Atlanta, GA 77   DOBBS COMPANIES 401K Albuquerque, NM 74   BREAKTHRU BEVERAGE GROUP New York, NY 47   MANHATTAN BEER DISTRIBUTORS Bronx, NY 41   COHO DISTRIBUTING Wilsonville, OR 31   RNDC TEXAS Atlan",
+      "Company Headquarters Revenue ($ MM) SUPERIOR BEVERAGE GROUP Lewis Center, OH 100   MATESICH DISTRIBUTING Newark, OH 15   PREMIUM BEVERAGE SUPPLY Hilliard, OH 8   BROWN DISTRIBUTING Newark, OH 8   NOCTERRA BREWING Sunbury, OH 0   STEIN BREWING Mount Vernon, OH 0   (0.0236 s) Future Competition: Super"
+     ]
+    },
+    {
+     "url": "https://incfact.com/company/superiorbeveragegroup-columbus-oh/",
+     "sents": [
+      "Annual Revenue, Growth & Competitor Analysis Report for Superior Beverage Group - IncFact Company Profiles: Revenue, Growth, Competition Subscribe Log In --> Log In Menu Private & Public Companies Search by Industry Advanced Search My Watch List   ✕ Log In Email Address Password ✕ Subscribe Email Ad",
+      "Superior Beverage Group Fast Facts Revenue Over $500 million    See Exact Annual Revenue Employees 500 - 1,000 Exact Company Size Primary Industry 424 Merchant Wholesalers, Nondurable Goods Address 8133 Highfield Drive Lewis Center, OH 43035 Note: Revenues for privately held companies are statistica",
+      "(Annual sales and employees) Superior Beverage Group's annual revenues are Over $500 million (see exact revenue data) What industry is the company in?",
+      "Superior Beverage Group Annual Revenue and Growth Rate Superior Beverage Group Revenue Est.",
+      "($ Million) Growth Rate (%) # Employees 2025 Over $500 million Details in Premium Report 2024 2023 2021 2020 2019 1-Year Growth Rate: 3-Year Growth Rate (CAGR): Note: Superior Beverage Group's revenues are gauged from an analysis of company filings.",
+      "Superior Beverage Group's Income Statement (based on Industry Averages) Superior Beverage Group P&L $ Millions Revenue (Sales) Cost of Goods Sold Gross Profit Operating Expenses Advertising Salaries and wages Other Operating Expenses Total Operating Expenses Operating Income EBITDA EBIT (Earnings Be",
+      "Company Headquarters Revenue ($ MM) PETROLEUM DISTRIBUTION San Antonio, TX 100   AMERISOURCEBERGEN Conshohocken, PA 80   CARGILL Minneapolis, MN 52   MCKESSON Irving, TX 46   FJ MANAGEMENT Salt Lake City, UT 39   SYSCO Houston, TX 34   CARDINAL HEALTH 119 Dublin, OH 34   NIKE Beaverton, OR 32   US V",
+      "Company Headquarters Revenue ($ MM) CARDINAL HEALTH 119 Dublin, OH 100   ENGLEFIELD Heath, OH 10   COVETRUS Dublin, OH 7   SUPERIOR BEVERAGE GROUP Lewis Center, OH 1   BUTLER ANIMAL HEALTH SUPPLY Dublin, OH 1   RDP FOODSERVICE Hilliard, OH 1   (0.0017 s) Future Competition: Superior Beverage Group's"
+     ]
+    }
+   ]
+  },
+  "Rosboro Company": {
+   "query": "Rosboro Company Springfield Oregon ownership family",
+   "results": [
+    "https://mergr.com/company/rosboro/ownership",
+    "https://mergr.com/company/rosboro",
+    "https://www.wynnchurch.com/portfolio/rosboro-holdings",
+    "https://en.wikipedia.org/wiki/Roseburg_Forest_Products",
+    "https://www.dnb.com/business-directory/company-profiles/rosboro-company-llc.8ae79fb99c0d475aba3324f4fd42905a"
+   ],
+   "hits": [
+    {
+     "url": "https://mergr.com/company/rosboro/ownership",
+     "refused": true
+    },
+    {
+     "url": "https://mergr.com/company/rosboro",
+     "refused": true
+    }
+   ]
+  },
+  "Zeus Company": {
+   "query": "Zeus EQT acquisition completed",
+   "results": [
+    "https://eqtgroup.com/news/eqt-private-equity-to-acquire-zeus-a-global-leader-in-advanced-polymer-components-used-in-life-saving-medical-procedures-2023-12-18",
+    "https://www.zeusinc.com/company/news/eqt-private-equity-has-acquired-zeus/",
+    "https://www.zeusinc.com/company/news/eqt-private-equity-to-acquire-zeus-a-global-leader-in-advanced-polymer-components-used-in-life-saving-medical-procedures/",
+    "https://pe-insights.com/zeus-sale-to-private-equity-firm-eqt-closes-valued-at-3-4bn/",
+    "https://www.prnewswire.com/news-releases/eqt-private-equity-to-acquire-zeus-a-global-leader-in-advanced-polymer-components-used-in-life-saving-medical-procedures-302017955.html"
+   ],
+   "hits": [
+    {
+     "url": "https://eqtgroup.com/news/eqt-private-equity-to-acquire-zeus-a-global-leader-in-advanced-polymer-components-used-in-life-saving-medical-procedures-2023-12-18",
+     "sents": [
+      "EQT Private Equity to Acquire Medical Polymer Leader Zeus | EQT Skip to main content Who we are What we do Shareholders Insights LP Login LP Login News EQT Private Equity to acquire Zeus, a global leader in advanced polymer components used in life-saving medical procedures Copy Link December 18, 202",
+      "EQT Private Equity to acquire Zeus, a leading supplier of custom polymer components to the world’s most innovative medical device and industrial companies Transaction highlights EQT’s commitment to partnering with leading, purpose-driven companies that deliver inherently critical services to society",
+      "Ethan Waxman, Partner within EQT Private Equity’s Advisory Team, said: “EQT has tracked the medical device component industry closely for several years, and we believe Zeus is uniquely positioned within the end markets it serves due to its unmatched material science and process expertise.",
+      "This acquisition accelerates that momentum and growth by supporting future expansion, new product innovation, process improvements, technological transformation, and enhanced capabilities.” John Groetelaars said: “I am thrille d to embark on this journey with Zeus and EQT to build upon the Company’s",
+      "Contact EQT: Mathilde Milch, Director, Communications, [email protected] , +1 917 510 6626 Zeus: Jennifer McQuesten, VP of Corporate Communications, [email protected] , +1  480 200 5488 Downloads Zeus Press Release About EQT EQT is a purpose-driven global investment organization with EUR 232 billion",
+      "Zeus Private Equity EQT X Exclusive News and Insights Every Week Add your email address below to sign up for our EQT newsletters."
+     ]
+    },
+    {
+     "url": "https://www.zeusinc.com/company/news/eqt-private-equity-has-acquired-zeus/",
+     "sents": [
+      "EQT Private Equity Has Acquired Zeus | Zeus Skip to content Zeus Menu Enter Search Terms Search CONTACT US ORDER SAMPLES CAREERS ABOUT US Insights PFX™ MARKETS Cardiac Rhythm Management and Electrophysiology Cardiovascular Gastrointestinal Endoscopy Neurovascular Peripheral Structural Heart Other – ",
+      "Proposed Regulations Quality Documents QMS Certification RoHS Services Laboratory Services Product Analysis and Enhancement PLA Recycling Research and Development Z-Team Strategic Supply Summary of Material Properties Bend Radius Biocompatibility Burst Pressure Chemical Resistance Coloring Plastics "
+     ]
+    }
+   ]
+  },
+  "Ben E. Keith Company": {
+   "query": "Ben E. Keith revenue billion",
+   "results": [
+    "https://www.zippia.com/ben-e-keith-careers-16594/revenue/",
+    "https://www.anglera.com/blog/ben-e-keith-distributor-playbook",
+    "https://www.inecta.com/blog/the-power-players-top-5-largest-food-distributors-in-the-us",
+    "https://en.wikipedia.org/wiki/Ben_E._Keith_Company",
+    "https://www.zoominfo.com/c/ben-e-keith-co/12160309"
+   ],
+   "hits": [
+    {
+     "url": "https://www.anglera.com/blog/ben-e-keith-distributor-playbook",
+     "sents": [
+      "Keith: The $8 Billion Distributor That Won't Say So Customers Product Security Careers Blog Book a Demo All posts Ray Iyer Co-founder, Anglera · July 7, 2026 Ben E.",
+      "Keith: The $8 Billion Distributor That Won't Say So Ben E.",
+      "Keith's 2025 revenue as \"not disclosed.\" Forbes doesn't have that luxury and estimates it anyway: its company profile pegs Ben E.",
+      "Privately held distributors in food and beverage routinely disclose less than their publicly traded rivals, but Ben E."
+     ]
+    },
+    {
+     "url": "https://www.inecta.com/blog/the-power-players-top-5-largest-food-distributors-in-the-us",
+     "sents": [
+      "Top 5 largest food distributors in the US: at a glance Rank Company FY2025 Revenue Employees Ownership 1 Sysco $81.4 billion 76,000+ Public (NYSE: SYY) 2 Performance Food Group $63.3 billion 40,000+ Public (NYSE: PFGC) 3 US Foods $39.4 billion 30,000+ Public (NYSE: USFD) 4 Gordon Food Service ~$12.9",
+      "Keith Company, ~$7.9 billion in revenue Ben E."
+     ]
+    }
+   ]
+  },
+  "Elliott Electric Supply": {
+   "query": "Elliott Electric Supply revenue billion",
+   "results": [
+    "https://compworth.com/company/elliott-electric-supply",
+    "https://incfact.com/company/elliottelectricsupply-nacogdoches-tx/",
+    "https://rocketreach.co/elliott-electric-supply-profile_b5c6fcbef42e0cd7",
+    "https://www.zoominfo.com/c/elliott-electric-supply/17090296",
+    "https://www.anglera.com/blog/elliott-electric-distributor-playbook"
+   ],
+   "hits": [
+    {
+     "url": "https://compworth.com/company/elliott-electric-supply",
+     "refused": true
+    },
+    {
+     "url": "https://incfact.com/company/elliottelectricsupply-nacogdoches-tx/",
+     "sents": [
+      "Annual Revenue, Growth & Competitor Analysis Report for Elliott Electric Supply - IncFact Company Profiles: Revenue, Growth, Competition Subscribe Log In --> Log In Menu Private & Public Companies Search by Industry Advanced Search My Watch List   ✕ Log In Email Address Password ✕ Subscribe Email Ad",
+      "Elliott Electric Supply Fast Facts Revenue Over $500 million    See Exact Annual Revenue Employees Over 1,000 Exact Company Size Primary Industry 4236 Electrical & Electronic Goods Merchant Wholesalers Additional NAICS Codes 335 Electrical Equipment, Appliance & Component Manufacturing 42361 Electri",
+      "(Annual sales and employees) Elliott Electric Supply's annual revenues are Over $500 million (see exact revenue data) What industry is the company in?",
+      "Elliott Electric Supply Annual Revenue and Growth Rate Elliott Electric Supply Revenue Est.",
+      "($ Million) Growth Rate (%) # Employees 2025 Over $500 million Details in Premium Report 2024 2023 2021 2020 2019 1-Year Growth Rate: 3-Year Growth Rate (CAGR): Note: Elliott Electric Supply's revenues are gauged from an analysis of company filings.",
+      "Elliott Electric Supply's Income Statement (based on Industry Averages) Elliott Electric Supply P&L $ Millions Revenue (Sales) Cost of Goods Sold Gross Profit Operating Expenses Advertising Salaries and wages Other Operating Expenses Total Operating Expenses Operating Income EBITDA EBIT (Earnings Be",
+      "Company Headquarters Revenue ($ MM) ARROW ELECTRONICS Centennial, CO 100   WESCO DISTRIBUTION Pittsburgh, PA 72   SONY CORPORATION New York, NY 61   DISH NETWORK Englewood, CO 59   PANASONIC CORPORATION OF NORTH Newark, NJ 56   CONSOLIDATED ELECTRICAL DISTRIBUTORS Irving, TX 47   REXEL USA Dallas, T",
+      "Company Headquarters Revenue ($ MM) ELLIOTT ELECTRIC SUPPLY Nacogdoches, TX 100   TREECON RESOURCES Lufkin, TX 3   HERMAN POWER TIRE SERVICE Nacogdoches, TX 2   LEHMAN'S PIPE & STEEL Pollok, TX 2   GOUND CHEVROLET Nacogdoches, TX 2   NIX FOREST INDUSTRIES Timpson, TX 2   FISH & STILL EQUIPMENT Lufki"
+     ]
+    }
+   ]
+  },
+  "Winder Farms": {
+   "query": "Winder Farms owner acquired",
+   "results": [
+    "https://grokipedia.com/page/James_Winder",
+    "https://winderfarms.com/",
+    "https://www.thecompanycheck.com/company/b/winder-farms/7uimq715eb1aupsg9",
+    "https://pitchbook.com/profiles/company/13427-83",
+    "https://www.dairyprocessing.com/articles/3261-founding-family-purchases-winder-farms"
+   ],
+   "hits": [
+    {
+     "url": "https://grokipedia.com/page/James_Winder",
+     "sents": [
+      "[1] Winder, a former investment banker who worked in New York City before returning to Utah, has deep personal ties to the business dating to his childhood, including door-to-door sales of delivery subscriptions and family memories of the dairy.",
+      "In May 2025, as a sixth-generation descendant of the founding family, he acquired Winder Farms and has since focused on its revival, including reintroducing home-delivery services, expanding online ordering, launching new products, and broadening retail availability."
+     ]
+    },
+    {
+     "url": "https://winderfarms.com/",
+     "sents": [
+      "Winder Farms was recently acquired by members of the Winder family after more than 20 years of ownership outside the family."
+     ]
+    }
+   ]
+  },
+  "Christensen Arms": {
+   "query": "Christensen Arms ownership investor acquired",
+   "results": [
+    "https://mergr.com/company/christensen-arms/ownership",
+    "https://www.longrangeonly.com/forum/threads/christensen-arms-current-production-quality-and-customer-service.17424/",
+    "https://pitchbook.com/profiles/company/233969-50",
+    "https://mergr.com/company/christensen-arms",
+    "https://workerscomplawattorney.com/who-are-the-owners-of-christensen-arms/"
+   ],
+   "hits": [
+    {
+     "url": "https://mergr.com/company/christensen-arms/ownership",
+     "refused": true
+    },
+    {
+     "url": "https://www.longrangeonly.com/forum/threads/christensen-arms-current-production-quality-and-customer-service.17424/",
+     "refused": true
+    }
+   ]
+  },
+  "Rappahannock Oyster Co.": {
+   "query": "Rappahannock Oyster Company Croxton family owned revenue",
+   "results": [
+    "https://en.wikipedia.org/wiki/Rappahannock_Oyster_Co.",
+    "https://www.rroysters.com/our-story.html",
+    "https://www.buzzfile.com/business/Rappahannock-Oyster-Company-804-204-1709",
+    "https://www.zoominfo.com/c/rappahannock-oyster-co/350692471",
+    "https://www.zoominfo.com/p/Ryan-Croxton/417076139"
+   ],
+   "hits": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Rappahannock_Oyster_Co.",
+     "refused": true
+    },
+    {
+     "url": "https://www.rroysters.com/our-story.html",
+     "refused": true
+    }
+   ]
+  },
+  "Zirkle Fruit Company": {
+   "query": "Zirkle Fruit Company revenue owned",
+   "results": [
+    "https://compworth.com/company/zirkle-fruit-co",
+    "https://pitchbook.com/profiles/company/353602-99",
+    "https://www.zoominfo.com/c/zirkle-fruit-co/75333650",
+    "https://growjo.com/company/Zirkle_Fruit_Co",
+    "https://rocketreach.co/zirkle-fruit-co-profile_b546427cf6179626"
+   ],
+   "hits": [
+    {
+     "url": "https://compworth.com/company/zirkle-fruit-co",
+     "refused": true
+    },
+    {
+     "url": "https://growjo.com/company/Zirkle_Fruit_Co",
+     "refused": true
+    }
+   ]
+  }
+ }
+}

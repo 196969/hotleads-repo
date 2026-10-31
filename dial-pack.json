@@ -66,7 +66,7 @@
    "rank": 5
   },
   {
-   "verified_callable": true,
+   "verified_callable": false,
    "tier": "A",
    "company": "SkyPostal",
    "city": "Miami",
@@ -76,7 +76,8 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Verified callable (Core BD Report) · Tier A · contact observed on a dated read",
-   "rank": 6
+   "rank": 6,
+   "withdrawal": "withdrawn 2026-10-31 (Item 323 §2.4): no address held — removed from verified callable"
   },
   {
    "verified_callable": true,
@@ -144,7 +145,7 @@
    "rank": 11
   },
   {
-   "verified_callable": true,
+   "verified_callable": false,
    "tier": "A",
    "company": "Cone Distributors",
    "city": "Ocala",
@@ -154,7 +155,8 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Verified callable (Core BD Report) · Tier A · contact observed on a dated read",
-   "rank": 12
+   "rank": 12,
+   "withdrawal": "restated 2026-10-31 (Item 323 §2.4): fails the site test — not verified callable"
   },
   {
    "verified_callable": true,
@@ -183,7 +185,7 @@
    "rank": 14
   },
   {
-   "verified_callable": true,
+   "verified_callable": false,
    "tier": "A",
    "company": "El Dorado Furniture",
    "city": "Miami Gardens",
@@ -193,10 +195,11 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Verified callable (Core BD Report) · Tier A · contact observed on a dated read",
-   "rank": 15
+   "rank": 15,
+   "withdrawal": "restated 2026-10-31 (Item 323 §2.4): no phone held — call-ready on the address only, not verified callable"
   },
   {
-   "verified_callable": true,
+   "verified_callable": false,
    "tier": "A",
    "company": "Miami Beef Company",
    "city": "Hialeah",
@@ -206,7 +209,8 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Verified callable (Core BD Report) · Tier A · contact observed on a dated read",
-   "rank": 16
+   "rank": 16,
+   "withdrawal": "restated 2026-10-31 (Item 323 §2.4): no phone held — call-ready on the address only, not verified callable"
   },
   {
    "verified_callable": true,
@@ -248,7 +252,7 @@
    "rank": 19
   },
   {
-   "verified_callable": true,
+   "verified_callable": false,
    "tier": "A",
    "company": "American Coolair",
    "city": "Jacksonville",
@@ -258,7 +262,8 @@
    "practice": "None (fit by tier)",
    "signal": "Blind",
    "reason": "Verified callable (Core BD Report) · Tier A · contact observed on a dated read",
-   "rank": 20
+   "rank": 20,
+   "withdrawal": "withdrawn 2026-10-31 (Item 323 §2.4): no address held — removed from verified callable"
   },
   {
    "verified_callable": true,
@@ -649,23 +654,100 @@
    "signal": "Blind",
    "reason": "Tier B · contact observed on a dated read",
    "rank": 50
+  },
+  {
+   "verified_callable": false,
+   "tier": "A",
+   "company": "Invicta Watch Group",
+   "city": "Hollywood",
+   "decision_maker": "Eyal Lalo President/CEO (owner, Lalo family)",
+   "phone": "(954) 921-2444",
+   "email": "sales@invictawatch.com",
+   "practice": "None — no exit, vacancy or sponsor evidence on the row (row read 2026-10-29)",
+   "signal": "Blind",
+   "reason": "Item 323 Part 1 (2026-10-31): number sourced on the company’s own page (Route 4) · Tier A · contact observed on a dated read · verified-callable test not re-run this pass",
+   "rank": 51
+  },
+  {
+   "verified_callable": false,
+   "tier": "B",
+   "company": "Quirch Foods",
+   "city": "Coral Gables",
+   "decision_maker": "Frank Grande President & CEO (CEO title effective 4/1/2026)",
+   "phone": "(800) 458-5252",
+   "email": "—",
+   "practice": "None — no exit, vacancy or sponsor evidence on the row (row read 2026-10-29)",
+   "signal": "Blind",
+   "reason": "Item 323 Part 1 (2026-10-31): number sourced on the company’s own page (Route 4) · Tier B · contact observed on a dated read · verified-callable test not re-run this pass",
+   "rank": 52
+  },
+  {
+   "verified_callable": false,
+   "tier": "A",
+   "company": "Refricenter",
+   "city": "Miami",
+   "decision_maker": "Jose Hernandez President (CEO: Cirilo Hernandez — family)",
+   "phone": "(305) 477-8880",
+   "email": "brian@refricenter.net",
+   "practice": "None — no exit, vacancy or sponsor evidence on the row (row read 2026-10-29)",
+   "signal": "Blind",
+   "reason": "Item 323 Part 1 (2026-10-31): number sourced on the company’s own page (Route 4) · Tier A · contact observed on a dated read · verified-callable test not re-run this pass",
+   "rank": 53
+  },
+  {
+   "verified_callable": false,
+   "tier": "A",
+   "company": "TruckMax",
+   "city": "Miami",
+   "decision_maker": "Joseph A. DeMaria President & owner (Sunbiz current, also RA; LinkedIn: Owner/CE",
+   "phone": "(866) 441-0513",
+   "email": "—",
+   "practice": "None — no exit, vacancy or sponsor evidence on the row (row read 2026-10-29)",
+   "signal": "Blind",
+   "reason": "Item 323 Part 1 (2026-10-31): number sourced on the company’s own page (Route 4) · Tier A · contact observed on a dated read · verified-callable test not re-run this pass",
+   "rank": 54
+  },
+  {
+   "verified_callable": false,
+   "tier": "B",
+   "company": "Duda Farm Fresh Foods",
+   "city": "Oviedo",
+   "decision_maker": "Mark Bassetti President, Duda Farm Fresh Foods (Samuel ‘Sammy’ Duda is CEO of pa",
+   "phone": "(407) 365-2111",
+   "email": "—",
+   "practice": "None — no exit, vacancy or sponsor evidence on the row (row read 2026-10-29)",
+   "signal": "Blind",
+   "reason": "Item 323 Part 1 (2026-10-31): number sourced on the company’s own page (Route 4) · Tier B · contact observed on a dated read · verified-callable test not re-run this pass",
+   "rank": 55
+  },
+  {
+   "verified_callable": false,
+   "tier": "A",
+   "company": "Globe Trailers",
+   "city": "Bradenton",
+   "decision_maker": "Jeff Walters, President (Walters family)",
+   "phone": "(800) 800-3484",
+   "email": "—",
+   "practice": "None — no exit, vacancy or sponsor evidence on the row (row read 2026-09-02)",
+   "signal": "Blind",
+   "reason": "Item 323 Part 1 (2026-10-31): number sourced on the company’s own page (Route 4) · Tier A · contact observed on a dated read · verified-callable test not re-run this pass",
+   "rank": 56
+  },
+  {
+   "verified_callable": false,
+   "tier": "A",
+   "company": "Trans-Phos",
+   "city": "Mulberry",
+   "decision_maker": "Neil Whitney, President; Bill Whitney, CEO",
+   "phone": "(800) 940-1575",
+   "email": "—",
+   "practice": "None — no exit, vacancy or sponsor evidence on the row (row read 2026-09-02)",
+   "signal": "Blind",
+   "reason": "Item 323 Part 1 (2026-10-31): number sourced on the company’s own page (Route 4) · Tier A · contact observed on a dated read · verified-callable test not re-run this pass",
+   "rank": 57
   }
  ],
  "partial": [
-  {
-   "company": "Invicta Watch Group",
-   "kind": "source the number",
-   "number": "(305) 715-9633",
-   "question": "Source the number on a dated line before dialling",
-   "tier": "A"
-  },
-  {
-   "company": "Quirch Foods",
-   "kind": "source the number",
-   "number": "(305) 691-5901",
-   "question": "Source the number on a dated line before dialling",
-   "tier": "B"
-  },
   {
    "company": "PJ Distributors",
    "kind": "source the number",
@@ -714,20 +796,6 @@
    "number": "(305) 714-4100",
    "question": "Source the number on a dated line before dialling",
    "tier": "B"
-  },
-  {
-   "company": "Refricenter",
-   "kind": "source the number",
-   "number": "(305) 477-8880",
-   "question": "Source the number on a dated line before dialling",
-   "tier": "A"
-  },
-  {
-   "company": "TruckMax",
-   "kind": "source the number",
-   "number": "(305) 777-9000",
-   "question": "Source the number on a dated line before dialling",
-   "tier": "A"
   },
   {
    "company": "Sedano's Supermarkets",
@@ -877,13 +945,6 @@
    "tier": "B"
   },
   {
-   "company": "Duda Farm Fresh Foods",
-   "kind": "source the number",
-   "number": "(407) 365-2111",
-   "question": "Source the number on a dated line before dialling",
-   "tier": "B"
-  },
-  {
    "company": "Beaver Street Fisheries",
    "kind": "source the number",
    "number": "904-354-8912",
@@ -989,13 +1050,6 @@
    "tier": "A"
   },
   {
-   "company": "Globe Trailers",
-   "kind": "source the number",
-   "number": "941-751-9019",
-   "question": "Source the number on a dated line before dialling",
-   "tier": "A"
-  },
-  {
    "company": "Cypress Truck Lines",
    "kind": "source the number",
    "number": "904-353-8641",
@@ -1013,13 +1067,6 @@
    "company": "Martinez Distributors",
    "kind": "source the number",
    "number": "305-882-8282",
-   "question": "Source the number on a dated line before dialling",
-   "tier": "A"
-  },
-  {
-   "company": "Trans-Phos",
-   "kind": "source the number",
-   "number": "863-534-1575",
    "question": "Source the number on a dated line before dialling",
    "tier": "A"
   },
@@ -1111,12 +1158,12 @@
    113
   ],
   "call_ready": [
-   50,
-   50
+   57,
+   57
   ],
   "verified_callable": [
-   21,
-   21
+   16,
+   16
   ],
   "tier_C": [
    86,
@@ -1127,5 +1174,19 @@
   "other address": 9,
   "role inbox": 21,
   "named": 1
+ },
+ "kinds_short_of_call_ready": {
+  "source the number": 41,
+  "acquire a number (none on the row)": 14,
+  "find the name and source the number": 1,
+  "ask for the name": 1,
+  "contact disputed, unresolved": 0
+ },
+ "lineage_item323": {
+  "date": "2026-10-31",
+  "call_ready": "50 → 57 rows (7 sourced by Route 4 in Part 1)",
+  "verified_callable": "21 → 16, withdrawn 2026-10-31 (Item 323 §2.4): SkyPostal and American Coolair hold no address; El Dorado Furniture and Miami Beef hold no phone; Cone Distributors fails the site test",
+  "new_kind": "contact disputed, unresolved — 0 rows this pass",
+  "companies_note": "dialable and Tier C company counts carried from the prior close (no row changed tier or name in Florida this pass)"
  }
 }

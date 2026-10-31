@@ -1,0 +1,44 @@
+{
+ "item": "323",
+ "date": "2026-10-31",
+ "merges": [
+  {
+   "date": "2026-10-31",
+   "into": "branson",
+   "from": "P1",
+   "name": "Richard Branson",
+   "fields_moved": [
+    "fields_by_part",
+    "check_part9"
+   ],
+   "weight_retired": 10.0
+  },
+  {
+   "date": "2026-10-31",
+   "into": "jain",
+   "from": "P4",
+   "name": "Ajit Jain",
+   "fields_moved": [
+    "fields_by_part",
+    "check_part9"
+   ],
+   "weight_retired": 10.0
+  }
+ ],
+ "non_voting": [
+  "B1 Warren Buffett",
+  "P2 Mark Cuban",
+  "P3 Robert Herjavec",
+  "P9 Marcus Lemonis"
+ ],
+ "file_after": {
+  "entries": 76,
+  "weight": 765.0
+ },
+ "council": {
+  "seats": 72,
+  "weight": 725.0
+ },
+ "known_gap_item307": "P9 Marcus Lemonis carries no check_part9 key; not merged this pass",
+ "instrument_note": "f72seats.py keys seats by the last word of the name; a merged seat (named by its theme) does not bind the moved check and check_part9_intake raises KeyError on it. Not repaired this pass; the verdicts use item323_f72.py, which presents merged seats under the merged name for evaluation only."
+}

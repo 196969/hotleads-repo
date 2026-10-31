@@ -312,7 +312,26 @@
    "name": "Serve the badly served, bet small",
    "weight": 10.0,
    "domain": "advisory",
-   "origin": "Dash Founders lens roster"
+   "origin": "Dash Founders lens roster",
+   "fields_by_part": {
+    "3": "Acquisitions",
+    "5": "Acquisitions",
+    "9": "Acquisitions: every admitted Acquisitions row carries a signal with a third-party source URL and a publication date (test 3 evidence line); fails on any admitted row whose signal has no URL or no date"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Acquisitions",
+    "check": "every admitted Acquisitions row carries a signal with a third-party source URL and a publication date (test 3 evidence line); fails on any admitted row whose signal has no URL or no date"
+   },
+   "merged_from": {
+    "entry": "P1",
+    "name": "Richard Branson",
+    "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+    "domain": "brief-named",
+    "weight": 10.0,
+    "date": "2026-10-31",
+    "by": "Item 323 §2.1 (fault #24 remedy: merge, never strike)"
+   }
   },
   {
    "seat": "blakely",
@@ -347,7 +366,26 @@
    "name": "Price the risk, say no",
    "weight": 10.0,
    "domain": "advisory",
-   "origin": "Dash Founders lens roster"
+   "origin": "Dash Founders lens roster",
+   "fields_by_part": {
+    "3": "Private Equity",
+    "5": "Private Equity",
+    "9": "Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base is evidenced with a URL and date; fails when the sponsor or its base is unevidenced"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Private Equity",
+    "check": "every admitted PE row names its sponsor and the sponsor’s Florida base is evidenced with a URL and date; fails when the sponsor or its base is unevidenced"
+   },
+   "merged_from": {
+    "entry": "P4",
+    "name": "Ajit Jain",
+    "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+    "domain": "brief-named",
+    "weight": 10.0,
+    "date": "2026-10-31",
+    "by": "Item 323 §2.1 (fault #24 remedy: merge, never strike)"
+   }
   },
   {
    "seat": "rose",
@@ -578,24 +616,9 @@
     "part": "9",
     "practice": "Private Equity",
     "check": "every admitted PE row sits at or below the band ceiling ($25M published annual revenue) with the figure stated and its operating address evidenced on the company’s own page (test 1); fails on either absence"
-   }
-  },
-  {
-   "seat": "P1",
-   "name": "Richard Branson",
-   "weight": 10.0,
-   "domain": "brief-named",
-   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
-   "fields_by_part": {
-    "3": "Acquisitions",
-    "5": "Acquisitions",
-    "9": "Acquisitions: every admitted Acquisitions row carries a signal with a third-party source URL and a publication date (test 3 evidence line); fails on any admitted row whose signal has no URL or no date"
    },
-   "check_part9": {
-    "part": "9",
-    "practice": "Acquisitions",
-    "check": "every admitted Acquisitions row carries a signal with a third-party source URL and a publication date (test 3 evidence line); fails on any admitted row whose signal has no URL or no date"
-   }
+   "votes": false,
+   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it."
   },
   {
    "seat": "P2",
@@ -612,7 +635,9 @@
     "part": "9",
     "practice": "Acquisitions",
     "check": "every admitted Acquisitions row sits at or below the band ceiling ($25M published annual revenue) with the figure stated; fails on any admitted row above the ceiling or with no figure"
-   }
+   },
+   "votes": false,
+   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it."
   },
   {
    "seat": "P3",
@@ -629,24 +654,9 @@
     "part": "9",
     "practice": "Acquisitions",
     "check": "every admitted Acquisitions row records which reachable channel it has (phone, address or form); fails on any admitted row with none recorded"
-   }
-  },
-  {
-   "seat": "P4",
-   "name": "Ajit Jain",
-   "weight": 10.0,
-   "domain": "brief-named",
-   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
-   "fields_by_part": {
-    "3": "Private Equity",
-    "5": "Private Equity",
-    "9": "Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base is evidenced with a URL and date; fails when the sponsor or its base is unevidenced"
    },
-   "check_part9": {
-    "part": "9",
-    "practice": "Private Equity",
-    "check": "every admitted PE row names its sponsor and the sponsor’s Florida base is evidenced with a URL and date; fails when the sponsor or its base is unevidenced"
-   }
+   "votes": false,
+   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it."
   },
   {
    "seat": "P9",
@@ -655,7 +665,9 @@
    "domain": "brief-named",
    "origin": "Item 320 Part 9 brief, added 29 Oct 2026 (weight equal to the named governing seats)",
    "fields_by_part": {},
-   "note": "Part 9 ground withdrawn by the second edition’s Section 2 table; reads Blind by rule on Part 9"
+   "note": "Part 9 ground withdrawn by the second edition’s Section 2 table; reads Blind by rule on Part 9",
+   "votes": false,
+   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it."
   }
  ],
  "standing_rules": [
@@ -1517,6 +1529,40 @@
    "date": "2026-10-31",
    "item": 322,
    "correction": "the dial pack’s 71 was 57 holding a number and 14 holding none; the pack now names the 14 as “acquire a number”, a separate kind"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "323",
+   "rulings": [
+    "§2.1 merges applied: P1 Richard Branson → branson; P4 Ajit Jain → jain (fields_by_part and check_part9 moved; the duplicate entries retired after merge, readings carried on the original seat)",
+    "Amendment 3: B1, P2, P3, P9 marked votes:false — readings kept on record; their four theme seats are unnamed (item 307) and read Blind",
+    "File after merge: 76 entries, 765.0; council: 72 seats, 725.0 (Chair included)",
+    "Known gap against item 307: P9 Marcus Lemonis carries no check_part9 key; not merged in this pass"
+   ],
+   "merges": [
+    {
+     "date": "2026-10-31",
+     "into": "branson",
+     "from": "P1",
+     "name": "Richard Branson",
+     "fields_moved": [
+      "fields_by_part",
+      "check_part9"
+     ],
+     "weight_retired": 10.0
+    },
+    {
+     "date": "2026-10-31",
+     "into": "jain",
+     "from": "P4",
+     "name": "Ajit Jain",
+     "fields_moved": [
+      "fields_by_part",
+      "check_part9"
+     ],
+     "weight_retired": 10.0
+    }
+   ]
   }
  ]
 }

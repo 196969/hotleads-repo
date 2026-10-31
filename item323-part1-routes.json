@@ -1,0 +1,1917 @@
+{
+ "item": "323",
+ "part": 1,
+ "date": "2026-10-31",
+ "ceiling": 200,
+ "reads_spent": 197,
+ "calibration_reads_outside_ceiling": 4,
+ "budget_line": "40 (ceiling) + 48 (est.) + 48 (est.) + 50 (measured basis) = 186 est. against 200",
+ "routes": {
+  "4": {
+   "name": "the company’s own pages",
+   "attempted": 24,
+   "sourced": 7,
+   "rate": "7/24 = 29.2%",
+   "reads": 72,
+   "reads_per_sourced_row": 10.3,
+   "estimate": "~50 (measured basis)",
+   "note": "v1 search reads on the 10 no-site rows are void and counted; v2 re-run on those rows"
+  },
+  "2": {
+   "name": "chambers of commerce",
+   "attempted": 24,
+   "sourced": 1,
+   "rate": "1/24 = 4.2%",
+   "reads_valid": 29,
+   "reads_void": 24,
+   "actual_reads_per_row": "29/24 = 1.2",
+   "estimated_reads_per_row": "48/24 = 2.0"
+  },
+  "1": {
+   "name": "associations",
+   "attempted_validly": 0,
+   "reads_void": 24,
+   "rate": "unmeasured",
+   "directories_probed": "none validly (search reader v1 fault)"
+  },
+  "3": {
+   "name": "trade press",
+   "attempted_validly": 0,
+   "reads_void": 48,
+   "rate": "unmeasured",
+   "actual_reads_per_row": "no valid reads",
+   "estimated_reads_per_row": "48/24 = 2.0"
+  }
+ },
+ "comparison": "Route 4 (29.2%) and Route 2 (4.2%) are whole-sample on 24 and comparable with each other and with Item 322’s 17.5%; Routes 1 and 3 are not compared",
+ "contact_field": {
+  "single_route": 6,
+  "agreed": 0,
+  "resolved_by_precedence": 1,
+  "disputed_unresolved": 0,
+  "scope": "two measured routes"
+ },
+ "written": [
+  {
+   "row": "Invicta Watch Group",
+   "number": "(954) 921-2444",
+   "src": "Src: read invictawatch.com/contact 2026-10-31"
+  },
+  {
+   "row": "Quirch Foods",
+   "number": "(800) 458-5252",
+   "src": "Src: read quirchfoods.com/contact-us 2026-10-31"
+  },
+  {
+   "row": "Refricenter",
+   "number": "(305) 477-8880",
+   "src": "Src: read refricenter.net/contact-us.asp 2026-10-31"
+  },
+  {
+   "row": "TruckMax",
+   "number": "(866) 441-0513",
+   "src": "Src: read truckmax.com 2026-10-31"
+  },
+  {
+   "row": "Duda Farm Fresh Foods",
+   "number": "(407) 365-2111",
+   "src": "Src: read duda.com 2026-10-31"
+  },
+  {
+   "row": "Globe Trailers",
+   "number": "(800) 800-3484",
+   "src": "Src: read globetrailers.com 2026-10-31"
+  },
+  {
+   "row": "Trans-Phos",
+   "number": "(800) 940-1575",
+   "src": "Src: read transphos.com/contact-us 2026-10-31"
+  }
+ ],
+ "disagreement": {
+  "row": "Trans-Phos",
+  "route4": "(800) 940-1575 · Src: read transphos.com/contact-us 2026-10-31",
+  "route2": "(863) 534-1575 · Src: read web.lakelandchamber.com/Logistics-Management-Services/TransPhos,-Inc-578 2026-10-31",
+  "written": "Route 4 by precedence"
+ },
+ "remaining_24_rows": "not worked (3 reads left under the ceiling)",
+ "instrument_fault": "search reader v1 (Bing HTML scrape) matched only the first query word and returned unrelated results; caught by checking results against known answers after Route 3 ran; 96 Route 1–3 reads and the 10 Route 4 v1 site searches with their follow-on page reads are void and counted against the ceiling. Reader v2 (DuckDuckGo HTML, POST) passed a known-answer test (Quirch Foods, Refricenter) before use.",
+ "results": [
+  {
+   "route": 4,
+   "row": "Invicta Watch Group",
+   "number": "(954) 921-2444",
+   "candidates": [
+    "(954) 921-2444",
+    "(800) 327-7682",
+    "(954) 921-4222",
+    "(954) 921-2508"
+   ],
+   "how": "company page",
+   "src": "Src: read invictawatch.com/contact 2026-10-31",
+   "site": "invictawatch.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "Quirch Foods",
+   "number": "(800) 458-5252",
+   "candidates": [
+    "(800) 458-5252"
+   ],
+   "how": "company page",
+   "src": "Src: read quirchfoods.com/contact-us 2026-10-31",
+   "site": "quirchfoods.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "PJ Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "pjdistributors.net",
+   "notes": [
+    "site found by search: pjdistributors.net"
+   ]
+  },
+  {
+   "route": 4,
+   "row": "Sunshine Bouquet",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "sunshinebouquet.com",
+   "notes": [
+    "site found by search: sunshinebouquet.com"
+   ]
+  },
+  {
+   "route": 4,
+   "row": "Turbana Corp",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "turbana.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "National Beverage (LaCroix)",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "nationalbeverage.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "Refricenter",
+   "number": "(305) 477-8880",
+   "candidates": [
+    "(809) 542-2868",
+    "(407) 374-0766",
+    "(305) 477-9675",
+    "(786) 363-5863",
+    "(305) 477-8880",
+    "(305) 599-9323",
+    "(305) 633-1535",
+    "(786) 363-5901",
+    "(305) 251-9675",
+    "(786) 363-5800",
+    "(305) 266-7445",
+    "(786) 363-5815",
+    "(786) 360-0660",
+    "(786) 360-0661",
+    "(772) 207-1244",
+    "(954) 968-1010",
+    "(754) 224-3950",
+    "(561) 689-8075",
+    "(561) 340-4740",
+    "(305) 652-3331",
+    "(786) 363-5850",
+    "(809) 539-8484",
+    "(809) 539-8181",
+    "(809) 685-6464",
+    "(809) 686-2658",
+    "(809) 565-1135",
+    "(809) 565-1194",
+    "(809) 685-7000",
+    "(809) 565-6016",
+    "(809) 542-4453",
+    "(809) 592-0052",
+    "(809) 596-2730",
+    "(809) 581-3991",
+    "(809) 581-8860",
+    "(809) 736-4444",
+    "(809) 581-1050",
+    "(809) 570-5701",
+    "(809) 576-7127",
+    "(809) 586-3174",
+    "(809) 586-7225",
+    "(809) 244-2668",
+    "(809) 244-2375",
+    "(809) 246-2700",
+    "(809) 246-2477",
+    "(809) 556-8080",
+    "(809) 556-8199",
+    "(809) 455-1441",
+    "(809) 455-1144",
+    "(809) 746-1771",
+    "(809) 746-3067",
+    "(809) 539-1300",
+    "(829) 961-4782",
+    "(809) 279-1630",
+    "(809) 243-9673"
+   ],
+   "how": "company page",
+   "src": "Src: read refricenter.net/contact-us.asp 2026-10-31",
+   "site": "refricenter.net",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "TruckMax",
+   "number": "(866) 441-0513",
+   "candidates": [
+    "(866) 441-0513",
+    "(833) 400-2188",
+    "(844) 777-5666",
+    "(888) 450-3368"
+   ],
+   "how": "company page",
+   "src": "Src: read truckmax.com 2026-10-31",
+   "site": "truckmax.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "Presidente Supermarkets",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "presidentesupermarkets.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "JM Family Enterprises",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "jmfamily.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "World Kinect",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "world-kinect.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "Great Bay Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "greatbaybud.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "J.J. Taylor Distributing FL",
+   "number": null,
+   "candidates": [],
+   "how": "no company site identified (search refused)",
+   "src": null
+  },
+  {
+   "route": 4,
+   "row": "Helios Technologies (Sun Hydraulics)",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "heliostechnologies.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "Regal Boats",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "regalboats.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "Duda Farm Fresh Foods",
+   "number": "(407) 365-2111",
+   "candidates": [
+    "(407) 365-2111"
+   ],
+   "how": "company page",
+   "src": "Src: read duda.com 2026-10-31",
+   "site": "duda.com",
+   "notes": [
+    "site found by search: duda.com"
+   ]
+  },
+  {
+   "route": 4,
+   "row": "Sheltair Aviation",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "sheltairaviation.com",
+   "notes": []
+  },
+  {
+   "route": 4,
+   "row": "Globe Trailers",
+   "number": "(800) 800-3484",
+   "candidates": [
+    "(800) 800-3484"
+   ],
+   "how": "company page",
+   "src": "Src: read globetrailers.com 2026-10-31",
+   "site": "globetrailers.com",
+   "notes": [
+    "site found by search: globetrailers.com"
+   ]
+  },
+  {
+   "route": 4,
+   "row": "Trans-Phos",
+   "number": "(800) 940-1575",
+   "candidates": [
+    "(800) 940-1575"
+   ],
+   "how": "company page",
+   "src": "Src: read transphos.com/contact-us 2026-10-31",
+   "site": "transphos.com",
+   "notes": [
+    "site found by search: transphos.com"
+   ]
+  },
+  {
+   "route": 4,
+   "row": "Prime Line Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "primelinefoods.com",
+   "notes": [
+    "site found by search: primelinefoods.com"
+   ]
+  },
+  {
+   "route": 4,
+   "row": "H&H Products Company",
+   "number": null,
+   "candidates": [],
+   "how": "no company site identified (search refused)",
+   "src": null
+  },
+  {
+   "route": 4,
+   "row": "Regal Marine Industries",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "m.regalmarine.com",
+   "notes": [
+    "site found by search: m.regalmarine.com"
+   ]
+  },
+  {
+   "route": 4,
+   "row": "Conimar Corporation",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "conimar.net",
+   "notes": [
+    "site found by search: conimar.net"
+   ]
+  },
+  {
+   "route": 4,
+   "row": "Alpha Foundations",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "alphafoundations.com",
+   "notes": []
+  },
+  {
+   "route": 1,
+   "row": "Invicta Watch Group",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Quirch Foods",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "PJ Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Sunshine Bouquet",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Turbana Corp",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "National Beverage (LaCroix)",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Refricenter",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "TruckMax",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Presidente Supermarkets",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "JM Family Enterprises",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "World Kinect",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Great Bay Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "J.J. Taylor Distributing FL",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Helios Technologies (Sun Hydraulics)",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Regal Boats",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Duda Farm Fresh Foods",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Sheltair Aviation",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Globe Trailers",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Trans-Phos",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Prime Line Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "H&H Products Company",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Regal Marine Industries",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Conimar Corporation",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Alpha Foundations",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Invicta Watch Group",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Quirch Foods",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "PJ Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Sunshine Bouquet",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Turbana Corp",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "National Beverage (LaCroix)",
+   "number": null,
+   "candidates": [],
+   "how": "chamber public.plantationchamber.org refused",
+   "src": null,
+   "chamber": "public.plantationchamber.org",
+   "refused": true,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Refricenter",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "TruckMax",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Presidente Supermarkets",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "JM Family Enterprises",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "World Kinect",
+   "number": null,
+   "candidates": [],
+   "how": "chamber page",
+   "src": null,
+   "chamber": "flchamber.com",
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Great Bay Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "J.J. Taylor Distributing FL",
+   "number": null,
+   "candidates": [],
+   "how": "search refused",
+   "src": null,
+   "refused": true,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Helios Technologies (Sun Hydraulics)",
+   "number": null,
+   "candidates": [],
+   "how": "chamber business.sarasotachamber.com refused",
+   "src": null,
+   "chamber": "business.sarasotachamber.com",
+   "refused": true,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Regal Boats",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Duda Farm Fresh Foods",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Sheltair Aviation",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Globe Trailers",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Trans-Phos",
+   "number": "(863) 534-1575",
+   "candidates": [
+    "(863) 534-1575",
+    "(863) 534-3200",
+    "(863) 688-8551"
+   ],
+   "how": "chamber page",
+   "src": "Src: read web.lakelandchamber.com/Logistics-Management-Services/TransPhos,-Inc-578 2026-10-31",
+   "chamber": "web.lakelandchamber.com",
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Prime Line Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "H&H Products Company",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Regal Marine Industries",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Conimar Corporation",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "reader": "v2"
+  },
+  {
+   "route": 2,
+   "row": "Alpha Foundations",
+   "number": null,
+   "candidates": [],
+   "how": "chamber business.ftlchamber.com refused",
+   "src": null,
+   "chamber": "business.ftlchamber.com",
+   "refused": true,
+   "reader": "v2"
+  },
+  {
+   "route": 3,
+   "row": "Invicta Watch Group",
+   "number": "(844) 468-4282",
+   "candidates": [
+    "(844) 468-4282"
+   ],
+   "how": "press page",
+   "src": "Src: read invictastores.com 2026-10-31",
+   "outlet": "invictastores.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Quirch Foods",
+   "number": null,
+   "candidates": [],
+   "how": "outlet businesswire.com refused",
+   "src": null,
+   "outlet": "businesswire.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "PJ Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "outlet m.imdb.com refused",
+   "src": null,
+   "outlet": "m.imdb.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Sunshine Bouquet",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "github.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Turbana Corp",
+   "number": null,
+   "candidates": [],
+   "how": "outlet occhd.org refused",
+   "src": null,
+   "outlet": "occhd.org",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "National Beverage (LaCroix)",
+   "number": null,
+   "candidates": [],
+   "how": "outlet nationalcar.com refused",
+   "src": null,
+   "outlet": "nationalcar.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Refricenter",
+   "number": null,
+   "candidates": [],
+   "how": "outlet reddit.com refused",
+   "src": null,
+   "outlet": "reddit.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "TruckMax",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "fitbod.me",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Presidente Supermarkets",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "tiktok.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "JM Family Enterprises",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "jmbullion.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "World Kinect",
+   "number": null,
+   "candidates": [],
+   "how": "outlet bbc.com refused",
+   "src": null,
+   "outlet": "bbc.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Great Bay Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "dictionary.cambridge.org",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "J.J. Taylor Distributing FL",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "dailymotion.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Helios Technologies (Sun Hydraulics)",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "inputsense.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Regal Boats",
+   "number": null,
+   "candidates": [],
+   "how": "outlet regmovies.com refused",
+   "src": null,
+   "outlet": "regmovies.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Duda Farm Fresh Foods",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "duda.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Sheltair Aviation",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "watershed.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Globe Trailers",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "globle-game.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Trans-Phos",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "merriam-webster.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Prime Line Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "amzn.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "H&H Products Company",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "starfall.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Regal Marine Industries",
+   "number": null,
+   "candidates": [],
+   "how": "outlet regmovies.com refused",
+   "src": null,
+   "outlet": "regmovies.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Conimar Corporation",
+   "number": null,
+   "candidates": [],
+   "how": "outlet reddit.com refused",
+   "src": null,
+   "outlet": "reddit.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Alpha Foundations",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "wumbo.net",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  }
+ ],
+ "void_v1": [
+  {
+   "route": 4,
+   "row": "PJ Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "pjmedia.com",
+   "notes": [
+    "site found by search: pjmedia.com"
+   ],
+   "void": "search reader v1 (Bing) returned results unrelated to the query; superseded by the v2 re-run"
+  },
+  {
+   "route": 4,
+   "row": "Sunshine Bouquet",
+   "number": null,
+   "candidates": [],
+   "how": "no company site identified",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query; superseded by the v2 re-run"
+  },
+  {
+   "route": 4,
+   "row": "J.J. Taylor Distributing FL",
+   "number": null,
+   "candidates": [],
+   "how": "no company site identified",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query; superseded by the v2 re-run"
+  },
+  {
+   "route": 4,
+   "row": "Duda Farm Fresh Foods",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "duda.co",
+   "notes": [
+    "site found by search: duda.co"
+   ],
+   "void": "search reader v1 (Bing) returned results unrelated to the query; superseded by the v2 re-run"
+  },
+  {
+   "route": 4,
+   "row": "Globe Trailers",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "globe.gov",
+   "notes": [
+    "site found by search: globe.gov"
+   ],
+   "void": "search reader v1 (Bing) returned results unrelated to the query; superseded by the v2 re-run"
+  },
+  {
+   "route": 4,
+   "row": "Trans-Phos",
+   "number": null,
+   "candidates": [],
+   "how": "no company site identified",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query; superseded by the v2 re-run"
+  },
+  {
+   "route": 4,
+   "row": "Prime Line Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "primevideo.com",
+   "notes": [
+    "site found by search: primevideo.com"
+   ],
+   "void": "search reader v1 (Bing) returned results unrelated to the query; superseded by the v2 re-run"
+  },
+  {
+   "route": 4,
+   "row": "H&H Products Company",
+   "number": null,
+   "candidates": [],
+   "how": "no company site identified",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query; superseded by the v2 re-run"
+  },
+  {
+   "route": 4,
+   "row": "Regal Marine Industries",
+   "number": null,
+   "candidates": [],
+   "how": "no number on company pages read",
+   "src": null,
+   "site": "getregal.com",
+   "notes": [
+    "site found by search: getregal.com"
+   ],
+   "void": "search reader v1 (Bing) returned results unrelated to the query; superseded by the v2 re-run"
+  },
+  {
+   "route": 4,
+   "row": "Conimar Corporation",
+   "number": null,
+   "candidates": [],
+   "how": "no company site identified",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query; superseded by the v2 re-run"
+  },
+  {
+   "route": 1,
+   "row": "Invicta Watch Group",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Quirch Foods",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "PJ Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Sunshine Bouquet",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Turbana Corp",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "National Beverage (LaCroix)",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Refricenter",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "TruckMax",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Presidente Supermarkets",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "JM Family Enterprises",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "World Kinect",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Great Bay Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "J.J. Taylor Distributing FL",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Helios Technologies (Sun Hydraulics)",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Regal Boats",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Duda Farm Fresh Foods",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Sheltair Aviation",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Globe Trailers",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Trans-Phos",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Prime Line Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "H&H Products Company",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Regal Marine Industries",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Conimar Corporation",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 1,
+   "row": "Alpha Foundations",
+   "number": null,
+   "candidates": [],
+   "how": "no association directory carrying the company in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Invicta Watch Group",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Quirch Foods",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "PJ Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Sunshine Bouquet",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Turbana Corp",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "National Beverage (LaCroix)",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Refricenter",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "TruckMax",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Presidente Supermarkets",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "JM Family Enterprises",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "World Kinect",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Great Bay Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "J.J. Taylor Distributing FL",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Helios Technologies (Sun Hydraulics)",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Regal Boats",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Duda Farm Fresh Foods",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Sheltair Aviation",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Globe Trailers",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Trans-Phos",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Prime Line Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "H&H Products Company",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Regal Marine Industries",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Conimar Corporation",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 2,
+   "row": "Alpha Foundations",
+   "number": null,
+   "candidates": [],
+   "how": "no chamber listing in results",
+   "src": null,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Invicta Watch Group",
+   "number": "(844) 468-4282",
+   "candidates": [
+    "(844) 468-4282"
+   ],
+   "how": "press page",
+   "src": "Src: read invictastores.com 2026-10-31",
+   "outlet": "invictastores.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Quirch Foods",
+   "number": null,
+   "candidates": [],
+   "how": "outlet businesswire.com refused",
+   "src": null,
+   "outlet": "businesswire.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "PJ Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "outlet m.imdb.com refused",
+   "src": null,
+   "outlet": "m.imdb.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Sunshine Bouquet",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "github.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Turbana Corp",
+   "number": null,
+   "candidates": [],
+   "how": "outlet occhd.org refused",
+   "src": null,
+   "outlet": "occhd.org",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "National Beverage (LaCroix)",
+   "number": null,
+   "candidates": [],
+   "how": "outlet nationalcar.com refused",
+   "src": null,
+   "outlet": "nationalcar.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Refricenter",
+   "number": null,
+   "candidates": [],
+   "how": "outlet reddit.com refused",
+   "src": null,
+   "outlet": "reddit.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "TruckMax",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "fitbod.me",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Presidente Supermarkets",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "tiktok.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "JM Family Enterprises",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "jmbullion.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "World Kinect",
+   "number": null,
+   "candidates": [],
+   "how": "outlet bbc.com refused",
+   "src": null,
+   "outlet": "bbc.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Great Bay Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "dictionary.cambridge.org",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "J.J. Taylor Distributing FL",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "dailymotion.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Helios Technologies (Sun Hydraulics)",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "inputsense.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Regal Boats",
+   "number": null,
+   "candidates": [],
+   "how": "outlet regmovies.com refused",
+   "src": null,
+   "outlet": "regmovies.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Duda Farm Fresh Foods",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "duda.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Sheltair Aviation",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "watershed.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Globe Trailers",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "globle-game.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Trans-Phos",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "merriam-webster.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Prime Line Distributors",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "amzn.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "H&H Products Company",
+   "number": null,
+   "candidates": [],
+   "how": "press page (company not named on page)",
+   "src": null,
+   "outlet": "starfall.com",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Regal Marine Industries",
+   "number": null,
+   "candidates": [],
+   "how": "outlet regmovies.com refused",
+   "src": null,
+   "outlet": "regmovies.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Conimar Corporation",
+   "number": null,
+   "candidates": [],
+   "how": "outlet reddit.com refused",
+   "src": null,
+   "outlet": "reddit.com",
+   "refused": true,
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  },
+  {
+   "route": 3,
+   "row": "Alpha Foundations",
+   "number": null,
+   "candidates": [],
+   "how": "press page",
+   "src": null,
+   "outlet": "wumbo.net",
+   "void": "search reader v1 (Bing) returned results unrelated to the query — route unmeasured on this row"
+  }
+ ]
+}

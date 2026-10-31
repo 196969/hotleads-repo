@@ -1,0 +1,196 @@
+{
+ "seed": 323,
+ "rng": "Python random.Random (Mersenne Twister), 3.12.3",
+ "stratum_key": "industry label on each row = text of the row's sub-label before \" \u00b7 \" (region suffix dropped); Alpha Foundations has no industry label, stratum = its signal label",
+ "allocation": "proportional, half of each stratum; integer parts first (8), then 16 of the 32 odd strata rounded up, chosen by rng.sample on the sorted list; within each stratum rng.sample on rows sorted by name",
+ "strata": {
+  "3PL": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Acquisitions signal (no industry label on row)": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Aerospace parts mfg": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Apparel import/dist": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Auto distribution": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Beer distribution": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Beverage distribution": {
+   "size": 3,
+   "drawn": 2
+  },
+  "Beverage mfg": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Building products": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Commercial truck/parts": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Consumer import/dist": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Distribution & Wholesale": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Drinkware mfg": {
+   "size": 1,
+   "drawn": 0
+  },
+  "FBO / aviation real estate": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Floral import/dist": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Food & Beverage Processing": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Food distribution": {
+   "size": 2,
+   "drawn": 1
+  },
+  "Food import/mfg": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Fuel/energy dist": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Furniture retail/dist": {
+   "size": 1,
+   "drawn": 0
+  },
+  "General import/dist": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Grocery": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Grocery + distribution": {
+   "size": 1,
+   "drawn": 1
+  },
+  "HVAC distribution": {
+   "size": 1,
+   "drawn": 0
+  },
+  "HVAC parts dist": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Industrial mfg": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Juice mfg": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Manufacturing & Industrial": {
+   "size": 6,
+   "drawn": 3
+  },
+  "Marine mfg": {
+   "size": 2,
+   "drawn": 1
+  },
+  "Medical device mfg": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Produce grower/dist": {
+   "size": 1,
+   "drawn": 1
+  },
+  "Produce import": {
+   "size": 2,
+   "drawn": 1
+  },
+  "Retail + DC": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Seafood import/dist": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Sugar mfg/dist": {
+   "size": 1,
+   "drawn": 0
+  },
+  "Transportation & Logistics": {
+   "size": 3,
+   "drawn": 1
+  }
+ },
+ "rounded_up": [
+  "Beverage mfg",
+  "Auto distribution",
+  "General import/dist",
+  "Commercial truck/parts",
+  "Acquisitions signal (no industry label on row)",
+  "Fuel/energy dist",
+  "Grocery + distribution",
+  "Floral import/dist",
+  "Consumer import/dist",
+  "HVAC parts dist",
+  "Industrial mfg",
+  "FBO / aviation real estate",
+  "Distribution & Wholesale",
+  "Beverage distribution",
+  "Food & Beverage Processing",
+  "Produce grower/dist"
+ ],
+ "sample": [
+  "Alpha Foundations",
+  "JM Family Enterprises",
+  "Great Bay Distributors",
+  "J.J. Taylor Distributing FL",
+  "National Beverage (LaCroix)",
+  "TruckMax",
+  "Invicta Watch Group",
+  "Prime Line Distributors",
+  "Sheltair Aviation",
+  "Sunshine Bouquet",
+  "H&H Products Company",
+  "Quirch Foods",
+  "World Kinect",
+  "PJ Distributors",
+  "Presidente Supermarkets",
+  "Refricenter",
+  "Helios Technologies (Sun Hydraulics)",
+  "Regal Marine Industries",
+  "Conimar Corporation",
+  "Globe Trailers",
+  "Regal Boats",
+  "Duda Farm Fresh Foods",
+  "Turbana Corp",
+  "Trans-Phos"
+ ]
+}

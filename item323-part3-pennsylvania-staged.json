@@ -1,0 +1,476 @@
+{
+ "item": "323",
+ "part": 3,
+ "file": "pennsylvania.html",
+ "state": "STAGED, NOT DELIVERED — held for a Chair ruling on lines three reads could not re-establish (12 of 34); pennsylvania.html is delivered unchanged at head c3c62dd",
+ "lines": {
+  "of": 34,
+  "re_dated": 19,
+  "re_verified_changed_fact": 3,
+  "not_established": 12
+ },
+ "rows_at_risk": {
+  "of": 15,
+  "stay_verified": 11,
+  "to_unverified": 4,
+  "to_unverified_by_cause": {
+   "no dated source left": [
+    "85"
+   ],
+   "decision maker unconfirmed (standing Tier A rule)": [
+    "26",
+    "27",
+    "200"
+   ]
+  }
+ },
+ "validator_on_staged_bytes": "refused: 12 undated Src: lines (34 at head)",
+ "reads": {
+  "spent": 99,
+  "ceiling": 100
+ },
+ "rows": [
+  {
+   "row": "26",
+   "company": "Marburger Farm Dairy",
+   "tier": "A",
+   "status_staged": "Unverified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: Farm and Dairy (Crawford County ag award); Butler Eagle; Dairy Foods Dairy Plants USA. | Prior ",
+   "staged_text": [
+    "Src: read marburgerdairy.com/about 2026-10-31 — Item 323 Part 3 re-dated: three generations of Marburgers operate the dairy; the decision maker named on this row is not on the page read; prior citations, undated: Farm and Dairy (Crawford County ag award); Butler Eagle; Dairy Foods Dairy Plants USA. | Prior note: Family-owned since 1938"
+   ],
+   "decision_maker_staged": "Craig Marburger   Co-owner/operator (4th generation, with Carrie Marburger Robb)"
+  },
+  {
+   "row": "27",
+   "company": "Brunton Dairy",
+   "tier": "A",
+   "status_staged": "Unverified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: Three Rivers Grown / bruntondairy.com profile; PA Milk Marketing Board licensee list. | Prior n",
+   "staged_text": [
+    "Src: read fieldandcattle.com/farms/pa/brunton-dairy 2026-10-31 — Item 323 Part 3 re-dated: 7th-generation family-owned farm; the decision maker named on this row is not on the page read; prior citations, undated: Three Rivers Grown / bruntondairy.com profile; PA Milk Marketing Board licensee list. | Prior note: Family-owned"
+   ],
+   "decision_maker_staged": "Ed Brunton   Co-owner (with brother Herb Brunton; 7th generation)"
+  },
+  {
+   "row": "45",
+   "company": "M. Levin & Company",
+   "tier": "A",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: mlevinco.com; The Produce News (2024–25 profiles); Wikipedia",
+   "staged_text": [
+    "Src: read mlevinco.com 2026-10-31 — Item 323 Part 3 re-dated: the company’s own site names Mark Levin; prior citations, undated: mlevinco.com; The Produce News (2024–25 profiles); Wikipedia"
+   ],
+   "decision_maker_staged": "Mark Levin   CEO & co-owner (3rd generation; with David Levin, Michael Levin, Joel Segel)"
+  },
+  {
+   "row": "74",
+   "company": "Tony Luke’s",
+   "tier": "C",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "not established",
+   "old_line": "Src: Wikipedia/Tony Luke’s; CBS News Philadelphia (name change, guilty plea)",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — Wikipedia refused; the company locations page does not carry the fact; the line stays undated as found."
+   ],
+   "decision_maker_staged": "—   split brand; see note"
+  },
+  {
+   "row": "82",
+   "company": "Ernest Bock & Sons",
+   "tier": "A",
+   "status_staged": "Unverified",
+   "status_at_head": "Unverified",
+   "outcome": "not established",
+   "old_line": "Src: CIS Leads company profile. | Prior note: Family-owned since 1931",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — both pages refused; the line stays undated as found."
+   ],
+   "decision_maker_staged": "—"
+  },
+  {
+   "row": "83",
+   "company": "Daniel J. Keating Company",
+   "tier": "A",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: djkeating.com leadership page; CIS Leads; Siteline. | Prior note: Family-owned since 1907",
+   "staged_text": [
+    "Src: read djkeating.com/leadership/pierce-j-keating 2026-10-31 — Item 323 Part 3 re-dated: Pierce J. Keating, Chairman & CEO, third generation; prior citations, undated: djkeating.com leadership page; CIS Leads; Siteline. | Prior note: Family-owned since 1907"
+   ],
+   "decision_maker_staged": "Pierce Keating   Chairman & CEO (3rd generation; Pierce Keating Jr., President)"
+  },
+  {
+   "row": "85",
+   "company": "Benchmark Construction",
+   "tier": "A",
+   "status_staged": "Unverified",
+   "status_at_head": "Verified",
+   "outcome": "not established",
+   "old_line": "Src: Siteline GC profile; BuiltWorlds (founder); Owler; The Blue Book; Lean Construction Institute m",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — the page read is for Robert Brandt III; Bob Brandt, Jr."
+   ],
+   "decision_maker_staged": "Bob Brandt, Jr.   Founder & Chairman"
+  },
+  {
+   "row": "94",
+   "company": "Jendoco Construction",
+   "tier": "A",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: MBA of Western PA member profile; Pittsburgh Business Times contractors list 2024. | Prior note",
+   "staged_text": [
+    "Src: read jendoco.com/about-us 2026-10-31 — Item 323 Part 3 re-dated: family-owned, second generation, led by Domenic Dozzi; prior citations, undated: MBA of Western PA member profile; Pittsburgh Business Times contractors list 2024. | Prior note: Family-owned since 1957"
+   ],
+   "decision_maker_staged": "Domenic P. Dozzi   CEO & principal (Michael R. Kuhn, President)"
+  },
+  {
+   "row": "95",
+   "company": "Volpatt Construction",
+   "tier": "A",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: The Blue Book company story; MBA of Western PA directory; a-leads profile. | Prior note: Family",
+   "staged_text": [
+    "Src: read volpatt.com/about-us 2026-10-31 — Item 323 Part 3 re-dated: Raymond A. Volpatt named on the company’s own about page; prior citations, undated: The Blue Book company story; MBA of Western PA directory; a-leads profile. | Prior note: Family-owned since 1900"
+   ],
+   "decision_maker_staged": "Raymond A. Volpatt   Founder & owner"
+  },
+  {
+   "row": "96",
+   "company": "A. Martini & Company",
+   "tier": "A",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: MBA of Western PA member profile; The Blue Book company story. | Prior note: Family-owned since",
+   "staged_text": [
+    "Src: read amartinigc.com/our-company/senior-leadership/anthony-martini 2026-10-31 — Item 323 Part 3 re-dated: Anthony Martini on the company’s senior-leadership page; prior citations, undated: MBA of Western PA member profile; The Blue Book company story. | Prior note: Family-owned since 1947"
+   ],
+   "decision_maker_staged": "Anthony Martini   President & co-owner (3rd generation; Angelo Martini Jr., COO)"
+  },
+  {
+   "row": "98",
+   "company": "Franjo Construction",
+   "tier": "A",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: SkillHero directory (company profile); Top Workplaces; CB Insights. | Prior note: Family-owned",
+   "staged_text": [
+    "Src: read franjoconstruction.com/staff/frank-leonello 2026-10-31 — Item 323 Part 3 re-dated: Frank Leonello on the company’s staff page; prior citations, undated: SkillHero directory (company profile); Top Workplaces; CB Insights. | Prior note: Family-owned"
+   ],
+   "decision_maker_staged": "Frank Leonello   Co-owner (with brother Joe Leonello)"
+  },
+  {
+   "row": "99",
+   "company": "Nello Construction",
+   "tier": "A",
+   "status_staged": "Unverified",
+   "status_at_head": "Unverified",
+   "outcome": "re-dated",
+   "old_line": "Src: Observer-Reporter local listing; CIS Leads (the separate Philadelphia company); OSHA inspection",
+   "staged_text": [
+    "Src: read nelloconstructionco.com 2026-10-31 — Item 323 Part 3 re-dated: the company’s own site names Nello Naticchione III as current owner; prior citations, undated: Observer-Reporter local listing; CIS Leads (the separate Philadelphia company); OSHA inspection records (Carnegie mailing address, historic)"
+   ],
+   "decision_maker_staged": "—"
+  },
+  {
+   "row": "106",
+   "company": "Poole Anderson Construction",
+   "tier": "A",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: pooleanderson.com news; Geisinger board bio (Poole); The Blue Book; CBICC directory. | Prior no",
+   "staged_text": [
+    "Src: read pooleanderson.com/about-us/news/poole-anderson-appoints-chad-lakatosh-as-new-president 2026-10-31 — Item 323 Part 3 re-dated: Chad Lakatosh appointed President; prior citations, undated: pooleanderson.com news; Geisinger board bio (Poole); The Blue Book; CBICC directory. | Prior note: Family-owned"
+   ],
+   "decision_maker_staged": "Chad Lakatosh   President (recently appointed); Robert E. Poole, CEO & owner"
+  },
+  {
+   "row": "107",
+   "company": "Leonard S. Fiore",
+   "tier": "A",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: CBICC member directory; MarketScreener officer profile; OSHA establishment records (Altoona mai",
+   "staged_text": [
+    "Src: read lsfiore.com/lsf-leadership 2026-10-31 — Item 323 Part 3 re-dated: Joseph (Joey) Irwin, President; prior citations, undated: CBICC member directory; MarketScreener officer profile; OSHA establishment records (Altoona mailing address)"
+   ],
+   "decision_maker_staged": "Joseph Irwin   President"
+  },
+  {
+   "row": "111",
+   "company": "E.G. Stoltzfus",
+   "tier": "A",
+   "status_staged": "Unverified",
+   "status_at_head": "Unverified",
+   "outcome": "not established",
+   "old_line": "Src: CPBJ company profile; ContactOut company record (address, headcount, ‘second-generation, family",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — the search returned no result; the line stays undated as found."
+   ],
+   "decision_maker_staged": "—"
+  },
+  {
+   "row": "125",
+   "company": "Loftus Construction",
+   "tier": "C",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "re-dated",
+   "old_line": "Src: CIS Leads company profile",
+   "staged_text": [
+    "Src: read loftusconstruction.com/about.php 2026-10-31 — Item 323 Part 3 re-dated: Kevin Loftus on the company’s about page; prior citations, undated: CIS Leads company profile"
+   ],
+   "decision_maker_staged": "Kevin Loftus   President"
+  },
+  {
+   "row": "126",
+   "company": "Neshaminy Constructors",
+   "tier": "A",
+   "status_staged": "Unverified",
+   "status_at_head": "Unverified",
+   "outcome": "re-dated",
+   "old_line": "Src: Aqua PA contractor list",
+   "staged_text": [
+    "Src: read nci3.com/corporate/management 2026-10-31 — Item 323 Part 3 re-dated: Tony Canuso, Jr., President, on the management page; prior citations, undated: Aqua PA contractor list"
+   ],
+   "decision_maker_staged": "Francis A. ‘Tony’ Canuso Jr.   Contact of record (title not published)"
+  },
+  {
+   "row": "154",
+   "company": "Seubert & Associates",
+   "tier": "A",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: ZoomInfo; Rough Notes ‘Marketing Agency of the Month’ (Seubert ownership plan); Chubb agency li",
+   "staged_text": [
+    "Src: read seubert.com/blog/our-people/brandon-mueller-crm-president-admin 2026-10-31 — Item 323 Part 3 re-dated: Brandon Mueller, President; prior citations, undated: ZoomInfo; Rough Notes ‘Marketing Agency of the Month’ (Seubert ownership plan); Chubb agency listing; Post-Gazette Top Workplaces"
+   ],
+   "decision_maker_staged": "Brandon Mueller   President (Richard Mansfield, COO/CFO; Tyler Lyster, COO)"
+  },
+  {
+   "row": "159",
+   "company": "Oxford Development",
+   "tier": "B",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "re-verified to a changed fact",
+   "old_line": "Src: Wikipedia/Oxford Development; oxforddevelopment.com leadership page; Pittsburgh Business Times ",
+   "staged_text": [
+    "Src: read oxforddevelopment.com/our-team 2026-10-31 — Item 323 Part 3 re-verified: the fact has changed: the company’s team page lists Shawn Fox as President and CEO; Steven J. Guy is not listed in that role; prior citations, undated: Wikipedia/Oxford Development; oxforddevelopment.com leadership page; Pittsburgh Business Times Power 100 coverage"
+   ],
+   "decision_maker_staged": "Shawn Fox   President and CEO (per oxforddevelopment.com/our-team, read 2026-10-31); prior cell: Steven J. Guy, President & CEO"
+  },
+  {
+   "row": "162",
+   "company": "McKnight Realty Partners",
+   "tier": "B",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "not established",
+   "old_line": "Src: mcknightrealtypartners.com/history",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — both pages refused (company bio, LoopNet); the line stays undated as found."
+   ],
+   "decision_maker_staged": "Izzy Rudolph   President of Development & Acquisitions (Rudolph family owner)"
+  },
+  {
+   "row": "169",
+   "company": "Alterra Property Group",
+   "tier": "B",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "re-dated",
+   "old_line": "Src: ZoomInfo company profile; Philadelphia Life/Suburban Life profile (Meridian Bank)",
+   "staged_text": [
+    "Src: read alterraproperty.com/alterra-partners 2026-10-31 — Item 323 Part 3 re-dated: Leo Addimando on the company’s partners page; prior citations, undated: ZoomInfo company profile; Philadelphia Life/Suburban Life profile (Meridian Bank)"
+   ],
+   "decision_maker_staged": "Leo Addimando   Co-founder & Managing Partner"
+  },
+  {
+   "row": "170",
+   "company": "Pennrose",
+   "tier": "B",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "re-dated",
+   "old_line": "Src: Owler company profile (CEO, headcount); REBusinessOnline project coverage 2025–2026",
+   "staged_text": [
+    "Src: read pennrose.com/about/executive-leadership-team-2025/timothy-i-henkel 2026-10-31 — Item 323 Part 3 re-dated: Timothy I. Henkel on the executive-leadership page (named President in 2022); prior citations, undated: Owler company profile (CEO, headcount); REBusinessOnline project coverage 2025–2026"
+   ],
+   "decision_maker_staged": "Timothy I. Henkel   CEO (successor to Richard Barnhart/Mark Dambly)"
+  },
+  {
+   "row": "172",
+   "company": "Rouse Chamberlin Homes",
+   "tier": "A",
+   "status_staged": "Unverified",
+   "status_at_head": "Unverified",
+   "outcome": "re-dated",
+   "old_line": "Src: Zillow builder profiles (19468/19475) and HomeGuide listing, all current to 2026",
+   "staged_text": [
+    "Src: read rousechamberlin.com/about/our-story 2026-10-31 — Item 323 Part 3 re-dated: the company’s own story page presents it as trading; prior citations, undated: Zillow builder profiles (19468/19475) and HomeGuide listing, all current to 2026"
+   ],
+   "decision_maker_staged": "—"
+  },
+  {
+   "row": "173",
+   "company": "W.B. Homes",
+   "tier": "A",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: wbhomesinc.com; Times News profile; a-leads",
+   "staged_text": [
+    "Src: read wbhomesinc.com/our-story 2026-10-31 — Item 323 Part 3 re-dated: family-owned; founder William Bonenberger; prior citations, undated: wbhomesinc.com; Times News profile; a-leads"
+   ],
+   "decision_maker_staged": "William J. Bonenberger   Founder & President"
+  },
+  {
+   "row": "182",
+   "company": "Weaber Lumber",
+   "tier": "B",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "not established",
+   "old_line": "Src: The Middle Market (Cyprium/Weaber); Woodworking Network",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — the decision maker is not on the home or contact page; the line stays undated as found."
+   ],
+   "decision_maker_staged": "Matthew Weaber   CEO (3rd generation)"
+  },
+  {
+   "row": "196",
+   "company": "Esbenshade Farms",
+   "tier": "C",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "not established",
+   "old_line": "Src: Central Penn Business Journal; National Hog Farmer",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — both reads of the CPBJ article refused; the line stays undated as found."
+   ],
+   "decision_maker_staged": "—"
+  },
+  {
+   "row": "200",
+   "company": "Yoder’s Country Market",
+   "tier": "A",
+   "status_staged": "Unverified",
+   "status_at_head": "Verified",
+   "outcome": "re-dated",
+   "old_line": "Src: ExplorePAHistory; Produce Market Guide (New Holland, 17557 PA listing); marketreportblog store ",
+   "staged_text": [
+    "Src: read yoderscountrymarket.com/about 2026-10-31 — Item 323 Part 3 re-dated: local, family-owned supermarket; no decision maker named; prior citations, undated: ExplorePAHistory; Produce Market Guide (New Holland, 17557 PA listing); marketreportblog store tours"
+   ],
+   "decision_maker_staged": "—"
+  },
+  {
+   "row": "6",
+   "company": "Weis Markets",
+   "tier": "C",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "not established",
+   "old_line": "Src: Wikipedia; Talent4Boards/company release 2014; stock profiles",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — Wikipedia, MarketScreener and the company board page refused; the line stays undated as found."
+   ],
+   "decision_maker_staged": "Jonathan Weis   Chairman, President & CEO"
+  },
+  {
+   "row": "17",
+   "company": "Utz Brands",
+   "tier": "C",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "re-verified to a changed fact",
+   "old_line": "Src: Nemo Money WMK-vs-UTZ profile (ticker); Wikipedia",
+   "staged_text": [
+    "Src: read finance.yahoo.com/markets/stocks/articles/utz-brands-private-2-9-135234324.html 2026-10-31 — Item 323 Part 3 re-verified: the fact has changed: Utz (NYSE: UTZ) has agreed to be acquired by Germany’s Intersnack Group (~$2.9B incl. debt); on completion it becomes private, owned 50/50 by Intersnack and the Rice and Lissette family entities — Tier C stands on either state (public now; foreign co-control on close); prior citations, undated: Nemo Money WMK-vs-UTZ profile (ticker); Wikipedia"
+   ],
+   "decision_maker_staged": "—"
+  },
+  {
+   "row": "30",
+   "company": "Gertrude Hawk Chocolates",
+   "tier": "B",
+   "status_staged": "Verified",
+   "status_at_head": "Verified",
+   "outcome": "re-verified to a changed fact",
+   "old_line": "Src: Datanyze; WNEP; company wholesale catalog 2024–25",
+   "staged_text": [
+    "Src: read timesleader.com/features/1763760/hawk-family-foundation-donates-15000-to-allied-services 2026-10-31 — Item 323 Part 3 re-verified: the fact has changed: the page names Patrik Hawk as Gertrude Hawk Chocolates CEO; the co-owner/chair named on this row is not confirmed on any page read; prior citations, undated: Datanyze; WNEP; company wholesale catalog 2024–25"
+   ],
+   "decision_maker_staged": "Patrik Hawk   CEO (per Times Leader, read 2026-10-31); prior cell: Carolyn Hawk Horter, Co-owner & Chair; Christopher Cuneo, President per directory"
+  },
+  {
+   "row": "46",
+   "company": "Coosemans Philadelphia",
+   "tier": "C",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "not established",
+   "old_line": "Src: Coosemans Worldwide network listings; Philadelphia Wholesale Produce Market merchant roster",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — the search returned no result; the line stays undated as found."
+   ],
+   "decision_maker_staged": "—"
+  },
+  {
+   "row": "54",
+   "company": "Lancaster Foods",
+   "tier": "C",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "not established",
+   "old_line": "Src: Baldor/Lancaster Foods acquisition coverage; PA Milk Board sub-dealer list (Baldor Pennsylvania",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — the company history page read does not establish the cited acquisition; the line stays undated as found."
+   ],
+   "decision_maker_staged": "—"
+  },
+  {
+   "row": "127",
+   "company": "Gilbert Associates",
+   "tier": "C",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "not established",
+   "old_line": "Src: Parsons/Gilbert Associates acquisition history; SEC-era filings",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — a pre-dated directory and a biography only; the acquisition is not established; the line stays undated as found."
+   ],
+   "decision_maker_staged": "—"
+  },
+  {
+   "row": "132",
+   "company": "Drucker & Scaccetti",
+   "tier": "C",
+   "status_staged": "Downgraded",
+   "status_at_head": "Downgraded",
+   "outcome": "not established",
+   "old_line": "Src: armanino.com merger announcement",
+   "staged_text": [
+    "Item 323 Part 3 (2026-10-31): re-read not established — both pages refused (directory; armanino."
+   ],
+   "decision_maker_staged": "—"
+  }
+ ]
+}

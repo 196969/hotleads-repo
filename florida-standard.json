@@ -7602,5 +7602,63 @@
    "net-new 408",
    "Verified 3,220 (corrected to 3,323 on 19 October)"
   ]
+ },
+ "contact_sourcing_routes": {
+  "item": "323",
+  "measured": "2026-10-31",
+  "replaces": "the single company-page rate (Item 322: 10 of 57 rows, 17.5%, ~12 reads per sourced row) as the figure every market opens on",
+  "sample": "24 of Florida’s 48 “source the number” rows, stratified by industry label, seed 323; every route on every row, no early exit; denominator 24 for every route",
+  "routes": [
+   {
+    "route": 4,
+    "name": "the company’s own pages",
+    "attempted": 24,
+    "sourced": 7,
+    "rate": "29.2%",
+    "reads": 72,
+    "reads_per_sourced_row": "~10.3 (includes reads voided by the search-reader fault on 10 no-site rows)",
+    "estimate": "~50 (measured basis, Item 322)",
+    "comparable": "whole sample — comparable with 17.5%; n=24, wide interval"
+   },
+   {
+    "route": 2,
+    "name": "chambers of commerce",
+    "attempted": 24,
+    "sourced": 1,
+    "rate": "4.2%",
+    "reads": "29 valid (plus 24 voided)",
+    "reads_per_row_actual": "1.2",
+    "reads_per_row_estimate": "2.0 (est. 48)",
+    "comparable": "whole sample"
+   },
+   {
+    "route": 1,
+    "name": "associations",
+    "attempted": 0,
+    "sourced": null,
+    "rate": "unmeasured",
+    "reads": "24 voided",
+    "note": "search reader v1 returned results unrelated to the query; route not measured"
+   },
+   {
+    "route": 3,
+    "name": "trade press",
+    "attempted": 0,
+    "sourced": null,
+    "rate": "unmeasured",
+    "reads": "48 voided",
+    "reads_per_row_actual": "none valid",
+    "reads_per_row_estimate": "2.0 (est. 48)"
+   }
+  ],
+  "contact_field": {
+   "single_route": 6,
+   "routes_agreed": 0,
+   "resolved_by_precedence": 1,
+   "disputed_unresolved": 0,
+   "scope": "two measured routes only"
+  },
+  "refusals": "19 Route 4 pages and 3 GrowthZone chamber pages refused one reader kind; not confirmed by a second",
+  "opening_use": "Texas, Georgia and the Carolinas open on Route 4 at 29.2% (7/24) and Route 2 at 4.2% (1/24); Routes 1 and 3 have no measured cost and must be measured before they are budgeted"
  }
 }

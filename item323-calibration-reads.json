@@ -1,0 +1,74 @@
+[
+ {
+  "n": 1,
+  "route": 4,
+  "row": "Badia Spices",
+  "kind": "company home",
+  "url": "https://badiaspices.com/",
+  "date": "2026-10-31",
+  "status": 200,
+  "bytes": 288617,
+  "final": "https://badiaspices.com/",
+  "secs": 2.22
+ },
+ {
+  "n": 2,
+  "route": 4,
+  "row": "Badia Spices",
+  "kind": "company contact",
+  "url": "https://badiaspices.com/contact-us/",
+  "date": "2026-10-31",
+  "status": 200,
+  "bytes": 206563,
+  "final": "https://badiaspices.com/contact-us/",
+  "secs": 0.92
+ },
+ {
+  "n": 1,
+  "route": 0,
+  "row": "calibration",
+  "kind": "search",
+  "reader": "ddg-html-post",
+  "url": "https://html.duckduckgo.com/html/ q=\"Quirch Foods\" Coral Gables",
+  "date": "2026-10-31",
+  "status": 200,
+  "bytes": 29503,
+  "results": [
+   "https://www.quirchfoods.com/contact-us/",
+   "https://www.quirchfoods.com/distribution/coral-gables/",
+   "https://www.yelp.com/biz/quirch-foods-coral-gables-2",
+   "https://www.chamberofcommerce.com/business-directory/florida/coral-gables/food-products-supplier/28121281-quirch-foods-hq",
+   "https://www.3plhub.co/united-states/florida/coral-gables/quirch-foods",
+   "https://www.foodcodirectory.com/2023/12/quirch-foods-llc-coral-gables-fl.html",
+   "https://www.mapquest.com/us/florida/quirch-foods-headquarters-432637435",
+   "https://craft.co/quirch-foods-company/locations",
+   "https://www.loc8nearme.com/florida/coral-gables/quirch-foods-hq/5754081/",
+   "https://local.us-info.com/USFL101947097-3056913535/quirch_foods-coral_gables.html"
+  ],
+  "secs": 0.63
+ },
+ {
+  "n": 2,
+  "route": 0,
+  "row": "calibration",
+  "kind": "search",
+  "reader": "ddg-html-post",
+  "url": "https://html.duckduckgo.com/html/ q=\"Refricenter\" Miami",
+  "date": "2026-10-31",
+  "status": 200,
+  "bytes": 28782,
+  "results": [
+   "https://refricenter.net/",
+   "https://refricenter.net/locations.asp",
+   "https://www.mapquest.com/us/florida/refricenter-miami-4407476",
+   "https://www.chamberofcommerce.com/united-states/florida/miami/hvac-contractor/3447507-refri-center",
+   "https://www.yellowpages.com/miami-fl/mip/refricenter-of-miami-12182344",
+   "https://www.facebook.com/RefricenterOfMiami/",
+   "https://www.yelp.com/biz/refricenter-miami-miami-4",
+   "https://www.achrnews.com/directories/2937-hvacr-directory/listing/14367-refricenter-of-miami",
+   "https://naicslist.com/company-profile/refricenter-of-miami-miami-fl-33166",
+   "https://www.yelp.com/biz/refricenter-miami-miami-5"
+  ],
+  "secs": 0.75
+ }
+]
