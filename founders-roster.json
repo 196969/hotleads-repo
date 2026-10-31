@@ -1031,6 +1031,34 @@
     "the remaining discovery queue continued from window nine’s queries, none repeated",
     "SeaWorld passes tests 1, 2 and 5 on seaworld.com and is held size-unsourced like every other row with no published figure; it is recorded, not judged"
    ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 10,
+   "correction": "window ten’s “no site found by any route” restated 2 of 6: the four property binds (InterContinental Miami, Westshore Grand Hotel, Naples Bay Resort & Marina, 200-Unit Pensacola Apartment Community) named and removed; the remaining two are Marino Performance Motors and Lawn Enforcement Agency. The sixth time a figure, not a row, was wrong (the Chair’s count)"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 11,
+   "fault": 52,
+   "line": "a name is bounded by the company, not by the capitals around it",
+   "note": "three binds took words that are not the company: “South Florida Distributor American Fasteners” (a title-case descriptor kept), “Door Maker” (the descriptor trim split “Venice Window and Door Maker” at its lowercase “and”), and “Fort Myers” (a place, from “Closed Sears store in Fort Myers sold to…”). One of the two wrongness counts is the first of these: American Fasteners’ own host was offered and the whole-name proof refused it because the bound name carried the descriptor"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 11,
+   "fault": 53,
+   "line": "a strict proof’s commonest failure is refusing the right site; its planted cases must include that",
+   "note": "the whole-name proof refused fdhs.com for Florida Digestive Health Specialists, whose own page carries the initials rather than the whole name in the proving fields; the second wrongness count. Fault 45’s line, applied to the proof’s other side: window nine planted the pages it must refuse and not a right site titled by initials. H.I.G.’s 8 Florida entries this window all ended “no site found by any route”, which the same false negative may explain; recorded as a reading, not a finding"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 11,
+   "builder_decisions": [
+    "the ruled property words matched anywhere in the bound target, catching 3 of 4 window-ten properties; InterContinental Miami is a brand with no property word and is the precondition’s stated limit",
+    "the four companies with every free revenue route already read were not read again (a read that yields nothing is not repeated); recorded per subject",
+    "SeaWorld’s figure came from Wikipedia’s infobox for SeaWorld Entertainment, the operating company, at US$1.66 billion"
+   ]
   }
  ]
 }

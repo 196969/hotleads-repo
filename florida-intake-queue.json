@@ -8145,7 +8145,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:278": {
   "practice": "Private Equity",
@@ -8171,7 +8173,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "East Brunswick, NJ"
  },
  "Private Equity:hig:279": {
   "practice": "Private Equity",
@@ -8197,7 +8201,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Dallas, TX"
  },
  "Private Equity:hig:280": {
   "practice": "Private Equity",
@@ -8223,7 +8229,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Broussard, LA"
  },
  "Private Equity:hig:281": {
   "practice": "Private Equity",
@@ -8249,7 +8257,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:282": {
   "practice": "Private Equity",
@@ -8267,7 +8277,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/rxstrategies/",
@@ -8275,7 +8285,21 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Boca Raton, FL",
+  "routes_tried": [
+   {
+    "route": "sponsor entry link",
+    "host": "https://rxstrategies.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.rxstrategies.com/",
+    "outcome": "resolved but failed the proof"
+   }
+  ]
  },
  "Private Equity:hig:283": {
   "practice": "Private Equity",
@@ -8301,7 +8325,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Atlanta, GA"
  },
  "Private Equity:hig:284": {
   "practice": "Private Equity",
@@ -8327,7 +8353,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Phoenix, AZ"
  },
  "Private Equity:hig:285": {
   "practice": "Private Equity",
@@ -8353,7 +8381,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Waltham, MA"
  },
  "Private Equity:hig:286": {
   "practice": "Private Equity",
@@ -8379,7 +8409,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Santa Clara, CA"
  },
  "Private Equity:hig:287": {
   "practice": "Private Equity",
@@ -8405,7 +8437,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Johns Creek, GA"
  },
  "Private Equity:hig:288": {
   "practice": "Private Equity",
@@ -8431,7 +8465,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Litchfield, IL"
  },
  "Private Equity:hig:289": {
   "practice": "Private Equity",
@@ -8457,7 +8493,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Fairhope, AL"
  },
  "Private Equity:hig:290": {
   "practice": "Private Equity",
@@ -8483,7 +8521,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": null
  },
  "Private Equity:hig:291": {
   "practice": "Private Equity",
@@ -8509,7 +8549,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Buena Park, CA"
  },
  "Private Equity:hig:292": {
   "practice": "Private Equity",
@@ -8535,7 +8577,9 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Glendale, CA"
  },
  "Private Equity:hig:293": {
   "practice": "Private Equity",
@@ -8553,7 +8597,7 @@
   "test1": "not read: third spent",
   "test2": "absent from all files",
   "band": null,
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "H.I.G. Capital",
   "sponsor_page": "https://hig.com/portfolio/shore-excursions-group/",
@@ -8561,7 +8605,26 @@
   "card_text": " ",
   "card_revenue": null,
   "location": "location unread — the sponsor page places it nowhere in Florida; not read at its own site (addition 1)",
-  "client": "H.I.G. Capital"
+  "client": "H.I.G. Capital",
+  "entry_read": "2026-10-31",
+  "location_field": "Fort Lauderdale, FL",
+  "routes_tried": [
+   {
+    "route": "sponsor entry link",
+    "host": "https://www.shoreexcursionsgroup.com/",
+    "outcome": "not read"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.shoreexcursions.com/",
+    "outcome": "not read"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.shore-excursions.com/",
+    "outcome": "not read"
+   }
+  ]
  },
  "Private Equity:hig:294": {
   "practice": "Private Equity",
@@ -11302,7 +11365,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/clinicalcare/",
@@ -11315,7 +11378,21 @@
   "phone": null,
   "email": null,
   "test5": "no reachable channel with source and date",
-  "client": "Sun Capital Partners"
+  "client": "Sun Capital Partners",
+  "entry_read": "2026-10-31",
+  "location_field": null,
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.clinicalcareservicesflorida.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.clinical-care-services-florida.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Private Equity:suncap:21": {
   "practice": "Private Equity",
@@ -12147,7 +12224,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/healthplan-services/",
@@ -12160,7 +12237,21 @@
   "phone": null,
   "email": null,
   "test5": "no reachable channel with source and date",
-  "client": "Sun Capital Partners"
+  "client": "Sun Capital Partners",
+  "entry_read": "2026-10-31",
+  "location_field": null,
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.healthplanservicesservicesflorida.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.healthplan-services-services-florida.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Private Equity:suncap:53": {
   "practice": "Private Equity",
@@ -12394,7 +12485,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/latite-roofing-sheet-metal/",
@@ -12407,7 +12498,21 @@
   "phone": null,
   "email": null,
   "test5": "no reachable channel with source and date",
-  "client": "Sun Capital Partners"
+  "client": "Sun Capital Partners",
+  "entry_read": "2026-10-31",
+  "location_field": null,
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.latiteroofingsheetmetal.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.latite-roofing-sheet-metal.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Private Equity:suncap:62": {
   "practice": "Private Equity",
@@ -12485,7 +12590,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/loan-logics/",
@@ -12498,7 +12603,21 @@
   "phone": null,
   "email": null,
   "test5": "no reachable channel with source and date",
-  "client": "Sun Capital Partners"
+  "client": "Sun Capital Partners",
+  "entry_read": "2026-10-31",
+  "location_field": null,
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.loanlogicsbusinessservicesfloridaactivelyseekingaddonacquisitions.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.loan-logics-business-services-florida-actively-seeking-addon-acquisitions.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Private Equity:suncap:65": {
   "practice": "Private Equity",
@@ -12784,7 +12903,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/point-blank-enterprises/",
@@ -12797,7 +12916,21 @@
   "phone": null,
   "email": null,
   "test5": "no reachable channel with source and date",
-  "client": "Sun Capital Partners"
+  "client": "Sun Capital Partners",
+  "entry_read": "2026-10-31",
+  "location_field": null,
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.pointblankenterprisesindustrialsdistributionflorida.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.point-blank-enterprises-industrials-distribution-florida.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Private Equity:suncap:76": {
   "practice": "Private Equity",
@@ -13083,7 +13216,7 @@
    "in_band": null,
    "why": "size-unsourced"
   },
-  "status": "proposed — unconfirmed",
+  "status": "no site found by any route — held",
   "tests_3_4": null,
   "sponsor": "Sun Capital Partners",
   "sponsor_page": "https://suncappart.com/portfolio/smokey-bones/",
@@ -13096,7 +13229,21 @@
   "phone": null,
   "email": null,
   "test5": "no reachable channel with source and date",
-  "client": "Sun Capital Partners"
+  "client": "Sun Capital Partners",
+  "entry_read": "2026-10-31",
+  "location_field": null,
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.smokeybonesflorida.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.smokey-bones-florida.com/",
+    "outcome": "did not resolve"
+   }
+  ]
  },
  "Private Equity:suncap:87": {
   "practice": "Private Equity",
@@ -19795,7 +19942,7 @@
   "query": "\"Orlando\" company names CFO",
   "precondition_span": "SeaWorld names",
   "evidence_source": "signal",
-  "status": "site proved (derived host); passes tests 1, 2 and 5; held size-unsourced",
+  "status": "band-rejected at test 1: published revenue above the ceiling",
   "naming": {
    "headline": "SeaWorld names new CFO",
    "pattern_set": "v3",
@@ -19845,8 +19992,15 @@
   "test1_pass": true,
   "test5": "address",
   "band": {
-   "in_band": null,
-   "why": "size-unsourced"
+   "in_band": false,
+   "why": "published revenue 1660000000 vs 25000000 (Src: https://en.wikipedia.org/w/index.php?search=%22SeaWorld%20Entertainment%22&title=Special:Search&go=Go · read 2026-10-31)",
+   "figure": {
+    "value": 1660000000.0,
+    "span": "Revenue US$1.66 billion",
+    "url": "en.wikipedia.org search: SeaWorld Entertainment",
+    "read": "2026-10-31",
+    "source": "Wikipedia infobox"
+   }
   }
  },
  "Acquisitions:gnews_rss_w10:681": {
@@ -20285,5 +20439,679 @@
     "outcome": "did not resolve"
    }
   ]
+ },
+ "Fractionals:gnews_rss_w11:688": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w11",
+  "company": "St. Mary’s Medical Center",
+  "signal": {
+   "sentence": "Mary’s Medical Center Names Romaine Layne as its Chief Financial Officer - Florida Hospital News and Healthcare Report Home SF STAT!",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOXhzaVlmVUFOaGRWN2w1enN2R2RMVXZFaHk1QlVac3dkRlNnb2RCdy1xVERTQWpKcEJGeWx4VHRXVmdyOGM1X3pQYjRPQ2tOUUZxX1BsZFFnTi1GQm80MnU5SG5QWFduVWFNam1LeG12VGd2bEVxT29ZYlRBWGJxS2RWVHdBeExUNG5ZbHZiVG1SNGJUcDJQbkxZOUpIVUJTQldvN1hhMEt3Y1pKbWx6NmpkNWc3OWJILXFSaVQzRks?oc=5",
+   "published": "2024-08-15",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "St. Mary’s Medical Center Names Romaine Layne as its Chief Financial Officer - Florida Hospital News and Healthcare Report",
+  "query": "\"West Palm Beach\" company names CFO",
+  "precondition_span": "St. Mary’s Medical Center Names",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "St. Mary’s Medical Center Names Romaine Layne as its Chief Financial Officer",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "West Palm Beach",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "epo, Cynthia McCauley, Jessica Miller and Michael Huempfner West Palm Beach, Fla.-August 14, 2024 – St. Mary’s Medi",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "St. Mary’s Medical Center",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "St. Mary’s Medical Center Names Romaine Layne as its Chief Financial Officer",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": true
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": null,
+  "city": "West Palm Beach",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://stmarysmc.com/",
+    "outcome": "refused (403)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.stmarysmedicalcenter.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.st-marys-medical-center.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w11:689": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w11",
+  "company": "South Florida Distributor American Fasteners",
+  "signal": {
+   "sentence": "Skip to main content Search Subscription Newsletters Advertising Calendar Digital Edition facebook twitter youtube linkedin RSS News Commentary Trusted Advisors Innovators Real Estate Lifestyle Awards Programs Entrepreneur of Excellence Best Companies to Work For The 500 and Person of the Year 40 Under 40 Faces of B2B Latest Issue Fort Worth Magazine Home News Distribution Solutions Group Acquires",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNajdMdEp6anl1dkFOcV96eWNGLVotcEU2M1JDdzZfZlk4X2ZQRzBSclMxN3ctYkpONkJaMVRJUlRYVG4xNTFzZC1wMU9Pb0wwelNTNElfM0llbTlfQWhTT1VkUmJCRG1aa3doYk9fUFgxWE9sbTdZMDJ0Rjk3ZnhSVGJiRFJkaVh1VldmaGhmdC1mVkhyU2c?oc=5",
+   "published": "2026-09-02",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Distribution Solutions Group Acquires South Florida Distributor American Fasteners - Fort Worth Inc.",
+  "query": "Florida distribution company acquired",
+  "precondition_span": "Distribution Solutions Group Acquires",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Distribution Solutions Group Acquires South Florida Distributor American Fasteners",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Miami",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "rica and the Caribbean. Financial terms were not disclosed. Miami-based American Fasteners, founded in 19",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "South Florida Distributor American Fasteners",
+   "acquirer": "Distribution Solutions Group",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Distribution Solutions Group Acquires South Florida Distributor American Fasteners",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Distribution Solutions Group Acquires South Florida Distributor American Fasteners",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Distribution Solutions Group",
+  "city": "Miami",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://aftfasteners.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.southfloridadistributoramericanfasteners.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.south-florida-distributor-american-fasteners.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w11:690": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w11",
+  "company": "Arctica",
+  "signal": {
+   "sentence": " GlacierPoint acquires Arctica Frozen Solutions to expand Florida frozen distribution | FleetOwner Skip to main content Your top resource for commercial fleet management intelligence Operations Technology Perspectives Safety Equipment Sections Operations Technology Perspectives Safety Equipment Emissions & Efficiency News Product Spotlight Refrigerated Transporter Special Commercial Pickup & Van F",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPX3I0dUNYNDNuN2tYWjhsT0RCM2NsT0wzOXZyRDVXLWpfN1BneWRpQXV6T0JwOGFldldkOHdRQVpyRWQxZDBjQlBoNkJUZ2xMT0l5Z21lVGxQTHJZUkthbXAyQWdaLXVXMXZYVkRnblpMRnFaRXZGNTY1YU0xVzFHU21UblhpZ01YLTVPbXFRTnlpdG42aXFnamJ3Q2FmWXJfQ1Y4OFZmTEtDZ2lMenhFbGxCaTNxRkV3a09xejBCdjZabDZpMjFrLVM4WnMySG9FOFZmeGZycE9rRzkxWGpWSTZTOFBsQnFYQXZyZHJWbzA0bXNaTGhBeFpQYWE?oc=5",
+   "published": "2026-08-04",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "GlacierPoint acquires Arctica to expand frozen distribution across Florida - FleetOwner",
+  "query": "Florida distribution company acquired",
+  "precondition_span": "GlacierPoint acquires",
+  "evidence_source": "signal",
+  "status": "site proved (derived host); test 1 failed: no Florida address on the company’s own page",
+  "naming": {
+   "headline": "GlacierPoint acquires Arctica to expand frozen distribution across Florida",
+   "pattern_set": "v3",
+   "article_text_field": "no bounded article text found",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "Arctica",
+   "acquirer": "GlacierPoint",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "GlacierPoint acquires Arctica",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "GlacierPoint acquires Arctica",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": true,
+  "acquirer": "GlacierPoint",
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://icecreamflorida.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.arctica.com/",
+    "outcome": "proved"
+   }
+  ],
+  "site": "https://www.arctica.com/",
+  "site_route": "derived host",
+  "site_proof": {
+   "where": "title",
+   "span": "Arctica Ski Race Clothing",
+   "whole_name": "arctica",
+   "construction": "direct"
+  },
+  "test1": "no Florida address on the company’s own page",
+  "test1_pass": false,
+  "test5": "no reachable channel with source and date",
+  "band": {
+   "in_band": null,
+   "why": "size-unsourced"
+  }
+ },
+ "Private Equity:gnews_rss_w11:691": {
+  "practice": "Private Equity",
+  "source": "gnews_rss_w11",
+  "company": "Nebraska Telecommunications Company",
+  "signal": {
+   "sentence": " Private Equity Firm Buys Nebraska Telecommunications Company | Sarasota Magazine Subscribe & save $142 per year!",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYm1XUlNaanIxbS0teWU0MGxfUkYzcDdQWm4zSEszOXE0Zmc3bHc3M2VPcTZuNGFLdThEVjg1LVhVTmJxNktBMWgtX3I3bnhSRlFpS2FGby1UeDNZdHdodzJIT3ZOQWZjYlFvOVd1UV9sbTFSQUpwV3gyaUx0N3A0Y2JhUzRWRkdUSnJaUHBSaW45Y1UzQVdjekxQS1pUNzU3bkg2enJWSlMzT0ZNREtYdTA4ZVZXQ3dKYzkw?oc=5",
+   "published": "2018-06-19",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Private Equity Firm Buys Nebraska Telecommunications Company - Sarasota Magazine",
+  "query": "\"Sarasota\" \"private equity\" acquires",
+  "precondition_span": "Private Equity Firm Buys",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Private Equity Firm Buys Nebraska Telecommunications Company",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Sarasota",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "ain Management managing director and CEO David Grain Image: Sarasota Magazine Sarasota’s Grain Management , ",
+    "position": "body"
+   },
+   "state": "bound",
+   "company": "Nebraska Telecommunications Company",
+   "acquirer": "Private Equity Firm",
+   "name_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Private Equity Firm Buys Nebraska Telecommunications Company",
+    "position": "headline"
+   },
+   "acquirer_extraction": {
+    "pattern": "{acquirer} acquire(s) {company}",
+    "span": "Private Equity Firm Buys Nebraska Telecommunications Company",
+    "position": "headline"
+   },
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "Private Equity Firm",
+  "city": "Sarasota",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.nebraskatelecommunications.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.nebraska-telecommunications.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Fractionals:gnews_rss_w11:692": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w11",
+  "company": "Florida Digestive Health Specialists",
+  "signal": {
+   "sentence": " Florida Digestive Health Specialists Names New CFO | Sarasota Magazine Subscribe & save $142 per year!",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWG9yVEoyZVJWZW9Xb202aDYzVXJXRmdmNUFRZXhnVmltTXBCb2N0NE5ZUS03Yi1QN3ZKeENsVkQzejRNT09WWFBaRFVzdW1qalVyaC12RUh2MS1MbWJrb3pWcjBpTGVKbUlJS3ZqYVloMTJYRVZ0cjZoeUxQRFJrM3NnWFA4SERXUHN5bXBwY21RQmVfMmJwVDg3TE02YUJFWFlCNXNac0o1OUlqQWc?oc=5",
+   "published": "2022-01-19",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Florida Digestive Health Specialists Names New CFO - Sarasota Magazine",
+  "query": "\"Sarasota\" company names CFO",
+  "precondition_span": "Florida Digestive Health Specialists Names",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Florida Digestive Health Specialists Names New CFO",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "Florida Digestive Health Specialists",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "Florida Digestive Health Specialists Names New CFO",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": null,
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "article link",
+    "host": "https://fdhs.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.floridadigestivehealthspecialists.com/",
+    "outcome": "resolved but failed the proof"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.florida-digestive-health-specialists.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Fractionals:gnews_rss_w11:693": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w11",
+  "company": "Door Maker",
+  "signal": {
+   "sentence": " Venice Window and Door Maker Names New Chief Financial Officer | Sarasota Magazine Subscribe & save $142 per year!",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUzJ2ZUQ2TzBUVDhQaUxDSEtjUU5yR1l1MDJwZzVqSDBpdDRXMUVfX29hSU45UUNmT3hhMWRvQUZidDFiM0FWRTItS0FFTFhUcTBJTDQ3QU05cUVpTWZObGh0UmtYeklLWGNIcmdKZnowUDJkOTZ5MFQ4bmk3V0dERGhHZG02NVM5UEZGUEhaaEw0SmhVdlBPX1haTWQzTjVKRkttdHAzcmdFMHZzRXFweWp3bVNwblU4Q014UGZHcWV2QlVW?oc=5",
+   "published": "2022-01-06",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Venice Window and Door Maker Names New Chief Financial Officer - Sarasota Magazine",
+  "query": "\"Sarasota\" company names CFO",
+  "precondition_span": "Door Maker Names",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Venice Window and Door Maker Names New Chief Financial Officer",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "bound",
+   "company": "Door Maker",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "Venice Window and Door Maker Names New Chief Financial Officer",
+    "position": "headline",
+    "trimmed_from": "Venice Window and Door Maker"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": null,
+  "city": null,
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.doormaker.com/",
+    "outcome": "refused (503)"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.door-maker.com/",
+    "outcome": "resolved but failed the proof"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w11:694": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w11",
+  "company": "",
+  "signal": {
+   "sentence": " Construction Partners Expands Florida Presence With Roads Acquisition Oops, something went wrong Skip to navigation Skip to main content Skip to right column Home News Finance Sports More News US Politics World Tech Science Originals 2026 Elections Weather Newsletters Finance My portfolio News Markets Research Community Personal finance Videos Sports Fantasy Football 2026 NFL College football NBA",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQVZsSXpmRTBLd0EtNTlOQ29HbnNYNEIzdzJLMExBeXFldUQ0ZkdVRUtzc0h0RnpGNXpVNW9CUkFSVm80cXVrd002R19kc3VycGVVU2dtdXdwbjdONWhNYVBkU3BzTWhNQy1wM0xBdGlKWm04bDd2bjZhc1dtd0dubGNfdTJSUnZKNnFZRVdTQU1VNmtwZTVTREdxVG41UU9wWDZDSTdMRExnZkE1ZUE0ZA?oc=5",
+   "published": "2026-09-22",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Construction Partners Expands Florida Presence With Roads Acquisition - Yahoo Finance",
+  "query": "Florida construction company acquired",
+  "precondition_span": "Construction Partners Expands Florida Presence With Roads Acquisition",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Construction Partners Expands Florida Presence With Roads Acquisition",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Pensacola",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": " CPI also acquired a hot-mix asphalt plant located north of Pensacola, including related crew and equipment. ",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "Construction Partners Expands Florida Presence With Roads",
+    "The",
+    "Construction Partners' Acquisition Efforts Construction Partners'",
+    "Express Enterprises"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "Construction Partners Expands Florida Presence With Roads Acquisition"
+    },
+    {
+     "position": "article text",
+     "span": "g related crew and equipment. The acquired operations will become part "
+    },
+    {
+     "position": "article text",
+     "span": "the acquisition announcement. Construction Partners' Acquisition Efforts Construction Partners' acquisition strategy is adding scale with"
+    },
+    {
+     "position": "article text",
+     "span": "26, the company announced the acquisition of Asphalt Express Enterprises, LLC, a liquid asphalt supply"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w11:695": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w11",
+  "company": "",
+  "signal": {
+   "sentence": " Florida-Based ABC Fine Wine & Spirits Has Been Adding Larger Sites In Repurposed Drugstores--But Its Recent Acquisition Of A Colorado Chain May Have It Thinking Even Bigger Repurposed and redeveloped commercial real estate Subscribe Sign in Florida-Based ABC Fine Wine & Spirits Has Been Adding Larger Sites In Repurposed Drugstores--But Its Recent Acquisition Of A Colorado Chain May Have It Thinki",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWS1NYmZGMWlJQTFQUnFkM0tqNnBrMFh2Xy1aZXE4YmE0enIzUmpoSjZrc0NqZ0FCWlRUNWllaF8yU3ozX3dQVUp2V0xINzlPaE9ycjl4bFpsVkRtcnBYb3BNR2FnMlZHRHNLTGx6NDJDd3Y2UnE4cVVvUkJkRmFGdjZB?oc=5",
+   "published": "2026-02-08",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Florida-Based ABC Fine Wine & Spirits Has Been Adding Larger Sites In Repurposed Drugstores--But Its Recent Acquisition Of A Colorado Chain May Have It Thinking Even Bigger - Substack",
+  "query": "Florida multi-site retail company acquired",
+  "precondition_span": "Florida-Based ABC Fine Wine & Spirits Has Been Adding Larger Sites In Repurposed Drugstores--But Its Recent Acquisition",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "Florida-Based ABC Fine Wine & Spirits Has Been Adding Larger Sites In Repurposed Drugstores--But Its Recent Acquisition Of A Colorado Chain May Have It Thinking Even Bigger",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Orlando",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "pany, which started in 1936 with a single store in downtown Orlando, is now being led by third and fourth g",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "Florida-Based ABC Fine Wine & Spirits Has Been Adding Larger Sites In Repurposed Drugstores--But Its Recent",
+    "ABC",
+    "Company",
+    "In January 2026 ABC",
+    "Box"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "Florida-Based ABC Fine Wine & Spirits Has Been Adding Larger Sites In Repurposed Drugstores--But Its Recent Acquisition Of A Colorado Chain May Have "
+    },
+    {
+     "position": "article text",
+     "span": "nter Garden, FL property that ABC acquired in 2023 for ~$5.5 MM. Origin"
+    },
+    {
+     "position": "article text",
+     "span": "e conversion. In May 2025 the Company acquired a former CVS drugstore in St"
+    },
+    {
+     "position": "article text",
+     "span": "han simply adding new stores. In January 2026 ABC acquired Applejack Wine & Spirits , a"
+    },
+    {
+     "position": "article text",
+     "span": "res in Florida—as well as its acquisition of Big Box retailer Applejack—a response"
+    }
+   ]
+  }
+ },
+ "Acquisitions:gnews_rss_w11:696": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w11",
+  "company": "Fort Myers",
+  "signal": {
+   "sentence": " Closed Sears store in Fort Myers sold to company in Hong Kong | WGCU News | PBS & NPR for Southwest Florida Skip to main content Search Query Show Search LIVE TV Schedules TV Schedules Radio Schedules TV Schedules Radio Schedules News Arts & Culture Business/Economy Crime Culture & Connections Education Environment Government & Politics Gulf Coast Life Health Hurricane Recovery Immigration Scienc",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYU1UWW1ac2UwQjA5YWdlZHBrYU9zVjFBWnpGaE1aZ2czOFBBVXRKYm5HNkVUOGRKRFZ2SGZreXB2QTNLQmM2WWRSdm0zc3laYXlIQ3A2cWwtRHNuWDBJLWcwSVFZRWJOYkU2VWl5OTRCQzBhMW4wVW0yOXctYk9MSGduV1lqUEloQl9UYjNvM2k2T09xNGlGc1JteDZ5amQ3eVE?oc=5",
+   "published": "2024-11-27",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Closed Sears store in Fort Myers sold to company in Hong Kong - WGCU",
+  "query": "Florida multi-site retail company acquired",
+  "precondition_span": "Fort Myers sold",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Closed Sears store in Fort Myers sold to company in Hong Kong",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Fort Myers",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Closed Sears store in Fort Myers sold to company in Hong Kong",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Fort Myers",
+   "acquirer": "company",
+   "name_extraction": {
+    "pattern": "{company} acquired by {acquirer}",
+    "span": "Closed Sears store in Fort Myers sold to company",
+    "position": "headline",
+    "trimmed_from": "Closed Sears store in Fort Myers"
+   },
+   "acquirer_extraction": {
+    "pattern": "{company} acquired by {acquirer}",
+    "span": "Closed Sears store in Fort Myers sold to company",
+    "position": "headline",
+    "trimmed_from": "Closed Sears store in Fort Myers"
+   },
+   "body_bind_agrees": true
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": "company",
+  "city": "Fort Myers",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.fortmyers.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.fort-myers.com/",
+    "outcome": "refused (503)"
+   }
+  ]
+ },
+ "Acquisitions:gnews_rss_w11:697": {
+  "practice": "Acquisitions",
+  "source": "gnews_rss_w11",
+  "company": "",
+  "signal": {
+   "sentence": " Mechanicsville heating and plumbing company acquired by Florida firm - Richmond BizSense Menu About Us Advertise Login Logout BECOME A MEMBER ACCOUNT NEWSFEED SIGNUP Events BizSense Pro Become a Member Pro Overview Breaking Ground The DeedBook The Docket Foreclosures New Licenses The R&D Dept.",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZFFMVnVRZWxqTmpGMmFtWTE1aW5mYmJMaTY1dzYxMmZONEFjWk5QYVI3SGhjbDJmZ2hmTzR3V1dFeTBuanNSQlNCdW1KRFpieEx0LVVsWmpqVm9TR3V4NXUtaHd2dWlRMl9hMDUwX3BxWjlMMld1UXFSWFB4ZWk2MzRycnExUk5UV3JYUlhsY2dzSjkyaDVNay03MHdyejdOamtBUDZpVnNQT2NvZ0E?oc=5",
+   "published": "2026-05-21",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Mechanicsville heating and plumbing company acquired by Florida firm - Richmond BizSense",
+  "query": "Florida field services company acquired",
+  "precondition_span": "acquired by Florida",
+  "evidence_source": "signal",
+  "status": "rejected: span not a company — Mechanicsville heating and plumbing company",
+  "naming": {
+   "headline": "Mechanicsville heating and plumbing company acquired by Florida firm",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": null,
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": null,
+    "position": "none found in headline or first 6000 characters"
+   },
+   "state": "rejected: span not a company",
+   "rejected": true,
+   "span_taken": "Mechanicsville heating and plumbing company",
+   "acquirer": "Florida firm",
+   "name_extraction": {
+    "pattern": "{company} acquired by {acquirer}",
+    "span": "Mechanicsville heating and plumbing company acquired by Florida firm",
+    "position": "headline"
+   },
+   "why": "the matched span is not a company name (division, facility, unit, campus, firm or generic description)"
+  }
+ },
+ "Fractionals:gnews_rss_w11:698": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w11",
+  "company": "Gainesville Housing Authority",
+  "signal": {
+   "sentence": " Gainesville Housing Authority Names New CFO and COO - Alachua Chronicle Skip to content --> Menu Home Categories Business Community organizations Crime Cultural events Education Elections Fires Health Letters to the editor Library Local government Opinion Public notices State government Traffic incidents Jail Booking Logs Obituaries Events Search Advertising About Us Contact Us Home Community org",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdDJQYmhBb1J0cVhQTG9zeGlpV0F3c3VpblBLN0VUUGpNOERvSXEtNnBEUjc1ZW44bEtoejZZNVNjemxkUGxnaDBkOWpmZGQxeXpkZ05ncXcxS1c4Q3hmbmZ2TUFpa2FVcVN3OHJ4T0xEZkQ1WUl5MXRxQVhxbVBwS2pkWGRVS3Zj?oc=5",
+   "published": "2022-09-26",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "Gainesville Housing Authority Names New CFO and COO - Alachua Chronicle",
+  "query": "\"Gainesville\" company names CFO",
+  "precondition_span": "Gainesville Housing Authority Names",
+  "evidence_source": "signal",
+  "status": "no site found by any route (routes on the row) — held; a fact about the guesses",
+  "naming": {
+   "headline": "Gainesville Housing Authority Names New CFO and COO",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Gainesville",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": "Gainesville Housing Authority Names New CFO and COO",
+    "position": "headline"
+   },
+   "state": "bound",
+   "company": "Gainesville Housing Authority",
+   "acquirer": null,
+   "name_extraction": {
+    "pattern": "{company} names/appoints an officer",
+    "span": "Gainesville Housing Authority Names New CFO",
+    "position": "headline"
+   },
+   "acquirer_extraction": null,
+   "body_bind_agrees": false
+  },
+  "company_named": "provisional until the site proves it",
+  "acquirer": null,
+  "city": "Gainesville",
+  "test2": "absent from all files",
+  "routes_tried": [
+   {
+    "route": "derived host",
+    "host": "https://www.gainesvillehousingauthority.com/",
+    "outcome": "did not resolve"
+   },
+   {
+    "route": "derived host",
+    "host": "https://www.gainesville-housing-authority.com/",
+    "outcome": "did not resolve"
+   }
+  ]
+ },
+ "Fractionals:gnews_rss_w11:699": {
+  "practice": "Fractionals",
+  "source": "gnews_rss_w11",
+  "company": "",
+  "signal": {
+   "sentence": " HCA Florida Putnam Hospital Announces New Chief Financial Officer - Florida Hospital News and Healthcare Report Home SF STAT!",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcF9oT0ZzRGlaVWt6MnRyamVmSEJOZHJuSW9Pak1WZmZCdFZCel9YMDdXMDVIdTh6aGZiSEhUNUJCaUtZdmtRQU8xNE1PYV9qWGZ6TWN5V3pUY0VuRGlIWXQtQXI1TXZMbDlSU3FYLU5VOWJILU9iOXNyNVk1UGk4MDNiRWNadjdrcjd5WDZTN25VTVFiU1FwVWUtZWprOWs5SE1pY0ZNeVVtMkhRVjZneG1NQlo?oc=5",
+   "published": "2024-10-07",
+   "read": "2026-10-31"
+  },
+  "date_field": "JSON-LD datePublished",
+  "feed_title": "HCA Florida Putnam Hospital Announces New Chief Financial Officer - Florida Hospital News and Healthcare Report",
+  "query": "\"Gainesville\" company names CFO",
+  "precondition_span": "HCA Florida Putnam Hospital Announces",
+  "evidence_source": "signal",
+  "status": "unbound",
+  "naming": {
+   "headline": "HCA Florida Putnam Hospital Announces New Chief Financial Officer",
+   "pattern_set": "v3",
+   "article_text_field": "<article> element",
+   "city": "Gainesville",
+   "city_extraction": {
+    "pattern": "Florida city name in text",
+    "span": " financial officer at HCA Florida North Florida Hospital in Gainesville. Additionally, he served as the hospita",
+    "position": "body"
+   },
+   "state": "unbound",
+   "split": "headline-unmatched (a company is named in the article’s own text; the patterns did not bind it)",
+   "detector": "the precondition’s company-shaped token (legal suffix, capitalised multi-word name or single capitalised word) adjacent to a signal verb, over the headline and the article’s own text (<article> element)",
+   "companies_found": [
+    "HCA Florida Putnam Hospital"
+   ],
+   "spans_examined": [
+    {
+     "position": "headline",
+     "span": "HCA Florida Putnam Hospital Announces New Chief Financial Officer"
+    }
+   ]
+  }
  }
 }
