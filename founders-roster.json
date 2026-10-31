@@ -1479,6 +1479,23 @@
    "date": "2026-10-31",
    "market": "Florida",
    "note": "re-closed at 40 rows / 40 companies on the fixed contact rule (98 / 97 on the old); verified-callable 14 (25 on the old). Dial pack and Core BD Report regenerated with the lineage"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "measurement": "the cost of one dated line, on the page-date reading",
+   "rate": "0 of 57 rows (0%) at 117 reads",
+   "detail": {
+    "number on the company pages, no page date": 10,
+    "every route refused or no number shown": 29,
+    "no company site on the row": 18
+   },
+   "note": "on the read-date reading the same 117 reads would have sourced 10 rows (17.5%): the gap between the two readings is the whole result"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "scope": "the brief’s 71 is the dial pack’s “source the number” list; 57 hold a phone and 14 hold none. Sourcing a number for those 14 is acquisition, out of scope by the brief’s own definition, and was refused"
   }
  ]
 }

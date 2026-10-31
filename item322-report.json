@@ -1,0 +1,116 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Item 322 (brief): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Item 322 (delivered): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "gate": "head 6add312; chicago.html confirmed on live; discipline, not a hook",
+  "reads": "117 of a 171 per-row ceiling (213 authorised)"
+ },
+ "reading_applied": "the brief was resent unchanged, so its literal line governs: a source counts only where the page shows a date of its own; a year alone is not a date",
+ "scope": {
+  "brief": 71,
+  "holding_a_phone": 57,
+  "no_number_refused": 14
+ },
+ "results": {
+  "sourced": [
+   0,
+   0
+  ],
+  "not_sourced": {
+   "number on the company pages, no page date": 10,
+   "every route refused or the number not shown": 29,
+   "no company site on the row (finding one is discovery)": 18
+  },
+  "rate": "0% (0 of 57 rows, 0 of 57 companies)",
+  "on_the_read_date_reading": "10 of 57 (17.5%) at the same 117 reads: these rows show the number on the company’s own pages"
+ },
+ "rows_with_number_on_page": [
+  {
+   "company": "Badia Spices",
+   "phone": "(305) 629-8000",
+   "page": "https://badiaspices.com/contact"
+  },
+  {
+   "company": "Eagle Brands Sales",
+   "phone": "305-599-2337",
+   "page": "https://eaglebrands.com"
+  },
+  {
+   "company": "SkyPostal",
+   "phone": "(305) 599-1812",
+   "page": "https://skypostal.com/contact-us"
+  },
+  {
+   "company": "Cone Distributors",
+   "phone": "(352) 732-4111",
+   "page": "https://teamcone.net/contact"
+  },
+  {
+   "company": "Wish Farms",
+   "phone": "(813) 752-5111",
+   "page": "https://wishfarms.com"
+  },
+  {
+   "company": "S.R. Perrott",
+   "phone": "(386) 672-2275",
+   "page": "https://srperrott.com/contact"
+  },
+  {
+   "company": "Sonny’s BBQ",
+   "phone": "(407) 660-8888",
+   "page": "https://sonnysbbq.com/contact"
+  },
+  {
+   "company": "American Coolair",
+   "phone": "(904) 389-3646",
+   "page": "https://coolair.com"
+  },
+  {
+   "company": "W.W. Gay Mechanical",
+   "phone": "(904) 388-2696",
+   "page": "https://wwgmc.com"
+  },
+  {
+   "company": "American Fasteners",
+   "phone": "305-885-1717",
+   "page": "https://americanfasteners.com"
+  }
+ ],
+ "florida_restated": {
+  "call_ready": "40 rows / 40 companies (unchanged)",
+  "verified_callable": "14 rows / 14 companies",
+  "short_of_call_ready": "74 rows"
+ },
+ "validator": "passed before any figure was stated",
+ "written": "nothing: no line qualified, so no row changed; both documents regenerated with the Item 322 lineage"
+}
