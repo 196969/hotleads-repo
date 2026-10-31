@@ -1277,6 +1277,31 @@
    "date": "2026-10-31",
    "close": "Item 320 second edition closed",
    "note": "the dial pack’s first email rule (first.last = named) mislabelled initial-and-surname addresses such as rgazitua@ as role inboxes; read before writing and replaced: an address is named when it carries the row’s decision maker’s name, a role inbox when its local part is a function, otherwise “other address”"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "320 third edition",
+   "run": "Chicago/Illinois window one",
+   "fault": 63,
+   "line": "a run that keeps iterating past its ceiling must not label what it did not read",
+   "note": "after the 196th read the engine went on through the queue and marked 222 unread rows “partial”, then reported “the whole queue worked”; caught reading the output before counting; relabelled unworked and re-queued. Repair: the engine stops at the ceiling and leaves the rest unworked by name"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "320 third edition",
+   "run": "Chicago/Illinois window one",
+   "fault": 64,
+   "line": "a proof that binds a name must also bind a place",
+   "note": "alliancesteel.com passed the whole-name proof and carried a Montreal number (514): a same-name company elsewhere. Five completions were refused before write-back (four with no Illinois address or area code on the page read, one a founder named in a 1912 history passage)"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "320 third edition",
+   "seats": {
+    "Nadella": "the census zeros read before believed: Illinois rows are skeletons (decision maker “— Family owner (confirm)”, phone —, no site link)",
+    "O’Leary": "discovery stays closed: Step Two has not closed, and the queue forecast says it is several windows",
+    "Herjavec": "only finds placed in Illinois written back"
+   }
   }
  ]
 }

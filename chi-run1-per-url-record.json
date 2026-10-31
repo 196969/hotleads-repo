@@ -1,0 +1,1374 @@
+[
+ {
+  "ts": "11:34:49",
+  "source": "run3:site",
+  "url": "https://www.alliancesteel.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:34:52",
+  "source": "run3:site",
+  "url": "https://www.breakthrubeverage.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:34:55",
+  "source": "run3:site",
+  "url": "https://www.breakthru-beverage.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:35:00",
+  "source": "run3:site",
+  "url": "https://www.uline.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:35:06",
+  "source": "run3:site",
+  "url": "https://www.homeruninn.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:35:11",
+  "source": "run3:contact",
+  "url": "https://homeruninn.com/order-online/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:35:16",
+  "source": "run3:site",
+  "url": "https://www.loumalnatis.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:35:21",
+  "source": "run3:contact",
+  "url": "https://www.loumalnatis.com/chicagoland/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:35:40",
+  "source": "run3:site",
+  "url": "https://www.petesfreshmarket.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:35:42",
+  "source": "run3:site",
+  "url": "https://www.petes-fresh-market.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:35:46",
+  "source": "run3:site",
+  "url": "https://www.cermakfreshmarket.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:35:51",
+  "source": "run3:contact",
+  "url": "https://cermakfreshmarket.com/locations",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:35:53",
+  "source": "run3:site",
+  "url": "https://www.angelocaputosfreshmarkets.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:35:55",
+  "source": "run3:site",
+  "url": "https://www.angelo-caputos-fresh-markets.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:36:14",
+  "source": "run3:site",
+  "url": "https://www.binnysbeveragedepot.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:36:16",
+  "source": "run3:site",
+  "url": "https://www.binnys-beverage-depot.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:36:21",
+  "source": "run3:site",
+  "url": "https://www.sunsetfoods.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:36:25",
+  "source": "run3:site",
+  "url": "https://www.walsh.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:36:29",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Walsh%20Group\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:36:33",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:36:37",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTZYTnZ5ODJVcFhYX3hvNUU0cjY1VGNtNzEtVVBGUkg0VVMxUGdxaVFLU29rZE8xdFVOU0lHWnJ5RmI4YjdkRDNHOGIzX2NEaEQwbWt4dDJVN3UzWklsM0tDdlNPa1FvUGpSRGVydWR1YWxTRkVsS3pQOF9reHBjMHJUY0xmNmVVaHBCU0UtMXFKSVRoV0ttV1BiRFdpZll0dm04aktvNk9GYjU3OVlGVHhZSQ?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:36:43",
+  "source": "run3:site",
+  "url": "https://www.powerconstruction.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:36:48",
+  "source": "run3:site",
+  "url": "https://www.power-construction.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:36:52",
+  "source": "run3:site",
+  "url": "https://www.clayco.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:36:54",
+  "source": "run3:site",
+  "url": "https://www.leopardocompanies.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:36:56",
+  "source": "run3:site",
+  "url": "https://www.leopardo-companies.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:37:15",
+  "source": "run3:site",
+  "url": "https://www.weoneilconstruction.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:37:17",
+  "source": "run3:site",
+  "url": "https://www.we-oneil-construction.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:37:22",
+  "source": "run3:site",
+  "url": "https://www.fhpaschen.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:37:24",
+  "source": "run3:site",
+  "url": "https://www.milhouseengineering.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:37:26",
+  "source": "run3:site",
+  "url": "https://www.milhouse-engineering.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:37:30",
+  "source": "run3:site",
+  "url": "https://www.wight.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:37:34",
+  "source": "run3:site",
+  "url": "https://www.legatarchitects.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:37:36",
+  "source": "run3:site",
+  "url": "https://www.legat-architects.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:37:38",
+  "source": "run3:site",
+  "url": "https://www.christopherbburkeengineering.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:37:40",
+  "source": "run3:site",
+  "url": "https://www.christopher-b-burke-engineering.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:37:45",
+  "source": "run3:site",
+  "url": "https://www.acemetalcrafts.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:37:47",
+  "source": "run3:site",
+  "url": "https://www.ace-metal-crafts.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:37:52",
+  "source": "run3:site",
+  "url": "https://www.rockfordtoolcraft.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:37:54",
+  "source": "run3:site",
+  "url": "https://www.midwestorthopaedicsatrush.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:37:56",
+  "source": "run3:site",
+  "url": "https://www.midwest-orthopaedics-at-rush.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:38:00",
+  "source": "run3:site",
+  "url": "https://www.skender.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:38:02",
+  "source": "run3:site",
+  "url": "https://www.christywebberlandscapes.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:38:04",
+  "source": "run3:site",
+  "url": "https://www.christy-webber-landscapes.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:38:09",
+  "source": "run3:site",
+  "url": "https://www.meade.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:38:11",
+  "source": "run3:site",
+  "url": "https://www.continentalelectricalconstruction.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:38:13",
+  "source": "run3:site",
+  "url": "https://www.continental-electrical-construction.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:38:18",
+  "source": "run3:site",
+  "url": "https://www.focusdevelopment.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:38:28",
+  "source": "run3:site",
+  "url": "https://www.focus-development.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:38:33",
+  "source": "run3:site",
+  "url": "https://www.bradfordallen.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:38:38",
+  "source": "run3:contact",
+  "url": "https://bradfordallen.com/contact-us/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:38:42",
+  "source": "run3:site",
+  "url": "https://www.kiser.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:38:52",
+  "source": "run3:site",
+  "url": "https://www.essexrealty.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:38:54",
+  "source": "run3:site",
+  "url": "https://www.essex-realty.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:38:58",
+  "source": "run3:site",
+  "url": "https://www.baumrealty.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:39:02",
+  "source": "run3:site",
+  "url": "https://www.bairdwarner.com/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "11:39:06",
+  "source": "run3:site",
+  "url": "https://www.baird-warner.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:39:14",
+  "source": "run3:site",
+  "url": "https://www.allianceshippers.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:39:16",
+  "source": "run3:site",
+  "url": "https://www.alliance-shippers.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:39:21",
+  "source": "run3:site",
+  "url": "https://www.billjacobsauto.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:39:23",
+  "source": "run3:site",
+  "url": "https://www.bill-jacobs-auto.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:39:27",
+  "source": "run3:site",
+  "url": "https://www.continentalauto.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:39:47",
+  "source": "run3:site",
+  "url": "https://www.continental-auto.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:39:51",
+  "source": "run3:site",
+  "url": "https://www.napletonautomotive.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:39:53",
+  "source": "run3:site",
+  "url": "https://www.napleton-automotive.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:39:57",
+  "source": "run3:site",
+  "url": "https://www.rizzaauto.com/",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "11:39:59",
+  "source": "run3:site",
+  "url": "https://www.rizza-auto.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:40:03",
+  "source": "run3:site",
+  "url": "https://www.curriemotors.com/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "11:40:05",
+  "source": "run3:site",
+  "url": "https://www.currie-motors.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:40:10",
+  "source": "run3:site",
+  "url": "https://www.raychevrolet.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:40:15",
+  "source": "run3:site",
+  "url": "https://www.geraldauto.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:40:19",
+  "source": "run3:contact",
+  "url": "https://www.geraldauto.com/gerald-auto-locations/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "11:40:21",
+  "source": "run3:site",
+  "url": "https://www.elmhurstfordelmhurstcdjr.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:40:23",
+  "source": "run3:site",
+  "url": "https://www.elmhurst-ford-elmhurst-cdjr.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:40:28",
+  "source": "run3:site",
+  "url": "https://www.hawkauto.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:40:32",
+  "source": "run3:site",
+  "url": "https://www.advantagechevrolet.com/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "11:40:36",
+  "source": "run3:site",
+  "url": "https://www.advantage-chevrolet.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:40:38",
+  "source": "run3:site",
+  "url": "https://www.patrickdealer.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:40:40",
+  "source": "run3:site",
+  "url": "https://www.patrick-dealer.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:40:46",
+  "source": "run3:site",
+  "url": "https://www.fieldsauto.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:40:51",
+  "source": "run3:contact",
+  "url": "https://fieldsauto.com/locations/index.htm",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:40:55",
+  "source": "run3:site",
+  "url": "https://www.packeywebbford.com/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "11:40:57",
+  "source": "run3:site",
+  "url": "https://www.packey-webb-ford.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:40:59",
+  "source": "run3:site",
+  "url": "https://www.bredemannauto.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:41:01",
+  "source": "run3:site",
+  "url": "https://www.bredemann-auto.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:41:05",
+  "source": "run3:site",
+  "url": "https://www.autobarn.com/",
+  "outcome": "refused",
+  "kind": "429"
+ },
+ {
+  "ts": "11:41:11",
+  "source": "run3:site",
+  "url": "https://www.homeruninn.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:41:17",
+  "source": "run3:leadership",
+  "url": "https://homeruninn.com/about-us/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:41:22",
+  "source": "run3:leadership",
+  "url": "https://homeruninn.com/about-us/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:41:26",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Home%20Run%20Inn\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:41:30",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:41:34",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcnE0NHJKNGduUlYwZno5TXU3b053QUtBTXJOeTk1Qm9KNzV6cGtYcFdOUXNkR2M5ellBRHBhVHdkeEMyZ1hzYWJJTEdSMWo5VmgxOHhpajl3UV9xd3BaclJfUkV2a3dzaXQzUGlGbk9IR0dlaFY0NVJhZmhoQk5HU1kwcmZZMmZrUjVNMHhwT0gxUzVlOUZ3WGIyZXVGLTlx?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:41:39",
+  "source": "run3:site",
+  "url": "https://www.elmilagro.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:41:43",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"El%20Milagro,%20Inc.\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:41:47",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:41:52",
+  "source": "run3:site",
+  "url": "https://www.heinkelspacking.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:41:54",
+  "source": "run3:site",
+  "url": "https://www.thelibman.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:41:56",
+  "source": "run3:site",
+  "url": "https://www.the-libman.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:42:00",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"The%20Libman%20Company\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:42:04",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:42:08",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNHhFWVVmZW5qMzJyZmQyeDdycy1GYXBTRC02T1NOWnZwZThKd3l3NDZLZ241YTFpcGJLNlNHcGhpNnk0QlVGdGxfWUZpeERZWTB3anlGenFBV0thRndDaEtzLUdLNUpUTU56SzI1QU5NOXJ5T3I4MXB0U0lSQTlwdUl6eDFlTjhMNm9UbmxnOU9NUXVELTctWjNhVXhSVWxuSWV4a2NJRTRGY0ZWcHZZUS1pZEhzUkRnM3NkSGxDbw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:42:12",
+  "source": "run3:site",
+  "url": "https://www.hagertybrothers.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:42:14",
+  "source": "run3:site",
+  "url": "https://www.hagerty-brothers.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:42:18",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Hagerty%20Brothers%20Company\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:42:22",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:42:24",
+  "source": "run3:site",
+  "url": "https://www.vosgeshautchocolat.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:42:26",
+  "source": "run3:site",
+  "url": "https://www.vosges-hautchocolat.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:42:30",
+  "source": "run3:site",
+  "url": "https://www.madisonindustries.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:42:32",
+  "source": "run3:site",
+  "url": "https://www.madison-industries.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:42:36",
+  "source": "run3:site",
+  "url": "https://www.dreamtownrealty.com/",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "11:42:39",
+  "source": "run3:site",
+  "url": "https://www.dream-town-realty.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:42:41",
+  "source": "run3:site",
+  "url": "https://www.larryroeschauto.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:42:43",
+  "source": "run3:site",
+  "url": "https://www.larry-roesch-auto.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:42:50",
+  "source": "run3:site",
+  "url": "https://www.turanobaking.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:43:09",
+  "source": "run3:site",
+  "url": "https://www.turano-baking.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:43:13",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Turano%20Baking%20Company\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:43:17",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:43:21",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZXc2XzVXVkZQMW9mdW9Sc3ZHaVNYZFR0WUhUOW9CNVZaWDVvbm8yb0JxX1Q5T0w4djM4MW5SSVJNMUo3VEE0VGJKZ0pDTWxwT05Yd2lDWXh6bFY2VEJ5QlByYXkxLUxST3ZMYjBGOC1QWE81N29GdUVIZV9fN3VIR2JhUkc4d2Zyc3ZUNndrTzUtZDVja3R4Q0xJSThmQlphbDhBaU5WcWhGQXNMcmpDWmxR?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:43:24",
+  "source": "run3:site",
+  "url": "https://www.gonnellabaking.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:43:26",
+  "source": "run3:site",
+  "url": "https://www.gonnella-baking.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:43:30",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Gonnella%20Baking%20Company\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:43:34",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:43:38",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbGcxVkFySVpkbWtsYUs1SW9LT2c4aDUxcWFfVEJRa1c3UlJEN2JORGhfUFlBVXNOT1JIenJ1LVF3WkpGdXhWMnF2alhKSC1WcVpqX1hGZksyWnVIWWo0MC0zNTRCYm5aR1N3Q3kyc2JfenJLaVkta3BlV1JJTDFBSWV3MWViSXZrUGpkbDF5WjhuRDBFdGRxak52Z1FRSGRENUY4?oc=5",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "11:43:42",
+  "source": "run3:site",
+  "url": "https://www.vvsupremofoods.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:43:45",
+  "source": "run3:site",
+  "url": "https://www.vv-supremo-foods.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:43:49",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"V&V%20Supremo%20Foods,%20Inc.\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:43:53",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:43:57",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjYzRHhpUW5PQm9PeVZuZEZ3VFk3VmVMN25yZFFiYjZEdTk5c3lVdkU1Qk42TTZqLXQ0V21IOFJmWWtrQno4ZkIyWHdDeTZlTGRZMk4tRnRERFNkWVJfTFE1Z21raEpNZFltUzBDMVh6NDIzX3dOMUVUN0IxQXk5Z0FTd1g4ZXlSUFRHOFQ2T1QyTDU1ZFptUkxlZUQtdDdQMHRn?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:44:01",
+  "source": "run3:site",
+  "url": "https://www.vaneefoods.com/",
+  "outcome": "refused",
+  "kind": "403"
+ },
+ {
+  "ts": "11:44:03",
+  "source": "run3:site",
+  "url": "https://www.vanee-foods.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:44:07",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Vanee%20Foods%20Company\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:44:11",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:44:30",
+  "source": "run3:site",
+  "url": "https://www.elischeesecake.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:44:32",
+  "source": "run3:site",
+  "url": "https://www.elis-cheesecake.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:44:36",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Eli's%20Cheesecake%20Company\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:44:40",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:44:44",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON1ZVRi1xVVFpWWVvUlZ1ekpFa2NWN0hNTTIyZG8xWUVOVERjeUV6bmxMQ29aa3NCLTZveTZMUmczNHUxX1g3M2J2WGkxZ1pTTjA5bmNteTE0ZkN4RlFCeWRvUUZQT1NwUlh6SUU3MmhQRnNibkR4dHhCVUlTbWFvZXp6VVZiclZFbUJPN1Vvaw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:44:46",
+  "source": "run3:site",
+  "url": "https://www.scalapacking.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:44:48",
+  "source": "run3:site",
+  "url": "https://www.scala-packing.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:44:52",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Scala%20Packing%20Co.\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:44:56",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:45:00",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMDYzUldoaGluVVRCTkJPZmFLTU5EZ1JfUnd1MXc1Z05iQUxlQkNvSDQzcTFab1Fkb3M3aFJrZG9WUUpUNVgtQ0tiYjdVVUtpTi0yRUsyZmxjVFFGS0xpQldKVEVaTVV6UTB4bms4MDNrbjd5RXg2VHVQNzdrQzNPQVEtNS1oTXVCR2o0XzRhcy1yMGdsOVBZbTc5Zkl0eWFCUkpNY2pXWTY?oc=5",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:45:03",
+  "source": "run3:site",
+  "url": "https://www.bisongearengineering.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:45:05",
+  "source": "run3:site",
+  "url": "https://www.bison-gear-engineering.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:45:09",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Bison%20Gear%20&%20Engineering\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:45:13",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:45:17",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZzFDOE1aVUNjTUxnUnctREFIVi01VFRhWThjZlhVcDVkM19jZ1FubmV2aHNLa1VkRzBFYU95YjV2QjVKbElxOGJFbFI2RjAtbzJ5aU52WGJBdzZvUUJSQnpoRFJOYUpYdnhVMmI0VmFyQlVEZG9zRGRmRnFiclVCaGt0S0lpbjcxMHAtSFduRF82cG9BMGdZYVF6Z1Y1OHlOdDZ0c3duMlYxWDFQR0pkQ1RlTjBrT2s?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:45:19",
+  "source": "run3:site",
+  "url": "https://www.supremelobsterseafood.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:45:21",
+  "source": "run3:site",
+  "url": "https://www.supreme-lobster-seafood.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:45:25",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Supreme%20Lobster%20&%20Seafood%20Co.\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:45:29",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:45:33",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMEtKWXc1THI5RU9qUWZqeEwxZWNIWk95UWQtNzZmZXJGcmJIVGF0ejFEVGl0SXlSMG95UENOX2ZQWWVVeXJRYktKN2daS3VULUVEVUpuQy1SMUlXSG1ZSWRXYXFzWEFuLUNxSXV6V0RfOUxXU0l4LTJTMXFLOFoycDJhaUxwdGlfdFFDOG1sUldZS2I5ZjQ4YnFwcGQ4YXl3U1Nz0gGoAUFVX3lxTFBIYjFqMmZHUGxZZjEyNnlpR1UxYnJHSHZPZEduNmxkc0lnRTRuTjlFQ1haa20ySDlGU1BTUm9fWHpXYm9MdmZVZFBDc2N0dHNTbGw4Wm1KdGNZVVhzRjJSa1NGM0c2a0JFZEFFTmJJSmpESkpxMnZjcTdsRloybG5SSzVCWmJUVU1YbG9GZlVOUXlDRElGQWVpaHVmWHFaUXpNblo5YkJyQw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:45:35",
+  "source": "run3:site",
+  "url": "https://www.fortunefishgourmet.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:45:37",
+  "source": "run3:site",
+  "url": "https://www.fortune-fish-gourmet.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:45:41",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Fortune%20Fish%20&%20Gourmet\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:45:45",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:45:49",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMlZUS1ZJOWhGWER4S3JoR3NfSEZJZmJ6cGlBRWhZTzhLWEtCTFAtUm1wRGdMeFQ0OVMwbVFWdlBQbmFUTWg2OFRIS0hEZ19jLUR3b0FJVzlUNWNOc0tHNVdoM2VmNVRPTGh0S2tndTJUcXp2aC1SU1VaWFF1OVcyQWtwVm5HNEJFbW14aVZKaUd5UWVhbXBKelg3c0RKeXhwTDA4R2pB?oc=5",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "11:45:54",
+  "source": "run3:site",
+  "url": "https://www.testaproduce.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:45:58",
+  "source": "run3:leadership",
+  "url": "https://testaproduce.com/about/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:46:02",
+  "source": "run3:leadership",
+  "url": "https://testaproduce.com/history/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:46:07",
+  "source": "run3:site",
+  "url": "https://www.lapreferida.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:46:11",
+  "source": "run3:leadership",
+  "url": "https://www.lapreferida.com/about/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:46:15",
+  "source": "run3:leadership",
+  "url": "https://www.lapreferida.com/about/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:46:19",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"La%20Preferida,%20Inc.\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:46:23",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:46:25",
+  "source": "run3:site",
+  "url": "https://www.chicagotubeiron.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:46:27",
+  "source": "run3:site",
+  "url": "https://www.chicago-tube-iron.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:46:31",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Chicago%20Tube%20&%20Iron%20Company\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:46:36",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:46:39",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByZ09kYTQ1UWdHZW1uZ0RtNWFlSTRkNGJ3QzJnYkY0MlBLZXVzNTRTbzdvVktGOXQxcWx6NWZBd3FGa3ZwdHJmSC1sc0p4Njd1VVpnMExrbENid09XR242WlN4WTdPUEhsZ3lTRHBWR29LWVhaTENOdElDcDFRb2M?oc=5",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "11:46:58",
+  "source": "run3:site",
+  "url": "https://www.flexngate.com/",
+  "outcome": "refused",
+  "kind": "503"
+ },
+ {
+  "ts": "11:47:00",
+  "source": "run3:site",
+  "url": "https://www.theknapheidemanufacturing.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:47:02",
+  "source": "run3:site",
+  "url": "https://www.the-knapheide-manufacturing.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:47:06",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"The%20Knapheide%20Manufacturing%20Company\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:47:11",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:47:14",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS042VHpkcEZTdjN3aURqMDZnRWg5OTNSZVBGX29UUFZ3ZjhPSW9ObjBYN2gxcHd2S3ljN21KSXA1NVpqQnI0R01VVE11MGRybjBmVUx5VUJnRlNKX3NyallIa0tQaWN0TE8xdkxpNExmSG9MWkNsenRQLWhMUTBwZGVCMkQ?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:47:16",
+  "source": "run3:site",
+  "url": "https://www.excelfoundrymachine.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:47:19",
+  "source": "run3:site",
+  "url": "https://www.excel-foundry-machine.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:47:22",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Excel%20Foundry%20&%20Machine,%20Inc.\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:47:27",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:47:31",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQmZLV05DWExTMTJaMTlxeV83Z3I5eEpXUnpkam0zOXFBQ2RlRE1La1dTSmxVcUc5ek1jTHV6UXl6MXY0THFiZjJFMGNSLUpwdThYOXRvU2szVHhmWnkxbUstNGktektfUVB6eEZaLWlHcF9oamJIZHRsaWF0WHktaGlSd1MxNzVuUVRwZVZ5QU8xUTNIOFUtemxBN2Nad2puVVBUSU1uY3h0NnVzS2w3dTgtQQ?oc=5",
+  "outcome": "refused",
+  "kind": "challenge"
+ },
+ {
+  "ts": "11:47:39",
+  "source": "run3:site",
+  "url": "https://www.nudoproducts.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:47:41",
+  "source": "run3:site",
+  "url": "https://www.nudo-products.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:47:45",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Nudo%20Products,%20Inc.\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:47:49",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:47:53",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdEJqQXJVeWh3aS1nYnF3aHVBcjVYQmxNVnN4WTZScWszR3paekQzYTFoOGhKZ1hsekgyM0trUUNUcEE0SmFMTnBiRHZrSXJUTFg5eWlqaXR3RUlrQjFBSW96aklDdXAtVktxZVRCcEZGTkU1bG9aZW5iSkUtaHNMMXlOaE5VSjNSdjZVVExhQVV0dUo4dU9FOWIwcGhkT3c5Y3NLeHJDTQ?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:47:58",
+  "source": "run3:site",
+  "url": "https://www.bipetro.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:48:02",
+  "source": "run3:leadership",
+  "url": "https://bipetro.com/our-history",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:48:07",
+  "source": "run3:leadership",
+  "url": "https://bipetro.com/our-team",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:48:10",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Bi-Petro,%20Inc.\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:48:15",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:48:19",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS0hiX3FRUEo3cHRxaXlvTVViMXYxRTdoVHFjTEVOZ1YyNGswRkY3YVNJUzdHRkktMVRhak16OWhUWkVQUlJqY0VhTXAxWTQ1Ylo5UDFaa0lIZ2plVHZSUlNPR190VVZSZFY0dnR1YjBPVTA1RVZBak9qWjNyQ2NMSVdYbFhWYmFEd0pIWkJCb25jRm96aGZCazRiNzd6ZTJ1cHMxNnc0T0pjZGVVMU01dnJYOTdtUkQxMTh3b1psaV91dw?oc=5",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:48:23",
+  "source": "run3:site",
+  "url": "https://www.kelleywilliamson.com/",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:48:25",
+  "source": "run3:site",
+  "url": "https://www.kelley-williamson.com/",
+  "outcome": "refused",
+  "kind": "net"
+ },
+ {
+  "ts": "11:48:29",
+  "source": "run3:press",
+  "url": "https://news.google.com/rss/search?q=\"Kelley%20Williamson%20Company\"%20(president%20OR%20CEO%20OR%20owner%20OR%20founder)&hl=en-US&gl=US&ceid=US:en",
+  "outcome": "read",
+  "kind": null
+ },
+ {
+  "ts": "11:48:34",
+  "source": "run3:press-article",
+  "url": "https://news.google.com/",
+  "outcome": "read",
+  "kind": null
+ }
+]

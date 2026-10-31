@@ -1,0 +1,450 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [],
+   "on_the_delivery": []
+  },
+  "reads": "reads spent 196; ceiling 200 (bot-config.json, ruled in Section 4, not a measured tolerance)",
+  "stopped_by": "the read ceiling (Step Two not closed; discovery not opened)"
+ },
+ "step_one_census": {
+  "chicago.html": {
+   "rows": 239,
+   "tiers": {
+    "A": 109,
+    "C": 99,
+    "B": 30,
+    "": 1
+   },
+   "no named decision maker": 124,
+   "no phone": 178,
+   "no email on the row": 239,
+   "no dated signal": 239,
+   "refused rather than absent": 0,
+   "by_tier": {
+    "A": {
+     "call-ready": 51,
+     "verified-callable": 0,
+     "short": 58
+    },
+    "C": {
+     "short": 99,
+     "verified-callable": 0
+    },
+    "B": {
+     "short": 29,
+     "verified-callable": 0,
+     "call-ready": 1
+    },
+    "": {
+     "short": 1,
+     "verified-callable": 0
+    }
+   },
+   "dialable_universe": 139
+  },
+  "chicago-expansion.html": {
+   "rows": 50,
+   "tiers": {
+    "A": 5,
+    "C": 32,
+    "B": 13
+   },
+   "no named decision maker": 46,
+   "no phone": 26,
+   "no email on the row": 50,
+   "no dated signal": 50,
+   "refused rather than absent": 0,
+   "by_tier": {
+    "A": {
+     "call-ready": 3,
+     "verified-callable": 0,
+     "short": 2
+    },
+    "C": {
+     "short": 32,
+     "verified-callable": 0
+    },
+    "B": {
+     "short": 12,
+     "verified-callable": 0,
+     "call-ready": 1
+    }
+   },
+   "dialable_universe": 18
+  },
+  "chicago-archive.html": {
+   "rows": 48,
+   "tiers": {
+    "C": 48
+   },
+   "no named decision maker": 48,
+   "no phone": 48,
+   "no email on the row": 48,
+   "no dated signal": 48,
+   "refused rather than absent": 0,
+   "by_tier": {
+    "C": {
+     "short": 48,
+     "verified-callable": 0
+    }
+   },
+   "dialable_universe": 0
+  },
+  "illinois.html": {
+   "rows": 200,
+   "tiers": {
+    "A": 120,
+    "B": 55,
+    "C": 25
+   },
+   "no named decision maker": 198,
+   "no phone": 200,
+   "no email on the row": 200,
+   "no dated signal": 200,
+   "refused rather than absent": 0,
+   "by_tier": {
+    "A": {
+     "short": 120,
+     "verified-callable": 0
+    },
+    "B": {
+     "short": 55,
+     "verified-callable": 0
+    },
+    "C": {
+     "short": 25,
+     "verified-callable": 0
+    }
+   },
+   "dialable_universe": 175
+  },
+  "illinois-expansion.html": {
+   "rows": 50,
+   "tiers": {
+    "C": 26,
+    "A": 4,
+    "B": 20
+   },
+   "no named decision maker": 42,
+   "no phone": 9,
+   "no email on the row": 50,
+   "no dated signal": 50,
+   "refused rather than absent": 0,
+   "by_tier": {
+    "C": {
+     "short": 26,
+     "verified-callable": 0
+    },
+    "A": {
+     "short": 2,
+     "verified-callable": 0,
+     "call-ready": 2
+    },
+    "B": {
+     "short": 20,
+     "verified-callable": 0
+    }
+   },
+   "dialable_universe": 24
+  },
+  "illinois-archive.html": {
+   "rows": 48,
+   "tiers": {
+    "C": 48
+   },
+   "no named decision maker": 48,
+   "no phone": 48,
+   "no email on the row": 48,
+   "no dated signal": 48,
+   "refused rather than absent": 0,
+   "by_tier": {
+    "C": {
+     "short": 48,
+     "verified-callable": 0
+    }
+   },
+   "dialable_universe": 0
+  }
+ },
+ "overlap": {
+  "raw_matches": 11,
+  "after_reading": 9,
+  "genuine": [
+   {
+    "company": "Blick Art Materials Multi-Site Retail",
+    "chicago_file": "chicago.html",
+    "illinois_file": "illinois.html",
+    "illinois_name": "Blick Art Materials Art supplies retail/dist · Galesburg"
+   },
+   {
+    "company": "Forest City Gear Manufacturing & Industrial",
+    "chicago_file": "chicago.html",
+    "illinois_file": "illinois.html",
+    "illinois_name": "Forest City Gear Precision gears mfg · Roscoe"
+   },
+   {
+    "company": "Woodward Inc. Manufacturing & Industrial",
+    "chicago_file": "chicago.html",
+    "illinois_file": "illinois-archive.html",
+    "illinois_name": "Woodward Inc. Aerospace controls · public · Rockford"
+   },
+   {
+    "company": "Bergstrom Inc. Manufacturing & Industrial",
+    "chicago_file": "chicago.html",
+    "illinois_file": "illinois-archive.html",
+    "illinois_name": "Bergstrom Inc. Climate systems · family, out-of-band · Rockf"
+   },
+   {
+    "company": "Rockford Toolcraft Manufacturing & Industrial",
+    "chicago_file": "chicago.html",
+    "illinois_file": "illinois.html",
+    "illinois_name": "Rockford Toolcraft Tooling/stamping mfg · Rockford"
+   },
+   {
+    "company": "Archer Daniels Midland Agribusiness · public · Chicago",
+    "chicago_file": "chicago-archive.html",
+    "illinois_file": "illinois-archive.html",
+    "illinois_name": "Archer Daniels Midland Agribusiness · public · Decatur"
+   },
+   {
+    "company": "Caterpillar Machinery · public · Deerfield",
+    "chicago_file": "chicago-archive.html",
+    "illinois_file": "illinois-archive.html",
+    "illinois_name": "Caterpillar Machinery · public · Peoria/Irving"
+   },
+   {
+    "company": "Deere & Company Machinery · public · Moline",
+    "chicago_file": "chicago-archive.html",
+    "illinois_file": "illinois-archive.html",
+    "illinois_name": "Deere & Company Ag equipment · public · Moline"
+   },
+   {
+    "company": "Tate & Lyle (Hoffman Estates) Ingredients · foreign · Hoffma",
+    "chicago_file": "chicago-archive.html",
+    "illinois_file": "illinois-archive.html",
+    "illinois_name": "Tate & Lyle / Primient Corn wet-milling · PE/JV · Decatur"
+   }
+  ],
+  "not_overlap": [
+   "“(open slot 50)” placeholder rows in both expansions",
+   "Rock Island Auction Company vs Modern Woodmen of Rock Island (a name-key collision)"
+  ],
+  "rule": "stop only above ten — 9 genuine, so no stop"
+ },
+ "gate": {
+  "officer extractor (#61)": "PASSED",
+  "roster reader": "PASSED",
+  "source-coverage panel": "PASSED",
+  "person test (#60)": "PASSED"
+ },
+ "step_two_window_one": {
+  "queue": 298,
+  "worked": 76,
+  "states": {
+   "partial": 33,
+   "measured shut": 30,
+   "completed": 13,
+   "unworked": 222
+  },
+  "call_ready_before": {
+   "chicago.html": 52,
+   "chicago-expansion.html": 4,
+   "illinois.html": 0,
+   "illinois-expansion.html": 2
+  },
+  "call_ready_after": {
+   "chicago.html": 64,
+   "chicago-expansion.html": 4,
+   "illinois.html": 1,
+   "illinois-expansion.html": 2
+  },
+  "reads_per_completion": 15.1,
+  "florida": 6.7,
+  "why_higher": "no queued row carries its own site: Chicago’s “Site” links are Google searches and Illinois rows carry only a search link, so every row starts with site discovery by derived host",
+  "forecast": "222 unworked rows; at this window’s rate (~2.6 reads a row worked, ~17% completing) the queue needs about 3 more windows for roughly 38 more completions"
+ },
+ "completed": [
+  {
+   "company": "Lou Malnati’s",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "(630) 216-6080",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.loumalnatis.com/chicagoland/",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Cermak Fresh Market",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "(773) 767-2900",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://cermakfreshmarket.com/locations",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Sunset Foods",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "(847) 432-5500",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.sunsetfoods.com/",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "F.H. Paschen",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "773-444-0085",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.fhpaschen.com/",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Rockford Toolcraft",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "(815) 398-5507",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.rockfordtoolcraft.com/",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Skender",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "312.781.0265",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.skender.com/",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Meade Inc.",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "(708) 588-2500",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.meade.com/",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Bradford Allen",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "(312) 994-5700",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://bradfordallen.com/contact-us/",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Baum Realty Group",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "(312) 666-3000",
+     "email": "info@baumrealty.com",
+     "role_inbox": true,
+     "src": "https://www.baumrealty.com/",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Ray Chevrolet",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "866-222-8857",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.raychevrolet.com/",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Hawk Auto Group",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "630-233-9696",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://www.hawkauto.com/",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Fields Auto Group",
+   "file": "chicago.html",
+   "found": {
+    "contact": {
+     "phone": "630-241-4848",
+     "email": null,
+     "role_inbox": false,
+     "src": "https://fieldsauto.com/locations/index.htm",
+     "read": "2026-10-31"
+    }
+   }
+  },
+  {
+   "company": "Heinkel's Packing Co.",
+   "file": "illinois.html",
+   "found": {
+    "contact": {
+     "phone": "(217) 428-4401",
+     "email": "sales@heinkelspacking.com",
+     "role_inbox": true,
+     "src": "https://www.heinkelspacking.com/",
+     "read": "2026-10-31"
+    }
+   }
+  }
+ ],
+ "faults": [
+  {
+   "fault": 63,
+   "line": "a run that keeps iterating past its ceiling must not label what it did not read",
+   "note": "after the 196th read the engine went on through the queue and marked 222 unread rows “partial”, then reported “the whole queue worked”; caught reading the output before counting; relabelled unworked and re-queued. Repair: the engine stops at the ceiling and leaves the rest unworked by name"
+  },
+  {
+   "fault": 64,
+   "line": "a proof that binds a name must also bind a place",
+   "note": "alliancesteel.com passed the whole-name proof and carried a Montreal number (514): a same-name company elsewhere. Five completions were refused before write-back (four with no Illinois address or area code on the page read, one a founder named in a 1912 history passage)"
+  }
+ ]
+}
