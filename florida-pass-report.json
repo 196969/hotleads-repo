@@ -1,0 +1,114 @@
+{
+ "HEAD": {
+  "founders_72": {
+   "on_the_brief": [
+    "== Florida pass — queue, practice field, close (brief): Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ],
+   "on_the_delivery": [
+    "== Florida pass — delivered: Pass 7 · Hold 2 · Blind 68 · weight passing 70.0 of 770.0",
+    "   Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044 and heads every report either way.",
+    "   Timothy A. Edick       w15.0  Chair | decides last | ",
+    "   Peter Drucker          w10.0  Pass  | Fractionals: Decision maker present on every admitted row | 2 admitted rows, all carry Decision maker",
+    "   David Maister          w10.0  Pass  | Fractionals: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Ron Baker              w10.0  Pass  | Fractionals: Company history present on every admitted row | 2 admitted rows, all carry Company history",
+    "   John C. Bogle          w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Warren Buffett         w10.0  Hold  | Private Equity: Band present on every admitted row | 2 admitted rows; missing on ['I5', 'I7']",
+    "   Richard Branson        w10.0  Pass  | Acquisitions: Signal present on every admitted row | 3 admitted rows, all carry Signal",
+    "   Mark Cuban             w10.0  Hold  | Acquisitions: Band present on every admitted row | 3 admitted rows; missing on ['I1', 'I4', 'I6']",
+    "   Robert Herjavec        w10.0  Pass  | Acquisitions: Reachable channel present on every admitted row | 3 admitted rows, all carry Reachable channel",
+    "   Ajit Jain              w10.0  Pass  | Private Equity: Signal present on every admitted row | 2 admitted rows, all carry Signal",
+    "   Part 9 seats: none Blind — may proceed"
+   ]
+  },
+  "gate": "discipline, not a hook",
+  "reads_spent": 0
+ },
+ "register_first": {
+  "rows_filled": 5,
+  "rows_not_reached": 4,
+  "not_reached": [
+   "IMG Citrus",
+   "Studer Family of Companies",
+   "The Father’s Table (no matching name)",
+   "Martinez Distributors (register city Miami, row Doral: held, not resolved by the builder)"
+  ],
+  "reads_not_spent": {
+   "floor": "15 reads: 5 rows at the 3.0 reads per decision-maker row run three spent",
+   "at_measured_yield": "about 150 reads: run three spent 30 reads on 10 decision-maker rows and found 1, so five named officers by per-row reads would have cost ~150",
+   "derivation": "run three engine record, decision-maker rows only"
+  }
+ },
+ "queue": {
+  "short_before": 20,
+  "closed_this_pass": 3,
+  "how": "2 by contacts run three had found and never written (Suncoast Beverage, Wayne Densch), 1 by the widened title test (Solutions Manufacturing: its register Manager title had been read as no title)",
+  "reads": 0,
+  "still_short": 17,
+  "blocked": {
+   "measured_shut_9": "every route refused by the headless browser reader; state on each row",
+   "partial_8": "routes spent and read; remaining routes (Sunbiz search, LinkedIn) refuse this reader; Martinez’s register candidate held on a city difference"
+  },
+  "call_ready": {
+   "before": 95,
+   "after": 98,
+   "of": 200
+  },
+  "reads_per_completion": "0 — every closure this pass came from records already held"
+ },
+ "practice_field": {
+  "rows": 200,
+  "split": {
+   "None": 176,
+   "Acquisitions": 9,
+   "Private Equity": 13,
+   "Fractionals": 2
+  },
+  "held_and_flagged": [
+   "Exactech",
+   "Fanatics (Jax ops)",
+   "BlueGrace Logistics",
+   "Mac Papers + Packaging"
+  ],
+  "note": "derived from evidence on the row; None written with its reason; the console filter keys on data-practice, which is not set by this pass"
+ },
+ "close": {
+  "rows": 200,
+  "dialable": 115,
+  "call_ready": 98,
+  "verified_callable": 25,
+  "partial": 8,
+  "measured_shut": 9,
+  "tier_C_out_of_scope": 85
+ },
+ "address_split": {
+  "named": 2,
+  "role_inbox": 31,
+  "other_address": 12,
+  "of": 98
+ },
+ "dial_pack": "Florida-Dial-Pack.docx: 98 in dial order, 25 verified-callable shaded at the top, the Outcome column (dialled, connected, conversation, meeting, no), 8 partial by kind",
+ "inheritance_diff": {
+  "Florida": {
+   "access_class": "free bulk file (read 2026-10-31)",
+   "register_reads_not_spent": "15 (floor) to ~150 (at measured yield)",
+   "refusals_by_reader": "688 of 688 headless browser, 0 plain fetch"
+  }
+ },
+ "not_done": [
+  "the two Florida derived views are not retired: the field now exists, but nothing yet generates the views from it, and which two views is not named in the files",
+  "the console’s practice filter (data-practice) is not set from the new field",
+  "Illinois and Chicago: holding at the access line for the Chair’s download"
+ ]
+}

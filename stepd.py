@@ -4,7 +4,7 @@ import re,html,json,collections
 import naming10
 DATE=r'\d{4}-\d\d-\d\d'
 ROLE=re.compile(r'^(info|sales|contact|hello|office|admin|support|service|customerservice|orders|inquiries|team|hr|careers|marketing)$',re.I)
-TITLEW=re.compile(r'(?i)\b(president|ceo|chief|owner|founder|principal|general manager|managing|director|cfo|coo|partner|vice president|vp)\b')
+TITLEW=re.compile(r'(?i)\b(president|ceo|chief|owner|founder|principal|general manager|manager|managing|member|director|chairman|chairwoman|chair|cfo|coo|partner|vice president|vp|secretary|treasurer)\b')   # widened: the register’s Manager and Chairman titles were read as no title (window five)
 INDUSTRY=re.compile(r'(?i)manufactur|industrial|distribut|wholesale|import|food|beverage|construct|trade|transport|logistic|freight|trucking|retail|field|event|marketing|brand|sales|design|services|fraud')
 def rows_of(path,which,source):
     t=open(path,encoding='utf-8').read(); tb=re.findall(r'<table[^>]*>(.*?)</table>',t,re.S)[which]

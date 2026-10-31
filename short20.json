@@ -1,0 +1,246 @@
+[
+ {
+  "key": "21",
+  "source": "florida.html",
+  "name": "Sedano's Supermarkets",
+  "city": "Doral",
+  "tier": "B",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "measured shut — every route refused by the headless browser reader: derived host refused (",
+  "register_line": false
+ },
+ {
+  "key": "23",
+  "source": "florida.html",
+  "name": "City Furniture",
+  "city": "Tamarac",
+  "tier": "B",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "measured shut — every route refused by the headless browser reader: derived host refused (",
+  "register_line": false
+ },
+ {
+  "key": "45",
+  "source": "florida.html",
+  "name": "Coca-Cola Beverages Florida",
+  "city": "Tampa",
+  "tier": "B",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "measured shut — every route refused by the headless browser reader: derived host refused (",
+  "register_line": false
+ },
+ {
+  "key": "52",
+  "source": "florida.html",
+  "name": "Boar's Head Provisions",
+  "city": "Sarasota",
+  "tier": "B",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "measured shut — every route refused by the headless browser reader: derived host refused (",
+  "register_line": false
+ },
+ {
+  "key": "58",
+  "source": "florida.html",
+  "name": "Saddle Creek Logistics",
+  "city": "Lakeland",
+  "tier": "B",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "measured shut — every route refused by the headless browser reader: derived host refused (",
+  "register_line": false
+ },
+ {
+  "key": "65",
+  "source": "florida.html",
+  "name": "ABC Fine Wine & Spirits",
+  "city": "Orlando",
+  "tier": "B",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "measured shut — every route refused by the headless browser reader: derived host refused (",
+  "register_line": false
+ },
+ {
+  "key": "95",
+  "source": "florida.html",
+  "name": "Braman Motorcars",
+  "city": "Miami",
+  "tier": "B",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "measured shut — every route refused by the headless browser reader: derived host refused (",
+  "register_line": false
+ },
+ {
+  "key": "101",
+  "source": "florida.html",
+  "name": "Suncoast Beverage Sales",
+  "city": "Fort Myers",
+  "tier": "B",
+  "missing": [
+   "named decision maker with title",
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "decision maker filled from the register (2A); see the register line",
+  "register_line": true
+ },
+ {
+  "key": "104",
+  "source": "florida.html",
+  "name": "Detwiler’s Farm Market",
+  "city": "Sarasota",
+  "tier": "A",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "measured shut — every route refused by the headless browser reader: row site link refused ",
+  "register_line": false
+ },
+ {
+  "key": "112",
+  "source": "florida.html",
+  "name": "Morgan Auto Group",
+  "city": "Tampa",
+  "tier": "B",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "partial — published phone or email with a dated source open; routes spent: row site link r",
+  "register_line": true
+ },
+ {
+  "key": "117",
+  "source": "florida.html",
+  "name": "Wayne Densch Inc.",
+  "city": "Sanford",
+  "tier": "B",
+  "missing": [
+   "named decision maker with title",
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "decision maker filled from the register (2A); see the register line",
+  "register_line": true
+ },
+ {
+  "key": "127",
+  "source": "florida.html",
+  "name": "IMG Citrus",
+  "city": "Vero Beach",
+  "tier": "B",
+  "missing": [
+   "named decision maker with title"
+  ],
+  "state_on_row": "partial — named decision maker with title open; routes spent: row site link read (proved);",
+  "register_line": true
+ },
+ {
+  "key": "138",
+  "source": "florida.html",
+  "name": "Gate Petroleum",
+  "city": "Jacksonville",
+  "tier": "B",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "measured shut — every route refused by the headless browser reader: derived host refused (",
+  "register_line": false
+ },
+ {
+  "key": "145",
+  "source": "florida.html",
+  "name": "Innisfree Hotels",
+  "city": "Pensacola",
+  "tier": "B",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "partial — published phone or email with a dated source open; routes spent: row site link r",
+  "register_line": true
+ },
+ {
+  "key": "146",
+  "source": "florida.html",
+  "name": "Studer Family of Companies",
+  "city": "Pensacola",
+  "tier": "B",
+  "missing": [
+   "named decision maker with title",
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "partial — named decision maker with title; published phone or email with a dated source op",
+  "register_line": true
+ },
+ {
+  "key": "14",
+  "source": "expansion main",
+  "name": "Martinez Distributors",
+  "city": "Doral",
+  "tier": "A",
+  "missing": [
+   "named decision maker with title"
+  ],
+  "state_on_row": "partial — named decision maker with title open; routes spent: derived host refused (challe",
+  "register_line": true
+ },
+ {
+  "key": "24",
+  "source": "expansion main",
+  "name": "The Father's Table",
+  "city": "Sanford",
+  "tier": "B",
+  "missing": [
+   "named decision maker with title",
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "partial — named decision maker with title; published phone or email with a dated source op",
+  "register_line": true
+ },
+ {
+  "key": "34",
+  "source": "expansion main",
+  "name": "Solutions Manufacturing",
+  "city": "Rockledge",
+  "tier": "B",
+  "missing": [
+   "named decision maker with title"
+  ],
+  "state_on_row": "decision maker filled from the register (2A); see the register line",
+  "register_line": true
+ },
+ {
+  "key": "I5",
+  "source": "intake",
+  "name": "Health Network One",
+  "city": "",
+  "tier": "Unverified",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "partial — published phone or email with a dated source open; routes spent: row site link r",
+  "register_line": true
+ },
+ {
+  "key": "I7",
+  "source": "intake",
+  "name": "STS Aviation Group",
+  "city": "",
+  "tier": "Unverified",
+  "missing": [
+   "published phone or email with a dated Src:"
+  ],
+  "state_on_row": "partial — published phone or email with a dated source open; routes spent: row site link r",
+  "register_line": true
+ }
+]

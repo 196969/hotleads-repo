@@ -1,0 +1,27 @@
+{
+ "dm_cost_mean": 3.0,
+ "dm_rows": 10,
+ "found_unwritten": {
+  "Suncoast Beverage Sales": {
+   "phone": "239.334.3520",
+   "email": null,
+   "role_inbox": false,
+   "src": "https://suncoastbeverage.com",
+   "read": "2026-10-31"
+  },
+  "Wayne Densch Inc.": {
+   "phone": "407-323-5600",
+   "email": null,
+   "role_inbox": false,
+   "src": "https://www.waynedensch.com/",
+   "read": "2026-10-31"
+  },
+  "The Father's Table": {
+   "phone": "407-324-1200",
+   "email": null,
+   "role_inbox": false,
+   "src": "https://thefatherstable.com/contact/",
+   "read": "2026-10-31"
+  }
+ }
+}

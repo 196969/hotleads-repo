@@ -1298,17 +1298,21 @@
   },
   {
    "date": "2026-10-31",
-   "fault": 65,
-   "line": "a classification made from one source when the jurisdiction publishes two that say different things",
-   "note": "Illinois was classed “individual lookup only” from the search page’s disclaimer alone; the Secretary of State’s data page publishes bulk sets under P.A. 102-0049 and prohibits automated queries. Ruled: free bulk, person-downloaded, automation prohibited. 2B struck. The access line names every page read (Chapter 4, all 27 markets)"
+   "item": "Florida pass",
+   "fault": "57 class (instance)",
+   "note": "the call-ready title test read the register’s Manager and Chairman titles as no title; caught by reading the short list; widened"
   },
   {
    "date": "2026-10-31",
-   "finding": "honouring the Illinois restriction costs less, not more: the person-downloaded bulk set brings the officer field for every row at once at no read cost"
+   "item": "Florida pass",
+   "fault": "reading",
+   "note": "three contacts run three found on rows it left partial were never written; written now at zero reads with their own dated sources"
   },
   {
    "date": "2026-10-31",
-   "2A_parent": "the florida.html and florida-expansion.html 2A was built from equal live byte for byte at head 0a0f4a2: 2A is safe to upload"
+   "item": "Florida pass",
+   "fault": "reading",
+   "note": "the practice derivation’s first form placed 34 rows in Private Equity on “no sponsor or parent in note”, read completed acquisitions as exit signals, and took “succession in place” and “no published vacancy” as evidence for; negations stripped and completed deals dropped before anything was written"
   }
  ]
 }
