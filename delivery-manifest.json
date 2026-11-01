@@ -1,6 +1,6 @@
 {
- "item": "360",
- "base": "90c119d",
+ "item": "362",
+ "base": "8c92fc3",
  "date": "2026-11-01",
  "files": [
   "arizona-expansion.html",
@@ -8,7 +8,6 @@
   "california-expansion.html",
   "california.html",
   "chicago-expansion.html",
-  "chicago.html",
   "colorado-expansion.html",
   "colorado.html",
   "console-arizona.html",
@@ -50,7 +49,7 @@
   "indiana.html",
   "iowa-expansion.html",
   "iowa.html",
-  "item360-report.md",
+  "item362-report.md",
   "kentucky-expansion.html",
   "kentucky.html",
   "las-vegas-expansion.html",
@@ -73,7 +72,7 @@
   "oregon.html",
   "pennsylvania-expansion.html",
   "pennsylvania.html",
-  "robots.txt",
+  "reader-plants.json",
   "south-carolina-expansion.html",
   "south-carolina.html",
   "tennessee-expansion.html",
@@ -89,8 +88,5 @@
   "wisconsin-expansion.html",
   "wisconsin.html"
  ],
- "count": 85,
- "delete_by_hand": [
-  "suppression.json"
- ]
+ "count": 84
 }

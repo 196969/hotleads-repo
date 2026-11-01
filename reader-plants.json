@@ -32,31 +32,23 @@
   {
    "plant": "watts.com for Watts Water Technologies",
    "expected": "pass",
-   "result": "unread",
-   "detail": "plain fetch refused (403); Firecrawl\u2019s keyless free tier refused on its rate limit (\u201cYou\u2019ve hit Firecrawl\u2019s keyless free tier rate limit\u201d) \u2014 the widened search (body, title, copyright line, legal-entity line, footer) never had a page to search. Neither a pass nor a page-test failure: unproven.",
-   "reads": {
-    "plain": 1,
-    "firecrawl": 1
-   }
+   "page_test": "fail \u2014 read 200; the page calls the company \u201cWatts\u201d",
+   "corroboration": {
+    "SEC filing": "read the 10-K filed 2026-02-23 (https://www.sec.gov/Archives/edgar/data/795403/000110465926018541/wts-20251231x10k.htm): names Watts Water Technologies, never mentions watts.com; the SEC submissions record\u2019s website field is empty",
+    "structured data": "read watts.com JSON-LD (1 block): names ['Watts', 'Watts Llc', 'Joseph E. Watts'] \u2014 not the legal entity",
+    "registry entry": "not available to this reader (no registry seed on disk)"
+   },
+   "result": "fail"
   },
   {
    "plant": "nutrition.gov for Nutrition Industries",
    "expected": "fail (domain exclusion)",
-   "result": "fail (domain exclusion)",
-   "reads": {
-    "plain": 0,
-    "firecrawl": 0
-   }
+   "result": "fail (domain exclusion)"
   },
   {
    "plant": "accurate.com for Accurate Box Company",
    "expected": "fail (page test)",
-   "result": "fail (page test)",
-   "detail": "plain fetch 200; the full name \u201cAccurate Box Company\u201d appears in none of the five regions searched; Firecrawl refused on its rate limit",
-   "reads": {
-    "plain": 1,
-    "firecrawl": 1
-   }
+   "result": "fail (page test)"
   }
  ],
  "history": [
@@ -96,8 +88,43 @@
      "result": "fail (page test)"
     }
    ]
+  },
+  {
+   "date": "2026-11-01",
+   "ruling": "Item 355: watts.com read and failed the full-name page test",
+   "plants": [
+    {
+     "plant": "watts.com for Watts Water Technologies",
+     "expected": "pass",
+     "result": "unread",
+     "detail": "plain fetch refused (403); Firecrawl\u2019s keyless free tier refused on its rate limit (\u201cYou\u2019ve hit Firecrawl\u2019s keyless free tier rate limit\u201d) \u2014 the widened search (body, title, copyright line, legal-entity line, footer) never had a page to search. Neither a pass nor a page-test failure: unproven.",
+     "reads": {
+      "plain": 1,
+      "firecrawl": 1
+     }
+    },
+    {
+     "plant": "nutrition.gov for Nutrition Industries",
+     "expected": "fail (domain exclusion)",
+     "result": "fail (domain exclusion)",
+     "reads": {
+      "plain": 0,
+      "firecrawl": 0
+     }
+    },
+    {
+     "plant": "accurate.com for Accurate Box Company",
+     "expected": "fail (page test)",
+     "result": "fail (page test)",
+     "detail": "plain fetch 200; the full name \u201cAccurate Box Company\u201d appears in none of the five regions searched; Firecrawl refused on its rate limit",
+     "reads": {
+      "plain": 1,
+      "firecrawl": 1
+     }
+    }
+   ]
   }
  ],
- "ruling": "Chair ruling 1(b), 2026-11-01: the full-name rule stands; the full name is looked for in body text, page title, the copyright or legal-entity line, and the footer. If watts.com still fails, that is the finding and does not block the pass; the other two plants carry the proof.",
- "verdict": "2 of 3 plants as expected; watts.com unread. Under ruling 1(b) the other two plants carry the proof of the exclusion and the page test; the shorter-anchor admission is still unproven, so the gate\u2019s stop 3 stays set and Parts C and D stay closed."
+ "ruling": "Chair, Item 362: the page-text test stands unchanged; one corroboration route is added beside it \u2014 a dated third-party record binding the domain to the company (registry entry, SEC filing, or structured data on the page naming the legal entity).",
+ "verdict": "watts.com fails under both routes. The amended reader is not released: Part D\u2019s re-runs, the Alabama and Oklahoma census and the dealer-block re-reads are struck as unreachable by this reader (Item 362)."
 }

@@ -8676,7 +8676,16 @@
     "disposition": "the Chair’s. Not queued, not re-read, not counted as owed.",
     "reader": "—"
    }
-  ]
+  ],
+  "struck_item362": {
+   "date": "2026-11-01",
+   "struck": [
+    "Part D re-runs (the 39 A3 rows on the amended reader)",
+    "Alabama and Oklahoma census",
+    "dealer-block re-reads"
+   ],
+   "why": "unreachable by this reader: watts.com fails the amended reader under both routes — the page-text test (the page calls the company “Watts”) and the corroboration route (the 10-K names Watts Water Technologies but never the domain; the SEC website field is empty; the page’s structured data names “Watts” and “Watts Llc”)"
+  }
  },
  "todo_cleared": {
   "dated": "2026-11-01",
@@ -9574,8 +9583,74 @@
   },
   "mitigations": {
    "robots.txt": "User-agent: * / Disallow: / at the repository root. Its honest limit: robots.txt stops compliant indexing, not access — anyone holding a URL still reads the file. A further limit, measured: crawlers read robots.txt only at the host root (https://196969.github.io/robots.txt, which answered 404 on 2026-11-01); a file at /hotleads-repo/robots.txt is not consulted by them at all. To make it count, the rule has to live at the host root (a 196969.github.io repository) or each page has to carry a noindex tag.",
-   "suppression.json": "removed from the served repository; every page and console now reads the list from the operator’s own computer (loaded once from a local file, kept in that browser) and withholds every address until it has one — proven in Chromium: 150 of 150 Florida Email links withheld with no local copy, released when the local file was loaded, a suppressed domain and a suppressed address each refused at Copy; send.py refused the suppressed address from a local file. The list held 0 entries when it was removed."
+   "suppression.json": "removed from the served repository; every page and console now reads the list from the operator’s own computer (loaded once from a local file, kept in that browser) and withholds every address until it has one — proven in Chromium: 150 of 150 Florida Email links withheld with no local copy, released when the local file was loaded, a suppressed domain and a suppressed address each refused at Copy; send.py refused the suppressed address from a local file. The list held 0 entries when it was removed.",
+   "robots.txt_amended_item362": "Amended 2026-11-01 (Item 362): the repository-level robots.txt is inert on its own. It serves (200 at /hotleads-repo/robots.txt), but crawlers read robots.txt only at the host root, https://196969.github.io/robots.txt, which does not exist (404). The host-root file is the one that acts."
   },
   "not_done_by_ruling": "the repository stays public and the market files stay where they are — Item 361, scheduled, because moving them breaks every live link in the Partner Pack the week Edward starts dialling."
- }
+ },
+ "contests_item362": [
+  {
+   "contest": "Zirkle Fruit",
+   "url": "https://www.zirklefruit.com/",
+   "reader": "firecrawl (no key)",
+   "status": 200,
+   "result": "read",
+   "statements": [],
+   "disposition": "held — the page read states no revenue figure"
+  },
+  {
+   "contest": "Elliott Electric Supply",
+   "url": "https://www.elliottelectric.com/",
+   "reader": "firecrawl (no key)",
+   "status": 200,
+   "result": "read",
+   "statements": [],
+   "disposition": "held — the page read states no revenue figure"
+  },
+  {
+   "contest": "Christensen Arms",
+   "url": "https://www.christensenarms.com/about/",
+   "reader": "firecrawl (no key)",
+   "status": 200,
+   "result": "read",
+   "statements": [],
+   "disposition": "held — the page read states no controlling owner"
+  },
+  {
+   "contest": "Rappahannock Oyster",
+   "url": "https://www.rroysters.com/about",
+   "reader": "firecrawl (no key)",
+   "status": 200,
+   "result": "read",
+   "statements": [],
+   "disposition": "withdrawn read, still held — the address re-probed (rroysters.com) came from recall, not from a source; own knowledge is refused, so the read proves nothing and is struck"
+  }
+ ],
+ "register_item362": [
+  {
+   "date": "2026-11-01",
+   "kind": "fault (Chair’s words)",
+   "text": "A mitigation verified at the wrong address, reported as working, caught by checking the host root. The 200 proved the file existed, not that it functioned."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding, measured",
+   "text": "The website’s florida.html is live with the old composer: https://196969.github.io/DashRite-Advisory-/florida.html → 301 → http://dashriteadvisory.com/florida.html → 200; its composer block begins “(function(){ var slug=location.pathname…” and carries none of the Item 353 fixes (no DRA_GATE). The website’s 48 market pages are replaced by one-line pointers to the hotleads-repo copy (noindex, canonical, refresh)."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "control, proven",
+   "text": "Suppression update control on 53 market pages: shows record count, file date and load time; re-loadable without clearing storage. Proven in Chromium: before loading, the instruction shows and every Email is locked; load 1 record; re-load with an added address → 2 records; the added address is refused at Copy. chicago.html carries no Item 314 loader — its composer still refuses at Copy without a local list."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "stop 3, settled",
+   "text": "watts.com fails the amended reader under both the page-text test and the corroboration route; the reader is not released and its three dependent tasks are struck. Four items of drift end here."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "fault caught (builder’s)",
+   "text": "The Rappahannock re-probe used rroysters.com, a domain recalled rather than sourced. Own knowledge is refused as a source, so that read is struck; the contest stays held."
+  }
+ ]
 }
