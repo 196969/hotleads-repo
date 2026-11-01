@@ -1,0 +1,97 @@
+[
+ {
+  "row": "florida.html#97",
+  "name": "Brown Distributing",
+  "number": "(512) 478-9353",
+  "action": "held",
+  "why": "area code 512 outside florida"
+ },
+ {
+  "row": "florida-expansion.html#6",
+  "name": "Cypress Truck Lines",
+  "number": "(800) 545-1351",
+  "action": "written",
+  "src": "Src: read cypresstruck.com 2026-11-01",
+  "replaced": "904-353-8641"
+ },
+ {
+  "row": "florida-expansion.html#13",
+  "name": "East Coast Metal Structures",
+  "number": "(561) 766-2579",
+  "action": "written",
+  "src": "Src: read eastcoastmetals.net 2026-11-01",
+  "replaced": "561-272-5417"
+ },
+ {
+  "row": "florida-expansion.html#21",
+  "name": "FMX, Inc.",
+  "number": "(904) 598-2683",
+  "action": "written",
+  "src": "Src: read fmxtruck.com 2026-11-01",
+  "replaced": "904-598-2683"
+ },
+ {
+  "row": "chicago.html#50",
+  "name": "Garden Fresh Market",
+  "number": "(847) 949-9210",
+  "action": "written",
+  "src": "Src: read gardenfreshmarket.com/contact 2026-11-01",
+  "replaced": "(847) 949-9210"
+ },
+ {
+  "row": "chicago.html#72",
+  "name": "Ujamaa Construction",
+  "number": "(773) 374-1300",
+  "action": "written",
+  "src": "Src: read ujamaaconstruction.com 2026-11-01",
+  "replaced": "(773) 374-1300"
+ },
+ {
+  "row": "chicago.html#170",
+  "name": "Draper and Kramer",
+  "number": "(312) 346-8600",
+  "action": "written",
+  "src": "Src: read draperandkramer.com/contact 2026-11-01",
+  "replaced": "(312) 346-8600"
+ },
+ {
+  "row": "chicago.html#183",
+  "name": "Wheatland Title",
+  "number": "(630) 892-2323",
+  "action": "written",
+  "src": "Src: read wheatlandtitle.com 2026-11-01",
+  "replaced": "(630) 892-2323"
+ },
+ {
+  "row": "chicago.html#206",
+  "name": "Chicago Tag & Label",
+  "number": "(800) 826-8260",
+  "action": "written",
+  "src": "Src: read chicagotag.com 2026-11-01",
+  "replaced": "(847) 362-5100"
+ },
+ {
+  "row": "chicago-expansion.html#1",
+  "name": "Radio Flyer Inc.",
+  "number": "(800) 621-7613",
+  "action": "written",
+  "src": "Src: read radioflyer.com 2026-11-01",
+  "replaced": "773-637-7100"
+ },
+ {
+  "row": "chicago-expansion.html#4",
+  "name": "Vienna Beef Ltd.",
+  "number": "(773) 278-7800",
+  "action": "written",
+  "src": "Src: read viennabeef.com/contact 2026-11-01",
+  "replaced": "773-278-7800"
+ },
+ {
+  "row": "illinois-expansion.html#7",
+  "name": "PBC Linear (Pacific Bearing Company)",
+  "number": "(815) 389-5600",
+  "action": "written",
+  "src": "Src: read pbclinear.com 2026-11-01",
+  "replaced": "815-389-5600"
+ }
+]

@@ -1,0 +1,126 @@
+{
+ "rows": {
+  "texas.html#3": {
+   "market": "texas",
+   "name": "Andrews Distributing",
+   "phone_on_file": "214-424-2337",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site andrewsdistributing.com refused",
+    "site": "andrewsdistributing.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "texas.html#5": {
+   "market": "texas",
+   "name": "Glazer’s Beer & Beverage",
+   "phone_on_file": "214-360-5900",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site glazersbeer.com refused",
+    "site": "glazersbeer.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "texas.html#7": {
+   "market": "texas",
+   "name": "Elliott Electric Supply",
+   "phone_on_file": "936-560-1500",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site elliottelectric.com refused",
+    "site": "elliottelectric.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "texas.html#9": {
+   "market": "texas",
+   "name": "Texas Restaurant Supply",
+   "phone_on_file": "210-227-8281",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "texas.html#12": {
+   "market": "texas",
+   "name": "Coburn Supply Company",
+   "phone_on_file": "409-838-1341",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "texas.html#16": {
+   "market": "texas",
+   "name": "Texas Pipe & Supply",
+   "phone_on_file": "713-956-0100",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site texaspipe.com refused",
+    "site": "texaspipe.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "texas.html#23": {
+   "market": "texas",
+   "name": "Standard Meat Company",
+   "phone_on_file": "214-421-4747",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "standardmeat.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "texas.html#30": {
+   "market": "texas",
+   "name": "Kent Companies",
+   "phone_on_file": "432-570-4900",
+   "result": {
+    "route": 4,
+    "number": "(616) 534-4909",
+    "how": "company page",
+    "site": "kentcompanies.com",
+    "candidates": [
+     "(616) 534-4909",
+     "(972) 221-8113",
+     "(803) 548-5368"
+    ],
+    "src": "Src: read kentcompanies.com 2026-11-01",
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  }
+ },
+ "halt": "more than a quarter of rows worked were refused (4 of 8) after the minimum sample of 8"
+}

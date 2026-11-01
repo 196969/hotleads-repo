@@ -1,0 +1,777 @@
+{
+ "rows": {
+  "florida.html#91": {
+   "market": "florida",
+   "name": "Sheltair Aviation",
+   "phone_on_file": "954-351-9900",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site sheltairaviation.com refused",
+    "site": "sheltairaviation.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida.html#97": {
+   "market": "florida",
+   "name": "Brown Distributing",
+   "phone_on_file": "561-863-1300",
+   "result": {
+    "route": 4,
+    "number": "(512) 478-9353",
+    "how": "company page",
+    "site": "browndistributing.com",
+    "candidates": [
+     "(512) 478-9353"
+    ],
+    "src": "Src: read browndistributing.com 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida.html#100": {
+   "market": "florida",
+   "name": "Arthrex",
+   "phone_on_file": "(239) 643-5553",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "arthrex.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida.html#111": {
+   "market": "florida",
+   "name": "BlueGrace Logistics",
+   "phone_on_file": "—",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#128": {
+   "market": "florida",
+   "name": "Natalie’s Orchid Island Juice",
+   "phone_on_file": "(772) 465-1122",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#148": {
+   "market": "florida",
+   "name": "Doris Italian Market",
+   "phone_on_file": "(954) 749-1919",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#6": {
+   "market": "florida",
+   "name": "Cypress Truck Lines",
+   "phone_on_file": "904-353-8641",
+   "result": {
+    "route": 4,
+    "number": "(800) 545-1351",
+    "how": "company page",
+    "site": "cypresstruck.com",
+    "candidates": [
+     "(800) 545-1351"
+    ],
+    "src": "Src: read cypresstruck.com 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#13": {
+   "market": "florida",
+   "name": "East Coast Metal Structures",
+   "phone_on_file": "561-272-5417",
+   "result": {
+    "route": 4,
+    "number": "(561) 766-2579",
+    "how": "company page",
+    "site": "eastcoastmetals.net",
+    "candidates": [
+     "(561) 766-2579",
+     "(561) 766-2593"
+    ],
+    "src": "Src: read eastcoastmetals.net 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#14": {
+   "market": "florida",
+   "name": "Martinez Distributors",
+   "phone_on_file": "305-882-8282",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#21": {
+   "market": "florida",
+   "name": "FMX, Inc.",
+   "phone_on_file": "904-598-2683",
+   "result": {
+    "route": 4,
+    "number": "(904) 598-2683",
+    "how": "company page",
+    "site": "fmxtruck.com",
+    "candidates": [
+     "(904) 598-2683",
+     "(904) 598-2627",
+     "(813) 628-4700",
+     "(863) 676-3213"
+    ],
+    "src": "Src: read fmxtruck.com 2026-11-01",
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#22": {
+   "market": "florida",
+   "name": "Prime Line Distributors",
+   "phone_on_file": "954-925-4500",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "primelinedist.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#26": {
+   "market": "florida",
+   "name": "H&H Products Company",
+   "phone_on_file": "800-678-8448",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#28": {
+   "market": "florida",
+   "name": "Contender Boats",
+   "phone_on_file": "305-230-1600",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site contenderboats.com refused",
+    "site": "contenderboats.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#29": {
+   "market": "florida",
+   "name": "Regal Marine Industries",
+   "phone_on_file": "407-851-4360",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "m.regalmarine.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#33": {
+   "market": "florida",
+   "name": "Southern Spring & Stamping",
+   "phone_on_file": "941-488-2276",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site southernspring.com refused",
+    "site": "southernspring.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#40": {
+   "market": "florida",
+   "name": "Conimar Corporation",
+   "phone_on_file": "800-874-9735",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "conimar.net",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida-expansion.html#I1": {
+   "market": "florida",
+   "name": "Alpha Foundations",
+   "phone_on_file": "877-322-3446",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site alphafoundations.com refused",
+    "site": "alphafoundations.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#1": {
+   "market": "chicago",
+   "name": "Reyes Holdings",
+   "phone_on_file": "(847) 227-6600",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "reyesholdings.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#14": {
+   "market": "chicago",
+   "name": "SC Johnson",
+   "phone_on_file": "(262) 260-2154",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#19": {
+   "market": "chicago",
+   "name": "Jockey International",
+   "phone_on_file": "(262) 658-8111",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site jockey.com refused",
+    "site": "jockey.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#30": {
+   "market": "chicago",
+   "name": "Turano Baking Company",
+   "phone_on_file": "(708) 788-7222",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#40": {
+   "market": "chicago",
+   "name": "Beggars Pizza",
+   "phone_on_file": "(708) 385-1234",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "beggarspizza.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#41": {
+   "market": "chicago",
+   "name": "Rosati’s Pizza",
+   "phone_on_file": "(847) 741-5400",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "rosatispizza.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#50": {
+   "market": "chicago",
+   "name": "Garden Fresh Market",
+   "phone_on_file": "(847) 949-9210",
+   "result": {
+    "route": 4,
+    "number": "(847) 949-9210",
+    "how": "company page",
+    "site": "gardenfreshmarket.com",
+    "candidates": [
+     "(847) 394-1100",
+     "(847) 949-9210"
+    ],
+    "src": "Src: read gardenfreshmarket.com/contact 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#57": {
+   "market": "chicago",
+   "name": "Berkot’s Super Foods",
+   "phone_on_file": "(708) 337-1334",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#69": {
+   "market": "chicago",
+   "name": "Norcon Inc.",
+   "phone_on_file": "(312) 715-9200",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site norconinc.com refused",
+    "site": "norconinc.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#72": {
+   "market": "chicago",
+   "name": "Ujamaa Construction",
+   "phone_on_file": "(773) 374-1300",
+   "result": {
+    "route": 4,
+    "number": "(773) 374-1300",
+    "how": "company page",
+    "site": "ujamaaconstruction.com",
+    "candidates": [
+     "(773) 374-1300",
+     "(773) 374-1301",
+     "(470) 346-2491"
+    ],
+    "src": "Src: read ujamaaconstruction.com 2026-11-01",
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#75": {
+   "market": "chicago",
+   "name": "Environmental Design International",
+   "phone_on_file": "(312) 345-1400",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#81": {
+   "market": "chicago",
+   "name": "Cordogan Clark",
+   "phone_on_file": "(630) 896-4678",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "cordoganclark.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#82": {
+   "market": "chicago",
+   "name": "Eriksson Engineering",
+   "phone_on_file": "(847) 223-4804",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#84": {
+   "market": "chicago",
+   "name": "V3 Companies",
+   "phone_on_file": "(630) 724-9200",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#104": {
+   "market": "chicago",
+   "name": "Chicago White Metal Casting",
+   "phone_on_file": "(630) 595-4424",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#121": {
+   "market": "chicago",
+   "name": "Illinois Bone & Joint Institute",
+   "phone_on_file": "(847) 375-3000",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#138": {
+   "market": "chicago",
+   "name": "Sebert Landscaping",
+   "phone_on_file": "(630) 497-1000",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#143": {
+   "market": "chicago",
+   "name": "Arrow Road Construction",
+   "phone_on_file": "(847) 437-0700",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#144": {
+   "market": "chicago",
+   "name": "Plote Construction",
+   "phone_on_file": "(847) 695-9300",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#149": {
+   "market": "chicago",
+   "name": "Divane Bros. Electric",
+   "phone_on_file": "(847) 455-7143",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#153": {
+   "market": "chicago",
+   "name": "Great Lakes Plumbing & Heating",
+   "phone_on_file": "(773) 489-0400",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#155": {
+   "market": "chicago",
+   "name": "Hill Mechanical Group",
+   "phone_on_file": "(847) 451-5000",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#156": {
+   "market": "chicago",
+   "name": "AMS Mechanical Systems",
+   "phone_on_file": "(630) 887-7700",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#167": {
+   "market": "chicago",
+   "name": "Habitat Company",
+   "phone_on_file": "(312) 527-5400",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "habitat-design.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#169": {
+   "market": "chicago",
+   "name": "RMK Management",
+   "phone_on_file": "(312) 407-6767",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#170": {
+   "market": "chicago",
+   "name": "Draper and Kramer",
+   "phone_on_file": "(312) 346-8600",
+   "result": {
+    "route": 4,
+    "number": "(312) 346-8600",
+    "how": "company page",
+    "site": "draperandkramer.com",
+    "candidates": [
+     "(312) 346-8600"
+    ],
+    "src": "Src: read draperandkramer.com/contact 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#183": {
+   "market": "chicago",
+   "name": "Wheatland Title",
+   "phone_on_file": "(630) 892-2323",
+   "result": {
+    "route": 4,
+    "number": "(630) 892-2323",
+    "how": "company page",
+    "site": "wheatlandtitle.com",
+    "candidates": [
+     "(630) 892-2323"
+    ],
+    "src": "Src: read wheatlandtitle.com 2026-11-01",
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "chicago.html#206": {
+   "market": "chicago",
+   "name": "Chicago Tag & Label",
+   "phone_on_file": "(847) 362-5100",
+   "result": {
+    "route": 4,
+    "number": "(800) 826-8260",
+    "how": "company page",
+    "site": "chicagotag.com",
+    "candidates": [
+     "(800) 826-8260"
+    ],
+    "src": "Src: read chicagotag.com 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "chicago-expansion.html#1": {
+   "market": "chicago",
+   "name": "Radio Flyer Inc.",
+   "phone_on_file": "773-637-7100",
+   "result": {
+    "route": 4,
+    "number": "(800) 621-7613",
+    "how": "company page",
+    "site": "radioflyer.com",
+    "candidates": [
+     "(800) 621-7613"
+    ],
+    "src": "Src: read radioflyer.com 2026-11-01",
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "chicago-expansion.html#4": {
+   "market": "chicago",
+   "name": "Vienna Beef Ltd.",
+   "phone_on_file": "773-278-7800",
+   "result": {
+    "route": 4,
+    "number": "(773) 278-7800",
+    "how": "company page",
+    "site": "viennabeef.com",
+    "candidates": [
+     "(800) 366-3647",
+     "(773) 278-7800",
+     "(323) 583-8951",
+     "(941) 723-7234",
+     "(773) 435-2447",
+     "(773) 435-2298"
+    ],
+    "src": "Src: read viennabeef.com/contact 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "chicago-expansion.html#13": {
+   "market": "chicago",
+   "name": "Fellowes Brands",
+   "phone_on_file": "630-893-1600",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "fellowesbrands.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "chicago-expansion.html#17": {
+   "market": "chicago",
+   "name": "Azteca Foods, Inc.",
+   "phone_on_file": "708-563-6600",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "aztecafoods.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "illinois-expansion.html#6": {
+   "market": "illinois",
+   "name": "Mel-O-Cream Donuts International",
+   "phone_on_file": "217-525-1084",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "melocreamspringfield.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "illinois-expansion.html#7": {
+   "market": "illinois",
+   "name": "PBC Linear (Pacific Bearing Company)",
+   "phone_on_file": "815-389-5600",
+   "result": {
+    "route": 4,
+    "number": "(815) 389-5600",
+    "how": "company page",
+    "site": "pbclinear.com",
+    "candidates": [
+     "(815) 389-5600",
+     "(800) 962-8979"
+    ],
+    "src": "Src: read pbclinear.com 2026-11-01",
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  }
+ },
+ "halt": null
+}

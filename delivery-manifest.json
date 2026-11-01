@@ -1,16 +1,24 @@
 {
- "item": "356",
- "base": "a634164",
+ "item": "357",
+ "base": "7ed6c05",
  "date": "2026-11-01",
  "files": [
+  "HOT-Leads-BD-Report.docx",
+  "chicago-expansion.html",
+  "chicago.html",
   "delivery-manifest.json",
+  "florida-expansion.html",
   "florida-standard.json",
-  "florida.html",
+  "illinois-expansion.html",
   "index.html",
-  "item356-founders72-verdicts.json",
-  "item356-read-log.jsonl",
-  "item356-report.md",
-  "item356-rows.json"
+  "item357-founders72-verdicts.json",
+  "item357-read-log.jsonl",
+  "item357-report.md",
+  "item357-rung3-rows.json",
+  "item357-rung3-writes.json",
+  "item357-rung6-rows.json",
+  "north-carolina.html",
+  "texas.html"
  ],
- "count": 8
+ "count": 16
 }

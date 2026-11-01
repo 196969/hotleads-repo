@@ -8643,7 +8643,8 @@
     "item": "Dealer blocks",
     "rows": 20,
     "disposition": "manual-read-owed by design. The Firecrawl re-probe the brief ordered (Part C) did not run — Part C is closed behind the reader plant — so the closure stands on the plain-fetch reader (Item 347), and the record says so. Manual cost per block: one browser session per dealer group — Texas 14, North Carolina 6.",
-    "reader": "plain fetch, Item 347"
+    "reader": "plain fetch, Item 347",
+    "correction_2026-11-01": "Dealer-block refusals on record 5 → 1: four (Mac Haik, Classic Chevrolet, Freeman, Capital Automotive) were SEC search pages or another company’s site (classic.com), not the dealer’s door — withdrawn as false provenance, correction lines written after each Item 347 line. Only sewell.com remains a refusal of a dealer’s own site."
    },
    {
     "item": "Contest rows",
@@ -8730,7 +8731,45 @@
     "what": "Soulard Farmers Market, Boggs Paving",
     "why": "unsettleable by this reader (A4)"
    }
-  ]
+  ],
+  "dated_update_2026-11-01_item357": {
+   "done": [
+    "rung 3 — all 73 first-reached rows worked on the fixed runner (8 + 14 + 51): 15 contacts written across Items 354–357, 1 held on area code",
+    "Section 10 — four false-provenance dealer refusals withdrawn",
+    "Section 13 — BD report regenerated (call-ready 327, backlog 182)",
+    "Section 11 and 12 re-verified by exercising: composer gates and suppression in a real browser; consoles open without script errors"
+   ],
+   "owed": [
+    {
+     "what": "Rung 4 — Florida’s missing fields (mostly dated address sources)",
+     "blocker": "the reader reads phones, not addresses; an address reader is a new instrument and needs its own plant before it spends a read"
+    },
+    {
+     "what": "Rung 5 — the practice field",
+     "blocker": "the validator requires a dated signal line for every practice flag; the rows’ practice text is derived from the row, which is not a signal (Section 9 signal classes need reads); badges written from derivations were refused by the validator and removed by edit"
+    },
+    {
+     "what": "Rung 6 — 116 backlog rows not yet worked",
+     "blocker": "halted on the refusal stop after 8 Texas rows (4 refused); a Firecrawl key would re-probe them"
+    },
+    {
+     "what": "Section 7 (Part D) three-way split",
+     "blocker": "amendment 0 (stop 3 set on that reader), registry 0 (port 22), Firecrawl 0 (keyless limit) — nothing new unblocked; Item 348’s one-attempt pass stands"
+    },
+    {
+     "what": "Section 8 Alabama and Oklahoma census",
+     "blocker": "the amended reader is stopped; not run"
+    },
+    {
+     "what": "Section 9 Part F",
+     "blocker": "no seed on disk in either state"
+    },
+    {
+     "what": "Monogram on the report’s final page",
+     "blocker": "the canonical emblem has not been supplied to the repository"
+    }
+   ]
+  }
  },
  "register_item349": [
   {
@@ -9088,6 +9127,62 @@
    "date": "2026-11-01",
    "kind": "finding",
    "text": "All four refusals were a plain fetch. Firecrawl answered two plain-fetch refusals earlier today (zirklefruit.com, elliottelectric.com), so these four are evidence about our reader until re-probed — the keyless tier cannot carry that volume; a free API key would."
+  }
+ ],
+ "standing_rule_item357": {
+  "date": "2026-11-01",
+  "rule": "A threshold is calibrated against the route’s measured rate before it is armed. A stop that cannot distinguish normal behaviour from failure is not a stop. The quarter stop counts refusals only — a non-200, a block, a timeout or a page that will not serve — measured from row one of each resumption, not cumulatively.",
+  "ruled_by": "Chair"
+ },
+ "depth_item357": {
+  "Florida": {
+   "rows": 200,
+   "dialable": 112,
+   "call_ready": 64,
+   "share": 57.1
+  },
+  "Illinois with Chicago": {
+   "rows": 538,
+   "dialable": 346,
+   "call_ready": 127,
+   "share": 36.7
+  }
+ },
+ "register_item357": [
+  {
+   "date": "2026-11-01",
+   "kind": "fault (instrument)",
+   "text": "The quarter stop as first written fired on normal yield: 8 rows worked, 7 company sites found, 2 refusals, stop fired — every Route 4 rate on record finds contacts for 16–57% of rows. An instrument measuring the wrong property and halting confidently; the third this week after the phone matcher and the runner’s name extraction."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "gap in the record",
+   "text": "“The 26 refused sources” were cited across several briefs with no enumerated membership anywhere in the repository. Not reconstructed. It joins the 203: a count whose population was never written down cannot be re-measured."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "withdrawal",
+   "text": "Dealer-block refusals 5 → 1: four were SEC search pages or classic.com (another company). Struck as false provenance, corrections written after the lines they change."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "rung 3 closed",
+   "text": "All 73 first-reached rows worked on the fixed runner across three resumptions (Items 355, 356, 357: 8, 14 and 51 rows): 16 distinct contacts found, 15 written across Items 354–357 (Southern Glazer’s in 354, Fresh Del Monte in 355, Rooms To Go and Bealls in 356, 11 in 357), 1 held on area code (Brown Distributing, 512 on a Florida row). Reads 19 + 25 + 93 = 137 of 207. Refusals by resumption: 2 of 8, 4 of 14, 6 of 51."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "rung 6 halted",
+   "text": "Rung 6 opened on the 70 reads left in the rung-3 allocation and halted after 8 Texas rows, 4 refused (andrewsdistributing.com, glazersbeer.com, elliottelectric.com, texaspipe.com); 15 reads. Kent Companies returned (616) 534-4909, a Michigan number on a Texas row — held. elliottelectric.com answered Firecrawl earlier the same day: the refusals are evidence about the plain fetch."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "rung 5 refused by the validator",
+   "text": "Practice badges built from each row’s own derived practice text were refused by the validator (“typed practice flag … with no dated signal line”) and removed by edit. A derivation is not a signal; the practice field waits on dated signal reads."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "measured",
+   "text": "Depth against the dialable universe: {'Florida': {'rows': 200, 'dialable': 112, 'call_ready': 64, 'share': 57.1}, 'Illinois with Chicago': {'rows': 538, 'dialable': 346, 'call_ready': 127, 'share': 36.7}}. Call-ready 316 → 327 rows; 309 → 320 companies by name."
   }
  ]
 }
