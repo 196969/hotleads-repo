@@ -1,0 +1,1645 @@
+{
+ "item": "340",
+ "partA": {
+  "plant": {
+   "Lincoln Electric": {
+    "got": "public",
+    "route": 2,
+    "page": "sec.gov/files/company_tickers.json",
+    "ctx": "SEC’s list of exchange-traded registrants lists LINCOLN ELECTRIC HOLDINGS INC under ticker LECO",
+    "steps": [
+     [
+      "search own site",
+      "results"
+     ],
+     [
+      "sec ticker list",
+      [
+       [
+        "LINCOLN ELECTRIC HOLDINGS INC",
+        "LECO"
+       ]
+      ]
+     ]
+    ]
+   },
+   "Fastenal": {
+    "got": null,
+    "route": null,
+    "page": null,
+    "ctx": "",
+    "steps": [
+     [
+      "search own site",
+      "results"
+     ],
+     [
+      "search press",
+      "results"
+     ],
+     [
+      "press refused",
+      "https://www.fastenal.com/"
+     ]
+    ],
+    "route2_withheld": true
+   }
+  },
+  "reads": [
+   {
+    "n": 1,
+    "route": 1,
+    "row": "Lincoln Electric",
+    "kind": "search",
+    "reader": "yahoo-v4",
+    "url": "https://search.yahoo.com/search p=\"Lincoln Electric\" about",
+    "date": "2026-11-01",
+    "status": 200,
+    "bytes": 385549,
+    "outcome": "results",
+    "results": [
+     "https://www.lincoln.com/",
+     "https://www.lincoln.com/all-luxury-suvs/",
+     "https://www.lincolnfinancial.com/public/individuals",
+     "https://build.lincoln.com/",
+     "https://www.lincolnofcolumbus.com/",
+     "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+     "https://www.millerlincoln.com/columbus.htm",
+     "https://www.lincolnofcolumbus.com/new-inventory/index.htm",
+     "https://www.lincoln.com/luxury-vehicles/",
+     "https://www.lincoln.com/luxury-suvs/nautilus/"
+    ],
+    "secs": 0.7
+   },
+   {
+    "n": 2,
+    "route": 2,
+    "row": "Lincoln Electric",
+    "kind": "sec ticker list",
+    "url": "https://www.sec.gov/files/company_tickers.json",
+    "date": "2026-11-01",
+    "status": 200
+   },
+   {
+    "n": 3,
+    "route": 1,
+    "row": "Fastenal",
+    "kind": "search",
+    "reader": "yahoo-v4",
+    "url": "https://search.yahoo.com/search p=\"Fastenal\" about",
+    "date": "2026-11-01",
+    "status": 200,
+    "bytes": 418391,
+    "outcome": "results",
+    "results": [
+     "https://en.wikipedia.org/wiki/Oprah_Winfrey",
+     "https://www.oprah.com/index.html",
+     "https://www.forbes.com/profile/oprah-winfrey/",
+     "https://www.oprah.com/pressroom/oprah-winfreys-official-biography",
+     "https://www.youtube.com/@Oprah",
+     "https://www.britannica.com/biography/Oprah-Winfrey",
+     "https://www.biography.com/movies-tv/oprah-winfrey",
+     "https://www.oprahdaily.com/author/220766/oprah/",
+     "https://www.notablebiographies.com/We-Z/Winfrey-Oprah.html",
+     "https://www.facebook.com/oprahwinfrey/"
+    ],
+    "secs": 0.7
+   },
+   {
+    "n": 4,
+    "route": 3,
+    "row": "Fastenal",
+    "kind": "search",
+    "reader": "yahoo-v4",
+    "url": "https://search.yahoo.com/search p=\"Fastenal\" private equity OR NYSE OR \"publicly traded\" OR \"privately held\"",
+    "date": "2026-11-01",
+    "status": 200,
+    "bytes": 367999,
+    "outcome": "results",
+    "results": [
+     "https://www.fastenal.com/",
+     "https://www.fastenal.com/locations",
+     "https://www.fastenal.ca/fast/catalogs",
+     "https://en.wikipedia.org/wiki/Fastenal",
+     "https://careers.fastenal.com/",
+     "https://www.fastenal.ca/fast/services-and-solutions",
+     "https://www.fastenal.com/locations/search?searchBy=city",
+     "https://www.fastenal.com/logon/sign-in",
+     "https://www.fastenal.com/fast/about-us",
+     "https://www.fastenal.com/fast/services-and-solutions"
+    ],
+    "secs": 0.62
+   },
+   {
+    "n": 5,
+    "route": 3,
+    "row": "Fastenal",
+    "kind": "press page",
+    "url": "https://www.fastenal.com/",
+    "date": "2026-11-01",
+    "status": 403,
+    "bytes": 370,
+    "final": "https://www.fastenal.com/",
+    "refused": true,
+    "secs": 0.2
+   }
+  ]
+ },
+ "partB": {
+  "las-vegas.html#43": {
+   "name": "Nevada Ready Mix",
+   "pages": [
+    {
+     "url": "nevadareadymix.com",
+     "sents": []
+    },
+    {
+     "url": "nevadareadymix.com/history",
+     "refused": false,
+     "sents": [
+      "History - Nevada Ready Mix Nevada Ready Mix - Nevada's #1 Concrete Company 702-457-1115 151 Cassia Way, Henderson, NV 89014 Home Customers Credit Application Request a Quote Order Form About NRM Resume Project Gallery History Employment Products Concrete Sand "
+     ]
+    }
+   ]
+  },
+  "chicago.html#192": {
+   "name": "Alliance Shippers",
+   "row": {
+    "file": "chicago.html",
+    "num": "192",
+    "company_cell": "Alliance Shippers Distribution & Wholesale",
+    "phone": null,
+    "email": null,
+    "city": "Bensenville",
+    "kind": "acquire a contact (none on the row)",
+    "dm": "Steven Golich President & CEO (based Orland Park, IL) — per company's own Aug-20",
+    "name": "Alliance Shippers"
+   },
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   }
+  }
+ },
+ "partC": {
+  "now": [
+   [
+    "arizona.html",
+    "20",
+    "Sun State Builders Supply",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "arizona.html",
+    "37",
+    "Rowland Companies",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "arizona.html",
+    "78",
+    "Border Products",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "arizona.html",
+    "118",
+    "Nutrition Industries",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "arizona.html",
+    "130",
+    "Arizona Materials",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "arizona.html",
+    "171",
+    "Scottsdale Ferrari",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "arizona.html",
+    "183",
+    "Right Away Disposal",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "arizona.html",
+    "187",
+    "Cheeses of Arizona",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "california.html",
+    "38",
+    "Harris Ranch",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "chicago.html",
+    "87",
+    "Sikich",
+    "C",
+    "Verified"
+   ],
+   [
+    "colorado.html",
+    "48",
+    "Aurora Organic Dairy",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "colorado.html",
+    "66",
+    "Save A Lot Colorado",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "colorado.html",
+    "112",
+    "Stresscon Corporation",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "florida.html",
+    "44",
+    "J.J. Taylor Distributing FL",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "florida.html",
+    "67",
+    "Duda Farm Fresh Foods",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "florida.html",
+    "112",
+    "Morgan Auto Group",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "florida-expansion.html",
+    "3",
+    "Tampa Maid Foods",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "florida-expansion.html",
+    "24",
+    "The Father's Table",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "florida-expansion.html",
+    "40",
+    "Conimar Corporation",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "georgia.html",
+    "11",
+    "Zaxby’s",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "georgia.html",
+    "81",
+    "Gay Construction",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "georgia.html",
+    "144",
+    "Jordan Lumber GA",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "georgia.html",
+    "160",
+    "Premium Peanut",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "michigan.html",
+    "13",
+    "Cherry Central",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "michigan.html",
+    "14",
+    "Graceland Fruit",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "michigan.html",
+    "15",
+    "Shoreline Fruit",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "michigan.html",
+    "16",
+    "Michigan Sugar",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "michigan.html",
+    "17",
+    "Star of the West Milling",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "michigan.html",
+    "94",
+    "Plum Market",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "michigan.html",
+    "118",
+    "Cummins-Wagner Michigan",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "minnesota.html",
+    "53",
+    "Pella MN",
+    "A",
+    "Downgraded"
+   ],
+   [
+    "minnesota.html",
+    "55",
+    "Anchor Block Company",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "minnesota.html",
+    "114",
+    "Winland Electronics",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "minnesota.html",
+    "156",
+    "Peerless Industrial Group",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "minnesota.html",
+    "177",
+    "Briggs and Morgan",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "minnesota.html",
+    "178",
+    "Gray Plant Mooty",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "missouri.html",
+    "66",
+    "Major Brands",
+    "A",
+    "Downgraded"
+   ],
+   [
+    "missouri.html",
+    "67",
+    "Glazer’s Midwest",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "missouri.html",
+    "143",
+    "Brown Smith Wallace / Armanino",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "missouri.html",
+    "147",
+    "Mayer Hoffman McCann",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "missouri.html",
+    "148",
+    "Bryan Cave Leighton Paisner",
+    "A",
+    "Downgraded"
+   ],
+   [
+    "missouri.html",
+    "158",
+    "Greensfelder Hemker & Gale",
+    "A",
+    "Downgraded"
+   ],
+   [
+    "missouri.html",
+    "174",
+    "Willow Brook Foods",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "missouri.html",
+    "183",
+    "Litton Entertainment",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "missouri.html",
+    "188",
+    "Doe Run Company",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "missouri.html",
+    "200",
+    "Soulard Farmers Market vendors",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "new-york.html",
+    "38",
+    "Plaza Construction",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "new-york.html",
+    "41",
+    "Pavarini McGovern",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "new-york.html",
+    "76",
+    "Bedell Cellars",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "new-york.html",
+    "112",
+    "Tops Friendly Markets",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "new-york.html",
+    "114",
+    "Guercio & Sons",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "north-carolina.html",
+    "124",
+    "Boggs Paving",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "north-carolina.html",
+    "166",
+    "Modern Automotive Group",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "north-carolina.html",
+    "168",
+    "Leith Automotive",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "north-carolina.html",
+    "170",
+    "Johnson Automotive",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "north-carolina.html",
+    "171",
+    "Capital Automotive Group",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "north-carolina.html",
+    "172",
+    "Hubert Vester Auto Group",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "north-carolina.html",
+    "173",
+    "Jim Barkley Toyota",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "north-carolina.html",
+    "190",
+    "Gaia Herbs",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "ohio.html",
+    "5",
+    "Sugardale Foods",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "ohio.html",
+    "78",
+    "Barton Malow Ohio",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "oregon.html",
+    "6",
+    "New Seasons Market",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "oregon.html",
+    "14",
+    "Da Yang Seafood",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "oregon.html",
+    "19",
+    "Alpenrose Dairy",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "oregon.html",
+    "132",
+    "Stoneway Electric OR",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "oregon.html",
+    "141",
+    "Danner Boots",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "oregon.html",
+    "148",
+    "CD Baby / Downtown",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "oregon.html",
+    "155",
+    "Blount International",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "oregon.html",
+    "165",
+    "Rodda Paint",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "oregon.html",
+    "190",
+    "Ater Wynne",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "oregon.html",
+    "197",
+    "Sunriver Resort",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "pennsylvania.html",
+    "80",
+    "Hunter Roberts PA",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "28",
+    "Gulf Coast Machine & Supply",
+    "A",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "118",
+    "Gulf States Toyota",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "119",
+    "Sewell Automotive",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "120",
+    "Charles Maund Automotive",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "121",
+    "Red McCombs Automotive",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "122",
+    "Ancira Enterprises",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "123",
+    "Mac Haik Enterprises",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "124",
+    "Gay Family Auto",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "125",
+    "Classic Chevrolet",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "126",
+    "Bert Ogden Auto Group",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "127",
+    "Randall Reed Automotive",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "128",
+    "Freeman Automotive",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "129",
+    "Moritz Auto Group",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "130",
+    "Huffines Auto Dealerships",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "texas.html",
+    "131",
+    "Fikes Wholesale / CEFCO",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "utah.html",
+    "15",
+    "ENVE Composites",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "utah.html",
+    "196",
+    "Christensen Arms",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "virginia.html",
+    "64",
+    "Barboursville Vineyards",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "virginia.html",
+    "147",
+    "L.C. Industries",
+    "A",
+    "Downgraded"
+   ],
+   [
+    "washington.html",
+    "2",
+    "Nordstrom",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "washington.html",
+    "109",
+    "Vulcan Inc.",
+    "B",
+    "Downgraded"
+   ],
+   [
+    "washington.html",
+    "135",
+    "SSA Marine",
+    "B",
+    "Downgraded"
+   ]
+  ],
+  "changed": [
+   [
+    "georgia.html",
+    "81"
+   ],
+   [
+    "minnesota.html",
+    "177"
+   ],
+   [
+    "minnesota.html",
+    "178"
+   ],
+   [
+    "missouri.html",
+    "143"
+   ],
+   [
+    "missouri.html",
+    "183"
+   ],
+   [
+    "new-york.html",
+    "38"
+   ],
+   [
+    "oregon.html",
+    "6"
+   ],
+   [
+    "utah.html",
+    "196"
+   ],
+   [
+    "virginia.html",
+    "64"
+   ]
+  ],
+  "new": []
+ },
+ "partD": [
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "14",
+   "name": "Alamo Iron Works",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned since 1876. Steel and industrial supply. Downgraded to B 2026-08-24: NOT INDEPENDENT — long owned by Sonepar USA (French multinational), then assets sold Jan 2021 to Triple-S Steel Holdings, a large family-owned Houston steel group (40+ locations, among the largest private service centers). Family acquirer → B (Winzeler precedent), but it's a brand inside a bigger family enterprise — any door runs through Triple-S. Build-time-class missed acquisition (2nd in Texas file). 150-yr legacy name = namesake-recognition trap: the storied local identity conceals two ownership changes.",
+   "owner_phrases": [
+    "Sonepar USA (French multinational)"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "19",
+   "name": "Ameritex Pipe & Products",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Item 325 (2026-10-31), Route 4 (the company’s own pages): phone (830) 372-2300 sourced on the company’s own page; the pages read publish 5 numbers ((830) 372-2300, (830) 372-2303, (936) 231-5660, (936) 228-3570, (430) 259-2060), and the one repeated most is written — dialler to confirm. Src: read ameritexpipe.com 2026-10-31. Family-owned concrete pipe manufacturer and distributor. Downgraded to B 2026-08-24 (cap-table check, live): HEIDELBERG MATERIALS (global corporate) acquired a MINORITY STAKE ~May 2026 — three months ago — with a long-term material supply agreement (Berlin/BlueGrace sponsor precedent). Plus Everberg Capital senior term loan (growth debt). LITIGATION caution: Oct 2024 claims by a former C-suite exec of AmeriTex Holding against the company, CEO Thompson, and a director — do not initiate while open. Largest precast concrete producer in Texas (Seguin/Gunter/Conroe/DFW plants); named exec Chris Rowland (commercial). The 5th pre-check caught a 3-month-old cap-table event no stale pass could have seen.",
+   "owner_phrases": []
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "46",
+   "name": "Way Engineering",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned mechanical contractor since 1929. Downgraded to B 2026-08-24: MISSED ACQUISITION (5th build-time class) — McCorvey Companies purchased Way Engineering, Ltd. Dec 3, 2012 (family acquirer → B, Winzeler precedent). 107-yr Houston mechanical institution (founded 1918 by Leo C. Way; pioneered ice thermal storage in the 1930s), ~$62M, 240 staff. NAMESAKE SPLIT TRAP: \"Way Service / The Way Companies\" (HVAC service) is STILL Way-family-owned, 4th generation — a different entity; and \"Way Mechanical\" (Grapevine) is a third. If Tim wants the family-owned Way, it's the SERVICE company, which would be a rebuild.",
+   "owner_phrases": []
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "80",
+   "name": "Bell Nunnally & Martin",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Item 325 (2026-10-31), Route 4 (the company’s own pages): phone (214) 740-1400 sourced on the company’s own page (the number on file). Src: read bellnunnally.com 2026-10-31. Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Bell Nunnally & Martin is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Dallas-based, in-range — plausible client on a matter-costing/realization thesis, but a different sale to a different buyer.",
+   "owner_phrases": []
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "81",
+   "name": "Munsch Hardt Kopf & Harr",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Item 325 (2026-10-31), Route 4 (the company’s own pages): phone (214) 855-7553 sourced on the company’s own page, replacing the unsourced 214-855-7500; the pages read publish 6 numbers ((214) 855-7553, (713) 222-1787, (817) 529-8714, (214) 880-1036, (817) 529-8717, (817) 529-8716), and the one repeated most is written — dialler to confirm. Src: read munsch.com 2026-10-31. Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Munsch Hardt Kopf & Harr is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Dallas-based, in-range — plausible client on a matter-costing/realization thesis, but a different sale to a different buyer.",
+   "owner_phrases": []
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "82",
+   "name": "Winstead PC",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Winstead PC is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Dallas-based, in-range — plausible client on a matter-costing/realization thesis, but a different sale to a different buyer.",
+   "owner_phrases": []
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "83",
+   "name": "Chamberlain Hrdlicka",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Chamberlain Hrdlicka is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Houston-based, in-range — plausible client on a matter-costing/realization thesis, but a different sale to a different buyer.",
+   "owner_phrases": []
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "84",
+   "name": "Cokinos Young",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned construction law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Cokinos Young is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Houston-based, in-range — plausible client on a matter-costing/realization thesis, but a different sale to a different buyer.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "122",
+   "name": "Consolidated Pipe GA",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Alabama parent. Downgraded to B 2026-08-26 (out-of-state, real family — Carter Lumber/Kirby Risk class): 650 employees, 40 locations across multiple southern states including Georgia. Genuine multi-generational family ownership, but headquartered in Alabama — no Georgia-specific decision-maker door.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "124",
+   "name": "Coburn Supply GA",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Texas parent. Downgraded to B 2026-08-24 (out-of-state + generational-succession-gap caveat): real historical family story, but the last confirmed family leader died over 20 years ago with no successor named in available sources — combined with an out-of-state HQ, no clear Georgia family door exists.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "144",
+   "name": "Jordan Lumber GA",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. North Carolina parent. Verified 2026-08-26 w/ namesake caution. City confirmed — Barnesville (752 Grove St), matching the file's \"Various\" tag loosely — genuinely Georgia-HQ'd and family-led per state directory, NOT the North Carolina company of a similar name. Real, named owner-operator confirmed via independent government source. Verified 2026-08-26 w/ IMPORTANT NAMESAKE CAUTION: city confirmed per Georgia Forestry Commission directory — Barnesville. If this is the Barnesville entity, it is a small, genuinely Georgia-based, named-owner sawmill — a good fit. If it is actually the North Carolina company, apply the GA-suffix out-of-state rule instead. Do not assume without confirming at dial. Verified 2026-08-26 w/ namesake note (resolved in Georgia's favor, unlike other GA-suffix rows). City confirmed — Barnesville. Named family CEO/Mill Manager per independent Georgia Forestry Commission directory. Downgraded to B 2026-08-26 (out-of-state probable, per GA-suffix pre-check pattern) w/ SIGNIFICANT NAMESAKE/ACQUISITION FLAG: this row needs manual disambiguation before any call — it may refer to an out-of-state NC company, a small independent GA sawmill, or a facility already absorbed into Langdale (#142) in 2023.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "153",
+   "name": "Dutch Farms GA",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Illinois parent. Downgraded to B 2026-08-24 (out-of-state, real family — matches the GA-suffix watch-list pattern): genuinely 4-generation family-owned and self-described as \"family loved,\" but headquartered in Illinois — no Georgia-specific decision-maker door.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "162",
+   "name": "Birdsong Peanuts GA",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Virginia parent. Downgraded to B 2026-08-26 (out-of-state, real family — matches the GA-suffix watch-list pattern): 5 shelling plants (incl. Sylvester GA and Blakely GA), 2.4B lbs Farmers Stock storage capacity. Genuine 5-generation family continuity, but headquartered in Virginia — Georgia locations are satellite plants, not the decision center.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "191",
+   "name": "Alston & Bird",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Alston & Bird is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch. LAW FIRM BLOCK (#191-200) — CLASS DISPOSITION 2026-08-26 (Texas/Ohio/Michigan precedent applied): all ten are multi-partner professional PARTNERSHIPS (Alston & Bird, King & Spalding, Troutman Pepper, Kilpatrick Townsend, Arnall Golden Gregory, Smith Gambrell Russell, Morris Manning & Martin, Hull Barrett, Oliver Maner, HunterMaclean) — partner-owned by construction, no family principal, no ownership ambiguity to research (6th pre-check applies without needing individual searches). All ten downgraded to Tier B. They remain plausible CLIENTS on a different thesis (matter costing, realization rates, practice-group P&L), but the door is a managing partner or firm CFO/COO, not an owner-operator.",
+   "owner_phrases": [
+    "construction"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "192",
+   "name": "King & Spalding",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): King & Spalding is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "193",
+   "name": "Troutman Pepper",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Troutman Pepper is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "194",
+   "name": "Kilpatrick Townsend",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Kilpatrick Townsend is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "195",
+   "name": "Arnall Golden Gregory",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Arnall Golden Gregory is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "196",
+   "name": "Smith Gambrell Russell",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Smith Gambrell Russell is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "197",
+   "name": "Morris Manning & Martin",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Morris Manning & Martin is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "198",
+   "name": "Hull Barrett",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Hull Barrett is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Augusta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "199",
+   "name": "Oliver Maner",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Oliver Maner is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Savannah-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "owner_phrases": []
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "200",
+   "name": "HunterMaclean",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): HunterMaclean is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Savannah-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "owner_phrases": []
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "4",
+   "name": "Lowes Foods",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Alex Lee Inc — George family, third generation. DUPLICATE PARENT of #5 Alex Lee Inc. — Lowes Foods is Alex Lee’s 74-store retail division, not an independent company. Treat as one account with #5 and #6. Retained at B as a legitimate division-level entry door (retail P&L distinct from wholesale).",
+   "owner_phrases": [
+    "of #5 Alex Lee Inc"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "45",
+   "name": "Hancock & Moore",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned since 1981. DUPLICATE PARENT of #39 Century Furniture — Hancock & Moore was acquired by Century in October 2015 and is now a brand within the Rock House Farm Family of Brands (Shuford family). One relationship, two file rows. Retained at B as a legitimate brand-level entry door: Hancock & Moore keeps its own manufacturing facility, so a brand P&L exists.",
+   "owner_phrases": [
+    "of #39 Century Furniture — Hancock & Moor",
+    "Century in October 2015 and is now a bran"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "92",
+   "name": "Grubb Properties",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned since 1963. Third generation. [build-time tag struck, Item 336 (2026-10-31): unsourced; the note’s sourced text governs] DOWNGRADED to B on 26 Aug 2026 — the sixth pre-check caught this one. The file tagged Grubb Properties family-owned; it is NOT. Clay Grubb states repeatedly and in his own words that he \"successfully transformed Grubb Properties from a family-owned business to an employee- and board-owned company.\" The company’s own site: \"In business since 1963, Grubb Properties today is 100% employee- and board-owned.\" Clay Grubb (third generation, started at 12 collecting mortgage payments) is CEO and Chairman since 2002, so the family name and leadership persist while the ownership model changed — a genuine hybrid. Retained at B rather than C because Grubb is still the controlling operator and the fit is otherwise strong: vertically integrated real estate fund manager, $2B+ in acquisitions and development, Link Apartments brand, offices in Atlanta, Charlotte, Cary, Winston-Salem, San Jose and Culver City. NOTE FOR THE APPROACH: it is a FUND MANAGER — a portfolio of real estate investment funds with outside LP capital and a seven-member board — so decisions run through fund-level governance, not one owner. Clay is a consensus-driven decision maker by his own description and an adjunct real estate professor at Tulane; the entry is intellectual, not transactional. CIO Todd Williams is a second door.",
+   "owner_phrases": []
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "124",
+   "name": "Boggs Paving",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Downgraded to B 26 Aug 2026 (reputational): family-owned confirmed (Boggs brothers), but company and five officers convicted/sentenced 2015 in $87.6M federal DBE fraud; FHWA debarment 2016; principal served 30 months and remains active in Monroe development (2026 reporting). Second generation of road-building convictions in the family. Not a cold-call target.",
+   "owner_phrases": []
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "66",
+   "name": "Major Brands",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned since 1934. Boyce family.",
+   "owner_phrases": []
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "148",
+   "name": "Bryan Cave Leighton Paisner",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm.",
+   "owner_phrases": []
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "158",
+   "name": "Greensfelder Hemker & Gale",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm.",
+   "owner_phrases": []
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "23",
+   "name": "Festival Foods MN",
+   "tier": "A",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Wisconsin parent, Skogen family.",
+   "owner_phrases": []
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "26",
+   "name": "Kwik Trip MN",
+   "tier": "A",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Wisconsin parent, Zietlow family.",
+   "owner_phrases": []
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "32",
+   "name": "Menards MN",
+   "tier": "A",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Wisconsin parent, John Menard.",
+   "owner_phrases": []
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "56",
+   "name": "County Materials MN",
+   "tier": "A",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Wisconsin parent, Halquist family.",
+   "owner_phrases": []
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "143",
+   "name": "RDO Equipment MN",
+   "tier": "A",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Offutt family, ND parent.",
+   "owner_phrases": []
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "158",
+   "name": "Watlow Winona",
+   "tier": "A",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Missouri parent, Desloge family.",
+   "owner_phrases": []
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "160",
+   "name": "Bay State Milling MN",
+   "tier": "A",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Massachusetts parent, fifth generation.",
+   "owner_phrases": []
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "80",
+   "name": "Sierra Pacific OR",
+   "tier": "A",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. California parent, Emmerson family.",
+   "owner_phrases": []
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "64",
+   "name": "Sutherland Global Services",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Founder-owned. Dilip Vellodi. VERIFIED-WITH-CAVEAT 26 Aug 2026 — Vellodi founder-led but TPG/Oak Investment Partners/Affirma Capital hold institutional minority stakes.",
+   "owner_phrases": []
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "103",
+   "name": "New Era Cap",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned since 1920. Koch family, fourth generation. VERIFIED-WITH-CAVEAT 26 Aug 2026 — New Era Cap: Koch family (Chris Koch, 4th gen CEO) retains control but ACON Investments (PE) holds a significant minority stake since 2022; MLB/NFL/NBA also hold minority stakes. IPO in preparation. Wrong-principal-adjacent: institutional capital now present.",
+   "owner_phrases": []
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "108",
+   "name": "Ted’s Hot Dogs",
+   "tier": "B",
+   "status": "Reclassified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned since 1927. VERIFIED-WITH-CAVEAT 26 Aug 2026 — Ted's Hot Dogs: Liaros family retains ownership but first non-family CEO (Ray Barry) hired ~2022; a public family rift was reported in 2020 (founder's namesake grandson departed). Wrong-principal-adjacent.",
+   "owner_phrases": []
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "114",
+   "name": "Guercio & Sons",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1961. VERIFIED-WITH-CAVEAT 26 Aug 2026 — Guercio & Sons is under contract for sale to local investors (reported within the past two weeks); Guercio name to be retained and some family staying on operationally, but ownership is transitioning away from the family. Heritage-branding trap in progress — monitor close date.",
+   "owner_phrases": []
+  },
+  {
+   "market": "chicago",
+   "file": "chicago.html",
+   "num": "217",
+   "name": "Larry Roesch Auto Group",
+   "tier": "B",
+   "status": "Verified",
+   "note": "Status answers whether the verification held; tier answers whether the row fits the practice. Family-owned. Downgraded to B 2026-08-23: GROUP LARGELY SOLD ~Jan 2026 — Dan Roesch & partner Paul Koch sold Roesch Ford + Roesch CDJR to individual buyer Oleg Kislyansky; stores renamed Elmhurst Ford/CDJR. 9th missed acquisition, ~7 months old. B not C per individual-operator-buyer precedent (Amber rule): Kislyansky is a fresh single-operator integrating 2 rooftops — an integration-costing prospect in his own right. Possible remaining family asset: Larry Roesch VW (Jeanine Roesch) — confirm its ownership separately.",
+   "owner_phrases": []
+  },
+  {
+   "market": "california",
+   "file": "california.html",
+   "num": "38",
+   "name": "Harris Ranch",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1937. Harris family. Downgraded to B 26 Aug 2026 (SPLIT ENTITY — banner-survives): the iconic beef business (Harris Ranch Beef + Harris Feeding) sold to Central Valley Meat Holding (Coelho family, Hanford) in April 2019; the brand survives under new ownership. Residual Harris Farms (Inn & Restaurant, Farms, Horse Division) remains Harris-family owned. Map the entity before any dial: the famous brand is NOT the family company anymore; the family company is the hospitality/farms remainder.",
+   "owner_phrases": [
+    "Central Valley Meat Holding (Coelho famil"
+   ]
+  }
+ ],
+ "partF_reads": {
+  "Hensley Beverage Company": {
+   "market": "arizona",
+   "kind": "band",
+   "search": "results",
+   "results": [
+    "https://www.zoominfo.com/c/hensley-beverage-co/23365331",
+    "https://incfact.com/company/hensley-phoenix-az/",
+    "https://rocketreach.co/hensley-beverage-company-profile_b5c77b2ef42e0d1c",
+    "https://www.zippia.com/hensley-co-careers-26086/revenue/",
+    "https://www.allbiz.com/business/hensley-beverage-company-602-264-1635",
+    "https://compworth.com/company/hensley-beverage-company"
+   ],
+   "hits": [
+    {
+     "url": "incfact.com/company/hensley-phoenix-az",
+     "own": false,
+     "sents": [
+      "Annual Revenue, Growth & Competitor Analysis Report for Hensley - IncFact Company Profiles: Revenue, Growth, Competition Subscribe Log In --> Log In Menu Private & Public Companies Search by Industry Advanced Search My Watch List   ✕ Log In Email Address Password ✕ Subscribe Emai",
+      "Hensley Fast Facts Revenue Over $500 million    See Exact Annual Revenue Employees Over 1,000 Exact Company Size Primary Industry 4248 Beer, Wine & Distilled Alcoholic Beverage Merchant Wholesalers Address 4201 North 45th Avenue Phoenix, AZ 85031 Note: Revenues for privately held",
+      "(Annual sales and employees) Hensley's annual revenues are Over $500 million (see exact revenue data) What industry is the company in?",
+      "Hensley Annual Revenue and Growth Rate Hensley Revenue Est.",
+      "($ Million) Growth Rate (%) # Employees 2025 Over $500 million Details in Premium Report 2024 2023 2021 2020 2019 1-Year Growth Rate: 3-Year Growth Rate (CAGR): Note: Hensley's revenues are gauged from an analysis of company filings."
+     ]
+    },
+    {
+     "url": "https://compworth.com/company/hensley-beverage-company",
+     "refused": true,
+     "own": false
+    }
+   ]
+  },
+  "Empire Southwest": {
+   "market": "arizona",
+   "kind": "band",
+   "search": "results",
+   "results": [
+    "https://incfact.com/company/empiresouthwest-showlow-az/",
+    "https://rocketreach.co/empire-southwest-llc-profile_b4628711fc5d94b0",
+    "https://www.allbiz.com/business/empire-southwest_17z-520-407-3100",
+    "https://www.zoominfo.com/c/empire-southwest-llc/92472969",
+    "https://www.zoominfo.com/c/empire-southwest/459305956",
+    "https://www.allbiz.com/business/empire-southwest-llc_11U-480-633-4000"
+   ],
+   "hits": [
+    {
+     "url": "incfact.com/company/empiresouthwest-showlow-az",
+     "own": false,
+     "sents": [
+      "Annual Revenue, Growth & Competitor Analysis Report for Empire Southwest - IncFact Company Profiles: Revenue, Growth, Competition Subscribe Log In --> Log In Menu Private & Public Companies Search by Industry Advanced Search My Watch List   ✕ Log In Email Address Password ✕ Subsc",
+      "Empire Southwest Fast Facts Revenue Over $500 million    See Exact Annual Revenue Employees Over 1,000 Exact Company Size Primary Industry 5324 Commercial & Industrial Machinery & Equipment Rental & Leasing Address 1501 E Thornton Show Low, AZ 85901 Note: Revenues for privately h",
+      "(Annual sales and employees) Empire Southwest's annual revenues are Over $500 million (see exact revenue data) What industry is the company in?",
+      "Empire Southwest Annual Revenue and Growth Rate Empire Southwest Revenue Est.",
+      "($ Million) Growth Rate (%) # Employees 2025 Over $500 million Details in Premium Report 2024 2023 2021 2020 2019 1-Year Growth Rate: 3-Year Growth Rate (CAGR): Note: Empire Southwest's revenues are gauged from an analysis of company filings."
+     ]
+    }
+   ]
+  },
+  "Elliott Electric Supply": {
+   "market": "texas",
+   "kind": "band",
+   "search": "results",
+   "results": [
+    "https://www.elliottelectric.com/",
+    "https://www.elliottmgmt.com/",
+    "https://www.elliottelectric.com/locations/46/GA/Atlanta.aspx",
+    "https://en.wikipedia.org/wiki/Elliott_Investment_Management",
+    "https://elliottsptc.com/",
+    "https://www.elliottmgmt.com/about-elliott/"
+   ],
+   "hits": [
+    {
+     "url": "https://www.elliottelectric.com/",
+     "refused": true,
+     "own": true
+    },
+    {
+     "url": "https://www.elliottelectric.com/locations/46/GA/Atlanta.aspx",
+     "refused": true,
+     "own": true
+    },
+    {
+     "url": "elliottmgmt.com",
+     "own": false,
+     "sents": []
+    }
+   ]
+  },
+  "Zirkle Fruit Company": {
+   "market": "washington",
+   "kind": "band",
+   "search": "results",
+   "results": [
+    "https://markets.businessinsider.com/index/dow_jones",
+    "https://markets.businessinsider.com/futures/dow-futures",
+    "https://markets.businessinsider.com/index/components/dow_jones",
+    "https://markets.businessinsider.com/commodities",
+    "https://markets.businessinsider.com/index/market-movers/dow_jones",
+    "https://markets.businessinsider.com/stocks/tsla-stock"
+   ],
+   "hits": [
+    {
+     "url": "https://markets.businessinsider.com/index/dow_jones",
+     "refused": true,
+     "own": false
+    },
+    {
+     "url": "https://markets.businessinsider.com/futures/dow-futures",
+     "refused": true,
+     "own": false
+    }
+   ]
+  },
+  "Christensen Arms": {
+   "market": "utah",
+   "kind": "control",
+   "search": "results",
+   "results": [
+    "https://peakphysicaltherapy.net/vestibular-imbalance/",
+    "https://peakphysicaltherapy.net/",
+    "https://app.peakphysicaltherapy.net/",
+    "https://peakphysicaltherapy.net/treatment/electrical-stimulation/",
+    "https://peakphysicaltherapy.net/treatment/",
+    "https://peakphysicaltherapy.net/about/our-team/"
+   ],
+   "hits": [
+    {
+     "url": "https://peakphysicaltherapy.net/vestibular-imbalance/",
+     "refused": true,
+     "own": false
+    },
+    {
+     "url": "peakphysicaltherapy.net",
+     "own": false,
+     "sents": []
+    }
+   ]
+  },
+  "Rappahannock Oyster Co.": {
+   "market": "virginia",
+   "kind": "ownership",
+   "search": "results",
+   "results": [
+    "https://en.wikipedia.org/wiki/Rappahannock_County,_Virginia",
+    "https://rappahannockcountyva.gov/",
+    "https://www.myrec.coop/",
+    "https://www.rappahannock.edu/",
+    "https://www.rappahannock.com/",
+    "https://www.rappahannock.com/about-rappahannock-county"
+   ],
+   "hits": [
+    {
+     "url": "https://rappahannockcountyva.gov/",
+     "refused": true,
+     "own": false
+    },
+    {
+     "url": "myrec.coop",
+     "own": false,
+     "sents": []
+    }
+   ]
+  }
+ },
+ "partF_lines": [
+  {
+   "contest": "Hensley Beverage Company",
+   "row": "arizona.html#2",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read incfact.com/company/hensley-phoenix-az 2026-11-01 — fact not re-established at this read (a statistical estimate only (“Over $500 million”), not a stated figure against the $1B line). What would settle it: a stated revenue figure from the company, a filing, or a dated trade ranking — or a ruling on whether a statistical estimate can settle a band."
+  },
+  {
+   "contest": "Hensley Beverage Company",
+   "row": "arizona-expansion.html#3",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read incfact.com/company/hensley-phoenix-az 2026-11-01 — fact not re-established at this read (a statistical estimate only (“Over $500 million”), not a stated figure against the $1B line). What would settle it: a stated revenue figure from the company, a filing, or a dated trade ranking — or a ruling on whether a statistical estimate can settle a band."
+  },
+  {
+   "contest": "Empire Southwest",
+   "row": "arizona.html#16",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read incfact.com/company/empiresouthwest-showlow-az 2026-11-01 — fact not re-established at this read (a statistical estimate only (“Over $500 million”)). What would settle it: a stated revenue figure from the company, a filing, or a dated trade ranking — or the same ruling on estimates."
+  },
+  {
+   "contest": "Empire Southwest",
+   "row": "arizona-expansion.html#14",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read incfact.com/company/empiresouthwest-showlow-az 2026-11-01 — fact not re-established at this read (a statistical estimate only (“Over $500 million”)). What would settle it: a stated revenue figure from the company, a filing, or a dated trade ranking — or the same ruling on estimates."
+  },
+  {
+   "contest": "Elliott Electric Supply",
+   "row": "texas.html#7",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read elliottelectric.com 2026-11-01 — fact not re-established at this read (the company’s own site refused both pages; the other result was a different company (Elliott Management)). What would settle it: a read of elliottelectric.com that the site does not refuse (a manual browser read), or a dated trade ranking stating revenue."
+  },
+  {
+   "contest": "Elliott Electric Supply",
+   "row": "texas-expansion.html#12",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read elliottelectric.com 2026-11-01 — fact not re-established at this read (the company’s own site refused both pages; the other result was a different company (Elliott Management)). What would settle it: a read of elliottelectric.com that the site does not refuse (a manual browser read), or a dated trade ranking stating revenue."
+  },
+  {
+   "contest": "Zirkle Fruit Company",
+   "row": "washington.html#33",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read search.yahoo.com search “Zirkle Fruit” annual revenue 2026-11-01 — fact not re-established at this read (the search returned unrelated market pages, which refused; no page of the company or a source naming it was reached). What would settle it: a dated source naming Zirkle with a stated revenue figure (a grower trade publication or the company’s own page)."
+  },
+  {
+   "contest": "Zirkle Fruit Company",
+   "row": "washington-expansion.html#15",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read search.yahoo.com search “Zirkle Fruit” annual revenue 2026-11-01 — fact not re-established at this read (the search returned unrelated market pages, which refused; no page of the company or a source naming it was reached). What would settle it: a dated source naming Zirkle with a stated revenue figure (a grower trade publication or the company’s own page)."
+  },
+  {
+   "contest": "Christensen Arms",
+   "row": "utah.html#196",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read search.yahoo.com search “Christensen Arms” ownership owners 2026-11-01 — fact not re-established at this read (the search returned unrelated pages; no source reached states who controls the company). What would settle it: a dated source stating the investor’s stake and whether it carries control (the minority-stake rule decides it)."
+  },
+  {
+   "contest": "Christensen Arms",
+   "row": "utah-expansion.html#22",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read search.yahoo.com search “Christensen Arms” ownership owners 2026-11-01 — fact not re-established at this read (the search returned unrelated pages; no source reached states who controls the company). What would settle it: a dated source stating the investor’s stake and whether it carries control (the minority-stake rule decides it)."
+  },
+  {
+   "contest": "Rappahannock Oyster Co.",
+   "row": "virginia.html#99",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read search.yahoo.com search “Rappahannock Oyster” ownership owners 2026-11-01 — fact not re-established at this read (the search returned the county and an electric co-op, not the company). What would settle it: a read of the company’s own about page (the Croxton cousins), which the search has not surfaced."
+  },
+  {
+   "contest": "Rappahannock Oyster Co.",
+   "row": "virginia-expansion.html#30",
+   "line": "Item 340 (2026-11-01), tier contest, a read of the contest’s fact only: held a third time — structurally unsettlable by this reader. Src: read search.yahoo.com search “Rappahannock Oyster” ownership owners 2026-11-01 — fact not re-established at this read (the search returned the county and an electric co-op, not the company). What would settle it: a read of the company’s own about page (the Croxton cousins), which the search has not surfaced."
+  }
+ ],
+ "call_ready": {
+  "before": 313,
+  "after": 313,
+  "gained": [],
+  "lost": [],
+  "by_name": [
+   306,
+   306
+  ],
+  "by_cell_text": [
+   313,
+   313
+  ]
+ },
+ "spend": {
+  "ceiling": 135,
+  "partA": {
+   "reads": 5,
+   "work": 4,
+   "void_refused": 1,
+   "void_empty": 0,
+   "void_rate": 20.0
+  },
+  "partB": {
+   "las-vegas": {
+    "reads": 2,
+    "work": 2,
+    "void_refused": 0,
+    "void_empty": 0,
+    "void_rate": 0.0
+   },
+   "chicago": {
+    "reads": 1,
+    "work": 1,
+    "void_refused": 0,
+    "void_empty": 0,
+    "void_rate": 0.0
+   }
+  },
+  "partF": {
+   "arizona": {
+    "reads": 5,
+    "work": 4,
+    "void_refused": 1,
+    "void_empty": 0,
+    "void_rate": 20.0
+   },
+   "texas": {
+    "reads": 4,
+    "work": 2,
+    "void_refused": 2,
+    "void_empty": 0,
+    "void_rate": 50.0
+   },
+   "washington": {
+    "reads": 3,
+    "work": 1,
+    "void_refused": 2,
+    "void_empty": 0,
+    "void_rate": 66.7
+   },
+   "utah": {
+    "reads": 3,
+    "work": 2,
+    "void_refused": 1,
+    "void_empty": 0,
+    "void_rate": 33.3
+   },
+   "virginia": {
+    "reads": 3,
+    "work": 2,
+    "void_refused": 1,
+    "void_empty": 0,
+    "void_rate": 33.3
+   }
+  },
+  "total": 26,
+  "remaining": 109
+ }
+}

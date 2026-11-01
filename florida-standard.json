@@ -8353,5 +8353,76 @@
   "checked": 201,
   "failed_the_whole_name_screen": 54,
   "note": "a sizing screen (entry 21), not a classification: most failures are abbreviated company domains (dickblick.com, estwing.com); read by eye, one was a wrong write — Chicago Tag & Label read from chicago.gov — withdrawn by edit in Item 338"
+ },
+ "item340": {
+  "measured": "2026-11-01",
+  "status": "attested, not gated (blocklist, route depth, anchored name rule, phrase list — all outside the repository)",
+  "public_route_depth": "FAILED to prove, 2026-11-01: plant 1 (Lincoln Electric) — the search returned the Lincoln car brand and lincolnfinancial.com, none passing the whole-name rule, so the company’s own site was never reached; plant 2 (Fastenal, route 2 withheld) — its own site refused. Depth stays proven on the private route only.",
+  "contests_structurally_unsettlable": "Hensley, Empire Southwest, Elliott Electric, Zirkle, Christensen Arms, Rappahannock — each held a third time; what would settle each is written on both rows",
+  "spend": {
+   "ceiling": 135,
+   "partA": {
+    "reads": 5,
+    "work": 4,
+    "void_refused": 1,
+    "void_empty": 0,
+    "void_rate": 20.0
+   },
+   "partB": {
+    "las-vegas": {
+     "reads": 2,
+     "work": 2,
+     "void_refused": 0,
+     "void_empty": 0,
+     "void_rate": 0.0
+    },
+    "chicago": {
+     "reads": 1,
+     "work": 1,
+     "void_refused": 0,
+     "void_empty": 0,
+     "void_rate": 0.0
+    }
+   },
+   "partF": {
+    "arizona": {
+     "reads": 5,
+     "work": 4,
+     "void_refused": 1,
+     "void_empty": 0,
+     "void_rate": 20.0
+    },
+    "texas": {
+     "reads": 4,
+     "work": 2,
+     "void_refused": 2,
+     "void_empty": 0,
+     "void_rate": 50.0
+    },
+    "washington": {
+     "reads": 3,
+     "work": 1,
+     "void_refused": 2,
+     "void_empty": 0,
+     "void_rate": 66.7
+    },
+    "utah": {
+     "reads": 3,
+     "work": 2,
+     "void_refused": 1,
+     "void_empty": 0,
+     "void_rate": 33.3
+    },
+    "virginia": {
+     "reads": 3,
+     "work": 2,
+     "void_refused": 1,
+     "void_empty": 0,
+     "void_rate": 33.3
+    }
+   },
+   "total": 26,
+   "remaining": 109
+  }
  }
 }
