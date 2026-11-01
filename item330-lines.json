@@ -1,0 +1,2975 @@
+{
+ "items": "330-332",
+ "partA": [
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "21",
+   "name": "Sedano's Supermarkets",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large for A): family-owned (Herrán/Guerra families) and owner-led, but ~$1B sales, 3,000+ employees, 32–35 stores; corporate office Hialeah. Phone not on a source I checked. Src: floridatrend.com/article/25564/takeoff-technologies-partners-with-sedanos-supermarkets-to-launch-the-worlds-first-roboti · read 2026-10-29; abasto.com/negocios-destacados/sedanos-supermarkets · read 2026-10-29; sedanos.com · read 2026-10-29. Not re-read today: Progressive Grocer (no page on progressivegrocer.com naming the company was reached). Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size ~$1B. Row state (core run three, written onto the row 2026-10-31): measured shut — every route refused by the headless browser reader: derived host refused (net); derived host refused (net). Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "23",
+   "name": "City Furniture",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large for A): Koenig-family owned, HQ Tamarac, but $530M+ sales and 2,000+ associates. Phone not on a source I checked. Src: Home News Now 12/2021; Tamarac Talk; company release 7/2022. Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size $530M. Row state (core run three, written onto the row 2026-10-31): measured shut — every route refused by the headless browser reader: derived host refused (403); derived host refused (503). Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "44",
+   "name": "J.J. Taylor Distributing FL",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned, out-of-state parent): J.J. Taylor Companies, Inc. was founded 1958 by John J. ‘Joe’ Taylor and is run by his son John J. Taylor III; 501–1,000 employees, branches across Florida (Tampa, Fort Myers, Sarasota, Fort Pierce, Port Charlotte), and the parent has Minnesota operations too — ‘one of the largest independent beer distributors’. Family-owned but above the band and the FL entity is a subsidiary. HQ of record 655 N A1A, Jupiter. Src: Business Wire 12/18/2025; Glassdoor/company description; CB Insights; ZipRecruiter. Checked 27 Sep 2026. Phone unsourced 2026-10-29: no site link on the row to read it from. Tier reason: B — note records 'parent' sharing control; verify who signs; size 1,000 emp.",
+   "decision": [
+    "N",
+    "the note gives both a scale reason and a control reason"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "45",
+   "name": "Coca-Cola Beverages Florida",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; founder/family-owned): Coke Florida is family-owned by founder Troy Taylor, HQ Tampa, but ~$1.2B+ revenue and ~5,000 employees across 47 Florida counties (third-largest privately held Coca-Cola bottler in the US). Phone not on a source I checked. Src: Business Wire 5/30/2025 (10th anniversary); Tampa Bay Business & Wealth 5/29/2025; Black Enterprise. Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size ~$1.2B. Row state (core run three, written onto the row 2026-10-31): measured shut — every route refused by the headless browser reader: derived host refused (525); derived host refused (net). Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "52",
+   "name": "Boar's Head Provisions",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): closely held by the Brunckhorst and Bischoff families since 1905, HQ Sarasota since 2001, ~$3B revenue; opaque leadership with ongoing family litigation over shares and board seats (2024–2026). Phone not on a source I checked. Src: Wikipedia; Florida Trend 9/6/2025; Fortune 10/14/2024; Meatingplace (Bischoff Chancery petition). Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size ~$3B. Row state (core run three, written onto the row 2026-10-31): measured shut — every route refused by the headless browser reader: derived host refused (net); derived host refused (net). Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "58",
+   "name": "Saddle Creek Logistics",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): one of the largest family-owned 3PLs in North America, Lyons/Thornton family, HQ Lakeland; est. $500M–$1B revenue and 5,000+ employees, non-family professional CEOs since 2013. Phone not on a source I checked. Src: Supply Chain Dive press release 5/4/2026 (60th anniversary); DC Velocity 7/29/2019 and 5/2016; Lakeland EDC; Owler. Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size $500M. Row state (core run three, written onto the row 2026-10-31): measured shut — every route refused by the headless browser reader: derived host refused (503); derived host refused (net). Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "65",
+   "name": "ABC Fine Wine & Spirits",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): Bailes-family owned since 1936, HQ Orlando, 125–128 stores and ~1,700 employees; expanded to Colorado with the Applejack acquisition (Jan 29 2026). Owner-led but above the band. Phone not on a source I checked. Src: Florida Trend 500 (Bailes profile); PRNewswire 1/29/2026; company careers profile. Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size 1,700 emp. Row state (core run three, written onto the row 2026-10-31): measured shut — every route refused by the headless browser reader: derived host refused (503); derived host refused (net). Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "67",
+   "name": "Duda Farm Fresh Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Item 323 Part 1 (2026-10-31), Route 4: phone (407) 365-2111 sourced on the company’s own page (the number on file). Src: read duda.com 2026-10-31. Downgraded → B (too large; family-owned): wholly owned subsidiary of A. Duda & Sons (DUDA), a sixth-generation family-owned diversified land company, HQ 1200 Duda Trail, Oviedo (phone per company listing); operations in FL, CA, AZ, MI and GA; DUDA had ~3,300 employees and $464M sales as long ago as 2005. Sammy Duda became DUDA CEO Jan 1 2023; Bassetti named subsidiary president in 2023. Src: FreshPlaza 2023; Produce Blue Book 6/20/2022; duda.com; Encyclopedia.com profile. Checked 26 Sep 2026. Phone unsourced 2026-10-29: no site link on the row to read it from. Tier reason: B — note records 'subsidiary' sharing control; verify who signs; size 3,300 emp.",
+   "decision": [
+    "N",
+    "the note gives both a scale reason and a control reason"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "74",
+   "name": "Ring Power (CAT)",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; non-family CEO): Ringhaver-family owned Cat dealer, HQ St. Augustine, ~$1B+ revenue, 27 locations. Day-to-day leadership passed to David Alban (CEO Jan 11 2024). Phone not on a source I checked. Src: ringpower.com blog 1/16/2024; Jacksonville Daily Record 1/2019; Wikipedia. Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size ~$1B. Contact completed (core run three): phone 904-737-7730 · email info@ringpower.com. Src: https://www.ringpower.com/ · read 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "93",
+   "name": "Ed Morse Automotive Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): Morse-family owned since 1946, HQ Delray Beach, but now 60 dealerships in 9 states, 2,800+ employees and $1B+ sales (acquisitions through Apr 2026 and a Montana store Jul 2026). Owner-led but well above the band. Phone not on a source I checked. Src: Business Wire 4/27/2026; Florida Trend 500 (Morse profile); Auto Remarketing 2026. Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size $1B. Contact completed (core run three): phone (813) 565-0095. Src: https://edmorse.com · read 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "94",
+   "name": "Rick Case Automotive Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): owned and run by Rita Case since Rick Case’s death in 2020; HQ Sunrise; 12–14 dealerships in South Florida and Atlanta, ~1,300 associates, ~$2B annual sales. Phone not on a source I checked. Src: Federal Reserve Bank of Atlanta director bio (2023–2025 term); Business Wire 2/8/2024 (TIME Dealer of the Year); Sun Sentinel 11/2020. Checked 26 Sep 2026. | Prior note: From general knowledge — verify before outreach. Tier reason Blind 2026-10-29 — ownership not in note; size ~$2B. Addresses published on the company site, read 2026-10-29 (row outside the gap, not filled): travislakam@rickcase.com (rickcase.com).",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "95",
+   "name": "Braman Motorcars",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; founder/family-owned): Norman Braman’s family-owned group, HQ Biscayne Blvd, Miami, 20+ dealerships in Florida and Colorado, ~$2B sales; 50th anniversary 2025; day-to-day led by grandsons Brian and Alex Shack (COO). Phone not on a source I checked. Src: Resident.com 1/14/2025; Wikipedia (Norman Braman); Miami Vibes 2025. Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size ~$2B. Row state (core run three, written onto the row 2026-10-31): measured shut — every route refused by the headless browser reader: derived host refused (403); derived host refused (net). Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "110",
+   "name": "Amscot Financial",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; founder/family-owned): MacKechnie-family owned since 1989, HQ Tampa, 230–240 Florida branches, 1,500–2,000+ employees, revenue well over $220M. Owner-led but above the band. Phone not on a source I checked. Src: en.wikipedia.org/wiki/Amscot_Financial · read 2026-10-29; capecoralbreeze.com/news/business/2026/04/13/amscot-financial-expands-in-florida-with-first-cape-coral-branch · read 2026-10-29. Not re-read today: CareerSource NE Florida (Jacksonville opening release) (no page on careersourcenefl naming the company was reached). Checked 26 Sep 2026. | Prior note: MacKechnie family. Tier reason Blind 2026-10-29 — ownership not in note; size revenue. Contact completed (core run three): phone 800-801-4444. Src: https://amscot.com · read 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "111",
+   "name": "BlueGrace Logistics",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-led since 2009; Warburg Pincus-backed; ~600 employees. Src: mybluegrace.com · read 2026-10-29; floridatrend.com/article/21049/on-the-move-innovations-at-a-web-based-logistics-company · read 2026-10-29. Not re-read today: The Org (no page on theorg.com naming the company was reached). PRE-CHECK CATCH → Downgraded to B 2026-08-24 (Berlin Packaging precedent): WARBURG PINCUS holds a $255M growth-equity stake (since Aug 2016) — founder Bobby Harris remains Founder/President/CEO and the company is still acquiring (EVOS 3/24, FreightCenter), HQ Riverview confirmed (2846 S Falkenburg Rd), ~744 staff, ~$700M+. Operator-led but PE-sponsored: institutional processes likely already in place; not a first-line prospect. Prior pass verified as founder-led and missed the sponsor — staleness-class error on our side, now corrected. Tier reason: B — note records 'PE' sharing control; verify who signs; size 600 emp. Addresses published on the company site, read 2026-10-29 (row outside the gap, not filled): contactus@mybluegrace.com (mybluegrace.com).",
+   "decision": [
+    "V",
+    "sponsor stake without control (Warburg Pincus growth equity, founder remains) — a control demotion"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "112",
+   "name": "Morgan Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Company source not found 2026-10-29: searched https://morganautogroup.com; https://morganautogroup.com/about; https://morganautogroup.com/about-us; https://morganautogroup.com/company; https://morganautogroup.com/our-story; https://morganautogroup.com/history … — unsourced, flagged. Sunbiz outstanding (refuses this reader, 403). Top-10 FL private company (Florida Trend 2025). Verified 2026-08-23 — Sunbiz current. Family-owned, 60+ dealerships, largest FL auto group; 3031 N Rocky Point Dr W Ste 700, Tampa. CAUTION: active whistleblower suit alleging payment inflation — check before outreach. PRE-CHECK CATCH → Downgraded to B 2026-08-24: three compounding factors. (1) SCALE — 62–76 dealerships, Florida's largest auto group, far past range (Napleton-class would alone mean caveat); (2) SPONSOR — Greenbriar Equity Group holds an investment stake (Berlin/BlueGrace precedent); (3) standing LITIGATION caution (whistleblower suit alleging payment-inflation practices) — do not initiate. Family still in both seats (Sunbiz: Brett Morgan CEO, Larry Morgan Chairman; HQ 3031 N Rocky Point Dr W, Tampa FL 33607, (813) 872-5700 ). Ignore PitchBook \"acquired by Pinewood Technologies 2021\" — dirty aggregator data (that was a DMS technology venture, not a sale of the group). Tier reason: B — note records 'SPONSOR' sharing control; verify who signs; size Blind — no size in note. Row state (core run three, written onto the row 2026-10-31): partial — published phone or email with a dated source open; routes spent: row site link refused (403); derived host refused (503); derived host resolved but failed the proof; remaining: Sunbiz officer list (refuses this reader, 403); LinkedIn company page (refuses this reader, 999); the Florida register did not reach this row under the strict join. Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "N",
+    "the note gives both a scale reason and a control reason"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "121",
+   "name": "Rosen Hotels & Resorts",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): founder Harris Rosen died Nov 25 2024; the company remains owned by the Rosen family (children involved) with longtime CFO Frank Santos as CEO; 7 Orlando hotels, 6,300+ rooms, 4,000+ employees — the Southeast’s largest independent hotel chain. Phone not on a source I checked. Src: ClickOrlando 12/3/2024; Central Florida Public Media 12/4/2024; Hotel-Online 12/3/2024. Checked 26 Sep 2026. | Prior note: Founder Harris Rosen passed 2024 — verify current leadership. Tier reason: B — note records 'Public' sharing control; verify who signs; size Blind — no size in note. Addresses published on the company site, read 2026-10-29 (row outside the gap, not filled): careers@rosenhotels.com (rosenhotels.com/contact-us/), crocallcentermanagement@rosenhotels.com (rosenhotels.com/contact-us/), rhubler@rosenhotels.com (rosenhotels.com/media-news/).",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "122",
+   "name": "Westgate Resorts",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): founder David Siegel died Apr 5 2025; Westgate remains privately held by the Siegel family with Jim Gissy as CEO; 60+ resorts after the Feb 2025 VI Resorts acquisition and the largest private employer in Central Florida. Phone not on a source I checked. Src: Wikipedia; Orange Observer 4/7/2025; Las Vegas Review-Journal 4/7/2025. Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size Blind — no size in note. Contact completed (core run three): phone 800-925-9999 · email general_accounting@wgresorts.com. Src: https://westgateresorts.com/customer-service/ · read 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "128",
+   "name": "Natalie’s Orchid Island Juice",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: natalies.com · read 2026-10-29 (company site names the company (natalie, orchid, island, juice)). DOWNGRADED 2026-08-23 per disposition rule: acquired by Perricone Farms (California family-owned juice co.). Nuance: acquirer is itself family-owned and Sexton stayed through transition — possible Tier B if you want the FL operation warm. RECLASSIFIED B (Tim, 2026-08-23): acquirer Perricone Farms is itself family-owned — still selling to an operator, not a sponsor. Call once Tier A is exhausted. Phone unsourced 2026-10-29: not on the company site (4 pages read). Tier reason: B — note records 'acquired' sharing control; verify who signs; size Blind — no size in note.",
+   "decision": [
+    "V",
+    "acquired by a family-owned acquirer (Perricone Farms) — a control demotion"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "137",
+   "name": "W.W. Gay Mechanical",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large): privately held mechanical contractor founded by W.W. ‘Bill’ Gay (d. Mar 2020) with his sons long active in management; 1,200 full-time employees and ~$400M 2025 revenue; HQ 524 Stockton St, Jacksonville (phone per Jacksonville Daily Record Top Contractors 4/16/2026). Current family ownership split not stated on a source I checked. Src: Jacksonville Daily Record 4/16/2026 and 4/17/2025; Jacksonville University HOF profile; News4Jax 8/31/2022. Checked 26 Sep 2026. Contradiction found 2026-10-29: website/company mismatch by rule, not settled today (wwgmc.com: HTTP Error 403: Forbidden). Phone source: wwgmc.com · read 2026-10-29. Tier reason Blind 2026-10-29 — ownership not in note; size ~$400M. Phone (904) 388-2696 shown on wwgmc.com. Src: read wwgmc.com 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "138",
+   "name": "Gate Petroleum",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): Peyton family holds ~80% (20% with long-tenured ‘Brothers’ employees); ~$1.44B revenue, 3,000–3,500 employees, ~200 stores across the Southeast; HQ Jacksonville. Phone not on a source I checked. Src: gatepetro.com; Jacksonville Daily Record 1/4/2012; Wikipedia. Checked 26 Sep 2026. | Prior note: Peyton family. Tier reason Blind 2026-10-29 — ownership not in note; size ~$1.44B. Row state (core run three, written onto the row 2026-10-31): measured shut — every route refused by the headless browser reader: derived host refused (net); derived host refused (net). Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "142",
+   "name": "ICI Homes",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; founder-owned): founder-led since 1980, HQ 2379 Beville Rd, Daytona Beach (phone per Builder 100 profile), but ~$607M 2025 revenue and ~590 closings a year (Builder 100 rank 92). Src: icihomes.com · read 2026-10-29 (browser, HTTP 200, “Florida's Custom Home Builder Since 1980”). Not re-read today: Builder Online (2026 Builder 100 profile) (no page on builderonline.com naming the company was reached); ICI Homes blog (the company site did not answer or did not name the company). Checked 26 Sep 2026. Phone unsourced 2026-10-29: the company site could not be read today. Tier reason Blind 2026-10-29 — ownership not in note; size ~$607M.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "145",
+   "name": "Innisfree Hotels",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; founder/family-owned): MacQueen founded and still chairs Innisfree; ~2,000 employees and 4,000 rooms, the largest hotel owner in Northwest Florida; day-to-day run by CEO Ted Ent (since 2018). HQ Pensacola/Gulf Breeze. Phone not on a source I checked. Src: Florida Trend 500 (MacQueen profile); Hotel Business (2025 groundbreakings); WEAR-TV 5/2018. Checked 26 Sep 2026. Tier reason Blind 2026-10-29 — ownership not in note; size 2,000 emp. Row state (core run three, written onto the row 2026-10-31): partial — published phone or email with a dated source open; routes spent: row site link read (proved); contact page refused (500); remaining: Sunbiz officer list (refuses this reader, 403); LinkedIn company page (refuses this reader, 999); the Florida register did not reach this row under the strict join. Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "3",
+   "name": "Tampa Maid Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1974; seafood + vegetable processor, value-added foodservice. Yield / batch-cost / private-label margin fit. CONFIRM DM + band. | [Live-checked 2026-09-02] Owned by Watkins Associated Industries (Atlanta; Watkins family 3rd gen) per tampamaid.com. DM is hired President/COO Shawn Meaney (appointed May 2022). Revenue est. ~$200M unverified. PARK — division door only. Contact completed (core run three): phone (800) 237-7637. Src: https://www.tampamaidfoods.com/ · read 2026-10-31.",
+   "decision": [
+    "N",
+    "the note leaves verification open (“CONFIRM”)"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "24",
+   "name": "The Father's Table",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Privately owned national dessert manufacturer (cheesecakes etc.), 201–500 employees, from a 1998 Daytona bakery. Yield / line-cost / private-label margin fit. CONFIRM ownership (family vs. investor) + band. | [Live-checked 2026-09-02] \"Privately owned\" only; 50% of profits to The Father's Table Foundation; no principal named anywhere public. 201–500 emp, national brand — in band. No PE signal. PARK until DM identified. Row state (core run three, written onto the row 2026-10-31): partial — named decision maker with title; published phone or email with a dated source open; routes spent: derived host read (proved); contact page read; leadership/about page read; leadership/about page read; trade press (officer.py) read; remaining: Sunbiz officer list (refuses this reader, 403); LinkedIn company page (refuses this reader, 999); the Florida register did not reach this row under the strict join. Src: core-run3-engine.json · 2026-10-31. Contact found in core run three and written now (Florida pass, 2026-10-31, zero reads): phone 407-324-1200. Src: https://thefatherstable.com/contact/ · read 2026-10-31.",
+   "decision": [
+    "N",
+    "the note leaves verification open (“CONFIRM”)"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "40",
+   "name": "Conimar Corporation",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Est. 1976; pad/label printing + consumer products (50,000 sq ft, multi-press), Ocala. Run-length / line-cost / private-label margin fit. CONFIRM ownership statement + band. | [Live-checked 2026-09-02] Founder/owner Terry Crawford confirmed — but died ~Aug 2026 (HomePage News). Two plants (Ocala + Springfield TN), Thirstystone/CounterArt brands; band plausible $20–40M. Succession unknown. PARK — live succession; re-check ~Mar 2027. Contradiction found 2026-10-29: role or family as decision maker.",
+   "decision": [
+    "N",
+    "the note leaves verification open (“CONFIRM”)"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "1",
+   "name": "Little Caesars / Ilitch Holdings",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1959. Ilitch family, second generation. Downgraded to B 2026-08-24 (scale/conglomerate class): 100% family-owned since 1959, but the holding company spans pizza (Little Caesars, $5B+ systemwide sales), professional sports (Red Wings, Tigers), casinos (MotorCity, Ocean Resort AC, Scarlet Pearl MS), and real estate (The District Detroit, $2.1B project) — a genuine billionaire-family conglomerate, similar to Hunt Consolidated (Texas) or Schottenstein Stores (Ohio) in shape. Real family control (Chris Ilitch CEO since 2010), but the door would need to be a specific division (e.g., Blue Line Foodservice Distribution, which actually supplies Little Caesars franchisees) rather than the holding company itself.",
+   "decision": [
+    "R",
+    "scale/conglomerate class"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "13",
+   "name": "Cherry Central",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Cooperative. Deprioritize. Downgraded to B 2026-08-24 (grower cooperative class — same disposition as Graceland Fruit and Shoreline Fruit earlier in this file): approaching its 50th anniversary, owns Dunkley International (fruit-processing machinery) and Oceana Foods (drying facility). Michigan grows 75% of the nation's tart cherry crop and Cherry Central is a central player in that supply chain. Co-op board fiduciary framing applies — member-owners feel cost pressure directly, closer to the ESOP pitch than a dead end.",
+   "decision": [
+    "N",
+    "grower cooperative — out by a standing class ruling, but not a public or PE disqualifier; this brief moves a tier only on those"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "14",
+   "name": "Graceland Fruit",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1973. Downgraded to B 2026-08-24: OWNERSHIP-TYPE MISMATCH — the \"family-owned\" tag is structurally wrong for a cooperative, the same logic as the law-firm-partnership downgrade class. Real and substantial (dried-fruit ingredients exported to 60+ countries, office in China, one of the largest employers in Benzie County), but decision-making runs through a grower-member board and professional leadership, not a family succession line. Worth knowing the type before pitching a family narrative.",
+   "decision": [
+    "X",
+    "tagged “Family-owned since 1973”; the note then says the family-owned tag is structurally wrong for a cooperative"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "15",
+   "name": "Shoreline Fruit",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Downgraded to B 2026-08-24 (ownership-type mismatch, same class as Graceland Fruit #25): real, substantial, deeply rooted in Northern Michigan cherry country, but governed as a cooperative of grower-members rather than a single controlling family. Two Michigan tart-cherry cooperatives in this file (#25, #26) both hit the same structural mismatch.",
+   "decision": [
+    "X",
+    "tagged “Family-owned”; the note then says ownership-type mismatch (cooperative, as Graceland)"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "16",
+   "name": "Michigan Sugar",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Grower cooperative. Deprioritize. Downgraded to B 2026-08-24 (grower cooperative class): $700M annual direct economic impact, 1,000 year-round + 1,100 seasonal employees, 4 factories (Bay City, Caro, Croswell, Sebewaing). Large for a cooperative, but the member-owner structure still applies the same fiduciary framing as other Michigan grower co-ops in this file.",
+   "decision": [
+    "N",
+    "grower cooperative — out by a standing class ruling, but not a public or PE disqualifier; this brief moves a tier only on those"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "17",
+   "name": "Star of the West Milling",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1870. Fifth generation. Downgraded to B 2026-08-24: the Hubinger family's 200-year German milling heritage is real marketing material, but the family itself exited ownership in 1903. Current structure is farmer/shareholder-owned, not family-controlled. 5 flour mills across 4 states, 30+ elevators, major customers (Kellogg, General Mills, Nabisco, Pepperidge Farm) — real and substantial, but no family principal to pursue.",
+   "decision": [
+    "X",
+    "tagged “Family-owned since 1870. Fifth generation”; the note then says the family exited ownership in 1903"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "24",
+   "name": "Short’s Brewing",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned (ESOP). Founder Joe Short. Downgraded to B 2026-08-24 (partial foreign investment, distinct from a full foreign acquisition): Joe Short still owns and controls roughly 80% of the company and remains the operating founder; the Heineken-linked stake is real but minority. One of Michigan's largest craft breweries (34,000+ barrels/yr), still describes itself as running a \"hands-on, mom-and-pop\" operation despite the scale. Confirm the exact current stake at dial before assuming full independence.",
+   "decision": [
+    "X",
+    "tagged “Employee-owned (ESOP)”; the note then says the founder owns and controls ~80%"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "39",
+   "name": "Owen-Ames-Kimball",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned since 1891. Downgraded to B 2026-08-24 (6th pre-check, ESOP): longest-standing commercial construction management firm in Michigan (134 yrs), offices in MI/FL/CO. Clean employee-ownership structure by design since founding — no family thread to pursue. Long-term client relationships spanning decades (e.g., Frederik Meijer Gardens).",
+   "decision": [
+    "V",
+    "employee ownership is what was verified"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "94",
+   "name": "Plum Market",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-owned. Marc Jonna. Verified 2026-08-24 w/ caveat. City confirmed — HQ Farmington Hills, locations also in Bloomfield Twp, Ann Arbor, West Bloomfield, plus Chicago and Detroit Metro Airport. \"Privately owned multi-channel retail company\" per own materials — no family ownership claim found, unlike its grocery-cluster peers in this file (Busch's, Nino Salvaggio, Westborn all explicitly self-describe as family businesses; Plum Market does not). Confirm ownership structure carefully before assuming a family story here. Downgraded to B 2026-08-24 per Tim: in a grocery cluster where every peer (Busch's, Nino Salvaggio, Westborn, Horrocks) explicitly markets family ownership, Plum Market's silence on the point — \"privately owned multi-channel retail company\" rather than \"family-owned\" — is itself the signal, not an oversight. Combined with out-of-state expansion (Chicago) and a national franchising model, this reads as a professionally-run growth concept rather than an owner-operator business. Revisit if a family name surfaces.",
+   "decision": [
+    "N",
+    "the note’s finding is an inference from silence (“privately owned … is itself the signal”), not an established ownership fact"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "103",
+   "name": "Crystal Flash",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned (ESOP). Downgraded to B 2026-08-24 (6th pre-check, ESOP class): 250+ employees, 14 locations, one of the largest independent energy distributors in Michigan. Actively acquisitive (9 acquisitions in 5 years, most recently Richardson Oil, Dec 2024) — a real, growing operator, but the ESOP structure removes a single-owner decision-maker door. RECENCY NOTE: the ESOP conversion is very recent (2024), so older records may still show this as conventionally owned.",
+   "decision": [
+    "V",
+    "employee ownership is what was verified"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "114",
+   "name": "Kirby Risk Michigan",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Indiana parent. Downgraded to B 2026-08-24 (out-of-state, carried over from Ohio verification): same company already researched — genuinely family-run (Jim Risk III, 2nd gen President/CEO) but HQ'd in Indiana. \"Various\" city in the row matches the multi-state-footprint-as-one-row pattern. No Michigan-specific door.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "118",
+   "name": "Cummins-Wagner Michigan",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Maryland parent. Downgraded to B 2026-08-24 (ESOP) w/ STRONG DATA-QUALITY FLAG: if this row is meant to be the same company found in this search, the \"Michigan\" tag in this file appears to be an error — the real Cummins-Wagner has zero footprint in Michigan. Alternatively, \"Cummins-Wagner Michigan\" may be a distinct, unrelated regional entity not surfaced here. Confirm which is true before any outreach — do not assume this is the Maryland company's Michigan branch without verification.",
+   "decision": [
+    "N",
+    "the note carries a strong data-quality flag on the row’s identity"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "122",
+   "name": "Carter Lumber Michigan",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Ohio parent — see OH list. Downgraded to B 2026-08-24 (out-of-state, carried over from Ohio verification): genuinely family-owned (deliberate small-format strategy, ~250+ stores) but headquartered in Ohio. No Michigan-specific door at this scale.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "123",
+   "name": "84 Lumber Michigan",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Pennsylvania parent, Hardy family. Downgraded to B 2026-08-24 (out-of-state): genuinely family-owned for 3 generations (Maggie Hardy Magerko took over from father Joe Hardy), but headquartered in Pennsylvania with 250+ stores nationally. \"Various\" city confirms the multi-state-footprint-as-one-row pattern. No Michigan-specific door.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "126",
+   "name": "Rieth-Riley Michigan",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned. Indiana parent. Downgraded to B 2026-08-24 (double disqualifier: ESOP + out-of-state HQ): \"the most respected road builder in the Midwest\" per own materials, real scale and reputation, but no single-owner decision-maker door — both the ownership structure and the headquarters location work against a Michigan-specific family pitch.",
+   "decision": [
+    "V",
+    "employee-owned with an out-of-state parent — both land on Verified"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "134",
+   "name": "Honigman LLP",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Honigman LLP is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Detroit-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "135",
+   "name": "Dykema Gossett",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Dykema Gossett is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Detroit-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "136",
+   "name": "Bodman PLC",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Bodman PLC is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Detroit-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "137",
+   "name": "Butzel Long",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Butzel Long is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Detroit-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "138",
+   "name": "Miller Canfield",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Miller Canfield is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Detroit-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "139",
+   "name": "Warner Norcross + Judd",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Warner Norcross + Judd is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Grand Rapids-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "140",
+   "name": "Varnum LLP",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Varnum LLP is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Grand Rapids-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "150",
+   "name": "Progressive AE",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned (ESOP) since 1962. Downgraded to B 2026-08-24 (6th pre-check, ESOP class — confirms Tim's Ohio-established rule that A/E firms are the most ESOP-dense category): 300+ employee-owners, $42M+ revenue, offices in Grand Rapids, Detroit, and multiple North Carolina cities after a 2025 acquisition (MHAworks). Genuine, deep, well-documented founding story (4 friends, first project for Meijer) but no single-owner door — the ESOP structure is exactly the pattern this file has caught repeatedly across construction, A/E, and now architecture specifically.",
+   "decision": [
+    "V",
+    "employee ownership is what was verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "5",
+   "name": "Sugardale Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): Sugardale is a brand of Fresh Mark, Inc. (Massillon), privately owned and led by CEO Neil Genshaft; $1B+ annual sales, large USDA plants in Massillon, Canton and Salem — far above the band. Src: Cleveland Jewish News 4/2019; Handshake/Fresh Mark profile; USDA FSIS establishment record. Checked 26 Sep 2026. | Prior note: Fresh Mark family-owned. Verify.",
+   "decision": [
+    "N",
+    "the note gives both a scale reason and a control reason"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "16",
+   "name": "Ballreich Snack Food",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned since 2019. Founded 1920. Downgraded to B 2026-08-24: OWNERSHIP-TAG CORRECTION — the Ballreich family owned and ran the company 99 years (1920-2019) but sold to Ballreich Snack Food Company, a local investor group, in 2019; the family is out. Distinct from a PE-fund roll-up (no fund name surfaces, explicitly \"local business professionals,\" stated goal to \"keep it thriving\" rather than platform-build) — real, local, still Tiffin-based, actively investing (Sweet Potato Chips launch, product-line growth). Right-sized and not hostile to the thesis, but not the family-ownership story the row implies — B until the buyer group's structure is confirmed at dial.",
+   "decision": [
+    "V",
+    "employee ownership is what was verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "32",
+   "name": "Buehler’s Fresh Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned (ESOP). Founded 1929. Downgraded to B 2026-08-24 (6th pre-check, ESOP): 4-generation Buehler family sold the 13-store grocery chain to a leveraged ESOP in 2017 — all 2,100 employees retained and made eligible owners; the family kept ONLY the separate E&H Ace Hardware business (22 stores) under continued Buehler ownership. A clean case of the ownership-tag trap: \"family business\" headlines still attach to the grocery brand, but the equity moved to an ESOP 8 yrs ago. Not the same company as the hardware side.",
+   "decision": [
+    "V",
+    "employee ownership is what was verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "45",
+   "name": "Half Price Books Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Texas parent — see TX list. Downgraded to B 2026-08-24 (out-of-state, Gilbane/Kirby Risk class): genuinely family-owned and values-driven (debt-free by policy), but headquartered in Dallas with Ohio as part of a 19-state, 120-store footprint — \"Various\" city in the row matches the multi-state pattern. No Ohio-specific door; same company already on file from the Texas pass.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "48",
+   "name": "Heidelberg Distributing",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1938. Vontz family, third generation — largest family beverage distributor in Ohio. Downgraded to B 2026-08-24: FAMILY-ACQUIRER CLASS (Winzeler/Sunkey precedent) — Heidelberg's own current site confirms the 2022 sale to Redwood Holdings; the Vontz family that built it (and fought over it — a multi-year sibling lawsuit over control preceded the sale) is out. Still framed as \"family owned and operated\" in marketing copy, which is technically true of the NEW owner, not the ORIGINAL family the row implies — a subtler heritage-branding variant. $1.3B, 8 OH/KY locations, AB InBev's Dayton/Cincinnati distributor — real and large, just not the Vontz story.",
+   "decision": [
+    "V",
+    "family-acquirer class: sale to Redwood Holdings, read on the company’s own site per the note — a control demotion"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "65",
+   "name": "Gilbane Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Rhode Island parent, fifth generation. Downgraded to B 2026-08-24: OUT-OF-STATE PARENT + DUP-PARENT — Gilbane is a genuine, deep 5th-generation family-owned construction giant, but HQ'd in Providence RI with 48+ global offices; Columbus (est. 1974) is one regional office. ALSO a duplicate: the SAME national company appears again at #196 (Cleveland office) — one company, two file rows. Real Ohio revenue (~$500M/yr statewide per company release) but no local P&L or door below the regional business-leader level. Family scale + national reach = Harvey/Transwestern class.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "66",
+   "name": "Messer Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned (ESOP) since 1932. Downgraded to B 2026-08-24 (6th pre-check, 5th confirmed Ohio construction ESOP): $2B+ revenue (ENR national rank #73), 11 regional offices across OH/KY/IN/TN/NC/SC, 35+ yrs as an ESOP. Own history page is admirably direct about the mechanism: \"Messer's 99 employees purchase the company from the Messer family in 1990.\" No Messer family member in current leadership. Real, huge, no family principal — well past B into near-institutional scale besides.",
+   "decision": [
+    "V",
+    "employee ownership is what was verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "71",
+   "name": "Ruscilli Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1948. Ruscilli family, third generation. Downgraded to B 2026-08-24 (6th pre-check, confirmed 3rd Ohio construction ESOP — pattern holding as predicted): $477M revenue (ENR 2026 national rank #265), Dublin HQ, expanding headquarters with City of Dublin backing (2024) — a real, large, growing employee-owned GC. No family principal in current record.",
+   "decision": [
+    "X",
+    "tagged “Family-owned since 1948. Ruscilli family, third generation”; the disposition says a confirmed construction ESOP"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "73",
+   "name": "Shook Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned (ESOP) since 1926. Downgraded to B 2026-08-24 (6th pre-check, 4th Ohio construction ESOP): ~$200M+ revenue (2016 figure; likely higher now), ~500 staff across 8 locations in OH/IN/NC, strong water/wastewater-treatment specialty. Century-old brand, founder's name still on the door, but ownership and leadership have both moved past the Shook family.",
+   "decision": [
+    "V",
+    "employee ownership is what was verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "74",
+   "name": "Dugan & Meyers",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1934. Downgraded to C 2026-08-24: MISSED ACQUISITION — Baker Construction Enterprises (Monroe OH parent of Baker Concrete, also #86 IN THIS FILE) acquired Dugan & Meyers in 2017. IN-FILE DUP-PARENT NOTE: this row and #86 Baker Concrete Ohio share the same ultimate parent — treat as one prospective relationship, not two independent companies, if either is ever pursued. Water-treatment division was further absorbed directly into Baker Construction post-acquisition. $74.5M revenue but no independent ownership. CORRECTION 2026-08-24: tier revised C→B — Baker Construction Enterprises is family-founded/family-led (not a PE roll-up as first assumed), so this follows the family-acquirer precedent (Winzeler class), not the institutional-acquisition class. SCALE CAVEAT applies instead: BCE is the nation's largest specialty concrete contractor, 8,000+ co-workers across 5 sister companies (incl. #86 Baker Concrete Ohio, same parent) — Harvey/Gilbane-class scale, division-level door only, but a real family enterprise underneath.",
+   "decision": [
+    "X",
+    "its disposition clause says “Downgraded to C” while the row reads Tier B; tagged family-owned while the note records a 2017 acquisition"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "78",
+   "name": "Barton Malow Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Michigan parent — see MI list. Downgraded to B 2026-08-24 (scale + out-of-state, Gilbane class): genuinely family-controlled for a century (Maibach family), but Michigan-HQ'd and multi-billion-dollar scale puts it well past range with no local Ohio door. Real family story, wrong size and geography.",
+   "decision": [
+    "N",
+    "the note gives both a scale reason and a control reason"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "81",
+   "name": "Great Lakes Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1927. Downgraded to B 2026-08-24 (6th pre-check, 6th confirmed Ohio construction ESOP): unlike Elford/Donley's/Great Lakes Brewing, no competing family-leadership claim surfaces anywhere for this one — every source (own site, LinkedIn, ZoomInfo, BBB) calls it 100% employee-owned, clean and unambiguous. 500+ union craftspeople, 19 PEs on staff, offices Cincinnati + Hinckley. Built Tower City, Browns Stadium pedestrian bridge, Jennings Freeway. No namesake connection to Great Lakes BREWING (#54) — coincidental name only.",
+   "decision": [
+    "X",
+    "tagged “Family-owned since 1927”; the disposition says a confirmed construction ESOP"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "86",
+   "name": "Baker Concrete Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1968. Baker family, second generation. Downgraded to B 2026-08-24 (scale, Harvey/Gilbane class): family-founded and still family-co-led (Dan T. Baker, President, alongside professional CEO Karl Watson Jr. since June 2023), but BCE is now \"the nation's largest specialty concrete contractor,\" 8,000+ co-workers across 5 sister companies including this one and #74. Real family origin, no workable local door at this scale — division-level entry only. Monroe OH city confirmed.",
+   "decision": [
+    "R",
+    "“scale, Harvey/Gilbane class”"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "109",
+   "name": "Fortune Fish Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Illinois parent. Downgraded to B 2026-08-24 (out-of-state, uncertain local presence): $148M revenue, 237 staff, founder-run, real family narrative — but headquartered in Illinois with facilities across 13 other states and no confirmed Ohio location. May serve Ohio via distribution without a physical facility; confirm any actual Cleveland presence before assuming a local door exists.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "120",
+   "name": "Kirby Risk Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Indiana parent — see IN list. Downgraded to B 2026-08-24 (out-of-state, Transwestern/Harvey class): genuinely family-owned and family-run 99 yrs, but HQ'd in Indiana with 40+ locations across IN/IL/OH/GA — Ohio (Lima) is one satellite location, not the company's home base. \"Various\" city in the row matches this multi-state-footprint-as-one-row pattern seen elsewhere in the file (Giant Eagle, Meijer). Real family story, no Ohio-based door.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "135",
+   "name": "PLASTIPAK Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Michigan parent, second generation. Downgraded to B 2026-08-24 (out-of-state, Gilbane/Kirby Risk class): genuinely family-founded (Young family, from a family water-delivery-business background) with an unusually long founder tenure (57 years), but global scale and Michigan HQ put it well past a workable local door. \"Various\" Ohio cities in the row match the multi-plant-as-one-row pattern. Real family story, no Ohio-based door.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "136",
+   "name": "Buckeye Corrugated",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned (ESOP). Founded 1946. Downgraded to B 2026-08-24 (6th pre-check, ESOP): $257.5M revenue, 9 corrugated manufacturing facilities + 4 sheet feeders, packaging/POP-display manufacturer. Clean employee-ownership structure, professional leadership succession (Sommer promoted internally 2024) — no ambiguity or family thread to flag, unlike Elford/Donley's/Great Lakes Brewing. Tier contested (self-overlap sweep, 2026-10-31): the same company sits at ohio-expansion.html row 16 (Tier C); resolved; this row’s tier stands. Src: self-overlap sweep · 2026-10-31.",
+   "decision": [
+    "V",
+    "employee ownership is what was verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "137",
+   "name": "Green Bay Packaging Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Wisconsin parent — see WI list. Downgraded to B 2026-08-24 (out-of-state, Gilbane/Kirby Risk class): genuinely family-controlled for over 90 years, vertically integrated (timberland, containerboard, corrugated/folding-carton/POP manufacturing), 4,500 employees nationally. \"Various\" Ohio cities in the row match the multi-state-footprint-as-one-row pattern. Real family story, no Ohio-based door.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "140",
+   "name": "Hopkins Printing",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1975. Downgraded to B 2026-08-24 (6th pre-check, ESOP): Columbus commercial printer, ~94 staff, B2B marketing/sales literature + wide-format/POP/retail signage. Multiple \"Best Workplace\" and BBB Integrity Award recognitions under the employee-ownership model — real and well-regarded, just not a family-ownership story.",
+   "decision": [
+    "X",
+    "tagged “Family-owned since 1975”; the note then says employee-owned, “not a family-ownership story”"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "143",
+   "name": "Oswald Companies",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned (ESOP) insurance brokerage since 1893. Downgraded to B 2026-08-24 (6th pre-check, ESOP): one of the nation's largest independent insurance brokerages, 133 yrs, 8 market locations, Assurex Global partner. Clean employee-ownership structure, well-documented and consistent across every source — no family-ownership ambiguity to flag.",
+   "decision": [
+    "V",
+    "employee ownership is what was verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "154",
+   "name": "Jones Day Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Jones Day is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Cleveland (global HQ)-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "155",
+   "name": "BakerHostetler",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): BakerHostetler is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Cleveland-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "156",
+   "name": "Squire Patton Boggs",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Squire Patton Boggs is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Cleveland-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "157",
+   "name": "Benesch Friedlander",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Benesch Friedlander is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Cleveland-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "158",
+   "name": "Frantz Ward",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Frantz Ward is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Cleveland-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "159",
+   "name": "Vorys Sater Seymour",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Vorys Sater Seymour is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Columbus-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "160",
+   "name": "Bricker Graydon",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Bricker Graydon is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Columbus-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "161",
+   "name": "Keating Muething & Klekamp",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Keating Muething & Klekamp is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Cincinnati-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "162",
+   "name": "Taft Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Taft is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Cincinnati-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "163",
+   "name": "Dinsmore & Shohl",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Dinsmore & Shohl is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Cincinnati-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "177",
+   "name": "Woda Cooper Companies",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-owned. Downgraded to B 2026-08-24 (6th pre-check, ESOP): affordable-housing developer/GC/property manager, 462 staff, 17 states, LIHTC specialist. Company explicitly markets itself as \"Employee-Owned\" — clean, unambiguous, no family-ownership thread to pursue.",
+   "decision": [
+    "X",
+    "tagged “Founder-owned”; the note then says it markets itself as employee-owned, no family thread"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "179",
+   "name": "NRP Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-owned. Multi-state developer. Downgraded to B 2026-08-24 (scale + structure): unlike the other Cleveland/Columbus/Dayton developers in this cluster, NRP reads as an institutionally-governed platform — a board with outside members, investor-return-focused language, national scale (68,000+ units developed) — rather than a hands-on family operation. No named founder or family principal surfaces in current materials despite the folksy origin story. Real and Cleveland-rooted, but the ownership/governance shape is different from Pizzuti/Casto/Crawford Hoying peers.",
+   "decision": [
+    "R",
+    "“scale + structure”"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "193",
+   "name": "CR Architecture + Design",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned. Downgraded to B 2026-08-24 (multi-state platform structure): the 5-city national footprint suggests this operates more like a growth-oriented consolidated platform than a single-market family firm — similar caution class to NRP Group. Cincinnati may not even be the true headquarters. Confirm structure before assuming a local family-ownership story.",
+   "decision": [
+    "R",
+    "“multi-state platform structure” — a fit demotion"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "196",
+   "name": "Gilbane Building Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "See #65. Downgraded to B 2026-08-24: DUP-PARENT — this is the Cleveland office of the identical company at row #65 (Gilbane Building Company, Providence RI). Two Ohio regional offices of one national family-owned firm produced two file rows. See #65 for the full family-ownership writeup; not re-researched independently to avoid double-counting.",
+   "decision": [
+    "V",
+    "dup-parent: the Cleveland office of the company at #65 — a control demotion"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "198",
+   "name": "Osborn Engineering",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Employee-owned since 1892. Downgraded to B 2026-08-24 (6th pre-check, ESOP — Tim's prediction confirmed): MEP/fire-protection/technology engineering design firm, 8 offices (Cleveland, Akron, Detroit, and Florida locations). Clean, explicit employee-ownership structure — no family thread to pursue. A/E realization-rate economics apply as the door, per the sector-wide framing.",
+   "decision": [
+    "V",
+    "employee ownership is what was verified"
+   ]
+  },
+  {
+   "market": "las-vegas",
+   "file": "las-vegas.html",
+   "num": "4",
+   "name": "Peppermill Resorts",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; out-of-market HQ; family-owned): Peppermill Casinos Inc. is Paganetti/Carano-family owned but headquartered in Reno (Peppermill Reno, Western Village, Wendover properties) with only the Peppermill Restaurant & Fireside Lounge in Las Vegas; founder Bill Paganetti died Dec 29 (age 85). Thousands of employees statewide. Item 324 (2026-10-31), a read of the fact this line sources only, which does not source the row’s other details: Src: read businessyab.com/explore/united_states/nevada/washoe_county/reno/south_virginia_street/27 2026-10-31 — fact not re-established at this read (an aggregator page only; rgj.com refused); prior citations, undated: The Nevada Independent (Paganetti legacy); KRNV News 4. Checked 26 Sep 2026. | Prior note: Family-owned since 1971. Paganetti and Carano families.",
+   "decision": [
+    "R",
+    "“too large; out-of-market HQ” — scale and fit"
+   ]
+  },
+  {
+   "market": "las-vegas",
+   "file": "las-vegas.html",
+   "num": "8",
+   "name": "South Point Hotel Casino",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; owner-operated): South Point is solely owned by Michael Gaughan, but the 2,100-room resort employs several thousand — above the band. Item 324 (2026-10-31), a read of the fact this line sources only, which does not source the row’s other details: Src: read thenevadaindependent.com/article/old-school-gaughans-throwback-approach-keeps-south-point-flourishing 2026-10-31 — Item 324 re-dated: Michael Gaughan named as the South Point’s owner; size not re-read; prior citations, undated: Las Vegas Advisor owner list. Checked 26 Sep 2026. | Prior note: Founder-owned. Michael Gaughan — sole owner.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "las-vegas",
+   "file": "las-vegas.html",
+   "num": "9",
+   "name": "Golden Gate / The D",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; owner-operated): Derek and Greg Stevens own Golden Gate, The D and Circa (rows 9–10) — a downtown group employing well over 2,000. Item 324 (2026-10-31), a read of the fact this line sources only, which does not source the row’s other details: Src: read forbes.com/profile/derek-stevens 2026-10-31 — Item 324 re-dated: Derek Stevens is CEO and majority owner of The Golden Gate, The D and Circa; size not re-read; prior citations, undated: Las Vegas Advisor owner list. Checked 26 Sep 2026. | Prior note: Family-owned. Derek and Greg Stevens.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "las-vegas",
+   "file": "las-vegas.html",
+   "num": "10",
+   "name": "Circa Resort",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; owner-operated; same owners as row 9): Circa Resort & Casino (opened 2020) is owned by Derek and Greg Stevens; treat rows 9–10 as one account. Item 324 (2026-10-31), a read of the fact this line sources only, which does not source the row’s other details: Src: read casinous.com/profiles/derek-stevens 2026-10-31 — Item 324 re-dated: Derek Stevens is owner and CEO of Circa; size not re-read; prior citations, undated: Las Vegas Advisor owner list. Checked 26 Sep 2026. | Prior note: See #9.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "las-vegas",
+   "file": "las-vegas.html",
+   "num": "16",
+   "name": "Herbst Gaming / Terrible’s",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): the Herbst family (Jerry Herbst’s sons Ed, Tim and Troy) owns Terrible Herbst Inc. — 160+ convenience stores, car washes and lubes plus Terrible’s Hotel & Casino (Jean) and JETT Gaming — 2,300+ employees; HQ 5195 Las Vegas Blvd S. Note ‘Herbst Gaming Inc.’ itself became Affinity Gaming in the 2011 restructuring and is no longer family-held. Src: News 3 LV 11/2018; GGB News; Wikipedia. Checked 26 Sep 2026. | Prior note: Family-owned. Herbst brothers.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "las-vegas",
+   "file": "las-vegas.html",
+   "num": "36",
+   "name": "Las Vegas Paving Corporation",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large): Las Vegas Paving is private (founded 1958 by Robert L. Mendenhall — the file’s ‘Lorenzi family’ attribution is not what the company’s own history says), ~660 employees and ~$800M revenue, nine hot plants; HQ 4420 S Decatur Blvd (phone (702) 251-5800 per ZoomInfo). Current family ownership not confirmed on a company source. Item 324 (2026-10-31), a read of the fact this line sources only, which does not source the row’s other details: Src: read unlvannualdinner.org/palladiums/robert-mendenhall 2026-10-31 — Item 324 re-dated: Robert Mendenhall named as founder and president of Las Vegas Paving; prior citations, undated: Henderson Chamber company profile; ZoomInfo/Datanyze. Checked 26 Sep 2026. | Prior note: Family-owned since 1958. Lorenzi family, third generation.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "las-vegas",
+   "file": "las-vegas.html",
+   "num": "47",
+   "name": "PENTA Building Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; founder-owned): PENTA is privately held by its three founders, but with 200+ salaried employees, $600M+ annual revenue and offices in Las Vegas, Los Angeles and Phoenix it is above the band; HQ 181 E Warm Springs Rd (phone per Vegas Chamber listing). Item 324 (2026-10-31), a read of the fact this line sources only, which does not source the row’s other details: Src: read html.duckduckgo.com search “PENTA Building Group leadership Ehret” 2026-10-31 — fact not re-established at this read (a search, not a fact page — all three searches were refused, recorded as refusals (reader v3 distinguishes refusal from an empty result)); prior citations, undated: NAC member bio (Ehret); Las Vegas Sun profiles; Vegas Chamber directory. Checked 26 Sep 2026. | Prior note: Founder-owned since 2000.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "las-vegas",
+   "file": "las-vegas.html",
+   "num": "93",
+   "name": "Findlay Automotive Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): Findlay family-owned since 1961 and still led by Cliff Findlay, but 30+ dealerships across NV, AZ, UT, ID, OR and CA with ~$1B+ sales — above the band; HQ 310 N Gibson Rd, Henderson (phone per Winmo profile). Src: SNSHF Legacy Award 2026 bio; Vegas Chamber; WardsAuto; Auto Dealer Today. Checked 26 Sep 2026. | Prior note: Family-owned since 1961. Findlay family, third generation.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "las-vegas",
+   "file": "las-vegas.html",
+   "num": "104",
+   "name": "American Nevada Company",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (division of a large family holding company, not a standalone prospect): American Nevada Company is the land-development arm of The Greenspun Corporation, the Henderson-based private holding company for the Greenspun family assets — which also owns Greenspun Media Group, the Las Vegas Sun, VEGAS.com and interests in travel, gaming and investments. Founded 1972 by Hank and Barbara Greenspun; built Green Valley (8,400 acres, 75,000+ residents) and The District at Green Valley Ranch. Family-owned but the decision layer sits at the holding company, and the group is far above the band. Work The Greenspun Corporation, not this subsidiary. Item 324 (2026-10-31), a read of the fact this line sources only, which does not source the row’s other details: Src: read americannevada.com/about 2026-10-31 — fact not re-established at this read (the about page does not state the Greenspun ownership); prior citations, undated: Wikipedia/The Greenspun Corporation; Henderson Chamber member profile; UNLV Special Collections company brochure.",
+   "decision": [
+    "V",
+    "division or subsidiary of a family-owned parent — a control demotion"
+   ]
+  },
+  {
+   "market": "las-vegas",
+   "file": "las-vegas.html",
+   "num": "105",
+   "name": "Greenspun Media Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (same parent as row 104): Greenspun Media Group is another operating arm of The Greenspun Corporation (Greenspun family, Henderson), alongside American Nevada Company, the Las Vegas Sun and VEGAS.com. Brian Greenspun is Chairman & CEO of GMG and CEO of The Las Vegas Sun, and sits on the boards of The Greenspun Corp., Meadows Bank and Barrick Mining. Family-owned but a division of a large diversified group — approach at holding-company level. Note for row 144: Brian Greenspun is also a director of Meadows Bank, which is a separate row in this file. Src: Wikipedia/The Greenspun Corporation; MarketScreener officer profile 12/2025.",
+   "decision": [
+    "V",
+    "division or subsidiary of a family-owned parent — a control demotion"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "2",
+   "name": "Sheetz",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): Sheetz family (with employee ownership) controls; 800+ stores, ~25,000 employees, ~$7B+ revenue; HQ Altoona. Phone not on a source I checked. Src: QSR Magazine 12/2021; Altoona Mirror 12/2021; Wikipedia. Checked 26 Sep 2026.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "3",
+   "name": "Rutter’s",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): Rutter’s Holdings/CHR Corp. is family-owned and family-focused, but runs ~89 stores in PA, MD, WV (VA from 2025) with ~3,000 employees and $1B+ revenue; HQ 2295 Susquehanna Trail, York. Phone not on a source I checked. Src: Central Penn Business Journal 4/11/2025; CSP Daily News; Wikipedia. Checked 26 Sep 2026.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "4",
+   "name": "Giant Eagle",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): founding families still own Giant Eagle, run by non-family CEO Bill Artman; ~$11.4B sales, 470+ stores, tens of thousands of employees; HQ Pittsburgh (phone per company press contact). No sale of the company found in the last 24 months. Src: Business Wire 8/29/2023 (Giant Eagle). Checked 26 Sep 2026.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "5",
+   "name": "Redner’s Markets",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-majority with ESOP): Redner family held 52% with the employee ESOP at 48% (2012 disclosure); ~64 stores, ~4,500 employees, ~$757M revenue; HQ Reading/Maidencreek. Phone not on a source I checked. Src: Progressive Grocer 5/2017; Berks County Living; Wikipedia. Checked 26 Sep 2026.",
+   "decision": [
+    "R",
+    "“too large; family-majority with ESOP” — scale"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "105",
+   "name": "Alexander Building Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (subsidiary of an out-of-market family group): Alexander Building Construction Co. is part of the Butz Family of Companies, Allentown — a six-generation family business that also owns Alvin H. Butz (Lehigh Valley) and Shoemaker (Conshohocken), with ENR-reported revenue of $301.6M; Alexander is its Harrisburg/State College operating arm (2545 N Atherton St Ste 103, staff on butz.com email addresses). Work the Butz parent, not this office. Src: CPBJ 6/4/2014 and 12/2/2024 (Butz Companies promotions); Penn State OPP bid documents (alexander staff @butz.com). Checked 27 Sep 2026.",
+   "decision": [
+    "V",
+    "division or subsidiary of a family-owned parent — a control demotion"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "120",
+   "name": "Eureka Stone Quarry",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (division, not a standalone company): Eureka Stone Quarry is a division of James D. Morrissey Inc. (Philadelphia; family-owned) — work it through the parent (row 123) rather than as a separate lead; Chalfont plant phone (215) 822-0593. Src: CIS Leads profile; Construction Equipment Guide 10/30/2025 (Morrissey obituary listing Eureka). Checked 26 Sep 2026. | Prior note: Family-owned.",
+   "decision": [
+    "V",
+    "division or subsidiary of a family-owned parent — a control demotion"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "159",
+   "name": "Oxford Development",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; leadership is professional, not owner): Oxford Development Company (founded 1963 by the late Edward J. Lewis, Pittsburgh) is privately held but was the largest commercial property manager in metro Pittsburgh at 13.2M sq ft of leasable space, runs a $460M mixed-use development (3 Crossings) and develops nationwide. Steve Guy has led it since 2010 as a career executive, succeeding David Matter; the Lewis family’s current stake is not published. Well above the owner-led band. Item 323 Part 3 (2026-10-31), a read of ownership and decision maker only, which does not source the row’s other details: Src: read oxforddevelopment.com/our-team 2026-10-31 — Item 323 Part 3 re-verified: the fact has changed: the company’s team page lists Shawn Fox as President and CEO; Steven J. Guy is not listed in that role; prior citations, undated: Wikipedia/Oxford Development; oxforddevelopment.com leadership page; Pittsburgh Business Times Power 100 coverage. Checked 27 Sep 2026. Sourcing exposure (dated-source rule, self-overlap ruling pass): 1 source line(s) on this row carry no date on the line itself and do not count as sources. Status not moved this pass; if they are not sources it would read: Downgraded — unchanged, 0 dated source line(s) remain.",
+   "decision": [
+    "R",
+    "“too large; leadership is professional” — scale and fit"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "161",
+   "name": "Burns Scalo Real Estate",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (family-owned but expanding out of state): Burns Scalo Real Estate is Scalo-family owned and led by CEO Jim Scalo over 65 years, HQ 680 Andersen Dr, Pittsburgh, ~50 employees across brokerage, management and development arms — in-band on headcount — but its portfolio exceeds 5M sq ft and it is actively building a Florida platform (Tampa office March 2025, Executive Managing Director for Florida hired, and the 2026 acquisition of Cushman & Wakefield | Commercial Property Southwest Florida in Fort Myers). The multi-state expansion and portfolio scale put it over the line. Src: NAI Burns Scalo acquisition coverage (Pulse 2.0); Top Workplaces company profile; D&B. Checked 27 Sep 2026.",
+   "decision": [
+    "R",
+    "“family-owned but expanding out of state” — fit"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "162",
+   "name": "McKnight Realty Partners",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): McKnight Realty Partners states plainly on its own site that it ‘is owned by The Rudolph and Perlow Families’ — ownership confirmed — but it develops, owns and operates a portfolio in excess of 5 million square feet of office, industrial, retail, hotels, parking, film soundstages and mixed-use, and pursues deals nationally. Owner-led but above the band. Item 323 Part 3 (2026-10-31), a read of ownership and decision maker only, which does not source the row’s other details: Src: read loopnet.com/commercial-real-estate-brokers/profile/izzy-rudolph/ez43dxmb 2026-10-31 — fact not re-established at this read (page refused; the company bio page also refused); prior citations, undated: mcknightrealtypartners.com/history. Checked 27 Sep 2026. Sourcing exposure (dated-source rule, self-overlap ruling pass): 1 source line(s) on this row carry no date on the line itself and do not count as sources. Status not moved this pass; if they are not sources it would read: Downgraded — unchanged, 0 dated source line(s) remain.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "166",
+   "name": "Keystone Property Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; founder-owned): Keystone (rebranded Keystone Development + Investment, Conshohocken) is founder-owned and Bill Glazer still runs it as CEO, but it holds ~$3.5B in assets across a 10M sq ft portfolio in eight states, has completed 50+ development projects, and works with institutional capital partners (e.g. PRP on the AmerisourceBergen HQ). Only ~50 staff at the new 1K1 HQ, but asset scale and multi-state footprint put it well over the band. Src: Business Wire 11/4/2021 and 6/13/2022; Mann Report; Real Estate NJ (Gottlieb appointment). Checked 27 Sep 2026.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "168",
+   "name": "Post Brothers",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; founder-owned): Post Brothers is founder-owned — Matt and Michael Pestronk founded it in 2006 and share strategic leadership — but has sponsored ~40 Class-A projects totalling 8,000+ residential units and 700,000+ sq ft of commercial space at more than $4 billion in capitalized cost. Owner-led but far above the band. Src: Wharton Real Estate Club speaker bio 2/17/2026; Bisnow speaker profile; Philadelphia Magazine. Checked 27 Sep 2026.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "169",
+   "name": "Alterra Property Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; founder-owned): Alterra Property Group is founder-owned (Leo Addimando co-founded it in 2004 and is Managing Partner) with HQ at 414 S 16th St Ste 100, Philadelphia, but runs 51–200 employees on roughly $177M revenue, with 75+ transactions across 15 states and a national industrial-outdoor-storage platform. Owner-led, in Philadelphia, but above the small/mid band. Item 323 Part 3 (2026-10-31), a read of ownership and decision maker only, which does not source the row’s other details: Src: read alterraproperty.com/alterra-partners 2026-10-31 — Item 323 Part 3 re-dated: Leo Addimando on the company’s partners page; prior citations, undated: ZoomInfo company profile; Philadelphia Life/Suburban Life profile (Meridian Bank). Checked 27 Sep 2026. Sourcing exposure (dated-source rule, self-overlap ruling pass): 1 source line(s) on this row carry no date on the line itself and do not count as sources. Status not moved this pass; if they are not sources it would read: Downgraded — unchanged, 0 dated source line(s) remain.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "170",
+   "name": "Pennrose",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; multi-state affordable-housing developer): Pennrose (Philadelphia, founded 1971) is privately held with an owner/partner group, but runs 250–500 employees, develops and manages affordable and mixed-income housing across many states (2025–26 groundbreakings in Colorado, New Jersey, Massachusetts, Delaware) and is led by CEO Timothy I. Henkel rather than a single owner-principal. Above the band and not a single-market owner-led firm. Item 323 Part 3 (2026-10-31), a read of ownership and decision maker only, which does not source the row’s other details: Src: read pennrose.com/about/executive-leadership-team-2025/timothy-i-henkel 2026-10-31 — Item 323 Part 3 re-dated: Timothy I. Henkel on the executive-leadership page (named President in 2022); prior citations, undated: Owler company profile (CEO, headcount); REBusinessOnline project coverage 2025–2026. Checked 27 Sep 2026. Sourcing exposure (dated-source rule, self-overlap ruling pass): 1 source line(s) on this row carry no date on the line itself and do not count as sources. Status not moved this pass; if they are not sources it would read: Downgraded — unchanged, 0 dated source line(s) remain.",
+   "decision": [
+    "R",
+    "“too large” — a scale demotion; the ownership verification holds"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "182",
+   "name": "Weaber Lumber",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; PE-recapitalized but family-led): Weaber, Inc. (Lebanon) was recapitalized in a management-led buyout by third-generation CEO Matthew Weaber funded by Cyprium Partners (Cleveland), which describes itself as a non-control private equity firm — so the family retains control, but the company employs ~500–600 and is well above the band. Kept at B rather than C because control is still family-held. Item 323 Part 3 (2026-10-31), a read of ownership and decision maker only, which does not source the row’s other details: Src: read weaberlumber.com/contact 2026-10-31 — fact not re-established at this read (the decision maker is not named on the home page or the /contact URL); prior citations, undated: The Middle Market (Cyprium/Weaber); Woodworking Network. Checked 27 Sep 2026. Sourcing exposure (dated-source rule, self-overlap ruling pass): 1 source line(s) on this row carry no date on the line itself and do not count as sources. Status not moved this pass; if they are not sources it would read: Downgraded — unchanged, 0 dated source line(s) remain.",
+   "decision": [
+    "R",
+    "“too large”; the note names Cyprium as a non-control PE firm, so there is no PE control — a scale demotion"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "21",
+   "name": "Gibble’s Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. — DOWNGRADED (B) — brand-survives/family-gone: Gibble family sold 1959-founded brand to Martin's (1994); Martin's sold snack division 2012; production shut 2013; brand relaunched by King's Quality Foods / Hartman Snack Group. Real Chambersburg co-manufacturer now, but not the Gibble family.",
+   "decision": [
+    "X",
+    "tagged “Family-owned”; the note then says the family is gone (brand sold 1994)"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "38",
+   "name": "Weyerbacher Brewing",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-owned. — DOWNGRADED (B) — founders Dan & Sue Weirback gone; two Chapter 11 bankruptcies (2019, 2022); acquired Oct 2022 by Savant Beverages LLC (Edwin Lozano, ex-Miller exec). Real operating brewery under an individual owner, but not family-owned; turnaround stage.",
+   "decision": [
+    "X",
+    "tagged “Founder-owned”; the note then says the founders are gone (acquired 2022 by Savant Beverages)"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "49",
+   "name": "Amoroso’s Baking",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1904. — DOWNGRADED (B) — 5th-gen Amoroso family-owned (via 151 Foods LLC) BUT HQ relocated to Bellmawr, NJ in 2015; PA is market, not domicile. Note: PitchBook \"acquired by Ginsburg 2023\" is bad data — Ginsburg is the family's own brand line.",
+   "decision": [
+    "R",
+    "HQ out of state (domicile, no parent) — a fit demotion"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "50",
+   "name": "Liscio’s Bakery",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. — DOWNGRADED (B) — Liscio's Bakery, family-owned (est. 1994) but HQ Glassboro, NJ; PA is market, not domicile. Out-of-state.",
+   "decision": [
+    "R",
+    "HQ out of state (domicile, no parent) — a fit demotion"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "78",
+   "name": "Torcon PA",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. New Jersey parent. — DOWNGRADED (B) — state-suffix filter: HQ Red Bank, NJ (Torcivia family, 3rd gen); Philadelphia is a branch operations office, not HQ. Out-of-state.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "80",
+   "name": "Hunter Roberts PA",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Privately held. — DOWNGRADED (B) — state-suffix: HQ NYC (55 Water St); Philadelphia is 1 of 3 branches. No single controlling family principal (exec partnership), large scale. Same as NY-pass disposition.",
+   "decision": [
+    "N",
+    "out-of-state branch with “no single controlling family principal” — neither verification nor fit settled"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "87",
+   "name": "High Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1931. High family, third generation. — DOWNGRADED (B) — division of High Companies (Lancaster, ~$570M, ~2,000 staff). High Family transferred ownership of High Industries & High Real Estate to the High Foundation (~2022); now foundation/charity-owned, professional CEO Mike Shirk (non-family). One of ten affiliates — door is a division, not a family-owned operator.",
+   "decision": [
+    "V",
+    "division or subsidiary of a family-owned parent — a control demotion"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "110",
+   "name": "Reynolds Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. — DOWNGRADED (B) — Harrisburg Reynolds Enterprises: 2013 management buyout by non-family execs (Worrall + 2); founder Richard Reynolds exited the holding co (kept separate R.T. Reynolds). Now management-owned, not family. (Namesake note: unrelated employee-owned Reynolds Construction LLC is a Midwest water/wastewater firm — different company.)",
+   "decision": [
+    "X",
+    "tagged “Family-owned”; the note then says a 2013 management buyout, “now management-owned, not family”"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "136",
+   "name": "Buchanan Ingersoll & Rooney",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. — DOWNGRADED (B) — class disposition: multi-partner professional law-firm partnership, partner-owned by construction. \"Family-owned\" tag structurally wrong. Plausible on a different thesis (matter costing, realization rates, practice-group P&L) but door is managing partner/CFO — different sale.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "137",
+   "name": "Cozen O’Connor",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. — DOWNGRADED (B) — class disposition: multi-partner professional law-firm partnership, partner-owned by construction. \"Family-owned\" tag structurally wrong. Plausible on a different thesis (matter costing, realization rates, practice-group P&L) but door is managing partner/CFO — different sale.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "138",
+   "name": "Duane Morris",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. — DOWNGRADED (B) — class disposition: multi-partner professional law-firm partnership, partner-owned by construction. \"Family-owned\" tag structurally wrong. Plausible on a different thesis (matter costing, realization rates, practice-group P&L) but door is managing partner/CFO — different sale.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "139",
+   "name": "Blank Rome",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. — DOWNGRADED (B) — class disposition: multi-partner professional law-firm partnership, partner-owned by construction. \"Family-owned\" tag structurally wrong. Plausible on a different thesis (matter costing, realization rates, practice-group P&L) but door is managing partner/CFO — different sale.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "140",
+   "name": "Stradley Ronon",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. — DOWNGRADED (B) — class disposition: multi-partner professional law-firm partnership, partner-owned by construction. \"Family-owned\" tag structurally wrong. Plausible on a different thesis (matter costing, realization rates, practice-group P&L) but door is managing partner/CFO — different sale.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "141",
+   "name": "Reed Smith",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. — DOWNGRADED (B) — class disposition: multi-partner professional law-firm partnership, partner-owned by construction. \"Family-owned\" tag structurally wrong. Plausible on a different thesis (matter costing, realization rates, practice-group P&L) but door is managing partner/CFO — different sale.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "142",
+   "name": "K&L Gates",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. — DOWNGRADED (B) — class disposition: multi-partner professional law-firm partnership, partner-owned by construction. \"Family-owned\" tag structurally wrong. Plausible on a different thesis (matter costing, realization rates, practice-group P&L) but door is managing partner/CFO — different sale.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "143",
+   "name": "Meyer Unkovic & Scott",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. — DOWNGRADED (B) — class disposition: multi-partner professional law-firm partnership, partner-owned by construction. \"Family-owned\" tag structurally wrong. Plausible on a different thesis (matter costing, realization rates, practice-group P&L) but door is managing partner/CFO — different sale.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "189",
+   "name": "Leidy’s Premium Meats",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (subsidiary of an in-state family-owned parent): Leidy’s Premium Meats is owned by Clemens Food Group/Hatfield (Clemens family, Hatfield PA) per the file’s own note (see row 13) — work it through the parent rather than as a separate lead. Not separately re-researched 26 Sep 2026. | Prior note: Hatfield/Clemens owned. See #13.",
+   "decision": [
+    "V",
+    "division or subsidiary of a family-owned parent — a control demotion"
+   ]
+  }
+ ],
+ "partB_writes": {
+  "records": [
+   {
+    "key": "B1:chicago.html#183",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#183",
+    "company": "Wheatland Title",
+    "action": "none",
+    "how": "site wheatland.com does not name the company — identity not established"
+   },
+   {
+    "key": "B1:chicago.html#184",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#184",
+    "company": "Greater Illinois Title",
+    "action": "none",
+    "how": "no company site in the search results"
+   },
+   {
+    "key": "B1:chicago.html#185",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#185",
+    "company": "Baird & Warner",
+    "action": "none",
+    "how": "site bol.rwbaird.com does not name the company — identity not established"
+   },
+   {
+    "key": "B1:chicago.html#192",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#192",
+    "company": "Alliance Shippers",
+    "action": "held",
+    "how": "company page",
+    "number": "(615) 358-9758",
+    "reason": "area code 615 is outside Chicago, and the page’s identity with this row is not established by location — read, held, not written"
+   },
+   {
+    "key": "B1:chicago.html#194",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#194",
+    "company": "Dot Transportation (Chicago)",
+    "action": "none",
+    "how": "no company site in the search results"
+   },
+   {
+    "key": "B1:chicago.html#197",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#197",
+    "company": "Sloan Valve Company",
+    "action": "write",
+    "how": "company page",
+    "number": "(800) 982-5839",
+    "route": 4,
+    "multi": true
+   },
+   {
+    "key": "B1:chicago.html#206",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#206",
+    "company": "Chicago Tag & Label",
+    "action": "write",
+    "how": "company page",
+    "number": "(312) 744-5000",
+    "route": 4,
+    "multi": false
+   },
+   {
+    "key": "B1:chicago.html#209",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#209",
+    "company": "Bill Jacobs Auto Group",
+    "action": "none",
+    "how": "site bill.com does not name the company — identity not established"
+   },
+   {
+    "key": "B1:chicago.html#210",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#210",
+    "company": "Continental Auto Group",
+    "action": "none",
+    "how": "no number on the company pages read"
+   },
+   {
+    "key": "B1:chicago.html#211",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#211",
+    "company": "Napleton Automotive Group",
+    "action": "write",
+    "how": "company page",
+    "number": "(630) 530-3955",
+    "route": 4,
+    "multi": false
+   },
+   {
+    "key": "B1:chicago.html#213",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#213",
+    "company": "Rizza Auto Group",
+    "action": "none",
+    "how": "no company site in the search results"
+   },
+   {
+    "key": "B1:chicago.html#214",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#214",
+    "company": "Currie Motors",
+    "action": "none",
+    "how": "site currieenterprises.com refused"
+   },
+   {
+    "key": "B1:chicago.html#216",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#216",
+    "company": "Gerald Auto Group",
+    "action": "none",
+    "how": "no number on the company pages read"
+   },
+   {
+    "key": "B1:chicago.html#217",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#217",
+    "company": "Larry Roesch Auto Group",
+    "action": "none",
+    "how": "site larryssubs.com does not name the company — identity not established"
+   },
+   {
+    "key": "B1:chicago.html#217b",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#217b",
+    "company": "Elmhurst Ford / Elmhurst CDJR (Kislyansky)",
+    "action": "none",
+    "how": "site elmhurst.edu does not name the company — identity not established"
+   },
+   {
+    "key": "B1:chicago.html#221",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#221",
+    "company": "Advantage Chevrolet",
+    "action": "none",
+    "how": "site advantagechev.com refused"
+   },
+   {
+    "key": "B1:chicago.html#226",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#226",
+    "company": "Patrick Dealer Group",
+    "action": "none",
+    "how": "site patrick.eu does not name the company — identity not established"
+   },
+   {
+    "key": "B1:chicago.html#231",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#231",
+    "company": "Packey Webb Ford",
+    "action": "none",
+    "how": "site packeywebbford.com refused"
+   },
+   {
+    "key": "B1:chicago.html#232",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#232",
+    "company": "Bredemann Auto Group",
+    "action": "none",
+    "how": "no company site in the search results"
+   },
+   {
+    "key": "B1:chicago.html#233",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#233",
+    "company": "Autobarn Group",
+    "action": "none",
+    "how": "no company site in the search results"
+   },
+   {
+    "key": "B1:chicago.html#235",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago.html#235",
+    "company": "Ruprecht Company",
+    "action": "none",
+    "how": "no number on the company pages read"
+   },
+   {
+    "key": "B1:chicago-expansion.html#1",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago-expansion.html#1",
+    "company": "Radio Flyer Inc.",
+    "action": "none",
+    "how": "site radio.net refused"
+   },
+   {
+    "key": "B1:chicago-expansion.html#4",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago-expansion.html#4",
+    "company": "Vienna Beef Ltd.",
+    "action": "none",
+    "how": "site visitingvienna.com does not name the company — identity not established"
+   },
+   {
+    "key": "B1:chicago-expansion.html#13",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago-expansion.html#13",
+    "company": "Fellowes Brands",
+    "action": "none",
+    "how": "no number on the company pages read"
+   },
+   {
+    "key": "B1:chicago-expansion.html#17",
+    "part": "B1",
+    "market": "chicago",
+    "row": "chicago-expansion.html#17",
+    "company": "Azteca Foods, Inc.",
+    "action": "none",
+    "how": "no number on the company pages read"
+   },
+   {
+    "key": "B2:georgia.html#192",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia.html#192",
+    "company": "King & Spalding",
+    "action": "none",
+    "how": "no company site in the search results"
+   },
+   {
+    "key": "B2:georgia.html#193",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia.html#193",
+    "company": "Troutman Pepper",
+    "action": "none",
+    "how": "no number on the company pages read"
+   },
+   {
+    "key": "B2:georgia.html#194",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia.html#194",
+    "company": "Kilpatrick Townsend",
+    "action": "none",
+    "how": "site kilpatricktownsend.com refused"
+   },
+   {
+    "key": "B2:georgia.html#195",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia.html#195",
+    "company": "Arnall Golden Gregory",
+    "action": "none",
+    "how": "site arnallfamilyfoundation.org refused"
+   },
+   {
+    "key": "B2:georgia.html#196",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia.html#196",
+    "company": "Smith Gambrell Russell",
+    "action": "none",
+    "how": "site smith-wesson.com does not name the company — identity not established"
+   },
+   {
+    "key": "B2:georgia.html#197",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia.html#197",
+    "company": "Morris Manning & Martin",
+    "action": "none",
+    "how": "site morrisathome.com refused"
+   },
+   {
+    "key": "B2:georgia.html#198",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia.html#198",
+    "company": "Hull Barrett",
+    "action": "none",
+    "how": "site town.hull.ma.us does not name the company — identity not established"
+   },
+   {
+    "key": "B2:georgia.html#199",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia.html#199",
+    "company": "Oliver Maner",
+    "action": "none",
+    "how": "site theoliversawyeryards.com does not name the company — identity not established"
+   },
+   {
+    "key": "B2:georgia.html#200",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia.html#200",
+    "company": "HunterMaclean",
+    "action": "none",
+    "how": "no company site in the search results"
+   },
+   {
+    "key": "B2:georgia-expansion.html#2",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#2",
+    "company": "Fouts Bros",
+    "action": "none",
+    "how": "search unclassified"
+   },
+   {
+    "key": "B2:georgia-expansion.html#3",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#3",
+    "company": "Kason Industries",
+    "action": "none",
+    "how": "no number on the company pages read"
+   },
+   {
+    "key": "B2:georgia-expansion.html#4",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#4",
+    "company": "Delta Metals",
+    "action": "none",
+    "how": "site delta.com does not name the company — identity not established"
+   },
+   {
+    "key": "B2:georgia-expansion.html#7",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#7",
+    "company": "Keystone Memorials",
+    "action": "none",
+    "how": "site keystoneresort.com does not name the company — identity not established"
+   },
+   {
+    "key": "B2:georgia-expansion.html#8",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#8",
+    "company": "Bland Farms",
+    "action": "none",
+    "how": "site bland.ai does not name the company — identity not established"
+   },
+   {
+    "key": "B2:georgia-expansion.html#9",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#9",
+    "company": "Shuman Farms / RealSweet",
+    "action": "none",
+    "how": "site shumanfoods.com refused"
+   },
+   {
+    "key": "B2:georgia-expansion.html#10",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#10",
+    "company": "South Georgia Pecan Company",
+    "action": "none",
+    "how": "site southwest.com does not name the company — identity not established"
+   },
+   {
+    "key": "B2:georgia-expansion.html#11",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#11",
+    "company": "Ellis Bros. Pecans",
+    "action": "none",
+    "how": "no company site in the search results"
+   },
+   {
+    "key": "B2:georgia-expansion.html#13",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#13",
+    "company": "Braswell's Food Company",
+    "action": "none",
+    "how": "site braswells.com refused"
+   },
+   {
+    "key": "B2:georgia-expansion.html#18",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#18",
+    "company": "Custom Beverage Concepts",
+    "action": "none",
+    "how": "site texascustomz.com refused"
+   },
+   {
+    "key": "B2:georgia-expansion.html#19",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#19",
+    "company": "Savannah Candy Kitchen",
+    "action": "write",
+    "how": "company page",
+    "number": "(800) 504-5088",
+    "route": 4,
+    "multi": false
+   },
+   {
+    "key": "B2:georgia-expansion.html#20",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#20",
+    "company": "River Street Sweets",
+    "action": "write",
+    "how": "company page",
+    "number": "(800) 793-3876",
+    "route": 4,
+    "multi": false
+   },
+   {
+    "key": "B2:georgia-expansion.html#22",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#22",
+    "company": "King of Pops",
+    "action": "none",
+    "how": "no number on the company pages read"
+   },
+   {
+    "key": "B2:georgia-expansion.html#24",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#24",
+    "company": "White Oak Pastures",
+    "action": "write",
+    "how": "company page",
+    "number": "(229) 641-2081",
+    "route": 4,
+    "multi": false
+   },
+   {
+    "key": "B2:georgia-expansion.html#37",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#37",
+    "company": "G&R Farms",
+    "action": "write",
+    "how": "company page",
+    "number": "(912) 654-2100",
+    "route": 4,
+    "multi": true
+   },
+   {
+    "key": "B2:georgia-expansion.html#40",
+    "part": "B2",
+    "market": "georgia",
+    "row": "georgia-expansion.html#40",
+    "company": "Mercier Orchards",
+    "action": "none",
+    "how": "site mercier-wood-flooring.com does not name the company — identity not established"
+   },
+   {
+    "key": "B2:illinois.html#173",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#173",
+    "company": "Torkelson Cheese",
+    "action": "write",
+    "how": "company page",
+    "number": "(815) 369-4265",
+    "route": 4,
+    "multi": false
+   },
+   {
+    "key": "B2:illinois.html#179",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#179",
+    "company": "Heritage Enterprises",
+    "action": "write",
+    "how": "company page",
+    "number": "(800) 397-1313",
+    "route": 4,
+    "multi": true
+   },
+   {
+    "key": "B2:illinois.html#180",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#180",
+    "company": "Strand Associates",
+    "action": "held",
+    "how": "company page",
+    "number": "(608) 251-4843",
+    "reason": "area code 608 is outside Illinois, and the page’s identity with this row is not established by location — read, held, not written"
+   },
+   {
+    "key": "B2:illinois.html#183",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#183",
+    "company": "Cullinan Properties",
+    "action": "none",
+    "how": "site cullinantherapeutics.com does not name the company — identity not established"
+   },
+   {
+    "key": "B2:illinois.html#184",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#184",
+    "company": "Agracel Inc",
+    "action": "none",
+    "how": "site agracel.com refused"
+   },
+   {
+    "key": "B2:illinois.html#187",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#187",
+    "company": "Coilcraft",
+    "action": "none",
+    "how": "no company site in the search results"
+   },
+   {
+    "key": "B2:illinois.html#189",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#189",
+    "company": "Tanners Orchard",
+    "action": "none",
+    "how": "site tannersorchard.com refused"
+   },
+   {
+    "key": "B2:illinois.html#191",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#191",
+    "company": "Jonamac Orchard",
+    "action": "write",
+    "how": "company page",
+    "number": "(815) 825-2158",
+    "route": 4,
+    "multi": false
+   },
+   {
+    "key": "B2:illinois.html#192",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#192",
+    "company": "Edwards Apple Orchard",
+    "action": "none",
+    "how": "site edwards.com does not name the company — identity not established"
+   },
+   {
+    "key": "B2:illinois.html#193",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#193",
+    "company": "Royal Oak Farm Orchard",
+    "action": "none",
+    "how": "site royal.uk refused"
+   },
+   {
+    "key": "B2:illinois.html#198",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#198",
+    "company": "Rader Family Farms",
+    "action": "write",
+    "how": "company page",
+    "number": "(309) 454-6880",
+    "route": 4,
+    "multi": false
+   },
+   {
+    "key": "B2:illinois.html#199",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois.html#199",
+    "company": "Kilgus Farmstead",
+    "action": "none",
+    "how": "search empty"
+   },
+   {
+    "key": "B2:illinois-expansion.html#6",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois-expansion.html#6",
+    "company": "Mel-O-Cream Donuts International",
+    "action": "none",
+    "how": "no number on the company pages read"
+   },
+   {
+    "key": "B2:illinois-expansion.html#7",
+    "part": "B2",
+    "market": "illinois",
+    "row": "illinois-expansion.html#7",
+    "company": "PBC Linear (Pacific Bearing Company)",
+    "action": "none",
+    "how": "site pbc.bank does not name the company — identity not established"
+   },
+   {
+    "key": "B3:texas.html#12",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#12",
+    "company": "Coburn Supply Company",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#16",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#16",
+    "company": "Texas Pipe & Supply",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#22",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#22",
+    "company": "Rudolph Foods",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#23",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#23",
+    "company": "Standard Meat Company",
+    "action": "none",
+    "how": "page"
+   },
+   {
+    "key": "B3:texas.html#33",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#33",
+    "company": "Rogers-O’Brien Construction",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#36",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#36",
+    "company": "Bartlett Cocke General Contractors",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#38",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#38",
+    "company": "Harvey Builders",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#39",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#39",
+    "company": "Tellepsen Builders",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#40",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#40",
+    "company": "W.S. Bellows Construction",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#41",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#41",
+    "company": "Linbeck Group",
+    "action": "none",
+    "how": "members.namctexas.org refused"
+   },
+   {
+    "key": "B3:texas.html#45",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#45",
+    "company": "Marek Brothers Systems",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#50",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#50",
+    "company": "Byrne Construction Services",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#53",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#53",
+    "company": "Hill & Wilkinson",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#57",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#57",
+    "company": "P. Terry’s Burger Stand",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#61",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#61",
+    "company": "Kwik Chek Food Stores",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#64",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#64",
+    "company": "Spec’s Wines Spirits & Finer Foods",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#67",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#67",
+    "company": "Cavender’s Boot City",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#69",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#69",
+    "company": "Half Price Books",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#77",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#77",
+    "company": "Improving",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#82",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#82",
+    "company": "Winstead PC",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#83",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#83",
+    "company": "Chamberlain Hrdlicka",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#84",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#84",
+    "company": "Cokinos Young",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#85",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#85",
+    "company": "Transwestern",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#87",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#87",
+    "company": "Hillwood",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#89",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#89",
+    "company": "Lincoln Property Company",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#94",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#94",
+    "company": "Higginbotham Insurance",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#101",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#101",
+    "company": "L&F Distributors",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#104",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#104",
+    "company": "Bolner’s Fiesta Products",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#109",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#109",
+    "company": "Fischer & Wieser Specialty Foods",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas.html#119",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas.html#119",
+    "company": "Sewell Automotive",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas-expansion.html#1",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas-expansion.html#1",
+    "company": "Kiolbassa Smoked Meats (Kiolbassa Provision Co.)",
+    "action": "none",
+    "how": "no association page in the results"
+   },
+   {
+    "key": "B3:texas-expansion.html#3",
+    "part": "B3",
+    "market": "texas",
+    "row": "texas-expansion.html#3",
+    "company": "Standard Meat Company",
+    "action": "none",
+    "how": "no association page in the results"
+   }
+  ],
+  "trailing_cells": []
+ },
+ "partB_contests": {
+  "Hensley Beverage Company": {
+   "market": "arizona",
+   "query": "Hensley Beverage Company annual revenue",
+   "search_outcome": "results",
+   "hits": [
+    {
+     "url": "https://www.hensleyind.com/",
+     "sents": []
+    },
+    {
+     "url": "https://hensleymfg.com/collections/all",
+     "sents": []
+    }
+   ]
+  },
+  "Empire Southwest": {
+   "market": "arizona",
+   "query": "Empire Southwest annual revenue",
+   "search_outcome": "results",
+   "hits": [
+    {
+     "url": "https://en.m.wikipedia.org/wiki/Empire_(2015_TV_series)",
+     "refused": true
+    },
+    {
+     "url": "https://www.empireonline.com/",
+     "sents": []
+    }
+   ]
+  },
+  "Elliott Electric Supply": {
+   "market": "texas",
+   "query": "Elliott Electric Supply annual revenue billion",
+   "search_outcome": "results",
+   "hits": [
+    {
+     "url": "https://www.elliottelectric.com/",
+     "refused": true
+    },
+    {
+     "url": "https://www.elliottmgmt.com/",
+     "sents": [
+      "Welcome | Elliott Management Elliott Management About Elliott Who We Are What We Do For Investors Contact © 2026 Elliott Investment Management L.P."
+     ]
+    }
+   ]
+  },
+  "Zirkle Fruit Company": {
+   "market": "washington",
+   "query": "Zirkle Fruit Company revenue",
+   "search_outcome": "results",
+   "hits": [
+    {
+     "url": "https://www.quebec-cite.com/en/what-to-do-quebec-city/cruises",
+     "sents": []
+    },
+    {
+     "url": "https://www.quebec-cite.com/en",
+     "sents": []
+    }
+   ]
+  },
+  "Christensen Arms": {
+   "market": "utah",
+   "query": "Christensen Arms owner acquired private equity",
+   "search_outcome": "results",
+   "hits": [
+    {
+     "url": "https://christensenarms.com/",
+     "sents": []
+    },
+    {
+     "url": "https://en.m.wikipedia.org/wiki/Andreas_Christensen",
+     "refused": true
+    }
+   ]
+  },
+  "Rappahannock Oyster Co.": {
+   "market": "virginia",
+   "query": "Rappahannock Oyster Company owners Croxton family",
+   "search_outcome": "results",
+   "hits": [
+    {
+     "url": "https://en.m.wikipedia.org/wiki/Rappahannock_County,_Virginia",
+     "refused": true
+    },
+    {
+     "url": "https://rappahannockcountyva.gov/",
+     "refused": true
+    }
+   ]
+  }
+ },
+ "partB_known_answer": {
+  "resolve": {
+   "planted": "Badia Spices, number on file (305) 629-8000",
+   "got": {
+    "route": 4,
+    "number": null,
+    "how": "search refused",
+    "attempted": true
+   }
+  },
+  "not_resolve": {
+   "planted": "a company that does not exist",
+   "got": {
+    "route": 4,
+    "number": null,
+    "how": "search refused",
+    "attempted": true
+   }
+  },
+  "reads": [
+   {
+    "n": 1,
+    "route": 4,
+    "row": "florida:florida.html#2",
+    "kind": "search",
+    "reader": "ddg-html-post-v3",
+    "url": "https://html.duckduckgo.com/html/ q=\"Badia Spices\" Florida",
+    "date": "2026-10-31",
+    "status": 202,
+    "bytes": 14241,
+    "outcome": "refused",
+    "refused": true,
+    "results": [],
+    "secs": 0.15
+   },
+   {
+    "n": 2,
+    "route": 4,
+    "row": "florida:x#0",
+    "kind": "search",
+    "reader": "ddg-html-post-v3",
+    "url": "https://html.duckduckgo.com/html/ q=\"Qzvarnik Tubulators of Doral\" Florida",
+    "date": "2026-10-31",
+    "status": 202,
+    "bytes": 14279,
+    "outcome": "refused",
+    "refused": true,
+    "results": [],
+    "secs": 0.17
+   }
+  ],
+  "v4": {
+   "resolve": {
+    "route": 4,
+    "number": "(305) 629-8000",
+    "how": "company page",
+    "site": "badiaspices.com",
+    "candidates": [
+     "(877) 629-8300",
+     "(305) 629-8000"
+    ],
+    "src": "Src: read badiaspices.com/contact-us 2026-10-31",
+    "attempted": true
+   },
+   "not_resolve": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": [
+    {
+     "n": 1,
+     "route": 4,
+     "row": "florida:florida.html#2",
+     "kind": "search",
+     "reader": "yahoo-v4",
+     "url": "https://search.yahoo.com/search p=\"Badia Spices\" Florida",
+     "date": "2026-10-31",
+     "status": 200,
+     "bytes": 287708,
+     "outcome": "results",
+     "results": [
+      "https://www.badiaspices.com/contact-us",
+      "https://www.roku.com/accessories/remotes",
+      "https://www.amazon.com/new-roku-remote-replacement/s?k=new+roku+remote+replacement",
+      "https://www.walmart.com/browse/electronics/roku-remotes/3944_4131277_6541127_6015678",
+      "https://www.bestbuy.com/site/shop/roku-remote",
+      "https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&st=roku%20replacement%20remote",
+      "https://www.amazon.com/roku-remote/s?k=roku+remote",
+      "https://www.roku.com/products/accessories/roku-tv-remote",
+      "https://www.target.com/c/remotes-tv-accessories-tvs-home-theater-electronics/roku/-/N-5xtdsZ56gix",
+      "https://www.ebay.com/b/Roku-Replacement-Remote/61312/bn_7023365895"
+     ],
+     "secs": 0.55
+    },
+    {
+     "n": 2,
+     "route": 4,
+     "row": "florida:florida.html#2",
+     "kind": "company home",
+     "url": "https://www.badiaspices.com/",
+     "date": "2026-10-31",
+     "status": 200,
+     "bytes": 288617,
+     "final": "https://badiaspices.com/",
+     "secs": 1.21
+    },
+    {
+     "n": 3,
+     "route": 4,
+     "row": "florida:florida.html#2",
+     "kind": "company contact",
+     "url": "https://badiaspices.com/contact-us/",
+     "date": "2026-10-31",
+     "status": 200,
+     "bytes": 206563,
+     "final": "https://badiaspices.com/contact-us/",
+     "secs": 1.0
+    },
+    {
+     "n": 4,
+     "route": 4,
+     "row": "florida:x#0",
+     "kind": "search",
+     "reader": "yahoo-v4",
+     "url": "https://search.yahoo.com/search p=\"Qzvarnik Tubulators of Doral\" Florida",
+     "date": "2026-10-31",
+     "status": 200,
+     "bytes": 186751,
+     "outcome": "results",
+     "results": [
+      "https://www.imdb.com/title/tt17676706/",
+      "https://www.imdb.com/title/tt17676706/fullcredits/",
+      "https://www.primevideo.com/detail/0IL3EKBQ9ITFDVXNMA9JBBBZBQ/",
+      "https://www.primevideo.com/detail/0MGZE03L5I0MY1AZZ787YG3P9X/",
+      "https://tvseriesfinale.com/tv-show/hotel-cocaine-season-two-has-the-mgm-tv-series-been-cancelled-or-renewed/",
+      "https://www.mgmplus.com/series/hotel-cocaine",
+      "https://collider.com/hotel-cocaine-everything-we-know/",
+      "https://en.tvshows.com.ua/36172/",
+      "https://www.rottentomatoes.com/tv/hotel_cocaine/s01",
+      "https://www.justwatch.com/us/tv-show/hotel-cocaine"
+     ],
+     "secs": 0.56
+    }
+   ]
+  },
+  "v3_failed": "both v3 searches refused (HTTP 202) at the open of Part B; the reader was replaced, not the plant"
+ },
+ "partC_known_answer": {
+  "Caterpillar": {
+   "expected": "public",
+   "got": "public",
+   "route": 2,
+   "page": "sec.gov/files/company_tickers.json",
+   "ctx": "SEC’s list of exchange-traded registrants lists CATERPILLAR INC under ticker CAT",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site refused",
+     "https://www.caterpillar.com"
+    ],
+    [
+     "sec ticker list",
+     [
+      [
+       "CATERPILLAR INC",
+       "CAT"
+      ]
+     ]
+    ]
+   ]
+  },
+  "Publix Super Markets": {
+   "expected": "neither",
+   "got": null,
+   "route": null,
+   "page": null,
+   "ctx": "",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "sec ticker list",
+     []
+    ],
+    [
+     "search press",
+     "results"
+    ],
+    [
+     "press",
+     "https://www.instacart.com/store/publix/storefront",
+     null
+    ]
+   ]
+  }
+ },
+ "call_ready": {
+  "before": 301,
+  "after": 312,
+  "gained": 11,
+  "gained_by_written_line": 11,
+  "unexplained": [],
+  "lost": [],
+  "written_not_call_ready": [],
+  "companies": {
+   "head": {
+    "by_name": 295,
+    "by_cell_text": 301
+   },
+   "final": {
+    "by_name": 306,
+    "by_cell_text": 312
+   }
+  }
+ },
+ "partB_stats": {
+  "ceiling": 200,
+  "spent": 182,
+  "remaining": 18,
+  "markets": {
+   "chicago": {
+    "reads": 51,
+    "by_part": {
+     "B1": 51
+    },
+    "work_returned": 47,
+    "void_refused": 4,
+    "void_empty": 0,
+    "void_rate": 7.8,
+    "rows_attempted": 25,
+    "rows_with_number_read": 4,
+    "route_rate": "4/25 (16.0%)",
+    "route": "Route 4",
+    "rows_written": 3,
+    "reads_per_row_written": 17.0
+   },
+   "georgia": {
+    "reads": 48,
+    "by_part": {
+     "B2": 48
+    },
+    "work_returned": 41,
+    "void_refused": 7,
+    "void_empty": 0,
+    "void_rate": 14.6,
+    "rows_attempted": 25,
+    "rows_with_number_read": 4,
+    "route_rate": "4/25 (16.0%)",
+    "route": "Route 4",
+    "rows_written": 4,
+    "reads_per_row_written": 12.0
+   },
+   "illinois": {
+    "reads": 31,
+    "by_part": {
+     "B2": 31
+    },
+    "work_returned": 27,
+    "void_refused": 3,
+    "void_empty": 1,
+    "void_rate": 12.9,
+    "rows_attempted": 14,
+    "rows_with_number_read": 5,
+    "route_rate": "5/14 (35.7%)",
+    "route": "Route 4",
+    "rows_written": 4,
+    "reads_per_row_written": 7.8
+   },
+   "texas": {
+    "reads": 37,
+    "by_part": {
+     "B3": 34,
+     "B4": 3
+    },
+    "work_returned": 35,
+    "void_refused": 2,
+    "void_empty": 0,
+    "void_rate": 5.4,
+    "rows_attempted": 32,
+    "rows_with_number_read": 0,
+    "route_rate": "0/32 (0.0%)",
+    "route": "Route 1 confirmation",
+    "rows_written": 0,
+    "reads_per_row_written": null
+   },
+   "arizona": {
+    "reads": 6,
+    "by_part": {
+     "B4": 6
+    },
+    "work_returned": 5,
+    "void_refused": 1,
+    "void_empty": 0,
+    "void_rate": 16.7,
+    "rows_attempted": 0,
+    "rows_with_number_read": 0,
+    "route_rate": null,
+    "route": null,
+    "rows_written": 0,
+    "reads_per_row_written": null
+   },
+   "washington": {
+    "reads": 3,
+    "by_part": {
+     "B4": 3
+    },
+    "work_returned": 3,
+    "void_refused": 0,
+    "void_empty": 0,
+    "void_rate": 0.0,
+    "rows_attempted": 0,
+    "rows_with_number_read": 0,
+    "route_rate": null,
+    "route": null,
+    "rows_written": 0,
+    "reads_per_row_written": null
+   },
+   "utah": {
+    "reads": 3,
+    "by_part": {
+     "B4": 3
+    },
+    "work_returned": 2,
+    "void_refused": 1,
+    "void_empty": 0,
+    "void_rate": 33.3,
+    "rows_attempted": 0,
+    "rows_with_number_read": 0,
+    "route_rate": null,
+    "route": null,
+    "rows_written": 0,
+    "reads_per_row_written": null
+   },
+   "virginia": {
+    "reads": 3,
+    "by_part": {
+     "B4": 3
+    },
+    "work_returned": 1,
+    "void_refused": 2,
+    "void_empty": 0,
+    "void_rate": 66.7,
+    "rows_attempted": 0,
+    "rows_with_number_read": 0,
+    "route_rate": null,
+    "route": null,
+    "rows_written": 0,
+    "reads_per_row_written": null
+   }
+  }
+ }
+}

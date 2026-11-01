@@ -8107,5 +8107,147 @@
    "reads_per_row_settled": 9.2,
    "route_that_answered": "SEC company_tickers.json (6 of 6 settled); owner sites refused or silent in every case"
   }
+ },
+ "item331_carried_remainders": {
+  "measured": "2026-10-31",
+  "reader": "search reader v4 (Yahoo; v3 refused at the open with HTTP 202)",
+  "ceiling": 200,
+  "spent": 182,
+  "rule": "each figure is its market’s and its part’s own; no mean (entry 18)",
+  "markets": {
+   "chicago": {
+    "reads": 51,
+    "by_part": {
+     "B1": 51
+    },
+    "work_returned": 47,
+    "void_refused": 4,
+    "void_empty": 0,
+    "void_rate": 7.8,
+    "rows_attempted": 25,
+    "rows_with_number_read": 4,
+    "route_rate": "4/25 (16.0%)",
+    "route": "Route 4",
+    "rows_written": 3,
+    "reads_per_row_written": 17.0
+   },
+   "georgia": {
+    "reads": 48,
+    "by_part": {
+     "B2": 48
+    },
+    "work_returned": 41,
+    "void_refused": 7,
+    "void_empty": 0,
+    "void_rate": 14.6,
+    "rows_attempted": 25,
+    "rows_with_number_read": 4,
+    "route_rate": "4/25 (16.0%)",
+    "route": "Route 4",
+    "rows_written": 4,
+    "reads_per_row_written": 12.0
+   },
+   "illinois": {
+    "reads": 31,
+    "by_part": {
+     "B2": 31
+    },
+    "work_returned": 27,
+    "void_refused": 3,
+    "void_empty": 1,
+    "void_rate": 12.9,
+    "rows_attempted": 14,
+    "rows_with_number_read": 5,
+    "route_rate": "5/14 (35.7%)",
+    "route": "Route 4",
+    "rows_written": 4,
+    "reads_per_row_written": 7.8
+   },
+   "texas": {
+    "reads": 37,
+    "by_part": {
+     "B3": 34,
+     "B4": 3
+    },
+    "work_returned": 35,
+    "void_refused": 2,
+    "void_empty": 0,
+    "void_rate": 5.4,
+    "rows_attempted": 32,
+    "rows_with_number_read": 0,
+    "route_rate": "0/32 (0.0%)",
+    "route": "Route 1 confirmation",
+    "rows_written": 0,
+    "reads_per_row_written": null
+   },
+   "arizona": {
+    "reads": 6,
+    "by_part": {
+     "B4": 6
+    },
+    "work_returned": 5,
+    "void_refused": 1,
+    "void_empty": 0,
+    "void_rate": 16.7,
+    "rows_attempted": 0,
+    "rows_with_number_read": 0,
+    "route_rate": null,
+    "route": null,
+    "rows_written": 0,
+    "reads_per_row_written": null
+   },
+   "washington": {
+    "reads": 3,
+    "by_part": {
+     "B4": 3
+    },
+    "work_returned": 3,
+    "void_refused": 0,
+    "void_empty": 0,
+    "void_rate": 0.0,
+    "rows_attempted": 0,
+    "rows_with_number_read": 0,
+    "route_rate": null,
+    "route": null,
+    "rows_written": 0,
+    "reads_per_row_written": null
+   },
+   "utah": {
+    "reads": 3,
+    "by_part": {
+     "B4": 3
+    },
+    "work_returned": 2,
+    "void_refused": 1,
+    "void_empty": 0,
+    "void_rate": 33.3,
+    "rows_attempted": 0,
+    "rows_with_number_read": 0,
+    "route_rate": null,
+    "route": null,
+    "rows_written": 0,
+    "reads_per_row_written": null
+   },
+   "virginia": {
+    "reads": 3,
+    "by_part": {
+     "B4": 3
+    },
+    "work_returned": 1,
+    "void_refused": 2,
+    "void_empty": 0,
+    "void_rate": 66.7,
+    "rows_attempted": 0,
+    "rows_with_number_read": 0,
+    "route_rate": null,
+    "route": null,
+    "rows_written": 0,
+    "reads_per_row_written": null
+   }
+  }
+ },
+ "item332_owner_class": {
+  "measured": "2026-10-31",
+  "result": "not run — the reader failed its private-company plant (Publix Super Markets returned class unread, not neither); the 15 owner-named rows stay unread, the reader named as unable to measure “neither”"
  }
 }
