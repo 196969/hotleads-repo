@@ -8540,5 +8540,32 @@
    "kind": "finding",
    "text": "Tops Friendly Markets’ note says “See #3”, but #3 in new-york.html is DeCicco & Sons — the pointer names an unrelated row."
   }
+ ],
+ "register_item348": [
+  {
+   "date": "2026-11-01",
+   "kind": "gate amendment (Chair)",
+   "text": "The gate now counts delivered files against committed files by name first, and fails loudly on any shortfall before any per-file hash check. Three deliveries had silently dropped a file. Item 348’s open: delivered 15, committed 15, missing 0; florida.html landed."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "false-provenance correction",
+   "text": "Tops Friendly Markets (new-york.html #112): its note’s “See #3” pointed to DeCicco & Sons, an unrelated company. The cross-reference is removed; Tops carries its own owed source by name."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "entry 30 instance",
+   "text": "A name reduced to one distinctive word by the generic-word list matched a government domain: Nutrition Industries → nutrition.gov, SSA Marine → ssa.gov (“industries” and “marine” are generic). Stopped before any write; corrected rule — company identity is never accepted on a .gov, .edu or .mil domain; every prior figure re-checked: no other match in this pass used such a domain."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "Grouping the 41 by source type: the own-site group (17) settled 0, the control group (21) settled 2, the class group (3) settled 0; the dated-revenue group was empty. No group’s first five rows all refused, so no group was route-blocked. The commonest failure was not refusal but a company site the search never surfaced under the whole-name rule."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "Right Away Disposal’s own domain now resolves to wasteconnections.com — recorded on the row as read, not as a statement of acquisition (entry 31)."
+  }
  ]
 }

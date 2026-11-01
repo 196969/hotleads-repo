@@ -1,0 +1,1521 @@
+{
+ "item": "348",
+ "groups": {
+  "own": [
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "20",
+    "name": "Sun State Builders Supply",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "ghost-row suspect — existence unconfirmed",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "ghost-row suspect — existence unconfirmed",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source showing the company exists and trades (own site or state filing)"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "37",
+    "name": "Rowland Companies",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "ghost-row suspect",
+    "group": "Ghost-row suspect",
+    "class": 3,
+    "basis": "ghost-row suspect",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source showing the company exists and trades (own site or state filing)"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "78",
+    "name": "Border Products",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "ghost-row suspect",
+    "group": "Ghost-row suspect",
+    "class": 3,
+    "basis": "ghost-row suspect",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source showing the company exists and trades (own site or state filing)"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "118",
+    "name": "Nutrition Industries",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "ghost-row suspect",
+    "group": "Ghost-row suspect",
+    "class": 3,
+    "basis": "ghost-row suspect",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source showing the company exists and trades (own site or state filing)"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "183",
+    "name": "Right Away Disposal",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "parked — acquisition check",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "parked — acquisition check",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source for the fact the note leaves open"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "187",
+    "name": "Cheeses of Arizona",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "ghost-row suspect",
+    "group": "Ghost-row suspect",
+    "class": 3,
+    "basis": "ghost-row suspect",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source showing the company exists and trades (own site or state filing)"
+   },
+   {
+    "market": "california",
+    "file": "california.html",
+    "num": "38",
+    "name": "Harris Ranch",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "split entity — the beef business sold (2019), the farms remain family-owned; which one the row is, the note does not settle",
+    "group": "Other single cases",
+    "class": 3,
+    "basis": "split entity — the beef business sold (2019), the farms remain family-owned; which one the row is, the note does not settle",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "an identity source: which entity the row is"
+   },
+   {
+    "market": "colorado",
+    "file": "colorado.html",
+    "num": "66",
+    "name": "Save A Lot Colorado",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify franchise structure — parked",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify franchise structure — parked",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a source on the franchise structure (own site)"
+   },
+   {
+    "market": "florida",
+    "file": "florida-expansion.html",
+    "num": "3",
+    "name": "Tampa Maid Foods",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note leaves verification open (“CONFIRM”)",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "the note leaves verification open (“CONFIRM”)",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "the confirmation the note names (own site)"
+   },
+   {
+    "market": "florida",
+    "file": "florida-expansion.html",
+    "num": "24",
+    "name": "The Father's Table",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note leaves verification open (“CONFIRM”)",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "the note leaves verification open (“CONFIRM”)",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "the confirmation the note names (own site)"
+   },
+   {
+    "market": "florida",
+    "file": "florida-expansion.html",
+    "num": "40",
+    "name": "Conimar Corporation",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note leaves verification open (“CONFIRM”)",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "the note leaves verification open (“CONFIRM”)",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "the confirmation the note names (own site)"
+   },
+   {
+    "market": "michigan",
+    "file": "michigan.html",
+    "num": "94",
+    "name": "Plum Market",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note’s finding is an inference from silence (“privately owned … is itself the signal”), not an established ownership fact",
+    "group": "Other single cases",
+    "class": 3,
+    "basis": "the note’s finding is an inference from silence (“privately owned … is itself the signal”), not an established ownership fact",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "an ownership source"
+   },
+   {
+    "market": "michigan",
+    "file": "michigan.html",
+    "num": "118",
+    "name": "Cummins-Wagner Michigan",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note carries a strong data-quality flag on the row’s identity",
+    "group": "Other single cases",
+    "class": 3,
+    "basis": "the note carries a strong data-quality flag on the row’s identity",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "an identity source for the row"
+   },
+   {
+    "market": "minnesota",
+    "file": "minnesota.html",
+    "num": "114",
+    "name": "Winland Electronics",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify structure",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify structure",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source for the fact the note leaves open"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "197",
+    "name": "Sunriver Resort",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify ownership",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify ownership",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source for the fact the note leaves open"
+   },
+   {
+    "market": "virginia",
+    "file": "virginia.html",
+    "num": "147",
+    "name": "L.C. Industries",
+    "tier": "A",
+    "status": "Downgraded",
+    "reason": "nonprofit — not a public or PE disqualifier",
+    "group": "Cooperative or nonprofit",
+    "class": 3,
+    "basis": "nonprofit — not a public or PE disqualifier",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a structure source (own site), then the nonprofit ruling"
+   },
+   {
+    "market": "washington",
+    "file": "washington.html",
+    "num": "135",
+    "name": "SSA Marine",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "structure row — parked",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "structure row — parked",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source for the fact the note leaves open"
+   }
+  ],
+  "class": [
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "171",
+    "name": "Scottsdale Ferrari",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "a public-parent suspicion, not a disqualifier",
+    "group": "Other single cases",
+    "class": 3,
+    "basis": "a public-parent suspicion, not a disqualifier",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "georgia",
+    "file": "georgia.html",
+    "num": "81",
+    "name": "Gay Construction",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note names the “ESOP class” but establishes neither employee ownership nor a decision maker (Item 336)",
+    "group": "ESOP asserted, not established",
+    "class": 3,
+    "basis": "the note names the “ESOP class” but establishes neither employee ownership nor a decision maker (Item 336)",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a clause establishing employee ownership"
+   },
+   {
+    "market": "michigan",
+    "file": "michigan.html",
+    "num": "17",
+    "name": "Star of the West Milling",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the remaining text says farmer/shareholder-owned since the family left in 1903 — neither tier nor status settled",
+    "group": "Cooperative or nonprofit",
+    "class": 3,
+    "basis": "the remaining text says farmer/shareholder-owned since the family left in 1903 — neither tier nor status settled",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a class read: whether the company is a cooperative"
+   }
+  ],
+  "control": [
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "130",
+    "name": "Arizona Materials",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent — parked",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify parent — parked",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "colorado",
+    "file": "colorado.html",
+    "num": "48",
+    "name": "Aurora Organic Dairy",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify PE structure — parked",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify PE structure — parked",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a control source: who holds control of the stake"
+   },
+   {
+    "market": "colorado",
+    "file": "colorado.html",
+    "num": "112",
+    "name": "Stresscon Corporation",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent — parked",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify parent — parked",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "florida",
+    "file": "florida.html",
+    "num": "112",
+    "name": "Morgan Auto Group",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note gives both a scale reason and a control reason",
+    "group": "Both a scale and a control reason",
+    "class": 3,
+    "basis": "the note gives both a scale reason and a control reason",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a control source for the stake"
+   },
+   {
+    "market": "georgia",
+    "file": "georgia.html",
+    "num": "144",
+    "name": "Jordan Lumber GA",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "out-of-state “probable”, with a namesake/acquisition warning",
+    "group": "Other single cases",
+    "class": 3,
+    "basis": "out-of-state “probable”, with a namesake/acquisition warning",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "minnesota",
+    "file": "minnesota.html",
+    "num": "53",
+    "name": "Pella MN",
+    "tier": "A",
+    "status": "Downgraded",
+    "reason": "verify Minnesota authority",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify Minnesota authority",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a decision-layer source"
+   },
+   {
+    "market": "minnesota",
+    "file": "minnesota.html",
+    "num": "55",
+    "name": "Anchor Block Company",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify parent",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "minnesota",
+    "file": "minnesota.html",
+    "num": "156",
+    "name": "Peerless Industrial Group",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify PE",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify PE",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a control source: who holds control of the stake"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "147",
+    "name": "Mayer Hoffman McCann",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "CBIZ affiliated, not owned",
+    "group": "Owner named, class unread or unstated",
+    "class": 3,
+    "basis": "CBIZ affiliated, not owned",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a control source: whether the affiliation is ownership"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "174",
+    "name": "Willow Brook Foods",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify parent",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "new-york",
+    "file": "new-york.html",
+    "num": "41",
+    "name": "Pavarini McGovern",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "Structure Tone affiliated",
+    "group": "Owner named, class unread or unstated",
+    "class": 3,
+    "basis": "Structure Tone affiliated",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a control source: whether the affiliation is ownership"
+   },
+   {
+    "market": "new-york",
+    "file": "new-york.html",
+    "num": "76",
+    "name": "Bedell Cellars",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "owned by an estate listed for sale (2019) — current ownership not settled",
+    "group": "Owner named, class unread or unstated",
+    "class": 3,
+    "basis": "owned by an estate listed for sale (2019) — current ownership not settled",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source on the current owner"
+   },
+   {
+    "market": "new-york",
+    "file": "new-york.html",
+    "num": "112",
+    "name": "Tops Friendly Markets",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "“See #3” — the note carries no finding of its own",
+    "group": "Other single cases",
+    "class": 3,
+    "basis": "“See #3” — the note carries no finding of its own",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "an ownership source — the note’s pointer (#3) names an unrelated row (DeCicco & Sons)"
+   },
+   {
+    "market": "new-york",
+    "file": "new-york.html",
+    "num": "114",
+    "name": "Guercio & Sons",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "under contract for sale",
+    "group": "Other single cases",
+    "class": 3,
+    "basis": "under contract for sale",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a dated source on the current owner"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "14",
+    "name": "Da Yang Seafood",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify parent",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "132",
+    "name": "Stoneway Electric OR",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify parent",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "pennsylvania",
+    "file": "pennsylvania.html",
+    "num": "80",
+    "name": "Hunter Roberts PA",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "out-of-state branch with “no single controlling family principal” — neither verification nor fit settled",
+    "group": "Other single cases",
+    "class": 3,
+    "basis": "out-of-state branch with “no single controlling family principal” — neither verification nor fit settled",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "utah",
+    "file": "utah.html",
+    "num": "15",
+    "name": "ENVE Composites",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "PE stake — confirm control",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "PE stake — confirm control",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a control source: who holds control of the stake"
+   },
+   {
+    "market": "utah",
+    "file": "utah.html",
+    "num": "196",
+    "name": "Christensen Arms",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "PE stake — confirm control; tier contest held",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "PE stake — confirm control; tier contest held",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a control source: who holds control of the stake"
+   },
+   {
+    "market": "washington",
+    "file": "washington.html",
+    "num": "2",
+    "name": "Nordstrom",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "reverse arc: taken private 2025 — verify decision layer",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "reverse arc: taken private 2025 — verify decision layer",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a decision-layer source"
+   },
+   {
+    "market": "washington",
+    "file": "washington.html",
+    "num": "109",
+    "name": "Vulcan Inc.",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify decision authority",
+    "group": "Verification left open",
+    "class": 3,
+    "basis": "verify decision authority",
+    "moved": "none — named and left",
+    "a": "A3",
+    "detail": "a decision-layer source"
+   }
+  ]
+ },
+ "reads": {
+  "own": {
+   "rows": {
+    "arizona.html#20": {
+     "name": "Sun State Builders Supply",
+     "query": "\"Sun State Builders Supply\" Arizona",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "arizona.html#37": {
+     "name": "Rowland Companies",
+     "query": "\"Rowland Companies\" Arizona",
+     "search": "results",
+     "site": "rowlandcompanies.com",
+     "pages": [
+      {
+       "url": "rowlandcompanies.com",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "arizona.html#78": {
+     "name": "Border Products",
+     "query": "\"Border Products\" Arizona",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "arizona.html#118": {
+     "name": "Nutrition Industries",
+     "query": "\"Nutrition Industries\" Arizona",
+     "search": "results",
+     "site": "nutrition.gov",
+     "pages": [
+      {
+       "url": "nutrition.gov",
+       "sents": [
+        "Discover the Recipe USDA National School Lunch Program Learn about USDA’s National School Lunch Program which provided over 4.8 billion lunches in 2024, and nearly 246 billion since 1969."
+       ],
+       "class": null
+      },
+      {
+       "url": "nutrition.gov/about-us",
+       "sents": [
+        "Nutrition.gov was launched in 2004 as part of the USDA's Obesity Intervention Plan.",
+        "Contact Information: Contact information must be available for communication with the owner of the site (i.e."
+       ],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "arizona.html#183": {
+     "name": "Right Away Disposal",
+     "query": "\"Right Away Disposal\" Arizona",
+     "search": "results",
+     "site": "rightawaydisposal.com",
+     "pages": [
+      {
+       "url": "wasteconnections.com/arizona",
+       "sents": [],
+       "class": null
+      },
+      {
+       "url": "wasteconnections.com/company/about-us",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "arizona.html#187": {
+     "name": "Cheeses of Arizona",
+     "query": "\"Cheeses of Arizona\" Arizona",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "california.html#38": {
+     "name": "Harris Ranch",
+     "query": "\"Harris Ranch\" California",
+     "search": "results",
+     "site": "harrisranch.com",
+     "pages": [
+      {
+       "url": "harrisranch.com",
+       "sents": [],
+       "class": null
+      },
+      {
+       "url": "harrisranch.com/about",
+       "sents": [
+        "Discover Our Roots The Harris family’s commitment to agriculture began over 100 years ago, spanning across multiple states and four generations.",
+        "As a proud farmer, horse breeder, restaurateur and philanthropist, John’s direction as owner of Harris Farms, Inc.",
+        "Harris Farms Family of Companies While our awarding-winning hotel and restaurants are what brought you to discovering the Harris Ranch Resort, we are a part of a distinct family of companies that has expanded into one of the most integrated and diversified fam",
+        "Thoroughbred Horse Division The Harris Farms Thoroughbred Horse Division was founded by the Harris family in 1966.",
+        "The Thoroughbred Horse Division was founded upon the vision of John Harris and his father Jack; cattle ranchers, farmers and horsemen, whose goal was to devote part of their operations to the breeding, raising, and training of Thoroughbred racehorses.",
+        "Thoroughbred Horse Division The Harris Farms Thoroughbred Horse Division was founded by the Harris family in 1966.",
+        "The Thoroughbred Horse Division was founded upon the vision of John Harris and his father Jack; cattle ranchers, farmers and horsemen, whose goal was to devote part of their operations to the breeding, raising, and training of Thoroughbred racehorses.",
+        "Harris Vineyards The Harris Ranch Vineyard was founded in 1975 and comprises 790 acres along the north bank of the Mokelumne River in Lodi, CA."
+       ],
+       "class": "neither"
+      }
+     ],
+     "refused": false
+    },
+    "colorado.html#66": {
+     "name": "Save A Lot Colorado",
+     "query": "\"Save A Lot Colorado\" Colorado",
+     "search": "results",
+     "site": "savealot.com",
+     "pages": [
+      {
+       "url": "savealot.com",
+       "sents": [],
+       "class": null
+      },
+      {
+       "url": "savealot.com/about-us",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "florida-expansion.html#3": {
+     "name": "Tampa Maid Foods",
+     "query": "\"Tampa Maid Foods\" Florida",
+     "search": "results",
+     "site": "tampamaid.com",
+     "pages": [
+      {
+       "url": "http://www.tampamaid.com/products/ocean-innovations/shrimp.aspx",
+       "refused": true
+      }
+     ],
+     "refused": true
+    },
+    "florida-expansion.html#24": {
+     "name": "The Father's Table",
+     "query": "\"The Father's Table\" Florida",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "florida-expansion.html#40": {
+     "name": "Conimar Corporation",
+     "query": "\"Conimar Corporation\" Florida",
+     "search": "results",
+     "site": "conimar.com",
+     "pages": [
+      {
+       "url": "conimar.net",
+       "sents": [],
+       "class": null
+      },
+      {
+       "url": "conimar.net/pages/aboutus",
+       "sents": [
+        "Infrastructure A Facility Built to Scale ⚡ 480V 3-Phase Power Infrastructure ▦ 35,000 Double-Pallet High-Bay Warehouse ▤ 5 Loading Bays ◫ Complete Pick-and-Pack Shelving ◆ Operating Since 1976 Location Proudly Made in Ocala, Florida Located in Central Florida'",
+        "📍 Ocala · Marion County · Central Florida Legacy Nearly 50 Years of American Manufacturing Since 1976, this facility has continuously operated as a vertically integrated plastics and paper manufacturing operation — evolving equipment and capability while remai",
+        "Address Ocala, Florida, United States Contact Explore Manufacturing in America since 1976 About Us Your Privacy Choices Subscribe to our emails Email Facebook Instagram YouTube Pinterest Payment methods American Express Apple Pay Diners Club Discover Google Pa"
+       ],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "michigan.html#94": {
+     "name": "Plum Market",
+     "query": "\"Plum Market\" Michigan",
+     "search": "results",
+     "site": "plummarket.com",
+     "pages": [
+      {
+       "url": "plummarket.com",
+       "sents": [
+        "Client Challenge A required part of this site couldn’t load."
+       ],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "michigan.html#118": {
+     "name": "Cummins-Wagner Michigan",
+     "query": "\"Cummins-Wagner\" Michigan",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "minnesota.html#114": {
+     "name": "Winland Electronics",
+     "query": "\"Winland Electronics\" Minnesota",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "oregon.html#197": {
+     "name": "Sunriver Resort",
+     "query": "\"Sunriver Resort\" Oregon",
+     "search": "results",
+     "site": "sunriverresort.com",
+     "pages": [
+      {
+       "url": "sunriverresort.com",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "virginia.html#147": {
+     "name": "L.C. Industries",
+     "query": "\"L.C. Industries\" Virginia",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "washington.html#135": {
+     "name": "SSA Marine",
+     "query": "\"SSA Marine\" Washington",
+     "search": "results",
+     "site": "ssa.gov",
+     "pages": [
+      {
+       "url": "https://www.ssa.gov/",
+       "refused": true
+      }
+     ],
+     "refused": true
+    }
+   },
+   "blocked": false
+  },
+  "control": {
+   "rows": {
+    "arizona.html#130": {
+     "name": "Arizona Materials",
+     "query": "\"Arizona Materials\" Arizona",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "colorado.html#48": {
+     "name": "Aurora Organic Dairy",
+     "query": "\"Aurora Organic Dairy\" Colorado",
+     "search": "results",
+     "site": "auroraorganic.com",
+     "pages": [
+      {
+       "url": "auroraorganic.com",
+       "sents": [
+        "In addition, we source from approximately 75 independent farmers growing organic feed on an estimated 75,000 acres."
+       ],
+       "class": null
+      },
+      {
+       "url": "auroraorganic.com/about-us",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "colorado.html#112": {
+     "name": "Stresscon Corporation",
+     "query": "\"Stresscon Corporation\" Colorado",
+     "search": "results",
+     "site": "stresscon.com",
+     "pages": [
+      {
+       "url": "stresscon.com",
+       "sents": [],
+       "class": null
+      },
+      {
+       "url": "stresscon.com/about-us",
+       "sents": [
+        "Stresscon is part of the EnCon United group of companies, a consolidation of leading producer companies upon which the Prestressed/Precast Industry Concrete Industry was built.",
+        "The EnCon group of companies continue to build on its established reputation and vast experience in the prestressed/precast industry by expanding with innovative product lines, cutting-edge design techniques, and an active acquisition program.",
+        "Learn More Divisions The EnCon Companies Stresscon is a division of the EnCon United group of companies, who have been proudly providing prestressed/precast concrete construction materials for as long as 70 years and have delivered more than $3 Billion dollars"
+       ],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "florida.html#112": {
+     "name": "Morgan Auto Group",
+     "query": "\"Morgan Auto Group\" Florida",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "georgia.html#144": {
+     "name": "Jordan Lumber GA",
+     "query": "\"Jordan Lumber\" Georgia",
+     "search": "results",
+     "site": "jordanlumbercompany.com",
+     "pages": [
+      {
+       "url": "jordanlumbercompany.com",
+       "sents": [],
+       "class": null
+      },
+      {
+       "url": "jordanlumbercompany.com",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "minnesota.html#53": {
+     "name": "Pella MN",
+     "query": "\"Pella\" Minnesota",
+     "search": "results",
+     "site": "pella.com",
+     "pages": [
+      {
+       "url": "pella.com",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "minnesota.html#55": {
+     "name": "Anchor Block Company",
+     "query": "\"Anchor Block Company\" Minnesota",
+     "search": "results",
+     "site": "anchorblock.com",
+     "pages": [
+      {
+       "url": "anchorblock.com",
+       "sents": [
+        "Masonry and Hardscape - Anchor Block, a subsidiary of Oldcastle APG a CRH Company You are using an outdated browser.",
+        "Home Products Photos Contact Anchor Block a subsidiary of Oldcastle APG, a CRH company At Anchor Block we have a proud 100-year history of designing and manufacturing innovative concrete landscape and masonry products in the Midwest."
+       ],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "minnesota.html#156": {
+     "name": "Peerless Industrial Group",
+     "query": "\"Peerless Industrial Group\" Minnesota",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "missouri.html#147": {
+     "name": "Mayer Hoffman McCann",
+     "query": "\"Mayer Hoffman McCann\" Missouri",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "missouri.html#174": {
+     "name": "Willow Brook Foods",
+     "query": "\"Willow Brook Foods\" Missouri",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "new-york.html#41": {
+     "name": "Pavarini McGovern",
+     "query": "\"Pavarini McGovern\" New York",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "new-york.html#76": {
+     "name": "Bedell Cellars",
+     "query": "\"Bedell Cellars\" New York",
+     "search": "results",
+     "site": "bedellcellars.com",
+     "pages": [
+      {
+       "url": "bedellcellars.com",
+       "sents": [
+        "WINE & FOOD MENUS   Bedell Cellars is a pioneering, family owned winery in the long island wine growing region."
+       ],
+       "class": "neither"
+      },
+      {
+       "url": "bedellcellars.com/team",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "new-york.html#112": {
+     "name": "Tops Friendly Markets",
+     "query": "\"Tops Friendly Markets\" New York",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "new-york.html#114": {
+     "name": "Guercio & Sons",
+     "query": "\"Guercio & Sons\" New York",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "oregon.html#14": {
+     "name": "Da Yang Seafood",
+     "query": "\"Da Yang Seafood\" Oregon",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "oregon.html#132": {
+     "name": "Stoneway Electric OR",
+     "query": "\"Stoneway Electric\" Oregon",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "pennsylvania.html#80": {
+     "name": "Hunter Roberts PA",
+     "query": "\"Hunter Roberts\" Pennsylvania",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "utah.html#15": {
+     "name": "ENVE Composites",
+     "query": "\"ENVE Composites\" Utah",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "utah.html#196": {
+     "name": "Christensen Arms",
+     "query": "\"Christensen Arms\" Utah",
+     "search": "results",
+     "site": "christensenarms.com",
+     "pages": [
+      {
+       "url": "christensenarms.com",
+       "sents": [],
+       "class": null
+      },
+      {
+       "url": "christensenarms.com/barrel-technology",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "washington.html#2": {
+     "name": "Nordstrom",
+     "query": "\"Nordstrom\" Washington",
+     "search": "results",
+     "site": "nordstromrack.com",
+     "pages": [
+      {
+       "url": "nordstromrack.com",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "washington.html#109": {
+     "name": "Vulcan Inc.",
+     "query": "\"Vulcan Inc.\" Washington",
+     "search": "results",
+     "site": "vulcanrealestate.com",
+     "pages": [
+      {
+       "url": "vulcanrealestate.com",
+       "sents": [],
+       "class": null
+      },
+      {
+       "url": "vulcanrealestate.com/about",
+       "sents": [
+        "We are a genuine partner in every aspect of development Acquisitions We focus on acquiring land for redevelopment and value-add opportunities.",
+        "By the Numbers $830m Acquisitions $5.7b Financing Secured with 32 Different Lenders 13.6m Square Feet Delivered 10.2m Square Feet of Leases Signed 250+ Community & Public/Private Partnerships 4.8m Square Feet Under Management Lasting Impacts Meet our team We a"
+       ],
+       "class": null
+      }
+     ],
+     "refused": false
+    }
+   },
+   "blocked": false
+  },
+  "class": {
+   "rows": {
+    "arizona.html#171": {
+     "name": "Scottsdale Ferrari",
+     "query": "\"Scottsdale Ferrari\" Arizona",
+     "search": "results",
+     "site": null,
+     "pages": [],
+     "refused": false
+    },
+    "georgia.html#81": {
+     "name": "Gay Construction",
+     "query": "\"Gay Construction\" Georgia",
+     "search": "results",
+     "site": "gayconstruction.com",
+     "pages": [
+      {
+       "url": "gayconstruction.com/connect",
+       "sents": [],
+       "class": null
+      },
+      {
+       "url": "gayconstruction.com/about",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    },
+    "michigan.html#17": {
+     "name": "Star of the West Milling",
+     "query": "\"Star of the West Milling\" Michigan",
+     "search": "results",
+     "site": "starofthewest.com",
+     "pages": [
+      {
+       "url": "starofthewest.com",
+       "sents": [],
+       "class": null
+      },
+      {
+       "url": "starofthewest.com/ourstory",
+       "sents": [],
+       "class": null
+      }
+     ],
+     "refused": false
+    }
+   },
+   "blocked": false
+  }
+ },
+ "rows": [
+  {
+   "group": "own",
+   "row": "arizona.html#20",
+   "name": "Sun State Builders Supply",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read search.yahoo.com search “Sun State Builders Supply Arizona” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "own",
+   "row": "arizona.html#37",
+   "name": "Rowland Companies",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read rowlandcompanies.com 2026-11-01 — fact not re-established at this read (the page read does not state what the row is owed)."
+  },
+  {
+   "group": "own",
+   "row": "arizona.html#78",
+   "name": "Border Products",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read search.yahoo.com search “Border Products Arizona” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "own",
+   "row": "arizona.html#118",
+   "name": "Nutrition Industries",
+   "outcome": "not settled — wrong identity withdrawn",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read search.yahoo.com search “Nutrition Industries Arizona” 2026-11-01 — fact not re-established at this read (the only site matching the name was nutrition.gov, a government domain, rejected as the wrong identity under entry 30’s corrected rule)."
+  },
+  {
+   "group": "own",
+   "row": "arizona.html#183",
+   "name": "Right Away Disposal",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read wasteconnections.com/company/about-us 2026-11-01 — fact not re-established at this read (the page read does not state what the row is owed; the company’s own domain now resolves to wasteconnections.com — recorded as read, not as a statement of acquisition)."
+  },
+  {
+   "group": "own",
+   "row": "arizona.html#187",
+   "name": "Cheeses of Arizona",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read search.yahoo.com search “Cheeses of Arizona Arizona” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "own",
+   "row": "california.html#38",
+   "name": "Harris Ranch",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read harrisranch.com/about 2026-11-01 — fact not re-established at this read (the page read does not state what the row is owed; the about page describes the Harris Farms family of companies, owned by John Harris, but does not say which entity this row is)."
+  },
+  {
+   "group": "own",
+   "row": "colorado.html#66",
+   "name": "Save A Lot Colorado",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read savealot.com/about-us 2026-11-01 — fact not re-established at this read (the page read does not state what the row is owed)."
+  },
+  {
+   "group": "own",
+   "row": "florida-expansion.html#3",
+   "name": "Tampa Maid Foods",
+   "outcome": "not settled — refused",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read tampamaid.com/products/ocean-innovations/shrimp.aspx 2026-11-01 — fact not re-established at this read (page refused)."
+  },
+  {
+   "group": "own",
+   "row": "florida-expansion.html#24",
+   "name": "The Father's Table",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read search.yahoo.com search “The Father's Table Florida” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "own",
+   "row": "florida-expansion.html#40",
+   "name": "Conimar Corporation",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read conimar.net/pages/aboutus 2026-11-01 — fact not re-established at this read (the page read does not state what the row is owed)."
+  },
+  {
+   "group": "own",
+   "row": "michigan.html#94",
+   "name": "Plum Market",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read plummarket.com 2026-11-01 — fact not re-established at this read (the page read does not state what the row is owed)."
+  },
+  {
+   "group": "own",
+   "row": "michigan.html#118",
+   "name": "Cummins-Wagner Michigan",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read search.yahoo.com search “Cummins-Wagner Michigan” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "own",
+   "row": "minnesota.html#114",
+   "name": "Winland Electronics",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read search.yahoo.com search “Winland Electronics Minnesota” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "own",
+   "row": "oregon.html#197",
+   "name": "Sunriver Resort",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read sunriverresort.com 2026-11-01 — fact not re-established at this read (the page read does not state what the row is owed)."
+  },
+  {
+   "group": "own",
+   "row": "virginia.html#147",
+   "name": "L.C. Industries",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read search.yahoo.com search “L.C. Industries Virginia” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "own",
+   "row": "washington.html#135",
+   "name": "SSA Marine",
+   "outcome": "not settled — wrong identity withdrawn",
+   "line": "Item 348 (2026-11-01), A3 own read, one attempt: not settled. Src: read search.yahoo.com search “SSA Marine Washington” 2026-11-01 — fact not re-established at this read (the only site matching the name was ssa.gov, a government domain, rejected as the wrong identity under entry 30’s corrected rule)."
+  },
+  {
+   "group": "control",
+   "row": "arizona.html#130",
+   "name": "Arizona Materials",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Arizona Materials Arizona” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "colorado.html#48",
+   "name": "Aurora Organic Dairy",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read auroraorganic.com/about-us 2026-11-01 — fact not re-established at this read (the page read does not state who owns or controls the company)."
+  },
+  {
+   "group": "control",
+   "row": "colorado.html#112",
+   "name": "Stresscon Corporation",
+   "outcome": "settled — Tier C (parent)",
+   "src": "stresscon.com/about-us"
+  },
+  {
+   "group": "control",
+   "row": "florida.html#112",
+   "name": "Morgan Auto Group",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Morgan Auto Group Florida” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "georgia.html#144",
+   "name": "Jordan Lumber GA",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read jordanlumbercompany.com 2026-11-01 — fact not re-established at this read (the page read does not state who owns or controls the company)."
+  },
+  {
+   "group": "control",
+   "row": "minnesota.html#53",
+   "name": "Pella MN",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read pella.com 2026-11-01 — fact not re-established at this read (the page read does not state who owns or controls the company)."
+  },
+  {
+   "group": "control",
+   "row": "minnesota.html#55",
+   "name": "Anchor Block Company",
+   "outcome": "settled — Tier C (parent)",
+   "src": "anchorblock.com"
+  },
+  {
+   "group": "control",
+   "row": "minnesota.html#156",
+   "name": "Peerless Industrial Group",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Peerless Industrial Group Minnesota” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "missouri.html#147",
+   "name": "Mayer Hoffman McCann",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Mayer Hoffman McCann Missouri” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "missouri.html#174",
+   "name": "Willow Brook Foods",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Willow Brook Foods Missouri” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "new-york.html#41",
+   "name": "Pavarini McGovern",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Pavarini McGovern New York” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "new-york.html#76",
+   "name": "Bedell Cellars",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read bedellcellars.com/team 2026-11-01 — fact not re-established at this read (the page read does not state who owns or controls the company; the home page says Bedell Cellars is “a pioneering, family owned winery”, but names no current owner)."
+  },
+  {
+   "group": "control",
+   "row": "new-york.html#112",
+   "name": "Tops Friendly Markets",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Tops Friendly Markets New York” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "new-york.html#114",
+   "name": "Guercio & Sons",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Guercio & Sons New York” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "oregon.html#14",
+   "name": "Da Yang Seafood",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Da Yang Seafood Oregon” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "oregon.html#132",
+   "name": "Stoneway Electric OR",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Stoneway Electric Oregon” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "pennsylvania.html#80",
+   "name": "Hunter Roberts PA",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “Hunter Roberts Pennsylvania” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "utah.html#15",
+   "name": "ENVE Composites",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read search.yahoo.com search “ENVE Composites Utah” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "control",
+   "row": "utah.html#196",
+   "name": "Christensen Arms",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read christensenarms.com/barrel-technology 2026-11-01 — fact not re-established at this read (the page read does not state who owns or controls the company)."
+  },
+  {
+   "group": "control",
+   "row": "washington.html#2",
+   "name": "Nordstrom",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read nordstromrack.com 2026-11-01 — fact not re-established at this read (the page read does not state who owns or controls the company)."
+  },
+  {
+   "group": "control",
+   "row": "washington.html#109",
+   "name": "Vulcan Inc.",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 control read, one attempt: not settled. Src: read vulcanrealestate.com/about 2026-11-01 — fact not re-established at this read (the page read does not state who owns or controls the company)."
+  },
+  {
+   "group": "class",
+   "row": "arizona.html#171",
+   "name": "Scottsdale Ferrari",
+   "outcome": "not settled — site never reached",
+   "line": "Item 348 (2026-11-01), A3 class read, one attempt: not settled. Src: read search.yahoo.com search “Scottsdale Ferrari Arizona” 2026-11-01 — fact not re-established at this read (no result passed the whole-name rule, so the company’s own site was never reached)."
+  },
+  {
+   "group": "class",
+   "row": "georgia.html#81",
+   "name": "Gay Construction",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 class read, one attempt: not settled. Src: read gayconstruction.com/about 2026-11-01 — fact not re-established at this read (the page read does not state the company’s class)."
+  },
+  {
+   "group": "class",
+   "row": "michigan.html#17",
+   "name": "Star of the West Milling",
+   "outcome": "not settled — page silent on the fact",
+   "line": "Item 348 (2026-11-01), A3 class read, one attempt: not settled. Src: read starofthewest.com/ourstory 2026-11-01 — fact not re-established at this read (the page read does not state the company’s class)."
+  }
+ ],
+ "counts": {
+  "call_ready": [
+   312,
+   312
+  ],
+  "gained": [],
+  "lost": [],
+  "by_name": [
+   305,
+   305
+  ],
+  "by_cell_text": [
+   312,
+   312
+  ],
+  "dialable": [
+   [
+    4079,
+    4045
+   ],
+   [
+    4077,
+    4043
+   ]
+  ],
+  "tierC_rows": [
+   2197,
+   2199
+  ],
+  "breaks": [
+   63,
+   61
+  ],
+  "exempt": [
+   1,
+   1
+  ]
+ }
+}
