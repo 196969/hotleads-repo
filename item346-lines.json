@@ -1,0 +1,1483 @@
+{
+ "item": "346",
+ "partA": [
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "20",
+   "name": "Sun State Builders Supply",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "ghost-row suspect — existence unconfirmed",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "ghost-row suspect — existence unconfirmed",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "37",
+   "name": "Rowland Companies",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "ghost-row suspect",
+   "group": "Ghost-row suspect",
+   "class": 3,
+   "basis": "ghost-row suspect",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "78",
+   "name": "Border Products",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "ghost-row suspect",
+   "group": "Ghost-row suspect",
+   "class": 3,
+   "basis": "ghost-row suspect",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "118",
+   "name": "Nutrition Industries",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "ghost-row suspect",
+   "group": "Ghost-row suspect",
+   "class": 3,
+   "basis": "ghost-row suspect",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "130",
+   "name": "Arizona Materials",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent — parked",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent — parked",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "171",
+   "name": "Scottsdale Ferrari",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "a public-parent suspicion, not a disqualifier",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "a public-parent suspicion, not a disqualifier",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "183",
+   "name": "Right Away Disposal",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "parked — acquisition check",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "parked — acquisition check",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "187",
+   "name": "Cheeses of Arizona",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "ghost-row suspect",
+   "group": "Ghost-row suspect",
+   "class": 3,
+   "basis": "ghost-row suspect",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "california",
+   "file": "california.html",
+   "num": "38",
+   "name": "Harris Ranch",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "split entity — the beef business sold (2019), the farms remain family-owned; which one the row is, the note does not settle",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "split entity — the beef business sold (2019), the farms remain family-owned; which one the row is, the note does not settle",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "chicago",
+   "file": "chicago.html",
+   "num": "87",
+   "name": "Sikich",
+   "tier": "C",
+   "status": "Verified",
+   "reason": "Tier C row whose note names a minority stake, not control, and a competitor — no disqualifier for C",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "Tier C row whose note names a minority stake, not control, and a competitor — no disqualifier for C",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "48",
+   "name": "Aurora Organic Dairy",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify PE structure — parked",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify PE structure — parked",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "66",
+   "name": "Save A Lot Colorado",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify franchise structure — parked",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify franchise structure — parked",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "112",
+   "name": "Stresscon Corporation",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent — parked",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent — parked",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "44",
+   "name": "J.J. Taylor Distributing FL",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note gives both a scale reason and a control reason",
+   "group": "Both a scale and a control reason",
+   "class": 1,
+   "basis": "out-of-state parent",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "67",
+   "name": "Duda Farm Fresh Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note gives both a scale reason and a control reason",
+   "group": "Both a scale and a control reason",
+   "class": 2,
+   "basis": "“too large”; the parent, A. Duda & Sons, is in-state — not a listed class failure",
+   "moved": "none — scale-downgraded line written"
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "112",
+   "name": "Morgan Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note gives both a scale reason and a control reason",
+   "group": "Both a scale and a control reason",
+   "class": 3,
+   "basis": "the note gives both a scale reason and a control reason",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "3",
+   "name": "Tampa Maid Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note leaves verification open (“CONFIRM”)",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "the note leaves verification open (“CONFIRM”)",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "24",
+   "name": "The Father's Table",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note leaves verification open (“CONFIRM”)",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "the note leaves verification open (“CONFIRM”)",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "40",
+   "name": "Conimar Corporation",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note leaves verification open (“CONFIRM”)",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "the note leaves verification open (“CONFIRM”)",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "11",
+   "name": "Zaxby’s",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "scale and a PE minority stake together",
+   "group": "Both a scale and a control reason",
+   "class": 2,
+   "basis": "“too large”; the PE position is a minority stake (not control, so not a class failure)",
+   "moved": "none — scale-downgraded line written"
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "81",
+   "name": "Gay Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note names the “ESOP class” but establishes neither employee ownership nor a decision maker (Item 336)",
+   "group": "ESOP asserted, not established",
+   "class": 3,
+   "basis": "the note names the “ESOP class” but establishes neither employee ownership nor a decision maker (Item 336)",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "144",
+   "name": "Jordan Lumber GA",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "out-of-state “probable”, with a namesake/acquisition warning",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "out-of-state “probable”, with a namesake/acquisition warning",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "160",
+   "name": "Premium Peanut",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "grower cooperative — not a public or PE disqualifier",
+   "group": "Cooperative or nonprofit",
+   "class": 1,
+   "basis": "grower cooperative",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "13",
+   "name": "Cherry Central",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "grower cooperative — out by a standing class ruling, but not a public or PE disqualifier; this brief moves a tier only on those",
+   "group": "Cooperative or nonprofit",
+   "class": 1,
+   "basis": "grower cooperative",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "14",
+   "name": "Graceland Fruit",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the remaining text says a cooperative — not a public or PE disqualifier, and no mapping status settles it",
+   "group": "Cooperative or nonprofit",
+   "class": 1,
+   "basis": "cooperative",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "15",
+   "name": "Shoreline Fruit",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the remaining text says a cooperative (as Graceland) — not settled by the mapping",
+   "group": "Cooperative or nonprofit",
+   "class": 1,
+   "basis": "cooperative",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "16",
+   "name": "Michigan Sugar",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "grower cooperative — out by a standing class ruling, but not a public or PE disqualifier; this brief moves a tier only on those",
+   "group": "Cooperative or nonprofit",
+   "class": 1,
+   "basis": "grower cooperative",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "17",
+   "name": "Star of the West Milling",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the remaining text says farmer/shareholder-owned since the family left in 1903 — neither tier nor status settled",
+   "group": "Cooperative or nonprofit",
+   "class": 3,
+   "basis": "the remaining text says farmer/shareholder-owned since the family left in 1903 — neither tier nor status settled",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "94",
+   "name": "Plum Market",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note’s finding is an inference from silence (“privately owned … is itself the signal”), not an established ownership fact",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "the note’s finding is an inference from silence (“privately owned … is itself the signal”), not an established ownership fact",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "118",
+   "name": "Cummins-Wagner Michigan",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note carries a strong data-quality flag on the row’s identity",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "the note carries a strong data-quality flag on the row’s identity",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "53",
+   "name": "Pella MN",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "verify Minnesota authority",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify Minnesota authority",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "55",
+   "name": "Anchor Block Company",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "114",
+   "name": "Winland Electronics",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify structure",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify structure",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "156",
+   "name": "Peerless Industrial Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify PE",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify PE",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "177",
+   "name": "Briggs and Morgan",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "merged into another firm; the owner’s class is unread",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "merged into Taft (acquired)",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "178",
+   "name": "Gray Plant Mooty",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "merged into another firm; the owner’s class is unread",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "merged into Lathrop GPM (acquired)",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "66",
+   "name": "Major Brands",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "Tier A row with no demotion reason in the note",
+   "group": "Tier A row with no demotion reason",
+   "class": 3,
+   "basis": "Tier A row with no demotion reason in the note",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "67",
+   "name": "Glazer’s Midwest",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "owned by Southern Glazer’s; class not stated in the note",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "owned by Southern Glazer’s",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "143",
+   "name": "Brown Smith Wallace / Armanino",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "merged into Armanino; class unread",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "merged into Armanino (acquired)",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "147",
+   "name": "Mayer Hoffman McCann",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "CBIZ affiliated, not owned",
+   "group": "Owner named, class unread or unstated",
+   "class": 3,
+   "basis": "CBIZ affiliated, not owned",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "148",
+   "name": "Bryan Cave Leighton Paisner",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "Tier A law firm with no demotion reason in the note",
+   "group": "Tier A row with no demotion reason",
+   "class": 3,
+   "basis": "Tier A law firm with no demotion reason in the note",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "158",
+   "name": "Greensfelder Hemker & Gale",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "Tier A law firm with no demotion reason in the note",
+   "group": "Tier A row with no demotion reason",
+   "class": 3,
+   "basis": "Tier A law firm with no demotion reason in the note",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "174",
+   "name": "Willow Brook Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "183",
+   "name": "Litton Entertainment",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "owned by Hearst; class unread",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "owned by Hearst",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "188",
+   "name": "Doe Run Company",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "Renco Group owned — verify",
+   "group": "Verification left open",
+   "class": 1,
+   "basis": "owned by Renco Group",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "200",
+   "name": "Soulard Farmers Market vendors",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "individual family vendors",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "individual family vendors",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "38",
+   "name": "Plaza Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "owned by China Construction America; class unread",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "owned by China Construction America",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "41",
+   "name": "Pavarini McGovern",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "Structure Tone affiliated",
+   "group": "Owner named, class unread or unstated",
+   "class": 3,
+   "basis": "Structure Tone affiliated",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "76",
+   "name": "Bedell Cellars",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "owned by an estate listed for sale (2019) — current ownership not settled",
+   "group": "Owner named, class unread or unstated",
+   "class": 3,
+   "basis": "owned by an estate listed for sale (2019) — current ownership not settled",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "112",
+   "name": "Tops Friendly Markets",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "“See #3” — the note carries no finding of its own",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "“See #3” — the note carries no finding of its own",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "114",
+   "name": "Guercio & Sons",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "under contract for sale",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "under contract for sale",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "124",
+   "name": "Boggs Paving",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "reputational — not a mapping reason",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "reputational — not a mapping reason",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "166",
+   "name": "Modern Automotive Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "168",
+   "name": "Leith Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, namesake per branding — confirm",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, namesake per branding — confirm",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "170",
+   "name": "Johnson Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, namesake per branding — confirm",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, namesake per branding — confirm",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "171",
+   "name": "Capital Automotive Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, ownership not confirmed",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, ownership not confirmed",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "172",
+   "name": "Hubert Vester Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, namesake per branding — confirm",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, namesake per branding — confirm",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "173",
+   "name": "Jim Barkley Toyota",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, namesake store — ownership not verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, namesake store — ownership not verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "190",
+   "name": "Gaia Herbs",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "investor group (TBL, Ardara, One Better); class not stated as PE",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "sold to an investor group (TBL, Ardara, One Better)",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "5",
+   "name": "Sugardale Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note gives both a scale reason and a control reason",
+   "group": "Both a scale and a control reason",
+   "class": 2,
+   "basis": "“too large”; a brand of Fresh Mark, an in-state parent — not a listed class failure",
+   "moved": "none — scale-downgraded line written"
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "78",
+   "name": "Barton Malow Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note gives both a scale reason and a control reason",
+   "group": "Both a scale and a control reason",
+   "class": 1,
+   "basis": "out-of-state parent (Michigan)",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "6",
+   "name": "New Seasons Market",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "owned by Emart; class unread",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "owned by Emart",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "14",
+   "name": "Da Yang Seafood",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "19",
+   "name": "Alpenrose Dairy",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "Smith Brothers acquired — verify",
+   "group": "Verification left open",
+   "class": 1,
+   "basis": "acquired by Smith Brothers",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "132",
+   "name": "Stoneway Electric OR",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "141",
+   "name": "Danner Boots",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "owned by LaCrosse/ABC-Mart; class not stated",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "owned by LaCrosse / ABC-Mart",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "148",
+   "name": "CD Baby / Downtown",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "Downtown Music Holdings — verify",
+   "group": "Verification left open",
+   "class": 1,
+   "basis": "owned by Downtown Music Holdings",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "155",
+   "name": "Blount International",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "“See #151” — the note carries no finding of its own",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "“See #151” — the note carries no finding of its own",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "165",
+   "name": "Rodda Paint",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "owned by Cloverdale (Canada); class not stated",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "owned by Cloverdale (Canada)",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "190",
+   "name": "Ater Wynne",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "merged; no owner named",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "merged (acquired; no owner named)",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "197",
+   "name": "Sunriver Resort",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify ownership",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify ownership",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "80",
+   "name": "Hunter Roberts PA",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "out-of-state branch with “no single controlling family principal” — neither verification nor fit settled",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "out-of-state branch with “no single controlling family principal” — neither verification nor fit settled",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "28",
+   "name": "Gulf Coast Machine & Supply",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "Tier A row; confirm principal — no demotion reason",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "Tier A row; confirm principal — no demotion reason",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "118",
+   "name": "Gulf States Toyota",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "119",
+   "name": "Sewell Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "120",
+   "name": "Charles Maund Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "121",
+   "name": "Red McCombs Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "122",
+   "name": "Ancira Enterprises",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "123",
+   "name": "Mac Haik Enterprises",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "124",
+   "name": "Gay Family Auto",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "125",
+   "name": "Classic Chevrolet",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "126",
+   "name": "Bert Ogden Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "127",
+   "name": "Randall Reed Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "128",
+   "name": "Freeman Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "129",
+   "name": "Moritz Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "130",
+   "name": "Huffines Auto Dealerships",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "131",
+   "name": "Fikes Wholesale / CEFCO",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "utah",
+   "file": "utah.html",
+   "num": "15",
+   "name": "ENVE Composites",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "PE stake — confirm control",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "PE stake — confirm control",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "utah",
+   "file": "utah.html",
+   "num": "196",
+   "name": "Christensen Arms",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "PE stake — confirm control; tier contest held",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "PE stake — confirm control; tier contest held",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "virginia",
+   "file": "virginia.html",
+   "num": "64",
+   "name": "Barboursville Vineyards",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "owner Zonin; class unread",
+   "group": "Owner named, class unread or unstated",
+   "class": 1,
+   "basis": "owned by Zonin",
+   "moved": "tier B → C"
+  },
+  {
+   "market": "virginia",
+   "file": "virginia.html",
+   "num": "147",
+   "name": "L.C. Industries",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "nonprofit — not a public or PE disqualifier",
+   "group": "Cooperative or nonprofit",
+   "class": 3,
+   "basis": "nonprofit — not a public or PE disqualifier",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "washington",
+   "file": "washington.html",
+   "num": "2",
+   "name": "Nordstrom",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "reverse arc: taken private 2025 — verify decision layer",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "reverse arc: taken private 2025 — verify decision layer",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "washington",
+   "file": "washington.html",
+   "num": "109",
+   "name": "Vulcan Inc.",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify decision authority",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify decision authority",
+   "moved": "none — named and left"
+  },
+  {
+   "market": "washington",
+   "file": "washington.html",
+   "num": "135",
+   "name": "SSA Marine",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "structure row — parked",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "structure row — parked",
+   "moved": "none — named and left"
+  }
+ ],
+ "partB": {
+  "Zirkle Fruit Company": {
+   "market": "washington",
+   "query": "\"Zirkle Fruit\" Good Fruit Grower revenue",
+   "search": "results",
+   "results": [
+    "https://www.nexusmods.com/rigsofrods/mods/13",
+    "https://www.nexusmods.com/rigsofrods/mods/1",
+    "https://forums.nexusmods.com/topic/13364738-which-body-mod-is-best-for-female-v/",
+    "https://users.nexusmods.com/register",
+    "https://forums.nexusmods.com/topic/8481563-guide-for-installing-mods/",
+    "https://www.nexusmods.com/rigsofrods/mods/53"
+   ],
+   "page": {
+    "url": "https://www.nexusmods.com/rigsofrods/mods/13",
+    "refused": true
+   }
+  },
+  "Christensen Arms": {
+   "market": "utah",
+   "query": "\"Christensen Arms\" acquired by investment firm news",
+   "search": "results",
+   "results": [
+    "https://pitchbook.com/profiles/company/233969-50",
+    "https://whomakethis.com/who-makes-christensen-arms/",
+    "https://privateequityinfo.com/directory/private-equity-portfolio-company/2/christensen-arms",
+    "https://incfact.com/company/tdjbuyerdbachristensenarms-gunnison-ut/",
+    "https://mergr.com/company/christensen-arms/ownership",
+    "https://christensenarms.com/home/"
+   ],
+   "page": {
+    "url": "whomakethis.com/who-makes-christensen-arms",
+    "sents": [
+     "Christensen Arms remains a privately held company and has not been acquired by a larger corporate parent."
+    ],
+    "names_company": true
+   }
+  },
+  "Rappahannock Oyster Co.": {
+   "market": "virginia",
+   "query": "\"Rappahannock Oyster\" Topping restaurant oysters Croxton",
+   "search": "results",
+   "results": [
+    "https://rappahannockcountyva.gov/",
+    "https://en.wikipedia.org/wiki/Rappahannock_County,_Virginia",
+    "https://www.myrec.coop/",
+    "https://www.rappahannock.com/",
+    "https://www.rappnews.com/",
+    "https://www.rappahannock.edu/"
+   ],
+   "page": {
+    "url": "https://rappahannockcountyva.gov/",
+    "refused": true
+   }
+  }
+ },
+ "partC": {
+  "Alabama": {
+   "query": "Alabama Secretary of State business entity records search bulk data",
+   "search": "results",
+   "results": [
+    "https://en.wikipedia.org/wiki/Alabama",
+    "https://www.alabama.gov/",
+    "https://alabama.travel/",
+    "https://www.ua.edu/",
+    "https://alabama.travel/plan-your-trip/",
+    "https://www.worldatlas.com/maps/united-states/alabama",
+    "https://kids.nationalgeographic.com/geography/states/article/alabama",
+    "https://www.britannica.com/place/Alabama-state"
+   ],
+   "pages": [
+    {
+     "url": "alabama.gov",
+     "bulk": [],
+     "lookup": []
+    }
+   ],
+   "more": [
+    {
+     "query": "sos.alabama.gov business entities records",
+     "search": "results",
+     "results": [
+      "https://sos.ga.gov:8443/",
+      "https://georgia.gov/organization/georgia-secretary-state",
+      "https://ecorp.sos.ga.gov/",
+      "https://ecorp.sos.ga.gov/BusinessSearch",
+      "https://sos.ga.gov/georgia-property-owners-associations-division",
+      "https://mvp.sos.ga.gov/s/",
+      "https://en.m.wikipedia.org/wiki/SOS",
+      "https://secretaryofstate.org/georgia"
+     ]
+    },
+    {
+     "query": "Alabama Secretary of State business entity records",
+     "search": "results",
+     "results": [
+      "https://en.wikipedia.org/wiki/Alabama",
+      "https://www.alabama.gov/",
+      "https://alabama.travel/",
+      "https://www.ua.edu/",
+      "https://alabama.travel/plan-your-trip/",
+      "https://www.worldatlas.com/maps/united-states/alabama",
+      "https://kids.nationalgeographic.com/geography/states/article/alabama",
+      "https://www.britannica.com/place/Alabama-state"
+     ]
+    }
+   ]
+  },
+  "Oklahoma": {
+   "query": "Oklahoma Secretary of State business entity search bulk data download",
+   "search": "results",
+   "results": [
+    "https://en.wikipedia.org/wiki/Oklahoma",
+    "https://oklahoma.gov/",
+    "https://www.britannica.com/place/Oklahoma-state",
+    "https://www.worldatlas.com/maps/united-states/oklahoma",
+    "https://oklahoma.gov/about/about.html",
+    "https://www.travelok.com/",
+    "https://en.wikipedia.org/wiki/Portal:Oklahoma",
+    "https://www.tripadvisor.com/Attractions-g28957-Activities-Oklahoma.html"
+   ],
+   "pages": [
+    {
+     "url": "oklahoma.gov",
+     "bulk": [],
+     "lookup": []
+    },
+    {
+     "url": "oklahoma.gov/about/about.html",
+     "bulk": [],
+     "lookup": []
+    }
+   ],
+   "more": [
+    {
+     "query": "sos.ok.gov business entity search corporations",
+     "search": "results",
+     "results": [
+      "https://sos.ga.gov:8443/",
+      "https://georgia.gov/organization/georgia-secretary-state",
+      "https://ecorp.sos.ga.gov/",
+      "https://ecorp.sos.ga.gov/BusinessSearch",
+      "https://sos.ga.gov/georgia-property-owners-associations-division",
+      "https://mvp.sos.ga.gov/s/",
+      "https://en.m.wikipedia.org/wiki/SOS",
+      "https://secretaryofstate.org/georgia"
+     ]
+    },
+    {
+     "query": "Oklahoma Secretary of State corporations entity search",
+     "search": "results",
+     "results": [
+      "https://en.wikipedia.org/wiki/Oklahoma",
+      "https://oklahoma.gov/",
+      "https://www.britannica.com/place/Oklahoma-state",
+      "https://www.worldatlas.com/maps/united-states/oklahoma",
+      "https://oklahoma.gov/about/about.html",
+      "https://www.travelok.com/",
+      "https://en.wikipedia.org/wiki/Portal:Oklahoma",
+      "https://www.tripadvisor.com/Attractions-g28957-Activities-Oklahoma.html"
+     ]
+    }
+   ]
+  },
+  "Maryland": {
+   "query": "Maryland business entity search SDAT bulk data",
+   "search": "results",
+   "results": [
+    "https://dat.maryland.gov/businesses/Pages/default.aspx",
+    "https://egov.maryland.gov/businessexpress/entitysearch",
+    "https://egov.maryland.gov/BusinessExpress/EntitySearch/Search",
+    "https://businessexpress.maryland.gov/",
+    "https://dat.maryland.gov/Pages/sdatforms.aspx",
+    "https://dat.maryland.gov/businesses/Pages/Internet-Certificate-of-Status.aspx",
+    "https://dat.maryland.gov/businesses/Pages/Homebased-Business-Exemption.aspx",
+    "https://dat.maryland.gov/businesses/Pages/franchise-and-public-utilities.aspx"
+   ],
+   "pages": [
+    {
+     "url": "dat.maryland.gov/businesses/Pages/default.aspx",
+     "bulk": [],
+     "lookup": [
+      "ces Maryland Department of Assessments and Taxation --> Section Menu Businesses Business Entity Search Business Personal Property UCC Filings Public Utility and Franchise Tax Busines"
+     ]
+    },
+    {
+     "url": "egov.maryland.gov/businessexpress/entitysearch",
+     "bulk": [],
+     "lookup": [
+      "ister Your Business Online | Maryland.gov Skip To Content Help Translate Log In Business Entity Search Business Search Notice Close alert Notice Business Name: Search Department ID: ",
+      "ine | Maryland.gov Skip To Content Help Translate Log In Business Entity Search Business Search Notice Close alert Notice Business Name: Search Department ID: Search Employer "
+     ]
+    },
+    {
+     "url": "egov.maryland.gov/BusinessExpress/Error/MaintenanceError",
+     "bulk": [],
+     "lookup": [
+      "ne | Maryland.gov Skip To Content Help Translate Log In Registrations & Filings Business Search Maintenence Notice Close alert Notice Scheduled Maintenance Business Entity Sea",
+      "ngs Business Search Maintenence Notice Close alert Notice Scheduled Maintenance Business Entity Search and any Filings that require Entity Search, including Annual Reports, Amendment"
+     ]
+    },
+    {
+     "url": "businessexpress.maryland.gov",
+     "bulk": [],
+     "lookup": [
+      "ss. Download the Business Startup Checklist! Business Quick Links Business FAQs Business Entity Search Order Business Documents Register Your Business Register a Trade Name File Annu"
+     ]
+    },
+    {
+     "url": "maryland.gov",
+     "bulk": [],
+     "lookup": []
+    }
+   ],
+   "more": [
+    {
+     "query": "Maryland SDAT business entity data download bulk",
+     "search": "results",
+     "results": [
+      "https://en.wikipedia.org/wiki/Maryland",
+      "https://www.maryland.gov/",
+      "https://www.visitmaryland.org/",
+      "https://www.britannica.com/place/Maryland-state",
+      "https://www.maryland.gov/services",
+      "https://www.worldatlas.com/maps/united-states/maryland",
+      "https://en.wikipedia.org/wiki/Baltimore",
+      "https://www.visitmaryland.org/list/25-top-maryland-attractions"
+     ]
+    }
+   ]
+  }
+ },
+ "counts": {
+  "call_ready": [
+   313,
+   313
+  ],
+  "gained": [],
+  "lost": [],
+  "by_name": [
+   306,
+   306
+  ],
+  "by_cell_text": [
+   313,
+   313
+  ],
+  "dialable": [
+   4165,
+   4143
+  ],
+  "tier_c": [
+   2256,
+   2278
+  ]
+ }
+}

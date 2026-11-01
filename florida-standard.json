@@ -8030,6 +8030,18 @@
    "item": "333-334",
    "rule": "minority-stake rule",
    "text": "A minority stake — PE, sponsor or corporate — with the founder or family retaining control is not a disqualifier and not a control demotion to Tier C: the row stays in its tier, status Verified (the shared ownership is what was verified). Applied to BlueGrace, Sutherland, New Era Cap, Ameritex, Short’s Brewing; non-control PE (Weaber, Cyprium) is not PE control."
+  },
+  {
+   "date": "2026-11-01",
+   "item": "346",
+   "amends": "the invariant Downgraded ⇔ Tier C",
+   "new_rule": "Downgraded ⇔ Tier C for class failures only (public, PE-controlled, acquired, cooperative, out-of-state parent). A row downgraded on scale alone keeps its tier, keeps status Downgraded, and carries a dated “scale-downgraded” line; it is not a break.",
+   "reason": "Chair ruling, 1 November 2026: a company can be too large for the practice and still be owner-led and correctly tiered.",
+   "applied_to": [
+    "Zaxby’s (Georgia #11)",
+    "Duda Farm Fresh Foods (Florida #67)",
+    "Sugardale Foods (Ohio #5)"
+   ]
   }
  ],
  "item327_market_route_yields": {
@@ -8446,5 +8458,54 @@
    "partA": 6,
    "partB": 11
   }
- }
+ },
+ "new_ground_access": {
+  "measured": "2026-11-01",
+  "status": "attested, not gated",
+  "rule": "census only; no rows built, no discovery (Item 346 Part C)",
+  "states": {
+   "Alabama": {
+    "access_class": "not established",
+    "line": "Src: read search.yahoo.com search “Alabama Secretary of State business entity records” 2026-11-01 — fact not re-established at this read (three searches returned the state portal, Wikipedia and Georgia’s Secretary of State; the Alabama Secretary of State’s own pages were never reached)",
+    "cost_meaning": "unknown — neither a Florida-class nor a Chicago-class market can be declared; the reader cannot open this ground until it reaches the state’s own pages"
+   },
+   "Oklahoma": {
+    "access_class": "not established",
+    "line": "Src: read search.yahoo.com search “Oklahoma Secretary of State corporations entity search” 2026-11-01 — fact not re-established at this read (searches returned oklahoma.gov, Wikipedia and Georgia’s Secretary of State; the Oklahoma Secretary of State’s own pages were never reached)",
+    "cost_meaning": "unknown, as Alabama"
+   },
+   "Maryland": {
+    "access_class": "individual lookup (bulk not established either way)",
+    "line": "Src: read egov.maryland.gov/businessexpress/entitysearch 2026-11-01 — the state’s own entity search is an individual name lookup; dat.maryland.gov/businesses/Pages/default.aspx and businessexpress.maryland.gov read the same day state no bulk data offering; one search page redirected to a maintenance error",
+    "cost_meaning": "a Chicago-class market on the pages read — row-by-row lookup cost; a bulk file, if one exists, was not found and is not claimed"
+   }
+  }
+ },
+ "register_item346": [
+  {
+   "date": "2026-11-01",
+   "kind": "ruling reversal",
+   "text": "“Leave owed” on the four read-blocked contests (Chair, Items 340–343) reversed by the Chair in Item 346: one new-route attempt each was authorised. Zirkle, Christensen Arms and Rappahannock were each attempted once and remain owed; Elliott Electric spent nothing (the reader is still scripted)."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "ruling reversal",
+   "text": "The hold on Alabama, Oklahoma and Maryland (Chair, Item 345 not opened) reversed by the Chair in Item 346 to a census-only access check: no rows built, no discovery run."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "ruling",
+   "text": "Invariant amended: Downgraded ⇔ Tier C for class failures only; scale downgrades keep their tier with a dated scale-downgraded line."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "Part A’s classification surfaced two judgements the ruling’s class list does not name: an in-state parent (Duda, Sugardale) and a minority PE stake (Zaxby’s). Neither is a listed class failure, so all three were classed on scale (Class 2). And 69 of the 94 were downgraded on something other than class or scale — mostly verification left open and dealer-block rows never individually verified — so the invariant breaks were mostly unfinished verification, not mis-tiered rows."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "The search reader could not reach the Alabama or Oklahoma Secretary of State’s own pages; queries naming the office returned state portals and Georgia’s Secretary of State. Access class is therefore “not established”, which is different from “refused”."
+  }
+ ]
 }
