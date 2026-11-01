@@ -1,24 +1,20 @@
 {
- "item": "357",
- "base": "7ed6c05",
+ "item": "358",
+ "base": "b635aec",
  "date": "2026-11-01",
  "files": [
-  "HOT-Leads-BD-Report.docx",
-  "chicago-expansion.html",
-  "chicago.html",
   "delivery-manifest.json",
-  "florida-expansion.html",
   "florida-standard.json",
-  "illinois-expansion.html",
   "index.html",
-  "item357-founders72-verdicts.json",
-  "item357-read-log.jsonl",
-  "item357-report.md",
-  "item357-rung3-rows.json",
-  "item357-rung3-writes.json",
-  "item357-rung6-rows.json",
-  "north-carolina.html",
-  "texas.html"
+  "item358-address-plants.json",
+  "item358-index-after.png",
+  "item358-index-before.png",
+  "item358-report.md",
+  "superseded/README.md",
+  "superseded/naming_v1.py"
  ],
- "count": 16
+ "count": 9,
+ "also_to_delete_by_hand": [
+  "naming_v1.py (root) \u2014 its copy moves to superseded/; an upload cannot remove a file"
+ ]
 }

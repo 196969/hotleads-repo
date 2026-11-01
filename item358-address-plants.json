@@ -1,0 +1,44 @@
+{
+ "plants": [
+  {
+   "plant": "delmontefresh.com/about-us/contact-us (Fresh Del Monte, Coral Gables)",
+   "expected": "an address found",
+   "status": 200,
+   "got": null,
+   "pass": false
+  },
+  {
+   "plant": "firecrawl.dev/pricing (a page with no Florida address)",
+   "expected": "no address",
+   "status": 200,
+   "got": null,
+   "pass": true
+  }
+ ],
+ "reads": [
+  {
+   "n": 1,
+   "route": 1,
+   "row": "plant:address-find",
+   "kind": "address plant 1 \u2014 must find",
+   "url": "https://www.delmontefresh.com/about-us/contact-us",
+   "date": "2026-11-01",
+   "status": 200,
+   "bytes": 25957,
+   "final": "https://www.delmontefresh.com/about-us/contact-us",
+   "secs": 1.02
+  },
+  {
+   "n": 2,
+   "route": 1,
+   "row": "plant:address-fail",
+   "kind": "address plant 2 \u2014 must fail to find",
+   "url": "https://www.firecrawl.dev/pricing",
+   "date": "2026-11-01",
+   "status": 200,
+   "bytes": 822326,
+   "final": "https://www.firecrawl.dev/pricing",
+   "secs": 0.62
+  }
+ ]
+}
