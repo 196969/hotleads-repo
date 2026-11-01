@@ -1,0 +1,5211 @@
+[
+ {
+  "page": "arizona.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "arizona-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "california.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "112"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "california-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "chicago.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "238"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "chicago-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "colorado.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "colorado-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "florida.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "150"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "florida-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "43"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "georgia.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "georgia-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "illinois.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "illinois-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "indiana.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "indiana-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "iowa.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "iowa-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "kentucky.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "kentucky-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "las-vegas.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "las-vegas-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "michigan.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "149"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "michigan-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "minnesota.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "minnesota-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "missouri.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "missouri-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "new-jersey.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "new-jersey-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "new-york.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "126"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "new-york-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "north-carolina.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "north-carolina-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "ohio.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "ohio-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "oregon.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "oregon-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "pennsylvania.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "158"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "pennsylvania-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "south-carolina.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "south-carolina-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "tennessee.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "tennessee-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "texas.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "138"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "texas-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "utah.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "utah-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "virginia.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "virginia-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "washington.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "washington-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "wisconsin.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "200"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "wisconsin-expansion.html",
+  "checks": [
+   {
+    "control": "composer trigger",
+    "result": "pass",
+    "detail": "50"
+   },
+   {
+    "control": "tick drS regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drSv regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drQ regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drHa regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "tick drWho regenerates",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit survives a tick",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy rich passes the gates (one link, postal set)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "one message in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "signature exactly once",
+    "result": "pass",
+    "detail": "1"
+   },
+   {
+    "control": "postal address carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "STOP line carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "live link in the paste",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "manual edit carried",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy subject",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "Copy To",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "first touch with two links is refused",
+    "result": "pass",
+    "detail": "['Not copied: a first touch carries one link at most \u2014 this body has 2; untick resources until one remains']"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "debug_links": 2
+ },
+ {
+  "page": "florida.html (gate tests)",
+  "checks": [
+   {
+    "control": "no postal address \u2192 refused (prompts dismissed)",
+    "result": "pass",
+    "detail": "['Sender line for every message (name, title) \u2014 blank keeps the default signature', 'Physical postal address carried in every message (CAN-SPAM). Blank blocks every send.', 'Not copied: no postal addr"
+   },
+   {
+    "control": "the 21st cold send is refused",
+    "result": "pass",
+    "detail": "['Not copied: the daily cap of 20 cold sends is reached \u2014 the 21st is refused']"
+   },
+   {
+    "control": "suppression unreadable \u2192 every address withheld before it loads (fail closed)",
+    "result": "pass",
+    "detail": "[150, 150, 'suppressed: suppression list unreadable \u2014 every address withheld until it reads']"
+   },
+   {
+    "control": "a suppressed address is refused",
+    "result": "pass",
+    "detail": "['Not copied: owner@blocked.test is suppressed (do-not-contact)']"
+   }
+  ]
+ }
+]

@@ -1,0 +1,4274 @@
+[
+ {
+  "page": "arizona.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 61, 43, 95]"
+   },
+   {
+    "control": "selector s filters (5 options)",
+    "result": "pass",
+    "detail": "[200, 103, 34, 1, 62]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (800)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (53)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 800
+ },
+ {
+  "page": "arizona-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 1, 5, 44]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 44, 6]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (110)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (12)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 110
+ },
+ {
+  "page": "california.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "112\u21920\u2192112"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[112, 96, 13, 1]"
+   },
+   {
+    "control": "selector s filters (4 options)",
+    "result": "pass",
+    "detail": "[112, 2, 10, 100]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (448)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 112,
+  "external_links": 448
+ },
+ {
+  "page": "california-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 2, 8, 40]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 40, 10]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (110)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (17)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 110
+ },
+ {
+  "page": "chicago.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "239\u21920\u2192239"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (1062)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (74)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 239,
+  "external_links": 1062
+ },
+ {
+  "page": "chicago-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 5, 11, 32]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 32, 18]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (113)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (24)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 113
+ },
+ {
+  "page": "colorado.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 72, 34, 92]"
+   },
+   {
+    "control": "selector s filters (5 options)",
+    "result": "pass",
+    "detail": "[200, 94, 27, 5, 74]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (800)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 800
+ },
+ {
+  "page": "colorado-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 1, 4, 45]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 45, 5]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (106)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (12)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 106
+ },
+ {
+  "page": "florida.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "150\u21920\u2192150"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[150, 47, 42, 60]"
+   },
+   {
+    "control": "selector p filters (2 options)",
+    "result": "DEFECT",
+    "detail": "[150, 150]"
+   },
+   {
+    "control": "selector s filters (5 options)",
+    "result": "pass",
+    "detail": "[150, 62, 17, 5, 66]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (747)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (88)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 150,
+  "external_links": 747
+ },
+ {
+  "page": "florida-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21927\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 19, 11, 34]"
+   },
+   {
+    "control": "selector p filters (2 options)",
+    "result": "DEFECT",
+    "detail": "[50, 50]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 37, 20]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (193)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (21)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 193
+ },
+ {
+  "page": "georgia.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 96, 21, 83]"
+   },
+   {
+    "control": "selector s filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 86, 10, 104]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (915)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 915
+ },
+ {
+  "page": "georgia-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 14, 2, 34]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 34, 16]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (148)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (35)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 148
+ },
+ {
+  "page": "illinois.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 115, 48, 25]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 25, 175]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (438)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 438
+ },
+ {
+  "page": "illinois-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 3, 20, 26]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 26, 24]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (114)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (41)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 114
+ },
+ {
+  "page": "indiana.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 108, 43, 41]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 41, 159]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (475)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 475
+ },
+ {
+  "page": "indiana-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 3, 15, 32]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 32, 18]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (137)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (40)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 137
+ },
+ {
+  "page": "iowa.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 119, 60, 9]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 9, 191]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (464)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 464
+ },
+ {
+  "page": "iowa-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 4, 17, 29]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 29, 21]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (134)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (44)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 134
+ },
+ {
+  "page": "kentucky.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 123, 31, 41]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 41, 159]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (470)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 470
+ },
+ {
+  "page": "kentucky-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 2, 9, 39]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 39, 11]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (122)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (24)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 122
+ },
+ {
+  "page": "las-vegas.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 72, 14, 114]"
+   },
+   {
+    "control": "selector s filters (5 options)",
+    "result": "pass",
+    "detail": "[200, 114, 8, 64, 14]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (832)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (24)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 832
+ },
+ {
+  "page": "las-vegas-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 2, 4, 44]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 44, 6]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (108)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (10)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 108
+ },
+ {
+  "page": "michigan.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "150\u21920\u2192150"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[150, 108, 26, 13]"
+   },
+   {
+    "control": "selector s filters (5 options)",
+    "result": "pass",
+    "detail": "[150, 16, 8, 5, 120]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (730)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (17)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 150,
+  "external_links": 730
+ },
+ {
+  "page": "michigan-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 2, 20, 26]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 26, 24]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (127)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (31)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 127
+ },
+ {
+  "page": "minnesota.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 151, 10, 37]"
+   },
+   {
+    "control": "selector s filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 40, 2, 158]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (800)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 800
+ },
+ {
+  "page": "minnesota-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 2, 11, 36]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 37, 13]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (121)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (29)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 121
+ },
+ {
+  "page": "missouri.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 148, 13, 36]"
+   },
+   {
+    "control": "selector s filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 41, 4, 155]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (800)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 800
+ },
+ {
+  "page": "missouri-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 2, 10, 38]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 38, 12]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (122)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (25)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 122
+ },
+ {
+  "page": "new-jersey.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 115, 46, 32]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 32, 168]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (475)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 475
+ },
+ {
+  "page": "new-jersey-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 4, 17, 27]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 27, 23]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (133)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (38)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 133
+ },
+ {
+  "page": "new-york.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "126\u21920\u2192126"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[126, 106, 9, 5]"
+   },
+   {
+    "control": "selector s filters (5 options)",
+    "result": "pass",
+    "detail": "[126, 9, 2, 2, 113]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (505)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 126,
+  "external_links": 505
+ },
+ {
+  "page": "new-york-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 5, 13, 32]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 32, 18]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (121)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (27)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 121
+ },
+ {
+  "page": "north-carolina.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 90, 23, 87]"
+   },
+   {
+    "control": "selector s filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 94, 5, 101]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (800)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 800
+ },
+ {
+  "page": "north-carolina-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 11, 3, 36]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 36, 14]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (148)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (18)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 148
+ },
+ {
+  "page": "ohio.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "202\u21921\u2192202"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[202, 99, 38, 65]"
+   },
+   {
+    "control": "selector s filters (5 options)",
+    "result": "pass",
+    "detail": "[202, 66, 14, 5, 119]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (947)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (22)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 202,
+  "external_links": 947
+ },
+ {
+  "page": "ohio-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 2, 13, 32]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 33, 17]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (123)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (25)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 123
+ },
+ {
+  "page": "oregon.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 120, 17, 55]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 60, 140]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (800)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 800
+ },
+ {
+  "page": "oregon-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 1, 11, 38]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 38, 12]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (124)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (27)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 124
+ },
+ {
+  "page": "pennsylvania.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "158\u21920\u2192158"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[158, 94, 34, 28]"
+   },
+   {
+    "control": "selector s filters (5 options)",
+    "result": "pass",
+    "detail": "[158, 29, 23, 18, 88]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (679)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (38)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 158,
+  "external_links": 679
+ },
+ {
+  "page": "pennsylvania-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 3, 15, 32]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 32, 18]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (123)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (26)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 123
+ },
+ {
+  "page": "south-carolina.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 142, 21, 32]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 32, 168]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (460)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 460
+ },
+ {
+  "page": "south-carolina-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 10, 6, 34]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 34, 16]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (128)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (50)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 128
+ },
+ {
+  "page": "tennessee.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 133, 26, 37]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 37, 163]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (467)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 467
+ },
+ {
+  "page": "tennessee-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 4, 12, 34]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 34, 16]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (136)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (46)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 136
+ },
+ {
+  "page": "texas.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "141\u21920\u2192141"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[141, 47, 61, 30]"
+   },
+   {
+    "control": "selector s filters (5 options)",
+    "result": "pass",
+    "detail": "[141, 44, 18, 16, 60]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (624)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (138)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 141,
+  "external_links": 624
+ },
+ {
+  "page": "texas-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 1, 8, 39]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 39, 11]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (113)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (13)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 113
+ },
+ {
+  "page": "utah.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 112, 40, 39]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 41, 159]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (466)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 466
+ },
+ {
+  "page": "utah-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 1, 13, 34]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 34, 16]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (129)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (30)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 129
+ },
+ {
+  "page": "virginia.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 145, 23, 25]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 26, 174]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (443)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 443
+ },
+ {
+  "page": "virginia-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 17, 33]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 33, 17]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (129)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (42)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 129
+ },
+ {
+  "page": "washington.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 92, 17, 89]"
+   },
+   {
+    "control": "selector s filters (5 options)",
+    "result": "pass",
+    "detail": "[200, 92, 12, 2, 94]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (800)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 800
+ },
+ {
+  "page": "washington-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 1, 5, 44]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 44, 6]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (113)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (15)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 113
+ },
+ {
+  "page": "wisconsin.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "200\u21920\u2192200"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[200, 130, 50, 2]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[200, 2, 198]"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (493)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 200,
+  "external_links": 493
+ },
+ {
+  "page": "wisconsin-expansion.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "50\u21920\u219250"
+   },
+   {
+    "control": "selector t filters (4 options)",
+    "result": "pass",
+    "detail": "[50, 5, 21, 22]"
+   },
+   {
+    "control": "selector s filters (3 options)",
+    "result": "pass",
+    "detail": "[50, 22, 28]"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "row status selector sets and resets",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (138)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (50)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 50,
+  "external_links": 138
+ },
+ {
+  "page": "index.html",
+  "checks": [
+   {
+    "control": "sort: 6 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (83)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 28,
+  "external_links": 0
+ },
+ {
+  "page": "console-arizona.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/arizona-standard.json', '404 http://127.0.0.1:8765/arizona-intake-queue.json', '404 http://127.0.0.1:8765/arizona-practice-queue.json', '404 http://127.0.0.1:8765/arizona-bot-queue.json', '404 http://127.0.0.1:87"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-california.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/california-intake-queue.json', '404 http://127.0.0.1:8765/california-standard.json', '404 tp://127.0.0.1:8765/california-practice-queue.json', '404 http://127.0.0.1:8765/california-bot-queue.json', '404 http://12"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-chicago.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/chicago-standard.json', '404 http://127.0.0.1:8765/chicago-intake-queue.json', '404 http://127.0.0.1:8765/chicago-practice-queue.json', '404 http://127.0.0.1:8765/chicago-bot-queue.json', '404 http://127.0.0.1:87"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-colorado.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/colorado-standard.json', '404 http://127.0.0.1:8765/colorado-intake-queue.json', '404 http://127.0.0.1:8765/colorado-practice-queue.json', '404 http://127.0.0.1:8765/colorado-bot-queue.json', '404 http://127.0.0."
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-florida.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (40)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (4)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 4,
+  "external_links": 40
+ },
+ {
+  "page": "console-georgia.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/georgia-standard.json', '404 http://127.0.0.1:8765/georgia-intake-queue.json', '404 http://127.0.0.1:8765/georgia-practice-queue.json', '404 http://127.0.0.1:8765/georgia-bot-queue.json', '404 http://127.0.0.1:87"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-illinois.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/illinois-standard.json', '404 http://127.0.0.1:8765/illinois-intake-queue.json', '404 http://127.0.0.1:8765/illinois-practice-queue.json', '404 http://127.0.0.1:8765/illinois-bot-queue.json', '404 http://127.0.0."
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-indiana.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/indiana-standard.json', '404 http://127.0.0.1:8765/indiana-intake-queue.json', '404 http://127.0.0.1:8765/indiana-bot-queue.json', '404 http://127.0.0.1:8765/indiana-practice-queue.json', '404 http://127.0.0.1:87"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-iowa.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/iowa-standard.json', '404 http://127.0.0.1:8765/iowa-intake-queue.json', '404 http://127.0.0.1:8765/iowa-practice-queue.json', '404 http://127.0.0.1:8765/iowa-bot-queue.json', '404 http://127.0.0.1:8765/iowa-read"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-kentucky.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/kentucky-standard.json', '404 http://127.0.0.1:8765/kentucky-intake-queue.json', '404 http://127.0.0.1:8765/kentucky-practice-queue.json', '404 http://127.0.0.1:8765/kentucky-bot-queue.json', '404 http://127.0.0."
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-las-vegas.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/las-vegas-standard.json', '404 http://127.0.0.1:8765/las-vegas-intake-queue.json', '404 ttp://127.0.0.1:8765/las-vegas-practice-queue.json', '404 http://127.0.0.1:8765/las-vegas-reads.json', '404 http://127.0.0.1"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-michigan.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/michigan-standard.json', '404 http://127.0.0.1:8765/michigan-intake-queue.json', '404 http://127.0.0.1:8765/michigan-practice-queue.json', '404 http://127.0.0.1:8765/michigan-bot-queue.json', '404 http://127.0.0."
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-minnesota.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/minnesota-standard.json', '404 http://127.0.0.1:8765/minnesota-intake-queue.json', '404 ttp://127.0.0.1:8765/minnesota-practice-queue.json', '404 http://127.0.0.1:8765/minnesota-bot-queue.json', '404 http://127.0"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-missouri.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/missouri-standard.json', '404 http://127.0.0.1:8765/missouri-practice-queue.json', '404 http://127.0.0.1:8765/missouri-intake-queue.json', '404 http://127.0.0.1:8765/missouri-bot-queue.json', '404 http://127.0.0."
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-new-jersey.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/new-jersey-standard.json', '404 http://127.0.0.1:8765/new-jersey-intake-queue.json', '404 tp://127.0.0.1:8765/new-jersey-practice-queue.json', '404 http://127.0.0.1:8765/new-jersey-bot-queue.json', '404 http://12"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-new-york.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/new-york-standard.json', '404 http://127.0.0.1:8765/new-york-intake-queue.json', '404 http://127.0.0.1:8765/new-york-practice-queue.json', '404 http://127.0.0.1:8765/new-york-bot-queue.json', '404 http://127.0.0."
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-north-carolina.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/north-carolina-standard.json', '404 ://127.0.0.1:8765/north-carolina-intake-queue.json', '404 /127.0.0.1:8765/north-carolina-practice-queue.json', '404 http://127.0.0.1:8765/north-carolina-reads.json', '404 ttp:/"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-ohio.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/ohio-standard.json', '404 http://127.0.0.1:8765/ohio-intake-queue.json', '404 http://127.0.0.1:8765/ohio-practice-queue.json', '404 http://127.0.0.1:8765/ohio-reads.json', '404 http://127.0.0.1:8765/ohio-bot-queu"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-oregon.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/oregon-standard.json', '404 http://127.0.0.1:8765/oregon-intake-queue.json', '404 http://127.0.0.1:8765/oregon-practice-queue.json', '404 http://127.0.0.1:8765/oregon-reads.json', '404 http://127.0.0.1:8765/orego"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-pennsylvania.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/pennsylvania-standard.json', '404 tp://127.0.0.1:8765/pennsylvania-intake-queue.json', '404 ://127.0.0.1:8765/pennsylvania-practice-queue.json', '404 http://127.0.0.1:8765/pennsylvania-bot-queue.json', '404 http:"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-south-carolina.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/south-carolina-standard.json', '404 ://127.0.0.1:8765/south-carolina-intake-queue.json', '404 /127.0.0.1:8765/south-carolina-practice-queue.json', '404 ttp://127.0.0.1:8765/south-carolina-bot-queue.json', '404 ht"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-tennessee.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/tennessee-standard.json', '404 http://127.0.0.1:8765/tennessee-intake-queue.json', '404 ttp://127.0.0.1:8765/tennessee-practice-queue.json', '404 http://127.0.0.1:8765/tennessee-bot-queue.json', '404 http://127.0"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-texas.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/texas-standard.json', '404 http://127.0.0.1:8765/texas-intake-queue.json', '404 http://127.0.0.1:8765/texas-practice-queue.json', '404 http://127.0.0.1:8765/texas-bot-queue.json', '404 http://127.0.0.1:8765/texas"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-utah.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/utah-standard.json', '404 http://127.0.0.1:8765/utah-intake-queue.json', '404 http://127.0.0.1:8765/utah-practice-queue.json', '404 http://127.0.0.1:8765/utah-bot-queue.json', '404 http://127.0.0.1:8765/utah-read"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-virginia.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/virginia-standard.json', '404 http://127.0.0.1:8765/virginia-intake-queue.json', '404 http://127.0.0.1:8765/virginia-practice-queue.json', '404 http://127.0.0.1:8765/virginia-bot-queue.json', '404 http://127.0.0."
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-washington.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/washington-standard.json', '404 http://127.0.0.1:8765/washington-intake-queue.json', '404 tp://127.0.0.1:8765/washington-practice-queue.json', '404 http://127.0.0.1:8765/washington-bot-queue.json', '404 http://12"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "console-wisconsin.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/wisconsin-standard.json', '404 http://127.0.0.1:8765/wisconsin-intake-queue.json', '404 ttp://127.0.0.1:8765/wisconsin-practice-queue.json', '404 http://127.0.0.1:8765/wisconsin-bot-queue.json', '404 http://127.0"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "complete-suite.html",
+  "checks": [
+   {
+    "control": "sort: 0 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "DEFECT",
+    "detail": "['404 http://127.0.0.1:8765/assets/dr-monogram.png', '404 http://127.0.0.1:8765/assets/dashrite-lockup.png']"
+   }
+  ],
+  "rows_visible": 0,
+  "external_links": 0
+ },
+ {
+  "page": "pipeline-cockpit.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "408\u21920\u2192408"
+   },
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (402)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 408,
+  "external_links": 0
+ },
+ {
+  "page": "master-call-sheet.html",
+  "checks": [
+   {
+    "control": "search filters and clears",
+    "result": "pass",
+    "detail": "408\u21920\u2192408"
+   },
+   {
+    "control": "sort: 10 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (402)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 408,
+  "external_links": 0
+ },
+ {
+  "page": "master-rollup.html",
+  "checks": [
+   {
+    "control": "sort: 12 header clicks",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "internal links resolve (81)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "external links well-formed (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "tel links dialable (0)",
+    "result": "pass",
+    "detail": "[]"
+   },
+   {
+    "control": "no script errors",
+    "result": "pass",
+    "detail": ""
+   },
+   {
+    "control": "no failed local requests",
+    "result": "pass",
+    "detail": "[]"
+   }
+  ],
+  "rows_visible": 43,
+  "external_links": 0
+ }
+]

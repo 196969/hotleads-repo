@@ -1,0 +1,331 @@
+{
+ "item": "353",
+ "verdicts": [
+  {
+   "label": "Founders 72 · Item 353 brief — on head 3640146",
+   "roster_file": {
+    "entries": 75,
+    "weight": 755.0
+   },
+   "council": {
+    "seats": 72,
+    "weight": 725.0,
+    "pass": 7,
+    "hold": 0,
+    "blind": 64,
+    "weight_passing": 70.0,
+    "weight_voting_excl_chair": 710.0
+   },
+   "non_voting_on_record": [
+    {
+     "seat": "B1",
+     "name": "Warren Buffett",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": false,
+     "reading": "Hold",
+     "field": "Private Equity: Band present on every admitted row",
+     "why": "2 admitted rows; missing on ['I5', 'I7']"
+    },
+    {
+     "seat": "P2",
+     "name": "Mark Cuban",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": false,
+     "reading": "Hold",
+     "field": "Acquisitions: Band present on every admitted row",
+     "why": "3 admitted rows; missing on ['I1', 'I4', 'I6']"
+    },
+    {
+     "seat": "P9",
+     "name": "Marcus Lemonis",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": false,
+     "reading": "Blind",
+     "field": "no ground defined for this part",
+     "why": "by rule"
+    }
+   ],
+   "named_readings": [
+    {
+     "seat": "chair",
+     "name": "Timothy A. Edick",
+     "merged_from": null,
+     "weight": 15.0,
+     "votes": true,
+     "reading": "Chair",
+     "field": "decides last",
+     "why": ""
+    },
+    {
+     "seat": "sell",
+     "name": "Sell and protect",
+     "merged_from": "Robert Herjavec",
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Acquisitions: Reachable channel present on every admitted row",
+     "why": "3 admitted rows, all carry Reachable channel"
+    },
+    {
+     "seat": "branson",
+     "name": "Serve the badly served, bet small",
+     "merged_from": "Richard Branson",
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Acquisitions: Signal present on every admitted row",
+     "why": "3 admitted rows, all carry Signal"
+    },
+    {
+     "seat": "jain",
+     "name": "Price the risk, say no",
+     "merged_from": "Ajit Jain",
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Private Equity: Signal present on every admitted row",
+     "why": "2 admitted rows, all carry Signal"
+    },
+    {
+     "seat": "drucker",
+     "name": "Peter Drucker",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Fractionals: Decision maker present on every admitted row",
+     "why": "2 admitted rows, all carry Decision maker"
+    },
+    {
+     "seat": "maister",
+     "name": "David Maister",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Fractionals: Signal present on every admitted row",
+     "why": "2 admitted rows, all carry Signal"
+    },
+    {
+     "seat": "baker",
+     "name": "Ron Baker",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Fractionals: Company history present on every admitted row",
+     "why": "2 admitted rows, all carry Company history"
+    },
+    {
+     "seat": "bogle",
+     "name": "John C. Bogle",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Private Equity: Signal present on every admitted row",
+     "why": "2 admitted rows, all carry Signal"
+    },
+    {
+     "seat": "B1",
+     "name": "Warren Buffett",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": false,
+     "reading": "Hold",
+     "field": "Private Equity: Band present on every admitted row",
+     "why": "2 admitted rows; missing on ['I5', 'I7']"
+    },
+    {
+     "seat": "P2",
+     "name": "Mark Cuban",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": false,
+     "reading": "Hold",
+     "field": "Acquisitions: Band present on every admitted row",
+     "why": "3 admitted rows; missing on ['I1', 'I4', 'I6']"
+    }
+   ],
+   "part9_seats": {
+    "Branson": "Pass",
+    "Cuban": "not a voting seat (theme seat unnamed, item 307) — Blind",
+    "Herjavec": "Pass",
+    "Jain": "Pass",
+    "Bogle": "Pass",
+    "Buffett": "not a voting seat (theme seat unnamed, item 307) — Blind",
+    "Maister": "Pass",
+    "Drucker": "Pass",
+    "Baker": "Pass"
+   },
+   "boies_dissent": "Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044.",
+   "item307": "Buffett and Cuban read Blind — the roster labels their readings in prose (“out-prepare”) rather than by seat, so they cannot be bound (Item 307). Lemonis reads Blind by construction — no check_part9 key, Part 9 ground withdrawn 30 October. Herjavec votes, seat sell, named and merged in Item 307."
+  },
+  {
+   "label": "Founders 72 · Item 353 delivery — on final bytes",
+   "roster_file": {
+    "entries": 75,
+    "weight": 755.0
+   },
+   "council": {
+    "seats": 72,
+    "weight": 725.0,
+    "pass": 7,
+    "hold": 0,
+    "blind": 64,
+    "weight_passing": 70.0,
+    "weight_voting_excl_chair": 710.0
+   },
+   "non_voting_on_record": [
+    {
+     "seat": "B1",
+     "name": "Warren Buffett",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": false,
+     "reading": "Hold",
+     "field": "Private Equity: Band present on every admitted row",
+     "why": "2 admitted rows; missing on ['I5', 'I7']"
+    },
+    {
+     "seat": "P2",
+     "name": "Mark Cuban",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": false,
+     "reading": "Hold",
+     "field": "Acquisitions: Band present on every admitted row",
+     "why": "3 admitted rows; missing on ['I1', 'I4', 'I6']"
+    },
+    {
+     "seat": "P9",
+     "name": "Marcus Lemonis",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": false,
+     "reading": "Blind",
+     "field": "no ground defined for this part",
+     "why": "by rule"
+    }
+   ],
+   "named_readings": [
+    {
+     "seat": "chair",
+     "name": "Timothy A. Edick",
+     "merged_from": null,
+     "weight": 15.0,
+     "votes": true,
+     "reading": "Chair",
+     "field": "decides last",
+     "why": ""
+    },
+    {
+     "seat": "sell",
+     "name": "Sell and protect",
+     "merged_from": "Robert Herjavec",
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Acquisitions: Reachable channel present on every admitted row",
+     "why": "3 admitted rows, all carry Reachable channel"
+    },
+    {
+     "seat": "branson",
+     "name": "Serve the badly served, bet small",
+     "merged_from": "Richard Branson",
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Acquisitions: Signal present on every admitted row",
+     "why": "3 admitted rows, all carry Signal"
+    },
+    {
+     "seat": "jain",
+     "name": "Price the risk, say no",
+     "merged_from": "Ajit Jain",
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Private Equity: Signal present on every admitted row",
+     "why": "2 admitted rows, all carry Signal"
+    },
+    {
+     "seat": "drucker",
+     "name": "Peter Drucker",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Fractionals: Decision maker present on every admitted row",
+     "why": "2 admitted rows, all carry Decision maker"
+    },
+    {
+     "seat": "maister",
+     "name": "David Maister",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Fractionals: Signal present on every admitted row",
+     "why": "2 admitted rows, all carry Signal"
+    },
+    {
+     "seat": "baker",
+     "name": "Ron Baker",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Fractionals: Company history present on every admitted row",
+     "why": "2 admitted rows, all carry Company history"
+    },
+    {
+     "seat": "bogle",
+     "name": "John C. Bogle",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": true,
+     "reading": "Pass",
+     "field": "Private Equity: Signal present on every admitted row",
+     "why": "2 admitted rows, all carry Signal"
+    },
+    {
+     "seat": "B1",
+     "name": "Warren Buffett",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": false,
+     "reading": "Hold",
+     "field": "Private Equity: Band present on every admitted row",
+     "why": "2 admitted rows; missing on ['I5', 'I7']"
+    },
+    {
+     "seat": "P2",
+     "name": "Mark Cuban",
+     "merged_from": null,
+     "weight": 10.0,
+     "votes": false,
+     "reading": "Hold",
+     "field": "Acquisitions: Band present on every admitted row",
+     "why": "3 admitted rows; missing on ['I1', 'I4', 'I6']"
+    }
+   ],
+   "part9_seats": {
+    "Branson": "Pass",
+    "Cuban": "not a voting seat (theme seat unnamed, item 307) — Blind",
+    "Herjavec": "Pass",
+    "Jain": "Pass",
+    "Bogle": "Pass",
+    "Buffett": "not a voting seat (theme seat unnamed, item 307) — Blind",
+    "Maister": "Pass",
+    "Drucker": "Pass",
+    "Baker": "Pass"
+   },
+   "boies_dissent": "Boies, standing dissent (ruling 28), carried in every verdict: DR-CSA-0002 reads “Unevidenced — no signed copy on file”; it bears on EST-1044.",
+   "item307": "Buffett and Cuban read Blind — the roster labels their readings in prose (“out-prepare”) rather than by seat, so they cannot be bound (Item 307). Lemonis reads Blind by construction — no check_part9 key, Part 9 ground withdrawn 30 October. Herjavec votes, seat sell, named and merged in Item 307."
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "item": "353",
+ "date": "2026-11-01",
+ "reader": "Chromium 141 (Playwright), pages served locally from the repository at head 3640146 plus this pass’s edits",
+ "pages_tested": 86,
+ "page_checks": 734,
+ "composer_pages": 54,
+ "composer_checks": 976,
+ "fixed_this_pass": [
+  {
+   "defect": "signature missing from every message on all 54 pages — the composer defined a signature and never appended it (the recurring missing-signature fault)",
+   "fix": "build() now appends the sender block, the postal address and the STOP line; proven in the paste on all 54 pages: signature exactly once, postal carried, STOP carried"
+  },
+  {
+   "defect": "no postal address and no STOP line in the market-page composer (CAN-SPAM elements)",
+   "fix": "carried on every message from the shared dra-settings (the console’s own store); copying is refused while the postal address is blank"
+  },
+  {
+   "defect": "a resource ticked after a manual edit was appended below the signature",
+   "fix": "inserted above the signature; manual edits still survive a tick (proven on all 54 pages)"
+  },
+  {
+   "defect": "first touch carried as many links as resources ticked",
+   "fix": "gate in code: a first touch with more than one link is refused at Copy (proven on all 54 pages)"
+  },
+  {
+   "defect": "no cap on cold sends",
+   "fix": "gate in code: the 21st first-touch address in a day is refused (proven)"
+  },
+  {
+   "defect": "26 market pages requested <market>-outreach.json and got 404",
+   "fix": "empty outreach files created for the 26 markets"
+  },
+  {
+   "defect": "indiana-expansion #45: a tel: link dialling “+1317” around the text “317-associated”",
+   "fix": "link removed by edit; text kept"
+  },
+  {
+   "defect": "north-carolina #63: a page fragment “(#189).</p></div>” leaked into the company name and its three search links",
+   "fix": "removed by edit, noted on the row"
+  }
+ ],
+ "proven_already_in_code": [
+  "suppression read before any address loads: with suppression.json unreadable, every Email link on the page is withheld (“Email — suppressed”) — fail closed; a suppressed domain is also refused at Copy"
+ ],
+ "open_defects": [
+  {
+   "page": "florida.html",
+   "control": "selector p filters (2 options)",
+   "detail": "[150, 150]"
+  },
+  {
+   "page": "florida-expansion.html",
+   "control": "selector p filters (2 options)",
+   "detail": "[50, 50]"
+  },
+  {
+   "page": "console-arizona.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/arizona-standard.json', '404 http://127.0.0.1:8765/arizona-intake-queue.json', '404 http://127.0.0.1:8765/arizona-practice-queue.json', '404 http://127.0.0.1:8765/arizona-bot-queue.json', '404 http://127.0.0.1:87"
+  },
+  {
+   "page": "console-california.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/california-intake-queue.json', '404 http://127.0.0.1:8765/california-standard.json', '404 tp://127.0.0.1:8765/california-practice-queue.json', '404 http://127.0.0.1:8765/california-bot-queue.json', '404 http://12"
+  },
+  {
+   "page": "console-chicago.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/chicago-standard.json', '404 http://127.0.0.1:8765/chicago-intake-queue.json', '404 http://127.0.0.1:8765/chicago-practice-queue.json', '404 http://127.0.0.1:8765/chicago-bot-queue.json', '404 http://127.0.0.1:87"
+  },
+  {
+   "page": "console-colorado.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/colorado-standard.json', '404 http://127.0.0.1:8765/colorado-intake-queue.json', '404 http://127.0.0.1:8765/colorado-practice-queue.json', '404 http://127.0.0.1:8765/colorado-bot-queue.json', '404 http://127.0.0."
+  },
+  {
+   "page": "console-georgia.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/georgia-standard.json', '404 http://127.0.0.1:8765/georgia-intake-queue.json', '404 http://127.0.0.1:8765/georgia-practice-queue.json', '404 http://127.0.0.1:8765/georgia-bot-queue.json', '404 http://127.0.0.1:87"
+  },
+  {
+   "page": "console-illinois.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/illinois-standard.json', '404 http://127.0.0.1:8765/illinois-intake-queue.json', '404 http://127.0.0.1:8765/illinois-practice-queue.json', '404 http://127.0.0.1:8765/illinois-bot-queue.json', '404 http://127.0.0."
+  },
+  {
+   "page": "console-indiana.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/indiana-standard.json', '404 http://127.0.0.1:8765/indiana-intake-queue.json', '404 http://127.0.0.1:8765/indiana-bot-queue.json', '404 http://127.0.0.1:8765/indiana-practice-queue.json', '404 http://127.0.0.1:87"
+  },
+  {
+   "page": "console-iowa.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/iowa-standard.json', '404 http://127.0.0.1:8765/iowa-intake-queue.json', '404 http://127.0.0.1:8765/iowa-practice-queue.json', '404 http://127.0.0.1:8765/iowa-bot-queue.json', '404 http://127.0.0.1:8765/iowa-read"
+  },
+  {
+   "page": "console-kentucky.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/kentucky-standard.json', '404 http://127.0.0.1:8765/kentucky-intake-queue.json', '404 http://127.0.0.1:8765/kentucky-practice-queue.json', '404 http://127.0.0.1:8765/kentucky-bot-queue.json', '404 http://127.0.0."
+  },
+  {
+   "page": "console-las-vegas.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/las-vegas-standard.json', '404 http://127.0.0.1:8765/las-vegas-intake-queue.json', '404 ttp://127.0.0.1:8765/las-vegas-practice-queue.json', '404 http://127.0.0.1:8765/las-vegas-reads.json', '404 http://127.0.0.1"
+  },
+  {
+   "page": "console-michigan.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/michigan-standard.json', '404 http://127.0.0.1:8765/michigan-intake-queue.json', '404 http://127.0.0.1:8765/michigan-practice-queue.json', '404 http://127.0.0.1:8765/michigan-bot-queue.json', '404 http://127.0.0."
+  },
+  {
+   "page": "console-minnesota.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/minnesota-standard.json', '404 http://127.0.0.1:8765/minnesota-intake-queue.json', '404 ttp://127.0.0.1:8765/minnesota-practice-queue.json', '404 http://127.0.0.1:8765/minnesota-bot-queue.json', '404 http://127.0"
+  },
+  {
+   "page": "console-missouri.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/missouri-standard.json', '404 http://127.0.0.1:8765/missouri-practice-queue.json', '404 http://127.0.0.1:8765/missouri-intake-queue.json', '404 http://127.0.0.1:8765/missouri-bot-queue.json', '404 http://127.0.0."
+  },
+  {
+   "page": "console-new-jersey.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/new-jersey-standard.json', '404 http://127.0.0.1:8765/new-jersey-intake-queue.json', '404 tp://127.0.0.1:8765/new-jersey-practice-queue.json', '404 http://127.0.0.1:8765/new-jersey-bot-queue.json', '404 http://12"
+  },
+  {
+   "page": "console-new-york.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/new-york-standard.json', '404 http://127.0.0.1:8765/new-york-intake-queue.json', '404 http://127.0.0.1:8765/new-york-practice-queue.json', '404 http://127.0.0.1:8765/new-york-bot-queue.json', '404 http://127.0.0."
+  },
+  {
+   "page": "console-north-carolina.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/north-carolina-standard.json', '404 ://127.0.0.1:8765/north-carolina-intake-queue.json', '404 /127.0.0.1:8765/north-carolina-practice-queue.json', '404 http://127.0.0.1:8765/north-carolina-reads.json', '404 ttp:/"
+  },
+  {
+   "page": "console-ohio.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/ohio-standard.json', '404 http://127.0.0.1:8765/ohio-intake-queue.json', '404 http://127.0.0.1:8765/ohio-practice-queue.json', '404 http://127.0.0.1:8765/ohio-reads.json', '404 http://127.0.0.1:8765/ohio-bot-queu"
+  },
+  {
+   "page": "console-oregon.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/oregon-standard.json', '404 http://127.0.0.1:8765/oregon-intake-queue.json', '404 http://127.0.0.1:8765/oregon-practice-queue.json', '404 http://127.0.0.1:8765/oregon-reads.json', '404 http://127.0.0.1:8765/orego"
+  },
+  {
+   "page": "console-pennsylvania.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/pennsylvania-standard.json', '404 tp://127.0.0.1:8765/pennsylvania-intake-queue.json', '404 ://127.0.0.1:8765/pennsylvania-practice-queue.json', '404 http://127.0.0.1:8765/pennsylvania-bot-queue.json', '404 http:"
+  },
+  {
+   "page": "console-south-carolina.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/south-carolina-standard.json', '404 ://127.0.0.1:8765/south-carolina-intake-queue.json', '404 /127.0.0.1:8765/south-carolina-practice-queue.json', '404 ttp://127.0.0.1:8765/south-carolina-bot-queue.json', '404 ht"
+  },
+  {
+   "page": "console-tennessee.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/tennessee-standard.json', '404 http://127.0.0.1:8765/tennessee-intake-queue.json', '404 ttp://127.0.0.1:8765/tennessee-practice-queue.json', '404 http://127.0.0.1:8765/tennessee-bot-queue.json', '404 http://127.0"
+  },
+  {
+   "page": "console-texas.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/texas-standard.json', '404 http://127.0.0.1:8765/texas-intake-queue.json', '404 http://127.0.0.1:8765/texas-practice-queue.json', '404 http://127.0.0.1:8765/texas-bot-queue.json', '404 http://127.0.0.1:8765/texas"
+  },
+  {
+   "page": "console-utah.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/utah-standard.json', '404 http://127.0.0.1:8765/utah-intake-queue.json', '404 http://127.0.0.1:8765/utah-practice-queue.json', '404 http://127.0.0.1:8765/utah-bot-queue.json', '404 http://127.0.0.1:8765/utah-read"
+  },
+  {
+   "page": "console-virginia.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/virginia-standard.json', '404 http://127.0.0.1:8765/virginia-intake-queue.json', '404 http://127.0.0.1:8765/virginia-practice-queue.json', '404 http://127.0.0.1:8765/virginia-bot-queue.json', '404 http://127.0.0."
+  },
+  {
+   "page": "console-washington.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/washington-standard.json', '404 http://127.0.0.1:8765/washington-intake-queue.json', '404 tp://127.0.0.1:8765/washington-practice-queue.json', '404 http://127.0.0.1:8765/washington-bot-queue.json', '404 http://12"
+  },
+  {
+   "page": "console-wisconsin.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/wisconsin-standard.json', '404 http://127.0.0.1:8765/wisconsin-intake-queue.json', '404 ttp://127.0.0.1:8765/wisconsin-practice-queue.json', '404 http://127.0.0.1:8765/wisconsin-bot-queue.json', '404 http://127.0"
+  },
+  {
+   "page": "complete-suite.html",
+   "control": "no failed local requests",
+   "detail": "['404 http://127.0.0.1:8765/assets/dr-monogram.png', '404 http://127.0.0.1:8765/assets/dashrite-lockup.png']"
+  }
+ ],
+ "not_tested": [
+  "external links were checked for form on every page (800+ per page), not fetched: fetching tens of thousands of LinkedIn and search links would spend reads and be refused by most; owed only if the Chair wants it",
+  "the paste into Outlook itself: the browser proves what lands on the clipboard (one message, live links, one signature); the Outlook paste needs a human at Outlook"
+ ]
+}

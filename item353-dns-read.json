@@ -1,0 +1,58 @@
+{
+ "read_at": "2026-11-01 18:34 UTC",
+ "reader": "dns.google DNS-over-HTTPS resolve API",
+ "MX": {
+  "status": 0,
+  "answers": [
+   "0 dashriteadvisory-com.mail.protection.outlook.com."
+  ]
+ },
+ "TXT root (SPF)": {
+  "status": 0,
+  "answers": [
+   "v=spf1 include:spf.protection.outlook.com -all",
+   "MS=ms86580905"
+  ]
+ },
+ "DMARC": {
+  "status": 0,
+  "answers": [
+   "v=DMARC1; p=none; rua=mailto:TEdick@dashriteadvisory.com"
+  ]
+ },
+ "DKIM selectors tried, none found": [
+  "google",
+  "default",
+  "k1",
+  "s1",
+  "s2",
+  "mail",
+  "dkim"
+ ],
+ "DKIM selector1": {
+  "status": 0,
+  "answers": [
+   "selector1-dashriteadvisory-com._domainkey.dashriteadvisory.p-v1.dkim.mail.microsoft.",
+   "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3CPEANpcpJiD6skyh/Wd0dW2wb6hlPnzcrHGV8A/kRusP2nWev1zzvThcQljXu4JQK/ER1RCZH5x0FYRkrw3sDMRus0OjS10GtAAivrlTzzG+G9PVQOE9UGdKQnYMOTdRriaieKMN0z2Yq8xxo6ab9K56JNGojM9sXJ/g0VzcKaqKRBl7UTunVrQ+jjOwtfEsAYWr0+9yLS4dcqVikfqUyD5eJFdYC0FlasgGhCI5df6ng4Awf+Hf1Srn45+PHa8h/0v7F8HOoONrqRAd1Q9y3LyipirBvQVbiWuYXc/mBqCjIGehVqWmpWHCNw0QgWUMzqbG0YUz9QVsHXK9C7m4QIDAQAB;"
+  ]
+ },
+ "DKIM selector2": {
+  "status": 0,
+  "answers": [
+   "selector2-dashriteadvisory-com._domainkey.dashriteadvisory.p-v1.dkim.mail.microsoft.",
+   "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8KNoWNpHMeia32/S1LrFsZ2t35UKPBiQORSEssCL96Xan6g0x2A8Sii1a8SWJt96ZSQ1AU29qr4gEPxMhm1jKSGHqD44BEt5uXJ7xkAg9Kd4l5Yqp5bqSt3ZLTkrToR9jG8p7iQQxJsqqKv/Ebr+MmD6R9iImkeJ97wapkkyXaKb4At9+bRwSY/CPlQfTSNZXt2Q+2HV4WwXYl5VlFDA8Ru2ISnVypCoLW3iXPshyrqsPZmBEeDLZfnySQsEOJJMOQcRvpdOOEmoQYMVPgdNPuHVj6DRR6Uj/tEQ8rsyU4DzWtVqQu5tACLzYWCZzZfB9m8Grc7oQ/CJUcKAmc3tbQIDAQAB;"
+  ]
+ },
+ "DKIM selector1 (CNAME)": {
+  "status": 0,
+  "answers": [
+   "selector1-dashriteadvisory-com._domainkey.dashriteadvisory.p-v1.dkim.mail.microsoft."
+  ]
+ },
+ "DKIM selector2 (CNAME)": {
+  "status": 0,
+  "answers": [
+   "selector2-dashriteadvisory-com._domainkey.dashriteadvisory.p-v1.dkim.mail.microsoft."
+  ]
+ }
+}

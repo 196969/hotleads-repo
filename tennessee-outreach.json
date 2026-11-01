@@ -1,0 +1,7 @@
+{
+ "market": "tennessee",
+ "schema": "outreach v1 — keyed by the row key (# cell); touches[{n,date,address,by}], dispositions[{code,date,user,note,next}], terminal{state,reason,date}, next, by",
+ "created": "2026-11-01",
+ "rows": {},
+ "_note": "Item 353: created empty so the page’s outreach read returns 200 instead of 404; no touch is recorded here yet."
+}
