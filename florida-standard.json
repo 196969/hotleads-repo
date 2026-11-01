@@ -8042,6 +8042,12 @@
     "Duda Farm Fresh Foods (Florida #67)",
     "Sugardale Foods (Ohio #5)"
    ]
+  },
+  {
+   "date": "2026-11-01",
+   "item": "347",
+   "amends": "the Item 346 invariant amendment",
+   "change": "Chair correction: an in-state parent counts as a class failure, as an out-of-state parent does. Duda Farm Fresh Foods and Sugardale Foods move to Tier C; Zaxby’s (a minority PE stake) remains the one scale-downgraded row."
   }
  ],
  "item327_market_route_yields": {
@@ -8506,6 +8512,33 @@
    "date": "2026-11-01",
    "kind": "finding",
    "text": "The search reader could not reach the Alabama or Oklahoma Secretary of State’s own pages; queries naming the office returned state portals and Georgia’s Secretary of State. Access class is therefore “not established”, which is different from “refused”."
+  }
+ ],
+ "register_item347": [
+  {
+   "date": "2026-11-01",
+   "kind": "correction (Chair)",
+   "text": "Duda and Sugardale: the Item 346 class list named out-of-state parents only, so the builder classed both on scale; the Chair corrects that an in-state parent counts. Both moved to Tier C in Item 347."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "Backlog as structure: of the 94 rows that broke Downgraded ⇔ Tier C, 69 were unfinished verification wearing a structural costume. Sorted by what each waits on: 6 settled from their own notes with no read (A1), 20 dealer-block rows never individually checked (A2), 41 owed a named source (A3), 2 unsettleable by this reader (A4)."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "A delivered file missing from a commit, the third instance: Item 346’s florida.html (J.J. Taylor’s move to Tier C) was not in commit e7cee47. Re-applied by edit in Item 347."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "Dealer blocks are reader-blocked by design: 15 of 20 dealer groups never reached their own site because a single-word dealer domain (e.g. sewell.com for Sewell Automotive) cannot pass the two-word anchor; 5 refused. An individual check of a dealer group costs a manual read, not a scripted one."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "Tops Friendly Markets’ note says “See #3”, but #3 in new-york.html is DeCicco & Sons — the pointer names an unrelated row."
   }
  ]
 }

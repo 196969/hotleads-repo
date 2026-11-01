@@ -1,0 +1,2784 @@
+{
+ "item": "347",
+ "partA": [
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "20",
+   "name": "Sun State Builders Supply",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "ghost-row suspect — existence unconfirmed",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "ghost-row suspect — existence unconfirmed",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source showing the company exists and trades (own site or state filing)"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "37",
+   "name": "Rowland Companies",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "ghost-row suspect",
+   "group": "Ghost-row suspect",
+   "class": 3,
+   "basis": "ghost-row suspect",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source showing the company exists and trades (own site or state filing)"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "78",
+   "name": "Border Products",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "ghost-row suspect",
+   "group": "Ghost-row suspect",
+   "class": 3,
+   "basis": "ghost-row suspect",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source showing the company exists and trades (own site or state filing)"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "118",
+   "name": "Nutrition Industries",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "ghost-row suspect",
+   "group": "Ghost-row suspect",
+   "class": 3,
+   "basis": "ghost-row suspect",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source showing the company exists and trades (own site or state filing)"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "130",
+   "name": "Arizona Materials",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent — parked",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent — parked",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a parent source: who owns the company"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "171",
+   "name": "Scottsdale Ferrari",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "a public-parent suspicion, not a disqualifier",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "a public-parent suspicion, not a disqualifier",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a parent source: who owns the company"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "183",
+   "name": "Right Away Disposal",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "parked — acquisition check",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "parked — acquisition check",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source for the fact the note leaves open"
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "187",
+   "name": "Cheeses of Arizona",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "ghost-row suspect",
+   "group": "Ghost-row suspect",
+   "class": 3,
+   "basis": "ghost-row suspect",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source showing the company exists and trades (own site or state filing)"
+  },
+  {
+   "market": "california",
+   "file": "california.html",
+   "num": "38",
+   "name": "Harris Ranch",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "split entity — the beef business sold (2019), the farms remain family-owned; which one the row is, the note does not settle",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "split entity — the beef business sold (2019), the farms remain family-owned; which one the row is, the note does not settle",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "an identity source: which entity the row is"
+  },
+  {
+   "market": "chicago",
+   "file": "chicago.html",
+   "num": "87",
+   "name": "Sikich",
+   "tier": "C",
+   "status": "Verified",
+   "reason": "Tier C row whose note names a minority stake, not control, and a competitor — no disqualifier for C",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "Tier C row whose note names a minority stake, not control, and a competitor — no disqualifier for C",
+   "moved": "none — named and left",
+   "a": "A1",
+   "detail": [
+    "B",
+    "Unverified",
+    "the note names a direct competitor; competitors are Unverified in Tier B (19 Oct class ruling; Item 327a mapping), and the Bain stake is a minority, not control"
+   ]
+  },
+  {
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "48",
+   "name": "Aurora Organic Dairy",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify PE structure — parked",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify PE structure — parked",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a control source: who holds control of the stake"
+  },
+  {
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "66",
+   "name": "Save A Lot Colorado",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify franchise structure — parked",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify franchise structure — parked",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a source on the franchise structure (own site)"
+  },
+  {
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "112",
+   "name": "Stresscon Corporation",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent — parked",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent — parked",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a parent source: who owns the company"
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "112",
+   "name": "Morgan Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note gives both a scale reason and a control reason",
+   "group": "Both a scale and a control reason",
+   "class": 3,
+   "basis": "the note gives both a scale reason and a control reason",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a control source for the stake"
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "3",
+   "name": "Tampa Maid Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note leaves verification open (“CONFIRM”)",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "the note leaves verification open (“CONFIRM”)",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "the confirmation the note names (own site)"
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "24",
+   "name": "The Father's Table",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note leaves verification open (“CONFIRM”)",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "the note leaves verification open (“CONFIRM”)",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "the confirmation the note names (own site)"
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "40",
+   "name": "Conimar Corporation",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note leaves verification open (“CONFIRM”)",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "the note leaves verification open (“CONFIRM”)",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "the confirmation the note names (own site)"
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "81",
+   "name": "Gay Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note names the “ESOP class” but establishes neither employee ownership nor a decision maker (Item 336)",
+   "group": "ESOP asserted, not established",
+   "class": 3,
+   "basis": "the note names the “ESOP class” but establishes neither employee ownership nor a decision maker (Item 336)",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a clause establishing employee ownership"
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "144",
+   "name": "Jordan Lumber GA",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "out-of-state “probable”, with a namesake/acquisition warning",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "out-of-state “probable”, with a namesake/acquisition warning",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a parent source: who owns the company"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "17",
+   "name": "Star of the West Milling",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the remaining text says farmer/shareholder-owned since the family left in 1903 — neither tier nor status settled",
+   "group": "Cooperative or nonprofit",
+   "class": 3,
+   "basis": "the remaining text says farmer/shareholder-owned since the family left in 1903 — neither tier nor status settled",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a class read: whether the company is a cooperative"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "94",
+   "name": "Plum Market",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note’s finding is an inference from silence (“privately owned … is itself the signal”), not an established ownership fact",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "the note’s finding is an inference from silence (“privately owned … is itself the signal”), not an established ownership fact",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "an ownership source"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "118",
+   "name": "Cummins-Wagner Michigan",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "the note carries a strong data-quality flag on the row’s identity",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "the note carries a strong data-quality flag on the row’s identity",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "an identity source for the row"
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "53",
+   "name": "Pella MN",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "verify Minnesota authority",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify Minnesota authority",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a decision-layer source"
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "55",
+   "name": "Anchor Block Company",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a parent source: who owns the company"
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "114",
+   "name": "Winland Electronics",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify structure",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify structure",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source for the fact the note leaves open"
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "156",
+   "name": "Peerless Industrial Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify PE",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify PE",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a control source: who holds control of the stake"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "66",
+   "name": "Major Brands",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "Tier A row with no demotion reason in the note",
+   "group": "Tier A row with no demotion reason",
+   "class": 3,
+   "basis": "Tier A row with no demotion reason in the note",
+   "moved": "none — named and left",
+   "a": "A1",
+   "detail": [
+    "A",
+    "Unverified",
+    "the note gives no demotion reason and names no decision maker; a Tier A row without a confirmed decision maker is Unverified (standing rule)"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "147",
+   "name": "Mayer Hoffman McCann",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "CBIZ affiliated, not owned",
+   "group": "Owner named, class unread or unstated",
+   "class": 3,
+   "basis": "CBIZ affiliated, not owned",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a control source: whether the affiliation is ownership"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "148",
+   "name": "Bryan Cave Leighton Paisner",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "Tier A law firm with no demotion reason in the note",
+   "group": "Tier A row with no demotion reason",
+   "class": 3,
+   "basis": "Tier A law firm with no demotion reason in the note",
+   "moved": "none — named and left",
+   "a": "A1",
+   "detail": [
+    "A",
+    "Unverified",
+    "as Major Brands: no demotion reason, no decision maker named"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "158",
+   "name": "Greensfelder Hemker & Gale",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "Tier A law firm with no demotion reason in the note",
+   "group": "Tier A row with no demotion reason",
+   "class": 3,
+   "basis": "Tier A law firm with no demotion reason in the note",
+   "moved": "none — named and left",
+   "a": "A1",
+   "detail": [
+    "A",
+    "Unverified",
+    "as Major Brands: no demotion reason, no decision maker named"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "174",
+   "name": "Willow Brook Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a parent source: who owns the company"
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "200",
+   "name": "Soulard Farmers Market vendors",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "individual family vendors",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "individual family vendors",
+   "moved": "none — named and left",
+   "a": "A4",
+   "detail": "a market of individual family vendors, not one company — no single owner to verify"
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "41",
+   "name": "Pavarini McGovern",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "Structure Tone affiliated",
+   "group": "Owner named, class unread or unstated",
+   "class": 3,
+   "basis": "Structure Tone affiliated",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a control source: whether the affiliation is ownership"
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "76",
+   "name": "Bedell Cellars",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "owned by an estate listed for sale (2019) — current ownership not settled",
+   "group": "Owner named, class unread or unstated",
+   "class": 3,
+   "basis": "owned by an estate listed for sale (2019) — current ownership not settled",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source on the current owner"
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "112",
+   "name": "Tops Friendly Markets",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "“See #3” — the note carries no finding of its own",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "“See #3” — the note carries no finding of its own",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "an ownership source — the note’s pointer (#3) names an unrelated row (DeCicco & Sons)"
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "114",
+   "name": "Guercio & Sons",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "under contract for sale",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "under contract for sale",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source on the current owner"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "124",
+   "name": "Boggs Paving",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "reputational — not a mapping reason",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "reputational — not a mapping reason",
+   "moved": "none — named and left",
+   "a": "A4",
+   "detail": "“reputational” is not a reason any mapping recognises — it needs a ruling, not a read"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "166",
+   "name": "Modern Automotive Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "NC dealer block"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "168",
+   "name": "Leith Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, namesake per branding — confirm",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, namesake per branding — confirm",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "NC dealer block"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "170",
+   "name": "Johnson Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, namesake per branding — confirm",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, namesake per branding — confirm",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "NC dealer block"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "171",
+   "name": "Capital Automotive Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, ownership not confirmed",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, ownership not confirmed",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "NC dealer block"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "172",
+   "name": "Hubert Vester Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, namesake per branding — confirm",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, namesake per branding — confirm",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "NC dealer block"
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "173",
+   "name": "Jim Barkley Toyota",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block, namesake store — ownership not verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block, namesake store — ownership not verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "NC dealer block"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "14",
+   "name": "Da Yang Seafood",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a parent source: who owns the company"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "132",
+   "name": "Stoneway Electric OR",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify parent",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify parent",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a parent source: who owns the company"
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "155",
+   "name": "Blount International",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "“See #151” — the note carries no finding of its own",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "“See #151” — the note carries no finding of its own",
+   "moved": "none — named and left",
+   "a": "A1",
+   "detail": [
+    "C",
+    "Downgraded",
+    "the note points to #151 (Oregon Tool), whose note states “Platinum Equity owned” — PE control, so Tier C"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "197",
+   "name": "Sunriver Resort",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify ownership",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify ownership",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source for the fact the note leaves open"
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "80",
+   "name": "Hunter Roberts PA",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "out-of-state branch with “no single controlling family principal” — neither verification nor fit settled",
+   "group": "Other single cases",
+   "class": 3,
+   "basis": "out-of-state branch with “no single controlling family principal” — neither verification nor fit settled",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a parent source: who owns the company"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "28",
+   "name": "Gulf Coast Machine & Supply",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "Tier A row; confirm principal — no demotion reason",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "Tier A row; confirm principal — no demotion reason",
+   "moved": "none — named and left",
+   "a": "A1",
+   "detail": [
+    "A",
+    "Unverified",
+    "the note says the principal is not published in any primary source — a Tier A row without a confirmed decision maker is Unverified (standing rule)"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "118",
+   "name": "Gulf States Toyota",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "119",
+   "name": "Sewell Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "120",
+   "name": "Charles Maund Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "121",
+   "name": "Red McCombs Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "122",
+   "name": "Ancira Enterprises",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "123",
+   "name": "Mac Haik Enterprises",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "124",
+   "name": "Gay Family Auto",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "125",
+   "name": "Classic Chevrolet",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "126",
+   "name": "Bert Ogden Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "127",
+   "name": "Randall Reed Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "128",
+   "name": "Freeman Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "129",
+   "name": "Moritz Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "130",
+   "name": "Huffines Auto Dealerships",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "131",
+   "name": "Fikes Wholesale / CEFCO",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "dealer block — not individually verified",
+   "group": "Dealer block, not individually verified",
+   "class": 3,
+   "basis": "dealer block — not individually verified",
+   "moved": "none — named and left",
+   "a": "A2",
+   "detail": "Texas dealer block"
+  },
+  {
+   "market": "utah",
+   "file": "utah.html",
+   "num": "15",
+   "name": "ENVE Composites",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "PE stake — confirm control",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "PE stake — confirm control",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a control source: who holds control of the stake"
+  },
+  {
+   "market": "utah",
+   "file": "utah.html",
+   "num": "196",
+   "name": "Christensen Arms",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "PE stake — confirm control; tier contest held",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "PE stake — confirm control; tier contest held",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a control source: who holds control of the stake"
+  },
+  {
+   "market": "virginia",
+   "file": "virginia.html",
+   "num": "147",
+   "name": "L.C. Industries",
+   "tier": "A",
+   "status": "Downgraded",
+   "reason": "nonprofit — not a public or PE disqualifier",
+   "group": "Cooperative or nonprofit",
+   "class": 3,
+   "basis": "nonprofit — not a public or PE disqualifier",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a structure source (own site), then the nonprofit ruling"
+  },
+  {
+   "market": "washington",
+   "file": "washington.html",
+   "num": "2",
+   "name": "Nordstrom",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "reverse arc: taken private 2025 — verify decision layer",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "reverse arc: taken private 2025 — verify decision layer",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a decision-layer source"
+  },
+  {
+   "market": "washington",
+   "file": "washington.html",
+   "num": "109",
+   "name": "Vulcan Inc.",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "verify decision authority",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "verify decision authority",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a decision-layer source"
+  },
+  {
+   "market": "washington",
+   "file": "washington.html",
+   "num": "135",
+   "name": "SSA Marine",
+   "tier": "B",
+   "status": "Downgraded",
+   "reason": "structure row — parked",
+   "group": "Verification left open",
+   "class": 3,
+   "basis": "structure row — parked",
+   "moved": "none — named and left",
+   "a": "A3",
+   "detail": "a dated source for the fact the note leaves open"
+  }
+ ],
+ "partB": {
+  "Texas dealer block": {
+   "rows": {
+    "texas.html#118": {
+     "name": "Gulf States Toyota",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://www.forbes.com/companies/the-friedkin-group/",
+       "neither"
+      ]
+     ],
+     "reads": 4,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "texas.html#119": {
+     "name": "Sewell Automotive",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press refused",
+       "https://www.sewell.com/"
+      ]
+     ],
+     "reads": 3,
+     "refused": true,
+     "mode": "site refused"
+    },
+    "texas.html#120": {
+     "name": "Charles Maund Automotive",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://client.schwab.com/Areas/Access/Login",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "texas.html#121": {
+     "name": "Red McCombs Automotive",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://mccombsenterprises.com/",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "texas.html#122": {
+     "name": "Ancira Enterprises",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "texas.html#123": {
+     "name": "Mac Haik Enterprises",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press refused",
+       "https://www.sec.gov/edgar/search/"
+      ]
+     ],
+     "reads": 3,
+     "refused": true,
+     "mode": "site refused"
+    },
+    "texas.html#124": {
+     "name": "Gay Family Auto",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://www.merriam-webster.com/dictionary/gay",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "texas.html#125": {
+     "name": "Classic Chevrolet",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press refused",
+       "https://www.classic.com/"
+      ]
+     ],
+     "reads": 3,
+     "refused": true,
+     "mode": "site refused"
+    },
+    "texas.html#126": {
+     "name": "Bert Ogden Auto Group",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://www.geeksforgeeks.org/nlp/explanation-of-bert-model-nlp/",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "texas.html#127": {
+     "name": "Randall Reed Automotive",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://www.randalls.com/",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "texas.html#128": {
+     "name": "Freeman Automotive",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press refused",
+       "https://www.sec.gov/search-filings"
+      ]
+     ],
+     "reads": 3,
+     "refused": true,
+     "mode": "site refused"
+    },
+    "texas.html#129": {
+     "name": "Moritz Auto Group",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "texas.html#130": {
+     "name": "Huffines Auto Dealerships",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://www.huffines.net/",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "texas.html#131": {
+     "name": "Fikes Wholesale",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://www.fikes.com/shop/",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    }
+   },
+   "blocked": false
+  },
+  "NC dealer block": {
+   "rows": {
+    "north-carolina.html#166": {
+     "name": "Modern Automotive Group",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://www.merriam-webster.com/dictionary/modern",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "north-carolina.html#168": {
+     "name": "Leith Automotive",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://www.leithcars.com/",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "north-carolina.html#170": {
+     "name": "Johnson Automotive",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "north-carolina.html#171": {
+     "name": "Capital Automotive Group",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press refused",
+       "https://www.sec.gov/search-filings"
+      ]
+     ],
+     "reads": 3,
+     "refused": true,
+     "mode": "site refused"
+    },
+    "north-carolina.html#172": {
+     "name": "Hubert Vester Auto Group",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://www.hubert.com/",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    },
+    "north-carolina.html#173": {
+     "name": "Jim Barkley Toyota",
+     "class": null,
+     "route": null,
+     "page": null,
+     "context": "",
+     "steps": [
+      [
+       "search own site",
+       "results"
+      ],
+      [
+       "sec ticker list",
+       []
+      ],
+      [
+       "search press",
+       "results"
+      ],
+      [
+       "press",
+       "https://www.jim.com/",
+       null
+      ]
+     ],
+     "reads": 3,
+     "refused": false,
+     "mode": "site never reached (no result passed the whole-name rule)"
+    }
+   },
+   "blocked": false
+  }
+ },
+ "counts": {
+  "call_ready": [
+   313,
+   312
+  ],
+  "gained": [],
+  "lost": [
+   [
+    "florida.html",
+    "67"
+   ]
+  ],
+  "by_name": [
+   306,
+   305
+  ],
+  "by_cell_text": [
+   313,
+   312
+  ],
+  "dialable": [
+   4144,
+   4141
+  ],
+  "tier_c": [
+   2277,
+   2280
+  ]
+ },
+ "report_data": {
+  "rows": {
+   "florida": {
+    "label": "Florida",
+    "rows": 200,
+    "A": 59,
+    "B": 46,
+    "C": 88,
+    "verified_index": "79 · 78",
+    "call_ready": 57,
+    "route4": [
+     {
+      "item": "item323 (24-row sample)",
+      "route4": "7/24 (29.2%)",
+      "void_rate": null,
+      "qualified": true
+     }
+    ]
+   },
+   "texas": {
+    "label": "Texas",
+    "rows": 188,
+    "A": 50,
+    "B": 69,
+    "C": 69,
+    "verified_index": "71 · 69",
+    "call_ready": 23,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "26/61 (42.6%)",
+      "void_rate": 13.2,
+      "qualified": true
+     }
+    ]
+   },
+   "georgia": {
+    "label": "Georgia",
+    "rows": 250,
+    "A": 110,
+    "B": 23,
+    "C": 117,
+    "verified_index": "120 · 120",
+    "call_ready": 27,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "24/58 (41.4%)",
+      "void_rate": 12.7,
+      "qualified": true
+     },
+     {
+      "item": "item331",
+      "route4": "4/25 (16.0%)",
+      "void_rate": 14.6,
+      "qualified": true
+     }
+    ]
+   },
+   "north-carolina": {
+    "label": "North Carolina",
+    "rows": 250,
+    "A": 101,
+    "B": 26,
+    "C": 123,
+    "verified_index": "115 · 115",
+    "call_ready": 3,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "3/13 (23.1%)",
+      "void_rate": 32.8,
+      "qualified": true
+     }
+    ]
+   },
+   "south-carolina": {
+    "label": "South Carolina",
+    "rows": 250,
+    "A": 153,
+    "B": 27,
+    "C": 70,
+    "verified_index": "184 · 183",
+    "call_ready": 8,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "6/17 (35.3%)",
+      "void_rate": 12.7,
+      "qualified": true
+     }
+    ]
+   },
+   "tennessee": {
+    "label": "Tennessee",
+    "rows": 250,
+    "A": 139,
+    "B": 38,
+    "C": 73,
+    "verified_index": "179 · 177",
+    "call_ready": 5,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "4/19 (21.1%)",
+      "void_rate": 31.8,
+      "qualified": true
+     }
+    ]
+   },
+   "virginia": {
+    "label": "Virginia",
+    "rows": 250,
+    "A": 145,
+    "B": 41,
+    "C": 64,
+    "verified_index": "191 · 185",
+    "call_ready": 3,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "4/7 (57.1%)",
+      "void_rate": 10.7,
+      "qualified": true
+     }
+    ]
+   },
+   "wisconsin": {
+    "label": "Wisconsin",
+    "rows": 250,
+    "A": 137,
+    "B": 77,
+    "C": 36,
+    "verified_index": "226 · 213",
+    "call_ready": 27,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "26/53 (49.1%)",
+      "void_rate": 23.3,
+      "qualified": true
+     }
+    ]
+   },
+   "iowa": {
+    "label": "Iowa",
+    "rows": 250,
+    "A": 123,
+    "B": 79,
+    "C": 48,
+    "verified_index": "212 · 205",
+    "call_ready": 11,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "7/19 (36.8%)",
+      "void_rate": 22.1,
+      "qualified": true
+     }
+    ]
+   },
+   "illinois": {
+    "label": "Illinois (Downstate)",
+    "rows": 250,
+    "A": 118,
+    "B": 72,
+    "C": 60,
+    "verified_index": "199 · 194",
+    "call_ready": 62,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "37/70 (52.9%)",
+      "void_rate": 11.3,
+      "qualified": true
+     },
+     {
+      "item": "item331",
+      "route4": "5/14 (35.7%)",
+      "void_rate": 12.9,
+      "qualified": true
+     }
+    ]
+   },
+   "new-jersey": {
+    "label": "New Jersey",
+    "rows": 250,
+    "A": 120,
+    "B": 68,
+    "C": 62,
+    "verified_index": "191 · 183",
+    "call_ready": 8,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "6/14 (42.9%)",
+      "void_rate": 32.7,
+      "qualified": true
+     }
+    ]
+   },
+   "indiana": {
+    "label": "Indiana",
+    "rows": 250,
+    "A": 111,
+    "B": 59,
+    "C": 80,
+    "verified_index": "177 · 176",
+    "call_ready": 6,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "5/17 (29.4%)",
+      "void_rate": 30.4,
+      "qualified": true
+     }
+    ]
+   },
+   "kentucky": {
+    "label": "Kentucky",
+    "rows": 250,
+    "A": 126,
+    "B": 40,
+    "C": 84,
+    "verified_index": "170 · 169",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "0/3 (0.0%)",
+      "void_rate": 31.6,
+      "qualified": true
+     }
+    ]
+   },
+   "utah": {
+    "label": "Utah",
+    "rows": 250,
+    "A": 114,
+    "B": 57,
+    "C": 79,
+    "verified_index": "175 · 167",
+    "call_ready": 4,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "3/13 (23.1%)",
+      "void_rate": 23.9,
+      "qualified": true
+     }
+    ]
+   },
+   "missouri": {
+    "label": "Missouri",
+    "rows": 250,
+    "A": 150,
+    "B": 23,
+    "C": 77,
+    "verified_index": "167 · 167",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "0/1 (0.0%)",
+      "void_rate": 100.0,
+      "qualified": true
+     }
+    ]
+   },
+   "minnesota": {
+    "label": "Minnesota",
+    "rows": 250,
+    "A": 154,
+    "B": 23,
+    "C": 73,
+    "verified_index": "171 · 169",
+    "call_ready": 1,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "1/2 (50.0%)",
+      "void_rate": 66.7,
+      "qualified": true
+     }
+    ]
+   },
+   "oregon": {
+    "label": "Oregon",
+    "rows": 250,
+    "A": 121,
+    "B": 31,
+    "C": 98,
+    "verified_index": "152 · 149",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "0/0",
+      "void_rate": null,
+      "qualified": true
+     }
+    ]
+   },
+   "new-york": {
+    "label": "New York",
+    "rows": 176,
+    "A": 111,
+    "B": 25,
+    "C": 40,
+    "verified_index": "131 · 126",
+    "call_ready": 2,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "2/6 (33.3%)",
+      "void_rate": 24.0,
+      "qualified": true
+     }
+    ]
+   },
+   "michigan": {
+    "label": "Michigan",
+    "rows": 199,
+    "A": 112,
+    "B": 47,
+    "C": 40,
+    "verified_index": "144 · 139",
+    "call_ready": 0,
+    "route4": []
+   },
+   "chicago": {
+    "label": "Chicago",
+    "rows": 288,
+    "A": 115,
+    "B": 41,
+    "C": 132,
+    "verified_index": "133 · 130",
+    "call_ready": 57,
+    "route4": [
+     {
+      "item": "item327",
+      "route4": "33/83 (39.8%)",
+      "void_rate": 24.7,
+      "qualified": true
+     },
+     {
+      "item": "item331",
+      "route4": "4/25 (16.0%)",
+      "void_rate": 7.8,
+      "qualified": true
+     }
+    ]
+   },
+   "california": {
+    "label": "California",
+    "rows": 162,
+    "A": 98,
+    "B": 23,
+    "C": 41,
+    "verified_index": "110 · 108",
+    "call_ready": 1,
+    "route4": [
+     {
+      "item": "item327",
+      "route4": "1/1 (100.0%)",
+      "void_rate": 0.0,
+      "qualified": true
+     }
+    ]
+   },
+   "ohio": {
+    "label": "Ohio",
+    "rows": 250,
+    "A": 102,
+    "B": 52,
+    "C": 96,
+    "verified_index": "135 · 132",
+    "call_ready": 0,
+    "route4": []
+   },
+   "washington": {
+    "label": "Washington",
+    "rows": 250,
+    "A": 93,
+    "B": 22,
+    "C": 135,
+    "verified_index": "100 · 99",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item327",
+      "route4": "0/1 (0.0%)",
+      "void_rate": 50.0,
+      "qualified": true
+     }
+    ]
+   },
+   "las-vegas": {
+    "label": "Las Vegas",
+    "rows": 250,
+    "A": 74,
+    "B": 18,
+    "C": 158,
+    "verified_index": "20 · 20",
+    "call_ready": 4,
+    "route4": []
+   },
+   "colorado": {
+    "label": "Colorado",
+    "rows": 250,
+    "A": 73,
+    "B": 41,
+    "C": 136,
+    "verified_index": "79 · 76",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item327",
+      "route4": "0/2 (0.0%)",
+      "void_rate": 37.5,
+      "qualified": true
+     }
+    ]
+   },
+   "arizona": {
+    "label": "Arizona",
+    "rows": 250,
+    "A": 62,
+    "B": 48,
+    "C": 140,
+    "verified_index": "68 · 68",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item327",
+      "route4": "0/1 (0.0%)",
+      "void_rate": 25.0,
+      "qualified": true
+     }
+    ]
+   },
+   "pennsylvania": {
+    "label": "Pennsylvania",
+    "rows": 208,
+    "A": 97,
+    "B": 50,
+    "C": 61,
+    "verified_index": "106 · 105",
+    "call_ready": 3,
+    "route4": []
+   }
+  },
+  "breaks": [
+   {
+    "market": "florida",
+    "label": "Florida",
+    "file": "florida.html",
+    "num": "112",
+    "name": "Morgan Auto Group",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a control source for the stake"
+   },
+   {
+    "market": "florida",
+    "label": "Florida",
+    "file": "florida-expansion.html",
+    "num": "3",
+    "name": "Tampa Maid Foods",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "the confirmation the note names (own site)"
+   },
+   {
+    "market": "florida",
+    "label": "Florida",
+    "file": "florida-expansion.html",
+    "num": "24",
+    "name": "The Father's Table",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "the confirmation the note names (own site)"
+   },
+   {
+    "market": "florida",
+    "label": "Florida",
+    "file": "florida-expansion.html",
+    "num": "40",
+    "name": "Conimar Corporation",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "the confirmation the note names (own site)"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "118",
+    "name": "Gulf States Toyota",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "119",
+    "name": "Sewell Automotive",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "120",
+    "name": "Charles Maund Automotive",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "121",
+    "name": "Red McCombs Automotive",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "122",
+    "name": "Ancira Enterprises",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "123",
+    "name": "Mac Haik Enterprises",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "124",
+    "name": "Gay Family Auto",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "125",
+    "name": "Classic Chevrolet",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "126",
+    "name": "Bert Ogden Auto Group",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "127",
+    "name": "Randall Reed Automotive",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "128",
+    "name": "Freeman Automotive",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "129",
+    "name": "Moritz Auto Group",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "130",
+    "name": "Huffines Auto Dealerships",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "texas",
+    "label": "Texas",
+    "file": "texas.html",
+    "num": "131",
+    "name": "Fikes Wholesale / CEFCO",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "Texas dealer block"
+   },
+   {
+    "market": "georgia",
+    "label": "Georgia",
+    "file": "georgia.html",
+    "num": "11",
+    "name": "Zaxby’s",
+    "scale_exempt": true,
+    "class": "scale-downgraded (exempt)",
+    "detail": ""
+   },
+   {
+    "market": "georgia",
+    "label": "Georgia",
+    "file": "georgia.html",
+    "num": "81",
+    "name": "Gay Construction",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a clause establishing employee ownership"
+   },
+   {
+    "market": "georgia",
+    "label": "Georgia",
+    "file": "georgia.html",
+    "num": "144",
+    "name": "Jordan Lumber GA",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "north-carolina",
+    "label": "North Carolina",
+    "file": "north-carolina.html",
+    "num": "124",
+    "name": "Boggs Paving",
+    "scale_exempt": false,
+    "class": "A4",
+    "detail": "“reputational” is not a reason any mapping recognises — it needs a ruling, not a read"
+   },
+   {
+    "market": "north-carolina",
+    "label": "North Carolina",
+    "file": "north-carolina.html",
+    "num": "166",
+    "name": "Modern Automotive Group",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "NC dealer block"
+   },
+   {
+    "market": "north-carolina",
+    "label": "North Carolina",
+    "file": "north-carolina.html",
+    "num": "168",
+    "name": "Leith Automotive",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "NC dealer block"
+   },
+   {
+    "market": "north-carolina",
+    "label": "North Carolina",
+    "file": "north-carolina.html",
+    "num": "170",
+    "name": "Johnson Automotive",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "NC dealer block"
+   },
+   {
+    "market": "north-carolina",
+    "label": "North Carolina",
+    "file": "north-carolina.html",
+    "num": "171",
+    "name": "Capital Automotive Group",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "NC dealer block"
+   },
+   {
+    "market": "north-carolina",
+    "label": "North Carolina",
+    "file": "north-carolina.html",
+    "num": "172",
+    "name": "Hubert Vester Auto Group",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "NC dealer block"
+   },
+   {
+    "market": "north-carolina",
+    "label": "North Carolina",
+    "file": "north-carolina.html",
+    "num": "173",
+    "name": "Jim Barkley Toyota",
+    "scale_exempt": false,
+    "class": "A2",
+    "detail": "NC dealer block"
+   },
+   {
+    "market": "virginia",
+    "label": "Virginia",
+    "file": "virginia.html",
+    "num": "147",
+    "name": "L.C. Industries",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a structure source (own site), then the nonprofit ruling"
+   },
+   {
+    "market": "utah",
+    "label": "Utah",
+    "file": "utah.html",
+    "num": "15",
+    "name": "ENVE Composites",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a control source: who holds control of the stake"
+   },
+   {
+    "market": "utah",
+    "label": "Utah",
+    "file": "utah.html",
+    "num": "196",
+    "name": "Christensen Arms",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a control source: who holds control of the stake"
+   },
+   {
+    "market": "missouri",
+    "label": "Missouri",
+    "file": "missouri.html",
+    "num": "147",
+    "name": "Mayer Hoffman McCann",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a control source: whether the affiliation is ownership"
+   },
+   {
+    "market": "missouri",
+    "label": "Missouri",
+    "file": "missouri.html",
+    "num": "174",
+    "name": "Willow Brook Foods",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "missouri",
+    "label": "Missouri",
+    "file": "missouri.html",
+    "num": "200",
+    "name": "Soulard Farmers Market vendors",
+    "scale_exempt": false,
+    "class": "A4",
+    "detail": "a market of individual family vendors, not one company — no single owner to verify"
+   },
+   {
+    "market": "minnesota",
+    "label": "Minnesota",
+    "file": "minnesota.html",
+    "num": "53",
+    "name": "Pella MN",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a decision-layer source"
+   },
+   {
+    "market": "minnesota",
+    "label": "Minnesota",
+    "file": "minnesota.html",
+    "num": "55",
+    "name": "Anchor Block Company",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "minnesota",
+    "label": "Minnesota",
+    "file": "minnesota.html",
+    "num": "114",
+    "name": "Winland Electronics",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source for the fact the note leaves open"
+   },
+   {
+    "market": "minnesota",
+    "label": "Minnesota",
+    "file": "minnesota.html",
+    "num": "156",
+    "name": "Peerless Industrial Group",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a control source: who holds control of the stake"
+   },
+   {
+    "market": "oregon",
+    "label": "Oregon",
+    "file": "oregon.html",
+    "num": "14",
+    "name": "Da Yang Seafood",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "oregon",
+    "label": "Oregon",
+    "file": "oregon.html",
+    "num": "132",
+    "name": "Stoneway Electric OR",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "oregon",
+    "label": "Oregon",
+    "file": "oregon.html",
+    "num": "197",
+    "name": "Sunriver Resort",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source for the fact the note leaves open"
+   },
+   {
+    "market": "new-york",
+    "label": "New York",
+    "file": "new-york.html",
+    "num": "41",
+    "name": "Pavarini McGovern",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a control source: whether the affiliation is ownership"
+   },
+   {
+    "market": "new-york",
+    "label": "New York",
+    "file": "new-york.html",
+    "num": "76",
+    "name": "Bedell Cellars",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source on the current owner"
+   },
+   {
+    "market": "new-york",
+    "label": "New York",
+    "file": "new-york.html",
+    "num": "112",
+    "name": "Tops Friendly Markets",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "an ownership source — the note’s pointer (#3) names an unrelated row (DeCicco & Sons)"
+   },
+   {
+    "market": "new-york",
+    "label": "New York",
+    "file": "new-york.html",
+    "num": "114",
+    "name": "Guercio & Sons",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source on the current owner"
+   },
+   {
+    "market": "michigan",
+    "label": "Michigan",
+    "file": "michigan.html",
+    "num": "17",
+    "name": "Star of the West Milling",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a class read: whether the company is a cooperative"
+   },
+   {
+    "market": "michigan",
+    "label": "Michigan",
+    "file": "michigan.html",
+    "num": "94",
+    "name": "Plum Market",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "an ownership source"
+   },
+   {
+    "market": "michigan",
+    "label": "Michigan",
+    "file": "michigan.html",
+    "num": "118",
+    "name": "Cummins-Wagner Michigan",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "an identity source for the row"
+   },
+   {
+    "market": "california",
+    "label": "California",
+    "file": "california.html",
+    "num": "38",
+    "name": "Harris Ranch",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "an identity source: which entity the row is"
+   },
+   {
+    "market": "washington",
+    "label": "Washington",
+    "file": "washington.html",
+    "num": "2",
+    "name": "Nordstrom",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a decision-layer source"
+   },
+   {
+    "market": "washington",
+    "label": "Washington",
+    "file": "washington.html",
+    "num": "109",
+    "name": "Vulcan Inc.",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a decision-layer source"
+   },
+   {
+    "market": "washington",
+    "label": "Washington",
+    "file": "washington.html",
+    "num": "135",
+    "name": "SSA Marine",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source for the fact the note leaves open"
+   },
+   {
+    "market": "colorado",
+    "label": "Colorado",
+    "file": "colorado.html",
+    "num": "48",
+    "name": "Aurora Organic Dairy",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a control source: who holds control of the stake"
+   },
+   {
+    "market": "colorado",
+    "label": "Colorado",
+    "file": "colorado.html",
+    "num": "66",
+    "name": "Save A Lot Colorado",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a source on the franchise structure (own site)"
+   },
+   {
+    "market": "colorado",
+    "label": "Colorado",
+    "file": "colorado.html",
+    "num": "112",
+    "name": "Stresscon Corporation",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "arizona",
+    "label": "Arizona",
+    "file": "arizona.html",
+    "num": "20",
+    "name": "Sun State Builders Supply",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source showing the company exists and trades (own site or state filing)"
+   },
+   {
+    "market": "arizona",
+    "label": "Arizona",
+    "file": "arizona.html",
+    "num": "37",
+    "name": "Rowland Companies",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source showing the company exists and trades (own site or state filing)"
+   },
+   {
+    "market": "arizona",
+    "label": "Arizona",
+    "file": "arizona.html",
+    "num": "78",
+    "name": "Border Products",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source showing the company exists and trades (own site or state filing)"
+   },
+   {
+    "market": "arizona",
+    "label": "Arizona",
+    "file": "arizona.html",
+    "num": "118",
+    "name": "Nutrition Industries",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source showing the company exists and trades (own site or state filing)"
+   },
+   {
+    "market": "arizona",
+    "label": "Arizona",
+    "file": "arizona.html",
+    "num": "130",
+    "name": "Arizona Materials",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "arizona",
+    "label": "Arizona",
+    "file": "arizona.html",
+    "num": "171",
+    "name": "Scottsdale Ferrari",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a parent source: who owns the company"
+   },
+   {
+    "market": "arizona",
+    "label": "Arizona",
+    "file": "arizona.html",
+    "num": "183",
+    "name": "Right Away Disposal",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source for the fact the note leaves open"
+   },
+   {
+    "market": "arizona",
+    "label": "Arizona",
+    "file": "arizona.html",
+    "num": "187",
+    "name": "Cheeses of Arizona",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a dated source showing the company exists and trades (own site or state filing)"
+   },
+   {
+    "market": "pennsylvania",
+    "label": "Pennsylvania",
+    "file": "pennsylvania.html",
+    "num": "80",
+    "name": "Hunter Roberts PA",
+    "scale_exempt": false,
+    "class": "A3",
+    "detail": "a parent source: who owns the company"
+   }
+  ],
+  "by_class": {
+   "A3": 41,
+   "A2": 20,
+   "scale-downgraded (exempt)": 1,
+   "A4": 2
+  },
+  "by_market": {
+   "Florida": 4,
+   "Texas": 14,
+   "Georgia": 2,
+   "North Carolina": 7,
+   "Virginia": 1,
+   "Utah": 2,
+   "Missouri": 3,
+   "Minnesota": 4,
+   "Oregon": 3,
+   "New York": 4,
+   "Michigan": 3,
+   "California": 1,
+   "Washington": 3,
+   "Colorado": 3,
+   "Arizona": 8,
+   "Pennsylvania": 1
+  }
+ }
+}
