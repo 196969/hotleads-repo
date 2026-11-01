@@ -9304,5 +9304,258 @@
    "kind": "fault caught before delivery (builder’s)",
    "text": "Measuring which naming modules the pipeline loads, the build imported old run scripts (chi_gate, i322, core_run3) to see what they load; importing them executed their module-level code, which rewrote three committed records (chicago-illinois-run1-log.jsonl, florida-item322-log.jsonl, i322-engine.json). Caught by checking the changed-file list before packaging; the three were returned to their committed bytes and do not ship. A measurement that runs the thing it measures is not read-only."
   }
+ ],
+ "history_operator_view_item359": {
+  "relocated": "2026-11-01",
+  "item": "359",
+  "why": "A figure on the operator view stands alone; its derivation, history and the figures it replaced live in the standard (Chair rule, Item 359). Each entry is the element as it stood, whole and unedited, with the page it came from and what replaced it, if anything.",
+  "words_removed_from_the_operator_view": 2186,
+  "entries": [
+   {
+    "page": "index.html",
+    "element": "li",
+    "html": "<li><strong>Winder Farms</strong> (Utah) — utah.html row 31 Tier B: band vs utah-expansion.html row 23 Tier C: ownership; profile — <em>settled: Tier B on both rows, Item 323 2026-10-31</em></li>",
+    "replaced_with": null
+   },
+   {
+    "page": "index.html",
+    "element": "li",
+    "html": "<li><strong>Ben E. Keith Company</strong> (Texas) — texas.html row 1 Tier A: ownership vs texas-expansion.html row 16 Tier C: band — <em>settled: Tier C on both rows (family-held, out of band), Item 323 2026-10-31</em></li>",
+    "replaced_with": null
+   },
+   {
+    "page": "index.html",
+    "element": "li",
+    "html": "<li><strong>Zeus Company</strong> (South Carolina) — south-carolina.html row 161 Tier B: band vs south-carolina-expansion.html row 39 Tier C: ownership; profile — <em>settled: Tier C on both rows, Item 323 2026-10-31</em></li>",
+    "replaced_with": null
+   },
+   {
+    "page": "index.html",
+    "element": "li",
+    "html": "<li><strong>Berlin Packaging</strong> (Chicago) — chicago.html row 237 Tier B: ownership vs chicago-expansion.html row 16 Tier C: profile — <em>settled: Tier C on both rows, Item 323 2026-10-31</em></li>",
+    "replaced_with": null
+   },
+   {
+    "page": "index.html",
+    "element": "h3",
+    "html": "<h3 style=\"margin:0 0 6px\">13 tier contradictions — 4 settled by reading the fact (Item 323, 2026-10-31), 9 still held</h3>",
+    "replaced_with": "<h3 style=\"margin:0 0 6px\">13 tier contradictions — 4 settled by reading the fact, 9 still held</h3>"
+   },
+   {
+    "page": "index.html",
+    "element": "p",
+    "html": "<p class=\"measured-totals\" data-measured=\"2026-10-31\" style=\"font-size:13px;margin:8px 0\"><strong>Measured 2026-10-31, self-overlap checked, every figure as rows / companies:</strong> all 5,973 / 5,775 · Verified 3,804 / 3,721 · expansion 902 / 902 · dialable 4,139 / 4,050 · call-ready 327 / 320 (Item 357: +11 sourced contacts; Item 356: +2, Rooms To Go and Bealls; Item 355: +1, Fresh Del Monte Produce; Item 354: +1, Southern Glazer’s; Item 347: −1, Duda moved to Tier C; Item 338: +2 rows, −1 withdrawn; Item 331 added 11 rows; companies by name — by cell text the same rows count 312, and a count that moves on a method change adds no company; Item 327 added 33 rows; companies counted by name, which finds the same company on two rows six times — the earlier 267 counted rows by cell text; Item 325 added 160 rows outside Florida; Item 323 added 8 Florida rows, Item 322 added 10; re-counted 2026-10-31 with the contact rule bound to the contact; 353 / 350 on the old rule, which took any date on a row as dating its contact) · Tier C 1,834 / 1,697 (companies not restated; see Item 323 note). 198 duplicate pairs stand as pairs; nothing merged. Contact by phone first: email reaches a named person on 2 of 99 Florida call-ready rows, so the composer follows a connected call, never opens one.</p>",
+    "replaced_with": null
+   },
+   {
+    "page": "index.html",
+    "element": "p",
+    "html": "<p class=\"acquisition-backlog\" data-measured=\"2026-11-01\" style=\"font-size:12px;margin:0 0 8px\"><strong>Acquisition backlog: 182 rows</strong> (measured 2026-11-01 at the close of Item 357; 193 at the close of Item 356; 195 at the close of Item 355; 197 at head 71fad92, 196 at 129ce57) that read call-ready under the old rule and carry no source line naming their contact — Florida 39 · Texas 36 · Chicago 32 · Pennsylvania 19 · Georgia 12 · North Carolina 9 · the rest 1–3 each. The predicate is written in the standard (acquisition_backlog_predicate) so the next count can be checked against this one. <em>The earlier figure of 203 is withdrawn:</em> re-measured at its own commit under its own sentence it reads 267, and no recorded definition yields 203. Kept separate, not backlog: 552 dialable rows carry a number with no source naming it (prospecting).</p>",
+    "replaced_with": "<p class=\"acquisition-backlog\" style=\"font-size:12px;margin:0 0 8px\"><strong>Acquisition backlog: 182 rows</strong></p>"
+   },
+   {
+    "page": "index.html",
+    "element": "p",
+    "html": "<p style=\"font-size:12px;margin:0 0 8px\">Dialable (4,139 rows / 4,050 companies) is a different test: tier only, not a sourced contact. Do not read dialable as call-ready. The earlier call-ready figure of 353 is retired: it derived correctly from a test that measured the wrong thing.</p>",
+    "replaced_with": "<p style=\"font-size:12px;margin:0 0 8px\">Dialable: 4,139 rows across 4,050 companies — tier only, not a sourced contact. Do not read dialable as call-ready.</p>"
+   },
+   {
+    "page": "index.html",
+    "element": "p",
+    "html": "<p class=\"operational-headline\" data-measured=\"2026-10-31\" style=\"font-size:15px;font-weight:700;margin:10px 0\">Call-ready: 327 rows across 320 companies (counted by company name) in 27 markets (Florida 58; Item 325 added 160 rows, Item 327 added 33, Item 331 added 11, Item 338 added 2 and withdrew 1). This is the operational number.</p>",
+    "replaced_with": "<p class=\"operational-headline\" style=\"font-size:15px;margin:0 0 8px\"><strong>Call-ready: 327 rows across 320 companies in 27 markets</strong></p>"
+   },
+   {
+    "page": "arizona-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending aerospace-machining + produce/dates/pecans + Mexican-food + craft-beverage names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "california.html",
+    "element": "p",
+    "html": "<p style=\"color:#c3c6d4;margin:10px 0 0;border-top:1px solid #2c3049;padding-top:10px;\"><strong>Residue-resolution addendum (same day).</strong> Three parked rows closed on dedicated searches. Frontier Ford (#196 → C): confirmed Berkshire Hathaway Automotive store on BHA’s own roster and in the 2015 launch coverage — the sixth Berkshire store wearing a family tag across the Arizona and California files; the dealer block rule’s parent check is now seven-for-seven. Pacific Wine & Spirits (#106 → C): ghost convention, second dedicated search empty; absorbed-territory artifact of the RNDC/Young’s consolidation. Bolthouse (#5 → C, parked note CORRECTED): the May 2024 Butterfly split produced Bolthouse Fresh Foods (carrots) and Generous Brands (juice) — investor rosters on both sides are institutional (Butterfly, Apollo, Manna Tree, Northleaf, Shumway); the family-repurchase thread did not survive verification and is withdrawn. Arizona’s parked rows re-searched with no new evidence: RAD (#183) and Arizona Materials (#130) remain honestly parked at B — no resolution, no guess. Final California standing: 99 Verified (98 A + 1 B) / 101 Downgraded / 0 pending · A 98 · B 14 · C 88. Remaining opens across the four closed files are confirm-at-dial caveats only.</p>",
+    "replaced_with": null
+   },
+   {
+    "page": "california-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending industrial + net-new food + craft-beverage names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "chicago-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending Italian-beef/Mexican-food/confection/ingredient + craft-beverage names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "colorado-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending technical/outdoor + natural-food + craft-beverage + Western Slope ag names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "florida-expansion.html",
+    "element": "h2",
+    "html": "<h2>Intake — Unverified (Item 320 Part 9)</h2>",
+    "replaced_with": "<h2>Intake — Unverified</h2>"
+   },
+   {
+    "page": "illinois-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending downstate bakery/roaster/craft-beverage/meat-locker names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides, exclude Chicago-metro. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "indiana-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending family-meats/Amish-food/craft-beverage/orchard names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "iowa-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending creamery/orchard/craft-beverage/specialty-food names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "kentucky-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending craft-bourbon/moonshine/winery/family-bakery/farm-DTC names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "las-vegas-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending mixed mfg/food + craft-beverage + small statewide names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "michigan-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending auto-supplier/food/craft-beverage/mixed names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "minnesota-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending family food/ag + craft-beverage + family/ESOP-manufacturing names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "missouri-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending family-meats/dairy + KC/STL specialty-food + craft-beverage + wine-country names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "new-jersey-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending shore-confection/custard/craft-beverage/family-food names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "new-york-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending food/craft-beverage/mixed names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "ohio-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending industrial + food + craft-beverage names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "oregon-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending forest-products/outdoor-gear + wine-country food/craft-beverage names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "pennsylvania-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 49-row SEED expansion (all research-pending, mixed mfg/food/distribution + craft-beverage, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "south-carolina-expansion.html",
+    "element": "div",
+    "html": "<div class=\"meta\">South Carolina Expansion — Manufacturing / Distribution desk screen. The 2/50 craft-beverage build (verified 2 of 50) is retired; this pass sources <strong>50 net-new</strong> owner/family-led SC <strong>manufacturers, distributors, food processors and logistics firms</strong> in the $10M–$150M band, not already in the SC 200 (south-carolina.html) or its archive (south-carolina-archive.html). Seeded from the archive’s Tier B division-door names (Milliken, Zeus, Tindall, McCall Farms, Titan Farms, W.P. Rawl) as plant/division doors, confirming standalone band before any Tier A. <strong style=\"color:#e9e9ed\">Verification pass 2026-09-03 (live-checked, all 50):</strong> Verified 16 / Downgraded 34 / Research pending 0 · Tier A 10 / B 6 / C 34 · KILLED 13 / PARKED 9 / over-band division-doors 11 / under-floor 1 (Smithey). Band gate applied consistently: Verified now = in-band owner-led only. Over-band family businesses (incl. the reclassified seed doors Milliken, Tindall, McCall Farms, W.P. Rawl, plus Southeastern Freight Lines) carry Downgraded + Tier C — real, but not fresh calls. Rows retained in-table for audit (filter Status = Verified for the call list). All six script blocks (filter, dr-email, dr-pipe, dr-reach, dr-more, dr-wk) byte-identical; “Downgraded” retained in the status filter options.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "tennessee-expansion.html",
+    "element": "div",
+    "html": "<div class=\"meta\">Tennessee Expansion — Manufacturing / Distribution desk screen. The prior 50-row craft-beverage build (verified 0/50) is retired; this pass sources <strong>50 net-new</strong> owner/family-led TN <strong>manufacturers, distributors, food processors and logistics firms</strong> in the $10M–$150M band, not already in the TN 200 (tennessee.html) or its archive (tennessee-archive.html). Seeded from the archive’s Tier B division-door names (McKee Foods, Bush Brothers, MoonPie/Chattanooga Bakery, Lodge Cast Iron) as plant/division doors, confirming standalone band before any Tier A. <strong style=\"color:#e9e9ed\">Verification pass 2026-09-03 (live-checked, all 50):</strong> Verified 16 / Downgraded 34 / Research pending 0 · Tier A 4 / B 12 / C 34 · KILLED 9 / PARKED 0 / over-band division-doors 8. Band gate applied on both sides: Verified = confirmed family/founder ownership + affirmative in-band evidence only. 13 rows with under/near-floor risk, unconfirmed TN HQ, or unestablished ownership were reclassified Verified→Downgraded + Tier C (parked pending dial confirmation, reversible). Rows retained in-table for audit (filter Status = Verified for the call list). All six script blocks (filter, dr-email, dr-pipe, dr-reach, dr-more, dr-wk) byte-identical; “Downgraded” retained in the status filter options.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "texas-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 44-row SEED expansion (all research-pending, mixed mfg/food/distribution + craft-beverage, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "utah-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending craft-beverage/cider/family-bakery/chocolate/farm-DTC names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "virginia-expansion.html",
+    "element": "div",
+    "html": "<div class=\"meta\">Virginia Expansion — Manufacturing / Distribution desk screen. The prior craft-beverage build (verified 1/50) is retired; this pass sources net-new owner/family-led VA <strong>manufacturers, distributors, food processors and logistics firms</strong> in the $10M–$150M band, not already in the VA 200 (virginia.html) or its archive (virginia-archive.html). Seeded from the archive’s Tier B division-door names (Bassett, Hooker, Vaughan-Bassett, Southern States, Estes, Luck) as plant/division doors, confirming standalone band before any Tier A. <strong style=\"color:#e9e9ed\">Verification pass 2026-09-03 (live-checked):</strong> Verified 17 / Downgraded 33 / Research pending 0 · Tier A 0 / B 17 / C 33 · KILLED 8 / PARKED 20 / over-band division-doors 5 / open 3. Band gate applied on both sides: Verified = confirmed family/founder ownership + affirmative in-band evidence only. <strong style=\"color:#e0a45c\">Honest-floor note:</strong> VA’s net-new in-band owner-led mid-market is genuinely thin — the sector is heavily consolidated into public companies (Bassett, Hooker, Owens & Minor, ODFL, PFG, American Woodmark), PE, co-ops and acquirers — so this file carries 3 explicitly open slots rather than padding with fabricated or off-profile rows. Rows retained in-table for audit (filter Status = Verified for the call list). All six script blocks (filter, dr-email, dr-pipe, dr-reach, dr-more, dr-wk) byte-identical; “Downgraded” retained in the status filter.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "washington-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending tree-fruit/seafood/aerospace-machining + craft-beverage names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "wisconsin-expansion.html",
+    "element": "div",
+    "html": "<div style=\"font-size:12px;color:#5a5f77;margin-bottom:14px\">The prior 50-row expansion (research-pending cheese/craft-beverage names, never verified) is retired per the 2026-09-03 standing rule: pull from manufacturing/distribution, seed from Tier B division-door names, apply the band gate on both sides. This file is the replacement.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "index.html",
+    "element": "div (market-table annotation)",
+    "html": "<div style=\"font-size:11px;color:#e0304a;margin-top:2px;font-weight:700\">Sourcing re-dated as a market (Item 323, 2026-10-31): 0 of 73 source lines undated; of the 34 that were, 19 re-dated, 3 re-verified to a changed fact, 12 read but not re-established; 4 Verified rows moved to Unverified.</div>",
+    "replaced_with": null
+   },
+   {
+    "page": "index.html",
+    "element": "div (market-table annotation)",
+    "html": "<div style=\"font-size:11px;color:#2a9d8f;margin-top:2px\">Item 323 (2026-10-31): call-ready 58 rows / 58 companies; verified-callable 16 / 16 (21 withdrawn); short of call-ready 56 rows — source the number 40 · acquire a number 14 · find the name 1 · ask for the name 1 · contact disputed, unresolved 0.</div>",
+    "replaced_with": null
+   }
+  ]
+ },
+ "rule_operator_view": {
+  "dated": "2026-11-01",
+  "item": "359",
+  "rule": "A figure on the operator view stands alone. Its derivation, its history and the figures it replaced live in the standard. One document, one reader.",
+  "guard": "opview_guard.py, run by gate.py stop 2 over index.html, every console-*.html and every market page outside its row tables; a refusal exits 3."
+ },
+ "register_item359": [
+  {
+   "date": "2026-11-01",
+   "kind": "a removal that did not hold — twice",
+   "text": "Operator-view narrative was ruled off in Item 351, came back, was removed in Item 358, and was still on the page in a second form: derivation inside the figures themselves. Commits that brought it in: 5f6f98e (31 Oct, the “Measured 2026-10-31, self-overlap checked…” block), c82dd28 (31 Oct, “Item 325 added 160 rows…” on the call-ready line), a634164 (1 Nov, the backlog’s “at the close of Item 355…” history) — each written by the build’s own passes. Found by the Chair reading the live page, not by any instrument. The guard exists because the ruling alone did not hold."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "guard, proven by a forced failure",
+   "text": "opview_guard.py, run inside gate.py stop 2 over index.html, 27 consoles and 54 market pages (outside their row tables): planting “ (at the close of Item 357)” on the call-ready line made gate.py exit 3 (81 of 82 pages clean); removing it returned exit 4 (82 of 82). 37 elements on 27 pages relocated whole into history_operator_view_item359; 2186 words off the operator view."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "scope, decided and reported (A8)",
+   "text": "On market pages the guard reads everything outside the row tables. A row’s own dated source lines carry item numbers by design — they are evidence the validator requires — so applying the guard inside the tables would set the two standing rules against each other. Overrule if the Chair wants row notes read too."
+  }
  ]
 }

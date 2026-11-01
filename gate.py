@@ -27,7 +27,9 @@ def stop2():
     files = [g for m in markets for g in (m + '.html', m + '-expansion.html') if os.path.exists(g)]
     ok = sum(subprocess.run([sys.executable, 'validate.py', f], capture_output=True).returncode == 0 for f in files)
     print(f"STOP 2 · validator {ok} of {len(files)}")
-    return ok == len(files) == 54
+    og = subprocess.run([sys.executable, 'opview_guard.py'], capture_output=True, text=True)   # Item 359: the operator view stays clean
+    print('STOP 2 · ' + (og.stdout.strip().splitlines() or ['operator-view guard: no output'])[-1])
+    return ok == len(files) == 54 and og.returncode == 0
 
 def stop3():
     if not os.path.exists('reader-plants.json'):
