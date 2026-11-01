@@ -8567,5 +8567,221 @@
    "kind": "finding",
    "text": "Right Away Disposal’s own domain now resolves to wasteconnections.com — recorded on the row as read, not as a statement of acquisition (entry 31)."
   }
+ ],
+ "access_map": {
+  "dated": "2026-11-01",
+  "source": "DRA_2026-2027_The_Build_Stack_v2.docx, registry section (this repository); no state page read in this pass",
+  "markets": {
+   "arizona": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "california": "Free bulk, no API (weekly)",
+   "chicago": "Free bulk, person-downloaded, automation prohibited (Illinois — Business Data Transparency Act, P.A. 102-0049)",
+   "colorado": "Free API, no key",
+   "florida": "Free bulk, no API (SFTP, officers included)",
+   "georgia": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "illinois": "Free bulk, person-downloaded, automation prohibited (Business Data Transparency Act, P.A. 102-0049)",
+   "indiana": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "iowa": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "kentucky": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "las-vegas": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "michigan": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "minnesota": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "missouri": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "new-jersey": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "new-york": "Free API, no key",
+   "north-carolina": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "ohio": "Free bulk, no API (incremental only)",
+   "oregon": "Free API, no key",
+   "pennsylvania": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "south-carolina": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "tennessee": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "texas": "Free bulk, no API (Comptroller, not the Secretary of State)",
+   "utah": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "virginia": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "washington": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually",
+   "wisconsin": "Individual lookup / paid contract — by the Build Stack’s residual class (“most of the rest”), not established for this state individually"
+  },
+  "order_by_access_class": [
+   "colorado",
+   "new-york",
+   "oregon",
+   "california",
+   "florida",
+   "ohio",
+   "texas",
+   "chicago",
+   "illinois",
+   "arizona",
+   "georgia",
+   "indiana",
+   "iowa",
+   "kentucky",
+   "las-vegas",
+   "michigan",
+   "minnesota",
+   "missouri",
+   "new-jersey",
+   "north-carolina",
+   "pennsylvania",
+   "south-carolina",
+   "tennessee",
+   "utah",
+   "virginia",
+   "washington",
+   "wisconsin"
+  ],
+  "not_established": {
+   "Alabama": "never reached its own pages — a name-match failure, not an access finding; its census needs the amended reader, which is closed behind the plant (Item 349)",
+   "Oklahoma": "as Alabama"
+  },
+  "maryland": "individual lookup on its own pages (Item 346) — not one of the 27 markets"
+ },
+ "board_dispositions": {
+  "dated": "2026-11-01",
+  "item": "349 Part G",
+  "entries": [
+   {
+    "item": "Dealer blocks",
+    "rows": 20,
+    "disposition": "manual-read-owed by design. The Firecrawl re-probe the brief ordered (Part C) did not run — Part C is closed behind the reader plant — so the closure stands on the plain-fetch reader (Item 347), and the record says so. Manual cost per block: one browser session per dealer group — Texas 14, North Carolina 6.",
+    "reader": "plain fetch, Item 347"
+   },
+   {
+    "item": "Contest rows",
+    "rows": 4,
+    "disposition": "owed. Zirkle (a dated revenue figure), Christensen Arms (a control source), Rappahannock (its own about page) — each refused or unreached on a plain fetch; the Firecrawl re-probe did not run (Part C closed). Elliott Electric — a real browser session (Playwright or agent-browser), one attempt, owed.",
+    "reader": "plain fetch, Items 343 and 346"
+   },
+   {
+    "item": "A4",
+    "rows": 2,
+    "disposition": "permanently unsettleable by this reader: Soulard Farmers Market is a vendor market, not a company; Boggs Paving is held on “reputational” grounds no mapping covers.",
+    "reader": "none — a ruling, zero reads"
+   },
+   {
+    "item": "Maryland",
+    "rows": 0,
+    "disposition": "individual lookup, Chicago-class cost; unopened by ruling.",
+    "reader": "plain fetch, Item 346"
+   },
+   {
+    "item": "Alabama, Oklahoma",
+    "rows": 0,
+    "disposition": "census owed: needs the amended reader, closed behind the plant in Item 349.",
+    "reader": "plain fetch, Item 346 — never reached the state’s pages"
+   },
+   {
+    "item": "Call-ready, undialled",
+    "rows": 312,
+    "disposition": "the Chair’s. Not queued, not re-read, not counted as owed.",
+    "reader": "—"
+   }
+  ]
+ },
+ "todo_cleared": {
+  "dated": "2026-11-01",
+  "item": "349 Part K",
+  "done": [
+   "gate converted to code (gate.py, three integrity stops)",
+   "send path built (send.py, build only) and suppression.json amended with the “messaged” class (0 entries)",
+   "console deployed to all 27 markets (console-<market>.html)",
+   "access class recorded on every market’s own page, and markets ordered by access class",
+   "board dispositions written (this standard, board_dispositions)"
+  ],
+  "owed": [
+   {
+    "what": "Florida registry ingest (Part B)",
+    "blocker": "sftp.floridados.gov port 22 is not reachable from the build sandbox; needs a machine with outbound SFTP, using the brief’s credentials"
+   },
+   {
+    "what": "Net-new Tier A BD, Florida and Illinois (Part F)",
+    "blocker": "no seed on disk: the Florida pull is owed (above), and the Illinois DTA bulk set recorded in Item 321 did not persist as a data file"
+   },
+   {
+    "what": "Firecrawl re-probe of the 26 refused sources, 20 dealer blocks and 4 contests (Part C)",
+    "blocker": "closed behind the reader plant; Firecrawl’s keyless tier also rate-limited on 2026-11-01 — a free API key is needed for volume"
+   },
+   {
+    "what": "The 39 A3 rows (Part D)",
+    "blocker": "closed behind the reader plant"
+   },
+   {
+    "what": "The reader plant watts.com",
+    "blocker": "unread: plain fetch 403 and Firecrawl’s keyless rate limit; needs a keyed Firecrawl call or a browser read"
+   },
+   {
+    "what": "Practice field with ceilings on every Florida and Illinois row",
+    "blocker": "the standard carries no practice ceilings for Dash Acquisitions, Dash Fractionals or Dash Private Equity; rows are capped, not spent, until the Chair records the ceilings"
+   },
+   {
+    "what": "Dealer blocks (20), contest rows (4), Maryland",
+    "blocker": "see board_dispositions"
+   },
+   {
+    "what": "The first send batch",
+    "blocker": "the Chair’s explicit word against ten named recipients, and a chosen transport"
+   },
+   {
+    "what": "The 312 call-ready rows",
+    "blocker": "the calls — the Chair’s"
+   }
+  ],
+  "struck": [
+   {
+    "what": "Soulard Farmers Market, Boggs Paving",
+    "why": "unsettleable by this reader (A4)"
+   }
+  ]
+ },
+ "register_item349": [
+  {
+   "date": "2026-11-01",
+   "kind": "conversion",
+   "text": "The gate is code: gate.py exits 2 on a file-count shortfall, 3 on the validator below 54 of 54, 4 on a failed reader plant. Its first run on head 6d4ce15 exited 4 — it refused on the watts.com plant."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "reader amendment and plants",
+   "text": "Amended reader: shorter domain anchor, full-name page test, .gov/.edu/.mil excluded. First run: watts.com failed the page test on body text (the site calls the company “Watts”); integrity stop 3 fired; the pass halted. Under ruling 1(b) (title, copyright and legal-entity line, footer added to where the full name is looked for), all three plants reran: nutrition.gov failed on the exclusion as expected; accurate.com failed on the page test as expected; watts.com went unread — plain fetch 403, Firecrawl keyless rate limit. Parts C and D stay closed."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "environment",
+   "text": "Florida registry ingest owed: port 22 to sftp.floridados.gov is not reachable from the build sandbox. Not a refusal by the State."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding — free and unread, fourth instance (stated, not measured)",
+   "text": "The Florida registry is free bulk and has never been ingested. At the measured 5–7 reads a row, the named-decision-maker gap it would close costs reads the registry gives away; this pass could not measure the zero-cost side, because the file could not be reached from here."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "A prior pass recorded an ingest whose data did not persist: the Illinois DTA bulk set (Item 321) is not in the repository as a data file."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "correction (attributed)",
+   "text": "The Chair’s earlier reading that Illinois was the only other Florida-class market is corrected by the builder’s document (the Build Stack): five jurisdictions are free API and five free bulk; of the 27 markets, Colorado, New York and Oregon are free API and California, Florida, Ohio and Texas free bulk."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "log fix (Chair ruling 5)",
+   "text": "The Firecrawl log appends (fc-log.jsonl); it no longer rewrites itself. The first run’s 6 credits stand attested from a transcript."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "standing (Chair ruling 6)",
+   "text": "No autonomous send, ever. send.py refuses without approved-batch.json carrying the Chair’s word and at most ten named recipients; no transport is configured."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "skills search",
+   "text": "npx skills find send / email / smtp (2026-11-01) returned, among others, googleworkspace/cli@gws-gmail-send, resend/resend-skills@resend, cloudflare/skills@cloudflare-email-service and tiangong-ai/agent-skills@email-smtp-send. None adopted: a transport binds the sending account, which is the Chair’s choice."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "Founders 72",
+   "text": "Blind 64 of 72 is the council reporting its own absence — 64 seats have no field to read. Recorded as a defect."
+  }
  ]
 }

@@ -1,0 +1,36 @@
+Install with npx skills add <owner/repo@skill>
+open.feishu.cn@lark-mail 835.6K installs
+larksuite/cli@lark-mail 472K installs
+anthropics/skills@pptx 246.2K installs
+coreyhaines31/marketingskills@copywriting 241.8K installs
+coreyhaines31/marketingskills@marketing-ideas 150.4K installs
+coreyhaines31/marketingskills@cold-email 131.4K installs
+better-auth/skills@better-auth-best-practices 129.2K installs
+cloudflare/skills@cloudflare-email-service 107.4K installs
+googleworkspace/cli@gws-gmail 83K installs
+coreyhaines31/marketingskills@emails 81.7K installs
+googleworkspace/cli@gws-gmail-send 75.4K installs
+coreyhaines31/marketingskills@email-sequence 55.1K installs
+better-auth/skills@email-and-password-best-practices 48.7K installs
+googleworkspace/cli@gws-gmail-watch 37.6K installs
+better-auth/skills@two-factor-authentication-best-practices 35.7K installs
+googleworkspace/cli@gws-workflow-email-to-task 32.8K installs
+googleworkspace/cli@gws-workflow-weekly-digest 31.9K installs
+googleworkspace/cli@recipe-draft-email-from-doc 31.9K installs
+googleworkspace/cli@recipe-email-drive-link 31.8K installs
+googleworkspace/cli@recipe-save-email-attachments 31.4K installs
+Install with npx skills add <owner/repo@skill>
+tiangong-ai/agent-skills@email-smtp-send 6.7K installs
+grafana/skills@grafana-oss 5.8K installs
+Install with npx skills add <owner/repo@skill>
+vercel-labs/agent-browser@agent-browser 1.3M installs
+microsoft/azure-skills@azure-messaging 563.5K installs
+microsoft/azure-skills@azure-hosted-copilot-sdk 355.3K installs
+coreyhaines31/marketingskills@cold-email 131.4K installs
+cloudflare/skills@cloudflare-email-service 107.4K installs
+solana-foundation/solana-dev-skill@solana-dev 105.2K installs
+googleworkspace/cli@gws-gmail 83K installs
+coreyhaines31/marketingskills@emails 81.7K installs
+googleworkspace/cli@gws-gmail-send 75.4K installs
+coreyhaines31/marketingskills@prospecting 68.8K installs
+coreyhaines31/marketingskills@sms 67.4K installs

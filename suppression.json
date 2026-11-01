@@ -19,5 +19,12 @@
   ],
   "unreadable": "if this file cannot be read, every address is withheld (fail closed)"
  },
- "entries": []
+ "entries": [],
+ "amendments": [
+  {
+   "date": "2026-11-01",
+   "item": "349 Part H",
+   "text": "Every address that has already received a message in this programme is suppressed against a second unrequested message, reason “messaged”, address scope. Count at this date: 0 — florida-outreach.json records 4 rows and no touches, and no outreach log exists in the repository. The send path (send.py) reads this file before every message and fails closed if it cannot."
+  }
+ ]
 }

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "reader": "amended reader on the Firecrawl fetch layer (keyless free tier: 1,000 credits a month, 10 scrapes a minute \u2014 read at firecrawl.dev/pricing 2026-11-01)",
+ "reader": "amended reader on the Firecrawl fetch layer",
  "reads": 2,
  "plain_fetch_plants": [
   {
@@ -32,33 +32,72 @@
   {
    "plant": "watts.com for Watts Water Technologies",
    "expected": "pass",
-   "reader": "amended reader on Firecrawl",
-   "domain": "shorter anchor: leading label starts with the first distinctive word",
-   "status": 200,
-   "page_names_company": false,
-   "result": "fail",
-   "depth_followed": [
-    "https://www.watts.com/our-story/history"
-   ],
-   "named_on": null,
-   "note": "the landing page never names the company; the reader\u2019s depth step (Item 337) follows the company\u2019s own about/investor link and tests that page"
+   "result": "unread",
+   "detail": "plain fetch refused (403); Firecrawl\u2019s keyless free tier refused on its rate limit (\u201cYou\u2019ve hit Firecrawl\u2019s keyless free tier rate limit\u201d) \u2014 the widened search (body, title, copyright line, legal-entity line, footer) never had a page to search. Neither a pass nor a page-test failure: unproven.",
+   "reads": {
+    "plain": 1,
+    "firecrawl": 1
+   }
   },
   {
    "plant": "nutrition.gov for Nutrition Industries",
    "expected": "fail (domain exclusion)",
-   "reader": "amended reader on Firecrawl",
-   "domain": "domain exclusion (.gov/.edu/.mil)",
-   "status": null,
-   "result": "fail (domain exclusion)"
+   "result": "fail (domain exclusion)",
+   "reads": {
+    "plain": 0,
+    "firecrawl": 0
+   }
   },
   {
    "plant": "accurate.com for Accurate Box Company",
    "expected": "fail (page test)",
-   "reader": "amended reader on Firecrawl",
-   "domain": "shorter anchor: leading label starts with the first distinctive word",
-   "status": 200,
-   "page_names_company": false,
-   "result": "fail (page test)"
+   "result": "fail (page test)",
+   "detail": "plain fetch 200; the full name \u201cAccurate Box Company\u201d appears in none of the five regions searched; Firecrawl refused on its rate limit",
+   "reads": {
+    "plain": 1,
+    "firecrawl": 1
+   }
   }
- ]
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "ruling": "first run (Item 349): watts.com failed the full-name page test on body text; integrity stop 3 fired",
+   "plants": [
+    {
+     "plant": "watts.com for Watts Water Technologies",
+     "expected": "pass",
+     "reader": "amended reader on Firecrawl",
+     "domain": "shorter anchor: leading label starts with the first distinctive word",
+     "status": 200,
+     "page_names_company": false,
+     "result": "fail",
+     "depth_followed": [
+      "https://www.watts.com/our-story/history"
+     ],
+     "named_on": null,
+     "note": "the landing page never names the company; the reader\u2019s depth step (Item 337) follows the company\u2019s own about/investor link and tests that page"
+    },
+    {
+     "plant": "nutrition.gov for Nutrition Industries",
+     "expected": "fail (domain exclusion)",
+     "reader": "amended reader on Firecrawl",
+     "domain": "domain exclusion (.gov/.edu/.mil)",
+     "status": null,
+     "result": "fail (domain exclusion)"
+    },
+    {
+     "plant": "accurate.com for Accurate Box Company",
+     "expected": "fail (page test)",
+     "reader": "amended reader on Firecrawl",
+     "domain": "shorter anchor: leading label starts with the first distinctive word",
+     "status": 200,
+     "page_names_company": false,
+     "result": "fail (page test)"
+    }
+   ]
+  }
+ ],
+ "ruling": "Chair ruling 1(b), 2026-11-01: the full-name rule stands; the full name is looked for in body text, page title, the copyright or legal-entity line, and the footer. If watts.com still fails, that is the finding and does not block the pass; the other two plants carry the proof.",
+ "verdict": "2 of 3 plants as expected; watts.com unread. Under ruling 1(b) the other two plants carry the proof of the exclusion and the page test; the shorter-anchor admission is still unproven, so the gate\u2019s stop 3 stays set and Parts C and D stay closed."
 }

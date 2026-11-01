@@ -1,0 +1,1351 @@
+{
+ "Florida": {
+  "rows": 200,
+  "tier_c": 88,
+  "dialable": 112,
+  "call_ready": 57,
+  "call_ready_pct_of_dialable": 50.9,
+  "call_ready_missing_fields": [
+   {
+    "file": "florida.html",
+    "num": "3",
+    "company": "Quirch Foods Food distribution · Southeast FL",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "6",
+    "company": "Eagle Brands Sales Beverage distribution · Southeast FL",
+    "missing": [
+     "direct line"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "7",
+    "company": "Martinez Distributors Food distribution · Southeast FL",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "10",
+    "company": "Sunshine Bouquet Floral import/dist · Southeast FL",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "20",
+    "company": "TruckMax Commercial truck/parts · Southeast FL",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "29",
+    "company": "Sintavia Additive mfg · Southeast FL",
+    "missing": [
+     "direct line"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "36",
+    "company": "SkyPostal Cross-border parcel · Southeast FL",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "42",
+    "company": "Pepin Distributing Beverage distribution · Tampa Bay",
+    "missing": [
+     "direct line"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "70",
+    "company": "Cone Distributors Beverage distribution · Orlando/Central",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "72",
+    "company": "Monterey Boats Marine mfg · Orlando/Central",
+    "missing": [
+     "direct line"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "74",
+    "company": "Ring Power (CAT) Equipment dist · Northeast FL",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "82",
+    "company": "El Dorado Furniture Furniture retail/dist · family-owned",
+    "missing": [
+     "direct line"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "83",
+    "company": "Duty Free Americas Travel retail · family-owned",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "84",
+    "company": "Sunshine Gasoline Distributors Fuel distribution · family-ow",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "86",
+    "company": "Miami Beef Company Food mfg · family-owned",
+    "missing": [
+     "direct line"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "93",
+    "company": "Ed Morse Automotive Group Auto retail · family",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "94",
+    "company": "Rick Case Automotive Group Auto retail · family",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "99",
+    "company": "Lipman Family Farms Produce grower/dist · family",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "101",
+    "company": "Suncoast Beverage Sales Beer distribution",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "109",
+    "company": "FrankCrum PEO / HR services · family",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "110",
+    "company": "Amscot Financial Consumer finance · family",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "117",
+    "company": "Wayne Densch Inc. Beer distribution",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "121",
+    "company": "Rosen Hotels & Resorts Hospitality · family",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "122",
+    "company": "Westgate Resorts Hospitality · family",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "125",
+    "company": "4R Restaurant Group (4 Rivers) Restaurants · founder",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "135",
+    "company": "American Coolair Fan mfg · family",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "137",
+    "company": "W.W. Gay Mechanical Mechanical contractor · family",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "142",
+    "company": "ICI Homes Homebuilder · family",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "147",
+    "company": "Milam’s Markets Grocery · family",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida.html",
+    "num": "151",
+    "company": "IBC Airways Regional air cargo",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida-expansion.html",
+    "num": "1",
+    "company": "Globe Trailers Manufacturing & Industrial",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida-expansion.html",
+    "num": "3",
+    "company": "Tampa Maid Foods Food & Beverage Processing",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida-expansion.html",
+    "num": "7",
+    "company": "Schwend, Inc. Transportation & Logistics",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida-expansion.html",
+    "num": "20",
+    "company": "Trans-Phos Transportation & Logistics",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida-expansion.html",
+    "num": "34",
+    "company": "Solutions Manufacturing Manufacturing & Industrial",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida-expansion.html",
+    "num": "I2",
+    "company": "Palm Medical Centers own site",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida-expansion.html",
+    "num": "I3",
+    "company": "Altitude Water own site",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida-expansion.html",
+    "num": "I4",
+    "company": "American Fasteners own site",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "florida-expansion.html",
+    "num": "I6",
+    "company": "FreightCenter own site",
+    "missing": [
+     "dated address source"
+    ]
+   }
+  ],
+  "practice_field_on_call_ready": {
+   "none": 51,
+   "named": 6
+  }
+ },
+ "Illinois (Downstate + Chicago)": {
+  "rows": 538,
+  "tier_c": 192,
+  "dialable": 346,
+  "call_ready": 119,
+  "call_ready_pct_of_dialable": 34.4,
+  "call_ready_missing_fields": [
+   {
+    "file": "illinois.html",
+    "num": "1",
+    "company": "Rockford Toolcraft Tooling/stamping mfg · Rockford",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "3",
+    "company": "Rockford Systems Machine safety mfg · Rockford",
+    "missing": [
+     "title",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "10",
+    "company": "Morton Buildings Post-frame building mfg · Morton",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "12",
+    "company": "Excalibur Seasoning Seasoning/spice mfg · Pekin",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "17",
+    "company": "Beer Nuts Snack mfg · Bloomington",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "30",
+    "company": "Premier Fabrication Steel fabrication · Congerville",
+    "missing": [
+     "title",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "32",
+    "company": "Heinkel's Packing Co. Meat processing · Decatur",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "38",
+    "company": "Kelly Seed & Hardware Seed/hardware retail · Peoria",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "47",
+    "company": "Henson Robinson Mechanical/roofing contractor · Springfield",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "55",
+    "company": "Ingersoll Machine Tools Machine tools mfg · Rockford",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "57",
+    "company": "Sjostrom & Sons General contractor · Rockford",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "59",
+    "company": "Forest City Gear Precision gears mfg · Roscoe",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "64",
+    "company": "Bourn & Koch Machine tools mfg · Rockford",
+    "missing": [
+     "title",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "68",
+    "company": "Midstate Manufacturing Metal fabrication mfg · Galesburg",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "69",
+    "company": "Blick Art Materials Art supplies retail/dist · Galesburg",
+    "missing": [
+     "title",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "72",
+    "company": "Frantz Manufacturing Hardware/rollformed mfg · Sterling",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "83",
+    "company": "Kingery Printing Commercial printing mfg · Effingham",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "84",
+    "company": "Siemer Milling Company Flour milling · Teutopolis",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "87",
+    "company": "Morton Industries Metal fabrication/tube mfg · Morton",
+    "missing": [
+     "title",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "92",
+    "company": "Humphrey's Market Meat/market · Springfield",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "99",
+    "company": "Pepsi MidAmerica Beverage bottling/dist · Marion",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "100",
+    "company": "Flamm Orchards Orchard/produce · Cobden",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "101",
+    "company": "Rendleman Orchards Orchard/produce · Alto Pass",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "103",
+    "company": "Owl Creek Vineyard Winery · Cobden",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "112",
+    "company": "Trefzger's Bakery Bakery · Peoria",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "113",
+    "company": "Alwan & Sons Meat Meat processing/retail · Peoria",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "115",
+    "company": "Riggs Beer Company Brewery/farm · Urbana",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "120",
+    "company": "Incredibly Delicious Bakery/patisserie · Springfield",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "133",
+    "company": "The Libman Company Cleaning tools mfg · Arcola",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "142",
+    "company": "Estwing Manufacturing Striking tools mfg · Rockford",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "144",
+    "company": "Vonachen Group Facility services · Peoria",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "149",
+    "company": "P.J. Hoerr General contractor · Peoria",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "150",
+    "company": "Broeren Russo Builders General contractor · Champaign",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "152",
+    "company": "Grunloh Construction General contractor · Effingham",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "159",
+    "company": "Valley Construction Heavy/civil construction · Rock Island",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "163",
+    "company": "Behrmann Meat & Processing Meat processing · Albers",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "167",
+    "company": "Plocher Construction Heavy/civil construction · Highland",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "171",
+    "company": "Martin Engineering Bulk-material handling mfg · Neponset",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "172",
+    "company": "Wyffels Hybrids Seed corn · Atkinson",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "173",
+    "company": "Torkelson Cheese Cheese mfg · Lena",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "179",
+    "company": "Heritage Enterprises Senior living/svcs · Bloomington",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "191",
+    "company": "Jonamac Orchard Orchard/cidery · Malta",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois.html",
+    "num": "198",
+    "company": "Rader Family Farms Produce/agritourism · Normal",
+    "missing": [
+     "title",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "5",
+    "company": "The Libman Company Cleaning tools (brooms/mops) · manufactur",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "8",
+    "company": "The Knapheide Manufacturing Company Truck bodies / work-truc",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "10",
+    "company": "Nudo Products, Inc. Laminated panels / building products · m",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "11",
+    "company": "Bi-Petro, Inc. Petroleum distribution · distribution",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "12",
+    "company": "Kelley Williamson Company Petroleum / lubricants distributio",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "13",
+    "company": "Vonachen Group Facility / building services · distribution",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "18",
+    "company": "Otto Baum Company, Inc. Masonry / concrete / construction · ",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "19",
+    "company": "RiverStone Group, Inc. Aggregates / sand & gravel · manufact",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "26",
+    "company": "Martin Equipment of Illinois, Inc. John Deere construction/a",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "29",
+    "company": "Birkey's Farm Store, Inc. Case IH ag equipment dealer · dist",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "30",
+    "company": "Martin Engineering Bulk-material handling equipment · manufa",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "31",
+    "company": "United Facilities, Inc. 3PL warehousing / contract packaging",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "35",
+    "company": "P.J. Hoerr, Inc. Commercial construction / concrete · manufa",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "37",
+    "company": "River City Construction, L.L.C. Commercial / industrial cons",
+    "missing": [
+     "title",
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "38",
+    "company": "Uftring Auto Group Automotive dealer group · distribution",
+    "missing": [
+     "title",
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "39",
+    "company": "Standard Sheet Metal Works, Inc. Sheet metal / HVAC fabricat",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "40",
+    "company": "Koenig Body & Equipment, Inc. Truck bodies / equipment upfit",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "42",
+    "company": "JTEC Industries, Inc. Material-handling equipment · manufact",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "illinois-expansion.html",
+    "num": "43",
+    "company": "Hampton Distributing Co. Foodservice / grocery distribution ",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "20",
+    "company": "Uline Distribution & Wholesale",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "31",
+    "company": "Vienna Beef Manufacturing & Industrial",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "32",
+    "company": "Eli’s Cheesecake Company Manufacturing & Industrial",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "37",
+    "company": "Lou Malnati’s Multi-Site Retail",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "47",
+    "company": "Cermak Fresh Market Multi-Site Retail",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "53",
+    "company": "Blick Art Materials Multi-Site Retail",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "58",
+    "company": "Sunset Foods Multi-Site Retail",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "60",
+    "company": "Walsh Group Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "61",
+    "company": "Pepper Construction Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "62",
+    "company": "Power Construction Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "64",
+    "company": "McHugh Construction Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "65",
+    "company": "Bulley & Andrews Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "68",
+    "company": "Berglund Construction Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "70",
+    "company": "F.H. Paschen Construction & Specialty Trades",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "74",
+    "company": "Primera Engineers Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "76",
+    "company": "Terra Engineering Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "77",
+    "company": "GSG Consultants Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "79",
+    "company": "Wight & Company Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "96",
+    "company": "Porte Brown Professional Services",
+    "missing": [
+     "title",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "98",
+    "company": "CJBS Professional Services",
+    "missing": [
+     "title",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "102",
+    "company": "ABT Electronics Multi-Site Retail",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "105",
+    "company": "Winzeler Gear Manufacturing & Industrial",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "106",
+    "company": "Superior Joining Technologies Manufacturing & Industrial",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "107",
+    "company": "Forest City Gear Manufacturing & Industrial",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "114",
+    "company": "Rockford Toolcraft Manufacturing & Industrial",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "133",
+    "company": "Skender Construction & Specialty Trades",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "136",
+    "company": "dbHMS Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "140",
+    "company": "ILT Vignocchi Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "145",
+    "company": "Curran Contracting Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "146",
+    "company": "Peter Baker & Son Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "147",
+    "company": "Meade Inc. Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "148",
+    "company": "Aldridge Electric Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "150",
+    "company": "Gurtz Electric Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "154",
+    "company": "F.E. Moran Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "158",
+    "company": "Sherman Mechanical Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "160",
+    "company": "Madison Industries Manufacturing & Industrial",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "164",
+    "company": "Marquette Companies Construction & Specialty Trades",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "171",
+    "company": "Marquette Management Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "173",
+    "company": "Bradford Allen Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "174",
+    "company": "Interra Realty Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "175",
+    "company": "Kiser Group Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "176",
+    "company": "Essex Realty Group Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "177",
+    "company": "Baum Realty Group Professional Services",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "197",
+    "company": "Sloan Valve Company Manufacturing & Industrial",
+    "missing": [
+     "title",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "211",
+    "company": "Napleton Automotive Group Multi-Site Retail",
+    "missing": [
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "215",
+    "company": "Ray Chevrolet Multi-Site Retail",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "218",
+    "company": "Hawk Auto Group Multi-Site Retail",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago.html",
+    "num": "227",
+    "company": "Fields Auto Group Multi-Site Retail",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago-expansion.html",
+    "num": "5",
+    "company": "Home Run Inn Food & Beverage Processing",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago-expansion.html",
+    "num": "7",
+    "company": "Gonnella Baking Company Food & Beverage Processing",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago-expansion.html",
+    "num": "8",
+    "company": "V&V Supremo Foods, Inc. Food & Beverage Processing",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago-expansion.html",
+    "num": "9",
+    "company": "Vanee Foods Company Food & Beverage Processing",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago-expansion.html",
+    "num": "10",
+    "company": "Eli's Cheesecake Company Food & Beverage Processing",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago-expansion.html",
+    "num": "18",
+    "company": "El Milagro, Inc. Food & Beverage Processing",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago-expansion.html",
+    "num": "19",
+    "company": "Supreme Lobster & Seafood Co. Distribution & Wholesale",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago-expansion.html",
+    "num": "22",
+    "company": "La Preferida, Inc. Food & Beverage Processing",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   },
+   {
+    "file": "chicago-expansion.html",
+    "num": "24",
+    "company": "Chicago Tube & Iron Company Distribution & Wholesale",
+    "missing": [
+     "direct line",
+     "dated address source"
+    ]
+   }
+  ],
+  "practice_field_on_call_ready": {
+   "blank": 119
+  }
+ }
+}

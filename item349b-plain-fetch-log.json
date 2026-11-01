@@ -1,0 +1,41 @@
+{
+ "plain": {
+  "Watts Water Technologies": {
+   "status": 403,
+   "read": false,
+   "found_in": null
+  },
+  "Accurate Box Company": {
+   "status": 200,
+   "read": true,
+   "found_in": []
+  }
+ },
+ "log": [
+  {
+   "n": 1,
+   "route": 1,
+   "row": "plant:watts",
+   "kind": "plant under ruling 1(b), plain fetch",
+   "url": "https://www.watts.com/",
+   "date": "2026-11-01",
+   "status": 403,
+   "bytes": 5657,
+   "final": "https://www.watts.com/",
+   "refused": true,
+   "secs": 0.28
+  },
+  {
+   "n": 2,
+   "route": 1,
+   "row": "plant:accurate",
+   "kind": "plant under ruling 1(b), plain fetch",
+   "url": "https://www.accurate.com/",
+   "date": "2026-11-01",
+   "status": 200,
+   "bytes": 547697,
+   "final": "https://www.accurate.com/",
+   "secs": 0.35
+  }
+ ]
+}
