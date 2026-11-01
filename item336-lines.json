@@ -1,0 +1,438 @@
+{
+ "items": "332-335-336",
+ "item336": [
+  {
+   "file": "north-carolina.html",
+   "num": "92",
+   "name": "Grubb Properties",
+   "tag": "Family-owned since 1963. Third generation.",
+   "governing_text": "DOWNGRADED to B on 26 Aug 2026 — the sixth pre-check caught this one. The file tagged Grubb Properties family-owned; it is NOT. Clay Grubb states repeatedly and in his own words that he \"successfully transformed Grubb Properties from a family-owned business to an employee- and board-owned company.\" The company’s own site: \"In business since 1963, Grubb Properties today is 100% employee- and board-owned.\" Clay Grubb (third generation, started at 12 collecting mortgage payments) is CEO and Chairman since 2002, so the family name and leadership persist while the ownership model changed — a genuine hybrid. Retained at B rather than C because Grubb is still the controlling operator and the fit is",
+   "outcome": "Verified",
+   "why": "the governing text: “Grubb Properties today is 100% employee- and board-owned”, quoted from the company’s own site — employee ownership is what was verified",
+   "strike": "over-strike: the span also took in “Third generation”, a fact about Clay Grubb that the governing text restates (“third generation”); nothing lost"
+  },
+  {
+   "file": "georgia.html",
+   "num": "81",
+   "name": "Gay Construction",
+   "tag": "Family-owned since 1972.",
+   "governing_text": "Downgraded to B 2026-08-26 (ESOP class): 75+ yrs in continuous operation serving healthcare/university/private clients, but no single-family decision-maker door.",
+   "outcome": "named and left",
+   "why": "the governing text names the “ESOP class” but no clause establishes employee ownership, and it names no single decision maker — named and left",
+   "strike": "exact: the strike covers only “Family-owned since 1972.”"
+  }
+ ],
+ "item332_blocklist_sweep": {
+  "linkedin": {
+   "intended": "linkedin.com",
+   "over_matched_in_logs": {}
+  },
+  "facebook": {
+   "intended": "facebook.com",
+   "over_matched_in_logs": {}
+  },
+  "instagram": {
+   "intended": "instagram.com",
+   "over_matched_in_logs": {}
+  },
+  "twitter": {
+   "intended": "twitter.com",
+   "over_matched_in_logs": {}
+  },
+  "x\\.com": {
+   "intended": "x.com",
+   "over_matched_in_logs": {
+    "accuratebox.com": 6,
+    "elementix.com": 5,
+    "truckmax.com": 5,
+    "publix.com": 4,
+    "menupix.com": 2,
+    "capdex.com": 2,
+    "weeklyad.publix.com": 2,
+    "corporate.publix.com": 2
+   }
+  },
+  "youtube": {
+   "intended": "youtube.com",
+   "over_matched_in_logs": {}
+  },
+  "yelp": {
+   "intended": "yelp.com",
+   "over_matched_in_logs": {}
+  },
+  "bbb\\.org": {
+   "intended": "bbb.org",
+   "over_matched_in_logs": {}
+  },
+  "zoominfo": {
+   "intended": "zoominfo.com",
+   "over_matched_in_logs": {}
+  },
+  "dnb\\.com": {
+   "intended": "dnb.com",
+   "over_matched_in_logs": {}
+  },
+  "bizapedia": {
+   "intended": "bizapedia.com",
+   "over_matched_in_logs": {}
+  },
+  "opencorporates": {
+   "intended": "opencorporates.com",
+   "over_matched_in_logs": {}
+  },
+  "manta": {
+   "intended": "manta.com",
+   "over_matched_in_logs": {}
+  },
+  "mapquest": {
+   "intended": "mapquest.com",
+   "over_matched_in_logs": {}
+  },
+  "yellowpages": {
+   "intended": "yellowpages.com",
+   "over_matched_in_logs": {
+    "yellowpages.net": 1
+   }
+  },
+  "wikipedia": {
+   "intended": "wikipedia.org",
+   "over_matched_in_logs": {}
+  },
+  "bloomberg": {
+   "intended": "bloomberg.com",
+   "over_matched_in_logs": {}
+  },
+  "crunchbase": {
+   "intended": "crunchbase.com",
+   "over_matched_in_logs": {}
+  },
+  "glassdoor": {
+   "intended": "glassdoor.com",
+   "over_matched_in_logs": {}
+  },
+  "indeed": {
+   "intended": "indeed.com",
+   "over_matched_in_logs": {}
+  },
+  "amazon": {
+   "intended": "amazon.com",
+   "over_matched_in_logs": {
+    "aboutamazon.com": 4,
+    "s3.amazonaws.com": 1
+   }
+  },
+  "sunbiz": {
+   "intended": "sunbiz.org",
+   "over_matched_in_logs": {}
+  },
+  "buzzfile": {
+   "intended": "buzzfile.com",
+   "over_matched_in_logs": {}
+  },
+  "rocketreach": {
+   "intended": "rocketreach.co",
+   "over_matched_in_logs": {}
+  },
+  "cbinsights": {
+   "intended": "cbinsights.com",
+   "over_matched_in_logs": {}
+  },
+  "pitchbook": {
+   "intended": "pitchbook.com",
+   "over_matched_in_logs": {}
+  },
+  "apollo": {
+   "intended": "apollo.io",
+   "over_matched_in_logs": {}
+  },
+  "signalhire": {
+   "intended": "signalhire.com",
+   "over_matched_in_logs": {}
+  },
+  "govtribe": {
+   "intended": "govtribe.com",
+   "over_matched_in_logs": {}
+  },
+  "bing\\.com": {
+   "intended": "bing.com",
+   "over_matched_in_logs": {}
+  },
+  "microsoft": {
+   "intended": "microsoft.com",
+   "over_matched_in_logs": {}
+  },
+  "google": {
+   "intended": "google.com",
+   "over_matched_in_logs": {
+    "search.google": 1
+   }
+  },
+  "macys": {
+   "intended": "macys.com",
+   "over_matched_in_logs": {}
+  },
+  "walmart": {
+   "intended": "walmart.com",
+   "over_matched_in_logs": {}
+  },
+  "ebay": {
+   "intended": "ebay.com",
+   "over_matched_in_logs": {}
+  },
+  "tripadvisor": {
+   "intended": "tripadvisor.com",
+   "over_matched_in_logs": {}
+  },
+  "chamberofcommerce\\.com": {
+   "intended": "chamberofcommerce.com",
+   "over_matched_in_logs": {}
+  },
+  "cylex": {
+   "intended": "cylex.us.com",
+   "over_matched_in_logs": {}
+  },
+  "hotfrog": {
+   "intended": "hotfrog.com",
+   "over_matched_in_logs": {}
+  },
+  "allbiz": {
+   "intended": "allbiz.com",
+   "over_matched_in_logs": {}
+  },
+  "dandb": {
+   "intended": "dandb.com",
+   "over_matched_in_logs": {}
+  },
+  "corporationwiki": {
+   "intended": "corporationwiki.com",
+   "over_matched_in_logs": {}
+  },
+  "bisprofiles": {
+   "intended": "bisprofiles.com",
+   "over_matched_in_logs": {}
+  },
+  "ziprecruiter": {
+   "intended": "ziprecruiter.com",
+   "over_matched_in_logs": {}
+  },
+  "comparably": {
+   "intended": "comparably.com",
+   "over_matched_in_logs": {}
+  },
+  "owler": {
+   "intended": "owler.com",
+   "over_matched_in_logs": {}
+  },
+  "leadiq": {
+   "intended": "leadiq.com",
+   "over_matched_in_logs": {}
+  },
+  "craft\\.co": {
+   "intended": "craft.co",
+   "over_matched_in_logs": {
+    "rockfordtoolcraft.com": 2
+   }
+  },
+  "datanyze": {
+   "intended": "datanyze.com",
+   "over_matched_in_logs": {}
+  },
+  "zippia": {
+   "intended": "zippia.com",
+   "over_matched_in_logs": {}
+  },
+  "salary": {
+   "intended": "salary.com",
+   "over_matched_in_logs": {}
+  },
+  "careers": {
+   "intended": null,
+   "over_matched_in_logs": {
+    "careersclaxtonpoultry.com": 1,
+    "careers.davidweekleyhomes.com": 1,
+    "bairdcareers.com": 1
+   }
+  }
+ },
+ "item332_plants": {
+  "Caterpillar": {
+   "expected": "public",
+   "got": "public",
+   "route": 2,
+   "page": "sec.gov/files/company_tickers.json",
+   "ctx": "SEC’s list of exchange-traded registrants lists CATERPILLAR INC under ticker CAT",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site refused",
+     "https://www.caterpillar.com"
+    ],
+    [
+     "sec ticker list",
+     [
+      [
+       "CATERPILLAR INC",
+       "CAT"
+      ]
+     ]
+    ]
+   ]
+  },
+  "Publix Super Markets": {
+   "expected": "neither",
+   "got": null,
+   "route": null,
+   "page": null,
+   "ctx": "",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site",
+     "https://www.publix.com/",
+     null
+    ],
+    [
+     "sec ticker list",
+     []
+    ],
+    [
+     "search press",
+     "results"
+    ],
+    [
+     "press",
+     "https://www.publix.com/",
+     null
+    ]
+   ]
+  }
+ },
+ "item335_discards": [
+  {
+   "item": "324",
+   "row": "las-vegas.html#5",
+   "name": "Ellis Island Casino",
+   "domain": "markertrax.com",
+   "own_site": false,
+   "row_state": "re-dated"
+  },
+  {
+   "item": "324",
+   "row": "las-vegas.html#37",
+   "name": "Wells Cargo",
+   "domain": "elementix.com",
+   "own_site": false,
+   "row_state": "written “not re-established at this read”"
+  },
+  {
+   "item": "324",
+   "row": "las-vegas.html#43",
+   "name": "Nevada Ready Mix",
+   "domain": "nevadareadymix.com",
+   "own_site": true,
+   "row_state": "written “not re-established at this read”"
+  },
+  {
+   "item": "324",
+   "row": "las-vegas.html#8",
+   "name": "South Point Hotel Casino",
+   "domain": "lifeoutofthebox.com",
+   "own_site": false,
+   "row_state": "re-dated"
+  },
+  {
+   "item": "325",
+   "row": "south-carolina:south-carolina.html#12",
+   "name": "Callie's Charleston Biscuits",
+   "domain": "menupix.com",
+   "own_site": false,
+   "row_state": "no line written by this route (no number found)"
+  },
+  {
+   "item": "325",
+   "row": "georgia:georgia.html#181",
+   "name": "Seefried Industrial Properties",
+   "domain": "capdex.com",
+   "own_site": false,
+   "row_state": "written (404) 233-0204"
+  },
+  {
+   "item": "325",
+   "row": "georgia:georgia.html#181",
+   "name": "Seefried Industrial Properties",
+   "domain": "elementix.com",
+   "own_site": false,
+   "row_state": "written (404) 233-0204"
+  },
+  {
+   "item": "325",
+   "row": "texas:texas.html#67",
+   "name": "Cavender’s Boot City",
+   "domain": "visitmesquitetx.com",
+   "own_site": false,
+   "row_state": "no line written by this route (no number found)"
+  },
+  {
+   "item": "325",
+   "row": "texas:texas.html#136",
+   "name": "David Weekley Homes",
+   "domain": "goodlandtx.com",
+   "own_site": false,
+   "row_state": "written (844) 777-3717"
+  },
+  {
+   "item": "325",
+   "row": "texas:texas.html#136",
+   "name": "David Weekley Homes",
+   "domain": "mayfairtx.com",
+   "own_site": false,
+   "row_state": "written (844) 777-3717"
+  },
+  {
+   "item": "325",
+   "row": "illinois:illinois.html#119",
+   "name": "Underbrink's Bakery",
+   "domain": "menupix.com",
+   "own_site": false,
+   "row_state": "no line written by this route (no number found)"
+  },
+  {
+   "item": "325",
+   "row": "utah:utah.html#186",
+   "name": "Stampin' Up!",
+   "domain": "news4jax.com",
+   "own_site": false,
+   "row_state": "no line written by this route (no number found)"
+  },
+  {
+   "item": "325",
+   "row": "new-jersey:new-jersey.html#88",
+   "name": "Accurate Box Company",
+   "domain": "accuratebox.com",
+   "own_site": true,
+   "row_state": "held (518) 366-9017"
+  },
+  {
+   "item": "327",
+   "row": "chicago:chicago.html#164",
+   "name": "Marquette Companies",
+   "domain": "elementix.com",
+   "own_site": false,
+   "row_state": "written (630) 420-4730"
+  },
+  {
+   "item": "327",
+   "row": "chicago:chicago.html#172",
+   "name": "Inland Real Estate Group",
+   "domain": "elementix.com",
+   "own_site": false,
+   "row_state": "no line written by this route (no number found)"
+  }
+ ]
+}

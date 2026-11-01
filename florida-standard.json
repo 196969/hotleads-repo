@@ -7691,6 +7691,10 @@
     "refused": 10,
     "empty": 2
    }
+  },
+  "entry27_qualifier": {
+   "qualifier": "measured before entry 27’s fix (2026-10-31); the reader could not reach domains ending in “x.com”; the rate is a floor, not a ceiling — qualified, not withdrawn",
+   "dated": "2026-10-31"
   }
  },
  "item325_market_route_yields": {
@@ -8001,6 +8005,10 @@
    "arizona": {
     "not_reached": "the 1,200-read total bound before this market"
    }
+  },
+  "entry27_qualifier": {
+   "qualifier": "measured before entry 27’s fix (2026-10-31); the reader could not reach domains ending in “x.com”; the rate is a floor, not a ceiling — qualified, not withdrawn",
+   "dated": "2026-10-31"
   }
  },
  "amendments": [
@@ -8016,6 +8024,12 @@
    },
    "reason": "Competitor is a disposition, not a verification outcome; the three-outcome mapping had no status for it, so 11 competitor rows were named and left in Item 326. The fourth outcome gives them one.",
    "definition": "Status answers whether the verification held; tier answers whether the row fits the practice."
+  },
+  {
+   "date": "2026-10-31",
+   "item": "333-334",
+   "rule": "minority-stake rule",
+   "text": "A minority stake — PE, sponsor or corporate — with the founder or family retaining control is not a disqualifier and not a control demotion to Tier C: the row stays in its tier, status Verified (the shared ownership is what was verified). Applied to BlueGrace, Sutherland, New Era Cap, Ameritex, Short’s Brewing; non-control PE (Weaber, Cyprium) is not PE control."
   }
  ],
  "item327_market_route_yields": {
@@ -8106,6 +8120,10 @@
    "void_rate": 63.6,
    "reads_per_row_settled": 9.2,
    "route_that_answered": "SEC company_tickers.json (6 of 6 settled); owner sites refused or silent in every case"
+  },
+  "entry27_qualifier": {
+   "qualifier": "measured before entry 27’s fix (2026-10-31); the reader could not reach domains ending in “x.com”; the rate is a floor, not a ceiling — qualified, not withdrawn",
+   "dated": "2026-10-31"
   }
  },
  "item331_carried_remainders": {
@@ -8244,10 +8262,29 @@
     "rows_written": 0,
     "reads_per_row_written": null
    }
+  },
+  "entry27_qualifier": {
+   "qualifier": "measured before entry 27’s fix (2026-10-31); the reader could not reach domains ending in “x.com”; the rate is a floor, not a ceiling — qualified, not withdrawn",
+   "dated": "2026-10-31"
   }
  },
  "item332_owner_class": {
   "measured": "2026-10-31",
   "result": "not run — the reader failed its private-company plant (Publix Super Markets returned class unread, not neither); the 15 owner-named rows stay unread, the reader named as unable to measure “neither”"
+ },
+ "item333_334_named_and_left": {
+  "measured": "2026-10-31",
+  "total": 93,
+  "by_reason": {
+   "verification left open (verify / parked / confirm)": 26,
+   "ghost-row suspect": 4,
+   "other single cases": 12,
+   "both a scale and a control reason": 6,
+   "cooperative or nonprofit — out by class ruling, not by a public/PE disqualifier": 7,
+   "owner named, class unread or unstated": 15,
+   "Tier A row with no demotion reason": 3,
+   "dealer block, not individually verified": 20
+  },
+  "note": "the rows left standing in Items 333–334 after every note was read in full"
  }
 }
