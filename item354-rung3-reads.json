@@ -1,0 +1,116 @@
+{
+ "rows": {
+  "florida.html#8": {
+   "market": "florida",
+   "name": "PJ Distributors General import/dist · Southeast FL",
+   "phone_on_file": "(305) 455-7508",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "search unclassified",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#11": {
+   "market": "florida",
+   "name": "Turbana Corp Produce import · Southeast FL",
+   "phone_on_file": "(305) 445-1542",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "search unclassified",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#12": {
+   "market": "florida",
+   "name": "Fresh Del Monte Produce Produce import · Southeast FL",
+   "phone_on_file": "(305) 520-8433",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "search unclassified",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#15": {
+   "market": "florida",
+   "name": "Southern Glazer's Wine & Spirits",
+   "phone_on_file": "(954) 680-4600",
+   "result": {
+    "route": 4,
+    "number": "(866) 375-9555",
+    "how": "company page",
+    "site": "southernglazers.com",
+    "candidates": [
+     "(866) 375-9555"
+    ],
+    "src": "Src: read southernglazers.com/contact-us 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida.html#16": {
+   "market": "florida",
+   "name": "National Beverage (LaCroix)",
+   "phone_on_file": "(954) 581-0922",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "nationalbeverage.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida.html#18": {
+   "market": "florida",
+   "name": "Watsco HVAC distribution · Southeast FL",
+   "phone_on_file": "(305) 714-4100",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "search unclassified",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#22": {
+   "market": "florida",
+   "name": "Presidente Supermarkets Grocery + distribution · Southeast FL",
+   "phone_on_file": "305-231-9944",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "search unclassified",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#25": {
+   "market": "florida",
+   "name": "Perry Ellis International Apparel import/dist · Southeast FL",
+   "phone_on_file": "(305) 592-2830",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "search empty",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  }
+ },
+ "halt": "more than a quarter of rows worked produced no sourced contact (7 of 8) after the minimum sample of 8"
+}

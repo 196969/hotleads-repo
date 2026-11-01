@@ -8917,5 +8917,123 @@
    "kind": "owed",
    "text": "Florida’s practice filter has no options (the practice field is not yet built) — ladder 5."
   }
+ ],
+ "acquisition_backlog_predicate": {
+  "name": "acquisition backlog (Item 354 predicate)",
+  "dated": "2026-11-01",
+  "ruled_by": "Chair, Item 354, option 1",
+  "universe": "every row, in every table of the 54 market files, that carries a Tier cell, as read by stepd.rows_of",
+  "clause_1_old_rule_call_ready": "all three hold: (a) the Decision maker cell names a person — two consecutive capitalised words that naming10.is_person accepts — and carries a title word (stepd TITLEW); (b) a phone matching \\(?\\b\\d{3}\\)?[ .-]\\d{3}[ .-]\\d{4}\\b in the Phone cell, or an email matching [\\w.+-]+@[\\w.-]+\\.\\w{2,} in the Email, Email or address or Notes cell, AND any ISO date (\\d{4}-\\d\\d-\\d\\d) anywhere in the Address source, Notes or Decision maker cells; (c) Tier is A, B or Unverified",
+  "clause_2_no_source_line_naming_the_contact": "stepd.contact_source_bound(row, phone, email) at head is False: no ISO date in the Phone or Email cell itself, and no dated Src: line (validate.py’s own line rule) whose closing sentence carries the phone’s last seven digits, the email address, or a contact word (phone, tel, telephone, main line, switchboard, e-mail, contact page/completed/details/form/information/info, contact found, number)",
+  "reproduce_with": "the clause-1 code is stepd.assess as committed at e986c45 (2026-10-31); the clause-2 code is stepd.contact_source_bound at the head being counted",
+  "measured": {
+   "date": "2026-11-01",
+   "head": "71fad92",
+   "total": 197,
+   "by_market": {
+    "florida": 39,
+    "texas": 36,
+    "georgia": 12,
+    "north-carolina": 9,
+    "south-carolina": 7,
+    "tennessee": 6,
+    "virginia": 2,
+    "wisconsin": 3,
+    "iowa": 2,
+    "illinois": 2,
+    "new-jersey": 3,
+    "kentucky": 1,
+    "utah": 1,
+    "missouri": 1,
+    "minnesota": 1,
+    "new-york": 4,
+    "michigan": 3,
+    "chicago": 32,
+    "ohio": 1,
+    "washington": 1,
+    "las-vegas": 9,
+    "colorado": 2,
+    "arizona": 1,
+    "pennsylvania": 19
+   }
+  },
+  "kept_separate": {
+   "name": "unsourced-number population (prospecting, not backlog)",
+   "predicate": "Tier A, B or Unverified; a phone matching the same pattern in the Phone cell; not call-ready under the rule in force; contact_source_bound False",
+   "measured": {
+    "date": "2026-11-01",
+    "head": "71fad92",
+    "total": 552,
+    "by_market": {
+     "florida": 38,
+     "texas": 82,
+     "georgia": 12,
+     "north-carolina": 9,
+     "south-carolina": 8,
+     "tennessee": 14,
+     "virginia": 15,
+     "wisconsin": 22,
+     "iowa": 19,
+     "illinois": 5,
+     "new-jersey": 19,
+     "indiana": 17,
+     "kentucky": 11,
+     "utah": 15,
+     "missouri": 12,
+     "minnesota": 13,
+     "oregon": 12,
+     "new-york": 17,
+     "michigan": 25,
+     "chicago": 40,
+     "california": 9,
+     "ohio": 18,
+     "washington": 6,
+     "las-vegas": 25,
+     "colorado": 5,
+     "arizona": 33,
+     "pennsylvania": 51
+    }
+   }
+  }
+ },
+ "acquisition_backlog_203_withdrawn": {
+  "published": "Acquisition backlog: 203 rows (index, commit 5d44b36, 2026-10-31)",
+  "re_measured_at_publishing_commit": "267 under its stated definition (the predicate above, read at 5d44b36) — Florida 58 against 13 published, Texas 56 against 52, Chicago 56 against 48",
+  "finding": "the commit records no definition that yields 203",
+  "status": "WITHDRAWN — not corrected, not restated",
+  "dated": "2026-11-01",
+  "item": "354"
+ },
+ "register_item354": [
+  {
+   "date": "2026-11-01",
+   "kind": "withdrawal",
+   "text": "The published acquisition backlog of 203 is withdrawn: re-measured at its publishing commit (5d44b36) under its own stated sentence it reads 267, with a per-market split that disagrees three ways; the commit records no definition that yields 203. Replaced by the Item 354 predicate, measured at 197 on 2026-11-01."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "fault (builder’s)",
+   "text": "An instrument measuring the wrong property and passing confidently: Item 349’s backlog matcher accepted only the format “(xxx) xxx-xxxx” and reported 101; the census instrument’s own phone pattern, on the same rows on the same day, reads 552. The 101 is withdrawn."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "ruling",
+   "text": "The 552 unsourced-number population is a different question — prospecting, not backlog — kept, named and counted separately, never folded into the backlog."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "halt (Chair’s stop)",
+   "text": "Rung 3 halted after the minimum sample of 8 rows: 7 of 8 produced no sourced contact (more than a quarter). 12 of 219 reads spent. One contact sourced: Southern Glazer’s (florida.html #15), (866) 375-9555 from southernglazers.com/contact-us, replacing an unsourced (954) number."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "fault (builder’s, entry 30)",
+   "text": "The rung-3 runner built its search names from the census Company cell, which joins the company name to its sub-label (“PJ Distributors General impo…”, “Fresh Del Monte Produce Prod…”). The queries were malformed. Nothing was written from a malformed identity: the one write (Southern Glazer’s) was re-checked under the correct name and its site match is unchanged. Five of the eight rows returned “search unclassified” — the search reader refusing — so the halt reads both a route that is refusing and a runner that asked badly; the two are not separated by these 8 rows."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "Florida’s backlog moved 58 → 39 between the 203’s publishing commit and today: 18 rows gained a sourced contact (Items 323 onward), 1 moved to Tier C, none entered. The published Florida figure of 13 is not reproduced by any count and is withdrawn with the 203."
+  }
  ]
 }
