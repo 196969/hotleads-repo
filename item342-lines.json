@@ -1,0 +1,1731 @@
+{
+ "items": "342-344",
+ "partA": {
+  "plant": {
+   "Watts Water Technologies": {
+    "got": null,
+    "route": null,
+    "page": null,
+    "ctx": "",
+    "steps": [
+     [
+      "search own site",
+      "results"
+     ],
+     [
+      "search press",
+      "results"
+     ],
+     [
+      "press refused",
+      "https://www.watts.com/"
+     ]
+    ]
+   },
+   "Nucor": {
+    "got": "public",
+    "route": 1,
+    "page": "nucor.com/company/history",
+    "ctx": "on of America approves a name change to Nucor. 1972 On The Big Board Nucor is listed under the ticker symbol NUE on the New York Stock Exchange for the first time. The company also announces plans to build a second mini mil",
+    "steps": [
+     [
+      "search own site",
+      "results"
+     ],
+     [
+      "owner site",
+      "https://nucor.com/",
+      null
+     ],
+     [
+      "owner page",
+      "https://nucor.com/company/history/",
+      "public"
+     ]
+    ]
+   }
+  },
+  "reads": [
+   {
+    "n": 1,
+    "route": 1,
+    "row": "Watts Water Technologies",
+    "kind": "search",
+    "reader": "yahoo-v4",
+    "url": "https://search.yahoo.com/search p=\"Watts Water Technologies\" about",
+    "date": "2026-11-01",
+    "status": 200,
+    "bytes": 428385,
+    "outcome": "results",
+    "results": [
+     "https://www.watts.com/",
+     "https://en.wikipedia.org/wiki/Watt",
+     "https://www.watts.com/products",
+     "https://www.whatsapp.com/",
+     "https://science.howstuffworks.com/environmental/energy/question501.htm",
+     "https://electricityforum.com/what-is-a-watt",
+     "https://en.wikipedia.org/wiki/Electric_power",
+     "https://electricalflux.com/learn-components/unit-of-electricity-watts-volts-kwh-explained",
+     "https://ipowerqueen.com/blogs/knowledge/what-are-watts-and-why-do-they-matter",
+     "https://apps.watts.com/logon/LogonPoint/index.html"
+    ],
+    "secs": 0.82
+   },
+   {
+    "n": 2,
+    "route": 3,
+    "row": "Watts Water Technologies",
+    "kind": "search",
+    "reader": "yahoo-v4",
+    "url": "https://search.yahoo.com/search p=\"Watts Water Technologies\" private equity OR NYSE OR \"publicly traded\" OR \"privately held\"",
+    "date": "2026-11-01",
+    "status": 200,
+    "bytes": 326643,
+    "outcome": "results",
+    "results": [
+     "https://www.watts.com/",
+     "https://en.wikipedia.org/wiki/Watt",
+     "https://www.watts.com/products",
+     "https://www.whatsapp.com/",
+     "https://science.howstuffworks.com/environmental/energy/question501.htm",
+     "https://electricityforum.com/what-is-a-watt",
+     "https://en.wikipedia.org/wiki/Electric_power",
+     "https://electricalflux.com/learn-components/unit-of-electricity-watts-volts-kwh-explained",
+     "https://ipowerqueen.com/blogs/knowledge/what-are-watts-and-why-do-they-matter",
+     "https://apps.watts.com/logon/LogonPoint/index.html"
+    ],
+    "secs": 0.6
+   },
+   {
+    "n": 3,
+    "route": 3,
+    "row": "Watts Water Technologies",
+    "kind": "press page",
+    "url": "https://www.watts.com/",
+    "date": "2026-11-01",
+    "status": 403,
+    "bytes": 5656,
+    "final": "https://www.watts.com/",
+    "refused": true,
+    "secs": 0.26
+   },
+   {
+    "n": 4,
+    "route": 1,
+    "row": "Nucor",
+    "kind": "search",
+    "reader": "yahoo-v4",
+    "url": "https://search.yahoo.com/search p=\"Nucor\" about",
+    "date": "2026-11-01",
+    "status": 200,
+    "bytes": 454782,
+    "outcome": "results",
+    "results": [
+     "https://www.acehardware.com/",
+     "https://www.acehardware.com/departments",
+     "https://www.acehardware.com/departments/outdoor-living/grills-and-smokers",
+     "https://www.acehardware.com/store-details/15260",
+     "https://www.acehardware.com/thepaintstudio",
+     "https://www.acehardware.com/store-details/11718",
+     "https://www.acehardware.com/departments/lawn-and-garden/outdoor-power-equipment",
+     "https://www.acehardware.com/departments/building-supplies",
+     "https://www.acehardware.com/b2bhome",
+     "https://www.acehardware.com/brands"
+    ],
+    "secs": 0.71
+   },
+   {
+    "n": 5,
+    "route": 1,
+    "row": "Nucor",
+    "kind": "owner site",
+    "url": "https://www.nucor.com",
+    "date": "2026-11-01",
+    "status": 200,
+    "bytes": 266082,
+    "final": "https://nucor.com/",
+    "secs": 1.74
+   },
+   {
+    "n": 6,
+    "route": 1,
+    "row": "Nucor",
+    "kind": "owner site, deeper",
+    "url": "https://nucor.com/company/history/",
+    "date": "2026-11-01",
+    "status": 200,
+    "bytes": 292587,
+    "final": "https://nucor.com/company/history/",
+    "secs": 1.48
+   }
+  ]
+ },
+ "partB": {
+  "Zirkle Fruit Company": {
+   "market": "washington",
+   "searches": [
+    {
+     "q": "\"Zirkle Fruit\" Selah Washington company",
+     "outcome": "results",
+     "results": [
+      "https://www.zirklefruit.com/",
+      "https://www.zirklefruit.com/employment",
+      "https://www.zirklefruit.com/our-cafeteria",
+      "https://www.zirklefruit.com/aspire",
+      "https://www.zirklefruit.com/toys-for-tots",
+      "https://www.zirklefruit.com/yakima-pippins",
+      "https://www.zirklefruit.com/about-us",
+      "https://www.zirklefruit.com/selah-community-days"
+     ]
+    },
+    {
+     "q": "Zirkle Fruit Company revenue sales growers",
+     "outcome": "results",
+     "results": [
+      "https://www.islandhealth.ca/our-services/mental-health-substance-use-services/access-referrals-mental-health-substance-use-services/intake-campbell-river-referrals-mhsu",
+      "https://bc.211.ca/result/mental-health-and-substance-use-services-campbell-river-9508043/",
+      "https://lkthealth.ca/departments/mental-health-and-addictions/",
+      "https://north-shore.pathwaysbc.ca/programs/682",
+      "https://www.getcognito.ca/locations/campbell-river",
+      "https://medimap.ca/clinics/mental-health/bc/campbell-river",
+      "https://bc.allpages.com/campbell-river/health-medical/healthcare-professionals/mental-health-specialists/",
+      "https://firmania.ca/campbell-river/mental-health-services"
+     ]
+    }
+   ],
+   "pages": [
+    {
+     "url": "https://www.zirklefruit.com/",
+     "refused": true
+    }
+   ]
+  },
+  "Christensen Arms": {
+   "market": "utah",
+   "searches": [
+    {
+     "q": "\"Christensen Arms\" acquired",
+     "outcome": "results",
+     "results": [
+      "https://christensenarms.com/",
+      "https://christensenusa.com/",
+      "https://en.m.wikipedia.org/wiki/Andreas_Christensen",
+      "https://christensenarms.com/product-category/bolt-action-rifles/",
+      "https://www.transfermarkt.com/andreas-christensen/profil/spieler/196948",
+      "https://christensenarmsusa.com/",
+      "https://christensenusa.com/products/fuel/",
+      "https://www.sportsmans.com/shooting-gear-gun-supplies/rifles/brand/c/cat-christensen-arms-rifles"
+     ]
+    },
+    {
+     "q": "Christensen Arms Gunnison Utah owner investment",
+     "outcome": "results",
+     "results": [
+      "https://christensenarms.com/",
+      "https://christensenusa.com/",
+      "https://en.m.wikipedia.org/wiki/Andreas_Christensen",
+      "https://christensenarms.com/product-category/bolt-action-rifles/",
+      "https://www.transfermarkt.com/andreas-christensen/profil/spieler/196948",
+      "https://christensenarmsusa.com/",
+      "https://christensenusa.com/products/fuel/",
+      "https://www.sportsmans.com/shooting-gear-gun-supplies/rifles/brand/c/cat-christensen-arms-rifles"
+     ]
+    }
+   ],
+   "pages": [
+    {
+     "url": "christensenarms.com",
+     "sents": [
+      "Toll Free: 1.888.517.8855 | Local: 1.435.633.4667 MADE IN Gunnison, UT PROGRAMS Dealer Rewards Distributor Rewards Pro Staff Program Military/LEO Discount style> About Our Story Barrel Technology Dealers Careers Press Support Contact Us FAQ Warranty Returns Su",
+      "Toll Free: 1.888.517.8855 | Local: 1.435.633.4667 MADE IN Gunnison, UT style> PROGRAMS Dealer Rewards Distributor Rewards Pro Staff Program Military/LEO Discount About Our Story Barrel Technology Dealers Careers Press Support Contact Us FAQ Warranty Returns Su"
+     ]
+    },
+    {
+     "url": "christensenarms.com/product-category/legacy-firearms",
+     "refused": false,
+     "sents": [
+      "Toll Free: 1.888.517.8855 | Local: 1.435.633.4667 MADE IN Gunnison, UT PROGRAMS Dealer Rewards Distributor Rewards Pro Staff Program Military/LEO Discount style> About Our Story Barrel Technology Dealers Careers Press Support Contact Us FAQ Warranty Returns Su",
+      "Toll Free: 1.888.517.8855 | Local: 1.435.633.4667 MADE IN Gunnison, UT style> PROGRAMS Dealer Rewards Distributor Rewards Pro Staff Program Military/LEO Discount About Our Story Barrel Technology Dealers Careers Press Support Contact Us FAQ Warranty Returns Su"
+     ]
+    },
+    {
+     "url": "christensenarms.com/barrel-technology",
+     "refused": false,
+     "sents": [
+      "Shop Barrels Founded in Utah in 1995, Christensen Arms was built on aerospace discipline and mountain grit.",
+      "Toll Free: 1.888.517.8855 | Local: 1.435.633.4667 MADE IN Gunnison, UT PROGRAMS Dealer Rewards Distributor Rewards Pro Staff Program Military/LEO Discount style> About Our Story Barrel Technology Dealers Careers Press Support Contact Us FAQ Warranty Returns Su",
+      "Toll Free: 1.888.517.8855 | Local: 1.435.633.4667 MADE IN Gunnison, UT style> PROGRAMS Dealer Rewards Distributor Rewards Pro Staff Program Military/LEO Discount About Our Story Barrel Technology Dealers Careers Press Support Contact Us FAQ Warranty Returns Su"
+     ]
+    },
+    {
+     "url": "christensenarms.com/about",
+     "refused": false,
+     "sents": [
+      "1995 Company Founded Christensen Arms is born Carbon-wrapped .22 LR barrels turned a composite idea into Christensen Arms.",
+      "Toll Free: 1.888.517.8855 | Local: 1.435.633.4667 MADE IN Gunnison, UT PROGRAMS Dealer Rewards Distributor Rewards Pro Staff Program Military/LEO Discount style> About Our Story Barrel Technology Dealers Careers Press Support Contact Us FAQ Warranty Returns Su",
+      "Toll Free: 1.888.517.8855 | Local: 1.435.633.4667 MADE IN Gunnison, UT style> PROGRAMS Dealer Rewards Distributor Rewards Pro Staff Program Military/LEO Discount About Our Story Barrel Technology Dealers Careers Press Support Contact Us FAQ Warranty Returns Su"
+     ]
+    }
+   ]
+  },
+  "Rappahannock Oyster Co.": {
+   "market": "virginia",
+   "searches": [
+    {
+     "q": "Rappahannock Oyster Company about Croxton",
+     "outcome": "results",
+     "results": [
+      "https://en.wikipedia.org/wiki/Rappahannock_County,_Virginia",
+      "https://rappahannockcountyva.gov/",
+      "https://www.myrec.coop/",
+      "https://www.rappahannock.edu/",
+      "https://www.rappahannock.com/",
+      "https://www.rappahannock.com/about-rappahannock-county",
+      "https://www.rappahannockcountyva.gov/government/index.php",
+      "https://www.rappnews.com/"
+     ]
+    },
+    {
+     "q": "Rappahannock Oyster Co Topping Virginia",
+     "outcome": "results",
+     "results": [
+      "https://en.wikipedia.org/wiki/Rappahannock_County,_Virginia",
+      "https://rappahannockcountyva.gov/",
+      "https://www.myrec.coop/",
+      "https://www.rappahannock.edu/",
+      "https://www.rappahannock.com/",
+      "https://www.rappahannock.com/about-rappahannock-county",
+      "https://www.rappahannockcountyva.gov/government/index.php",
+      "https://www.rappnews.com/"
+     ]
+    }
+   ]
+  }
+ },
+ "partC_data": {
+  "rows": {
+   "florida": {
+    "label": "Florida",
+    "rows": 200,
+    "A": 59,
+    "B": 48,
+    "C": 86,
+    "verified_index": "79 · 78",
+    "call_ready": 58,
+    "route4": [
+     {
+      "item": "item323 (24-row sample)",
+      "route4": "7/24 (29.2%)",
+      "void_rate": null,
+      "qualified": true
+     }
+    ]
+   },
+   "texas": {
+    "label": "Texas",
+    "rows": 188,
+    "A": 50,
+    "B": 69,
+    "C": 69,
+    "verified_index": "71 · 69",
+    "call_ready": 23,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "26/61 (42.6%)",
+      "void_rate": 13.2,
+      "qualified": true
+     }
+    ]
+   },
+   "georgia": {
+    "label": "Georgia",
+    "rows": 250,
+    "A": 110,
+    "B": 24,
+    "C": 116,
+    "verified_index": "120 · 120",
+    "call_ready": 27,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "24/58 (41.4%)",
+      "void_rate": 12.7,
+      "qualified": true
+     },
+     {
+      "item": "item331",
+      "route4": "4/25 (16.0%)",
+      "void_rate": 14.6,
+      "qualified": true
+     }
+    ]
+   },
+   "north-carolina": {
+    "label": "North Carolina",
+    "rows": 250,
+    "A": 101,
+    "B": 27,
+    "C": 122,
+    "verified_index": "115 · 115",
+    "call_ready": 3,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "3/13 (23.1%)",
+      "void_rate": 32.8,
+      "qualified": true
+     }
+    ]
+   },
+   "south-carolina": {
+    "label": "South Carolina",
+    "rows": 250,
+    "A": 153,
+    "B": 27,
+    "C": 70,
+    "verified_index": "184 · 183",
+    "call_ready": 8,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "6/17 (35.3%)",
+      "void_rate": 12.7,
+      "qualified": true
+     }
+    ]
+   },
+   "tennessee": {
+    "label": "Tennessee",
+    "rows": 250,
+    "A": 139,
+    "B": 38,
+    "C": 73,
+    "verified_index": "179 · 177",
+    "call_ready": 5,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "4/19 (21.1%)",
+      "void_rate": 31.8,
+      "qualified": true
+     }
+    ]
+   },
+   "virginia": {
+    "label": "Virginia",
+    "rows": 250,
+    "A": 145,
+    "B": 42,
+    "C": 63,
+    "verified_index": "191 · 185",
+    "call_ready": 3,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "4/7 (57.1%)",
+      "void_rate": 10.7,
+      "qualified": true
+     }
+    ]
+   },
+   "wisconsin": {
+    "label": "Wisconsin",
+    "rows": 250,
+    "A": 137,
+    "B": 77,
+    "C": 36,
+    "verified_index": "226 · 213",
+    "call_ready": 27,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "26/53 (49.1%)",
+      "void_rate": 23.3,
+      "qualified": true
+     }
+    ]
+   },
+   "iowa": {
+    "label": "Iowa",
+    "rows": 250,
+    "A": 123,
+    "B": 79,
+    "C": 48,
+    "verified_index": "212 · 205",
+    "call_ready": 11,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "7/19 (36.8%)",
+      "void_rate": 22.1,
+      "qualified": true
+     }
+    ]
+   },
+   "illinois": {
+    "label": "Illinois (Downstate)",
+    "rows": 250,
+    "A": 118,
+    "B": 72,
+    "C": 60,
+    "verified_index": "199 · 194",
+    "call_ready": 62,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "37/70 (52.9%)",
+      "void_rate": 11.3,
+      "qualified": true
+     },
+     {
+      "item": "item331",
+      "route4": "5/14 (35.7%)",
+      "void_rate": 12.9,
+      "qualified": true
+     }
+    ]
+   },
+   "new-jersey": {
+    "label": "New Jersey",
+    "rows": 250,
+    "A": 120,
+    "B": 68,
+    "C": 62,
+    "verified_index": "191 · 183",
+    "call_ready": 8,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "6/14 (42.9%)",
+      "void_rate": 32.7,
+      "qualified": true
+     }
+    ]
+   },
+   "indiana": {
+    "label": "Indiana",
+    "rows": 250,
+    "A": 111,
+    "B": 59,
+    "C": 80,
+    "verified_index": "177 · 176",
+    "call_ready": 6,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "5/17 (29.4%)",
+      "void_rate": 30.4,
+      "qualified": true
+     }
+    ]
+   },
+   "kentucky": {
+    "label": "Kentucky",
+    "rows": 250,
+    "A": 126,
+    "B": 40,
+    "C": 84,
+    "verified_index": "170 · 169",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "0/3 (0.0%)",
+      "void_rate": 31.6,
+      "qualified": true
+     }
+    ]
+   },
+   "utah": {
+    "label": "Utah",
+    "rows": 250,
+    "A": 114,
+    "B": 57,
+    "C": 79,
+    "verified_index": "175 · 167",
+    "call_ready": 4,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "3/13 (23.1%)",
+      "void_rate": 23.9,
+      "qualified": true
+     }
+    ]
+   },
+   "missouri": {
+    "label": "Missouri",
+    "rows": 250,
+    "A": 150,
+    "B": 27,
+    "C": 73,
+    "verified_index": "167 · 167",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "0/1 (0.0%)",
+      "void_rate": 100.0,
+      "qualified": true
+     }
+    ]
+   },
+   "minnesota": {
+    "label": "Minnesota",
+    "rows": 250,
+    "A": 154,
+    "B": 25,
+    "C": 71,
+    "verified_index": "171 · 169",
+    "call_ready": 1,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "1/2 (50.0%)",
+      "void_rate": 66.7,
+      "qualified": true
+     }
+    ]
+   },
+   "oregon": {
+    "label": "Oregon",
+    "rows": 250,
+    "A": 121,
+    "B": 38,
+    "C": 91,
+    "verified_index": "152 · 149",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "0/0",
+      "void_rate": null,
+      "qualified": true
+     }
+    ]
+   },
+   "new-york": {
+    "label": "New York",
+    "rows": 176,
+    "A": 111,
+    "B": 26,
+    "C": 39,
+    "verified_index": "131 · 126",
+    "call_ready": 2,
+    "route4": [
+     {
+      "item": "item325",
+      "route4": "2/6 (33.3%)",
+      "void_rate": 24.0,
+      "qualified": true
+     }
+    ]
+   },
+   "michigan": {
+    "label": "Michigan",
+    "rows": 199,
+    "A": 112,
+    "B": 51,
+    "C": 36,
+    "verified_index": "144 · 139",
+    "call_ready": 0,
+    "route4": []
+   },
+   "chicago": {
+    "label": "Chicago",
+    "rows": 288,
+    "A": 115,
+    "B": 40,
+    "C": 133,
+    "verified_index": "133 · 130",
+    "call_ready": 57,
+    "route4": [
+     {
+      "item": "item327",
+      "route4": "33/83 (39.8%)",
+      "void_rate": 24.7,
+      "qualified": true
+     },
+     {
+      "item": "item331",
+      "route4": "4/25 (16.0%)",
+      "void_rate": 7.8,
+      "qualified": true
+     }
+    ]
+   },
+   "california": {
+    "label": "California",
+    "rows": 162,
+    "A": 98,
+    "B": 23,
+    "C": 41,
+    "verified_index": "110 · 108",
+    "call_ready": 1,
+    "route4": [
+     {
+      "item": "item327",
+      "route4": "1/1 (100.0%)",
+      "void_rate": 0.0,
+      "qualified": true
+     }
+    ]
+   },
+   "ohio": {
+    "label": "Ohio",
+    "rows": 250,
+    "A": 102,
+    "B": 54,
+    "C": 94,
+    "verified_index": "135 · 132",
+    "call_ready": 0,
+    "route4": []
+   },
+   "washington": {
+    "label": "Washington",
+    "rows": 250,
+    "A": 93,
+    "B": 22,
+    "C": 135,
+    "verified_index": "100 · 99",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item327",
+      "route4": "0/1 (0.0%)",
+      "void_rate": 50.0,
+      "qualified": true
+     }
+    ]
+   },
+   "las-vegas": {
+    "label": "Las Vegas",
+    "rows": 250,
+    "A": 74,
+    "B": 18,
+    "C": 158,
+    "verified_index": "20 · 20",
+    "call_ready": 4,
+    "route4": []
+   },
+   "colorado": {
+    "label": "Colorado",
+    "rows": 250,
+    "A": 73,
+    "B": 41,
+    "C": 136,
+    "verified_index": "79 · 76",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item327",
+      "route4": "0/2 (0.0%)",
+      "void_rate": 37.5,
+      "qualified": true
+     }
+    ]
+   },
+   "arizona": {
+    "label": "Arizona",
+    "rows": 250,
+    "A": 62,
+    "B": 48,
+    "C": 140,
+    "verified_index": "68 · 68",
+    "call_ready": 0,
+    "route4": [
+     {
+      "item": "item327",
+      "route4": "0/1 (0.0%)",
+      "void_rate": 25.0,
+      "qualified": true
+     }
+    ]
+   },
+   "pennsylvania": {
+    "label": "Pennsylvania",
+    "rows": 208,
+    "A": 97,
+    "B": 50,
+    "C": 61,
+    "verified_index": "106 · 105",
+    "call_ready": 3,
+    "route4": []
+   }
+  },
+  "breaks": [
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "20",
+    "name": "Sun State Builders Supply",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "ghost-row suspect — existence unconfirmed",
+    "group": "Verification left open"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "37",
+    "name": "Rowland Companies",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "ghost-row suspect",
+    "group": "Ghost-row suspect"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "78",
+    "name": "Border Products",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "ghost-row suspect",
+    "group": "Ghost-row suspect"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "118",
+    "name": "Nutrition Industries",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "ghost-row suspect",
+    "group": "Ghost-row suspect"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "130",
+    "name": "Arizona Materials",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent — parked",
+    "group": "Verification left open"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "171",
+    "name": "Scottsdale Ferrari",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "a public-parent suspicion, not a disqualifier",
+    "group": "Other single cases"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "183",
+    "name": "Right Away Disposal",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "parked — acquisition check",
+    "group": "Verification left open"
+   },
+   {
+    "market": "arizona",
+    "file": "arizona.html",
+    "num": "187",
+    "name": "Cheeses of Arizona",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "ghost-row suspect",
+    "group": "Ghost-row suspect"
+   },
+   {
+    "market": "california",
+    "file": "california.html",
+    "num": "38",
+    "name": "Harris Ranch",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "split entity — the beef business sold (2019), the farms remain family-owned; which one the row is, the note does not settle",
+    "group": "Other single cases"
+   },
+   {
+    "market": "chicago",
+    "file": "chicago.html",
+    "num": "87",
+    "name": "Sikich",
+    "tier": "C",
+    "status": "Verified",
+    "reason": "Tier C row whose note names a minority stake, not control, and a competitor — no disqualifier for C",
+    "group": "Other single cases"
+   },
+   {
+    "market": "colorado",
+    "file": "colorado.html",
+    "num": "48",
+    "name": "Aurora Organic Dairy",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify PE structure — parked",
+    "group": "Verification left open"
+   },
+   {
+    "market": "colorado",
+    "file": "colorado.html",
+    "num": "66",
+    "name": "Save A Lot Colorado",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify franchise structure — parked",
+    "group": "Verification left open"
+   },
+   {
+    "market": "colorado",
+    "file": "colorado.html",
+    "num": "112",
+    "name": "Stresscon Corporation",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent — parked",
+    "group": "Verification left open"
+   },
+   {
+    "market": "florida",
+    "file": "florida.html",
+    "num": "44",
+    "name": "J.J. Taylor Distributing FL",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note gives both a scale reason and a control reason",
+    "group": "Both a scale and a control reason"
+   },
+   {
+    "market": "florida",
+    "file": "florida.html",
+    "num": "67",
+    "name": "Duda Farm Fresh Foods",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note gives both a scale reason and a control reason",
+    "group": "Both a scale and a control reason"
+   },
+   {
+    "market": "florida",
+    "file": "florida.html",
+    "num": "112",
+    "name": "Morgan Auto Group",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note gives both a scale reason and a control reason",
+    "group": "Both a scale and a control reason"
+   },
+   {
+    "market": "florida",
+    "file": "florida-expansion.html",
+    "num": "3",
+    "name": "Tampa Maid Foods",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note leaves verification open (“CONFIRM”)",
+    "group": "Verification left open"
+   },
+   {
+    "market": "florida",
+    "file": "florida-expansion.html",
+    "num": "24",
+    "name": "The Father's Table",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note leaves verification open (“CONFIRM”)",
+    "group": "Verification left open"
+   },
+   {
+    "market": "florida",
+    "file": "florida-expansion.html",
+    "num": "40",
+    "name": "Conimar Corporation",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note leaves verification open (“CONFIRM”)",
+    "group": "Verification left open"
+   },
+   {
+    "market": "georgia",
+    "file": "georgia.html",
+    "num": "11",
+    "name": "Zaxby’s",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "scale and a PE minority stake together",
+    "group": "Both a scale and a control reason"
+   },
+   {
+    "market": "georgia",
+    "file": "georgia.html",
+    "num": "81",
+    "name": "Gay Construction",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note names the “ESOP class” but establishes neither employee ownership nor a decision maker (Item 336)",
+    "group": "ESOP asserted, not established"
+   },
+   {
+    "market": "georgia",
+    "file": "georgia.html",
+    "num": "144",
+    "name": "Jordan Lumber GA",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "out-of-state “probable”, with a namesake/acquisition warning",
+    "group": "Other single cases"
+   },
+   {
+    "market": "georgia",
+    "file": "georgia.html",
+    "num": "160",
+    "name": "Premium Peanut",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "grower cooperative — not a public or PE disqualifier",
+    "group": "Cooperative or nonprofit"
+   },
+   {
+    "market": "michigan",
+    "file": "michigan.html",
+    "num": "13",
+    "name": "Cherry Central",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "grower cooperative — out by a standing class ruling, but not a public or PE disqualifier; this brief moves a tier only on those",
+    "group": "Cooperative or nonprofit"
+   },
+   {
+    "market": "michigan",
+    "file": "michigan.html",
+    "num": "14",
+    "name": "Graceland Fruit",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the remaining text says a cooperative — not a public or PE disqualifier, and no mapping status settles it",
+    "group": "Cooperative or nonprofit"
+   },
+   {
+    "market": "michigan",
+    "file": "michigan.html",
+    "num": "15",
+    "name": "Shoreline Fruit",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the remaining text says a cooperative (as Graceland) — not settled by the mapping",
+    "group": "Cooperative or nonprofit"
+   },
+   {
+    "market": "michigan",
+    "file": "michigan.html",
+    "num": "16",
+    "name": "Michigan Sugar",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "grower cooperative — out by a standing class ruling, but not a public or PE disqualifier; this brief moves a tier only on those",
+    "group": "Cooperative or nonprofit"
+   },
+   {
+    "market": "michigan",
+    "file": "michigan.html",
+    "num": "17",
+    "name": "Star of the West Milling",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the remaining text says farmer/shareholder-owned since the family left in 1903 — neither tier nor status settled",
+    "group": "Cooperative or nonprofit"
+   },
+   {
+    "market": "michigan",
+    "file": "michigan.html",
+    "num": "94",
+    "name": "Plum Market",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note’s finding is an inference from silence (“privately owned … is itself the signal”), not an established ownership fact",
+    "group": "Other single cases"
+   },
+   {
+    "market": "michigan",
+    "file": "michigan.html",
+    "num": "118",
+    "name": "Cummins-Wagner Michigan",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note carries a strong data-quality flag on the row’s identity",
+    "group": "Other single cases"
+   },
+   {
+    "market": "minnesota",
+    "file": "minnesota.html",
+    "num": "53",
+    "name": "Pella MN",
+    "tier": "A",
+    "status": "Downgraded",
+    "reason": "verify Minnesota authority",
+    "group": "Verification left open"
+   },
+   {
+    "market": "minnesota",
+    "file": "minnesota.html",
+    "num": "55",
+    "name": "Anchor Block Company",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent",
+    "group": "Verification left open"
+   },
+   {
+    "market": "minnesota",
+    "file": "minnesota.html",
+    "num": "114",
+    "name": "Winland Electronics",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify structure",
+    "group": "Verification left open"
+   },
+   {
+    "market": "minnesota",
+    "file": "minnesota.html",
+    "num": "156",
+    "name": "Peerless Industrial Group",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify PE",
+    "group": "Verification left open"
+   },
+   {
+    "market": "minnesota",
+    "file": "minnesota.html",
+    "num": "177",
+    "name": "Briggs and Morgan",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "merged into another firm; the owner’s class is unread",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "minnesota",
+    "file": "minnesota.html",
+    "num": "178",
+    "name": "Gray Plant Mooty",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "merged into another firm; the owner’s class is unread",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "66",
+    "name": "Major Brands",
+    "tier": "A",
+    "status": "Downgraded",
+    "reason": "Tier A row with no demotion reason in the note",
+    "group": "Tier A row with no demotion reason"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "67",
+    "name": "Glazer’s Midwest",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "owned by Southern Glazer’s; class not stated in the note",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "143",
+    "name": "Brown Smith Wallace / Armanino",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "merged into Armanino; class unread",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "147",
+    "name": "Mayer Hoffman McCann",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "CBIZ affiliated, not owned",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "148",
+    "name": "Bryan Cave Leighton Paisner",
+    "tier": "A",
+    "status": "Downgraded",
+    "reason": "Tier A law firm with no demotion reason in the note",
+    "group": "Tier A row with no demotion reason"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "158",
+    "name": "Greensfelder Hemker & Gale",
+    "tier": "A",
+    "status": "Downgraded",
+    "reason": "Tier A law firm with no demotion reason in the note",
+    "group": "Tier A row with no demotion reason"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "174",
+    "name": "Willow Brook Foods",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent",
+    "group": "Verification left open"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "183",
+    "name": "Litton Entertainment",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "owned by Hearst; class unread",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "188",
+    "name": "Doe Run Company",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "Renco Group owned — verify",
+    "group": "Verification left open"
+   },
+   {
+    "market": "missouri",
+    "file": "missouri.html",
+    "num": "200",
+    "name": "Soulard Farmers Market vendors",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "individual family vendors",
+    "group": "Other single cases"
+   },
+   {
+    "market": "new-york",
+    "file": "new-york.html",
+    "num": "38",
+    "name": "Plaza Construction",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "owned by China Construction America; class unread",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "new-york",
+    "file": "new-york.html",
+    "num": "41",
+    "name": "Pavarini McGovern",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "Structure Tone affiliated",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "new-york",
+    "file": "new-york.html",
+    "num": "76",
+    "name": "Bedell Cellars",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "owned by an estate listed for sale (2019) — current ownership not settled",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "new-york",
+    "file": "new-york.html",
+    "num": "112",
+    "name": "Tops Friendly Markets",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "“See #3” — the note carries no finding of its own",
+    "group": "Other single cases"
+   },
+   {
+    "market": "new-york",
+    "file": "new-york.html",
+    "num": "114",
+    "name": "Guercio & Sons",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "under contract for sale",
+    "group": "Other single cases"
+   },
+   {
+    "market": "north-carolina",
+    "file": "north-carolina.html",
+    "num": "124",
+    "name": "Boggs Paving",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "reputational — not a mapping reason",
+    "group": "Other single cases"
+   },
+   {
+    "market": "north-carolina",
+    "file": "north-carolina.html",
+    "num": "166",
+    "name": "Modern Automotive Group",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block, not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "north-carolina",
+    "file": "north-carolina.html",
+    "num": "168",
+    "name": "Leith Automotive",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block, namesake per branding — confirm",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "north-carolina",
+    "file": "north-carolina.html",
+    "num": "170",
+    "name": "Johnson Automotive",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block, namesake per branding — confirm",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "north-carolina",
+    "file": "north-carolina.html",
+    "num": "171",
+    "name": "Capital Automotive Group",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block, ownership not confirmed",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "north-carolina",
+    "file": "north-carolina.html",
+    "num": "172",
+    "name": "Hubert Vester Auto Group",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block, namesake per branding — confirm",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "north-carolina",
+    "file": "north-carolina.html",
+    "num": "173",
+    "name": "Jim Barkley Toyota",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block, namesake store — ownership not verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "north-carolina",
+    "file": "north-carolina.html",
+    "num": "190",
+    "name": "Gaia Herbs",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "investor group (TBL, Ardara, One Better); class not stated as PE",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "ohio",
+    "file": "ohio.html",
+    "num": "5",
+    "name": "Sugardale Foods",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note gives both a scale reason and a control reason",
+    "group": "Both a scale and a control reason"
+   },
+   {
+    "market": "ohio",
+    "file": "ohio.html",
+    "num": "78",
+    "name": "Barton Malow Ohio",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "the note gives both a scale reason and a control reason",
+    "group": "Both a scale and a control reason"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "6",
+    "name": "New Seasons Market",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "owned by Emart; class unread",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "14",
+    "name": "Da Yang Seafood",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent",
+    "group": "Verification left open"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "19",
+    "name": "Alpenrose Dairy",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "Smith Brothers acquired — verify",
+    "group": "Verification left open"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "132",
+    "name": "Stoneway Electric OR",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify parent",
+    "group": "Verification left open"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "141",
+    "name": "Danner Boots",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "owned by LaCrosse/ABC-Mart; class not stated",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "148",
+    "name": "CD Baby / Downtown",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "Downtown Music Holdings — verify",
+    "group": "Verification left open"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "155",
+    "name": "Blount International",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "“See #151” — the note carries no finding of its own",
+    "group": "Other single cases"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "165",
+    "name": "Rodda Paint",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "owned by Cloverdale (Canada); class not stated",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "190",
+    "name": "Ater Wynne",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "merged; no owner named",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "oregon",
+    "file": "oregon.html",
+    "num": "197",
+    "name": "Sunriver Resort",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify ownership",
+    "group": "Verification left open"
+   },
+   {
+    "market": "pennsylvania",
+    "file": "pennsylvania.html",
+    "num": "80",
+    "name": "Hunter Roberts PA",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "out-of-state branch with “no single controlling family principal” — neither verification nor fit settled",
+    "group": "Other single cases"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "28",
+    "name": "Gulf Coast Machine & Supply",
+    "tier": "A",
+    "status": "Downgraded",
+    "reason": "Tier A row; confirm principal — no demotion reason",
+    "group": "Verification left open"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "118",
+    "name": "Gulf States Toyota",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "119",
+    "name": "Sewell Automotive",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "120",
+    "name": "Charles Maund Automotive",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "121",
+    "name": "Red McCombs Automotive",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "122",
+    "name": "Ancira Enterprises",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "123",
+    "name": "Mac Haik Enterprises",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "124",
+    "name": "Gay Family Auto",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "125",
+    "name": "Classic Chevrolet",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "126",
+    "name": "Bert Ogden Auto Group",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "127",
+    "name": "Randall Reed Automotive",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "128",
+    "name": "Freeman Automotive",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "129",
+    "name": "Moritz Auto Group",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "130",
+    "name": "Huffines Auto Dealerships",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "texas",
+    "file": "texas.html",
+    "num": "131",
+    "name": "Fikes Wholesale / CEFCO",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "dealer block — not individually verified",
+    "group": "Dealer block, not individually verified"
+   },
+   {
+    "market": "utah",
+    "file": "utah.html",
+    "num": "15",
+    "name": "ENVE Composites",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "PE stake — confirm control",
+    "group": "Verification left open"
+   },
+   {
+    "market": "utah",
+    "file": "utah.html",
+    "num": "196",
+    "name": "Christensen Arms",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "PE stake — confirm control; tier contest held",
+    "group": "Verification left open"
+   },
+   {
+    "market": "virginia",
+    "file": "virginia.html",
+    "num": "64",
+    "name": "Barboursville Vineyards",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "owner Zonin; class unread",
+    "group": "Owner named, class unread or unstated"
+   },
+   {
+    "market": "virginia",
+    "file": "virginia.html",
+    "num": "147",
+    "name": "L.C. Industries",
+    "tier": "A",
+    "status": "Downgraded",
+    "reason": "nonprofit — not a public or PE disqualifier",
+    "group": "Cooperative or nonprofit"
+   },
+   {
+    "market": "washington",
+    "file": "washington.html",
+    "num": "2",
+    "name": "Nordstrom",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "reverse arc: taken private 2025 — verify decision layer",
+    "group": "Verification left open"
+   },
+   {
+    "market": "washington",
+    "file": "washington.html",
+    "num": "109",
+    "name": "Vulcan Inc.",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "verify decision authority",
+    "group": "Verification left open"
+   },
+   {
+    "market": "washington",
+    "file": "washington.html",
+    "num": "135",
+    "name": "SSA Marine",
+    "tier": "B",
+    "status": "Downgraded",
+    "reason": "structure row — parked",
+    "group": "Verification left open"
+   }
+  ],
+  "break_groups": {
+   "Verification left open": 26,
+   "Ghost-row suspect": 4,
+   "Other single cases": 12,
+   "Both a scale and a control reason": 6,
+   "ESOP asserted, not established": 1,
+   "Cooperative or nonprofit": 7,
+   "Owner named, class unread or unstated": 15,
+   "Tier A row with no demotion reason": 3,
+   "Dealer block, not individually verified": 20
+  },
+  "break_by_market": {
+   "Arizona": 8,
+   "California": 1,
+   "Chicago": 1,
+   "Colorado": 3,
+   "Florida": 6,
+   "Georgia": 4,
+   "Michigan": 7,
+   "Minnesota": 6,
+   "Missouri": 10,
+   "New York": 5,
+   "North Carolina": 8,
+   "Ohio": 2,
+   "Oregon": 10,
+   "Pennsylvania": 1,
+   "Texas": 15,
+   "Utah": 2,
+   "Virginia": 2,
+   "Washington": 3
+  }
+ }
+}

@@ -8424,5 +8424,27 @@
    "total": 26,
    "remaining": 109
   }
+ },
+ "route_depth_status": {
+  "dated": "2026-11-01",
+  "line": "Depth proven on both routes, public side on a historical statement: on the private route Publix (corporate.publix.com/about-publix, Item 337); on the public route Nucor, with the SEC route withheld (nucor.com/company/history, Item 342) — the sentence read records the 1972 New York Stock Exchange listing, so the route is proven and the present tense is not.",
+  "status": "attested, not gated"
+ },
+ "item342_343": {
+  "measured": "2026-11-01",
+  "depth_plants": {
+   "Watts Water Technologies": "name unreached — watts.com fails the two-word anchor (lacks “water”); not evidence about depth",
+   "Nucor": "pass on a historical statement (see route_depth_status)"
+  },
+  "read_blocked": {
+   "Zirkle": "own site refused; owed a dated stated revenue figure",
+   "Christensen Arms": "own about page names no controller; owed a source naming who controls it",
+   "Rappahannock": "own site not surfaced; owed its own about page",
+   "Elliott Electric": "not read; owed a manual browser read — a scripted read is a different source class and was not substituted"
+  },
+  "reads": {
+   "partA": 6,
+   "partB": 11
+  }
  }
 }
