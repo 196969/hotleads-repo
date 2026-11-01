@@ -8269,8 +8269,58 @@
   }
  },
  "item332_owner_class": {
-  "measured": "2026-10-31",
-  "result": "not run — the reader failed its private-company plant (Publix Super Markets returned class unread, not neither); the 15 owner-named rows stay unread, the reader named as unable to measure “neither”"
+  "measured": "2026-11-01",
+  "reader": "owner-class reader with route depth (Item 337), whole-domain blocklist (entry 27), whole-name anchored identity and a narrowed PE phrase list (both corrected mid-pass, entry 30)",
+  "status": "attested, not gated",
+  "spend": {
+   "ceiling": 53,
+   "spent": 51,
+   "remaining": 2,
+   "work_returned": 48,
+   "void_refused": 3,
+   "void_empty": 0,
+   "void_rate": 5.9,
+   "rows_settled": 6,
+   "reads_per_row_settled": 8.5
+  },
+  "by_market": {
+   "missouri": {
+    "work": 7,
+    "reads": 7,
+    "void_rate": 0.0
+   },
+   "minnesota": {
+    "work": 18,
+    "reads": 18,
+    "void_rate": 0.0
+   },
+   "oregon": {
+    "work": 10,
+    "refused": 1,
+    "reads": 11,
+    "void_rate": 9.1
+   },
+   "new-york": {
+    "work": 11,
+    "refused": 1,
+    "reads": 12,
+    "void_rate": 8.3
+   },
+   "virginia": {
+    "work": 2,
+    "refused": 1,
+    "reads": 3,
+    "void_rate": 33.3
+   }
+  },
+  "depth_on_the_public_route": "measured 2026-11-01 on KKR: the route reached kkr.com and followed three of its own pages; none stated the class; the listing (SEC ticker list) carried it. Depth has now reached a public owner’s own site but has not yet carried a public class; it is proven on the private route only.",
+  "outcomes": {
+   "tier_c_by_established_class": 6,
+   "neither": 0,
+   "named_and_left_class_unread": 7,
+   "owner_source_contradicts_note": 0,
+   "named_and_left_zero_reads": 2
+  }
  },
  "item333_334_named_and_left": {
   "measured": "2026-10-31",

@@ -1,0 +1,648 @@
+{
+ "item": "332",
+ "rows": [
+  {
+   "owner": "Armanino",
+   "row": "Brown Smith Wallace",
+   "file": "missouri.html",
+   "num": "143",
+   "outcome": "named and left — class unread",
+   "line": "Item 332 (2026-11-01), a read of the owner’s class only: the class of the named owner, Armanino, is unread, not unknown. Src: read search.yahoo.com search “Armanino” 2026-11-01 — fact not re-established at this read (searches only; no page of the owner’s own site passed the whole-name rule, and SEC’s ticker list carries no issuer of that name)."
+  },
+  {
+   "owner": "Hearst",
+   "row": "Litton Entertainment",
+   "file": "missouri.html",
+   "num": "183",
+   "outcome": "named and left — class unread",
+   "line": "Item 332 (2026-11-01), a read of the owner’s class only: the class of the named owner, Hearst, is unread, not unknown. Src: read hearst.com 2026-11-01 — fact not re-established at this read (the owner’s own page read states no class)."
+  },
+  {
+   "owner": "KKR",
+   "row": "Mills Fleet Farm",
+   "file": "minnesota.html",
+   "num": "30",
+   "outcome": "Tier C by established class (public)",
+   "route": "route 2 — SEC ticker list",
+   "src": "sec.gov/files/company_tickers.json 2026-11-01",
+   "tier_change": "none — already Tier C (Item 327)"
+  },
+  {
+   "owner": "Taft Stettinius & Hollister",
+   "row": "Briggs and Morgan",
+   "file": "minnesota.html",
+   "num": "177",
+   "outcome": "named and left — class unread",
+   "line": "Item 332 (2026-11-01), a read of the owner’s class only: the class of the named owner, Taft Stettinius & Hollister, is unread, not unknown. Src: read search.yahoo.com search “Taft Stettinius & Hollister” 2026-11-01 — fact not re-established at this read (searches only; no page of the owner’s own site passed the whole-name rule, and SEC’s ticker list carries no issuer of that name)."
+  },
+  {
+   "owner": "Lathrop GPM",
+   "row": "Gray Plant Mooty",
+   "file": "minnesota.html",
+   "num": "178",
+   "outcome": "named and left — class unread",
+   "line": "Item 332 (2026-11-01), a read of the owner’s class only: the class of the named owner, Lathrop GPM, is unread, not unknown. Src: read search.yahoo.com search “Lathrop GPM” 2026-11-01 — fact not re-established at this read (searches only; no page of the owner’s own site passed the whole-name rule, and SEC’s ticker list carries no issuer of that name)."
+  },
+  {
+   "owner": "Emart",
+   "row": "New Seasons Market",
+   "file": "oregon.html",
+   "num": "6",
+   "outcome": "named and left — class unread",
+   "line": "Item 332 (2026-11-01), a read of the owner’s class only: the class of the named owner, Emart, is unread, not unknown. Src: read emartamerica.com/pages/our-page 2026-11-01 — fact not re-established at this read (the owner’s own pages read state no class)."
+  },
+  {
+   "owner": "Balfour Beatty",
+   "row": "Howard S. Wright",
+   "file": "oregon.html",
+   "num": "84",
+   "outcome": "Tier C by established class (public)",
+   "route": "route 2 — SEC ticker list",
+   "src": "sec.gov/files/company_tickers.json 2026-11-01",
+   "tier_change": "none — already Tier C (Item 327)"
+  },
+  {
+   "owner": "Carlyle",
+   "row": "Vigor Industrial",
+   "file": "oregon.html",
+   "num": "157",
+   "outcome": "Tier C by established class (public)",
+   "route": "route 2 — SEC ticker list",
+   "src": "sec.gov/files/company_tickers.json 2026-11-01",
+   "tier_change": "none — already Tier C (Item 327)"
+  },
+  {
+   "owner": "China Construction America",
+   "row": "Plaza Construction",
+   "file": "new-york.html",
+   "num": "38",
+   "outcome": "named and left — class unread",
+   "line": "Item 332 (2026-11-01), a read of the owner’s class only: the class of the named owner, China Construction America, is unread, not unknown. Src: read search.yahoo.com search “China Construction America” 2026-11-01 — fact not re-established at this read (searches only; no page of the owner’s own site passed the whole-name rule, and SEC’s ticker list carries no issuer of that name)."
+  },
+  {
+   "owner": "EMCOR",
+   "row": "Forest Electric",
+   "file": "new-york.html",
+   "num": "44",
+   "outcome": "Tier C by established class (public)",
+   "route": "route 2 — SEC ticker list",
+   "src": "sec.gov/files/company_tickers.json 2026-11-01",
+   "tier_change": "none — already Tier C (Item 327)"
+  },
+  {
+   "owner": "Tutor Perini",
+   "row": "Five Star Electric",
+   "file": "new-york.html",
+   "num": "45",
+   "outcome": "Tier C by established class (public)",
+   "route": "route 2 — SEC ticker list",
+   "src": "sec.gov/files/company_tickers.json 2026-11-01",
+   "tier_change": "none — already Tier C (Item 327)"
+  },
+  {
+   "owner": "Colliers",
+   "row": "Bergmann Associates",
+   "file": "new-york.html",
+   "num": "126",
+   "outcome": "Tier C by established class (public)",
+   "route": "route 2 — SEC ticker list",
+   "src": "sec.gov/files/company_tickers.json 2026-11-01",
+   "tier_change": "none — already Tier C (Item 327)"
+  },
+  {
+   "owner": "Zonin",
+   "row": "Barboursville Vineyards",
+   "file": "virginia.html",
+   "num": "64",
+   "outcome": "named and left — class unread",
+   "line": "Item 332 (2026-11-01), a read of the owner’s class only: the class of the named owner, Zonin, is unread, not unknown. Src: read search.yahoo.com search “Zonin” 2026-11-01 — fact not re-established at this read (searches only; no page of the owner’s own site passed the whole-name rule, and SEC’s ticker list carries no issuer of that name)."
+  },
+  {
+   "owner": "CBIZ",
+   "row": "Mayer Hoffman McCann",
+   "outcome": "named and left, zero reads",
+   "why": "the note says “affiliated”, not owned — no owner to read"
+  },
+  {
+   "owner": "(none named)",
+   "row": "Ater Wynne",
+   "outcome": "named and left, zero reads",
+   "why": "“Merged” with no owner named"
+  }
+ ],
+ "reads": {
+  "Armanino": {
+   "file": "missouri.html",
+   "num": "143",
+   "row": "Brown Smith Wallace",
+   "class": null,
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "sec ticker list",
+     []
+    ],
+    [
+     "search press",
+     "results"
+    ],
+    [
+     "press",
+     "https://www.furtherglobal.com/team/",
+     "public"
+    ]
+   ],
+   "recheck_identity": {}
+  },
+  "Hearst": {
+   "file": "missouri.html",
+   "num": "183",
+   "row": "Litton Entertainment",
+   "class": null,
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "sec ticker list",
+     []
+    ],
+    [
+     "search press",
+     "results"
+    ],
+    [
+     "press",
+     "https://www.hearst.com/",
+     null
+    ]
+   ],
+   "recheck_identity": {}
+  },
+  "KKR": {
+   "file": "minnesota.html",
+   "num": "30",
+   "row": "Mills Fleet Farm",
+   "class": "public",
+   "route": 2,
+   "page": "sec.gov/files/company_tickers.json",
+   "context": "SEC’s list of exchange-traded registrants lists KKR & Co. Inc. under ticker KKR",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site",
+     "https://www.kkr.com/about",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.kkr.com/",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.kkr.com/wealth",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.kkr.com/about",
+     null
+    ],
+    [
+     "sec ticker list",
+     [
+      [
+       "KKR & Co. Inc.",
+       "KKR"
+      ],
+      [
+       "KKR Income Opportunities Fund",
+       "KIO"
+      ],
+      [
+       "KKR Real Estate Finance Trust Inc.",
+       "KREF"
+      ]
+     ]
+    ]
+   ],
+   "recheck_identity": {
+    "https://www.kkr.com/about": true
+   },
+   "first_answer_withdrawn": {
+    "class": "PE",
+    "page": "kkr.com/about",
+    "context": " We are a Global Investment Firm Driven by Shared Success | KKR --> KKR Global Select Your Experience KKR Global"
+   }
+  },
+  "Taft Stettinius & Hollister": {
+   "file": "minnesota.html",
+   "num": "177",
+   "row": "Briggs and Morgan",
+   "class": null,
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site",
+     "https://www.taftlaw.com/",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.taftlaw.com/about/about-us/",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.taftlaw.com/about/affiliated-businesses/",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.taftlaw.com/about/about-us/",
+     null
+    ],
+    [
+     "sec ticker list",
+     []
+    ],
+    [
+     "search press",
+     "results"
+    ],
+    [
+     "press",
+     "https://www.taftlaw.com/",
+     null
+    ]
+   ],
+   "recheck_identity": {
+    "https://www.taftlaw.com/": false,
+    "https://www.taftlaw.com/about/about-us/": false,
+    "https://www.taftlaw.com/about/affiliated-businesses/": false
+   }
+  },
+  "Lathrop GPM": {
+   "file": "minnesota.html",
+   "num": "178",
+   "row": "Gray Plant Mooty",
+   "class": null,
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "sec ticker list",
+     []
+    ],
+    [
+     "search press",
+     "results"
+    ]
+   ],
+   "recheck_identity": {}
+  },
+  "Emart": {
+   "file": "oregon.html",
+   "num": "6",
+   "row": "New Seasons Market",
+   "class": null,
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site",
+     "https://emartamerica.com/pages/what-is-emart",
+     null
+    ],
+    [
+     "owner page",
+     "https://emartamerica.com/pages/our-page",
+     null
+    ],
+    [
+     "sec ticker list",
+     []
+    ],
+    [
+     "search press",
+     "results"
+    ],
+    [
+     "press refused",
+     "https://www.emartva.com/"
+    ]
+   ],
+   "recheck_identity": {
+    "https://emartamerica.com/pages/what-is-emart": true,
+    "https://emartamerica.com/pages/our-page": true
+   }
+  },
+  "Balfour Beatty": {
+   "file": "oregon.html",
+   "num": "84",
+   "row": "Howard S. Wright",
+   "class": "public",
+   "route": 2,
+   "page": "sec.gov/files/company_tickers.json",
+   "context": "SEC’s list of exchange-traded registrants lists Balfour Beatty plc/ADR under ticker BLFBY",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site",
+     "https://www.balfour.com/",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.balfour.com/HelpCenter/About-us/About-Us",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.balfour.com/HelpCenter/About-us/Working-at-Balfour",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.balfour.com/HelpCenter/About-us/Environmental",
+     null
+    ],
+    [
+     "sec ticker list",
+     [
+      [
+       "Balfour Beatty plc/ADR",
+       "BLFBY"
+      ],
+      [
+       "Balfour Beatty plc/ADR",
+       "BAFBF"
+      ]
+     ]
+    ]
+   ],
+   "recheck_identity": {
+    "https://www.balfour.com/": false,
+    "https://www.balfour.com/HelpCenter/About-us/About-Us": false,
+    "https://www.balfour.com/HelpCenter/About-us/Working-at-Balfour": false,
+    "https://www.balfour.com/HelpCenter/About-us/Environmental": false
+   }
+  },
+  "Carlyle": {
+   "file": "oregon.html",
+   "num": "157",
+   "row": "Vigor Industrial",
+   "class": "public",
+   "route": 2,
+   "page": "sec.gov/files/company_tickers.json",
+   "context": "SEC’s list of exchange-traded registrants lists Carlyle Group Inc. under ticker CG",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "sec ticker list",
+     [
+      [
+       "Carlyle Group Inc.",
+       "CG"
+      ],
+      [
+       "Carlyle Secured Lending, Inc.",
+       "CGBD"
+      ],
+      [
+       "Carlyle Credit Income Fund",
+       "CCIF"
+      ]
+     ]
+    ]
+   ],
+   "recheck_identity": {}
+  },
+  "China Construction America": {
+   "file": "new-york.html",
+   "num": "38",
+   "row": "Plaza Construction",
+   "class": null,
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site",
+     "https://www.chinadaily.com.cn/china",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.chinadaily.com.cn/e/static_e/about",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.chinadaily.com.cn/a/202610/25/WS6add33cbe4b06d4aa0564a01.html",
+     null
+    ],
+    [
+     "sec ticker list",
+     []
+    ],
+    [
+     "search press",
+     "results"
+    ],
+    [
+     "press",
+     "https://www.worldatlas.com/maps/china",
+     null
+    ]
+   ],
+   "recheck_identity": {
+    "https://www.chinadaily.com.cn/china": false,
+    "https://www.chinadaily.com.cn/e/static_e/about": false,
+    "https://www.chinadaily.com.cn/a/202610/25/WS6add33cbe4b06d4aa0564a01.html": false
+   }
+  },
+  "EMCOR": {
+   "file": "new-york.html",
+   "num": "44",
+   "row": "Forest Electric",
+   "class": "public",
+   "route": 2,
+   "page": "sec.gov/files/company_tickers.json",
+   "context": "SEC’s list of exchange-traded registrants lists EMCOR Group, Inc. under ticker EME",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "sec ticker list",
+     [
+      [
+       "EMCOR Group, Inc.",
+       "EME"
+      ]
+     ]
+    ]
+   ],
+   "recheck_identity": {}
+  },
+  "Tutor Perini": {
+   "file": "new-york.html",
+   "num": "45",
+   "row": "Five Star Electric",
+   "class": "public",
+   "route": 2,
+   "page": "sec.gov/files/company_tickers.json",
+   "context": "SEC’s list of exchange-traded registrants lists TUTOR PERINI CORP under ticker TPC",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site",
+     "https://www.tutor.com/",
+     null
+    ],
+    [
+     "owner page",
+     "https://www.tutor.com/about-us",
+     null
+    ],
+    [
+     "sec ticker list",
+     [
+      [
+       "TUTOR PERINI CORP",
+       "TPC"
+      ]
+     ]
+    ]
+   ],
+   "recheck_identity": {
+    "https://www.tutor.com/": false,
+    "https://www.tutor.com/about-us": false
+   }
+  },
+  "Colliers": {
+   "file": "new-york.html",
+   "num": "126",
+   "row": "Bergmann Associates",
+   "class": "public",
+   "route": 2,
+   "page": "sec.gov/files/company_tickers.json",
+   "context": "SEC’s list of exchange-traded registrants lists Colliers International Group Inc. under ticker CIGI",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site refused",
+     "https://www.colliers.com"
+    ],
+    [
+     "sec ticker list",
+     [
+      [
+       "Colliers International Group Inc.",
+       "CIGI"
+      ]
+     ]
+    ]
+   ],
+   "recheck_identity": {
+    "https://www.colliers.com": true
+   }
+  },
+  "Zonin": {
+   "file": "virginia.html",
+   "num": "64",
+   "row": "Barboursville Vineyards",
+   "class": null,
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "sec ticker list",
+     []
+    ],
+    [
+     "search press",
+     "results"
+    ],
+    [
+     "press refused",
+     "https://www.flyertalk.com/forum/delta-air-lines-skymiles/1961269-no-way-enter-passport-information-delta-com.html"
+    ]
+   ],
+   "recheck_identity": {}
+  }
+ },
+ "spend": {
+  "ceiling": 53,
+  "spent": 51,
+  "remaining": 2,
+  "work_returned": 48,
+  "void_refused": 3,
+  "void_empty": 0,
+  "void_rate": 5.9,
+  "rows_settled": 6,
+  "reads_per_row_settled": 8.5
+ },
+ "by_market": {
+  "missouri": {
+   "work": 7,
+   "reads": 7,
+   "void_rate": 0.0
+  },
+  "minnesota": {
+   "work": 18,
+   "reads": 18,
+   "void_rate": 0.0
+  },
+  "oregon": {
+   "work": 10,
+   "refused": 1,
+   "reads": 11,
+   "void_rate": 9.1
+  },
+  "new-york": {
+   "work": 11,
+   "refused": 1,
+   "reads": 12,
+   "void_rate": 8.3
+  },
+  "virginia": {
+   "work": 2,
+   "refused": 1,
+   "reads": 3,
+   "void_rate": 33.3
+  }
+ }
+}
