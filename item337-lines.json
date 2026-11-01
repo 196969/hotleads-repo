@@ -1,0 +1,700 @@
+{
+ "items": "337-338",
+ "plants": {
+  "Caterpillar": {
+   "expected": "public",
+   "got": "public",
+   "route": 2,
+   "page": "sec.gov/files/company_tickers.json",
+   "ctx": "SEC’s list of exchange-traded registrants lists CATERPILLAR INC under ticker CAT",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site refused",
+     "https://www.caterpillar.com"
+    ],
+    [
+     "sec ticker list",
+     [
+      [
+       "CATERPILLAR INC",
+       "CAT"
+      ]
+     ]
+    ]
+   ]
+  },
+  "Publix Super Markets": {
+   "expected": "neither",
+   "got": "neither",
+   "route": 1,
+   "page": "corporate.publix.com/about-publix",
+   "ctx": " 1930 Throughout our history, our associates and customers have helped Publix grow from a single store into the largest employee-owned company in the United States. We thank them by remaining deeply dedicated to cu",
+   "steps": [
+    [
+     "search own site",
+     "results"
+    ],
+    [
+     "owner site",
+     "https://www.publix.com/",
+     null
+    ],
+    [
+     "owner page",
+     "https://corporate.publix.com/about-publix",
+     "neither"
+    ]
+   ]
+  }
+ },
+ "item338": [
+  {
+   "row": "new-jersey.html#88",
+   "name": "Accurate Box Company",
+   "outcome": "written",
+   "number": "(973) 345-2000",
+   "src": "Src: read accuratebox.com 2026-11-01",
+   "replaced": null,
+   "tel_style": false,
+   "withdrawn_first_read": "accurate.com"
+  },
+  {
+   "row": "illinois.html#1",
+   "name": "Rockford Toolcraft",
+   "outcome": "written",
+   "number": "(815) 398-5507",
+   "src": "Src: read rockfordtoolcraft.com 2026-11-01",
+   "replaced": null,
+   "tel_style": false,
+   "withdrawn_first_read": "rockfordfosgate.com"
+  },
+  {
+   "row": "chicago.html#192",
+   "name": "Alliance Shippers",
+   "outcome": "not written",
+   "why": "no company site in the search results",
+   "withdrawn_first_read": "alliance.com"
+  },
+  {
+   "row": "las-vegas.html#43",
+   "name": "Nevada Ready Mix",
+   "outcome": "line written, not re-established",
+   "why": "own site visible after the fix; the page refused"
+  }
+ ],
+ "item338_raw": {
+  "new-jersey.html#88": {
+   "name": "Accurate Box Company",
+   "market": "new-jersey",
+   "row": {
+    "file": "new-jersey.html",
+    "num": "88",
+    "company_cell": "Accurate Box Company Corrugated boxes · mfg",
+    "phone": null,
+    "email": null,
+    "city": "Paterson",
+    "kind": "acquire a contact (none on the row)",
+    "dm": "Lisa Hirsh President/owner (3rd gen)",
+    "name": "Accurate Box Company"
+   },
+   "result": {
+    "route": 4,
+    "number": "(973) 345-2000",
+    "how": "company page",
+    "site": "accuratebox.com",
+    "candidates": [
+     "(973) 345-2000"
+    ],
+    "src": "Src: read accuratebox.com 2026-11-01",
+    "attempted": true
+   },
+   "first_result_withdrawn": {
+    "route": 4,
+    "number": "(800) 784-3911",
+    "how": "company page",
+    "site": "accurate.com",
+    "candidates": [
+     "(800) 784-3911",
+     "(888) 316-2110",
+     "(800) 216-8024",
+     "(866) 255-1852",
+     "(844) 220-6741"
+    ],
+    "src": "Src: read accurate.com 2026-11-01",
+    "attempted": true
+   }
+  },
+  "illinois.html#1": {
+   "name": "Rockford Toolcraft",
+   "market": "illinois",
+   "row": {
+    "file": "illinois.html",
+    "num": "1",
+    "company_cell": "Rockford Toolcraft Tooling/stamping mfg · Rockford",
+    "phone": null,
+    "email": null,
+    "city": "Rockford",
+    "kind": "acquire a contact (none on the row)",
+    "dm": "Thomas A. Busse 3263 Twin Ridge Lane, Rockford, Il 61109 — President per the Ill",
+    "name": "Rockford Toolcraft"
+   },
+   "result": {
+    "route": 4,
+    "number": "(815) 398-5507",
+    "how": "company page",
+    "site": "rockfordtoolcraft.com",
+    "candidates": [
+     "(815) 398-5507",
+     "(815) 398-0132"
+    ],
+    "src": "Src: read rockfordtoolcraft.com 2026-11-01",
+    "attempted": true
+   },
+   "first_result_withdrawn": {
+    "route": 4,
+    "number": null,
+    "how": "site rockfordfosgate.com does not name the company — identity not established",
+    "site": "rockfordfosgate.com",
+    "attempted": true
+   }
+  },
+  "chicago.html#192": {
+   "name": "Alliance Shippers",
+   "market": "chicago",
+   "row": {
+    "file": "chicago.html",
+    "num": "192",
+    "company_cell": "Alliance Shippers Distribution & Wholesale",
+    "phone": null,
+    "email": null,
+    "city": "Bensenville",
+    "kind": "acquire a contact (none on the row)",
+    "dm": "Steven Golich President & CEO (based Orland Park, IL) — per company's own Aug-20",
+    "name": "Alliance Shippers"
+   },
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "first_result_withdrawn": {
+    "route": 4,
+    "number": "(615) 358-9758",
+    "how": "company page",
+    "site": "alliance.com",
+    "candidates": [
+     "(615) 358-9758",
+     "(201) 227-0400",
+     "(678) 581-2320",
+     "(708) 802-7000",
+     "(913) 262-7060",
+     "(734) 853-6400"
+    ],
+    "src": "Src: read alliance.com 2026-11-01",
+    "attempted": true
+   }
+  },
+  "las-vegas.html#43": {
+   "name": "Nevada Ready Mix",
+   "search": "results",
+   "results": [
+    "https://en.wikipedia.org/wiki/Nevada",
+    "https://www.nv.gov/",
+    "https://www.britannica.com/place/Nevada-state",
+    "https://travelnevada.com/",
+    "https://www.worldatlas.com/maps/united-states/nevada",
+    "https://en.wikipedia.org/wiki/History_of_Nevada"
+   ],
+   "pages": [],
+   "retry": {
+    "search": "results",
+    "results": [
+     "http://www.nevadareadymix.com/",
+     "https://en.wikipedia.org/wiki/Nevada",
+     "https://www.nv.gov/",
+     "https://www.britannica.com/place/Nevada-state",
+     "https://travelnevada.com/",
+     "https://www.worldatlas.com/maps/united-states/nevada"
+    ],
+    "pages": [
+     {
+      "url": "http://www.nevadareadymix.com/",
+      "refused": true
+     }
+    ]
+   }
+  }
+ },
+ "identity_screen": {
+  "checked": 201,
+  "fails": [
+   {
+    "run": "r325",
+    "market": "georgia",
+    "company": "Juneau Construction",
+    "site": "juneaucc.com",
+    "number": "(404) 287-6000",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "georgia",
+    "company": "Langdale Company",
+    "site": "thelangdalecompany.com",
+    "number": "(229) 242-7450",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "georgia",
+    "company": "Seefried Industrial Properties",
+    "site": "seefriedproperties.com",
+    "number": "(404) 233-0204",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "illinois",
+    "company": "Sjostrom & Sons",
+    "site": "sjostromconstruction.com",
+    "number": "(815) 226-0330",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "illinois",
+    "company": "Midstate Manufacturing",
+    "site": "midstate-mfg.com",
+    "number": "(309) 342-9555",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "illinois",
+    "company": "Blick Art Materials",
+    "site": "dickblick.com",
+    "number": "(800) 828-4548",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "illinois",
+    "company": "Frantz Manufacturing",
+    "site": "frantz-mfg.com",
+    "number": "(815) 625-7063",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "illinois",
+    "company": "Estwing Manufacturing",
+    "site": "estwing.com",
+    "number": "(815) 397-9558",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "illinois",
+    "company": "P.J. Hoerr",
+    "site": "pjhoerr.com",
+    "number": "(309) 688-9567",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "illinois",
+    "company": "Grunloh Construction",
+    "site": "grunloh.com",
+    "number": "(217) 342-4157",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "illinois",
+    "company": "Plocher Construction",
+    "site": "plocherco.com",
+    "number": "(618) 654-9408",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "illinois",
+    "company": "Wyffels Hybrids",
+    "site": "wyffels.com",
+    "number": "(800) 369-7833",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "tennessee",
+    "company": "Pal's Sudden Service",
+    "site": "eatpals.com",
+    "number": "(423) 247-3501",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "tennessee",
+    "company": "Cumberland International Trucks",
+    "site": "cumberland-companies.com",
+    "number": "(904) 783-9822",
+    "written": false
+   },
+   {
+    "run": "r325",
+    "market": "iowa",
+    "company": "Cambridge Investment Research",
+    "site": "joincambridge.com",
+    "number": "(877) 688-2369",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "south-carolina",
+    "company": "Sealevel Systems",
+    "site": "sealevel.com",
+    "number": "(864) 843-4343",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "new-york",
+    "company": "Optimax Systems, Inc.",
+    "site": "optimaxsi.com",
+    "number": "(585) 265-1020",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "virginia",
+    "company": "Michael Shaps Wineworks",
+    "site": "virginiawineworks.com",
+    "number": "(434) 296-3438",
+    "written": false
+   },
+   {
+    "run": "r325",
+    "market": "virginia",
+    "company": "Carter Machinery Company",
+    "site": "carterpowersystems.com",
+    "number": "(844) 565-1890",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "indiana",
+    "company": "Gaylor Electric",
+    "site": "gaylor.com",
+    "number": "(317) 214-6300",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "texas",
+    "company": "Texas Restaurant Supply",
+    "site": "texrestaurantsupply.com",
+    "number": "(972) 579-4612",
+    "written": false
+   },
+   {
+    "run": "r325",
+    "market": "texas",
+    "company": "Joeris General Contractors",
+    "site": "joeris.com",
+    "number": "(210) 494-1638",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "texas",
+    "company": "E.E. Reed Construction",
+    "site": "eereed.com",
+    "number": "(281) 933-4000",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "texas",
+    "company": "Chamberlin Roofing & Waterproofing",
+    "site": "chamberlinltd.com",
+    "number": "(877) 428-1000",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "texas",
+    "company": "James Avery Artisan Jewelry",
+    "site": "jewelrystoredirectory.com",
+    "number": "(808) 924-7460",
+    "written": false
+   },
+   {
+    "run": "r325",
+    "market": "texas",
+    "company": "Munsch Hardt Kopf & Harr",
+    "site": "munsch.com",
+    "number": "(214) 855-7553",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "texas",
+    "company": "Granite Properties",
+    "site": "graniteprop.com",
+    "number": "(972) 731-2300",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "texas",
+    "company": "Martin Resource Management",
+    "site": "themartincompanies.com",
+    "number": "(903) 983-6288",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "texas",
+    "company": "Labatt Food Service",
+    "site": "web.labattfood.com",
+    "number": "(210) 661-4216",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "new-jersey",
+    "company": "Colavita USA",
+    "site": "colavita.com",
+    "number": "(732) 404-8300",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "new-jersey",
+    "company": "Marotta Controls, Inc.",
+    "site": "marotta.com",
+    "number": "(973) 334-7800",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "north-carolina",
+    "company": "Salem Carriers",
+    "site": "salemcorp.com",
+    "number": "(800) 877-2536",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "wisconsin",
+    "company": "Klement's Sausage",
+    "site": "klements.com",
+    "number": "(414) 744-2330",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "wisconsin",
+    "company": "Teel Plastics",
+    "site": "teel.com",
+    "number": "(608) 355-3080",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "wisconsin",
+    "company": "Trek Bicycle",
+    "site": "trekbikes.com",
+    "number": "(800) 585-8735",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "wisconsin",
+    "company": "Alsum Farms & Produce",
+    "site": "alsum.com",
+    "number": "(920) 348-6715",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "wisconsin",
+    "company": "Roehl Transport, Inc.",
+    "site": "roehllogistics.com",
+    "number": "(715) 591-7021",
+    "written": true
+   },
+   {
+    "run": "r325",
+    "market": "wisconsin",
+    "company": "Dane Manufacturing",
+    "site": "danemfg.com",
+    "number": "(608) 849-5921",
+    "written": true
+   },
+   {
+    "run": "r327d",
+    "market": "california",
+    "company": "Guittard Chocolate Company",
+    "site": "guittard.com",
+    "number": "(650) 697-4427",
+    "written": true
+   },
+   {
+    "run": "r327d",
+    "market": "chicago",
+    "company": "Angelo Caputo’s Fresh Markets",
+    "site": "shopcaputos.com",
+    "number": "(630) 480-8205",
+    "written": false
+   },
+   {
+    "run": "r327d",
+    "market": "chicago",
+    "company": "Blick Art Materials",
+    "site": "dickblick.com",
+    "number": "(800) 828-4548",
+    "written": true
+   },
+   {
+    "run": "r327d",
+    "market": "chicago",
+    "company": "Bulley & Andrews",
+    "site": "bulley.com",
+    "number": "(773) 235-2433",
+    "written": true
+   },
+   {
+    "run": "r327d",
+    "market": "chicago",
+    "company": "Berglund Construction",
+    "site": "berglundco.com",
+    "number": "(773) 374-1000",
+    "written": true
+   },
+   {
+    "run": "r327d",
+    "market": "chicago",
+    "company": "Primera Engineers",
+    "site": "primeraeng.com",
+    "number": "(312) 606-0910",
+    "written": true
+   },
+   {
+    "run": "r327d",
+    "market": "chicago",
+    "company": "Superior Joining Technologies",
+    "site": "superiorjt.com",
+    "number": "(815) 282-7581",
+    "written": true
+   },
+   {
+    "run": "r327d",
+    "market": "chicago",
+    "company": "Aldridge Electric",
+    "site": "aldridgegroup.com",
+    "number": "(847) 680-5200",
+    "written": true
+   },
+   {
+    "run": "r327d",
+    "market": "chicago",
+    "company": "F.E. Moran",
+    "site": "femoran.com",
+    "number": "(847) 498-4800",
+    "written": true
+   },
+   {
+    "run": "r327d",
+    "market": "chicago",
+    "company": "Sherman Mechanical",
+    "site": "shermanmech.com",
+    "number": "(847) 462-1000",
+    "written": true
+   },
+   {
+    "run": "r331",
+    "market": "chicago",
+    "company": "Alliance Shippers",
+    "site": "alliance.com",
+    "number": "(615) 358-9758",
+    "written": false
+   },
+   {
+    "run": "r331",
+    "market": "chicago",
+    "company": "Sloan Valve Company",
+    "site": "sloan.com",
+    "number": "(800) 982-5839",
+    "written": true
+   },
+   {
+    "run": "r331",
+    "market": "chicago",
+    "company": "Chicago Tag & Label",
+    "site": "chicago.gov",
+    "number": "(312) 744-5000",
+    "written": true
+   },
+   {
+    "run": "r331",
+    "market": "chicago",
+    "company": "Napleton Automotive Group",
+    "site": "ednapleton.com",
+    "number": "(630) 530-3955",
+    "written": true
+   },
+   {
+    "run": "r331",
+    "market": "georgia",
+    "company": "G&R Farms",
+    "site": "grfarms.com",
+    "number": "(912) 654-2100",
+    "written": true
+   },
+   {
+    "run": "r331",
+    "market": "illinois",
+    "company": "Strand Associates",
+    "site": "strand.com",
+    "number": "(608) 251-4843",
+    "written": false
+   }
+  ]
+ },
+ "call_ready": {
+  "before": 312,
+  "after": 313,
+  "gained": [
+   [
+    "illinois.html",
+    "1"
+   ],
+   [
+    "new-jersey.html",
+    "88"
+   ]
+  ],
+  "lost": [
+   [
+    "chicago.html",
+    "206"
+   ]
+  ],
+  "companies": {
+   "head": {
+    "by_name": 306,
+    "by_cell_text": 312
+   },
+   "final": {
+    "by_name": 306,
+    "by_cell_text": 313
+   }
+  }
+ }
+}

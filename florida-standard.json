@@ -8286,5 +8286,22 @@
    "dealer block, not individually verified": 20
   },
   "note": "the rows left standing in Items 333–334 after every note was read in full"
+ },
+ "instrument_attestation": {
+  "date": "2026-11-01",
+  "text": "The research reader’s blocklist fix (entry 27) and its route-depth change (Item 337) live in the builder’s research tools, not in a repository file: no gate reads them and no commit proves them. They are attested, not gated, and every figure produced by that reader inherits the same status — an instrument outside the repository is an instrument the record takes on testimony."
+ },
+ "item335_blinding": {
+  "measured": "2026-10-31",
+  "rows_blinded": 13,
+  "rows_blinded_and_consequentially_mis_written": 2,
+  "rows_where_the_discard_changed_nothing": 11,
+  "note": "the 11 were directories, listings, community and news pages; the 2 were Nevada Ready Mix and Accurate Box, whose own sites were discarded"
+ },
+ "item338_identity_screen": {
+  "measured": "2026-11-01",
+  "checked": 201,
+  "failed_the_whole_name_screen": 54,
+  "note": "a sizing screen (entry 21), not a classification: most failures are abbreviated company domains (dickblick.com, estwing.com); read by eye, one was a wrong write — Chicago Tag & Label read from chicago.gov — withdrawn by edit in Item 338"
  }
 }
