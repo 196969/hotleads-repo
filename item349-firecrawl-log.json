@@ -1,0 +1,26 @@
+[
+ {
+  "reader": "firecrawl v2/scrape (no key)",
+  "url": "https://www.watts.com/",
+  "final": "https://www.watts.com/",
+  "row": "plant:watts",
+  "purpose": "landing, for the depth links",
+  "status": 200,
+  "outcome": "returned",
+  "chars": 39225,
+  "date": "2026-11-01",
+  "secs": 0.3
+ },
+ {
+  "reader": "firecrawl v2/scrape (no key)",
+  "url": "https://www.watts.com/our-story/history",
+  "final": "https://www.watts.com/our-story/history",
+  "row": "plant:watts",
+  "purpose": "depth page",
+  "status": 200,
+  "outcome": "returned",
+  "chars": 43541,
+  "date": "2026-11-01",
+  "secs": 3.6
+ }
+]

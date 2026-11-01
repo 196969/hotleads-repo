@@ -1,0 +1,64 @@
+{
+ "date": "2026-11-01",
+ "reader": "amended reader on the Firecrawl fetch layer (keyless free tier: 1,000 credits a month, 10 scrapes a minute \u2014 read at firecrawl.dev/pricing 2026-11-01)",
+ "reads": 2,
+ "plain_fetch_plants": [
+  {
+   "plant": "watts.com for Watts Water Technologies",
+   "expected": "pass",
+   "domain": "shorter anchor: leading label starts with the first distinctive word",
+   "page_read": false,
+   "page_names_company": null,
+   "result": "refused"
+  },
+  {
+   "plant": "nutrition.gov for Nutrition Industries",
+   "expected": "fail (domain exclusion)",
+   "domain": "domain exclusion (.gov/.edu/.mil)",
+   "page_read": false,
+   "result": "fail (domain exclusion)"
+  },
+  {
+   "plant": "accurate.com for Accurate Box Company",
+   "expected": "fail (page test)",
+   "domain": "shorter anchor: leading label starts with the first distinctive word",
+   "page_read": true,
+   "page_names_company": false,
+   "result": "fail (page test)"
+  }
+ ],
+ "plain_fetch_verdict": "FAILED \u2014 plant 1 refused on a plain fetch; integrity stop 3 fired for the plain-fetch reader, which spends no reads in this pass",
+ "plants": [
+  {
+   "plant": "watts.com for Watts Water Technologies",
+   "expected": "pass",
+   "reader": "amended reader on Firecrawl",
+   "domain": "shorter anchor: leading label starts with the first distinctive word",
+   "status": 200,
+   "page_names_company": false,
+   "result": "fail",
+   "depth_followed": [
+    "https://www.watts.com/our-story/history"
+   ],
+   "named_on": null,
+   "note": "the landing page never names the company; the reader\u2019s depth step (Item 337) follows the company\u2019s own about/investor link and tests that page"
+  },
+  {
+   "plant": "nutrition.gov for Nutrition Industries",
+   "expected": "fail (domain exclusion)",
+   "reader": "amended reader on Firecrawl",
+   "domain": "domain exclusion (.gov/.edu/.mil)",
+   "status": null,
+   "result": "fail (domain exclusion)"
+  },
+  {
+   "plant": "accurate.com for Accurate Box Company",
+   "expected": "fail (page test)",
+   "reader": "amended reader on Firecrawl",
+   "domain": "shorter anchor: leading label starts with the first distinctive word",
+   "status": 200,
+   "page_names_company": false,
+   "result": "fail (page test)"
+  }
+ ]
+}

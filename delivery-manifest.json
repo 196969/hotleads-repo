@@ -1,0 +1,16 @@
+{
+ "item": "349",
+ "base": "2cc89db",
+ "date": "2026-11-01",
+ "files": [
+  "delivery-manifest.json",
+  "gate.py",
+  "item349-founders72-verdicts.json",
+  "item349-gate.json",
+  "item349-plain-fetch-log.json",
+  "item349-firecrawl-log.json",
+  "item349-report.md",
+  "reader-plants.json"
+ ],
+ "count": 8
+}
