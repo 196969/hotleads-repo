@@ -1,0 +1,2017 @@
+{
+ "items": "333-334",
+ "item333": [
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "14",
+   "name": "Graceland Fruit",
+   "tag_struck": "Family-owned since 1973.",
+   "outcome": "N",
+   "why": "the remaining text says a cooperative — not a public or PE disqualifier, and no mapping status settles it"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "15",
+   "name": "Shoreline Fruit",
+   "tag_struck": "Family-owned.",
+   "outcome": "N",
+   "why": "the remaining text says a cooperative (as Graceland) — not settled by the mapping"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "17",
+   "name": "Star of the West Milling",
+   "tag_struck": "Family-owned since 1870. Fifth generation.",
+   "outcome": "N",
+   "why": "the remaining text says farmer/shareholder-owned since the family left in 1903 — neither tier nor status settled"
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "24",
+   "name": "Short’s Brewing",
+   "tag_struck": "Employee-owned (ESOP). Founder Joe Short.",
+   "outcome": "V",
+   "why": "the remaining text: founder Joe Short owns and controls ~80%, with a minority Heineken-linked stake — a stake without control"
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "71",
+   "name": "Ruscilli Construction",
+   "tag_struck": "Family-owned since 1948. Ruscilli family, third generation.",
+   "outcome": "V",
+   "why": "the remaining text: a confirmed construction ESOP — employee ownership is what was verified"
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "74",
+   "name": "Dugan & Meyers",
+   "tag_struck": "Family-owned since 1934.",
+   "outcome": "V",
+   "why": "the remaining text: acquired in 2017 by Baker Construction Enterprises — a control demotion; the note names no public or PE owner, so the clause “Downgraded to C” (written under the earlier disposition rule) does not hold, and the row stays Tier B"
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "81",
+   "name": "Great Lakes Construction",
+   "tag_struck": "Family-owned since 1927.",
+   "outcome": "V",
+   "why": "the remaining text: a confirmed construction ESOP"
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "140",
+   "name": "Hopkins Printing",
+   "tag_struck": "Family-owned since 1975.",
+   "outcome": "V",
+   "why": "the remaining text: employee-owned (“under the employee-ownership model”)"
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "177",
+   "name": "Woda Cooper Companies",
+   "tag_struck": "Founder-owned.",
+   "outcome": "V",
+   "why": "the remaining text: markets itself as employee-owned"
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "21",
+   "name": "Gibble’s Foods",
+   "tag_struck": "Family-owned. ",
+   "outcome": "V",
+   "why": "the remaining text: the brand is owned by King’s Quality Foods / Hartman Snack Group — a control demotion"
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "38",
+   "name": "Weyerbacher Brewing",
+   "tag_struck": "Founder-owned. ",
+   "outcome": "V",
+   "why": "the remaining text: acquired 2022 by Savant Beverages LLC — a control demotion"
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "110",
+   "name": "Reynolds Construction",
+   "tag_struck": "Family-owned. ",
+   "outcome": "R",
+   "why": "the remaining text: management-owned since a 2013 buyout — verified, and not the family-owned fit the row was built for"
+  }
+ ],
+ "item334": [
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "20",
+   "name": "Sun State Builders Supply",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned building products. Downgraded to B 26 Aug 2026 (ghost-row suspect): generic name, no distinct operating footprint confirmed this pass. Existence check before any dial.",
+   "decision": [
+    "N",
+    "ghost-row suspect — existence unconfirmed"
+   ]
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "37",
+   "name": "Rowland Companies",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned manufacturer. Downgraded to B 26 Aug 2026 (ghost-row suspect): vague name, no confirmed footprint this pass. Existence check before dial.",
+   "decision": [
+    "N",
+    "ghost-row suspect"
+   ]
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "78",
+   "name": "Border Products",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned building products. Downgraded to B 26 Aug 2026 (ghost-row suspect): generic name, footprint not confirmed. Existence check before dial.",
+   "decision": [
+    "N",
+    "ghost-row suspect"
+   ]
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "118",
+   "name": "Nutrition Industries",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned supplement manufacturer. Downgraded to B 26 Aug 2026 (ghost-row suspect): generic name, no confirmed footprint. Existence check before dial. Supplement co-packing is also a heavy PE segment — if real, expect a sponsor check.",
+   "decision": [
+    "N",
+    "ghost-row suspect"
+   ]
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "130",
+   "name": "Arizona Materials",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify parent. Dispositioned 26 Aug 2026 (parked at B): parent not confirmed this pass; Valley aggregates names churn between national parents. Confirm which entity holds the paper before any dial. Residue pass 26 Aug 2026: parent still unconfirmed; note the adjacent Valley ready-mix churn (Arizona Metro Mix sold to Sunroc of Utah, Aug 2024) — the segment is consolidating. Remains parked at B; confirm which entity holds the paper.",
+   "decision": [
+    "N",
+    "verify parent — parked"
+   ]
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "171",
+   "name": "Scottsdale Ferrari",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Privately held. Downgraded to B 26 Aug 2026 per DEALER BLOCK RULE + corporate-parent suspect: exotic-brand points in Scottsdale are commonly national-group stores (public-parent suspicion) — confirm before any credit. Referral only.",
+   "decision": [
+    "N",
+    "a public-parent suspicion, not a disqualifier"
+   ]
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "183",
+   "name": "Right Away Disposal",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned waste hauler. Downgraded to B 26 Aug 2026 (parked — acquisition check): waste-hauling rollups are highly active in metro Phoenix; this row’s continued independence not confirmed this pass. Confirm current owner before any dial. Residue pass 26 Aug 2026: dedicated check still open — no acquisition confirmed, no independence confirmed. Remains parked at B; confirm current owner before any dial.",
+   "decision": [
+    "N",
+    "parked — acquisition check"
+   ]
+  },
+  {
+   "market": "arizona",
+   "file": "arizona.html",
+   "num": "187",
+   "name": "Cheeses of Arizona",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Downgraded to B 26 Aug 2026 (ghost-row suspect): vague name, footprint not confirmed. Existence check before dial.",
+   "decision": [
+    "N",
+    "ghost-row suspect"
+   ]
+  },
+  {
+   "market": "california",
+   "file": "california.html",
+   "num": "38",
+   "name": "Harris Ranch",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1937. Harris family. Downgraded to B 26 Aug 2026 (SPLIT ENTITY — banner-survives): the iconic beef business (Harris Ranch Beef + Harris Feeding) sold to Central Valley Meat Holding (Coelho family, Hanford) in April 2019; the brand survives under new ownership. Residual Harris Farms (Inn & Restaurant, Farms, Horse Division) remains Harris-family owned. Map the entity before any dial: the famous brand is NOT the family company anymore; the family company is the hospitality/farms remainder.",
+   "decision": [
+    "N",
+    "split entity — the beef business sold (2019), the farms remain family-owned; which one the row is, the note does not settle"
+   ]
+  },
+  {
+   "market": "chicago",
+   "file": "chicago.html",
+   "num": "87",
+   "name": "Sikich",
+   "tier": "C",
+   "status": "Verified",
+   "note": "DOWNGRADED — PE-backed. Christopher Geier is CEO, but Bain Capital took a $250M minority stake in 2024. Also a direct competitor in advisory. Deprioritize.",
+   "decision": [
+    "N",
+    "Tier C row whose note names a minority stake, not control, and a competitor — no disqualifier for C"
+   ]
+  },
+  {
+   "market": "chicago",
+   "file": "chicago.html",
+   "num": "180",
+   "name": "Dream Town Realty",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "ACQUIRED by Baird & Warner, June 2025. Founder Yuval Degani now part of the combined ~3,000-agent entity. Do not approach separately. FILE REPAIR 2026-08-23: Status column read \"STALE\" (corrupted generation); reset to pending. Downgraded to B 2026-08-23: ACQUIRED by Baird & Warner (Jun 2025); Dream Town brand retiring, ~400 agents absorbed. Family-owned acquirer precedent (Winzeler/Natalie's rule): B&W is 5th-gen family-owned (Steve Baird, est. 1855) — itself a strong prospect profile, so B not C. Any approach routes to Baird & Warner corporate; Degani is a known door there. 8th missed acquisition, 14 months old.",
+   "decision": [
+    "V",
+    "acquired by Baird & Warner — a control demotion"
+   ]
+  },
+  {
+   "market": "chicago",
+   "file": "chicago.html",
+   "num": "217",
+   "name": "Larry Roesch Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Downgraded to B 2026-08-23: GROUP LARGELY SOLD ~Jan 2026 — Dan Roesch & partner Paul Koch sold Roesch Ford + Roesch CDJR to individual buyer Oleg Kislyansky; stores renamed Elmhurst Ford/CDJR. 9th missed acquisition, ~7 months old. B not C per individual-operator-buyer precedent (Amber rule): Kislyansky is a fresh single-operator integrating 2 rooftops — an integration-costing prospect in his own right. Possible remaining family asset: Larry Roesch VW (Jeanine Roesch) — confirm its ownership separately.",
+   "decision": [
+    "V",
+    "group sold to an individual operator-buyer (Amber rule) — a control demotion"
+   ]
+  },
+  {
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "48",
+   "name": "Aurora Organic Dairy",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify PE structure. Dispositioned 26 Aug 2026 (parked at B): ownership structure unconfirmed this pass — large private organic-milk supplier; founder-family vs sponsor participation must be confirmed before any credit. No-guess discipline.",
+   "decision": [
+    "N",
+    "verify PE structure — parked"
+   ]
+  },
+  {
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "66",
+   "name": "Save A Lot Colorado",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify franchise structure. Dispositioned 26 Aug 2026 (parked at B w/ UPWARD TAIL): if this row means the Colorado LICENSEE (Leevers Supermarkets — a Colorado family grocer operating Save A Lot banners), it may re-verify as a family operator; if it means the national Save A Lot system, it is C. Entity confirmation required — the row as written is ambiguous.",
+   "decision": [
+    "N",
+    "verify franchise structure — parked"
+   ]
+  },
+  {
+   "market": "colorado",
+   "file": "colorado.html",
+   "num": "112",
+   "name": "Stresscon Corporation",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify parent. Dispositioned 26 Aug 2026 (parked at B): parent unconfirmed this pass — Front Range precast is an active consolidation sector (see #111 Wells/RMP); confirm which entity holds the paper before any credit. No-guess discipline.",
+   "decision": [
+    "N",
+    "verify parent — parked"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "11",
+   "name": "Zaxby’s",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; PE minority): Goldman Sachs Merchant Banking took a significant stake in Nov 2020 (buying out co-founder Tony Townley) while founder Zach McLeroy remains chairman; ~970 units, ~$2.6B system sales, first outside CEO since 2022; HQ Athens. Src: Restaurant Business 11/2020; QSR Magazine (Acoca hire); Franchise Times Top 400 2025. Checked 26 Sep 2026. | Prior note: Goldman Sachs stake 2020. Verify decision layer.",
+   "decision": [
+    "N",
+    "scale and a PE minority stake together"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "81",
+   "name": "Gay Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1972. Downgraded to B 2026-08-26 (ESOP class): 75+ yrs in continuous operation serving healthcare/university/private clients, but no single-family decision-maker door.",
+   "decision": [
+    "X",
+    "tagged “Family-owned since 1972”; the disposition files it under the ESOP class, and nothing in the note establishes either"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "122",
+   "name": "Consolidated Pipe GA",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Alabama parent. Downgraded to B 2026-08-26 (out-of-state, real family — Carter Lumber/Kirby Risk class): 650 employees, 40 locations across multiple southern states including Georgia. Genuine multi-generational family ownership, but headquartered in Alabama — no Georgia-specific decision-maker door.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "124",
+   "name": "Coburn Supply GA",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Texas parent. Downgraded to B 2026-08-24 (out-of-state + generational-succession-gap caveat): real historical family story, but the last confirmed family leader died over 20 years ago with no successor named in available sources — combined with an out-of-state HQ, no clear Georgia family door exists.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "144",
+   "name": "Jordan Lumber GA",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. North Carolina parent. Verified 2026-08-26 w/ namesake caution. City confirmed — Barnesville (752 Grove St), matching the file's \"Various\" tag loosely — genuinely Georgia-HQ'd and family-led per state directory, NOT the North Carolina company of a similar name. Real, named owner-operator confirmed via independent government source. Verified 2026-08-26 w/ IMPORTANT NAMESAKE CAUTION: city confirmed per Georgia Forestry Commission directory — Barnesville. If this is the Barnesville entity, it is a small, genuinely Georgia-based, named-owner sawmill — a good fit. If it is actually the North Carolina company, apply the GA-suffix out-of-state rule instead. Do not assume without confirming at dial. Verified 2026-08-26 w/ namesake note (resolved in Georgia's favor, unlike other GA-suffix rows). City confirmed — Barnesville. Named family CEO/Mill Manager per independent Georgia Forestry Commission directory. Downgraded to B 2026-08-26 (out-of-state probable, per GA-suffix pre-check pattern) w/ SIGNIFICANT NAMESAKE/ACQUISITION FLAG: this row needs manual disambiguation before any call — it may refer to an out-of-state NC company, a small independent GA sawmill, or a facility already absorbed into Langdale (#142) in 2023.",
+   "decision": [
+    "N",
+    "out-of-state “probable”, with a namesake/acquisition warning"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "153",
+   "name": "Dutch Farms GA",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Illinois parent. Downgraded to B 2026-08-24 (out-of-state, real family — matches the GA-suffix watch-list pattern): genuinely 4-generation family-owned and self-described as \"family loved,\" but headquartered in Illinois — no Georgia-specific decision-maker door.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "160",
+   "name": "Premium Peanut",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Grower-owned. Verify structure. Downgraded to B 2026-08-26 (grower cooperative class — same disposition as Michigan's tart-cherry co-ops): 11 buying points, 260,000-ton annual shelling capacity, one of the most efficient facilities of its kind in the world. Real and substantial, but decision-making runs through a grower-member cooperative board, not a single controlling family.",
+   "decision": [
+    "N",
+    "grower cooperative — not a public or PE disqualifier"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "162",
+   "name": "Birdsong Peanuts GA",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Virginia parent. Downgraded to B 2026-08-26 (out-of-state, real family — matches the GA-suffix watch-list pattern): 5 shelling plants (incl. Sylvester GA and Blakely GA), 2.4B lbs Farmers Stock storage capacity. Genuine 5-generation family continuity, but headquartered in Virginia — Georgia locations are satellite plants, not the decision center.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "191",
+   "name": "Alston & Bird",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Alston & Bird is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch. LAW FIRM BLOCK (#191-200) — CLASS DISPOSITION 2026-08-26 (Texas/Ohio/Michigan precedent applied): all ten are multi-partner professional PARTNERSHIPS (Alston & Bird, King & Spalding, Troutman Pepper, Kilpatrick Townsend, Arnall Golden Gregory, Smith Gambrell Russell, Morris Manning & Martin, Hull Barrett, Oliver Maner, HunterMaclean) — partner-owned by construction, no family principal, no ownership ambiguity to research (6th pre-check applies without needing individual searches). All ten downgraded to Tier B. They remain plausible CLIENTS on a different thesis (matter costing, realization rates, practice-group P&L), but the door is a managing partner or firm CFO/COO, not an owner-operator.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "192",
+   "name": "King & Spalding",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): King & Spalding is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "193",
+   "name": "Troutman Pepper",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Troutman Pepper is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "194",
+   "name": "Kilpatrick Townsend",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Kilpatrick Townsend is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "195",
+   "name": "Arnall Golden Gregory",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Arnall Golden Gregory is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "196",
+   "name": "Smith Gambrell Russell",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Smith Gambrell Russell is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "197",
+   "name": "Morris Manning & Martin",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Morris Manning & Martin is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Atlanta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "198",
+   "name": "Hull Barrett",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Hull Barrett is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Augusta-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "199",
+   "name": "Oliver Maner",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): Oliver Maner is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Savannah-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "georgia",
+   "file": "georgia.html",
+   "num": "200",
+   "name": "HunterMaclean",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Partner-owned law firm. Downgraded to B 2026-08-26 by LAW FIRM BLOCK class disposition (see block note): HunterMaclean is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Savannah-based, right shape for a matter-costing/practice-economics conversation but a different sale to a different buyer than an owner-operator pitch.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "23",
+   "name": "Festival Foods MN",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned. Wisconsin parent, Skogen family.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion; tier stays A"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "26",
+   "name": "Kwik Trip MN",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned. Wisconsin parent, Zietlow family.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion; tier stays A"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "32",
+   "name": "Menards MN",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned. Wisconsin parent, John Menard.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion; tier stays A"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "53",
+   "name": "Pella MN",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Iowa family parent. Verify MN authority.",
+   "decision": [
+    "N",
+    "verify Minnesota authority"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "55",
+   "name": "Anchor Block Company",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify parent.",
+   "decision": [
+    "N",
+    "verify parent"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "56",
+   "name": "County Materials MN",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned. Wisconsin parent, Halquist family.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion; tier stays A"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "114",
+   "name": "Winland Electronics",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify structure.",
+   "decision": [
+    "N",
+    "verify structure"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "143",
+   "name": "RDO Equipment MN",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned. Offutt family, ND parent.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion; tier stays A"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "156",
+   "name": "Peerless Industrial Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify PE.",
+   "decision": [
+    "N",
+    "verify PE"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "158",
+   "name": "Watlow Winona",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned. Missouri parent, Desloge family.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion; tier stays A"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "160",
+   "name": "Bay State Milling MN",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned. Massachusetts parent, fifth generation.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion; tier stays A"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "177",
+   "name": "Briggs and Morgan",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read taftlaw.com/about/about-us 2026-10-31 — fact not re-established at this read (the page read does not state the owner’s class; SEC’s ticker list carries no issuer of that name). Merged into Taft. Deprioritize.",
+   "decision": [
+    "N",
+    "merged into another firm; the owner’s class is unread"
+   ]
+  },
+  {
+   "market": "minnesota",
+   "file": "minnesota.html",
+   "num": "178",
+   "name": "Gray Plant Mooty",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read lathropgpm.com/firm/our-approach 2026-10-31 — fact not re-established at this read (the page read does not state the owner’s class; SEC’s ticker list carries no issuer of that name). Merged into Lathrop. Deprioritize.",
+   "decision": [
+    "N",
+    "merged into another firm; the owner’s class is unread"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "66",
+   "name": "Major Brands",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned since 1934. Boyce family.",
+   "decision": [
+    "N",
+    "Tier A row with no demotion reason in the note"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "67",
+   "name": "Glazer’s Midwest",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Southern Glazer’s. Deprioritize.",
+   "decision": [
+    "N",
+    "owned by Southern Glazer’s; class not stated in the note"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "143",
+   "name": "Brown Smith Wallace / Armanino",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read forbes.com/companies/armanino 2026-10-31 — fact not re-established at this read (the page read does not state the owner’s class; SEC’s ticker list carries no issuer of that name). Armanino merged. Deprioritize.",
+   "decision": [
+    "N",
+    "merged into Armanino; class unread"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "147",
+   "name": "Mayer Hoffman McCann",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "CBIZ affiliated. Deprioritize.",
+   "decision": [
+    "N",
+    "CBIZ affiliated, not owned"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "148",
+   "name": "Bryan Cave Leighton Paisner",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm.",
+   "decision": [
+    "N",
+    "Tier A law firm with no demotion reason in the note"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "158",
+   "name": "Greensfelder Hemker & Gale",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm.",
+   "decision": [
+    "N",
+    "Tier A law firm with no demotion reason in the note"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "174",
+   "name": "Willow Brook Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify parent.",
+   "decision": [
+    "N",
+    "verify parent"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "183",
+   "name": "Litton Entertainment",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read hearst.com/about 2026-10-31 — fact not re-established at this read (the page read does not state the owner’s class; SEC’s ticker list carries no issuer of that name). Hearst owned. Deprioritize.",
+   "decision": [
+    "N",
+    "owned by Hearst; class unread"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "188",
+   "name": "Doe Run Company",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Renco Group owned. Verify.",
+   "decision": [
+    "N",
+    "Renco Group owned — verify"
+   ]
+  },
+  {
+   "market": "missouri",
+   "file": "missouri.html",
+   "num": "200",
+   "name": "Soulard Farmers Market vendors",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Individual family vendors. Approach selectively.",
+   "decision": [
+    "N",
+    "individual family vendors"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "26",
+   "name": "Winebow Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "PE-backed. Verify. DISQUALIFIED 26 Aug 2026 — PE-BACKED, CONFIRMED. Winebow Group acquired by Brazos Private Equity Partners (2012); Virginia HQ, national 18-market distributor. Deprioritize.",
+   "decision": [
+    "C",
+    "“PE-BACKED, CONFIRMED … acquired by Brazos Private Equity Partners (2012)”"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "31",
+   "name": "LeChase Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1944. LeChase family, third generation. VERIFIED-WITH-CAVEAT 26 Aug 2026 - WRONG-PRINCIPAL-ADJACENT: an ownership-tag caution, not a kill. R. Wayne LeChase (2nd generation) succeeded his father as President and CEO in 1981, became Chairman in 2007 - but the CEO seat has been held by non-family professionals since: William Goodrich became CEO in 2007, managing partner in 2008, and Chairman and CEO in 2024. No LeChase family member currently holds the CEO title. Founded 1944, Rochester HQ, expanded into Charlotte and Durham NC, multi-office (Rochester, Corning, Schenectady, Syracuse, NJ). Held at B pending confirmation of what stake, if any, the LeChase family retains post-2024 - treat as professional-management-succeeded-family rather than currently family-owned.",
+   "decision": [
+    "R",
+    "verified with caveat: non-family professional CEOs since 2007 — a fit demotion"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "38",
+   "name": "Plaza Construction",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read ccaco.com/about-us 2026-10-31 — fact not re-established at this read (the page read does not state the owner’s class; SEC’s ticker list carries no issuer of that name). China Construction America owned. Deprioritize.",
+   "decision": [
+    "N",
+    "owned by China Construction America; class unread"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "41",
+   "name": "Pavarini McGovern",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Structure Tone affiliated. See #60.",
+   "decision": [
+    "N",
+    "Structure Tone affiliated"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "64",
+   "name": "Sutherland Global Services",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-owned. Dilip Vellodi. VERIFIED-WITH-CAVEAT 26 Aug 2026 — Vellodi founder-led but TPG/Oak Investment Partners/Affirma Capital hold institutional minority stakes.",
+   "decision": [
+    "V",
+    "institutional minority stakes without control; the founder or family retains control"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "66",
+   "name": "Sixpoint Brewery",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify ownership. DISQUALIFIED 26 Aug 2026 — CORPSE-AND-ACQUIRER, CONFIRMED. Part of Artisanal Brewing Ventures (Charlotte, NC; family-office/Ulysses Management-backed roll-up alongside Victory Brewing). Sixpoint founder Shane Welch departed post-acquisition (2018).",
+   "decision": [
+    "V",
+    "part of Artisanal Brewing Ventures, a family-office-backed group — acquired, not by a public or PE owner; a control demotion"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "70",
+   "name": "Southern Tier Brewing",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Artisanal Brewing Ventures. Verify. DISQUALIFIED 26 Aug 2026 — CORPSE-AND-ACQUIRER, CONFIRMED. Part of Artisanal Brewing Ventures (Charlotte, NC; family-office/Ulysses Management-backed roll-up alongside Victory Brewing). Sixpoint founder Shane Welch departed post-acquisition (2018).",
+   "decision": [
+    "V",
+    "part of Artisanal Brewing Ventures, a family-office-backed group — acquired, not by a public or PE owner; a control demotion"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "71",
+   "name": "Lake Placid Brewery",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "See #118. DISQUALIFIED 26 Aug 2026 — CORPSE-AND-ACQUIRER, CONFIRMED. Part of Artisanal Brewing Ventures (Charlotte, NC; family-office/Ulysses Management-backed roll-up alongside Victory Brewing). Sixpoint founder Shane Welch departed post-acquisition (2018).",
+   "decision": [
+    "V",
+    "part of Artisanal Brewing Ventures, a family-office-backed group — acquired, not by a public or PE owner; a control demotion"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "76",
+   "name": "Bedell Cellars",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Privately held North Fork winery. VERIFIED-WITH-CAVEAT 26 Aug 2026 — HERITAGE-BRANDING TRAP caution: Bedell family sold in 2000. Current owner is the estate of Michael Lynne (d. 2019); listed for sale at $17.9M in 2019. Not Bedell family.",
+   "decision": [
+    "N",
+    "owned by an estate listed for sale (2019) — current ownership not settled"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "103",
+   "name": "New Era Cap",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1920. Koch family, fourth generation. VERIFIED-WITH-CAVEAT 26 Aug 2026 — New Era Cap: Koch family (Chris Koch, 4th gen CEO) retains control but ACON Investments (PE) holds a significant minority stake since 2022; MLB/NFL/NBA also hold minority stakes. IPO in preparation. Wrong-principal-adjacent: institutional capital now present.",
+   "decision": [
+    "V",
+    "institutional minority stakes without control; the founder or family retains control"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "108",
+   "name": "Ted’s Hot Dogs",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1927. VERIFIED-WITH-CAVEAT 26 Aug 2026 — Ted's Hot Dogs: Liaros family retains ownership but first non-family CEO (Ray Barry) hired ~2022; a public family rift was reported in 2020 (founder's namesake grandson departed). Wrong-principal-adjacent.",
+   "decision": [
+    "R",
+    "verified with caveat: the family retains ownership, first non-family CEO — a fit demotion"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "112",
+   "name": "Tops Friendly Markets",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "See #3.",
+   "decision": [
+    "N",
+    "“See #3” — the note carries no finding of its own"
+   ]
+  },
+  {
+   "market": "new-york",
+   "file": "new-york.html",
+   "num": "114",
+   "name": "Guercio & Sons",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1961. VERIFIED-WITH-CAVEAT 26 Aug 2026 — Guercio & Sons is under contract for sale to local investors (reported within the past two weeks); Guercio name to be retained and some family staying on operationally, but ownership is transitioning away from the family. Heritage-branding trap in progress — monitor close date.",
+   "decision": [
+    "N",
+    "under contract for sale"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "4",
+   "name": "Lowes Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Alex Lee Inc — George family, third generation. DUPLICATE PARENT of #5 Alex Lee Inc. — Lowes Foods is Alex Lee’s 74-store retail division, not an independent company. Treat as one account with #5 and #6. Retained at B as a legitimate division-level entry door (retail P&L distinct from wholesale).",
+   "decision": [
+    "V",
+    "duplicate parent: a division or acquisition of a family-owned parent in the file — a control demotion"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "6",
+   "name": "Merchants Distributors",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "See #5. One of the largest independent food distributors in the Southeast. DUPLICATE PARENT of #5 Alex Lee Inc. — Merchants Distributors (MDI) is Alex Lee’s wholesale division supplying 600+ stores. Treat as one account with #4 and #5. Retained at B as a division-level entry door; MDI is the arm where distribution-cost work lands.",
+   "decision": [
+    "V",
+    "duplicate parent: a division or acquisition of a family-owned parent in the file — a control demotion"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "45",
+   "name": "Hancock & Moore",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1981. DUPLICATE PARENT of #39 Century Furniture — Hancock & Moore was acquired by Century in October 2015 and is now a brand within the Rock House Farm Family of Brands (Shuford family). One relationship, two file rows. Retained at B as a legitimate brand-level entry door: Hancock & Moore keeps its own manufacturing facility, so a brand P&L exists.",
+   "decision": [
+    "V",
+    "duplicate parent: a division or acquisition of a family-owned parent in the file — a control demotion"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "92",
+   "name": "Grubb Properties",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1963. Third generation. DOWNGRADED to B on 26 Aug 2026 — the sixth pre-check caught this one. The file tagged Grubb Properties family-owned; it is NOT. Clay Grubb states repeatedly and in his own words that he \"successfully transformed Grubb Properties from a family-owned business to an employee- and board-owned company.\" The company’s own site: \"In business since 1963, Grubb Properties today is 100% employee- and board-owned.\" Clay Grubb (third generation, started at 12 collecting mortgage payments) is CEO and Chairman since 2002, so the family name and leadership persist while the ownership model changed — a genuine hybrid. Retained at B rather than C because Grubb is still the controlling operator and the fit is otherwise strong: vertically integrated real estate fund manager, $2B+ in acquisitions and development, Link Apartments brand, offices in Atlanta, Charlotte, Cary, Winston-Salem, San Jose and Culver City. NOTE FOR THE APPROACH: it is a FUND MANAGER — a portfolio of real estate investment funds with outside LP capital and a seven-member board — so decisions run through fund-level governance, not one owner. Clay is a consensus-driven decision maker by his own description and an adjunct real estate professor at Tulane; the entry is intellectual, not transactional. CIO Todd Williams is a second door.",
+   "decision": [
+    "X",
+    "tagged “Family-owned since 1963”; the note then says “it is NOT” — employee- and board-owned, in the owner’s own words"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "124",
+   "name": "Boggs Paving",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Downgraded to B 26 Aug 2026 (reputational): family-owned confirmed (Boggs brothers), but company and five officers convicted/sentenced 2015 in $87.6M federal DBE fraud; FHWA debarment 2016; principal served 30 months and remains active in Monroe development (2026 reporting). Second generation of road-building convictions in the family. Not a cold-call target.",
+   "decision": [
+    "N",
+    "reputational — not a mapping reason"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "166",
+   "name": "Modern Automotive Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1946. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Hendrick Automotive (#164) additionally out of range on scale (~$12B, 100+ dealerships). Confirm family-split namesakes before any dial. Downgraded to B 26 Aug 2026 per DEALER BLOCK RULE (segment low-probability: factory reporting + 20-group benchmarking). Ownership confirmed this pass: Fowler family (Fred and Rob Fowler) since buying out the Morefield interest in 1977. Referral / rooftop-event / non-retail P&L only.",
+   "decision": [
+    "N",
+    "dealer block, not individually verified"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "167",
+   "name": "Flow Companies",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1968. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Hendrick Automotive (#164) additionally out of range on scale (~$12B, 100+ dealerships). Confirm family-split namesakes before any dial. Downgraded to B 26 Aug 2026 per DEALER BLOCK RULE. Ownership confirmed this pass: Flow family (Don Flow CEO), ~40-45 dealerships NC/VA, actively acquisitive (Jim Price Hyundai/Kia 2023). Scale also well above range. Referral / rooftop-event / non-retail P&L only.",
+   "decision": [
+    "R",
+    "dealer block, ownership confirmed this pass (Flow family) — a fit demotion"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "168",
+   "name": "Leith Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1968. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Hendrick Automotive (#164) additionally out of range on scale (~$12B, 100+ dealerships). Confirm family-split namesakes before any dial. Downgraded to B 26 Aug 2026 per DEALER BLOCK RULE. Leith namesake per branding (confirm at dial); large multi-brand Raleigh group — scale above range. Referral / rooftop-event / non-retail P&L only.",
+   "decision": [
+    "N",
+    "dealer block, namesake per branding — confirm"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "169",
+   "name": "Fred Anderson Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Hendrick Automotive (#164) additionally out of range on scale (~$12B, 100+ dealerships). Confirm family-split namesakes before any dial. Downgraded to B 26 Aug 2026 per DEALER BLOCK RULE. Ownership confirmed this pass: Anderson family — founder Fred Anderson; son Michael Anderson CEO since 2018 (documented succession). Referral / rooftop-event / non-retail P&L only; the succession is the one live angle.",
+   "decision": [
+    "R",
+    "dealer block, ownership confirmed this pass (Anderson family) — a fit demotion"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "170",
+   "name": "Johnson Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Hendrick Automotive (#164) additionally out of range on scale (~$12B, 100+ dealerships). Confirm family-split namesakes before any dial. Downgraded to B 26 Aug 2026 per DEALER BLOCK RULE. Johnson namesake per branding (confirm at dial). Referral / rooftop-event / non-retail P&L only.",
+   "decision": [
+    "N",
+    "dealer block, namesake per branding — confirm"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "171",
+   "name": "Capital Automotive Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Hendrick Automotive (#164) additionally out of range on scale (~$12B, 100+ dealerships). Confirm family-split namesakes before any dial. Downgraded to B 26 Aug 2026 per DEALER BLOCK RULE. Ownership not confirmed in this pass — confirm at dial. Referral / rooftop-event / non-retail P&L only.",
+   "decision": [
+    "N",
+    "dealer block, ownership not confirmed"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "172",
+   "name": "Hubert Vester Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Hendrick Automotive (#164) additionally out of range on scale (~$12B, 100+ dealerships). Confirm family-split namesakes before any dial. Downgraded to B 26 Aug 2026 per DEALER BLOCK RULE. Vester family namesake (Wilson) per branding — confirm at dial. Referral / rooftop-event / non-retail P&L only.",
+   "decision": [
+    "N",
+    "dealer block, namesake per branding — confirm"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "173",
+   "name": "Jim Barkley Toyota",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Hendrick Automotive (#164) additionally out of range on scale (~$12B, 100+ dealerships). Confirm family-split namesakes before any dial. Downgraded to B 26 Aug 2026 per DEALER BLOCK RULE. Namesake single-point Asheville store — best range fit in the block, but the rule holds. Referral / rooftop-event / non-retail P&L only.",
+   "decision": [
+    "N",
+    "dealer block, namesake store — ownership not verified"
+   ]
+  },
+  {
+   "market": "north-carolina",
+   "file": "north-carolina.html",
+   "num": "190",
+   "name": "Gaia Herbs",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-influenced. Verify current structure. Downgraded to B 26 Aug 2026 (founder-sold / investor-owned): founder Ric Scalzo sold the business in 2019 after growth rounds from TBL Capital, Ardara Capital and One Better Ventures; outside CEO installed (Jim Geikie 2021). B Corp mission intact but the ownership tag is dead — investor group, not family.",
+   "decision": [
+    "N",
+    "investor group (TBL, Ardara, One Better); class not stated as PE"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "6",
+   "name": "New Seasons Market",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read html.duckduckgo.com search “Emart” 2026-10-31 — fact not re-established at this read (searches only, refused or empty; SEC’s ticker list carries no issuer of that name). Emart (South Korea) owned. Deprioritize.",
+   "decision": [
+    "N",
+    "owned by Emart; class unread"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "14",
+   "name": "Da Yang Seafood",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify parent.",
+   "decision": [
+    "N",
+    "verify parent"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "19",
+   "name": "Alpenrose Dairy",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Smith Brothers acquired. Verify.",
+   "decision": [
+    "N",
+    "Smith Brothers acquired — verify"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "80",
+   "name": "Sierra Pacific OR",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned. California parent, Emmerson family.",
+   "decision": [
+    "V",
+    "family-owned out-of-state parent — a control demotion; tier stays A"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "132",
+   "name": "Stoneway Electric OR",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify parent.",
+   "decision": [
+    "N",
+    "verify parent"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "141",
+   "name": "Danner Boots",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "LaCrosse/ABC-Mart (Japan). Deprioritize.",
+   "decision": [
+    "N",
+    "owned by LaCrosse/ABC-Mart; class not stated"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "148",
+   "name": "CD Baby / Downtown",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downtown Music Holdings. Verify.",
+   "decision": [
+    "N",
+    "Downtown Music Holdings — verify"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "155",
+   "name": "Blount International",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "See #151.",
+   "decision": [
+    "N",
+    "“See #151” — the note carries no finding of its own"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "165",
+   "name": "Rodda Paint",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Cloverdale (Canada). Deprioritize.",
+   "decision": [
+    "N",
+    "owned by Cloverdale (Canada); class not stated"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "190",
+   "name": "Ater Wynne",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Merged. Deprioritize.",
+   "decision": [
+    "N",
+    "merged; no owner named"
+   ]
+  },
+  {
+   "market": "oregon",
+   "file": "oregon.html",
+   "num": "197",
+   "name": "Sunriver Resort",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify ownership.",
+   "decision": [
+    "N",
+    "verify ownership"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "2",
+   "name": "Silver Eagle Beverages",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read silvereaglebeverages.com 2026-10-31. Family-owned Anheuser-Busch distributor. Verify current ownership after 2017 restructuring. Downgraded to B 2026-08-24: SOLD Jul 2024 to Sunkey Beverage Holdings — family-owned acquirer → B per Winzeler/Dream Town precedent. Sale predates list build = build-time-class missed acquisition, 1st in the Texas file. 500 staff, 13 SW-Texas counties, ~16M cases. NAMESAKE TRAP: \"Silver Eagle DISTRIBUTORS\" (Houston, Redwood Management) is a SEPARATE company from the pre-split territory — don't conflate at dial.",
+   "decision": [
+    "V",
+    "sold to a family-owned acquirer (Winzeler precedent) — a control demotion"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "4",
+   "name": "Republic National Distributing",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): Republic National Distributing Company (Grand Prairie) is owned by the Epstein and Goldring families but is a multi-billion-dollar national wine & spirits distributor with thousands of employees — far above the band. Per the file’s own note; not separately re-researched 26 Sep 2026. | Prior note: Large privately held wine & spirits distributor. May be too big — verify decision layer.",
+   "decision": [
+    "R",
+    "“too large; family-owned” — a scale demotion"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "14",
+   "name": "Alamo Iron Works",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1876. Steel and industrial supply. Downgraded to B 2026-08-24: NOT INDEPENDENT — long owned by Sonepar USA (French multinational), then assets sold Jan 2021 to Triple-S Steel Holdings, a large family-owned Houston steel group (40+ locations, among the largest private service centers). Family acquirer → B (Winzeler precedent), but it's a brand inside a bigger family enterprise — any door runs through Triple-S. Build-time-class missed acquisition (2nd in Texas file). 150-yr legacy name = namesake-recognition trap: the storied local identity conceals two ownership changes.",
+   "decision": [
+    "V",
+    "sold to a family-owned acquirer (Winzeler precedent) — a control demotion"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "19",
+   "name": "Ameritex Pipe & Products",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read ameritexpipe.com 2026-10-31. Family-owned concrete pipe manufacturer and distributor. Downgraded to B 2026-08-24 (cap-table check, live): HEIDELBERG MATERIALS (global corporate) acquired a MINORITY STAKE ~May 2026 — three months ago — with a long-term material supply agreement (Berlin/BlueGrace sponsor precedent). Plus Everberg Capital senior term loan (growth debt). LITIGATION caution: Oct 2024 claims by a former C-suite exec of AmeriTex Holding against the company, CEO Thompson, and a director — do not initiate while open. Largest precast concrete producer in Texas (Seguin/Gunter/Conroe/DFW plants); named exec Chris Rowland (commercial). The 5th pre-check caught a 3-month-old cap-table event no stale pass could have seen.",
+   "decision": [
+    "V",
+    "a corporate minority stake (Heidelberg Materials) without control"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "28",
+   "name": "Gulf Coast Machine & Supply",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Family-owned — confirm principal at dial · 409-833-2665 Beaumont TX. Forging and machining for oilfield and industrial since 1946. STRUCTURAL CHECK PASSED: privately held, no co-op or ESOP indicators. Principal not published in any primary source — left open per the never-guess rule. Job-shop forging means every order carries its own material, die and machine-time cost; heat-treat and machining stages create internal transfer pricing. Strong thesis fit, small enough that the owner takes the call.",
+   "decision": [
+    "N",
+    "Tier A row; confirm principal — no demotion reason"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "46",
+   "name": "Way Engineering",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned mechanical contractor since 1929. Downgraded to B 2026-08-24: MISSED ACQUISITION (5th build-time class) — McCorvey Companies purchased Way Engineering, Ltd. Dec 3, 2012 (family acquirer → B, Winzeler precedent). 107-yr Houston mechanical institution (founded 1918 by Leo C. Way; pioneered ice thermal storage in the 1930s), ~$62M, 240 staff. NAMESAKE SPLIT TRAP: \"Way Service / The Way Companies\" (HVAC service) is STILL Way-family-owned, 4th generation — a different entity; and \"Way Mechanical\" (Grapevine) is a third. If Tim wants the family-owned Way, it's the SERVICE company, which would be a rebuild.",
+   "decision": [
+    "V",
+    "acquired by McCorvey Companies — a control demotion"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "70",
+   "name": "Golden Chick",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read goldenchick.com/contact 2026-10-31. Franchisor, privately held. Verify owner. Downgraded to B 2026-08-24: Golden Chick is a franchisor, not a family operator — corporate (Richardson HQ, city confirmed) licenses ~210 quick-service locations ($155M system) owned by independent franchisees; ownership sits under Golden Southern LLC / Golden Tree Restaurants with a professional executive bench and no founding-family principal in evidence (founded 1967 San Marcos as Golden Fried Chicken; the founders are long out). Rudy's class: individual franchisees may be right-sized prospects; the brand row is not the client.",
+   "decision": [
+    "R",
+    "franchisor, not a family operator — a fit demotion (franchisor ruling)"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "80",
+   "name": "Bell Nunnally & Martin",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read bellnunnally.com 2026-10-31. Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Bell Nunnally & Martin is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Dallas-based, in-range — plausible client on a matter-costing/realization thesis, but a different sale to a different buyer.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "81",
+   "name": "Munsch Hardt Kopf & Harr",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read munsch.com 2026-10-31. Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Munsch Hardt Kopf & Harr is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Dallas-based, in-range — plausible client on a matter-costing/realization thesis, but a different sale to a different buyer.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "82",
+   "name": "Winstead PC",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Winstead PC is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Dallas-based, in-range — plausible client on a matter-costing/realization thesis, but a different sale to a different buyer.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "83",
+   "name": "Chamberlain Hrdlicka",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Chamberlain Hrdlicka is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Houston-based, in-range — plausible client on a matter-costing/realization thesis, but a different sale to a different buyer.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "84",
+   "name": "Cokinos Young",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Partner-owned construction law firm. Downgraded to B 2026-08-24 by LAW FIRM BLOCK class disposition (see block note): Cokinos Young is a partner-owned professional partnership; the \"family-owned\" tag is structurally wrong for the class. Real, private, Houston-based, in-range — plausible client on a matter-costing/realization thesis, but a different sale to a different buyer.",
+   "decision": [
+    "R",
+    "law-firm block class — a fit demotion; partner ownership is verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "89",
+   "name": "Lincoln Property Company",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Verify current structure. Downgraded to B 2026-08-24 (scale/structure): Lincoln is a national institutional real estate enterprise (thousands of employees, multi-$B), long past founder-family shape; recent years brought outside institutional investment (Stone Point Capital reported). Dallas confirmed. Not a family operator in any actionable sense.",
+   "decision": [
+    "R",
+    "“scale/structure” — national institutional real estate"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "90",
+   "name": "Granite Properties",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read graniteprop.com 2026-10-31. Privately held, founder-led. Downgraded to B 2026-08-24: cap table is founder + Schusterman family (Oklahoma oil fortune) — family capital, but not a Texas operator family; $3B asset-heavy investment/development firm; founder just handed the CEO seat to a professional (Jan 2024). Plano HQ confirmed. Investment-firm shape, sponsor-adjacent capital: B.",
+   "decision": [
+    "R",
+    "investment-firm shape with family capital — a fit demotion"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "103",
+   "name": "Ben E. Keith Beverages",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Division of Ben E. Keith. Approach via #1. Downgraded to B 2026-08-24: DUPLICATE-PARENT (Marquette class) — this is the Beverage Division of #1, not a separate business. One enterprise, one door; work through #1. Caught by the pre-check token scan before any search.",
+   "decision": [
+    "V",
+    "duplicate parent: a division or acquisition of a family-owned parent in the file — a control demotion"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "118",
+   "name": "Gulf States Toyota",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Friedkin Group — family-owned. Dan Friedkin. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE + parent check 26 Aug 2026: Friedkin family (Dan Friedkin) confirmed — but Gulf States is the Toyota DISTRIBUTOR for five states, multi-billion scale. Referral/division-door only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "119",
+   "name": "Sewell Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Carl Sewell Jr. is Chairman. Family-owned since 1911 — four generations, Dallas luxury dealer group. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026: Sewell family, fourth generation since 1911 — the cleanest lineage in the block. Parent check clean. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "120",
+   "name": "Charles Maund Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned dealership group. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026: Maund family per branding; parent check clean; confirm at dial. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "121",
+   "name": "Red McCombs Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-owned. McCombs family. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026 + DECEASED-PRINCIPAL check: founder Red McCombs d. February 2023; family/estate holds. Confirm current principal before any approach. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "122",
+   "name": "Ancira Enterprises",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Ernesto Ancira Jr. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026: Ancira family (Ernesto Ancira Jr. lineage); succession posture confirm at dial. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "123",
+   "name": "Mac Haik Enterprises",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-owned. Mac Haik. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026: founder-owned (Mac Haik); age/succession posture is the first dial question. Diversified holdings note. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "124",
+   "name": "Gay Family Auto",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned dealership group. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026: family per branding; parent check clean; confirm at dial. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "125",
+   "name": "Classic Chevrolet",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Tom Durant. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026: Tom Durant confirmed — and a GEOGRAPHIC-COLLISION note: Berkshire’s Grapevine stores (Ford/Lincoln/Nissan) sit in the same city; Classic Chevrolet is NOT on the BHA roster. Independent. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "126",
+   "name": "Bert Ogden Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned Rio Grande Valley dealer group. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026 + WRONG-PRINCIPAL-ADJACENT note (brand-name-as-founder trap): \"Bert Ogden\" is a legacy BRAND, not the owning family — the group belongs to the Vackar family (Robert Vackar). Principal corrected on the row. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "127",
+   "name": "Randall Reed Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-owned. Randall Reed. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026: Randall Reed (World Class Automotive) per branding; confirm at dial. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "128",
+   "name": "Freeman Automotive",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned dealership group. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026 + BHA-SUSPECT note (Frontier Ford treatment): Van Tuyl/Berkshire operated Irving-area stores per the 2015 acquisition coverage; Freeman is NOT proven on the BHA roster — confirm the parent BEFORE any credit.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "129",
+   "name": "Moritz Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026: Moritz family per branding; confirm at dial. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "130",
+   "name": "Huffines Auto Dealerships",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1924. Huffines family. Pending BY BLOCK RULE 2026-08-24 — see dealer-block note above #171; not individually verified per Tim. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. DEALER BLOCK RULE 26 Aug 2026: Huffines family since 1924 — deep lineage alongside Sewell. Parent check clean. Referral only.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "131",
+   "name": "Fikes Wholesale / CEFCO",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned convenience chain. DEALER BLOCK RULE: not individually verified. Factory-mandated reporting and 20-group benchmarking make this segment low-probability. Work only on referral, a fresh rooftop acquisition/divestiture, or a non-retail P&L (fleet, collision, commercial truck). Confirm ownership and family-split namesakes before any dial. BLOCK RULE APPLIED 26 Aug 2026 (c-store flavor): Fikes family (Temple) confirmed genuine behind CEFCO — fuel/c-store economics keep it referral-grade. Parent check clean.",
+   "decision": [
+    "N",
+    "dealer block — not individually verified"
+   ]
+  },
+  {
+   "market": "texas",
+   "file": "texas.html",
+   "num": "141",
+   "name": "Coventry Homes",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "DOWNGRADED — brand, not a company. Coventry is one of three brands under McGuyer Homebuilders Inc. (MHI) of Houston, alongside Plantation Homes and Wilshire Homes. Frank McGuyer founded and still owns MHI, so the operator test passes at parent level — but the row as written names a brand with no separate P&L authority. Duplicate-parent class: approach MHI directly, not Coventry. Consolidate with any other MHI brand row on the list.",
+   "decision": [
+    "V",
+    "a brand of McGuyer Homebuilders, not a company — a control demotion"
+   ]
+  },
+  {
+   "market": "utah",
+   "file": "utah.html",
+   "num": "15",
+   "name": "ENVE Composites",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-built carbon-wheel mfr (PE stake). BAND RISK — confirm control.",
+   "decision": [
+    "N",
+    "PE stake — confirm control"
+   ]
+  },
+  {
+   "market": "utah",
+   "file": "utah.html",
+   "num": "196",
+   "name": "Christensen Arms",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Christensen family-founded firearms mfr (PE stake). BAND RISK — confirm control. Tier contested (self-overlap sweep, 2026-10-31): the same company sits at utah-expansion.html row 22 (Tier C); HELD, not resolved: both rows name screen-out reasons that disagree. Src: self-overlap sweep · 2026-10-31.",
+   "decision": [
+    "N",
+    "PE stake — confirm control; tier contest held"
+   ]
+  },
+  {
+   "market": "virginia",
+   "file": "virginia.html",
+   "num": "64",
+   "name": "Barboursville Vineyards",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Src: read zonin1821.com/en/about 2026-10-31 — fact not re-established at this read (page refused; SEC’s ticker list carries no issuer of that name). Zonin (Italy) family-owned winery. BAND RISK / foreign — confirm.",
+   "decision": [
+    "N",
+    "owner Zonin; class unread"
+   ]
+  },
+  {
+   "market": "virginia",
+   "file": "virginia.html",
+   "num": "147",
+   "name": "L.C. Industries",
+   "tier": "A",
+   "status": "Downgraded",
+   "note": "Nonprofit/social-enterprise contract mfr. Confirm structure; likely park.",
+   "decision": [
+    "N",
+    "nonprofit — not a public or PE disqualifier"
+   ]
+  },
+  {
+   "market": "washington",
+   "file": "washington.html",
+   "num": "2",
+   "name": "Nordstrom",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family took it private 2025 with Liverpool (Mexico). Verify decision layer. Dispositioned 26 Aug 2026 (held at B — the program’s first REVERSE ARC): the Nordstrom family took the company private in 2025 with El Puerto de Liverpool (Mexico) as minority partner — public back to family-controlled. Genuine family control restored, but mega-scale with an institutional co-owner: referral/division-door relationship, not a prospect. Decision-layer check at any approach.",
+   "decision": [
+    "N",
+    "reverse arc: taken private 2025 — verify decision layer"
+   ]
+  },
+  {
+   "market": "washington",
+   "file": "washington.html",
+   "num": "109",
+   "name": "Vulcan Inc.",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Allen estate controlled. Verify decision authority. Dispositioned 26 Aug 2026 (held at B): Allen-estate-controlled holding entity — single decision layer, but estate/investment economics, not operator P&L. Referral only.",
+   "decision": [
+    "N",
+    "verify decision authority"
+   ]
+  },
+  {
+   "market": "washington",
+   "file": "washington.html",
+   "num": "135",
+   "name": "SSA Marine",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Carrix / Smith family. Dispositioned 26 Aug 2026 (PARKED AT B — structure row): SSA Marine/Carrix is Smith-family led with REPORTED institutional infrastructure-investor participation in the parent in recent years. Which entity holds the paper decides the tier (Stream Realty rule). Confirm before any credit; no-guess discipline.",
+   "decision": [
+    "N",
+    "structure row — parked"
+   ]
+  }
+ ],
+ "item330_named_carried": [
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "44",
+   "name": "J.J. Taylor Distributing FL",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned, out-of-state parent): J.J. Taylor Companies, Inc. was founded 1958 by John J. ‘Joe’ Taylor and is run by his son John J. Taylor III; 501–1,000 employees, branches across Florida (Tampa, Fort Myers, Sarasota, Fort Pierce, Port Charlotte), and the parent has Minnesota operations too — ‘one of the largest independent beer distributors’. Family-owned but above the band and the FL entity is a subsidiary. HQ of record 655 N A1A, Jupiter. Src: Business Wire 12/18/2025; Glassdoor/company description; CB Insights; ZipRecruiter. Checked 27 Sep 2026. Phone unsourced 2026-10-29: no site link on the row to read it from. Tier reason: B — note records 'parent' sharing control; verify who signs; size 1,000 emp.",
+   "decision": [
+    "N",
+    "the note gives both a scale reason and a control reason"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "67",
+   "name": "Duda Farm Fresh Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Item 323 Part 1 (2026-10-31), Route 4: phone (407) 365-2111 sourced on the company’s own page (the number on file). Src: read duda.com 2026-10-31. Downgraded → B (too large; family-owned): wholly owned subsidiary of A. Duda & Sons (DUDA), a sixth-generation family-owned diversified land company, HQ 1200 Duda Trail, Oviedo (phone per company listing); operations in FL, CA, AZ, MI and GA; DUDA had ~3,300 employees and $464M sales as long ago as 2005. Sammy Duda became DUDA CEO Jan 1 2023; Bassetti named subsidiary president in 2023. Src: FreshPlaza 2023; Produce Blue Book 6/20/2022; duda.com; Encyclopedia.com profile. Checked 26 Sep 2026. Phone unsourced 2026-10-29: no site link on the row to read it from. Tier reason: B — note records 'subsidiary' sharing control; verify who signs; size 3,300 emp.",
+   "decision": [
+    "N",
+    "the note gives both a scale reason and a control reason"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida.html",
+   "num": "112",
+   "name": "Morgan Auto Group",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Company source not found 2026-10-29: searched https://morganautogroup.com; https://morganautogroup.com/about; https://morganautogroup.com/about-us; https://morganautogroup.com/company; https://morganautogroup.com/our-story; https://morganautogroup.com/history … — unsourced, flagged. Sunbiz outstanding (refuses this reader, 403). Top-10 FL private company (Florida Trend 2025). Verified 2026-08-23 — Sunbiz current. Family-owned, 60+ dealerships, largest FL auto group; 3031 N Rocky Point Dr W Ste 700, Tampa. CAUTION: active whistleblower suit alleging payment inflation — check before outreach. PRE-CHECK CATCH → Downgraded to B 2026-08-24: three compounding factors. (1) SCALE — 62–76 dealerships, Florida's largest auto group, far past range (Napleton-class would alone mean caveat); (2) SPONSOR — Greenbriar Equity Group holds an investment stake (Berlin/BlueGrace precedent); (3) standing LITIGATION caution (whistleblower suit alleging payment-inflation practices) — do not initiate. Family still in both seats (Sunbiz: Brett Morgan CEO, Larry Morgan Chairman; HQ 3031 N Rocky Point Dr W, Tampa FL 33607, (813) 872-5700 ). Ignore PitchBook \"acquired by Pinewood Technologies 2021\" — dirty aggregator data (that was a DMS technology venture, not a sale of the group). Tier reason: B — note records 'SPONSOR' sharing control; verify who signs; size Blind — no size in note. Row state (core run three, written onto the row 2026-10-31): partial — published phone or email with a dated source open; routes spent: row site link refused (403); derived host refused (503); derived host resolved but failed the proof; remaining: Sunbiz officer list (refuses this reader, 403); LinkedIn company page (refuses this reader, 999); the Florida register did not reach this row under the strict join. Src: core-run3-engine.json · 2026-10-31.",
+   "decision": [
+    "N",
+    "the note gives both a scale reason and a control reason"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "3",
+   "name": "Tampa Maid Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned since 1974; seafood + vegetable processor, value-added foodservice. Yield / batch-cost / private-label margin fit. CONFIRM DM + band. | [Live-checked 2026-09-02] Owned by Watkins Associated Industries (Atlanta; Watkins family 3rd gen) per tampamaid.com. DM is hired President/COO Shawn Meaney (appointed May 2022). Revenue est. ~$200M unverified. PARK — division door only. Contact completed (core run three): phone (800) 237-7637. Src: https://www.tampamaidfoods.com/ · read 2026-10-31.",
+   "decision": [
+    "N",
+    "the note leaves verification open (“CONFIRM”)"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "24",
+   "name": "The Father's Table",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Privately owned national dessert manufacturer (cheesecakes etc.), 201–500 employees, from a 1998 Daytona bakery. Yield / line-cost / private-label margin fit. CONFIRM ownership (family vs. investor) + band. | [Live-checked 2026-09-02] \"Privately owned\" only; 50% of profits to The Father's Table Foundation; no principal named anywhere public. 201–500 emp, national brand — in band. No PE signal. PARK until DM identified. Row state (core run three, written onto the row 2026-10-31): partial — named decision maker with title; published phone or email with a dated source open; routes spent: derived host read (proved); contact page read; leadership/about page read; leadership/about page read; trade press (officer.py) read; remaining: Sunbiz officer list (refuses this reader, 403); LinkedIn company page (refuses this reader, 999); the Florida register did not reach this row under the strict join. Src: core-run3-engine.json · 2026-10-31. Contact found in core run three and written now (Florida pass, 2026-10-31, zero reads): phone 407-324-1200. Src: https://thefatherstable.com/contact/ · read 2026-10-31.",
+   "decision": [
+    "N",
+    "the note leaves verification open (“CONFIRM”)"
+   ]
+  },
+  {
+   "market": "florida",
+   "file": "florida-expansion.html",
+   "num": "40",
+   "name": "Conimar Corporation",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Est. 1976; pad/label printing + consumer products (50,000 sq ft, multi-press), Ocala. Run-length / line-cost / private-label margin fit. CONFIRM ownership statement + band. | [Live-checked 2026-09-02] Founder/owner Terry Crawford confirmed — but died ~Aug 2026 (HomePage News). Two plants (Ocala + Springfield TN), Thirstystone/CounterArt brands; band plausible $20–40M. Succession unknown. PARK — live succession; re-check ~Mar 2027. Contradiction found 2026-10-29: role or family as decision maker.",
+   "decision": [
+    "N",
+    "the note leaves verification open (“CONFIRM”)"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "13",
+   "name": "Cherry Central",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Cooperative. Deprioritize. Downgraded to B 2026-08-24 (grower cooperative class — same disposition as Graceland Fruit and Shoreline Fruit earlier in this file): approaching its 50th anniversary, owns Dunkley International (fruit-processing machinery) and Oceana Foods (drying facility). Michigan grows 75% of the nation's tart cherry crop and Cherry Central is a central player in that supply chain. Co-op board fiduciary framing applies — member-owners feel cost pressure directly, closer to the ESOP pitch than a dead end.",
+   "decision": [
+    "N",
+    "grower cooperative — out by a standing class ruling, but not a public or PE disqualifier; this brief moves a tier only on those"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "16",
+   "name": "Michigan Sugar",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Grower cooperative. Deprioritize. Downgraded to B 2026-08-24 (grower cooperative class): $700M annual direct economic impact, 1,000 year-round + 1,100 seasonal employees, 4 factories (Bay City, Caro, Croswell, Sebewaing). Large for a cooperative, but the member-owner structure still applies the same fiduciary framing as other Michigan grower co-ops in this file.",
+   "decision": [
+    "N",
+    "grower cooperative — out by a standing class ruling, but not a public or PE disqualifier; this brief moves a tier only on those"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "94",
+   "name": "Plum Market",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Founder-owned. Marc Jonna. Verified 2026-08-24 w/ caveat. City confirmed — HQ Farmington Hills, locations also in Bloomfield Twp, Ann Arbor, West Bloomfield, plus Chicago and Detroit Metro Airport. \"Privately owned multi-channel retail company\" per own materials — no family ownership claim found, unlike its grocery-cluster peers in this file (Busch's, Nino Salvaggio, Westborn all explicitly self-describe as family businesses; Plum Market does not). Confirm ownership structure carefully before assuming a family story here. Downgraded to B 2026-08-24 per Tim: in a grocery cluster where every peer (Busch's, Nino Salvaggio, Westborn, Horrocks) explicitly markets family ownership, Plum Market's silence on the point — \"privately owned multi-channel retail company\" rather than \"family-owned\" — is itself the signal, not an oversight. Combined with out-of-state expansion (Chicago) and a national franchising model, this reads as a professionally-run growth concept rather than an owner-operator business. Revisit if a family name surfaces.",
+   "decision": [
+    "N",
+    "the note’s finding is an inference from silence (“privately owned … is itself the signal”), not an established ownership fact"
+   ]
+  },
+  {
+   "market": "michigan",
+   "file": "michigan.html",
+   "num": "118",
+   "name": "Cummins-Wagner Michigan",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Maryland parent. Downgraded to B 2026-08-24 (ESOP) w/ STRONG DATA-QUALITY FLAG: if this row is meant to be the same company found in this search, the \"Michigan\" tag in this file appears to be an error — the real Cummins-Wagner has zero footprint in Michigan. Alternatively, \"Cummins-Wagner Michigan\" may be a distinct, unrelated regional entity not surfaced here. Confirm which is true before any outreach — do not assume this is the Maryland company's Michigan branch without verification.",
+   "decision": [
+    "N",
+    "the note carries a strong data-quality flag on the row’s identity"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "5",
+   "name": "Sugardale Foods",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Downgraded → B (too large; family-owned): Sugardale is a brand of Fresh Mark, Inc. (Massillon), privately owned and led by CEO Neil Genshaft; $1B+ annual sales, large USDA plants in Massillon, Canton and Salem — far above the band. Src: Cleveland Jewish News 4/2019; Handshake/Fresh Mark profile; USDA FSIS establishment record. Checked 26 Sep 2026. | Prior note: Fresh Mark family-owned. Verify.",
+   "decision": [
+    "N",
+    "the note gives both a scale reason and a control reason"
+   ]
+  },
+  {
+   "market": "ohio",
+   "file": "ohio.html",
+   "num": "78",
+   "name": "Barton Malow Ohio",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Family-owned. Michigan parent — see MI list. Downgraded to B 2026-08-24 (scale + out-of-state, Gilbane class): genuinely family-controlled for a century (Maibach family), but Michigan-HQ'd and multi-billion-dollar scale puts it well past range with no local Ohio door. Real family story, wrong size and geography.",
+   "decision": [
+    "N",
+    "the note gives both a scale reason and a control reason"
+   ]
+  },
+  {
+   "market": "pennsylvania",
+   "file": "pennsylvania.html",
+   "num": "80",
+   "name": "Hunter Roberts PA",
+   "tier": "B",
+   "status": "Downgraded",
+   "note": "Privately held. — DOWNGRADED (B) — state-suffix: HQ NYC (55 Water St); Philadelphia is 1 of 3 branches. No single controlling family principal (exec partnership), large scale. Same as NY-pass disposition.",
+   "decision": [
+    "N",
+    "out-of-state branch with “no single controlling family principal” — neither verification nor fit settled"
+   ]
+  }
+ ],
+ "counts": {
+  "verified_delta": {
+   "chicago": 2,
+   "georgia": 4,
+   "minnesota": 7,
+   "new-york": 5,
+   "north-carolina": 3,
+   "oregon": 1,
+   "texas": 6,
+   "michigan": 1,
+   "ohio": 5,
+   "pennsylvania": 2
+  },
+  "call_ready": [
+   312,
+   312
+  ],
+  "gained": [],
+  "lost": [],
+  "dialable": [
+   4166,
+   4165
+  ],
+  "tier_c": [
+   2255,
+   2256
+  ]
+ }
+}
