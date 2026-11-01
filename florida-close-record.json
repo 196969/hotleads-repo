@@ -50,5 +50,24 @@
    "reads_per_admission": "none admitted"
   }
  },
- "completion_cost": "run three: 87 reads, 13 completions, 6.7 reads each"
+ "completion_cost": "run three: 87 reads, 13 completions, 6.7 reads each",
+ "corrections": [
+  {
+   "date": "2026-11-01",
+   "item": "350",
+   "status": "WITHDRAWN — not restated",
+   "why": "The 93 call-ready of 115 dialable was counted on 2026-10-31 (commit e986c45) under the instrument as it then stood: a row was call-ready if it carried a phone or email and any date anywhere in its Address source, Notes or Decision-maker text — a date that may date something else entirely. Item 321’s fix (2026-10-31) replaced that with the rule now in force: a contact is dated only by a dated source that sources the contact itself.",
+   "reproduced": {
+    "at_e986c45_with_its_own_code": "200 rows · 115 dialable · 93 call-ready — the benchmark reproduces exactly",
+    "todays_files_under_the_benchmark_rule": "112 dialable · 93 call-ready",
+    "todays_files_under_the_rule_in_force": "112 dialable · 57 call-ready"
+   },
+   "dialable_115_to_112": "three rows moved to Tier C since the benchmark: J.J. Taylor Distributing (#44), Correct Craft (#62), Duda Farm Fresh Foods (#67)",
+   "figure_of_record": "Florida: 112 dialable, 57 call-ready (50.9%), under the contact rule in force",
+   "applies_to": [
+    "call_ready",
+    "dialable_universe"
+   ]
+  }
+ ]
 }

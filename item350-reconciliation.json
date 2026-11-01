@@ -1,0 +1,56 @@
+{
+ "florida.html#table0": {
+  "rows": 150,
+  "tiers": {
+   "A": 47,
+   "B": 42,
+   "C": 61,
+   "Unverified": 0
+  },
+  "dialable": 89,
+  "call_ready_fixed_rule": 48,
+  "call_ready_old_rule": 72,
+  "first_cols": [
+   "#",
+   "Company",
+   "City",
+   "Tier"
+  ]
+ },
+ "florida-expansion.html#table0": {
+  "rows": 43,
+  "tiers": {
+   "A": 12,
+   "B": 4,
+   "C": 27,
+   "Unverified": 0
+  },
+  "dialable": 16,
+  "call_ready_fixed_rule": 5,
+  "call_ready_old_rule": 7,
+  "first_cols": [
+   "#",
+   "Company",
+   "City",
+   "Tier"
+  ]
+ },
+ "florida-expansion.html#table2": {
+  "rows": 7,
+  "tiers": {
+   "A": 0,
+   "B": 0,
+   "C": 0,
+   "Unverified": 7
+  },
+  "dialable": 7,
+  "call_ready_fixed_rule": 4,
+  "call_ready_old_rule": 4,
+  "first_cols": [
+   "#",
+   "Company",
+   "Signal",
+   "evidence_source"
+  ]
+ }
+}

@@ -8783,5 +8783,45 @@
    "kind": "Founders 72",
    "text": "Blind 64 of 72 is the council reporting its own absence — 64 seats have no field to read. Recorded as a defect."
   }
+ ],
+ "florida_benchmark_reconciliation": {
+  "date": "2026-11-01",
+  "item": "350",
+  "status": "WITHDRAWN — not restated",
+  "why": "The 93 call-ready of 115 dialable was counted on 2026-10-31 (commit e986c45) under the instrument as it then stood: a row was call-ready if it carried a phone or email and any date anywhere in its Address source, Notes or Decision-maker text — a date that may date something else entirely. Item 321’s fix (2026-10-31) replaced that with the rule now in force: a contact is dated only by a dated source that sources the contact itself.",
+  "reproduced": {
+   "at_e986c45_with_its_own_code": "200 rows · 115 dialable · 93 call-ready — the benchmark reproduces exactly",
+   "todays_files_under_the_benchmark_rule": "112 dialable · 93 call-ready",
+   "todays_files_under_the_rule_in_force": "112 dialable · 57 call-ready"
+  },
+  "dialable_115_to_112": "three rows moved to Tier C since the benchmark: J.J. Taylor Distributing (#44), Correct Craft (#62), Duda Farm Fresh Foods (#67)",
+  "figure_of_record": "Florida: 112 dialable, 57 call-ready (50.9%), under the contact rule in force"
+ },
+ "register_item350": [
+  {
+   "date": "2026-11-01",
+   "kind": "register (Chair)",
+   "text": "An unread source recorded as a failure is a manufactured fact. watts.com refused a plain fetch and exhausted a keyless tier; the session reported unread, not failed, and left the stop set."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "register (Chair)",
+   "text": "A benchmark that cannot be reproduced is withdrawn, not quoted. Florida read 112 / 57 against a 115 / 93 benchmark; the session flagged it rather than publish the convenient number."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "register (Chair)",
+   "text": "A missing asset is supplied, never invented. No monogram in the repository meant no monogram on the page; the Chair supplies the canonical emblem."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "reconciliation (Item 350)",
+   "text": "The Florida benchmark (115 / 93, 31 October) reproduces exactly at its own commit with its own code, and it was counted under the pre-fix contact rule (any date anywhere on the row). Under the rule in force, today’s files read 112 / 57. The benchmark is withdrawn, not restated. The BD report’s 312 is counted under the rule in force and stands."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "status",
+   "text": "The 27 consoles are built-untested (Chair ruling 6) until one has been opened in a browser."
+  }
  ]
 }
