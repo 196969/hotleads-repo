@@ -1,20 +1,16 @@
 {
- "item": "355",
- "base": "129ce57",
+ "item": "356",
+ "base": "a634164",
  "date": "2026-11-01",
  "files": [
   "delivery-manifest.json",
   "florida-standard.json",
   "florida.html",
   "index.html",
-  "item355-founders72-verdicts.json",
-  "item355-plants.json",
-  "item355-probe.json",
-  "item355-read-log.jsonl",
-  "item355-report.md",
-  "item355-reprobe.json",
-  "item355-rows.json",
-  "item355-runner-fix.json"
+  "item356-founders72-verdicts.json",
+  "item356-read-log.jsonl",
+  "item356-report.md",
+  "item356-rows.json"
  ],
- "count": 12
+ "count": 8
 }

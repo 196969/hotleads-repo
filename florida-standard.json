@@ -9072,5 +9072,22 @@
    "kind": "halt (Chair’s quarter stop)",
    "text": "Rung 3 restarted on the fixed runner and halted after 8 rows: 6 without a sourced contact — 2 company sites refused, 1 no company site, 3 company sites read with no number on the pages within the 3-read path. 19 of 207 reads spent. 2 sourced: Southern Glazer’s (already written in Item 354) and Fresh Del Monte Produce, (305) 520-8668 from delmontefresh.com/about-us/contact-us. Backlog 196 → 195; call-ready 313 → 314."
   }
+ ],
+ "register_item356": [
+  {
+   "date": "2026-11-01",
+   "kind": "judgement (A8), stated for the Chair",
+   "text": "Told “begin” without a pick between the two offered thresholds, the build chose to count refusals only toward the quarter stop — it matches the stop’s stated purpose (a refusing route, not poor rows). The Chair may overrule."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "halt (refusal stop)",
+   "text": "Rung 3 resumed at row 9 and halted after 14 rows: 4 company sites refused a plain fetch (heico.com, greatbaybud.com, regalboats.com, bostonwhaler.com) — 4 of 14, more than a quarter. The other misses: 5 no company site under the whole-name rule, 3 sites read with no number on the pages within the path. 25 of 188 reads spent (44 of 207 across Items 355–356). Two sourced: Rooms To Go (888) 709-5380 from roomstogo.com, Bealls Inc. (800) 683-8039 from beallsinc.com/beallsinc/contact — both toll-free, each replacing an unsourced local number. Backlog 195 → 193; call-ready 314 → 316."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "finding",
+   "text": "All four refusals were a plain fetch. Firecrawl answered two plain-fetch refusals earlier today (zirklefruit.com, elliottelectric.com), so these four are evidence about our reader until re-probed — the keyless tier cannot carry that volume; a free API key would."
+  }
  ]
 }

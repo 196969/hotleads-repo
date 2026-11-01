@@ -1,0 +1,212 @@
+{
+ "rows": {
+  "florida.html#26": {
+   "market": "florida",
+   "name": "JM Family Enterprises",
+   "phone_on_file": "(954) 429-2000",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#27": {
+   "market": "florida",
+   "name": "World Kinect",
+   "phone_on_file": "(305) 428-8000",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "world-kinect.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida.html#28": {
+   "market": "florida",
+   "name": "HEICO",
+   "phone_on_file": "(954) 987-4000",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site heico.com refused",
+    "site": "heico.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida.html#33": {
+   "market": "florida",
+   "name": "Eco Window Systems",
+   "phone_on_file": "(305) 885-5299",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "ecowindowsystems.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida.html#40": {
+   "market": "florida",
+   "name": "Florida Crystals",
+   "phone_on_file": "(561) 366-5100",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#41": {
+   "market": "florida",
+   "name": "Vigo Importing",
+   "phone_on_file": "813-884-3491",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#43": {
+   "market": "florida",
+   "name": "Great Bay Distributors",
+   "phone_on_file": "727-576-1900",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site greatbaybud.com refused",
+    "site": "greatbaybud.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida.html#48": {
+   "market": "florida",
+   "name": "Rooms To Go",
+   "phone_on_file": "813-623-5400",
+   "result": {
+    "route": 4,
+    "number": "(888) 709-5380",
+    "how": "company page",
+    "site": "roomstogo.com",
+    "candidates": [
+     "(888) 709-5380",
+     "(800) 766-6786"
+    ],
+    "src": "Src: read roomstogo.com 2026-11-01",
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida.html#51": {
+   "market": "florida",
+   "name": "Helios Technologies (Sun Hydraulics)",
+   "phone_on_file": "(941) 362-1333",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#54": {
+   "market": "florida",
+   "name": "Bealls Inc.",
+   "phone_on_file": "(941) 747-2355",
+   "result": {
+    "route": 4,
+    "number": "(800) 683-8039",
+    "how": "company page",
+    "site": "beallsinc.com",
+    "candidates": [
+     "(800) 683-8039"
+    ],
+    "src": "Src: read beallsinc.com/beallsinc/contact 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida.html#55": {
+   "market": "florida",
+   "name": "Tervis",
+   "phone_on_file": "(941) 441-3100",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "tervis.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida.html#63": {
+   "market": "florida",
+   "name": "Regal Boats",
+   "phone_on_file": "407-851-4360",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site regalboats.com refused",
+    "site": "regalboats.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida.html#73": {
+   "market": "florida",
+   "name": "Beaver Street Fisheries",
+   "phone_on_file": "904-354-8912",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#80": {
+   "market": "florida",
+   "name": "Boston Whaler",
+   "phone_on_file": "(386) 428-0057",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site bostonwhaler.com refused",
+    "site": "bostonwhaler.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  }
+ },
+ "halt": "more than a quarter of rows worked were refused (4 of 14) after the minimum sample of 8"
+}
