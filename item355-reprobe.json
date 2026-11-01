@@ -1,0 +1,28 @@
+[
+ {
+  "row": "texas.html#119",
+  "name": "Sewell Automotive",
+  "url": "https://www.sewell.com/",
+  "status": null,
+  "read": false,
+  "detail": "You've hit Firecrawl's keyless free tier rate limit. To continue now, create a free API key at https://firecrawl.dev/k/wcdeksbkw780\n\nThen authenticate with:\nAut"
+ },
+ {
+  "row": "washington.html#33",
+  "name": "Zirkle Fruit Company",
+  "url": "https://www.zirklefruit.com/",
+  "status": 200,
+  "read": true,
+  "names_company": true,
+  "phones": []
+ },
+ {
+  "row": "texas.html#7",
+  "name": "Elliott Electric Supply",
+  "url": "https://www.elliottelectric.com/",
+  "status": 200,
+  "read": true,
+  "names_company": true,
+  "phones": []
+ }
+]

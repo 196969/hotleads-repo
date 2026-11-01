@@ -1,0 +1,37 @@
+[
+ {
+  "row": "florida.html#8",
+  "old_runner_name": "PJ Distributors General import/dist \u00b7 Southeast FL",
+  "fixed_runner_name": "PJ Distributors",
+  "name_a_reader_sees": "PJ Distributors",
+  "match": true
+ },
+ {
+  "row": "florida.html#11",
+  "old_runner_name": "Turbana Corp Produce import \u00b7 Southeast FL",
+  "fixed_runner_name": "Turbana Corp",
+  "name_a_reader_sees": "Turbana Corp",
+  "match": true
+ },
+ {
+  "row": "florida.html#12",
+  "old_runner_name": "Fresh Del Monte Produce Produce import \u00b7 Southeast FL",
+  "fixed_runner_name": "Fresh Del Monte Produce",
+  "name_a_reader_sees": "Fresh Del Monte Produce",
+  "match": true
+ },
+ {
+  "row": "florida.html#15",
+  "old_runner_name": "Southern Glazer's Wine & Spirits",
+  "fixed_runner_name": "Southern Glazer's Wine & Spirits",
+  "name_a_reader_sees": "Southern Glazer's Wine & Spirits",
+  "match": true
+ },
+ {
+  "row": "florida.html#16",
+  "old_runner_name": "National Beverage (LaCroix)",
+  "fixed_runner_name": "National Beverage (LaCroix)",
+  "name_a_reader_sees": "National Beverage (LaCroix)",
+  "match": true
+ }
+]

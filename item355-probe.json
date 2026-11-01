@@ -1,0 +1,44 @@
+{
+ "probes": [
+  {
+   "row": "florida.html#15",
+   "market": "florida",
+   "expect": "a published number",
+   "why": "on 2026-11-01 (Item 354) this route read (866) 375-9555 from southernglazers.com/contact-us \u2014 a known answer; nothing returned now means the search is refusing",
+   "name": "Southern Glazer's Wine & Spirits",
+   "result": {
+    "route": 4,
+    "number": "(866) 375-9555",
+    "how": "company page",
+    "site": "southernglazers.com",
+    "candidates": [
+     "(866) 375-9555"
+    ],
+    "src": "Src: read southernglazers.com/contact-us 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "got": "a published number",
+   "pass": true
+  },
+  {
+   "row": "chicago.html#192",
+   "market": "chicago",
+   "expect": "no company site",
+   "why": "Items 338 and 340 found no result passing the whole-name rule for Alliance Shippers, and the one candidate (alliance.com) was another company \u2014 a known negative; a number returned now would mean the probe or the identity rule is unsound",
+   "name": "Alliance Shippers",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "got": "no company site",
+   "pass": true
+  }
+ ],
+ "reads_this_run": 4,
+ "reads_lost_to_the_crashed_first_run": 2,
+ "cap": 8
+}

@@ -9035,5 +9035,42 @@
    "kind": "finding",
    "text": "Florida’s backlog moved 58 → 39 between the 203’s publishing commit and today: 18 rows gained a sourced contact (Items 323 onward), 1 moved to Tier C, none entered. The published Florida figure of 13 is not reproduced by any count and is withdrawn with the 203."
   }
+ ],
+ "register_item355": [
+  {
+   "date": "2026-11-01",
+   "kind": "instrument proof (Chair)",
+   "text": "A gate proven by three forced failures, not by one live pass: in a throwaway copy, a manifest naming an uncommitted file exited 2 (delivered 10, committed 9, missing 1); one undated Src line exited 3 (validator 53 of 54); stop 3 failing live exits 4. The pattern every instrument in this programme is to be held to."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "fault (builder’s, entry 30)",
+   "text": "An instrument reading an adjacent cell and searching confidently on the wrong string: the rung-3 runner took the census Company cell (name joined to industry label) — three of the first five searches went out as e.g. “PJ Distributors General import/dist · Southeast FL”. Found by printing what it extracted beside what a reader sees, five lines, no read needed. Same family as the phone matcher that reported 101 where the instrument’s own pattern gave 552."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "probe",
+   "text": "Known-answer probe, rows and reasons fixed before it ran: Southern Glazer’s returned (866) 375-9555 from its own contact page (the route can find); Alliance Shippers returned no company site (the route can refuse). 6 of 8 reads: 2 lost to a crash of the first run (a missing field) and counted against the cap, the rerun inside the remainder."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "plant result",
+   "text": "watts.com was READ this time (Firecrawl, 200) and fails the full-name test in all five places: title “Watts | Plumbing, Heating and Water Quality Solutions”, copyright “© 2026 Watts. All rights reserved.”, no occurrence of “Watts Water” on the page. nutrition.gov fails on the exclusion and accurate.com on the page test, as expected. Stop 3 stays set; the amended reader works nothing."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "free and unread — fourth instance",
+   "text": "Florida registry ingest not run: sftp.floridados.gov resolves (172.65.236.28) but TCP port 22 timed out after 20 s from the build sandbox at 2026-11-01 21:43 UTC. What it would deliver at zero reads: officers, directors, managers, registered agent, principal and mailing address for the 200 Florida rows. At the measured 5–7 reads a row that is 1,000–1,400 reads for all 200, or 140–196 for the 28 rows without a named decision maker with title. It cost nothing, because it could not be reached; it remains free and unread."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "Firecrawl",
+   "text": "Limit read at firecrawl.dev/pricing 2026-11-01: Free plan 1,000 credits a month, 2 concurrent requests, “low rate limits”; the keyless tier refused on its rate limit after the first scrape of a burst. Re-probes: zirklefruit.com and elliottelectric.com, both refused on a plain fetch, answered Firecrawl (200) — evidence about our reader, not the door; sewell.com refused on the keyless rate limit. The “26 refused sources” are not listed anywhere in the repository, so they were not re-probed; and four of the five dealer-block “refusals” were SEC search pages or another company’s site (classic.com), not the dealer’s own door."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "halt (Chair’s quarter stop)",
+   "text": "Rung 3 restarted on the fixed runner and halted after 8 rows: 6 without a sourced contact — 2 company sites refused, 1 no company site, 3 company sites read with no number on the pages within the 3-read path. 19 of 207 reads spent. 2 sourced: Southern Glazer’s (already written in Item 354) and Fresh Del Monte Produce, (305) 520-8668 from delmontefresh.com/about-us/contact-us. Backlog 196 → 195; call-ready 313 → 314."
+  }
  ]
 }

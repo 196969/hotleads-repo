@@ -1,0 +1,129 @@
+{
+ "rows": {
+  "florida.html#8": {
+   "market": "florida",
+   "name": "PJ Distributors",
+   "phone_on_file": "(305) 455-7508",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site pjdistributorsusa.com refused",
+    "site": "pjdistributorsusa.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida.html#11": {
+   "market": "florida",
+   "name": "Turbana Corp",
+   "phone_on_file": "(305) 445-1542",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no company site in the search results",
+    "attempted": true
+   },
+   "reads": 1,
+   "unresolved_at_cost": false
+  },
+  "florida.html#12": {
+   "market": "florida",
+   "name": "Fresh Del Monte Produce",
+   "phone_on_file": "(305) 520-8433",
+   "result": {
+    "route": 4,
+    "number": "(305) 520-8668",
+    "how": "company page",
+    "site": "delmontefresh.com",
+    "candidates": [
+     "(305) 520-8668"
+    ],
+    "src": "Src: read delmontefresh.com/about-us/contact-us 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida.html#15": {
+   "market": "florida",
+   "name": "Southern Glazer's Wine & Spirits",
+   "phone_on_file": "(866) 375-9555",
+   "result": {
+    "route": 4,
+    "number": "(866) 375-9555",
+    "how": "company page",
+    "site": "southernglazers.com",
+    "candidates": [
+     "(866) 375-9555"
+    ],
+    "src": "Src: read southernglazers.com/contact-us 2026-11-01",
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida.html#16": {
+   "market": "florida",
+   "name": "National Beverage (LaCroix)",
+   "phone_on_file": "(954) 581-0922",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "nationalbeverage.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida.html#18": {
+   "market": "florida",
+   "name": "Watsco",
+   "phone_on_file": "(305) 714-4100",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "watsco.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  },
+  "florida.html#22": {
+   "market": "florida",
+   "name": "Presidente Supermarkets",
+   "phone_on_file": "305-231-9944",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "no number on the company pages read",
+    "site": "presidentesupermarkets.com",
+    "candidates": [],
+    "attempted": true
+   },
+   "reads": 3,
+   "unresolved_at_cost": false
+  },
+  "florida.html#25": {
+   "market": "florida",
+   "name": "Perry Ellis International",
+   "phone_on_file": "(305) 592-2830",
+   "result": {
+    "route": 4,
+    "number": null,
+    "how": "site perryellis.com refused",
+    "site": "perryellis.com",
+    "attempted": true,
+    "refused": true
+   },
+   "reads": 2,
+   "unresolved_at_cost": false
+  }
+ },
+ "halt": "more than a quarter of rows worked produced no sourced contact (6 of 8) after the minimum sample of 8"
+}

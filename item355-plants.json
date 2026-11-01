@@ -1,0 +1,51 @@
+{
+ "plants": {
+  "watts_plain": {
+   "status": 403,
+   "read": false,
+   "found_in": null
+  },
+  "watts_firecrawl": {
+   "status": 200,
+   "read": true,
+   "found_in": []
+  },
+  "nutrition": {
+   "domain": "domain exclusion (.gov/.edu/.mil)",
+   "result": "fail (domain exclusion)"
+  },
+  "accurate_plain": {
+   "status": 200,
+   "read": true,
+   "found_in": []
+  },
+  "plain_reads": 2
+ },
+ "plain_log": [
+  {
+   "n": 1,
+   "route": 1,
+   "row": "plant:watts",
+   "kind": "plant 1 (Item 355)",
+   "url": "https://www.watts.com/",
+   "date": "2026-11-01",
+   "status": 403,
+   "bytes": 5659,
+   "final": "https://www.watts.com/",
+   "refused": true,
+   "secs": 0.3
+  },
+  {
+   "n": 2,
+   "route": 1,
+   "row": "plant:accurate",
+   "kind": "plant 3 (Item 355)",
+   "url": "https://www.accurate.com/",
+   "date": "2026-11-01",
+   "status": 200,
+   "bytes": 547704,
+   "final": "https://www.accurate.com/",
+   "secs": 0.54
+  }
+ ]
+}
