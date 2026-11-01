@@ -9557,5 +9557,25 @@
    "kind": "scope, decided and reported (A8)",
    "text": "On market pages the guard reads everything outside the row tables. A row’s own dated source lines carry item numbers by design — they are evidence the validator requires — so applying the guard inside the tables would set the two standing rules against each other. Overrule if the Chair wants row notes read too."
   }
- ]
+ ],
+ "exposure_item360": {
+  "dated": "2026-11-01",
+  "contradiction": {
+   "partner_pack_sentence": "“not to be exported, shared, merged into another system or carried to another venture. Their value rests on their accuracy and on their being the firm’s alone”",
+   "measured_fact": "the lists are publicly served: https://196969.github.io/hotleads-repo/ answers without sign-in, and every market file, log and working record in the repository is readable by anyone holding its address"
+  },
+  "exposed_counts": {
+   "measured": "2026-11-01",
+   "verified_decision_maker_rows_on_the_market_pages": 3804,
+   "rows_carrying_a_published_phone_number": 1291,
+   "rows_in_the_54_market_files": 6421,
+   "outreach_logs": 28,
+   "working_evidence_files": 295
+  },
+  "mitigations": {
+   "robots.txt": "User-agent: * / Disallow: / at the repository root. Its honest limit: robots.txt stops compliant indexing, not access — anyone holding a URL still reads the file. A further limit, measured: crawlers read robots.txt only at the host root (https://196969.github.io/robots.txt, which answered 404 on 2026-11-01); a file at /hotleads-repo/robots.txt is not consulted by them at all. To make it count, the rule has to live at the host root (a 196969.github.io repository) or each page has to carry a noindex tag.",
+   "suppression.json": "removed from the served repository; every page and console now reads the list from the operator’s own computer (loaded once from a local file, kept in that browser) and withholds every address until it has one — proven in Chromium: 150 of 150 Florida Email links withheld with no local copy, released when the local file was loaded, a suppressed domain and a suppressed address each refused at Copy; send.py refused the suppressed address from a local file. The list held 0 entries when it was removed."
+  },
+  "not_done_by_ruling": "the repository stays public and the market files stay where they are — Item 361, scheduled, because moving them breaks every live link in the Partner Pack the week Edward starts dialling."
+ }
 }
