@@ -10036,5 +10036,22 @@
    "kind": "hole closed, and two misses found by it",
    "text": "The lone-stale-stamp hole found in Item 365 is closed. Moving the registry-access lines out of the header (24 pages one line, Florida, Illinois and Chicago two) let the extension run; it then found what Item 364 missed: Chicago’s p.lede (typed totals, “Updated 26 September 2026”), Florida’s route note (98 call-ready, measured 2026-10-31) and Pennsylvania’s 2026-10-31 sourcing flag — each relocated whole. The index “updated 4 September 2026” stamp named in the Item 366 brief was not on the live page (0 occurrences at c05f3d0): it existed only as an Item 365 plant in a working copy, removed before that close."
   }
+ ],
+ "register_item367": [
+  {
+   "date": "2026-11-01",
+   "kind": "instruction restored (Chair)",
+   "text": "Florida’s operating instruction restored beneath the header, above the registry-access lines, in the Chair’s words and with no figure, date or count: “The phone opens; email follows a connected call.”"
+  }
+ ],
+ "closed_by_chair": [
+  {
+   "date": "2026-11-01",
+   "closed": [
+    "Host-root robots — 196969.github.io created, public, Pages at root; robots.txt live at the host root (build fetch 2026-11-01: 200, User-agent: * / Disallow: /, plus named crawlers)",
+    "Edward’s guide sentence — written into both operating guides by the Chair, outside this repository (the build cannot read the guides)"
+   ],
+   "note": "do not relist"
+  }
  ]
 }
