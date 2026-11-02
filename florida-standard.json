@@ -9652,5 +9652,72 @@
    "kind": "fault caught (builder’s)",
    "text": "The Rappahannock re-probe used rroysters.com, a domain recalled rather than sourced. Own knowledge is refused as a source, so that read is struck; the contest stays held."
   }
+ ],
+ "rung4_item363": {
+  "date": "2026-11-01",
+  "verdict": "address reader declared unreleasable; rung 4 rows struck as unreachable by it",
+  "why": "Second evidence route (a dated SEC record, whole-name match) failed its first plant three times: Fresh Del Monte Produce — the ticker list omits it; EDGAR’s company page returns it under its current name DEL MONTE CORP; the former-name parse still found no whole-name match. The build stopped adjusting at the third attempt rather than bend the reader to its plant. Plants 2 and 3 (a non-company name; Accurate Box Company) correctly found nothing.",
+  "rows_struck": [
+   "florida.html#3 Quirch Foods",
+   "florida.html#7 Martinez Distributors",
+   "florida.html#10 Sunshine Bouquet",
+   "florida.html#20 TruckMax",
+   "florida.html#36 SkyPostal",
+   "florida.html#48 Rooms To Go",
+   "florida.html#70 Cone Distributors",
+   "florida.html#74 Ring Power (CAT)",
+   "florida.html#83 Duty Free Americas",
+   "florida.html#84 Sunshine Gasoline Distributors",
+   "florida.html#93 Ed Morse Automotive Group",
+   "florida.html#94 Rick Case Automotive Group",
+   "florida.html#99 Lipman Family Farms",
+   "florida.html#101 Suncoast Beverage Sales",
+   "florida.html#109 FrankCrum",
+   "florida.html#110 Amscot Financial",
+   "florida.html#117 Wayne Densch Inc.",
+   "florida.html#121 Rosen Hotels & Resorts",
+   "florida.html#122 Westgate Resorts",
+   "florida.html#125 4R Restaurant Group (4 Rivers)",
+   "florida.html#135 American Coolair",
+   "florida.html#137 W.W. Gay Mechanical",
+   "florida.html#142 ICI Homes",
+   "florida.html#147 Milam’s Markets",
+   "florida.html#151 IBC Airways",
+   "florida-expansion.html#1 Globe Trailers",
+   "florida-expansion.html#3 Tampa Maid Foods",
+   "florida-expansion.html#6 Cypress Truck Lines",
+   "florida-expansion.html#7 Schwend, Inc.",
+   "florida-expansion.html#13 East Coast Metal Structures",
+   "florida-expansion.html#20 Trans-Phos",
+   "florida-expansion.html#21 FMX, Inc.",
+   "florida-expansion.html#34 Solutions Manufacturing",
+   "florida-expansion.html#I2 Palm Medical Centers",
+   "florida-expansion.html#I3 Altitude Water",
+   "florida-expansion.html#I4 American Fasteners",
+   "florida-expansion.html#I6 FreightCenter"
+  ],
+  "note": "All 37 are privately held; their principal addresses sit in the Florida registry (Part B), which stays owed to the Chair. They are unreachable by this reader, not by every reader."
+ },
+ "register_item363": [
+  {
+   "date": "2026-11-01",
+   "kind": "near-instance of the bend-to-pass fault",
+   "text": "The address reader’s SEC route failed its plant and was changed three times — the lookup index, then the company-page parse, then a former-name rule — each defensible alone, together a reader being adjusted toward its plant. Stopped at the third; the reader is declared unreleasable rather than released on a fourth change."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "contests closed Blind",
+   "text": "Zirkle, Elliott Electric, Christensen Arms — each read through Firecrawl on 2026-11-01 and short of the fact; recorded Blind on both rows with every route tried. Rappahannock stays struck (remembered domain)."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "last dealer row worked",
+   "text": "Sewell Automotive (texas.html #119): own site answered through Firecrawl (200) and names the company; no ownership class stated — Blind, dated line on the row."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "wrong-repository upload, second today",
+   "text": "The website pointer pack was uploaded into hotleads-repo (a8c7d83), turning chicago.html into a page that redirected to itself; caught by the validator (53 of 54) at the gate and restored from 8c92fc3 (f3c7109). Zips now carry their destination first in the name, and the manifest names its target repository."
+  }
  ]
 }
