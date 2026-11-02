@@ -10042,6 +10042,16 @@
    "date": "2026-11-01",
    "kind": "instruction restored (Chair)",
    "text": "Florida’s operating instruction restored beneath the header, above the registry-access lines, in the Chair’s words and with no figure, date or count: “The phone opens; email follows a connected call.”"
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "state asserted from a report, not read from the file (Chair’s own, recorded at his instruction)",
+   "text": "The suppression-list section and the composer correction in the operating guides were written by the Chair in the Complete Package, not in hotleads-repo, and were credited to Item 362 — a claim about work in a repository that had not been measured. The build corrected the attribution; the Chair accepted it. Same family as the index stamp named for removal in Item 366, which existed only as an Item 365 plant: a state asserted from a report rather than read from the file."
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "item closed",
+   "text": "Item 367 closed by the Chair: run from the instruction itself; the brief added nothing the instruction did not carry."
   }
  ],
  "closed_by_chair": [

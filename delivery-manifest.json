@@ -1,13 +1,12 @@
 {
- "item": "367 (Florida instruction)",
+ "item": "367 (register)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "2ffa1b3",
+ "base": "dbdc06e",
  "date": "2026-11-01",
  "files": [
   "delivery-manifest.json",
-  "florida-standard.json",
-  "florida.html"
+  "florida-standard.json"
  ],
- "count": 3
+ "count": 2
 }
