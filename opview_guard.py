@@ -14,13 +14,21 @@ HDR=[('retired',re.compile(r'\bretired\b',re.I)),('restated',re.compile(r'\brest
 DATE=re.compile(r'\b(?:20\d\d-\d\d-\d\d|\d{1,2} (?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec) 20\d\d)\b')
 def header_hits(s):
     """Item 364: the operator-facing header (everything before the first table) carries what the page is, current figures and one date."""
-    b=s.find('<body'); t=s.find('<table',b if b>=0 else 0); h=re.sub(r'(?is)<(script|style|template)[^>]*>.*?</\1>',' ',s[max(b,0):t if t>0 else len(s)])
+    # Item 366: the operator header is the <header> element where a page has one; otherwise its title and subtitle lines (h1, div.meta, div.sub, p.lede)
+    hd=re.search(r'(?is)<header\b[^>]*>.*?</header>',s)
+    if hd: h=hd.group(0)
+    else:
+        b=s.find('<body'); t=s.find('<table',b if b>=0 else 0); pre=s[max(b,0):t if t>0 else len(s)]
+        h=' '.join(m.group(0) for m in re.finditer(r'(?is)<h1\b[^>]*>.*?</h1>|<div class="(?:meta|sub)"[^>]*>.*?</div>|<p class="lede"[^>]*>.*?</p>',pre))
+    h=re.sub(r'(?is)<(script|style|template)[^>]*>.*?</\1>',' ',h)
     out=[]
     for m in re.finditer(r'(?is)<(div|p|span|h1|h2|h3|header)\b[^>]*>((?:(?!<(?:div|p|table)\b).)*?)</\1>',h):
         txt=html.unescape(re.sub(r'<[^>]+>',' ',m.group(2)))
         for lab,rx in HDR:
             if rx.search(txt): out.append((lab,txt.strip()[:120]))
         if len(set(DATE.findall(txt)))>1: out.append(('two dates in one subtitle',txt.strip()[:120]))
+        for m in DATE.finditer(txt):   # Item 366: every header date is the measurement date, marked as such
+            if not re.search(r'measured\s*$',txt[:m.start()],re.I): out.append(('date not marked as the measurement date',txt.strip()[:120])); break
     return out
 def check(path):
     name=os.path.basename(path); market=not (name=='index.html' or name.startswith('console-'))

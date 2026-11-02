@@ -9549,7 +9549,8 @@
   "item": "359",
   "rule": "A figure on the operator view stands alone. Its derivation, its history and the figures it replaced live in the standard. One document, one reader.",
   "guard": "opview_guard.py, run by gate.py stop 2 over index.html, every console-*.html and every market page outside its row tables; a refusal exits 3.",
-  "header_rule_item364": "An operator-facing header carries only what the page is, the current measured figures, and one date — the date those figures were measured. The dialable-is-not-call-ready warning stays: it is an operating instruction. Guarded by opview_guard.py (retired · restated · none reproduces · earlier quoted · two dates in one subtitle), each pattern proven by a planted failure."
+  "header_rule_item364": "An operator-facing header carries only what the page is, the current measured figures, and one date — the date those figures were measured. The dialable-is-not-call-ready warning stays: it is an operating instruction. Guarded by opview_guard.py (retired · restated · none reproduces · earlier quoted · two dates in one subtitle), each pattern proven by a planted failure.",
+  "header_rule_item366": "No exemption for dated source lines: the registry-access line moves beneath the header instead. The guard reads the header itself (the <header> element; on pages without one, h1, div.meta, div.sub and p.lede) and refuses any date there not marked as the measurement date."
  },
  "register_item359": [
   {
@@ -10003,6 +10004,37 @@
    "date": "2026-11-01",
    "kind": "header history stripped, guard extended",
    "text": "54 header elements relocated whole into history_operator_view_item364: 52 page headers rebuilt from counts measured on 2026-11-01 (rows, status, tier) with one date; the index subtitle’s “expansions verified 3 Sep 2026 … earlier quoted totals …” clause; two Illinois register-ingest notes. The guard, extended to five header patterns, refused each when planted and passed 82 of 82 when removed."
+  }
+ ],
+ "history_operator_view_item366": {
+  "relocated": "2026-11-01",
+  "item": "366",
+  "entries": [
+   {
+    "page": "chicago.html",
+    "element": "p.lede",
+    "html": "<p class=\"lede\">Chicago, the collar counties, Rockford, and southeast Wisconsin · Status: Verified 112 · Downgraded 104 · Unverified 11 · Pending 0 · Tiers: A 109 · B 30 · C 99 — Updated 26 September 2026 — all 91 pending-by-rule rows resolved</p>",
+    "why": "missed by Item 364 (it rebuilt div.meta; Chicago’s figures sit in p.lede); stale typed totals and an “Updated 26 September 2026” stamp"
+   },
+   {
+    "page": "florida.html",
+    "element": "p",
+    "html": "<p class=\"route-line\" data-read=\"2026-10-31\">Route (measured 2026-10-31): Florida is a phone market. Across the 98 call-ready rows, 2 email addresses reach a named person against 31 role inboxes and 12 other addresses. The phone opens; email carries the leave-behind after a connected call, never the opener. Src: Florida-Dial-Pack.docx address split · 2026-10-31.</p>",
+    "why": "history in the operator header: a figure measured on 2026-10-31 that later passes changed"
+   },
+   {
+    "page": "pennsylvania.html",
+    "element": "p",
+    "html": "<p class=\"market-flag\" data-flag=\"sourcing-unreliable\" data-flagged=\"2026-10-31\" style=\"color:#e0304a;font-weight:700\">Market flag (2026-10-31): SOURCING UNRELIABLE. 34 of 73 source lines in this file carry no date on the line (47%), and 15 of its 85 Verified rows rest only on them, so Pennsylvania’s Verified count is not reliable. Re-date or re-verify as a market. No status has been moved; that needs reads.</p>",
+    "why": "history in the operator header: a figure measured on 2026-10-31 that later passes changed"
+   }
+  ]
+ },
+ "register_item366": [
+  {
+   "date": "2026-11-01",
+   "kind": "hole closed, and two misses found by it",
+   "text": "The lone-stale-stamp hole found in Item 365 is closed. Moving the registry-access lines out of the header (24 pages one line, Florida, Illinois and Chicago two) let the extension run; it then found what Item 364 missed: Chicago’s p.lede (typed totals, “Updated 26 September 2026”), Florida’s route note (98 call-ready, measured 2026-10-31) and Pennsylvania’s 2026-10-31 sourcing flag — each relocated whole. The index “updated 4 September 2026” stamp named in the Item 366 brief was not on the live page (0 occurrences at c05f3d0): it existed only as an Item 365 plant in a working copy, removed before that close."
   }
  ]
 }
