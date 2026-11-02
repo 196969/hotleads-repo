@@ -10,12 +10,24 @@ def rendered(s,market):
     s=re.sub(r'(?is)<(script|style|template)[^>]*>.*?</\1>',' ',s); s=re.sub(r'(?is)<!--.*?-->',' ',s)
     if market: s=re.sub(r'(?is)<table[^>]*>.*?</table>',' ',s)
     return html.unescape(re.sub(r'<[^>]+>',' ',s))
+HDR=[('retired',re.compile(r'\bretired\b',re.I)),('restated',re.compile(r'\brestated\b',re.I)),('none reproduces',re.compile(r'none reproduces',re.I)),('earlier quoted',re.compile(r'earlier quoted',re.I))]
+DATE=re.compile(r'\b(?:20\d\d-\d\d-\d\d|\d{1,2} (?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec) 20\d\d)\b')
+def header_hits(s):
+    """Item 364: the operator-facing header (everything before the first table) carries what the page is, current figures and one date."""
+    b=s.find('<body'); t=s.find('<table',b if b>=0 else 0); h=re.sub(r'(?is)<(script|style|template)[^>]*>.*?</\1>',' ',s[max(b,0):t if t>0 else len(s)])
+    out=[]
+    for m in re.finditer(r'(?is)<(div|p|span|h1|h2|h3|header)\b[^>]*>((?:(?!<(?:div|p|table)\b).)*?)</\1>',h):
+        txt=html.unescape(re.sub(r'<[^>]+>',' ',m.group(2)))
+        for lab,rx in HDR:
+            if rx.search(txt): out.append((lab,txt.strip()[:120]))
+        if len(set(DATE.findall(txt)))>1: out.append(('two dates in one subtitle',txt.strip()[:120]))
+    return out
 def check(path):
     name=os.path.basename(path); market=not (name=='index.html' or name.startswith('console-'))
     t=rendered(open(path,encoding='utf-8').read(),market); hits=[]
     for lab,rx in PAT:
         for m in rx.finditer(t): hits.append((lab,t[max(0,m.start()-40):m.end()+40].replace('\n',' ')))
-    return hits
+    return hits+header_hits(open(path,encoding='utf-8').read())
 def scope(root='.'):
     M=sorted({os.path.basename(p).replace('-expansion.html','') for p in glob.glob(os.path.join(root,'*-expansion.html'))})
     return [os.path.join(root,'index.html')]+sorted(glob.glob(os.path.join(root,'console-*.html')))+[os.path.join(root,g) for m in M for g in (m+'.html',m+'-expansion.html') if os.path.exists(os.path.join(root,g))]
