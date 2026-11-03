@@ -11,7 +11,7 @@ Head 056f431, raw pinned to the head plus a fresh clone: 621 of 621 files agree 
 ## Proven on the final bytes (counts measured)
 - Parity re-census, 81 pages: 54 market pages identical to florida.html in columns, cell classes, filter bar and script set; 27 consoles carry the same composer text. One deviation: chicago.html, five rows with a cell that has no column (register 11).
 - Load errors: 0 across all 182 pages.
-- Google search links: 0. Gmail URLs and @gmail.com addresses: 0 in the repository.
+- Google search links: 0. Gmail URLs and Gmail-domain addresses: 0 in the repository.
 - Search links: 11,372 restored against the 11,372 removed (36 of them read Owner: Blind). Site: 31 Site and 3,327 Find site against the 3,327 flattened.
 - End to end: 32 of 32 on three rows — florida.html with an address (Edward), north-carolina-expansion.html with an address (Tim), arizona.html with none (To empty, collected on the call). Console composer opens on both kinds of row.
 - Day's queue: planted case 1/1/1/147, independent recount 1/1/1/147.

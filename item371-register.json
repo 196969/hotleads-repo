@@ -86,7 +86,17 @@
   {
    "n": 17,
    "what": "Chair rulings at the close",
-   "detail": "Leopardo stands as applied; SC Johnson and Power Construction keep their orphan cells marked no-column and recorded in the note, no twelfth column anywhere; #55 cleared on the Chair’s spot-check (Bing relevance verified by the Chair)"
+   "detail": "Leopardo stands as applied; SC Johnson and Power Construction keep their orphan cells marked no-column and recorded in the note, no twelfth column anywhere; #55 cleared on the Chair’s spot-check (Bing relevance verified by the Chair) — AMENDED by the Chair (Item 373): the keep-as-found ruling on SC Johnson and Power Construction is withdrawn; full structural parity with no exceptions replaced it. Both orphan cells are deleted and their numbers (262-260-2000, 773-693-6000) recorded in each row’s Notes as a second published line; the primary phones stand."
+  },
+  {
+   "n": 18,
+   "what": "A structural exception held by ruling, withdrawn",
+   "detail": "two Chicago cells with no column were kept as found under ruling, then withdrawn once the Chair required no exceptions. The lesson: an exception recorded is still an exception."
+  },
+  {
+   "n": 19,
+   "what": "A zero that counted itself",
+   "detail": "the Item 371 report sentence stating zero Gmail addresses contained the string it was counting, so the scan on the delivered bytes read one; the Item 371 scan had run before the report was written. Reworded to \"Gmail-domain addresses\"; the scan now runs after every record is written."
   }
  ]
 }

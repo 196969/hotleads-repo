@@ -1,30 +1,60 @@
 {
- "item": "371 (close, verdict update)",
+ "item": "373",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "cbc4c44",
+ "base": "4cd3526",
  "date": "2026-11-03",
  "upload": "flat, all files to the repository root; delivery-manifest.json last",
  "files": [
   {
-   "file": "item371-close-report.md",
-   "bytes": 2168,
-   "sha256": "f0091f21d62d3ca22749d05e57e637f037d552e6a644a8d365f75d9387145bc4"
-  },
-  {
-   "file": "item371-founders72-verdicts.json",
-   "bytes": 28974,
-   "sha256": "6238a7161605909b6260ec11b61f61a259488681669fb25b778a33f5944ca19e"
+   "file": "chicago.html",
+   "bytes": 543431,
+   "sha256": "307767debaa0243c8c7de623d63af952657eaee8f98c7bf51513553a83beb8ab"
   },
   {
    "file": "item371-register.json",
-   "bytes": 4453,
-   "sha256": "4194999f6527ff0b595f84293fe2faa2d0f53400bf8803cbe381923ff8113245"
+   "bytes": 5423,
+   "sha256": "e52d62fb297774b84c8ae5e01061d1dce44d6dd29886332114cf0e651be4b2f6"
+  },
+  {
+   "file": "item371-report.md",
+   "bytes": 2259,
+   "sha256": "b6e6283e04834bdd2cf9b6eeee1958ac7150335dc52ec0c745c6c040578373ae"
+  },
+  {
+   "file": "item373-e2e.json",
+   "bytes": 9411,
+   "sha256": "9206e38bfb76117291d8fb178b8f43ca275419e02252b8f8e66990ecad63d9f5"
+  },
+  {
+   "file": "item373-founders72-verdicts.json",
+   "bytes": 28059,
+   "sha256": "720899ffaffc43e41415bd90b496d5a33d0978912f2383752be7ec3e464d6e3f"
+  },
+  {
+   "file": "item373-gate.json",
+   "bytes": 128183,
+   "sha256": "eaa306c2454089754296125a5c3a4dc341a701919e4e1f66ea779917095ee365"
+  },
+  {
+   "file": "item373-load-census.json",
+   "bytes": 5315,
+   "sha256": "724ea422f3996c21b27ab4c6661a879eae45a0926ba021179700ae67dfc5ffe6"
+  },
+  {
+   "file": "item373-parity-final.json",
+   "bytes": 7688,
+   "sha256": "de650b26ab7d05b872f6d0d0cf7bbe0eef36a51abd5e3141cd0b836e5cbcf3a5"
+  },
+  {
+   "file": "item373-report.md",
+   "bytes": 2080,
+   "sha256": "39421fd55df5b1de3437f92bb13229442bb83502255d40b3d5322d50ff95c3aa"
   },
   {
    "file": "delivery-manifest.json",
    "note": "upload last"
   }
  ],
- "count": 4
+ "count": 10
 }
