@@ -1,60 +1,515 @@
 {
- "item": "373",
+ "item": "374 with the sixth checkbox",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "4cd3526",
+ "base": "36dd6b8",
  "date": "2026-11-03",
  "upload": "flat, all files to the repository root; delivery-manifest.json last",
  "files": [
   {
+   "file": "arizona-expansion.html",
+   "bytes": 220290,
+   "sha256": "6399e537660bf69e06f6bc1553b22528bd8264d43b5d03973c66e36e50ede14b"
+  },
+  {
+   "file": "arizona.html",
+   "bytes": 414661,
+   "sha256": "5aae5afa9dbe0820dce761b5f5e503cc6420ceb3038a7028937f64aa434ca94a"
+  },
+  {
+   "file": "california-expansion.html",
+   "bytes": 226832,
+   "sha256": "2e72d2196b623389264180097ffefa5cd2869df9c072c22f72acbceadd85d8cb"
+  },
+  {
+   "file": "california.html",
+   "bytes": 293938,
+   "sha256": "dbe4d85b29e9312c9dd83851fd6574222c7f1ea42cdb531e0945e8f9631b76de"
+  },
+  {
+   "file": "chicago-expansion.html",
+   "bytes": 214672,
+   "sha256": "b0676ef4d924223ba451dc1e17ac70e233f0a758ed12fe8288789540ef02581c"
+  },
+  {
    "file": "chicago.html",
-   "bytes": 543431,
-   "sha256": "307767debaa0243c8c7de623d63af952657eaee8f98c7bf51513553a83beb8ab"
+   "bytes": 545980,
+   "sha256": "54826ecd0c2512fab11ddf0d3ab8c76c711125048f41787efcb9af357c7d4fc7"
   },
   {
-   "file": "item371-register.json",
-   "bytes": 5423,
-   "sha256": "e52d62fb297774b84c8ae5e01061d1dce44d6dd29886332114cf0e651be4b2f6"
+   "file": "colorado-expansion.html",
+   "bytes": 222143,
+   "sha256": "86ca2c05abe08cfadbf2b60f0b13711b8432f491fd550cd85af1f74aa7ec6a15"
   },
   {
-   "file": "item371-report.md",
-   "bytes": 2259,
-   "sha256": "b6e6283e04834bdd2cf9b6eeee1958ac7150335dc52ec0c745c6c040578373ae"
+   "file": "colorado.html",
+   "bytes": 404682,
+   "sha256": "8f6430541585598f73638c49cd3a589a8bfb727f8f2c04624148d9435d84ad39"
   },
   {
-   "file": "item373-e2e.json",
+   "file": "console-arizona.html",
+   "bytes": 95097,
+   "sha256": "f2d4169005a54f4fb81fb459fb692cb3776b66c42b94ff43efdeddd4be178a4b"
+  },
+  {
+   "file": "console-california.html",
+   "bytes": 95106,
+   "sha256": "fa05b3279fcb76ed79dd186098ac9a3db1d8a78e11d8ded86632e24d6d212424"
+  },
+  {
+   "file": "console-chicago.html",
+   "bytes": 95097,
+   "sha256": "059a6bd58e47c512ae54a7b8db9f8dff4c3e1de883a26c180b48c9d0f31126b8"
+  },
+  {
+   "file": "console-colorado.html",
+   "bytes": 95100,
+   "sha256": "792cb9f8c76ae4b35988f61c7784f58202cd44eb6399186a80586feba7b841a5"
+  },
+  {
+   "file": "console-florida.html",
+   "bytes": 95016,
+   "sha256": "e069948117af2d7f8d942e8ce1759f2c0e75b6a6ea1266968edb861fe5a1b2b7"
+  },
+  {
+   "file": "console-georgia.html",
+   "bytes": 95097,
+   "sha256": "ad4dfd1bd7655807543b96874278f408062952bc3e9250b95df0da8bf6f9bf85"
+  },
+  {
+   "file": "console-illinois.html",
+   "bytes": 95100,
+   "sha256": "78936288c3b0dbde4f184306e2ebed77a14e2951fbaa672a3582685d6fdf1e0e"
+  },
+  {
+   "file": "console-indiana.html",
+   "bytes": 95097,
+   "sha256": "5b07ed926f88888f41b1d1b48c9c5c847f9e06433ef6636f08ea37263355ee90"
+  },
+  {
+   "file": "console-iowa.html",
+   "bytes": 95088,
+   "sha256": "d1f11a6498f5f7ef2e5eec8fd3580f71caa7de0e9333ad3bee1dff191ead934a"
+  },
+  {
+   "file": "console-kentucky.html",
+   "bytes": 95100,
+   "sha256": "05e65a9c4b3f4f8f80fcf271c54f6de3cecda085a1e470c1eea70dc56f39b528"
+  },
+  {
+   "file": "console-las-vegas.html",
+   "bytes": 95103,
+   "sha256": "241dd1e420da9125b1e12ee67a4535f519058cd0e27cc3c97e0af31b1c4a40d0"
+  },
+  {
+   "file": "console-michigan.html",
+   "bytes": 95100,
+   "sha256": "a60a97772e0b6935eebcf0353f557bf2f32bd17c49f9ba9f13c1487f287454e5"
+  },
+  {
+   "file": "console-minnesota.html",
+   "bytes": 95103,
+   "sha256": "d1e883653a06940636e17d1fbcf4f9050ea458e580151b7e2a013558670a8db2"
+  },
+  {
+   "file": "console-missouri.html",
+   "bytes": 95100,
+   "sha256": "149ceebdc8169ebde2a6248a9a4418c2b1f25bc4e0f22e3db3269bc088f0658a"
+  },
+  {
+   "file": "console-new-jersey.html",
+   "bytes": 95106,
+   "sha256": "9915d015fb4e2561b1fa73c7bcd63d39f6dd49ade95ecd1e36c06776dfbabbcb"
+  },
+  {
+   "file": "console-new-york.html",
+   "bytes": 95100,
+   "sha256": "71e69c3ac49902bf910697913437d060f31ee087a07f5ba13b968e32b268e877"
+  },
+  {
+   "file": "console-north-carolina.html",
+   "bytes": 95118,
+   "sha256": "d71386f2077b42bde025af219f8204e50e62567a44c547c5f976b830acc162bb"
+  },
+  {
+   "file": "console-ohio.html",
+   "bytes": 95088,
+   "sha256": "a44307eb77f2bee5511892827b98019bbc886e164ed4f9f7bb4adaee42a9fef9"
+  },
+  {
+   "file": "console-oregon.html",
+   "bytes": 95094,
+   "sha256": "91440fb605321f85689b432606bdd327eed82e4d355abc049d115225ae954bcd"
+  },
+  {
+   "file": "console-pennsylvania.html",
+   "bytes": 95112,
+   "sha256": "35a246a4ba4ff4ba53e497517a1254bf94f54b19682b9ccc69990b91f2139687"
+  },
+  {
+   "file": "console-south-carolina.html",
+   "bytes": 95118,
+   "sha256": "e0f51480735e0b788bcc6580daea2621b89b58c41e3998135537461ff3e30518"
+  },
+  {
+   "file": "console-tennessee.html",
+   "bytes": 95103,
+   "sha256": "6255be36214d977a189f513491f87e876dc7bbd47841a18f9a3715764f69739b"
+  },
+  {
+   "file": "console-texas.html",
+   "bytes": 95091,
+   "sha256": "cd734f1995b4fc4a5f8256b32740a601c247a7a33cea6b0108f05ab70500fcbe"
+  },
+  {
+   "file": "console-utah.html",
+   "bytes": 95088,
+   "sha256": "9b65e3f80b98eede98b642f1119396e7c55f7bdef7f036d8ebae7624046b7d05"
+  },
+  {
+   "file": "console-virginia.html",
+   "bytes": 95100,
+   "sha256": "9c3f705346358ae426d6322877111d0270478366a9c0235d0e70e4be17aeacf2"
+  },
+  {
+   "file": "console-washington.html",
+   "bytes": 95106,
+   "sha256": "15c67745caea9cc73bfd2688dd7f3b23ab762331c79376dd44aba3084dd3b63b"
+  },
+  {
+   "file": "console-wisconsin.html",
+   "bytes": 95103,
+   "sha256": "612a671a4ffae7fd672aeff786455a136b7523edd9061074c9fe2a3522465076"
+  },
+  {
+   "file": "florida-expansion.html",
+   "bytes": 231146,
+   "sha256": "84b8000835a5564f32adf47b3319ce436ad234fe5f386a193d2a4d6bfe5b834e"
+  },
+  {
+   "file": "florida.html",
+   "bytes": 433907,
+   "sha256": "8526da3689940999354adfcf83705799dfcf5383b7e668693a5fd496ab3bf67f"
+  },
+  {
+   "file": "georgia-expansion.html",
+   "bytes": 207420,
+   "sha256": "5ed239bb944049abcab53d9527e5a6a9f1c4a5530578fc873fc22cdfabef0c5e"
+  },
+  {
+   "file": "georgia.html",
+   "bytes": 466223,
+   "sha256": "6563b944b012209fe9682b84c7713b02ca4ac4458fcbf1de12c4236a44070014"
+  },
+  {
+   "file": "illinois-expansion.html",
+   "bytes": 216093,
+   "sha256": "b149511a1703993bd06f64527bb55863c461a176c4bf380df74c568a5abc691d"
+  },
+  {
+   "file": "illinois.html",
+   "bytes": 374850,
+   "sha256": "37c0916866dfc130c191ee3643f43d3da8f2019677d77c613d2e90cf9273f101"
+  },
+  {
+   "file": "indiana-expansion.html",
+   "bytes": 202222,
+   "sha256": "19e33a0dc30982b9f12839a2643c2066be37e2067c07058f9548a2c18b43de63"
+  },
+  {
+   "file": "indiana.html",
+   "bytes": 314028,
+   "sha256": "1915c551db4f9c5e621d51c4617912659beb43c759d1d3e8f6ad8f5cf60c7b6e"
+  },
+  {
+   "file": "iowa-expansion.html",
+   "bytes": 202486,
+   "sha256": "07bb74c2d6f456f937668e3b447c0e942ea0a66caad132fd977fe24d1e30420e"
+  },
+  {
+   "file": "iowa.html",
+   "bytes": 323546,
+   "sha256": "0676a68c8b8f159e2bab9eababc6e0cda0393bd55f109ac229b004ced4b51a0e"
+  },
+  {
+   "file": "item374-behaviour.json",
+   "bytes": 12321,
+   "sha256": "00a7a7283e79886911a6518bf07417abf5972e7d1d7a769d9612346734905034"
+  },
+  {
+   "file": "item374-e2e.json",
    "bytes": 9411,
-   "sha256": "9206e38bfb76117291d8fb178b8f43ca275419e02252b8f8e66990ecad63d9f5"
+   "sha256": "23a21c66e6e86c143b2dbe1ecd322e6924f05866c6742a1fe977cad04355181b"
   },
   {
-   "file": "item373-founders72-verdicts.json",
-   "bytes": 28059,
-   "sha256": "720899ffaffc43e41415bd90b496d5a33d0978912f2383752be7ec3e464d6e3f"
+   "file": "item374-founders72-verdicts.json",
+   "bytes": 28357,
+   "sha256": "765ef2da749b2636814d9508ca8d240279200be673d2b31afe039e51610c6f0d"
   },
   {
-   "file": "item373-gate.json",
-   "bytes": 128183,
-   "sha256": "eaa306c2454089754296125a5c3a4dc341a701919e4e1f66ea779917095ee365"
+   "file": "item374-gate.json",
+   "bytes": 129410,
+   "sha256": "cd06374a9999a4e319335decc021cbf52da8b547c6ee534d0cfa6a960b3816a9"
   },
   {
-   "file": "item373-load-census.json",
+   "file": "item374-load-census.json",
    "bytes": 5315,
    "sha256": "724ea422f3996c21b27ab4c6661a879eae45a0926ba021179700ae67dfc5ffe6"
   },
   {
-   "file": "item373-parity-final.json",
+   "file": "item374-parity-final.json",
    "bytes": 7688,
    "sha256": "de650b26ab7d05b872f6d0d0cf7bbe0eef36a51abd5e3141cd0b836e5cbcf3a5"
   },
   {
-   "file": "item373-report.md",
-   "bytes": 2080,
-   "sha256": "39421fd55df5b1de3437f92bb13229442bb83502255d40b3d5322d50ff95c3aa"
+   "file": "item374-register.json",
+   "bytes": 3802,
+   "sha256": "27d426aeca9fb484c2efdb05107b2868b9f476c21d19d1940096c4a2c3933e01"
+  },
+  {
+   "file": "item374-report.md",
+   "bytes": 4502,
+   "sha256": "3c04b11fd36a7df21bb3fd86fbc0a78eb0a3fb5be413edcaac458409718cafbc"
+  },
+  {
+   "file": "item374-visibility-census.json",
+   "bytes": 1608,
+   "sha256": "d13f576b499d569956ce4a687e49e2cf01b719f6ba3b194432d0e29a868975a5"
+  },
+  {
+   "file": "item374b-e2e.json",
+   "bytes": 9411,
+   "sha256": "b118c8751a3f3cc1d12d1b2d047c6df9b125f04854c3fe13bea77234f2fd512c"
+  },
+  {
+   "file": "item374b-founders72-verdicts.json",
+   "bytes": 28096,
+   "sha256": "2260d40a984a51fa7691b5ca4786de3698b35c2be1fa020207172d4142bce6a9"
+  },
+  {
+   "file": "item374b-gate-route-proof.json",
+   "bytes": 331,
+   "sha256": "d8f4ad398c15bdc90360976016e88f489d652fdf09c8702950bb6e6492428507"
+  },
+  {
+   "file": "item374b-gate.json",
+   "bytes": 129410,
+   "sha256": "7bf3793029ce1e5485db5c733bc5bb82e2b5d49411557ca5a7162a6c7dc5f9b9"
+  },
+  {
+   "file": "item374b-load-census.json",
+   "bytes": 5315,
+   "sha256": "724ea422f3996c21b27ab4c6661a879eae45a0926ba021179700ae67dfc5ffe6"
+  },
+  {
+   "file": "item374b-parity-final.json",
+   "bytes": 7688,
+   "sha256": "de650b26ab7d05b872f6d0d0cf7bbe0eef36a51abd5e3141cd0b836e5cbcf3a5"
+  },
+  {
+   "file": "item374b-register.json",
+   "bytes": 2308,
+   "sha256": "40650c5cf58d5d391fa193dce4a12302c7d6ea7193b16f1f48056f28fd59ba02"
+  },
+  {
+   "file": "item374b-report.md",
+   "bytes": 2745,
+   "sha256": "f7881ccde7367dcf2c7a3fcdf794a3439f1f9d415c9178814243113343cb58ae"
+  },
+  {
+   "file": "item374b-sixth-checkbox-proof.json",
+   "bytes": 1563,
+   "sha256": "57755c04743fdb667c2de74592db5eb7f0c46aae22b36f7c0abe91e5d651573c"
+  },
+  {
+   "file": "item374b-visibility-census.json",
+   "bytes": 620,
+   "sha256": "56d25bb1c6341e28d4c27527691028bab9b71d409b43e431f95267302bf22881"
+  },
+  {
+   "file": "kentucky-expansion.html",
+   "bytes": 217354,
+   "sha256": "bef4d7aee7e660ad5c78e7d11fe8f7c0ff38e6c1344936d68781debb22557656"
+  },
+  {
+   "file": "kentucky.html",
+   "bytes": 312894,
+   "sha256": "ddb29aaf33396297a1abe79c73f0a952432f9759570d770324056973244ac793"
+  },
+  {
+   "file": "las-vegas-expansion.html",
+   "bytes": 225133,
+   "sha256": "316e6cc11a6a337aec84142d86f0d5dbc3b4ee54fef7b4a4d0c9dc41efebe4c0"
+  },
+  {
+   "file": "las-vegas.html",
+   "bytes": 465450,
+   "sha256": "59d5b951f3a3d5b83e6ddf284482965b6ac78865598e24bb5dca4fd6c7f36b61"
+  },
+  {
+   "file": "michigan-expansion.html",
+   "bytes": 207519,
+   "sha256": "7fd2214df5fe9b8bcb165570fe7f5a691b00932fa22b571fb93b3e77fa09da50"
+  },
+  {
+   "file": "michigan.html",
+   "bytes": 416180,
+   "sha256": "cbc3e5abbfc82a7d22dc7780447b7c5ad1f7e5cc88c26d1326ccc05b4b9fc184"
+  },
+  {
+   "file": "minnesota-expansion.html",
+   "bytes": 209059,
+   "sha256": "4d4ab78494b213d1c1afc30199aeb65faa49470601e760d77f2396ff15c4fc76"
+  },
+  {
+   "file": "minnesota.html",
+   "bytes": 371530,
+   "sha256": "8c6cf6d89d0fbc3f8f5e3c57c433c38ce9154843d654c648de7ccc8a9111556e"
+  },
+  {
+   "file": "missouri-expansion.html",
+   "bytes": 206807,
+   "sha256": "26b48c95c94c6d0e6113ddd0443faeeb1416aaf8a90d6bdcb1ecdf8d1aeaed54"
+  },
+  {
+   "file": "missouri.html",
+   "bytes": 370665,
+   "sha256": "9467d8b5e61fff48b765bbe60ddb4e17259cdfb4d9f48c858d3c05528e369aa9"
+  },
+  {
+   "file": "new-jersey-expansion.html",
+   "bytes": 203763,
+   "sha256": "6ae2edaa3bdef4f5f68ec3cc928119fdb07f2928a542730fe7ed543e5d3c700b"
+  },
+  {
+   "file": "new-jersey.html",
+   "bytes": 316705,
+   "sha256": "53329f6a33338308c4f6af6fc4961373570a15cfab3d79db31af621ffae4e041"
+  },
+  {
+   "file": "new-york-expansion.html",
+   "bytes": 211042,
+   "sha256": "141a4413294d638fb85216f6ea7ee615945f3594e8ec890c9576bd49d3f176bb"
+  },
+  {
+   "file": "new-york.html",
+   "bytes": 320408,
+   "sha256": "110d8505e397680750760055f99c9e1ccbe7ce5fb6e9a0373815171f2b9973f4"
+  },
+  {
+   "file": "north-carolina-expansion.html",
+   "bytes": 207497,
+   "sha256": "d10e1a0327f7b6d5df1a57f0917064c47a51a6cf1fe64b6f7f27967747ffebaa"
+  },
+  {
+   "file": "north-carolina.html",
+   "bytes": 468463,
+   "sha256": "4129473f4515e829ea422d06fb54e40023f4a470a97e38b568722110eb373c26"
+  },
+  {
+   "file": "ohio-expansion.html",
+   "bytes": 209170,
+   "sha256": "1aeb55d40c95055f495afce301198282c2abd41a821e7be735e47bec1b6db7c0"
+  },
+  {
+   "file": "ohio.html",
+   "bytes": 499789,
+   "sha256": "8c645e14a42ef9b9fb21d5c54979d3714ca669b368eae61dbee79cab9b2f1092"
+  },
+  {
+   "file": "oregon-expansion.html",
+   "bytes": 209635,
+   "sha256": "34292d215f4ef07e5d07c97a46965bd2a1c2ad51be72a0201b1fc1b6f583dba7"
+  },
+  {
+   "file": "oregon.html",
+   "bytes": 372202,
+   "sha256": "885e432014d3b49ad7d1ed698adfbb35fb73205f6d3faff2b5a0e09222b7ddb2"
+  },
+  {
+   "file": "pennsylvania-expansion.html",
+   "bytes": 213114,
+   "sha256": "533a4c28ce6be3c59cffe099ebff7cf5bdeba1d624d32cb9667fec478a933353"
+  },
+  {
+   "file": "pennsylvania.html",
+   "bytes": 413038,
+   "sha256": "0ab7eb68e1a898543117f29462c2e839a3d23bbe5d224049e5e3c78316bc9c25"
+  },
+  {
+   "file": "south-carolina-expansion.html",
+   "bytes": 214104,
+   "sha256": "a0db370de34aa2d60e9330d67d6120ca02d8ecce6f36a6debd3c508cb4916b27"
+  },
+  {
+   "file": "south-carolina.html",
+   "bytes": 314506,
+   "sha256": "f01243736afadb83257851f3e7e831ea19651d4d221718655af60f0f37761e23"
+  },
+  {
+   "file": "tennessee-expansion.html",
+   "bytes": 209798,
+   "sha256": "9491850740c529954e946a95dbd0505594a72870e2978f5d082c8967af8c30b2"
+  },
+  {
+   "file": "tennessee.html",
+   "bytes": 314517,
+   "sha256": "c6e912986c0b4d749c186ac7cf29e791e5852c63fbf7dd1269970037d9d0b341"
+  },
+  {
+   "file": "texas-expansion.html",
+   "bytes": 219826,
+   "sha256": "38b6a1be0cdaa0411f48fcebc7cd1b3ad7353b21cbc053ea01bc5f8caf1cad51"
+  },
+  {
+   "file": "texas.html",
+   "bytes": 420449,
+   "sha256": "a74f70b87fd7f8dc6ad12b733ac955019a99d305ebd21db726a6ae02d8406240"
+  },
+  {
+   "file": "utah-expansion.html",
+   "bytes": 209960,
+   "sha256": "4c2c8ec5bf4c58f1c3187f407b6cb57e5bb2f02dc17d68cfe6f80315f7e0c63d"
+  },
+  {
+   "file": "utah.html",
+   "bytes": 320481,
+   "sha256": "c57e8ce89ffecfc70d0a666cc2a3572505299e2c78c5bf8791d5daa2a1add55a"
+  },
+  {
+   "file": "virginia-expansion.html",
+   "bytes": 202087,
+   "sha256": "eb34aeaeaeba9a8f016bb52b58eff0ccbb2a564dd1a11e351051e671c02760b5"
+  },
+  {
+   "file": "virginia.html",
+   "bytes": 317789,
+   "sha256": "b9b3b9522098bbbe47a9a212b44f380770c6875a0e2fc2185b5babcc22c471de"
+  },
+  {
+   "file": "washington-expansion.html",
+   "bytes": 216966,
+   "sha256": "7c74ca5261ff12b4ffe13c646cff0702e01056b912980b0063dc99803e8e57cf"
+  },
+  {
+   "file": "washington.html",
+   "bytes": 403450,
+   "sha256": "cfd42dd209bb7342722a9ed8d78128d488b5347edb7816b9e73faef1925d20b8"
+  },
+  {
+   "file": "wisconsin-expansion.html",
+   "bytes": 206785,
+   "sha256": "63a5a3c1475b7404521db7ff15fcd7988e974367e48e82f87819ffdb7318cff4"
+  },
+  {
+   "file": "wisconsin.html",
+   "bytes": 324514,
+   "sha256": "b35e1224b76525af30abb0015c64fe3c53a2e032cc68ce06f672ef96f108133e"
   },
   {
    "file": "delivery-manifest.json",
    "note": "upload last"
   }
  ],
- "count": 10
+ "count": 101
 }
