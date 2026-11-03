@@ -1,0 +1,426 @@
+{
+ "reference": "florida.html",
+ "reference_columns": [
+  "#",
+  "Company",
+  "City",
+  "Tier",
+  "Status",
+  "Decision maker",
+  "Phone",
+  "Email",
+  "Address source",
+  "Links",
+  "Practice",
+  "Notes"
+ ],
+ "pages": [
+  {
+   "page": "arizona-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "arizona.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "california-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "california.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "chicago-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "chicago.html",
+   "columns": 12,
+   "deviations": [
+    "5 rows off the column count"
+   ]
+  },
+  {
+   "page": "colorado-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "colorado.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "florida-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "florida.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "georgia-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "georgia.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "illinois-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "illinois.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "indiana-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "indiana.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "iowa-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "iowa.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "kentucky-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "kentucky.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "las-vegas-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "las-vegas.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "michigan-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "michigan.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "minnesota-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "minnesota.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "missouri-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "missouri.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "new-jersey-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "new-jersey.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "new-york-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "new-york.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "north-carolina-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "north-carolina.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "ohio-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "ohio.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "oregon-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "oregon.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "pennsylvania-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "pennsylvania.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "south-carolina-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "south-carolina.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "tennessee-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "tennessee.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "texas-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "texas.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "utah-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "utah.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "virginia-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "virginia.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "washington-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "washington.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "wisconsin-expansion.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "wisconsin.html",
+   "columns": 12,
+   "deviations": []
+  },
+  {
+   "page": "console-arizona.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-california.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-chicago.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-colorado.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-florida.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-georgia.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-illinois.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-indiana.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-iowa.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-kentucky.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-las-vegas.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-michigan.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-minnesota.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-missouri.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-new-jersey.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-new-york.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-north-carolina.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-ohio.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-oregon.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-pennsylvania.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-south-carolina.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-tennessee.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-texas.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-utah.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-virginia.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-washington.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  },
+  {
+   "page": "console-wisconsin.html",
+   "kind": "console (queue shape kept by ruling)",
+   "deviations": []
+  }
+ ]
+}

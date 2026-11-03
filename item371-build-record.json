@@ -1,0 +1,315 @@
+{
+ "links": {
+  "site_strict": 31,
+  "find_site": 3327,
+  "owner_name": 1464,
+  "owner_city": 4027,
+  "owner_company_only": 36,
+  "company_city_search": 2303,
+  "linkedin_bing": 184,
+  "other": 0,
+  "rows": 7830
+ },
+ "links_against_item370_removals": {
+  "search_links_removed_by_370": 11372,
+  "restored_as_bing_or_named": 11372,
+  "of_which_owner_blind": 36,
+  "site_rows_flattened_by_370": 3327,
+  "site_now": {
+   "Site (row holds a matching domain)": 31,
+   "Find site (Bing, company + city)": 3327
+  }
+ },
+ "bing_relevance": "unverified by the builder (headless reader is a known-degraded case); verification is the Chair’s spot-check",
+ "practice": {
+  "routes_all_54_pages": {
+   "Private Equity": 137,
+   "Acquisitions": 140,
+   "None": 6137
+  },
+  "check": {
+   "florida.html": {
+    "rows": 150,
+    "agree": 148,
+    "derived": {
+     "None": 135,
+     "Acquisitions": 4,
+     "Private Equity": 11
+    },
+    "disagreements": [
+     [
+      "Cone DistributorsBeverage distribution ·",
+      "None",
+      "Acquisitions"
+     ],
+     [
+      "Lipman Family FarmsProduce grower/dist ·",
+      "Acquisitions",
+      "None"
+     ]
+    ]
+   },
+   "florida-expansion.html": {
+    "rows": 43,
+    "agree": 43,
+    "derived": {
+     "None": 41,
+     "Acquisitions": 2
+    },
+    "disagreements": []
+   }
+  },
+  "per_page": {
+   "florida.html": {
+    "None": 135,
+    "Acquisitions": 4,
+    "Private Equity": 11
+   },
+   "arizona-expansion.html": {
+    "None": 50
+   },
+   "arizona.html": {
+    "None": 187,
+    "Private Equity": 11,
+    "Acquisitions": 2
+   },
+   "california-expansion.html": {
+    "None": 18,
+    "Private Equity": 32
+   },
+   "california.html": {
+    "None": 109,
+    "Private Equity": 1,
+    "Acquisitions": 2
+   },
+   "chicago-expansion.html": {
+    "None": 50
+   },
+   "chicago.html": {
+    "None": 215,
+    "Private Equity": 5,
+    "Acquisitions": 18
+   },
+   "colorado-expansion.html": {
+    "None": 49,
+    "Private Equity": 1
+   },
+   "colorado.html": {
+    "None": 190,
+    "Private Equity": 9,
+    "Acquisitions": 1
+   },
+   "florida-expansion.html": {
+    "None": 41,
+    "Acquisitions": 2
+   },
+   "georgia-expansion.html": {
+    "Acquisitions": 2,
+    "None": 47,
+    "Private Equity": 1
+   },
+   "georgia.html": {
+    "Acquisitions": 11,
+    "None": 187,
+    "Private Equity": 2
+   },
+   "illinois-expansion.html": {
+    "None": 49,
+    "Private Equity": 1
+   },
+   "illinois.html": {
+    "None": 199,
+    "Private Equity": 1
+   },
+   "indiana-expansion.html": {
+    "None": 47,
+    "Private Equity": 3
+   },
+   "indiana.html": {
+    "None": 200
+   },
+   "iowa-expansion.html": {
+    "None": 48,
+    "Private Equity": 2
+   },
+   "iowa.html": {
+    "None": 200
+   },
+   "kentucky-expansion.html": {
+    "None": 26,
+    "Acquisitions": 24
+   },
+   "kentucky.html": {
+    "None": 200
+   },
+   "las-vegas-expansion.html": {
+    "None": 50
+   },
+   "las-vegas.html": {
+    "None": 198,
+    "Private Equity": 2
+   },
+   "michigan-expansion.html": {
+    "None": 49,
+    "Private Equity": 1
+   },
+   "michigan.html": {
+    "None": 137,
+    "Acquisitions": 11,
+    "Private Equity": 1
+   },
+   "minnesota-expansion.html": {
+    "None": 50
+   },
+   "minnesota.html": {
+    "None": 200
+   },
+   "missouri-expansion.html": {
+    "None": 49,
+    "Private Equity": 1
+   },
+   "missouri.html": {
+    "None": 199,
+    "Private Equity": 1
+   },
+   "new-jersey-expansion.html": {
+    "None": 49,
+    "Private Equity": 1
+   },
+   "new-jersey.html": {
+    "None": 200
+   },
+   "new-york-expansion.html": {
+    "None": 50
+   },
+   "new-york.html": {
+    "Acquisitions": 8,
+    "None": 117,
+    "Private Equity": 1
+   },
+   "north-carolina-expansion.html": {
+    "None": 45,
+    "Acquisitions": 2,
+    "Private Equity": 3
+   },
+   "north-carolina.html": {
+    "None": 176,
+    "Acquisitions": 17,
+    "Private Equity": 7
+   },
+   "ohio-expansion.html": {
+    "Private Equity": 1,
+    "None": 49
+   },
+   "ohio.html": {
+    "None": 182,
+    "Acquisitions": 15,
+    "Private Equity": 3
+   },
+   "oregon-expansion.html": {
+    "None": 50
+   },
+   "oregon.html": {
+    "None": 198,
+    "Private Equity": 2
+   },
+   "pennsylvania-expansion.html": {
+    "None": 50
+   },
+   "pennsylvania.html": {
+    "None": 145,
+    "Acquisitions": 7,
+    "Private Equity": 6
+   },
+   "south-carolina-expansion.html": {
+    "None": 48,
+    "Private Equity": 2
+   },
+   "south-carolina.html": {
+    "None": 199,
+    "Private Equity": 1
+   },
+   "tennessee-expansion.html": {
+    "None": 49,
+    "Private Equity": 1
+   },
+   "tennessee.html": {
+    "None": 200
+   },
+   "texas-expansion.html": {
+    "None": 50
+   },
+   "texas.html": {
+    "None": 121,
+    "Acquisitions": 11,
+    "Private Equity": 6
+   },
+   "utah-expansion.html": {
+    "None": 49,
+    "Private Equity": 1
+   },
+   "utah.html": {
+    "None": 198,
+    "Private Equity": 2
+   },
+   "virginia-expansion.html": {
+    "None": 50
+   },
+   "virginia.html": {
+    "None": 200
+   },
+   "washington-expansion.html": {
+    "None": 50
+   },
+   "washington.html": {
+    "None": 186,
+    "Private Equity": 11,
+    "Acquisitions": 3
+   },
+   "wisconsin-expansion.html": {
+    "None": 47,
+    "Private Equity": 3
+   },
+   "wisconsin.html": {
+    "None": 200
+   }
+  }
+ },
+ "chicago_cells_without_a_column": [
+  {
+   "page": "chicago.html",
+   "cells": 12,
+   "header": 11,
+   "row": "SC JohnsonManufacturing &amp; Industrial",
+   "extra_cell": "262-260-2000"
+  },
+  {
+   "page": "chicago.html",
+   "cells": 12,
+   "header": 11,
+   "row": "Pepper ConstructionConstruction &amp; Specialty Trades",
+   "extra_cell": "312-266-4700"
+  },
+  {
+   "page": "chicago.html",
+   "cells": 12,
+   "header": 11,
+   "row": "Power ConstructionConstruction &amp; Specialty Trades",
+   "extra_cell": "773-693-6000"
+  },
+  {
+   "page": "chicago.html",
+   "cells": 12,
+   "header": 11,
+   "row": "Bulley &amp; AndrewsConstruction &amp; Specialty Trades",
+   "extra_cell": "773-235-2433"
+  },
+  {
+   "page": "chicago.html",
+   "cells": 12,
+   "header": 11,
+   "row": "Leopardo CompaniesConstruction &amp; Specialty Trades",
+   "extra_cell": "847-783-3000"
+  }
+ ]
+}

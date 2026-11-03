@@ -1,0 +1,183 @@
+[
+ {
+  "page": "florida.html",
+  "steps": [
+   {
+    "step": "composer opens populated",
+    "ok": true,
+    "detail": "{\"to\": \"sales@invictawatch.com\", \"sub\": \"Florida, you\\u2019re up next \\u2014 DashRite Advisory\", \"body\": \"Hi Eyal,\\n\\nI\\u2019m writing to you as President/CEO (owner, Lalo family) at Invicta Watch Group. For an owner-led distribution business in Hollywood, the first look u\", \"blind\": \"\", \"grDis\": false, \"gDis\": false}"
+   },
+   {
+    "step": "opening line from ground/city/title present",
+    "ok": true,
+    "detail": "I\u2019m writing to you as President/CEO (owner, Lalo family) at Invicta Watch Group. For an owner-led distribution business in Hollywood, the first look usually lands on the margin that hides between land"
+   },
+   {
+    "step": "tick inserts its own sentence; untick removes exactly it; manual edit survives",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Copy rich: named link, hosted logo, bold signature (Edward Edick)",
+    "ok": true,
+    "detail": "r><b><a href=\"mailto:EEdick@dashriteadvisory.com\">EEdick@dashriteadvisory.com</a> \u00b7 dashriteadvisory.com</b><br><b>R-espect \u00b7 I-ntegrity \u00b7 T-eamwork \u00b7 E-xcellence - The Dash starts now!</b><br><b>TEST POSTAL LINE</b><br><b>To stop these messages, reply STOP \u2014 honoured at once and recorded.</b></div>"
+   },
+   {
+    "step": "Copy subject",
+    "ok": true,
+    "detail": "Florida, you\u2019re up next \u2014 DashRite Advisory"
+   },
+   {
+    "step": "Copy To",
+    "ok": true,
+    "detail": "sales@invictawatch.com"
+   },
+   {
+    "step": "Open in Outlook (rich) -> mailto with To and Subject",
+    "ok": true,
+    "detail": "mailto:sales%40invictawatch.com?subject=Florida%2C%20you%E2%80%99re%20up%20next%20%E2%80%94%20DashRite%20Advisory"
+   },
+   {
+    "step": "Open in Outlook web -> outlook.office.com deeplink compose",
+    "ok": true,
+    "detail": "POPUP https://outlook.office.com/mail/deeplink/compose?to=sales%40invictawatch.com&subject=Florida%2C%20you%E2%80%99re%20up%20next%20%E2%80%94%20DashRite%20Advisory&body=Hi%20there%20again%2C%20Eyal%2C%0A%0AI%E2%80%99m%2"
+   },
+   {
+    "step": "Open (plain) -> mailto with body",
+    "ok": true,
+    "detail": "mailto:sales%40invictawatch.com?subject=Florida%2C%20you%E2%80%99re%20up%20next%20%E2%80%94%20DashRite%20Advisory&body=Hi%20there%20again%2C%20Eyal%2C%0A%0AI%E2"
+   },
+   {
+    "step": "send controls in ruled order",
+    "ok": true,
+    "detail": "drGR,drOW,drR,drC,drSj,drTo2,drG,drX"
+   },
+   {
+    "step": "touch logged once; persists over reload; touch 2 due day 3",
+    "ok": true,
+    "detail": "{\"stage\": \"Attempted\", \"seq\": \"Touch 2 of 6 \\u00b7 A second angle \\u00b7 email \\u00b7 due 2026-11-06\", \"next\": \"2026-11-06\"}"
+   },
+   {
+    "step": "disposition + note + timestamp persist over reload; sequence stops; queue + operator panel present",
+    "ok": true,
+    "detail": "{\"stage\": \"Meeting\", \"note\": \"call booked Thu\", \"at\": \"updated 2026-11-03 18:42 UTC\", \"seq\": \"Sequence stopped \\u2014 Meeting\", \"q\": \"Calls due today: 0Emails due today: 0Follow-ups overdue: 0Rows missing contact data (no phone, no address): 60 of 150showBlueGrace LogisticsIMG CitrusSedano's SupermarketsCity FurnitureCoca-Cola Beverages FloridaBoar's H\", \"ops\": true}"
+   }
+  ],
+  "company": "Invicta Watch Group",
+  "errors": []
+ },
+ {
+  "page": "north-carolina-expansion.html",
+  "steps": [
+   {
+    "step": "composer opens populated",
+    "ok": true,
+    "detail": "{\"to\": \"Sales@BoneSuckin.com\", \"sub\": \"North Carolina, you\\u2019re up next \\u2014 DashRite Advisory\", \"body\": \"Hi Patrick,\\n\\nFor an owner-led food and beverage business in Raleigh, the first look usually lands on yield, batch cost and the margin that hides in the line.\\n\\nN\", \"blind\": \"\", \"grDis\": false, \"gDis\": false}"
+   },
+   {
+    "step": "opening line from ground/city/title present",
+    "ok": true,
+    "detail": "For an owner-led food and beverage business in Raleigh, the first look usually lands on yield, batch cost and the margin that hides in the line."
+   },
+   {
+    "step": "tick inserts its own sentence; untick removes exactly it; manual edit survives",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Copy rich: named link, hosted logo, bold signature (Timothy A. Edick)",
+    "ok": true,
+    "detail": "r><b><a href=\"mailto:TEdick@dashriteadvisory.com\">TEdick@dashriteadvisory.com</a> \u00b7 dashriteadvisory.com</b><br><b>R-espect \u00b7 I-ntegrity \u00b7 T-eamwork \u00b7 E-xcellence - The Dash starts now!</b><br><b>TEST POSTAL LINE</b><br><b>To stop these messages, reply STOP \u2014 honoured at once and recorded.</b></div>"
+   },
+   {
+    "step": "Copy subject",
+    "ok": true,
+    "detail": "North Carolina, you\u2019re up next \u2014 DashRite Advisory"
+   },
+   {
+    "step": "Copy To",
+    "ok": true,
+    "detail": "Sales@BoneSuckin.com"
+   },
+   {
+    "step": "Open in Outlook (rich) -> mailto with To and Subject",
+    "ok": true,
+    "detail": "mailto:Sales%40BoneSuckin.com?subject=North%20Carolina%2C%20you%E2%80%99re%20up%20next%20%E2%80%94%20DashRite%20Advisory"
+   },
+   {
+    "step": "Open in Outlook web -> outlook.office.com deeplink compose",
+    "ok": true,
+    "detail": "POPUP https://outlook.office.com/mail/deeplink/compose?to=Sales%40BoneSuckin.com&subject=North%20Carolina%2C%20you%E2%80%99re%20up%20next%20%E2%80%94%20DashRite%20Advisory&body=Hi%20there%20again%2C%20Patrick%2C%0A%0AFor"
+   },
+   {
+    "step": "Open (plain) -> mailto with body",
+    "ok": true,
+    "detail": "mailto:Sales%40BoneSuckin.com?subject=North%20Carolina%2C%20you%E2%80%99re%20up%20next%20%E2%80%94%20DashRite%20Advisory&body=Hi%20there%20again%2C%20Patrick%2C"
+   },
+   {
+    "step": "send controls in ruled order",
+    "ok": true,
+    "detail": "drGR,drOW,drR,drC,drSj,drTo2,drG,drX"
+   },
+   {
+    "step": "touch logged once; persists over reload; touch 2 due day 3",
+    "ok": true,
+    "detail": "{\"stage\": \"Attempted\", \"seq\": \"Touch 2 of 6 \\u00b7 A second angle \\u00b7 email \\u00b7 due 2026-11-06\", \"next\": \"2026-11-06\"}"
+   },
+   {
+    "step": "disposition + note + timestamp persist over reload; sequence stops; queue + operator panel present",
+    "ok": true,
+    "detail": "{\"stage\": \"Meeting\", \"note\": \"call booked Thu\", \"at\": \"updated 2026-11-03 18:42 UTC\", \"seq\": \"Sequence stopped \\u2014 Meeting\", \"q\": \"Calls due today: 0Emails due today: 0Follow-ups overdue: 0Rows missing contact data (no phone, no address): 32 of 50showNeese's Country SausageSouthern Produce DistributorsE.J. VictorSalem OnePrestage FarmsGolding Farms \", \"ops\": true}"
+   }
+  ],
+  "company": "Ford's Foods (Bone Suckin' Sauce)",
+  "errors": []
+ },
+ {
+  "page": "arizona.html",
+  "steps": [
+   {
+    "step": "composer opens populated",
+    "ok": true,
+    "detail": "{\"to\": \"\", \"sub\": \"Arizona, you\\u2019re up next \\u2014 DashRite Advisory\", \"body\": \"Hi there,\\n\\nFor an owner-led distribution business in Phoenix, the first look usually lands on the margin that hides between landed cost and the price list \\u2014 inv\", \"blind\": \"No address on file \\u2014 collect it on the call and type it into To; no address is ever constructed. The Outlook and Open buttons work once To holds an address.\", \"grDis\": true, \"gDis\": true}"
+   },
+   {
+    "step": "no address: To empty, collected on the call; send buttons disabled",
+    "ok": true,
+    "detail": "No address on file \u2014 collect it on the call and type it into To; no address is ever constructed. The Outlook and Open buttons work once To holds an address."
+   },
+   {
+    "step": "opening line from ground/city/title present",
+    "ok": true,
+    "detail": "For an owner-led distribution business in Phoenix, the first look usually lands on the margin that hides between landed cost and the price list \u2014 inventory ordering, carrying cost and quote discipline"
+   },
+   {
+    "step": "tick inserts its own sentence; untick removes exactly it; manual edit survives",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Copy rich: named link, hosted logo, bold signature (Timothy A. Edick)",
+    "ok": true,
+    "detail": "r><b><a href=\"mailto:TEdick@dashriteadvisory.com\">TEdick@dashriteadvisory.com</a> \u00b7 dashriteadvisory.com</b><br><b>R-espect \u00b7 I-ntegrity \u00b7 T-eamwork \u00b7 E-xcellence - The Dash starts now!</b><br><b>TEST POSTAL LINE</b><br><b>To stop these messages, reply STOP \u2014 honoured at once and recorded.</b></div>"
+   },
+   {
+    "step": "Copy subject",
+    "ok": true,
+    "detail": "Arizona, you\u2019re up next \u2014 DashRite Advisory"
+   },
+   {
+    "step": "Copy To",
+    "ok": true,
+    "detail": "Arizona, you\u2019re up next \u2014 DashRite Advisory"
+   },
+   {
+    "step": "disposition + note + timestamp persist over reload; sequence stops; queue + operator panel present",
+    "ok": true,
+    "detail": "{\"stage\": \"Meeting\", \"note\": \"call booked Thu\", \"at\": \"updated 2026-11-03 18:42 UTC\", \"seq\": \"Sequence stopped \\u2014 Meeting\", \"q\": \"Calls due today: 0Emails due today: 0Follow-ups overdue: 0Rows missing contact data (no phone, no address): 147 of 200showStreets of New YorkTalis ConstructionMesa DistributingRio Vista DistributingFired PieCachet HomesR\", \"ops\": true}"
+   }
+  ],
+  "company": "Shamrock Foods",
+  "errors": []
+ }
+]

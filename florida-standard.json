@@ -10063,5 +10063,49 @@
    ],
    "note": "do not relist"
   }
- ]
+ ],
+ "practice_derivation": {
+  "derived": "2026-11-03",
+  "statement": "Practice is derived 3 November 2026 by a rule set rebuilt from Florida's routed cells; the original derivation was never committed and cannot be re-run. The rule set was fitted to Florida, so Florida's own agreement is weak evidence. The independent reading is florida-expansion: 42 of 43 before the 'for sale' addition.",
+  "rules": {
+   "order": [
+    "Private Equity",
+    "Acquisitions",
+    "Fractionals"
+   ],
+   "Private Equity": "private[\\s-]equity|portfolio compan|backed by|sponsor|recapitali[sz]|PE-backed",
+   "Acquisitions": "succession|retire|for sale",
+   "Fractionals": "(hiring|seeking|searching for|vacan\\w*|open role|recruiting)\\W+(\\w+\\W+){0,3}(CFO|controller|COO|finance director)|interim (CFO|COO|controller)",
+   "negation": "a match is skipped when the 25 characters before it contain one of the words no, not, without, nor, neither with no '.', ';', ':' or '|' between that word and the match",
+   "quote_window": "40 characters before the first counted match to 60 characters after its start, from the row text with tags removed and whitespace collapsed",
+   "text": "every cell of the row except the Practice cell itself",
+   "case": "case-insensitive",
+   "first_match_wins": "routes are tried in the order Private Equity, Acquisitions, Fractionals; the first route with a counted match is the result"
+  },
+  "checks": {
+   "florida.html": {
+    "rows": 150,
+    "agree_with_29_october_cells": 148,
+    "disagreements": [
+     [
+      "Cone DistributorsBeverage distribution ·",
+      "None",
+      "Acquisitions"
+     ],
+     [
+      "Lipman Family FarmsProduce grower/dist ·",
+      "Acquisitions",
+      "None"
+     ]
+    ],
+    "note": "the two disagreeing rows take the derived reading (Chair ruling, Item 371)"
+   },
+   "florida-expansion.html": {
+    "rows": 43,
+    "agree_before_for_sale": 42,
+    "agree_after_for_sale": 43
+   }
+  },
+  "standing": "No further tuning. If a later page disagrees, the disagreement is recorded, not engineered away. The next session re-runs these rules; it does not refit them."
+ }
 }
