@@ -60,7 +60,7 @@
    {
     "step": "disposition + note + timestamp persist over reload; sequence stops; queue + operator panel present",
     "ok": true,
-    "detail": "{\"stage\": \"Meeting\", \"note\": \"call booked Thu\", \"at\": \"updated 2026-11-03 18:42 UTC\", \"seq\": \"Sequence stopped \\u2014 Meeting\", \"q\": \"Calls due today: 0Emails due today: 0Follow-ups overdue: 0Rows missing contact data (no phone, no address): 60 of 150showBlueGrace LogisticsIMG CitrusSedano's SupermarketsCity FurnitureCoca-Cola Beverages FloridaBoar's H\", \"ops\": true}"
+    "detail": "{\"stage\": \"Meeting\", \"note\": \"call booked Thu\", \"at\": \"updated 2026-11-03 19:18 UTC\", \"seq\": \"Sequence stopped \\u2014 Meeting\", \"q\": \"Calls due today: 0Emails due today: 0Follow-ups overdue: 0Rows missing contact data (no phone, no address): 60 of 150showBlueGrace LogisticsIMG CitrusSedano's SupermarketsCity FurnitureCoca-Cola Beverages FloridaBoar's H\", \"ops\": true}"
    }
   ],
   "company": "Invicta Watch Group",
@@ -127,7 +127,7 @@
    {
     "step": "disposition + note + timestamp persist over reload; sequence stops; queue + operator panel present",
     "ok": true,
-    "detail": "{\"stage\": \"Meeting\", \"note\": \"call booked Thu\", \"at\": \"updated 2026-11-03 18:42 UTC\", \"seq\": \"Sequence stopped \\u2014 Meeting\", \"q\": \"Calls due today: 0Emails due today: 0Follow-ups overdue: 0Rows missing contact data (no phone, no address): 32 of 50showNeese's Country SausageSouthern Produce DistributorsE.J. VictorSalem OnePrestage FarmsGolding Farms \", \"ops\": true}"
+    "detail": "{\"stage\": \"Meeting\", \"note\": \"call booked Thu\", \"at\": \"updated 2026-11-03 19:18 UTC\", \"seq\": \"Sequence stopped \\u2014 Meeting\", \"q\": \"Calls due today: 0Emails due today: 0Follow-ups overdue: 0Rows missing contact data (no phone, no address): 32 of 50showNeese's Country SausageSouthern Produce DistributorsE.J. VictorSalem OnePrestage FarmsGolding Farms \", \"ops\": true}"
    }
   ],
   "company": "Ford's Foods (Bone Suckin' Sauce)",
@@ -174,7 +174,7 @@
    {
     "step": "disposition + note + timestamp persist over reload; sequence stops; queue + operator panel present",
     "ok": true,
-    "detail": "{\"stage\": \"Meeting\", \"note\": \"call booked Thu\", \"at\": \"updated 2026-11-03 18:42 UTC\", \"seq\": \"Sequence stopped \\u2014 Meeting\", \"q\": \"Calls due today: 0Emails due today: 0Follow-ups overdue: 0Rows missing contact data (no phone, no address): 147 of 200showStreets of New YorkTalis ConstructionMesa DistributingRio Vista DistributingFired PieCachet HomesR\", \"ops\": true}"
+    "detail": "{\"stage\": \"Meeting\", \"note\": \"call booked Thu\", \"at\": \"updated 2026-11-03 19:18 UTC\", \"seq\": \"Sequence stopped \\u2014 Meeting\", \"q\": \"Calls due today: 0Emails due today: 0Follow-ups overdue: 0Rows missing contact data (no phone, no address): 147 of 200showStreets of New YorkTalis ConstructionMesa DistributingRio Vista DistributingFired PieCachet HomesR\", \"ops\": true}"
    }
   ],
   "company": "Shamrock Foods",

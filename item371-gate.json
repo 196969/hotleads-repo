@@ -1,8 +1,8 @@
 {
- "head": "056f4312e64b8c6439d3eaab1f400a3ea3d7d592",
+ "head": "72df625870cc669d0191ed16cc7ad7c8e0b7976c",
  "method": "raw (pinned to head) plus fresh clone; per file length, git blob, SHA-256",
- "files": 621,
- "agree": 621,
+ "files": 629,
+ "agree": 629,
  "per_file": {
   "Core-BD-Report-Florida.docx": {
    "agree": true,
@@ -84,15 +84,15 @@
   },
   "arizona-archive.html": {
    "agree": true,
-   "len": 30968,
-   "blob": "7ce1176f425477ff8bea8cb41707472f1c9eaa1d",
-   "sha256": "e1ffa4847bc997f77e470381b600026048cddf2340a7daef39a7a465d187d0d0"
+   "len": 30872,
+   "blob": "ab1daa644f04d60d8f226f10737c7577fbfe7aa2",
+   "sha256": "f2321b7aad862a404edd0972d5cc9d1b0292a2c7a73c4a2750a8a21ec40e0b92"
   },
   "arizona-expansion.html": {
    "agree": true,
-   "len": 183009,
-   "blob": "a4c468a46d464a28444b7c90f0737fdd31e63bbb",
-   "sha256": "eea24ef32ef189679ab5be11f8e49608d41c9f264c4c4e85200cd250a51e530f"
+   "len": 217741,
+   "blob": "1fd1a744db4ea19543a42249453ecf3940008996",
+   "sha256": "03ad6b23de83d78ce9ddcb3015166c5649e2a7e016da65cf5d058fbf3b38d12f"
   },
   "arizona-outreach.json": {
    "agree": true,
@@ -102,9 +102,9 @@
   },
   "arizona.html": {
    "agree": true,
-   "len": 322189,
-   "blob": "6140b2465e0c29fc603b2fd2ad9b5b8d35d6ed52",
-   "sha256": "2c0bc2707c4fd24d566f1a4fe39695d23b53434ad6ff6110db48666fc8b107c1"
+   "len": 412112,
+   "blob": "96da019c894fcc439836e17140c0cbdf86ad0962",
+   "sha256": "cdab4a9657f966838f433d29d8adae7350938a8f2c4309d2555a794521da22a8"
   },
   "audit.py": {
    "agree": true,
@@ -216,15 +216,15 @@
   },
   "california-archive.html": {
    "agree": true,
-   "len": 92749,
-   "blob": "fea24e19e85396833a5dde5f909940d82e625b5d",
-   "sha256": "f018ca165c923f6ee07a5df879c004824c334d26d270376395fc804dc479b3cf"
+   "len": 107679,
+   "blob": "321fdbe43af0a9579f24300e4e00c280269679e2",
+   "sha256": "fc0e98d2be34ff6a7b2396a5ddf3f614a7c09985d078f02bf890ebb76835d467"
   },
   "california-expansion.html": {
    "agree": true,
-   "len": 180303,
-   "blob": "17a75241b6ff7515c53dbb67da577e8fd63d1fe6",
-   "sha256": "4e0de90ca88be0680941ff1823106d1560daa06512b5df17bb799ae6bc5a2054"
+   "len": 224283,
+   "blob": "d057d1d27a8d533afae2d48c37f7fe1b7abc5ea0",
+   "sha256": "8ecd043d90ba9eda45bc7c7878c44ce691795e5bd4c8d133f9003d6dfe9b749d"
   },
   "california-outreach.json": {
    "agree": true,
@@ -234,9 +234,9 @@
   },
   "california.html": {
    "agree": true,
-   "len": 230540,
-   "blob": "cd825cbd7b50fb03f9c74f6f2494836eec9f8346",
-   "sha256": "b0b996a2d127b7f5ece486bec28279626ff1cf22841bfc6fbce9627e4e9401bd"
+   "len": 291389,
+   "blob": "fc57f9f066d0d5a4c80b2c7465562a83d0789eb5",
+   "sha256": "dd4d5ab96c558793c1c980464b12ce70f9e0d5c34ed01504069ededbb295806a"
   },
   "census-live.json": {
    "agree": true,
@@ -300,15 +300,15 @@
   },
   "chicago-archive.html": {
    "agree": true,
-   "len": 31105,
-   "blob": "911c64cc187a823dbc74dc79855f2cb67456ff0d",
-   "sha256": "a185ed331835e988dd8893bb91b0a0adffa154c862d465d619fc19f468d1205a"
+   "len": 31009,
+   "blob": "23b81582677166c719af1cae6a028c4559c255f5",
+   "sha256": "235c0d1806354dc523a6c17f80bbde04be95fd110c48deea766fab57950edb47"
   },
   "chicago-expansion.html": {
    "agree": true,
-   "len": 177391,
-   "blob": "31d6eee7f648c75e529d6b7d26227d76f2272308",
-   "sha256": "839625dcefa1a460c6e1d5abbe0e993fd42a08f56f0bd4890f157a67eee4bbeb"
+   "len": 212123,
+   "blob": "92229a058a9561af1ee6cacdb166dc989eec0e2f",
+   "sha256": "8828941697c4ab1c9ffbcb11b3a2940a9f09295cda4e1575b9cd746555c9773d"
   },
   "chicago-illinois-run1-log.jsonl": {
    "agree": true,
@@ -324,9 +324,9 @@
   },
   "chicago.html": {
    "agree": true,
-   "len": 445869,
-   "blob": "e2550686e91556ab3db2ec9e1ea42fdd274c432d",
-   "sha256": "73f31f2f77191cdf9cb03bfd3f97e7560cb649d6d81ce6e213e4771408ac931c"
+   "len": 543810,
+   "blob": "763c36d2376a5f0764561da333904d01b80ad16c",
+   "sha256": "ff3a3cdbc642eb3d92b737dad9231efe5a5c09200283ae0c47763ed4619a3704"
   },
   "close-manifest-sha256.json": {
    "agree": true,
@@ -336,15 +336,15 @@
   },
   "colorado-archive.html": {
    "agree": true,
-   "len": 31028,
-   "blob": "820f2436d29a7c3a4665ec0b2dbc656f1ac25ca9",
-   "sha256": "1fc2251a8e0c0d572795399360fb756b88c95fe9e77f1356c9a90e29c9214f01"
+   "len": 30932,
+   "blob": "ff734be752047235c4c24802831dd920d7a854e0",
+   "sha256": "82d92c65236b3c0c938b860c8d5eda2af7281cb3c077bcd9d0c34de61281b4a1"
   },
   "colorado-expansion.html": {
    "agree": true,
-   "len": 184563,
-   "blob": "59d638e411c893e948c78c5ab3aec941853e0e31",
-   "sha256": "52c15c2cc3030c8862f1880bdbfb85bc812103b67f5125b7b0678e882a43c578"
+   "len": 219594,
+   "blob": "fb829911fbce5e447d3bdfb6015d9beff19aa4a5",
+   "sha256": "82c68a72b5f2403a1ccef0fc0d3c85b5f694862b0fe2e6ed65618a445fb80c3a"
   },
   "colorado-outreach.json": {
    "agree": true,
@@ -354,9 +354,9 @@
   },
   "colorado.html": {
    "agree": true,
-   "len": 312355,
-   "blob": "dc1a8933a33642999e4f44ba9783c82be23f845b",
-   "sha256": "225aefaca4cad6814220497540073eb216a1d296168d80d084d36ef278d03a47"
+   "len": 402133,
+   "blob": "e705fad3f2375adefa69da0dbe1d6b032153040b",
+   "sha256": "e7e3eadc7a875a4e999be8ee568cb8e22e62412c594be7a362b227746dba7c51"
   },
   "companion.html": {
    "agree": true,
@@ -378,165 +378,165 @@
   },
   "console-arizona.html": {
    "agree": true,
-   "len": 58771,
-   "blob": "72f8408e6673beac161e1dad231add1479500d97",
-   "sha256": "8472e22e2ae62e206f6e0dedacf1047cc89a51c50f37a28069128bfce50c7118"
+   "len": 92621,
+   "blob": "8dc1a95cf35616256e2eda293109419c58f4e766",
+   "sha256": "dc6d23a2267cfe03bf34a7231cb7b72cb1c31e6e1f5597729d650058319f1553"
   },
   "console-california.html": {
    "agree": true,
-   "len": 58780,
-   "blob": "b12202b46e71fd5dc5554fe6e3b064fa892b1e0c",
-   "sha256": "548551d58ca89917c368dfa7dfcfe4c1940f90eea65fbc2547933cb44b915817"
+   "len": 92630,
+   "blob": "061a9f73472b956f5a7b34b99cfd6fcca5e703bf",
+   "sha256": "e2630926bb23f3a53e85a4a98cb653f9082292b35d75dee273957b7f86dec139"
   },
   "console-chicago.html": {
    "agree": true,
-   "len": 58771,
-   "blob": "1b2d837beb9c88437907eff865a1aeb8b8d2c0ff",
-   "sha256": "7efc7a7a16ea974c28f1b3ed0a0b42ce12e62d501330d4ffa589f18b04072481"
+   "len": 92621,
+   "blob": "9d3419f9a808cae271326ef94b03f67d7756f42d",
+   "sha256": "3493765d4db8490c2d050ea3eb53492dc3b2e8bd0aca99bedd85055daee1d4ee"
   },
   "console-colorado.html": {
    "agree": true,
-   "len": 58774,
-   "blob": "93af4c909a0f96578d32cf56c84063da8c65f50e",
-   "sha256": "a6dfba9c136b09ce101568592aae484ffcbe36ff678bd2124d344dfd990fbe17"
+   "len": 92624,
+   "blob": "9b0bccc78f74053ef17cac77e95068ece4a14aaf",
+   "sha256": "25abba5364df11181fa287c319318027b280815c9c59d5e1aad90513e5110a94"
   },
   "console-florida.html": {
    "agree": true,
-   "len": 58690,
-   "blob": "f0f7cc3a0f84df20d57818308e046f501a429eae",
-   "sha256": "acdf03c4613385e782593c1a7b5e0cea774d9c0adb1ca46a09538ebd584ffe74"
+   "len": 92540,
+   "blob": "1dac19b94d21efdfdb10a0f2cb0a58cfc5eb217e",
+   "sha256": "9bdf32ed1963b9548c70de18f9d76178b0a5fb7099b5f110784635fe52fb2c80"
   },
   "console-georgia.html": {
    "agree": true,
-   "len": 58771,
-   "blob": "4050ff18b9b19259ca1fb7a140161dcd76668cf4",
-   "sha256": "008b8202e45454347d4161caa3eab150b0d94e80ee21ba41eeb6615ea30bdf1c"
+   "len": 92621,
+   "blob": "f2254034a136b7bd8ea09727002395ff80b5c0d4",
+   "sha256": "36471aed345f1d4a1873e95b6af30d0a1371c8dc826792ffecea4380e320c960"
   },
   "console-illinois.html": {
    "agree": true,
-   "len": 58774,
-   "blob": "f62847c2d2227b4e4ea06d016e2741d8073d0de5",
-   "sha256": "3e40139e17d4768eef250061f13ae8466d65b1fd5465a8e8dc64747067a7a648"
+   "len": 92624,
+   "blob": "6b6634c1c56eca8edab4f842aa9d5facd72b900f",
+   "sha256": "9d2ce875995856ebd73793e1543fbeb277a793849db73399c733d8f655b226fe"
   },
   "console-indiana.html": {
    "agree": true,
-   "len": 58771,
-   "blob": "e9b3b5b1230725c503d35c3741c67a384283c6ff",
-   "sha256": "724848dc997c5d1d7bce4f75dba1031dda450b8cbf4d66dd4cd9f4ec021f4b02"
+   "len": 92621,
+   "blob": "64d6530b6e6f02d65d310e66c186dc0a2070fb45",
+   "sha256": "4277a254a73ce2eb1bb6167098b3a86ab63e7fdee509b3c185a40283af01eb27"
   },
   "console-iowa.html": {
    "agree": true,
-   "len": 58762,
-   "blob": "1c0c134a6c7d831515d718476ba668c223352fa4",
-   "sha256": "f79f7305eb3f8aeab573bd4d42bd3346b1a0e796ef0d5d12f5438fca136ff2da"
+   "len": 92612,
+   "blob": "dab2d9d6f19f570ac93d3d65d91ddbd434025917",
+   "sha256": "691ed3d8e46858236251438520eb10ca7db6b83fd8e77579841044595c987aa7"
   },
   "console-kentucky.html": {
    "agree": true,
-   "len": 58774,
-   "blob": "e67d0db7d3b4b7de539a7c59649b0e13e96f63f6",
-   "sha256": "b1255bb8d25c57de94145abdd4e814d73ea95c4255b88fa4b3ee40f15d15b790"
+   "len": 92624,
+   "blob": "c8e75b78738d097cb2ac03b9999fb6b0d5de2382",
+   "sha256": "f25c07db249627de4043551d92b531feb0405e3d7edc230fdf67943a68c5eb11"
   },
   "console-las-vegas.html": {
    "agree": true,
-   "len": 58777,
-   "blob": "1147b4f6797486406b82f0ffb23f9253826fbba7",
-   "sha256": "60a7cc6b0112a47bd2e9dd55a40b5408cf0303ed419d68e08e48d54974568057"
+   "len": 92627,
+   "blob": "67f936043dff0a48cba4a2e3ad604d52402069f5",
+   "sha256": "1d4c8c2f1aa86271c495e914f9656e5f553a5ecac522da189a9379eee3a0fcf6"
   },
   "console-michigan.html": {
    "agree": true,
-   "len": 58774,
-   "blob": "2841a2a1d787edd08212828fcb9ec4c29fc51360",
-   "sha256": "aac818ec12177dd25373fd5846b39951d4d5be2efbff49e2d03afa044667c6df"
+   "len": 92624,
+   "blob": "c3e41c0499bcfbf7cd254ed711f3aa8dda05ba01",
+   "sha256": "ccb64a288d26534eed0f15e0705c37fb4720309b2c093a6e4ede73fcf900d1ef"
   },
   "console-minnesota.html": {
    "agree": true,
-   "len": 58777,
-   "blob": "14932d55b798b1c0da89818e8c632d221104ffa7",
-   "sha256": "fcca3d38fa8104b3f7d2c63208e82b87cb0467855261fabd4e811a99283cf83a"
+   "len": 92627,
+   "blob": "14dbd17402586e2d04ccf1882f82c6de9d7cd92f",
+   "sha256": "e2fe562e6985295e6d0de898431077aedc4a65aedf9e487e4065538b5443fe59"
   },
   "console-missouri.html": {
    "agree": true,
-   "len": 58774,
-   "blob": "e3e966809047faac6c41f714851fa086385e1a81",
-   "sha256": "0f40193e04374c453eafe987e1099a23271b55ac2ce5a94565fd5004d5fba75e"
+   "len": 92624,
+   "blob": "53d3e843fee7ba873922e31048e97f249de83087",
+   "sha256": "d201a5bc1c4543e353a20f7504dea21b117f626aa9cc08197fb4eafbab8df6a8"
   },
   "console-new-jersey.html": {
    "agree": true,
-   "len": 58780,
-   "blob": "ecbd229889a47fcab35282cb6adec77c9ac8d0fc",
-   "sha256": "916d5cfdb74733edb6d02c8c727c80b5d4d345a2621050fcc8e688f75834e556"
+   "len": 92630,
+   "blob": "b610fa2887d79dfa51a42b6a2220a19e6b8cbee8",
+   "sha256": "aefee340c88bd6b3a5d476e7958b4a65d39aa248e08f7330edfd283be01c93b9"
   },
   "console-new-york.html": {
    "agree": true,
-   "len": 58774,
-   "blob": "f7695abc091a7c25396465c24f12f870e419bf76",
-   "sha256": "f2296b01e38784b2f8db1e595efaeeed342ce9dcb3c4531744d1c37cece0bfaa"
+   "len": 92624,
+   "blob": "3feaa01b0d9874237ebb372395aa732687fc9650",
+   "sha256": "243bcbbd77fec5d027673ab780ebb2c117c84c71853cc0f00c03cf9378492dba"
   },
   "console-north-carolina.html": {
    "agree": true,
-   "len": 58792,
-   "blob": "2030d4e64e2835db0845b56daa5729d7501843c2",
-   "sha256": "4d44df1887459e88c66b8d98908d4b074958054328d496a73253397c6e52c764"
+   "len": 92642,
+   "blob": "e2877388fd2b744770c3e30816afef12846747de",
+   "sha256": "7e7adcd218d5bce01a5d2ad8023b6e7b9a4e6a760afea318178c55adc319cb39"
   },
   "console-ohio.html": {
    "agree": true,
-   "len": 58762,
-   "blob": "5f804208091c1dbb663f27cf13ca233ff85d3be0",
-   "sha256": "9543ca911e887037652cc7a01bae28fdd2342d0756b1f1ac4462582c58b698b2"
+   "len": 92612,
+   "blob": "61c76b30b98a58ce17d41ffd9413e2489a5303af",
+   "sha256": "c2f46d8ad4fe88b23d624d8daaf5bc60aee3067e05928750034037199c6c0e74"
   },
   "console-oregon.html": {
    "agree": true,
-   "len": 58768,
-   "blob": "5c2cd15a87194bf78bf71ddcbee207463b5e7991",
-   "sha256": "08a909460a3bb4db65eae0f535158e1c9b8b6cbe7afe153df8e3438ee361c30b"
+   "len": 92618,
+   "blob": "1361111b79ede49bd9c47f77779a2b44adcccc84",
+   "sha256": "2db23d441218793e7d4272c70ae53fcd03214deaba51f5ab362a51b1bd42391a"
   },
   "console-pennsylvania.html": {
    "agree": true,
-   "len": 58786,
-   "blob": "fe0849c81739f98ab0bdeb75e00115e5580da28c",
-   "sha256": "a1832c75db7ed537eb8eff63ca0c835f080019b97716cd076995edca2a3f4cd4"
+   "len": 92636,
+   "blob": "6a88020ed714296e71f87ee664b99c965242fff1",
+   "sha256": "9482533987a4324a6fae6324f50ca085087d238120e5ea3f2cdc0e9c48b1209b"
   },
   "console-south-carolina.html": {
    "agree": true,
-   "len": 58792,
-   "blob": "fbf97f398010ace72a8798c941c466b4d97ac95c",
-   "sha256": "698d8e7e15897ca4dafae6e2588c7174a0383dc3241ee1a221a4928652f1e89e"
+   "len": 92642,
+   "blob": "d2e7b5199463dff46a3a2650af696a8bd4fd22d0",
+   "sha256": "a8567ead99826b0621645475bf09e2736ef26e7437194cb6b00056aca65c041b"
   },
   "console-tennessee.html": {
    "agree": true,
-   "len": 58777,
-   "blob": "e4c967c2a0d175e32c3f887364b3ff2bbd720ddd",
-   "sha256": "82a2192da740f92862206ebd3eb9299de9ae7a109e86f9110c8c7474d47170e7"
+   "len": 92627,
+   "blob": "103474152e659eca79fc5fc97b39908c63a470f6",
+   "sha256": "ccdf3c60e8cf732463a89eb421b67fe089ac6d152e1545e5d6bd119a8ca9f7b5"
   },
   "console-texas.html": {
    "agree": true,
-   "len": 58765,
-   "blob": "eb991724eaf375e6a28e0732654172a56188b38b",
-   "sha256": "d3470cea51d249d894f2ee821fe24a123fe88e46c163ca08847054e5128cf755"
+   "len": 92615,
+   "blob": "9ef1e390303dd1643f914c807ae8d73855d40a6b",
+   "sha256": "33e497c96627ec479f7b70e4ed05f4ce187fa0c60ad6f40fa11b04b1b1deef85"
   },
   "console-utah.html": {
    "agree": true,
-   "len": 58762,
-   "blob": "cb106203feb5e56a2069986daf80e24de3f609a1",
-   "sha256": "e0db3a08d992db091d13f8cc7b108cf3a98bc091e2fb459831d83a115b7ba62b"
+   "len": 92612,
+   "blob": "a940495d3569019605af7ce62037604396bf81b9",
+   "sha256": "eacd351d255fe7f9fb40ceef7aefc312e37a473e1b30ecf2b0f94ca6bab1b7ad"
   },
   "console-virginia.html": {
    "agree": true,
-   "len": 58774,
-   "blob": "014f41ced186c940479d722fff167b48a2a8b46f",
-   "sha256": "564a040a27c9dfb146cad9e2275b0b80a53e3043f7e3d29aaa7f767c9f754dee"
+   "len": 92624,
+   "blob": "2888d214f5e52cfc41530c6db700075dedec8d9f",
+   "sha256": "1dcd8b16ebcadbced2a3aa50639c1651ca76404de8161842b27e202349bd8fbd"
   },
   "console-washington.html": {
    "agree": true,
-   "len": 58780,
-   "blob": "28441e53eff8f77e22e5f8c502267b615f3857e9",
-   "sha256": "4fd26b597b4a1f53b90029e88316f11c764b406e5ec1504e050fcf8828f43797"
+   "len": 92630,
+   "blob": "d23a87f09095aabb3eda17da4a00968d16cb63a7",
+   "sha256": "badde9c3fa150bcf45316b2921caef5f37854f3c830b58e4641f9fc52344a437"
   },
   "console-wisconsin.html": {
    "agree": true,
-   "len": 58777,
-   "blob": "24413235f956d1c9f85e435bbaf4c1eb534b0eba",
-   "sha256": "7babdf75ab221db434e8dc31653fd7696af6f78127ae0a36306275c81484bea1"
+   "len": 92627,
+   "blob": "ad434fc794716bd5f959aed871a80edbd0763768",
+   "sha256": "ecda810481381bd70f5ba2c93054fc8d069c3a02bc4de3ebe5700c6765d5faff"
   },
   "contact-fix-rerun.json": {
    "agree": true,
@@ -684,9 +684,9 @@
   },
   "delivery-manifest.json": {
    "agree": true,
-   "len": 220,
-   "blob": "10a9eb689abb5b2fe56be500a2c31a715bb4e752",
-   "sha256": "3032d2653dd48d7cc36e741dfd42b05d929c8094a3f24927b9636eecafd8d89e"
+   "len": 17227,
+   "blob": "270697573385d2f5b0453bb78aac2ecaed8fe2bf",
+   "sha256": "ed53d037f9779862c80ca137969a00f9f33cc4d9f37ad718571ca998de0560c7"
   },
   "dial-pack.json": {
    "agree": true,
@@ -762,15 +762,15 @@
   },
   "florida-archive.html": {
    "agree": true,
-   "len": 52951,
-   "blob": "12b804bd89af9b38f829bcc46b97edd5b92c61c6",
-   "sha256": "b43385549f7c10f14e7ebb3da3f697dfa896cc92c49a4d01f008d485e7251b44"
+   "len": 56636,
+   "blob": "e78b67444ead5bd2901e10ab7e4a3041b9d9a0f5",
+   "sha256": "e4a3474c339ac4ccfa574db2e7151be2ef299d74f9a872f890c080365b1b525e"
   },
   "florida-bd-three-industries.html": {
    "agree": true,
-   "len": 52588,
-   "blob": "0f75f50ab4de0b408db2ff6ad33e75a55d82c833",
-   "sha256": "e93f0323d08602c166f07e6ecdaab7fa1d06fc233d20e3c7179c47f8db364ba5"
+   "len": 55876,
+   "blob": "b6fa9d34baa95398dc4b178230b1f4fa40b1249b",
+   "sha256": "59e0a189e066090e5047a8c5b18b1ee04cd9977215abaf17a4909d9aa74b4eb5"
   },
   "florida-bot-log.jsonl": {
    "agree": true,
@@ -792,9 +792,9 @@
   },
   "florida-expansion.html": {
    "agree": true,
-   "len": 201639,
-   "blob": "cefdac6de9c3b12df53d3f95ce379d65def0d26b",
-   "sha256": "943adb89c26244abb8fd55e2afcd8909f8c8071fed68b621b84c8fcd66d732c1"
+   "len": 228597,
+   "blob": "0f7a2448e3e901ef88b3826c35674caf7a38e32f",
+   "sha256": "51df4b7b65099e8413a616e757eb19633288fbb06b31da8bb5ee74becb3ee530"
   },
   "florida-inheritance.json": {
    "agree": true,
@@ -870,15 +870,15 @@
   },
   "florida-standard.json": {
    "agree": true,
-   "len": 368223,
-   "blob": "924b0e9e2808e82472300f60b0e0c5763c68883b",
-   "sha256": "074464d12db9f5b5072c379a34e608c6aacd6c231282365e4ab1a163b797d7be"
+   "len": 370349,
+   "blob": "505bb9b635240a396b025a19a8ebafec8240c46a",
+   "sha256": "bf24170038f73d992da2dba227b5f2adf23b532e3e6b69422b4d92e219e08dd6"
   },
   "florida.html": {
    "agree": true,
-   "len": 400092,
-   "blob": "ebba4d20e5ebf4b5bf5a1fae2771fd07ed927813",
-   "sha256": "e03745e4baeea63df9590dfc22de58f410608b9bc006a797aa37d0f0b42706f5"
+   "len": 431358,
+   "blob": "9658eee2c34855f92c060f4937d53a9f878bdcb7",
+   "sha256": "2d30f57da257584b27fab60eba4cd1af4af6099dd089b68970182e8d7cc5320a"
   },
   "florida100-core-run1-log.jsonl": {
    "agree": true,
@@ -1014,15 +1014,15 @@
   },
   "georgia-archive.html": {
    "agree": true,
-   "len": 30818,
-   "blob": "8057da9a8e7ede5c68c814b2d7a792a06d07cc8b",
-   "sha256": "13a33dc51cf61012cfd5dc47aac6174f531fff6fb975eeb8ae3fe30ac401be7c"
+   "len": 30722,
+   "blob": "5ff052442f5747d8bb9ed7b85c2567ad1dc8d4a7",
+   "sha256": "bac18a3bd44892e38cb7556e5cb87466364187d84cb5035e365688938f37aa8f"
   },
   "georgia-expansion.html": {
    "agree": true,
-   "len": 169262,
-   "blob": "6f77f347d3fd04c7332274b4fcb11df068e26392",
-   "sha256": "9bbe2944c29b58a646ff4bfeca26e89c10498378cc97df869f3da164b89a74dd"
+   "len": 204871,
+   "blob": "0b60eede6165d0c7c1891cf18b72fb51b2786b49",
+   "sha256": "07fea21e82775e709d26eb3e81cccfde91185527f92b8d77482a0ef59098475a"
   },
   "georgia-outreach.json": {
    "agree": true,
@@ -1032,9 +1032,9 @@
   },
   "georgia.html": {
    "agree": true,
-   "len": 373822,
-   "blob": "40448ef418c20e8607f40f26e9fd3fe3088d5dc4",
-   "sha256": "1e4101f40c78c750940336cc922b20048069ae9b5c6eeb34c4f22c01dd9fcca0"
+   "len": 463674,
+   "blob": "489eb3e56c3b12b748c6eaf505993a1c215fddae",
+   "sha256": "7927865294b5475740cc110b669c600de2b0169e34040b705a7b68b2c8e68363"
   },
   "hotleads-repo-links.html": {
    "agree": true,
@@ -1074,15 +1074,15 @@
   },
   "illinois-archive.html": {
    "agree": true,
-   "len": 32576,
-   "blob": "ac1b6dbf02ee565edd78005000f5f387cd64215f",
-   "sha256": "07aef9cfeb04d710220280746b27d0158de200f4eeeaef8c8ed4a30059beeae5"
+   "len": 32480,
+   "blob": "1cb9819760bf5ab2d0dfe8ddac63d774b8302cf4",
+   "sha256": "e0e4008a8014d17948dc1d1789c1c101fc1fdbf20d0ef9bfee8ef32e43220aa1"
   },
   "illinois-expansion.html": {
    "agree": true,
-   "len": 178141,
-   "blob": "8d00889fbd2736f7f21ac5b98510ae043331ee07",
-   "sha256": "0b4d7b9153abfd229a4a4967059a6af7669a93dba05b36f7f5586237f241d57c"
+   "len": 213544,
+   "blob": "fa0b9f2f964c64304a7059f091d3ddfa48b93454",
+   "sha256": "fab96810551078ce007d62194e01b9f9edf23f13979a4f844126966e60c1d53e"
   },
   "illinois-outreach.json": {
    "agree": true,
@@ -1092,9 +1092,9 @@
   },
   "illinois.html": {
    "agree": true,
-   "len": 318339,
-   "blob": "e75bbb59019f831e7f981fd35c67347f9254f4d5",
-   "sha256": "41e2eb6aee083989aea9a771039fc8e6f5b26c55c14db20f9e8cebee7891f129"
+   "len": 372301,
+   "blob": "e8e012bd1611c53002e167946a9e064e175d5ad2",
+   "sha256": "c5bb119ff08e8b1877293760ea0d3be03032b5974230feac4e3af8fc95698399"
   },
   "index-restatement-report.json": {
    "agree": true,
@@ -1116,15 +1116,15 @@
   },
   "indiana-archive.html": {
    "agree": true,
-   "len": 30171,
-   "blob": "71ef57c4b8a0080aa01182687ca0a3b8baf02c4c",
-   "sha256": "0f2b0b81ce42d66949dcb1960854851a7450f69889b0000a2f25de44069d784c"
+   "len": 30075,
+   "blob": "4c754cbfff6c8cce6551172655151254920a407f",
+   "sha256": "0cd7efbfbd4f4335e84808e3cc20c3bd4499235d24d95abedf2b64f024985aef"
   },
   "indiana-expansion.html": {
    "agree": true,
-   "len": 163682,
-   "blob": "1ada01ba48885f27a5b449aa159c79399c681dde",
-   "sha256": "5e50383235289994ae4181e23ca671f6c7145b408f1565b02ef11086426715a9"
+   "len": 199673,
+   "blob": "2afd7ed74978500d109791432bd6eb4f8269f866",
+   "sha256": "c4c238ec783a786df6b0a49a3108cd525d54108c2d054f212663199fdaae2355"
   },
   "indiana-outreach.json": {
    "agree": true,
@@ -1134,9 +1134,9 @@
   },
   "indiana.html": {
    "agree": true,
-   "len": 259318,
-   "blob": "e452342a1ae1760a14a7883cebe78dfa4e8c1bb8",
-   "sha256": "fb3cf04fc265e131071bf35b57aa29912f69d7c259e2a96cba7e73e53c31db40"
+   "len": 311479,
+   "blob": "f97b9f272602080a7704cfba243cade623c2b3c6",
+   "sha256": "944e48902b2a827d832e5d863e71c2a0c3a23d35b3fc94b591d649eeb49aa6e1"
   },
   "intake.py": {
    "agree": true,
@@ -1146,15 +1146,15 @@
   },
   "iowa-archive.html": {
    "agree": true,
-   "len": 37358,
-   "blob": "d37639a9f940fe7cbd861d5717f9ffd8751130ed",
-   "sha256": "bf1142f21c3f29df9eb6857e61f5e469a4a284a09f47d3a6c4d2e972e69fd651"
+   "len": 40772,
+   "blob": "c30e866983a04713bbd5796b85d145ecf0d5ea15",
+   "sha256": "c91526796bfe9c9249f6f2ed4c79b8887edb59f59504d2fef2c7546f0a57db9f"
   },
   "iowa-expansion.html": {
    "agree": true,
-   "len": 164232,
-   "blob": "4f38b5305630621eabc09911b8315c89465fdbf4",
-   "sha256": "b7027dbeee04d530d9bc4748ec02089513133356945086b30a32205fe5f02eb7"
+   "len": 199937,
+   "blob": "6e721ed0e9cbea1ce03d74e6d646c513560c16d7",
+   "sha256": "e738f547dd8ee143671c67522b992bef37cae2c35e2bb2cfdf15d42fc78ff52f"
   },
   "iowa-outreach.json": {
    "agree": true,
@@ -1164,9 +1164,9 @@
   },
   "iowa.html": {
    "agree": true,
-   "len": 268328,
-   "blob": "565639ea98fdf1b2f45e8058259d000f9e983d60",
-   "sha256": "422e1a5019980ef8be59de0fbc5bde525dc72d09b479773f9fca09a5a21e9b98"
+   "len": 320997,
+   "blob": "2fa896018eba92fa54cabb928b4cf9704ef4460a",
+   "sha256": "f734c3b02433f12c1ab01ca5dc2bf98caf1c68f0573edcfbcfe0b8410b75c75c"
   },
   "item307-founders72-verdicts.json": {
    "agree": true,
@@ -2104,17 +2104,65 @@
    "blob": "c2def2c64eb6b0c490122c092bde5c2f2cf50ca4",
    "sha256": "cbe744e923585f74cbcc8ffdb2123113b24da1a9ec8088c5caf09c539dbba21e"
   },
+  "item371-build-record.json": {
+   "agree": true,
+   "len": 6089,
+   "blob": "24cc6dd1de6f2aa3e3ee1e2a4902a7100e6a78ff",
+   "sha256": "aaf4d1fe6a2ff310dc8b09731cc4c959644d93dc6ace98ebfa9d1f2a1d833cbe"
+  },
+  "item371-e2e.json": {
+   "agree": true,
+   "len": 9411,
+   "blob": "d45e255ee2d5518eeabd72c9e990bd249292c409",
+   "sha256": "bd88311dd6cc08ce2fbf1e1d733e0fe22763bcba2e91fd54f2b0b46af58a7021"
+  },
+  "item371-founders72-verdicts.json": {
+   "agree": true,
+   "len": 28776,
+   "blob": "c8269e63fe2fe3a57c6ccd88026f00a66a58185f",
+   "sha256": "0d7b19fab82fa846f745e0bb7f2a52b72e2a90406561d2119f11155c7e6e18b1"
+  },
+  "item371-gate.json": {
+   "agree": true,
+   "len": 126340,
+   "blob": "b53d9a4ac1950ac3dbc0a69f07587284290e24cf",
+   "sha256": "1b42acd83065e396bbd8f77234577e2acc0a052cec9fac19611fa7035e6fb36e"
+  },
+  "item371-load-census.json": {
+   "agree": true,
+   "len": 5315,
+   "blob": "cda04b671296de6d0a926161bc774e5eae5c15b1",
+   "sha256": "724ea422f3996c21b27ab4c6661a879eae45a0926ba021179700ae67dfc5ffe6"
+  },
+  "item371-parity-final.json": {
+   "agree": true,
+   "len": 7726,
+   "blob": "48cf1cf1c5741eb3de34d24b77a13ab955f25dbc",
+   "sha256": "7cbd655818f144653e921d9d36213c618436bf2eef2afa4d7c2a38cc1d60b097"
+  },
+  "item371-register.json": {
+   "agree": true,
+   "len": 2937,
+   "blob": "58e81e2a5cc53189320ee4f7cd319c5de40cb04f",
+   "sha256": "338278bc6967c2153fd16f2dbd1346fd295f0e412051299bbadebc9acdcf7ace"
+  },
+  "item371-report.md": {
+   "agree": true,
+   "len": 2257,
+   "blob": "1ffa1d9009fcd0b03f04a01bd60c6d491759f088",
+   "sha256": "2ef3f4713d398c2d3c3b01538999f5dcaee6289017bf2ac915e3a66d763b5a12"
+  },
   "kentucky-archive.html": {
    "agree": true,
-   "len": 30389,
-   "blob": "8c2e26946f77c57ad96ddb4aeb986972cda38797",
-   "sha256": "127136ab855f0530d7d4ecb43c75ea71c3a69bbdae2b1efe371acf0df9e4e253"
+   "len": 30293,
+   "blob": "20866db55f01466a53489012289ca47947f8fc5e",
+   "sha256": "7e389456bde65719f688260e8d07c82498e591b9f724b2417e5eb6e99458a17d"
   },
   "kentucky-expansion.html": {
    "agree": true,
-   "len": 172809,
-   "blob": "5f4fd2032c118e5398a44b892a264a8035efca65",
-   "sha256": "eee72307198f9d842a225fe00c9ba6458a205629f07992fde23caadb00e9eced"
+   "len": 214805,
+   "blob": "1738974fb86b24421277ffbab8647b706e37c05c",
+   "sha256": "1bbe35515b3701b3b5168584a07739fd439ee972253661d7ff7ac02cf918becf"
   },
   "kentucky-outreach.json": {
    "agree": true,
@@ -2124,21 +2172,21 @@
   },
   "kentucky.html": {
    "agree": true,
-   "len": 258000,
-   "blob": "6fbcfdf101560e339888ffc9c0fdbb511848179c",
-   "sha256": "7bd11e17a95cf139ed6bef2cedce93193722ba2791527840c8ad59845b1736c4"
+   "len": 310345,
+   "blob": "68e4ecd794049df260a2598f79f1fff83fd780c9",
+   "sha256": "c1b311b18e135d9a545016214ac61b471a86640ba90975760ff8edde44132ebb"
   },
   "las-vegas-archive.html": {
    "agree": true,
-   "len": 31568,
-   "blob": "bd3a6d5201c7614f3132a16ce2b6a52775f2ef07",
-   "sha256": "699b4a95f95a1716c523888c8f2881b3bf9990da1ddbbf97f7d95971829cc7eb"
+   "len": 31472,
+   "blob": "ce9e63b46138a9a6e52f2240deb7d14639442858",
+   "sha256": "694424c243cbb04f01d82b43a6b2a427b7e70884fdacfeacda7918e7d3c57cd0"
   },
   "las-vegas-expansion.html": {
    "agree": true,
-   "len": 187852,
-   "blob": "edb938b3554e9a0ed29d0ce22aba498ac9894359",
-   "sha256": "ec416cf0fc90fbc28acf838d0860f21c7bda70547e5e8dd71909880311a331d8"
+   "len": 222584,
+   "blob": "8d3d9633a9e601a4e0fe6fc4ab141fb43ebe38d6",
+   "sha256": "213f91dd6580817d829a45fd237476050686431546d41043d8e0abe939ea3548"
   },
   "las-vegas-outreach.json": {
    "agree": true,
@@ -2148,9 +2196,9 @@
   },
   "las-vegas.html": {
    "agree": true,
-   "len": 374968,
-   "blob": "0f360d3e52b2cf3df8df553ca6a934ad2b9d5dca",
-   "sha256": "4d2783311cdb032a6f0103928284c3a39856d3e0249acd72c0732c0408218031"
+   "len": 462901,
+   "blob": "ca19e7bc937155e870be9a23ccee3e2ea63044ca",
+   "sha256": "7588f2b2721f1847255b1e277b2d0935b91bedc9a4f9a90a990892e01e130e1b"
   },
   "live-links.html": {
    "agree": true,
@@ -2184,15 +2232,15 @@
   },
   "michigan-archive.html": {
    "agree": true,
-   "len": 66446,
-   "blob": "14807d64e450869ff7bf93606701268880d5833b",
-   "sha256": "9036a19be0756f85f119bee584870088495eb2ab8e0d5f22a7dbb1ff39359554"
+   "len": 74910,
+   "blob": "8fc4abfd881daf564241f3fb70b6eade05a801cd",
+   "sha256": "d5f4cdb4029cd7013f1d14bc08b1663ec60928bd868b6313f4b695b7ee7cc921"
   },
   "michigan-expansion.html": {
    "agree": true,
-   "len": 169941,
-   "blob": "61f9bc6b75aaa43dca64236af1679ca9bce7b561",
-   "sha256": "8c6e561fa867edb1a8697f75253630839fb53467bba0847565f0ae37dc694282"
+   "len": 204970,
+   "blob": "de84960c4ffac064cabfde31da162b67779d34f5",
+   "sha256": "99d7ef3b5d6247193056d0d6851963754d019c98e1f63817a8080a0401ae1bbd"
   },
   "michigan-outreach.json": {
    "agree": true,
@@ -2202,21 +2250,21 @@
   },
   "michigan.html": {
    "agree": true,
-   "len": 339411,
-   "blob": "e82102a49cac149e7d2ff9f6f404d3e91518d488",
-   "sha256": "448771101a8237bf3630009a4b2e1d6673ef56c8a291a009e4e92553d77195d7"
+   "len": 413631,
+   "blob": "fc89df81fcb90360c37d03498976a949a61423b7",
+   "sha256": "1a43f4a0c7ebd68c1e61be2a73e6dcc3744bd2d05e39f3183701812db7b325bd"
   },
   "minnesota-archive.html": {
    "agree": true,
-   "len": 30938,
-   "blob": "39ed6e9b10360c5fb8a24431c80ca163424c667e",
-   "sha256": "f09398f4171a773beb4c1d886ce5baa5a1a37023f2e21ae6b757905d0611b53e"
+   "len": 30842,
+   "blob": "1580ececaf548cba76e32df8dbb96ae9553a511b",
+   "sha256": "b42dd2c571a1af5e21a14afb81da8a87a67cc1d34f63738f12f5f8f299be4675"
   },
   "minnesota-expansion.html": {
    "agree": true,
-   "len": 171778,
-   "blob": "a5fb3d4bc6b9a49fcdd449a641bc0d1749a780a2",
-   "sha256": "6a4a99446d26db30aded39adf004d7d7c53a6696faadd03de314cf456159e82f"
+   "len": 206510,
+   "blob": "0522eb6b2d9bbe74963d7a9982523474cc57f798",
+   "sha256": "13b6efab908f4688d15bb7d352e8eef6a4893377a11dfbb4b2d3d11be2aaf0c2"
   },
   "minnesota-outreach.json": {
    "agree": true,
@@ -2226,21 +2274,21 @@
   },
   "minnesota.html": {
    "agree": true,
-   "len": 281306,
-   "blob": "c6f234001ebb21713b12ab3e8f148c9cda8d6469",
-   "sha256": "3311cb4a4b62a5be8c9b65c1bcb1962f16e782329607a49cb8a34b0089fb9bb3"
+   "len": 368981,
+   "blob": "0e4f5b7c0f24948e0a83bb4f4b6f7184136ae681",
+   "sha256": "2333cb400e61118c412702b74ce698e399c9a9991ac41cdcb5ddc821ab58441c"
   },
   "missouri-archive.html": {
    "agree": true,
-   "len": 31060,
-   "blob": "46b236c4f142a94cfedd9bab1f72a1ebbadf485e",
-   "sha256": "5d9e206fa9cd85f6b646c39799253a97c6d272d1ba8c64ef4ecfe68f5e493f9d"
+   "len": 30964,
+   "blob": "69e542f76da44e819fe4a9b68dd6a250f4976a7e",
+   "sha256": "259a26856244129f7a7ee4028939de5d2d993a01fa30a07dacfb8bf2e2362390"
   },
   "missouri-expansion.html": {
    "agree": true,
-   "len": 169231,
-   "blob": "e1ac3cdb5ef3a75548f0716adbe210737c2bfd6d",
-   "sha256": "20aceb39f0ff78a86e9b336a33e6d390df554bad36f4af98d2221237873bf169"
+   "len": 204258,
+   "blob": "9630be873c3ba2be2a088463c35ea42e6346be15",
+   "sha256": "4917c59308a94a4bab1de6482bdc9d0af63bc11ebc9273930fd745564a2730cb"
   },
   "missouri-outreach.json": {
    "agree": true,
@@ -2250,9 +2298,9 @@
   },
   "missouri.html": {
    "agree": true,
-   "len": 279578,
-   "blob": "14be2d2c2841e6f07faa7c27f73a07bc5ddf33f2",
-   "sha256": "c882916f01e26a3406561d8e6adab6560ec497ad37b5cb460e0c39f5a301237e"
+   "len": 368116,
+   "blob": "eca4b277075e2333002b29418735197a7a3f98a9",
+   "sha256": "ed1a70d9dcbb2650f4074d049a2440d16f0a3a4a6aa39e51b3d2c19efe76683b"
   },
   "name-hits.json": {
    "agree": true,
@@ -2322,15 +2370,15 @@
   },
   "new-jersey-archive.html": {
    "agree": true,
-   "len": 30929,
-   "blob": "e422b6092895b61df6056c528535452b87687889",
-   "sha256": "db1563434541d4e97f551eb654e56810c2ec4d1938ae6202325e78e94b3ec1e2"
+   "len": 30833,
+   "blob": "97fe3fd5d5faade48b861ab7d73fd2617c1cf4de",
+   "sha256": "51b6dfb7f8b48faa6277e27124241af220b052722d91ad4b2f56fea00a77ecbd"
   },
   "new-jersey-expansion.html": {
    "agree": true,
-   "len": 165815,
-   "blob": "f8e6487f86d2f17070d1d1f94ec314c11c84b95f",
-   "sha256": "f8bef2711c9d4a26e86073ff701c5411ca27d62d1c4553e57c78f8b25a89cea3"
+   "len": 201214,
+   "blob": "2ece7cd1edff677a2c8ad73195c238cacea75ca7",
+   "sha256": "9ab947147113861a9378016417916cf69d8b66fca0fd7fad3f420f5a89b9ef67"
   },
   "new-jersey-outreach.json": {
    "agree": true,
@@ -2340,21 +2388,21 @@
   },
   "new-jersey.html": {
    "agree": true,
-   "len": 262646,
-   "blob": "ad33443e5f0c74751570ddfc6205664082b06ef7",
-   "sha256": "b22b4ae674d9a5275ec816245b5498c27828757cdfd35abd3c0c6175a665e257"
+   "len": 314156,
+   "blob": "15a3109683173ed67c15d8d03de86c14adeaf005",
+   "sha256": "3be690230537b14511d2d0c9ed0de09e5d78dddd6ab376fb801768fdc7accec9"
   },
   "new-york-archive.html": {
    "agree": true,
-   "len": 73573,
-   "blob": "8b43d03766f4121aa20b1b70995178eb2041dee5",
-   "sha256": "f8dd7d71a269dc0f2c3061ccbb038cbeb13be05e93e3de5673e0ae9dda6ce518"
+   "len": 86151,
+   "blob": "2388be67b96fea146a5eaf696de329eae84a82af",
+   "sha256": "f130ab1eda8e602089ab6f1c6c6cb42a9500ad23dba28526ae2871d6bcdceb5a"
   },
   "new-york-expansion.html": {
    "agree": true,
-   "len": 173784,
-   "blob": "0f9e395283f7e05d5f6797a3cb80c60137b64957",
-   "sha256": "118ec3f616b965b1d7e19ed0a85d2458fbbd3776ebf5ce27a98269dc0dacac8d"
+   "len": 208493,
+   "blob": "8997eb19a7f747b4a9852c699573b4059e8c3732",
+   "sha256": "a0d915fd737ee019f45dc65be49632e01cd01b0d7c9d908cb380aa5c83ecc780"
   },
   "new-york-outreach.json": {
    "agree": true,
@@ -2364,9 +2412,9 @@
   },
   "new-york.html": {
    "agree": true,
-   "len": 251264,
-   "blob": "85fb0207a2a2a46c1a3de3234fd80cd135ff002a",
-   "sha256": "aec1410a4bccc524e239c66b348043163166f15f7860f4f2e828f3af27698854"
+   "len": 317859,
+   "blob": "5e6f1bab59fdbdb83dfd047e17a71df9f581946f",
+   "sha256": "c34c02bbb6ed28d737d39138a9e1eb21837e957890240b36a126a78507202aae"
   },
   "non-companies.json": {
    "agree": true,
@@ -2376,15 +2424,15 @@
   },
   "north-carolina-archive.html": {
    "agree": true,
-   "len": 31339,
-   "blob": "02c1cfc7a96936e1ef71f239d4884d1695ef419c",
-   "sha256": "23e3dc43ff6a65ec6d50fc987d3c90d252012012daf5ff8f28dbda8cbaf6a3a8"
+   "len": 31243,
+   "blob": "5f2329af40e9d45fb30e6229a87eea5bc012f9a2",
+   "sha256": "8aa2f409814afbe1c692c67a8c9cfdf13eccee44ef0bed3b4cde3248a82006ac"
   },
   "north-carolina-expansion.html": {
    "agree": true,
-   "len": 168839,
-   "blob": "5a1f38bdae69214e8d02c0c4fae992db34db4102",
-   "sha256": "0f9b020e9f8af76fe3d85925672bb59863841e76f5e9a290686ae773281a3ce4"
+   "len": 204948,
+   "blob": "ac7817b922927f88ee8c0ddc85ce83c5eb3fa045",
+   "sha256": "9093310241e9624a80881afd0a33c954d51ce795b33c7dea8b52a49f2cb0d06d"
   },
   "north-carolina-outreach.json": {
    "agree": true,
@@ -2394,9 +2442,9 @@
   },
   "north-carolina.html": {
    "agree": true,
-   "len": 372075,
-   "blob": "aa6bc30d4dff119119251e98a663aea7f9289082",
-   "sha256": "4fb0e246aa969b36562863584b976f06320be294413ddb200c41442ddb5148d9"
+   "len": 465914,
+   "blob": "0e0e4fce097d0fe6b0eb21c783ec666abc1e656b",
+   "sha256": "5b54295242be4598178e2c046df7b177da76ad41c680779f726ef359e880f2e2"
   },
   "officer.py": {
    "agree": true,
@@ -2406,15 +2454,15 @@
   },
   "ohio-archive.html": {
    "agree": true,
-   "len": 31065,
-   "blob": "7899a9b1ed9731c2e25718f8e3851f4ed6810bf3",
-   "sha256": "74a6b36b74b0fe91ff0782e50850954531f3ef3c97b8235ef699c5e0cd503be5"
+   "len": 30969,
+   "blob": "2431d9e35caea960c6b1deb9b88a2cb2384e4243",
+   "sha256": "71fcbd68b63ed7f2def4649117e33b5a3417d80768f99ea23b5417f956208094"
   },
   "ohio-expansion.html": {
    "agree": true,
-   "len": 171586,
-   "blob": "162387d3f3b04dc2a6a35d296a6878bd4b0501be",
-   "sha256": "3c9e3473d9b92eca83c02ecc95b64f77025178e5b25b2f1b6518ad9614444a2f"
+   "len": 206621,
+   "blob": "ead44a7f1350b39d4d06d06cbe35205ce0e629ee",
+   "sha256": "7774a3efb41e8d64f4318e50033f126b24d3f6928015ed380ef64eed564bffd6"
   },
   "ohio-outreach.json": {
    "agree": true,
@@ -2424,9 +2472,9 @@
   },
   "ohio.html": {
    "agree": true,
-   "len": 412849,
-   "blob": "00aa9963744486adac8892fbb8ca2d8e0a5626f9",
-   "sha256": "596631986ee8ecd21f6e2a7f0b67c17f0154d4c7d7dd29fb35424da9d2f9fac6"
+   "len": 497240,
+   "blob": "afef82d7e81e88749b37923d2ffc7185674d0f33",
+   "sha256": "d479dada234dc48d63112240f7d117214c36d3df2329831a06b973eeb8b23e7f"
   },
   "operator-defect-register.json": {
    "agree": true,
@@ -2442,15 +2490,15 @@
   },
   "oregon-archive.html": {
    "agree": true,
-   "len": 31400,
-   "blob": "bdefed8eb43cc863aeac46ded14f959a049dc8d2",
-   "sha256": "b286f323d6263342cae1280bbc5e6e5d2e67dddc1e39307d38f4b7509cfc8c69"
+   "len": 31304,
+   "blob": "53bb742813192eb9303f64adb6bcd677f22c1c09",
+   "sha256": "6c35a9315a83da6bb49b4e61dd80582a3c93cf600294edbf23afc53cf53668b4"
   },
   "oregon-expansion.html": {
    "agree": true,
-   "len": 172354,
-   "blob": "8cf6d639b3a73b62c288b4ff1b183904e138cb3f",
-   "sha256": "61ef4d38ef9e04dc4ad32ee827602b1600703ab42fce0fb23507ce0ac1d11ac5"
+   "len": 207086,
+   "blob": "7c51546915767e2d1961df3ac546491b5cb69b82",
+   "sha256": "a54392b93aede78fa654f58e8a12f895214fb35dc783d64b8ff81849e40e4ca7"
   },
   "oregon-outreach.json": {
    "agree": true,
@@ -2460,9 +2508,9 @@
   },
   "oregon.html": {
    "agree": true,
-   "len": 282158,
-   "blob": "7bdd09d95cd3d18ece47ddaae83edb4c8bec5ca2",
-   "sha256": "ff4d7a620961a033f802a61f63b62e128d52826cc70dd9024e9424ccb0b35753"
+   "len": 369653,
+   "blob": "d6fbb669e31297d330ebc81e6a068b84503a9cd0",
+   "sha256": "4614b54b9fafebfb1bbea8cd7c8a03ccde6411d3710c5f2dbd985cba22eed933"
   },
   "pe_pass.py": {
    "agree": true,
@@ -2472,15 +2520,15 @@
   },
   "pennsylvania-archive.html": {
    "agree": true,
-   "len": 40988,
-   "blob": "210cccf6e5c55f628d3abb1659be5c47fc416578",
-   "sha256": "e864be1ff1bdf25f927952477cd8dfe87d8e2adb59282fe6fb92651505b003fc"
+   "len": 47992,
+   "blob": "fcaac4fd6d76760fe405214359cf1f095dee8207",
+   "sha256": "5b12cac1f0e8b584686dc0a22c0f15217324577e745d28940f5ae71a8aad4daf"
   },
   "pennsylvania-expansion.html": {
    "agree": true,
-   "len": 175856,
-   "blob": "2430b60b202ea3ca498a5eb0a1f81c9fdb16cb9f",
-   "sha256": "ec1f6a6bb6a2c4b6879c7c25066297c2ed302c32a381fb62f7572dc4396a91de"
+   "len": 210565,
+   "blob": "657db131142d85c67d9547e6362211c4c38bc653",
+   "sha256": "17fe5a3b2617afedffeb0ae419826e69fc947ea14c4a5cbfafd87337071cd357"
   },
   "pennsylvania-outreach.json": {
    "agree": true,
@@ -2490,9 +2538,9 @@
   },
   "pennsylvania.html": {
    "agree": true,
-   "len": 336018,
-   "blob": "9f9ab6932700bb19e6b7c349f1b710158454ef8c",
-   "sha256": "a23940a4386d1bc56c67802b9031253e9c6d83c9f22cc9a762c18d2e57612c30"
+   "len": 410489,
+   "blob": "fdfc57ec108e1fd586f86880587ca9a513aa7281",
+   "sha256": "83f2f300cf678bc7dba2fcda128b9fc959ce940ec027fb23e075619deb6732d1"
   },
   "pipeline-cockpit.html": {
    "agree": true,
@@ -3054,15 +3102,15 @@
   },
   "south-carolina-archive.html": {
    "agree": true,
-   "len": 30946,
-   "blob": "134748a01cb925a2ed704b1ee095b2dda835b7d1",
-   "sha256": "ab445a57c64c877a938791f91af6ba2b64345673b9fc2f356e324c17950a37e2"
+   "len": 30850,
+   "blob": "d1d36f17401401b1fadde27ff0032cbb068513d5",
+   "sha256": "dba4d62c7e7248058d29efc927f57eb6a6b5a13d37eb6a2056f5d2f70f761809"
   },
   "south-carolina-expansion.html": {
    "agree": true,
-   "len": 175865,
-   "blob": "c850a4713da20de596ac52547ca78dcb69c6bc8a",
-   "sha256": "f643f816914b9091c8ff5708678cdba3f30d92222e7ebeddce2f76d27d722f1f"
+   "len": 211555,
+   "blob": "836c68b5e746897789c6a18058fff6794e2967e1",
+   "sha256": "a4b33374fd8fc301da61c472a3fe19cb406a66799a0d25ac27c06335fa703880"
   },
   "south-carolina-outreach.json": {
    "agree": true,
@@ -3072,9 +3120,9 @@
   },
   "south-carolina.html": {
    "agree": true,
-   "len": 260677,
-   "blob": "857105b6ccb456399ebddca75cc20aa32db855bc",
-   "sha256": "60a2949f472b3e8d42fee41d49e1e6ef557041d0044594f7280f61d3bc707bb5"
+   "len": 311957,
+   "blob": "c1c358726e4b5486773cd8335a6e107ccffbe945",
+   "sha256": "c7afcb74f16c1f1d688fdfc5f5f7ff528d1494b4c0e49e5418c606089b1b28e5"
   },
   "stepd-pipeline.json": {
    "agree": true,
@@ -3132,15 +3180,15 @@
   },
   "tennessee-archive.html": {
    "agree": true,
-   "len": 30411,
-   "blob": "73f56fdd1c8233c8aebe1341ad2cf5debfdddd33",
-   "sha256": "2e2bd451415755a2c223b80f32fb7ca89132592917e840496034744ecb3daabe"
+   "len": 30315,
+   "blob": "c2dc0e38623a3eb17090e0c200e2e66c0ee6b567",
+   "sha256": "c5977a851b732e600a9b9009722c77b44dcbd621081f1c85bd275591cf7a7aae"
   },
   "tennessee-expansion.html": {
    "agree": true,
-   "len": 171842,
-   "blob": "00c0ae6aa83f8af0f861684c6ac60b684484e74c",
-   "sha256": "4e596d30a423108825e0595c002438b9f502bb43d5745aab50577c8cd357dc95"
+   "len": 207249,
+   "blob": "698c59a3768f615ca6e548319b47f715b8d35bed",
+   "sha256": "22ee8f8c679feab875bb7a171246af65ed629e7e25696883903f7a67661b2d9e"
   },
   "tennessee-outreach.json": {
    "agree": true,
@@ -3150,21 +3198,21 @@
   },
   "tennessee.html": {
    "agree": true,
-   "len": 259970,
-   "blob": "d6db63c85bea41c409cf10eb8541feeed331bda2",
-   "sha256": "ab997d476502cc1227dfa64142eebc282fffd6e01d796455f500e26f75f2516a"
+   "len": 311968,
+   "blob": "3fec82c3f9102de8be1108d3878f38512d89dbf6",
+   "sha256": "8a812bf5ce7f4959392c707e121dc672b72a47ffca6d0cc8caeba2a06ffa0865"
   },
   "texas-archive.html": {
    "agree": true,
-   "len": 91458,
-   "blob": "2e7d838d9d70b47eea8f2591773cb6b6eadd498a",
-   "sha256": "fc1c0118f77623e6d3be9fb5edb270daaf32274fd8454723aab52d4a29616508"
+   "len": 101188,
+   "blob": "6591f94dfd252242d7c0b6608ad96ff45a7f0c67",
+   "sha256": "8c2c5aeddcf5ce48bdd95609c0178012b3028bcae5562df3ce867fe496c4b6ed"
   },
   "texas-expansion.html": {
    "agree": true,
-   "len": 182568,
-   "blob": "17e6d5e7121e13cc6db4b13cc81a24d54d4ff5df",
-   "sha256": "82bec842272ba25a6ae4140506495d127d1b806ad5c6a3c50df67b4cd3c2fc2d"
+   "len": 217277,
+   "blob": "30440115e48b290afb924f4fd788260b601f5631",
+   "sha256": "affa68135e7f0e36b9fd81a5b16e2eda519230b42b1501e4940ca1f4a0863969"
   },
   "texas-outreach.json": {
    "agree": true,
@@ -3174,9 +3222,9 @@
   },
   "texas.html": {
    "agree": true,
-   "len": 347105,
-   "blob": "15e2bdae1080495876e6b77d5db6617d83dbbbae",
-   "sha256": "cb58717362cda98f3b3b84b1fef8958323e6c2caf948b2108e4d2f063232f548"
+   "len": 417900,
+   "blob": "849063dc16c46ab1eda66ed3c23cd86abdb9cfed",
+   "sha256": "0346def4cd320ec9c4c1a67d4ef979f66d037ac823721cb98ad85b444b0bedba"
   },
   "totals-held-undated-report.json": {
    "agree": true,
@@ -3192,15 +3240,15 @@
   },
   "utah-archive.html": {
    "agree": true,
-   "len": 30631,
-   "blob": "249d94e5ea87f06220db3674a76181d0e0a7d85e",
-   "sha256": "c3bb4e1b2481fe2ebb07c90709cc6346e2121efcae35fd7d91af4d17f03a2ab9"
+   "len": 30535,
+   "blob": "f33d6dd5d5efb0596cd46bde7962ca245179f899",
+   "sha256": "568c84ec77e75d13c6a45ac0cac1c66ecd7fedd370ea0af6aa855133199403c8"
   },
   "utah-expansion.html": {
    "agree": true,
-   "len": 172014,
-   "blob": "2e25b651bf6b4ac0594a0ba302d7bfdd52a9dec8",
-   "sha256": "fcfbb428137ffa674d9ccd918e4d8ba6acbc77947127dde6a6e0c17b66630c3c"
+   "len": 207411,
+   "blob": "bf4ee8f7566a1f56934299347424da2c28789589",
+   "sha256": "01fa533bdc34cfd7cc09569e1f48ecca9f212028653853b73dad95c8b2aaee86"
   },
   "utah-outreach.json": {
    "agree": true,
@@ -3210,9 +3258,9 @@
   },
   "utah.html": {
    "agree": true,
-   "len": 263986,
-   "blob": "474d202883e9e343663fd0abc10623140671de68",
-   "sha256": "8cb72567aa3cb234cb3671557572cc8d0144771c8e2d1dd1e12737e0d3ad2cad"
+   "len": 317932,
+   "blob": "20ede3b66549fdd6949e58cb5e72cff5d19af717",
+   "sha256": "1b003c95cbd128e38bf748c1d708b06d8a71ad5e2becb97eb33eefae8beadaff"
   },
   "v4-2A-report.json": {
    "agree": true,
@@ -3240,15 +3288,15 @@
   },
   "virginia-archive.html": {
    "agree": true,
-   "len": 30517,
-   "blob": "da82746238aee6da4cbf143613b159ccd0d43e3c",
-   "sha256": "8a7848f1b12a679acaaadb9c2427c543ef3914b9ad3c30fb6f15df27e6aa8fbe"
+   "len": 30421,
+   "blob": "3f6d00aa55d64b083bc1eceac802be07524e1f11",
+   "sha256": "f6de6876dfff5d896437b0101c67ac94c64b6bf8c9917ca36b459989143d57f4"
   },
   "virginia-expansion.html": {
    "agree": true,
-   "len": 164430,
-   "blob": "66295d6c9425913466c230dee3ab715b7ad643fd",
-   "sha256": "15d6a7cd815c4220a2c2319f5a5d9eb0c3a69da430d24f25170b4b633a1a9c4b"
+   "len": 199538,
+   "blob": "2db3198e74f58ff2096b7de912475ad0f087d0d2",
+   "sha256": "fa90ff6f8f786461e1695e451bb54c676285dd50121de73228e4fdc486dbadcd"
   },
   "virginia-outreach.json": {
    "agree": true,
@@ -3258,9 +3306,9 @@
   },
   "virginia.html": {
    "agree": true,
-   "len": 262731,
-   "blob": "f19d5422dfde0aad31e15a12c98c31e180c586aa",
-   "sha256": "b1cef0c6c9461ea4d492ffb6ed2dc4522585861c4a2b4864ec09bd74c2ee6286"
+   "len": 315240,
+   "blob": "803188bd2fa0e71c7496d353333612d6b0e871c2",
+   "sha256": "a009b7bba289a9a99bfed51a01abd057938a8a5db22d217fe907388caeb21df3"
   },
   "w10-detector-proof.json": {
    "agree": true,
@@ -3582,15 +3630,15 @@
   },
   "washington-archive.html": {
    "agree": true,
-   "len": 30741,
-   "blob": "cd31c4f93ce1a9eacd8ca4076ac8820394dc34d2",
-   "sha256": "b153a5965a7e66ecdddf08304990e1f3131b7746dce19da4fd4624c3caf748ed"
+   "len": 30645,
+   "blob": "e96524aa78edba5f775249f774a87f7e87f3bc7e",
+   "sha256": "6cc28a18941af01f9bd1c92e36e9c284b5c2648281eac8584cbaa2fb06ff03de"
   },
   "washington-expansion.html": {
    "agree": true,
-   "len": 179685,
-   "blob": "ada3865b4f8e1746b3f04260de327338f9bd83c7",
-   "sha256": "e8791ee6dcd88966a6193196904821ff942c878cf374dc9e7d5417bc110ed5fb"
+   "len": 214417,
+   "blob": "6e6c6898af484683d205814c4ac7cb3fed56d011",
+   "sha256": "e83cb1c09575c5104688e9d8cfedbb1b0a95fdee51d9cc589253b608093551b6"
   },
   "washington-outreach.json": {
    "agree": true,
@@ -3600,9 +3648,9 @@
   },
   "washington.html": {
    "agree": true,
-   "len": 310331,
-   "blob": "33616a1d74cbc13ac9ed8be8625ad4f513676f13",
-   "sha256": "5d51ffaa8880bf6f446e319554b49720f81893b5373a02cd273c342d852d6531"
+   "len": 400901,
+   "blob": "bec90a9e2ca9cd1e2c268a9b9567312afe9625a4",
+   "sha256": "e1bf85a8a158e986fc3d52d63e3734b18128c03a5d74e15fa8d4f5039eb8bf30"
   },
   "who-we-are-what-we-do.html": {
    "agree": true,
@@ -3708,15 +3756,15 @@
   },
   "wisconsin-archive.html": {
    "agree": true,
-   "len": 31037,
-   "blob": "46d5c9a801fc29384371872dd6e20f9196821a57",
-   "sha256": "7da76d0d29303f700d4789926b7a3aa539e4a5ad9fad974637c7deba5ddf49ce"
+   "len": 30941,
+   "blob": "650c48b914364459d9affdfdcddbc188fbe5edf2",
+   "sha256": "89d58b19380b203202a4a125ecbb3258d91521063919741e2fe5d69005ce252e"
   },
   "wisconsin-expansion.html": {
    "agree": true,
-   "len": 168292,
-   "blob": "3caa02c6dd88c74ac865c07246eefb185af92044",
-   "sha256": "b93a15952e85050edadb5bd86f170d11aac2eff146d20f83a3bcc8ef7630cf8b"
+   "len": 204236,
+   "blob": "583a925ee0cb8e15cbe5917e6f12d2836a797b57",
+   "sha256": "29c5ba818a3dc0535bd9e9be237fb2b3e2cc8068619a3244d70d93fc5bf58586"
   },
   "wisconsin-outreach.json": {
    "agree": true,
@@ -3726,9 +3774,9 @@
   },
   "wisconsin.html": {
    "agree": true,
-   "len": 271014,
-   "blob": "2e3b2ddf9bfb2a2531e5d2f9baa714a46b095450",
-   "sha256": "a0a06c8b95a0abd9dc552d32fef92d00ca2ec285b8ae0b66c6d65702dcca2048"
+   "len": 321965,
+   "blob": "4a411f446f3d566e3ec5de303a71fb9161ad5e35",
+   "sha256": "f90047cd4a006ddc47869b637c11a053d32fca23abfb1c3ede58c65cf5f205bd"
   }
  }
 }

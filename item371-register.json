@@ -1,16 +1,87 @@
-{"item":"371","date":"2026-11-03","base":"056f431","entries":[
- {"n":1,"what":"Google search links restored as Bing (11,372)","detail":"Find site 3,327 · Site (row-held matching domain) 31 · Owner: name + company 1,464 · Owner: company + city 4,027 · Owner: Blind 36 · search 2,303 · LinkedIn⌕ 184"},
- {"n":2,"what":"Owner search Blind on 36 rows","detail":"no decision-maker name and no city on the row; a named acquisition target, not a link (Chair ruling 2)"},
- {"n":3,"what":"Bing relevance","detail":"unverified by the builder; the headless reader receives degraded results; verification is the Chair's spot-check (ruling 3)"},
- {"n":4,"what":"One composer on all 81 pages","detail":"market pages carry one byte-identical composer; consoles open the same composer through 'Open the composer'; send controls in the ruled order with Open in Outlook web added"},
- {"n":5,"what":"Console refusals removed","detail":"strict-eligibility, empty-source, Settings postal and Settings sender refusals removed from the console send gate (ruling 4); suppression and stop rule still refuse"},
- {"n":6,"what":"Postal line","detail":"Copy rich reads the stored Settings address; the Las Olas address is the stated fallback when it is empty"},
- {"n":7,"what":"Signer","detail":"Florida and Florida-expansion sign Edward; every other market signs Tim; hosted logo"},
- {"n":8,"what":"Parity build","detail":"54 market pages carry Florida's twelve columns, Florida's filter bar and Florida's full script set; Chicago's Flags renamed Notes; colspan section rows widened to twelve"},
- {"n":9,"what":"Florida fixed first","detail":"its Practice filter read .pr elements no cell carried (every row counted 'none'); derived cells now carry them; tier and status options derived from the rows, not typed"},
- {"n":10,"what":"Practice derived on all 54 pages","detail":"rule set published in florida-standard.json; Florida 148 of 150, florida-expansion 43 of 43 after 'for sale' (42 of 43 before); the basis line sits in every Practice header and above every table"},
- {"n":11,"what":"Chicago: five rows hold a cell with no column","detail":"SC Johnson, Pepper Construction, Power Construction, Bulley & Andrews, Leopardo Companies each carry a twelfth cell (a phone number) with no header; moving it would rewrite row data, so it is kept as found, marked 'no-column', for a ruling — the one deviation in the parity census"},
- {"n":12,"what":"Who we are, what we do","detail":"kept on its hotleads-repo address; repoints to dashriteadvisory.com the day that page is published there (ruling 5)"},
- {"n":13,"what":"Consoles keep their queue shape","detail":"day's-queue is the console's own Today view; the operator-panel limits are stated in the console composer section"},
- {"n":14,"what":"Pipeline layer performance","detail":"header lookup and row lookup cached; without it, large pages took longer than 8 seconds to load in the build's test"}
-]}
+{
+ "item": "371",
+ "date": "2026-11-03",
+ "base": "056f431",
+ "entries": [
+  {
+   "n": 1,
+   "what": "Google search links restored as Bing (11,372)",
+   "detail": "Find site 3,327 · Site (row-held matching domain) 31 · Owner: name + company 1,464 · Owner: company + city 4,027 · Owner: Blind 36 · search 2,303 · LinkedIn⌕ 184"
+  },
+  {
+   "n": 2,
+   "what": "Owner search Blind on 36 rows",
+   "detail": "no decision-maker name and no city on the row; a named acquisition target, not a link (Chair ruling 2)"
+  },
+  {
+   "n": 3,
+   "what": "Bing relevance",
+   "detail": "unverified by the builder; the headless reader receives degraded results; verification is the Chair's spot-check (ruling 3)"
+  },
+  {
+   "n": 4,
+   "what": "One composer on all 81 pages",
+   "detail": "market pages carry one byte-identical composer; consoles open the same composer through 'Open the composer'; send controls in the ruled order with Open in Outlook web added"
+  },
+  {
+   "n": 5,
+   "what": "Console refusals removed",
+   "detail": "strict-eligibility, empty-source, Settings postal and Settings sender refusals removed from the console send gate (ruling 4); suppression and stop rule still refuse"
+  },
+  {
+   "n": 6,
+   "what": "Postal line",
+   "detail": "Copy rich reads the stored Settings address; the Las Olas address is the stated fallback when it is empty"
+  },
+  {
+   "n": 7,
+   "what": "Signer",
+   "detail": "Florida and Florida-expansion sign Edward; every other market signs Tim; hosted logo"
+  },
+  {
+   "n": 8,
+   "what": "Parity build",
+   "detail": "54 market pages carry Florida's twelve columns, Florida's filter bar and Florida's full script set; Chicago's Flags renamed Notes; colspan section rows widened to twelve"
+  },
+  {
+   "n": 9,
+   "what": "Florida fixed first",
+   "detail": "its Practice filter read .pr elements no cell carried (every row counted 'none'); derived cells now carry them; tier and status options derived from the rows, not typed"
+  },
+  {
+   "n": 10,
+   "what": "Practice derived on all 54 pages",
+   "detail": "rule set published in florida-standard.json; Florida 148 of 150, florida-expansion 43 of 43 after 'for sale' (42 of 43 before); the basis line sits in every Practice header and above every table"
+  },
+  {
+   "n": 11,
+   "what": "Chicago: five no-column cells, measured then repaired or named",
+   "detail": "SC Johnson — phone (262) 260-2154, orphan 262-260-2000: a second number: orphan left as found (no column), number recorded in the row note; Pepper Construction — phone (312) 266-4700, orphan 312-266-4700: identical numbers: orphan deleted as a duplicate; Power Construction — phone (312) 596-6960, orphan 773-693-6000: a second number: orphan left as found (no column), number recorded in the row note; Bulley & Andrews — phone (773) 235-2433, orphan 773-235-2433: identical numbers: orphan deleted as a duplicate; Leopardo Companies — phone HQ line lookup needed — Hoffman Estates, orphan 847-783-3000: phone column holds no number: orphan moved into the phone column, twelfth cell removed"
+  },
+  {
+   "n": 12,
+   "what": "Who we are, what we do",
+   "detail": "kept on its hotleads-repo address; repoints to dashriteadvisory.com the day that page is published there (ruling 5)"
+  },
+  {
+   "n": 13,
+   "what": "Consoles keep their queue shape",
+   "detail": "day's-queue is the console's own Today view; the operator-panel limits are stated in the console composer section"
+  },
+  {
+   "n": 14,
+   "what": "Pipeline layer performance",
+   "detail": "header lookup and row lookup cached; without it, large pages took longer than 8 seconds to load in the build's test"
+  },
+  {
+   "n": 15,
+   "what": "An instrument that could not fail",
+   "detail": "Florida’s Practice filter looked for markers no cell carried, so every row read none and the filter passed while measuring nothing; found by measuring the cells themselves"
+  },
+  {
+   "n": 16,
+   "what": "The cost of an improvement, measured",
+   "detail": "the pipeline layer made large pages take over eight seconds to load; measured before shipping and fixed by caching the header and row lookups"
+  }
+ ]
+}
