@@ -587,8 +587,8 @@
   },
   {
    "label": "Founders 72 · Item 371 delivery — read on the delivered bytes",
-   "pass": 5,
-   "hold": 1,
+   "pass": 6,
+   "hold": 0,
    "blind": 65,
    "seats": [
     {
@@ -1026,9 +1026,9 @@
      "seat": 55,
      "name": "Whether a figure is shown honestly or merely shown",
      "weight": 10.0,
-     "reading": "Hold",
+     "reading": "Pass",
      "field": "a link drawn as working lands on content, and every cell sits under its column",
-     "why": "Hold pending the Chair’s spot-check, not a build: Bing relevance is unverified by the builder. Chicago: two rows keep a second number in a cell with no column, recorded in each row’s note."
+     "why": "Chair spot-check 3 Nov 2026: the Site link resolves to Lou Malnati’s own domain; the Find site search returns Shamrock Foods Phoenix first; the Blind owner row shows its reason, not a dead link; the Reyes owner search returns Reyes Holdings. Bing relevance verified by the Chair, not the builder. The two Chicago second-number rows stand as ruled."
     },
     {
      "seat": 56,

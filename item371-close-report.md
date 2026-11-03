@@ -3,7 +3,7 @@ DashRite Advisory LLC · 3 November 2026 · built on main at 72df625 (the Item 3
 
 ## Founders 72 (Dash `_councilRoster()`: 72 seats, 725.0)
 - Brief: 0 Pass · 5 Hold · 66 Blind · Chair.
-- Delivery: 5 Pass · 1 Hold · 65 Blind · Chair. #55 holds pending the Chair's spot-check, not a build: Bing relevance is unverified by the builder.
+- Delivery: 6 Pass · 0 Hold · 65 Blind · Chair. #55 cleared on the Chair's spot-check, 3 Nov 2026 (Site, Find site, Blind owner row and the Reyes owner search all checked by the Chair).
 
 ## Gate
 Head 72df625, raw pinned to the head plus a fresh clone: 629 of 629 files agree on bytes, git blob and SHA-256 (raw-plus-clone).

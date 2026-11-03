@@ -82,6 +82,11 @@
    "n": 16,
    "what": "The cost of an improvement, measured",
    "detail": "the pipeline layer made large pages take over eight seconds to load; measured before shipping and fixed by caching the header and row lookups"
+  },
+  {
+   "n": 17,
+   "what": "Chair rulings at the close",
+   "detail": "Leopardo stands as applied; SC Johnson and Power Construction keep their orphan cells marked no-column and recorded in the note, no twelfth column anywhere; #55 cleared on the Chair’s spot-check (Bing relevance verified by the Chair)"
   }
  ]
 }

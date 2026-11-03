@@ -1,60 +1,30 @@
 {
- "item": "371 (close)",
+ "item": "371 (close, verdict update)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "72df625",
+ "base": "cbc4c44",
  "date": "2026-11-03",
  "upload": "flat, all files to the repository root; delivery-manifest.json last",
  "files": [
   {
-   "file": "chicago.html",
-   "bytes": 543627,
-   "sha256": "a6a3d5f6923fd5f4db7fc5cf2230b9699b79e597870a7814830d56bb8a576878"
-  },
-  {
-   "file": "item371-build-record.json",
-   "bytes": 2001,
-   "sha256": "bf489ea116e08e29a5dbe5c2b3c2c710e953a70aeabd328c72c13f0f00849155"
-  },
-  {
    "file": "item371-close-report.md",
-   "bytes": 2130,
-   "sha256": "038899bb9c103110fade4294b2b42c881e234c0f88b7f4fb2d51b83fdc1966c2"
-  },
-  {
-   "file": "item371-e2e.json",
-   "bytes": 9411,
-   "sha256": "d6262f90657db62cd12352b448bb4850f75ab7e45a28b562b3a4a53cce0e213f"
+   "bytes": 2168,
+   "sha256": "f0091f21d62d3ca22749d05e57e637f037d552e6a644a8d365f75d9387145bc4"
   },
   {
    "file": "item371-founders72-verdicts.json",
-   "bytes": 28817,
-   "sha256": "74b1d8c44bd9c7bbb87f2ae9a3678f9b9ac95a5b1d04c8d3e45d266b86cd8fda"
-  },
-  {
-   "file": "item371-gate.json",
-   "bytes": 127980,
-   "sha256": "20e7711f9406259a5e6a05657c79179a114074f4cdf0fc5d2a5f10deae8d5f50"
-  },
-  {
-   "file": "item371-load-census.json",
-   "bytes": 5315,
-   "sha256": "724ea422f3996c21b27ab4c6661a879eae45a0926ba021179700ae67dfc5ffe6"
-  },
-  {
-   "file": "item371-parity-final.json",
-   "bytes": 7726,
-   "sha256": "1634f5bb6c75aad221c15f1c8350a44b16fe1716900756e691c0e4215a1b7880"
+   "bytes": 28974,
+   "sha256": "6238a7161605909b6260ec11b61f61a259488681669fb25b778a33f5944ca19e"
   },
   {
    "file": "item371-register.json",
-   "bytes": 4140,
-   "sha256": "3e1330b972d07f94da3aeec75609ec3aa23044d64f255605557c31bb406d0e1b"
+   "bytes": 4453,
+   "sha256": "4194999f6527ff0b595f84293fe2faa2d0f53400bf8803cbe381923ff8113245"
   },
   {
    "file": "delivery-manifest.json",
    "note": "upload last"
   }
  ],
- "count": 10
+ "count": 4
 }
