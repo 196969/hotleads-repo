@@ -1,0 +1,13 @@
+{
+ "gate": {
+  "first_touch_one_pager_only": "Copied ✓ paste into New mail",
+  "dialogs": [],
+  "first_touch_two_links_dialog": [
+   "Not copied: a first touch carries one link at most — this body has 2; untick resources until one remains"
+  ]
+ },
+ "suppressed_row": {
+  "held": true,
+  "title": "suppressed: unsubscribed"
+ }
+}

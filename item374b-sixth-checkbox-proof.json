@@ -1,0 +1,56 @@
+{
+ "florida.html": {
+  "initial_identical_to_374": true,
+  "tick_adds_one_line": true,
+  "line": "Who we are in Florida, on one page: https://196969.github.io/hotleads-repo/poster2-florida.html",
+  "untick_restores_exactly": true,
+  "all_six_each_once": {
+   "state-": 1,
+   "services.html": 1,
+   "quote.html": 1,
+   "Assessment.pdf": 1,
+   "who-we-are": 1,
+   "poster2-": 1
+  },
+  "untick_from_six_removes_only_it": true,
+  "hand_edit_survives_tick_untick": true,
+  "tone_then_tick": 1,
+  "rich_named_link": true
+ },
+ "arizona.html": {
+  "initial_identical_to_374": true,
+  "tick_adds_one_line": true,
+  "line": "Who we are in Arizona, on one page: https://196969.github.io/hotleads-repo/poster2-arizona.html",
+  "untick_restores_exactly": true,
+  "all_six_each_once": {
+   "state-": 1,
+   "services.html": 1,
+   "quote.html": 1,
+   "Assessment.pdf": 1,
+   "who-we-are": 1,
+   "poster2-": 1
+  },
+  "untick_from_six_removes_only_it": true,
+  "hand_edit_survives_tick_untick": true,
+  "tone_then_tick": 1,
+  "rich_named_link": true
+ },
+ "chicago-expansion.html": {
+  "initial_identical_to_374": true,
+  "tick_adds_one_line": true,
+  "line": "Who we are in Chicago, on one page: https://196969.github.io/hotleads-repo/poster2-chicago.html",
+  "untick_restores_exactly": true,
+  "all_six_each_once": {
+   "state-": 0,
+   "services.html": 1,
+   "quote.html": 1,
+   "Assessment.pdf": 1,
+   "who-we-are": 1,
+   "poster2-": 1
+  },
+  "untick_from_six_removes_only_it": true,
+  "hand_edit_survives_tick_untick": true,
+  "tone_then_tick": 1,
+  "rich_named_link": true
+ }
+}

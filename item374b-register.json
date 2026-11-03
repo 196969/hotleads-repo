@@ -1,0 +1,32 @@
+{
+ "item": "374b",
+ "date": "2026-11-03",
+ "base": "36dd6b8",
+ "entries": [
+  {
+   "n": 1,
+   "what": "An upload that delivered nothing",
+   "detail": "36dd6b8 was reported as the Item 374 upload. It changes no file against b0bb24b; the live delivery-manifest.json still reads Item 373 (9 of 9 hashes matching), and no item374 record is in the repository. A commit is not a delivery; the manifest check is. This package carries Item 374 and the sixth checkbox together."
+  },
+  {
+   "n": 2,
+   "what": "The sixth checkbox, built under the Chair’s ruling",
+   "detail": "“State Who We Are one-pager” links poster2-<market>.html (the first poster the removed First-touch link carried); expansion pages use their base market. Proved additive on florida, arizona and chicago-expansion: unticked, the body is identical to the Item 374 body; ticked, it adds one line once; unticked again, the body returns exactly; with a hand edit, the edit survives tick and untick; it survives a tone change; Copy rich names it “Who we are in your state, on one page”. It routes through the CAN-SPAM gate: alone on a first touch it copies, and with a second link the gate refuses."
+  },
+  {
+   "n": 3,
+   "what": "Known divergence: the one-pager is not on dashriteadvisory.com",
+   "detail": "All 27 poster2 pages answer 200 at 196969.github.io/hotleads-repo, and dashriteadvisory.com/poster1-arizona.html answers 404. The link keeps its hotleads address and repoints when the posters are published on the site, as “Who we are, what we do” does (Item 371, ruling 5)."
+  },
+  {
+   "n": 4,
+   "what": "Instruments that cannot fail — the family, by Chair ruling",
+   "detail": "The Item 374 visibility census, which scrolled vertically only and read horizontal off-screen as invisible (a confident zero), and its known-answer plant, which missed its own target, are registered at full weight beside Item 373 entry 19, the zero that counted itself."
+  },
+  {
+   "n": 5,
+   "what": "A reader matching a pattern rather than a property — fourth instance, by Chair ruling",
+   "detail": "The suppression block took the first non-Google, non-LinkedIn link as the company’s own site, and so read a Bing search as the company (Item 374 register entry 7). It is registered as the fourth instance of the family."
+  }
+ ]
+}

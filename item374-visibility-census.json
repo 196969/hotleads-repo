@@ -1,0 +1,64 @@
+{
+ "instrument": "headless Chromium; each row\u2019s Email control scrolled into view (block and inline centre); visible = non-zero box inside its row and cell, display not none, visibility not hidden, opacity at least 0.9, and the control itself returned by elementFromPoint at its centre; button = solid border and non-zero padding. clean = no suppression list in the browser; seeded = an empty suppression list loaded.",
+ "known_answer_test": "florida.html with three controls planted invisible (display none, opacity 0, covered): instrument read 147 of 150. The first planted cover missed its target and was re-planted; the test case was checked as well as the instrument.",
+ "before_b0bb24b": {
+  "clean 1440": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 0,
+   "button": 0,
+   "held": 6414
+  },
+  "clean 480": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 0,
+   "button": 0,
+   "held": 6414
+  },
+  "seeded 1440": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 6414,
+   "button": 0,
+   "held": 0
+  },
+  "seeded 480": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 6414,
+   "button": 0,
+   "held": 0
+  }
+ },
+ "after": {
+  "clean 1440": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 6414,
+   "button": 6414,
+   "held": 6414
+  },
+  "clean 480": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 6414,
+   "button": 6414,
+   "held": 6414
+  },
+  "seeded 1440": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 6414,
+   "button": 6414,
+   "held": 0
+  },
+  "seeded 480": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 6414,
+   "button": 6414,
+   "held": 0
+  }
+ }
+}

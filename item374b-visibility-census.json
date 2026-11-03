@@ -1,0 +1,33 @@
+{
+ "instrument": "as item374-visibility-census.json (both-axis scroll, opacity at least 0.9, hit test at centre; known-answer test 147 of 150)",
+ "final_bytes": {
+  "clean 1440": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 6414,
+   "button": 6414,
+   "held": 6414
+  },
+  "clean 480": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 6414,
+   "button": 6414,
+   "held": 6414
+  },
+  "seeded 1440": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 6414,
+   "button": 6414,
+   "held": 0
+  },
+  "seeded 480": {
+   "rows": 6414,
+   "present": 6414,
+   "visible": 6414,
+   "button": 6414,
+   "held": 0
+  }
+ }
+}
