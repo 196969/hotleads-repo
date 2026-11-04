@@ -1,0 +1,223 @@
+{
+ "instrument": "validate.py, unchanged, run per market file",
+ "passed": 54,
+ "of": 54,
+ "files": {
+  "arizona.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "arizona-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "california.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "california-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "chicago.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "chicago-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "colorado.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "colorado-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "florida.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "florida-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "georgia.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "georgia-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "illinois.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "illinois-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "indiana.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "indiana-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "iowa.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "iowa-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "kentucky.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "kentucky-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "las-vegas.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "las-vegas-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "michigan.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "michigan-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "minnesota.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "minnesota-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "missouri.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "missouri-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "new-jersey.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "new-jersey-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "new-york.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "new-york-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "north-carolina.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "north-carolina-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "ohio.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "ohio-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "oregon.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "oregon-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "pennsylvania.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "pennsylvania-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "south-carolina.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "south-carolina-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "tennessee.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "tennessee-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "texas.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "texas-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "utah.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "utah-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "virginia.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "virginia-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "washington.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "washington-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "wisconsin.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  },
+  "wisconsin-expansion.html": {
+   "exit": 0,
+   "last": "VALIDATOR PASSED"
+  }
+ }
+}
