@@ -10066,7 +10066,7 @@
  ],
  "practice_derivation": {
   "derived": "2026-11-03",
-  "statement": "Practice is derived 3 November 2026 by a rule set rebuilt from Florida's routed cells; the original derivation was never committed and cannot be re-run. The rule set was fitted to Florida, so Florida's own agreement is weak evidence. The independent reading is florida-expansion: 42 of 43 before the 'for sale' addition.",
+  "statement": "Practice reads from a dated signal line only: the criterion, its source, the date it was published and the date it was read. A row whose note mentions a signal but carries no dated line reads Blind; a row with no signal on it reads None.",
   "rules": {
    "order": [
     "Private Equity",
@@ -10106,6 +10106,57 @@
     "agree_after_for_sale": 43
    }
   },
-  "standing": "No further tuning. If a later page disagrees, the disagreement is recorded, not engineered away. The next session re-runs these rules; it does not refit them."
- }
+  "standing": "No further tuning. If a later page disagrees, the disagreement is recorded, not engineered away. The next session re-runs these rules; it does not refit them.",
+  "repair_2026_11_04": {
+   "ruled": "Chair, Item 379 ruling 3: the validator is right; the cells are the defect. Two permitted repairs, no third: a dated signal line read from a source, or strike the cell and record the row Blind. The validator is not touched.",
+   "applied": "277 typed Practice flags (137 Private Equity, 140 Acquisitions) on 36 of 54 market pages struck to Blind; no signal line was read in this pass. Validator 54 of 54, measured.",
+   "rule_set_keeps": "the rule set above still reads None on rows with no signal on them; it no longer writes a flag"
+  }
+ },
+ "declared_exclusions": {
+  "archives": {
+   "ruled": "Chair, Item 379 ruling 4",
+   "pages": "every <market>-archive.html (27)",
+   "statement": "Archive pages hold screened-out Tier C rows. They are not sending surfaces and carry no Email button and no composer by declaration; the operator-view guard and the validator do not read them.",
+   "open": "the archive header-date failures (26 of 27, including California’s “is withdrawn”) are their own item, not this exclusion"
+  }
+ },
+ "declared_exceptions": {
+  "florida_signer": {
+   "ruled": "Chair, Item 370; declared in Item 379 ruling 5",
+   "pages": [
+    "florida.html",
+    "florida-expansion.html"
+   ],
+   "statement": "Florida is Edward’s seat: both pages sign Edward Edick · Managing Partner, Portfolio Operations · EEdick@dashriteadvisory.com. Every other market signs Timothy A. Edick · TEdick@dashriteadvisory.com."
+  }
+ },
+ "register_item379": [
+  {
+   "n": 1,
+   "what": "The gate substitution",
+   "detail": "A builder’s own check reported as the gate. For four passes (Items 371–374) the instrument of record never ran, and the substitution was invisible precisely because the substitute passed. A gate you chose is not a gate.",
+   "standing_rule": "gate.py check must exit 0 or the pass does not close. A raw-plus-clone agreement is corroboration, never the gate. If gate.py cannot run, that is a stop, not a footnote."
+  },
+  {
+   "n": 2,
+   "what": "The manifest that broke the gate",
+   "detail": "From Item 371 the delivery manifest listed files as objects; gate.py STOP 1 expects names and crashed (exit 1). The manifest is restored to the list-of-names form; gate.py is not widened."
+  },
+  {
+   "n": 3,
+   "what": "Typed Practice flags — a regression the validator named",
+   "detail": "Item 371 wrote 277 Practice flags derived from row text with no dated signal line; the validator fell from 54 of 54 (056f431) to 18 of 54 (72df625) and no proof list of mine ran it. All 277 are struck to Blind; validator 54 of 54."
+  },
+  {
+   "n": 4,
+   "what": "Archives declared, not divergent",
+   "detail": "Written into declared_exclusions; the guard’s scope says so."
+  },
+  {
+   "n": 5,
+   "what": "Florida’s signer declared",
+   "detail": "Written into declared_exceptions; parity reads 27 of 27."
+  }
+ ]
 }
