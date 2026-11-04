@@ -1,0 +1,1460 @@
+[
+ {
+  "page": "arizona.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "arizona-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "california.html",
+  "surface": "market",
+  "email_controls": 112,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "california-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "chicago.html",
+  "surface": "market",
+  "email_controls": 238,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "row withheld and Copy rich refused",
+  "planted_row_withheld": true,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "chicago-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "colorado.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "colorado-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "florida.html",
+  "surface": "market",
+  "email_controls": 150,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "row withheld and Copy rich refused",
+  "planted_row_withheld": true,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "florida-expansion.html",
+  "surface": "market",
+  "email_controls": 43,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "georgia.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "georgia-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "illinois.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "row withheld and Copy rich refused",
+  "planted_row_withheld": true,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "illinois-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "indiana.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "indiana-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "iowa.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "iowa-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "kentucky.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "kentucky-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "las-vegas.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "las-vegas-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "michigan.html",
+  "surface": "market",
+  "email_controls": 149,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "michigan-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "minnesota.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "minnesota-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "missouri.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "missouri-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "new-jersey.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "new-jersey-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "new-york.html",
+  "surface": "market",
+  "email_controls": 126,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "new-york-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "north-carolina.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "north-carolina-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "ohio.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "ohio-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "oregon.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "oregon-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "pennsylvania.html",
+  "surface": "market",
+  "email_controls": 158,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "pennsylvania-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "south-carolina.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "south-carolina-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "tennessee.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "tennessee-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "texas.html",
+  "surface": "market",
+  "email_controls": 138,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "texas-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "utah.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "utah-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "virginia.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "virginia-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "washington.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "washington-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "wisconsin.html",
+  "surface": "market",
+  "email_controls": 200,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "wisconsin-expansion.html",
+  "surface": "market",
+  "email_controls": 50,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused (no row on this page carries an address)",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-arizona.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-california.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-chicago.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-colorado.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-florida.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-georgia.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-illinois.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-indiana.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-iowa.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-kentucky.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-las-vegas.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-michigan.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-minnesota.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-missouri.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-new-jersey.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-new-york.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-north-carolina.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-ohio.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-oregon.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-pennsylvania.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-south-carolina.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-tennessee.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-texas.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-utah.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-virginia.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-washington.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ },
+ {
+  "page": "console-wisconsin.html",
+  "surface": "console",
+  "email_controls": null,
+  "locked_both_removed": true,
+  "unlocked_published_alone": true,
+  "unlocked_local_alone": true,
+  "planted_refused_every_route": true,
+  "planted_route": "Copy rich refused in the console composer",
+  "planted_row_withheld": null,
+  "merge_both": {
+   "p": "1",
+   "l": "1",
+   "m": "1"
+  },
+  "picker": true,
+  "page_errors": 0
+ }
+]
