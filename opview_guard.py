@@ -1,7 +1,8 @@
 """Operator-view guard (Item 359, 2026-11-01). A figure on the operator view stands alone: its derivation, its history and the
 figures it replaced live in the standard. Fails if the rendered text of the page chrome carries any of the patterns below.
 Scope: all of index.html and console-*.html; on market pages, everything outside the row tables (a row's own dated source
-lines stay — they are evidence, governed by validate.py, not operator narrative)."""
+lines stay — they are evidence, governed by validate.py, not operator narrative). Archive pages (*-archive.html) are excluded by
+declaration: they hold screened-out Tier C rows and are neither sending nor operator surfaces (florida-standard.json, declared_exclusions)."""
 import re,sys,html,glob,os
 PAT=[('Item ###',re.compile(r'\bItem \d{3}')),('at the close of',re.compile(r'at the close of',re.I)),('at head ',re.compile(r'\bat head ',re.I)),
      ('is withdrawn',re.compile(r'\bis withdrawn',re.I)),('is retired',re.compile(r'\bis retired',re.I)),('re-measured',re.compile(r'\bre-measured',re.I)),
