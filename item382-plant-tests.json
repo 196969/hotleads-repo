@@ -1,0 +1,14 @@
+{
+ "as recorded": {
+  "stop3_clear": true,
+  "printed": "STOP 3 \u00b7 reader plants 5 of 5 as expected \u00b7 failed []"
+ },
+ "a reader that refuses every site": {
+  "stop3_clear": false,
+  "printed": "STOP 3 \u00b7 reader plants 0 of 5 as expected \u00b7 failed ['zirklefruit.com for Zirkle Fruit Company', 'elliottelectric.com for Elliott Electric Supply', 'watts.com for Watts Water Technologies', 'nutrition.gov for Nutrition Industries', 'accurate.com for Accurate Box Company']"
+ },
+ "a reader that passes every site": {
+  "stop3_clear": false,
+  "printed": "STOP 3 \u00b7 reader plants 2 of 5 as expected \u00b7 failed ['watts.com for Watts Water Technologies', 'nutrition.gov for Nutrition Industries', 'accurate.com for Accurate Box Company']"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "florida": {
+  "buttons_before_load": [
+   150,
+   150,
+   "Email — held: suppression list not loaded"
+  ],
+  "buttons_after_load": [
+   150,
+   0
+  ],
+  "composer": {
+   "checkboxes": 6,
+   "copyRich": true,
+   "copySubject": true,
+   "copyTo": true,
+   "sigTail": "teadvisory.com · dashriteadvisory.com\nR-espect · I-ntegrity · T-eamwork · E-xcellence - The Dash starts now!\nDashRite Advisory LLC · 1314 E Las Olas Blvd, Suite 2608, Fort Lauderdale, FL 33301\nTo stop these messages, reply STOP — honoured at once and recorded.",
+   "addrs": [
+    "EEdick@dashriteadvisory.com"
+   ]
+  },
+  "expected_signer": "EEdick@dashriteadvisory.com",
+  "signer_ok": true
+ },
+ "arizona": {
+  "buttons_before_load": [
+   200,
+   200,
+   "Email — held: suppression list not loaded"
+  ],
+  "buttons_after_load": [
+   200,
+   0
+  ],
+  "composer": {
+   "checkboxes": 6,
+   "copyRich": true,
+   "copySubject": true,
+   "copyTo": true,
+   "sigTail": "teadvisory.com · dashriteadvisory.com\nR-espect · I-ntegrity · T-eamwork · E-xcellence - The Dash starts now!\nDashRite Advisory LLC · 1314 E Las Olas Blvd, Suite 2608, Fort Lauderdale, FL 33301\nTo stop these messages, reply STOP — honoured at once and recorded.",
+   "addrs": [
+    "TEdick@dashriteadvisory.com"
+   ]
+  },
+  "expected_signer": "TEdick@dashriteadvisory.com",
+  "signer_ok": true
+ },
+ "texas": {
+  "buttons_before_load": [
+   138,
+   138,
+   "Email — held: suppression list not loaded"
+  ],
+  "buttons_after_load": [
+   138,
+   0
+  ],
+  "composer": {
+   "checkboxes": 6,
+   "copyRich": true,
+   "copySubject": true,
+   "copyTo": true,
+   "sigTail": "teadvisory.com · dashriteadvisory.com\nR-espect · I-ntegrity · T-eamwork · E-xcellence - The Dash starts now!\nDashRite Advisory LLC · 1314 E Las Olas Blvd, Suite 2608, Fort Lauderdale, FL 33301\nTo stop these messages, reply STOP — honoured at once and recorded.",
+   "addrs": [
+    "TEdick@dashriteadvisory.com"
+   ]
+  },
+  "expected_signer": "TEdick@dashriteadvisory.com",
+  "signer_ok": true
+ }
+}

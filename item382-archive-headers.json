@@ -1,0 +1,141 @@
+{
+ "arizona-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "california-archive.html": {
+  "before": "200 companies · FILE CLOSED: every row dispositioned · 99 Verified (98 A + 1 B) · 101 Downgraded/Closed · 0 pending · Tier A 98 · B 14 · C 88 · Updated 26 August 2026 (residue resolved)",
+  "after": "Archive — rows screened out of this market’s working file. 88 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 88,
+  "sentence": {
+   "before": "the family-repurchase thread did not survive verification and is withdrawn.",
+   "after": "the family-repurchase thread did not survive verification and is not carried."
+  }
+ },
+ "chicago-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "colorado-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "florida-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 48 companies. Not worked. Updated 28 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 51 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 51
+ },
+ "georgia-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "illinois-archive.html": {
+  "before": "Archive — Tier C (screened out: public, PE, foreign-parent, co-op, out-of-state, or out-of-band). 48 companies. Not worked. Updated 31 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "indiana-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, foreign, co-op, or out-of-band). 48 companies. Not worked. Updated 31 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "iowa-archive.html": {
+  "before": "Working list — build in progress toward 200. Family/owner-led mid-market, weighted Manufacturing + Food. 48 Tier C — public, PE, foreign-parent, co-op, ESOP, out-of-state, or out-of-band. Screened out of the working list. Updated 31 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "kentucky-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, foreign, co-op, or out-of-band). 48 companies. Not worked. Updated 31 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "las-vegas-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "michigan-archive.html": {
+  "before": "200 companies · 113 verified decision-makers · Tier A 145 · B 20 · C 35 · Verification pass complete 26 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 51 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 51
+ },
+ "minnesota-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, co-op, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "missouri-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, co-op, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "new-jersey-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, foreign, co-op, or out-of-band). 48 companies. Not worked. Updated 31 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "new-york-archive.html": {
+  "before": "200 companies · Pass closed 26 Aug 2026 (B/C tail closeout) · 129 verified · 68 downgraded/disqualified · 3 research pending · Tier A 104 · B 22 · C 74",
+  "after": "Archive — rows screened out of this market’s working file. 74 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 74
+ },
+ "north-carolina-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "ohio-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "oregon-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, co-op, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "pennsylvania-archive.html": {
+  "before": "42 archived (Tier C — not worked: publics, ESOPs, out-of-state parents, acquired, duplicates) · Pennsylvania — companion to pennsylvania.html",
+  "after": "Archive — rows screened out of this market’s working file. 42 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 42
+ },
+ "south-carolina-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, foreign, co-op, or out-of-band). 48 companies. Not worked. Updated 31 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "tennessee-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, foreign, co-op, or out-of-band). 48 companies. Not worked. Updated 31 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "texas-archive.html": {
+  "before": "200 companies · FILE CLOSED 26 Aug 2026 · 47 Verified (Tier A) · 108 Downgraded/Closed · 45 Tier-B rows parked by rule (Texas protocol) · Tier A 48 · B 90 · C 62 · GUARD NOTE: prior header read \"49 verified\" against an actual 48 — off by one before this pass; corrected",
+  "after": "Archive — rows screened out of this market’s working file. 62 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 62
+ },
+ "utah-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, foreign, co-op, church-owned, or out-of-band). 48 companies. Not worked. Updated 31 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "virginia-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, foreign, co-op, or out-of-band). 48 companies. Not worked. Updated 31 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "washington-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, or out-of-band). 48 companies. Not worked. Updated 30 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ },
+ "wisconsin-archive.html": {
+  "before": "Archive — Tier C (screened out: out-of-state, PE/public, acquired, foreign, co-op, or out-of-band). 48 companies. Not worked. Updated 31 August 2026",
+  "after": "Archive — rows screened out of this market’s working file. 48 companies. Not worked, and not a sending surface. Figures measured 4 Nov 2026",
+  "rows": 48
+ }
+}

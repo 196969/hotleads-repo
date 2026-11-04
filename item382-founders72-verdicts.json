@@ -1,0 +1,1172 @@
+{
+ "item": "382",
+ "roster": "Dash _councilRoster() on branch: 72 seats, 725.0",
+ "verdicts": [
+  {
+   "label": "Founders 72 · Item 382 brief — read on 8d472d4",
+   "pass": 3,
+   "hold": 3,
+   "blind": 65,
+   "seats": [
+    {
+     "seat": 1,
+     "name": "Timothy A. Edick",
+     "weight": 15.0,
+     "reading": "Chair",
+     "field": "decides last"
+    },
+    {
+     "seat": 2,
+     "name": "David Boies",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 3,
+     "name": "Martin Lipton",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 4,
+     "name": "Sir David Tweedie",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 5,
+     "name": "Lynn Turner",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 6,
+     "name": "Capital",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 7,
+     "name": "Mindset",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 8,
+     "name": "Velocity",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 9,
+     "name": "Platform",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 10,
+     "name": "Truth",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 11,
+     "name": "Distribution",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 12,
+     "name": "Frontier",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 13,
+     "name": "People, process, product",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 14,
+     "name": "Sell and protect",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 15,
+     "name": "Sales cures all",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 16,
+     "name": "Cash scoreboard",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 17,
+     "name": "Learn-it-all",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 18,
+     "name": "Software leverage",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 19,
+     "name": "User-first platform",
+     "weight": 10.0,
+     "reading": "Hold",
+     "field": "the operator can use the Email control",
+     "why": "in a browser with no list loaded every button is held; the held label names the condition, not the remedy"
+    },
+    {
+     "seat": 20,
+     "name": "Contained companion",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 21,
+     "name": "Trust by design",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 22,
+     "name": "Front line first",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 23,
+     "name": "Day 1 customer",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 24,
+     "name": "Client interest first",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 25,
+     "name": "Reusable frameworks",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 26,
+     "name": "Grow on collected cash",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 27,
+     "name": "Think straight, talk straight",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 28,
+     "name": "The experience is the product",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 29,
+     "name": "Fewer, done perfectly",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 30,
+     "name": "Density is the moat",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 31,
+     "name": "The standard unit",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 32,
+     "name": "Too smooth to be real",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 33,
+     "name": "Follow the entry",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 34,
+     "name": "Working identity",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 35,
+     "name": "The market decides",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 36,
+     "name": "Expose the waste",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 37,
+     "name": "Output per person",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 38,
+     "name": "Recognition scales",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 39,
+     "name": "Count the calls",
+     "weight": 10.0,
+     "reading": "Pass",
+     "field": "a calls-due count read from the rows",
+     "why": "unchanged"
+    },
+    {
+     "seat": 40,
+     "name": "One true thing",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 41,
+     "name": "As little as possible",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 42,
+     "name": "Sell direct, customer funds growth",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 43,
+     "name": "Hard roadmap, kept for years",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 44,
+     "name": "Serve the badly served, bet small",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 45,
+     "name": "Rejection is data",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 46,
+     "name": "The audience is the hero",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 47,
+     "name": "Attention is the only asset",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 48,
+     "name": "Entered once, read everywhere",
+     "weight": 10.0,
+     "reading": "Pass",
+     "field": "one implementation, read on every page",
+     "why": "parity zero deviations on 8d472d4"
+    },
+    {
+     "seat": 49,
+     "name": "Price the risk, say no",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 50,
+     "name": "A shipment is a document first",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 51,
+     "name": "Execution before preparation",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 52,
+     "name": "Tax position, elections, and what survives examination",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 53,
+     "name": "The moment of truth — the encounter that earns the next one",
+     "weight": 10.0,
+     "reading": "Hold",
+     "field": "the instrument of record runs and exits 0",
+     "why": "gate.py check exit 4: STOP 3, watts.com"
+    },
+    {
+     "seat": 54,
+     "name": "Hiring on evidence, paying for contribution, proving the process",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 55,
+     "name": "Whether a figure is shown honestly or merely shown",
+     "weight": 10.0,
+     "reading": "Hold",
+     "field": "every header figure is a measured figure, dated as such",
+     "why": "26 of 27 archive headers carry a date not marked as the measurement date; California’s chrome says “is withdrawn”"
+    },
+    {
+     "seat": 56,
+     "name": "The last planner — whether a schedule was committed to or only published",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 57,
+     "name": "Variation is the enemy, and the process owns the defect",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 58,
+     "name": "Scope, baseline and earned value — maturity over heroics",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 59,
+     "name": "The unit must run identically without the founder in it",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 60,
+     "name": "Landed cost is the only cost — ocean, air, duty, and the law that moves them",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 61,
+     "name": "AI governance to a published standard, in every state",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 62,
+     "name": "Peter Drucker",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 63,
+     "name": "David Maister",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 64,
+     "name": "Ron Baker",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 65,
+     "name": "Fred Reichheld",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 66,
+     "name": "John Warrillow",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 67,
+     "name": "Eliyahu Goldratt",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 68,
+     "name": "Chris Voss",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 69,
+     "name": "Bruce Schneier",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 70,
+     "name": "John C. Bogle",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 71,
+     "name": "Thomas S. Murphy",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 72,
+     "name": "Hui Chen",
+     "weight": 10.0,
+     "reading": "Pass",
+     "field": "no address is constructed",
+     "why": "unchanged"
+    }
+   ]
+  },
+  {
+   "label": "Founders 72 · Item 382 delivery — read on the delivered bytes",
+   "pass": 5,
+   "hold": 1,
+   "blind": 65,
+   "seats": [
+    {
+     "seat": 1,
+     "name": "Timothy A. Edick",
+     "weight": 15.0,
+     "reading": "Chair",
+     "field": "decides last"
+    },
+    {
+     "seat": 2,
+     "name": "David Boies",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 3,
+     "name": "Martin Lipton",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 4,
+     "name": "Sir David Tweedie",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 5,
+     "name": "Lynn Turner",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 6,
+     "name": "Capital",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 7,
+     "name": "Mindset",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 8,
+     "name": "Velocity",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 9,
+     "name": "Platform",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 10,
+     "name": "Truth",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 11,
+     "name": "Distribution",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 12,
+     "name": "Frontier",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 13,
+     "name": "People, process, product",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 14,
+     "name": "Sell and protect",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 15,
+     "name": "Sales cures all",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 16,
+     "name": "Cash scoreboard",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 17,
+     "name": "Learn-it-all",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 18,
+     "name": "Software leverage",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 19,
+     "name": "User-first platform",
+     "weight": 10.0,
+     "reading": "Hold",
+     "field": "the operator can use the Email control",
+     "why": "the held label still names the condition, not the remedy: §2 not built, because the held state is inside the frozen email layer (§0A)"
+    },
+    {
+     "seat": 20,
+     "name": "Contained companion",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 21,
+     "name": "Trust by design",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 22,
+     "name": "Front line first",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 23,
+     "name": "Day 1 customer",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 24,
+     "name": "Client interest first",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 25,
+     "name": "Reusable frameworks",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 26,
+     "name": "Grow on collected cash",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 27,
+     "name": "Think straight, talk straight",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 28,
+     "name": "The experience is the product",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 29,
+     "name": "Fewer, done perfectly",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 30,
+     "name": "Density is the moat",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 31,
+     "name": "The standard unit",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 32,
+     "name": "Too smooth to be real",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 33,
+     "name": "Follow the entry",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 34,
+     "name": "Working identity",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 35,
+     "name": "The market decides",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 36,
+     "name": "Expose the waste",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 37,
+     "name": "Output per person",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 38,
+     "name": "Recognition scales",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 39,
+     "name": "Count the calls",
+     "weight": 10.0,
+     "reading": "Pass",
+     "field": "a calls-due count read from the rows",
+     "why": "unchanged"
+    },
+    {
+     "seat": 40,
+     "name": "One true thing",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 41,
+     "name": "As little as possible",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 42,
+     "name": "Sell direct, customer funds growth",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 43,
+     "name": "Hard roadmap, kept for years",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 44,
+     "name": "Serve the badly served, bet small",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 45,
+     "name": "Rejection is data",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 46,
+     "name": "The audience is the hero",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 47,
+     "name": "Attention is the only asset",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 48,
+     "name": "Entered once, read everywhere",
+     "weight": 10.0,
+     "reading": "Pass",
+     "field": "one implementation, read on every page",
+     "why": "parity zero deviations; all 54 market pages and 27 consoles byte-identical to live"
+    },
+    {
+     "seat": 49,
+     "name": "Price the risk, say no",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 50,
+     "name": "A shipment is a document first",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 51,
+     "name": "Execution before preparation",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 52,
+     "name": "Tax position, elections, and what survives examination",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 53,
+     "name": "The moment of truth — the encounter that earns the next one",
+     "weight": 10.0,
+     "reading": "Pass",
+     "field": "the instrument of record runs and exits 0",
+     "why": "gate.py check on a local commit of these bytes: STOP 1, 2 and 3 clear, exit 0; a refusing reader and a passing reader are each rejected"
+    },
+    {
+     "seat": 54,
+     "name": "Hiring on evidence, paying for contribution, proving the process",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 55,
+     "name": "Whether a figure is shown honestly or merely shown",
+     "weight": 10.0,
+     "reading": "Pass",
+     "field": "every header figure is a measured figure, dated as such",
+     "why": "27 of 27 archive headers read their own row count, measured 4 Nov 2026; California’s sentence reworded"
+    },
+    {
+     "seat": 56,
+     "name": "The last planner — whether a schedule was committed to or only published",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 57,
+     "name": "Variation is the enemy, and the process owns the defect",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 58,
+     "name": "Scope, baseline and earned value — maturity over heroics",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 59,
+     "name": "The unit must run identically without the founder in it",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 60,
+     "name": "Landed cost is the only cost — ocean, air, duty, and the law that moves them",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 61,
+     "name": "AI governance to a published standard, in every state",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 62,
+     "name": "Peter Drucker",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 63,
+     "name": "David Maister",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 64,
+     "name": "Ron Baker",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 65,
+     "name": "Fred Reichheld",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 66,
+     "name": "John Warrillow",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 67,
+     "name": "Eliyahu Goldratt",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 68,
+     "name": "Chris Voss",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 69,
+     "name": "Bruce Schneier",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 70,
+     "name": "John C. Bogle",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 71,
+     "name": "Thomas S. Murphy",
+     "weight": 10.0,
+     "reading": "Blind",
+     "field": "no ground defined for this item",
+     "why": "by rule"
+    },
+    {
+     "seat": 72,
+     "name": "Hui Chen",
+     "weight": 10.0,
+     "reading": "Pass",
+     "field": "no address is constructed",
+     "why": "unchanged"
+    }
+   ]
+  }
+ ]
+}
