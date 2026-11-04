@@ -6,6 +6,7 @@ Exit 0  all three integrity stops clear (the gate never prints a pass slogan; it
 Exit 2  STOP 1 — delivered-vs-committed file-count shortfall (delivery-manifest.json against the commit)
 Exit 3  STOP 2 — validator below 54 of 54 market files
 Exit 4  STOP 3 — a reader failed its own proof plant (reader-plants.json)
+Exit 5  STOP 4 — the plain suppression file is not empty (suppression.json): the hashed route is required once any entry exists
 Everything else is reported and does not halt.
 """
 import sys, os, json, subprocess, hashlib, glob, urllib.request, time
@@ -39,6 +40,24 @@ def stop3():
     print(f"STOP 3 · reader plants {len(P['plants']) - len(bad)} of {len(P['plants'])} as expected · failed {bad}")
     return not bad
 
+def stop4():
+    # Item 381-G (2026-11-04): under the ruled route the plain published list may only ever be empty.
+    # A non-empty plain file is a refusal, not a warning; the message names the route, not only the fault.
+    ROUTE = 'plain suppression file carries a readable address; the hashed route is required once any entry exists'
+    if not os.path.exists('suppression.json'):
+        print('STOP 4 · suppression.json not present · nothing published, nothing exposed'); return True
+    try:
+        S = json.load(open('suppression.json', encoding='utf-8'))
+    except Exception as e:
+        print(f'STOP 4 · suppression.json does not parse ({e}) · it cannot be shown to carry no address · refused'); return False
+    E = S.get('entries') if isinstance(S, dict) else None
+    if not isinstance(E, list):
+        print('STOP 4 · suppression.json has no entries array · it cannot be shown to carry no address · refused'); return False
+    clear = [i for i, e in enumerate(E) if isinstance(e, dict) and any(isinstance(e.get(k), str) and e.get(k).strip() for k in ('address', 'domain'))]
+    why = ROUTE if clear else 'plain suppression file is not empty; the hashed route is required once any entry exists'
+    print(f"STOP 4 · suppression.json entries {len(E)} · in the clear {len(clear)}" + ('' if not E else f' · refused: {why}'))
+    return len(E) == 0
+
 def report_hashes():
     head = sh('git', 'rev-parse', 'HEAD').strip()
     files = sh('git', 'ls-files').split(); bad = 0
@@ -56,5 +75,6 @@ if __name__ == '__main__':
     if not stop1(since): sys.exit(2)
     if not stop2(): sys.exit(3)
     if not stop3(): sys.exit(4)
+    if not stop4(): sys.exit(5)
     if '--hashes' in sys.argv: report_hashes()
-    print('integrity stops clear: 3 of 3 (measurements above)')
+    print('integrity stops clear: 4 of 4 (measurements above)')

@@ -1,8 +1,8 @@
 {
- "item": "372-HL",
+ "item": "381-G",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "4fb0e05",
+ "base": "ffa4e93",
  "date": "2026-11-04",
  "files": [
   "arizona-expansion.html",
@@ -43,6 +43,7 @@
   "delivery-manifest.json",
   "florida-expansion.html",
   "florida.html",
+  "gate.py",
   "georgia-expansion.html",
   "georgia.html",
   "illinois-expansion.html",
@@ -51,14 +52,16 @@
   "indiana.html",
   "iowa-expansion.html",
   "iowa.html",
-  "item372hl-e2e.json",
-  "item372hl-founders72-verdicts.json",
-  "item372hl-load-census.json",
-  "item372hl-parity.json",
-  "item372hl-proof-raw.json",
-  "item372hl-proof-table.json",
-  "item372hl-report.md",
-  "item372hl-reversal.json",
+  "item381g-e2e.json",
+  "item381g-founders72-verdicts.json",
+  "item381g-load-census.json",
+  "item381g-parity.json",
+  "item381g-proof-raw.json",
+  "item381g-proof-table.json",
+  "item381g-register.json",
+  "item381g-report.md",
+  "item381g-reversal.json",
+  "item381g-stop4-known-answers.json",
   "kentucky-expansion.html",
   "kentucky.html",
   "las-vegas-expansion.html",
@@ -83,7 +86,6 @@
   "pennsylvania.html",
   "south-carolina-expansion.html",
   "south-carolina.html",
-  "suppression.json",
   "tennessee-expansion.html",
   "tennessee.html",
   "texas-expansion.html",
@@ -97,5 +99,5 @@
   "wisconsin-expansion.html",
   "wisconsin.html"
  ],
- "count": 91
+ "count": 93
 }
