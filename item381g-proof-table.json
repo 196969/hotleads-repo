@@ -1,0 +1,812 @@
+[
+ {
+  "page": "arizona.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "arizona-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "california.html",
+  "email_controls": 112,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "california-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "chicago.html",
+  "email_controls": 238,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "chicago-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "colorado.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "colorado-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "florida.html",
+  "email_controls": 150,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "florida-expansion.html",
+  "email_controls": 43,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "georgia.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "georgia-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "illinois.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "illinois-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "indiana.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "indiana-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "iowa.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "iowa-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "kentucky.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "kentucky-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "las-vegas.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "las-vegas-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "michigan.html",
+  "email_controls": 149,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "michigan-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "minnesota.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "minnesota-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "missouri.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "missouri-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "new-jersey.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "new-jersey-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "new-york.html",
+  "email_controls": 126,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "new-york-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "north-carolina.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "north-carolina-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "ohio.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "ohio-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "oregon.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "oregon-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "pennsylvania.html",
+  "email_controls": 158,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "pennsylvania-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "south-carolina.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "south-carolina-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "tennessee.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "tennessee-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "texas.html",
+  "email_controls": 138,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "texas-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "utah.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "utah-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "virginia.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "virginia-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "washington.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "washington-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "wisconsin.html",
+  "email_controls": 200,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "wisconsin-expansion.html",
+  "email_controls": 50,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-arizona.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-california.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-chicago.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-colorado.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-florida.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-georgia.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-illinois.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-indiana.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-iowa.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-kentucky.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-las-vegas.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-michigan.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-minnesota.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-missouri.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-new-jersey.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-new-york.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-north-carolina.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-ohio.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-oregon.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-pennsylvania.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-south-carolina.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-tennessee.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-texas.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-utah.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-virginia.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-washington.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ },
+ {
+  "page": "console-wisconsin.html",
+  "email_controls": null,
+  "plain_no_local_held": true,
+  "trigger_case_held": true,
+  "refusal_names_route": true,
+  "empty_published_unlocks": true,
+  "local_optout_still_refused": true,
+  "errors": 0
+ }
+]

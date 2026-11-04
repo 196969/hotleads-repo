@@ -1,0 +1,37 @@
+{
+ "empty, as published": {
+  "expected_clear": true,
+  "clear": true,
+  "printed": "STOP 4 \u00b7 suppression.json entries 0 \u00b7 in the clear 0"
+ },
+ "one address in the clear": {
+  "expected_clear": false,
+  "clear": false,
+  "printed": "STOP 4 \u00b7 suppression.json entries 1 \u00b7 in the clear 1 \u00b7 refused: plain suppression file carries a readable address; the hashed route is required once any entry exists"
+ },
+ "one domain in the clear": {
+  "expected_clear": false,
+  "clear": false,
+  "printed": "STOP 4 \u00b7 suppression.json entries 1 \u00b7 in the clear 1 \u00b7 refused: plain suppression file carries a readable address; the hashed route is required once any entry exists"
+ },
+ "one entry with no address or domain": {
+  "expected_clear": false,
+  "clear": false,
+  "printed": "STOP 4 \u00b7 suppression.json entries 1 \u00b7 in the clear 0 \u00b7 refused: plain suppression file is not empty; the hashed route is required once any entry exists"
+ },
+ "no entries array": {
+  "expected_clear": false,
+  "clear": false,
+  "printed": "STOP 4 \u00b7 suppression.json has no entries array \u00b7 it cannot be shown to carry no address \u00b7 refused"
+ },
+ "does not parse": {
+  "expected_clear": false,
+  "clear": false,
+  "printed": "STOP 4 \u00b7 suppression.json does not parse (Expecting value: line 1 column 13 (char 12)) \u00b7 it cannot be shown to carry no address \u00b7 refused"
+ },
+ "absent": {
+  "expected_clear": true,
+  "clear": true,
+  "printed": "STOP 4 \u00b7 suppression.json not present \u00b7 nothing published, nothing exposed"
+ }
+}
