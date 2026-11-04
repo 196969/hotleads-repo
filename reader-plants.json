@@ -1,130 +1,206 @@
 {
- "date": "2026-11-01",
- "reader": "amended reader on the Firecrawl fetch layer",
- "reads": 2,
- "plain_fetch_plants": [
-  {
-   "plant": "watts.com for Watts Water Technologies",
-   "expected": "pass",
-   "domain": "shorter anchor: leading label starts with the first distinctive word",
-   "page_read": false,
-   "page_names_company": null,
-   "result": "refused"
-  },
-  {
-   "plant": "nutrition.gov for Nutrition Industries",
-   "expected": "fail (domain exclusion)",
-   "domain": "domain exclusion (.gov/.edu/.mil)",
-   "page_read": false,
-   "result": "fail (domain exclusion)"
-  },
-  {
-   "plant": "accurate.com for Accurate Box Company",
-   "expected": "fail (page test)",
-   "domain": "shorter anchor: leading label starts with the first distinctive word",
-   "page_read": true,
-   "page_names_company": false,
-   "result": "fail (page test)"
-  }
- ],
- "plain_fetch_verdict": "FAILED \u2014 plant 1 refused on a plain fetch; integrity stop 3 fired for the plain-fetch reader, which spends no reads in this pass",
- "plants": [
-  {
-   "plant": "watts.com for Watts Water Technologies",
-   "expected": "pass",
-   "page_test": "fail \u2014 read 200; the page calls the company \u201cWatts\u201d",
-   "corroboration": {
-    "SEC filing": "read the 10-K filed 2026-02-23 (https://www.sec.gov/Archives/edgar/data/795403/000110465926018541/wts-20251231x10k.htm): names Watts Water Technologies, never mentions watts.com; the SEC submissions record\u2019s website field is empty",
-    "structured data": "read watts.com JSON-LD (1 block): names ['Watts', 'Watts Llc', 'Joseph E. Watts'] \u2014 not the legal entity",
-    "registry entry": "not available to this reader (no registry seed on disk)"
-   },
-   "result": "fail"
-  },
-  {
-   "plant": "nutrition.gov for Nutrition Industries",
-   "expected": "fail (domain exclusion)",
-   "result": "fail (domain exclusion)"
-  },
-  {
-   "plant": "accurate.com for Accurate Box Company",
-   "expected": "fail (page test)",
-   "result": "fail (page test)"
-  }
- ],
- "history": [
-  {
-   "date": "2026-11-01",
-   "ruling": "first run (Item 349): watts.com failed the full-name page test on body text; integrity stop 3 fired",
-   "plants": [
+  "date": "2026-11-04",
+  "reader": "amended reader on the Firecrawl fetch layer",
+  "reads": 2,
+  "plain_fetch_plants": [
     {
-     "plant": "watts.com for Watts Water Technologies",
-     "expected": "pass",
-     "reader": "amended reader on Firecrawl",
-     "domain": "shorter anchor: leading label starts with the first distinctive word",
-     "status": 200,
-     "page_names_company": false,
-     "result": "fail",
-     "depth_followed": [
-      "https://www.watts.com/our-story/history"
-     ],
-     "named_on": null,
-     "note": "the landing page never names the company; the reader\u2019s depth step (Item 337) follows the company\u2019s own about/investor link and tests that page"
+      "plant": "watts.com for Watts Water Technologies",
+      "expected": "pass",
+      "domain": "shorter anchor: leading label starts with the first distinctive word",
+      "page_read": false,
+      "page_names_company": null,
+      "result": "refused"
     },
     {
-     "plant": "nutrition.gov for Nutrition Industries",
-     "expected": "fail (domain exclusion)",
-     "reader": "amended reader on Firecrawl",
-     "domain": "domain exclusion (.gov/.edu/.mil)",
-     "status": null,
-     "result": "fail (domain exclusion)"
+      "plant": "nutrition.gov for Nutrition Industries",
+      "expected": "fail (domain exclusion)",
+      "domain": "domain exclusion (.gov/.edu/.mil)",
+      "page_read": false,
+      "result": "fail (domain exclusion)"
     },
     {
-     "plant": "accurate.com for Accurate Box Company",
-     "expected": "fail (page test)",
-     "reader": "amended reader on Firecrawl",
-     "domain": "shorter anchor: leading label starts with the first distinctive word",
-     "status": 200,
-     "page_names_company": false,
-     "result": "fail (page test)"
+      "plant": "accurate.com for Accurate Box Company",
+      "expected": "fail (page test)",
+      "domain": "shorter anchor: leading label starts with the first distinctive word",
+      "page_read": true,
+      "page_names_company": false,
+      "result": "fail (page test)"
     }
-   ]
-  },
-  {
-   "date": "2026-11-01",
-   "ruling": "Item 355: watts.com read and failed the full-name page test",
-   "plants": [
+  ],
+  "plain_fetch_verdict": "FAILED — plant 1 refused on a plain fetch; integrity stop 3 fired for the plain-fetch reader, which spends no reads in this pass",
+  "plants": [
     {
-     "plant": "watts.com for Watts Water Technologies",
-     "expected": "pass",
-     "result": "unread",
-     "detail": "plain fetch refused (403); Firecrawl\u2019s keyless free tier refused on its rate limit (\u201cYou\u2019ve hit Firecrawl\u2019s keyless free tier rate limit\u201d) \u2014 the widened search (body, title, copyright line, legal-entity line, footer) never had a page to search. Neither a pass nor a page-test failure: unproven.",
-     "reads": {
-      "plain": 1,
-      "firecrawl": 1
-     }
+      "plant": "zirklefruit.com for Zirkle Fruit Company",
+      "expected": "pass",
+      "result": "pass",
+      "found_2026_11_04": {
+        "status": 200,
+        "url": "https://www.zirklefruit.com/",
+        "full_name_matched": "Zirkle Fruit Company",
+        "basis": "re-read 2026-11-04 through the Firecrawl keyless tier (the reader of record’s fetch layer) with the recorded page test: the company’s full name on its own page; the reader’s own code lives in the builder’s tools, not in this repository",
+        "known": "read and named in Item 355 (item355-reprobe.json, washington.html#33)"
+      }
     },
     {
-     "plant": "nutrition.gov for Nutrition Industries",
-     "expected": "fail (domain exclusion)",
-     "result": "fail (domain exclusion)",
-     "reads": {
-      "plain": 0,
-      "firecrawl": 0
-     }
+      "plant": "elliottelectric.com for Elliott Electric Supply",
+      "expected": "pass",
+      "result": "pass",
+      "found_2026_11_04": {
+        "status": 200,
+        "url": "https://www.elliottelectric.com/",
+        "full_name_matched": "Elliott Electric Supply",
+        "basis": "re-read 2026-11-04 through the Firecrawl keyless tier (the reader of record’s fetch layer) with the recorded page test: the company’s full name on its own page; the reader’s own code lives in the builder’s tools, not in this repository",
+        "known": "read and named in Item 355 (item355-reprobe.json, texas.html#7)"
+      }
     },
     {
-     "plant": "accurate.com for Accurate Box Company",
-     "expected": "fail (page test)",
-     "result": "fail (page test)",
-     "detail": "plain fetch 200; the full name \u201cAccurate Box Company\u201d appears in none of the five regions searched; Firecrawl refused on its rate limit",
-     "reads": {
-      "plain": 1,
-      "firecrawl": 1
-     }
+      "plant": "watts.com for Watts Water Technologies",
+      "expected": "fail (page test)",
+      "page_test": "fail — read 200; the page calls the company “Watts”",
+      "corroboration": {
+        "SEC filing": "read the 10-K filed 2026-02-23 (https://www.sec.gov/Archives/edgar/data/795403/000110465926018541/wts-20251231x10k.htm): names Watts Water Technologies, never mentions watts.com; the SEC submissions record’s website field is empty",
+        "structured data": "read watts.com JSON-LD (1 block): names ['Watts', 'Watts Llc', 'Joseph E. Watts'] — not the legal entity",
+        "registry entry": "not available to this reader (no registry seed on disk)"
+      },
+      "result": "fail (page test)",
+      "found_2026_11_04": {
+        "plain_fetch": "HTTP 403 on https://www.watts.com/, /our-story and /our-story/history (refused)",
+        "reader_fetch_layer": "HTTP 200 on https://www.watts.com/, /our-story and /our-story/history; none names “Watts Water Technologies” (the pages say “Watts”); the full name appears on investors.wattswater.com, a different domain",
+        "basis": "re-read 2026-11-04 through the Firecrawl keyless tier (the reader of record’s fetch layer) with the recorded page test: the company’s full name on its own page; the reader’s own code lives in the builder’s tools, not in this repository",
+        "note": "watts.com is the company’s own site; the full-name page test does not accept it. Recorded as the found outcome of this reader, a known limit of the rule, not a pass"
+      }
+    },
+    {
+      "plant": "nutrition.gov for Nutrition Industries",
+      "expected": "fail (domain exclusion)",
+      "result": "fail (domain exclusion)"
+    },
+    {
+      "plant": "accurate.com for Accurate Box Company",
+      "expected": "fail (page test)",
+      "result": "fail (page test)",
+      "found_2026_11_04": {
+        "status": 200,
+        "url": "https://www.accurate.com/",
+        "full_name_matched": null,
+        "basis": "re-read 2026-11-04 through the Firecrawl keyless tier (the reader of record’s fetch layer) with the recorded page test: the company’s full name on its own page; the reader’s own code lives in the builder’s tools, not in this repository"
+      }
     }
-   ]
-  }
- ],
- "ruling": "Chair, Item 362: the page-text test stands unchanged; one corroboration route is added beside it \u2014 a dated third-party record binding the domain to the company (registry entry, SEC filing, or structured data on the page naming the legal entity).",
- "verdict": "watts.com fails under both routes. The amended reader is not released: Part D\u2019s re-runs, the Alabama and Oklahoma census and the dealer-block re-reads are struck as unreachable by this reader (Item 362)."
+  ],
+  "history": [
+    {
+      "date": "2026-11-01",
+      "ruling": "first run (Item 349): watts.com failed the full-name page test on body text; integrity stop 3 fired",
+      "plants": [
+        {
+          "plant": "watts.com for Watts Water Technologies",
+          "expected": "pass",
+          "reader": "amended reader on Firecrawl",
+          "domain": "shorter anchor: leading label starts with the first distinctive word",
+          "status": 200,
+          "page_names_company": false,
+          "result": "fail",
+          "depth_followed": [
+            "https://www.watts.com/our-story/history"
+          ],
+          "named_on": null,
+          "note": "the landing page never names the company; the reader’s depth step (Item 337) follows the company’s own about/investor link and tests that page"
+        },
+        {
+          "plant": "nutrition.gov for Nutrition Industries",
+          "expected": "fail (domain exclusion)",
+          "reader": "amended reader on Firecrawl",
+          "domain": "domain exclusion (.gov/.edu/.mil)",
+          "status": null,
+          "result": "fail (domain exclusion)"
+        },
+        {
+          "plant": "accurate.com for Accurate Box Company",
+          "expected": "fail (page test)",
+          "reader": "amended reader on Firecrawl",
+          "domain": "shorter anchor: leading label starts with the first distinctive word",
+          "status": 200,
+          "page_names_company": false,
+          "result": "fail (page test)"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "ruling": "Item 355: watts.com read and failed the full-name page test",
+      "plants": [
+        {
+          "plant": "watts.com for Watts Water Technologies",
+          "expected": "pass",
+          "result": "unread",
+          "detail": "plain fetch refused (403); Firecrawl’s keyless free tier refused on its rate limit (“You’ve hit Firecrawl’s keyless free tier rate limit”) — the widened search (body, title, copyright line, legal-entity line, footer) never had a page to search. Neither a pass nor a page-test failure: unproven.",
+          "reads": {
+            "plain": 1,
+            "firecrawl": 1
+          }
+        },
+        {
+          "plant": "nutrition.gov for Nutrition Industries",
+          "expected": "fail (domain exclusion)",
+          "result": "fail (domain exclusion)",
+          "reads": {
+            "plain": 0,
+            "firecrawl": 0
+          }
+        },
+        {
+          "plant": "accurate.com for Accurate Box Company",
+          "expected": "fail (page test)",
+          "result": "fail (page test)",
+          "detail": "plain fetch 200; the full name “Accurate Box Company” appears in none of the five regions searched; Firecrawl refused on its rate limit",
+          "reads": {
+            "plain": 1,
+            "firecrawl": 1
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "ruling": "Chair, Item 382 §1: a second site the reader is known to pass, proved first; watts.com corrected to its found outcome",
+      "before": {
+        "watts.com for Watts Water Technologies": {
+          "expected": "pass",
+          "result": "fail"
+        },
+        "nutrition.gov for Nutrition Industries": {
+          "expected": "fail (domain exclusion)",
+          "result": "fail (domain exclusion)"
+        },
+        "accurate.com for Accurate Box Company": {
+          "expected": "fail (page test)",
+          "result": "fail (page test)"
+        }
+      },
+      "after": {
+        "zirklefruit.com for Zirkle Fruit Company": {
+          "expected": "pass",
+          "result": "pass"
+        },
+        "elliottelectric.com for Elliott Electric Supply": {
+          "expected": "pass",
+          "result": "pass"
+        },
+        "watts.com for Watts Water Technologies": {
+          "expected": "fail (page test)",
+          "result": "fail (page test)"
+        },
+        "nutrition.gov for Nutrition Industries": {
+          "expected": "fail (domain exclusion)",
+          "result": "fail (domain exclusion)"
+        },
+        "accurate.com for Accurate Box Company": {
+          "expected": "fail (page test)",
+          "result": "fail (page test)"
+        }
+      }
+    }
+  ],
+  "ruling": "Chair, Item 362: the page-text test stands unchanged; one corroboration route is added beside it — a dated third-party record binding the domain to the company (registry entry, SEC filing, or structured data on the page naming the legal entity).",
+  "verdict": "watts.com fails under both routes. The amended reader is not released: Part D’s re-runs, the Alabama and Oklahoma census and the dealer-block re-reads are struck as unreachable by this reader (Item 362)."
 }
