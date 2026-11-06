@@ -1,0 +1,26 @@
+{
+ "item": "408",
+ "date": "2026-11-06",
+ "entries": [
+  {
+   "n": 1,
+   "what": "An instruction that invents the tool it instructs",
+   "detail": "The brief named gate.py check --expect-pass; gate.py reads check, --since and --hashes only, and the flag ran with no effect. Recorded as a catch: the exit code is the verdict."
+  },
+  {
+   "n": 2,
+   "what": "A restore point asserted rather than measured",
+   "detail": "Ruling 1 named 4e5d5bc without measuring where the regression entered (0d2e650, 07:44); restoring from it would have discarded clean work in fa20114, 600e6bf and 26a7ad6. Amended to 26a7ad6 by the Chair on the measurement."
+  },
+  {
+   "n": 3,
+   "what": "A guard that could not see what was reverted",
+   "detail": "0d2e650 reverted all 27 archive headers; the operator-view guard does not read archives, so the gate passed them. Opened as Item 410."
+  },
+  {
+   "n": 4,
+   "what": "index.html protection lifted, narrowly",
+   "detail": "2f27f73 replaced the measured, dated index figures with undated ones (3,390 / 439) that the rows do not support; the Chair lifted Ruling 1’s protection for index.html only and it is restored from 26a7ad6. 2f27f73’s other edits are untouched."
+  }
+ ]
+}
