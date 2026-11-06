@@ -76,6 +76,11 @@
    "n": 15,
    "what": "A commit that landed and gated clean, but did not deploy",
    "detail": "ab311bf (Item 413-A) is on main with all five Part A files byte-exact against the package, and gate.py check on it exits 0 with all seven stops clear (STOP 7 90 of 90). GitHub Pages run 427 (pages build and deployment, id 42250846987) for ab311bf completed with conclusion FAILURE, reporting 2 errors, 1 warning and 3 notices; the annotation text needs a signed-in GitHub session and was not read. Pages kept serving the index from the previous successful run (426): Last-Modified 6 Nov 2026 16:11:07 GMT, still showing the struck 3,721. This is a deploy fault, not an upload fault: the fix is a re-run of the deploy or the next commit’s deploy, not new files. The gate reads the repository, not the served site, so it could not see this; nothing in the programme yet checks what Pages serves."
+  },
+  {
+   "n": 16,
+   "what": "Seven stops measured the repository; none measured the served site",
+   "detail": "Seven integrity stops measured committed bytes and none measured the served site. A failed deploy left a struck figure on the live page while the gate read exit 0. An instrument that passes cannot be assumed to be answering the question it is trusted to answer."
   }
  ]
 }
