@@ -6,6 +6,7 @@ Exit 0  all three integrity stops clear (the gate never prints a pass slogan; it
 Exit 2  STOP 1 — delivered-vs-committed file-count shortfall (delivery-manifest.json against the commit)
 Exit 3  STOP 2 — validator below 54 of 54 market files
 Exit 4  STOP 3 — a reader failed its own proof plant (reader-plants.json)
+Exit 8  STOP 7 — an index figure disagrees with the rows, re-counted by index_measure.py, or a figure the method covers is missing
 Exit 7  STOP 6 — a Google or Gmail route, font, script or search URL on a market, expansion or archive page
 Exit 6  STOP 5 — a market page carries the retired Day 3/10/30 cadence (the one cadence is the six-step sequence)
 Exit 5  STOP 4 — the plain suppression file is not empty (suppression.json): the hashed route is required once any entry exists
@@ -86,6 +87,24 @@ def stop6():
     print(f'STOP 6 · Google or Gmail route on {len(hit)} of {len(pages)} market pages' + (f' · refused: {dict(list(hit.items())[:5])}' if hit else ''))
     return not hit
 
+def stop7():
+    # Item 413 Part A (2026-11-06): every index figure is re-counted from the market files by index_measure.py, the one
+    # stated method, and must match at zero tolerance. A typed figure is safe only while something proves it.
+    import re, index_measure
+    o = index_measure.measure('.')
+    want = {k: o[k] for k in ('full_treatment', 'verified_rows', 'verified_cos_estate', 'expansion_rows', 'expansion_verified',
+                              'dialable_ab', 'call_ready_email', 'merged_if_legal_forms_stripped', 'verified_cos_estate_folded')}
+    for m, c in o['cards'].items():
+        want['ver:' + m] = '%d · %d' % (c['ver_rows'], c['ver_cos'])
+        want['all:' + m] = '%d · %d' % (c['rows'], c['cos'])
+        want['exp:' + m] = c['exp_ver']
+    s = open('index.html', encoding='utf-8').read()
+    got = {k: re.sub(r'<[^>]+>', '', v).replace(',', '').strip() for k, v in re.findall(r'data-m="([^"]+)"[^>]*>(.*?)</(?:b|td|span)>', s, re.S)}
+    bad = [(k, str(v), got.get(k)) for k, v in want.items() if got.get(k) != str(v)]
+    extra = [k for k in got if k not in want]
+    print(f'STOP 7 · index figures matching the rows: {len(want) - len(bad)} of {len(want)}' + (f' · disagree: {bad[:4]}' if bad else '') + (f' · unknown: {extra[:4]}' if extra else ''))
+    return not bad and not extra
+
 def report_hashes():
     head = sh('git', 'rev-parse', 'HEAD').strip()
     files = sh('git', 'ls-files').split(); bad = 0
@@ -106,5 +125,6 @@ if __name__ == '__main__':
     if not stop4(): sys.exit(5)
     if not stop5(): sys.exit(6)
     if not stop6(): sys.exit(7)
+    if not stop7(): sys.exit(8)
     if '--hashes' in sys.argv: report_hashes()
-    print('integrity stops clear: 6 of 6 (measurements above)')
+    print('integrity stops clear: 7 of 7 (measurements above)')

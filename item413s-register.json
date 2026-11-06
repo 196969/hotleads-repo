@@ -36,6 +36,21 @@
    "n": 7,
    "what": "Standing rule: a composer change is complete only at 81 of 81",
    "detail": "fa20114 changed the market pages only, so one-composer parity was broken from 05:48 on 6 November and no check caught it — the second partial sweep in this programme to read clean. A composer change is not complete until all 81 pages carry it, proven by count in the same pass; parity at 81 of 81 with zero deviations is the gate."
+  },
+  {
+   "n": 8,
+   "what": "A verification that disagrees, then agrees on retry",
+   "detail": "Nine files disagreed on first read. Three were proven identical by commit-pinned re-read; six were cleared only by a second full read on the same path. A verification that disagrees, then agrees on retry, establishes agreement — not that the first disagreement was spurious."
+  },
+  {
+   "n": 9,
+   "what": "Part A: every index figure counted by one stated method, its definition on its line",
+   "detail": "index_measure.py counts every index figure from the 27 working and 27 expansion files: 3,804 Verified rows; 3,747 Verified companies estate-wide by the stated company rule (legal forms kept), with 3,708 shown beside it if a trailing legal form is folded (39 fewer); 1,343 expansion rows, 409 Verified; 4,132 dialable rows at Tier A or B, qualifier verbatim; 42 call-ready rows carrying an address in the Email column. Struck: 3,721, 902 / 902, 4,139 / 4,050, 327 / 320 and the acquisition backlog of 182. All 27 cards remeasured. gate.py STOP 7 (exit 8) re-counts all 90 figures at zero tolerance."
+  },
+  {
+   "n": 10,
+   "what": "My own company count read the sector line as part of the name",
+   "detail": "The 3,794 put to the Chair (and the 3,798 and 3,796 before it) counted the whole Company cell, which carries the sector line beneath the bold name, so one company with two sector lines counted twice. Counted by the bold name alone the figure is 3,747. Found while re-deriving the 13 tier contradictions, which reproduce only when the name is read alone. A count whose definition is not on the page hid a fault in the counter itself."
   }
  ]
 }
