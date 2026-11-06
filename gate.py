@@ -88,22 +88,32 @@ def stop6():
     return not hit
 
 def stop7():
-    # Item 413 Part A (2026-11-06): every index figure is re-counted from the market files by index_measure.py, the one
-    # stated method, and must match at zero tolerance. A typed figure is safe only while something proves it.
-    import re, index_measure
-    o = index_measure.measure('.')
-    want = {k: o[k] for k in ('full_treatment', 'verified_rows', 'verified_cos_estate', 'expansion_rows', 'expansion_verified',
-                              'dialable_ab', 'call_ready_email', 'merged_if_legal_forms_stripped', 'verified_cos_estate_folded')}
+    # Item 413 (2026-11-06): every counted figure on index.html is re-counted from the market files by index_measure.py and must
+    # match at zero tolerance; a figure the method does not know, or one it covers that is missing, fails. All four company rules
+    # are measured on every run; the page carries the headline rule (legal form folded only inside one market) and the kept-form
+    # alternative, and must not carry the struck full-fold or PA-excluded counts.
+    import re, index_measure as I
+    o = I.measure('.')
+    s = open('index.html', encoding='utf-8').read()
+    hp, hs, wrong = I.held(s, o, True)
+    want = {k: o[k] for k in ('markets', 'full_treatment', 'verified_rows', 'verified_cos_within', 'verified_cos_kept', 'kept_minus_within',
+                              'expansion_rows', 'expansion_verified', 'dialable_ab', 'call_ready_email', 'tier_contradictions')}
+    want.update(held_pairs=hp, held_still=hs)
     for m, c in o['cards'].items():
         want['ver:' + m] = '%d · %d' % (c['ver_rows'], c['ver_cos'])
         want['all:' + m] = '%d · %d' % (c['rows'], c['cos'])
         want['exp:' + m] = c['exp_ver']
-    s = open('index.html', encoding='utf-8').read()
     got = {k: re.sub(r'<[^>]+>', '', v).replace(',', '').strip() for k, v in re.findall(r'data-m="([^"]+)"[^>]*>(.*?)</(?:b|td|span)>', s, re.S)}
+    for k in got:
+        if k.startswith('vcall:'):
+            want[k] = o['cards'][k[6:]]['vcall']
     bad = [(k, str(v), got.get(k)) for k, v in want.items() if got.get(k) != str(v)]
     extra = [k for k in got if k not in want]
-    print(f'STOP 7 · index figures matching the rows: {len(want) - len(bad)} of {len(want)}' + (f' · disagree: {bad[:4]}' if bad else '') + (f' · unknown: {extra[:4]}' if extra else ''))
-    return not bad and not extra
+    print(f'STOP 7 · index figures matching the rows: {len(want) - len(bad)} of {len(want)}'
+          f' · company rules measured: within-market fold {o["verified_cos_within"]}, kept {o["verified_cos_kept"]}, full fold {o["verified_cos_foldall"]}, fold without PA {o["verified_cos_fold_nopa"]}'
+          + (f' · disagree: {bad}' if bad else '') + (f' · unknown: {extra[:4]}' if extra else '')
+          + (f' · held-pair tiers printed wrong: {wrong[:4]}' if wrong else ''))
+    return not bad and not extra and not wrong
 
 def report_hashes():
     head = sh('git', 'rev-parse', 'HEAD').strip()

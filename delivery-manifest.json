@@ -1,8 +1,8 @@
 {
- "item": "413-A",
+ "item": "413-close",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "64e5c03",
+ "base": "ab311bf",
  "date": "2026-11-06",
  "files": [
   "delivery-manifest.json",

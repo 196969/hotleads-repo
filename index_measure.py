@@ -1,41 +1,68 @@
-"""Item 413 Part A: the one counting method for the index (repeatable by gate.py STOP 7)."""
+"""Item 413 (Parts A and B): the one counting method for every figure on index.html. gate.py STOP 7 re-runs it."""
 import re,html,glob,os
+LF=r'(inc|incorporated|llc|ltd|limited|corp|corporation|co|company|lp|llp|pllc|pa|plc)$'
+LF_NOPA=r'(inc|incorporated|llc|ltd|limited|corp|corporation|co|company|lp|llp|pllc|plc)$'
 def norm(name):
-    # The rule stated on the index: lower-case; "&" read as "and"; every character that is not a letter or digit dropped.
-    # Legal-form words (Inc., LLC, Corp. ...) are NOT stripped: two rows differing only by "Inc." versus "LLC" count as two companies.
+    # lower-case; "&" read as "and"; every character that is not a letter or a digit dropped
     return re.sub(r'[^a-z0-9]','',name.lower().replace('&','and'))
+def fold(n,rx=LF): return re.sub(rx,'',n)
+cl=lambda x: html.unescape(re.sub('<[^>]+>','',x)).strip()
+def company(cell):
+    # the company is the bold name in the cell; the sector line beneath it is not part of the name
+    m=re.search(r'<strong>(.*?)</strong>',cell,re.S); return cl(m.group(1) if m else cell)
 def rows(f):
     t=open(f,encoding='utf-8').read(); i=t.find('<tbody id="tb"')
     hd=[re.sub('<[^>]+>','',h).strip() for h in re.findall(r'<th[^>]*>(.*?)</th>',t[t.rfind('<table',0,i):i],re.S)]
     R=[re.findall(r'<td[^>]*>(.*?)</td>',x,re.S) for x in re.findall(r'<tr(?:\s[^>]*)?>.*?</tr>',t[i:t.find('</tbody>',i)],re.S) if 'colspan' not in x]
     return hd,R
-cl=lambda x: html.unescape(re.sub('<[^>]+>','',x)).strip()
-def company(cell):
-    # The company is the name in the cell's <strong>; the line beneath it (sector, area) is not part of the name.
-    m=re.search(r'<strong>(.*?)</strong>',cell,re.S)
-    return cl(m.group(1) if m else cell)
+def within(names):
+    # the headline rule: a trailing legal form is folded only where the name occurs both with and without it inside one market
+    c={}
+    for n in names: c.setdefault(fold(n),set()).add(n)
+    return {n:(min(g) if len(g)>1 else n) for g in c.values() for n in g}
+EMAIL=re.compile(r'[\w.+-]+@[\w.-]+\.\w+')
 def measure(root='.'):
-    M=sorted({os.path.basename(p)[:-len('-expansion.html')] for p in glob.glob(os.path.join(root,'*-expansion.html'))})
-    out={'markets':len(M),'full_treatment':sum(all(os.path.exists(os.path.join(root,m+s)) for s in ('.html','-expansion.html','-archive.html')) for m in M),'cards':{}}
-    allv=set(); vr=0; exr=0; exv=0; ab=0; em=0; sens=0
+    P=lambda f:os.path.join(root,f)
+    M=sorted({os.path.basename(p)[:-len('-expansion.html')] for p in glob.glob(P('*-expansion.html'))})
+    out={'markets':len(M),'full_treatment':sum(all(os.path.exists(P(m+s)) for s in ('.html','-expansion.html','-archive.html')) for m in M),'cards':{},'tab':{}}
+    estate_kept=set(); estate_within=set(); estate_fold=set(); estate_nopa=set(); vr=exr=exv=ab=em=0; contra=0
     for m in M:
-        V=[];A=[];ev=0
+        V=[];A=[];ev=0;vcall=0;tabs={}
         for f,kind in ((m+'.html','w'),(m+'-expansion.html','e')):
-            hd,R=rows(os.path.join(root,f)); si,ci,ti=hd.index('Status'),hd.index('Company'),hd.index('Tier'); ei=hd.index('Email') if 'Email' in hd else None
+            hd,R=rows(P(f)); si,ci,ti=hd.index('Status'),hd.index('Company'),hd.index('Tier'); ei=hd.index('Email') if 'Email' in hd else None
+            tabs[f]=[]
             for r in R:
-                c=company(r[ci]); st=cl(r[si]); A.append(c)
-                if st=='Verified':
-                    V.append(c)
-                    if kind=='e': ev+=1
+                c=norm(company(r[ci])); st=cl(r[si]); t=cl(r[ti]); has=bool(ei is not None and EMAIL.search(cl(r[ei])))
+                A.append(c); tabs[f].append((company(r[ci]),t))
                 if kind=='e': exr+=1
-                if cl(r[ti]) in ('A','B'): ab+=1
-                if ei is not None and re.search(r'[\w.+-]+@[\w.-]+\.\w+',cl(r[ei])): em+=1
-        out['cards'][m]={'ver_rows':len(V),'ver_cos':len(set(map(norm,V))),'rows':len(A),'cos':len(set(map(norm,A))),'exp_ver':ev}
-        vr+=len(V); exv+=ev; allv|=set(map(norm,V))
-    out.update(verified_rows=vr,verified_cos_estate=len(allv),expansion_rows=exr,expansion_verified=exv,dialable_ab=ab,call_ready_email=em)
-    LF=r'(inc|incorporated|llc|ltd|limited|corp|corporation|co|company|lp|llp|pllc|pa|plc)$'
-    out['verified_cos_estate_folded']=len({re.sub(LF,'',n) for n in allv})
-    out['merged_if_legal_forms_stripped']=len(allv)-len({re.sub(r'(inc|incorporated|llc|ltd|limited|corp|corporation|co|company|lp|llp|pllc|pa|plc)$','',n) for n in allv})
+                if t in ('A','B'): ab+=1
+                if has: em+=1
+                if st=='Verified':
+                    V.append(c); vcall+=has
+                    if kind=='e': ev+=1
+        wm=within(set(A))
+        out['cards'][m]={'ver_rows':len(V),'ver_cos':len({wm[x] for x in V}),'rows':len(A),'cos':len({wm[x] for x in A}),'exp_ver':ev,'vcall':vcall}
+        out['tab'][m]=tabs
+        W={};E={}
+        for c,t in tabs[m+'.html']: W.setdefault(wm[norm(c)],set()).add(t)
+        for c,t in tabs[m+'-expansion.html']: E.setdefault(wm[norm(c)],set()).add(t)
+        contra+=sum(1 for k in set(W)&set(E) if W[k]!=E[k])
+        vr+=len(V); exv+=ev
+        estate_kept|=set(V); estate_within|={wm[x] for x in V}; estate_fold|={fold(x) for x in V}; estate_nopa|={fold(x,LF_NOPA) for x in V}
+    out.update(verified_rows=vr,verified_cos_within=len(estate_within),verified_cos_kept=len(estate_kept),verified_cos_foldall=len(estate_fold),
+               verified_cos_fold_nopa=len(estate_nopa),kept_minus_within=len(estate_kept)-len(estate_within),expansion_rows=exr,expansion_verified=exv,
+               dialable_ab=ab,call_ready_email=em,tier_contradictions=contra)
     return out
-if __name__=='__main__':
-    import json,sys; print(json.dumps(measure(sys.argv[1] if len(sys.argv)>1 else '.'),indent=None)[:900])
+def held(index_html,o,detail=False):
+    """The held tier-contradiction pairs listed on the index: how many, how many still differ in tier in the rows, and any
+    printed tier that no longer matches its row."""
+    s=index_html; i=s.find('<section class="held-pairs"'); t=s[i:s.find('</section>',i)]
+    items=re.findall(r'<li>(.*?)</li>',t,re.S); still=0; wrong=[]
+    for li in items:
+        x=cl(li); m=re.search(r'(\S+)\.html row (\d+) Tier (\w).*?(\S+)\.html row (\d+) Tier (\w)',x)
+        f1,r1,t1,f2,r2,t2=m.groups(); mk=f1.replace('-expansion','')
+        a=o['tab'][mk][f1+'.html'][int(r1)-1]; b=o['tab'][mk][f2+'.html'][int(r2)-1]
+        still+=a[1]!=b[1]
+        if t1!=a[1]: wrong.append((f1,int(r1),t1,a[1]))
+        if t2!=b[1]: wrong.append((f2,int(r2),t2,b[1]))
+    return (len(items),still,wrong) if detail else (len(items),still)

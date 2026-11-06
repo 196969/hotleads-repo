@@ -51,6 +51,31 @@
    "n": 10,
    "what": "My own company count read the sector line as part of the name",
    "detail": "The 3,794 put to the Chair (and the 3,798 and 3,796 before it) counted the whole Company cell, which carries the sector line beneath the bold name, so one company with two sector lines counted twice. Counted by the bold name alone the figure is 3,747. Found while re-deriving the 13 tier contradictions, which reproduce only when the name is read alone. A count whose definition is not on the page hid a fault in the counter itself."
+  },
+  {
+   "n": 11,
+   "what": "Three company counts wrong by one cause (Chair, verbatim)",
+   "detail": "Three published company counts were wrong by the same cause: the counter read a cell containing the name and the sector line, so one company under two sectors counted twice. None of the three was caught by reviewing the number. It was caught by re-deriving an unrelated heading from the rows."
+  },
+  {
+   "n": 12,
+   "what": "A ruling made on a generalisation (Chair)",
+   "detail": "Recorded from the Chair’s close brief: the ruling for 3,708 rested on the builder’s sentence that all 39 folds were the same company inside one market, a generalisation from twelve checked by hand; measured, 37 sit inside one market and 2 span two. The ruling is replaced by 3,710 and 3,708 is struck from the page. Ruling 2 (3,794) is withdrawn, not restated: it ruled on a counter’s output without asking what the counter read. #55’s Hold is sustained."
+  },
+  {
+   "n": 13,
+   "what": "The builder’s overstatement",
+   "detail": "I reported “all 39 merges are the same company within the same market” after checking twelve. The twelve were; the claim was about thirty-nine. Two pairs span two markets: Central Distributors (Michigan) and Central Distributors, Inc. (Tennessee); Torcon (New Jersey) and Torcon PA (Pennsylvania), where PA may mean the state. A sample described as the whole is an untraceable figure in a sentence."
+  },
+  {
+   "n": 14,
+   "what": "Item 413 close: what the index now proves",
+   "detail": "Headline 3,710 Verified companies (a trailing legal form folded only where both forms occur inside one market), 3,747 as the stated alternative (legal forms kept); 3,708 struck. Part B: “4 settled” did not reproduce and is struck; “13 tier contradictions” reproduces as 18 by the stated company rule and is corrected, with its definition on the page; 9 held pairs, 8 still differ in tier, Rosboro Company now reads Tier C in both files and its printed Tier B (oregon.html row 70) is corrected to C; Illinois and Chicago printed “verified-callable is 0”, the rows give 1 Verified row with an address in the Email column in each, corrected; both register-ingest notes (119 / 112, 3 → 22; 57 / 56, 68 → 78, 67 → 76) had no derivation and are struck; the Florida practice line is computed when the page loads and says so. STOP 7 re-counts 96 figures and the printed held-pair tiers at zero tolerance and measures all four company rules on every run."
+  },
+  {
+   "n": 15,
+   "what": "A commit that landed and gated clean, but did not deploy",
+   "detail": "ab311bf (Item 413-A) is on main with all five Part A files byte-exact against the package, and gate.py check on it exits 0 with all seven stops clear (STOP 7 90 of 90). GitHub Pages run 427 (pages build and deployment, id 42250846987) for ab311bf completed with conclusion FAILURE, reporting 2 errors, 1 warning and 3 notices; the annotation text needs a signed-in GitHub session and was not read. Pages kept serving the index from the previous successful run (426): Last-Modified 6 Nov 2026 16:11:07 GMT, still showing the struck 3,721. This is a deploy fault, not an upload fault: the fix is a re-run of the deploy or the next commit’s deploy, not new files. The gate reads the repository, not the served site, so it could not see this; nothing in the programme yet checks what Pages serves."
   }
  ]
 }
