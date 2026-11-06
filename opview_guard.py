@@ -1,8 +1,9 @@
 """Operator-view guard (Item 359, 2026-11-01). A figure on the operator view stands alone: its derivation, its history and the
 figures it replaced live in the standard. Fails if the rendered text of the page chrome carries any of the patterns below.
 Scope: all of index.html and console-*.html; on market pages, everything outside the row tables (a row's own dated source
-lines stay — they are evidence, governed by validate.py, not operator narrative). Archive pages (*-archive.html) are excluded by
-declaration: they hold screened-out Tier C rows and are neither sending nor operator surfaces (florida-standard.json, declared_exclusions)."""
+lines stay — they are evidence, governed by validate.py, not operator narrative). Archive pages (*-archive.html) are not sending
+surfaces (florida-standard.json, declared_exclusions), but their headers are read: Item 413 Part B brings every <market>-archive.html,
+derived from the same market set as the market pages, inside this guard, so a reverted archive header fails the gate."""
 import re,sys,html,glob,os
 PAT=[('Item ###',re.compile(r'\bItem \d{3}')),('at the close of',re.compile(r'at the close of',re.I)),('at head ',re.compile(r'\bat head ',re.I)),
      ('is withdrawn',re.compile(r'\bis withdrawn',re.I)),('is retired',re.compile(r'\bis retired',re.I)),('re-measured',re.compile(r'\bre-measured',re.I)),
@@ -39,7 +40,7 @@ def check(path):
     return hits+header_hits(open(path,encoding='utf-8').read())
 def scope(root='.'):
     M=sorted({os.path.basename(p).replace('-expansion.html','') for p in glob.glob(os.path.join(root,'*-expansion.html'))})
-    return [os.path.join(root,'index.html')]+sorted(glob.glob(os.path.join(root,'console-*.html')))+[os.path.join(root,g) for m in M for g in (m+'.html',m+'-expansion.html') if os.path.exists(os.path.join(root,g))]
+    return [os.path.join(root,'index.html')]+sorted(glob.glob(os.path.join(root,'console-*.html')))+[os.path.join(root,g) for m in M for g in (m+'.html',m+'-expansion.html',m+'-archive.html') if os.path.exists(os.path.join(root,g))]   # Item 413 Part B: archives derive from the same market set
 if __name__=='__main__':
     bad={p:check(p) for p in (sys.argv[1:] or scope())}; bad={p:h for p,h in bad.items() if h}
     for p,h in bad.items(): print('OPVIEW REFUSED',os.path.basename(p),len(h),'hit(s):',h[0][0],'|',h[0][1][:90])

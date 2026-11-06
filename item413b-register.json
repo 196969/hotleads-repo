@@ -1,0 +1,21 @@
+{
+ "item": "413-B",
+ "date": "2026-11-06",
+ "entries": [
+  {
+   "n": 1,
+   "what": "A check that cannot see a thing cannot protect it",
+   "detail": "The operator-view guard read 82 pages and never opened an archive header, so 27 reverts passed clean. Its scope now derives <market>-archive.html from the same market set: 82 → 109."
+  },
+  {
+   "n": 2,
+   "what": "A string caught three times by inference",
+   "detail": "The Day 3/10/30 cadence arrived with a stale copy three times and was caught only by validator and guard counts. gate.py STOP 5 (exit 6) now names it on every market, expansion and archive page."
+  },
+  {
+   "n": 3,
+   "what": "Standing rule, Item 413 rulings",
+   "detail": "A published figure carries its definition on the same line, or it does not appear. Striking a number nobody can reproduce is the correct outcome, not a loss."
+  }
+ ]
+}

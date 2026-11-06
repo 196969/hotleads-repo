@@ -6,6 +6,7 @@ Exit 0  all three integrity stops clear (the gate never prints a pass slogan; it
 Exit 2  STOP 1 — delivered-vs-committed file-count shortfall (delivery-manifest.json against the commit)
 Exit 3  STOP 2 — validator below 54 of 54 market files
 Exit 4  STOP 3 — a reader failed its own proof plant (reader-plants.json)
+Exit 6  STOP 5 — a market page carries the retired Day 3/10/30 cadence (the one cadence is the six-step sequence)
 Exit 5  STOP 4 — the plain suppression file is not empty (suppression.json): the hashed route is required once any entry exists
 Everything else is reported and does not halt.
 """
@@ -58,6 +59,17 @@ def stop4():
     print(f"STOP 4 · suppression.json entries {len(E)} · in the clear {len(clear)}" + ('' if not E else f' · refused: {why}'))
     return len(E) == 0
 
+def stop5():
+    # Item 413 (2026-11-06): the Day 3/10/30 Log-touch cadence arrived three times with a stale copy and was caught each time
+    # only by inference from the counts. This stop names it. The one cadence is the six-step page sequence (days 0, 3, 8, 15, 25, 40).
+    import glob, re
+    M = sorted({os.path.basename(p)[:-len('-expansion.html')] for p in glob.glob('*-expansion.html')})
+    pages = [g for m in M for g in (m + '.html', m + '-expansion.html', m + '-archive.html') if os.path.exists(g)]
+    rx = re.compile(r'Day\s*3\s*/\s*10\s*/\s*30', re.I)
+    hit = [p for p in pages if rx.search(open(p, encoding='utf-8', errors='replace').read())]
+    print(f'STOP 5 · Day 3/10/30 cadence on {len(hit)} of {len(pages)} market pages' + (f' · refused: {hit[:5]}' if hit else ''))
+    return not hit
+
 def report_hashes():
     head = sh('git', 'rev-parse', 'HEAD').strip()
     files = sh('git', 'ls-files').split(); bad = 0
@@ -76,5 +88,6 @@ if __name__ == '__main__':
     if not stop2(): sys.exit(3)
     if not stop3(): sys.exit(4)
     if not stop4(): sys.exit(5)
+    if not stop5(): sys.exit(6)
     if '--hashes' in sys.argv: report_hashes()
-    print('integrity stops clear: 4 of 4 (measurements above)')
+    print('integrity stops clear: 5 of 5 (measurements above)')
