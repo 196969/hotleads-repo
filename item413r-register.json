@@ -1,0 +1,16 @@
+{
+ "item": "413-R",
+ "date": "2026-11-06",
+ "entries": [
+  {
+   "n": 1,
+   "what": "The same stale copy, a third time",
+   "detail": "9cd1479 (09:06 −0500, fourteen minutes after Item 408 landed) carried the 6 November regression on 54 market pages again, with new sender work built on top of it. Restored to the Item 408 state by route (a); the sender work is rebuilt as its own item, generated from one source, never ported by hand."
+  },
+  {
+   "n": 2,
+   "what": "Standing rule",
+   "detail": "Work is built on the gated head, never on a local copy, and the gate is read immediately before the first edit — not at delivery. Two of the three arrivals of this regression came from editing a stale copy that was never re-gated."
+  }
+ ]
+}
