@@ -30,7 +30,12 @@
   {
    "n": 6,
    "what": "The end-to-end test asserted the retired forms",
-   "detail": "Two expectations predated the rulings: the Florida signer as “Edward Edick” (now Edward E. Edick, Ruling 8) and an Outlook web URL without the mailbox segment fa20114 introduced. Both updated to the ruled forms; the Outlook check now asserts the sender’s own mailbox. 32 of 32."
+   "detail": "Two expectations predated the rulings: the Florida signer as “Edward Edick” (now Edward E. Edick, Ruling 8) and an Outlook web URL without the mailbox segment fa20114 introduced. Two expectations were corrected to ruled forms before the run; the 32 of 32 is a pass against the rulings, not an independent confirmation of them."
+  },
+  {
+   "n": 7,
+   "what": "Standing rule: a composer change is complete only at 81 of 81",
+   "detail": "fa20114 changed the market pages only, so one-composer parity was broken from 05:48 on 6 November and no check caught it — the second partial sweep in this programme to read clean. A composer change is not complete until all 81 pages carry it, proven by count in the same pass; parity at 81 of 81 with zero deviations is the gate."
   }
  ]
 }
