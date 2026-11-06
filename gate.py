@@ -6,6 +6,7 @@ Exit 0  all three integrity stops clear (the gate never prints a pass slogan; it
 Exit 2  STOP 1 — delivered-vs-committed file-count shortfall (delivery-manifest.json against the commit)
 Exit 3  STOP 2 — validator below 54 of 54 market files
 Exit 4  STOP 3 — a reader failed its own proof plant (reader-plants.json)
+Exit 7  STOP 6 — a Google or Gmail route, font, script or search URL on a market, expansion or archive page
 Exit 6  STOP 5 — a market page carries the retired Day 3/10/30 cadence (the one cadence is the six-step sequence)
 Exit 5  STOP 4 — the plain suppression file is not empty (suppression.json): the hashed route is required once any entry exists
 Everything else is reported and does not halt.
@@ -70,6 +71,21 @@ def stop5():
     print(f'STOP 5 · Day 3/10/30 cadence on {len(hit)} of {len(pages)} market pages' + (f' · refused: {hit[:5]}' if hit else ''))
     return not hit
 
+def stop6():
+    # Item 413 Ruling 10 (2026-11-06): Google and Gmail were cleaned out once; this stop holds them out. Any http(s) route to a
+    # Google host (search, news, fonts, static assets, tag manager, analytics, mail) or any Gmail address fails, on every
+    # market, expansion and archive page derived from the market set.
+    import glob, re
+    M = sorted({os.path.basename(p)[:-len('-expansion.html')] for p in glob.glob('*-expansion.html')})
+    pages = [g for m in M for g in (m + '.html', m + '-expansion.html', m + '-archive.html') if os.path.exists(g)]
+    rx = re.compile(r'https?://[^\s"\'<>]*\b(?:google|googleapis|gstatic|googletagmanager|google-analytics|googleusercontent|gmail)\.[a-z]|[\w.+-]+@gmail\.com|mail\.google\.com', re.I)
+    hit = {}
+    for p in pages:
+        n = len(rx.findall(open(p, encoding='utf-8', errors='replace').read()))
+        if n: hit[p] = n
+    print(f'STOP 6 · Google or Gmail route on {len(hit)} of {len(pages)} market pages' + (f' · refused: {dict(list(hit.items())[:5])}' if hit else ''))
+    return not hit
+
 def report_hashes():
     head = sh('git', 'rev-parse', 'HEAD').strip()
     files = sh('git', 'ls-files').split(); bad = 0
@@ -89,5 +105,6 @@ if __name__ == '__main__':
     if not stop3(): sys.exit(4)
     if not stop4(): sys.exit(5)
     if not stop5(): sys.exit(6)
+    if not stop6(): sys.exit(7)
     if '--hashes' in sys.argv: report_hashes()
-    print('integrity stops clear: 5 of 5 (measurements above)')
+    print('integrity stops clear: 6 of 6 (measurements above)')

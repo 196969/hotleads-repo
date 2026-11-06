@@ -1,0 +1,36 @@
+{
+ "item": "413-S",
+ "date": "2026-11-06",
+ "entries": [
+  {
+   "n": 1,
+   "what": "A restore scope keyed to a symptom",
+   "detail": "Item 408 selected its 52 pages by the Day 3/10/30 string and missed florida.html and florida-expansion.html, which carried the same stale composer without that string. Scope is derived from the market set, never from a string found in the damage."
+  },
+  {
+   "n": 2,
+   "what": "Zero Google was only as wide as the pattern that measured it",
+   "detail": "Every \"zero Google\" statement this week searched for google.com/search. Nine Google News RSS links sat in florida-expansion.html throughout, in 26a7ad6 and in 4e5d5bc; the stale copy that masked them did so by accident. STOP 6 found on day one what four sweeps missed. A clean result proves the pattern, not the estate."
+  },
+  {
+   "n": 3,
+   "what": "Nine links re-sourced (Rulings 17, 20, 21, 22)",
+   "detail": "American Fasteners to Modern Distribution Management and FreightCenter to FreightWaves, both the outlets cited; Alpha Foundations, Palm Medical Centers (two links) and Altitude Water (two links) to the issuer’s own release, with the issuer’s date; Health Network One (Heyward Donigan) and STS Aviation Group (Mark Smith): no Wayback snapshot of either Google News URL, link struck, rows stay Unverified, note reads “Decision maker read 2026-10-31; source link unresolvable; re-verification required.”"
+  },
+  {
+   "n": 4,
+   "what": "A Copy rich button nobody could reach",
+   "detail": "The composer overlay did not scroll; on a 720 px screen Copy rich sat at 724–780 px, and the rebuild would have pushed it off a 900 px screen. The overlay now scrolls (Ruling 19)."
+  },
+  {
+   "n": 5,
+   "what": "The consoles carried a composer two days older, and read the wrong market",
+   "detail": "The 27 consoles still carried the 4 Nov composer, so one-composer parity had failed since fa20114 changed the market pages alone. They now carry the one rebuilt composer. The composer took its market from the page name, so on a console it read “console-florida”: Florida’s console signed Timothy and linked poster2-console-florida.html, a page that does not exist (live, before this item). The market now drops the console- prefix; console-florida signs Edward E. Edick and links Florida’s pages."
+  },
+  {
+   "n": 6,
+   "what": "The end-to-end test asserted the retired forms",
+   "detail": "Two expectations predated the rulings: the Florida signer as “Edward Edick” (now Edward E. Edick, Ruling 8) and an Outlook web URL without the mailbox segment fa20114 introduced. Both updated to the ruled forms; the Outlook check now asserts the sender’s own mailbox. 32 of 32."
+  }
+ ]
+}
