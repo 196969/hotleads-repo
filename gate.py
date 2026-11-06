@@ -6,6 +6,7 @@ Exit 0  all three integrity stops clear (the gate never prints a pass slogan; it
 Exit 2  STOP 1 — delivered-vs-committed file-count shortfall (delivery-manifest.json against the commit)
 Exit 3  STOP 2 — validator below 54 of 54 market files
 Exit 4  STOP 3 — a reader failed its own proof plant (reader-plants.json)
+Exit 10 STOP 9 — an archive row breaks the archive invariant: every row Tier C, Status Downgraded, Pending by rule or Research pending
 Exit 8  STOP 7 — an index figure disagrees with the rows, re-counted by index_measure.py, or a figure the method covers is missing
 Exit 7  STOP 6 — a Google or Gmail route, font, script or search URL on a market, expansion or archive page
 Exit 6  STOP 5 — a market page carries the retired Day 3/10/30 cadence (the one cadence is the six-step sequence)
@@ -115,6 +116,28 @@ def stop7():
           + (f' · held-pair tiers printed wrong: {wrong[:4]}' if wrong else ''))
     return not bad and not extra and not wrong
 
+def stop9():
+    # Item 415 (2026-11-06): the archive invariant, guarded. Every row on every <market>-archive.html (derived from the market
+    # set) is Tier C and reads Downgraded, Pending by rule or Research pending; none reads Verified. Status records the row's
+    # standing, not whether a decision maker was found (florida-standard.json, declared_exclusions.archives.invariant).
+    import glob, index_measure as I
+    M = sorted({os.path.basename(p)[:-len('-expansion.html')] for p in glob.glob('*-expansion.html')})
+    ok = {'Downgraded', 'Pending by rule', 'Research pending'}
+    n = 0; bad = []
+    for m in M:
+        f = m + '-archive.html'
+        if not os.path.exists(f):
+            bad.append((m, 'no archive page')); continue
+        hd, R = I.rows(f)
+        si, ti, ci = hd.index('Status'), hd.index('Tier'), hd.index('Company')
+        for k, r in enumerate(R):
+            n += 1
+            st, t = I.cl(r[si]), I.cl(r[ti])
+            if t != 'C' or st not in ok:
+                bad.append((m, 'row %d' % (k + 1), I.company(r[ci]), 'Tier ' + t, st))
+    print(f'STOP 9 · archive invariant: {n - len(bad)} of {n} archive rows hold it' + (f' · refused: {bad}' if bad else ''))
+    return not bad
+
 def report_hashes():
     head = sh('git', 'rev-parse', 'HEAD').strip()
     files = sh('git', 'ls-files').split(); bad = 0
@@ -136,5 +159,6 @@ if __name__ == '__main__':
     if not stop5(): sys.exit(6)
     if not stop6(): sys.exit(7)
     if not stop7(): sys.exit(8)
+    if not stop9(): sys.exit(10)
     if '--hashes' in sys.argv: report_hashes()
-    print('integrity stops clear: 7 of 7 (measurements above)')
+    print('integrity stops clear: 8 of 8 (measurements above)')

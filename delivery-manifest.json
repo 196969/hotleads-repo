@@ -1,15 +1,17 @@
 {
- "item": "413-close",
+ "item": "415",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "ab311bf",
+ "base": "7fcd969",
  "date": "2026-11-06",
  "files": [
   "delivery-manifest.json",
+  "florida-archive.html",
+  "florida-standard.json",
   "gate.py",
-  "index.html",
-  "index_measure.py",
-  "item413s-register.json"
+  "item413s-register.json",
+  "michigan-archive.html",
+  "new-york-archive.html"
  ],
- "count": 5
+ "count": 7
 }

@@ -10118,7 +10118,9 @@
    "ruled": "Chair, Item 379 ruling 4",
    "pages": "every <market>-archive.html (27)",
    "statement": "Archive pages hold screened-out Tier C rows. They are not sending surfaces and carry no Email button and no composer by declaration; the operator-view guard and the validator do not read them.",
-   "open": "the archive header-date failures (26 of 27, including California’s “is withdrawn”) are their own item, not this exclusion"
+   "open": "the archive header-date failures (26 of 27, including California’s “is withdrawn”) are their own item, not this exclusion",
+   "invariant": "Every row on an archive page is Tier C, and its Status is Downgraded, Pending by rule or Research pending; none reads Verified. Status records the row’s standing in the pipeline, not whether a decision maker was found: a named decision maker on an archived row stays in the Decision maker column and does not make the row Verified.",
+   "invariant_ruled": "Item 415, 6 Nov 2026. The earlier wording (“archives every row Tier C and none Verified”) did not say what Status means, so a row with a sourced decision maker could defensibly read Verified. Read against the estate, Status records standing: 2,205 of the 2,282 Tier C rows in the working and expansion files read Downgraded. Guarded by gate.py STOP 9."
   }
  },
  "declared_exceptions": {
