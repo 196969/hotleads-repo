@@ -66,3 +66,24 @@ def held(index_html,o,detail=False):
         if t1!=a[1]: wrong.append((f1,int(r1),t1,a[1]))
         if t2!=b[1]: wrong.append((f2,int(r2),t2,b[1]))
     return (len(items),still,wrong) if detail else (len(items),still)
+def count_lines(root='.'):
+    """Item 416: each market and expansion page prints a count line (N rows · Status N · Tier N) above its table; every printed
+    count is re-counted from that page's own rows. Returns (pages with a count line, figures checked, disagreements)."""
+    import collections
+    P=lambda f:os.path.join(root,f)
+    M=sorted({os.path.basename(p)[:-len('-expansion.html')] for p in glob.glob(P('*-expansion.html'))})
+    keys=r'(Verified|Downgraded|Reclassified|Unverified|Pending by rule|Research pending|Tier A|A|B|C)'
+    pages=0; figs=0; bad=[]
+    for m in M:
+        for f in (m+'.html',m+'-expansion.html'):
+            s=open(P(f),encoding='utf-8',errors='replace').read(); b=s.find('<body'); t=s.find('<table',b)
+            txt=re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',re.sub(r'(?is)<(script|style)[^>]*>.*?</\1>',' ',s[b:t]))))
+            mm=re.search(r'· ([\d,]+) rows((?: · %s [\d,]+)+)'%keys,txt)
+            if not mm: continue
+            hd,R=rows(P(f)); st=collections.Counter(cl(r[hd.index('Status')]) for r in R); ti=collections.Counter(cl(r[hd.index('Tier')]) for r in R)
+            pages+=1; figs+=1
+            if int(mm.group(1).replace(',',''))!=len(R): bad.append((f,'rows',mm.group(1),len(R)))
+            for k,v in re.findall(r'· %s ([\d,]+)'%keys,mm.group(2)):
+                figs+=1; a=ti.get('A',0) if k=='Tier A' else ti.get(k,0) if k in('A','B','C') else st.get(k,0)
+                if a!=int(v.replace(',','')): bad.append((f,k,v,a))
+    return pages,figs,bad

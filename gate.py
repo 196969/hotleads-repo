@@ -110,7 +110,10 @@ def stop7():
             want[k] = o['cards'][k[6:]]['vcall']
     bad = [(k, str(v), got.get(k)) for k, v in want.items() if got.get(k) != str(v)]
     extra = [k for k in got if k not in want]
-    print(f'STOP 7 · index figures matching the rows: {len(want) - len(bad)} of {len(want)}'
+    cp, cf, cbad = I.count_lines('.')   # Item 416: every market page's printed count line, re-counted from its own rows
+    bad += [('count line ' + f, k, str(a), str(v)) for f, k, v, a in cbad]
+    want_n = len(want) + cf
+    print(f'STOP 7 · index and count-line figures matching the rows: {want_n - len(bad)} of {want_n} ({len(want)} on the index, {cf} on {cp} market count lines)'
           f' · company rules measured: within-market fold {o["verified_cos_within"]}, kept {o["verified_cos_kept"]}, full fold {o["verified_cos_foldall"]}, fold without PA {o["verified_cos_fold_nopa"]}'
           + (f' · disagree: {bad}' if bad else '') + (f' · unknown: {extra[:4]}' if extra else '')
           + (f' · held-pair tiers printed wrong: {wrong[:4]}' if wrong else ''))

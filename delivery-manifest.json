@@ -1,17 +1,35 @@
 {
- "item": "415",
+ "item": "416",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "7fcd969",
+ "base": "f26c8a9",
  "date": "2026-11-06",
  "files": [
+  "arizona.html",
+  "chicago.html",
   "delivery-manifest.json",
-  "florida-archive.html",
-  "florida-standard.json",
+  "florida-expansion.html",
   "gate.py",
+  "illinois.html",
+  "index.html",
+  "index_measure.py",
+  "indiana.html",
+  "iowa.html",
   "item413s-register.json",
-  "michigan-archive.html",
-  "new-york-archive.html"
+  "kentucky.html",
+  "michigan.html",
+  "minnesota.html",
+  "missouri.html",
+  "new-jersey.html",
+  "new-york.html",
+  "oregon.html",
+  "pennsylvania.html",
+  "south-carolina.html",
+  "tennessee.html",
+  "utah.html",
+  "virginia.html",
+  "washington.html",
+  "wisconsin.html"
  ],
- "count": 7
+ "count": 25
 }
