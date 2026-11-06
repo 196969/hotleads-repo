@@ -1,5 +1,7 @@
 {
- "entries": [],
- "published": "2026-11-04",
- "note": "empty — no opt-out has been recorded as of this date"
+  "list": "DashRite Advisory — outreach suppression list",
+  "scope": "Every market page in this repository reads this file before any address on it becomes actionable. If it cannot be read, every address is withheld.",
+  "format": "entries[] carries hashed records only. A readable address or domain in this file is refused by the reader: once any entry exists it must take the hashed route.",
+  "updated": "2026-11-06",
+  "entries": []
 }
