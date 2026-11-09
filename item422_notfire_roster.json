@@ -1,0 +1,1599 @@
+{
+ "_doc": "Founders 72 roster for the HOT Leads programme (Item 320 ruling, 29 Oct 2026): every seat, its weight and the field it reads per part. A seat with no field for a part reads Blind by rule. Read by f72seats.py; never remembered. Corrected 29 Oct 2026: five brief-named seats already existed in the lens roster (Drucker, Maister, Baker, Goldratt, Schneier) and had been added twice; merged, one seat each.",
+ "governing_weight": 10.0,
+ "seats": [
+  {
+   "seat": "chair",
+   "name": "Timothy A. Edick",
+   "weight": 15.0,
+   "domain": "chair",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "L1",
+   "name": "David Boies",
+   "weight": 10.0,
+   "domain": "legal",
+   "origin": "Dash Founders lens roster",
+   "fields_by_part": {
+    "4": "legal exposure on contact data",
+    "9": "the row says exactly what the source says and no more"
+   }
+  },
+  {
+   "seat": "L2",
+   "name": "Martin Lipton",
+   "weight": 10.0,
+   "domain": "legal",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "A1",
+   "name": "Sir David Tweedie",
+   "weight": 10.0,
+   "domain": "accounting",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "A2",
+   "name": "Lynn Turner",
+   "weight": 10.0,
+   "domain": "accounting",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "capital",
+   "name": "Capital",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "mindset",
+   "name": "Mindset",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "velocity",
+   "name": "Velocity",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "platform",
+   "name": "Platform",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "truth",
+   "name": "Truth",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "distribution",
+   "name": "Distribution",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "frontier",
+   "name": "Frontier",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "ppp",
+   "name": "People, process, product",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "sell",
+   "name": "Sell and protect",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster",
+   "fields_by_part": {
+    "3": "Acquisitions",
+    "5": "Acquisitions",
+    "9": "Acquisitions: every admitted Acquisitions row records which reachable channel it has (phone, address or form); fails on any admitted row with none recorded"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Acquisitions",
+    "check": "every admitted Acquisitions row records which reachable channel it has (phone, address or form); fails on any admitted row with none recorded"
+   },
+   "merged_from": {
+    "entry": "P3",
+    "name": "Robert Herjavec",
+    "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+    "domain": "brief-named",
+    "weight": 10.0,
+    "date": "2026-10-31",
+    "by": "Item 307 §4 (Item 323 §2.1 remedy: merge, never strike)",
+    "basis": "read in this roster: the record of 2026-10-31 (Step D) labels the Herjavec reading “sell and protect”, and core run three labels it “protect what is callable”; “Sell and protect” is this seat’s name, exactly"
+   }
+  },
+  {
+   "seat": "sales",
+   "name": "Sales cures all",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "cashsb",
+   "name": "Cash scoreboard",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "learn",
+   "name": "Learn-it-all",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "swlev",
+   "name": "Software leverage",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "userplat",
+   "name": "User-first platform",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "companion",
+   "name": "Contained companion",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "trust",
+   "name": "Trust by design",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "frontline",
+   "name": "Front line first",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "dayone",
+   "name": "Day 1 customer",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "clientfirst",
+   "name": "Client interest first",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "reuse",
+   "name": "Reusable frameworks",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "collected",
+   "name": "Grow on collected cash",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "straight",
+   "name": "Think straight, talk straight",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "experience",
+   "name": "The experience is the product",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "fewer",
+   "name": "Fewer, done perfectly",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "network",
+   "name": "Density is the moat",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "unit",
+   "name": "The standard unit",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "toosmooth",
+   "name": "Too smooth to be real",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "entry",
+   "name": "Follow the entry",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "identity",
+   "name": "Working identity",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "market",
+   "name": "The market decides",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "waste",
+   "name": "Expose the waste",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "output",
+   "name": "Output per person",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "recognition",
+   "name": "Recognition scales",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "calls",
+   "name": "Count the calls",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "onetrue",
+   "name": "One true thing",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "minimal",
+   "name": "As little as possible",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "direct",
+   "name": "Sell direct, customer funds growth",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "longroad",
+   "name": "Hard roadmap, kept for years",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "branson",
+   "name": "Serve the badly served, bet small",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster",
+   "fields_by_part": {
+    "3": "Acquisitions",
+    "5": "Acquisitions",
+    "9": "Acquisitions: every admitted Acquisitions row carries a signal with a third-party source URL and a publication date (test 3 evidence line); fails on any admitted row whose signal has no URL or no date"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Acquisitions",
+    "check": "every admitted Acquisitions row carries a signal with a third-party source URL and a publication date (test 3 evidence line); fails on any admitted row whose signal has no URL or no date"
+   },
+   "merged_from": {
+    "entry": "P1",
+    "name": "Richard Branson",
+    "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+    "domain": "brief-named",
+    "weight": 10.0,
+    "date": "2026-10-31",
+    "by": "Item 323 §2.1 (fault #24 remedy: merge, never strike)"
+   }
+  },
+  {
+   "seat": "blakely",
+   "name": "Rejection is data",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "saintjohn",
+   "name": "The audience is the hero",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "vaynerchuk",
+   "name": "Attention is the only asset",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "murphy",
+   "name": "Entered once, read everywhere",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "jain",
+   "name": "Price the risk, say no",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster",
+   "fields_by_part": {
+    "3": "Private Equity",
+    "5": "Private Equity",
+    "9": "Private Equity: every admitted PE row names its sponsor and the sponsor’s Florida base is evidenced with a URL and date; fails when the sponsor or its base is unevidenced"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Private Equity",
+    "check": "every admitted PE row names its sponsor and the sponsor’s Florida base is evidenced with a URL and date; fails when the sponsor or its base is unevidenced"
+   },
+   "merged_from": {
+    "entry": "P4",
+    "name": "Ajit Jain",
+    "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+    "domain": "brief-named",
+    "weight": 10.0,
+    "date": "2026-10-31",
+    "by": "Item 323 §2.1 (fault #24 remedy: merge, never strike)"
+   }
+  },
+  {
+   "seat": "rose",
+   "name": "A shipment is a document first",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "edick",
+   "name": "Execution before preparation",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "hesch",
+   "name": "Tax position, elections, and what survives examination",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "carlzon",
+   "name": "The moment of truth — the encounter that earns the next one",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "bock",
+   "name": "Hiring on evidence, paying for contribution, proving the process",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "tufte",
+   "name": "Whether a figure is shown honestly or merely shown",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "ballard",
+   "name": "The last planner — whether a schedule was committed to or only published",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "deming",
+   "name": "Variation is the enemy, and the process owns the defect",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "kerzner",
+   "name": "Scope, baseline and earned value — maturity over heroics",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "kroc",
+   "name": "The unit must run identically without the founder in it",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "skou",
+   "name": "Landed cost is the only cost — ocean, air, duty, and the law that moves them",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "tabassi",
+   "name": "AI governance to a published standard, in every state",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "drucker",
+   "name": "Peter Drucker",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster; fields per part added by Item 320 Section 2 (29 Oct 2026)",
+   "fields_by_part": {
+    "3": "Fractionals",
+    "5": "Fractionals",
+    "9": "Fractionals: every admitted Fractionals row names its decision maker with title and a dated Src: line (test 4); fails on a family name, department or role inbox"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Fractionals",
+    "check": "every admitted Fractionals row names its decision maker with title and a dated Src: line (test 4); fails on a family name, department or role inbox"
+   }
+  },
+  {
+   "seat": "maister",
+   "name": "David Maister",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster; fields per part added by Item 320 Section 2 (29 Oct 2026)",
+   "fields_by_part": {
+    "3": "Fractionals",
+    "5": "Fractionals",
+    "9": "Fractionals: every admitted Fractionals row carries a published vacancy, interim or first-finance-hire line with URL and publication date; fails on a company-site careers page used as the signal"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Fractionals",
+    "check": "every admitted Fractionals row carries a published vacancy, interim or first-finance-hire line with URL and publication date; fails on a company-site careers page used as the signal"
+   }
+  },
+  {
+   "seat": "baker",
+   "name": "Ron Baker",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster; fields per part added by Item 320 Section 2 (29 Oct 2026)",
+   "fields_by_part": {
+    "3": "Fractionals",
+    "5": "Fractionals",
+    "9": "Fractionals: every admitted Fractionals row’s company history carries years operating and size band each with a URL, or leaves them blank; fails on an unsourced clause"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Fractionals",
+    "check": "every admitted Fractionals row’s company history carries years operating and size band each with a URL, or leaves them blank; fails on an unsourced clause"
+   }
+  },
+  {
+   "seat": "reichheld",
+   "name": "Fred Reichheld",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "warrillow",
+   "name": "John Warrillow",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "goldratt",
+   "name": "Eliyahu Goldratt",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster; fields per part added by Item 320 Section 2 (29 Oct 2026)",
+   "fields_by_part": {
+    "6": "throughput against the constraint",
+    "7": "throughput against the constraint"
+   }
+  },
+  {
+   "seat": "voss",
+   "name": "Chris Voss",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "schneier",
+   "name": "Bruce Schneier",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster; fields per part added by Item 320 Section 2 (29 Oct 2026)",
+   "fields_by_part": {
+    "6": "containment and failure modes",
+    "7": "containment and failure modes"
+   }
+  },
+  {
+   "seat": "bogle",
+   "name": "John C. Bogle",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster; fields per part merged from the duplicate seat P5 (fault #24, 30 Oct 2026)",
+   "fields_by_part": {
+    "3": "Private Equity",
+    "5": "Private Equity",
+    "9": "Private Equity: every admitted PE row’s signal is the sponsor’s own portfolio page, a platform or add-on announcement, or a fund release naming the company — never the company’s own site; fails on a company-site signal"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Private Equity",
+    "check": "every admitted PE row’s signal is the sponsor’s own portfolio page, a platform or add-on announcement, or a fund release naming the company — never the company’s own site; fails on a company-site signal"
+   }
+  },
+  {
+   "seat": "tsmurphy",
+   "name": "Thomas S. Murphy",
+   "weight": 10.0,
+   "domain": "advisory",
+   "origin": "Dash Founders lens roster"
+  },
+  {
+   "seat": "chen",
+   "name": "Hui Chen",
+   "weight": 10.0,
+   "domain": "advisory, reading in its ground",
+   "origin": "Dash Founders lens roster",
+   "fields_by_part": {
+    "4": "data provenance",
+    "6": "compliance surface",
+    "7": "compliance surface"
+   }
+  },
+  {
+   "seat": "B1",
+   "name": "Warren Buffett",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "4": "evidence standard",
+    "5": "Private Equity",
+    "9": "Private Equity: every admitted PE row sits at or below the band ceiling ($25M published annual revenue) with the figure stated and its operating address evidenced on the company’s own page (test 1); fails on either absence"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Private Equity",
+    "check": "every admitted PE row sits at or below the band ceiling ($25M published annual revenue) with the figure stated and its operating address evidenced on the company’s own page (test 1); fails on either absence"
+   },
+   "votes": false,
+   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it.",
+   "item307": "Item 307 (2026-10-31): theme seat not established by this roster — no record or field names the seat this entry duplicates; stays non-voting, reading kept on record; its theme seat reads Blind."
+  },
+  {
+   "seat": "P2",
+   "name": "Mark Cuban",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Section 2, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {
+    "3": "Acquisitions",
+    "5": "Acquisitions",
+    "9": "Acquisitions: every admitted Acquisitions row sits at or below the band ceiling ($25M published annual revenue) with the figure stated; fails on any admitted row above the ceiling or with no figure"
+   },
+   "check_part9": {
+    "part": "9",
+    "practice": "Acquisitions",
+    "check": "every admitted Acquisitions row sits at or below the band ceiling ($25M published annual revenue) with the figure stated; fails on any admitted row above the ceiling or with no figure"
+   },
+   "votes": false,
+   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it.",
+   "item307": "Item 307 (2026-10-31): theme seat not established by this roster — the records label the Cuban reading “out-prepare”, which is no seat’s name; stays non-voting, reading kept on record; its theme seat reads Blind."
+  },
+  {
+   "seat": "P9",
+   "name": "Marcus Lemonis",
+   "weight": 10.0,
+   "domain": "brief-named",
+   "origin": "Item 320 Part 9 brief, added 29 Oct 2026 (weight equal to the named governing seats)",
+   "fields_by_part": {},
+   "note": "Part 9 ground withdrawn by the second edition’s Section 2 table; reads Blind by rule on Part 9",
+   "votes": false,
+   "vote_note": "Item 323 Amendment 3 (2026-10-31): duplicates a member already seated in The Founders; reading kept on record, does not vote. Its theme seat sits inside the 72 and reads Blind until item 307 names it.",
+   "part9_decision": "Item 307 (2026-10-31), outcome (b): Blind by construction. No Part 9 check is defined for this seat; it reads Blind on Part 9 until one exists. Basis, read in this roster: the Part 9 ground was withdrawn by the second edition’s Section 2 table (record of 2026-10-30, step 9.0, and this entry’s own note). Supplying a check would reverse that recorded withdrawal and would also require the instrument’s Part 9 column map (f72seats.py) to carry a Lemonis column, which it does not.",
+   "item307": "Item 307 (2026-10-31): theme seat not established by this roster — the records label the Lemonis readings “process”, one word of seat “ppp” (“People, process, product”) and not its name; a partial match is not a reading, so the seat is not named; stays non-voting; and on Part 9 it would read Blind regardless (outcome (b))."
+  }
+ ],
+ "standing_rules": [
+  {
+   "ruled": "2026-10-29",
+   "rule": "Blind by construction: a seat cannot read what does not yet exist. On a brief for a new artefact, a Blind reading on the seats bound to that part is not a stop; the stop binds on the delivery reading."
+  }
+ ],
+ "record": [
+  {
+   "date": "2026-10-29",
+   "part": 7,
+   "seat": "Hui Chen",
+   "reading": "Hold, then Pass",
+   "class": "instrument-label fault",
+   "note": "a check too narrow to recognise an honest unconfirmed state (no proposal — not found / refused) read Hold; the fix widened the check, not the queue. The instrument, not the data, was wrong."
+  },
+  {
+   "date": "2026-10-29",
+   "part": 8,
+   "rulings": [
+    "the cut-off line of the Part 8 brief reads \"and the console reading it\"",
+    "the practice window applies to the signal’s publication date; the Window test applies to our read date — two instruments",
+    "Detwiler’s C4 assignment overruled; the dated read-no-signal record stands; 0 signals across 47 is the correct starting number"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "part": 9,
+   "seat": "Marcus Lemonis",
+   "reading": "Blind, then Pass",
+   "class": "instrument-label fault",
+   "note": "the seat reader imported practice.py, which opens practice-classes.json relative to the working directory; the keyword set never loaded and the seat read Blind. The reader now parses the keyword set from the file text. The instrument, not the data, was wrong."
+  },
+  {
+   "date": "2026-10-29",
+   "part": 9,
+   "rulings": [
+    "Lemonis seated at the governing weight",
+    "the Part 9 zero stands: 0 candidates, 47 rows not read, every 403 and refused search a refusal, never an absence",
+    "Sunbiz stays at 0 through Part 10; one new instrument at a time",
+    "a browser reader may be scheduled: one ceiling per day shared across readers, never reset; a 403 honoured; attended, human cadence, undisguised; the arithmetic stated up front"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "part": 11,
+   "class": "instrument fault, witnessed before it fired",
+   "note": "the ceiling counted reads by the current UTC date, so a run crossing midnight UTC would have been granted a second 200 — a reset by the clock. Fixed: the ceiling’s day is the run’s UTC start date. Proof kept both ways: unfixed granting, fixed refusing."
+  },
+  {
+   "date": "2026-10-30",
+   "part": 12,
+   "class": "reader fault",
+   "note": "practice_sources.py crashed after one live read on a row record carried from Part 11 (missing sources_read); fixed; the read stands and the crash is logged as a run"
+  },
+  {
+   "date": "2026-10-30",
+   "part": 12,
+   "class": "parser boundary",
+   "note": "the result-link pattern ran past the link end on Florida Trend’s search page; 8 reads spent on 404s to malformed addresses"
+  },
+  {
+   "date": "2026-10-30",
+   "part": 13,
+   "rulings": [
+    "the Business Journals stay refused under Option 1 and leave the trade-press class for Florida; the reader’s name does not change",
+    "Florida Trend is the live source; parser fixed and proved; the known-answer date read, the six re-reads and day two wait for the next clean UTC start date",
+    "brokers and sponsor portfolios open only after a Florida Trend reading pass produces a non-vacuous candidate or exhausts rows 1–47; job boards parked"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "step": "9.0",
+   "done": [
+    "b: Boies’s standing dissent printed in every verdict (fault #23 closed)",
+    "c: nine practice-seat checks defined, each failable against the intake table",
+    "Lemonis’s Part 9 ground withdrawn per Section 2"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "step": "9.0",
+   "class": "roster double-count (fault #24, the #12 class)",
+   "note": "John C. Bogle (lens roster) and John Bogle (added P5) were one seat; the Part 6 merge matched exact names and missed the initial; merged, 78 seats, weight 785"
+  },
+  {
+   "date": "2026-10-30",
+   "step": "9.0.h",
+   "ruling": "band, option (a): published annual revenue only; ceiling $25,000,000; no lower bound; no published figure held as size-unsourced; 9.6 renamed band ceiling"
+  },
+  {
+   "date": "2026-10-30",
+   "chunk": "C-prep",
+   "fault": 25,
+   "class": "read outside the brief (stop 25)",
+   "note": "the dry-run fixture block crashed after redirecting the scratch log and before planting pages or rewriting routes; the runner then read the real declared routes through the local reader: about 30 network reads to the ten declared sources across two runs, answered 403/404 or a page; none entered the live log; nothing live was written"
+  },
+  {
+   "date": "2026-10-30",
+   "chunk": "C-prep",
+   "fault": 26,
+   "class": "reporting — evidence destroyed before it was read",
+   "note": "the per-URL record of those reads sat in dry-bot-log.jsonl; the count opened florida-bot-log.jsonl (absent), read zero, and the scratch folder was removed; the count in the report is reconstructed from run output"
+  },
+  {
+   "date": "2026-10-30",
+   "chunk": "C-prep resumed",
+   "standing_rule": "a scratch artefact is read and filed before it is deleted; an instrument never destroys its own evidence",
+   "done": "dry run re-done on planted routes with the route assertion before launch; kill switch proved mid-pass; second pass to completion; per-URL record filed"
+  },
+  {
+   "date": "2026-10-30",
+   "run": "Florida 100, Part A.1",
+   "builder_decision": "Brown Distributing: florida #97 and virginia #119 are not shown to be one company (different city, file and domain; only the Florida row carries a dated Src: line). Neither retired; the Virginia row annotated. Retiring on the name alone would write an unevidenced duplicate."
+  },
+  {
+   "date": "2026-10-30",
+   "run": "Florida 100, Part C",
+   "builder_decisions": [
+    "the Practice column and filter already exist on both Florida files (C4); verified, not rebuilt",
+    "the composer’s three practice openers are generated from the practice standard’s criteria text and claim nothing about the recipient; they attach when the composer overlay opens",
+    "the Src: validator where a human types is exposed in the console (srcLinesValid) but found no note-save function to hook: recorded as a gap, hooked when such a control exists",
+    "the call timer’s export already exists on the console; market pages write nothing, so no export is added to them",
+    "status and tier filters are derived since Item 312; verified"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "run": "Florida 100 day one",
+   "fault": 27,
+   "note": "four sponsor item patterns built from memory of the link form; probes passed on planted forms; live forms differed (no www, relative hrefs, portfolio-<slug>, a different route); derived from the live bodies and re-probed, 5 reads"
+  },
+  {
+   "date": "2026-10-30",
+   "fault": 28,
+   "note": "the company site was taken as the first external href on a sponsor company page, which on H.I.G. is a site-wide portal link; 26 candidates read at the wrong site, 52 reads spent"
+  },
+  {
+   "date": "2026-10-30",
+   "fault": 29,
+   "note": "the Florida-on-card flag read a ±600-character window that overlaps neighbouring cards; prioritisation by it was noise"
+  },
+  {
+   "date": "2026-10-30",
+   "fault": 30,
+   "note": "the known-answer read failed (no date form found) and Florida Trend was marked stopped, but the runner’s skip list did not recognise the stopped state and read 6 queries and 15 articles anyway, all refused for no publication date"
+  },
+  {
+   "date": "2026-10-30",
+   "fault": 31,
+   "note": "Trivest’s portfolio renders after load; the declared route’s body carries navigation only; 2 reads, 0 companies"
+  },
+  {
+   "date": "2026-10-30",
+   "builder_decisions": [
+    "window one’s own log florida100-window1-log.jsonl per ruling 1",
+    "sponsor candidates queued from bodies already read (no reads charged twice)",
+    "test-1 reads prioritised by the card flag (later found to be noise)",
+    "the PE third spent before the external-link fault was found; the fix is proved on the next window’s first read, not by spending a second third"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 2,
+   "fault": 32,
+   "note": "day one’s wrong-site company links were cleared by one host, not by class; six Sun Capital candidates were read again at gmpg.org/xfn/11; six reads, not findings"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 2,
+   "fault": 33,
+   "note": "the Florida check on a sponsor entry read the whole page; Sun Capital’s own Boca Raton footer placed every entry in Florida. The H.I.G. entry carries a structured Location field; that field, not the page, is the source"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 2,
+   "builder_decisions": [
+    "addition 1 applied from the already-read sponsor pages with no reads; only Sun Capital’s cards carry a location",
+    "sponsor entries read 20 per source (H.I.G., Comvest, Sun; Boyne 3 before the third spent) — the cap applied to entry reads as test-1 reads’ precondition",
+    "nine new sources read once for their live forms: only Sunbelt answered (6 listing items in its form); the four business journals’ news sections, Transworld, Murphy, CareerBuilder and SimplyHired refused (403/404)",
+    "Florida Trend: the one live article shows the page’s date widget (today) and no publication date form the extractor can bind to; it stays stopped",
+    "addition 5 not exercised: no practice produced, so no third was released"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 3,
+   "builder_decisions": [
+    "the Tier A re-read was one read per row at the company’s home page; a named executive, phone or email not found on that one page is recorded as “not on the page read”, not as unpublished or wrong — no tier moved on a single home-page read; the contact and leadership pages are the next read before any tier moves (ruling 9 honoured: never silently)",
+    "Sunbiz refuses this reader (403); the registry half of every re-read stays outstanding, recorded, never a pass",
+    "the feed continuation spent the remaining ceiling on Google News RSS, the only producing source (addition 5)",
+    "feed candidates carry the signal sentence, URL and structured date; the company name is not extracted by the bot — the Chair names it from the sentence at the sitting (never guessed)",
+    "AVI-SPL (H.I.G., Tampa by the entry’s Location field, Florida on its own page, a published address) passes tests 1, 2 and 5 but carries no published revenue figure yet: held size-unsourced under 9.0.h, not counted as admitted",
+    "the console’s per-practice email tabs (Part 5) were not built this window; carried to the next, 0 reads"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 3,
+   "fault": 34,
+   "note": "the re-read charge bucket was not registered in the thirds map; the first launch crashed before any read; fixed and relaunched"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 4,
+   "fault": 39,
+   "note": "site_link accepted higcapital.br.com (a sponsor’s regional domain) as First Capital’s own site: the sponsor-host exclusion matched hig.com only, not the sponsor’s other domains; one wrong-site read, its “no Florida address” is not a finding"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 4,
+   "fault": 40,
+   "note": "the engine did not park a source after consecutive refusals: Google News answered 33 of 33 reads with 503 (13 re-reads, 20 queries) before the kill switch halted the pass; builder rule added: a source is parked for the window after 3 consecutive refusals"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 4,
+   "builder_decisions": [
+    "the window launched 21:21 UTC under the Chair’s waiver; Google News was already refusing (the same-day risk recorded in ruling 3)",
+    "the 13 stay unnamed: every body re-read was refused (503) and headline-only binding is refused (ruling 18); they are re-runnable, not filtered",
+    "Google News parked for the window after the halt; the pass resumed under the same start date at the directory step",
+    "addition 5: Acquisitions’ and Fractionals’ unspent reads released to Private Equity’s H.I.G. entries, the only source that had produced a test-1 pass",
+    "directory finders (ACG, DBPR, Florida Chamber, SelectFlorida, MAF, FloridaMakes, Florida Trucking) answered and are declared as finders; their member lists are not practice signals, so nothing from them is a candidate; LinkedIn Jobs refused (999)",
+    "AVI-SPL’s about page read for revenue: no figure published; held size-unsourced"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 5,
+   "fault": 41,
+   "class": "a parser boundary not proved against the corpus’s commonest adversarial input",
+   "note": "the naming pattern set passed seven planted sentences, every one with a lower-case verb; live Google News headlines are title case (“Acquires”, “to Acquire”), so three headlines naming a company went unmatched and fired the unbound stop; on inspection 5 of the 9 bound names are not company names (a division, a facility, a generic phrase, two clauses bound by the expansion pattern) and 2 more name companies outside Florida. The register rule already said it: a parser boundary is proved against the corpus’s commonest adversarial input"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 5,
+   "register_reasoning": "the Chair’s misread of “assumed” in the ceiling line: a claim about what a word was doing, made without reading what it was doing — unnumbered, beside the misattributed catch"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 5,
+   "builder_decisions": [
+    "Wikipedia’s own search declared in the revenue class as a reference publisher (a cited infobox figure is a third-party publication); recorded so the Chair can strike it",
+    "the site proof re-run on the four held companies’ home pages because their test-1 passes predate the rule; all four proved (Health Network One’s page reads “Emboss Specialty formerly Health Network One”: renamed, recorded)",
+    "Inc. 5000 parked after three 403s; its absence is no size reading",
+    "the 13 re-read inside the Google News step as the window’s first discovery reads, paid-for and re-runnable"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 6,
+   "fault": 42,
+   "note": "pattern set v2’s non-company rule rejects any span ending in “company”, so “Percopo Coatings Company”, a legal name, was rejected as a non-company: a false rejection, proved against a corpus with no such name"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 6,
+   "fault": 43,
+   "note": "the builder’s site-for-name rule took c212.net (PR Newswire’s media host) for Alpha Foundations because a photo caption’s anchor text carried the name; the wrongness stop counted a site-finding fault as a wrong bind — the misfire the Chair’s split was written to prevent; the bind itself is right"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 6,
+   "fault": 44,
+   "note": "the company detector reads the whole page, so publisher navigation (“PEI Group”, “Compliance Watch PEI Events”) counts as a company named; every unbound this window split as headline-unmatched, and the split cannot be trusted until the detector is bounded to the article’s own text"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 6,
+   "register_reasoning": "the v2 proof was built on the same 13 headlines it was proved on; 13 of 13 measured fit, not generalisation. The first live window found two phrasing gaps (“takes majority stake in”, the plural “Acquire”), one false rejection and one wrong site within 4 new headlines"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 6,
+   "builder_decisions": [
+    "pattern set v2 placed in its own module (naming2.py) after an in-file patch failed to apply; the in-file v2 block removed",
+    "a matched span that is not a company is REJECTED with its span, a status distinct from unbound and counted toward neither stop",
+    "a site is found FOR a name only when the link’s host or anchor text carries the name (fault 43 shows the anchor-text half is unsafe)",
+    "article bodies filed to w6-bodies/ before anything is deleted"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 7,
+   "fault": 45,
+   "note": "the ownership proof passed a domain-for-sale page: www.aaaheatingair.com titled “AaaHeatingAir.com is for sale - Premium Domain” echoed the bound name. A derived host’s commonest failure — a parked or for-sale domain named after the company — was not in the proof’s planted cases; repair: the proof refuses pages carrying parked-domain markers (for sale, buy this domain, parked, domain marketplace names), proved on a planted parked page before the next window"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 7,
+   "note": "v3 held-out result 7 of 8: “BH Group and Gold Standard of Care Acquire Naples Senior Living and Skilled Nursing Campus” bound “Naples Senior Living” — the name end at “and” truncates an and-joined name and the campus rule never saw the tail. Not repaired in this window: a fix written against a held-out item cannot be proved on it"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 7,
+   "builder_decisions": [
+    "the 13 re-bound from the bodies filed in window six: 0 reads for re-binding (the read-and-file rule paying for itself)",
+    "under site-by-any-route a host that fails the proof is a failed guess (the Chair’s ruling), so the wrongness stop as written has no event to count; reported as 0 with that reason, not as a clean reading",
+    "American Fasteners’ “$39M” is a deal value, not revenue; not read as a size figure"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 8,
+   "fault": 46,
+   "note": "the revenue class’s 36 reads were spent in queue order, so the three carried companies’ narrow routes (9 reads each) used the budget before American Fasteners, whose every route was untried, got any read; the decision point required all five tried and cannot be read as measured shut"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 8,
+   "fault": 47,
+   "note": "the ownership proof passed the publisher’s own page: “Madison’s 1901 Inc” has one letter token, “Madison”, and In Business Madison’s title carries it. The article-link route offered the publisher’s host because it carries the token. A proof that matches one token is fooled by any page that shares a word with the name; repair: the whole bound name (normalised) must appear in the proving field, proved on a planted publisher page before the next window"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 8,
+   "note": "the tightened queries still returned no-company articles: a fund-commentary note, a “Top 10 PE firms” listicle, and the race for Florida’s elected CFO (a political office read as a CFO appointment); narrowing by negative terms does not reach these classes"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 9,
+   "fault": 48,
+   "note": "the revenue extractor required every letter token of the queried name in the sentence and read only “$X million/billion”; queried as “Mainline Information Systems”, CRN’s sentence named “Mainline” with “annual revenue of over $1 billion” and was passed over. Found by a zero-read re-scan of the filed body before the decision point was read — the read-and-file rule making the correction possible"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 9,
+   "fault": 49,
+   "note": "the bounded detector still defines a company as a legal-form suffix; “Garyline Receives Private Equity Investment” split as no-company-named though the headline names a company. Barry University and Tampa Bay EDC are correctly no-company. The split is right for 2 of 3 no-company readings"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 9,
+   "builder_decisions": [
+    "the revenue reserves allocated before any read: American Fasteners’ seven routes first, then one untried route per other subject per round; 41 of 60 revenue reads spent, every planned route read",
+    "Health Network One read under its current name (Emboss Specialty) and Mainline under its full name (Mainline Information Systems), names its proved pages carry — untried routes by construction",
+    "Memorial Healthcare System’s home page read once: it states no ownership form; the Chair’s conditional retirement stays conditional",
+    "Alpha Foundations’ “300 employees” recorded and flagged — not a size reading; the row stays size-unsourced"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 10,
+   "fault": 50,
+   "line": "a candidate route that includes the reporter’s own host measures the reporter, not the company",
+   "note": "all 3 wrongness counts this window were the publisher’s own host offered as an “article link” because a link on its page carried the name (floridapolitics.com for SeaWorld, hotelbusiness.com for Naples Bay Resort, events.lawnandlandscape.com for Lawn Enforcement Agency); the stop counted the route’s link-picking, not wrong binds. Repair: an article-link candidate must point off the publisher’s host"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 10,
+   "fault": 51,
+   "line": "a property is not a company; a pattern that binds an asset sale counts a building as a candidate",
+   "note": "four binds this window name properties, not companies: InterContinental Miami, Westshore Grand Hotel, Naples Bay Resort & Marina, “200-Unit Pensacola Apartment Community”; each then counts toward “no site found by any route”, inflating the figure the Chair’s decision point reads with non-companies. Repair: hotel, resort, marina, apartment community, industrial park, business park and property tails rejected as non-company spans, proved on these four (build) and held out on the next window’s"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 10,
+   "fault": "49 closed",
+   "line": "one definition of a company, imported by the detector from the precondition",
+   "note": "Garyline is now seen; an institution (a university, a development body) is company-shaped and the shared definition cannot tell it apart — stated in the proof, not hidden"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 10,
+   "standing_rule": "windows run to completion; stops halt the queue they govern; a process that stops to narrate is measured in narration, not in rows"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 10,
+   "builder_decisions": [
+    "Memorial Healthcare System’s one ownership read taken at Wikipedia’s own search (third-party) because its home page states no ownership form; the article read states none the reader matched — unresolved, recorded",
+    "the remaining discovery queue continued from window nine’s queries, none repeated",
+    "SeaWorld passes tests 1, 2 and 5 on seaworld.com and is held size-unsourced like every other row with no published figure; it is recorded, not judged"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "window": 10,
+   "correction": "window ten’s “no site found by any route” restated 2 of 6: the four property binds (InterContinental Miami, Westshore Grand Hotel, Naples Bay Resort & Marina, 200-Unit Pensacola Apartment Community) named and removed; the remaining two are Marino Performance Motors and Lawn Enforcement Agency. The sixth time a figure, not a row, was wrong (the Chair’s count)"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 11,
+   "fault": 52,
+   "line": "a name is bounded by the company, not by the capitals around it",
+   "note": "three binds took words that are not the company: “South Florida Distributor American Fasteners” (a title-case descriptor kept), “Door Maker” (the descriptor trim split “Venice Window and Door Maker” at its lowercase “and”), and “Fort Myers” (a place, from “Closed Sears store in Fort Myers sold to…”). One of the two wrongness counts is the first of these: American Fasteners’ own host was offered and the whole-name proof refused it because the bound name carried the descriptor"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 11,
+   "fault": 53,
+   "line": "a strict proof’s commonest failure is refusing the right site; its planted cases must include that",
+   "note": "the whole-name proof refused fdhs.com for Florida Digestive Health Specialists, whose own page carries the initials rather than the whole name in the proving fields; the second wrongness count. Fault 45’s line, applied to the proof’s other side: window nine planted the pages it must refuse and not a right site titled by initials. H.I.G.’s 8 Florida entries this window all ended “no site found by any route”, which the same false negative may explain; recorded as a reading, not a finding"
+  },
+  {
+   "date": "2026-10-30",
+   "window": 11,
+   "builder_decisions": [
+    "the ruled property words matched anywhere in the bound target, catching 3 of 4 window-ten properties; InterContinental Miami is a brand with no property word and is the precondition’s stated limit",
+    "the four companies with every free revenue route already read were not read again (a read that yields nothing is not repeated); recorded per subject",
+    "SeaWorld’s figure came from Wikipedia’s infobox for SeaWorld Entertainment, the operating company, at US$1.66 billion"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "window": 12,
+   "fault": "53 restated",
+   "line": "a ruling written on an inferred cause is a figure typed rather than measured",
+   "note": "fault 53 as first filed named a right site titled by initials; fdhs.com’s filed page is a “Robot Challenge Screen”. The cause was stated by the build without reading the page and the Chair’s ruling 1 was built on it; ruling 1 struck. Filed on both sides"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 12,
+   "fault": 54,
+   "line": "a challenge screen served with HTTP 200 is a refusal, never a page",
+   "note": "6 of 17 proof failures on record were challenge screens (Access Denied ×4, Robot Challenge Screen ×2); repaired and proved on the six, 0 false refusals on 9 proved pages; 2 refused live this window as challenge, re-runnable"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 12,
+   "fault": 55,
+   "line": "a candidate with a refused route has not been shown to have no site",
+   "note": "the “no site found by any route” figure counted candidates whose routes included ordinary 403/503 refusals as absences — stop 10’s class beyond fault 54. Restated from rows: window seven 5→1, nine 3→1, ten 10→4, eleven 14→9 (discovery and H.I.G. together). The seventh figure-not-row correction, cause as measured. New head line: refused on a route, re-runnable"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 12,
+   "fault": "observed",
+   "line": null,
+   "note": "two misses recorded without a number: “S.E” bound from a ticker parenthetical past the name bounds; “Orlando industrial portfolio” past the property precondition (“portfolio” is not in the ruled word list), caught after its read by the non-company rule"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 12,
+   "readings": [
+    "H.I.G.’s window-eleven 8 of 8 is not explained by challenge screens: those routes did not resolve or had no entry link — it stands as a finding",
+    "the five revenue-held companies all have proved sites and 0 of their revenue reads were challenge screens: the restatement does not reopen them; their exhaustion reading stands as measured"
+   ],
+   "builder_decisions": [
+    "ruling (b) built as a page-stated rename: the host derived from the bound name and a sentence on its page naming the bound name with a rename or merger verb",
+    "the restatement counted from rows across every route on record, not from the reported totals"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "window": 13,
+   "fault": 56,
+   "line": "an abbreviation or a ticker is not a name",
+   "note": "“S.E” bound from “Construction Partners (ROAD).”; repaired: a dotted abbreviation, a parenthesised capital run, or a bare capital run the headline carries in parentheses. The first form would have lost CRWF and HCA (good names); revised before it ran; 36 good binds kept"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 13,
+   "fault": 57,
+   "line": "a closed list where an open test was needed lags the next word",
+   "note": "the property word list missed “portfolio”; re-stated as a test: a measure, no proper-name core, or a building head noun ((c) is still a list, stated). Stops 6 of 7 asset spans; 29 good binds kept; InterContinental Miami remains its stated limit"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 13,
+   "fault": 58,
+   "line": "a check reported as running must be shown to have run",
+   "note": "the property precondition was never wired into windows eleven, twelve or thirteen: the window-eleven edit’s anchor did not match and the script ran without it. Window eleven reported “it stopped none because no property headline came up” and window twelve reported “portfolio got past the property precondition” — both readings of a check that did not exist. The register’s fault #8 class (an import that parsed and never ran), arriving in a report. This window the open test ran only at the bind, after the read, so asset articles cost reads; “Hotel Maren Fort Lauderdale” passed it (a building noun at the front, not the head)"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 13,
+   "readings": [
+    "the refused-re-runnable queue: 13 re-run, 12 refused again (403, 503 or challenge) and stay re-runnable, 1 recovered — Marino Performance Motors, site proved, tests 1, 2 and 5 passed, held on revenue; 5 not re-run (assets or non-names)",
+    "Pepin Distributing — an existing Florida row — arrived as “Another A-B Wholesaler Pepin Distributing”: the descriptor kept it from test 2 by name; fault 52’s class again",
+    "three held companies (Altitude Water, STS Aviation Group, Marino Performance Motors) have had no revenue route read at all"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "window": 14,
+   "fault": "52 (third and fourth instances)",
+   "note": "third: Pepin Distributing (an existing Florida row) arrived as “Another A-B Wholesaler Pepin Distributing”; the repair strips a leading descriptor ending in a role noun, and Pepin is then caught by test 2 as on file. Fourth, found by the repair’s own proof: window thirteen’s role-noun rule rejected “AM Distributors”, a real company, as a description — a good bind lost, the costly error. The proof printed FAILED only because its planted label was mine and wrong; the repaired rule’s output is the right one"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 14,
+   "fault": 59,
+   "line": "a run that does not gate on its own proofs has not been proved",
+   "note": "both window-fourteen proofs printed FAILED and the pass launched anyway: the proof step and the launch were chained without a condition. The revenue step was unaffected; discovery was halted by the builder after 10 reads. A hung read then held the pass past the kill switch, which was cleared too early, and the pass was stopped outright; its engine record was never written and the revenue result was recovered from the log and the filed bodies"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 14,
+   "fault": "counter proof",
+   "note": "the check-ran counters work: a check never wired reads “NEVER RAN (0 calls)”, a check that ran and stopped nothing reads so. The proof failed on the property test’s behaviour, not the counter: a headline whose span the name rules already reject at the headline is not stopped before its read, so it costs a read before it is rejected"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 15,
+   "fault": "57 (instance)",
+   "note": "“Hilton Garden Inn Orlando I-4 Millenia Blvd Mall” and “Sawgrass Marriott Golf Resort & Spa” bound past the asset test: (c)’s head-noun list lacks Mall and Spa, and a hotel brand at the front is not a head noun — the list part of the test lagging again, as its proof stated it would"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 15,
+   "fault": "52 (instance)",
+   "note": "“And Break Ground” bound from a financing headline: a conjunction-led span; the name bounds stopped nothing all window (7 calls, 0 stops) yet this got through"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 15,
+   "fault": 60,
+   "line": "a decision maker is a person, and the extractor must show it",
+   "note": "the completion read took “Owner Principal Greg” as a name; refused at packaging. The per-row record requires a named executive with a title, so six companies complete on every test and size Blind stay unadmitted for want of one"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 16,
+   "fault": 61,
+   "line": "a company matched by its first word is not the company",
+   "note": "the trade-press executive route required only the company’s first word in the sentence; for TrakAmerica it returned Millennium Capital & Recovery Corporation’s new President. Caught by reading the span before admission; Health Network One’s sentence carries its whole name (“Health Network One appoints Heyward Donigan as CEO”) and stands"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 16,
+   "fault": "60 (second instance)",
+   "note": "“Executive Vice” (from “Executive Vice President”) passed the person test: a two-word capitalised title fragment reads as a name"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 17,
+   "fault": "60 and 61 repaired as one class",
+   "line": "a span is not the thing it resembles",
+   "note": "a person is name words with no title or role word; an officer sentence counts only with the company’s whole name. Proved on both failures and every admitted name; the zero-read re-scan then found STS Aviation Group’s President (Mark Smith, “President of STS Aviation Group”) and refused a TrakAmerica match taken from a feed page. A third instance means the extractor is rebuilt, not patched (Chair)"
+  },
+  {
+   "date": "2026-10-31",
+   "window": 17,
+   "close": "the Florida 100 closes at its measured count: 7 admitted, 3 complete with contact outstanding, 0 confirmed — a route tested and found absent (Chair)"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run one",
+   "fault": "61 (third instance)",
+   "note": "TrakAmerica was admitted in the run on “Jason Collins, President” and withdrawn at packaging: the article page carried no sentence breaks, so one “sentence” ran from TrakAmerica’s name into Millennium Capital & Recovery Corporation’s appointment. The Chair’s ruling applies: a third instance means the extractor’s approach is wrong — it is rebuilt (an officer is bound to the company by the grammar of one clause, not by co-occurrence in a span), not patched, before it reads again"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run one",
+   "fault": 62,
+   "line": "a closure keyed on a queue measures the queue, not the host",
+   "note": "the three-refusal closure was keyed on “refused-queue:site”, so three refusals from three different hosts closed the route for every later candidate; 17 of the 24 refused-re-runnable were recorded as re-read and were never read. Restored to refused, re-runnable; a closure is keyed on the host it measures"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run one",
+   "seats": {
+    "O’Leary": "four refused candidates failing the name or asset test were not re-read: no read could admit them",
+    "Lemonis": "process: the roster reader built from the live card form before Sun Capital was read",
+    "Nadella": "the corrections in 0.2 applied from the census, not the brief"
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run two",
+   "fault": "61 rebuilt",
+   "note": "officer.py binds an officer to a company only by one clause’s grammar (subject, title’s object, possessor); proved on six planted cases including the TrakAmerica run-on page; the first attempt failed 5 of 6 (a title-case name split by the headline cut) and was revised before any read"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run two",
+   "fault": "reading",
+   "note": "no window-20 source showed the roster shape: 0 of 45 carried ten or more Florida cities on the page read; 17 of 45 refused (mostly 403); the answering ones are publications, association front pages or login walls"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run two",
+   "seats": {
+    "O’Leary": "window-19 marketplaces, H.I.G., Comvest and the five vacancy sites not re-probed; 100 candidate reads left unspent because no source produced a candidate",
+    "Lemonis": "process: the coverage panel built from the file the runs already write, so it shows what was measured",
+    "Nadella": "Jacksonville Business Journal recorded unread under the host closure, not counted as read",
+    "Cuban": "out-prepare: every declared window-20–22 source probed once on its live form, end state recorded"
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "step": "D",
+   "fault": "57 class (instance)",
+   "note": "the first practice-fit test was an industry word list; it failed 40 Tier A and B rows (“mfg”, “dist”, “3PL”) and would have reported 51 call-ready instead of 80. Caught by reading the failures before counting; replaced by the market standard’s own tier test"
+  },
+  {
+   "date": "2026-10-31",
+   "step": "D",
+   "target": "restated by the Chair: a complete, call-ready Florida pipeline, not 100 new admissions"
+  },
+  {
+   "date": "2026-10-31",
+   "step": "D",
+   "seats": {
+    "O’Leary": "zero reads; the completion queue priced at the measured ~5 reads a row",
+    "Herjavec": "sell and protect: the 80 call-ready rows ranked to dial now",
+    "Lemonis": "process: two of five unbuilt enrichments built because the queue needs them; three left unbuilt because it does not"
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run three",
+   "fault": "57 class (instance)",
+   "note": "the role-inbox test was a closed list of local parts (info, sales, contact…); it would have flagged carriers@, rewards@ and general_accounting@ as named people. Caught reading the finds before write-back; an address now counts as named only when its local part reads first.last"
+  },
+  {
+   "date": "2026-10-31",
+   "run": "core run three",
+   "seats": {
+    "O’Leary": "the run stopped when the queue ended: 87 of ~195 budgeted reads spent, 109 left unspent",
+    "Herjavec": "protect what is callable: the 25 verified-callable rows from the Core BD Report flagged at the top of the dial order",
+    "Nadella": "every find read before write-back; one closed-list test caught and replaced",
+    "Lemonis": "process: each of the 35 rows ends in one named state with its routes on the row"
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "close": "Item 320 second edition closed",
+   "note": "the dial pack’s first email rule (first.last = named) mislabelled initial-and-surname addresses such as rgazitua@ as role inboxes; read before writing and replaced: an address is named when it carries the row’s decision maker’s name, a role inbox when its local part is a function, otherwise “other address”"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "320 v4 2A",
+   "line": "a state held in an engine record is not recorded on the row",
+   "note": "22 row states written onto the rows"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "320 v4 2A",
+   "fault": "reading",
+   "note": "the planted control’s first form took nicknames and words as surnames and listed a target as a control; read and corrected before use. A name-only join took inactive records and other entities (7 of 11 false); replaced by the strict join (0 of 6 wrong entities)"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "320 v4 2A",
+   "fault": "reading",
+   "note": "six state lines carried the missing-field label “…with a dated Src:” and read as undated source lines; the validator refused them; reworded inside the state lines only"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "Florida pass",
+   "fault": "57 class (instance)",
+   "note": "the call-ready title test read the register’s Manager and Chairman titles as no title; caught by reading the short list; widened"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "Florida pass",
+   "fault": "reading",
+   "note": "three contacts run three found on rows it left partial were never written; written now at zero reads with their own dated sources"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "Florida pass",
+   "fault": "reading",
+   "note": "the practice derivation’s first form placed 34 rows in Private Equity on “no sponsor or parent in note”, read completed acquisitions as exit signals, and took “succession in place” and “no published vacancy” as evidence for; negations stripped and completed deals dropped before anything was written"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": 66,
+   "line": "absence of a disqualifier read as presence of a qualifier",
+   "note": "“no sponsor or parent in note” placed 34 rows in Private Equity; “succession in place” and “no published vacancy” had the same shape. The control that caught it was reading the output before writing it, not an instrument"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": "reading",
+   "note": "applying the two-address ruling, the register fill first landed on florida.html’s Martinez Distributors row, which already named its president and VP from a dated read; caught by a recount that did not move, reverted to the delivered bytes, and applied to the row the ruling meant (expansion main, row 14). Martinez Distributors sits in both files: recorded, not merged"
+  },
+  {
+   "date": "2026-10-31",
+   "ruling": "portfolio band: a Private Equity row is not capped at $25M; the four held rows released with their band-risk phrase as a note"
+  },
+  {
+   "date": "2026-10-31",
+   "ruling": "route: Florida is a phone market (2 named against 31 role inboxes across 98); written beside the access line"
+  },
+  {
+   "date": "2026-10-31",
+   "beside": "fault 66",
+   "control": "the wrong-row write was caught by a recount that did not move when it should have: a figure that fails to change is evidence, as a figure that changes without cause is. The control was the recount, not an inspection"
+  },
+  {
+   "date": "2026-10-31",
+   "finding": "the first self-overlap check run in any market: florida.html × florida-expansion.html, three pairs (Cheney Brothers, Martinez Distributors, Correct Craft); reported, nothing merged"
+  },
+  {
+   "date": "2026-10-31",
+   "line": "the first time a check was run it found three faults: the absence of a check is not evidence of its not being needed",
+   "note": "the 27-market self-overlap sweep then found pairs in 25 of 27 markets and 150 tier contradictions"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": "57 class (instance)",
+   "note": "the screen-out test missed the files’ own words (“over-band”, “over $150M ceiling”, “PARK”, “out of profile”) and would have sent 76 Tier C rows back to dialable as unevidenced; caught by reading a sample of branch-2 rows before writing; rebuilt as reason classes, 3 branch-2 remain"
+  },
+  {
+   "date": "2026-10-31",
+   "finding": "36 undated Src: lines already on live in pennsylvania.html (34), michigan.html (1) and ohio.html (1), present before the sweep wrote anything; recorded, not touched"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": "headline figure",
+   "line": "a headline figure quoted across many editions with no derivation the files support",
+   "note": "HOT Leads “Verified 3,323” and “net-new 408” are retired; the files read Verified 3,727 rows / 3,644 companies and expansion 902 / 902. 3,220 was corrected to 3,323 on 19 October; neither reproduces. The correction of a figure is not evidence that the corrected figure derives"
+  },
+  {
+   "date": "2026-10-31",
+   "beside": "the #57-class instance of the sweep",
+   "line": "an instrument that does not speak the corpus’s language reads absence where the corpus wrote presence",
+   "control": "a sample read of branch-2 rows before writing"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": "reading",
+   "note": "the first parse of the undated source lines split them differently from the validator and counted 71 in Pennsylvania where the validator counts 34; caught because the two counts disagreed; marks removed and redone with the validator’s own line rule (36 rows, matching the validator)"
+  },
+  {
+   "date": "2026-10-31",
+   "fault": "annotation counted as evidence",
+   "line": "a note about a source must never carry the shape of a source",
+   "note": "the dated exposure marks made 16 Pennsylvania rows read call-ready; caught by a recount against live that moved when nothing should have; marks rewritten without a date"
+  },
+  {
+   "date": "2026-10-31",
+   "weight": "full",
+   "line": "a thing that resembles evidence is treated as evidence by a reader that matches on shape rather than meaning",
+   "note": "the general case of every instrument fault in the register; this item’s instance: a dated annotation about a source was read as a source date and moved call-ready from 324 to 339 rows. A note about a source must never carry the shape of a source"
+  },
+  {
+   "date": "2026-10-31",
+   "line": "the recount is not a formality",
+   "note": "twice this item a recount against live was the detector: the Martinez overwrite (a count that did not move) and the dated annotation (a count that moved when nothing should have)"
+  },
+  {
+   "date": "2026-10-31",
+   "finding": "Pennsylvania flagged at market level: sourcing unreliable, 34 of 73 source lines undated, 15 of 85 Verified rows resting on them; no status moved"
+  },
+  {
+   "date": "2026-10-31",
+   "finding": "the index’s own headline read 3,390 verified and 439 net-new, figures distinct from the 3,323 and 408 quoted in briefs; all five quoted totals (3,220, 3,323, 3,390, 408, 439) retired for the measured rows and companies"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "fault": "the published layout corrected the brief",
+   "note": "corporation president and secretary sit in the Master record (positions 41–160), not the Annual Report file, which carries no officer field; the layout governed"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "finding": "a field the programme needs that the layout does not define: the corporation president field is one 60-character name-and-address field with no defined split, and the corporation layout carries no entity city. Fills write the field verbatim, labelled unsplit; city cannot separate same-named corporations"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "fault": "reading",
+   "note": "a merge of row and register records let the register’s file name overwrite the row’s file name; the write stopped at its first row with nothing changed; restored row by row from the target list"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "fault": "shape over meaning (instance)",
+   "note": "the contact test accepts any dated source line on a row, so the register line sourcing a decision maker dated an undated contact: ABT Electronics (chicago.html row 102) reads call-ready on that alone. Excluded from the count; the instrument fix owed is to bind a contact’s dated source to the contact field"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "control": "the join measured on rows that already held a named decision maker: of 68 register matches, the register officer agreed with the row’s named person 50 times and differed 18 times (legal officer, an older filing, or another entity of the same name); collisions left untouched and reported"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "fault": "the Chair’s brief named a field without reading the layout",
+   "owner": "the Chair",
+   "note": "“Corporations through Annual Report for president and secretary” was written from an earlier page read; the Annual Report file carries no officer field. A brief that names a field without reading the layout that defines it is the same fault as a join inferred from data; the brief is not exempt from the rule it imposes. Reading the documentation first caught it"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "ruling": "the unsplit president field stays unsplit and labelled as published: a field honestly incomplete is usable; a field confidently wrong is not"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "texas_figures": {
+    "Florida": "~150 reads not spent at measured yield, floor 15",
+    "Illinois": "at least 379 fetches not made that would have been prohibited"
+   },
+   "line": "a bulk state saves reads; a bulk state with an automation prohibition saves legitimacy"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "ruling": "18 collisions recorded both ways on the row, each labelled: the register’s legal officer dated from its file, the row’s named decision maker from its own source and still the dial target (the Martinez rule applied to people)"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "fault": "shape over meaning, third instance",
+   "line": "a contact’s dated source must bind to the contact field it sources, not to the row",
+   "note": "the call-ready test took any date on the row (a verification date, a register line, even “Phone unsourced 2026-10-29”) as dating the contact. Rebuilt and proved on seven planted cases (the ABT shape failed before the fix and passes after). Programme call-ready: 353 rows / 350 companies on the old rule → 90 / 90 on the fixed rule"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 321,
+   "note": "the first narrowing of the fix matched “before contact” in a history sentence and gained a row it should not have; caught by reading the gains before reporting; the binding was narrowed to the sentence the source line closes and re-proved"
+  },
+  {
+   "date": "2026-10-31",
+   "retired": "353 (the sixth figure)",
+   "note": "the first five (3,220, 3,323, 3,390, 408, 439) were quoted without derivation; 353 derived correctly from a test that measured the wrong thing. That is the more dangerous kind: it survives every check that asks whether the figure derives"
+  },
+  {
+   "date": "2026-10-31",
+   "control": "reading, fourth instance",
+   "line": "a narrowed rule is proved by reading what it still admits, not only what it now rejects",
+   "note": "“before contact” in a history sentence nearly dated a phone; caught by reading the gains. Three of this item’s four controls were reading; the fourth was a recount"
+  },
+  {
+   "date": "2026-10-31",
+   "market": "Florida",
+   "note": "re-closed at 40 rows / 40 companies on the fixed contact rule (98 / 97 on the old); verified-callable 14 (25 on the old). Dial pack and Core BD Report regenerated with the lineage"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "measurement": "the cost of one dated line, on the page-date reading",
+   "rate": "0 of 57 rows (0%) at 117 reads",
+   "detail": {
+    "number on the company pages, no page date": 10,
+    "every route refused or no number shown": 29,
+    "no company site on the row": 18
+   },
+   "note": "on the read-date reading the same 117 reads would have sourced 10 rows (17.5%): the gap between the two readings is the whole result"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "scope": "the brief’s 71 is the dial pack’s “source the number” list; 57 hold a phone and 14 hold none. Sourcing a number for those 14 is acquisition, out of scope by the brief’s own definition, and was refused"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "ruling": "the read date governs a live page; a fixed artefact is dated by its own date; the line says which, in the ruled form"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "measurement": "17.5% at about 12 reads per sourced row (10 of 57 rows, 117 reads)",
+   "meaning": "the 203-row backlog would cost about 2,400 reads to yield about 35 sourced rows; company-page sourcing is expensive. Texas, Georgia and the Carolinas do not open on this route by default; the register route in a bulk state filled 176 rows for nothing"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "finding": "of 57 rows worked, 47 could not be sourced from company pages at all (29 refused or the number not shown, 18 with no site on the row): company pages source about one row in six"
+  },
+  {
+   "date": "2026-10-31",
+   "item": 322,
+   "correction": "the dial pack’s 71 was 57 holding a number and 14 holding none; the pack now names the 14 as “acquire a number”, a separate kind"
+  },
+  {
+   "date": "2026-10-31",
+   "item": "323",
+   "rulings": [
+    "§2.1 merges applied: P1 Richard Branson → branson; P4 Ajit Jain → jain (fields_by_part and check_part9 moved; the duplicate entries retired after merge, readings carried on the original seat)",
+    "Amendment 3: B1, P2, P3, P9 marked votes:false — readings kept on record; their four theme seats are unnamed (item 307) and read Blind",
+    "File after merge: 76 entries, 765.0; council: 72 seats, 725.0 (Chair included)",
+    "Known gap against item 307: P9 Marcus Lemonis carries no check_part9 key; not merged in this pass"
+   ],
+   "merges": [
+    {
+     "date": "2026-10-31",
+     "into": "branson",
+     "from": "P1",
+     "name": "Richard Branson",
+     "fields_moved": [
+      "fields_by_part",
+      "check_part9"
+     ],
+     "weight_retired": 10.0
+    },
+    {
+     "date": "2026-10-31",
+     "into": "jain",
+     "from": "P4",
+     "name": "Ajit Jain",
+     "fields_moved": [
+      "fields_by_part",
+      "check_part9"
+     ],
+     "weight_retired": 10.0
+    }
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "item": "307",
+   "p9_decision": "(b) Blind by construction — no Part 9 check defined; ground withdrawn 2026-10-30 (step 9.0)",
+   "named": [
+    {
+     "entry": "P3",
+     "name": "Robert Herjavec",
+     "into": "sell",
+     "seat_name": "Sell and protect",
+     "basis": "roster records label the reading “sell and protect” — the seat’s exact name",
+     "fields_moved": [
+      "fields_by_part",
+      "check_part9"
+     ],
+     "weight_retired": 10.0
+    }
+   ],
+   "not_named": {
+    "B1 Warren Buffett": "no roster text names the seat",
+    "P2 Mark Cuban": "the roster’s label “out-prepare” matches no seat name",
+    "P9 Marcus Lemonis": "the roster’s label “process” is one word of seat “ppp”, not its name — partial match held as not established"
+   },
+   "file_after": "75 entries, 755.0",
+   "council": "72 seats, 725.0 (Chair included)"
+  }
+ ]
+}

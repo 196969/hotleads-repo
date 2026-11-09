@@ -1,0 +1,8 @@
+{
+  "_doc": "Build Stack v4 chapter 41 configuration (Item 422, 9 Nov 2026), flat at the repository root by the Chair's packaging rule. The state file lives outside the repository tree so it can never be committed (Item 381).",
+  "item": "422",
+  "state_file": "../rec422/item422-state.json",
+  "exempt_patterns": ["build-config.json", "build-rules.md", "build-brief-skill.md", "claude-settings.json", "hook_*.py", "item*_eval.py", "item*_fire_roster.json", "item*_notfire_roster.json"],
+  "gate": ["python3", "gate.py", "check"],
+  "evals": [["python3", "item422_roster_eval.py", "--cases", "--live"]]
+}

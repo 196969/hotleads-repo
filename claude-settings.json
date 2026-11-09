@@ -1,0 +1,7 @@
+{
+  "_doc": "Copy to .claude/settings.json in the build session's checkout to wire both hooks to Claude Code. Kept flat in the repository by the Chair's packaging rule.",
+  "hooks": {
+    "PreToolUse": [{ "matcher": "Edit|Write|MultiEdit|NotebookEdit", "hooks": [{ "type": "command", "command": "python3 hook_require_ballot.py" }] }],
+    "Stop": [{ "hooks": [{ "type": "command", "command": "python3 hook_stop_gate.py" }] }]
+  }
+}
