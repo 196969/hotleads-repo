@@ -1,15 +1,14 @@
 {
- "item": "444 (proposed; the Chair assigns the number)",
+ "item": "445 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "880dd07",
+ "base": "cb960d6",
  "date": "2026-11-15",
- "purpose": "Final Florida scrub: 35 opportunities added to the Florida main table (rows 225 to 259; Tier A 3, Tier B 32; status Unverified; tracker #377 to #411), drawn from the held, queued and screened-out lists of Florida New Opportunities V1 now that size and ownership no longer bar, and from GrowFL and press reads; tier review on the rule that Tier A carries a named decision maker and a dialable phone (27 B to A, 1 A to B); count lines and index figures re-counted",
+ "purpose": "Launch scrub: browser-tab titles corrected — florida.html read “Florida 200” and now reads “Florida”; florida-archive.html carried the same stale title and now reads “Florida Archive”. No rows, figures or counts change.",
  "files": [
   "florida.html",
-  "florida-expansion.html",
-  "index.html",
+  "florida-archive.html",
   "delivery-manifest.json"
  ],
- "count": 4
+ "count": 3
 }
