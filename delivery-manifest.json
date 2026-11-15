@@ -1,17 +1,15 @@
 {
- "item": "441 (proposed; the Chair assigns the number)",
+ "item": "442 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "dea83ba",
+ "base": "4c8a0bb",
  "date": "2026-11-15",
- "purpose": "Chair ruling of 15 November 2026 that Tier C is retired in Florida: the 35 Tier C rows on florida.html and 9 on florida-expansion.html lifted in place to Tier A or B (A where a decision maker and phone are on the row), status Unverified; the 51 florida-archive.html rows moved to florida.html as rows 174 to 224 on the same rule, the archive page kept as the record that it is empty; florida-expansion.html relabelled Florida Not included (address unchanged); count lines and index figures re-counted",
+ "purpose": "Florida alignment with both trackers: Rosen Hotels & Resorts email cell set to rhubler@rosenhotels.com (careers@ failed 2026-11-09); Correct Craft decision maker on florida-expansion.html aligned with florida.html row 62 (Zach Hutcheson, CEO from 31 Mar 2026); call-ready email figure re-counted 67 to 68",
  "files": [
   "florida.html",
   "florida-expansion.html",
-  "florida-archive.html",
   "index.html",
-  "master-rollup.html",
   "delivery-manifest.json"
  ],
- "count": 6
+ "count": 4
 }
