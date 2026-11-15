@@ -1,17 +1,14 @@
 {
- "item": "436 (proposed; the Chair assigns the number)",
+ "item": "437 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "5521eef",
+ "base": "58d4ee0",
  "date": "2026-11-15",
- "purpose": "Florida section aligned to Florida BD Tracker V1 (14 November 2026 edition): phones, emails, briefs, outreach touches, bounce and auto-replies; 105 Unverified companies added to the Florida intake table",
+ "purpose": "15 Florida opportunities approved by the Chair on 15 November 2026 added to the Florida main table (Tier A 1, Tier B 14, status Unverified); count line and index figures re-counted",
  "files": [
-  "florida-archive.html",
-  "florida-expansion.html",
-  "florida-outreach.json",
   "florida.html",
   "index.html",
   "delivery-manifest.json"
  ],
- "count": 6
+ "count": 3
 }
