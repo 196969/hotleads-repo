@@ -44,11 +44,9 @@ var href='mailto:'+to+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComp
 document.getElementById('sub').textContent='To: '+to+'  ·  Subject: '+sub; document.getElementById('body').textContent=body;
 document.getElementById('go').href=href;
 document.getElementById('cp').onclick=function(){var c=document.getElementById('cpst');(navigator.clipboard?navigator.clipboard.writeText(body):Promise.reject()).then(function(){c.innerHTML='<span class="ok">Copied.</span>'},function(){c.innerHTML='<span class="warn">Copy did not work here; select the text below instead.</span>'})};
-function capOk(){if(w!=='1')return true;var day=new Date().toISOString().slice(0,10),K='dra-cold-'+day,L=[];try{L=JSON.parse(localStorage.getItem(K)||'[]')}catch(e){}if(L.indexOf(to)>=0)return true;if(L.length>=20)return false;L.push(to);try{localStorage.setItem(K,JSON.stringify(L))}catch(e){}return true}
 fetch('suppression.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(function(j){
  if(!j||!Array.isArray(j.entries)) throw new Error('the list has no entries array');
  if(j.entries.length) return stop('The suppression list carries entries this page cannot check. Send this one from the HOT Leads composer, which reads them.');
- if(!capOk()) return stop('The daily cap of 20 cold first touches is reached. The twenty-first waits for tomorrow.');
  h.textContent='Your email is ready'; st.textContent='Outlook should open with the address, the subject and the full note already written. If it does not, use the button below.';
  document.getElementById('act').style.display='block'; document.getElementById('prev').style.display='block';
  location.href=href;
