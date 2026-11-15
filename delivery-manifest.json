@@ -1,14 +1,15 @@
 {
- "item": "437 (proposed; the Chair assigns the number)",
+ "item": "438 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "58d4ee0",
+ "base": "908ee8f",
  "date": "2026-11-15",
- "purpose": "15 Florida opportunities approved by the Chair on 15 November 2026 added to the Florida main table (Tier A 1, Tier B 14, status Unverified); count line and index figures re-counted",
+ "purpose": "Chair ruling of 15 November 2026 that company size no longer counts applied to Florida: 39 size-held companies re-tiered (24 main rows, 16 expansion rows; Correct Craft on both pages at B), Duda Farm Fresh Foods C to B, RoMac Building Supply and Phoenix Products added at B Unverified, five size caveats struck; Cheney Brothers held at C on ownership (acquired by PFG, Oct 2024); count lines and index figures re-counted",
  "files": [
   "florida.html",
+  "florida-expansion.html",
   "index.html",
   "delivery-manifest.json"
  ],
- "count": 3
+ "count": 4
 }
