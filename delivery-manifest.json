@@ -1,21 +1,17 @@
 {
- "item": "422",
+ "item": "436 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "03d2211",
- "date": "2026-11-09",
+ "base": "5521eef",
+ "date": "2026-11-15",
+ "purpose": "Florida section aligned to Florida BD Tracker V1 (14 November 2026 edition): phones, emails, briefs, outreach touches, bounce and auto-replies; 105 Unverified companies added to the Florida intake table",
  "files": [
-  "build-brief-skill.md",
-  "build-config.json",
-  "build-rules.md",
-  "claude-settings.json",
-  "delivery-manifest.json",
-  "founders-roster.json",
-  "hook_require_ballot.py",
-  "hook_stop_gate.py",
-  "item422_fire_roster.json",
-  "item422_notfire_roster.json",
-  "item422_roster_eval.py"
+  "florida-archive.html",
+  "florida-expansion.html",
+  "florida-outreach.json",
+  "florida.html",
+  "index.html",
+  "delivery-manifest.json"
  ],
- "count": 11
+ "count": 6
 }
