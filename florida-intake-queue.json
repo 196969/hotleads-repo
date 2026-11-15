@@ -19885,7 +19885,7 @@
   "query": "\"Florida\" company \"names\" CFO",
   "precondition_span": "Palm Medical Centers Names",
   "evidence_source": "signal",
-  "status": "ADMITTED BY TEST (1, 2, 5; size Blind under the Chair’s ruling) — Unverified, awaiting the Chair’s tests 3 and 4",
+  "status": "REMOVED 2026-11-15 by the Chair: deleted from HOT Leads and both Florida trackers (former Fractionals rows); do not re-admit without his word",
   "naming": {
    "headline": "Palm Medical Centers Names Jim McHugh Chief Financial Officer",
    "pattern_set": "v3",
@@ -21863,7 +21863,7 @@
   "query": "Florida manufacturing company names CFO",
   "precondition_span": "Altitude Water Names",
   "evidence_source": "signal",
-  "status": "ADMITTED BY TEST (1, 2, 5; size Blind under the Chair’s ruling) — Unverified, awaiting the Chair’s tests 3 and 4",
+  "status": "REMOVED 2026-11-15 by the Chair: deleted from HOT Leads and both Florida trackers (former Fractionals rows); do not re-admit without his word",
   "naming": {
    "headline": "Altitude Water Names Branden Riley COO and Robbye Rapp CFO as South Florida Manufacturing Expands",
    "pattern_set": "v3",

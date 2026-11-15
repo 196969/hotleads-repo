@@ -1,15 +1,14 @@
 {
- "item": "446 (proposed; the Chair assigns the number)",
+ "item": "447 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "4846a99",
+ "base": "cd89d16",
  "date": "2026-11-15",
- "purpose": "Founders 72 written-review holds closed: send.html builds each week’s note from the address, company and first name the tracker passes and hands it to Outlook (Excel links stop at 255 characters, the notes run to 1,361), reading the suppression list and the daily cap of 20 cold first touches as the composer does; find.html copies the company name and opens Apollo’s people search; Palm Medical Centers and Altitude Water reclassified from Fractionals to Core advisory on the intake table (no dated vacancy signal)",
+ "purpose": "Palm Medical Centers and Altitude Water, the two former Fractionals rows, deleted from the Florida intake table by the Chair's word on 15 November 2026; intake count 112 to 110; their intake-queue entries marked removed so discovery does not re-admit them. Earlier records and reports that name them are history and are left as written.",
  "files": [
-  "send.html",
-  "find.html",
   "florida-expansion.html",
+  "florida-intake-queue.json",
   "delivery-manifest.json"
  ],
- "count": 4
+ "count": 3
 }
