@@ -1,13 +1,15 @@
 {
- "item": "439 (proposed; the Chair assigns the number)",
+ "item": "440 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "3527e4f",
+ "base": "f0126d8",
  "date": "2026-11-15",
- "purpose": "Wording follow-up to Item 438: Cox’s Wholesale Seafood size caveat struck (now confirms ownership only); capital letters restored on C&D Printing and Lukas Nursery notes after the size phrases were removed; no tier, status or count changes",
+ "purpose": "Chair ruling of 15 November 2026 to hold nothing back: the 22 Florida companies held for parent ownership and size (21 main rows, Pipe Welders Marine on the expansion page) and Cheney Brothers on both pages moved from C · Downgraded to Tier A or B, status Unverified; E-ONE, Satys and World Electric Supply (formerly Electric Supply of Tampa) added at Tier B Unverified; count lines and index figures re-counted",
  "files": [
   "florida.html",
+  "florida-expansion.html",
+  "index.html",
   "delivery-manifest.json"
  ],
- "count": 2
+ "count": 4
 }
