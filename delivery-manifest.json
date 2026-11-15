@@ -1,14 +1,15 @@
 {
- "item": "445 (proposed; the Chair assigns the number)",
+ "item": "446 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "cb960d6",
+ "base": "4846a99",
  "date": "2026-11-15",
- "purpose": "Launch scrub: browser-tab titles corrected — florida.html read “Florida 200” and now reads “Florida”; florida-archive.html carried the same stale title and now reads “Florida Archive”. No rows, figures or counts change.",
+ "purpose": "Founders 72 written-review holds closed: send.html builds each week’s note from the address, company and first name the tracker passes and hands it to Outlook (Excel links stop at 255 characters, the notes run to 1,361), reading the suppression list and the daily cap of 20 cold first touches as the composer does; find.html copies the company name and opens Apollo’s people search; Palm Medical Centers and Altitude Water reclassified from Fractionals to Core advisory on the intake table (no dated vacancy signal)",
  "files": [
-  "florida.html",
-  "florida-archive.html",
+  "send.html",
+  "find.html",
+  "florida-expansion.html",
   "delivery-manifest.json"
  ],
- "count": 3
+ "count": 4
 }
