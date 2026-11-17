@@ -1,13 +1,14 @@
 {
- "item": "449 (proposed; the Chair assigns the number)",
+ "item": "452 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "a9dc084",
- "date": "2026-11-15",
- "purpose": "Privacy on the Email button, by the Chair's word on 15 November 2026: the send page now reads its details from the part of the link after #, which browsers never send to the server, and clears them from the address bar once read. Links in the older ? form still work.",
+ "base": "79e2a3c",
+ "date": "2026-11-17",
+ "purpose": "Florida intake from the Chair's tracker, by his word on 17 November 2026: 267 companies enter the intake table as Unverified, each read from Florida BD Tracker V2. 178 are on its Leads tab and 89 are Batch 4 on its Apollo tab. Six rows already on file gain a dated tracker note. Every contact detail that came from Apollo.io reads Blind on the page and is held on the tracker. Four companies are held out: three above the revenue line by Apollo's estimate, and one already on file.",
  "files": [
-  "send.html",
+  "florida-expansion.html",
+  "florida.html",
   "delivery-manifest.json"
  ],
- "count": 2
+ "count": 3
 }
