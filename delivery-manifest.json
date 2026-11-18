@@ -1,14 +1,13 @@
 {
- "item": "452 (proposed; the Chair assigns the number)",
+ "item": "453 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "79e2a3c",
+ "base": "bbfe5ea",
  "date": "2026-11-17",
- "purpose": "Florida intake from the Chair's tracker, by his word on 17 November 2026: 267 companies enter the intake table as Unverified, each read from Florida BD Tracker V2. 178 are on its Leads tab and 89 are Batch 4 on its Apollo tab. Six rows already on file gain a dated tracker note. Every contact detail that came from Apollo.io reads Blind on the page and is held on the tracker. Four companies are held out: three above the revenue line by Apollo's estimate, and one already on file.",
+ "purpose": "Florida intake brought level with the Chair's tracker, by his rulings of 17 November 2026: three companies held from Item 452 enter the intake table as Unverified; the 89 Batch 4 rows are rewritten from the Leads tab now that Batch 4 is on it; and the note on row I81 names tracker number 190, since number 449 was merged into it. Every contact detail that came from Apollo.io still reads Blind.",
  "files": [
   "florida-expansion.html",
-  "florida.html",
   "delivery-manifest.json"
  ],
- "count": 3
+ "count": 2
 }
