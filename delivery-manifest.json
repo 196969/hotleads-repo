@@ -1,16 +1,13 @@
 {
- "item": "455 (proposed; the Chair assigns the number)",
+ "item": "456 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "3d69b0e",
+ "base": "b30d7ab",
  "date": "2026-11-18",
- "purpose": "The last three companies entered on both Florida pages are folded to one row each by the repository's retirement form, on the Chair's word of 18 November 2026: the florida-expansion.html entry moves to florida-archive.html at Tier C, Downgraded, with its reason (Cheney Brothers, expansion row 16 kept as row 4; Martinez Distributors, expansion row 14 kept as row 7; Correct Craft (Nautique), expansion row 30 kept as row 62); index and count-line figures re-derived from the rows.",
+ "purpose": "Correct Craft (Nautique), florida.html row 62: the owner is corrected to Ambassador Enterprises (since 1 January 2008; the Meloon family sold its stock that year) and the decision-maker line to Zach Hutcheson, CEO since 1 April 2026, each with dated sources. Tier B and Unverified status unchanged.",
  "files": [
   "florida.html",
-  "florida-expansion.html",
-  "florida-archive.html",
-  "index.html",
   "delivery-manifest.json"
  ],
- "count": 5
+ "count": 2
 }
