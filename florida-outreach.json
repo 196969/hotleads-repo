@@ -1042,6 +1042,24 @@
    "next": "2026-11-08",
    "by": "human",
    "updated": "2026-11-15T00:00:00Z"
+  },
+  "68": {
+   "retired": {
+    "reason": "duplicate of #171",
+    "date": "2026-11-18",
+    "user": "Chair",
+    "moved_to": "florida-archive.html",
+    "moved": true
+   }
+  },
+  "185": {
+   "retired": {
+    "reason": "duplicate of #173",
+    "date": "2026-11-18",
+    "user": "Chair",
+    "moved_to": "florida-archive.html",
+    "moved": true
+   }
   }
  },
  "step2": {

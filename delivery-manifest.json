@@ -1,13 +1,17 @@
 {
- "item": "453 (proposed; the Chair assigns the number)",
+ "item": "454 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "bbfe5ea",
- "date": "2026-11-17",
- "purpose": "Florida intake brought level with the Chair's tracker, by his rulings of 17 November 2026: three companies held from Item 452 enter the intake table as Unverified; the 89 Batch 4 rows are rewritten from the Leads tab now that Batch 4 is on it; and the note on row I81 names tracker number 190, since number 449 was merged into it. Every contact detail that came from Apollo.io still reads Blind.",
+ "base": "ffb0af0",
+ "date": "2026-11-18",
+ "purpose": "Florida pages brought level with the Chair's tracker after the merges of 17 November 2026: three companies entered twice are folded to one row each by the repository's retirement form, the second entry moving to florida-archive.html at Tier C, Downgraded, with its reason (E-ONE, row 68 kept as 171; Electric Supply Inc., row 185 kept as World Electric Supply, row 173; Regal Marine Industries, expansion row 29 kept as Regal Boats, row 63); expansion row 31 reads Pipe Welders Marine; index and count-line figures re-derived from the rows.",
  "files": [
+  "florida.html",
   "florida-expansion.html",
+  "florida-archive.html",
+  "florida-outreach.json",
+  "index.html",
   "delivery-manifest.json"
  ],
- "count": 2
+ "count": 6
 }
