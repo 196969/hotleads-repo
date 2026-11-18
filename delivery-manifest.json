@@ -1,17 +1,16 @@
 {
- "item": "454 (proposed; the Chair assigns the number)",
+ "item": "455 (proposed; the Chair assigns the number)",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "ffb0af0",
+ "base": "3d69b0e",
  "date": "2026-11-18",
- "purpose": "Florida pages brought level with the Chair's tracker after the merges of 17 November 2026: three companies entered twice are folded to one row each by the repository's retirement form, the second entry moving to florida-archive.html at Tier C, Downgraded, with its reason (E-ONE, row 68 kept as 171; Electric Supply Inc., row 185 kept as World Electric Supply, row 173; Regal Marine Industries, expansion row 29 kept as Regal Boats, row 63); expansion row 31 reads Pipe Welders Marine; index and count-line figures re-derived from the rows.",
+ "purpose": "The last three companies entered on both Florida pages are folded to one row each by the repository's retirement form, on the Chair's word of 18 November 2026: the florida-expansion.html entry moves to florida-archive.html at Tier C, Downgraded, with its reason (Cheney Brothers, expansion row 16 kept as row 4; Martinez Distributors, expansion row 14 kept as row 7; Correct Craft (Nautique), expansion row 30 kept as row 62); index and count-line figures re-derived from the rows.",
  "files": [
   "florida.html",
   "florida-expansion.html",
   "florida-archive.html",
-  "florida-outreach.json",
   "index.html",
   "delivery-manifest.json"
  ],
- "count": 6
+ "count": 5
 }
