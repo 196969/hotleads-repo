@@ -1,11 +1,12 @@
 {
- "item": "458 (proposed; the Chair assigns the number)",
+ "item": "459",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "c1c39fd",
+ "base": "70e4607",
  "date": "2026-11-19",
- "purpose": "The Find in Apollo page opens Apollo by itself on the company's decision makers. The trackers' Apollo buttons now pass the row's website as d; the page filters Apollo's people search on that domain, or on the company name when the row has no website, and on the seniorities owner, founder, chief officers, partner and vice president. Both search forms were read live in Apollo on 19 November 2026 (Euro-Wall: 8 decision makers on the domain filter; The Good Pour: 10 on the name filter). A second button opens everyone at the company. The page copies nothing it needs and stores nothing. No other file changes.",
+ "purpose": "Batch 5 from the Chair's tracker enters the Florida intake table: 84 companies revealed in the Managing Partner's Apollo account on 19 November 2026, tracker numbers 683 to 766, as intake rows I383 to I466, each Unverified, with the decision maker, phone and address held on the tracker and shown Blind here, as for Batches 1 to 4. florida.html row for Atlantic Logistics (tracker no. 361) gains a note that a second contact was added on the tracker the same day. Every cell is read from the tracker file. No other file changes.",
  "files": [
-  "find.html"
+  "florida-expansion.html",
+  "florida.html"
  ]
 }
