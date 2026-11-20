@@ -1,11 +1,12 @@
 {
- "item": "459",
+ "item": "460",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "70e4607",
- "date": "2026-11-19",
- "purpose": "Batch 5 from the Chair's tracker enters the Florida intake table: 84 companies revealed in the Managing Partner's Apollo account on 19 November 2026, tracker numbers 683 to 766, as intake rows I383 to I466, each Unverified, with the decision maker, phone and address held on the tracker and shown Blind here, as for Batches 1 to 4. florida.html row for Atlantic Logistics (tracker no. 361) gains a note that a second contact was added on the tracker the same day. Every cell is read from the tracker file. No other file changes.",
+ "base": "ab0f057",
+ "date": "2026-11-20",
+ "purpose": "The one-email send of 20 November 2026 is recorded on the Florida rows it touched, matching the Chair's tracker V2 and the Managing Partner's tracker V1. Notes only: no email cell, tier, status or count changes. florida.html: Duty Free Americas (store33726@ refused), Perry Ellis International (info@pery.com refused, address removed from both trackers), Eagle Brands Sales (maternity hold to 8 Feb 2027), Arthrex (support ticket MTS-94030; support and hiring inboxes kept off one-email sends), Helios Technologies (traveling, reply delayed). florida-expansion.html: Flame Boss (support ticket), Guardian Hawk Security, Direct Logistics and Dawson Manufacturing (first note refused or returned, address removed from the tracker), No Sleep Beverage (out of office to 30 Nov). florida-bd-three-industries.html: Perry Ellis note. No other file changes.",
  "files": [
+  "florida-bd-three-industries.html",
   "florida-expansion.html",
   "florida.html"
  ]
