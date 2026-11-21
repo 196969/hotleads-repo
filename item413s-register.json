@@ -25,12 +25,12 @@
   {
    "n": 5,
    "what": "The consoles carried a composer two days older, and read the wrong market",
-   "detail": "The 27 consoles still carried the 4 Nov composer, so one-composer parity had failed since fa20114 changed the market pages alone. They now carry the one rebuilt composer. The composer took its market from the page name, so on a console it read “console-florida”: Florida’s console signed Timothy and linked poster2-console-florida.html, a page that does not exist (live, before this item). The market now drops the console- prefix; console-florida signs Edward E. Edick and links Florida’s pages."
+   "detail": "The 27 consoles still carried the 4 Nov composer, so one-composer parity had failed since fa20114 changed the market pages alone. They now carry the one rebuilt composer. The composer took its market from the page name, so on a console it read “console-florida”: Florida’s console signed Timothy and linked poster2-console-florida.html, a page that does not exist (live, before this item). The market now drops the console- prefix;"
   },
   {
    "n": 6,
    "what": "The end-to-end test asserted the retired forms",
-   "detail": "Two expectations predated the rulings: the Florida signer as “Edward Edick” (now Edward E. Edick, Ruling 8) and an Outlook web URL without the mailbox segment fa20114 introduced. Two expectations were corrected to ruled forms before the run; the 32 of 32 is a pass against the rulings, not an independent confirmation of them."
+   "detail": "Two expectations were corrected to ruled forms before the run; the 32 of 32 is a pass against the rulings, not an independent confirmation of them."
   },
   {
    "n": 7,

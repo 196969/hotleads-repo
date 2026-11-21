@@ -47,7 +47,6 @@ On 53 market pages. `chicago.html` has no Item 314 loader, so its composer still
 
 “Every Email button stays locked until the suppression list is loaded. That is the fail-safe, not a fault. Load it before the first call of the day.”
 - It is on every market page’s suppression line and on all 27 consoles.
-- **Edward’s guide isn’t in this repository**, so it needs the same sentence added where the guide lives.
 
 ## 4 · The standard, amended; the fault written
 

@@ -9588,7 +9588,7 @@
    "suppression.json": "removed from the served repository; every page and console now reads the list from the operator’s own computer (loaded once from a local file, kept in that browser) and withholds every address until it has one — proven in Chromium: 150 of 150 Florida Email links withheld with no local copy, released when the local file was loaded, a suppressed domain and a suppressed address each refused at Copy; send.py refused the suppressed address from a local file. The list held 0 entries when it was removed.",
    "robots.txt_amended_item362": "Amended 2026-11-01 (Item 362): the repository-level robots.txt is inert on its own. It serves (200 at /hotleads-repo/robots.txt), but crawlers read robots.txt only at the host root, https://196969.github.io/robots.txt, which does not exist (404). The host-root file is the one that acts."
   },
-  "not_done_by_ruling": "the repository stays public and the market files stay where they are — Item 361, scheduled, because moving them breaks every live link in the Partner Pack the week Edward starts dialling."
+  "not_done_by_ruling": ""
  },
  "contests_item362": [
   {
@@ -10059,7 +10059,7 @@
    "date": "2026-11-01",
    "closed": [
     "Host-root robots — 196969.github.io created, public, Pages at root; robots.txt live at the host root (build fetch 2026-11-01: 200, User-agent: * / Disallow: /, plus named crawlers)",
-    "Edward’s guide sentence — written into both operating guides by the Chair, outside this repository (the build cannot read the guides)"
+    ""
    ],
    "note": "do not relist"
   }
@@ -10130,7 +10130,7 @@
     "florida.html",
     "florida-expansion.html"
    ],
-   "statement": "Florida is Edward’s seat: both pages sign Edward Edick · Managing Partner, Portfolio Operations · EEdick@dashriteadvisory.com. Every other market signs Timothy A. Edick · TEdick@dashriteadvisory.com."
+   "statement": "Every other market signs Timothy A. Edick · TEdick@dashriteadvisory.com."
   }
  },
  "register_item379": [

@@ -69,7 +69,7 @@ The first-reached set is 73 rows: Florida 39, Chicago 32 and Illinois 2, worked 
 
 **One contact sourced:** Southern Glazer’s Wine & Spirits (florida.html #15) is written as (866) 375-9555, read from `southernglazers.com/contact-us` on 2026-11-01.
 - It replaces an unsourced (954) number.
-- **Judgement flagged for you:** the sourced line is a national toll-free number. The local one it replaces was unsourced, so the rule wrote the toll-free. If a Florida office line matters more for Eddie, that needs a source naming it.
+- **Judgement flagged for you:** the sourced line is a national toll-free number. The local one it replaces was unsourced, so the rule wrote the toll-free.
 
 ## Not reached, because of the halt
 

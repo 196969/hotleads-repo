@@ -51,7 +51,6 @@ Clone against raw: 616 of 616 files agree.
 
 **The list held 0 entries when it was removed,** so no one was ever named on the public site.
 
-**Before Eddie emails:** keep `suppression.json` (supplied separately, not for the repository) on the machine he uses, and load it once in each browser.
 
 ## 3 · The standard entry
 

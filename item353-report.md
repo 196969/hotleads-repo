@@ -61,7 +61,6 @@ I finished two rungs completely rather than six partly. The 203 backlog figure w
 7. The one-link gate (see 2 below).
 8. The cap gate (see 2 below).
 
-**Open, each named, none on Eddie’s calling path:**
 - **Florida’s practice filter (2 pages) has no options**, because the practice field isn’t built. That is rung 5.
 - **27 console pages** request per-market data files that don’t exist. The panels show empty, with no script errors. The consoles are built and opened, not yet useful beyond the row list; the market pages are the operator path.
 - The full list is in `operator-defect-register.json`.
@@ -88,13 +87,10 @@ I finished two rungs completely rather than six partly. The 203 backlog figure w
 1. **DNS read:** done.
 2. **A placement score (mail-tester style):** owed. It needs one real message sent from the account, and a build cannot send.
 3. **Microsoft SNDS or Google Postmaster:** owed. It needs the domain owner to register.
-Both owed instruments should run before Eddie’s first block.
 
-## Two business facts the page needs before Eddie sends
 
-These are not craft decisions (A6), so they are yours or Eddie’s to supply:
 1. **The postal address carried in every message.** It isn’t on record. The first Copy asks for it once and keeps it in the browser.
-2. **Eddie’s sending identity.** The signature defaults to yours. If Eddie sends from his own account, his name and title line goes in the same first-run prompt. His address and direct line are not on record, and were not invented.
+2. His address and direct line are not on record, and were not invented.
 
 ## Owed (J), unchanged
 

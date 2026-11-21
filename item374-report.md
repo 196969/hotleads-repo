@@ -41,7 +41,7 @@ Head b0bb24b, 636 files, raw pinned to the head plus a fresh clone: 636 of 636 a
   With no list loaded, all 6414 buttons are held: visible, and refusing by design.
 - **Panel opens** on Florida's Invicta Watch Group row (To sales@invictawatch.com) and Arizona's Shamrock Foods row (To empty). Focus lands in To on open.
 - **Resources:** with all five ticked, each link lands exactly once. Unticking Services and Request a quote removes only those two lines. Changing tone to Follow-up keeps the other three. The body at each step is in item374-behaviour.json.
-- **Copy rich (Florida):** 4 clickable anchors, with named links for Who we are, How we work in your state, and the Health Assessment. Hosted logo; bold "Edward Edick"; EEdick@dashriteadvisory.com; postal line; STOP line. The label reads "Copied ✓ paste into New mail".
+- **Copy rich (Florida):** 4 clickable anchors, with named links for Who we are, How we work in your state, and the Health Assessment. Hosted logo; postal line; STOP line. The label reads "Copied ✓ paste into New mail".
 - **Open in Outlook (rich):** mailto:sales%40invictawatch.com?subject=Following%20up%20%E2%80%94%20DashRite%20Advisory. With CC set to "not-an-address" it refuses: "Fix CC: not-an-address".
 - **Escape** closed the panel and focus returned to the row's button, which then read "Email · emailed this session".
 - **Suppression:** with sales@invictawatch.com listed as unsubscribed, the row's button reads "Email — suppressed" and is held. Its title reads "suppressed: unsubscribed (2026-11-03)".

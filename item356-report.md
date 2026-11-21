@@ -62,7 +62,7 @@ You said “begin” without picking between the two thresholds. Under A8, I cho
 | Backlog | 195 → **193** |
 | Call-ready | 314 → **316** · gained: florida #48 and #54 · lost: none · entry 15 clean (2 gained, 2 lines written) |
 
-**Both new numbers are toll-free.** Each replaced an unsourced local number (Tampa 813 and Bradenton 941). The rule writes the sourced one. If Eddie needs the local lines, they need sources naming them.
+**Both new numbers are toll-free.** Each replaced an unsourced local number (Tampa 813 and Bradenton 941). The rule writes the sourced one.
 
 ## Close
 

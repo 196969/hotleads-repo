@@ -39,7 +39,7 @@ The held label is part of the suppression precondition and its held state, which
 
 ## Proven
 - Email layer frozen: all 54 market pages and all 27 consoles are byte-identical to live.
-- Live address, three markets, using the page's own load control: Florida, Arizona and Texas are all held before the list is loaded, and 0 are held after. The composer opens with 6 checkboxes, and Copy rich, Copy subject and Copy To are bound. The signature reads EEdick on Florida and TEdick on Arizona and Texas.
+- Live address, three markets, using the page's own load control: Florida, Arizona and Texas are all held before the list is loaded, and 0 are held after. The composer opens with 6 checkboxes, and Copy rich, Copy subject and Copy To are bound.
 - Parity: zero deviations.
 - End to end 32 of 32.
 - Load errors 0 across 182 pages.

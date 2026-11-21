@@ -16,10 +16,10 @@
    "copyTo": true,
    "sigTail": "teadvisory.com · dashriteadvisory.com\nR-espect · I-ntegrity · T-eamwork · E-xcellence - The Dash starts now!\nDashRite Advisory LLC · 1314 E Las Olas Blvd, Suite 2608, Fort Lauderdale, FL 33301\nTo stop these messages, reply STOP — honoured at once and recorded.",
    "addrs": [
-    "EEdick@dashriteadvisory.com"
+    ""
    ]
   },
-  "expected_signer": "EEdick@dashriteadvisory.com",
+  "expected_signer": "",
   "signer_ok": true
  },
  "arizona": {
