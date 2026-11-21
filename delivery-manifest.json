@@ -1,20 +1,19 @@
 {
- "item": "469",
+ "item": "470",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "5259e56",
+ "base": "f550345",
  "date": "2026-11-21",
- "purpose": "Second batch of own-site reads of 21 November 2026 recorded on the net-new rows of Item 466: the phone each company publishes, the tier that follows, status Verified where the own site was read. Count lines and index figures re-counted. No other row changed.",
+ "purpose": "Third batch of own-site reads of 21 November 2026 recorded on the net-new rows of Item 466: the phone each company publishes, the tier that follows, status Verified where the own site was read. Count lines and index figures re-counted. No other row changed.",
  "files": [
-  "arizona-expansion.html",
   "california-expansion.html",
+  "chicago-expansion.html",
   "chicago.html",
   "delivery-manifest.json",
   "index.html",
-  "new-york-expansion.html",
-  "north-carolina-expansion.html",
-  "ohio-expansion.html",
-  "tennessee-expansion.html",
-  "texas-expansion.html"
+  "michigan-expansion.html",
+  "missouri-expansion.html",
+  "texas-expansion.html",
+  "utah-expansion.html"
  ]
 }
