@@ -1,10 +1,10 @@
 {
- "item": "467",
+ "item": "468",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "aeb96ee",
+ "base": "0eb399d",
  "date": "2026-11-21",
- "purpose": "Own-site reads of 21 November 2026 recorded on the net-new rows of Item 466: the phone each company publishes on its own site, the tier that follows on the Florida rule, and the read noted on the row. Count lines and index figures re-counted. No other row changed.",
+ "purpose": "Net-new rows whose own site was read on 21 November 2026 now read Verified: each is on the Inc. 5000 list for 2026, its own site was opened and read that day, and the read is noted on the row. Size stays Blind. Count lines and index figures re-counted.",
  "files": [
   "arizona-expansion.html",
   "california-expansion.html",
@@ -13,6 +13,7 @@
   "colorado-expansion.html",
   "delivery-manifest.json",
   "georgia-expansion.html",
+  "index.html",
   "indiana-expansion.html",
   "iowa-expansion.html",
   "kentucky-expansion.html",
