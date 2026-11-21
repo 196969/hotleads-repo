@@ -1,17 +1,12 @@
 {
- "item": "471",
+ "item": "472",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "85f547c",
+ "base": "bd4eed3",
  "date": "2026-11-21",
- "purpose": "Chicago merged into Illinois on the Chair's instruction of 21 November 2026, so Illinois is one market like every other state. The Chicago working, expansion and archive rows moved to the three Illinois pages with new row numbers and a note on each row naming where it came from; four companies both markets carried were folded into the Illinois row; four archive rows the Illinois archive already held and 22 empty placeholder rows were not carried; the two Illinois working rows for Sikich were folded into the archive row carried from Chicago (competitor). Removed: chicago.html, chicago-expansion.html, chicago-archive.html, chicago-outreach.json, console-chicago.html. The index lists 26 markets; the gate's validator count moves from 54 to 52 market files; the roll-up's Chicago line points at the Illinois pages.",
+ "purpose": "The Find in Apollo page names the state. find.html reads an optional st value from the tracker link and writes it as the tracker name at the top of the page, as send.html has done since Item 464; with no st it reads Florida, so the Florida tracker's links behave as before. The Apollo search the page builds is unchanged.",
  "files": [
   "delivery-manifest.json",
-  "gate.py",
-  "illinois-archive.html",
-  "illinois-expansion.html",
-  "illinois.html",
-  "index.html",
-  "master-rollup.html"
+  "find.html"
  ]
 }
