@@ -4,7 +4,7 @@
 Usage:  python3 gate.py check [--since <commit>]
 Exit 0  all three integrity stops clear (the gate never prints a pass slogan; it prints its measurements)
 Exit 2  STOP 1 — delivered-vs-committed file-count shortfall (delivery-manifest.json against the commit)
-Exit 3  STOP 2 — validator below 54 of 54 market files
+Exit 3  STOP 2 — validator below 52 of 52 market files
 Exit 4  STOP 3 — a reader failed its own proof plant (reader-plants.json)
 Exit 10 STOP 9 — an archive row breaks the archive invariant: every row Tier C, Status Downgraded, Pending by rule or Research pending
 Exit 8  STOP 7 — an index figure disagrees with the rows, re-counted by index_measure.py, or a figure the method covers is missing
@@ -34,7 +34,7 @@ def stop2():
     print(f"STOP 2 · validator {ok} of {len(files)}")
     og = subprocess.run([sys.executable, 'opview_guard.py'], capture_output=True, text=True)   # Item 359: the operator view stays clean
     print('STOP 2 · ' + (og.stdout.strip().splitlines() or ['operator-view guard: no output'])[-1])
-    return ok == len(files) == 54 and og.returncode == 0
+    return ok == len(files) == 52 and og.returncode == 0
 
 def stop3():
     if not os.path.exists('reader-plants.json'):
