@@ -1,13 +1,12 @@
 {
- "item": "476",
+ "item": "477",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "cda0b0b",
+ "base": "2b3ce9b",
  "date": "2026-11-23",
- "purpose": "Apollo sync of 23 November 2026, on the Chair's instruction: the one saved Apollo contact not yet on a tracker or HOT Leads row, Monique Waldrop of 4R Restaurant Group, enters the Florida row with her Apollo-verified email and its source.",
+ "purpose": "Apollo sync of 23 November 2026, approved by the Chair: the Florida Paints row takes Rick Strube's Apollo-verified email and Apollo's second office line, with the earlier general inbox kept in the note.",
  "files": [
   "delivery-manifest.json",
-  "florida.html",
-  "index.html"
+  "florida.html"
  ]
 }
