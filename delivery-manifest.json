@@ -1,23 +1,13 @@
 {
- "item": "475",
+ "item": "476",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "d3bfffb",
- "date": "2026-11-22",
- "purpose": "On the Chair's Use ruling of 22 November 2026, the 124 owner names the 22 November web lookup found at low confidence or with a fit flag enter the state market pages, each with its source, its confidence and, where flagged, a fit note; rows that now carry a named decision maker and a dialable phone move to Tier A under the Florida rule.",
+ "base": "cda0b0b",
+ "date": "2026-11-23",
+ "purpose": "Apollo sync of 23 November 2026, on the Chair's instruction: the one saved Apollo contact not yet on a tracker or HOT Leads row, Monique Waldrop of 4R Restaurant Group, enters the Florida row with her Apollo-verified email and its source.",
  "files": [
-  "arizona.html",
-  "california.html",
-  "colorado.html",
   "delivery-manifest.json",
-  "illinois.html",
-  "minnesota.html",
-  "missouri.html",
-  "new-york.html",
-  "north-carolina.html",
-  "oregon.html",
-  "pennsylvania.html",
-  "texas.html",
-  "washington.html"
+  "florida.html",
+  "index.html"
  ]
 }
