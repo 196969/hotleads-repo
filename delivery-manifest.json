@@ -1,13 +1,13 @@
 {
- "item": "478",
+ "item": "479",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "d0d956f",
+ "base": "892014a",
  "date": "2026-11-23",
- "purpose": "The hashed suppression route ships, on the Chair's approval of 23 November 2026: send.html checks each address and its domain against suppression-hashed.json (SHA-256 only, no readable address) and holds only a match; the plain suppression.json stays empty under Item 381-G, and an unreadable or malformed list still holds every address. First entries: the four contacts Apollo marks unsubscribed.",
+ "purpose": "Apollo sync of 23 November 2026, on the Chair's word that HOT Leads and the Florida tracker match 100 per cent: six Apollo addresses on the Chair's Florida BD Tracker V3 enter their Florida rows (Atlantic Logistics, FrankCrum, Total Nutrition Technology, Mother Kombucha, Full Throttle Falato Leads, Sintavia), each with its source; three company addresses they replace stay recorded on the row, and the index call-ready count moves from 465 to 468.",
  "files": [
   "delivery-manifest.json",
-  "send.html",
-  "suppression-hashed.json"
+  "florida.html",
+  "index.html"
  ]
 }
