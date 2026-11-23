@@ -1,12 +1,14 @@
 {
- "item": "472",
+ "item": "473",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "bd4eed3",
- "date": "2026-11-21",
- "purpose": "The Find in Apollo page names the state. find.html reads an optional st value from the tracker link and writes it as the tracker name at the top of the page, as send.html has done since Item 464; with no st it reads Florida, so the Florida tracker's links behave as before. The Apollo search the page builds is unchanged.",
+ "base": "19ea1c5",
+ "date": "2026-11-22",
+ "purpose": "On the Chair's instruction, the 464 Florida companies held in the expansion page's intake table move into the Florida working list on florida.html with decision maker, phone, email and links from Florida BD Tracker V2; the Florida count line and the index figures are re-counted from the rows.",
  "files": [
   "delivery-manifest.json",
-  "find.html"
+  "florida-expansion.html",
+  "florida.html",
+  "index.html"
  ]
 }
