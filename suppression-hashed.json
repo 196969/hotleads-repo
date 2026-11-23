@@ -1,0 +1,31 @@
+{
+ "list": "DashRite Advisory — outreach suppression list, hashed route",
+ "format": "entries[] carry only the SHA-256 of the lower-case, trimmed address (scope address) or domain (scope domain). No readable address or domain is published. Every send page reads this file before an address becomes actionable; if it cannot be read, every address is held.",
+ "updated": "2026-11-23",
+ "entries": [
+  {
+   "scope": "address",
+   "sha256": "fc48879ffb987c0fb2a862d89892924124a19b819e6c21882e355800feb59937",
+   "reason": "Unsubscribed in Apollo",
+   "added": "2026-11-23"
+  },
+  {
+   "scope": "address",
+   "sha256": "490fefaee276b5d9010c548105246f05742a2e25859849ac6ce80824a7a81470",
+   "reason": "Unsubscribed in Apollo",
+   "added": "2026-11-23"
+  },
+  {
+   "scope": "address",
+   "sha256": "3858949ed4b2fcb34448f7db4f74ba60e371f8c565512e42d4ae087118c60357",
+   "reason": "Unsubscribed in Apollo",
+   "added": "2026-11-23"
+  },
+  {
+   "scope": "address",
+   "sha256": "fcdbdfb3b46f280cbe56377914b797f0f74b1457937948181f679bd3fb7906ad",
+   "reason": "Unsubscribed in Apollo",
+   "added": "2026-11-23"
+  }
+ ]
+}

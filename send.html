@@ -45,12 +45,19 @@ var href='mailto:'+to+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComp
 document.getElementById('sub').textContent='To: '+to+'  ·  Subject: '+sub; document.getElementById('body').textContent=body;
 document.getElementById('go').href=href;
 document.getElementById('cp').onclick=function(){var c=document.getElementById('cpst');(navigator.clipboard?navigator.clipboard.writeText(body):Promise.reject()).then(function(){c.innerHTML='<span class="ok">Copied.</span>'},function(){c.innerHTML='<span class="warn">Copy did not work here; select the text below instead.</span>'})};
-fetch('suppression.json?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(function(j){
- if(!j||!Array.isArray(j.entries)) throw new Error('the list has no entries array');
- if(j.entries.length) return stop('The suppression list carries entries this page cannot check. Send this one from the HOT Leads composer, which reads them.');
+function sha(x){return crypto.subtle.digest('SHA-256',new TextEncoder().encode(x)).then(function(b){return Array.prototype.map.call(new Uint8Array(b),function(v){return ('0'+v.toString(16)).slice(-2)}).join('')})}
+function rd(u){return fetch(u+'?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(u+' HTTP '+r.status);return r.json()})}
+Promise.all([rd('suppression.json'),rd('suppression-hashed.json'),sha(to.toLowerCase()),sha(to.toLowerCase().split('@').pop())]).then(function(v){
+ var plain=v[0],hl=v[1],ha=v[2],hd=v[3];
+ if(!plain||!Array.isArray(plain.entries)) throw new Error('the plain list has no entries array');
+ if(plain.entries.length) return stop('The plain suppression list carries entries, which the ruled route forbids, so every address is held. Move them to the hashed list.');
+ if(!hl||!Array.isArray(hl.entries)) throw new Error('the hashed list has no entries array');
+ for(var i=0;i<hl.entries.length;i++){var e=hl.entries[i]||{};var hx=String(e.sha256||'').toLowerCase();
+  if(!/^[0-9a-f]{64}$/.test(hx)) return stop('The hashed suppression list carries an entry that is not a SHA-256 hash, so every address is held.');
+  if((e.scope==='address'&&hx===ha)||(e.scope==='domain'&&hx===hd)){h.textContent='This address is on the do-not-email list';st.innerHTML='<span class="warn">'+to+' is suppressed ('+String(e.reason||'suppressed').replace(/[<>&]/g,'')+'). Nothing was opened. Do not email this contact.</span>';return;}}
  h.textContent='Your email is ready'; st.textContent='Outlook should open with the address, the subject and the full note already written. If it does not, use the button below.';
  document.getElementById('act').style.display='block'; document.getElementById('prev').style.display='block';
  location.href=href;
-}).catch(function(e){stop('The suppression list could not be read ('+String(e&&e.message||e)+'), so every address is held. Try again in a minute.')});
+}).catch(function(e){stop('The suppression lists could not be read ('+String(e&&e.message||e)+'), so every address is held. Try again in a minute.')});
 })();
 </script></body></html>

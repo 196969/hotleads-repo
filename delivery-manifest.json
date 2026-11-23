@@ -1,12 +1,13 @@
 {
- "item": "477",
+ "item": "478",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "2b3ce9b",
+ "base": "d0d956f",
  "date": "2026-11-23",
- "purpose": "Apollo sync of 23 November 2026, approved by the Chair: the Florida Paints row takes Rick Strube's Apollo-verified email and Apollo's second office line, with the earlier general inbox kept in the note.",
+ "purpose": "The hashed suppression route ships, on the Chair's approval of 23 November 2026: send.html checks each address and its domain against suppression-hashed.json (SHA-256 only, no readable address) and holds only a match; the plain suppression.json stays empty under Item 381-G, and an unreadable or malformed list still holds every address. First entries: the four contacts Apollo marks unsubscribed.",
  "files": [
   "delivery-manifest.json",
-  "florida.html"
+  "send.html",
+  "suppression-hashed.json"
  ]
 }
