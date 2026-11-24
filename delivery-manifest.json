@@ -1,13 +1,18 @@
 {
- "item": "479",
+ "item": "480",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "892014a",
- "date": "2026-11-23",
- "purpose": "Apollo sync of 23 November 2026, on the Chair's word that HOT Leads and the Florida tracker match 100 per cent: six Apollo addresses on the Chair's Florida BD Tracker V3 enter their Florida rows (Atlantic Logistics, FrankCrum, Total Nutrition Technology, Mother Kombucha, Full Throttle Falato Leads, Sintavia), each with its source; three company addresses they replace stay recorded on the row, and the index call-ready count moves from 465 to 468.",
+ "base": "ce39feb",
+ "date": "2026-11-24",
+ "purpose": "Tracker sync of 24 November 2026, on the Chair's word that HOT Leads stay in line with his Excel BD trackers. Florida: all 718 working rows carry a Florida BD Tracker V3 line read 2026-11-24 with the tracker's send status; 472 companies show the Week 1 first email of 23 November 2026, and older outreach lines are marked superseded because Week 1 was restarted on the Chair's word. Six addresses read on company websites on 23 November enter their rows (Quirch Foods, Sunshine Gasoline Distributors, BlueGrace Logistics, Mears Transportation, ICI Homes, Pangolin Laser Systems). Lavior Pharma's bounced address is removed and its hash added to the suppression list. Site links for Doris Italian Market and Bubba Foods are held after the 23 November website check. Outside Florida: 14 addresses moved into the email column on the Georgia (8), South Carolina (2), Tennessee (1) and North Carolina (3) trackers enter their expansion rows. The index call-ready count moves from 468 to 487.",
  "files": [
-  "delivery-manifest.json",
   "florida.html",
-  "index.html"
+  "georgia-expansion.html",
+  "index.html",
+  "north-carolina-expansion.html",
+  "south-carolina-expansion.html",
+  "suppression-hashed.json",
+  "tennessee-expansion.html",
+  "delivery-manifest.json"
  ]
 }
