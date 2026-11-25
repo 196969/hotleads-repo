@@ -1,7 +1,7 @@
 {
  "list": "DashRite Advisory — outreach suppression list, hashed route",
  "format": "entries[] carry only the SHA-256 of the lower-case, trimmed address (scope address) or domain (scope domain). No readable address or domain is published. Every send page reads this file before an address becomes actionable; if it cannot be read, every address is held.",
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "entries": [
   {
    "scope": "address",
@@ -32,6 +32,18 @@
    "sha256": "77887ba6271188c04c16ba3c89675f55d407d6a35d276f860e21b2b282ba555e",
    "reason": "Bounced 2026-11-23; removed from the tracker",
    "added": "2026-11-24"
+  },
+  {
+   "scope": "address",
+   "sha256": "3f2bf099a6584984ec27073c948e64e00f049d81cdfae3ed3e4804950c30041e",
+   "reason": "Replied Stop 2026-11-25; removed from the tracker, do not contact",
+   "added": "2026-11-25"
+  },
+  {
+   "scope": "address",
+   "sha256": "aa057cd06fc96131ec1d3c69932ecb61b3b9c1406fd951d2fd81cf2ae155a529",
+   "reason": "Bounced 2026-11-25; removed from the tracker",
+   "added": "2026-11-25"
   }
  ]
 }
