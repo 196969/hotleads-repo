@@ -1,19 +1,12 @@
 {
- "item": "481",
+ "item": "482",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "5233c46",
+ "base": "1a99cb6",
  "date": "2026-11-25",
- "purpose": "Tracker sync of 25 November 2026, on the Chair's word that HOT Leads stay in line with his Excel BD trackers after the Week 1 first emails of 25 November. 130 companies carry a BD Tracker V3 line read 2026-11-25 with their send status: Illinois 101, Texas 17, Florida 12. Regal Boats and Heinkel's keep the address already on the row and record the new contact in the tracker line. P.J. Hoerr is recorded as sent without its attachments, Azteca Foods as sent 24 November with a duplicate on 25 November, and Regal Boats as a second contact after the company address of 23 November. Returns and refusals read the same day are applied: Christy Webber Landscapes' address bounced and Hagerty Brothers' contact replied Stop, so both addresses are removed from their rows and hashed onto suppression-hashed.json; John Healy's new Builders Paving address replaces the Arrow Road address after his automatic reply. 126 addresses enter their rows in all (Illinois 98, Texas 17, Florida 11). The index call-ready count moves from 487 to 613 and the Illinois verified-with-email count from 2 to 99.",
+ "purpose": "Index page wording, on the Chair's word of 25 November 2026 after he compared it with the state BD trackers. The date line now reads last counted 25 Nov 2026, re-checked on every update, in place of the stale 6 Nov 2026. A new line explains that Verified is a row status here, while the trackers carry each Tier A and Tier B company once by tier and leave Tier C out, so their totals are lower; the emailable addresses match exactly (613). No figure changed. Reconciliation read the same day: 6,954 working and expansion rows less 426 Tier C rows and 184 extra repeated rows equals the trackers' 6,344 companies; the Tier C move and the repeat merges wait on the Chair's approval.",
  "files": [
-  "florida-expansion.html",
-  "florida.html",
-  "illinois-expansion.html",
-  "illinois.html",
   "index.html",
-  "suppression-hashed.json",
-  "texas-expansion.html",
-  "texas.html",
   "delivery-manifest.json"
  ]
 }
