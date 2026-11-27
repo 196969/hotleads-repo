@@ -1,12 +1,13 @@
 {
- "item": "485",
+ "item": "486",
  "target_repository": "196969/hotleads-repo",
  "branch": "main",
- "base": "5223291",
+ "base": "9d470aa",
  "date": "2026-11-27",
- "purpose": "One Business Health Assessment everywhere. The PDF is replaced with the single edition the Chair approved on 27 November 2026, the same file the website now serves at dashriteadvisory.com/DashRite-Business-Health-Assessment.pdf, so every assessment link on HOT Leads and on the website opens the same form.",
+ "purpose": "Older editions of the Business Health Assessment removed on the Chair's word of 27 November 2026. The Word file is replaced with the current edition that matches the PDF of Item 485, and the HTML rendering of the old edition is retired. Nothing linked to either file.",
  "files": [
-  "DashRite-Business-Health-Assessment.pdf",
+  "DashRite-Business-Health-Assessment.docx",
+  "DashRite-Business-Health-Assessment.html",
   "delivery-manifest.json"
  ]
 }
